@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaphium Johanni Pratensi</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <witness xml:id="A">
+                                <bibl>Tycho Brahe <title>Epitaphium ... Johanni Pratensi Aarhusiensi ...</title>, Uraniburgi 1584</bibl>
+                        </witness><witness xml:id="V">
+                            <msDesc>
+                                <msIdentifier>
+                                    <settlement>Wien</settlement>
+                                    <repository>Österreichische Staatsbibliothek</repository>
+                                    <collection>empty</collection>
+                                    <idno>cod. Vindob. lat. 10686.7</idno>
+                                    <msName>empty</msName>
+                                </msIdentifier></msDesc></witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 176-177</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1584</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-02-11" who="#pz">tekst importeret</change>
+            <change when="2019-02-22" who="#pz">korrekturlæst efter TBOO, tekstkritik indsat</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="IX.176-177"/>
+            <head rend="center"><app><lem wit="A">EPITAPHIVM.<lb/>CLARISSIMO ET OMNIGENA ERVDITIONE VIRTVTEQVE ORNATISSIMO VIRO D. IOHANNI PRATENSI AARVSIENSI,
+                MEDICINÆ PARACELSICÆET GALENICÆDOCTORI EXCELLENTISSIMO, OB INGENITAM NATVRÆBONITATEM, MORVMQVE INCOMPARABILEM SVAVITATEM
+                OMNIBVS CVIVSCVNQVE STATVS HOMINIBVS, ET CHARISSIMO ET DESIDERATISSIMO.</lem><rdg><note>om. V</note></rdg></app></head>
+            <lg><l>QVID iuuat, assiduis studio im pallescere chartis,</l>
+                <l rend="indent">Et Sophiæ antiquæ sensa reposta sequi?</l>
+                <l>Per mare, per terras, duros subijsse labores,</l>
+                <l rend="indent">Ut liceat celsa Palladis arce frui?</l>
+                <l n="5">Si Mors cuncta abolet, si non timet arma Mineruæ,</l>
+                <l rend="indent">Doctrinam ingentem si leuis hora rapit.</l>
+                <l>Occidit, ah dolor! ah! iuuenilibus occidit annis</l>
+                <l rend="indent">PRATENSIS, quo vix doctior alter erat;</l>
+                <l>Quicquid habent etenim veterum monumenta Sophorum,</l>
+                <l rend="indent" n="10">Diuini quicquid scripta Platonis habent,</l>
+                <l>Et, Paracelse, tuas expertus calluit artes,</l>
+                <l rend="indent">Doctorum licet hîc vulgus inane stupet.</l>
+                <l>Sive Machaoniâ Medicamina conderet Arte,</l>
+                <l rend="indent">Non dubiam sensit plurimus æger opem;</l>
+                <l n="15">Sive poli leges scrutatus scanderet Astra,</l>
+                <l rend="indent">Excelsa ingenio subdidit Astra suo:</l>
+                <l>Pieridumque adeo fuerat nutritus in vlnis,</l>
+                <l rend="indent">Ut Decus et Specimen Vatibus esse darent:</l>
+                <l>Quam facile is poterat, cum Musica læta placeret,</l>
+                <l rend="indent" n="20">Et voce et fidibus dulce sonare Melos.</l>
+                <l>Singula quid referam? cunctas percalluit Artes,</l>
+                <l rend="indent">Doctrinæque ingens <app><lem wit="A">hauserat</lem><rdg wit="V">noverat</rdg></app> omne genus:</l>
+                <l>Et pariter Virtutis amans, Iustusque probusque,</l>
+                <l rend="indent">Suavibus et placidis Moribus auctus erat.</l>
+                <l n="25">Non vlli nocuit, non inuida corda gerebat,</l>
+                <l rend="indent">Profuit ille bonis, pertulit ille malos.</l>
+                <l>Quam pulchrum est, hominem pariter doctum esse probumque!</l>
+                <l rend="indent">Cum doctus malus est, lausque decusque perit.</l>
+                <l>Hunc sed utroque bono siquidem Natura beauit,</l>
+                <l rend="indent" n="30">Gratior hinc cunctis plusque adamatus erat.</l>
+                <l>Is tamen ante diem, medio sub flore Iuuentæ,</l>
+                <l rend="indent">Concidit: ô sæuum Ius Libitina tuum!</l>
+                <l>Iamque valens mortis <app><lem wit="A">minimum</lem><rdg wit="V">nimium</rdg></app> fera tela timebat,</l>
+                <l rend="indent">Cum Iuuenem iaculis insidiosa ferit.</l>
+                <l n="35">Qui toties Terras, toties Mare tutus obiuit,</l>
+                <l rend="indent">Forte sedens, alios dum docet, ecce perit;</l>
+                <l>Non rapere hunc bellax poterat Germania, non hunc</l>
+                <l rend="indent">Gallia, dum mutuâ cæde timenda furit:</l>
+                <l>Nil nocuêre Alpes, nec celsior Appenninus,</l>
+                <l rend="indent" n="40">Dum Latii, procul hinc, celsa Theatra videt:</l>
+                <l>Obfuit haud sæuis vicina Vngaria Turcis,</l>
+                <l rend="indent">Nilque alia a nostris dissita Regna focis;</l>
+                <l>Debuit in Patria, mediis permixtus amicis,</l>
+                <l rend="indent">Inque sua egregius stans statione <app><lem wit="A">mori;</lem><rdg wit="V">mori; ut</rdg></app></l>
+                <l n="45"><app><lem wit="A">Vt mors congrueret</lem><rdg wit="V">Mores congruerent</rdg></app> vitæ, qua semper Amicis</l>
+                <l rend="indent">Et Patriæ magnis profuit officiis;</l>
+                <l>Armaque cum morti contraria plurima <app><lem wit="A">haberet</lem><rdg wit="V">nosset</rdg></app>,</l>
+                <l rend="indent">Ut nisi ab insidiis succubuisse nequit,</l>
+                <l>Id metuens, Iuuenem non vi sed fraude petebat,</l>
+                <l rend="indent" n="50">Nec prius indicto Marte, inopina rapit.</l>
+                <l>Sed quid in hoc victo tantum Mors sæua triumphas?</l>
+                <l rend="indent">Quem tibi dum licuit vincere, victa iaces:</l>
+                <l>Nam, velut is viuus coluit pia Dogmata CHRISTI,</l>
+                <l rend="indent">Sinceræ ex animo Relligionis amans,</l>
+                <l n="55">Sic moriens animam CHRISTO concredidit, idque</l>
+                <l rend="indent">Non vetuit; quamuis Mors inopina foret;</l>
+                <l>Teque, extrema trahens suspiria, CHRISTE, vocauit,</l>
+                <l rend="indent">Qui nos perpetuo, ne moriamur, obis:</l>
+                <l>Te duce, nunc igitur, victa de Morte triumphans,</l>
+                <l rend="indent" n="60">Et Mundi et Mortis despicit insidias.</l>
+                
+            </lg>
+            <closer rend="center">Obiit Anno 1576. Ætatis 32.<lb/>Manibus Amicj Optimi et desideratissimi,
+                <lb/>Viuo quod promiserat, persoluit<lb/>TYCHO BRAHE <lb/>Vraniburgj<lb/>1584.</closer>
+        </div>
+        </body>
+    </text>
+</TEI>

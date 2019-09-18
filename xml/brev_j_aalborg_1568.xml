@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>GKS</collection>
+                                <idno>3037a 4to</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="B">
+                                <msDesc>
+                                    <msIdentifier>
+                                        <settlement>København</settlement>
+                                        <repository>Det Kongelige Bibliothek</repository>
+                                        <collection>NKS</collection>
+                                        <idno>1990d 4to</idno>
+                                        <msName>empty</msName>
+                                    </msIdentifier></msDesc></witness>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. VII, Hauniæ 1924, p. 3</bibl>
+                    </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1568-01-14</date><placeName>nil</placeName></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-12" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="VII.3"/>
+            <head>TYCHO BRAHE AD JOHANNEM AALBURGENSEM DATÆ 14. IANUARII 1568.</head>
+            <p>CHARISSIME Domine JOHANNES, scias me incolumem huc pervenisse Rostochium, ipsis Calendis Januarij, et interea temporis, apud D. LEVINUM, hospitio exceptum fuisse: hodie vero, Deo annuente et prosperante, in propriam quandam habitationem migrare constitui, quæ est in Juristarum Collegio, satis commoda, et observationibus cœlestibus, meisque desideriis apta. Illic, si Deo ita visum fuerit, hanc hiemem transigere constitui; quid deinceps futurum sit, dies dabit, et Domino illa prospicienda relinquo, admonitus hoc sapienti et veteri versu:
+                <l>Tu præsens cura, Domino committe futura.</l>
+                Tuum vero est, mi JOHANNES, eas, quas tibi nostri discessus concredidi causas, in alto silentio apud te sepelire, ne quis suspicetur, vel intelligat, me de quoquam quidquam conqueri, aut aliquid in patria fuisse, quod me ad discedendum impulerit. Id etenim permagni interest, ut nemo audiat, me de ulla re conqueri; uti etiam revera de multis conqueri non possum. Fui enim in patria ab omnibus consanguineis et amicis, praeter meritum, bene exceptus, id solo deficiente, quod non omnibus placuerint mea exercitia: idque suam meretur excusationem. <hi rend="it">Multus delator ubique est.</hi></p>
+            <p>Tycho Brahe</p>
+        </div>
+        </body>
+    </text>
+</TEI>

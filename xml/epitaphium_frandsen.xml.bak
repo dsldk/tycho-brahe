@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Epitaphium Johanni Francisco Ripensi</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <witness xml:id="A">
+                                <bibl>Pierre Gassendi <title>Tychonis Brahei vita</title>, Paris 1654, p. 301-302</bibl>
+                            </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 178</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1584</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-02-13" who="#pz">tekst importeret</change>
+            <change when="2019-02-22" who="#pz">tekst korrekturlæst efter TBOO</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="IX.178"/><pb ed="A" n="301"/>
+            <head rend="center">DOCTISSIMO ET HUMANISSIMO VIRO, DOMINO IOANNI FRANCISCO RIPENSI, MEDICINÆ GALENICÆ
+                DOCTORI, POETÆ ET MUSICO EXIMIO OMNIBUSQUE BONIS CARO.
+            </head>
+            <lg><l>SI mortale nihil deceat perferre Camœnas,</l> 
+                <l rend="indent">Sique Poetarum fama perennis erit, </l>
+                <l>Arte Machaonia, docuit qui primus Apollo,</l>
+                <l rend="indent">Si Libitina tuum jus inhibere licet,</l> 
+                <l>Musica, lætitiæ, genitus, convictus amicus,</l>
+                <l rend="indent">Si cita Parcarum sistere fila queant:</l>
+                <l>Quæris, in hoc tumulo cur condidit ossa Iohannes</l>
+                <l rend="indent">Franciscus? curque is concidit ante diem? </l>
+                <l>Quem Musæ et Charites adeo coluere, quod inter</l>
+                <l rend="indent">Præcipuos vates nomen habere darent,</l> 
+                <l>Et cui contribuit facundi cura Galeni,</l>
+                <l rend="indent">Conspicuus Medica Doctor ut arte foret,</l> 
+                <l>Musica mentem hilarem, facilis convictus amicos,</l>
+                <l rend="indent">Egregium mores attribuere decus.</l>
+                <l>Ille severa tamen poterat nec flectere fata </l>
+                <l rend="indent">Et multo lustris plus superesse decem. <pb ed="A" n="302"/></l>
+                <l>Scilicet est certi præfixus terminus ævi,</l>
+                <l rend="indent">Quem superare nequit; stat sua cuique dies. </l>
+                <l>Nec mors sæva ulli parcet, licet ipse Machaon</l>
+                <l rend="indent">Arte siet Medica, carminibusque Maro,</l> 
+                <l>Orphea seu cantu superet, seu Thesea amore;</l>
+                <l rend="indent">Est adeo claris mors inimica viris.</l>
+                <l>Ergo nihil mirum est, quod fatis cessit iniquis</l>
+                <l rend="indent">Vir, qui perpetuo vivere dignus erat.</l> 
+                <l>Forsitan et mores hominum terrasque perosus</l>
+                <l rend="indent">Optabat superis civis adesse Dijs.</l>
+                <l>Nec frustratus in hoc, Christo duce, gaudet Olympo:</l>
+                <l rend="indent">Heic sine fine quies, vita salusque datur.</l> 
+            </lg>
+            <closer rend="center">Obijt Anno 1584. Ætatis suæ 52.
+                <lb/>Amico post fata, quod vivo, addixit. 
+                <lb/>TYCHO BRAHE F.
+            </closer>
+        </div>
+        </body>
+    </text>
+</TEI>

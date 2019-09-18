@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Pratensis</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 10-13</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Pratensis</persName>
+                    <placeName>Copenhagen</placeName>
+                    <date when="1573-04-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1573-04-16</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-13" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.10"/>
+                <p><app>
+                        <lem wit="B">Responsio ad has interijt, verum quæ sequitur, est ad alias
+                            quasdam, quæ non sunt in promptu.</lem>
+                        <rdg><note>tantum in B</note></rdg>
+                    </app></p>
+            </div>
+            <div>
+                <pb ed="A" n="2v"/>
+                <opener>VIRO VERE NOBILI ET GENEROSO TYCHONI BRAHE DE KNUDSTRUP, DOMINO OPTIMO ET
+                    AMICO SYNCERO. <lb/>SALUTEM ET VER MELISSEUM. </opener>
+                <p>RECEPI literas tuas, TYCHO optime, quibus negotia tua promovenda apud Artifices
+                    tuos mechanicos committis. Quod tardius ad te redeat hic tuus Tabellarius, in
+                    causa fuit, quod nundinæ Roschildenses me ultra propositum detinuerint: ubi mihi
+                    tantisper commorandum fuit, donec de vase meo et bonis <placeName
+                        ref="Frankfurt a. M.">Francofurto</placeName> per <placeName ref="Flensburg"
+                        >Flensburgenses</placeName> mercatores missis, fieri poteram certior.
+                    Negotia tua sic se habent. Absolutæ sunt imagines omnes in Globo tuo. Divisus
+                    Meridianus et Horizon, paratum pedestale, sed hîc difficultas est non parva, de
+                    inauratione videlicet, de coloratione, seu pictura, ut scribis. Primum quidem
+                    Aurifaber non confidit se super argenteam totius Globi faciem, aureas stellas,
+                    cum debita imaginum repræsentatione, inducere posse. Etenim multis rationibus
+                    apud me nunc, tum apud te antea id explicavit. Quod ad Pictorem attinet, ille
+                    nunquam circulos illos et divisiones tam exacte, ut nunc insculptæ, exprimet,
+                    sed incrustabit quidem colorum crusta superficiem tersam et levem, quæ
+                    obtenebrabunt ea, quæ Aurifaber subtiliter delineavit. Ut interim sileam,
+                    quomodocunque hoc fuerit, non fore tandem diuturnum (etenim multis illa via <pb
+                        ed="TBOO" n="VII.11"/>incommodis obnoxia est) quam cito poterit vel læsione
+                    aliqua vel fortuito attactu pars crustæ coloratæ enucleari? Sed audi meum
+                    consilium, quod ex Aurifabri quoque sententia tibi denuncio. Opus est nobile et
+                    regium imo aureum. Et quia Horizon et Meridianus et pedes deaurari debent,
+                    agedum deauremus prius totam superficiem Globi, hac tamen ratione, ut imagines
+                    ipsæ una cum stellis appareant minus tersæ: <hi rend="it">das ist matt</hi>, ut
+                    illi loquuntur. Partes autem intermediæ, seu super<pb ed="A" n="3r"/>ficies ipsa
+                    Globi polienda erit, et ad micationem et splendorem rutilantem deducenda, qui
+                    quoque splendor in ipsis stellis (si voluerimus) indui possit, ut iubar illud
+                    aureum, tanquam scintillans ex sublustri imaginis lumine, emicet. Ita et forma
+                    illa stellarum insculpta exacte repræsentabit, quarum cuspidum subtilitatem
+                    coloribus æmulari, difficile est. Illi enim tenues illas cuspides et cavitates,
+                    quæ toti figuræ decus adijciant, oblinient, et replebunt venustate istorum
+                    angulorum deformata. Ita tandem aureus erit Globus, simplicitate cœli materiam
+                    et faciem æmulans, sic pedes capiti respondebunt, longe ablegatis versicoloribus
+                    et muliebribus illis oblectamentis oculorum: quæ quosdam delectant, ut monstra
+                    in picturis. Cedant variegationes instabiles, color unicus esto: color aureus
+                    esto. Sic non, si cervix equina humano capiti adiuncta fuerit, in piscem desinet
+                    atrum. Sed mi TYCHO, hoc meum consilium est, tuo illæso et salvo iudicio. Ad
+                    pedem, Meridianum et Horizontem deaurandum significat se opus habere ad minimum
+                    4 roseis nobel: si nostrum consilium amplexus fueris, addantur 3 vel 4 ad
+                    summum, et totum sese oculis nostris Silenus ille aperiet aureus. Tu imprimis
+                    sententiam tuam super hac re significa, et Aurifaber dicit se aurum hîc habere
+                    non posse: tuum erit ad pedes et Meridianum et Horizontem 4 nobiles rosatos, ut
+                    dixi, inprimis mittere. <persName>STEPHANUS</persName> hodie vel cras imponet
+                    rotulas, et experietur processum, urgebo quantum potero et promovebo.
+                    Instrumentum ferreum bene procedit, hac septimana, imo vesperi absolvetur, ut
+                    promisit Artifex.</p>
+                <p rend="indent">Quod ad Typographum attinet, post prandium intelliges, tunc plura addam, iam enim
+                    animus est in patinis. Figuræ nunc excinduntur, instigo quantum possum. De
+                    papyro difficultas magna est: sed tamen corrademus. De epistola mea et carmine,
+                    quia nondum propter occupationes confecta sunt, ne sis solicitus, quoniam tota
+                    posterior pars operis primum absolvenda est, tuque interea nobis aderis. Sed
+                    ante 4 dies certum nuntium habebis, cum quo omnia mittam necessaria. Titulum
+                    quoque una mitto, quem præfigemus operi; consulimus, ut ita relinquas. Etenim
+                    singula verba perlustravimus diligenter, sed si quid mutari voles, fiet id ubi
+                    veneris satis mature, quoniam titulus postremo cudetur. De reliquis iubeo te non
+                    esse sollicitum: curabimus ea diligenter. Verbum illud, quod titulo assuisti
+                    LVCVBRATIONES, nescio, <pb ed="TBOO" n="VII.12"/>an hîc locum habere possit.
+                    Nocturnæ quidem sunt, sed an lucubrationibus Atticis respondeant, etiamsi non
+                    dubitem: tamen ne magno aliquid hiatu promittamus et speciosis titulis et vastis
+                    fores exornemus, author sum. Non, quod <pb ed="A" n="3v"/>etiam augustiore
+                    inscriptione dignum hoc opus tuum non iudicem: sed ut moderata illa submissiore
+                    in ipso limine adhibita, in ipso operis incalescentis progressu, potentius in
+                    animum lectorum, tantorum mysteriorum non præscium illabamur. Summa, titulum
+                    hunc immutare quoties libuerit, et Genialis tulerit impetus, dabitur occasio. Si
+                    pro contemplatione mathematica considerationem mathematicam poni voles, unum
+                    erit. Lucubrationibus operam dant nigra lolligine ad lucernam chartas imbuentes,
+                    lucubrationibus pallescunt ad oleum legentes. Lucubrantur quoque qui ad mediam
+                    noctem vel Auroram ipsam madidi sunt. Et aurigis nautisque, si quibus alijs, suæ
+                    sunt lucubrationes. Nos exemti prostituta illa æquivocatione vocabuli, rerumque
+                    Domini facti, homonymias in eas terras relegabimus, in quibus vivos homines
+                    mortui incursant boves. Sed hæc post prandium. Nos sacra inebriet ambitio, non e
+                    vulgi fornicationibus petita, sed e castis Uraniæ et sororum Vestalium adytis
+                    etc.</p>
+                <p rend="indent">Pro lignis mihi tranfmissis et dono datis gratias ago quam possum maximas,
+                    relaturus si potero. Ita hominum bonorum res comparata est, ut alij aliorum
+                    beneficis egeant. Vos tanto culmine mundi positi nobis inferioribus Dij esse
+                    potestis aut lupi, si exteriorem Anatomiam consideremus. Si abditam illam et
+                    interiorem, tu quoque et par et superior esse et potes, et, si cunabula vestra
+                    spectetis, debetis merito. Tu non exutus exteriori vinculo, etiam interiore
+                    nobiscum libertate triumphas, qua civitate donatus et eiusdem Reipublicæ civis
+                    et Augustus semper. Reliqua occupat fornicaria et infidum vulgus pellicibus
+                    satiatur suis. Illa pulchritudo te cæcum habet, oculis orbate sensilibus lucem
+                    ne respice. Vale. Hafniæ raptissime 16. Aprilis Anni 1573.</p>
+                <p>Pratensis</p>
+            </div>
+            <div>
+                <app>
+                    <lem wit="#B">Post has literas eruditissimi illius Pratensis, optimæ memoriæ
+                        viri, nullas ad me datas reperio, antequam ea successit, quæ eiusdem anni
+                        die 3. Maij data est epistola, qua editionem libelli mei de Nova stella
+                        efflagitavit et impetravit, cui etiam mox alia prolixiore epistola respondi,
+                        atque id, quod expetivit concessi. Quia vero hæ duæ epistolæ statim ab
+                        initio huius libri exhibentur, idque certis de causis, præsertim quia in
+                        libro Progymnasmatum Astronomicorum e nostris earum circa calcem capitis 8,
+                        ubi inpropria de ea stella contemplationem disquiro, fiat mentio, quodque
+                        illi principaliter stellam illam concernerent, et plus quodammodo momenti
+                        haberent, quam cæteræ. Commutatæ autem sunt inter nos adhuc plures, donec
+                        ille vivebat, literæ, quarum pars intercidit, pars quod parum Astronomica
+                        attigerit, et obiter saltem de rebus familiaribus scripta sit, omissa est.
+                        Cum <pb ed="TBOO" n="VII.13"/>vero ego anno mox sequente circa eius finem in
+                            <placeName ref="Germany">Germaniam</placeName> profectus essem, ut cum
+                        claris et eruditis istis viris <pb ed="A" n="4r"/>aliquandiu iucunde
+                        conversarer, atque in <placeName ref="Italy">Italiam</placeName> una
+                        discurrens, eius aliquam partem perlustrarem, nec <persName
+                            ref="Pratensis">Pratensi</persName> interea satis constaret,
+                        ubinam morarer, factum est, ut nullas ad me dederit literas priusquam anno
+                        1576, circa cuius initia in patriam reversus eram, neque etiam tunc admodum
+                        multas, siquidem eo anno fatis cesserat, magno sui apud optimos quosque
+                        relicto desiderio. Quæ vero eodem anno ipsum concernunt, tales sunt, pro ut
+                        nunc videbitur.</lem>
+                    <rdg><note>tantum in B</note></rdg>
+                </app>
+            </div>
+        </body>
+    </text>
+</TEI>

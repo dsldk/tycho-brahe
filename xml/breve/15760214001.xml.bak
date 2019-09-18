@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 25-29</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Knutstorp</placeName>
+                    <date when="1576-02-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1576-02-14</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-14" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.25"/>
+                <pb ed="A" n="4v"/>
+                <opener>TYCHO BRAHE AD <persName ref="Pratensis">IOHANNEM PRATENSEM</persName>.</opener>
+                <p>ACCCEPI literas tuas, eruditissime et amantissime PRATENSIS, ex quibus intelligo
+                    te negotium nostrum <placeName ref="Rostock">Rostochiense</placeName> probe curasse, quo nomine tibi gratias ago.
+                    Cupis a me scire quid rerum <pb ed="A" n="5r"/>in mundo geratur, quidque ferat
+                    fœcundus ille Auster, a quo nuper redij. Atque ego pleraque eorum quæ istic
+                    cognoveram, tibi, quam primum reversus essem, <placeName n="Copenhagen">Haffniæ</placeName> retuli, plura etiamnum
+                    relaturus, si quæ ulterius in mentem venerint, ubi vos denuo invisere, quod
+                    intra paucos dies facere decrevi; est enim res magni momenti, quam nulli
+                    præterquam Magnifico Domino Legato Gallico <persName ref="Dançay">DANZÆO</persName> et tibi intimo meo aperire
+                    animus est, vestrumque de hac audire consilium. Quoniam vero de abitu meo denuo
+                    in <placeName ref="Germany">Germaniam</placeName> mens tibi nonnulla præsagit, licet ego idipsum supprimam, dicam
+                    tibi quippiam in aurem, nemini nisi soli Domino <persName ref="Dançay">DANZÆO</persName>, quem scis taciturnum et
+                    fidum, aperiendum. Recte quidem sive vigilanti sive somnianti tibi tuus dictavit
+                    Genius vatidicus, me aliud iter versus Austrum iterum meditari. Quod forte inde
+                    subolfecisti, quia nullas ex ijs arcibus, quas Serenissimus Rex noster mihi, cum
+                    in reditu illum debitæ observantiæ causa Soræ submisse salutassem, clementissime
+                    et motu proprio obtulit inhabitandas, recipere voluerim, et quod videas me de
+                    ijs quæ in hac patria geruntur non admodum esse solicitum. Quod insuper <placeName ref="Basel">Basileam</placeName>
+                    sæpenumero in ore isthic apud vos habuerim, eius oportunitatem cupido
+                    philosophiæ alumno et tranquillitatis Apollineæ, Musarumque amatori
+                    depredicârim, in qua urbe et tu aliquando vixisti, eamque plurimi facere solitus
+                    es: Ex his ut opinor, Genius seu potius ingenium tuum perspicax et providum de
+                    meo abitu et istuc eundi intentione nonnulla coniecit et suspicionem tibi movit
+                    non prorsus frivolam. Nam ut te sensa animi mei occulta non prorsus celem, sic
+                    est ut coniectaris: Constitui enim, si Deo sic visum fuerit, hac instante æstate
+                    Germanos revisere, adeoque Basileam usque, quæ in limitibus <placeName ref="Italy">Italiæ</placeName>, <placeName ref="France">Galliæ</placeName> et
+                    <placeName ref="Germany">Germaniæ</placeName> iucunde et commode sita est, excurrere, ibique sedes firmas pro studijs
+                    meis Olympicis figere, atque Astronomiæ instaurationem, quam diu multumque animo
+                    volvo, favente astrorum conditore, moliri. Quin et hæc erat prioris meæ
+                    peregrinationis non minima causa, ut locum inquirerem et rationes invenirem,
+                    quomodo meis studijs tutius et plenius vacare possem, ijsque rectius consulerem
+                    quam hîc in Dania: displicet enim, ut me sæpe conquerentem audivisti, hæc
+                    conversatio, hi mores, hæc quotidiana fabula; ex quo vix aliquem hîc reperiam
+                    præter te, <pb ed="TBOO" n="26"/>cum quo de rebus arduis et vulgi captum exuperantibus,
+                    solidi quid conferam: at quam raro nobis simul esse contingat, tute scis. Cum
+                    mei ordinis hominibus, quoniam crebrius mihi agendum est, præsertim
+                    <placeName ref="Herrevad">Herressuadij</placeName>, Avunculum, quando apud ipsum dego, convenientibus, aut etiam me
+                    ipsum <placeName ref="Knutstorp">Knudstorpij</placeName> invisentibus (alias enim quantum possum illorum consortia
+                    subterfugio) multum temporis mihi perit, <pb ed="A" n="5v"/>multa alias ingrata
+                    audienda et facienda. Nosti enim quam sint nobilium horum mores a meis institutis
+                    alieni, quamque ab ipsa philosophia: excipio excipiendos, quos tamen plures esse
+                    mallem quam sunt.</p>
+                <p rend="indent">Sed audi quid hisce diebus præter omnem meam expectationem acciderit, idque solus
+                    audi, et nemini nisi uni <persName ref="Dançay">DANZÆO</persName> nostro aperi, idque secreto. Cum ultimo die
+                    præcedentis septimanæ, qui erat undecimus Februarij matutinis horis in lecto
+                    expergefactus, adhuc decumberem, et iter hoc de quo modo dixi, in Germaniam
+                    tacitus et solicite animo mecum agitarem, simulque qua ratione, consanguineis
+                    meis non attendentibus, elabi possem, cogitarem, idque in varias partes volverem
+                    atque revolverem; ecce ab improviso nunciatur Regium puerum huc Knudstorpium
+                    advenisse, qui tota nocte properasset, ut literas a <persName ref="Frederik 2.">Rege</persName> mihi inscriptas
+                    confestim traderet; erant autem adhuc tenebræ, instante saltem crepusculo
+                    matutino, et Sol intra duas horas vix oriebatur: iubeo itaque puerum illum ad
+                    lectum accersiri, qui erat genere Nobilis atque ex mea consanguinitate, is mihi
+                    statim Regis exhibuit literas, atque sibi ab ipso Rege iniunctum esse aiebat, ut
+                    absque omni mora me, dies noctesque iter faciendo, quæreret, ubicunque in Scania
+                    invenirer, atque illas mihi in manus proprias traderet, statimque reverteretur,
+                    quod et factum est. Erant autem scriptæ in domo Regis venatoria Ibstrup, quæ
+                    prope vestram <placeName ref="Copenhagen">Haffniam</placeName> intra unum milliare, uti scis, in sylva proxima sita
+                    est, idque præcedente die decimo nimirum Februarii. Ego vero literas mox resignans
+                    comperio in ijs Regem iubere, ut se confestim accedam, ubicunque in
+                    Selandia versaretur, quod et citra omnem moram obsequiose præstiti, adeo ut
+                    eodem die, Regi in dicta domo venatoria ante occasum Solis adfuerim. Is tunc me
+                    per Nobilem suum cubicularium <persName ref="Parsberg, Niels">NICOLAUM PASSBERG</persName> in locum quendam solitarium
+                    acciri iussit, atque sic, nemine præsente, clementissime allocutus est: «Scis
+                    TYCHO, quæ et qualia volens tibi obtulerim, cum ultimo Soræ apud me esses,
+                    iussique ut brevi ad me rediens, mihi ipsi significares, quidnam in his
+                    expeteres, aut ea de re Cancellarium meum <persName ref="Kaas, Niels">NICOLAUM KAASIUM</persName>, vel Secretarium
+                    <persName ref="Skovgaard, Hans">IOHANNEM SCHOUGARDIUM</persName>, per literas admoneres. At ex quo nihil eiuscemodi interea
+                    feceris, cum tamen alij talia avide affectent expectentque, nescio quid animo
+                    volvas, aut cur te non mature resolvas. Quidam ex Aulicis meis mihi insinuare visus est, se ab avunculo tuo <pb ed="TBOO" n="27"/>
+                    <persName ref="Bille, Steen">STENONE BILLE</persName> tacite cognovisse te denuo in Germaniam cogitare: Quare te
+                    advocare volui, ut ex te ipso cognoscerem, qualis tua sit sententia in ijs quæ
+                    obtuli, et cur talia non acceptes. Fieri potest, veluti conijcio, quod nulla
+                    eiuscemodi Arcium magnarum beneficia Regia obtinere cupias, ne studia tua,
+                    quibus delectaris, per causas forenses et alia negotia politica, quæ requiruntur
+                    in tuendis et administrandis talibus, interturbentur, atque <pb ed="A" n="6r"
+                    /> otium ijs vacandi tibi præcludatur. Quare cum nuper in Arce Helsingorensi
+                    essem, ubi nunc ædifico, prospiciens ex fenestra quadam Insulam illam parvam
+                    Huennam, quæ isthic in freto, versus Landskroniam sita est, et a nullo nobili
+                    inhabitatur, conspexi, de qua etiam, si recte memini, dictus tuus avunculus
+                    <persName ref="Bille, Steen">STENO BILLE</persName> mihi semel dixit, idque antequam in Germaniam ultimo te contulisti,
+                    quod eius situs tibi arrideret. Incidit itaque mihi in mentem hanc esse tuis
+                    exercitijs tam Astronomicis quam destillatorijs apprime accommodam, siquidem
+                    alta sit et solitaria. Nullæ quidem ædes ibi sunt, quas inhabitare posses, neque
+                    etiam reditus inde suppetunt necessarij. Verum ego tibi de utrisque sufficienter
+                    prospiciam. Si itaque hanc Insulam incolere volueris, lubens eam tibi soli
+                    concedam. Isthic degere potes quiete et eas exequi artes, quibus afficeris,
+                    nemine interpellante. Cumque arcem Helsingorensem splendidius instauravero,
+                    veluti nunc incepi, illic subinde commoratus, ad te nonnunquam in eam Insulam
+                    transfretabo, atque quid rerum agas in Astronomicis et destillationibus tuis
+                    inspiciam, conatusque tuos lubens iuvabo, non quod ego Astronomica intelligam
+                    aut sciam quorsum per omnia spectent, vel aliquid utilitatis inde pro mea
+                    persona sperem, sed saltem QVIA REX SVM, tuque in hoc meo Regno, ex ea familia,
+                    quæ mihi semper chara fuit, oriundus, non postremam in his operam navasse
+                    diceris: Unde existimo mei officij esse, talia convenienter sustentare et
+                    promovere. Quorsum vero opus est, ut denuo in Germaniam concedas, teque isthic
+                    peregrinum reddas, cum hîc in patria eadem commode efficere possis quæ isthic.
+                    Dabimus potius operam, ut eo res deducatur, quod Germani et aliarum Nationum
+                    homines, qui talia scire cupiunt, huc accedant, atque ea hîc videant et discant,
+                    quæ alibi vix reperient. Delibera itaque tecum spacio aliquot dierum, et deinde
+                    quid in his tibi faciendum censeas, mihi significa, ubi inaudiveris me in arcem
+                    residentiæ nostræ Friderigsburgensem reversum esse: Nolo enim ut coacte quidpiam
+                    hîc facias, sed liberum tibi relinquo, expensis ijs, quæ dixi, statuere id, quod
+                    ex re tua iudicaveris. Atque ubi Friderigsburgi mihi adfueris, et quidpiam hac
+                    de re conclusum fuerit, tum demum de reditibus necessarijs atque ædificationum
+                    sumptibus ita ordinabo et tibi prospiciam, ut indemnis esse queas, atque illic
+                    commode peragere ea, quæ regno huic et mihi Regi, tum quoque tibi ipsi et tuis
+                        <pb ed="TBOO" n="28"/>esse poterint tam hîc quam alibi honorifica.« In hunc sane
+                    modum optimus ille et Patriæ ac publici boni, honorisque studiosissimus Rex
+                    verba habuit, quibus peractis, ego qua potui et debui reverentia gratias
+                    humilime egi, et me, quamvis Insula clementer oblata, ob maris fluctus, quibus
+                    undique cingitur, accessus habeat difficiles et sæpenumero admodum periculosos,
+                    submisse respondi ea de re deliberaturum, atque brevi meam resolutionem
+                    Friderigsburgi subiectissime indicaturum: <pb ed="A" n="6v"/>sicque discessi
+                    et sequente die, huc domum reversus, ubi, uti et in itinere, de hoc Regio
+                    proposito multa tacite pensito; nam mirabile mihi videtur, imo alicuius
+                    peculiaris ominis, aut fati instar esse, quod Regius puer eo ipso tempore, quo
+                    de abitu in Germaniam solicite mecum deliberarem, matutinis horis tale nuncium
+                    adferret; quodque serenissimus et clementissimus Rex noster ex se ipso, me non
+                    petente, vel eiuscemodi quid cogitante, talia proponeret; et ut dicam aperte
+                    quod sentio, impense me moverunt hæc Regis verba, eiusque laudabilis intentio,
+                    adeo ut animus meus vacillare et hæsitare cœperit, et de priori proposito
+                    nonnihil remittere. Vereor enim, ne, si Rege quasi prævidente ea quæ mihi novi
+                    abitus causas suggesserunt, atque his præveniente, nihilominus discederem, et
+                    forte postea alibi in peregrinis oris mihi quidpiam adversi eveniret, nec omnia
+                    ex voto succederent (uti sunt res humanæ fluxæ et varijs casibus obnoxiæ) tum eo
+                    magis inde affligerer atque anxius redderer et tanto plus pœnitudinis inde
+                    caperem, quod nimirum has satis tolerabiles conditiones a laudatissimo Rege mihi
+                    singulari clementia benignissime cupienti, oblatas non acceptârim ac in Patria
+                    manserim. Nihil tamen certi adhuc constituere possum, nec etiam volo, antequam
+                    Domini <persName ref="Dançay">DANZÆI</persName> et tuum audivero consilium. Matri et Avunculo aut etiam Fratri,
+                    hæc, antequam penitus inter nos deliberatum et conclusum fuerit, in quas partes
+                    me dem, non aperiam. Neque enim volo ijs innotescere me denuo in Germaniam
+                    proficisci decrevisse. Hæc mi <persName ref="Pratensis">PRATENSIS</persName>, eo plenius, prout peracta sunt, tibi
+                    refero, ut eo expeditius et melius cum <persName ref="Dançay">DANZÆO</persName> nostro deliberare possis, quid
+                    mihi faciendum duxeritis, atque vestram sententiam, quamprimum isthuc venero
+                    (quod intra biduum vel triduum ad summum futurum spero) ingenue pro amicitia
+                    inter nos mutua et syncera aperiatis; neque enim diu cunctandum censeo, antequam
+                    Regi Friderigsburgi adsim, atque quomodo me resolverim exponam; quod facere D.
+                    V. constitui quamprimum unicum saltem diem Haffniæ hac in re vobis tribuero, et
+                    quid suaseritis intellexero.</p>
+                <p rend="indent">Quando hæ literæ a te lectæ fuerint, et sæpedicto Domino DANZÆO nostro ostensa,
+                    eas mox disrumpe aut in cineres redige, ne forte per incuriam alicubi repositæ
+                    in aliorum manus perveniant; sicque secretæ nostræ consultationes, ubi quam
+                    maxime nollemus, propalen<pb ed="TBOO" n="29"/>tur. Atque de his nunc satis; plura et
+                    particulariora, ubi præsens fuero, intelliges. Verum antequam epistolam claudam,
+                    unum adhuc restare video discutiendum, quod prioribus intentus, ferme
+                    præterieram, de opinione illa Pliniana, ad quam quidem non tam absolute, prout
+                    rei moles exigit, nunc me resolvere datur, quæ tamen obiter et tam cito in
+                    mentem venire <pb ed="A" n="7r"/> possunt, dicam. <persName ref="Plinius maior">PLINIJ</persName> ille
+                    locus, quem adducis, videtur obscurior, quam quod in continenti eum prorsus
+                    enodare concedatur, neque enim, quæ voluit dicere, visus est. Imo mea quidem
+                    opinione, nisi plura hac de re intellexerit quam scripsit, sibi ipsi non
+                    satisfecit, nedum alijs. Non quidem dubium est planetas ad Solem evidentem
+                    obtinere relationem, atque respectu eius Stationes et Retrogradationes, atque
+                    nonnullas inæqualitates apparentes, tam quoad Longum quam Latum, differentias
+                    exhibere, at quod circa Trinum Solis quam proxime stent superiores tres Planetæ,
+                    radiisque Solis inhibeantur, rectumque agant cursum, et ignea eius vi in sublime
+                    levantur (uti de his dictus ratiocinatur <persName ref="Plinius maior">PLINIUS</persName>) tum quoque ea quæ mox de
+                    Retrogradationibus subiungit, non video quomodo constare possint. Neque enim Solis radij quasi catenâ aut aliâ quadam combinatione sunt cum
+                    Planetis alligati, qua eos hac vel illac impellant, trahant, aut retrahant, nisi
+                    vim quandam quasi Magneticam illis hoc modo inesse imaginemur; et ne sic quidem
+                    motio erit cœlestibus competens utpote circularis et regularis. Certum enim est
+                    Planetarum motiones ubique orbiculariter fieri, vel ex orbicularibus componi,
+                    ideoque ea quæ <persName ref="Plinius maior">PLINIUS</persName> insinuat, si ad Solem referenda sunt, quod etiam fieri
+                    posse non inficior, alia ratione applicanda veniunt, de qua nonnunquam cogitavi,
+                    sed nondum satis me resolvi, ut videlicet tollantur Epicycli (quos veteres etiam
+                    non assumpsisse ex <persName ref="Plinius maior">PLINIO</persName> liquet) et nihilominus apparentiæ constent. Sed
+                    existimo <persName ref="Plinius maior">PLINIUM</persName> hanc suam speculationem undecunque tandem acceptam et
+                    quomodocunque intellectam in praxin et usum deducere nequivisse, ideoque
+                    difficultatem quandam hîc subt esse fassum. Simile quid apud <persName ref="Vitruvius">VITRUVIUM</persName>, qui diu
+                    ante <persName ref="Plinius maior">PLINIUM</persName> fuit, reperitur, sed locus nunc non succurrit. Is vero
+                    Architectonice magis quam Astronomice et Geometrice executus videtur, ex quo
+                    hanc sententiam <persName ref="Plinius maior">PLINIUM</persName> hausisse verosimile est, licet is idipsum dissimulans
+                    eam sibi propriam et privatam asseruit. Verum de his ubi D. V. convenerimus, et
+                    commoditas dabitur talia disquirendi, ulterius philosophabimur. Tu vero, mi
+                    charissime <persName ref="Pratensis">PRATENSIS</persName>, quam felicissime vale, et Dominum <persName ref="Dançay">DANZÆUM</persName> nostrum ex me
+                    officiose saluta; meque intra paucos, uti dixi, dies isthic ambo incolumes
+                    expectate. Dabantur e sede nostra <placeName ref="Knutstorp">Knudsdorpiana</placeName> die 14. Februarij A.
+                    1576.</p>
+                <p>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

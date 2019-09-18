@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Caselius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl>Ioannes Caselius, <title>Epistolae ad viros nobiles</title> vol. 2,
+                            Helmstedt 1623</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 121</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Caselius</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1588-05-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588-05-23</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.121"/>
+                <pb ed="A" n="36"/>
+                <opener>TYCHONI BRAHE.</opener>
+                <p>IAM optimo <persName ref="Frederik 2.">Regi</persName> vestro laudationem pango, cuius exemplum IUNIO ad te mittam: qua
+                    re cum sim occupatus, neque diligenter scribo, neque uberius. Gratificor autem
+                    huic familiari meo <persName ref="Haken">HAKEN</persName>, Equiti Marchico, iuveni probo, nec abhorrenti a
+                    litteris, quarum gratia apud nos vivit. Omnino voluit te videre: facies gratum,
+                    si facies ut intelligat, te mihi peramicum; nam et alioqui te humanissimum virum
+                    sentiet. Vale. Rostochio X. Kalend. Iun. Anno 1588.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

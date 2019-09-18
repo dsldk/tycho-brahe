@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inscriptiones Croneburgensis</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <witness xml:id="A">
+                            <bibl>Erik Pontoppidan <title>Marmora Danica</title> vol. I, Hafniæ 1739, p. 136</bibl>
+                        </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 190-191</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1586 (c.)</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-02-25" who="#pz">tekst korekturlæst efter TBOO</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="IX.190"/>
+            <head>INSCRIPTIONES CRONEBURGENSES.</head>
+            <lg><l>INCLYTUS hanc celsam FRIDERICUS condidit Arcem, </l>
+                <l rend="indent">Nomine qui simul et sorte SECUNDUS erat,</l>
+                <l>Rex pius et justus, mitis, robustus in armis,</l>
+                <l rend="indent">Qui tamen invitus prætulit arma togæ, </l>
+                <l>Cui Regina toro vixit sociata Regali,</l>
+                <l rend="indent">Mechelburgiaca nata SOPHIA domo. </l>
+                <l>Quæ pariter virtutis amans, studiosa mariti, </l>
+                <l rend="indent">Pignora conjugii plena decore dedit.</l><pb ed="TBOO" n="IX.191"/>
+                <l>Ergo ubi placatos ageret Rex impiger annos, </l>
+                <l rend="indent">Structuræ tanta mole peregit opus, </l>
+                <l>Munivitque arcem, velut adspicis, haud quod in ista </l>
+                <l rend="indent">Spem sibi tutelæ præsidiique locet, </l>
+                <l>Nec velut antiquo structo Babylonis ovando </l>
+                <l rend="indent">Jactet, ut humana robora facta manu. </l>
+                <l>Iste dedit pœnas fastus, dum septimus annus </l>
+                <l rend="indent">Cerneret amentem persimilemque feris. </l>
+                <l>Rex nihil ostentat Danus. Se credit et optat </l>
+                <l rend="indent">Præsidio tutum solius eße Dei. </l>
+                <l>Scit bene, ni faveat Numen, quod robora nulla </l>
+                <l rend="indent">Vel chalybe et duro facta adamante juvent. </l>
+                <l>Ergo det astrorum terræque marisque Creator, </l>
+                <l rend="indent">In quo spem solo Rex FRIDERICUS habet,</l>
+                <l>Prosper ut ille diu et soboles serique nepotes </l>
+                <l rend="indent">Has habitent, firma pace vigente, domos.
+                </l></lg></div>
+            <div><head>IN TABULA HOROLOGII.</head>
+            <lg>
+                <l>Transvolat hora levis neque scit fugitiva reverti, </l>
+                <l rend="indent">Nostra simul properans vita caduca fugit.</l>
+            </lg>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ad Daniam elegia</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="V">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10688.49</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="G">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>GKS</collection>
+                                <idno>316 fol. </idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. IX, Hauniæ 1927, p. 208-211</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>nil</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>astronomi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-06-27" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="IX.208"/>
+                <pb ed="V" n="1r"/>
+                <div type="poem">
+                    <head>AD <placeName ref="Denmark">DANIAM</placeName> ELEGIA.</head>
+                    <lg>
+                        <l><placeName ref="Denmark">Dania</placeName> quid merui, quo te mea Patria læsi, </l>
+                        <l rend="indent">Usque adeo vt rebus sis minus æqua meis?</l>
+                        <l>Scilicet illud erat, tibi quo nocuisse reprêndar, </l>
+                        <l rend="indent">Quod maius per me nomen in Orbe <app><lem>geris</lem><rdg><note>V e corr.</note></rdg><rdg wit="#V #G"></rdg></app>:</l>
+                        <pb ed="TBOO" n="IX.209"/><l n="5">Dic, age quis pro te tot tantaque fecerat ante,</l>
+                        <l rend="indent">Vt veheret famam cuncta per Astra tuam?</l>
+                        <l>Quis facturus adhuc? quis quæ preciosa reliqui, </l>
+                        <l rend="indent">Digeret, expediens usibus apta suis? </l>
+                        <l>Mittitur is <placeName ref="Hven">Huennam</placeName> socio comitatus ab uno, </l>
+                        <l rend="indent" n="10">Secreta Uraniæ quem bene nôsse putant.</l>
+                        <l>Venit et ut vidit spectacula maxima Divæ </l>
+                        <l rend="indent"> (Pauca licet remanent) <app><lem wit="#V">obstipuisse</lem><rdg wit="#G">obstupuisse</rdg></app> ferunt.</l>
+                        <l>Quid faciat rerum ignarus? quî talia pandat, </l>
+                        <l rend="indent">Nec conspecta unquam nec sibi nota prius?</l>
+                        <l n="15">Astat inexpertus, Fabricarum nomina quærit, </l>
+                        <l rend="indent">Quærit tractandi (res pudibunda) modum.</l>
+                        <l>Ne tamen ignarus frustra accessisse feratur, </l>
+                        <l rend="indent">Quæ reserare nequit, vellicat inuidiâ.</l>
+                        <l>Nec mirum, meus hunc quia forte instruxerat osor, </l>
+                        <l rend="indent" n="20">Qui mihi iamdudum clam parat omne malum.</l>
+                        <l>Hoc quoque sic a te, tellus nativa, ferendum, </l>
+                        <l rend="indent">Hæc etiam meritis gratia danda meis,</l>
+                        <l>Ut quæ nôsse nequis, carpas oneresque cavillis </l>
+                        <l rend="indent">Multimode, nostrum diminuasque decus.</l>
+                        <l n="25">Te celebrem studui meritis augere per Orbem, </l>
+                        <l rend="indent">Tu mihi sed rursus detrahis immerito.</l>
+                        <l>Hæc sed parva puto, longe his graviora ferebam, </l>
+                        <l rend="indent">Vix isthic nostri cura favorve fuit.</l>
+                        <l>In Patria latui toto bene cognitus Orbe </l>
+                        <l rend="indent" n="30">(Ut multos alias delituisse liquet)</l>
+                        <l>Sunt alij fundis, titulis &amp; honoribus aucti, </l>
+                        <l rend="indent">Par quibus aut ætas aut genus esse nequit.</l>
+                        <pb ed="V" n="1v"/><l>Ast ego Brahæus de quinis fratribus unus </l>
+                        <l rend="indent">Et genitus primo, vix reputatus eram.</l>
+                        <l n="35">Non tamen invideo, miseret magis ista secutos, </l>
+                        <l rend="indent">Nil quibus est solidi, quæque caduca nimis.</l>
+                        <l>Vix aliqui nostros ibi suspexêre labores, </l>
+                        <l rend="indent">Herculeis quamuis æquiparare licet.</l>
+                        <l>Alcides fesso (ut <app><lem wit="V">referunt</lem><rdg wit="#G">fertur</rdg></app>) subvenit Atlanti, </l>
+                        <l rend="indent" n="40">Ne rueret præceps machina vasta poli:</l>
+                        <l>At <persName ref="Ptolemaios">Ptolemæe</persName> tuis, <persName ref="Alfonso 10.">Alphonse</persName>, <persName ref="Copernicus">Copernice</persName> vestris </l>
+                        <l rend="indent">Lapsibus occurrens ipse ego sisto pedes.</l>
+                        <l>Vt Cœli vestram deluserit orbita curam, </l>
+                        <l rend="indent">Edocui, licet hæc cura stupenda foret.</l>
+                        <l n="45">Firmavique novis Cœli laquearia fulcris, </l>
+                        <l rend="indent">Ne capiat rimas postmodo, neve ruat.</l>
+                        <pb ed="TBOO" n="IX.210"/><l>Posteritas grato veluti testabitur ore, </l>
+                        <l rend="indent"><app><lem wit="#V">Gratia sit nostro tempore muta licet</lem><rdg><note>corr. ex <q>Tempore sit nostro gratia muta licet</q></note></rdg><rdg wit="#G">Nostra licet iamnunc gratia muta silet</rdg></app>.</l>
+                        <l>Quanta Machaoniâ simulac effecimus arte, </l>
+                        <l rend="indent" n="50">Quæ facile ægrotis morbida membra levat.</l>
+                        <l><placeName ref="Denmark">Dania</placeName> si taceas, <placeName ref="Norway">Norici</placeName>, <placeName ref="Sweden">Suecique</placeName> loquentur, </l>
+                        <l rend="indent">Sensit ubi nostram plurimus æger opem.</l>
+                        <l>Nec tamen hinc lucrum sectabar, ut undique moris, </l>
+                        <l rend="indent">Gratis quippe dabam parta labore gravi.</l>
+                        <l n="55">Nimirum hoc fuerat, cur tanta odia invida sensi, </l>
+                        <l rend="indent">Hinc abitus nostri manat origo vetus.</l>
+                        <l>Quæque diu latuit nec aperte prodita, donec </l>
+                        <l rend="indent">Invidiæ virus, qui stabiliret, erat.</l>
+                        <l>Sic vitium pepulit virtutem, non mala caussa, </l>
+                        <l rend="indent" n="60">Discessu in nostro crimen abesse iuvat.</l>
+                        <l>Quantas sustinui curas, impendia quanta, </l>
+                        <l rend="indent">Ut fieret celsum, quod meditabar, opus? </l>
+                        <l>Quam multis etiam Sophiæ mysteria pandi, </l>
+                        <l rend="indent">Quos alui longum sumptibus ipse meis. </l>
+                        <l n="65">Pluraque præterea, vereor quæ <app><lem wit="#V">dicere cuncta</lem><rdg wit="#G">cuncta referre</rdg></app>, </l>
+                        <l rend="indent"><app><lem>Ne proprias laudes enumerare ferar</lem><rdg wit="#G">Ne dicar laudes enumerare meas</rdg></app>.</l>
+                        <l>Pro quibus (ô Superi) mihi gratia reddita talis, </l>
+                        <l rend="indent">Sex ego cum Natis Matreque ut exul agam. </l>
+                        <l>Sum tamen haud exul, libertas obtigit ampla: </l>
+                        <l rend="indent" n="70">Exilium in Patriâ verius ante tuli.</l>
+                        <l>Nunc ego prosper ago, proprij nunc juris alumnus, </l>
+                        <l rend="indent">Nunc mihi pro Patriâ maximus Orbis edest. </l>
+                        <pb ed="V" n="2r"/><l>Excipientque alij, sic prospiciente JEHOVA, </l>
+                        <l rend="indent">Gratus erit cunctis noster ubique labor.</l>
+                        <l n="75">Tu licet hunc renuens spernas damnisque fatiges, </l>
+                        <l rend="indent">O Patria, ô laudis prodiga facta tuæ!</l>
+                        <l>Ergo ingrata vale; Patria est mihi quælibet ora, </l>
+                        <l rend="indent">Quæ volet Æthereis æqua litare sacris.</l>
+                        <l>Quæque volet nostros agnoscere grata labores, </l>
+                        <l rend="indent" n="80">Quæ mihi pro meritis non feret immerita.</l>
+                        <l><placeName ref="Denmark">Dania</placeName> sed (fateor) satis excusabilis in se est, </l>
+                        <l rend="indent">Condolet et proprijs ingemit ipsa malis.</l>
+                        <l>Tu quoque magnanimi <persName ref="Frederik 2.">Friderici</persName> Heroïca proles, </l>
+                        <l rend="indent">Inscius hîc culpâ, <persName ref="Christian 4.">Rex</persName> generose, vacas:</l>
+                        <l n="85">Invitisque alijs, animus quibus integer, ista </l>
+                        <l rend="indent">Fiunt: Dij faciant non mage prava sequi.</l>
+                        <l>Sunt aliqui pauci, quibus haud tamen ipse nocebam, </l>
+                        <l rend="indent">Qui mihi quâ possunt arte doloque nocent;</l>
+                        <pb ed="TBOO" n="IX.211"/><l>Hi valeant, meritisque suis quæ digna reportent, </l>
+                        <l rend="indent" n="90">Vindicis ut statuent Jura verenda Dei.</l>
+                        <l>Salue Ranzôum venerande <persName ref="Rantzau, Heinrich">Henrice</persName> propago, </l>
+                        <l rend="indent">Uraniam primus qui capis hospitio.</l>
+                        <l>Hîc ubi vicinas <placeName ref="Hamburg">Hamburgi</placeName> mœnibus amplis </l>
+                        <l rend="indent"><placeName ref="Wandsburg">Wandesburga</placeName> novas Arx habet alta domos.</l>
+                        <l n="95">Quas sibi construxit memoratus is optimus Heros, </l>
+                        <l rend="indent">Octo gerens vitæ lustra peracta suæ.</l>
+                        <l>Det Deus Astriferi sapiens moderator Olympi, </l>
+                        <l rend="indent">Nos hac utiliter sorte locoque frui.</l>
+                        <l>Ipsius ut cunctis pateant miracula Terris, </l>
+                        <l rend="indent" n="100">Æthere in abstruso quæ latuêre diu.</l>
+                        <l>Quin tua <persName ref="Rantzau, Heinrich">Ranzoui</persName>, donec sibi sidera cœlum, </l>
+                        <l rend="indent">Vendicat, hospitij fama superstes erit.</l>
+                    </lg>
+                </div>
+                <div n="P.S.">
+                    <p>Hoc carmen cum <persName ref="Christian 4.">modernus Rex Daniæ</persName> forte fortunâ in quodam libro Domini
+                        <persName ref="Rantzau, Heinrich">Henrici Ranzovij</persName>, bonæ memoriæ, ipsum <placeName ref="Haderslev">Hadersleviæ</placeName> in <placeName ref="Schleswig-Holstein">Holsatia</placeName> ex inopinato
+                        invisens reperijsset, jacente nimirum in mensâ libro, quem Calendarium
+                        Ranzovianum vocant, cui annexum erat: viso titulo Elegiæ, meoque Subscripto
+                        nomine, ei perlegendo multum immoratus est, tandemque complicato libro
+                        discedit et subticuit, quæcunque legerat dissimulans. Quod cum ad me referri
+                        curasset Dominus <persName ref="Rantzau, Heinrich">Ranzovius</persName>, veritus ne ægre ferrem, Regi in manus per
+                        incuriam suorum ministrorum (quibus eâ de caussa succensebat) pervenisse,
+                        respondi: Tantum abest ut hoc moleste accipiam, ut potius paratus sim Regi
+                        exemplum dare, si voluerit: neminem enim in <placeName ref="Denmark">Dania</placeName> esse, qui hæc sese sic
+                        habere jure negare possit, imo his longe graviora vera esse etc.</p>
+                </div>
+            </div>
+
+        </body>
+    </text>
+</TEI>

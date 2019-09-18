@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.62</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 120-121</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1588-05-03"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588-05-03</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII."/>
+                <pb ed="A" n="2v"/>
+                <opener>CLARISSIMO ERUDITISSIMOQUE VIRO D. DOCTORI <persName ref="Hagecius, Thaddaeus">THADDÆO HAGECIO</persName> AB HAYK, MEDICO ET
+                    MATHEMATICO EXCELLENTISSIMO, AMICO SUO SINCERE DILECTO.<lb/><foreign xml:lang="la"><hi rend="it"><placeName ref="Prague">PRAG</placeName>.</hi></foreign></opener>
+                <p><pb ed="A" n="1r"/>RARIORES ad te dare literas internunciorum cogit penuria, eruditissime
+                    charissimeque D. D. THADDÆE, et locorum quibus disiungimur intercapedo vota
+                    nostra plurimum impedit. Nactus itaque iam tandem aliqualem occasionem literas
+                    mittendi per Studiosum quendam Silesium me unâ cum quibusdam alijs hîc
+                    invisentem, non intermittendum duxi, quin brevibus ad te scriberem. Librum tuum
+                    de Nova Stella et Cometis misi iamdudum Francofurtum ad eundem hominem, de quo
+                    mihi indicâras, nec dubito te interea temporis eum recepisse. Quod si illum
+                    edere adhuc animus est, suaderem ut ea, quæ in Cometa anni 77 minus considerate
+                    a te proposita sunt, vel supprimas vel emendes. Meum de hoc eodem Cometa
+                    iudicium percipies ex eo quem tibi nunc mitto libro, in quo secundus tomus
+                    operis nostri de recentioribus ætherei Mundi Phænomenis continetur. Primus est
+                    de Stella Nova exquisitiori diligentia quam antea considerata, quem typis
+                    absolvere Gallici privilegij defectus, quod Cæsariano adiungere constitui,
+                    hactenus impedivit. Nunc vero quoniam ante paucos dies idipsum adeptus sum,
+                    nihil obstabit nisi otij oportunitas, quominus eius etiam libri evulgationem
+                    adornem. Tertius est de tribus alijs Cometis, qui postmodum nobis illuxerunt
+                    et in alto æthere curriculum suum non minus quam ille, de quo liber modo
+                    transmissus agit, absolverunt. Quod autem in hoc ipso libro, ubi tua placita in
+                    eodem Cometa sub disquisitionem mathematicam voco, a te multoties dissentiri me
+                    res ipsa cogat, non est quod sinistrius interpreteris; scis enim me solo veritatis amore et libertate <pb ed="A" n="1v"/>Philosophica
+                    idipsum agere, nulloque tua insectandi elevandique animo id a me fieri. In
+                    priori libro de Stella Nova tum etiam in tertio, ubi de Cometa anni 80 agitur,
+                    oportuniorem invenio commoditatem tecum magna ex parte sentiendi, tuaque dignis
+                    encomijs extollendi. Si quos habes <placeName ref="Italy">Italicos</placeName>, <placeName ref="Spain">Hispanicos</placeName> vel <placeName ref="France">Gallicos</placeName> authores,
+                    qui de Nova Stella aliquid commentati sunt, rogo ut eorum scripta Latinitate, si
+                    fieri possit, donata, mecum communices, unâque si quos alios Cometarum
+                    præcedentibus aliquot annis visorum descriptores peculiares nec ubique obvios in
+                    promtu habueris. Librum illum de Cometa anni 1531 ab <persName ref="Apian">APIANO</persName> seorsim editum
+                    nondum <pb ed="TBOO" n="121"/>vidi, quemadmodum neque <persName ref="Pena">IOHANNIS PENÆ</persName> Galli scriptum, quod
+                    <persName ref="Praetorius">PRÆTORIUS</persName> in descriptione huius Cometæ anni 77 citat. Si horum me participem
+                    reddideris, meis votis plurimum subveneris. Memini me librum quendam Astrologicum a te dono accepisse, cum <placeName ref="Regensburg">Ratisbonæ</placeName> simul essemus, qui Planetarum
+                    influentias peculiari quadam ratione per accessum ad Terram vel ab ea recessum
+                    proponeret; eum in patriam reversus nuspiam invenire potui. Si eius aliquod
+                    exemplar denuo per te obtinuere, diligentius illud inposterum conservabo,
+                    evolvamque accuratius; existimo enim quædam in eo a veritate non dissentanea
+                    contineri, si dextre considerentur, et cum cæteris requisitis debite
+                    conferantur.</p>
+                <p rend="indent">Ubi totum opus, de quo supra dixi, typis meis excusum fuerit, tibi illud
+                    transmittam. Interea hanc secundam partem per otium evolve, mihique tuum de ea
+                    iudicium ingenue significa. Invenies in eo novam orbium cœlestium dispositionem,
+                    a me non ita dudum adinventam, quæ quo penitius fuerit considerata, eo magis
+                    tibi placebit. <pb ed="A" n="2r"/>Ego hanc non solum apparentijs consonam,
+                    sed etiam in rei veritate ita se habere non dubito, quod <persName ref="Ptolemaios">Ptolomaicæ</persName> et
+                    <persName ref="Copernicus">Copernianæ</persName> assumtiones nequaquam præstant. Sed de his nunc plura scribere
+                    temporis penuria et epistolæ leges prohibent. Tu itaque, optime THADDÆE, quam
+                    felicissime vale et ingravescentis ætatis difficultates forti animo tolera,
+                    meque per occasionem quamcunque oblatam literis revisere non intermitte. Iterum
+                    vale. Datæ Uraniburgi die 3. Maij Anno 1588.</p><lb/>
+                <p>Tuus <lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

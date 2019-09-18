@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 275-276</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1590-10-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Anders Sørensen Vedel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date>1590-10-05</date>
+            </creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-12" who="#pz">Filen etableret og korrigeret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.275"/>
+                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
+                        VELLEJUM</persName>. S.</opener>
+                <p><pb ed="A" n="3r"/>MIROR [te] dilecte M. <persName ref="Vedel">ANDREA</persName>, in tanto tempore mihi nihil
+                    scribere: existimo vos Lillebergenses de Lillehuenensibus nihil amplius
+                    cogitare, ac si essent remoti extra Solis cœlique vias; fac ut per hunc
+                    ministrum meum cognoscam quid rerum agas et quomodo cum tuis vivas et valeas.
+                    Typographia mea iam feriatur ob papyri impressoriæ defectum. Misi hisce diebus
+                    Typographum meum in <placeName ref="Germany">Germaniam</placeName> pro conquirendo papyro et conducendo idoneo
+                    Cartopæo, nam moletrina mea, papyro conficiendæ destinata, iam parata est. Si
+                    tibi de <pb ed="TBOO" n="VII.276"/>tali artifice alicubi quicquam constiterit, da operam ut
+                    eum mature habeam, et tuos etiam labores urge, nec nimium procrastina. Vale. Saluta uxorem unâ cum Parentibus et liberis. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> 5. Octob. 1590.</p>
+                <closer>Tuus TYCHO BRAHE.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

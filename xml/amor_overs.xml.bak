@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <!-- <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Kongelige Bibliotek</repository>
+                                <collection>Thott</collection>
+                                <idno>1044 4to</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. XV, Hauniæ 1929, p. 3-5</bibl>
+                    </witness> -->
+                    <witness xml:id="Zeeberg">
+                        <bibl>Peter Zeeberg, "Amor på Hven. Tycho Brahes digt til Erik Lange", <title>Renæssancen. Dansk - europæisk - globalt</title>, red. Minna Skafte Jensen og Marianne Pade (Renæssancestudier 2), København 1988, p. 161-181.</bibl>
+                    </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1584</date></creation>
+            <langUsage>
+                <language ident="da" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-05" who="#pz">Filen etableret, teksten indsat fra 1988-artiklen</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="XV.3"/>
+            <head>TIL DEN FOR SÅVEL SLÆGTS- SOM ÅNDS-ADEL BERØMMELIGE 
+                <lb/>UNGE MAND, ERIK LANGE TIL ERIKSHOLM [sic], 
+                <lb/>LENSMAND TIL BYGHOLM SLOT, 
+                <lb/>MIN OPRIGTIGE VEN</head>
+            <lg><l>Kære Erik! Din gode ven Tycho sender dig dette &#x201C;lev vel&#x201D;</l>
+                <l>&#x2013; hvis ellers den kan leve vel der er i kærlighedens vold.</l>
+                <l>Alle der elsker, er svagelige såvel i sjælen som kroppen,</l>
+                <l>så svækkende er kærlighed i bund og grund.</l>
+                <l n="5">Aldrig er man sig selv; man bor i en fremmed krop,</l>
+                <l>når man er grebet af sin egen kærlighed til kærlighedsbekymringer.</l>
+                <l>Kærligheden nægter én den søde søvn og regelmæssig hvile</l>
+                <l>og våger selv uroligt hele natten.</l>
+                <l>Hverken musernes sang og dans, som den skønne Apollon leder,</l>
+                <l n="10">eller lovsang til guderne kender den til.</l>
+                <l>Heller ikke de hemmeligheder der skjuler sig i Vestas kult, forstår den</l>
+                <l>&#x2013; endskønt den selv er mere brændende end ild.</l>
+                <l>Himmelens lysende stjernetegn, gudernes værdige templer,</l><pb ed="TBOO" n="XV.4"/>
+                <l>ser den også kun slet &#x2013; den er blind på begge øjne.</l>
+                <l n="15">Således går den ungdomstid du aldrig får igen, til spilde,</l>
+                <l>for tiden bliver fordærvet af din kærlighed.</l>
+                <l>Således kan den tit forpurre lykken i det korte liv</l>
+                <l>&#x2013; mens livet er der, ved den ikke hvad det er at leve.</l>
+                <l>Når kærligheden bringer alle disse gener, og også mange flere, med sig</l>
+                <l n="20">(men selv er den jo blind og ser dem ikke)</l>
+                <l>hvorfra så denne lyst til hemmeligt at brænde op i ilden</l>
+                <l>Hvad vil du med den kærlighed der ikke vil dig det godt?</l>
+                <l>Hold op med uafladeligt at tage imod Cupidos pile!</l>
+                <l>Hold op! Lad ikke brystet lide overlast af denne uafbrudte kærlighed!</l>
+                <l n="25">Og hvis du så vil lære en metode til at undgå </l>
+                <l>de træffere du får fra Amors bue,</l>
+                <l>så hør - men pas godt på du ikke blander sammen på begreberne:</l>
+                <l>Du gør en anden kærlighed til middel mod den gamle.</l>
+                <l>Hvis den forføreriske Venus plager dig med pile fra Cupido &#x2013;</l>
+                <l n="30">lad en ophøjet kærlighed til Pallas gå i stedet.</l>
+                <l>Hvis kærligheden er en hindring for din nattesøvn &#x2013;</l>
+                <l>Lad kærligheden i den stjernerige nat gælde Urania.</l>
+                <l>Og hvis du også natten lang fortæres af Cupidos ild &#x2013;</l>
+                <l>Fat kærlighed til Vestas klare ild.</l>
+                <l n="35">Kort sagt, hvad det end er der så løsagtigt binder dig i kærlighed,</l>
+                <l>lad snart en seriøs og bedre kærlighed fortrænge det.</l>
+                <l>Sådan kan kærligheden blive midlet mod den anden kærlighed.</l>
+                <l>Kærligheden der besejrer alt, skal også besejre sig selv!</l>
+                <l>Og hvis du tvivler, skal du blot begive dig til Uraniborg,</l>
+                <l n="40">her vil en uvant kærlighed få tag i dig.</l>
+                <l>Og mens dén vokser, vil den andens hede aftage.</l>
+                <l>Her kan du i kærlighed lære hvad kærlighed er:</l>
+                <l>Hvis du har lyst til at udforske verdens himmelske tinder,</l>
+                <l>vil en utrolig kærlighed til himlen fylde dig.</l>
+                <l n="45">Og hvis du snarere ønsker at forske i ildens kunster,</l>
+                <l>da vil stor &#x2013; brændende &#x2013; kærlighed opstå i ilden.</l>
+                <l>Og tror du kærligheden vil forsmå musernes yndefulde sang og dans,</l>
+                <l>og Apollons kunst, som gratierne elsker?</l>
+                <l>Jeg kunne blive ved: Når denne sande, dybe kærlighed</l>
+                <l n="50">får lov at træde til, hører den tomme op.</l>
+                <l>Det er den kærlighed som Tycho i så rigt mål, nu som altid, skænker dig</l>
+                <l>der får ham til at skrive dette.</l>
+                <l>&#x2013; Og &#x201C;skrive&#x201D; havde ikke været nok, hvis ikke brevet kunne komme trykt</l>
+                <l>og undertrykke denne gamle kærlighed.</l><pb ed="TBOO" n="XV.5"/>
+                <l n="55">For når den kærlighed med sådant eftertryk er skrevet i dit hjerte,</l>
+                <l>skal der naturligvis et tryk til nu at fjerne den,</l>
+                <l>så at en ny og bedre kærlighed &#x2013; til glæde og fornøjelse for dig &#x2013;</l>
+                <l>kan trykkes ind i sindet.</l>
+                <l>Og tror du vel den kærlighed Urania, Vulcanus og Apollon</l>
+                <l n="60">kan trykke ind, vil miste sin betydning og sit indhold?</l>
+                <l>Hvor stor en kærlighed kan du dog ikke opnå,</l>
+                <l>hvis min til dig, og denne trykte tekst og disse typer gør indtryk på dig?</l>
+                <l>Ganske vist er den kærlighed stor der plager dig nu,</l>
+                <l>men når den sande kærlighed kommer til, bliver den den lille.</l>
+                <l n="65">Det var slet ikke uden grund at de gamle digtere tænkte sig kærligheden som en lille dreng,</l>
+                <l>for den er hverken stor eller pålidelig.</l>
+                <l>Den kan hverken nå stjernerne eller trænge ned i jordens indre.</l>
+                <l>Den lille fyr fortaber sig i småting.</l>
+                <l>Min muse beder, ved hjælp af mine typer, de høje guder om at lade</l>
+                <l n="70">den sandere og større kærlighed tage sæde i dit bryst.</l>
+                <l>I modsat fald: Hvis du nu vrager denne ægte kærlighed,</l>
+                <l>vil du måske engang sige: &#x201C;Har kærligheden svigtet mig sådan?&#x201D;</l>
+                <l>&#x201C;Har kærligheden svigtet mig sådan og narret mine gode dage fra mig?&#x201D;</l>
+                <l>Da vil du ønske at den ikke havde være</l>
+                <l n="75">Men pas nu på en mere alvorlig kærlighed ikke griber dig</l>
+                <l>når det er alt for sent og lejligheden er forpasset.</l>
+                <l>Den ærgrer sig forgæves der ærgrer sig for sent.</l>
+                <l>&#x2013; Og den kan ikke dyrke kærlighed der ikke mere har sin førlighed.</l>
+                <l>Nu, mens du endnu er ung og rask, og din ånd er frisk,</l>
+                <l n="80">skal du byde den tilvante kærlighed farvel.</l>
+                <l>Sæt den uvante i stedet og lad den give dig livskraften tilbage</l>
+                <l>i krop og sind, med videnskab og ånd.</l>
+                <l>Hermed, fra min trofaste kærlighed til dig: &#x201C;Lev vel!&#x201D;</l>
+                <l>&#x2013; hvilket du bedst gør uden kærlighedens ild og brand.</l>
+            </lg>
+                
+            <p rend="center">EPILOG</p>
+                <lg><l n="85">Hvis du nu ikke ønsker denne ægte kærlighed, så følg den ufornuftige:</l>
+                <l>Af ufornuftens kærlighed vil kærligheden opstå til den ægte!</l>
+            </lg>
+                
+            <closer>Uraniborg, d. 23. november 1584
+                <lb/>din
+                <lb/>Tycho Brahe
+            </closer>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Heinrich Brucaeus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 114</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Heinrich Brucaeus</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1587-05-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1587-05-22</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-28" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.114"/>
+                <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
+                    BRAHE.</opener>
+                <p><pb ed="A" n="88v"/><!-- måske Renftlerus? --><persName ref="Rentfler">DANIEL
+                        RENTFLERUS</persName>, in bonis literis apprime versatus, eruditus mehercle
+                    iuvenis et optimis moribus excultus, Daniam petere voluit visendi gratia et te
+                    inprimis salutare, qui alter Atlas cœlum humeris ferre diceris. Age, mi TYCHO,
+                    persequere magna cum laude labores institutos et cœlum ipsum ad nos transfer,
+                    longitudinibus stellarum definitis, et, si quid in latitudinibus desideretur,
+                    idipsum posteritati prodens. Nam audio, te aliquid novi in his invenisse, adeo
+                    ut dubitari possit, an non ipsæ etiam mutentur latitudines. Est quidem audax
+                    facinus a tanto illustrium Mathematicorum consensu dissentire, qui tanto
+                    temporum intervallo distrahuntur. Sed si te sic rata docuit experientia, cur
+                    tibi non fidem adhibeamus potius quam illis, qui forte non tam subtiliter omnia
+                    rimati sunt? Longitudines autem stellarum non respondere calculo, nihil mirum,
+                    cum hactenus Hypotheses inventæ, quæ hanc apparentem motuum inæqualitatem ad
+                    æqualitatem reducant, <app>
+                        <lem>non sint</lem>
+                        <rdg><note>suppl. TBOO</note></rdg>
+                    </app>. Latitudines vero invariabiles servari omnes prodiderunt. Expecto tuam
+                    sententiam, et quid de tuis Cometis fiat, utrum prælo subiecti sint, an vero
+                    supprimere decreveris. Hunc vero iuvenem, quem ob eruditionem et modestiam omnes
+                    amant, nostra et sua causa et pro tua singulari erga homines literarum amantes
+                    benevolentia complectere. Tractatum de Crepusculis Sphæræ adiectum, utrum
+                    legeris, scire velim. Si quid habeas Geometricum laude dignum, ab aliquo
+                    recentor editum, eius autorem indicato et, si aliquot dies carere queas, ad nos
+                    mittito. Nos minus hoc tempore hisce studijs vacamus, alijs distracti. Tu quid
+                    agas, quid mediteris, fac intelligam. Et si quid ex Vulcani officina habes, quod
+                    in paralyticis et alijs contumacibus morbis nostra medicamenta respuentibus
+                    expertus es, id communices rogo. Vale, Nobilissime doctissimeque TYCHO, et nos
+                    mutuo ama. <placeName ref="Rostock">Rostochij</placeName> 22. Maij 1587. <pb
+                        n="28"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66, fol. 12-16</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66, fol. 32-34</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 64-69</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1581-10-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1581-10-12</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-21" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.64"/>
+                <pb ed="A" n="12r"/>
+                <opener>TYCHO BRAHE AD <persName ref="Hagecius, Thaddæus">THADDÆUM
+                    HAGECIUM</persName>.</opener>
+                <p>ANNUS integer iam fere est elapsus, charissime Domine Doctor THADDÆE, vir
+                    clarissime, ex quo tibi ultimo scripsi, idque per <persName ref="Wittich, Paul"
+                        >PAULUM WITICHIUM</persName> Wratislaviensem hinc in patriam revertentem. At
+                    quia interea temporis nihil literarum a te receperim, mutua illa benevolentia,
+                    qua nos invicem in Comitijs <placeName ref="Regensburg">Ratisbonensibus</placeName> olim complexi sumus, et innata illa
+                    tibi atque constanti erga amicos affectione, tam diuturnam in rescribendo
+                    dilationem minime admitten<pb ed="A" n="12v"/>te, non potui non suspicari,
+                    literas illas per eum cui traditæ erant, ad manus tuas non pervenisse. Utque
+                    idipsum nunc potius crederem, effecit libellus tuus de ultimo Cometa, quem
+                        <persName ref="Scultetus, Bartholomæus">BARTHOLOMÆUS SCULTETUS</persName>
+                    veteri amicitia <placeName ref="Leipzig">Lipsiæ</placeName> mihi coniunctus ante biduum per quendam hominem vasa
+                    Spagyrica illinc nobis ex conducto afferentem mihi transmitti curavit. Cum enim
+                    in hoc scripto videaris meam ex observationibus certis de utriusque Cometæ
+                    parallaxibus derivatam sententiam desiderare, quam tamen tunc temporis dilucide,
+                    nec minus vere, uti spero, brevibus tibi aperui, fieri non potuisse arbitror, ut
+                    literæ illæ tibi, veluti sperabam, redditæ sint. Nec enim eorum, quæ in his
+                    significaveram (etiamsi nulla interea rescribendi occasio oblata fuisset) tam
+                    subito oblitum fuisse, vel ea penitus neglexisse te, virum harum rerum et
+                    cupidum et intelligentem, mihi persuadere possum. Quæ autem in ijs literis tibi
+                    tunc temporis de ultimis duobus Cometis, ex observationibus nostris reseravi et
+                    nunc denuo iudicanda indico, ea fere sunt huiusmodi: In Cometa, qui Anno 77
+                    fulgere coepit, ex omnibus nostris observationibus (quæ per diversa e solido
+                    metallo exquisite elaborata, singulorumque minutorum adamussim capacia
+                    instrumenta magnâ diligentia inquisitæ sunt, diversaque demonstrationis methodo
+                    in numeros redactæ) nunquam deprehendi parallaxin eam, quæ fit in Horizonte,
+                    maximam tertiam unius gradus partem attigisse, sed sæpenumero hac multo minorem
+                    extitisse, ut suo loco intelligentibus, varijs rationibus sufficienter
+                    demonstrabimus. Cumque in libello tum temporis de eodem Cometa edito, parallaxin
+                    5 partium admisisses, et ob id sublunarem illum extitisse Cometam opinatus esses,
+                    amice te in ijsdem literis admonui, rationem <persName
+                        ref="Regiomontanus">REGIOMONTANI</persName> in investi<pb ed="A"
+                        n="13r"/>gandis parallaxibus, quate usum esse asseris, utquamvis satis
+                    demonstrabilem, tamen tam subtili negocio minus sufficientem et accommodam esse.
+                    Multo enim speculative vere demonstrantur, quæ fi in praxin et sensuum <pb
+                        ed="TBOO" n="65"/>Mechanicam tractationem deducantur, plurimum a scopo
+                    petito aberrabunt, præsertim ubi ex minimis, uti hoc loco fit, ea quæ maxima
+                    sunt investigantur. Imo etiamsi REGIOMONTANI illa speculatio hîc locum aliquem
+                    habuisset, et intervallum temporis exquisite satis sumptum altitudinibus et
+                    azimuthis rite datis congrueret (in quibus tamen singulis, etiamsi adsint
+                    instrumenta magna et exquisita, quæ raro tamen in promtu sunt, ea quæ par est
+                    præcisione adamussim capiendis, quanta opus sit diligentia, quantaque non bene
+                    exercitatis eveniat difficultas, nemo nisi diu in hac Mechanica Astronomiæ
+                    palæstra sedulo versatus, sibi persuadere poterit) nihilominus tamen ex tam
+                    angusto temporis intervallo, quod 18 saltem scrupulorum assumebas, parallaxes
+                    quæ tantillo tempore insensibiliter variantur, sensibiliter discernere
+                    impossibile erat. Ideoque dum motus proprij impedimenta temporis brevitate
+                    declinare visum fuit, tota res ad impossibilitatem quandam redacta est. Nos sane
+                    ultra vicesies eam REGIOMONTANI in discernendis parallaxibus rationem, ex
+                    diversis et satis certis observationibus, non mediocri (uti scis) labore, in
+                    numeros resolvimus. At nusquam parallaxin invenimus tantam, quantam Luna etiam a
+                    terris remotissima admittit, sæpenumero etiam nullam. Ideoque tuis placitis,
+                    etiam cum eadem methodo (utquamvis subtilissimo negocio minus sufficienti), qua
+                    tu, usus essem, subscribere non potui. Nec etiam idipsum, quod ad confirmationem
+                    huius subiungis, ex cœli videlicet mediatione cum Vultu<pb ed="A" n="13v"/>ris
+                    lucida, parallaxin comprobare possibile erat. Nam etiamsi eorum simul per
+                    meridianum transitus, qui interdiu tunc fiebat, aspectabilis fuisset,
+                    parallaxin, nisi plura adessent data, hinc nemo ulla ratione colliget, ut per
+                    incuriam in tua Dialexi inter occupationes alias minus considerate docuisti.
+                    Quod vero parallaxis istius Cometæ non solum tanta non fuerit, sed ne quidem
+                    multum perceptibilis, testantur propriæ tuæ observationes, quas in distantijs
+                    Cometæ ab ore Pegasi pluribus interiectis horis, minimum tamen variari
+                    deprehendisti, ut revera ob id parallaxin, si qua fuit, exiguam esse, orbemque
+                    Lunæ plurimum exuperasse Cometam, vel tuis observatis, quibus tamen contraria
+                    admittebas, convinci possit. Hæc, inquam, tum temporis de priori Cometa ad te
+                    perscripsi. Video autem in hoc ultimo scripto te nobiscum sentire, et
+                    consideratis ijs, quas tunc temporis non animadvertebas, contrarietatibus
+                    sententiam revocasse, reique vestigandæ nucleum penitius invenisse, qua in re
+                    tibi et veritatis amatoribus (qui tua autoritate abuti, et observationibus ac
+                    demonstratis minus exquisitis adduci poterant, ut falsæ Peripateticorum de
+                    Cometis opinioni subscriberent) plurimum gratulor. Quod ad SCULTETI
+                    demonstrationes, quæ eandem fere tecum parallaxin inferebant, attinet, cum
+                    incerto fulciantur fundamento, falsisque datis superstruantur (nam, ut alia
+                    taceam, impossibile erat Co<pb ed="TBOO" n="66"/>metam eo die cum ijs fixis,
+                    quas assumit, supra Horizontem in eodem extitisse circulo vertica<pb ed="A"
+                        n="14r"/>li, et stellarum etiam, quam præsupponit, distantia plus ¾ unius
+                    gradus erronea sit, ut de cæteris hinc quis facile, quid sentiendum sit,
+                    colligat) minime eas pro veritate indaganda recipiendas, suo loco dilucide
+                    ostendemus. Quantum vero ad hunc ultimum Cometam, qui anno 80 fulsit, attinet,
+                    videris mihi scopum ipsum longe exactius attigisse, et certioribus
+                    observationibus rei veritatem probabilius demonstrasse. In quibus id saltem ad
+                    exquisitam præcisionem penitius investigandam desiderarem, ut motus proprij
+                    Cometæ inter binas observationes mutationem non neglexisses. Cum enim Cometa
+                    intervallo duarum horarum eo die in suo circulo 27' (motus siquidem diurnus a
+                    nobis inventus est 5<hi rend="sup">p</hi> 23<hi rend="sup">m</hi>) locum mutaverit, hanc differentiam, si res præcise
+                    tractanda foret, non prætereundam iudico, quoniam ex minimis hoc loco de longe
+                    maioribus ratiocinamur. Instrumentum etiam ob id, quo altitudines capis, cum
+                    dena aut quina minuta saltem admittat, in tam subtili indagine minime sufficiens
+                    esse poterit. Sunt tamen tuæ observationes et his innixæ demonstrationes
+                    eiusmodi, ut si hinc non exquisite, quot minutorum fuerit parallaxis, et in quo
+                    præcise orbium cœlestium versaretur Cometa ille, ad amussim constare possit,
+                    tantam tamen fuisse, ut Lunæ inferiora non permearet, cuivis harum rerum perito
+                    non ægre persuadere poterint. Quantum ad nostras in hoc Cometa observationes
+                    attinet, meam sententiam tum temporis non minus quam iam per literas tibi
+                    indicavi, videlicet me toto apparitionis tempore, ex omnibus et diversimodis
+                    exquisitissimis instrumentis, diligenter habitis et examinatis observationibus,
+                    huius Cometæ notabilem aliquam <pb ed="A" n="14v"/>fuisse parallaxin, nusquam
+                    percipere potuisse. Nam ut cætera (commodiore loco commemoranda) taceam, certo
+                    deprehendi Cometam illum, tam in Meridiano, cum altissimus esset, quam iuxta
+                    Horizontem in ipso puncto occidentalis Azimuthi, eandem exquisite ab Æquatore
+                    declinationem obtinuisse, nisi quantum motus proprius interea, diurno motui
+                    proportionalis, eam variaverit, quod fieri minime potuit in tanta altitudinum
+                    differentia, si sensibilis aliqua parallaxeωs adfuisset quantitas. Id ipsum
+                    etiam tum omnibus rationibus a REGIOMONTANO in suo libello propositis, quæ usum
+                    hîc haberent, tum alijs quibusdam exactioribus et minus errori obnoxijs a nobis
+                    circa parallaxium dimensiones excogitatis, plane se eodem modo habere certo
+                    deprehendimus, ut per ocium copiose firmis rationibus, Mathemata intelligentibus
+                    demonstrabimus. Contuli etiam accepto tuo libello nonnulla cum nostris
+                    observationibus et in ijs miram deprehendi convenientiam, quæ ad parallaxium
+                    certitudinem confirmandam facere poterat. Nam die 13. Octobris cum Cometa esset
+                    iuxta Meridianum, eius distantiam a lucidiore capitis Pegasi tam Radio quam
+                    Sextante <pb ed="TBOO" n="67"/>Astronomico (instrumento peculiari a
+                    nobis tali machinatione invento, ut per hoc longe facilius, commodius et
+                    exactius, quam per Radium stellarum capiantur intercapedines) deprehendi partis
+                    1 min. 16 uno saltem scrupulo pene insensibili tua distantia maiorem, quæ tamen
+                    differentia pro hac terreni orbis distantia ad quintum usque scrupulum, si in
+                    ipsa convexitate orbis Lunæ fuisset Cometa, excrevisset, longeque plus, si vel
+                    in regione ignea (modo aliqua foret) vel supremitate aëris, ut diu falso opinati
+                    sunt omnes <persName ref="Aristoteles">Aristotelici</persName>, exarsisset. Sic
+                    die etiam 21. Octobris <pb ed="A" n="15r"/>cum Cometa esset proximus lucidæ
+                    Aquilæ, ei stellæ a vertice imminens, eandem plane tecum deprehendi distantiam.
+                    Nam licet hæc hora 8 uno scrupulo nobis minor visa fuerit, tamen usque ad
+                    decimam hanc observationem continuando exquisite p. 6 m. 22 apparebat, quod cum
+                    tua annotatione adprime consentit. Et quemadmodum fieri minime potuit, ut
+                    intervallo duarum horarum saltem uno scrupulo variaret a fixa Cometæ illa
+                    distantia, si sensibilis admodum adfuisset parallaxis, sic etiam intervallo 6
+                    graduum orbis terrestris, quod est inter tui et nostri loci observationem,
+                    eandem eodem tempore præcise obtinere posse a fixis distantiam corpus aliquod
+                    Luna inferius, Mathemata intelligenti non persuadebitur. Obtulit autem se eo die
+                    optata comæ moditas ad Vulturis stellam parallaxes examinandi, eo quod Cometa
+                    tum temporis in loco sui circuli versaretur, qui minimum a stella distaret,
+                    eamque ad angulos rectos aspiceret, unde etiam per aliquot horas ex motu proprio
+                    Cometæ nulla pene sensibilis ingerebatur intercapedinum differentia, ideoque
+                    distantia saltem ratione parallaxeos, si qua fuisset, tam in diversis
+                    dissitisque Horizontibus, quam in eodem, ubi plurimum mutatæ forent stellæ
+                    altitudines, necessario sensibiliter variari debebat, cuius tamen contrarium ab
+                    utroque nostrum pulchra et exquisita convenientia deprehensum est, ut vel hoc
+                    solo argumento convinci possit, Cometam illum longe supra Lunæ orbes in ipso
+                    æthere sedem sibi delegisse. Atque hæc de hoc ultimo Cometa tecum nunc brevibus
+                    contulisse sufficiat. Id saltem commonefactionis loco subiungam, declinationem
+                    lucidioris stellæ in capite Pegasi a te 8 proxime scrupulis iusto maiorem
+                    assignatam esse. Nos enim aliquoties hîc, ubi Polus elevatur 55 p. 54 2/3 m., eius
+                        <pb ed="A" n="15v"/> altitudinem maximam deprehendimus 38 p. 20 m. exquisite.
+                    Ideoque ab Æquatore declinat p. 4 m. 14½ , sive quadrantis tui parvitas ususque
+                    non satis exactus, sive <placeName ref="Prague">Pragensis</placeName> poli
+                    elevatio, quam tu a veteribus minus forte scrupulose traditam pro vera recipis,
+                    sive etiam in utroque horum aliquis lateat error, quem tibi ipsi examinandum
+                    corrigendumque relinquo. De certitudine enim nostræ observationis ne in uno
+                    quidem scrupulo hæsitamus. Pari ratione nos eodem die 13. Cometæ ipsius, ex
+                    altitudine meridiana, quæ a nobis deprehensa est p. 37 m. 7½, declinationem 3 g.
+                    2 m. ideoque minutis tua <pb ed="TBOO" n="68"/> minorem observavimus.
+                    Differentiam meridianorum, cum vix maior sit quadrante horæ, insensibiliter uno
+                    saltem scrupulo declinationem ob motum Cometæ proprium variantem, volens
+                    prætereo. Non tamen poterit hæc declinationum inter nostras observationes
+                    differentia superiori convenientiæ, quam parallaxeos exiguitatem comprobavimus,
+                    fidem derogare. Illic enim per distantias, non per altitudines fiebat
+                    observatio. Et licet per quadrantem etiam Cometæ et stellæ distantiam, ex
+                    differentia utriusque altitudinis maximæ dimensus fueris, tamen utut in Poli
+                    altitudine aliquis error lateat, vel in quadrante ipso etiam observationi iustæ
+                    aliquid desit, cum in utroque loco tam in Cometa quam in stella utraque eodem
+                    modo se habeant, in ipsa Cometæ et stellæ distantia sensibilem errorem ingerere
+                    non poterint. In declinationibus vero utriusque eliciendis, hac ratione deviare
+                    (ut prius ostendimus) nihilominus erat possibile. De toto autem hoc negotio
+                    brevi, Deo conatus nostros auspi<pb ed="nil" n="16r"/>cante, per ocium hybernum
+                    observationes plurimas easque certissimas,varijs demonstrationibus elaboratas,
+                    in medium producam, quibus tum novæ illius stellæ tum utriusque Cometæ
+                    subsequentis motus, apparentias, parallaxes et a Terra distantias,
+                    intelligentibus certissimis et infallabilibus rationibus proponam, conferendo
+                    etiam præcipuas aliorum observationes, et quatenus veritati consonæ sint vel ab
+                    hac devient, in trutina revocando, adeo ut universaliter tandem concludere non
+                    dubitavere, Cometas omnes in ipso æthere, non Elementari regione, ut hactenus
+                    Peripateticorum autoritate frustra creditum est, generari; nihil obstante, quod
+                    REGIOMONTANUS et <persName ref="Vogelinus">VOGELINUS</persName> in duobus
+                    Cometis diversum quid prodiderint. Utrumque enim a scopo deviasse, rationes
+                    probabiles et sufficientes in medium producam, nisi quis sola autoritate pugnare
+                    velit, negans humanum esse errare, interdumque bonus quod non dormitet <persName
+                        ref="Homer">HOMERUS</persName>. Quod vero hactenus propositum illum laborem
+                    non absolverim, et desiderio multorum nostras observationes hisque innixus
+                    apodicticas conclusiones avide desiderantium non satisfecerim, in causa fuerunt
+                    plurima negotia, quibus tum Regis tum consanguineorum et amicorum nobilium causa
+                    interea temporis implicitus eram. Inprimis vero Architectonicæ curæ et in
+                    machinis Astronomicis exquisite elaborandis assiduæ occupationes me pensum
+                    inchoatum continuare et absolvere non permittebant. Spero tamen huic
+                    procrastinationi, Deo volente, brevi cum fænore satissactum iri. Sed videor
+                    Epistolæ metas, diutius tecum de hac materia, qua te delectari scio, conferendo,
+                    transcendisse, quam tamen prolixitatem tibi non ingratam esse confido. Tuum erit
+                    id quicquid est, boni consulere, et si quid præterea, vel ex proprijs, vel a<pb
+                        ed="A" n="16v"/>liorum præcipuorum placitis tibi de hac materia
+                    constiterit, vel scriptis editum fuerit, benevole mecum communicare, nostrique
+                    memoriam, <pb ed="TBOO" n="69"/> uti facis, conservare, et amicitiam literis
+                    non tam diu, ut hactenus, intermissis, renovare. Efficiam vicissim, ut nihil in
+                    me, quod ad candidi et constantis amici munus pertineat, uspiam a te desiderari
+                    possit. Vale. Datæ <placeName ref="Uraniborg">Uranienburg</placeName> in Insula
+                        <placeName ref="Øresund">Danici Hellesponti</placeName>
+                    <placeName ref="Hven">Huæna</placeName> die 12. Octobris Anno 1581.</p>
+                <p>T.<lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

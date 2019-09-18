@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. VII, Hauniæ 1924, p. 3-5</bibl>
+                    </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1571-05-18</date><placeName>Helsingborg</placeName></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-12" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="VII.3"/>
+            <head>TYCHO BRAHE AD ANDREAM SEVERINI VELLEJUM. S.</head>
+            <p>LITERAS tuas plenas dulcissimis consolationibus, quæ me ob Patris charissimi ex hac vita discessum magnis doloribus consternatum, non parum refecerunt, accepi et legi, quas etsi optarem de alia materia scribi potuisse, tamen illa quia præter omnium spem contigerat, gratæ mihi admodum fuêre, et licet multæ sint consolationes Theologicæ ex divinis sacrarum literarum oraculis petitæ, et Philosophicæ ex sorte communi hominum et sublunarium rerum instabilitate et vicissitudine perpetua desumtæ, quibus mentem afflictam <pb ed="TBOO" n="VII.4"/>et mæstam erigo, tamen non postum non summam consolationem inde capere, quod Pater tam suaviter et pie ex hac miseranda mortalium miseria migravit in cæles<!-- hertil -->tem et perpetuam patriam, vbi firmam mansionem et civitatem teste Paulo habemus, hic autem omnes sumus exules. Vix enim satis scribi potest, quanta fiducia et quanta levitate diem 5 obijt. Nam cum eodem die (quierat 9. Maij) ante meridiem astumfistet corpus et sanguinem filii Dei in Pane et Vino juxta testamentum et in­ stitutionem Christi Salvatoris nostri et se Sacræ scripturæ dictis adver­ sus mortis terrores et conscientiæ dolores magna cum fiducia munivisset, dormivit inde vsque in tempus meridianum vel paulo ultra, tunc io demum experrectus indicia dedit iam instantis agonis, quare omnes consternati accurrimus, advocanturque verbi divini ministri, qui eum consolarentur, et tunc incepit quasi obdormiscere; apertis demum oculis cum videret nos mæstos et lacrymantes lectum circumstantes, quæsivit,analiquaindiciaineomortisviderentur,ajebatenimsenontantos dolores sentire, quin prius longe majores perpestus sit: quidam nostrum responderunt, illum este admodum debilem, et nos timere, ne postet evadere; respondit: Igitur sinite me primum loqui cum vxore; qua adducta semimortua, habita ad eam gratiarum actione, quod tam bene et honeste secum in hac vita vixerit, ei valedixit, nobisque liberis 20 et alijs amicis eius curam commendavit, postea rursus clausis parum oculis concionatoris consolationes auscultavi qui cum multa prolixe diceret, ipse demum apertis oculis hæc verba protulit: Vnum adhuc loquivolo:DicitneDominusipse:Nolomortem peccatorissedpot sius vt convertatur et vivat. Hoc sine clausit ipsemet oculos et tam 25 suaviter expiravit, ut dubitaverint adstantes, an mortuus fuerit, solebat enim multo durius dormire quam tunc moriebatur, et in ipso agone nec corpus nec pedes nec brachia vel manus aut caput semel de loco movebat, sed ita placide et suaviter obdormiebat, quod ipsi concionatores testati fuerint, se nunquam placidiorem exitum ullius hominis 30 vidiste. Hic igitur felix et bonus Patris obitus me plurimum in dolori­ bus erigit et propterea etiam copiosius de eo scripsi, quod ipsa recor­ datio me quasi reficiat, et non dubito te haud illubenter et sine tædio hæc lecturum, iudico enim, nos hic tum demum bene vixiste, cum bene morimur. Laboravit autem duristime, ut scis, morbo, quem illi Hyposarca existimaverunt este, ego Hydropem ex pulmone, nam erat ei difficllis anhelitus, Iustis gravistima, tumor vanosque pedis maximus usque ad illa in brachijs macilentus, et quasi in ijs absumebatur, ut vulgariter loquar. Postremo his omnibus malis supervenit febris terti­ ana acutistima, |in cuius tertio paroxysmo extinguebatur die 9. huius 4v mensis, ut dixi, inter primam et 2dam pomeridianam in ipso puncto plenilunij. Æternus Deus eius animæ sit (vt est) misericors et det nobis <pb ed="TBOO" n="VII.5"/>omnibus felicem et salutarem ex hac calamitosa vita discessum propter filium mediatorem, Amen. Charissime M. ANDREA, scribis, ut mit­ tam tibi aquam quandam febribus curandis appropriatam, quam licet non habeam, nec scio te talem apud me vidisse, tamen non intermit-
+                5 tam,quinvobisremediumnonminusbonumquamcertumetfacile in tollendis febribus communicem, quod ab optimo amico Medico, qui hac ratione omnes febres excepta quartana sustulit, vix impetrare potui, licet ei quatuor secreta eius loco docueram. Id autem est tale: Accipe æquales partes ex his duabus herbis Centaurea et Carduo-
+                io benedicta et decoque in aqua alterius harum stillatitia vel aqua Cichoreæ aut etiam communi, demum huic decocto adde pulveris ali­ quid de inferiori mandibula Lupi piscis, et da ante paroxysinum, nec revela omnibus hanc medicinam, licet admodum levem et facilem, in effectu tamen certum et mirabile. Curantur etiam multi portantes in
+                is collo vivam araneam magnam testæ nucis inclusam, donec moriatur, idque remedio magnetico, hoc etiam vti potes. Scio autem alia secreta et certa remedia in tollendis febribus cuiusque generis, sed ea potius præsens communicare volo, si opus erit, quam literis scribere. Bene vale. Cantilenas remitto, iam enim potius est tempus flendi quam ca-
+                20 nendi.SalutaM.JOH.THOMÆmeonomine.Helsb.lS.MaijAnno71.</p>
+            <p>Tycho Brahe</p>
+        </div>
+        </body>
+    </text>
+</TEI>

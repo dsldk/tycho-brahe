@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Pratensis</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 23-24</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Pratensis</persName>
+                    <placeName>nCopenhagenil</placeName>
+                    <date when="1576-01-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1576-01-31</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-14" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.23"/>
+                <pb ed="A" n="4r"/>
+                <opener><persName ref="Pratensis">IOHANNES PRATENSIS</persName> AD TYCHONEM BRAHE. <lb/>SALUTEM ET OMNIA
+                    FAUSTA.</opener>
+                <p>RECEPI literas tuas, TYCHO optime, et pyxidem obsignatam cum pecunia, quam
+                    postera statim die <placeName ref="Rostock">Rostochium</placeName> misi; qui tulit, chirographum quitantiarium
+                    referet: cui quoque negotium dedi de vase tuo huc perferendo. Ubi venerit,
+                    diligenter curabo. Quam vellem te apud nos hîc esse: desiderio enim tui tangimur
+                    non parvo. Avet animus cognoscere ex te, quid rei in mundo agatur, quem nuper
+                    aliqua ex parte perlustrasti. Sumus hîc extra cœli Solisque vias, scenam
+                    mundanæ fabulæ vix audimus quidem, tantum abest ut spectatores simus. Sed
+                    fuerit hoc fatum Aquiloni debitum. Tu nuper reversus a fœcundo illo Austro,
+                    postquam nobis cœli aperuisses penetralia, prius inaccessa ignotaque, moxque
+                    nobis inscijs et inopinantibus in Austrum dilapsum sub mediam brumam, totam
+                    deinde perlustrasti Teutoniam, atque Italiæ vicinas oras, cumque viris doctis
+                    atque ingentibus ingentes et doctos miscuisti sermones: quæ tua semper fuit
+                    voluptas. Sed vereor, ne hi una cum iucundo placidoque Austro te istuc
+                    alliciant, ut tacite eo mediteris iter. Sic enim Genius mihi in somnis dictavit,
+                    susurrans, te <placeName ref="Basel">Basilæam</placeName> præ alijs <placeName ref="Germany">Germaniæ</placeName> urbibus exoptare vicinam <placeName ref="Italy">Italis</placeName>
+                    atque <placeName ref="France">Gallis</placeName>, ubi magnus ille <persName ref="Erasmus Roterodamus">ERASMUS</persName> olim floruit, et multi etiamnum eximij
+                    viri clarent. At mallem te, modo amplus ille tuus sic restringi posset Genius,
+                    nobiscum in hac manere patria, et rigidos Boreæ flatus una persentiscere, ac
+                    quantum in te est emollire, fi non prorsus avertere: aut saltem ut huius
+                    intemperiei socium patientem in te habeamus. Sed si omnino nos relinquere stat
+                    sententia, uti etiam forte meretur hæc tuo Genio atque ingenio minus apta
+                    intemperataque aura, et importuna conversatio: da saltem adhuc insigne aliquod
+                    tuarum doctrinarum specimen: quale id fuit, cum te ultimo a nobis
+                    inexpectantibus subducens reliquisti. Fecisti autem hoc (quod laudo, bonique
+                    omnes prædicant) in <persName ref="Frederik 2.">Regis</persName>, qui sic expetebat, gratiam, quod nemo ex illustri
+                    nobilitate Danica ante te præstitit unquam, nec, uti existimo, quispiam in
+                    posterum facturus, adeo ut tute primus et postremus sis, qui hanc laudis adoream
+                    tibi vendicaris, quibus istæ, quas tui ordinis homines affectant, gloriolæ
+                    comparari nequeunt. Si itaque hoc meritum <pb ed="A" n="4v"/> priori
+                    adjunxeris, ut antequam te carituri simus (vereor enim ne id fiat, licet tu
+                    propositum nos celes) nobis plura adhuc explanare non degravatus fueris, nos
+                    beatiores quam antea reddideris, tibique adhuc plus devinxeris. Et si id
+                    commodum <pb ed="TBOO" n="24"/>tibi non fuerit, saltem de Hypothesibus <persName ref="Ptolemaios">PTOLEMÆI</persName> et
+                    <persName ref="Copernicus">COPERNICI</persName> nos summatim instrue, quænam harum verior sit, et utrum ulli earum
+                    acquiescendum, an vero potius Ptolemaica assumptio sit castiganda, prout a te
+                    factum est, et Copernicea ad stabilitatem Terræ convertenda, uti etiam
+                    insinuasti tuoque sic nobis præluxisti ingenio: aut si quid aliud in his
+                    secretioris cognitionis, quod nos fugiat, animo volvis, impertiaris quæso. Quin
+                    et hoc ex te scire aveo, idque ego solus, utpote qui in prælectione publica II libri <persName ref="Plinius maior">PLINIJ</persName> de mundo circa hunc nodum resolvendum
+                    non parum hæserim: quomodo videlicet intelligendum sit, quod dictus autor in
+                    fine XVI cap. ea, quæ in Stationibus et Regressibus Planetarum videmus per
+                    inhibitionem et repercussionem radiorum Solarium fieri, ubi epicyclos omnes
+                    tollere videtur, ac si veteribus in usu non fuissent, mirabili sane invento,
+                    a se, uti tandem insinuare videtur, primum comperto, si modo res hæc ipsi cœlo
+                    congrua sit, et suis numeris constare possit, quod tibi per otium dispiciendum
+                    relinquo. Locus, quem indicavi, te de pluribus admonebit. Haberem et plura eius generis, de
+                    quibus avide tecum conferre cuperem, et nisi hyems et invalitudo ob continuas in
+                    pulmonem defluxiones mihi obstaret, ad vos in Scaniam transirem, atque ibi
+                    tecum, quæ nostra est voluptas, aliquandiu suaviter philosopharer. Sed, o spes
+                    hominum fluxæ et irritæ. Cogimur sæpe esse ubi nolumus, et rapimur eo, quo
+                    non ire deliberavimus. Verum optime mi TYCHO, amplius detinere te nolo. Tu fac nos hîc <placeName ref="Copenhagen">Haffniæ</placeName> brevi tua præsentia exhilares, atque ingeniorum nostrorum
+                    radios, iam lumen remittentes, et in crepusculum tendentes vespertinum,
+                    illustres ac vegetiores reddas, animisque nostris sacer, uti soles, illabaris.
+                    Iamque vale, et fratrem tuum, aliosque qui tecum sunt, sanguine iunctos ex me
+                    officiose saluta. Dabantur Haffniæ ult. die Ianuarij Anno 1576.</p>
+                <p>T.<lb/>IOH. PRATENSIS.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

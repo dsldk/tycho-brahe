@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 52-53</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Hven</placeName>
+                    <date when="1579"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Hieronymus Wolf</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1579</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.52"/>
+                <pb ed="A" n="70r"/>
+                <opener>TYCHO BRAHE AD <persName ref="Wolf, Hieronymus">HIERONYMUM WOLFIUM</persName>.</opener>
+                <p>S. <pb ed="nil" n="70r"/>REDDITÆ mihi sunt literæ tuæ, doctissime et amantissime
+                    Domine WOLFI, quas circa finem Martij huius anni ad me dedisti, quæ non minimum
+                    mihi attulerunt voluptatem, quod ex ijs te pro ea ætatis et consuetæ valetudinis
+                    invalida ratione salvum et incolumem esse intelligerem. Scripta vero eorum, qui
+                    de Cometa aliquid in Germania publicârunt, quæ tunc temporis a <persName ref="Willer, Georg">WILLERO</persName> tam cito
+                    habere non potuisti, a Domino <persName ref="Hainzel, Paul">PAULO HAINZELIO</persName> recepi, in quibus præ cæteris
+                    placet <persName ref="Mästlin, Michael">MÆSTLINI</persName> diligentia et proxime ad veritatem accedens observatio eique
+                    innixa Mathematica demonstratio. Nec dubito, quin is, si limitibus ad instrumenta metallica magna et exquisita
+                    conficienda instructus esset, aliquid egregij ex observationibus in restituendis
+                    et corrigendis motibus cœlestium corporum moliretur. In Apogei certe anticipatione et Excentricitatis Solis augmento, tum etiam octavæ
+                    Sphæræ celeriori, quam existimat <persName ref="Copernicus">COPERNICUS</persName>, promotione, quantum ex ijs, quæ
+                    HAINZELIUS communicavit, percipio, a nostris inventis proximeque elapsis,
+                    aliquot annis sedulo factis observationibus non multum discrepat, ut latius ad
+                    Dominum HAINZELIUM perscripsi. Ephemerides eius, vel si quæ alia ab ipso
+                    publicata sunt, ad me transmittas velim. <pb ed="A" n="70v"/>Et, si is aliqua
+                    familiaritate tibi coniunctus est, ipsum etsi mihi
+                    ignotum meo nomine salutes quæso et ab ipso impetres, ut per occasionem mihi
+                    scribat, suasque observationes, si quas habet exactiores, mecum (si ita
+                    libuerit) communicet; ego vicissim idem ipsi præstiturus sum et ipsius conatus,
+                    quacunque ratione licuerit, promovere studebo. Si vero interea aliquot Scripta
+                    de Cometa illo adeptus es præter ea, quæ ad me misit Dn. HAINZELIUS, peto ut
+                    mihi illa, qualiacunque sint, transmittere non graveris. Ego propter varias
+                    occupationes tam Regis, quam amicorum nomine incidentes, inprimis vero propter
+                    ædificationem et œconomiæ novæ instituendæ <pb ed="TBOO" n="VII.53"/>molestias, quibus
+                    implicor, ea quæ de hoc Cometa concepi, et quæ ex observationibus certis
+                    demonstrare satago, nondum absolvere potui. Spero tamen per otium hybernum, Deo volente, me id effecturum, ubi et alia
+                    quædam, quæ Astronomiæ erratis corrigendis opportuna sunt, elaborare animus est.
+                    Huic enim studio vacare inter plurimas alias occupationes non intermittam, et
+                    instrumenta huic negotio idonea partim parata habeo, partim indies parari curo,
+                    quæ et magnitudine et habilitate et diligenti elaboratione mechanicæ veterum et
+                    recentiorum Astronomiæ tractationi, sumtu magno, labore diuturno, confectione
+                    exquisita minime cessura confido. Ædificationis vero nostræ structuram ita
+                    adornavi, ut his utendis sideribusque commode in ea observandis quam maxime
+                    competat. Eam enim ob causam in hanc Insulam secessi, ut Philosophiæ et
+                    Astronomicis exercitijs libere operam navare possim; et quanquam præteritis
+                    proxime annis ob ædificationum molestias nonnihil in his strenue exequendis
+                    impeditus fuerim, tamen spero, <pb ed="A" n="71r"/>me in posterum (si Deus
+                    vitam et vires suppeditaverit) maiori commoditate, quam interea paro, id
+                    recompensaturum. Hæc ad te perscribere hoc tempore placuit, ne hic doctissimus
+                    vir Μ. <persName ref="Vedel">ANDREAS SEVERINI</persName> mihi familiaritate iunctus ad te pari ratione mihi
+                    devinctum sine nostris literis veniret. Is enim, cum se causa lustrandi quasdam
+                    in Germania Bibliothecas per aliquod tempus discurrere velle proposuisset,
+                    Augustam etiam ad vos se abiturum aiebat. Peto itaque, ut si qua in re ipsius
+                    desideria promovere possis, efficias, ut sentiat, te non solum TYCHONIS, sed
+                    eius insuper amici amicum esse. Bene vale carissime WOLFI, et quavis data occasione mihi scribere et quod saltem
+                    licet, calamo et charta gratam amicitiæ nostræ memoriam conservare ne
+                    intermittas; ego vicissim nullam occasionem frustra præterlabi sinam, quin
+                    intellifas, me tui perpetuo amantissimum permanere. Iterum quam felicissime et
+                    diutissime vale, mi carissime WOLFI. Datæ in Insula nostra Huæna 1579. </p>
+                <p>T.<lb/>Tycho Brahe.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

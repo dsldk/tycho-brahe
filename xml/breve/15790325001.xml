@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Paul Hainzel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 49-50</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Paul Hainzel</persName>
+                    <placeName>Augsburg</placeName>
+                    <date when="1579-03-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1579-03-25</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-19" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.49"/>
+                <pb ed="A" n="62v"/>
+                <opener><persName ref="Hainzel, Paul">PAULUS HAINTZELIUS</persName> AD TYCHONEM
+                    BRAHE.</opener>
+                <p>NIHIL sane opus erat, amantissime mi TYCHO, tam accurata apud me de intermissione
+                    literarum excusatione uti, cum tu me eiusdem negligentiæ accusare possis. Verum
+                    cum nec ipse tu, quanta ex Latini sermonis paupertate laborem, ignores, <pb
+                        ed="A" n="63r"/>et egomet mihi plane sim conscius, quanta difficultate,
+                    præsertim ad homines doctos, tuique similes scribam, ne mirere, si vel rariores,
+                    vel breviores, quam expectas a me, tibi reddantur. Nisi enim habeam, quod vel te
+                    scire tua vel utriusque nostrum intersit, nihil est, quod a me expectes. Illud
+                    saltem cave, ne propterea quicquam de meo erga te amore detractum suspicere. De
+                    me, mearumque rerum statu scias, me, Dei omnipotentis beneficio, cum tota
+                    familia recte valere, filioque (ab hinc anno secundo, nimirum 1577, mense
+                    Septembri die 14, hora forte 7 3/4 post meridiem) auctum esse; reliqua veteri
+                    adhuc loco sita sunt, nisi quod præterito anno filiam meam <persName
+                        ref="Hainzel, Elisabeth">ELIZABETHAM</persName>, maiorem natu, cum iuvene
+                    huius urbis (cui nomen est <persName ref="Jenisch, Melchior">MELCHIORI
+                        IENISCH</persName>) despondi, quorum nuptiæ die 13. mensis Octobris, quod
+                    felix faustumque sit, celebratæ sunt, cum tuæ mihi plenæ humanitatis literæ iam
+                    ante mensem essent redditæ, quibus ego quod in hunc usque diem non respondi, non
+                    mea, sed eius, qui tuas mihi reddidit, culpa factum est. Is namque me inscio
+                    hinc discessit, et sine meis literis, secus quam promiserat, ad vos re<pb
+                        ed="TBOO" n="VII.50"/>dijt, cuius rei optimus mihi testis esse potest
+                        <persName ref="Laurentius">LAURENTIUS</persName>, hospes tuus.</p>
+                <p rend="indent">Observationes Cometæ, quas a me petis, ego sane nullas feci, cum
+                    nulla idonea ad observandum instrumenta nunc habeam. Aliorum vero observationes
+                    et scripta, quæ passim in Germania et alibi de hoc Cometa publicata sunt et ad
+                    nos pervenerunt, tibique transmitti expetis (quorum certe magnus est numerus)
+                    eorum ego tibi aliquot unâ mitto. Sed mehercule non magnopere lectione, et quæ
+                    tanto itineris spatio perferantur, digna sunt, exceptis observationibus M.
+                        <persName ref="Mästlin, Miichael">MICHÆLIS MÆSTLINI</persName>, <pb ed="A"
+                        n="63v"/><persName ref="Gemma">CORNELIJ GEMMÆ</persName>
+                    Louaniensis, et <persName ref="Röslin, Elisæus">ELISÆI RŒSLINI</persName>, qui
+                    eundem Cometam (quemadmodum etiam tu existimas) non in Elementari, sed in
+                    Ætherea mundi regione situm atque generatum esse, certis demonstrationibus
+                    testantur, eiusque verum locum, motum, magnitudinem, apparitionem et
+                    exstinctionem commonstrare videntur. Sed <persName ref="Hagecius, Thaddaeus"
+                        >THADÆI HAGECIJ</persName> eiusdem Cometæ descriptio, et <persName
+                        ref="Wilhelm, Landgrave of Hessen">Landgravij</persName> diligens
+                    observatio, modo rite in calculum adhibita sit, longe diversum ab illorum et tua
+                    opinione et sententia statuunt atque sentiunt. MICHÆLIS MÆSTLINI Epistolas ad
+                    Dn. <persName ref="Wolf, Hieronymus">HIERONYMUM WOLFIUM</persName> scriptas, et
+                    ex his excerpta, item Landgravij observationem, si modo genuina est, hîc unâ
+                    mitto. His doctissime, humanissimeque mi TYCHO, valeas, et me, sive loquentem
+                    tecum per literas, sive etiam tacentem, manere tamen semper in eodem amore et
+                    benevolentia erga te tibi plane persuasum habeas. <persName
+                        ref="Hainzel, Johann Baptist">IOHANNES BAPTISTA</persName>, frater meus,
+                    salutem tibi plurimam hîc referri voluit. Iterum etiam atque etiam vale.
+                    Dabantur Augustæ 25. Martii An. 79.</p>
+                <p>T.<lb/>Paulus Haintzel.</p>
+            </div>
+            <div>
+                <p>Has saltem optimæ recordationis viri Pauli Haintzelij, Consulis Augustani,
+                    Astronomicarum rerum amantissimi, in cuius etiam horto Quadrantem illum maximum,
+                    cuius alias in meis scriptis fit mentio, extruximus, ternas saltem apponere
+                    licuit literas, licet plures ad me dederit, quæ perierunt, uti etiam nullum
+                    responsum inter chartas meas reperio eorum, quæ ad ipsum scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

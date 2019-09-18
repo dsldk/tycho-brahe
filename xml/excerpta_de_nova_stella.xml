@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Excerpta de nova stella</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vidob. lat. 13619</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. I, Hauniæ 1913, p. 141-142</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1573</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>astronomi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-06-17" who="#pz">Rå tekst indlagt</change>
+            <change when="2019-06-18" who="#pz">Opmærket og korrekturlæst</change>
+            <change when="2019-06-28" who="#pz">Tekstkritik indlagt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <head><pb ed="TBOO" n="I.141"/><pb ed="A" n="1r"/>DE NOVA STELLA. </head>
+                <p>EX LITERIS CUIUSDAM AMICI.</p>
+                
+                <p>SED quid sentis de noua ista et illustri stella, quæ nunc mensem plus minus in Cœlo
+                    conspicitur, cumque incognita hactenus sit stella, non tamen in morem Cometarum crinita aut
+                    barbata conspicitur? Præterea locum, in quo primo visa est, hactenus ne latum quidem digitum
+                    mutare obseruatur. Hæc mihi admiratione et consideratione digna uidentur. Datum XVI Decembris
+                    MDLXXII.</p><lb/>
+                
+                <p>EX ALIJS LITERIS AB EODEM SCRIPTIS.</p>
+                
+                <p>Miror vestrum Mathematicum stellam istam non videre, quæ hic pueris innotuerit, et extant de
+                    ea aliquot libellj ab eruditis editj. Visa est a nautis Hispanis in Octobrj præterito, et huc
+                    ad nos perscriptum est. Varij varia præsagiunt, sed mihi reformationem Ecclesiæ et Reipublicæ
+                    significare videtur, quia stella est, non Cometa, qualis a condito mundo nulla visa est, nisi quæ
+                    Magis solis apparuit. Quæ tua sit sententia, libenter abs te cognoscerem. Metuo tamen, antequam
+                    hæc reformatio fiat, maiorem partem horum præsentis sæculi propter malitiam suam bello peste
+                    et fame interituram. Dat: XIIII Januarij LXXIII.</p><lb/>
+                
+                <p>EX LITERIS ALTERIUS AMICI.</p>
+                
+                <p>Ante menses fere tres conspecta est, de qua <app><lem resp="#TBOO">scribis</lem><rdg wit="#A">sribis</rdg></app>, noua et rutilans stella. Viri
+                    Astronomiæ <pb ed="A" n="1v"/>peritj statuunt hanc fore πρόδρομον <app><lem>(præcursorem)</lem><rdg><note>in marg.</note></rdg></app> filij Dei, fatales
+                    et vltimas mutationes generi humano portendere. Illuxit Christo nascente stella, quæ Dux
+                    itineris ex Oriente ad vrbem Bethlehemiticam Magos antecessit, tandem supra domum, in qua
+                    Christus fuit, constitit. Pia antiquitas censet fuisse Angelum. Certum est autem nunc quoque
+                    apparente rerum fine instante tempore vltimi Iuditij signa &amp; prodigia plurima in rerum natura
+                    euentura esse, sicut ipse Iesus Christus Dei filius prædixit, qui quidem futurum affirmat vt
+                    commoueantur virtutes Cœlorum &amp; nominatim signi peculiaris, quod vocat signum filij hominis
+                    in Cœlo Math. XXIIII, meminit. Id etsi quale futurum sit, alij aliter explicant, Crucem nimirum intelligentes, quæ mihi sane
+                    interpretatio haud probatur, sed probabilior esse videtur, vt ad gloriosum filij Dei Iesu Christi
+                    aduentum referamus, Tuum ut nobis comunices iuditium <app><lem resp="#TBOO">obsecro</lem><rdg wit="#A">obserro</rdg></app>, vtut est, non erit ἄσημον <app><lem>(sine
+                        signo)</lem><rdg><note>in marg.</note></rdg></app>. VI Febr. LXXIII.</p><lb/>
+                
+                <p>EX LITERIS TERTIJ AMICI.</p>
+                
+                <p>Amabo te (si tibi gratum est) hoc officij quem amorem pietatemque mutuam excitemus. Expedit
+                    enim, imo vero summopere necessarium <pb ed="TBOO" n="I.142"/>est in hac amoris refrigeratione (quam
+                    Christus postremis seculis imminere prædixit), eum omnj opera studioque ἀναζωπυρειν (accendere),
+                    eoque non tantum sacræ literæ δια τῆς του πνευματος διακονίας (per spiritus subministrationem),
+                    verum et insignis in summa axe refulgens stella secundi videlicet Christi aduentus prænuncia (vt
+                    ea, quæ Magis apparuit, <pb ed="A" n="2r"/>primi fuit) hortatur &amp; monet. Interea mundus
+                    secure hellvatur et præstatur. Dat. XI Feb. LXXIII.</p>
+                
+            </div>
+        </body>
+    </text>
+</TEI>

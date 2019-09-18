@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hieronymus Wolf</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 47-48</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hieronymus Wolf</persName>
+                    <placeName>Augsburg</placeName>
+                    <date when="1578-05-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1578-05-09</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-19" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.47"/>
+                <pb ed="A" n="68v"/>
+                <p>ET NATALIUM SPLENDORE ET INGENIJ PRÆSTANTISSIMO VIRO DN. TYCHONI BRAHÆO OTTONIDI, DOMINO ET AMICO SUO COLENDO.
+                    <lb/>S.</p>
+                <p>REDIERUNT e Dania vestra, Nobilissime Domine TYCHO, superiore anno <persName ref="Gemperle, Tobias">GEMPERLINUS</persName>,
+                    nuper <persName ref="Aurifaber">Aurifaber</persName>, quorum neuter me accessit, uterque tamen per alios salutem mihi
+                    tuo nomine dixit. Etsi autem speraveram te pro necessitudine nostra ne absentis
+                    quidem mei memoriam abiecturum, tamen cum astra non quidem exitium (id enim a
+                    religione nostra et saniore Philosophia esset alienum) sed vitæ saltem periculum
+                    superiore anno, te autore, mihi <pb ed="TBOO" n="VII.48"/>portenderint, minus miror, me
+                    utcunque viventem in mortuis abs te numerari, si forte prædictio illa apud te
+                    mollior fuit, quam mihi tunc indicare voluisti, ideoque supervacaneis litteris
+                    supersedisse. Memineris tamen, Ascendens meum necdum Saturni Anaretæ oppositum
+                    attigisse, quod ex tua quoque supputatione circa annum ætatis meæ 65 demum
+                    eveniet, quem etiam ob id ex Astrologicis ratiocinijs fatalem mihi esse insinuasti, a quo, ut conscius sis, si forte mea ætas et nostra colloquia tibi memoria
+                    exciderunt, adhuc triennio absum. Aiebas etiam fieri posse, ut directionem
+                    Horoscopi ad Trinum suum proprium circa annum 68 incidentem assequerer,
+                    plerumque id concedi ijs, qui Aquarium ascendentem obtinent, mihi revelasti,
+                    quando de his et similibus familiariter et iucunde sermones miscuimus, atque e
+                    thesauris tuis Astrologicis, quos alias in abscondito habes, mihi quædam impartiri
+                    voluisti, quorum etiamnum magna animi voluptate recordor. Quare cum adhuc et
+                    vivam et qualitercunque <pb ed="A"
+                        n="69r"/>valeam, quod te non ignorare  arbitror, qui tam probe meam Genesin et hinc pendentia fata nosti,
+                    quatenus humanæ subiacent industriæ, nullatenus eam tibi inhumanitatem tribuo,
+                    ut me, quamvis pauperem et genere ignobilem, sed a Musis ditatum et nobilitatum
+                    asperneris, vel superbiam, ut secundis rebus elatus, neminem tenuioris fortunæ
+                    hominem amicitia tua dignum existimes, vel calliditatem, ut benevolentiam pro
+                    tempore ex loco simules. Sed facessant hæc omnia, indigna generosa natura,
+                    qualem esse tuam e diutina nostra conversatione expertus sum, pleneque persuasum
+                    habeo. De me autem sic existimes velim, me tibi et viventem et mortuum fore
+                    amicum. Vale. <placeName ref="Augsburg">Augustæ Vindelicorum</placeName>. 9. Maij Anno 1578.</p>
+                <p><persName ref="Wolf, Hieronymus">Hieronymus Wolfius</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

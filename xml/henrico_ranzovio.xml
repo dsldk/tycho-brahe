@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Henrico Ranzovio</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <witness xml:id="A">
+                            <bibl>Tycho Brahe <title>Nobilissimo et amplissimo viro ... D. Henrico Ranzovio ... </title>, Uraniburgi 1585</bibl>
+                        </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 187-190</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1585</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>empty</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-02-18" who="#pz">Teksten indsat</change>
+            <change when="2019-02-25" who="#pz">korrekturlæst efter A. En del interpunktion og brug af versaler og ampassanter afviger fra TBOO</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body><div><pb ed="TBOO" n="IX.187"/><pb ed="A" n="1r"/>
+            <head rend="center">NOBILISSIMO ET AMPLISSIMO VIRO, SAPIENTIA ET ERVDITIONE INPRIMIS EXCELLENTI, D. HENRICO RANZOVIO POTENTISS. REGIS DANIÆ IN HOLSATIA VICARIO ET CONSILIARIO, PRÆFECTO ARCIS SEGEBERGÆ ET DOMINO IN BREDENBERGA &amp;c. ASTROLOGIÆ OMNIVMQVE LIBERALIVM DISCIPLINARVM EXCVLTORI <lb/>&amp; promotori laudatissimo, <lb/>Amico suo plurimum <lb/>Colendo.</head>
+            <lg><l>SALVE prælustris Majorum Henrice propago, </l>
+                <l rend="indent">Ranzouidumque jngens Fama, Columna, Decus; </l>
+                <l>Te quoque nunc Elegis mea Musa inuisit amicis, </l>
+                <l rend="indent">Dum claros Studijs Progenieque petit, </l><pb ed="TBOO" n="IX.188"/>
+                <l n="5">Stemmatis es siquidem nulli splendore secundus, </l>
+                <l rend="indent">Ingenijque ornas nobilitate Genus: </l>
+                <l>Es quoque Pieridum doctis nutritus in vlnis, </l>
+                <l rend="indent">Pocla vbi Pegaseo fonte canora bibis: </l>
+                <l>Testantur veluti Terras vulgata per omness </l>
+                <l rend="indent" n="10">Carmina, quæ generis sunt Monumenta tuj; </l>
+                <l>Ingenij tantam resonantia Carmina venam</l>
+                <l rend="indent">Vt referant ipsos ex Helicone sonos. </l>
+                <l>Ergò, quid obstabit, quin Versus, Vatis Amores, </l>
+                <l rend="indent">Ingenuo Vati, nostra Thalia feret?</l>
+                <l n="15">Adde, quòd Vraniam, reliquas quæ celsa Sorores </l>
+                <l rend="indent">Anteit, in precio, quale meretur, habes, </l>
+                <l>Quod te authore Liber toti sat comprobat Orbj, </l>
+                <l rend="indent">Sidera quo laudi Regibus esse doces: </l>
+                <l>Dum celebras, prima repetens <app><lem wit="A">ab</lem><rdg wit="TBOO">ob</rdg></app> origine Mundi, </l>
+                <l rend="indent" n="20">Astra quibus dederint celsa perenne Decus; </l>
+                <l>A veteri monumenta Poli nam ducis Adamo, </l>
+                <l rend="indent">Per Sethum, &amp; soboles &amp; per Enocha pium; </l>
+                <l>Vtque pater Thares, &amp; filius ipse Abrahamus</l>
+                <l rend="indent">Sidereas populos edocuere vias; </l>
+                <l n="25">Et quos præterea tibi pagina Sacra ministrat, </l>
+                <l rend="indent">Quosque etiam crebrò scripta profana ferunt: </l>
+                <l>Atlantem, Alcidem, Hermetem, Oriona, Prometheum, </l>
+                <l rend="indent">Et mora quos omnes longa referre foret; </l>
+                <l>Nam quibus ex astris olim Regumque Ducumque </l>
+                <l rend="indent" n="30">Claruit altus Honos, copia magna tibi est.</l><pb ed="A" n="1v"/>
+                <l>Nec saltem veteris, sed &amp; æui encomia nostri, </l>
+                <l rend="indent">Vraniæ in laudem, splendidiora refers; </l>
+                <l>Historiamque Poli sub tempora nostra propagas,</l>
+                <l rend="indent">Donec &amp; hinc laudem Rex FRIDERICVS habet: </l> 
+                <l n="35">Qui modò Danorum Populos Fascesque gubernans </l>
+                <l rend="indent">Et numero, &amp; pariter sorte Secundus, agit.</l>
+                <l>Hunc licet a reliquis, quibus alta per Æthera Fama est, </l>
+                <l rend="indent">Ordo æui statuat posteriore loco,</l>
+                <l>Dignior ille tamen primos numerarier inter, </l>
+                <l rend="indent" n="40">Temporis hoc series si pateretur, erat.</l>
+                <l>Huius enim auspicijs, si viribus Æthera quantis </l>
+                <l rend="indent">Dania conscendat, parua vbi Huæna jacet,</l>
+                <l>Sidereisque vijs quàm Machina multa parata est, </l>
+                <l rend="indent">Si videas, dices, Primus Is esse meret;</l>
+                <l n="45">Nullius Imperio Regis fateare necesse est, </l>
+                <l rend="indent">Excultos tanta sedulitate Polos.</l><pb ed="TBOO" n="IX.189"/>
+                <l>Cuius fama tuas siquidem peruenit ad aures, </l>
+                <l rend="indent">Intuitu vero fortè minora refert: </l>
+                <l>Quippè vocas speculam, quas Diuæ struximus Ædes, </l>
+                <l rend="indent" n="50">Vnde liquet, formam te latuisse Domus, </l>
+                <l>Ast tibi quò melius constet, sub Imagine quali </l>
+                <l rend="indent">Stent hîc cœlicolæ structa Theatra Deæ, </l>
+                <l>Artifici pictam calamo tibi mitto Figuram, </l>
+                <l rend="indent">Qua domus Vraniæ conspicienda patet. </l>
+                <l n="55">Exteriora quidem sic omnibus obuia pandit, </l>
+                <l rend="indent">Quæ capit interius, pingere, multa vetant; </l>
+                <l>Nam licet hæc aliquis cernat multumque diuque, </l>
+                <l rend="indent">Qui non Astrorum mystica Sacra capit, </l>
+                <l>Ille oculis subitò fiet quoque cæcus apertis, </l>
+                <l rend="indent" n="60">Vsque adeò jgnaros interiora latent; </l>
+                <l>Tu sed ea aspiciens, cui nota sat inclyta Diua est, </l>
+                <l rend="indent">Vestigia agnosces quotquot Olympus habet; </l> 
+                <l>Organa namque dicata Polo tot tantaque cernes, </l>
+                <l rend="indent">Qualia vix ætas condidit vlla prior; </l>
+                <l n="65">Seu spectes Formam, Artem, Materiamue, Laborem, </l>
+                <l rend="indent">Distinctos tenui seu sub amusse Gradus, </l> 
+                <l>Omnia sunt dices longè exactissima, nè qua,</l>
+                <l rend="indent">Sidera scrutanti, labe vacillet opus. </l>
+                <l>Tu modò quàm primum loca Danica nota reuisens</l>
+                <l rend="indent" n="70">Selandûm hospitio tecta propinqua subis, </l>
+                <l>Fac non displiceat leuis huc quin porthmis Huænam</l>
+                <l rend="indent">Te vehat, hîc forsan quod recreabit erit; </l>
+                <l>Aspicies coram, quibus jtur in Æthera Scalis, </l>
+                <l rend="indent">Quamque cita &amp; certa Sidera lege patent. <pb ed="A" n="2r"/></l>
+                <l n="75">Hîc quoque Vestrarum nosces Secreta Dearum, </l>
+                <l rend="indent">Qualia vix alio conspicienda loco; </l>
+                <l>Ingenuasque omnes cernes iactarier Artes, </l>
+                <l rend="indent">Multaque quæ Genio sint placitura tuo. </l>
+                <l>Et modò, nescio quid, velut alto præscia Cœlo</l>
+                <l rend="indent" n="80">Suggerit Vranie, quod citus hospes eris; </l>
+                <l>Omina vera sient, nec te mora longa retardet, </l>
+                <l rend="indent">Aduentum accelerent, ipsa vel Astra tuum; </l>
+                <l>Hunc spondet Studium; quo mecum Sidera scandis, </l>
+                <l rend="indent">Spondet &amp; hunc dudum sat stipulata Fides; </l>
+                <l n="85">Hæc quoque deficiant, quamuis rata singula constent,</l>
+                <l rend="indent">Ille vetus noster te mihi spondet Amor; </l>
+                <l>Qui multis dudum retrò numeratur ab Annis, </l>
+                <l rend="indent">Vrbs velut est testis Stipite dicta Rosæ: </l><pb ed="TBOO" n="IX.190"/>
+                <l>Hanc vbi transires, Dani Legatio Regis </l>
+                <l rend="indent" n="90">Mutua Amicitiæ fædera prima dedit; </l>
+                <l>Tunc cœlestis Amor, nobis innatus vtrinque, </l>
+                <l rend="indent">Nos in Amore etiam junxit vtrosque pari; </l>
+                <l>Qui modò perdurans crescit crescentibus annis, </l>
+                <l rend="indent">Constanti similis, quo satus ille, Polo. </l>
+                <l n="95">Hæc tibi Danorum celebris qua Porthmus Huænam </l>
+                <l rend="indent">Alluit, Astra mouens scribere Diua jubet, </l>
+                <l>Quæ te sincerè redamans tibi dicere Grates</l>
+                <l rend="indent">Atque optare suo nomine Fausta monet. </l>
+                <l>Viue diu incolumis Musarum Fautor &amp; Hospes, </l>
+                <l rend="indent" n="100">Vraniæ celebris per Sacra, viue diu. </l>
+                <l>Egregiosque velut spectas longo ordine Natos, </l>
+                <l rend="indent">Quos Virtus, Probitas, Ingeniumque beant, </l>
+                <l>Crescentes pariter Virtutis laude Nepotes</l>
+                <l rend="indent">Vt videas, <app><lem wit="A">Superos</lem><rdg wit="TBOO">Supera</rdg></app> Musa nouena rogat, </l>
+                <l n="105">Vrania antè alias multum tibi chara Sorores, </l>
+                <l rend="indent">Te post ipsa etiam viuere fata cupit. </l>
+                <l>Hoc pariter, tibi qui multùm fauet, optat Apollo, </l>
+                <l rend="indent">Optima quæque simul docta Minerua volet. </l> 
+                <l>Nec saltem Superi, mortales insuper orant, </l>
+                <l rend="indent" n="110">Vt diuturna tibi stamina Parca neat. </l>
+                <l>Ipse quoque addictos non vltimus inter Amicos</l>
+                <l rend="indent">Cum facili eueniat longa Senecta precor. </l>
+                <l>Et modò quod superest, Felix cum Coniuge chara,</l>
+                <l rend="indent">Cumque tua tota Prole, domoque Vale. </l>                        
+            </lg>
+            <closer rend="center"><hi rend="it">Datum VRANIBVRGI <lb/>Kal. Martii Anno 1585.
+                <lb/>Tuus TYCHO BRAHE.</hi></closer>
+        </div>
+        </body>
+    </text>
+</TEI>

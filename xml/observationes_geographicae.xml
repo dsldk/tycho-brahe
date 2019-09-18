@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Observationes geographicae</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Gamle Kongelige Samling</collection>
+                                <idno>1825 4to</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10688.3.4</idno>
+                                <msName>empty</msName>
+                            </msIdentifier></msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. V, Hauniæ 1923, p. 294-300</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1578-1579 (?)</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>geografi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-09-03" who="#pz">Rå tekst indlagt, de to første sider mangler i skanningen</change>
+            <change when="2019-09-04" who="#pz">Det manglende indtastet. Opmærkning påbegyndt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front></front>
+        <body><pb ed="TBOO" n="V.294"/>
+            <opener>OBSERVATIONES GEOGRAPHICÆ.</opener>
+            <div><pb ed="A" n="96v"/><p>OBSERUATIONES GEOGRAPHICÆ IN INSULA HUÆNA FACTÆ.</p>
+            <p>I. Respectu ipsius domus Vraniæ</p>
+                <table>
+                    <row>
+                        <cell></cell>
+                        <cell>Azimut.</cell>
+                        <cell>Distantiæ Horiz.</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Haffnia</cell>
+                        <cell>17. 0 OCC.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>) 47. 0</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Malmogia</cell>
+                        <cell>30. 0 Or.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>) 24. 30 )</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Lunda</cell>
+                        <cell>54. 30 OR.</cell>
+                        <cell></cell>
+                        <cell>35. 15</cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>) 10. 45 )</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Coronia</cell>
+                        <cell>65. 15 OR.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>) 114. 45</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Helsingb.</cell>
+                        <cell>in Septent.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell>) 17. 30</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Helsingora</cell>
+                        <cell>17. 30 ab OCC.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell>Templum</cell>
+                        <cell>13. 25 ab OCC. versus Sept.</cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </table><lb/>
+       <p>Ex colle qui est cum Malmogia respectu domus in eodem Azimuto per radium interiacet</p>
+                <table>
+                    <row>
+                        <cell>Hafnia</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 51<hi rend="sup">g</hi> 0<hi rend="sup">m</hi></cell>
+                    </row>
+                    <row>
+                        <cell>Malmogia</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>)) 25. 30</cell>
+                    </row>
+                    <row>
+                        <cell>Lunda</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 43. 50</cell>
+                    </row>
+                    <row>
+                        <cell>Coronia</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 110. 20</cell>
+                    </row>
+                    <row>
+                        <cell>Helsingburg</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>27. 15</cell>
+                    </row>
+                    <row>
+                        <cell>Domus</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>18. 0</cell>
+                    </row>
+                    <row>
+                        <cell>Templum</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>113. 0</cell>
+                    </row>
+                    <row>
+                        <cell>Hafnia</cell>
+                        <cell></cell>
+                    </row>
+                </table>
+                <p><pb ed="A" n="97r"/>Inter pontem Helsingburgensem &amp; vltimum pontem Helsingoer sunt vlnæ 7950, pedes vero 15900, faden 2650 quarum vna facit tres vlnas lubecenses, vna vero vlna duos pedes.</p><lb/>
+                <p>In templo Huænæ dist. Horiz.</p>
+                <table>
+                    <row>
+                        <cell>Hafnia</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 46. 10</cell>
+                    </row>
+                    <row>
+                        <cell>Malmog.</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 23. 45</cell>
+                    </row>
+                    <row>
+                        <cell>Lunda</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>)11. 40</cell>
+                    </row>
+                    <row>
+                        <cell>Landskr.</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 110. 40</cell>
+                    </row>
+                    <row>
+                        <cell>Helsingburg</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 18. 35</cell>
+                    </row>
+                    <row>
+                        <cell>Helsingör</cell>
+                        <cell></cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>) 149. 40</cell>
+                    </row>
+                    <row>
+                        <cell>Hafnia</cell>
+                        <cell></cell>
+                    </row>
+                </table>
+                <p>A colle Malmogensi ad domum passus maiores 1280<lb/>A domo af templum passus maiores 830</p><lb/>
+                
+                <p><pb ed="TBOO" n="V.295"/><pb ed="A" n="97v"/>Respectu Vraniburg in media Huænæ sitæ</p>
+                <table>
+                    <row>
+                        <cell>Est Hafnia in Azimuto</cell>
+                        <cell>17. 0 OCC.</cell>
+                    </row>
+                    <row>
+                        <cell>Malmogia</cell>
+                        <cell>30. 0 OR</cell>
+                    </row>
+                    <row>
+                        <cell>Lunda</cell>
+                        <cell>54. 30 OR.</cell>
+                    </row>
+                    <row>
+                        <cell>L'kronia</cell>
+                        <cell>65. 15 OR.</cell>
+                    </row>
+                    <row>
+                        <cell>Helsingburg</cell>
+                        <cell>in ipsa Sept. 90</cell>
+                    </row>
+                    <row>
+                        <cell>Helsingora a Sept.</cell>
+                        <cell>17½ in occasu,</cell>
+                    </row>
+                </table>
+                <lb/>
+                <p>Observationes distantiarum horizontalium factæ in colle Huenensi in recta linea inter Malmogiam &amp; obseruatorium paruum sito.</p>
+                <table>
+                    <row>
+                        <cell>Inter Hafniam &amp; Malmogiam</cell>
+                        <cell>51. 0</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Malmogiam &amp; Coroniam</cell>
+                        <cell>44. 0</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Coroniam &amp; Glumslöff</cell>
+                        <cell>59. 30</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Helsingburgum &amp; Glumslöff</cell>
+                        <cell>50. 45</cell>
+                    </row>
+                    <row>
+                        <cell>Inter domum &amp; Helsingburgum</cell>
+                        <cell>27. 20</cell>
+                    </row>
+                </table>
+                
+                <p>Inter collem obseruationis &amp; obseruatorium  paruum passus parui 2300, pedes vero 4600. </p>
+            </div>
+            <div><pb ed="A" n="98r"/><p>DISTANTIÆ IN TURRI HELSINGORÆ OBSERUATÆ.</p>
+                <table>
+                    <row>
+                        <cell>Vester næss oc kircken paa Hueen</cell>
+                        <cell>1. 58</cell>
+                    </row>
+                    <row>
+                        <cell>Kircken oc Vrania</cell>
+                        <cell>4. 22</cell>
+                    </row>
+                    <row>
+                        <cell>Vrania oc Hammer</cell>
+                        <cell>6. 4</cell>
+                    </row>
+                    <row>
+                        <cell>Vester næss oc Vrania</cell>
+                        <cell>6. 20</cell>
+                    </row>
+                    <row>
+                        <cell>Kircken oc Hammer</cell>
+                        <cell>10. 26</cell>
+                    </row>
+                    <row>
+                        <cell>Vester næss oc Hammer</cell>
+                        <cell>12. 24</cell>
+                    </row>
+                    <row>
+                        <cell>Landskrone oc Vrania</cell>
+                        <cell>17. 3</cell>
+                    </row>
+                    <row>
+                        <cell>Landskrone oc Hammer</cell>
+                        <cell>11. 2</cell>
+                    </row>
+                    <row>
+                        <cell>Landskrone oc Glomslöff</cell>
+                        <cell>12. 48</cell>
+                    </row>
+                    <row>
+                        <cell>Glomslöff oc it Træ imellom Gloms. oc Hels.</cell>
+                        <cell>11. 53</cell>
+                    </row>
+                    <row>
+                        <cell>Landskrone oc Træit</cell>
+                        <cell>24. 53</cell>
+                    </row>
+                    <row>
+                        <cell>Træit oc Helsingborg</cell>
+                        <cell>44. 32</cell>
+                    </row>
+                    <row>
+                        <cell></cell>
+                        <cell>-------</cell>
+                    </row>
+                    <row>
+                        <cell>Landskrone oc Helsingborg</cell>
+                        <cell>69. 25</cell>
+                    </row>
+                </table> 
+            </div>
+            
+            <div><p><pb ed="B"/>OBSERVATIONES DISTANTIÆ HORIZONTIS PER RADIUM ASTRON. FACTÆ STANDO IN TURRI ARCIS CRONEBURG.</p>
+                <table>
+                    <row>
+                        <cell></cell>
+                        <cell>G. M.</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Vraniburgum &amp; Arcem Landskron</cell>
+                        <cell>17 35</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Landsk. Arcem &amp; Orientalem partem Huænæ</cell>
+                        <cell>11 40</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Landsk. &amp; Occidentalem partem Huænæ</cell>
+                        <cell>23 50</cell>
+                    </row>
+                    <row>
+                        <cell>Ipsius insulæ diameter ab ortu in occ.</cell>
+                        <cell>12 40</cell>
+                    </row>
+                    <row>
+                        <cell>Inter occ. insulæ &amp; proximam Selandiam</cell>
+                        <cell>14 30</cell>
+                    </row>
+                    <row>
+                        <cell><pb ed="TBOO" n="V.296"/>Inter Landsk. Arcem &amp; proximam Selandiam</cell>
+                        <cell>38 30</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Vraniburg &amp;
+                            Templum</cell>
+                        <cell>4 30</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Vraniburg &amp; Occident. partem</cell>
+                        <cell>6 30</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Vraniburg &amp; Orient. partem</cell>
+                        <cell>6 10</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Templum &amp; Occidentalem partem</cell>
+                        <cell>2 10</cell>
+                    </row>
+                </table>
+                    <p>Per orientalem locum insulae intelligitur
+                            fere Hamera<lb/>Per occidentalem locus Klintorum apparens<lb/>Per locum Selandiæ puto
+                            Scoushoffuet vel fere 
+                    </p>
+                    <table><row>
+                        <cell>Ab occid. insulae ad locum duorum montium </cell>
+                        <cell>p. 32 quasi.</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Arcem Landskron &amp; Arcem Helsinb.</cell>
+                        <cell>p. 68 20</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Glumslöff (vt puto) &amp;
+                Landskron</cell>
+                        <cell>p. 12 0</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Glumslöff &amp; Helsing.</cell>
+                        <cell>p. 55 20</cell>
+                    </row>
+                    <row>
+                        <cell>Inter Kulden montes &amp; proxim......Selandiæ </cell>
+                        <cell>28 30</cell>
+                    </row>
+                </table></div>
+            <div><p><pb ed="A" n="98r"/> ANGULI POSITIONUM E
+                MEDIO ARCIS VRANIÆ AD EA LOCA QUÆ CIRCUMCIRCA SPECTARI POSSUNT E VERIFICATA MERIDIEI
+                LINEA DENUO DILIGENTER EXPLORATI (VBIQUE TURRES TEMPLORUM
+                MAIORES).</p>
+            <table><row><cell>Hafnia</cell> <cell>17. 18½ M. OCC.</cell></row>
+            <row><cell>Malmogia</cell> <cell>29. 45 M. OR.</cell></row>
+            <row><cell>Lunda</cell><cell> 53. 50 M. OR.</cell></row>
+            <row><cell>Coronia</cell> <cell>64. 42 M. OR.</cell></row>
+            <row><cell>Helsingburg</cell> <cell>0. 17½ S. OR.</cell></row>
+            <row><cell>Croneburg</cell> <cell>17. 29 S. OCC.</cell></row>
+            <row><cell>Helsingôr</cell> <cell>19. 37 S. OCC.</cell></row>
+            <row><cell>Laterna Kuldorum</cell> <cell>18. 47 S. OCC.</cell></row></table> 
+                
+                <p><pb ed="B"/>Hafnia particulariter G. M.</p>
+                <table><row><cell>Skibene</cell> <cell>14 30</cell><cell></cell></row>
+                    <row><cell>Slottet</cell> <cell>16 2</cell><cell></cell></row>
+                    <row><cell>H. gestes</cell> <cell>16 45</cell><cell>M. OCC.</cell></row>
+                    <row><cell>S Pers torn</cell><cell>17 30</cell><cell></cell></row>
+                    <row><cell>Vesten aff byen</cell> <cell>18 47</cell><cell></cell></row></table></div><!-- hertil -->
+            
+            <div><p>DISTANTIÆ IN PARUA TURRI HELSINGBURGENSI.</p>
+            <p>Helsingôrs kircke oc Vedbegs bierg 50. 2 Samme bierg oc Hafnia 18.</p>
+            <p>Helsingôr oc Hafnia 68. 7 Hafnia &amp; Vrania IO. 58 Hafnia &amp; templum Huenense 6. 13
+                Vrania &amp; Coronia 23.</p></div>
+            <div><p>
+                <pb n="297"/> EX MAGNA TURRI HELSINGB.</p>
+            <p>Helsingora oc Vedbecks bierg 49.</p>
+            <p>Biergit oc Hafnia 18. 4 Helsingôr oc Hafnia 67. 34 Hafnia oc Vrania IO.</p>
+            <p>Hafnia oc Hueens kircke 6. 8 Vester næss oc kircken 3. 8 Vrania oc Hammer 6. 24 Kircken
+                oc Vrania 4. 44 Vester næss oc Hammer 14. 13 Hammer oc Landskrone 17. 12 Landskrone oc
+                Vrania 23. 46 Inter maiorem turrim Helsingb. &amp; principium cæmeterij sunt 26 parui
+                passus, cæmeterium continet 8 p. a cæmeterio vero ad pontis extremum sunt 20 passus
+                parui. d is t a n t ia : in tu r r i c o r o n iæ o b s e r v a t æ .</p>
+            <p>Helsingôrs kircke oc Vrania 28.</p>
+            <p>Vir aque turris I. 24 Helsingborg oc Vrania 41.</p>
+            <p>Extrema ora Huenæ versus Helsingoram &amp; Vrania 7.</p>
+            <p>Helsingborg oc onborg <pb ed="nil" n="Kr"/> . 56 Extrema ora Huenæ versus Malmogiam &amp;
+                Vrania <pb ed="nil"/> . 12 Ambæ extremitates Huenæ 18.</p>
+            <p>Vrania oc kircken I. 28 Vrania oc lagaarden I. 33 Vrania oc Vedbegs bierg 37.</p>
+            <p>Biergit oc it Træ mod fkoffs hoffuit 30. 26 Træit oc Hafnia <pb ed="nil"/> . 32 Vrania
+                &amp; Hafnia 79. 18 Helsingôr oc Hafnia 107. 48 Hafnia &amp; Malmogia 58.</p>
+            <p>Malmogia &amp; Vrania 137. 28 Malmô oc Barsebeck 15. 2 Barsebeck oc Lund 15.</p>
+            <p>Malmô oc Lund 30. 47 Vrania oc Lund 168.</p>
+            <p>DISTANTIA! IN TURRI MALMOG. CAPTÆ.</p>
+            <p>Lund oc it Træ mod Landskrone 44. 8 Træit oc Landskrone 24. 2 <pb n="298"/> und [oc]
+                Landskrone 68.</p>
+            <p>Landskrone oc Vrania 9. 52 Lund oc Vrania 78. 2 Karhöit oc Vester næss 3. 48 Vester næss
+                oc Vrania I.</p>
+            <p>Karhöit oc Vrania 2 .</p>
+            <p>Vrania oc Vedbecks bierg 22.</p>
+            <p>Vedbegs bierg oc Hasma 21. 36 Vrania oc Hasma 44. <pb ed="nil"/> Vester næss oc kircken
+                similis at være it.</p>
+            <p>Longitudo Amagriæ 20.</p>
+            <p>Vndertagen den ende imellom saubby oc ferrebroen. Malmös slaat ligger lidt til suduest
+                sra kircken siden böier stranden sig ved Ilaatit vd mod suduest meer oc meer en siærings
+                vegs heden vd der esffer gaar hun mod synden.</p>
+            <p>MENSURATIONES INSULÆ HUENÆ IN TURRI VRANIÆ FACTÆ.</p>
+            <p>Kircke aaddens ende oc kircken 4.</p>
+            <p>Syndtborgs aadde saa vidi forn backen sig strecker, oc kircken 23.</p>
+            <p>Bondgarns aadden oc kircken 57.</p>
+            <p>Möllebecks vig oc kircken 103.</p>
+            <p>Aadden osten nest for möllebeck oc kircken 109.</p>
+            <p>Collis versus Malmogiam oc kircken 135.</p>
+            <p>Möllebecks vig oc collis Malmog. 32.</p>
+            <p>Collis Mai. oc beckvigs collis (hassue hoy) 16. 13 Möllebecks vig oc beckuigs collis 48.
+                33 Beckuigs collis (baffiiehoy) versus austrum oc kircken 151. 43 Hammer oc bulke vig
+                34.</p>
+            <p>Buske vig oc husuig 36.</p>
+            <p>Husvig oc Nörreborgs gierde 24.</p>
+            <p>Hammer oc kircken 167.</p>
+            <p>Bulkevig oc kircken 133.</p>
+            <p>Husvig oc kircken 97.</p>
+            <p>Nörreborgs gierde oc kircken 73.</p>
+            <p>Vester næss oc kircken 24.</p>
+            <p>Latitudo pagi 35.</p>
+            <p>Extremum pagi versus husvig oc kircken 65.</p>
+            <p>Medium pagi oc kircken 47.</p>
+            <p>Möllen oc kircken 29.</p>
+            <p>Det yderste mod lagaarden assdet Illic hus oc kircken 106. 34 Lagaardens dor oc kircken
+                107. 44 <pb ed="nil"/>
+                <pb n="299"/> MENSURATIONES INSULÆ HUENÆ IN TURRI HUENENSIS TEMPLI FACTÆ.</p>
+            <p>Era kircke aaddens ende neden ved stranden oc lili Husit 90.</p>
+            <p>Synderborg aadde oc husit 42. IO vndertagen det forn er meliora backen oc stranden
+                Bondgars aadden lira stranden oc Husit 45.</p>
+            <p>Möllebecks vig oc Husit 41.</p>
+            <p>Aadden fra vandit osten for möllebeck oc Husit 46.</p>
+            <p>Collis in recta linea inter obseruandum et Mai. oc Husit 56.</p>
+            <p>Collis non procul distans a beckuig (Bassile hoy) versus Mai. oc Husit 17.</p>
+            <p>Hammer oc Husit 14.</p>
+            <p>Hammers collis versus Coroniam <pb ed="nil"/> .</p>
+            <p>Den nordiste ais de tuende smaa höye hoss bulkene dersom de böie dennem aller mest hid at
+                oc husit 23. 6 Husvig oc Husit 39. 48 Extremum Arcis Nörreborg versus mare oc Husit
+                55.</p>
+            <p>Vester næss oc extremum pagi versus næss 69.</p>
+            <p>Idem extremum pagi oc husit 65.</p>
+            <p>Summa imellom Næssit oc Husit 134.</p>
+            <p>Longitudo pagi 42.</p>
+            <p>Extremum pagi versus molam oc Husit 22.</p>
+            <p>Medium pagi oc husit 43.</p>
+            <p>Millien oc husit 13.</p>
+            <p>Husit oc lagaards dor IO . 44 Det lille murede hus oc stiernehuss piller 2. 6 I d is t a
+                n t ia ; locum q u o r u n d a m in tu r r i h a f n ie n si o b s e r u a t e :.</p>
+            <p>D ista n t Malmogia &amp; Landskrone 70.</p>
+            <p>Malmö oc Lund eller forn siuntis at vere Lund dette kunde ieg icke klarligen see 20. 57
+                Lund oc Landskrone 49. 28 Malmö oc Landskrone 70. per obseruationem Landskrone oc
+                Karhöit 16. 19 Karhöit oc Vrania 4. 4 Landskrone oc Vrania 20.</p>
+            <p>Vrania oc kircken paa Hueen 2. 28 <pb n="30"/> arhöit oc kircken 6. 53 Vrania oc vester
+                næss 4. 52 Karhöit oc vester næss 8 . 54 Kircken oc vester næss 2. 2 HAFNIÆ E TURRI AD
+                D. VIRGINEM OBSERVATIO PER RADIUM ASTRONOMICUM DISTANTIARUM LOCORUM CIRCUMIACENTIUM ET
+                TNSULÆ HVÆNÆ Inter Uraniburgum &amp; Landfkroniam 20½Grati.</p>
+            <p>Inter Landscroniam &amp; Malmogiæ Turrim 71 Grati.</p>
+            <p>Inter Uraniburgum &amp; Turrim Malmogiensem 92 Gr.</p>
+            <p>Inter Turrim Malmogiensem et Templum amagrense dan. 56i G.</p>
+            <p>Inter templum amagrense danicum &amp; Coagiam 741 Gr.</p>
+            <p>Inter templum Brunshöy et Uraniburgum 761 G.</p>
+            <p>Alio die repetitæ.</p>
+            <p>Inter Carhöidam et Uraniburgum 4½ G.</p>
+            <p>Inter Uraniburgum &amp; templum hyænense 3 G.</p>
+            <p>Inter Carhöidam orientalem &amp; Promontorium Næsen occidentalem Insulae partem 9i½G.</p>
+            <p>Inter Carhöidam &amp; templum huænense 7.o G. ab Uraniburgo ad Landscroniam 20½ ab
+                Uranib. ad Malmogiæ Turrim 92 G. a Turri Malmogiense ad templum danicum Amagriæ 571 a
+                Templo Amagriense ad Coagiam civitatem 76 fere G.</p>
+            <p>Inter Templum onshöy et Uraniburgum 77i G. <pb ed="nil" n="Br"/> G. M.</p>
+            <p>Inter Roschildiam &amp; Bronshöy 33.</p>
+            <p>Inter Bruntzhöy et Templum in Hvæna 72.</p>
+            <p>Inter Templum Hvænæ et turrim Malmog. 90. 0' Inter Turrim Malmog. &amp; templum
+                Amagriense 73. ut puto Inter Malmogiam &amp; Landscroniam 70.</p>
+            <p>A Malmogia ad metam primam 43. 0' ab hac meta ad ipsum Hvænæ Templum 48.</p>
+            <p>Inter Coagiam &amp; Roschildiam 35. aliâs apparebat distantia 44.</p>
+            <p>Inter danicum templum Amagriæ &amp; metam vicinam Coagiæ 73. ab ista meta ad Templum</p>
+            <p>unfhöy 70.</p></div>
+        </body>
+    </text>
+</TEI>

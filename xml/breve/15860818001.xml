@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 110</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1586-08-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Peter Young</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586-08-18</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-28" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.110"/>
+                <pb ed="A" n="67"/>
+                <p><persName ref="Young">PETRO IUNIO</persName> TYCHO BRAHE. </p>
+                <p>EX quo Magnificentia tua, nuper mihi <placeName ref="Helsingør">Helsingoræ</placeName> præsenti, se ante reditum in
+                    patriam me in hac tenella <placeName ref="Hven">insula</placeName> certo certius invisuram, promittere non
+                    gravabatur, cumque omne promissum (veluti communiter fertur) in debitum abeat,
+                    idcirco non saltem obnixe petere, sed confidentius etiam exorare non dubito, ut
+                    T. M. me crastina luce (quam ipsa etiam commodam auram allaturam non obscure
+                    clara pollicentur astra) in hisce <placeName ref="Uraniborg">Uraniæ dicatis ædibus</placeName> invisere dedignari
+                    nolit; erit sane T. M. non saltem Serenissimi et potentissimi Regis sui nomine,
+                    sed etiam proprio, cum Musis sit addictissima, Uraniæ Musarum sorori non
+                    postremæ longe acceptissima, cuius etiam præsentiam tum <persName ref="Lange, Erik">ERICUS LANGIUS</persName>, tum
+                    etiam <persName ref="Gøye, Falk">FALCHO GOIE</persName>, viri nobiles et T. M. studiosissimi ambo, mecum sic avide
+                    præstolantur. Da itaque operam, ut votis nostris exoptatus respondeat eventus.
+                    Vale. Datæ Uraniburgi 18 Augusti 1586. </p>
+                <p>Tuæ Magnificentiæ studiosissimus <lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

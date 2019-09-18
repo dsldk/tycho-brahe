@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Heinrich Brucaeus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 92</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Heinrich Brucaeus</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1585-06-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1585-06-23</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-25" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.92"/>
+                <pb ed="A" n="87r"/>
+                <opener>TYCHONI BRAHE NOBILI DANO, MATHEMATICO CLARISSIMO, AMICO PERCHARO <persName ref="Brucaeus, Heinrich">HENRICUS
+                    BRUCÆUS</persName>.<lb/>S. P.</opener>
+                <p>ChARISSIME TYCHO, pecuniam qua <persName ref="Vitus">VITO</persName> Typorum
+                    fusori et mihi satisfieret, accepi. De Calendario per <persName ref="Morsing">tuorum aliquem</persName> edendo
+                    utrum sententiam mutâris, nescio; in tanta tamen iudiciorum incertitudine malim
+                    nihil tale edi, ne artis vanitas confirmetur. Quod si quid certi subesse
+                    iudicas, age, prodeat ille tuus in lucem, et declaret, se vel a te vel aliunde
+                    plus didicisse quam alij. Quanquam ego ab omnibus et laboratum esse hactenus
+                    frustra et in posterum laboratum iri existimem, rationibus meo iudicio, quæ
+                    refelli nequeant, id ipsum demonstrantibus. Cedam tamen, si videro, me a quoquam
+                    ipsis hisce prædictionibus vinci, nec quæram contra experientiam rationes. De
+                    Astrologi istius operibus facile arbitrabar, te ita sensurum, cum aliquot
+                    paginas inspexissem. Sic magnis voluminibus sæpe et claris titulis imponitur
+                    mundo. Nihil hisce nundinis prodijt Mathematicum, nec nostri Bibliopolæ quicquam
+                    attulerunt venale. Literas si quas Pragam mitti ad <persName
+                        ref="HAgecius, Thaddaeus">HAGECIUM</persName> velis, dabo operam ut
+                    deferantur. Legi tuos versus,</p>
+                <p>qui in <pb ed="A" n="887v"/><persName ref="Ptolemaios">PTOLEMÆUM</persName> et
+                        <persName ref="Copernicus">COPERNICUM</persName> scripti sunt, et
+                    inprimis mihi placuere. Præter enim carminis venustatem multa sunt eleganter
+                    inventa et erudite tradita. Vide, ut tuos Cometas brevi habeamus, cum iam sis
+                    instructus Typis. Quod si plura a VITO desideres, offert suam operam. In me
+                    quoque nec voluntatem nec studium defuisse agnosces. Tractatus noster de
+                    Crepusculis est in fine libri secundi de motu primo; eum si legas, non dubito
+                    placiturum. Bene vale Nobilissime amantissime TYCHO.
+                        <placeName ref="Rostock">Rostochij</placeName> pridie Iohannis An. Domini 1585. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

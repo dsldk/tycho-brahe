@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Thaddaeus Hagecius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.47</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 1145-147</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1588-11-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588-11-01</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-04" who="#pz">Filen etableret</change>
+            <change when="2019-04-05" who="#pz">tekst korrigeret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.144"/>
+                <pb ed="A" n="7v"/>
+                <opener>NOBILITATE GENERIS, VIRTUTE ET DOCTRINA PRÆSTANTI AC MATHEMATUM ILLUSTRATORI
+                    EXIMIO D. TYCHONI BRAHE DANO, INSULÆ <placeName ref="Hven">HUENÆ</placeName>
+                    DANICI HELLESPONTI DOMINO, D. ET AMICO OBSERVANDO.<lb/>S.</opener>
+                <p><pb ed="A" n="6v"/>NOBILISS. vir, domine et amice observande. Binas ab eo
+                    tempore, quo meus famulus abs te redijt, dedi ad te literas. Alteras Gallus
+                    quidam Mathematicus præstans, cuius nomen nunc non succurrit, reddere debuerat,
+                    alteras <placeName ref="Rostock">Rostochiensi</placeName> tabellario tradideram.
+                    Cum neutrarum facias mentionem, utrasque intercidisse conicio. Tuæ literæ cum
+                    libro abs te edito sub finem mensis Iulij sunt mihi redditæ. Et, profecto,
+                    fuerunt gratissimæ, quibus perlectis ad librum avidissime accessi et percurri,
+                    initio celeriter, ut generalem totius operis cognitionem haurirem. Vehementer,
+                    ita me Deus amet, eo sum oblectatus. Doleo autem, quod tum ob ætatem iam
+                    ingravescentem, tum ob curas domesticas ac professionem Medicam, quæ alimenta
+                    affert, illi studio amplius navare non possum; nihilominus aliorum in hoc studij
+                    genere laboribus mirifice delector.</p>
+                <p rend="indent">De tuo libro quod dicam habeo nihil, ita accurate omnia sunt abs te
+                    excussa et examinata, ut mea lima non egeant. Novam illam orbium cœlestium
+                    dispositionem nondum accuratius considerare potui. D. <persName
+                        ref="Curtius, Jacob">CURTIUS</persName> Cæsaris Consiliarius et
+                    Procancellarius Imperij, Mathematicus excellens et iudicio acri, fuit quoque
+                    vehementer tuo scripto delectatus. Cum eius iudicium de tuo libro requirerem,
+                    respondit non temere de hypothesibus iudicandum esse. Rem attentius
+                    considerandam esse. Te officiose salvere iussit, cohortarique, ut cœptum cursum
+                    non interrumpas. Inter alia dixit quoque te nimis multam fecisse mentionem et
+                    prædicasse nimium <persName ref="Winckler">VINCKLERUM</persName> illum hominem
+                    Astronomiæ rudissimum. Ex mea Dialexi integras pagellas descripsit, et pessime
+                    suo Cometæ Anni 77 accommodavit. In mea epistola ad <persName
+                        ref="Mylius, Martin">MYLIUM</persName> impressa adiunxeram in chartula, quid
+                    insuper nugatus fuisset de Cometa Anni 80. Adscribebat eidem parallaxin maximam
+                    15 fere grad. et tamen supra Lunam illum collocabat. Te hanc annotatiunculam meam
+                    non animadvertisse <pb ed="A" n="6v"/>existimo, alioquin dedolasses eum
+                    asperiori dolabro et pectine acriori depexuisses, aut plane præterijsses
+                    silentio, tanquam omnium indignissimum qui cæterorum, quorum abs te
+                    honorificentissima facta est mentio, latus clauderet. Sed valeat iste nugator et
+                    ardelio. Satis ipsemet propinavit se deridendum omnibus. <pb ed="TBOO" n="146"
+                    />Porro quod a me in plerisque dissentias, non fero moleste, mi TYCHO, neque
+                    tibi propterea succenseo, imo gratias ago maximas, quod tuo beneficio factus sim
+                    eruditior, et veritas abs te asserta est, iamque triumphat. Non mihi mea ita
+                    placent, nec meos partus ita diligo, ut in illis et errata et nevos aliquos non
+                    agnoscam, et cum possint abstergi, venustiorque forma induci, admittere nolim.
+                        <persName ref="Scultetus">SCULTETICUM</persName> ingenium mihi non est, qui
+                    quod aliquando candide meam de eius Cometa Anni 77 et de Calendarij sui editione
+                    sententiam tulerim, et quod nimium Papissare et cum Iesuitis colludere
+                    videretur, odium erga me concepit, et tum in literis ad amicos perscriptis, tum
+                    in suis istis nugacissimis Calendarijs suggillare non destitit, donec illi
+                    significari mandassem, desinat me lacessere, alioquin clausurum me ipsi os. Sic
+                    mea amica commonefactio in odium et simultatem erupit. Iam vero sibi temperat et
+                    sapit. Nuper enim per meum filium me salvere iussit. Ego vicissim dabo operam,
+                    ut et benevolum meum erga se animum, et redintegrandæ cum ipso amicitiæ
+                    cupidissimum esse liquido agnoscat. Hæc ideo commemoro, ut meum animum plane
+                    cognoscas.</p>
+                <p rend="indent">Meis lapsibus omnino patrocinari nec possum, nec debeo. Ac etsi
+                    contra tuas defensiones pro <persName ref="Mästlin, Michael">MÆSTLINO</persName>
+                    aliquid dici possit, tamen tuo iudicio repugnare nolo, tum etiam quod MÆSTLINUM
+                    ob insignem peritiam Mathematum mirifice diligo, tantumque tribuo, ut dicere
+                    ausim, sed absque aliorum invidia, scholas Germanicas, <persName
+                        ref="Praetorius">PRÆTORIO</persName> unico excepto, parem ipsi habere
+                    neminem. Hoc tantum adijcio, bona tua et MÆSTLINI pace, de ratione motuum
+                    Cometarum, quod Planetarum ideo certæ hypotheses sunt constitutæ, quia eorum
+                    motus integri <pb ed="A" n="7r"/>poterant animadverti, quomodo item accederent
+                    ad Solem aut ab eo regrederentur. At Cometæ non absolvunt suas periodos, neque
+                    certa lege accedunt ad Solem, et recedunt ab eodem. Itaque non videtur possibile
+                    motus eorum rationem explicare et veluti vincire certis legibus. Pulchram quidem
+                    et ingenuosam fuisse speculationem MÆSTLINI prædicas, et ego assentior. Sed
+                    pulchritudo et subtilitas veritati, virtuti in hac universitate omnium
+                    pulcherrimæ, anteferenda non est, quam veritatem nec MÆSTLINUM nec quemquam
+                    alium in Theoria Cometarum plane, quomodo aliorum Planetarum, video esse
+                    assequutum. Tendimus quidem eo omnes, maxime vero tu, qui ex professo iam
+                    tractas hoc argumentum, et iam ex hisce, quæ veluti fundamenta futuri ædificij
+                    posita esse video, multa profecto mihi de te polliceor, et Deum oro ut ad hæc
+                    Dei opera mirabilia illustranda longum satis curriculum vitæ concedere
+                    dignetur. Porro in calculo MÆSTLINI, quem tu sequeris, te commonefacere volui,
+                    ut inspicias, an ille in numeris alicubi lapsus sit, an vero nos fallamur, item
+                    an ea differentia notabilem in sequentibus errorem pariat. Inspexi meas <pb
+                        ed="TBOO" n="147"/>chartas, in quibus olim MÆSTLINI calculum a me examinatum
+                    reperi. Primum Epocham Commutationis mediæ ad diem 24 Novembris cum MÆSTLINO
+                    statuis 206 gr. 33'. Meus calculus habet tantum 206 gr. 18'. Æquationem
+                    Commutationis Cometæ habet MÆSTLINUS 5, 48', tu vero 5, 1 2/3. Item Æquationem
+                    Eccentri habet MÆSTLINUS O, 5. Sic et ego; tu vero 1, 18 1/3. Hæc fortassis
+                    levicula sunt. Videnda tamen, an in scopo ad quem tendimus, notabilem aliquam
+                    differentiam afferant. Mihi repetere et prosequi calculationem ob meas
+                    occupationes non licuit.</p>
+                <p rend="indent">De nova Stella nullos alios scriptores, præter illos quos in mea
+                    Dialexi vidisti adductos, cognovi.</p>
+                <p rend="indent"><persName ref="Apian">APIANI</persName> Astronomicum aliquando
+                    habui, et diligenter inquisivi an ex ipsius Datis in parallaxium cognitionem
+                    pervenire potuissem, verum insufficientia fuerunt eius Data. Alicubi diserte
+                    scribit parallaxim <pb ed="A" n="7v"/>Cometæ inveniri non posse, nisi prius
+                    distantia eius a Terra cognita fuerit, quod falsissimum esse nemo est qui
+                    ignoret. Ab APIANO igitur nihil est quod expectes. Hunc eruditum pulverem, in
+                    quo nos versamur, ille ne somniavit quidem. Eius artem sæpe <persName
+                        ref="Rheticus">RHETICUS</persName>, bonæ memoriæ, vocare solitus erat <foreign xml:lang="deu"><hi rend="it">faden
+                    Dunst</hi></foreign>.</p>
+                <p rend="indent"><persName ref="Pena">IOANNIS PENÆ</persName> Galli scriptum de
+                    Cometa nunquam vidi. Librum illum, quem olim tibi <placeName rend="Regensburg">Ratisbonæ</placeName> donaveram, ab eo
+                    tempore nunquam vidi, neque etiam authoris recordari possum. Lustrabam,
+                    Bibliothecas nostrates, invenire non potui. Eius loco mitto ad te olim expetitum
+                    librum <persName ref="Werner">VERNERI</persName> de Elementis Conicis, ubi etiam
+                    tractatulus de motu 8 Sphæræ et alia habentur. A <persName ref="Fabricius"
+                        >FABRICIO</persName> <placeName rend="Wien">Vienna</placeName> illum accepi, te salvere iubet. His quod addam
+                    habeo nihil, nisi ut feliciter valeas. Datæ <placeName ref="Prague"
+                        >Pragæ</placeName> die 1. Novemb. veteri stylo Anno 88.</p>
+                <p rend="indent">Literas quas scripsisti 17 Augusti ex mercatu <placeName
+                        ref="Frankfurt am Main">Francofordensi</placeName> accepi, una cum alijs ad
+                        <persName ref="Scultetus">SCULTETUM</persName>, quas illi <placeName
+                            ref="Görlitz">Gorlicium</placeName> misi.</p><lb/>
+                <p>T. studiosiss.<lb/><persName ref="Hagecius, Thaddaeus">THAD</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

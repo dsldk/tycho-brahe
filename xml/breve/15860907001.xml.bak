@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Thaddaeus Hagecius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.81</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 194</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1589-09-07"/><!-- ny stil -->
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589-09-07</date></creation><!-- ny stil -->
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-24" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.194"/>
+                <pb ed="A" n="19v"/>
+                <opener>NOBILISSIMO VIRO DOMINO TYCHONI BRAHE DANO, DOMINO ET AMICO OBSERVANDO.<lb/>URANIBURGI SEU IN HYENA INSULA.<lb/>S.</opener>
+                <p><pb ed="A" n="19r"/>NOBILISS. D. TYCHO, Domine et amice observande. Post discessum nobilis illius viri vestratis, qui falcones Imperatori nostro a
+                    Rege vestro attulerat, measque ad te literas perferre debuerat, binas ad te dedi
+                    literas, easque opera mei amici per <placeName ref="Dresden">Dresdam</placeName> curavi ad te perferendas; eas an
+                    acceperis, vehementer scire desidero, non quod magni alicuius momenti essent,
+                    sed ut cognosceres non mea culpa, sed iniqua sorte quadam accidere, quod meæ
+                    tibi vel tardius reddantur, vel penitus non perveniant ad te, quam fortunam,
+                    profecto, valde defleo. An igitur omnes meas huc usque adeoque librum <persName ref="Werner">VERNERI</persName>
+                    acceperis, magnopere rogo me edoceas. Tuum librum primum avide expecto, alij
+                    etiam, præsertim nobiliss. D. <persName ref="Curtius, Jacob">IACOBUS CURTIUS</persName>, Vicecancell. Imperij, eadem
+                    cupiditate expetunt. Etsi autem mihi in ista mea senili ætate (nam ad 1. Octob.
+                    si ita Deus volet, magnum climacterem complebo) ob studia medica et alias curas,
+                    in Astronomicis studijs versari non conceditur, tamen vehementer oblector,
+                    quoties facultas datur saltem inspiciendi aliorum lucubrationes. De Commentarijs
+                    <persName ref="Georgius Trapezuntius">TRAPEZUNTIJ</persName> quid nunc iudices, scire velim, num putes ex re scholarum fore, si
+                    initio saltem duo priores libri ederentur, postea reliqui.</p>
+                <p rend="indent">De rebus Gallicis vos istic melius. En quam nullum est scelus quantumvis
+                    horrendum, quod Monachus aggredi non audeat. Dixerim ego Monachos istos et
+                    Papistas Catholicos, non a fide sed verius, ut ita dicam, a Catholicitate omnium
+                    scelerum nominandos esse. Archid. <persName ref="Maximilian 3.">MAX</persName>. hodie Polonicos limites transcensurus
+                    esse dicitur. Expectabimus igitur illum huc intra dies non usque adeo multos;
+                    Deus faxit, ut sanus redeat ad nos. B. V. <placeName ref="Prague">Pragæ</placeName> die 7. Septembris novo stylo
+                    Anno 1589.</p><lb/>
+                <closer>T. studiosiss.<lb/>THAD.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

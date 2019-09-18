@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ante stellas restitutas</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.6</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness><witness xml:id="Mechanica">
+                        <bibl>Hand-written in several copies of Brahe's <title>Stellarum inerrantium restitutio</title></bibl></witness>
+                    <witness xml:id="Gass">
+                        <bibl>Pierre Gassendi, <title>Tychonis Brahei vita</title> Paris 1654</bibl></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. IX, Hauniæ 1927, p. 212</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1598</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-02" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="IX.212"/>
+                <pb ed="A" n="11r"/>
+                <head>ANTE STELLAS RESTITUTAS.</head>
+                <lg>
+                    <l><app><lem wit="A">HOS quoque Stelliferos capias, RUDOLPHE, labores,</lem><rdg><note>in aliquot exemplis operis variatum, scil.: <q>Hos quoque stelliferos cape, Princeps inclyte, fœtus</q> (Gass p. 176); <q>Hos quoque stelliferos, Matthia, suscipe fœtus</q> (in exemplo Vindobonensi Matthiae archiduci donato); <q>Hos quoque stelliferos, Dux inclyte, sume labores</q> (in exemplo Oxoniensi duci Venetorum donato et in exemplo Gottingensi, Henrico Julio duci donato); <q>Hos Atlanteos, Dux inclyte, sume labores</q> (in exemplo Gothano Friderico Wilhelmo proelectori Septemviratus Saxonici donato</note></rdg></app></l>
+                    <l rend="indent">Quos operosa diu noxque diesque dedit:</l>
+                    <l>Debuerant equidem, quibus orti fulgere in oris,</l>
+                    <l rend="indent">Et jubar hinc imos spargere ad antipodas:</l>
+                    <l n="5">Ni Superis aliter visum, qui fata gubernant,</l>
+                    <l rend="indent">VRANIÆque aliter, quæ sua sacra fovet,</l>
+                    <l>Nescia contemni, fraudari, odia invida, noxas,</l>
+                    <l rend="indent">Censurasque rudes, sorditiemque pati:</l>
+                    <l>Plurima quæque alias fanda atque infanda tulisset,</l>
+                    <l rend="indent" n="10">Regna nisi mallet nunc peregrina sequi,</l>
+                    <l>Nec peregrina tamen: Cœlum tota undique tellus</l>
+                    <l rend="indent">Suspicit, Æthereis invigilatque vijs.</l>
+                    <l>Prosperiora igitur Cœlestia Numina spondent:</l>
+                    <l rend="indent">Tanta nec ingratis sunt peritura locis.</l>
+                </lg>
+            </div>
+        </body>
+    </text>
+</TEI>

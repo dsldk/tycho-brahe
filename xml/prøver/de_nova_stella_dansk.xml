@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Om den nye stjerne</title>
+                <author>Tycho Brahe</author>
+                <editor role="translator">
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="translator">
+                    <name xml:id="cgt">
+                        <persName>
+                            <forename type="first">Christian Gorm</forename>
+                            <surname>Tortzen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor role="translator">
+                    <name xml:id="msj">
+                        <persName>
+                            <forename type="first">Minna</forename>
+                            <surname>Skafte Jensen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="SkafteJ">
+                        <bibl>"Den nye stjerne og den gamle verden. Anders Sørensen Vedels æredigt
+                            til Tycho Brahe", Elin Andersson, Erika Kihlman &amp; Maria Plaza
+                            (edd.): <title>Latinet i tiden. En festskrift till Hans Aili</title>,
+                            Stockholms Universitet 2014. (Acta Universitatis Stockholmiensis. Studia
+                            Latina Stockholmiensia 60.) 193-202.</bibl></witness>
+                    <witness xml:id="Zeeberg-1">
+                        <bibl>Peter Zeeberg, "En hilsen til en stor astronom", <title>Aigis,
+                                supplementum IV, Festskrift til Fritz S. Pedersen i anledning af
+                                hans 70 års fødselsdag</title>, 2015.</bibl></witness>
+                    <witness xml:id="Zeeberg-2">
+                        <bibl>Peter Zeeberg, "'Amico optimo!' Den indledende brevveksling fra Tycho
+                            Brahes bog om den nye stjerne (1573) i dansk oversættelse."
+                                <title>Aigis. Supplementum I: Festskrift til Chr. Gorm
+                                Tortzen</title>, 2011.</bibl></witness>
+                    <witness xml:id="Zeeberg-3">
+                        <bibl>Peter Zeeberg, "Tycho Brahes Uraniaelegi. Nyoversættelse, tekst og
+                            kommentarer", <title> Renæssanceforum 3</title>, 2007</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1573</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>astronomi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-21" who="#pz">Filen etableret; tekst indlagt v. 116 i
+                uraniaelegien med</change>
+            <change when="2019-02-26" who="#pz">breve og digte indlagt</change>
+            <change when="2019-05-15" who="#pz">CGT's tekster indlagt. Ændret: Linie > linje.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb ed="A" n="1r"/>
+            <pb ed="TBOO" n="I.3"/>
+            <titlePage>
+                <docTitle>
+                    <titlePart>Danskeren Tycho Brahes matematiske overvejelse over en ny stjerne,
+                        som aldrig i nogen tidsalders minde har vist sig, men nu for første gang
+                        blev observeret i november måned år 1572 efter Kristi fødsel.</titlePart>
+                    <titlePart>Hertil kommer &#x2013; foruden en nøjagtig beregning af en
+                        måneformørkelse i dette år og en elegant elegi til Urania &#x2013; også et
+                        dedikationsbrev, hvori den samme forfatter fremlægger en ny og lærd metode
+                        til at skrive meteorologiske dagbøger for yndere af begge slags astrologi.
+                        Modellen for det år, der nu går på hæld, har forfatteren med enestående flid
+                        udarbejdet og sammenskrevet, men den kunne på grund af vanskeligheden ved at
+                        trykke de skemaer, hvoraf værket næsten udelukkende består, af tidsnød ikke
+                        udgives på denne plads.</titlePart>
+                </docTitle>
+                <docImprint>Trykt af Lorens Benedict <lb/>København 1573.</docImprint>
+            </titlePage>
+            <pb ed="TBOO" n="I.5"/>
+            <pb ed="A" n="1v"/>
+            <div type="poem">
+                <head rend="center">Til den for sin fornemme gamle slægt <lb/>og for sin mangesidige
+                    lærdom <lb/>berømmelige unge mand Tycho Ottesen Brahe til Knudstrup, <lb/>min
+                    agtede ven.</head>
+                <lg rend="it">
+                    <l>At kunne føre sin slægt tilbage til fornemme aner</l>
+                    <l rend="indent">er for en adelig mand ikke den vigtigste dyd. </l>
+                    <l>Det kommer andetsteds fra, det supplerer alene din hæder </l>
+                    <l rend="indent">hvis du agter at nå storhedens højeste top. </l>
+                    <l n="5">Men at fylde sit sind med talenternes hellige stråler</l>
+                    <l rend="indent">er den indsats hvori virkelig adel består. </l>
+                    <l>Derfor, Tycho, beundrer vi dig der er dobbelt velsignet,</l>
+                    <l rend="indent">både med ældgammel slægt og med en evnerig ånd. </l>
+                    <l>Findes en æt så ærværdig blandt danskernes adel som netop</l>
+                    <l rend="indent" n="10">Brahernes urgamle slægt, Billernes fornemme blod? </l>
+                    <l>Det er fra dem dit hus har hentet sit højædle udspring, </l>
+                    <l rend="indent">men dit ædle geni overgår aner og slægt.</l>
+                    <l>Du har slukket din tørst ved samtlige Pallas’ kilder, </l>
+                    <l rend="indent">anvendt al din tid på at studere alt smukt.</l>
+                    <l n="15">Ja, hvorfor tøver du da med at lade de prægtige skrifter,</l>
+                    <l rend="indent">udsprunget af dit geni, fæste på højlærd papir?</l>
+                    <l>Tro mig, så vil man se dig overvældet med hæder </l>
+                    <l rend="indent">når omsider engang fremtiden fælder sin dom. </l>
+                    <l>Da vil din dygtighed hæve sig højt over himlenes kredse, </l>
+                    <l rend="indent" n="20">netop som stjernen du så, overgik himmelens lys. </l>
+                </lg>
+                <closer rend="center">Hans Frandsen, Ribe, <lb/>doktor fil. &amp; med.</closer>
+            </div>
+            <div type="letter">
+                <head><pb ed="A" n="2r"/><pb ed="TBOO" n="I.6"/>Til Tyge Brahe Ottesen til
+                    Knudstrup, den lærde og i sandhed ædle unge mand, fra Johannes Pratensis, læge. </head>
+                <p>Min ædle Tyge. For nylig havde du ladt dine hjemlige muser og din pyronomiske
+                    forskning bag dig og var på besøg hos mig i København. Vi talte, som vi plejer,
+                    løst og fast om vores fælles videnskabelige interesser, og blandt de mange
+                    vidnesbyrd om din store begavelse som du holder gemt derhjemme, fremdrog du en
+                    kalender over indeværende år, som du havde udformet efter en helt speciel og
+                    indsigtsfuld metode. Den gav du mig lov at læse, og da jeg fik studeret den
+                    nærmere, blev jeg særdeles begejstret og yderst opmuntret over hvad jeg så.
+                    Derfor opfordrede jeg dig straks indtrængende til at få den udgivet så også
+                    andre kunne betjene sig af dette nyttige og udbytterige værk. </p>
+                <p rend="indent">Det stod nemlig klart for mig at det indeholdt adskilligt som, hvis
+                    det blev offentliggjort, ville kaste nyt lys over astronomiske emner, ville
+                    korrigere meget inden for denne videnskab som hidtil har været tvivlsomt og
+                    uafklaret, og ville afdække mange fejltagelser som astronomer i almindelighed
+                    holder fast ved uden at vide bedre. For en ting er at du med glimrende eksempler
+                    forklarer alt det vanskelige som kun de færreste gennemskuer hos de fremragende
+                    forskere hvis forskrifter du følger &#x2013; så du på den måde giver et indblik
+                    i dem ligesom i Silenens skjulte indre. Men du fremlægger også dine egne
+                    observationer inden for begge former for astrologi, observationer der er meget
+                    præcise, og som du har ofret meget for at fremskaffe, såvel i form af de
+                    epokegørende nye instrumenter du har bygget, som det umådelige slid og de mange
+                    langtrukne nætter uden søvn du har brugt på det. </p>
+                <p rend="indent">Jeg rådede dig til at offentliggøre dem, men både dengang og
+                    adskillige gange senere stillede du dig meget lidt imødekommende, og du fremkom
+                    med nogle begrundelser som nok kunne være gode nok for dig, men som ikke rakte
+                    for mig &#x2013; tværtimod gjorde de mig endnu mere fast besluttet på min plan. </p>
+                <p rend="indent">For når du svarer at disse beskedne sider (som du formulerer det)
+                    ikke er skrevet med publikation for øje, men er rå og hurtigt nedkradsede
+                    skitseringer af dine overvejelser over disse emner, som du skal bevare for din
+                    egen skyld, men som ikke af den grund er værdige til at blive læst af
+                    offentligheden, så er det jo, min kære Tycho, et udslag af din beskedenhed. For
+                    jo højere du svinger dig op i din indsigt i disse skønne og sublime sager, <pb
+                        ed="A" n="2v"/>jo mere ydmygt optræder du også &#x2013; hvilket er et
+                    sikkert kendetegn på et lærd og virkelig ophøjet sind. </p>
+                <p rend="indent">På den anden side bør vi ikke altid tro sådan om os selv at det
+                    virker som om vi frakender vores venners helt korrekte opfattelser enhver
+                    troværdighed. Og du skal ikke tro at det bare er mig der er så forblindet af
+                    hengivenhed til dig at jeg ikke kan bedømme sagerne korrekt: Hvis du tror det,
+                    må du kaste et blik på hvad alle de fremragende lærde folk mener <pb ed="TBOO"
+                        n="I.7"/>som du ofte har hørt udtale sig, og som ofte har plaget dig om at
+                    publicere. </p>
+                <p rend="indent">Hvis du tænker på hvad formålet har været med dit arbejde, og
+                    hvilken ret forskningsverdenen kan siges at have til dine og alle andre
+                    videnskabsmænds arbejder, kan du jo dårligt mene at det her udelukkende er
+                    skrevet for din egen skyld. Når du fra naturens kilder har afledt nogle sideløb
+                    til dig selv, er det kun ret og rimeligt at du fører deres løb videre til andre,
+                    så længe ejendomsretten overholdes. Naturen er en rig moder, der skænker sine
+                    ægtefødte sønner en rundhåndet arv: et reservoir så uudtømmeligt at jo mere man
+                    øser op fra det og dirigerer videre til beslægtede ånder, jo rigere stråler
+                    væder det en selv med. </p>
+                <p rend="indent">Når du siger at det drejer sig om helt nye og hurtigt udtænkte
+                    skitser, så er jeg ganske klar over det, ja, fuldstændig klar over det. Jeg er
+                    jo en af de få der kender den omhu og præcision hvormed du udforsker andre af
+                    naturens mysterier, ikke mindst den spagyriske cabbala. Og uanset hvad: hvis et
+                    modent menneske udsender noget hurtigt udtænkt, kan det ikke undgå at være
+                    modent. For det er ikke altid at det længe gennemarbejdede også er det mest
+                    vellykkede. Der er stor forskel på hvordan det går til med de ting man udgiver:
+                    Nogle kræver lang tids udvikling før de er færdige, andre er om man så må sige,
+                    fri af tidens love og har umiddelbare resultater og løsninger. Og hvis de
+                    sidstnævnte får lov at lagre yderligere, bliver de ofte rodet sammen med nye og
+                    helt anderledes tiltag, med det resultat at de ender i en mindre vellykket
+                    omplantning. Derfor, ædle herre, giver jeg ikke op: Det jeg tidligere, da vi var
+                    sammen, opfordrede dig til mundtligt, vil jeg også nu hvor vi er langt fra
+                    hinanden, indtrængende opfordre dig til på skrift. Sig ja, Tycho! Sig ja! Jeg
+                    trygler og beder dig om ikke at afslå det som jeg så inderligt ønsker. </p>
+                <p rend="indent">Og hvis du har dine grunde til ikke at ville at udgive hele det
+                    lille værk &#x2013; som efterhånden har fået et temmelig stort omfang &#x2013;
+                    må jeg insistere på at du i det mindste går med til at publicere de uhyre lærde
+                    og i sandhed matematiske overvejelser du har vedlagt kalenderen om den nye og
+                    forunderlige stjerne i Cassiopeia (som i disse tider driller så mange store
+                    begavelser og kloge hoveder). Det er først og fremmest det alle ser frem til fra
+                    din hånd &#x2013; og som de har grund til at forvente i betragtning af din
+                    grundfæstede matematiske ekspertise, som de ved at kun de færreste
+                    videnskabsmænd kan måle sig med. </p>
+                <p rend="indent">Eftersom denne stjernes fremkomst er helt usædvanlig og aldeles
+                    forunderlig, og ikke stemmer med hvad almindelige filosoffer <pb ed="A" n="3r"
+                    />har forudsagt, kræver den en ualmindelig observator og udmåler. Jeg har set
+                    nogle skriverier af andre folk om det samme emne, som jeg har fået tilsendt
+                    andre steder fra (og som jeg sender videre til dig), men hvilken
+                    observationsmetode og hvilken argumentation de behandler dette omfattende emne
+                    med, det må de vist selv svare på. </p>
+                <p rend="indent">Derfor beder jeg dig som en ven om ikke at svigte folks begærlige
+                    forventninger på dette punkt. Tillad at dit genis lys, som er blevet optændt ved
+                    dette nye himmelske lys, kan vise vejen for de andre, de vildfarne. Lad, hellige
+                    mand, dine bevisers lys få plads i de gisnendes sjæle. </p>
+                <p rend="indent">Videre vil jeg foreslå at du sammen med afhandlingen om den nye
+                    stjerne &#x2013; såfremt du ikke tillader at kalenderen som helhed bliver
+                    udgivet &#x2013; trykker det brev om kalenderen hvori du på fornemste vis
+                    forklarer hele dens konstruktion og enestående metode. Jeg er nemlig <pb
+                        ed="TBOO" n="I.8"/>overbevist om at dette forord alene kan være astronomiens
+                    dyrkere til større nytte end alenlange afhandlinger fra andres hånd, for ud over
+                    det jeg her har nævnt, kommer du også ind på nogle af de centrale punkter inden
+                    for astrologien. Det drejer sig fx om den inddelingen af himmelen i otte huse,
+                    der adskiller sig fra andre opdelinger, også af himlen og af cirkler. Og også om
+                    de ulige timer i dyrekredsen, Månens huse (to af hvilke en god del af den
+                    ægyptiske videnskab afhænger af), og den hemmelige metode til fremskrivning af
+                    horoskopet ud fra månens konfigurationer. </p>
+                <p rend="indent">Det er de love for fremskrivning der måler stjernernes stille
+                    perioder i alle elementer og udbyttets opløsning, spiring, ophøjelse,
+                    foregribelse, forsinkelse og øvrige tidslige omplantninger. Hvis meteorologerne
+                    havde kendt disse regler bedre, ville vi have en sikrere viden om stjernernes
+                    virkning, og vi havde ikke så ofte uden grund skudt skylden på ustabiliteten i
+                    materien (der ellers, så snart den er lokket til af sin stjerne, er i smuk
+                    harmoni med den og følger den villigt) &#x2013; og det ville ikke ske så ofte at
+                    fejl hos inkompetente videnskabsmænd ødelagde skønheden ved videnskaben. </p>
+                <p rend="indent">Eftersom du rundt omkring i dit forord har indlagt grundlæggende
+                    betragtninger om alt dette og andet lignende, kunne jeg ønske mig at kommende
+                    astrologer ikke bliver forholdt disse særdeles nyttige oplysninger. Derudover
+                    kunne jeg ønske at du vil gøre mig den yderligere tjeneste at lade den beregning
+                    af måneformørkelsen i år som du har konstrueret ud fra såvel de alfonsinske som
+                    de kopernikanske beregninger samt fra dine egne observationer af
+                    himmellegemernes bevægelser &#x2013; og det så fornemt at den kan stå som den
+                    absolutte standard &#x2013; at du vil lade den følge det ovenstående sammen med
+                    din elegi om Urania, der kan danne en slags musisk slutvignet for alt det
+                    foregående.</p>
+                <p rend="indent">Ja, Tycho, nu kender du så grundtrækkene i min bøn til dig, <pb
+                        ed="A" n="3v"/>nu ved du hvad det er jeg beder dig om i dette brev. Hvis det
+                    jeg beder om, er passende, hvis det vil være til gavn for samfundet, hvis alle
+                    gode folk beder om det sammen med mig, så bør du opfylde disse ønsker fra en ven
+                    og med glæde skænke det astronomiske samfund den basis for forskningen som du
+                    skylder det. Vores venskab kræver at du gør det, din genius tilråder det, Urania
+                    forlanger det. Og hvis du afslår, vil Mercur for fremtiden nægte at låne dig sin
+                    stav. </p>
+                <p rend="indent">Farvel, og hils din onkel, den højadelige herre Sten Bille,
+                    musernes og al fri opfindsomheds lærdeste støtte her i Norden.</p>
+                <closer>København, d. 3. maj i året 1573 efter den frelsebringende fødsel.</closer>
+            </div>
+            <div type="letter">
+                <head><pb ed="A" n="4r"/><pb ed="TBOO" n="I.9"/>Til min gode ven dr. med. Johannes
+                    Pratensis fra Tycho Brahe Ottesen.</head>
+                <p rend="indent">Kære vidtberømte dr. Hans, min bedste ven! Jeg har modtaget dit
+                    brev, hvori du nu atter en gang, nu på skrift og på afstand, fortsætter med at
+                    bede mig om det samme som du og mange andre af vores lærde venner gang på gang
+                    opfordrede mig til da vi var sammen i København, nemlig at jeg ikke længere skal
+                    undslå mig for at trykke og offentliggøre den astrologiske og meteorologiske
+                    kalender som jeg udarbejdede i begyndelsen af sidste vinter. For at overtale mig
+                    fremlægger du mange både rimelige og vanskeligt afviselige argumenter. Men hvis
+                    jeg anvender min egen målestok, kan jeg stadig kun svare det jeg så ofte har
+                    svaret både dig og andre når I forlangte dette af mig: at dette skrift efter min
+                    mening ikke er gennemarbejdet så omhyggeligt og ikke har nået en sådan grad af
+                    færdiggørelse, at det fortjener at blive offentliggjort og anvendt af forskerne.
+                    Jeg har nemlig ikke påtaget mig dette arbejde med henblik på publikation, men
+                    udelukkende for at glæde mig selv og mine nærmeste venner med denne astrologiske
+                    og meteorologiske beskrivelse af de enkelte dage, som den nu foreligger. </p>
+                <p rend="indent">Efter hvad jeg har læst, skrev selv kejser Hadrian uden at skamme
+                    sig hvert år forudsigelser ud fra stjernerne. Men hvis jeg havde bestemt mig for
+                    at udgive den, ville jeg absolut have lagt større omhu i udarbejdelsen og
+                    medtaget adskillige ting som nu savnes rundt omkring, og som i al hastværket er
+                    forbigået i stilhed, ligesom jeg ville have gjort mig grundigere tanker om meget
+                    som uden større overvejelse er kommet med i farten. For at sige sandheden, er
+                    jeg ikke på alle punkter tilfreds med mit værk, og med alle de andre projekter
+                    jeg var optaget af, især mine spagyriske eksperimenter, var det heller ikke så
+                    let at præstere noget mere fuldendt og mere gennemarbejdet på så kort tid og om
+                    så vanskeligt et materiale, som kun de færreste indtil nu har behandlet korrekt. </p>
+                <p rend="indent">Men alt dette ser du anderledes positivt på &#x2013; enestående
+                    venlig som du altid er imod mig: Du fremhæver at mit skrift ganske vist er
+                    skrevet uden forberedelse og på grund af andre opgaver ikke er et fuldt færdigt
+                    arbejde, men alligevel er af en sådan kvalitet at det med udbytte kan læses af
+                    dem der beskæftiger sig med disse studier, og at der er meget i det <pb ed="A"
+                        n="4v"/>som vil være til stor glæde for yngre astronomer hvis det bliver
+                    publiceret. Men det vil jeg snarere tilskrive din venlige og oprigtige karakter,
+                    der får dig til at fortolke alt positivt, og din velvilje over for mig og min
+                    forskning, end jeg for alvor vil anerkende at jeg har har præsteret noget sådant
+                    i dette skrift. </p>
+                <p rend="indent">Men lad os bare sige at det kan læses <pb ed="TBOO" n="I.10"/>af
+                    astronomisk interesserede med et vist udbytte, hvad det så end er, og at det
+                    indeholder forskelligt der giver nyttige anvisninger med henblik på dybere
+                    udforskning af denne videnskab. Så vil jeg ikke af den grund modsætte mig en
+                    udgivelse. Men så er spørgsmålet: hvordan kan man på tryk gengive de mange
+                    forskellige afbildninger af ottekantede figurer der er vedføjet på første side
+                    og de komplicerede tegninger af fremskrivninger på anden side? For slet ikke at
+                    tale om de øvrige tegn og figurer af forskellig art der på tredje side anvendes
+                    til at angive de lysende himmellegemers opgang og nedgang og hvilke fiksstjerner
+                    der kommer til syne og forsvinder sammen med dem, eller på den fjerde viser de
+                    øvrige planeters og ledsagende fiksstjerners passage af horisonten og deres
+                    forhold såvel til hinanden, som til fiksstjernerne og til månen. Hvordan kan alt
+                    det uden videre gengives på tryk? Alle billederne skal skæres fra ny, og tegn og
+                    tal ordnes efter de forskellige stilarter og størrelser de har, hvilket betyder
+                    at der ville gå en betragtelig tid inden hele arbejdet kunne færdiggøres. </p>
+                <p rend="indent">Dertil kommer at det indeværende år, som jeg har indrettet
+                    kalenderen after, allerede er halvt gået, så man med en vis ret kan mene at den
+                    ville have mistet hele sin berettigelse hvis den blev publiceret nu. Det er,
+                    tror jeg, fordi disse vanskeligheder er gået op for dig, at du beder mig om
+                    &#x2013; hvis jeg ikke vil gå med til at trykke hele kalenderen &#x2013; så i
+                    det mindste at trykke det dedikationsbrev hvori jeg dedicerer dette lille værk
+                    til dyrkerne af begge former for astronomi. I dette brev er, siger du, hele
+                    kalenderens systematik præsenteret, og adskilligt fremstilles anderledes end det
+                    har været muligt efter de hidtil anerkendte antagelser. </p>
+                <p rend="indent">Det er ganske rigtigt. Og hvad der i selve kalenderen er udformet
+                    på en anden måde end det almindeligvis er tilfældet, det har jeg forklaret mere
+                    indgående i dette brev, mens jeg er gået let hen over, eller direkte har
+                    forbigået det almindeligt vedtagne. Men selve beskrivelsen i kalenderen er så
+                    tæt knyttet til brevet at man ikke kan forstå nogen af delene hvis man fjerner
+                    den ene. Der er meget af det der i brevet bliver forbigået eller kun kort
+                    berørt, som giver sig selv i selve kalenderen, men omvendt er der også meget af
+                    det der bliver noteret i kalenderen, som ikke uden videre kan forstås af hvem
+                    som helst uden forklaringen i brevet. Så du kan jo nok se, kære Pratensis, hvor
+                    meget der står i vejen for at jeg uden videre kan opfylde dine ønsker med hensyn
+                    til at publicere denne kalender.</p>
+                <p rend="indent"><pb ed="A" n="5r"/>Hvad angår den stjerne som sidste år begyndte at
+                    lyse i nærheden af Cassiopeia, beder du mig om &#x2013; hvis jeg ikke går med
+                    til at publicere hele kalenderen &#x2013; i det mindste at tillade at det jeg
+                    har skrevet om denne stjerne og anbragt foran selve kalenderen, bliver
+                    offentliggjort. Det er, siger du, et stort ønske som alle deler. </p>
+                <p rend="indent">Den opfordring kunne jeg lettere imødekomme, hvis ikke jeg blev
+                    holdt tilbage af den samme årsag som jeg har anført som grund til ikke at udgive
+                    kalenderen. Det jeg i december har skrevet om denne stjerne, er præcis lige så
+                    ufærdigt og hurtigt nedkradset som kalenderen, og derfor mener jeg ikke det er
+                    egnet til at blive offentliggjort og anvendt af forskerne. Jeg har nemlig ikke
+                    påtaget mig dette arbejde for at <pb ed="TBOO" n="I.11"/>publicere det og for at
+                    alle og enhver skal læse det. Men da denne stjerne i november sidste år ganske
+                    uventet dukkede op for mit blik mens jeg som sædvanlig betragtede stjernerne,
+                    fik denne sensationelle begivenhed mig til at begyndte at måle dens position med
+                    astronomiske instrumenter (på samme måde som jeg lige siden min ungdom med stor
+                    omhu har observeret de øvrige, velkendte stjerner). Det gjorde jeg dels for at
+                    supplere de andre observationer af stjerner jeg havde foretaget, med hvad jeg
+                    med mine instrumenter kunne finde ud af om denne stjerne, dels for at nedskrive
+                    forskelligt som man kunne konkludere og påvise ud fra observationerne, og
+                    anbringe det foran min kalender. Jeg mente at beskrivelsen af stjernen, i den
+                    form den nu har, kunne være en nyttigt tilføjelse til kalenderen, eftersom
+                    stjernens tilsynekomst faldt lige før det indeværende år begyndte. </p>
+                <p rend="indent">Men (som jeg allerede har sagt) mindst af alt var det min plan at
+                    det på et tidspunkt skulle offentliggøres. I så fald havde jeg skrevet en hel
+                    lille bog om stjernen uden kalenderen; og så havde jeg lagt en hel del større
+                    omhu i udarbejdelsen, for jeg er ikke i tvivl om at dette mirakel med den hidtil
+                    ukendte stjerne har sat lærde mænds hjerner på overarbejde over hele jorden, og
+                    hvis de ser at nogen skriver noget om dette emne, bliver det slugt med
+                    begærlighed og bedømt vidt forskelligt alt efter hver enkelts fatteevne. </p>
+                <p rend="indent">På den anden side, min kære Pratensis: Hvis du faktisk mener at
+                    disse få sider om den nye stjerne er af en art så de kan publiceres og læses af
+                    forskere uden at møde stor kritik, så tillader jeg at de bliver trykt og udgivet
+                    efter dine anvisninger, for det skal ikke hedde sig at jeg er alt for
+                    modstræbende over for dine anmodninger &#x2013; og måske tærer mere på vores
+                    venskab end manglerne i skriftet berettiger mig til. </p>
+                <p rend="indent">Men hvad der taler for at jeg på dette punkt omsider indvilliger i
+                    din bøn, er ikke kun de mange og rimelige opfordringer du sender mig i dit brev.
+                    Hvis jeg skal være ærlig, har også de pjecer om stjernen der er kommet til os
+                    fra Tyskland, og som du nu har sendt mig for at jeg også kunne kigge i dem, haft
+                        <pb ed="A" n="5v"/>stor betydning for at jeg nu omsider giver dig lov til at
+                    publicere mine observationer og min tolkning af den. </p>
+                <p rend="indent">De skrifter om emnet vi indtil nu har fået hertil, som var
+                    forfattet af forskellige folk i Tyskland, stemmer (med al respekt) efter min
+                    mening ikke med fakta. Lad mig nøjes med et enkelt punkt blandt mange: Når de
+                    henregner denne stjerne til kometerne og mener at den befinder sig 12 eller,
+                    efter nogles mening, højst 15 jordradier væk fra os, så er det helt hen i
+                    vejret. Jeg selv har nemlig med omhyggelige observationer fastslået at den såvel
+                    i nærheden af zenit som i nærheden af horisonten opretholder nøjagtig samme
+                    afstand til Schedir i Cassiopeia (som passerer meridianen omtrent sammen med
+                    stjernen) &#x2013; som man vil finde det udførligere beskrevet i selve teksten.
+                    Det betyder nødvendigvis at der ingen forskel i synsvinkel er mellem dem. Der er
+                    altså matematisk bevis for at denne stjerne ikke, som de tror, befinder sig i
+                    elementarsfæren, på denne side af Månen, men langt ude på den anden side, i
+                    selve himlen. </p>
+                <p rend="indent">Denne observation har jeg imidlertid gennemført ved hjælp af et
+                    stort og specielt instrument, der er fremstillet på en særlig måde sådan at man
+                    ved dets hjælp kan undersøge <pb ed="TBOO" n="I.12"/>afstanden mellem stjernerne
+                    med langt større sikkerhed og præcision end man kan med en astronomisk radius
+                    eller et hvilket som helst andet instrument der hidtil er blevet anvendt til
+                    denne opgave. Alt dette har jeg altid haft betænkeligheder over for på grund af
+                    forskellige forhindringer, først og fremmest at en præcis ret vinkel er meget
+                    vanskelig at konstruere så den kan holde i et stykke tid. Jeg er nemlig ganske
+                    klar over at det samme kan opnås ved stjernens højeste og laveste højde hvis man
+                    på forhånd har fastlagt polhøjden med en kvadrant. På denne måde begår man dog
+                    lettere fejl, både på grund af vanskeligheden ved at fastlægge polhøjden helt
+                    præcist og inden for et minut (som det er nødvendigt her) og det nærmest umulige
+                    i at erkende den på grund af forskellige krav &#x2013; og fordi det tidspunkt
+                    hvor stjernen passerer meridianen i sin højeste og laveste position, dårligt kan
+                    bestemmes så præcist som det er nødvendigt. Hertil kommer at denne observation
+                    kræver en helt utrolig stor kvadrant hvis den skal kunne rumme ikke alene
+                    enkelte minutter, men også endnu mindre dele, sådan som det var tilfældet med
+                    den jeg for tre år siden fik konstrueret i nærheden af <placeName ref="Augsburg">Augsburg</placeName>, i haven hos
+                    <persName ref="Hainzel, Paul">Paul Hainzel</persName>, en betydningsfuld mand, der var sin bys borgmester og en stor
+                    elsker af matematiske sager. Den havde en radius på over 14 alen.</p>
+                <p rend="indent">Men tilbage til emnet. Man kan altså som sagt på denne måde
+                    konstatere med sikkerhed at stjernen befinder sig langt på den anden side af
+                    Månens sfære i forhold til os, og at dens position <pb ed="A" n="6r"/>ikke giver
+                    mulighed for nogen som helst variation i synsvinkel til trods for at den, hvis
+                    den som de mener, kun havde været 15 jordradier væk, i vertikal cirkulation, i
+                    nærheden af horisonten ville have lavet en parallakse på 3 1/3 grad. Og ved en
+                    afstand på kun 12 jordradier (som andre påstår), 4 ¼ del. Disse store forskelle
+                    i stilling fra den største højde til den mindste, kunne man også have set uden
+                    instrumenter, med det blotte øje, hvis man så godt efter. Hvor kan man være
+                    ubegavet! Hvor kan de der betragter himlen være blinde! </p>
+                <p rend="indent">Heraf fremgår det ganske klart hvor gennemtænkt det er når de
+                    henregner denne stjerne, som de ikke kan anbringe i elementarsfæren, under
+                    kometerne &#x2013; når nu den også i udseende adskiller sig kraftigt fra alle
+                    hidtil kendte kometer, mens den fuldkommen ligner rigtige og ægte stjerner. For
+                    når der er en der forestiller sig at dens hale muligvis vender opad så kun det
+                    runde hoved er vendt imod os, og at halen på et tidspunkt vil dreje ned så den
+                    bliver synlig for os, så har han ikke været opmærksom på det som flere af de
+                    gamle, og i vor tid også &#x2013; og det endnu mere omhyggeligt &#x2013; de
+                    berømte matematikere <persName ref="Apian">Peter Apian</persName> og <persName ref="Frisius, Gemma">Gemma Frisius</persName> har opdaget, nemlig at
+                    kometers haler altid peger direkte væk fra solen &#x2013; hvilket har fået en
+                    del til at spørge sig selv om halen overhovedet er andet end solstråler der
+                    brydes når de trænger igennem kometens ikke fuldstændig kompakte legeme. Men
+                    hvis nogen vil påstå at denne stjerne tilhører den særlige art af kometer uden
+                    hale som de gamle kalder behårede kometer, hvor er i så fald de hår der skal
+                    omgive den ligeligt på alle sider ligesom en flammekreds? <pb ed="TBOO" n="I.13"
+                    />Og hvis den skal høre til dem der kaldes &#x2018;roser&#x2019;, hvor er så den
+                    store og brede runding der selv er lysende og brændende, men fra sin kant kun
+                    udsender få og temmelig mørke stråler? Vores stjerne har intet af alt dette, og
+                    den har ingen hale, hverken aflang eller buet. Med mindre man vil kalde de
+                    stråler man så i begyndelsen da den var større, for et 'skæg' &#x2013; men så
+                    kan man med samme argumentation kalde Sirius, Arcturus, Procyon, Lyra og de
+                    øvrige betydelige stjerner for kometer, for de udsender præcis lige så funklende
+                    stråler i alle retninger. </p>
+                <p rend="indent">Derfor er det min bedømmelse at denne stjerne adskiller sig klart
+                    fra kometerne, og jeg mener ikke man har set noget lignende siden <persName ref="Hipparchos">Hipparchus&#x2019;</persName>
+                    tid, uanset at der siden da har vist sig nogle enkelte ganske små kometer uden
+                    hale &#x2013; med mindre nogen ud fra observationer der er foretaget på
+                    daværende tidspunkt af fagmænd kan påvise at disse fuldstændig lignede ægte
+                    stjerner og ikke befandt sig i elementarsfæren, nedenfor månen, men i selve
+                    himlen sådan som jeg har bevist at det er tilfældet med denne stjerne. </p>
+                <p rend="indent">Heller ikke det faktum at denne <pb ed="A" n="6v"/>stjerne ændrer
+                    sig såvel i farve som størrelse, medfører nødvendigvis at den skal regnes til
+                    kometerne. Tværtimod, hvis den bliver ved med at svinde ind for til sidst at
+                    ophøre med at være synlig (og hvis svindingstakten fastholdes, forudsiger jeg at
+                    det vil ske førstkommende september eller senest oktober) &#x2013; så vil jeg
+                    anse det for et mindre mirakel end hvis den for altid fastholder sin
+                    tilstedeværelse på himlen blandt de øvrige stjerner. Hvis der efter universets
+                    oprindelige fuldførelse opstår noget mirakuløst i naturen, forekommer det mig
+                    mest sandsynligt at det også ophører inden universets kredsløb er fuldendt. </p>
+                <p rend="indent">Eftersom nu min opfattelse af denne stjerne afviger betragteligt
+                    fra dem der findes i de pjecer der er kommet hertil fra <placeName ref="Germany">Tyskland</placeName>, og eftersom
+                    jeg bygger mine observationer på sikre beviser, har jeg besluttet at jeg ikke
+                    vil snyde de interesserede for det de er så opsatte på, og ikke længere vil
+                    modsætte mig dine og andre venners ønsker. Som tidligere nævnt vil jeg nu gå med
+                    til at denne lille bog om den nye stjerne, for hvad den nu er værd, bliver
+                    publiceret og trykt efter dine anvisninger. Jeg sender dig altså hele
+                    kalenderen, som du selv kan tage det afsnit der behandler stjernen, ud af så du
+                    kan give det videre til jeres trykker og få det trykt. Jeg har ikke ændret noget
+                    i det bortset fra de ændringer der var sket med stjernen selv siden den først
+                    viste sig, og siden jeg skrev dette. De ændringer har jeg kort noteret i
+                    marginen så trykkeren kan indsætte det på rette sted, hvor jeg har sat et mærke.
+                    Og hvis du stadig holder fast på at bede mig om dedikationsbrevet til kalenderen
+                    og stadig mener at det kan være til en eller anden nytte for læseren, også uden
+                    kalenderen selv, så vil jeg heller ikke længere sige nej til at den bliver
+                    vedføjet afhandlingen om stjernen. Beregningen af måneformørkelsen og
+                    betænkningen om dens virkninger giver jeg dig tilladelse til at trykke sammen
+                    med de nævnte tekster, og det samme gælder den improviserede Elegi om Urania. Så
+                    har du fået alle dine ønsker opfyldt. Men hvis der er noget <pb ed="TBOO"
+                        n="I.14"/>i disse enkeltafsnit der ikke er fuldkommen gennemarbejdet og
+                    måske kan vække kritik blandt de lærde, så er skylden ligeså meget din som min
+                    eftersom det er dig der tvinger ufuldbårne børn frem i verdens lys. </p>
+                <p rend="indent">Titlen på bogen overlader jeg det til dig at bestemme. Det eneste
+                    jeg beder om, er at du enten udelader navnet på forfatteren eller gengiver det
+                    som anagram, hvis du altså mener det er klogt. Så dybt er menneskenes
+                    opfattelser sunket, så forkvaklet er de blevet, at mange anser det for aldeles
+                    vanærende hvis en mand af adelig familie vover at foretage sig noget inden for
+                    de frie og ophøjede videnskaber, og især inden for <pb ed="A" n="7r"/>de
+                    videnskaber der er særligt forhadte og latterliggjorte, ikke kun blandt den
+                    udannede hob, men også blandt mange ellers højt uddannede mennesker (omend
+                    uvidenheden kan tjene som undskyldning for begge parter). Men &#x2013; for at
+                    sige et som det er &#x2013; jeg lader mig nu ikke afficere af deres ubegavede
+                    opfattelser. Det der i sig selv er rigtigt og respektabelt, kan ikke blive
+                    urigtig og urespektabelt på grund af en uvidende pøbels forkvaklede
+                    holdninger.</p>
+                <p rend="indent">Der en ganske vist en del i det du nu beder om lov til at udgive,
+                    som jeg godt kunne have lyst til at rette, supplere, forkorte, flytte om på og
+                    give en bedre form. Men lige nu er jeg så overbebyrdet med opgaver at jeg ikke
+                    kan overkomme det. På den ene side er der de hjemlige pligter og andet arbejde
+                    som jeg skal tage mig af. På den anden side er der selskabelighed med adelige og
+                    venner og bekendte, som der går ikke så lidt tid med. Og begge dele trækker i
+                    mig så jeg ikke har tid til at rette eller forbedre noget som helst i bogen. </p>
+                <lg rend="it">
+                    <l>Andre ting presser sig på, et fortjenstfuldt projekt står for døren.</l>
+                    <l>Himlen har fået sin part, lissom musernes kor, og som Vesta.</l>
+                    <l>Hjemlandets muld og vennernes flok må være tilfredse.</l>
+                    <l>Også vor Jord skal jeg se, det er den der endnu står tilbage,</l>
+                    <l>dér jeg skal ud, ad mangen en vej, til mangen en afkrog.</l>
+                    <l>Nu har jeg lyst til at se det skønne der sker på vor klode,</l>
+                    <l>alt hvad menneskets flid overalt på Jorden har udtænkt,</l>
+                    <l>hvordan forskellige folk bær sig ad og lever i verden.</l>
+                    <l>Sådan befaler den livskraft der bor i mit ynglingehjerte,</l>
+                    <l>sådan befaler min medfødte trang til sand ekspertise,</l>
+                    <l>trang til at forske i alt og vide besked om det meste.</l>
+                    <l>Intet kan holde mig her, hverken fædrene land eller venner,</l>
+                    <l>fædreland er overalt, for den kække er hvorsomhelst hjemme,</l>
+                    <l>i hvert eneste land er der mængder af venner at finde.</l>
+                    <l>Så, engang blir det tid at gense det kølige Norden,</l>
+                    <l>følge den vanlige vej med bægerklang, hunde og heste,</l>
+                    <l>hovmod og luksus (for hvor skulle ellers, i mangel af dette,</l>
+                    <l>adelens fornemme mænd kunne finde sig virkelig lykke?)</l>
+                    <l>Så skal jeg dådløst spilde mit liv med de andre &#x2013; med mindre</l>
+                    <l>Gud (hvad jeg håber) har valgt mig ud til en stoltere skæbne.</l>
+                </lg>
+
+                <p rend="indent"><pb ed="TBOO" n="I.15"/>Men du, min bedste Pratensis, kan være
+                    sikker på at hvor i verden jeg end befinder mig, under hvilket himmelstrøg jeg
+                    end betragter stjernernes løb på den tavse himmel, vil jeg altid huske dig og
+                    holde af dig. For en geografisk adskillelse af kroppene <pb ed="A" n="7v"/>kan
+                    ikke sprænge båndet mellem sjælene &#x2013; der er ganske uafhængige af
+                    geografiens ynkelige petitesser. Det der har slået rod i den indre, den saligere
+                    natur, er ikke alene spirer til den lykkelige evighed, men også fuldkommen fri
+                    af dette ydre, sidste riges forgængelige love. Og ganske vist er vi bundet af de
+                    legemlige elementer, og af den nævenyttige geografi forhindret i at nå hinanden
+                    med øjnenes sanselige stråler. Men det ophøjede indre lys kan i sin storhed ikke
+                    undertvinges så fuldstændigt at det ikke frit kan trænge frem hvorsomhelst
+                    skønheden og den hellige kærlighed lokker det, og berøre en modsvarende og
+                    beslægtet natur med sine bestandigt udsendte og reflekterede stråler. Tværtimod,
+                    hvor stor geografisk afstand der end er mellem os, vil vi altid med glæde på
+                    samme tid beskue den samme sol og måne og de samme stjerner &#x2013; som bereder
+                    os så stor fryd.</p>
+                <lg>
+                    <l>Og da vi nu er fjernt fra hinanden og ikke kan samle</l>
+                    <l rend="indent">øjnenes stråler til én, kaste hinanden et blik,</l>
+                    <l>lad os forene vort lys med det lysende himmelhvælvs lyshav</l>
+                    <l rend="indent">hver gang stjernernes skær funkler på himlen så klar.</l>
+                    <l>Da er, så ofte jeg skuer til vejrs mod himmelens bue,</l>
+                    <l rend="indent">stjernen der møder mit blik, samtidig synlig for dit.</l>
+                    <l>Sådan vil himlen på selv samme tid lade øjnene mødes</l>
+                    <l rend="indent">alt imens jorden med magt adskiller kroppene skarpt.</l>
+                </lg>
+
+                <p rend="indent">Inden jeg rejser, håber jeg dog at jeg kan møde jer i København. I
+                    mellemtiden må du skynde på håndværkerne så min kobberglobus kan blive smukt
+                    forgyldt og &#x2013; sådan som jeg har bestilt det &#x2013; blive så præcis en
+                    afbildning af den første bevægede kreds og planeternes modsatrettede baner som
+                    muligt. Også hvad de øvrige instrumenter angår, må du være over håndværkerne, så
+                    de kan nå frem til præcis den inddeling og den perfektion som jeg har bestilt
+                    hos dem. Det hele skulle gerne ligge parat til mig når jeg kommer over til jer i
+                    København. Indtil da må du, vidtberømte hr. doktor, have det godt. Eller
+                    rettere: eftersom du er læge, må du <hi rend="it">sørge for</hi> at have det
+                    godt. Hils vennerne. </p>
+                <closer>Knudstrup, 5. maj, 1573.</closer>
+            </div>
+        </front>
+        <body>
+            <div>
+                <pb ed="A" n="1r"/>
+                <pb ed="TBOO" n="I.16"/>
+                <p>Den 11. november sidste år, da jeg efter solnedgang som sædvanlig betragtede
+                    stjernerne på den klare himmel, blev jeg opmærksom på, at der lige over mit
+                    hoved strålede en ny og ukendt stjerne, som var meget tydelig i forhold til de
+                    andre. Lige siden min barndom har jeg været fortrolig med alle himlens stjerner
+                    (denne viden er nemlig ikke så vanskelig at opnå), og jeg var helt sikker på, at
+                    der aldrig før havde været en stjerne på dette sted på himlen, eller i så fald
+                    en meget lille stjerne helt uden denne markante klarhed. Jeg blev i den grad
+                    slået af forundring over dette, at jeg såmænd ikke ville tro mine egne øjne. Men
+                    da jeg fandt ud af, at også andre kunne se den, når de fik udpeget stedet, var
+                    jeg ikke mere i tvivl om, at der virkelig havde vist sig en ny stjerne dér. </p>
+                <p rend="indent">Det var i sandhed det største af de mirakler, der er indtruffet i
+                    naturen siden Verdens skabelse. Det kan i hvert fald sammenlignes med det, som
+                    indtraf ifølge de hellige skrifter: Solens gang blev holdt tilbage på Josvas
+                    bønner, og på det himmelske slagtoffers tid blev den formørket.<!-- note 3 -->
+                    <pb ed="A" n="1v"/>Alle filosoffer<!-- note 4 --> er nemlig enige om (og det
+                    ligger i selve sagens natur), at der i den himmelske verdens ætheriske region
+                    ikke foregår nogen forandring i form af tilblivelse eller
+                    tilintetgørelse.<!-- note 5 --> Derimod kan himlen og de ætheriske legemer, der
+                    findes i den, ikke øges eller mindskes og ikke ændres i antal, størrelse,
+                    lysstyrke eller på nogen anden måde. Himlen er og bliver altid den samme, sig
+                    selv lig og i alle henseender upåvirket af tidens tand. Desuden bevidner alle
+                    videnskabsmænds observationer foretaget gennem nogle tusind år, at alle stjerner
+                    har haft samme antal, position, orden, bevægelse og størrelse, som astronomiens
+                    udøvere ved omhyggelige observationer kan se, at stjernerne stadig har. Vi kan
+                    ikke læse, at en astronom nogensinde har observeret, at der i den himmelske
+                    verden er opstået nogen stjerne – med undtagelse af <persName ref="Hipparchos">Hipparch</persName>, hvis man skal tro
+                    <persName ref="Plinius major">Plinius</persName>.<!-- note 6 --> Plinius fortæller nemlig i anden bog af Naturhistorien,
+                    at <persName ref="Hipparchos">Hipparch</persName><!-- note 7 --> opdagede en stjerne, der afveg fra alle andre før
+                    sete stjerner, og som var opstået i hans egen levetid. </p>
+                <p rend="indent">Plinius’ ord er som sædvanlig fremragende og storslåede, og jeg
+                    finder det på sin plads at citere dem. Han siger: &#x201C;Samme <persName ref="Hipparchos">Hipparch</persName> kan
+                    aldrig prises nok, fordi han som ingen anden har lagt vægt på stjernernes
+                    slægtskab med mennesket og på, at vore sjæle er en del af himlen. Han opdagede,
+                    at der var født en ny og for den tid ukendt stjerne, og på grund af dens
+                    bevægelse<!-- note 8 --> på den dag, da den lyste, kom han i tvivl om, hvorvidt
+                    dette kunne ske flere gange, og om også de stjerner, som vi regner for faste,
+                    skulle kunne bevæge sig. Han kastede sig ud i en opgave, der selv for en gud
+                    måtte synes voldsom, <pb ed="A" n="2r"/> nemlig til gavn for eftertiden at
+                    opregne stjernerne og at fastsætte himmellegemerne i række og geled med nogle
+                    instrumenter, som han opfandt til at angive hver enkelt stjernes placering og
+                    størrelse. Herved kunne det let afgøres, ikke blot om de forsvandt eller fødtes,
+                    men også om de voksede eller mindskedes. Han gjorde himlen til fælles eje for
+                    enhver, der i fremtiden måtte kunne fatte denne viden.&#x201D; Så vidt <persName ref="Plinius major">Plinius</persName>. </p>
+                <p rend="indent">Ganske vist bevidner <persName ref="Plinius major">Plinius&#x2019;</persName> ord utvetydigt, at <persName ref="Hipparchos">Hipparch</persName> havde
+                    opdaget en ægte stjerne i den ætheriske region, som var født på hans egen tid,
+                    og at han ved den lejlighed med de nødvendige instrumenter havde angivet alle
+                    andre stjerners position (hvilket ingen før ham havde præsteret), sådan at
+                    eftertiden kunne vide, om dette kunne ske flere gange. Ikke desto mindre har
+                    Pliniuskommentatoren <persName ref="Milich"
+                        >Milichius</persName><!-- note 9 --> ikke betænkt sig på at mistolke
+                    dette som en kometforekomst. Han er snarere kommet til det resultat ud fra det
+                    usandsynlige i historien og som følge af alle filosoffers afvisning end på grund
+                    af forfatterens udsagn. Enhver, der nærlæser <persName ref="Plinius major">Plinius&#x2019;</persName> ord, vil nemlig være enig
+                    i, at Milichius har fortolket dette Pliniussted som en komet helt forkert. Ja,
+                    det er ligefrem absurd at påstå, at en mand som <persName ref="Hipparchos">Hipparch</persName>, der var fremragende i
+                    alle videnskaber og var langt foran andre i matematikken, ikke udmærket skulle
+                    kunne kende forskel på ægte stjerner i ætherregionen og et ildmeteor i
+                    luftregionen, som man kalder en komet, når han ved denne lejlighed kunne
+                    overlade eftertiden en fortegnelse over og positionerne for alle faste
+                    himmellegemer, en kraftanstrengelse der snarere passer sig for en gud end for et
+                    menneske. Jeg skal undlade at omtale, hvor latterligt det er, at den samme
+                    Pliniuskommentator ud fra citatet frejdigt påstår, at <persName ref="Hipparchos">Hipparch</persName> ved denne komets
+                    bevægelse har fundet fiksstjernernes placering og bevægelse (han tror nemlig, at
+                    denne stjerne var en komet), <pb ed="A" n="2v"/> når nu alle kometers bane er
+                    uregelmæssig, ujævn, hurtig og flakkende, hvorimod fiksstjernernes bevægelse i
+                    den ottende kreds<!-- note 10 --> er regelmæssig, sikker, ensartet og desuden
+                    langsom, så at man næsten ikke kan se, at de bevæger sig i et menneskes levetid.
+                    Jeg nævner ikke dette af trang til at kritisere. Et oprigtigt og dannet menneske
+                    skal ikke nedgøre andres arbejde. Jeg har blot villet advare andre mod, i tillid
+                    til denne lærde fortolkers autoritet, at fordreje <persName ref="Plinius major">Plinius&#x2019;</persName> ord i retning af en
+                    tilfældig komets tilsynekomst og ikke en rigtig stjernes. Jeg er overhovedet
+                    ikke i tvivl om, at <persName ref="Plinius major">Plinius</persName> med sine ord har sagt, at <persName ref="Hipparchos">Hipparch</persName> har opdaget en
+                    virkelig og ægte stjerne på himlen, der var opstået på hans egen tid. Ellers
+                    ville han nemlig ikke have refereret denne store mand for en epokegørende eller
+                    forunderlig opdagelse, idet kometer ofte bliver observeret og kan registreres af
+                    enhver uden forstand på astronomi. Vi lader stå hen, hvilken og hvilken slags
+                    stjerne der var tale om, og om den forsvandt igen eller ej, fordi det ikke kan
+                    læses ud af <persName ref="Plinius major">Plinius&#x2019;</persName> ord. </p>
+                <p rend="indent">Som sagt: Hverken før eller efter <persName ref="Hipparchos">Hipparch</persName> kan vi læse, at der i de
+                    forløbne 1700 år er blevet observeret noget lignende af nogen astronom førend i
+                    vor tid, da den stjerne, som vi nu taler om, begyndte at kunne ses. Vi skal
+                    senere føre bevis for, at den ikke er et ildmeteor, som viser sig i Verdens
+                    elementar- og luftregion, men har sin plads blandt himmelkredsene. <pb ed="A"
+                        n="3r"/> Det er derfor klart, at der er tale om noget ukendt, forunderligt
+                    og for alle filosoffer utroligt: at der netop nu er fremkommet en stjerne på
+                    himlen, som er ny og anderledes end de hidtidige. Jeg tror heller ikke, at
+                    teologerne (som i øvrigt kan forklare mange mirakuløse hændelser i den jordiske
+                    kreds<!-- note 11 --> med guddommelige mysterier) vil kunne give
+                    tilfredsstillende forklaringer på denne sag. De er nemlig ud fra Moses’ historie
+                    om Verdens skabelse<!-- note 12 --> sikre på, at Gud er Universets skaber, og at
+                    han efter at have udskilt himlene og elementerne med alle de tilhørende skønne
+                    ting, indstillede enhver form for arbejde og ikke senere har skabt nye ting. </p>
+                <p rend="indent">Jeg er ganske klar over, at der er nogle tilhængere af en hemmelig
+                    filosofi,<!-- note 13 --> som er opstået i vor tid, som vil hævde, at denne
+                    stjerne muligvis ‘hidtil har skjult sig i den gamle Iliadus’ (jeg må her citere
+                    deres udtryk), ‘men at dens modning nu er fuldbyrdet, og den derfor fremtræder
+                    for de dødelige’. Jeg skal ikke disputere med denne såkaldte nye filosofis sikre
+                    eller usikre grundsætninger, og jeg er ikke blind for, at man ud fra den kan
+                    forklare årsag og udvikling for mange af naturens hemmeligheder, som er ukendte
+                    for eller kun mindre rigtigt forstået af de almindelige filosoffer. Jeg kan dog
+                    ikke overbevises om sandsynligheden af, at dette mirakel kan forklares på denne
+                    måde. Hvis nemlig noget sådant kan opstå i himlen (som de efter deres
+                    beregninger ikke tøver med at kalde det fjerde og ildagtige element), hvorfor
+                    har man så ikke i løbet af så mange århundreders forløb og i det enorme
+                    himmelrum oftere observeret, at der opstod nye stjerner? Og hvorfor har de
+                    stjerner, <pb ed="A" n="3v"/> der har vist sig siden Verdens begyndelse, aldrig
+                    undergået nogen forandring i størrelse, lysstyrke, farve eller orden? Dette
+                    burde nemlig ske i et så stort tidsrum og i en så stor stjernemængde, hvis
+                    tilblivelsens og ophørets nødvendighed<!-- note 14 --> skulle angå en sådan
+                    himmel. </p>
+                <p rend="indent">Derfor bør alle filosoffer tie, gamle som nye; også fortolkerne af
+                    de guddommmelige mysterier, teologerne, bør tie; de som spekulerer over de
+                    himmelske legemer, matematikerne,<!-- note 15 --> bør tie og lade være med at
+                    tro, at de med nogen sikkerhed kan fastslå noget om denne stjernes
+                    tilblivelsesmåde eller komme med en forklaring på dette mirakel. Ingen skal
+                    heller bilde sig ind, at denne stjerne er lig med den, som viste sig for østens
+                    magere, da Verdens Frelser skulle fødes.<!-- note 16 --> Denne stjerne havde
+                    nemlig ikke sin position på himlen blandt de andre stjerner, men i den nederste
+                    luftregion ikke langt fra Jordens overflade. Ellers ville den nemlig ikke med
+                    sin bevægelse have vist vej for dem, som ledte efter Frelseren, og heller ikke
+                    ved at stå stille have vist huset, hvor han skulle findes. Hvis den var drejet
+                    rundt sammen med hele himlen, ville den ikke have kunnet tage hensyn til en så
+                    lillebitte afstand på Jorden, når nu hele Jorden sammenlignet med himlen ikke
+                    har en størrelse, der kan registreres med sanserne. Hertil skal man føje, at
+                    denne stjerne kun viste sig for magerne, som var kommet fra Østerland for at
+                    tilbede Herren og ofre gaver, guld, røgelse og myrrha til ham som Konge, Gud og
+                    Menneske. Endvidere, at Gud havde oplyst deres sind og øjne på en særlig måde,
+                    så at de på lang afstand og i en ukendt egn kunne forstå, at han, som har skabt
+                    alle ting, havde antaget menneskelig natur, og at de rigtige jøder, som han var
+                    blevet født iblandt, ikke kendte ham.<!-- note 17 -->
+                    <pb ed="A" n="4r"/> Endvidere, at disse vise mennesker gennem deres indsigt i
+                    den hemmelige magi, som forstår sig på det ukendte, havde set og indset, hvad
+                    der var skjult for andre mennesker uden forstand på denne videnskab. Derfor har
+                    de med rette fået betegnelsen ‘de vise mænd’ i de hellige skrifter. Det er
+                    imidlertid ikke her stedet nærmere at undersøge, hvilken slags stjerne der viste
+                    sig for dem, da det heller ikke er klart for teologerne på grund af deres
+                    manglende viden om magien. Det må være nok at have bevist, at denne nye og
+                    ukendte stjerne, som for nylig viste sig, ikke har nogen forbindelse med den,
+                    som magerne så. </p>
+                <p rend="indent">Heller ikke dens tilblivelsesmåde kan forklares, hverken af
+                    teologer, filosoffer, og heller ikke af matematikerne selv. Vi må følgelig slå
+                    fast, at det er en vidunderlig åbenbaring uden for naturens orden stammende fra
+                    Gud, hele Universets skaber, som han selv har skabt i begyndelsen og nu endelig
+                    har vist for Verden i dens tusmørketime.<!-- note 18 --> Den guddommelige højhed
+                    handler nemlig helt frit og er ikke bundet i nogen af naturens lænker, men kan,
+                    når den vil, standse vandet i floderne og få stjernerne til at gå baglæns. </p>
+                <lg>
+                    <l>Den kunne opholde Solens løb i dens hastige bane,</l>
+                    <l>dengang Josva som Israels fører slog fjenden til jorden.</l>
+                    <l>Den kunne udslukke Solens lys uden bistand af Månen,</l>
+                    <l>Dengang Hans Søn blev slagtet og ofret som lammet for vor skyld.</l>
+                    <!-- note 19 -->
+                </lg>
+
+                <p>Selvom jeg har besluttet at fremlægge forskelligt om dette nye og først nu fødte
+                    himmellegeme, <pb ed="A" n="4v"/> indrømmer jeg dog ærligt, at jeg ikke kan
+                    forklare noget om dens tilblivelse, eller hvorfor det er opstået. Jeg vil kun
+                    undersøge den matematiske side af sagen nærmere og tale om stjernens længde- og
+                    breddeposition i forhold til fiksstjernerne og Dyrekredsen og om dens afstand
+                    til Jorden, Universets centrum, endvidere om dens størrelse, lys og farve.
+                    Desuden vil jeg anføre nogle fra astrologien hentede formodninger om denne
+                    stjernes indflydelse. </p>
+            </div>
+            <div>
+                <head><pb ed="A" n="B1r"/><pb ed="TBOO" n="I.20"/>Om denne nye stjernes længde- og
+                    breddeposition i forhold til fiksstjernerne og til Dyrekredsen.</head>
+                <p>Den nyligt fødte stjerne viste sig på den nordlige himmel, i retning af nordpolen
+                    nær det stjernebillede, som de gamle magere kaldte Cassiopeia, ved siden af den
+                    lille stjerne, som er midt i Stolen,<!-- note 20 --> en smule i retning mod Cepheus. Sammen med
+                    den øverste stjerne i Stolen og den stjerne, som kaldes Schedir i brystet, og
+                    den, som følger bøjningen mod hoften, danner den en firkant. Men for at det
+                    bedre kan forstås, vil jeg illustrere stjernebilledet Cassiopeias enkelte
+                    stjerner sammen med den nye stjernes position i forhold til dem.<pb ed="A"
+                        n="B1v"/></p>
+                <figure/>
+
+                <p>Jeg observerede adskillige gange denne stjernes afstand til forskellige
+                    fiksstjerner i Cassiopeia med et særligt udvalgt instrument, der registrerer
+                    alle detaljer. Jeg fandt, at dens afstand fra den stjerne, der er i brystet,
+                    kaldet Schedir (B), var 7 dele<!-- note 21 --> og 55 minutter. <pb ed="A" n="B2r"/>Fra G var den
+                    5 dele og 21 minutter, fra bøjningen og den stjerne, som er ved hoften (D) 5
+                    dele og 1 minut. Ud fra disse afstande mellem den nye stjerne og de nævnte
+                    fiksstjerner falder dens positionslængde, hvor 7. grad i Tyren næsten skærer 54
+                    dele i nordlig bredde – bortset fra nogle ganske få minutter i begge
+                    koordinater. Det var særlig tydeligt ved de to sidste afstande (dvs. fra hoften
+                    og den øverste stjerne i Stolen). Hvis vi nemlig forudsætter disse to
+                    fiksstjerners positioner kendt mht. længde og bredde, vil den, der har forstand
+                    på sfæriske trekanter, ikke være i tvivl om den nye stjernes afstand i længde
+                    fra forårspunktet og afstand i bredde fra Ekliptika. </p>
+                <figure/>
+                <p>Lad der nu – for at føre et mere tydeligt bevis – på den følgende figur være to
+                    fiksstjerner i stjernebilledet Cassiopeia, A og B. Af disse er A stjernen i
+                    Stolens øvre del, som nogle anbringer i den midterste opstigning.<!-- note 22 --> B angiver den
+                    stjerne, som er i bøjningen nær hoften. C er den nye stjernes position, og AC er
+                    dens bueafstand fra den øverste i Stolen. CB er buen mellem den og bøjningen, og
+                    AB er bueafstanden mellem de to fiksstjerner. Lad ydermere G være Dyrekredsens
+                    nordlige pol, hvorfra to kvadranter går ned til ekliptika gennem de førnævnte
+                    fiksstjerner i A og B. GD gennem A, GF gennem B. DF vil derfor være en del af
+                    Ekliptikabuen, som angiver forskellen i de to stjerners længde; AD og BF vil
+                    være breddebuer for de samme fiksstjerner. På samme måde skal der fra
+                    Dyrekredsens pol gennem <pb ed="A" n="B2v"/>den nye stjerne C’s position trækkes
+                    en kvadrant mod Ekliptika, som her vil være GE. Derfor er E den nye stjernes
+                    længdeposition og DE angiver dens forskel i længde fra den første fiksstjerne i
+                    A. CE er dens breddebue, eller dens afstandsbue fra Ekliptika. Lad os antage, at
+                    længde- og breddepositionerne for fiksstjernerne er, som <persName ref="Copernicus">Kopernikus&#x2019;</persName> beregning
+                    angiver (hvortil kommer jævndøgnspræcessionen). <pb ed="TBOO" n="I.22"/>Derved
+                    bliver den første stjerne A’s længde 29 grader, 0 minutter fra forårspunktet, og
+                    målt i punktet D med en nordlig bredde på 51 grader 40 minutter, som buen AD som
+                    nævnt angiver. Lad længden for den anden stjerne, som er i B, være 7 grader 50
+                    minutter fra Tyren. Ligeledes målt i punktet F med den nordlige bredde 49 grader
+                    0 minutter, som buen BF betegner. Man kan nu undersøge buen DE, dvs. hvor meget
+                    den nye stjernes længde E er <pb ed="A" n="B3r"/>større end længden fra
+                    fiksstjernen i A (hvilket er i D), så at man kan findet stedet E, den nye
+                    stjernes længde på Ekliptika. Man kan nu undersøge størrelsen af buen CE, så
+                    også den nye stjernes afstand fra Ekliptika kan blive kendt. Men for at nå frem
+                    til en erkendelse af dette gennem læren om sfæriske trekanter ved den krævede
+                    fremgangsmåde, betragter jeg allerførst trekanten AGB, hvis to sider (forbundne
+                    i polen G) er kendt ved komplementerne til fiksstjernernes bredder GA, dvs. 38
+                    grader 20 minutter. GB er 41 grader 0 minutter. Men også vinklen, som de omtalte
+                    sider omspænder, er kendt. For buen DF måler den, nemlig forskellen i begge
+                    fiksstjerners længde, hvilket er 8 grader og 50 minutter. Derfor bliver buen AB
+                    kendt gennem den 28. sætning i fjerde bog af <persName
+                        ref="Regiomontanus">Johannes Regiomontanus&#x2019;</persName> <hi rend="it">Om sfæriske
+                    trekanter</hi>.<!-- note 23 --> Vi fandt den til at være 6 1/4 del, det samme som jeg observerede med
+                    et instrument ved at tage afstanden mellem de to stjerner. Derfor har den nævnte
+                    trekant AGB nu alle sider kendt, og vinklen BAG vil fremkomme ved den sidste
+                    sætning i <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName> bog om trekanter, eller ved den tredje sætning i sammes
+                    femte bog, eller i <persName ref="Copernicus">Kopernikus&#x2019;</persName> 13. sætning om samme emne. Jeg fandt imidlertid
+                    denne vinkel efter at have behandlet tallene ifølge de omtalte sætninger til 111
+                    dele og 46 minutter. Med samme fremgangsmåde måler jeg vinklen i<pb ed="A"
+                        n="B3v"/>trekanten CAB, som er ved A, for også alle dens sider er kendt ud
+                    fra det foregående. CA er 5 dele og 21 minutter; CB er 5 dele og 1 minut; AB er
+                    6 dele og 15 minutter. Derfor bliver vinklen CAB ved de nævnte sætninger 49 dele
+                    og 52 minutter. Jeg trækker denne vinkel fra den før fundne vinkel BAG (som en
+                    del af et hele), og tilbage bliver størrelsen af vinkel CAG: 61 dele og 44
+                    minutter.<!-- note 24 --> Nu går jeg videre til trekant CAG, hvis vinkel ved A allerede er
+                    kendt. Men de to sider, der omslutter den omtalte vinkel, GA og AC er kendt fra
+                    det foregående. Derfor, ved hjælp af 28. sætning i fjerde bog af <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName>
+                    Om trekanter, bliver den sidste side kendt, nemlig 38 dele og 4 minutter. Men
+                    buen GC var komplement til den nye stjernes bredde. Når man derfor trækker det
+                    fra kvadranten fremstår den nye stjernes bredde som 53 dele og 56 minutter,
+                    nemlig størrelsen af buen CE. For at finde stjernens længde måler jeg vinklen
+                    DGE’s størrelse ved alle siderne af trekant GAC (som allerede er kendt), ifølge
+                    fremgangsmåden i 34. sætning i fjerde bog eller tredie sætning i femte bog af
+                    <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName> Om trekanter. Jeg finder nu den nævnte vinkel til 8 dele og 1
+                    minut. <pb ed="TBOO" n="I.23"/>Men buen DE måler denne vinkel, svarende til
+                    afstanden mellem den nye stjernes længde og den første fiksstjernes længde. Hvis
+                    man derfor lægger denne bue (som nævnt 8 dele og 1 minut) til den første
+                    fiksstjernes længde, som vi antog at være 29 grader og 0 minutter fra Vædderen,
+                    fremstår positionen <pb ed="A" n="B4r"/>for den nye stjernes længde som 7 grader
+                    og 1 minut fra Tyren med den før fundne bredde fra Ekliptika på 53 dele og 56
+                    minutter. Hvilket skulle bevises. Vi har på denne måde ved hjælp af læren om
+                    trekanter med en ufejlbarlig metode fundet dette nye himmellegemes position i
+                    længde og bredde. Det er ikke stedet at gøre nærmere rede for fremgangsmåden ved
+                    udfindelsen af de førnævnte vinkler og sider i trekanter ifølge den omtalte
+                    læres sætninger, fordi hele denne opgave både vil føre for vidt og være alt for
+                    indviklet. Størstedelen af sætningerne står nemlig i <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName> fjerde bog.
+                    Det udelades i dette værk, fordi alle sætningerne på sædvanlig geometrisk vis
+                    hænger sammen som i en kæde, og desuden fordi forståelsen af de sfæriske
+                    trekanter har en for guddommelig og ophøjet natur til, at det er passende at
+                    udbrede dens mysterier til alle og enhver. Jeg er selvfølgelig udmærket klar
+                    over, at stjernepositionerne i den ottende kreds ikke er kendt tilstrækkelig
+                    præcist, hvilket betyder, at de fiksstjernepositioner, som vi har brugt som
+                    udgangspunkt i dette bevis, ikke har nøjagtig den længde- og breddeposition, som
+                    vi har antaget. Derfor kunne den nye stjernes position måske også fastlås en
+                    smule anderledes, men fordi jeg ikke selv har sikre observationer ved disse
+                    fiksstjernepositioner, har jeg ikke villet afvige fra <persName ref="Ptolenaios">Ptolemæus&#x2019;</persName> og <persName ref="Copernicus">Kopernikus&#x2019;</persName>
+                    annotation. Hellere det, end at skulle gå ud fra den alfonsinske rodebunke!<!-- note 25 --> Jeg
+                    har nemlig ved hyppige observationer erfaret, at <persName ref="Copernicus">Kopernikus&#x2019;</persName> bevægelser bedre
+                    svarer til himlen end både de alfonsinske og nogen af de andre tabeller over
+                    himmelbevægelser. <pb ed="A" n="B4v"/>Jeg er sikker på, at min anførte position
+                    for den nye stjerne, som er fundet ved hjælp af de andre fiksstjerner, ikke
+                    afviger meget fra den virkelige position, og hvis Gud giver mig et langt liv,
+                    vil jeg anstrenge mig for at publicere fiksstjernepositionerne, når de engang er
+                    forbedrede efter mine egne observationer, til astronomernes fælles nytte.</p>
+
+                <p rend="indent">Efter at have fundet denne nye stjernes længde og bredde fandt jeg
+                    også dens deklination eller (hvad der er det samme) dens mindste afstand fra
+                    Ækvator ved hjælp af de sfæriske trekanter: 61 dele og 58 minutter. Tilsvarende
+                    fandt jeg, at den havde netop denne størrelse ved en observation med instrument.
+                    På samme måde fandt jeg (da dens deklination og længde var givet) dens
+                    rektascension til 0 grader og 22 minutter. Derfor kulminerer denne stjerne ved
+                    20 minutter af første grad af Vædderen, når den er nærmest zenit, og når er lige
+                    så langt inde i Vægten, passerer den igen meridianen nær horisonten. Dens
+                    position er derfor næsten sammenfaldende med den cirkel, som man kalder
+                    jævndøgnskoluren, og derfor nær de grænser, der går mellem mælkevejen,
+                    Cassiopeia og Cepheus. Den står lodret over de steder på Jorden, der har en
+                    arktisk polhøjde på 62 grader minus 2 minutter. <pb ed="TBOO" n="I.24"/>Sådan er
+                    nemlig som sagt stjernens deklination. Jeg mener nu, at der er sagt og bevist
+                    nok om denne nye stjernes position, både i forhold til fiksstjernerne og til
+                    Ekliptikas længde og til Ækvator. Den holdt denne position hele tiden, fra jeg
+                    først fik øje på den (jeg har nemlig ofte og omhyggeligt observeret den), og
+                        den<pb ed="A" n="C1r"/>har i de forløbne seks måneder ikke flyttet sig et
+                    minut. Derfor forudsiger jeg, at den i fremtiden også vil blive på dette sted og
+                    ikke i sig selv vil bevæge sig fremad med nogen anden bevægelse end den, der er
+                    fælles for fiksstjerner i den ottende sfære.</p>
+            </div>
+            <div>
+                <head>Om dens position i forhold til Verdens diameter og dens afstand fra Jorden,
+                    Verdens centrum.</head>
+                <p>Det er vanskeligt og kræver et meget skarpt intellekt at undersøge stjernernes
+                    afstand fra os på grund af deres utrolige afstand fra Jorden. Det kan ikke gøres
+                    på nogen lettere og mere sikker måde end ved en måling af deres parallakse, hvis
+                    de har en sådan. Hvis nemlig en stjerne nær horisonten ses på et andet sted, end
+                    hvor den på sit højeste nærmer sig zenit, må den nødvendigvis findes i en af
+                    kredsene, i forhold til hvilken Jorden har en mærkbar størrelse. Hvor langt den
+                    omtalte kreds er væk, vil parallaksens størrelse sammenholdt med Jordens
+                    halvdiameter vise. Hvis stjernen både nær ved horisonten og ved zenit ses i det
+                    samme punkt af den første bevægede kreds,<!-- note 26 --> er der ingen tvivl om,
+                    at den enten har sin plads i den ottende sfære eller ikke langt derunder, i en
+                    kreds i forhold til hvilken Jorden er som et punkt. For at det nu <pb ed="A"
+                        n="C1v"/>således kunne stå os klart, om denne stjerne opstod i
+                    elementarregionen eller blandt de himmelske kredse, og hvilken afstand den
+                    havde fra selve Jorden, undersøgte vi på følgende måde, om den overhovedet
+                    havde nogen parallakse, og i givet fald hvor stor: Jeg observerede afstanden
+                    mellem den nye stjerne og Schedir i Cassiopeia (denne stjerne har nemlig næsten
+                    den samme meridian som den nye), når den var nærmest zenit; den var kun 6 grader
+                    væk fra selve zenit (og derfor kunne den ikke lave nogen parallakse på dette
+                    sted, selvom den var nær ved Jorden, men både dens tilsyneladende og sande
+                    position forenes i ét punkt på grund af de næsten sammenfaldende linjer fra
+                    Jordens centrum og overflade). Det samme udførte jeg, da den var længst væk fra
+                    zenit og nærmest horisonten, og begge steder fandt jeg nøjagtig den samme
+                    afvigelse fra den omtalte fiksstjerne på 0 minutter, nemlig 7 dele og 55
+                    minutter. Jeg konstaterede det samme ved mange gange gentagne observationer af
+                    andre fiksstjerner. Deraf slutter jeg, at denne nye stjerne ikke har nogen
+                    forandring i sin synsvinkel, selv når den er nær horisonten. Ellers ville den
+                    nemlig have fjernet sig mere <pb ed="TBOO" n="I.25"/>fra den føromtalte stjerne
+                    i Cassiopeias bryst i sin mindste højde end i sin største højde. Derfor må man
+                    nødvendigvis placere denne stjerne ikke i elementarregionen neden for Månen, men
+                    langt ovenover i en kreds, i forhold til hvilken Jorden ikke har en mærkbar
+                    størrelse. Hvis den nemlig havde været i den øverste del af luftregionen, altså
+                    neden for månesfærens konkave region, ville den have forårsaget en mærkbar
+                    variation i højdecirklen, når den var nærmest ved horisonten, i forhold til det
+                    sted, hvor den er <pb ed="A" n="C2r"/>nær zenit. Lad der (af hensyn til et mere
+                    klart bevis) være tegnet en cirkel, som gengiver meridianen eller en anden
+                    vertikal i den første bevægelige kreds, hvor alle stjerners positioner ses. Lad
+                    diameteren BE betegne vertikalen, CD horisonten. Lad der desuden være beskrevet
+                    en cirkel med samme centrum MKL, som angiver Jordens omkreds. Mellem disse skal
+                    der også angives en anden cirkel GHFI, som gengiver månesfærens nederste løb
+                    nærmest ved Jorden, hvor vi skal forestille os, at denne stjerne befinder sig.
+                    Lad den nu være i sin største højde ved punktet G. Det er klart, at den mangler
+                    enhver form for ændring i synsvinkel. Begge linjer er nemlig trukket fra
+                    Jordens centrum og fra et øje på dens overflade til ét og samme punkt på den
+                    øverste bevægelige kreds, dvs. CBDE, og vil ramme det samme sted, nemlig i punkt
+                    B eller nærved, hvis stjernen ikke præcis er i G. Dette punkt flytter sig nemlig
+                    6 grader fra zenit, når den står højest for os, men den udgør ikke nogen mærkbar
+                    forskel fra zenit. Lad nu denne stjerne befinde sig i den samme cirkel GHFI i
+                    sin mindste højde, dvs. i punktet O. Den må nu nødvendigvis ses på et andet sted
+                    i den yderste cirkel, hvis øjet befinder sig i K på Jordens overflade, end hvis
+                    det var i A ved dens centrum. For hvis linjerne er trukket fra overfladen K og
+                    Jordens centrum A gennem stjernens position O til den yderste kreds BDEC, vil
+                    linjen falde fra A gennem O til P. Fra K ligedeles gennem O til Q. Derfor er PQ
+                    en bue på den første bevægelige kreds og viser stjernens ændring i synsvinkel. . </p>
+                <figure/>
+                <p rend="indent"><pb ed="A" n="C2v"/>Vi skal nu undersøge størrelsen af buen PQ, for
+                    at det kan stå klart, hvilken ændring i synsvinklen denne stjerne har nærmest
+                    ved horisonten, hvis den befinder sig i punkt O på cirklen IGHF <pb ed="A"
+                        n="C3r"/>lige neden for Månens kreds. Lad der, for at det kan ske så let som
+                    muligt, være trukket en linje QOK, indtil en anden linje trukket fra centrum A
+                    skærer den vinkelret, og lad det ske i punktet R. Da nu vinklen BKQ er kendt ved
+                    observation (den er nemlig komplementet til denne stjernes mindste højde, dvs.
+                    62 dele og 5 minutter), så vil dens topvinkel RKA, som er lig med den, også være
+                    kendt. Desuden er vinkel KRA iflg. antagelsen ret, og siden KA er kendt fra
+                    enhver måling, den er nemlig Jordens halvdiameter. AR vil være kendt gennem den
+                    29. sætning i <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName> bog Om plane trekanter. Hvis altså Jordens
+                    halvdiameter KA sættes til 100.000 dele, ligesom hele sinus,<!-- note 27 --> vil
+                    siden AR være på 88.363, eftersom den er siden i en ret vinkel, som står over
+                    for R. Nu undersøger jeg først trekanten ROA, hvis to <pb ed="TBOO" n="I.26"
+                    />sider RA og AO er kendt. AO er nemlig afstanden mellem Jordens centrum og den
+                    nederste overflade af Månens kreds, som vi i overensstemmelse med <persName ref="Copernicus">Kopernikus</persName> har
+                    fastsat til 5.200.0¬00 af de dele, hvoraf Jordens halvdiameter AK udgjorde
+                    100.000. (Det er nemlig en fordel at løse denne opgave med store tal, så
+                    udregningen bliver nemmere og fremstår mere eksakt). Da vinkel ORA i den omtalte
+                    trekant iflg. antagelsen er ret, vil vinkel ROA fremgå ved den 27. sætning i
+                    <persName ref="Regiomontanus"
+                        >Regiomontanus&#x2019;</persName> Om plane trekanter. Hvis siden AR multipliceres med hele sinus,
+                    giver det nemlig 8.836.300.00¬0, og divideret med siden AO giver dette tal 1.699
+                    dele, dvs. sinus til vinklen ROA, hvis bue er 0 dele og 58 1/2 minutter.<pb
+                        ed="A" n="C3v"/>Dette tal angiver den søgte vinkels størrelse. Men vinkel
+                    POQ er lig med denne vinkel ROA. Den er nemlig dens topvinkel, som det fremgår
+                    af geometriens elementer.<!-- note 28 --> Derfor vil buen PQ, som måler denne
+                    vinkel og angiver stjernens parallakse, være på 58 ½ minutter, hvilket skulle
+                    findes (for på grund af den umådelige <pb ed="TBOO" n="I.27"/>afstand mellem
+                    Månens sfære og den første bevægelige kreds afviger buen PQ ikke mærkbart fra
+                    cirkelbuen i afstanden OP mellem de samme linjer). Hvis denne stjerne havde
+                    befundet sig i punktet O, ville den altså have haft en så stor forandring i
+                    synsvinkel fra den position, som den havde nær zenit, til positionen, hvor den
+                    blev observeret nær horisonten. Dette har vi imidlertid som sagt vist er forkert
+                    ud fra mange og omhyggelige observationer foretaget med et udsøgt og meget lidt
+                    fejlbehæftet instrument. Derfor slutter jeg, at denne nyligt sete stjerne ikke
+                    er i cirkel IGHF, dvs. i den øvre luftregion, lige neden under Månens kreds, og
+                    heller ikke i nogen position endnu nærmere Jorden. I så fald ville den nemlig
+                    have forårsaget en større bue PQ, og ændringen i synsvinklen ville have været
+                    større. Jeg slutter, at den tværtimod har en position meget højere oppe end
+                    Månens sfære, nemlig i selve himlen, tilmed i en kreds, der er så langt væk fra
+                    Jorden, at linjen KA (Jordens halvdiameter) ikke har nogen mærkbar størrelse i
+                    forhold til den. Hele Jorden skal betragtes som værende blot et punkt
+                    sammenlignet denne afstand, og astronomerne har fundet ud af, at dette sker i
+                    den ottende sfære eller ikke langt fra den i de tre øverste planeters kredse.
+                    Derfor må denne stjerne placeres i selv himlen, eller i den ottende kreds sammen
+                    med de øvrige <pb ed="A" n="C4r"/> fiksstjerner eller i de nærmest underliggende
+                    sfærer. At den ikke befinder sig i Saturns, Jupiters, Mars’ eller de andre
+                    planeters kredse, fremgår af, at den i de forløbne seks måneder ikke med en
+                    egenbevægelse har flyttet sig ét minut fra det sted, hvor vi først observerede
+                    den. Dette burde være sket, hvis den havde været i en af planetkredsene. Så
+                    ville den nemlig bevæges med den for hver kreds særlige bevægelse imod den
+                    første bevægelige kreds’ orden, medmindre den havde stået stille ved den anden
+                    af polerne i den anden bevægelige kreds. Den har dog, som jeg ovenfor har vist,
+                    en afstand på 28 dele herfra. Alle kredse drejer nemlig om deres egne poler og
+                    fører deres egne himmellegemer rundt, eller føres rundt af andre (som jeg ser,
+                    at <persName ref="Plinius major">Plinius</persName><!-- note 29 --> og visse andre mener); medmindre man vil benægte
+                    filosoffernes og matematikernes overleverede opfattelse og påstå, at kun
+                    stjernerne roterer på ubevægelige kredse (hvilket er absurd). Hvis denne stjerne
+                    befandt sig i en af de syv vandrende himmellegemers kredse, måtte den derfor
+                    nødvendigvis bevæge sig rundt sammen med den kreds, som den var fæstnet på, og
+                    mod den daglige omdrejning. Men denne bevægelse ville kunne observeres selv i
+                    den langsomste progression i Saturnkredsen i et så langt tidsrum og selv af én,
+                    som betragtede den uden brug af instrument. Derfor har denne nye stjerne
+                    hverken sin plads i elementarregionen neden for Månen eller i de syv vandrende
+                    himmellegemers kredse, men i den ottende sfære blandt de øvrige fiksstjerner.
+                    Hvilket skulle bevises.</p>
+                <p>Heraf følger, at den ikke er en særlig form for komet eller et eller andet
+                    tilsyneladende ildmeteor. For alle disse ting opstår ikke i selve himlen, men
+                        <pb ed="A" n="C4v"/>neden for Månen i den højere luftregion, som alle
+                    filosoffer bekræfter; medmindre man med <persName ref="Albatagnius">Albategnius</persName><!-- note 30 --> vil påstå, at
+                    kometer ikke opstår i luften men i himlen. Han mener at <pb ed="TBOO" n="I.28"
+                    />have observeret en komet over Månen i Venus’ sfære. Om det kan forekomme, ved
+                    vi endnu ikke, men med Guds hjælp vil vi undersøge rigtigheden af denne sag,
+                    hvis der engang i vor levetid skulle komme en komet. Selvom vi antager, at det
+                    er sandt (hvilket jeg i overensstemmelse med alle filosoffer næppe kan medgive),
+                    følger der ikke heraf, at denne stjerne er en slags komet, dels på grund af
+                    formen, som den har tilfælles med de rigtige stjerner, og som er anderledes end
+                    alle de hidtil observerede kometers udseende, dels fordi den ikke har bevæget
+                    sig fremad med egen bevægelse i hele dette tidsrum, hverken i bredde eller i
+                    længde, sådan som det er velkendt, at kometer gør. Det kan godt være, at disse
+                    sommetider standser i nogle dage på ét sted, men de holder ikke deres plads så
+                    længe og ikke så nøjagtigt, hvilket omhyggelig observation med nøjagtige
+                    instrumenter påviser. Jeg slutter derfor, at denne stjerne ikke er en slags
+                    komet eller noget andet ildmeteor, hvad enten de opstår under eller over Månen,
+                    men at det er en lysende stjerne på selve firmamentet, som ikke har kunnet ses i
+                    nogen tidsalder fra Verdens skabelse til vore dage. Jeg mener nu, at der er sagt
+                    og bevist tilstrækkeligt om denne stjernes position, både hvor den er i forhold
+                    til Dyrekredsen, til Verdens diameter og himlens kredse. Jeg vil derfor gå
+                    videre til det øvrige. </p>
+            </div>
+            <div>
+                <head><pb ed="A" n="D1r"/>Om dens størrelse, lys og farve.</head>
+                <p>Stjernernes størrelse anskues på to måder af astronomerne: Den ene er deres synlige og tilsyneladende diameter, den anden den sande størrelse, som de har der, hvor de befinder sig på selve himlen. Det kan godt være, at stjerner synes ganske små for os og kun viser sig som små lys, der brænder på himlen. Men takket være matematikernes sindrige observationer har man forstået, at de ikke alene er lige så store som hele jordkloden, men overgår den langt i størrelse i en sådan grad, at man næppe ser nogen nok så lille stjerne på firmamentet, der ikke overgår jordkloden mindst 18 gange – for ikke at nævne stjernerne af første klasse,<!-- note 31 --> som overgår Jorden 105 gange i størrelse. Dette vil  nogle nok finde utroligt, men hvis man betragter deres umådelige afstand fra os, vil man ikke være i tvivl. Selvom denne stjerne virker lille i udseende, har den derfor i virkeligheden en uhyre størrelse. For lige siden begyndelsen, da den begyndte at kunne ses i november, har den i synlig størrelse overgået ikke blot alle fiksstjerner, men også selve planeterne, oven i købet Jupiter, når den er nærmest ved Jorden, og Venus’ strålende himmellegeme.<pb ed="A" n="D1v"/>Senere begyndte den at blive svagere, sådan at den i <pb ed="TBOO" n="I.29"/>december var omtrent som Jupiter. I januar var den en smule mindre end Jupiter og større end fiksstjerner af første rang, som den syntes at være lig med i februar og marts. Derefter blev den endnu svagere, sådan at den nu på dette tidspunkt, dvs. i begyndelsen af maj, ikke overgår stjerner af anden rang. Der er overensstemmelse mellem den måde, hvorpå den er formindsket i forhold til sin synlige diameter og til den sande diameter. Da den i begyndelsen langt overgik stjerner af første størrelse, overgik den også jordkloden i en helt utrolig grad. For hvis fiksstjerner af første størrelse ifølge matematikerne overgår Jorden 105 gange, og denne nye stjerne er lige så langt væk fra Jorden som fiksstjernerne (hvilket vi har bevist), og hvis den har en langt større synlig diameter, må den fra begyndelsen nødvendigvis have overgået den masse, som jord og hav udgør,  langt mere end 105 gange. Men i tidens løb er den blevet mindsket og kan ikke overgå Jorden mere end stjerner af anden rang.</p>
+
+                <p rend="indent">Stjernens lys ses at være strålende og skinnende i forhold til de andre stjerner i en sådan grad, at nogle mennesker i begyndelsen adskillige gange kunne se den ved højlys dag omkring middag, når himlen ikke var dækket af en luftfortættelse. Den glimter også som de øvrige fiksstjerner, og det meget. Heraf er det også klart, at den ikke hører hjemme  i planetkredsene men i den ottende sfære blandt de øvrige fiksstjerner, som vi også har påstået ovenfor. <pb ed="A"
+                    n="D2r"/>Planeter blinker nemlig ikke, det gør kun fiksstjerner, og blandt disse nogle mere, andre mindre. Det skyldes enten, at deres uhyre afstand fra os bevirker dette på grund af den mellemliggende luft, sådan som nogle mener. Det tror jeg nu ikke, for ellers ville Saturn i apogæum, når den er nærmest fiksstjernerne, også glimte. Eller det skyldes, at fiksstjernerne hele tiden roterer omkring deres eget centrum og derfor på grund af luftens egenskab medfører en glimten for vores syn, hvilket jeg snarere (i overensstemmelse med platonikerne) mener.</p>
+
+                <p rend="indent">Hvad denne stjernes farve angår, havde den ikke hele tiden den samme, men i begyndelsen virkede den hvidlig og kom meget tæt på Jupiters glans. Med tiden, da lyset blev mere fortættet og sammentrængt, udviklede den sig til en rødlig, marsagtig glans, ligesom Aldebora<!-- note 32 --> eller den stjerne, som lyser rødt i Orions højre skulder. Den var nu ikke så rød som den i skulderen, men nærmede sig snarere Aldebora. Nu har den mistet Mars’ røde farve og er gået over i en blyagtig hvidhed, sådan at den her i maj måned ligner Saturn og Venus.</p>
+
+                <p rend="indent">At denne stjerne som nævnt har ændret både størrelse og farve  i mærkbar grad, er ikke noget tilstrækkeligt bevis for, at den har sin plads i elementarregionen neden for Månens kreds, og at den skulle være en særlig slags komet eller en anden form for ildagtig uddunstning. Hvis det nemlig har været muligt, at et nyt legeme kan opstå i selve ætheren  <pb ed="TBOO" n="I.30"/>(hvilket vi har bevist ovenfor med ugendrivelige beviser, stik mod alle filosoffers  <pb ed="A" n="D2v"
+                />læresætninger og udsagn), vil det regnes for langt mindre usandsynligt og absurd, at denne nye stjerne skulle undergå en forandring i størrelse og farve. Ja, hvis denne stjerne, der engang<!-- note 33 --> er opstået på himlen uden for de almindelige naturlove, på samme måde engang i strid med de samme naturlove skulle holde op med at kunne ses på himlen (hvilket er højst sandsynligt), kan jeg ikke se, hvorfor der heraf skulle følge noget, der er mere urimeligt end det første.</p>
+            </div>
+            <div>
+                <head>Astrologisk vurdering af virkningerne af denne nyfødte stjerne.</head>
+                <p>Ganske vist går det langt ud over astrologiens mål<!-- note 34 --> at fastslå nogen form for kendsgerninger vedrørende virkningerne af denne stjerne, og det er sandsynligt, at Gud hermed vil åbenbare noget meget større for Verden, end noget menneske kan vide på forhånd med hjælp fra nogen form for naturvidenskab. Alligevel vil jeg tilføje nogle kortfattede formodninger, som jeg har uddraget af astrologiske kilder, fordi det med hjælp fra dette fag er muligt at vide ikke så lidt på forhånd, og fordi jeg i det korte tidsrum er blevet klar over en del. Jeg vil ikke på nogen måde sætte teologernes eller nogen som helst andres opfattelse ud af kraft og vil ikke sælge mine formodninger, som var de en prætors edikter eller sikre spådomme.<!-- note 35 --> Det er dog højst sandsynligt, at lige så vel som  <pb ed="A" n="D3r"/>Det er dog højst sandsynligt, at lige så vel som miraklet med denne stjerne er det største og mest sjældne af alt, hvad der er sket siden Verdens begyndelse, så må denne stjerne også have de største og mest sjældne virkninger. Derfor mener jeg, at den må have en større åbenbaring i sig end nogen planetkongres,<!-- note 36 --> selv dem man kalder de største. Det gælder også formørkelser af et hvilket som helst himmellegeme og enhver anden form for stjernekongres eller konfiguration på himlen. Alle disse har ganske vist stor magt over denne nedre verden, som de sande videnskabsmænd konstaterer dagligt, men da de optræder hyppigere og i naturlig orden kan de umuligt have lige så stor betydning som denne nyfødte stjerne, der nu for nylig er opstået uden for naturens orden, og som langt overgår alle andre fiksstjerner med sin størrelse og lysstyrke. Det er imidlertid overordentlig vanskeligt på grundlag af astrologien at undersøge, hvad og af hvilken art denne stjernes fremtidige virkninger vil være. Dette fag grunder nemlig sine slutninger på en mangfoldig og sjældent vildledende erfaring, og kun én gang tidligere, på <persName ref="Hipparchos">Hipparchs</persName> tid, læser vi, at der er opstået en ny stjerne på himlen. Det er derfor usikkert og nærmest umuligt at bedømme denne sag ud fra erfaring. Jeg regner dog følgende for sandsynligt: På <persName ref="Hipparchos">Hipparchs</persName> tid (hans floruit<!-- note 37 --> var omtrent år 3.840 efter Verdens skabelse,  <pb ed="TBOO" n="I.31"/>ca. 125 f.Kr., som det fremgår af hans observationer og af <persName ref="Ptolemaios">Ptolemæus&#x2019;</persName><!-- note 38 --> citater) skete der kort efter denne stjernes tilsynekomst (som den førnævnte <persName ref="Hipparchos">Hipparch</persName> observerede) mirakuløse forandringer <pb ed="A" n="D3v"/>både blandt Guds folk og i hele den beboede verden, og på samme måde vil der utvivlsomt i disse tider indtræffe skæbnesvangre perioder.</p>
+
+                <p rend="indent">For blandt Guds folk begyndte den sande lærdoms lys så småt at blegne og at blive ringeagtet og nedtrampet af de utaknemmelige jøder. Der opstod på det tidspunkt tre sekter: farisæernes, essæernes og sadukæernes. Ypperstepræsterne lå i indbyrdes stridigheder om altrene og om at opnå embedet som ypperstepræst (og det var ikke blot med bestikkelse og politiske fif men også med blodsudgydelse og mord), sådan som det fremgår af historien om den Johannes, der af den grund blev dræbt af sin egen bror i selve templet.<!-- note 39 --> Kort tid efter mistede Johannes Hyrkan (den sidste af Davids stamme og hus) sit scepter.<!-- note 40 --> Der fulgte nu overalt frygtelige myrderier og afskyelige nedslagtninger både blandt borgerne og i felten, indtil Føreren fra Bethlehem i Juda rige besøgte sin lille flok, der på det tidspunkt var klumpet sammen i byen, og dukkede op fra det høje som den Jakobs stjerne, Bileam havde spået om,<!-- note 41 --> og strålede som det sande Frelseslys for alverden. Med stjernen som fører fandt magerne dette Lys, og senere efter nogen tid så både jøder og hedninge den glimte.</p>
+
+                <p rend="indent">Omtrent på denne tid begynde der i alle stater at ske store forandringer. Grækernes eneherredømme begyndte at vakle i mange krige, både indre og ydre, og Romerriget voksede støt dag for dag, indtil imperiets grænser i Rom blev lig med verdens grænser. På samme måde vil efter min mening også den stjerne, som er opstået i vor tid varsle en stor statsomvæltning og en anden stilling for kejser- og kongeriger i de kommende år, særligt fordi denne stjerne indfandt sig ved en næsten fuldendt periode af alle trigoner<!-- note 42 --> i hele Dyrekredsen. <pb ed="A" n="D4r"/>For ti år fra nu vil kongressen af de store planeter,<!-- note 43 --> den ubetinget største, gøre en ende på vandtrigonen i den yderste ende af Fisken og samtidig slutte alle de andres omløb (som afvikles på godt 800 år), og den vil fra Vædderen indlede en ny begyndelse på trigoner, i ildtreheden. Derfor vil denne nye stjerne i høj grad virke sammen med den nye begyndelse på den kommende trigon, særlig fordi stjernens position i forhold til verdenspolerne falder i begyndelsen af Vædderen, hvor den nye trigonbegyndelse som sagt skal fejres. </p> <p rend="indent">Hvor store forandringer i kejser- og kongeriger, ja i alle stater i hele Verden den forudvarsler, kan den erfarne i denne kunst let se. Eftersom denne stjerne optræder netop dér i nærheden af Verdens poler, ved begyndelsen af Vædderen, jævndøgnspunktet og hele Dyrekredsens nye begyndelse nær ved den såkaldte jævndøgnskolur, synes det ud fra denne positions iboende kraft og særlige natur klart, at den efter forskellige alvorlige omvæltninger og forskellige forandringer af alt i hele Verden må varsle om en eller anden ny og fra de tidligere helt forskellig <pb ed="TBOO" n="I.32"/>status for kongerigerne og en anden styreform for religionen og lovene.</p>
+                <p rend="indent">Det følgende vedrører stjernens natur. Eftersom den fra begyndelsen efterlignede Jupiters venlige lys, <pb ed="A" n="D4v"/>lykkeligt, og den lover rigelige mængder af de afgrøder, som vokser på marken til gavn for menneskene, endvidere sundhed for alt levende, en behagelig luft,<!-- note 44 --> fred og fordragelighed. Men eftersom den i den midterste fase svækkedes til Mars’ rødlige glød, vil den efter denne glædelige og lovende begyndelse senere  i særlig grad påvirke Verden med umådelige ulykker og katastrofer svarende til Mars’ giftige stjerne, dvs. krig, oprør, tilfangetagelse af og drab på statsledere, plyndring af lande og byer, voldsherredømmer, grusomhed, uret, brand, mord, plyndring, røverier og tilsvarende ulykker. I luften vil der optræde tørhed og brændende hede, ildmeteorer og derfor pestagtige sygdomme, foruden giftspyende slanger og andet af den slags. Til sidst varsler den &#x2013; ud fra Saturns natur og dens lysende bleghed &#x2013; hårde tider, sorg, død, fængsel og alle mulige ulykkelige og sørgelige ting.</p>
+
+                <p rend="indent">Man kan dog ikke vide, på hvilket tidspunkt stjernen først viste sig, og det kan heller ikke på astrologisk vis afgøres ud fra himmellegemernes daværende stilling. Vi vil derfor forsøge en tilnærmelse ud fra himmellegemernes stilling ved nymåne udmiddelbart forud for stjernens tilsynekomst. Det sker med Ptolemæuskommentatoren <persName
+                    ref="Ali ibn Ridwan">Halus</persName><!-- note 45 --> som forbillede: han gjorde det ofte ved en komet, hvis begyndelse man ikke kunne kende.  </p>
+                
+                <p rend="indent">Der følger nu en tegning af himlen og stjernerne, som den var ved nymåne den 5. november. For omkring det tidspunkt <pb ed="A" n="E1r"/>(eller ikke længe før eller efter) mener jeg, at stjernen viste sig for første gang. Vi så den nemlig, som jeg har forklaret i begyndelsen, første gang den 11. november. Jeg skal ikke kunne sige, om den har skinnet nogle dage før, fordi det havde været  <pb ed="A" n="E1v"/>overskyet på vore kanter, hvilket forhindrede observation af stjernerne. Men jeg tror ikke, at den kan have vist sig mere end to eller højst tre dage før.</p>
+                <figure/>
+                <p rend="indent">Jeg antager Mars som hersker i denne himmelkonfiguration. Mars har nemlig på lysenes<!-- note 46 --> plads Vognen,<!-- note 47 --> i det følgende hjørne ophøjelsen,<!-- note 48 --> i horoskopet og i Himlens Midterakse<!-- note 49 --> når den endvidere Treheden.<!-- note 50 --> Sammen med Saturn i husets<!-- note 51 --> indgang er den, også gennem sekstilen som aspekt,<!-- note 52 --> ikke langt fra det hjørne i occidenten, som følger lige efter lysenes konjunktion. Selve stjernen når meridianen og zenit sammen med begyndelsen af Vædderen, dens hus og Vognen. Derfor er der med så mange samstemmende årsager ingen tvivl om, at Mars har den altdominerende indflydelse i denne himmelfigur. Hertil kommer, at alle de øvrige planeter findes i dens huse, dvs. Skorpionen og Vædderen, lige med undtagelse af Venus, som i Vægten slutter sig til den i kvadratur. Selv har den Stenbukken som sin ophøjelse.</p>
+
+                <p rend="indent"><pb ed="TBOO" n="I.33"/>Da altså Mars er meget stærk i den nymånes herredømme, som gik forud for denne stjerne, og da stjernen (som ud fra sin egen natur er meget kraftfuld) går ned sammen med Arcturus i den samme positionscirkel ikke langt fra Månens knude, som man kalder Dragens Hale, forstærker det i højeste grad, hvad vi ovenfor har anført, nemlig at denne stjerne ud fra sin natur, som er beslægtet med Mars, varsler oprør, krige, fjendtlige bagholdsangreb, ødelæggelse og plyndringer af stater og byer, <pb ed="A" n="E2r"/>en usund, tør luftblanding, gift- og pestsygdomme og andre tilsvarende ulykker, som Mars’ voldsomme stjerne plejer at bringe menneskene. Men fordi den dominerende Mars’ position falder i det sjette hus, synes det i særdeleshed, som om det varsler nye og ukendte former for sygdom og grasserende sygdomstilfælde overalt.</p>
+
+                <p rend="indent">Hvad angår selve stjernens position, er der grund til overvejelse, fordi den på tidspunktet for denne nymåne omtrent nåede zenit, <pb
+                    ed="TBOO" n="I.34"/>hvorfor den med en placering i Himlens’ Midte og det tiende hus har særlig betydning for kejser-, konge- og fyrsteriger samt deres ledere, konger, hertuger og fyrster og andre i den øverste statsadministration. Den har dog særlig indflydelse på dem, der havde Tyrens tegn, hvori stjernen er, eller Vædderen, hvori den kulminerer, som horoskop eller Himlens Midte eller lysenes sted, da de blev født.</p>
+
+                <p rend="indent">De egne, hvor denne stjernes virkninger særligt vil hærge, er dem, som ligger nordligt i retning af nordpolen. Dem passerer stjernen nemlig gennem zenit, når den står i meridianen over polen. Disse er: hele det midterste Rusland, Livland, Finland, Sverige og den sydlige del af Norge. Det er dog højst sandsynligt, at dens virkning også vil strække sig til de omkringliggende egne. De folkeslag, som bor under jordtrigonen,<!-- note 53 --> vil heller ikke gå ram forbi.  <pb ed="A" n="E2v"/>Fordi stjernens længde er i Tyren, og Mars’ sted (den foregående nymånes hersker) går ind i Stenbukken, og begge disse tegn hører til jordtrekanten.</p>
+                
+                <p rend="indent">For at sige det med få ord: fordi denne stjernes sted i forhold til Verdens poler falder i Vædderen, vil dens virkning strække sig over næsten hele Europa. I særdeleshed vil ulykkerne, som stjernen forudsiger, ramme de mennesker, der i deres fødselskonstitution havde sammenfald i horoskop eller lys med denne stjernes sted eller med den herskende Mars&#x2019;.</p>
+
+                <p rend="indent">Tidspunktet for disse virkninger begrænses dog ikke til nogle få år, men kan strække sig over mange følgende, fordi denne stjerne er et meget sjældent og stort under, helt uden for naturens orden. De omtalte ting vil nå deres største indflydelse, når de går i forbindelse med virkningerne af den største konjunktion af de øvre planeter, der som nævnt efter ti år vil indlede en ny  begyndelse på trigonerne.</p>
+
+                <p rend="indent">Dette var, hvad jeg kortfattet og overordnet ville gøre opmærksom på vedrørende denne nye stjernes virkninger. Jeg er ganske vist helt klar over, at der kan siges noget lidt mere detaljeret ud fra almindeligt kendt astrologi. Jeg har dog besluttet på dette sted kun at sige det vigtigste og mest overordnede. Det er nemlig ikke en klog og god astrologs opgave at sige noget med bestemthed i detaljer, og jeg tror heller ikke, at det kan gøres med tilstrækkelig sikkerhed. Jeg tror, der er sagt nok til dem, der forstår astrologiens hemmeligheder. <pb ed="A"
+                    n="E3r"/>De andre skriver vi nemlig ikke for, som jeg redegjorde for i begyndelsen. Jeg vil indtil videre tie om de ting, som kan fremføres af den anden astrologis mere sande og hemmelige kilder.<!-- note 54 --> Disse er nemlig kun kendt af yderst få og lægges måske for had af mange på grund af deres uvidenhed.  Selv er den sådan indrettet, at det er forbudt at fremstille dens hemmeligheder offentligt.</p><pb ed="A" n="E3v"/>
+            </div>
+            <div>
+                <head><pb ed="A" n="E4r"/><pb ed="TBOO" n="I.35"/>
+                   Til de højtærede tjenere af begge former for astrologi, hvor de end findes, hver og en, mine herrer og venner, der fortjener evig pris, med hilsen og ønske om Uranias støtte fra Tycho Brahe, dansker</head>
+                <pb ed="TBOO" n="I.36"/>
+                <pb ed="TBOO" n="I.37"/>
+                <pb ed="TBOO" n="I.38"/>
+                <pb ed="TBOO" n="I.39"/>
+                <pb ed="TBOO" n="I.40"/>
+                <pb ed="TBOO" n="I.41"/>
+                <pb ed="TBOO" n="I.42"/>
+                <pb ed="TBOO" n="I.43"/>
+                <pb ed="TBOO" n="I.44"/>
+            </div>
+            <div>
+                <div>
+                    <head><pb ed="TBOO" n="I.45"/><pb ed="A" n="H1r"/>Om måneformørkelsen i december 1573.</head>
+               
+                <div>
+                    <head>Beregning af denne måneformørkelse efter <persName ref="Reinhold, Erasmus">Reinholds</persName> tabeller over himmelske bevægelser.</head>                  
+                    <pb ed="TBOO" n="I.46"/>
+                    <pb ed="TBOO" n="I.47"/>
+                    <pb ed="TBOO" n="I.48"/>
+                    <pb ed="TBOO" n="I.49"/>
+                </div>
+                    <div>
+                        <head>Om omregning af tiden til vores meridian.</head>
+                        <pb ed="TBOO" n="I.50"/>
+                        <pb ed="TBOO" n="I.51"/>
+                        <pb ed="TBOO" n="I.52"/>
+                    </div>
+                    <div>
+                        <head>Måneformørkelsen 8. oktober 1573 e.Kr.</head>
+                    </div>
+                        <pb ed="TBOO" n="I.53"/>
+                    <div>
+                        <head>Afbildning af måneformørkelsen.</head>
+                    <figure/>
+                    </div>
+                    <div>
+                        <head><pb ed="TBOO" n="I.54"/><pb ed="TBOO" n="I.55"/>Om beregning af denne formørkelse efter de alfonsinske tabeller og <persName ref="Peurbach, Georg von">Peurbachs</persName> tabeller.</head>
+                    </div>
+                    <div><head>Måneførkelse efter kong <persName ref="Alfonso 10.">Alonsos</persName> tabeller.</head>
+                        <figure/>
+                    </div>
+                    <div><head>Efter <persName ref="Peurbach, Georg von">Peurbachs</persName> tabeller.</head>
+                        <figure/>
+                    </div>
+                    <div><head>Om tidspunktet for denne formørkelse efter min egen obseervation af solens og månens bevægelser.</head>
+                        <pb ed="TBOO" n="I.55"/>
+                        
+                    </div>
+                    <div><head>På hvilken måde tidspunktet for formørkelse skal observeres, og hvordan det skal blive klart om min beregning af bevægelserne svarer til hvad der viser sig<!-- apparentiis, bedre oversættelse? -->, eller ej.</head>
+                        <pb ed="TBOO" n="I.56"/>
+                            <div>
+                                <head>Nogle fiksstjerners højde ved forskellige faser af formørkelse efter min egen beregning af bevægelserne.</head>
+                            </div>
+                            <div>
+                                <pb ed="TBOO" n="I.57"/>
+                                <pb ed="A" n="I4v"/>
+                                <head>De himmelske kredses konstitution ved kulminationen af måneformørkelsen 1573, 8. december, kl. 8.10 p.m.</head>
+                                <figure/>
+                            </div>
+                            <div>
+                                <head><pb ed="TBOO" n="I.58"/><pb ed="A" n="K1r"/>Astrologisk bedømmelse af virkningen af denne måneformørkelse.</head>
+                            </div>
+                            <div>
+                                <head>Om de dominerende stjerner.</head>
+                                <pb ed="TBOO" n="I.59"/>
+                            </div>
+                            <div>
+                                <head>Hvad formørkelsen betyder.</head>
+                                <pb ed="TBOO" n="I.59"/>
+                                <pb ed="TBOO" n="I.60"/>
+                            </div>
+                            <div>
+                                <head><pb ed="TBOO" n="I.61"/>Hvilke egne og folkeslag retter formørkelsen sine bestemmelser imod?</head>
+                                <pb ed="TBOO" n="I.62"/>
+                            </div>
+                            <div>
+                                <head>Hvornår vil virkningerne begynde, og hvor længe vil de vare?</head>
+                                <pb ed="TBOO" n="I.63"/>
+                                <pb ed="TBOO" n="I.64"/>
+                            </div>
+                            
+                        
+                        </div>
+                </div>
+            </div>
+                    
+        </body>
+        <back>
+            <div type="poem">
+                <pb ed="A" n="L1r"/>
+                <pb ed="TBOO" n="I.65"/>
+                <head>Om Urania <lb/>Elegi af forfatteren</head>
+
+                <lg>
+                    <l>Se, der findes et sted ved den strømmende Rønneås bølger,</l>
+                    <l rend="indent">den der ser det, vil tro muserne bor netop dér.</l>
+                    <l>Intet sted er så frugtbart som det, ej heller så dejligt,</l>
+                    <l rend="indent">der hvor Skånelands jord ser mod den nordlige pol.</l>
+                    <l n="5">Skåne har rigdom og guld og er øvet i krigens teknikker,</l>
+                    <l rend="indent">Skåne er danskernes lands smykke og fornemste pryd.</l>
+                    <l>Stedet er kranset fra hver en kant af skyggefuld skov, der</l>
+                    <l rend="indent">slutter den dejlige eng fast i sin lysåbne favn.</l>
+                    <l>Midt i alt det vil man se et hus, som i hensvundne tider</l>
+                    <l rend="indent" n="10">fortidens slægter gav navn: Herrevad kaldte de det.</l>
+                    <l>Det beboed engang en bande i luskede kutter,</l>
+                    <l rend="indent">snedige folk der bedrev noget de påstod var kult.</l>
+                    <l>Det var mens paven i Rom endnu lod befolkningen købe</l>
+                    <l rend="indent">sakramenter, og mens Helved blev låst mod gebyr!</l>
+                    <l n="15">Men da nu, på gudernes bud, i de seneste tider</l>
+                    <l rend="indent">Danmark bød paverne trods, nægted at ta deres åg,</l>
+                    <l>da fik banden der her forvalted den lønsomme fromhed,</l>
+                    <l rend="indent">ufortøvet besked om at begive sig derfra.</l>
+                    <l>Nu bebos det af Sten, en søn af den urgamle, ædle</l>
+                    <l rend="indent" n="20">Billeslægts blod, og en stor pryd for sin fornemme
+                        slægt.</l>
+                    <l>Sten er sit fædrelands stolthed, enhver anstændigheds vogter,</l>
+                    <l rend="indent">den ved hvis hævnende hånd grumt barbari slås på flugt.</l>
+                    <l>Det bevidner hans glas, der står mål med Venedigs produkter,</l>
+                    <l rend="indent">og som stråler med klar, ren krystallinsk kolorit.</l>
+                    <pb ed="A" n="L1v"/>
+                    <l n="25">Det bevidner papir, et aldrig før opdyrket håndværk</l>
+                    <l rend="indent">som under dig, min Sten, er blevet vækket til liv.</l>
+                    <l>Hér, i det hus, i selskab med Sten &#x2013; han var jo min onkel &#x2013;</l>
+                    <l rend="indent">holdt jeg i længere tid til som en gæst i hans hjem.</l>
+                    <l>Og en dag var jeg ude at gå i en skyggefuld skovkant</l>
+                    <l rend="indent" n="30">og gik om for mig selv langs med den rislende å.</l>
+                    <l>Solen var netop på vej til at synke i Hesperus' bølger</l>
+                    <l rend="indent">alt mens Månen fik sat fart i sit natlige spand. </l>
+                    <l>Se, da sank en gudinde (men hvem, det vidste jeg ikke)</l>
+                    <l rend="indent">ned fra himlen så klar, stod i et nu for mit blik.</l>
+                    <l n="35">Jeg blev grebet af skræk og hårene stod på mit hoved,</l>
+                    <l rend="indent">indtil hun selv forjog frygten hun satte mig i.</l>
+                    <l>»Glem blot din frygt,« bemærkede hun, »flygt ikke for synet,</l>
+                    <l rend="indent">du, unge mand, som helst ikke skal bort fra min kunst.</l>
+                    <l>Jeg er gudinden ved navn Urania (viste du det mon?)</l>
+                    <l rend="indent" n="40">efter Olympen, for den er hvad jeg arbejder med.</l>
+                    <pb ed="TBOO" n="I.66"/>
+                    <l>Blandt de charmerende muser, de ni apollinske gudinder,</l>
+                    <l rend="indent">elsker den højeste gud ingen så meget som mig.</l>
+                    <l>For som den knejsende æther står højt over jorden dernede,</l>
+                    <l rend="indent">og dens mægtige løb overgår få tønder land</l>
+                    <l n="45">således hæver nu jeg mig højt over søstrenes skare</l>
+                    <l rend="indent">&#x2013; gid Kalliope må ta sådanne ord med et smil
+                        &#x2013;</l>
+                    <l>for de synger jo kun om menneskers golde strabadser,</l>
+                    <l rend="indent">nydelser, højhed og magt, og om den grusomme krig.</l>
+                    <l>Og hvad der ellers går for sig på denne ynkværdige klode,</l>
+                    <l rend="indent" n="50">alt det som varer så kort inden det svinder og dør.</l>
+                    <l>Jeg lader hånt om alt der forgår blandt mensker på jorden,</l>
+                    <l rend="indent">nej, jeg vil stige til vejrs, op til de himmelske hjem.</l>
+                    <pb ed="A" n="L2r"/>
+                    <l>Højt over skyerne hæver jeg stolt mit hoved til himlen,</l>
+                    <l rend="indent">nyder med Jupiter selv himmelsk ambrosia sød.</l>
+                    <l n="55">Dér studerer jeg himmelens syv bestandige kredse</l>
+                    <l rend="indent">ser på stjernerne selv i deres vante forløb.</l>
+                    <l>Stjernerne vidner om kunsten hvormed den hellige guddom</l>
+                    <l rend="indent">satte det skinnende tag over den mægtige pol.</l>
+                    <l>Stjernerne kender til alt hvad skæbnen i fremtiden bringer,</l>
+                    <l rend="indent" n="60">de kender ofte til godt, de kender ofte til ondt.</l>
+                    <l>Også for jer forvalter jo de deres love og regler,</l>
+                    <l rend="indent">på deres tystladne vej nægter og tilstår de mangt.</l>
+                    <l>Dog, et sind ved sin fulde fornuft kan de ikke betvinge,</l>
+                    <l rend="indent">for det gør hvad det vil, følger sin dømmekraft selv.</l>
+                    <l n="65">Men da uendelig få lar sig lede på vej af fornuften,</l>
+                    <l rend="indent">kan kun uendeligt få ændre den himmelske lod.</l>
+                    <l>Således viser jeg menskene hvad der skal komme af modgang,</l>
+                    <l rend="indent">så de kan være beredt og gøre ulykken let.</l>
+                    <l>Den slags ynder nu jeg, det vier jeg hele min omsorg,</l>
+                    <l rend="indent" n="70">det der nu og for al evighed aldrig forgår.</l>
+                    <l>Nu spør du næppe om hvem jeg mon er og hvad jeg bedriver,</l>
+                    <l rend="indent">eller min særlige plads højt over musernes flok.</l>
+                    <l>Dog står jeg nok (må jeg vedstå) på ét punkt under de andre,</l>
+                    <l rend="indent">det har dog mennesker gjort, selv er jeg helt uden skyld:</l>
+                    <l n="75">Der er for få her på jord der har meldt sig til kamp bag min fane,</l>
+                    <l rend="indent">hvor man ikke når hen hvis man er langsom til fods.</l>
+                    <l>Dem følger talrige skarer af folk som er lokket af vinding</l>
+                    <l rend="indent">for til deres armé kommer man uden besvær.</l>
+                    <l>Ja, et dødeligt bryst har kun sans for en dødelig verden,</l>
+                    <l rend="indent" n="80">hjertet det bærer omkring nede i støvet, er blindt.</l>
+                    <pb ed="A" n="L2v"/>
+                    <l>Men jeg kan huske en ædlere tid i en hensvunden æra</l>
+                    <l rend="indent">hvor jeg blev mødt med respekt, hvor jeg blev dyrket på
+                        jord.</l>
+                    <pb ed="TBOO" n="I.67"/>
+                    <l>Og jeg kan huske en tid hvor jeg havde min gang i de høje</l>
+                    <l rend="indent">sale ved kongernes hof midt i den fornemste pragt.</l>
+                    <l n="85">Dengang fik nemlig kun konger og de der var rundet af konger,</l>
+                    <l rend="indent">(tænk hvilken ære for mig!) lov til at røre min kult.</l>
+                    <l>Ej heller du sagde nej engang til at vise mig hæder,</l>
+                    <l rend="indent">mangen en gang lagde du ofre på altret for mig.</l>
+                    <l>Tit når vi så dig udforske himlen en stjerneklar aften,</l>
+                    <l rend="indent" n="90">sagde Apollon til mig: »Han der skal nok blive din!«</l>
+                    <l>Det var hans ord, og et svimlende håb fæsted rod i os begge,</l>
+                    <l rend="indent">om at du nu var den der ville ofre til mig,</l>
+                    <l>du var den der her under bjørnenes tegn skulle dyrke</l>
+                    <l rend="indent">du var den der her under bjørnenes tegn skulle dyrke</l>
+                    <l n="95">&#x2013; Indtil du ganske forfaldt til Vulkans fordægtige kunster</l>
+                    <l rend="indent">og ved den hellige ild fremstilled dette og hint.</l>
+                    <l>Straks begyndte min kult at miste sin vægt og betydning.</l>
+                    <l rend="indent">Da var Uranias glans ikke den samme som før.</l>
+                    <l>Skønt, det bar jeg dog nok, for jorden har også sin egen</l>
+                    <l rend="indent" n="100">form for stjerner &#x2013; en art langtfra i modstrid
+                        med min.</l>
+                    <l>Jorden har selv sine sole, såvel som den har sine måner,</l>
+                    <l rend="indent">og den rummer såmænd stjernernes samlede flok.</l>
+                    <l>Ja, for alt hvad der er foroven, er også forneden,</l>
+                    <l rend="indent">nok er det hver sin kreds, men deres ansigt er ens.</l>
+                    <l n="105">Stjernerne her på jord kan man tage og føle med hånden</l>
+                    <l rend="indent">skønt kun ildgudens kunst klart lar os se deres kraft.</l>
+                    <l>Mine kan øjnene se som de funkler når himlen er skyfri.</l>
+                    <l rend="indent">Øjnene ser dem, men kun tanken kan se deres kraft.</l>
+                    <pb ed="A" n="L3r"/>
+                    <l>Så de vestaliske jomfruers kult har jeg slet ikke ondt af,</l>
+                    <l rend="indent" n="110">det er en kult der er tæt knyttet til kulten for
+                        mig.</l>
+                    <l>Men at du nu går ørkesløs om og lar kulterne ligge,</l>
+                    <l rend="indent">værdsætter stjerner så lidt, mine såvel som din jords,</l>
+                    <l>det har jeg noget imod! Og derfor forlod jeg det høje,</l>
+                    <l rend="indent">for at bestyrke dit bryst i at det elsker just mig.</l>
+                    <l n="115">Det er en skam at spilde et liv i sin blomstring på intet.</l>
+                    <l rend="indent">Det er en skam at gi op midt i et påbegyndt værk.</l>
+                    <l>Nå, hvad venter du på? Tag fat nu, dyrk mine kulter!</l>
+                    <l rend="indent">Nu har Vulkan bestemt fået den tid han sku ha.</l>
+                    <l>Ja, tag fat &#x2013; og hvis ikke du ved hvad du nu skal tage fat på,</l>
+                    <l rend="indent">så skal du få dig et stof hvor du kan vise geni.</l>
+                    <l>Se, en helt ny stjerne står frem i den højeste æther,</l>
+                    <l rend="indent">hvor, ved den nordiske pol, Cassiopeia har plads.</l>
+                    <l>En som man aldrig, så langt man kan skue tilbage i tiden,</l>
+                    <l rend="indent">før har set i det så velkendte stjernesystem. </l>
+                    <pb ed="TBOO" n="I.68"/>
+                    <l n="125">Dens position på den svimlende vide Olymp skal du måle,</l>
+                    <l rend="indent">og hvor langt den er væk nede fra jer, skal du se.</l>
+                    <l>Påvis og dokumentér at en grufuld komet er det ikke,</l>
+                    <l rend="indent">men at stjernernes flok ser den som en blandt dem selv.</l>
+                    <l>Eftersom ingen af dem gør indtryk på menneskers sjæle,</l>
+                    <l rend="indent" n="130">varsler den nye om det de kun forgæves har sagt.</l>
+                    <l>Føj dertil at i år står himmelens kredse nu atter</l>
+                    <l rend="indent">som da en jomfru så kysk fødte vor gud som en mand.</l>
+                    <l>Fastlæg for netop det år hvordan tiderne løber på himlen,</l>
+                    <l rend="indent">stedfæst dag for dag alle de vandrende tegn.</l>
+                    <l n="135">Bogfør hvor stjernerne står, hvordan måne og sol går i cirkel,</l>
+                    <l rend="indent">skriv hvilke tegn der går ned, skriv hvilke tegn der står
+                        op.</l>
+                    <pb ed="A" n="L3v"/>
+                    <l>Lær heraf om himlens effekt på det flygtige lufthav,</l>
+                    <l rend="indent">nu med brændende glød, nu med den arktiske frost.</l>
+                    <l>Om det blir klart og en strålende dag står i herligste festdragt,</l>
+                    <l rend="indent" n="140">eller om skyernes vand falder som silende regn.</l>
+                    <l>Det har mange forsøgt, men omhu og flid var forgæves,</l>
+                    <l rend="indent">for de savnede helt støtte og bistand fra mig. </l>
+                    <l>Du, derimod, har med gudernes hjælp et finere afsæt,</l>
+                    <l rend="indent">så se til at få gjort dette betroede hverv.</l>
+                    <l n="145">Og når dét så er gjort, vil jeg ta dig til det der er større, </l>
+                    <l rend="indent">da skal du lære hvad slet ingen fik indsigt i før.</l>
+                    <l>Bare du finder dig i at udstå de søde strabadser</l>
+                    <l rend="indent">for Uranias skyld, helt op til himmelens hjem. </l>
+                    <l>Heroppe fra &#x2013; med mindre et ord fra skæbnens gudinde</l>
+                    <l rend="indent" n="150">sku tale falsk &#x2013; vil du så vinde udødeligt
+                        ry.«</l>
+                    <l>Det var hvad himlens gudinde, der står for de knejsende stjerner,</l>
+                    <l rend="indent">sagde i netop de ord, udtrykt på menneskesprog,</l>
+                    <l>hvorpå hun straks forsvandt for mit blik tilbage til himlen.</l>
+                    <l rend="indent">Men i mit sind havde nu guddommens kraft fået plads.</l>
+                    <l n="155">Og da det ikke er ret at se stort på de himmelskes ordrer,</l>
+                    <l rend="indent">modtager I her det værk musen formaned mig til.</l>
+                    <l>Modtag den, I, den fornemme flok der dyrker gudindens</l>
+                    <l rend="indent">hellige, himmelske kult, fjernt fra den menige mand.</l>
+                    <l>Hvis I kan li hvad I får, skønt det ikke er særlig værdifuldt,</l>
+                    <l rend="indent" n="160">vil I måske snart få noget af langt større værd.</l>
+                    <l>Snart vil I få noget bedre, for mig skræmmer hverken den dummes</l>
+                    <l rend="indent">grin eller arbejdets slid bort fra din forskning, Olymp. </l>
+                    <l>Andre kan lide, og lad dem blot det, at prale af sejre</l>
+                    <l rend="indent">og med brovtende røst fremsige højstemte ord,</l>
+                    <pb ed="A" n="Lr"/>
+                    <l n="165">eller at opremse slægt og æt fra den fjerneste fortid,</l>
+                    <l rend="indent">selv tage æren for alt det deres aner har gjort.</l>
+                    <pb ed="TBOO" n="I.69"/>
+                    <l>Andre kan finde behag i kongers og herskeres nåde,</l>
+                    <l rend="indent">fryde sig over det guld jorden har gemt i sit dyb,</l>
+                    <l>plaget af tom ambition og afsindigt begær efter vinding,</l>
+                    <l rend="indent" n="170">og at bære et stort embedes tyngende åg.</l>
+                    <l>Lad blot dem sætte pris på den rasende Bacchus' bægre,</l>
+                    <l rend="indent">bægre der stadig blir fyldt, fugtige dage på rad.</l>
+                    <l>Mange kan Venus så mild med de yndige øjne bedåre</l>
+                    <l rend="indent">plaget af flygtigt begær efter begærets mani. </l>
+                    <l n="175">Andre har morskab af spil med bemalede kort og med terning,</l>
+                    <l rend="indent">alt, både penge og tid, ødsler de væk på hasard.</l>
+                    <l>Slet ikke få har lyst til at jage den frygtsomme hare,</l>
+                    <l rend="indent">lade den hurtige hund fange det flygtende vildt.</l>
+                    <l>Og der er dem der finder det fint at ride behændigt</l>
+                    <l rend="indent" n="180">og at tvinge en vild hest til at trave i ring.</l>
+                    <l>Andet igen kan andre ha smag for såfremt det er mere</l>
+                    <l rend="indent">som en fribåren mand per tradition tar sig til.</l>
+                    <l>Den slags er åbenbart det der påviser adelig storhed,</l>
+                    <l rend="indent">ja, den ædleste rang kræver en ædel bedrift!</l>
+                    <l n="185">Jeg er dog ikke jaloux, jeg beklager kun de interesser</l>
+                    <l rend="indent">netop hos dem hvis liv burde ha virkligt format.</l>
+                    <l>Dog: de kan have, det indrømmer jeg, deres nytte til tider:</l>
+                    <l rend="indent">legemet gavner de nok, hvis det blir gjort moderat.</l>
+                    <l>Også jeg selv, ja hvem som helst, kan når tiden er til det,</l>
+                    <l rend="indent" n="190">sysle med al den slags, for det er slet ingen
+                        kunst.</l>
+                    <l>Og skønt jeg selv sågar, som en ætling af BRAHERNES stamme,</l>
+                    <l rend="indent">har mit fornemme navn fra en betydelig slægt,</l>
+                    <pb ed="A" n="L4v"/>
+                    <l>og skønt den urgamle BILLEslægts blod på mødrene side</l>
+                    <l rend="indent">også må hæve mig op mellem de fornemme folk,</l>
+                    <l n="195">rør det mig ikke, for det som jeg ikke personlig har frembragt,</l>
+                    <l rend="indent">såsom aner og slægt, kalder jeg ikke for mit.</l>
+                    <l>Mit sind brænder af lyst til en større og ædlere indsats,</l>
+                    <l rend="indent">en hvori mit slid er af en ophøjet art.</l>
+                    <l>I de højeste ting er der langt mere hæder og ære</l>
+                    <l rend="indent" n="200">mens det ydmyge tit griber en svagere ånd.</l>
+                    <l>Jeg holder af med min ånd at bestige den tordnendes tinder</l>
+                    <l rend="indent">og på stjernernes hvælv mønstre de knejsende tegn.</l>
+                    <l>Jeg holder af at iagttage alt hvad der funkler på himlen,</l>
+                    <l rend="indent">se den skabende Guds værk, så forunderligt smukt.</l>
+                    <l n="205">Dette er menneskets hverv, dét er en guddommelig lykke</l>
+                    <l rend="indent">som gør os mennesker lig gudernes himmelske flok.</l>
+                    <l>Den der kan lide med sin sjæl at flyve blandt himmelens tinder,</l>
+                    <l rend="indent">og at nå med sin ånd op mellem stjernerne selv,</l>
+                    <pb ed="TBOO" n="I.70"/>
+                    <l>han har en lyst der er lig med gudernes, ikke med menskers,</l>
+                    <l rend="indent" n="210">én der kan løfte hans sind bort fra det jordiske
+                        her.</l>
+                    <l>Himlen der lovedes os, har han lyst til at kende på forhånd</l>
+                    <l rend="indent">så han kender sit hjem når han skal flytte dertil.</l>
+                    <l>Har han på jorden sin gang, bereder Olympen ham glæde,</l>
+                    <l rend="indent">mens han bærer sit livs vægt i en dødelig krop.</l>
+                    <l n="215">Har han i himlen sin gang, bereder Olympen ham glæde,</l>
+                    <l rend="indent">for da nyder han selv godt af det evige liv.</l>
+                    <l>Lykkelig er han på jord, og lykkelig højt over æthren,</l>
+                    <l rend="indent">han for hvem ætherens hvælv ganske fordunkler vor jord.</l>
+                    <l>Den, til gengæld, der lissom et dyr vil blæse på himlen,</l>
+                    <l rend="indent" n="220">lever, men ret beset uden begreb om sit liv.</l>
+                    <pb ed="A" n="L5r"/>
+                    <l>Han har jo kun forstand på det jordiske, det der forfalder,</l>
+                    <l rend="indent">ser kun det som en blind muldvarp i jorden kan se.</l>
+                    <l>Men det er få, ak, alt for få den milde Apollo</l>
+                    <l rend="indent">gav den gave at se alt på den høje Olymp.</l>
+                    <l n="225">De må nødvendigvis helt lade hånt om al dødelig gerning</l>
+                    <l rend="indent">for at få hovedet højt op der hvor guderne bor.</l>
+                    <l>Dem kan hverken en Venus så mild eller Bacchus så tumpet</l>
+                    <l rend="indent">lure, og ej heller guld eller den flygtige ros.</l>
+                    <l>Nej, de stræber imod noget større og langt mere fornemt,</l>
+                    <l rend="indent" n="230">noget som guderne selv også bekymrer sig om:</l>
+                    <l>nemlig med knejsende sind at bestige de knejsende stjerner</l>
+                    <l rend="indent">og lade ånden få magt over det himmelske hvælv. </l>
+                </lg>
+            </div>
+            <div type="poem">
+                <pb ed="A" n="L5v"/>
+                <pb ed="TBOO" n="I.71"/>
+                <head rend="center">I anledning af den videnskabelige observation af en ny stjerne,
+                    gjort af den unge Tycho Brahe Ottosen, lærdest af de adelige, ædlest af de
+                    lærde.</head>
+                <lg rend="it">
+                    <l>Himlenes nyhed, DEN STRÅLENDE STJERNE, hvad er dens budskab?</l>
+                    <l rend="indent">spør jeg dig om, du præst, kender af tidernes gang.</l>
+                    <l>Retsvæsen, skole og kirke, selv kongeriger, monarker</l>
+                    <l rend="indent">(tør jeg mon tale?) er mål for denne flammende ild.</l>
+                    <l>Faklen er truende vendt mod folk såvel som mod byer,</l>
+                    <l rend="indent">flammer fra krigsguden Mars, ild fra Vulcanus' glød.</l>
+                    <l>Sådan et varsel som dette har ingen før observeret,</l>
+                    <l rend="indent">sådan en uro som nu ingen vel oplevet før.</l>
+                    <l>Åndens helte, vær hilset! I afdækker varsler fra himlen</l>
+                    <l rend="indent">som stemmer helt overens med hvad der sker i vort liv.</l>
+                    <l>Kirken skal nyskabes, lovene omstyrtes, byerne knuses,</l>
+                    <l rend="indent">folkene ødes i krig, husene rammes af lyn,</l>
+                    <l>klogskaben udslettes, rigerne renses for deres monarker.</l>
+                    <l rend="indent">Verden blir enten ny, eller dens tid er forbi.</l>
+                    <l>Det har den hellige skrift vel tit nok sagt ville hænde</l>
+                    <l rend="indent">ved din tilbagekomst her, vældige KRISTUS, til os.</l>
+                    <l>Aftør alderens rynker af verdens hærgede ansigt,</l>
+                    <l rend="indent">lad det bli skinnende nyt, renset i flammernes ild.</l>
+                    <l>Ganske som stjernen på himlen engang ledte vismænd til Kristus</l>
+                    <l rend="indent">til hans ydmyge skjul, ydmyg som vejviser selv,</l>
+                    <l>således peger nu stjernen den høje mod Kristi genkomst</l>
+                    <l rend="indent">mod hans høje triumf. Det er nok det vi må tro.</l>
+                    <l>Hvem skulle da føle lyst til at blive i vaklende rønner,</l>
+                    <l rend="indent">som er besmittet af synd, hæsligt besudlet af blod?</l>
+                    <l>Stjernen, VORT LYS, gir løfte om æterens nyskabte lysvæld,</l>
+                    <l rend="indent">om at treenigheds ild kommer en lysende dag.</l>
+                    <l>Vend da ikke tilbage mod smudsige sædvaners søle,</l>
+                    <l rend="indent">bliv ikke saltstøtter her, stive af idioti!</l>
+                    <l>Flygt nu, flygt ud af Babylon, Sodoma og af Ægypten!</l>
+                    <l rend="indent">Det er et nyt KANAAN stjernen den nye har vist.</l>
+                </lg>
+            </div>
+            <div type="postscript"/>
+        </back>
+    </text>
+</TEI>

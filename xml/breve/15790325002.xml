@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hieronymus Wolf</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 51-52</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hieronymus Wolf</persName>
+                    <placeName>(Augsburg)</placeName>
+                    <date when="1579-03-25"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1579-03-25</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.51"/>
+                <pb ed="A" n="69r"/>
+                <p>HIERONYMUS WOLFIUS AD TYCHONEM BRAHE.</p>
+                <p>EADEM Tabellarij fortuna, TYCHO nobilissime, amice colende, hîc sumus usi, qua
+                    tua præstantia. Nam <persName ref="Aurifaber">Aurifaber</persName> ille, qui
+                    tuas reddiderat, hinc abijt. Quis literulas sit perlaturus, nescio, sed sub
+                    vesperam demum mihi nuntiatum est, ut rescriberem. Itaque cogor esse brevior et
+                    ob temporis brevitatem et propter diem festum. Absentibus <persName
+                        ref="Willer, Georg">WILLERI</persName> ministris non possum parare libellos
+                    nostrorum, qui de atrocissimo illo Cometa, quem unquam vidi, scripserunt. Et
+                    sane puto nec Tabellarium grandiusculos libellos perlaturum et quæ tu
+                    elaborâris, propediem nos accepturos. Quæ autem de amplitudine vestræ regionis
+                    et fortitudine gentis scribis, satis nota nobis sunt, et Cimbros, Ambrones et
+                    Teutones a Martha <persName ref="Marius, Gajus">C. MARIJ</persName> maga potius,
+                    quam a Romanis esse victos arbitramur. Linguam vero vestram ijs ornavit et
+                    antiquitatis et pro<pb ed="A" n="69v"/>prietatis et copiæ laudibus <persName
+                        ref="Goropius, Johannes Becanus">IO. GOROPIUS</persName>, ut eam vel Hebrææ
+                    anteponat, nedum Latinæ et Græcæ. Itaque si hîc esses, Cimbrice a te disceremus.
+                    Sed fortasse nobis ætas obstaret, quo minus essemus dociles. Nam mortuo adhibere
+                    medicinam, et docere senem idem esse Græco proverbio dicitur. Me quidem senectus
+                    et pigrum et obliviosum facit, et multipliciter tam corpus quam animum affligit.
+                    Quomodo autem me contra eam, tanquam morbum incurabilem muniam, non video,
+                    præsertim deficiente hîc vino bono et incorrupto, quo solo tanquam antidoto
+                    moderate sumto uti soleo contra tam invictum hostem, uti scis meum morem. Quare
+                    sive me hîc enneaticus climacter, ὁ ἀνδροδάμας, sustulerit, sive 66<hi
+                        rend="sup">to</hi> tollendum reliquerit: susque deque fero, modo CHRISTUS
+                    Servator in Palatio sui patris parvulam aliquam cellulam assignet, in qua beate
+                    et æternum requiescam, quod ita fore clementia divina fretus confido.</p>
+                <p rend="indent">Respublica nostra in eo statu adhuc est, quem hinc discedens
+                    reliquisti. <persName ref="Hainzel filius">HAINZELIUS</persName> filius nuper a
+                    me uxoris suæ Genesin confici voluit, cum ego respondi, D. TYCHONEM id in melius
+                    præstare posse, si vellet. Sed sane dubito, an velles, cum hîc in talibus
+                    difficilimus fueris. Isti homines affectibus suis indulgentes, succensent
+                    Astrologis et vera et falsa dicentibus. Itaque <persName ref="Teiresias"
+                        >Tiresias</persName> soli Apollini vaticinandum esse dixit apud <persName
+                        ref="Sophocles">SOPHOCLEM</persName>, qui hominis indignationem, quippe Deus
+                    negligat. Eclipsin Solis in &#x2653; hîc vidimus pene integram, in qua et
+                        <persName ref="Cyprianus">CYPRIANUS</persName>, sed minus tamen quam
+                        <persName ref="Copernicus">COPERNICUS</persName> aberravit. Cuius
+                        Ephemeridas <persName ref="Mästlin, Michael">MICHÆL
+                        MÆSTLINUS</persName>
+                    <pb ed="nil" n="70r"/>instrumentis cœlo uti opinor <pb ed="TBOO" n="VII.52"/>adhibitis ab anno 1577
+                    usque ad annum 1588 correctiores se esse editurum mihi pollicetur, nisi
+                    Typographus in mora sibi sit. Sed iam manum de tabula. Nam advesperascit et
+                    rhabarbarum scriptionem meam interpellat, quo uti sæpius contra Ischiadem et
+                    Chiragram cogor. Tuam vero Excellentiam et valere et florere omni bonorum genere
+                    ex animo et spero et opto. Vale. 25. Martij Anno 1579.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

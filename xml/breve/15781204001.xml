@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Heinrich Brucaeus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 48-49</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Heinrich Brucaeus</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1578-12-04"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1578-12-04</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-19" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.48"/>
+                <pb ed="A" n="80v"/>
+                <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM BRAHE.<lb/>S. P.</opener>
+                <p>PRODIJT catalogus librorum <placeName ref="Frankfurt am Main">Francfurti ad
+                        Mœnum</placeName> venalium, inter ceteros hunc invenio: <hi rend="it"
+                        >Observatio et demonstratio Cometæ ætherei, qui anno 1577 et 1578
+                        constitutus in sphæra &#x2640; apparuit, autore M. <persName
+                            ref="Mästlin, Michael">MICHAËLE MÆSTLINO</persName>, <placeName ref="Tübingen">Tubingæ</placeName> apud
+                        <persName ref="Gropenbach, Georg">GEORGIUM GROPENBACHIUM</persName>.</hi> Hunc nondum videre contigit, quod si ad manus
+                    meas pervenerit, curabo, ut ad te mittatur, vel eo potissimum nomine, ut si
+                    forte eam methodum, easque rationes et observandi et demonstrandi sequeretur,
+                    quas tu approbas, ut tibi constet, <pb n="49"/> in quibus, et quantum eis
+                    tribuendum iudices et in quibus dissentias. Porro cum multi in eodem genere laborârint, ut hinc inde edita scripta testantur,
+                    sumeret sibi forte quis laborem aliorum sententiam refellendi, id quod mihi
+                    minime probatur, cum rei propositæ vera demonstratione ex Geometricis fundamentis
+                    eruta, et observationum certitudinis confirmatione, abunde secus sentientes
+                    confutentur. Tu interim in tuis observationibus elabora et profer in lucem, quod
+                    pluteum cædat et demorsos sapiat ungues.</p>
+                <p rend="indent">Nostras observationes non mitto. Cum enim eas ad Geometriam, tanquam ad Lydium
+                    lapidem revocarem, et animadverterem, aliquid in ijs desiderari, abieci aliquo,
+                    ut ipse nesciam ubi lateant. Hoc tamen satis recordor me nullam sensibilem
+                    parallaxin hinc colligere potuisse, sed calculum potius in contrarium abijsse,
+                    id, quod miratus sum, reluctante nostro <persName ref="Aristoteles">ARISTOTELE</persName>. Tu interim bene vale, et me
+                    mutuo ama. Rostochij IV. Decem.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.81</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Pulkovo (now in Saint Petersburg?)</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>ptyem</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 196-218</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1589-11-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589-11-01</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-24" who="#pz">Filen etableret</change>
+            <change when="2019-04-30" who="#pz">færdiglæst og -opmærket</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <div n="Letter">
+                    <pb ed="TBOO" n="VII.196"/>
+                    <pb ed="A" n="1r"/>
+                    <p>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO VIRO D. <persName
+                            ref="Hagecius, Thaddaeus">THADDÆO HAGGECIO</persName> AB HAYCK,
+                        PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO INPRIMIS COLENDO.</p>
+                    <p><pb ed="A" n="2r"/>QUATERNAS a te hac elapsa æstate, amantissime et
+                        eruditissime mi D. D. <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, accepi literas, primas Cal. Novembris veteri
+                        stylo anno 88 exaratas, 27. demum Aprilis huius anni me obtinere contigit;
+                        alteras 1O . Maij huius anni scriptas ultimo Augusti recepi; tertias, quas
+                        20. Maij novo stylo scripseras, circa medium <pb ed="TBOO" n="VII.197"
+                        />Septembris obtinui; ultimæ vero die 7. Septembris datæ penultimo Octobris
+                        ad manus meas pervenerunt, idque (ut ubique antea) secundum veterem anni
+                        Iuliani numerationem, qua etiamnum nos utimur. Omnes tuæ <placeName ref="Prague">Praga</placeName> erant missæ,
+                        quas ego partim <placeName ref="Copenhagen">Hafniæ</placeName>, partim hîc <placeName ref="Uraniborg">Uraniburgi</placeName> nactus sum. Singulæ magnum
+                        illum tuum et constantem erga me meaque studia favorem affatim declarabant,
+                        et amicitiæ inter nos olim <placeName ref="Regensburg">Ratisponæ</placeName> ante annos circiter 14, cum modernus
+                        Imperator inauguraretur, percupide contractæ sartam tectam continuationem et
+                        gratam conservationem, pluribus etiam interea literis confirmatam, non
+                        obscure testabantur. Pro qua tua singulari et plus quam benevola erga me
+                        affectione non possum non tibi gratias agere ingentes, pari vicissim te
+                        tuaque omnia amore et studio, quantum in me est, quoad vixero, prosequuturus
+                        et gratissimam tui memoriam perpetuo conservaturus.</p>
+                    <p rend="indent">Quod autem tuis illis eruditissimis pariter et amicissimis
+                        literis nihil tanto iam elapso tempore responderim tuisque votis hac in
+                        parte non satisfecerim, ne existimes, ulla oblivione tui vel etiam
+                        negligentia aut ob aliarum occupationum molem (licet hac præterita æstate in
+                        varijs <pb ed="A" n="2v"/>negotijs non exigua fuerit) id commissum esse, sed
+                        potius internunciorum penuriæ, cum rarissime aliquis hinc ad vos abeat, cui
+                        tuto et certo literas concredere liceret, silentium illud diuturnum imputes
+                        velim. Nullus enim mihi incubuisset negotiorum tantus cumulus, neque ulla
+                        alia prævalere permisissem obstacula, quin aliquid ad te literarum dedissem,
+                        modo Grammatophorus certus et idoneus mihi interea temporis obtigisset.
+                        Et sane ut verum fatear, ne nunc quidem has ad te dedissem, ob instantem
+                        præsertim hyemem (quæ maiora, quo minus tibi indubitanter tradantur,
+                        obstacula suggerit) nisi quartæ illæ tuæ et ultimæ nudiustertius
+                        supervenissent, et vehemens tuum, an priores a te missas acceperim,
+                        cognitionis desiderium unâ cum rescriptionis avida expectatione
+                        inculcassent. His enim acceptis, etsi non paucis hoc tempore implicer
+                        negotijs, sepositis tamen omnibus, non diutius responsione supersedendum
+                        duxi. Et licet non minor quam antea in mittendi occasione sit difficultas,
+                        imo potius ob hyemem, ut dixi, multo maior, attamen huic ita occurrendum
+                        censui, ut binas eadem continentes ad te exarari curarem, quarum unas
+                        Rostochium, alteras Lubecam vel Hamburgum translatas illac tutius ad te
+                        perferri sperem; neque enim tunc ambas intercidere adeo in proclivi est.</p>
+                    <p rend="indent">Nunc itaque ut primis tuis sufficienter respondeam, tempus
+                        postulat, siquidem ex quo illæ a te scriptæ sunt, hic ipse dies
+                        anniversarius sit, nimis magna interposita dilatione, quæ tamen apud te
+                        omnia benevole et sincere interpretantem excusationem ob causas ante dictas
+                        non difficulter inveniet. Postea etiam ad alias nonnulla subiuncturus idque
+                            <pb ed="TBOO" n="VII.198"/>paucioribus, cum et illæ minus principalia
+                        tractent, et potissimum de primo missis me admoneant. <pb ed="A" n="3r"/>Ne
+                        igitur res ipsa diutius protrahatur, quæ tuis primis et prolixioribus ad ea
+                        quæ continent, ordine respondenda nunc in mentem veniunt, sic habe. Binæ
+                        illæ, quarum istic ab initio mentionem facis, has Gallo cuidam Mathematico,
+                        illas Restochiensi Tabellario concreditas prorsus (ut ipsemet recte
+                        coniectas) interciderunt, neque enim, si ullæ illarum mihi allatæ fuissent,
+                        rescriptionem tamdiu procrastinassem. Quod vero illæ, quas ultimo ad te unâ
+                        cum libro nostro secundo æthereorum Phænomenωn recenter conspectorum misi,
+                        optatum successum habuerint et gratæ oblectamentoque fuerint, plurimum mihi
+                        ipsi congratulor; quodque tam candide de scripto illo meo iudices, omniaque
+                        in potiorem partem interpreteris, est quod gratias tibi habeam permagnas.
+                        Nam licet tum ob ætatem, tum etiam curas domesticas et professionem medicam
+                        ab hoc sublimi studiorum genere, quo minus illi totus vacare possis,
+                        utplurimum, veluti ipsemet fateris, abstraharis, tamen ita iunioribus annis
+                        sedulo et feliciter in his versatus es, ut hac ingravescente ætate eo
+                        maturiore iudicio de ijs recte pronunciare possis. Et quamvis multa alia
+                        sint, quæ subinde ab hac sublimi contemplatione te avocent (quod et mihi non
+                        raro contingit) non tamen dubito, quin aliquot nonnunquam horis tantum tibi
+                        otij rapias, ut si non totaliter et ex professo, saltem aliqua et etiam bona
+                        ex parte his indulgeas. Neque enim amor ille tam arduus erga arduum etiam
+                        subiectum penitus deficere, vel ob curas rei familiaris aliaque studia, aut
+                        etiam senectæ molestias ad nihilum redigi prorsusque aboleri poterit. Tuum
+                        itaque de meis studijs et scriptis solidum ac maturum iudicium pari
+                        æquanimitate coniunctum non saltem magnifacio, sed etiam multorum aliorum
+                        censuræ præ<pb ed="A" n="3v"/>fero. Et cum hac materia, quam hisce prioribus
+                        Astronomiæ instaurandæ libris complector, plurimum tute multis abhinc annis
+                        afficiaris, eandemque non minima ex parte sedulitate tua et doctrina eximia
+                        illustrâris, eo etiam promptius tibi hæc mea communico, et tecum de hoc
+                        utrique nostrum accepto negotio perlibenter confero, tuoque gravi iudicio
+                        omnia non gravatim subijcio. Et si quid in illis admonitione aut correctione
+                        dignum deprehenderis, non est quod ob amicitiam nostram et candorem tuum
+                        ingenuum, quo omnia in meliorem partem interpretaris, mihi nimium indulgeas
+                        aut nostris partibus plus æquo faveas. Amor enim et odium (ut est in
+                        Centiloquio) multorum iudicia pervertunt. Quin potius audacter et ingenue,
+                        si quid reprehensioni obnoxium inveneris, admone et libertate in his utere
+                        (more tuo) Philosophica: feceris mihi hac in parte rem non solum haud
+                        ingratam, sed longe acceptissimam et ad veritatis in abscondito latentis
+                        penitiorem pervestigationem conducibilem. Invenies me animadversiones tuas
+                        et <pb ed="TBOO" n="VII.199"/>aliorum, qui acri iudicio valent, patienter et
+                        candide accipientem, et a te, qui etiam meas castigationes veritatis
+                        perquirendæ amore in tuis scriptis admissas æquo et grato animo tulisti, non
+                        superatum iri.</p>
+                    <p rend="indent">Novam a me adinventam revolutionum cœlestium dispositionem te
+                        nondum satis accurate perspexisse refers. De ea itaque recte facis, quod
+                        censuram non præcipitas, nam et hæc in transmisso libro saltem generali
+                        indicatione (Cometa illo, qui non minus quam cæteræ Planetæ circa Solem
+                        ordinarie convolvebatur, sic ut hypothesis motus eius commodius et plenius
+                        constitui posset, exigente) consignata est. Pleraque enim adhuc restant
+                        particularia non cuivis obvia in ea ipsa explicanda, quæ illic vel leviter
+                        attigimus, vel <pb ed="A" n="4r"/>prorsus silentio, cum ex professo rem hanc
+                        ibi non tractaverim, præterivimus, in alio quodam et peculiari Astronomiæ
+                        restituendæ opere, favente Astrorum et omnis boni Authore, suo tempore
+                        enucleatius patefacienda et ex certissimis observationibus motuumque norma
+                        ipsi cœlo analoga Geometrice demonstranda atque in numeros choream cœlestem
+                        indubitatis vestigijs repræsentantes resolvenda. Interim ne sis nescius, me e
+                        Parallaxibus &#x2642;tis in transitu acronycho anno præsertim 82 diligentissime
+                        pervestigatis, cum solaribus aliquanto maiores fuerint, tum etiam ex eius
+                        concitatiore in opposito Solis motu, atque fert <persName ref="Ptolemaios">Ptolemaica</persName> hypothesis, ipsum
+                        necessario, quando pernox est, terris plus, quam Sol unquam possit,
+                        appropinquare, solerti et sæpius reiterata animadversione certo cognovisse
+                        scias. Atque hinc citra omnem refragationem consequitur, aut Terram annuo
+                        convolvi circuitu, quiescente circa medium Universi Sole, iuxta illam
+                        revolutionum cœlestium distributionem, quam superioribus annis ex veteri
+                        <persName ref="Aristarchos">ARISTARCHO</persName> mutuatam ingens ille et nunquam satis laudatus in apertum deduxit
+                        <persName ref="Copernicus">COPERNICUS</persName>, aut si id ob Physicas non leves sic admissas absurditates, tum
+                        etiam sacrarum literarum non uno in loco refragantem auctoritatem concedi
+                        nequeat, nulla alia restat excusandarum Apparentiarum cœlestium ratio, quæ
+                        Geometriæ et Arithmeticæ legibus, uti oportet, subijciatur, quam ea ipsa
+                        ante sexennium proxime in hypothesi systematis mundani conformanda a me
+                        excogitata. Sed et Terram nequaquam annuatim circumagi, ut vult Coperniana
+                        speculatio, aut Solis et octavæ sphæræ motus per eam salvari posse, ut arduo
+                        et solerti ingenio idem tentavit Artifex, et maior in stellis, quæ <pb
+                            ed="A" n="4v"/>putantur affixæ, celeritas, quam ipsius patitur
+                        Æquinoctiorum reciprocatio, et insuper mutatæ earundem latitudines a
+                        temporibus <persName ref="Ptolemaios">PTOLEMÆI</persName> hucusque iuxta proportionem alteratæ declinationis
+                        Eclipticæ ab Æquatore, satis convincunt; ideoque Terram immoto permanente
+                        Sole non designare annuo itinere Eclipticam, nec in hac sed potius Sole ipso
+                        istas differentias excusandas liquet. Accedit et hoc non obscuri testimonij
+                        loco, Terram instar Solis <pb ed="TBOO" n="VII.200"/>non moveri, quod Cometæ
+                        circa acronychum situm superioribus annis a nobis in altissimo æthere, summa
+                        diligentia quo ad omnes apparentias suas observati, motui annuo Terræ, qui
+                        tunc proprium illorum, quemadmodum in Planetis apud <persName ref="Copernicus">COPERNICUM</persName> sit,
+                        necessario vel retraheret vel saltem nonnihil retardaret, prorsus non
+                        paruerint, satis evidenti vel e solis Cometis indicio, terrestrem globum
+                        annuum circuitum nequaquam admittere. Cum itaque ob has et alijs etiam de
+                        causis Coperniana ratiocinatio in rei veritate nequaquam consistere possit,
+                        et vetus illa Ptolemaica dispositio ob Martem, ut dixi, aliquando Terras
+                        plus quam Sol appropinquantem (ut de Epicyclorum nimia superfluitate et Æquantum inconcinnis tricis, ac quibusdam alijs inconvenientijs nunc non
+                        dicam) locum non inveniat, sicque utraque positio antiquanda veniat, utique
+                        nostra hæc neoterica inventio sola quadrabit, et in eorum locum hanc
+                        restitui veritatis circumspecta consideratio atque ab omnibus
+                        disconvenientijs vindicatio citra omne dubium postulat, quæ tibi diligentius
+                        expendenda conferendaque relinquo. Omnium autem plenissime de hac hypothesi
+                        nostra, eam recte se habere iudicaveris, quando opus Astronomicum, quod
+                        auxiliante Deo ex professo hac de re <pb ed="A" n="5r"/>luculenter
+                        tractabit, et figuris ac numeris rem ita se et non aliter habere evincet,
+                        laboribus nostris absolutum, publicam lucem viderit. Sed est, quod obiter
+                        hîc conquerar. Quidam Dithmarsus ex <persName ref="Ursus">Urso</persName> denominatus, cum ante quinquennium
+                        in cuiusdam nobilis et eruditi viri, <persName ref="Lange, Erik">ERICI LANGIJ</persName> nomine, mihi amantissimi,
+                        comitatu (illi enim tunc inserviebat) hîc unam atque alteram hebdomadam cum
+                        dicto Nobili hero suo commoratus fuisset, interea dum ego cum amico illo meo
+                        atque alijs nobilibus viris et Baronibus, quos secum huc adduxerat, hilarius
+                        convivo illis genialiter tractandis occupatus, iste Ursus clam chartas,
+                        instrumenta mea et quicquid oculis patuit, denotavit, schedas etiam,
+                        quascumque invenire potuit, furtim perlustravit. Inter alias vero unam,
+                        uti existimo, reperit, qua hypothesium nostra innovatio repræsentabatur, sed
+                        per incuriam aliquam non satis apposite formatam, siquidem Solarem orbem
+                        Martio totaliter includebat, ideoque tanquam inutilis inter alias quasdam
+                        chartas abiecta fuit. Ex hac iste procul dubio mearum hypothesium
+                        dispositionem hauriens, eam anno superiore in libello quodam, quem
+                        Fundamentum Astronomicum vocat, pro sua edidit, se hanc ante triennium in
+                        extremo quodam Poloniæ angulo (ubi forte nunquam fuit) adinvenisse fingens,
+                        illustrissimoque Principi <persName ref="Wilhelm, landgrave of Hessen">GULIELMO</persName>, Hassiæ Landgravio, dedicare non est
+                        veritus. Sed ipsemet plagium hoc satis prodit, dum falso depictam figuram,
+                        quam forte hîc reperit, imitatus Martium etiam orbem Solarem undiquaque
+                        ambire facit; ex quo enim vitium hoc per circinum commissum emendare
+                        non didicit, ignorans Solis orbem habere <pb ed="TBOO" n="VII.201"
+                        />proportionem ad Martium sicut 4 ad 6 fere, et ob id Martem acronychum non
+                        excedere Solis ambitum, satis palam facit, se eius hypotheseos ne quidem
+                        solidam intelligentiam habere, nedum ut ipsemet eius inventor et author sit,
+                        ut perfricta fronte iactitat. Sic etiam multa alia in isto libello pro suis
+                        venditat, quæ partim mihi, partim alijs præripuit. Idem Astronomiæ
+                        restitutionem insolenter <pb ed="A" n="5v"/>pollicetur, cum et instrumentis
+                        et observationibus idoneis destituatur et insuper aliorum stipe vivat, ut de
+                        cæteris, quæ in ipso ad tantum opus conficiendum desiderantur, non dicam.
+                        Sic quoque in quibusdam alijs mihi contigit, qui hîc fuerunt et mea viderunt
+                        atque ex relatione nostra quædam perceperunt, quædam forte ex Chartis meis,
+                        qui nunc in <placeName ref="Germany">Germania</placeName> partim conscribunt, partim alijs dictitant, ut vel hanc
+                        solam ob caussam consultum sit operum meorum et inventionum publicationem
+                        maturare, ne tot a me suscepti in his studijs indefessi labores, tot
+                        vigilatæ noctes, tot erogati sumptus (quæ quartam Tonnæ auri partem multum
+                        excedunt) ne tot, inquam, et plura alia Astronomiæ instaurandæ gratia a me
+                        vicenis iam annis exantlata, mihi ab alijs præripiantur, ut si quid gratiæ a
+                        ventura Posteritate sperandum esset, id illis cedat, qui ne minimum laboris,
+                        industriæ aut impensarum huc contulerunt, accidatque mihi, quod de se olim
+                        festive cecinit <placeName ref="Horats">MARO</placeName>: <hi rend="it">Sic vos non vobis mellificatis apes</hi>
+                        etc. Sed valeant isti Plagiarij, satis etiam quibusdam in Germania probis et
+                        eruditis viris, quod alienis plumis instar corvi Æsopici sese ornent,
+                        cogniti.</p>
+                    <p rend="indent">Nunc ad tuas literas redeo. Quod Nobilissimo et amplissimo
+                        viro, Domino <persName ref="Curtius, Jacob">CURTIO</persName>, Cæsareæ Maiestatis Consiliario intimo et Imperij
+                        Procancellario, viro etiam, ut audio, in Mathematicis excellenter perito,
+                        meum librum communicaveris, recte id a te factum est; multa enim de viri
+                        illius eximia prudentia et doctrina, pari virtute coniuncta, non solum abs
+                        te hisce literis, sed etiam ab alijs iamdudum deprædicata sunt; quare et ego
+                        ipsum amare atque in pretio habere non omittam. Scribis illum, cum iudicium
+                        de ijs, quæ libro meo continentur, ab eo expeteres, respondisse, non temere
+                        de hypothesibus iudicandum, sed rem attentius considerandam esse, quæ paulo
+                        ambiguosius a te referuntur, quam ut quid ille senserit, inde extricare
+                        queam; si enim me inconsiderate et non satis circumspecte hypotheses
+                        innovare existimat, et maiori attentione hac in parte opus fuisse, id illi
+                        forte ita videri potest, quod nondum omnia <pb ed="A" n="6r"/>fundamenta et
+                        iustas rationes, quas in ista aliter quam ab antecessoribus nostris
+                        factitatum est, ordinanda hypothesi plenarie perspexerit; neque enim ex solo
+                        illo libro, quæ me evidentia τεκμήρια huc impulerunt, animadvertere potuit,
+                        cum illic omnia generali et latiori quadam indicatione breviter saltem
+                        indicem; neque enim ex proposito ea de re in scripto aliquo Cometico agere
+                        placuerat, <pb ed="TBOO" n="VII.202"/>ideoque occasiones et ratiocinia, tum
+                        etiam particularia quædam huc facientia omittuntur, imo nullam forte eius
+                        inventionis in isto libro mentionem fecissem, ad opus Astronomicum eam, ubi
+                        convenientius locum mereretur, reservando, nisi quasi ex præsagio quodam id,
+                        quod mihi iam accidit, veritus fuissem, alios nempe mea mihi inventa
+                        prærepturos. Sin autem Dominus <persName ref="Curtius, Jacob">CURTIUS</persName> illa in hanc sententiam protulit,
+                        quod ipsemet non tam subito de mea hypothesium neoterica constitutione
+                        iudicium pronunciare velit, sed illud potius, donec res magis attente
+                        perspecta fuerit, differre, ea qua præditus est prudentia eximia, admodum
+                        consulte fecit; nam et plerique alias eruditi in Germania viri, dum re omni
+                        non satis provide et solerter expensa de meis hypothesibus iudicium
+                        præcipitârint, in varios errorum et præiudicij scopulos impegerunt. Quidam
+                        ne Martia stella Soli in loco contactus orbium aliquando occurrat cursumque
+                        mutuum impediat, frustra veriti sunt, cum id nunquam contingere possit,
+                        siquidem, ubicumque Martis sidus in suo circuitu versatur, Solem pro centro
+                        respiciat. Circumferentiam vero et centrum circuli uniri quî fieri possit?
+                        Quidam vacuitatem, quæ est in figura mei libri inter orbem &#x2644; et Fixarum
+                        sphæram ab inferiori parte, minus concinnam reddere symmetriam suspicati,
+                        non animadverterunt, Sole in alteram orbis sui partem convoluto, quæ prius
+                        vacua putabantur, adimpleri. Oportet enim, ut spatium undiquaque relinquatur
+                        satis amplum, quo Planetæ superiores per quantitatem diametri orbis Solaris
+                        (qui Epicyclos veterum et motum annuum Terræ apud <persName ref="Copernicus">COPERNICUM</persName> excusat)
+                        respectu <pb ed="A" n="6v"/>octavæ sphæræ et Terræ nunc assurgant, nunc
+                        vero descendant. Quidam retrogradationes et stationes Planetarum non satis
+                        apposite sic salvari opinati sunt, cum nihil sit convenientius; nam quilibet
+                        superiorum Planetarum, dum Solem ubique loco centri respicit, per accidens
+                        Epicyclum motui proprio immiscet, et omnes istas passiones, quæ per
+                        Epicyclos reales ab antiquis expediuntur, aut etiam per anniversariam Terræ
+                        convolutionem apud <persName ref="Copernicus">COPERNICUM</persName>, sic eadem forma, quantitate et eodem etiam
+                        tempore aptissime fieri possunt. Quidam Martis stellam terris aliquando,
+                        cum videlicet acronycha est, ipso Sole propiorem reddi, non satis tutum et
+                        conveniens esse timuerunt, cum id ipsa nos docuerit experientia. Unde etiam
+                        non minima caussa fuit, quæ me ad hypotheses sic ordinandas adegit, ne Terra
+                        instar Astri triplici motu, cum sit unicum et simplex corpus admodumque
+                        grossum et grave, nec, ut ætherea illa lumina, ad perpetuo movendum habile
+                        in medio universi (ubi eam super stabilitate sua Opifex summus fundavit) ne
+                        moveatur in seculis, quiescere possit et tanquam patiens cœlorum influentias
+                        activas in se recipere atque suo Archæo cooperante, terrestria quædam (ut
+                        sic dicam) astra, superioribus pulchre analoga indesinenter conformare, ut
+                            <pb ed="TBOO" n="VII.203"/>verum fiat illius <persName ref="Hermes Trismegistos">HERMETIS TRISMEGISTI</persName> scitum
+                        dictum, etiam in toto Macrocosmo, quicquid est superius, idem esse inferius.
+                        Quidam etiam alias nonnullas circa nostram mundanorum corporum symmetriam et
+                        distributionem dubitationes moverunt, nullius tamen momenti, quas nimis
+                        longum foret nunc recitare; alias ubi meas resolutiones circa ea, quæ opponi
+                        poterint, videris, hæc omnia plenius cognosces. Si itaque illi omnes exemplo
+                        prædicti Domini <persName ref="Curtius, Jacob">CURTIJ</persName> censuram in re nondum penitius introspecta aliquandiu
+                        procrastinassent, multo sane prudentius fecissent. Salutem quam ex
+                        ipsius ore mihi optas, eam ego vel millecuplam et illi et tibi vicissim
+                        precor, admodumque mihi grata est tanti viri erga me benevolentia, quam
+                        quocunque officij genere per me licuerit, non irrecompensatam relinquam.
+                        Consilium etiam eius, quo suadet, ne cœptum cursum interrumpam, quam arduo
+                        fieri poterit conamine, lubens sequar, sponte etiam mea huc propensus, ut si
+                        divinæ cle<pb ed="A" n="7r"/>mentiæ ita visum fuerit, donoque suo mihi
+                        affulgere dignetur, Astronomiæ instaurationem in ipsius gloriam et hominum f
+                        utilitatem Posteritati consecrem, ne frustra tandem hîc vixisse videar
+                        tanquam terræ inutile pondus, ut multis (dolendum) accidit. Et licet
+                        spontaneo ductu huc per mille anfractus et scopulos, alacri tamen et invicto
+                        animo (quod Deo acceptum fero) lubenter tendam, grata tamen nihilominus mihi
+                        est clarorum et eruditorum virorum cohortatio, quæ validius addit
+                        incitamentum. Nam ut est in versu:</p>
+                    <lg rend="it">
+                        <l>Fortis et ad cursum magno cum robore fertur,</l>
+                        <l rend="indent">Si tamen instiges, acrius ibit equus.</l>
+                    </lg>
+                    <p>Addis insuper, sæpedictum Dominum <persName ref="Curtius, Jacob">CURTIUM</persName> inter alia dixisse, me nimis multam
+                        fecisse mentionem et prædicasse nimium <persName ref="Winckler">WINCHLERUM</persName>, hominem Astronomiæ minus
+                        peritum. Atqui ego non tam ipsius scientiam in hac arte prædicavi, quam
+                        errores insulsissimos libello de Cometa isto ab ipso publicatos in apertum
+                        deduxi, et quæcunque ab illo imprudenter et inepte, tum etiam inscite
+                        prolata erant, redargui, adeo ut quibusdam, sed ijs potissimum, qui negotium
+                        hoc et errorum istorum fœditatem non perspiciunt, etiam nimius hac in parte
+                        fuisse videar. An hoc est hominem prædicare? Dicere eius argumentationes
+                        veritati vim facere, atque ipsius ratiocinationes sæpenumero tot absurda
+                        committere, quot fere verba habent, tam multiplicem et prodigiosam subesse
+                        discohærentiam, ut pudeat et pigeat referre, crassam insuper ignorantiam
+                        obicere, absurditates absurditatibus illum cumulare, ineptissimeque rem
+                        involvere usque ad nauseam, ipsius prolata sola reiectione ob
+                        discohærentiam, aut commiseratione ob crassam ignorantiam potius quam longa
+                        refutatione digna esse, quod ab ipsius veritatis semita citra omnem
+                        verecundiam exorbitet, adhortari, ne tam <pb ed="TBOO" n="VII.204"/>absona
+                        in lucem edere amplius præsumat, ne seipsum suamque existimationem labe
+                        aspergat. Hæc et plura eiuscemodi, quæ invenies in ea tractatiuncula, qua
+                        <persName ref="Winckler">WINCHLERI</persName> inepta et <pb ed="A" n="7v"/>imperita placita cribravi, certe
+                        non præ se ferunt, me nimium illi tribuisse, aut ipsius doctrinam plus iusto
+                        extulisse. Neque etiam nimis ferociter aut rigide cum illo agendum duxi aut
+                        convicijs proscindendum, ut nunc quibusdam Theologastris pro more est,
+                        quemadmodum etiam tecum fecit impudens ille <persName rend="Hannibal">RAYMUNDUS</persName>. Sunt enim docti viri,
+                        utut in aliquibus graviter impingant, humaniter et moderate
+                        reprehendendi. Homines enim sumus, ab erroribus in hac caduca et multis
+                        obscuritatibus involuta ac inquinata vita prorsus immunes esse non possumus.
+                        Beatiores saltem, qui paucioribus et minoribus obnoxij sunt. Scio satis
+                        equidem <persName ref="Winckler">WINCHLERUM</persName> plurima e tua Dialexi sibi arrogasse et non satis
+                        intellecta multipliciter depravasse, ideoque et ego pag. 446 idipsum
+                        brevibus indicare volui, et quæ in Cometa anni 80mi ab illo ineptissime
+                        commissa in annotatiuncula quadam Dialexi tuæ locupletatæ circa Epistolam
+                        ad <persName ref="Mylius, Martin">MILIUM</persName> et mihi communicatæ addideras, satis animadverti. Verum ego de
+                        ista absurditate, qua Cometæ illi Parallaxin 15 fere graduum assuit, et
+                        nihilominus longe supra Lunam collocat, nolui in libro secundo, ubi de
+                        Cometa anni 77 ex professo agitur, ullam mentionem facere, convenientius
+                        ducens, id in sequentem tertium Tomum, ubi aliorum de eodem anni 80mi
+                        Cometa sententiæ sub incudem veritatis revocandæ veniunt, reservare, ne
+                        confusio aliqua inordinata in his committeretur, cum methodice omnia
+                        tractanda sint. Illic, cum ipsius quoque prolata disquisivero, hæc etiam nimia
+                        ineptitudo, quin indicetur, non prætereunda erit. Tu modo effice, ut
+                        integrum eius scriptum de eodem Cometa habeam, tum etiam aliorum, quotquot
+                        hactenus nactus es. Satis itaque forti dolabra a me dedolatas est
+                        <persName ref="Winckler">WINCHLERUs</persName>, nec acriori pectine depexendus erat, nisi et cutem et crines
+                        ipsi prorsus avellere, quod inhumanum foret, decuisset. Nec prorsus, licet
+                        id meritus erat, ob imperitam et ineptam de isto Cometa decisionem, illum
+                        præterire <pb ed="A" n="8r"/>poteram, siquidem in ipso libelli frontispicio
+                        Geometricas demonstrationes prætendebat et intra eundem nescio quas
+                        argumentationes pomposas ex <persName ref="Aristoteles">ARISTOTELE</persName> et Parallaxibus minus bene
+                        intellectis præ se ferret, quibus incautis et rem hanc penitus non
+                        intelligentibus fucum facere et facile imponere posset. Condonetis itaque tu
+                        et alij viri præstantes huiusque rei magis intelligentes, quod latus
+                        claudere vobis ultimum illi concesserim, nam et hoc data opera feci, cum
+                        digniori loco reponi non mereretur.</p>
+                    <p rend="indent">Sed et ego illum nunc valere sinam, et propius ad tua propria
+                        prolata, quæ maioris momenti sunt et consideratione digniora, progrediar.
+                        Acceptissimus mihi fuit tuus ille candor et integritas, quod me in pleris<pb ed="TBOO" n="VII.205"/>que a te dissentire circa illum Cometam
+                        tuaque nonnulla certis rationibus improbare non ægre tuleris. Equidem satis
+                        sciebam te hoc ingenuo animo præditum esse, ut tibi veritatis eruendæ gratia
+                        alicubi contradici non invito acciperes animo. Scis satis, amicitia etiam
+                        nostra diutina idipsum postulante, me nullo tua carpendi aut elevandi studio
+                        ista scripsisse, sed saltem ut Cometam illum ab aëreis fumositatibus, inter
+                        quas eum priori tuo de hoc libro, vel contra proprias observationes, per
+                        incuriam aliquam immerito reposueras, vindicarem, et inter lucidissima cœli
+                        astra in subtilissimam æthereæ regionis puritatem, ubi revera incessus suos
+                        exhibuit, merito reponerem, ne tua singularis doctrina et eximia auctoritas,
+                        quam apud multos in hac etiam materia tibi iamdudum conciliasti, veritati
+                        promovendæ et confirmandæ obstaculo essent. Si ipsemet nævos et errata
+                        quædam in tuis scriptis, uti fateris, agnoscis, quin abstergas et venustiori
+                        forma induas, noli intermittere. Neque enim nonnulla <pb ed="A" n="8v"
+                        />retractare, quæ alias non satis considerate proposita sunt, adeo indecorum
+                        est, id enim a multis et magnis excellentibusque viris antea factitatum.
+                        Dies diem docet; nec idem homo semper eadem iudicij circumspectione
+                        præditus est.</p>
+                    <p rend="indent">Quæ de illo calendariorum conformatore refers, quod odiose tuas
+                        admonitiones exceperit, non libenter audio, decet siquidem viros doctos
+                        moderate et patienter aliorum monita ferre. Scribam illi per primum quodque
+                        otium, et inter alia ipsum sui officij admonebo, utque te amet et honorifice
+                        de te sentiat, hortator ero. Fateris quidem deinceps, te tuis lapsibus
+                        patrocinari nec posse nec velle, quod admodum ingenuo et sincero iudicio
+                        pronuncias. Apparet tamen, quod nonnihil movearis, quia <persName ref="Mästlin, Michael">MÆSTHLINUM</persName> contra te
+                        defenderim, et existimas aliquid adhuc in contrarium pro te dici posse, si
+                        meo iudicio repugnandum duceres. At sane, mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, ego pro <persName ref="Mästlin, Michael">MÆSTHLINO</persName>
+                        nihil in eius gratiam, quod tibi officeret, scripsi, neque ego aut odij aut
+                        amicitiæ caussa hîc quicquam egi, sed saltem ut veritatem intemeratam
+                        assererem. <persName ref="Mästlin, Michael">MÆSTHLINUM</persName> ex facie nunquam cognovi neque cum ipso ullam contraxi
+                        per literas hactenus amicitiam, imo ne a quoquam alio quidpiam de ipso
+                        referri audivi, ut plane mihi ignotus sit, nisi quantum ex eruditis ipsius
+                        scriptis nomen eius perceperim, te autem quam intime complexus sum, ut
+                        primum nobis <placeName ref="Regensburg">Ratisponæ</placeName> ante plurimos annos familiaritas intercessit, quamque
+                        constanter eandem per literas interea, utut longa viarum intercapedine
+                        disiuncti simus, conservârim, ipsemet satis idoneus testis esse poteris, ut
+                        si veritas in alicuius gratiam seponenda foret, id potius in tuam ob
+                        diuturnam atque arctam nostram necessitudinem faciendum esset. At ego nihil
+                        hîc affectibus indulgendum censui, ne veritas, cuius penetralia aperire
+                        animus erat, pessundaretur, ut vel hinc pateat, me nihil ullius vel odio vel
+                        etiam amore, <pb ed="TBOO" n="VII.206"/>quod res ipsa non postularet, in
+                        medium protulisse, sed veritati nudæ patefaciendæ, quantum in me erat,
+                        studuisse. Quod si quicquam excogitare poteris, quod ad tuas assertiones
+                        stabiliendas faciat, non etiam id in mei gratiam intermittas. Neque enim si
+                        mihi quacumque in parte repugnaveris, amicitia nostra propterea ullatenus
+                        vacillabit. Te tua tueri, et licet et decet. Vide saltem, ut satis iustis
+                        ratiocinijs et confirmationibus id agas. Quod <persName ref="Mästlin, Michael">MÆSTHLINUM</persName> ob egregiam
+                        Mathematum peritiam in pretio habes, adeo ut secundum a <persName ref="Praetorius">PRÆTORIO</persName> inter
+                        Germanos colloces, recte facis, eximij illius viri et doctissimi Astronomi
+                        ingenium atque industriam debita laude prosequendo. An vero is primus ante
+                        <persName ref="Praetorius">PRÆTORIUM</persName>, an vero secundus ab illo numerandus sit, ego non libenter
+                        dixerim. Est enim uterque in Mathematicis solide versatus, et ambo iudicio
+                        acri atque scientia perspicaci excellunt. <persName ref="Mästlin, Michael">MÆSTHLINUS</persName> tamen <pb ed="A" n="9r"
+                        />Astronomiam, quæ omnium artium Mathematicarum Regina est, cui etiam
+                        reliquæ ancillantur, plus excolere atque a mendis purgare laborat, cum
+                        <persName ref="Praetorius">PRÆTORIUS</persName> idipsum tum ob instrumentorum et aliorum adminiculorum defectum,
+                        tum etiam ob oculorum minus firmam valetudinem (ut ipsemet literis ad me non
+                        ita dudum perscriptis fatetur) tali opera supersedere cogatur. Utinam vero
+                        <persName ref="Mästlin, Michael">MÆSTHLINO</persName> satis solida et correcta non deessent organa, idque in aliqua
+                        copia, et sumptus otiumque illi suppeterent, sperandum foret, ipsum aliquid
+                        egregij in hac sublimi scientia moliri posse. At cum his subsidijs non ita,
+                        uti opus esset, instructus sit (nam instrumenta, quæ hactenus illum habuisse
+                        ex scriptis eius colligo, tanto negotio rite exequendo nequaquam satis
+                        idonea et sufficientia sunt) non video, quomodo tam eximio labori ad optatum
+                        finem deducendo par esse possit; attamen in magnis voluisse sat est, et ut
+                        ille aiebat: »<hi rend="it">Est aliquid prodiret tenus, si non datur ultra</hi>«. Subiungis proinde, te id saltem nunc habere bona mea et <persName ref="Mästlin, Michael">MÆSTHLINI</persName> pace
+                        dicendum, quod ratio motuum Cometarum in hypothesin aliquam dirigi nequeat,
+                        quemadmodum in Planetis fieri potest, eo quod Planetarum motus integri sint
+                        mensurabiles, et quomodo accedant recedantque respectu Solis, pateat. In
+                        Cometis autem, cum non integras absolvant periodos, neque certa lege Soli
+                        appropinquent et ab eo expatientur, insolens tibi videtur iusta lege eorum
+                        motus astringere. Atqui hîc, dilecte <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, non satis considerate, quæ in
+                        libro illo meo circa hoc ipsum negotium protuli, animadvertisse et
+                        expendisse mihi videris, siquidem illic hoc dubium et impossibilitatis
+                        suspicionem sufficienter resolvi atque amovi, imo ipsemet per hypothesin in
+                        illo Cometa extructam id fieri posse luculenter, tanquam in exemplo, ostendi.
+                        Fateor quidem, Cometas rarissime vel unicam per totum cœlum revolutionem
+                        motu proprio absolvere, neque semper Solem instar centri, ut reliqui
+                        Planetæ, respicere, ideoque di<pb ed="TBOO" n="VII.207"/>gressiones ab eo
+                        non ubique consimili lege exhibere, <pb ed="A" n="9v"/>quemadmodum nec Luna,
+                        quæ Terram principaliter in sua convolutione observat. Attamen hinc non
+                        sequitur, prorsus impossibile esse, Cometarum motus sub normam aliquam per
+                        convenientem hypothesin redigere. Nam quod non totas periodos absolvere
+                        spectentur, difficultatem nonnullam in motu eorum regulando suggerit,
+                        possibilitatem omnem non excludit. Ex aliqua enim portione circuli data de
+                        tota eius circumferentia competenter ratiocinari adeoque centrum eius
+                        invenire non est adeo ἀδύνατον. Memineris eorum, quæ ex Epistola quadam
+                        summi illius <persName ref="Copernicus">COPERNICI</persName> circa hanc rem citavi: »<hi rend="it">Ea quæ aliquo modo determinata sunt, infinitam rationem habere non posse,
+                        sunt itaque comprehensibilia</hi>«. Et exemplum addit,
+                        quemadmodum si per tria puncta non secundum rectam lineam data
+                        circumferentia ducatur, non licet aliam superinducere, quæ maior vel minor
+                        fuerit prius transmissa. Hæc admodum scite et recte ab illo scripta sunt. Et
+                        si res ita se non haberet, quomodo affixarum stellarum motum unquam
+                        scrutabimur aut in rationem certam redigemus, ex quo ab eo tempore, quo
+                        observationes circa has innotuerunt, vix duo Dodecatemoria, sextam integri
+                        circuli partem emensæ sint? licet vero in earum curriculo explicando maior
+                        lateat difficultas, quam hactenus a quoquam animadversum est, attamen
+                        aliquam probabilem et apparentijs præteritis satis consonam, ideoque et
+                        futuris, occasionem invenire, qua apparens in motu earum inæqualitas
+                        excusetur et numeratio observationi multis ævis consentiat, non duco
+                        inexplorabile, quin et longe minorem in Cometarum motu extricando
+                        difficultatem, licet et ea non exigua sit, subesse censeo, siquidem hi multo
+                        celerius sui cursus tramitem dirigunt, adeo ut nonnunquam intra duos vel
+                        tres menses quartam cœli partem, interdum plus, interdum vero minus,
+                        emetiantur, quæ ab uno eodemque homine brevi tempore concipi possunt. In
+                        affixis vero sideribus multorum ævo opus est et plurimis plurimorum annorum
+                        intercapedine congestis observationibus, quæ cum ab alijs atque alijs <pb
+                            ed="A" n="10r"/>Artificibus non pari diligentia conquirantur, maximos
+                        hîc labyrinthos involvi video, licet et hi solerti iudicio et competenti
+                        adhibita limitatione extricabiles sint. Arduum itaque est et difficultatis
+                        non expers in Cometis, qui plenam revolutionem non perficiunt, motus
+                        harmoniam concinnare, at plane impossibile non est. Difficilia, quæ pulchra,
+                        et viceversa quæ pulchra, difficilia. Parallaxes Cometarum citra omnem
+                        erroris suspicionem persentiscere atque demonstrare grave est, et in hoc
+                        negotio inter præcipua reponendum. Neque enim, quæ de his vel ab eximio illo
+                        <persName ref="Regiomontanus">REGIOMONTANO</persName> Franco vel nobili <persName ref="Diggs">DIGESSÆO</persName> Anglo aut etiam a te et <persName ref="Wittich, Paul">WITICHIO</persName>
+                        vel quibusvis, quod sciam, alijs in medium producta sunt, omnimode tam
+                        subtili inquisitioni satisfaciunt, idque eam præsertim ob <pb ed="TBOO"
+                            n="VII.208"/>caussam, quod motus proprij Cometarum rationem nullam
+                        habeant, quæ neglecta Parallaxes inexplicabiles reddit, nisi admodum magnæ
+                        forent, et motus ipse tardissimus; at plerumque Cometarum cursus genuinus
+                        adeo celer est, ut Parallaxes, quæ per accidens tenorem inditum aliquantulum
+                        variant, respectu eius perexiguæ sint. At licet hîc maior difficultas et
+                        pulchrior atque magis necessaria consideratio lateat, quam hactenus a
+                        plurimis, qui rem acu se tetigisse frustra existimârunt, exposita est (qua
+                        de re, si recte memini, te in quibusdam alijs literis aliquando admonui)
+                        longe tamen magis arduum, excellens utileque et pulchrum est Cometarum
+                        apparentem motum in certam normam instar astri alicuius perpetui redigere,
+                        ut demonstratio et numeri per totum eorum curriculum observationibus
+                        correspondeant, et motus circularis, vel quam minimum ab hoc deflectens
+                        illis attribuatur. Hoc opus, hic labor est, pauci hîc, quos ardens deduxit
+                        ad ardua virtus. Sic quod Solem <pb ed="A" n="10v"/>non ubique respiciant
+                        crinitæ, quemadmodum Planetæ mundo coævi, nihil probat eorum motus regulari
+                        non posse, nam et aliud quam circa Solem centrum habere queunt, utpote vel
+                        Terram observare aut quodvis aliud in universi capacitate punctum, cuius
+                        respectu cursus eorum ordinarius fiat. Accidit nihilominus aliquando, ut
+                        Solem quoque instar perpetuorum erronum centri loco habeat, quemadmodum in
+                        eo ipso Cometa, de quo nunc agimus, affatim a me demonstratum est, is enim
+                        circa Solem instar &#x2640; et &#x263F; obambulans neque etiam tam magnum designavit
+                        ambitum, ut Terram et Lunam simul includeret, et digressiones accessionesque
+                        ad Solem instar eorundem Planetarum oculis exhibuit. Cum enim circa
+                        principia suæ apparitionis vix integro signo a Sole distaret prope primam
+                        triadem Novembris, deinde ad initia Decembris ab eo maximam elongationem
+                        assecutus, duobus quasi Dodecatemorijs removebatur, posteaque concinna lege
+                        huic successive denuo approximavit, ita ut circa ultimum suæ evanescentiæ
+                        limitem rursus non multo plus unico signo a Sole abscesserit, quam pulchram
+                        in motu eius respectu Solis harmoniam et egregiam cohærentiam te ex
+                        observationibus et demonstrationibus meis libro illo patefactis non satis
+                        perspexisse miror, nam et Cometa ille plane contrarium tuæ sententiæ hac in
+                        parte ostendebat. Omnia quæ in cœlo a mundi primordijs existunt corpora,
+                        motum regularissimum et perpetuum sortiuntur, quæ vero ascititia sunt, si
+                        eum adeo absolute assequi nequeunt, attamen quam proxime æmulantur, ut ob id
+                        regulari omnimode non subterfugiant. Existimo autem Cometarum corpora, quæ
+                        revera omnia ipso cœlo procreantur, non esse ex tam solide concreta atque
+                        exaltata stabiliaque materia conformata, velut perennium illorum siderum.
+                        Ideoque non saltem consummationi obnoxia, sed etiam periodicum motum <pb
+                            ed="A" n="11r"/>non continuant, nec eundem, <pb ed="TBOO" n="VII.209"
+                        />quem exhibent, adeo præcise circularem aut forte e circularibus
+                        compositum, ut cæteri Planetæ, præbent, interim tamen non multum a
+                        circularitatis perfectione degenerant, sed quoad fieri potest, Planetarum
+                        æmuli sunt, quæ caussa me adduxit, ut illorum apparentem cursum in
+                        hypotheseos alicuius leges colligere non intentatum reliquerim. Refers
+                        præterea, te quidem mihi assentiri in eo, quod pulchram et ingeniosam
+                        <persName ref="Mästlin, Michael">MÆSTHLINI</persName> speculationem fuisse dixerim, sed pulchritudinem et subtilitatem
+                        veritati, quæ virtus est pulcherrima, non esse anteferendam. Id quod ego
+                        sane nusquam, quod sciam, feci, imo ubique, qua fieri unquam per me potuit
+                        diligentia, veritatis latebras eruere laboravi, neque ego <persName ref="Mästlin, Michael">MÆSTHLINI</persName>
+                        hypothesin ob pulchritudinem et ingeniosam inventionem satis ratam
+                        prædicavi, sed saltem commendare volui ipsius omni laude dignissimam
+                        industriam, qua id experiri aggressus est, quod cæteri omnes insolens esse
+                        existimant, imo quantum ipsius hypothesis ab ipsis apparentijs Cometæ
+                        deflexerit, præsertim iuxta initia eius apparitionis et multo adhuc plus
+                        prope finem, existimo, neminem plenius et certius indicasse, quam a me, vel
+                        ipso (uti spero) <persName ref="Mästlin, Michael">MÆSTHLINO</persName> iudice, factum est. Ostendi siquidem hypothesin
+                        illam a principio iuxta medietatem potissimum Novembris integro gradu per
+                        inde deductam numerationem verum Cometæ locum cœlitus animadversum
+                        excessisse. In fine autem, videlicet circa Ianuarij medietatem et diebus
+                        aliquot sequentibus usque ad 26<hi rend="sup">tum</hi> (quo adhuc a nobis Cometa ille conspectus
+                        est, licet illum alij desijsse putârint) nimis retardavit ipsius cursum,
+                        adeo ut non solum unius vel alterius, sed etiam iuxta ultimos præsertim
+                        Ianuarij dies deviationem 3¼ <pb ed="A" n="11v"/>graduum proxime
+                        commiserit, quæ sane est intolerabilis. Hæc et alia quædam circa illam
+                        hypothesin disquisivi, neque tamen ob id <persName ref="Mästlin, Michael">MÆSTHLINI</persName> studium præclarum et in
+                        hac inventione laborem industrium vilipendere decuit, cum nemo veritati
+                        proximiora inter cæteros Germanos protulerit, imo quidem ne semel rem tam
+                        arduam tentare ausi sint. Nam quod iuxta <persName ref="Copernicus">COPERNICUM</persName> Solem quiescere et
+                        Terram annuatim convolvi statuat, id a Mathematicis illi facile condonandum
+                        venit, cum et hac ratione Planetarum apparentiæ quam proxime salvari queant,
+                        ut magnus ille demonstravit <persName ref="Copernicus">COPERNICUS</persName>. Non igitur nimium tribuebam
+                        <persName ref="Mästlin, Michael">MÆSTHLINI</persName> hypothesi, sed quæ in eo commendanda quæque culpanda essent,
+                        reseravi, neque ob pulchritudinem et ingeniositatem veritati quidpiam
+                        detrahere volui, sed has per se seorsim prædicavi, quid verum vel falsum in
+                        illa hypothesi esset, alias pro virili indicans. Veritatem esse virtutum
+                        omnium pulcherrimam et præstantissimam tibi facile concesserim, nam et ego
+                        eos, qui hanc vel in vulgari colloquio data opera violant, semper abominatus
+                        sum et, quantum in me erat, illam non saltem in Astronomicis sed Chymicis
+                        etiam rebus, <pb ed="TBOO" n="VII.210"/>adeoque tota Philosophia, ut de
+                        Theologicis non dicam, ita semper inquirere studui, ut eam quam proxime
+                        assequi divina largiente bonitate perpetuo cupiverim, nulli labori vel
+                        sumptui aut etiam studio hac in re parcens. Ideoque non est, quod existimes
+                        me veritatem pulchritudini et ingenio posthabere, neque etiam id circa
+                        <persName ref="Mästlin, Michael">MÆSTHLINI</persName> speculationem dicere volui, quemadmodum tu inde colligis. Textus
+                        meus si relegatur, id non exhibebit, sed siquidem sic vis, dicam quiddam
+                        aliud, modo paradoxice agere liceat. Nihil est pulchrum, nisi et idem sit
+                        verum, neque verum, nisi pulchrum. Quod <pb ed="A" n="12r"/>autem
+                        superaddis, nec <persName ref="Mästlin, Michael">MÆSTHLINUM</persName> nec quenquam alium in Cometarum Theoria
+                        veritatem, de qua loquimur, assecutum esse, quemadmodum in aliorum
+                        Planetarum motibus fieri solet, hîc videris non tam <persName ref="Mästlin, Michael">MÆSTHLINO</persName> quam mihi
+                        nimium derogare. Quæ in ipsius hypothesi Cometæ desiderentur, ipsemet satis
+                        in apertum deduxi, ut et paulo antea dixi, et quo loco ea habenda essent,
+                        ostendi. Verum ego aliam revolutionis Cometæ rationem condidi, qua
+                        quiescente Terra, ut Physicis etiam satisfieret, ipsius motum et apparentias
+                        per totam durationem adeo præcise tutatus sum, ut nusquam sextantis unius
+                        gradus digressio ab ipsis observationibus commissa sit; an ulli Planetarum
+                        omnium in suis curriculis per quasvis hactenus datas hypotheses ad tantam
+                        numerationis præcisionem deducti sint, quilibet discernet, qui cœlum et
+                        tabulas introspicere novit; multorum enim graduum nonnunquam in his
+                        committitur deviatio. Imo ne quidem amborum luminarium motus ita certo
+                        hactenus extricati sunt, quin in Sole etiam maior dimidio gradu et in Luna
+                        plus integro cœlum aliter eorum apparentias nonnunquam ostendat, quam
+                        Canones sive Coperniani sive Alphonsini exhibent. Cum igitur longe maior cum
+                        cœlo convenientia mea hypothesi quoad Cometam illum elaborata sit, quam in
+                        ullo Planetarum unquam antea factum, quid, quæso, rei est, quod eam tanquam
+                        veritati minus consonam prætereas, vel prorsus reijcias? anne hæc ita se
+                        habere numeri ex hypothesi pag. 206 et duabus seq. derivati atque cum ijs,
+                        quæ ex observatione pag. 86 et sequenti derivantur, collatione facta, satis
+                        convincunt? Si quid igitur habes, quod in hac hypothesi mea a cœlesti Cometæ
+                        itinere dissonum sit, illud prome, neque re non satis perspecta et minus
+                        deliberata iudicium præoccupa. Ego sane non video, <pb ed="A" n="12v"/>quid
+                        hîc desiderare possis, nisi id te forte movet, quod mense Novembri motus
+                        æqualitatem in suo ad Solem circuitu non satis præcisam conservârim. Verum
+                        quî id factum sit, ipsemet pag. 133 sufficienter excusavi. Et si admodum
+                        subtiliter omnia rimari placuisset, utique per compositum circularem motum
+                        et hanc aliquantulam inæqualitatem tueri non fuisset impossibile, verum
+                        ego volens id prætermisi, ne rem nimium intricarem, cum etiam dubium sit (ut
+                        ex prioribus quoque colligere licet) an Cometæ perfecte circularem <pb
+                            ed="TBOO" n="VII.211"/>motum, ut reliqui Planetæ, exhibeant, necne. Quam
+                        prope igitur ad scopum collimârim, si qui sunt plures, uti ais, qui mecum eo
+                        tendunt, illi dijudicent, modo metam petitam cœlitus decernere norint. Quæ
+                        tandem obijcis in numeris circa Mæsthlinianam hypothesin a me fuisse
+                        aberrata, ea, si bona tua venia dicere liceret, mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, per aliqua
+                        occupationum impedimenta et incuriam quandam penitioris considerationis a te
+                        ipso potius commissa sunt, nam primum quantum ad Epocham commutationis mediæ
+                        Cometæ ad diem 24. Novembris attinet, quam ego cum <persName ref="Mästlin, Michael">MÆSTHLINO</persName> statuo eandem,
+                        ea satis bene se habet, et si quid perpusilli vitij in hac lateret,
+                        oportebat tamen me eandem, quam ipse præsupponit, assumere, eo quod
+                        ostendere volebam, ipsius hypothesin per totam Cometæ durationem non
+                        æqualiter sufficere. Radicem itaque motuum ab ipso constitutam alterare mihi
+                        non licuit. In cæteris ubi dicis æquationes a me supputatæ Mæsthlinianis et
+                        tuis non consentire discrimine satis evidenti, id ita tibi frustra videtur,
+                        dum tu meos numeros, quos ego ad 26. Ianuarij secundum eandem hypothesin
+                        direxi, ad 24. Novembris (e quo solam Epocham <persName ref="Mästlin, Michael">MÆSTHLINI</persName> mutuatus sum, cum
+                        hæc fundamentum sit reliquorum motuum) perperam <pb ed="A" n="13r"
+                        />applicas, differentia incidente quoad tempus duorum mensium, quo
+                        intervallo Cometa sua progressione easdem prostaphæreses in excusanda motus
+                        inæqualitate exhibere nequaquam potuit. Relege saltem ea, quæ pag. 275 et
+                        aliquot sequentibus, ubi Mæsthlinianam hypothesin ex ipsa demonstratione et
+                        numeris examino, scripta reliqui, videbis me ad 26. diem Ianuarij omnia
+                        adaptare, ut ostenderem, in ultima sua apparitione Cometæ locum ab
+                        ipsius hypothesi nimium discrepasse. Mæsthliniani vero et tui quos adducis
+                        numeri 24. Novembris, quo die <persName ref="Mästlin, Michael">MÆSTHLINUS</persName> primum in hac Pragmatia usus est,
+                        respiciunt. Sumus itaque in diversis terminis, ut mirum non sit, invicem non
+                        quadrare numeros. At si ostenderis me ad eum ipsum diem, cui Mæsthlinianum hypothesin applicui, aliquid in meis numeris vitij commisisse,
+                        utique pro tua admonitione gratus ero. Sin vero nihil inveneris, hæc monere
+                        supervacaneum erit. Sed facile tibi per aliquam oscitantiam inter alias
+                        forte curas id contingere potuit, ut non animadverteris ad diversos dies
+                        numerationem, quam confers, referri. Ego, qui satis mihi conscius sum,
+                        maximam in calculatione tum ista tum ea, quæ toto libro continetur,
+                        adhibitam esse diligentiam, et omnia bis vel ter repetita seduloque revisa,
+                        satis mirari non potui, cum primum tuas in campo legerem literas (eram enim,
+                        quando illas acciperem, cum duobus Germanis Studiosis, qui me eodem tempore
+                        e Germania venientes inviserant, spatiatum animi caussa egressus) cumque
+                        inter ambulandum ad calcem perventum erat, ubi huius numerorum discrepantiæ
+                        mentionem facis, mirabundus me ad dictos Studiosos converti, in hæc <pb
+                            ed="TBOO" n="VII.212"/>verba prorumpens: «Videbitis, quam primum domum
+                        reversi fuerimus, optimum illum senem unum diem pro altero in hac
+                        numerationis diver<pb ed="A" n="13v"/>sitate per occupationum impedimenta
+                        atque curas alias accepisse«. Quod et satis patuit, nam domum reversi mox
+                        arrepto libro meo idipsum satis experti sumus. Si igitur aliud non habes,
+                        optime <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, quod hypothesibus vel a <persName ref="Mästlin, Michael">MÆSTHLINO</persName> vel me constitutis
+                        obijcias, aut quod pro te contra nos faciat, quam ex hisce tuis literis
+                        colligere licet, utique vel te ipso iudice iam satis vides, quam parum hîc
+                        obtinueris. Neque ego omnia, quæ a te contra <persName ref="Mästlin, Michael">MÆSTHLINUM</persName> prolata sunt,
+                        improbavi, sed ijs, quæ iustam reprehensionem mereri videbantur, subscripsi,
+                        quæ vero minus iusta de caussa a te oppugnabantur, quo veritatis penetralia
+                        illibata conservarentur, tutatus sum. Atque hæc de his sufficiant.</p>
+                    <p rend="indent">Quantum ad scriptores de Nova Stella attinet, da operam, ut
+                        <persName ref="Munosius">MUNOSIJ</persName> saltem Hispani integrum librum habeam et, si fieri potest, ab aliquo
+                        illic in Latinum ex Hispanico idiomate conversum, tum etiam illorum
+                        Italorum, quorum in tua Dialexi meministi, præsertim <persName ref="Frangipani">CORNELIJ FRANGIPANI</persName>, et
+                        si qui sunt alij, idque mature, quo circa finem prioris tomi in eorum
+                        etiam placita disquirere liceat. <persName ref="Apian">APIANI</persName> Astronomicum ipsemet habeo et satis
+                        scio, inde vel parum vel nihil quoad Parallaxes Cometarum excutiendas
+                        colligi posse, sed ego librum peculiarem de quodam Cometa anni 1532 ab eo
+                        olim editum desiderabam, non tam quod sperarem, illum aliquid certi inibi
+                        circa Parallaxium enodationem protulisse (quam enim hæc nimis secure non
+                        solum ab illo, sed etiam reliquis antecessoribus nostris prætermissa sit,
+                        vel certe nimis inconvenienter tractata, satis perspectum habeo) sed saltem
+                        ut apparentem Cometæ motum ab illo procul dubio mediocri diligentia illic
+                        descriptum cum <persName ref="Fracastorius">FRACASTORIJ</persName> in Italia circa eundem annotationibus libro suo
+                        de homocentricis breviter comprehensis conferrem atque hinc elicerem,
+                        <persName ref="Vögelin">IOANNIS VOGELINI</persName> Viennensis adeo monstrosam Parallaxin, quam is in eodem
+                        Cometa de<pb ed="A" n="14r"/>monstrare nixus est, toto cœlo erroneam fuisse;
+                        oportuisset enim in <placeName ref="Italy">Italia</placeName> et <placeName ref="Germany">Germania</placeName> sensibiliter diversis cœli locis
+                        apparuisse istam crinitam, si Parallaxin 35 proxime graduum, ut vult <persName ref="Vögelin">VOGELINUS</persName>,
+                        aut etiam 33, ut tu per assumtionem mobilitatis Terræ ex ipsius datis
+                        præcisius collegisti, obtinuisset. Quare si et nunc illum <persName ref="Apian">APIANI</persName> libellum
+                        mihi aliunde procuraveris, rem non inutilem feceris. <persName ref="Pena">IOANNEM PŒNAM</persName> Gallum
+                        de Cometis aliquid scripsisse non scio, sed de cœli liquiditate et ab aërea
+                        subtilitate non differente natura ac quibusdam alijs rebus Philosophicis
+                        egregie tractasse, ab alijs, tum etiam Bibliotheca Gesneriana cognovi. Si
+                        igitur et hunc autorem tua opera accepero, rem pergratam mihi præstiteris et
+                        forsan studijs communibus non infrugiferam. Librum, <pb ed="TBOO"
+                            n="VII.213"/>quem <placeName ref="Regensburg">Ratisponæ</placeName> mihi donâras, nescio ubi et quando amiserim,
+                        sed aliunde forte eum habebo, non est, quod tu te in eo conquirendo amplius
+                        molestes. Pro libro <persName ref="Werner">WERNERI</persName> de elementis cornicis et motu octavæ sphæræ mihi
+                        transmisso et a Domino <persName ref="Fabricius">FABRICIO</persName> bonæ memoriæ (audio enim illum iam fatis
+                        concessisse, quod etiam doleo) impetrato, gratias tibi ago plurimas; diu
+                        multumque iste liber a me expetitus est, nec unquam antea nancisci licuit.
+                        Licet, ut dicam id, quod res est, quantum ad tractatum de stellarum motu
+                        attinet, non habeat id in recessu, quod in accessu pollicetur, ut alibi
+                        ostensurus sum, cum de hac re agendi occasio dabitur.</p>
+                    <p rend="indent">Hæc ad ea, quæ literis ipsis primo ad me datis continentur,
+                        respondenda habui. Sed et ijs, quæ in schedula annexa post scripta sunt,
+                        satisfaciendum erit. Recte illic mones, me ex tenore Privilegij per te
+                        impetrati tria exemplaria mearum lucubrationum in Cancellariam Cæsaream
+                        mittere debere, quod etiam libenter facturus sum, ubi totum opus, vel saltem
+                        primus liber prodierit, cui diploma illud unâ cum cæteris ab alijs Regibus
+                        impetratis præfigetur, neque enim id prius necessarium duxi, siquidem
+                        Privilegij tenor huic secundæ parti editæ non sit adiunctus, nec exemplaria
+                        nisi perpauca alijs <pb ed="A" n="14v"/>communicari concesserim, cæteris
+                        numero 150 adhuc reservatis, donec primus Tomus publicam lucem viderit.
+                        Recte itaque excusasti hanc dilationem, non enim decuit mancum opus Cæsari
+                        offerre, dabo autem operam, quantum in me est, ut liber primus hac hyeme
+                        typis nostris absolvatur, tum demum satis erit temporis, ut id, quod teneor,
+                        præstem. Rogas insuper ibidem, ut supra nominatum Dominum <persName ref="Curtius, Jacob">CURTIUM</persName>, cum
+                        exemplaria misero, salutem et literis invisam, utque amicitiam cum eo per
+                        has contraham, id quod etiam perlibenter efficiam, cum intelligam, virum
+                        illum dignum esse, qui ametur, et horum etiam studiorum excellenter gnarum.
+                        Ne igitur qua in mea voluntate adsit mora, si forte ante <placeName ref="Frankfurt am Main">Francofurtianas</placeName>
+                        nundinas liber prior totaliter typis mandari nequeat, exaravi iam nunc has,
+                        quas tibi mitto illi tradendas, ut meum erga se studium et officium maturius
+                        cognoscat, quod si hac hyeme quicquam rescripserit et suum de nostris
+                        laboribus ac studijs gravissimum iudicium protulerit, efficiet, ut sæpius
+                        cum eo per literas agere et de hac sublimi arte conferre alacrior futurus
+                        sim. Sed video, me nimis forte prolixe, quantum ad primam Epistolam attinet,
+                        tecum locutum. Nunc igitur ad reliquas me conferam, in quibus ero brevior,
+                        cum etiam per se non adeo luculentam responsionem requirant.</p>
+                    <p rend="indent">Ex secundis tuis literis satis intelligo, amantissime <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>,
+                        quam solicitus fueris de prioribus unâ cum libro illo <persName ref="Werner">WERNERI</persName> mihi non satis
+                        cito allatis, ubi etiam refers (quod tuæ erga me benevolentiæ tribuo) quod
+                        Tomum <pb ed="A" n="15r"/>meum primum recentiorum cœli Phænomenωn <pb
+                            ed="TBOO" n="VII.214"/>in vernalibus nundinis avide expectâris et
+                        etiamnum in proxime præteritis autumnalibus. Sed remoras ex meis ad te
+                        ultimo datis aliqua ex parte intellexisti; principalis caussa fuit, quod
+                        papyro impressoria sufficienti destitutus fuerim, nec ea, quam e propinquo
+                        Megapolensi ducatu procurâram, satis mature et copiose allata sit, tum etiam
+                        quod illa ipsa, quæ inde mihi contigit, minus candida, nec satis elegans
+                        fuerit, adeo ut quæ in ea præterita hyeme imprimi cœpta erant, nunc meliore
+                        et puriore accepta, recudere consultius ducam, utut expensæ aliquæ
+                        frustraneæ forte futuræ sint. Volo enim mea tersa et pulchra, quoad eius
+                        fieri potest, in doctorum manus prodire. Ne autem in papyro e <placeName ref="Germany">Germania</placeName>
+                        conquirenda tot ulterius implicer difficultatibus atque dilationibus, curavi
+                        ipsemet hac æstate molendinum pro papyro conficienda in hac insula extrui,
+                        adiunctis etiam quæ ad farinæ molituram et pellium præparationem faciunt,
+                        ita ut una rota, quæ duodecim circiter ulnas in altitudine adæquat, omnibus
+                        his operis satisfaciat, ipsa etiam aqua in sufficienti copia, ubi prius siccum
+                        erat, per varios meatus huc derivata et magna capacitate ante aggerem
+                        admodum altum et latum collecta, piscinis etiam quam plurimis in eundem
+                        quoque usum hincinde dispositis. Quæ omnia iam absoluta sunt, labore et
+                        executionis diligentia atque sumptibus non mediocribus comparata, ut ob id
+                        sperem, me in posterum papyrum officinæ meæ Typographicæ idoneam,
+                        qualicunque <pb ed="A" n="15v"/>forma cupiverim, sufficienter habiturum, ne
+                        aliorum in ea mittenda procrastinatio amplius laboribus meis in lucem
+                        mittendis obstaculo sit. Volo enim, ut tota hæc <placeName ref="Hven">insula</placeName>, quantulacunque sit,
+                        et terra et aqua adeoque etiam ipso aëre Uraniæ nostræ inserviat. Atque hæc
+                        de his satis.</p>
+                    <p rend="indent">Doleo, incomparabilem illum virum <persName ref="Dudith">ANDREAM DUDITIUM</persName> supremum
+                        diem obijsse. Constitueram cum illo per literas amicitiam contrahere et
+                        rogatu <persName ref="Praetorius">PRÆTORIJ</persName> quendam ex meis Studiosis cum instrumento observationibus
+                        Astronomicis idoneo ad illum mittere; id enim is, dum in vivis esset, a
+                        <persName ref="Praetorius">PRÆTORIO</persName> petierat, sed iam intellexi, illum fata nobis præripuisse, non sane
+                        absque gravi Reipublicæ literariæ, cui plurimum profuit, iactura. Addis,
+                        illum de libris <persName ref="Wittich, Paul">WITICHIJ</persName> iam olim cum sorore ipsius egisse, quæ tamen
+                        difficilior nihil eorum distrahi permittere voluit. Sed ut est varium et
+                        mutabile semper femina, fieri potest, quod iam in illis vendendis
+                        facilior sit. Rogo itaque peramanter, velis per aliquem certum et fidelem
+                        virum <placeName ref="Bratislava">Vratislaviæ</placeName> degentem agere, ut meo nomine cum illa transigat, quo
+                        omnem eius supellectilem librariam et chartaceam iusto pretio nanciscar; ego
+                        pecuniam illi promissam mature certo persolvi curabo, nollem enim, ut eximij
+                        illius Mathematici libri perirent aut in eorum, qui eos in pretio non
+                        habeant, manus pervenirent. <persName ref="Copernicus">COPERNICUM</persName> eius et quæ de Triangulis
+                        conscripsit, <pb ed="TBOO" n="VII.215"/>præ cæteris expeterem, tum etiam si
+                        quæ alia sunt manuscripta. Invenietur inter alios libros et opus illud
+                        <persName ref="Apian">APIANI</persName> Astronomicum, cuius prius mentio facta est, quod ego 20 florenis emptum
+                        illi, <pb ed="A" n="16r"/>cum hîc esset, dono dedi, nec post
+                        fata reposco, nisi iusto pretio emptum. Hoc si eius soror mihi unâ cum
+                        cæteris concesserit, te illo <persName ref="Apian">APIANI</persName> Astronomico, modo adhuc adsit, donabo;
+                        habeo enim ipsemet aliud exemplar ad manus, ut antea quoque indicavi.</p>
+                    <p rend="indent">Tertiæ tuæ literæ nihil fere continent, quod responsionem
+                        admodum postulet, nisi quod de libro illo Astrologico mihi olim a te dato,
+                        quale autoris nomen fuerit et qua diligentia, cum, licet frustra,
+                        inquisiveris, commonefacias; in quibus etiam te excusas, cur nostras ille
+                        nobilis ad Imperatorem missus sine tuis ad me redierit, quas ego tamen,
+                        antequam ille huc reversus est, aliunde acceperam. Quartæ et ultimæ, quas
+                        ante biduum obtinui, de prioribus an procuratæ sint, et utrum eas acceperim,
+                        agunt. Ad quas pluribus hîc respondere non est opus, cum iam satis id, quod
+                        desideras, cognôris. De libro etiam meo priore, quando edetur, quod Domini
+                        <persName ref="Curtius, Jacob">CURTIJ</persName> et tuo etiam proprio desiderio scire aves, iam antea satis dixi.
+                        Commentarios <persName ref="Georgius Trapezuntius">TRAPEZUNTIJ</persName> præsertim quoad duos priores libros, in publicum edi
+                        non quidem inutile duxerim, sed nec admodum necessarium, quod nihil
+                        peculiare contineant, quod ferme non dictum sit prius. Meum Typographæum vix
+                        sufficit proprijs a me conscriptis excudendis, nedum ut aliorum operibus
+                        tempus et operam frustrer. Si librum illum repetieris, et tibi aliquis
+                        adferre voluerit, libenter data aliqua occasione remittam. Quæ postea
+                        ultimis literis Subiungis de novis rumoribus Politica <pb ed="A" n="16v"
+                        />vel potius Politicos destruentia, nolo replicare, cum tecum potius
+                        philosophari lubeat. Relinquantur Politicis suæ eccentricitates et anomali
+                        motus, quos nunquam in hac mundi immundi confusione per ullam prudentiæ
+                        hypothesin regulabunt aut concentricos reddent, ut mirari simulque satis
+                        dolere non queam, homines microcosmos, quorum gratia macrocosmus cum suo
+                        toto ornatu potissimum conditus creditur, tantopere exorbitare, ut in
+                        nullam certam harmoniam unquam redigi possint. Errat enim sapiente
+                        sapientior, nec est veritati aut resipiscentiæ ferme locus uspiam; verum cum
+                        Deus hæc ferat, qui emendare posset, cur nos non patienter sustineamus, cum
+                        corrigere nequeamus? Id saltem, quantum ad Politica attinet, addam, me
+                        libenter ex te cognovisse, Illustrissimum Archiducem <persName ref="Maximilian 3.">MAXIMILIANUM</persName> Polonicos
+                        limites tutum et incolumem excessisse atque ad suos salvum redijsse. Multa
+                        enim et præclara in illius Principis laudem mihi ab Austriacis Baronibus et
+                        nobilibus, qui me sæpenumero hîc inviserunt, prædicata sunt, et ut aiebat
+                        <persName ref="Horats">MARO</persName>: »<hi rend="it">Gratior est pulchro veniens e corpore virtus</hi>«.</p>
+                    <p rend="indent">Sed video me, dum singulis tuis literis in hisce unicis
+                        responsionem <pb ed="TBOO" n="VII.216"/>molior, Epistolæ leges nimia
+                        prolixitate excedere, quod ob amicitiam nostram, quæ efficit, ut lubens
+                        pluribus tecum agam, tum etiam quia tamdiu intermissam rescriptionem
+                        aliquantula copia nunc recompensare volui, apud te facile excusatum iri
+                        confido. Nunc itaque non ulterius te mea scriptione detinebo, sed Deo optimo
+                        maximo, qui te tuasque actiones omnes cum familia tota feliciter et diu
+                        incolumem regat ac conservet, nunc et semper commendatum habeo. Et si
+                        literas has eodem tenore binas conscriptas receperis, id <pb ed="A" n="17r"
+                        />ob caussam ab initio dictam factum esse existima, et omnia pro tua in me
+                        benevolentia atque amore in optimam, uti soles, partem interpreteris, te
+                        rogatum volo.</p>
+                    <p rend="indent">Verum unicum adhuc dicam. Cum sciam, te hac materia, quæ de
+                        rebus Astronomicis et Cometis tractat, impense delectari, adiunxi hisce
+                        Apologeticam responsionem, quam paucis ante diebus contra viri cuiusdam
+                        doctissimi et Mathematici eximij, Doctoris <persName ref="Craig">IOANNIS CRAIGI</persName> Scoti, Edenburgi
+                        medicinam facientis, obiectiones conscripsi, quibus plæraque, imo præcipua,
+                        quæ libro nostro secundo, præsertim quoad Cometæ situm æthereum, quem
+                        tuemur, et quantum ad hypothesin nostram attinet, literis ad me hac æstate
+                        datis, quarum exemplar unâ transscribi curavi, convellere tentavit, ut
+                        <persName ref="Aristoteles">ARISTOTELI</persName> suo, cui nimium addictus videtur, vir alias eruditissimus et
+                        sagaci iudicio præditus, quoad Cometarum sublunarem e siccis fumositatibus
+                        generationem et orbium cœlestium realitatem patrocinetur. Ego itaque aliquid
+                        nactus a curis æstivalibus respiraculi, licet adhuc plurimis et diversis
+                        occupationibus distractus, non tamen plane intermittendum duxi, quin hoc
+                        Apologetico scripto eius obiectionibus occurrerem et veritatem semel
+                        assertam atque scriptis consignatam contra quosvis insultus tuerer et
+                        plenius stabilirem. Tu itaque per otium hæc lege, et si placet, relege, nam
+                        et tui nonnunquam ibidem fit mentio, posteaque per literas tuum gravissimum
+                        de his iudicium mihi aperi et litem hanc Philosophicam tanquam arbiter
+                        dirime, adiuncta, si id illi importunum non fuerit, Domini <persName ref="Curtius, Jacob">CURTIJ</persName> gravissima
+                        censura. Cum enim is et Iurisprudentiæ et Mathematum excellenter peritus
+                        sit, caussam hanc cognoscere atque æquali lance decidere omnium optime
+                        poterit. Adiunge etiam aliorum eruditorum et in arte hac exercitatorum atque
+                        iudicio valentium, quotquot in propinquo habes, sententias, et si qui erunt,
+                        qui per literas mecum de hoc arduo negotio conferre voluerint, sive noti
+                        sive antea ignoti fuerint, fecerint mihi hac in parte rem admodum acceptam
+                        et studijs Astronomicis huicque de Cometis quæstioni enodandæ nec inutilem.
+                        Id vero te insuper admonitum velim, me ab alijs rogatum, imprimis vero a
+                        nobilissimo et amplissimo Domino <persName ref="Rantzau, Heinrich">HENRICO RANZOVIO</persName>, Vicario Regis nostra in
+                        Holsatia et annexis territorijs, ut literas Illustrissimi principis
+                        <persName ref="Wilhelm, Landgrave of Hessen">GUILIELMI</persName>, Landgravij Hassiæ, et aliorum in <placeName ref="Germany">Ger<pb ed="TBOO" n="VII.217"
+                        />mania</placeName> eruditorum virorum, quas de hac materia mecum agentes habeo
+                        quamplurimas, unâ cum mea ad singulas responsione publici iuris fieri
+                        permittam, quod etiam, quia ad rem hanc illustrandam <pb ed="A" n="17v"/>non
+                        parum faciat, minime denegandum duxi; constitui enim in quarto quodam Tomo
+                        omnes has, et si quas præterea de hoc negotio ab eruditis nactus fuero
+                        literas unâ cum nostris rescriptionibus et Apologijs, si qui ulterius quid
+                        contradicere præsumpserint, seorsim edere, quod hîc ob id indicare volui, ut
+                        attente et deliberate satisque luculenter omnia mihi vel abs te vel alijs
+                        per te hac de re scribantur, quod et antea, si recte memini, monui. Sed
+                        tempus est, ut nunc tandem vela contraham calamumque hîc quiescere sinam.
+                        Quare iterum et sæpius vale quam felicissime, mi amantissime <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, et me
+                        ante Pasca tuis eruditissimis literis, tum etiam eximij illius Domini <persName ref="Curtius, Jacob">CURTIJ</persName>, si illi ita commodum fuerit, revisendum cura, iamque
+                        tertium et pluries vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> prim. Cal. Novemb. stylo veteri
+                        Anno 1589.</p>
+                    <lb/>
+                    <p>TYCHO BRAHE, <lb/>manu propria.</p>
+                </div>
+                <div n="P.S.">
+                    <opener><pb ed="A" n="17r"/>POST SCRIPTA.</opener>
+                    <p>QUIA in istius Diplomatis Cæsarei mentionem incidimus, est aliquid, de quo
+                        tecum circa illud ulterius agere, si ita tibi visum fuerit, vellem.
+                        Privilegium enim illud nimis mihi videtur breve, nec satis copiosum aut
+                        decorum pro artis et materiæ tractandæ magnificentia, et habeo aliud a Rege
+                        Galliarum mihi concessum, quod multo est capacius et speciosius, in
+                        Pergameno insuper scriptum et manu Regia subsignatum, cuius exemplum tibi
+                        mitto. DANIEL etiam <persName ref="Rogers, Daniel">ROGERSIUS</persName>, vir spectabilis et in primis literatus, <persName ref="Elisabeth 1.">Reginæ
+                        Angliæ</persName> in Daniam secundus Legatus, cum proxime hîc apud me esset, se mihi a
+                        serenissima Regina sua etiam Privilegium impetraturum spondebat, quod
+                        seipsum ita terse et honorifice conscripturum aiebat, ut Gallicanum etiam
+                        plurimum excelleret et in Pergameno quoque manu Reginæ subscriptum
+                        exararetur. Sic ab Hispaniarum Rege, nisi nimia locorum distantia vota
+                        nostra retardârit, spero Privilegium amplum et magnificum; nollem itaque, ut
+                        Cæsarea Maiestas, quæ primas inter Europæ Reges tenet, minoribus et
+                        brevioribus, quam illi, suum mihi clementer concessum Privilegium
+                        comprehendi pateretur. Id enim et ipsius Maiestati non satis honorificum
+                        esse videtur, nec artis sublimis excellentiæ sufficere. Peto itaque per
+                        amicitiam nostram velis efficere, ut in Cancellaria Imperatoria mihi novum
+                        adhuc magisque amplum et venustius <pb ed="A" n="17v"/>condatur Privilegium,
+                        idque in Pergameno, si unquam moris est, consignetur, manu Imperatoria
+                        subscriptum. Magnificus Dominus <persName ref="Curtius, Jacob">CURTIUS</persName> facile suam operam et tibi et mihi
+                        hac in parte impertiet; et cum artis <pb ed="TBOO" n="VII.217"/>huius sit
+                        apprime gnarus atque amans, poterit is in artis et operarum harum honorem
+                        atque commendationem nonnulla aspergere, quæ plures Reges et Principes, tum
+                        etiam alios in huius studij sublimis et eius cultorum amorem atque favorem
+                        exuscitent, quod ipsius prudentiæ et erga has artes meque, licet sibi
+                        ignotum, et meos labores benevolentiæ pro arbitrio disponendum relinquo. Si
+                        quoque vobis videretur, non adeo opus esse existimem multam de Religionibus
+                        et scandalizationibus mentionem, quæ aliquibus forte odiosa esse poterit,
+                        immiscere; lubens enim a talibus abstineo, quæ ulli parti in Religione
+                        offendiculo esse possint; neque enim lubenter mihi de his iudicium sumo, sit
+                        hoc penes Creatorem omnium, qui optime novit hædos ab agnis segregare,
+                        hypocritas a sincere eum colentibus, cum scrutetur corda omnium. Satis iam
+                        Mundus tumultuarius habet hæresium et confusionum; ut ego novas condam aut
+                        ab alijs introductas exagitem aut refricem, non est opus. Veritatem apertam
+                        in his declarari Mundus, cum amet potius tenebras ob mala sua opera, non
+                        patitur. Neque aliquem Apostoli partes agere decet, nisi divinitus, non ab
+                        hominibus missus fuerit, ne illud in eos, qui id sibi ex solo naturæ lumine
+                        arrogant, competat, quod est in Propheta: »<hi rend="it">Cucurristis, et nemo
+                            misit vos, clamastis, et nemo vobis os aperuit</hi>« Sed hæc extra propositum.
+                        Vides nunc, mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, quod sit, et quamobrem velim, quædam in illo
+                        Privilegio mutari, augeri atque amplificari, tum etiam in Membrana, ut
+                        tutius et diutius conservari queant, describi. Nihil tamen hîc peto, nisi quod
+                        deceat et quod te sine dif<pb ed="A" n="18r"/>ficultate et molestia meo
+                        nomine impetrare posse speres. Pro ultimo mihi in Papyro transmisso misi 12
+                        florenos in scriptoris remunerationem, prout Taxator æstimârat. Si denuo
+                        novum et magnificentius in Pergameno exaretur, ego et nunc scriptionis
+                        laborem etiam liberalius, quam Taxator censuerit, recompensare paratus ero.
+                        Omnia tamen in hoc negotio tuo consilio et auxilio facienda vel infecta
+                        relinquenda committo. Et si ita consultum tibi visum fuerit atque
+                        Privilegium novum non difficulter obtinueris, cuperem, ut ante instantes
+                        nundinas <placeName ref="Frankfurt am Main">Francofurtianas</placeName> illud mihi huc in Daniam vel proprijs meis sumtibus
+                        transmitti cures, quo satis mature illud nactus prioris tomi frontispicio
+                        præfigere liceat et tunc demum utramque partem excusam in Cæsaris
+                        Cancellariam, uti in me recepi, perferri curare. Iterum feliciter vale.</p>
+                    <p rend="indent">Rogo te quoque, mi <persName ref="Hagecius, Thaddaeus">HAGECI</persName>, ut si quæ habes literarum, quas ad
+                        te dedi, apographa, ut puto, reservata, ea descripta mihi communices. Ego
+                        enim volumini, quod Epistolas Astronomicus continebit, huiusmodi destinavi.
+                        Quocirca si eas ocius miseris, rem feceris mihi in primis gratam.</p>
+                    <lb/>
+                    <p>T. BRAHE.</p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

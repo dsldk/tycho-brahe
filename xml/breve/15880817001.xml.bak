@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.46</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 122</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1588-08-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588-08-17</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.122"/>
+                <pb ed="A" n="5v"/>
+                <opener>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO VIRO D. <persName
+                        ref="Hagecius, Thaddaeus">THADDÆO HAGECIO</persName> AB HAYK, PHILOSOPHIÆ ET
+                    MEDICINÆ DOCTORI EXIMIO, AMICO MEO IN PRIMIS COLENDO.</opener>
+                <p><pb ed="A" n="3r"/>SCRIPSI ad te proxime elapso mense Maio, optime et amantissime
+                    D. D. <persName
+                        ref="Hagecius, Thaddaeus">THADDÆE</persName>, per Studiosum quendam Silesium, qui me cum quibusdam alijs tunc
+                    temporis inviserat, unâque librum secundum operis nostri de recentioribus
+                    ætherei Mundi Phænomenis transmisi, quem non dubito te iamdudum unâ cum literis
+                    illis accepisse. Quia vero nihil interea responsi a te receperim, et post paucos
+                    menses hyems ingruens commoditatem huc scribendi præcludet non intermittendum
+                    duxi, quin te hisce brevibus denuo compellarem, ut rescriptionem maturare non
+                    intermitteres, cupio autem tuam sententiam cognoscere de ijs, quæ liber iste
+                    tibi missus continet, utque ingenue eam de singulis, ubi opus videbitur, mihi
+                    perscribas, rogo. Feceris mihi hac in parte rem gratam. Non enim mea ita mihi
+                    placent, quin aliorum de his libenter sufferam iudicium, quemadmodum ego et de
+                    tuis et aliorum quorundam scriptis circa hanc materiam, fretus libertate
+                    Philosophica et veritatis inquirendæ studio, libere quod sentiam profero, absque
+                    tamen ullius læsione mordaci. Primum tomum, qui de Stella illa nova luculenter
+                    agit, et tertium, qui de tribus alijs minoribus Cometis postmodum visis e certis
+                    observationibus Mathematice rem omnem tractat, spero me per hyemale otium,
+                    favente divina Clementia, absoluturum, ut ea omnia ad Colophonem deducta
+                    vernalibus Nundinis Francofurti venundentur. Prioris tomi editionem Gallici
+                    privilegij defectus, quod Cæsareo per te mihi procurato in operis frontispicio
+                    adiungere decrevi, hactenus retardavit, prout (ni fallor) in ultimis etiam
+                    literis tibi indicavi. Verum cum nunc Gallicanum hoc adeptus sim, et insuper
+                    Anglicanum indies expectem, nihil obstabit, quo minus telam inchoatam pertexere
+                    omnique ex parte absolvere elaborem. Tu interim intermediæ illius partis tibi
+                    transmissæ penitiorem disquisitionem non intermitte, tuumque <pb ed="A" n="3v"
+                    />de hac iudicium (quod prius etiam expetivi) ante hyemem prima quaque occasione
+                    sufficienter et ingenue perscribe. Commodius autem erit <placeName ref="Rostock"
+                        >Rostochium</placeName> eas mittere literas ad Doctorem <persName
+                        ref="Brucaeus, Heinrich">HENRICUM BRUCÆUM</persName>, vel in aulam
+                    Illustriss. Principis Ducis <persName ref="Ulrich">ULDARICI</persName>
+                    <placeName ref="Mecklenburg">Megapolitani</placeName>, ad ipsius Cels<hi
+                        rend="sup">is</hi> Cancellarium, D. D. <persName ref="Bording">IACOBUM
+                        BORDINGUM</persName>, aut etiam <placeName ref="Lübeck">Lubecam</placeName>
+                    ad <persName ref="Knockert">FRANCISCUM KNOCKERT</persName>, Patricium et
+                    Senatorem urbis, sive <pb ed="TBOO" n="123"/>ibidem ad quendam Nauclerum,
+                        <persName ref="Grubbe, Albert">ALBERT GRUBBE</persName> nomine, habitantem
+                    in loco appellato Lubecensi Angelo, ut aliquis horum easdem <placeName
+                        ref="Copenhagen">Hafniam</placeName> ad civem in ædibus meis habitantem,
+                        <persName ref="Didrik">DIDERICUM FULLONEM</persName> nomine, transmitti
+                    procuret; quacunque enim ratione ex iamdictis (nisi ipsemet commodiorem adeptus
+                    fueris) hoc negotium expediveris, spero me literas tuas satis certo et mature
+                    obtenturum, quibus ego etiam confestim respondere non intermittam. Vale; plura
+                    enim nunc non vacat scribere, et hæc saltem obiter ad te perarata <placeName
+                        ref="Frankfurt am Main">Francofurtum</placeName> transmisi, si forte inde
+                    per certum hominem tibi perferantur, qua in parte siquidem aliquid dubij subesse
+                    queat, copiosius de alijs rebus nunc scribere non duxi operæpretium. Amplissimum
+                    et nobilissimum virum <persName ref="Dudith">ANDREAM DUDITIUM</persName>, si illic in vicinia est, velim meo
+                    nomine vel verbis præsens, vel per literas absens officiose salutes. Quod si
+                    eius etiam iudicium de libro meo sibi transmisso scriptis mandatum ante hyemem
+                    obtinuero, rem mihi præstiteris tam ille quam tu longe acceptissimam. Iterum
+                    felicissime vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 17.
+                    Augusti Anno 88. </p><lb/>
+                <p>Tui amantiss. <lb/>TYCHO BRAHE, <lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

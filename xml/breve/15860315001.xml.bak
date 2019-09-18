@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Heinrich Brucaeus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 100-101</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Heinrich Brucaeus</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1586-03-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586-03-15</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-26" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.100"/>
+                <pb ed="A" n="87v"/>
+                <p>HENRICUS BRUCÆUS AD TYCHONEM BRAHE.</p>
+                <p>NOBILISSIME, charissimeque D. TYCHO, si vivis et vales, gaudeo. Superioribus enim
+                    mensibus spargebatur fama mihi acerba, quam avertant Superi, te nostri
+                    amantissimum e vivis excessisse. Cum tamen dubius essem, emi tibi Gnomonicen
+                        <persName ref="Clavius">CLAVIJ</persName> Bambergensis, et <persName
+                        ref="Magini">MAGINI</persName> Tabulas novas et Ephemeridas ad Calendarij
+                    emendationem a <persName ref="Gregor 13.">GREGORIO</persName> XIII Pontifice
+                    Maximo institutam, compositas. Æstimat autem Bambergensis Gnomonicen Ioachimicis
+                    7, Ephemeridas vero, in quibus in motuum supputatione errores a <persName
+                        ref="Stadius">STADIO</persName> commissos adiunxit, unâ cum Tabulis æstimat
+                    Ioachimicis XI vel XII, ut tota summa Ioachimicorum sit 18. Emi autem hac
+                    conditione, ut si tibi forte non placerent, aut forte eosdem iam esses nactus,
+                    Bibliopola ad se recipiat. Quid igitur hac in parte fieri velis, quam primum
+                    significes cupio. Ego, quod mare esset clausum, citius procurare non potui. Nam
+                    ad Paschatis festum aut libri sunt restituendi aut pecunia numeranda. Iam enim
+                    libros ineunte hyeme apud me deposuit. Tu ut valeas et quid agas, fac
+                    intelligam, an aliquid sub prælo sit, et quid premas. Tuos Cometas expecto, post
+                    tot aliorum labores aliquid præstanti tuo ingenio dignum, quod miretur
+                    posteritas. Calendarij enim editioni cum indicijs mutationum aëris non credo,
+                    quod aliquem ex tuis ridendum populo velis cum alijs præbere. <pb ed="A" n="88r"
+                    />Quod enim <persName ref="Cato major">CATO</persName> de Aruspicibus, id ego de
+                    hisce prædictionibus cogitare soleo. Mirari se aiebat, si cum sibi mutuo
+                    occurrunt, non rideant. Nunc venio ad postremas tuas literas, in quibus (quantum
+                    memini) tu decoctiones, infusiones, et nescio quæ alia in Galenicis rides, nec
+                    quicquam videris probare, nisi quod summo labore extractum ex metallis aut
+                    quintas essentias aut tincturas aut spiritus sapiat. Patere nos obvijs uti
+                    paratuque facilibus; feras etiam in amico non moleste, plures ab eo restitui
+                    decoctis, infusis, et sola ptisana, quam maxima eorum turba, quise solos sapere
+                    arbitrantur, quintis essentijs, tincturis, spiritibus, alijsque occultis, ut
+                    ipsi iudicant, naturis, quæ tamen omnes a primis qualitatibus dependent.
+                    Decoctione certe facultates rerum coctibilium in liquorem transferri, nullus
+                    negaverit. At ex auro et lapidibus pretiosis, corallis nihil decoctione
+                    deciditur? Fateor id; nos hæc ijs relinquimus, quibus licet ex unico vitrioli
+                    spiritu multas tincturas parare, addito colore alterius rei mixtione. Scis quem
+                    notem. Neque hæc a me referuntur, ut si quid a posteris bene ad humani generis
+                    salutem sit inventum, id damnem; absit, immo laudem magis et sequar alijsque
+                    communicem. Insanientis enim hominis fuerit, <pb ed="TBOO" n="101"/>ac animi
+                    plane maligni, calumniari, quæ bene sunt dicta, et aliorum inventa deprimere.
+                    Quid igitur, inquies, in hoc genere Chymico non laboras, et hoc quicquid est
+                    cognitioni humorali elementari primarum qualitatum, alijsque verbosis <persName
+                        ref="Galen">GALENI</persName> nugis non adiungis? Sic enim ex sulphure, sale
+                    et hydrargyro compositum genus hominum eructare solet. Dicam quod verum est;
+                    magistris destituor, mutos non intelligo. Tu itaque, qui iam aliquot annis in
+                    hoc genere laboras et sedulo versatus es, si quid habes, quod in gravissimis
+                    morbis Apoplexia, Epilepsia, Paralysi contractis Melancholia, divina manu
+                    succurrat, communica, et componendi rationem utendique modum et mensuram
+                    demonstra. Memini de te audivisse, Epilepticos non paucos a te curatos, verum an
+                    id per spiritum vitrioli facias ignoro. Si sic, aperi quæso quomodo pares, quæ
+                    admisceas, quomodo exhibeas, quoties <pb ed="A" n="88v"/>et quo tempore. Age
+                    noli invidere amico, quæ habes, qui tui semper fuit et erit studiosissimus
+                    amantissimusque. Bene vale integerrimeque amantissimeque mi TYCHO, et me, quod
+                    facis, mutuo ama. <placeName ref="Rostock">Rostochij</placeName> XV Martij An. Domini 1586.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

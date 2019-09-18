@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Thaddaeus Hagecius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.46</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 184</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1589-05-20"/><!-- ny stil = 1589-04-30 g.s.-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589-05-20</date></creation><!-- ny stil = 1589-04-30 g.s.-->
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-23" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.184"/>
+                <pb ed="A" n="4v"/>
+                <opener>PRISCÆ AC VERÆ NOBILITATIS, INSIGNISQUE ERUDITIONIS VIRO, D. TYCHONI BRAHE DANO,
+                    MATHEMATUM ARTIFICI SUMMO, INSULÆ HUENÆ DOMINO ET AMICO SUO OBSERVANDO. <lb/><foreign xml:lang="deu">IN DENNEMARCK.</foreign> <lb/>S.</opener>
+                <p><pb ed="A" n="4r"/>PRIDIE eius diei, quam hinc discederet vestras ille
+                    ad Imp. nuncius, adij illum et de suo hinc discessu percontatus sum. Ille vero
+                    se eo ipso die habiturum audientiam apud Imp. aiebat. Quod vero sequenti mane
+                    discedere vellet, de eo ne verbum ullum. Dixeram me ipsi daturum literas ad te,
+                    quas paratas habebam; expectabam solum eo ipso die Bibliopolas nostrates e
+                    mercatu <placeName ana="Frankfurt am Main">Francoffordensi</placeName>, a quibus cognoscere cupiebam, num essent hoc tempore
+                    allaturi librum illum de astris, recordor fuisse cuiusdam IO. FRANCI, Parisijs
+                    impressum, et Reginæ Galliæ dedicatum, quem tibi olim <placeName ana="Regensburg">Ratisponæ</placeName> donaveram, et tu
+                    eundem superioribus mensibus a me petebas, ut hac commoditate eum ad te
+                    transmitterem. Cum autem non afferrent, mitto nudas literas in hospitium ad
+                    vestratem illum. Ecce vero illum iam die præterito hinc discessisse, mihi
+                    nunciant. Quam me id male habuerit, verbis exprimere non possum. Habes causam et
+                    iustam meam excusationem, cur vestras ille vacuus meis literis redierit ad vos,
+                    quam ut accipias beneque interpreteris, te oro. B. V. <placeName ref="Prague">Pragæ</placeName> die 20. Maij novo
+                    stylo Anno 1589. </p><lb/>
+                <p>T. studiosiss.<lb/>Thad .</p>
+            </div>
+        </body>
+    </text>
+</TEI>

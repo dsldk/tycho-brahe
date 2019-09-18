@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 86-87</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>Knutstorp</placeName>
+                    <date when="1584-07-15"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Johannes Major</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1584-07-15</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-25" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.86"/>
+                <pb ed="A" n="77v"/>
+                <p>TYCHO BRAHE AD <persName ref="Major, Johannes">IOHANNEM MAIOREM</persName>.</p>
+                <p>QUAS ad me ultimo dedisti literas, eruditissime Domine IOHANNES MAIOR, recte
+                    accepi et de libris procuratis gratias habeo. <persName ref="Willer, Georg"
+                        >WELLERIANOS</persName> hac vice non cupio. De Calendario Gregoriano quod
+                    tanta fuerit apud vos animorum concertatio, ut ferme ad arma res devenerit,
+                    miror, et meo sane iudicio non decuisset eos, qui Theologiam profitentur,
+                    occasionem sic dare his turbis et populum contra Magistratum legitimum
+                    commovere, in re, uti opinor, anaphora et religioni, quam illi tuentur, nihil
+                    efficiente. Sed hac tamen salva, quatenus divino verbo fundatur, manente, nonne
+                    prioris et diu usitati Calendarij Nicenum Concilium secuti Romani Pontifices
+                    autores et conservatores fuêre, et aliorum dierum festorum, quibus ij, qui se
+                    Euangelium nuncupant, etiamnum utuntur? Cur igitur Pontifici Romano non liceret,
+                    præsertim approbante id Imperatoria Maiestate, idem Calendarium, quatenus mancum
+                    et insufficiens longo ævi tractu redditum est, emendare et in melius, quoad
+                    fieri potuit, restituere? Certe videntur hi, qui tam contentiose illi
+                    obstrepunt, non zelo secundum scientiam id agere, sed potius affectibus
+                    indulgere et philautia laborare, atque odio Pontificis saltem id facere. Si ante
+                        <persName ref="Luther">LUTHERI</persName> tempora tali modo fuisset
+                    renovatum Calendarium, quando per excellentem Germanorum Mathematicum, <persName
+                        ref="Regiomontanus">IOHANNEM REGIOMONTANUM</persName>, Pontifex,
+                    qui tum Romæ præfuit, id fieri satagebat, certe LUTHERUS huic emendationi non
+                    invite acquievisset, cum nihil contineret ipsius doctrinæ contrarium. Et cur non
+                    successores eius eo, quod nunc redintegratum <pb ed="TBOO" n="87"/> est,
+                    contenti sunt? Videant, ne sic dent occasionem ijs, qui veterem doctrinam se
+                    profiteri aiunt, obijciendi, quod nimio contradictionis studio occæcati quidvis
+                    impugnent, sive id speciem aliquam dubitationis mereatur, sive non, atque ideo
+                    eos in cæteris <pb ed="nil" n="78r"/>quoque minus considerate agere præsumatur.
+                    Et siquidem de hoc Calendario renovato meam exquiris sententiam, dicam tibi id,
+                    quod et alijs eadem sciscitantibus respondi.</p>
+                <p rend="indent">Calendarium hoc Gregorianum noviter reformatum prævalet veteri et prius usitato,
+                    et recte factum est a Pontifice opera <persName ref="Lilius">LILII</persName>
+                    Mathematici, ut 1O dies in <app>
+                        <lem>eo</lem>
+                        <rdg><note>suppl. TBOO</note></rdg>
+                    </app> omissi sint. Totidem enim defectus anni cœlestis et æquinoctialis a
+                    Iuliano, qui inde a Concilio Niceno direxit, quam proxime requirit. Et alia
+                    etiam quædam non inconvenienter in nupero Calendario emendata sunt. Licet vero
+                    aliqua in his adhuc castigatius in eo proponi possint, si cœlitus deducti
+                    Luminarium motus in consilium adhiberentur, tamen cum hoc non facile detur in
+                    tanta exactissimarum observationum penuria, et Ecclesiæ ac Politiæ usus summam
+                    in his præcisionem quam ipsi etiam Astronomi vix assequuntur, non exigat, nec
+                    etiam magnopere opus habeat, acquiescendum utique erit huic Pontificis Romani,
+                    cuius etiamnum maxima est in terris autoritas, consultæ et laudabili provisioni
+                    in Calendarij diu frustraque desiderata reformatione, nec temere quid in
+                    contrarium movendum cum periculo pacis publicæ.</p>
+                <p rend="indent">Habes breviter, quid ego sentiam, et forte mecum viri cordati non pauci. Quid
+                    vero penitius in hac renovatione præstari possit, dicere non audeo, antequam de
+                    exacto motu &#x2609;  et &#x263E; novis illis et maximis, quæ adorno, organis certius quid
+                    expertus fuero. Nam cœlo inconsulto de ijs, quæ inde profluunt, censuram
+                    proferre velle temerarium et insulsum esse iudico. Laudo itaque Ampliss. vestræ
+                    Reipub. decisionem consultam, quod Calendarium hoc Gregorianum pacis publicæ
+                    causa et ob vicinarum regionum consuetudinem atque cum ijs commercia susceperit,
+                    utut reclamitante incerto vulgo, quod semper studia in contraria scinditur.
+                    Atque de his hoc tempore satis, de tuis per occationem, si res ita postulârit,
+                    alias plura in medium proferam. Vale. Dabantur ex æde nostra <persName ref="Knutstorp">Knudstrupiana</persName> 15.
+                    die Iulij stylo veteri, nobis adhuc usitato, Anno 1584.</p>
+                <p>T.<lb/>TYCHO DE BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

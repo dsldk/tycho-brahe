@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Thaddaeus Hagecius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.48</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 182-183</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Thaddaeus Hagecius</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1589-05-10"/>
+                    <!-- ny stil = 1589-04-30 g.s.-->
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589-05-10</date></creation>
+            <!-- ny stil = 1589-04-30 g.s.-->
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-23" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <div n="Letter"><pb ed="TBOO" n="VII.182"/>
+                <pb ed="A" n="10v"/>
+                <opener>NOBILITATE GENERIS, VIRTUTE ET ERUDITIONE VIRO CLARISS. D. TYCHONI BRAHE DANO,
+                    DOMINO INSULÆ URANIEBURGI ETC. DOMINO ET AMICO OBSERVANDO.<lb/>S.</opener>
+                <p><pb ed="A" n="8r"/>LITERÆ tuæ Nobiliss. et amantiss. TYCHO, attulerunt mihi et voluptatem et
+                    dolorem; voluptatem quidem, quod abs te adferrentur, de quo iam dudum cognoscere
+                    cupiebam; dolorem autem, quod intellexissem meas tibi cum libro <persName ref="Werner">VERNERI</persName>, abs te
+                    iam olim expetito, nondum fuisse redditas. Et profecto suspiciones variæ
+                    agitabant animum meum, ut conquiescere nullo modo potuerim. Miseram eas
+                    <placeName ref="Görlitz">Gorlicium</placeName> ad <persName ref="Mylius, Martin">MYLIUM</persName> unâ cum libro illo, ac magnopere rogabam, ut <persName ref="Scultetus">SCULTETUM</persName>
+                    commonefaceret, si quid literarum ad te dare vellet, meis adiungeret et primo
+                    quoque tempore ad te perferri curaret. Indicabam etiam eidem iuxta documentum
+                    tuarum literarum omnes commoditates et occasiones mittendi ad te. Cum autem in
+                    ista animi mei perturbatione versor, ecce, oportune sane, ad levationem mei
+                    doloris, afferuntur ad me literæ a <persName ref="Mylius, Martin">MYLIO</persName>, quibus significat et se magnopere
+                    excusat, cur diutius sua opinione delituerint apud se meæ literæ, et ut plenius
+                    rei veritatem cognoscas meque apud te excusatum habeas, exemplum ipsius
+                    literarum ad te mitto. Sed iam, ut spero, utriusque nostrum desiderio
+                    satisfactum, tibique meas redditas esse existimo. Utinam deinceps nostræ literæ
+                    cursum nanciscantur feliciorem. His plura quod addam habeo nihil. Ex hoc mercatu avide expectabam primum tuum
+                    librum. Sed cur non prodierit, ex tuis ad me intellexi. Deum oro, ut tuis studijs Reipub. literariæ causa favere velit. Nos ante menses
+                    circiter duos amisimus virum summum et incomparabilem tuique studiosiss. D.
+                    <persName ref="Dudith">DUDITHIUM</persName>. Decessit etiam ex hac vita 19. Aprilis <placeName ref="Wien">Viennæ</placeName> <persName ref="Fabricius">FABRICIUS</persName>. Utriusque
+                    mortem admodum doleo. Sed quum Deo Opt. Max. eos in beatiorem vitam ex hisce
+                    miseriarum turbis evocare libuit, in sanctissima eius voluntate nobis
+                    acquiescendum est.</p>
+                <p rend="indent"><pb ed="TBOO" n="VII.183"/>Barones, quos salvere iubebas, non sunt in hac aula. D. DUDITHIUS,
+                    bonæ memoriæ, de libris <persName ref="Wittich, Paul">WITYCHIJ</persName> iam olim cum sorore ipsius egit. Sed morosiorem
+                    illam fuisse intellexi, quam ut aliquid ex bibliotheca fratris communicare
+                    vellet aut saltem lustrare pateretur. B. V. <placeName ref="Prague">Pragæ</placeName> 1O. Maij 1589. </p><lb/>
+                <p>T. studiosiss.<lb/>Thad.</p>
+                <p>D. fratrem tuum meis verbis officiose salvere iube. </p></div>
+            <div n="Copy of letter from Mylius"><pb ed="A" n="9r"/><opener>EXEMPLUM LITERARUM
+                    MARTINI <persName ref="Mylius, Martin">MYLIJ</persName> AD THAD.</opener> 
+                <p>CLARISS. vir, fateor peccasse me in te atque adeo in
+                    amicitiam nostram, qui tam diu nullas ad te literas misi, cum præsertim mihi
+                    de rebus ad te pertinentibus, puta de literis et libro tuo ad TYCHONEM curando,
+                    scribendum esset. Sed ita est ut scribo. Diutius opinione mea delituerunt apud
+                    me TYCHONIS literæ. Unam enim saltem occasionem habemus mittendi per nostratem
+                    quendam civem, qui Hamburgum ire solet, idque uno anno vix bis. Iter enim est
+                    longinquius. Cum eo igitur misi tua ante paucas septimanas, credo vix tres quatuorve ad
+                    summum. Ante illud tempus fateor suppuduisse me quicquam scribere, ne tu forte
+                    indignarere, quod mea incuria commisissem, ut epistola facta esset ἕωλος. Eam
+                    religionem meam ut boni et æqui consulas, te oro.</p>
+                <p rend="indent"><placeName ref="Görlitz">Gorlicij</placeName> die Philippi et Iacobi Apostolorum 1589. </p></div>
+            <div n="P.S."><opener>POST SCRIPTA.</opener>
+                <p>IN Cancellariam Imperij memineris, ut ex tenore Privilegij aliquot exempla tui
+                    operis mittas. Ego enim, qui fueram solicitator Privilegij, hac de re fui
+                    admonitus. Respondi, fuisse quidem mihi abs te per quendam Studiosum missum unum
+                    exemplum, sed Bibliopolis integrum opus nondum fuisse publicatum, neque te hanc
+                    partem secundam absque alijs publicare voluisse. Cum igitur in mercatu futuro
+                    <placeName ref="Frankfurt am Main">Francoffordensi</placeName> integrum opus (ut spero) prodibit, et exempla aliquot in
+                    Cancellariam miseris, vellem salutares tuis literis D. <persName ref="Curtius, Jacob">CURTIUM</persName> eiusque amicitiam
+                    expeteres. Mihi est amicissimus, et profecto dignus est, qui ab omnibus
+                    diligatur. Ad ipsa Mathemata natus videtur. Et certe, si ijs solis ipsi vacandum
+                    esset, aliquid præstare posset.</p>
+                <p rend="indent">Titulus D. CURTIJ: IACOBUS CURTIUS a Senfftenau, Cæs. Consiliarius
+                    et Procancell. Imperij.</p>
+            </div></div>
+        </body>
+    </text>
+</TEI>

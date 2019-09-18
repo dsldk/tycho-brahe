@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Major</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 46-47</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Major</persName>
+                    <placeName>Augsburg</placeName>
+                    <date when="1577-09-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1577-09-20</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-19" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.46"/>
+                <pb ed="A" n="75r"/>
+                <opener>NOBILISSIMO DOCTRINAQUE ET VIRTUTIBUS PRÆSTANTISSIMO DOMINO TYCHONI BRAHE
+                    OTTONIDI DANO, DOMINO DE KNUDSTRUP, DOMINO SUO OBSERVANTER COLENDO.</opener>
+                <p>POST tuum Augusta discessum, generose Domine TYCHO, ad te semel litteras dedi, in
+                    quibus T. D. pro scripto de stella anno 1572 visa edito, mihique dono misso
+                    gratias egi. Deinde aliquid de voluntate <persName ref="Schissler, Christoph"
+                        >SCHISLERI</persName> et Globi conficiendi ratione cuiuscunque magnitudinis
+                    subiunxi. Spero autem easdem litteras tibi esse redditas. De voluntate vero tua
+                    cum nihil adhuc certi <pb ed="A" n="75v"/>cognoverim, pauca eadem de re tum cum
+                    affine meo <persName ref="Petrus">PETRO</persName> tum cum <persName ref="Gemperle, Tobias">N. GEMPERLIN</persName> pictore egi coram, ut de mea erga te
+                    benevolentia tibi quid certi constaret. Meretur enim virtus tua, ut tibi omnibus
+                    modis gratificetur. Quare cum singulari Dei beneficio ad excolendas artes
+                    Mathematicas, quas ipse impense amo, excitatus esse videaris, Deum Opt. Max.
+                    precor, ut tibi vitam largiatur diuturnam, quo laudatissimis artibus iam quidem
+                    nutantibus brevique casuris tuo ingenio quam felicissime suc<pb ed="TBOO"
+                        n="VII.47"/>currat. Quadrans, quem hîc in horto Domino Consuli magna
+                    industria extruxisti, adhuc constat et usui observationum cœlestium inservit. Machina certe ingens, vixque ullibi nostro ævo similis reperitur, quam etiam
+                    magnus ille <persName ref="Ramus, Petrus">PETRUS RAMUS</persName> summopere, cum hîc et tecum esset, admiratus est. D.
+                    <persName ref="Wolf, Hieronymus">WOLFIUS</persName> tibi plurimam salutem ex me dicere voluit: ipse scripsisset, nisi
+                    publica negotia illi impedimento fuissent et affinis meus non cum summa
+                    festinatione abitum parasset. Vale feliciter. <placeName ref="Augsburg">Augustæ
+                        Rheticæ</placeName> pridie Matthæi Apostoli 1577.</p>
+                <p>T. D. deditiss.<lb/>M. <persName ref="Major, Johannes">Iohan.
+                    Maior</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

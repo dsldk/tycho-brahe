@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-model href="https://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Supra januam observatorii in arce Cæsareana Bennatica</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                            <settlement>Wien</settlement>
+                            <repository>Österreichische Staatsbibliothek</repository>
+                            <collection>empty</collection>
+                            <idno>cod. Vindob. lat. 10686.6</idno>
+                            <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                        <settlement>Wien</settlement>
+                        <repository>Österreichische Staatsbibliothek</repository>
+                        <collection>empty</collection>
+                        <idno>cod. Vindob. lat. 10707, p. 158r</idno>
+                        <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 214</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1599 (c.)</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-02" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div><head>SUPRA IANUAM OBSERVATORII IN ARCE CÆSAREANA BENNATICA.</head>
+                <lg><l>Quæ renuere alij, RUDOLPHUS sacra SECUNDUS</l> 
+                    <l rend="indent">Huc Clemente manu transtulit VRANIÆ.</l>
+                <l>Auspicijs igitur lustrent nunc CÆSARIS orbem:</l> 
+                    <l rend="indent">Claret ut ille solo, clareat ille Polo.</l>
+                <l>Dum Cœlum et stellæ, dum Sol et Luna manebunt,</l> 
+                    <l rend="indent">Hinc tibi perpetuo nomina, CÆSAR, erunt.</l>
+                <l>Gratiaque Astrorum Authori fit summa, quod astra</l>
+                    <l rend="indent">Exilium in terris non tolerare sinit.</l></lg>
+                <closer>T. B. fecit.</closer></div>
+        </body>
+    </text>
+</TEI>
