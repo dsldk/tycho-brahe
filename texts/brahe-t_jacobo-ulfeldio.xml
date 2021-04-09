@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Jacobo Ulfeldio</title>
+                <title xml:lang="en">Jacobo Ulfeldio</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <witness xml:id="A">
+                                <bibl>Tycho Brahe <title>Nobilitate ingenii generisque viro inprimis conspicuo, D. Jacobo Ulfeldio ... S.D.</title>, Uraniburgi 1584</bibl>
+                        </witness>
+                            <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 179-180</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1584</date></creation>
+            <langUsage>
+                <language ident="la" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2019-02-11" who="#pz">tekst importeret</change>
+            <change when="2019-02-22" who="#pz">korrekturlæst efter A, en del forskel i interpunktion og brug af versaler over for TBOO</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+          <div xml:id="text">
+            <head rend="center">
+              <orig><pb ed="TBOO" n="IX.179"/><pb ed="A" n="1"/>NOBILITATE INGENII GENERISQVE VIRO INPRIMIS CONSPICVO, D. IACOBO VLFELDIO, DOMINO DE VLFELSHOLM, AMICO SVO PLVRIMVM COLENDO. <lb/> S. D.</orig>
+              <reg>Jacobo Ulfeldio</reg>
+              <reg xml:lang="en">Jacobo Ulfeldio</reg>
+            </head>
+            <lg><l>DUM mea FALCHONEM petis altera Littera GOYVM,</l>
+                <l rend="indent">Altera vis, LANGVS non vt ERICVS amet: </l>
+                <l>Nullanè Doctiloqui venies sub tecta IACOBI</l>
+                <l rend="indent">VLFELDVMque Elegis Littera nulla petas? </l>
+                <l n="5">ILLE tibi quamuis, superatis obuius vndis, </l>
+                <l rend="indent">Qui sicco excipiet littore, primus adest. </l>
+                <l>Jmò adeundus erit, properes mea Musa, salutes; </l>
+                <l rend="indent">Proximus estque viæ, nec remoratur iter. </l>
+                <l>Is sincero etiam, nobis nostrisque Camœnis, </l>
+                <l rend="indent" n="10">Corde fauet, quare is prætereundus erit? </l>
+                <l>Nec minus ac FALCHO Studiis incumbit Honestis, </l>
+                <l rend="indent">Fortè nec ille minus, quam vel Ericus amat. </l>
+                <l>Siue Studet, vel Amat, vel agat si forsan vtrumque, </l>
+                <l rend="indent">Tecum in vtroque, ipsum quod recreabit, habes. </l>
+                <l n="15">Tu modò, FALCHONI quod misimus, et quod ERICO</l>
+                <l rend="indent">Huic lege, dic, pariter scripta IACOBE tibi: </l>
+                <l>Nomina si mutes, vestris res omnibus vna</l>
+                <l rend="indent">Conueniens Studiis, quæque iuuabit, inest. </l>
+                <l>At si fortè roget, venias cur pressa labore, </l>
+                <l rend="indent" n="20">Curque sies nulla Littera scripta manu, </l>
+                <l>Hæc referes: totum quæ nunc expulsa per Orbem</l>
+                <l rend="indent">VRANIA, Arctoum gaudet adire Solum, </l>
+                <l>Jamque sibi exigua posuit Tentoria Huæna, </l>
+                <l rend="indent">Qualia vix magno fixit in Orbe prius, </l>
+                <l n="25">Et, licet ingrato, statuit concredere, Mundo, </l>
+                <l rend="indent">Quæ peragat studiis, participanda, suis. </l>
+                <l><pb ed="A" n="2"/>Hos igitur Typos fieri curauit, vt omnis</l>
+                <l rend="indent">Illius, his, toto clareat Orbe, Labor. </l>
+                <l>Rebus at effectis, quia non satis ampla Papyrus</l>
+                <l rend="indent" n="30">Suppetit, et pretio cedere cogit Hyems; </l>
+                <l>Interea Typos requiescere noluit, ast hos</l>
+                <l rend="indent">Ire iubet, quà quis Doctus Amicus adest. </l>
+                <l>Inter præcipuos cum tu numereris Amicos, </l>
+                <l rend="indent">Artibus et Doctis, Eloquioque vales, </l>
+                <l n="35"><pb ed="TBOO" n="IX.180"/>Nec te, perque Elegos, per Amicaque verba, licebat </l>
+                <l rend="indent">Pressa etiam Typis præteriisse, nouis: </l>
+                <l>Pressius vt domini, qui me misitque fauetque, </l>
+                <l rend="indent">Constaret, nouus, at non abolendus Amor</l>
+                <l>Sit licet ille nouus, tamen inueterascet in æuum, </l>
+                <l rend="indent" n="40">Corde magis pressus, quam mea pressa Nota est; </l>
+                <l>Typus Amicitiæ fictis si pingitur Vmbris, </l>
+                <l rend="indent">Vero etiam Typis vti in Amore licet. </l>
+                <l>Hæc vbi dicta sient, velut est Vir dignus Honore, </l>
+                <l rend="indent">Obsequium præsta; mox Valedic, et abi. </l>
+            </lg>
+            <closer>
+              <dateline>Datum VRANIBURGI <lb/>ANNO 1584. <lb/>7 Kal. Decemb.</dateline>
+              <signed>Tuus, TYCHO BRAHE.</signed>
+          </closer>
+        </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,1205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Mikolov (Nicolsburg)</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>II 72</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>Bibliotheque Nationale</repository>
+                                <collection>empty</collection>
+                                <idno>Français 13040, fol. 162</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Resen">
+                        <bibl>P.J. Resen, <title>inscriptiones Hafnienses</title>, Haffniæ 1668, p.
+                            329--409</bibl>
+                    </witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 127-141</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1588-09-13"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Caspar Peucer</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588. 13. september</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-01" who="#pz">Filen etableret</change>
+            <change when="2019-04-03" who="#pz">teksten færdigredigeret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.127"/>
+                <pb ed="A" n="Eer"/>
+                <head><app>
+                        <lem>TYCHO BRAHE</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app>
+                    <persName ref="Peucer">CASPARO PEUCERO</persName>. <lb/><app>
+                        <lem wit="#A">SALUTEM P. D.</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app></head>
+                <p>HABEBAM iam dudum in votis tecum <app>
+                        <lem wit="#A">vel</lem>
+                        <rdg wit="#Resen">ut</rdg>
+                    </app> coram, cum <placeName ref="Wittenberg">Vitebergam</placeName>
+                    <app>
+                        <lem wit="#Resen">olim</lem>
+                        <rdg wit="#A">huc</rdg>
+                    </app> transirem, <app>
+                        <lem wit="#A">vel</lem>
+                        <rdg wit="#Resen">ut</rdg>
+                    </app> etiam postea absens per literas amicitiam pergratam contrahere, vir
+                    doctrina varia et virtute excellenti celeberrime; verum cum commoditas nulla
+                    satis opportune id efficiendi interea sese obtulisset, coactus sum in præsens
+                    usque tempus idipsum differre. Occasionem vero diutinum hoc meum desiderium iam
+                    tandem aliqua ex parte complendi, dederunt literæ amplissimi et nobilissimi viri
+                    D. <persName ref="Rantzau, Heinrich">HENRICI RANZOVIJ</persName>,Vicarij Regij
+                    in Holsatia, Mathematicarum rerum amplissimi. <app>
+                        <lem wit="#A">Addebatur</lem>
+                        <rdg wit="#Resen">addebat</rdg>
+                    </app> enim illis <app>
+                        <lem wit="#A">transscriptio</lem>
+                        <rdg wit="#Resen">transscripta</rdg>
+                    </app> quædam eorum, quæ de nova mea inventione dispositionis revolutionum
+                    cœlestium ipsi nuper transmiseras; rogavitque simul is, ut dubijs <app>
+                        <lem wit="#A">tuis</lem>
+                        <rdg wit="#Resen">ejus</rdg>
+                    </app> circa delineationem tibi a se communicatam mature occurrere vellem, quod
+                    etiam ut in utriusque <app>
+                        <lem wit="#Resen">vestrum gratiam</lem>
+                        <rdg wit="#A">gratiam vestram</rdg>
+                    </app> præstarem, has ad te literas dare non intermittendum duxi, quibus, ut <pb
+                        ed="A" n="Eev"/>plenius tuæ <app>
+                        <lem wit="#Resen">expectationi</lem>
+                        <rdg wit="#A">explicationi</rdg>
+                    </app> et dubiorum resolutioni <app>
+                        <lem wit="#A">satisfiat</lem>
+                        <rdg wit="#Resen">satis fecit</rdg>
+                    </app>, paulo altius ab ipsa videlicet prima occasione inventionis huius
+                    hypotheseos ordiendum et aliquanto diffusius de hac materia disserendum video,
+                    idque nunc aggrediar. Cum ab ineunte ætate inter alias Philosophiæ partes
+                    Astronomico studio, vel invitis <app>
+                        <lem wit="#A">vel</lem>
+                        <rdg wit="#Resen">&amp;</rdg>
+                    </app> reluctantibus ipsis pædagogis, essem impense naturæ quodam instinctu
+                    addictus, et statim in pueritia <placeName ref="Leipzig">Lipsiæ</placeName>
+                    studiorum gratia commoratus annumque ætatis agens decimum septimum per Radium
+                    Astronomicum Planetarum cursus a fixis sideribus sæpius serenis noctibus <pb
+                        ed="TBOO" n="VII.128"/><app>
+                        <lem wit="#TBOO">rimarer</lem>
+                        <rdg wit="#A">rimare</rdg>
+                        <rdg wit="#Resen">remeare</rdg>
+                    </app>, animadverti, eorum apparentias <app>
+                        <lem wit="#A">ne</lem>
+                        <rdg wit="#Resen">in</rdg>
+                    </app> Coperniano quidem calculo satis præcise congruere, nedum Alphonsino, qui
+                    iam pæne <app>
+                        <lem wit="#TBOO">obsoleverat</lem>
+                        <rdg wit="#A">absoluerat</rdg>
+                        <rdg wit="#Resen">absoleverat</rdg>
+                    </app>. Cœpi exinde diu multumque mecum pensitare, unde hæc a cœlo ipso tam
+                    evidens discrepantia <app>
+                        <lem wit="#Resen">oboriretur</lem>
+                        <rdg wit="#A">aboriretur</rdg>
+                    </app>, an vero <app>
+                        <lem>ob</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> observationum ab artificibus non rite institutarum, an etiam <app>
+                        <lem wit="#Resen">ob</lem>
+                        <rdg wit="#A">ab</rdg>
+                    </app> hypothesium assumptarum insufficientiam et falsitatem. <pb ed="A" n="A2r"
+                    />Cumque aliquot annis hanc rem varie revolverem, accrescente iam ætate et
+                    iudicio unâ cum ea magis magisque maturescente, <app>
+                        <lem>utrasque</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app> tam Alphonsinas sive Ptolemaicas hypotheses quam Copernianas diligentius
+                    inspexi, et in earum ratiocinationes penitius disquisivi, tandemque animadverti,
+                    in veteribus illis hypothesibus, inde a <persName ref="Ptolemaios"
+                        >Ptolomæo</persName> eiusque quibusdam antecessoribus usque ad nos deductis,
+                    utut magna ex parte apparentias cœlestes <app>
+                        <lem wit="#Friis">excusarent</lem>
+                        <rdg wit="#A #Resen">excusarem</rdg>
+                    </app>, tamen quod motus circularis regularitatem non circa proprium sed alienum
+                    quoddam centrum fieri admitterent, contra prima artis principia peccare, quod
+                    ipse etiam <persName ref="Copernicus">COPERNICUS</persName> in hisce culpasse
+                    videtur; præterea epicyclos tot et tantos, qui ibidem etiam assumuntur, multum
+                    spatij in cœlo occupare et superfluos esse. Si paucioribus res omnis absolvi
+                    posset, <app>
+                        <lem wit="#Resen">iudicavi</lem>
+                        <rdg wit="#A">indicavi</rdg>
+                    </app>, magnumque de his scrupulum mihi iniecit, quod nulla necessaria causa <app>
+                        <lem wit="#A">vel</lem>
+                        <rdg wit="#Resen">ut</rdg>
+                    </app> combinatio naturalis subesset, <app>
+                        <lem wit="#A">cur</lem>
+                        <rdg wit="#Resen">cui</rdg>
+                    </app> superiores Planetæ Soli <pb ed="A" n="A2v"/>ita alligarentur, ut huic
+                    coniuncti summitatem epicyclorum semper occuparent, in infimo vero eorundem loco
+                    eidem opponerentur, et bini, quos inferiores vocant, semper eundem medium locum
+                    cum Sole sortirentur illique in Apogæo et Perigæo epicyclorum copularentur. Hæc,
+                    inquam, non colligere licuit habere certam et evidentem combinationis rationem,
+                    siquidem tanto intervallo ab invicem distarent hæc sidera, adeo ut, hæc
+                    concatenatio mutua si ad eum præcise modum fieret, necessitatem aliquam
+                    competentem subesse, ut omnia in ea ita evenirent, mihi minus apparuerit
+                    consentaneum; at potius vel hanc solam ob causam in his assumptionibus coactum
+                    quid, dissonum et supervacaneum, latere non citra rem suspicabar. In altera vero
+                    neoterica summi illius COPERNICI distributione absurditas circa triplicem
+                    telluris motum statim <app>
+                        <lem wit="#Friis">absterruit</lem>
+                        <rdg wit="#A">absteueruit</rdg>
+                        <rdg wit="#Resen">obstiterunt</rdg>
+                    </app>, in primis vero <app>
+                        <lem wit="#A">quo</lem>
+                        <rdg wit="#Resen">quod</rdg>
+                    </app> ad <app>
+                        <lem wit="#Friis">annuam illam</lem>
+                        <rdg wit="#A">annum illud</rdg>
+                        <rdg wit="#Resen">annuum illud</rdg>
+                    </app> centri et axis declinationem in partes contrarias. Licet enim reliquis,
+                    quæ in Ptole<pb ed="A" n="A3r"/>maica dispositione discohærentia et superflua
+                    inveniuntur, opportune mederetur, nihilque contra Mathematica principia
+                    delinqueret, tamen <app>
+                        <lem wit="#Resen">cum</lem>
+                        <rdg wit="#A">cur</rdg>
+                    </app> iam regularem perfectum minusque intricatum motum Terræ, pigro et
+                    ignobiliori corpori, attribueret, non parum suspecta reddebatur hæc assumptio,
+                    præsertim cum sacræ literæ non paucis in locis illi aperte <app>
+                        <lem>reclamitent</lem>
+                        <rdg><note>ante <q>reclimatent</q> add. <q>re</q> A</note></rdg>
+                    </app>. Hinc de utraque harum hypothesium non parum dubitavi, <app>
+                        <lem wit="#A">an</lem>
+                        <rdg wit="#Resen">cum</rdg>
+                    </app> aliqua earum recte se haberet. Cum vero nulla alia daretur, quæ
+                    apparentijs cœlestibus consona foret, et homocentricorum a quibusdam excogita<pb
+                        ed="TBOO" n="VII.129"/>tum figmentum nimis violentum esset, perque multorum
+                    orbium inextricabilem hinc inde retractionem absurdum simul, imo ridiculum
+                    deprehenderetur, nec etiam ipsis apparentijs in accessu et recessu Planetarum ad
+                    Terram satisfaceret, idcirco his dubijs diu implicatus, quod nulla statim
+                    succurreret (ut dixi) hypothesium innovatio, quæ his omnibus convenientijs
+                    subveniret, constitui <pb ed="A" n="A3v"/>periculum saltem facere, quænam earum,
+                    quæ hactenus inventæ <app>
+                        <lem wit="#Resen">erant</lem>
+                        <rdg wit="#A">erunt</rdg>
+                    </app>, veritati <app>
+                        <lem wit="#Resen">propius</lem>
+                        <rdg wit="#A">proprius</rdg>
+                    </app> accederet. Idque per Martis potissimum stellam me expiscari posse
+                    confidebam, <app>
+                        <lem wit="#A">quando</lem>
+                        <rdg wit="#Resen">quem</rdg>
+                    </app> nimirum <app>
+                        <lem wit="#A">ea</lem>
+                        <rdg wit="#Resen">ex</rdg>
+                    </app> acronychia Terræ appropinquaret; si enim tunc nobis propius accederet, <app>
+                        <lem wit="#A">quam</lem>
+                        <rdg wit="#Resen">qvum</rdg>
+                    </app> ipse Soli Copernianam speculationem prævalere, sin minus, tum Ptolemaica
+                    potius standum arbitrabar. Tandemque magna diligentia, nec parvis sumtibus
+                    conquisitis varijs organis Astronomicis, quibus siderum motus centraliter non
+                    saltem in ipso scrupulo, sed etiam in eius dimidia <app>
+                        <lem wit="#A">vel</lem>
+                        <rdg wit="#Resen">videlicet</rdg>
+                    </app> quarta parte explorari certo possent, hanc subtilem considerationem
+                    aggredi non verebar, idque potissimum anno 1582, cum Mars pernox Soli factus
+                    opponeretur in Cancro, et insuper per boream latitudinem sublimior quotidiano
+                    circuitu redderetur. Habitis itaque tum pluribus accuratis observationibus tam
+                    circa ortum quam occasum, eiusque per meridianum transitum, deprehendi Martem
+                    maiorem causari parallaxin quam ip<pb ed="A" n="A4r"/>sum Solem, ideoque etiam
+                    terris propinquiorem, cum acronychius est, fieri, astipulante unâ motu ipsius
+                    diurno, cum Copernianis potius numeris consentiente, eo quod paulo celerius
+                    certo dierum intervallo in antecedentia repedaret, quam Alphonsinorum concederet
+                    a PTOLOMÆO deducta ratiocinatio, idque ob minorem a terris distantiam, <app>
+                        <lem wit="#Friis">quæ</lem>
+                        <rdg wit="#A #Resen">qui</rdg>
+                    </app> motum paulo intentiorem apparere efficiebat. Id quum <app>
+                        <lem>in</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> &#x2642; satis exploratum haberem, et idem etiam in &#x2640; aliquoties a
+                    me interdiu adeoque in ipso meridiano observata et iuxta occasum collatione
+                    facta, imo et alia quadam peculiari ratione anno 1587 circa diem 24 Februarij,
+                    quando inter <app>
+                        <lem wit="#A">unum vel alterum</lem>
+                        <rdg wit="#Resen">unam vel alteram</rdg>
+                    </app> diem eam tam vespertinam quam matutinam (quod <app>
+                        <lem wit="#Resen">alias</lem>
+                        <rdg wit="#A">alijs</rdg>
+                    </app> rarissimum est) vidi, motum apparentem cum <app>
+                        <lem wit="#Friis">eo, qui</lem>
+                        <rdg wit="#A #Resen">ea quæ</rdg>
+                    </app> ratione parallaxeos fieret, conferendo comprobassem, ita ut Ptolemaicis
+                    hypothesibus hæc omnia minime congruerent, impellebar, ut postmodum magis
+                    magisque Copernianæ inven<pb ed="A" n="A4v"/>tioni fidem <app>
+                        <lem wit="#Resen">attribuerem</lem>
+                        <rdg wit="#A">attribuerent</rdg>
+                    </app>. Obstabat nihilominus plurimum circa Terræ revolutionem tam ordinariam et
+                    perpetuam nimia absurditas, et sacrarum insuper literarum contrarium astruentium
+                    irrefragabilis authoritas. Quare hoc negotium hinc inde varie revolvens de alia
+                    hypothesium ordinatione mecum studiose deliberavi. Rem primo impossibilem moliri
+                    visus sum; at tandem fere ex insperato succurrebat, si Sol centrum quinque
+                    Planetarum constitueretur et nihilominus circa Terram, in medio universo
+                    quiescentem, annuatim, <app>
+                        <lem wit="#A">concomitantibus</lem>
+                        <rdg wit="#Resen">concopulantibus</rdg>
+                    </app> per centrum ideoque et ipsam <pb ed="TBOO" n="VII.130"/> circumferentiam
+                    reliquorum quinque Planetarum circuitibus, convolveretur, ut Terra centrum
+                    præberet revolutionibus saltem Solis et Lunæ cæteraque omnia <app>
+                        <lem wit="#Resen">includentis</lem>
+                        <rdg wit="#A">includentibus</rdg>
+                    </app> altissimæ octavæ sphæræ, si, inquam, eo modo revolutiones cœlestes
+                    ordinarentur, tunc omnia, quæ in Ptolemaica et Coperniana assumptione absona et
+                    irrita superva<pb ed="A" n="A5r"/>caneaque <app>
+                        <lem wit="#Resen">incidunt</lem>
+                        <rdg wit="#A">incidiunt</rdg>
+                    </app>, tolli et præcaveri. Sed nihilominus adhuc scrupulum iniecit, quod orbis
+                    Martius <app>
+                        <lem wit="#Friis">respectu</lem>
+                        <rdg wit="#A #Resen">respectus</rdg>
+                    </app> Solaris tantus non inveniretur, ut eum totaliter includere posset, verum
+                    duobus in locis necessario ipsum penetraret. Eram enim adhuc diu recepta et ab
+                    omnibus fere approbata opinione imbutus, cœlum esse quibusdam realibus orbibus,
+                    sidera circumferentibus, refertum, ideoque hanc orbium incongruam penetrationem
+                    non admittendam duxi, indeque evenit, ut hæc propria inventio mihi ipsi
+                    aliquandiu suspecta fuerit. Tandem vero cum ex quorundam Cometarum <app>
+                        <lem wit="#TBOO">accurata</lem>
+                        <rdg wit="#A">annuraca</rdg>
+                        <rdg wit="#Resen">annuata</rdg>
+                    </app> circa motum et parallaxes eorum examinatione certo exploratum haberem, <app>
+                        <lem wit="#A">eos</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app> in ipso cœlo longe supra Lunam cursus sui normam absolvisse et
+                    nihilominus nullis corporeis et realibus orbibus, quibus Planetæ vehi creduntur,
+                    fuisse obnoxios, <app>
+                        <lem wit="#A">sed</lem>
+                        <rdg><note><q>scilicet</q> A e corr.</note></rdg>
+                    </app> peculiarem quandam ab his motus rationem invenisse, ut latius et
+                    exquisitius in opere nostro de his <pb ed="A" n="A5v"/>asciticijs cœli
+                    phænomenis demonstratur, præsumptionem illam de orbium cœlestium dura et
+                    impervia materia prorsus abieci. Accessit et hoc, quod duo etiam Cometæ, qui
+                    iuxta oppositum Solis ferebantur, satis evidenter ostenderint, Terram annuatim
+                    revera non convolvi, siquidem huius commutatio non detraxit quidpiam eorum
+                    prædefinito et proportionabili motui, ut in Planetis, qui ob <app>
+                        <lem>id</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> retroagi a COPERNICO existimantur, usu venit. Tandem itaque utrisque
+                    fundamentis, tam Copernianis quam Ptolemaicis, ab ipsa experientia eversis,
+                    neotericam hanc inventionem citra omne dubium recte se habere animo confirmabar,
+                    præsertim quod perspicerem e Cometis, ut dixi, cœlum liquidissima et propria
+                    substantia constare nullisque orbibus duris et realibus, ut tot iam seculis
+                    falso creditum est, abundare, <app>
+                        <lem wit="#A">ut</lem>
+                        <rdg wit="#Resen">ne</rdg>
+                    </app> ob id nihil obstaculi ingerat, quod Martis imaginarius orbis Solarem non
+                    totaliter includat, sed duobus in locis intersecet, siquidem orbes isti
+                    corporaliter cœlo non <pb ed="A" n="A6r"/> insunt, sed tamen ex motu siderum
+                    fieri intelliguntur. Contuli mox intra quadriennium proximum exactiores
+                    apparentias in motu quinque Planetarum cum hac nostra hypothesi, et animadverti
+                    eas quam <app>
+                        <lem wit="#A">apertissime</lem>
+                        <rdg wit="#Resen">compertissime</rdg>
+                    </app> illi congruere, veterumque unâ observationibus abunde satisfacere; imo
+                    quiddam aliud in hac latere, quod peculiarem quandam inæqualitatis apparentis
+                    occationem præsertim in motu Martis (ob Solaris orbis ad eius circuitum admodum
+                    sensibilem et magnam comparationem) excusaret, quæ per antecessorum assumptiones
+                    nequaquam salvari posset, ut ob id aliqua ex parte cursus præsertim Martis
+                    prorsus inexploratus hactenus man<pb ed="TBOO" n="VII.131"/>serit. <app>
+                        <lem wit="#A">Quod et</lem>
+                        <rdg wit="#Resen">quodve</rdg>
+                    </app> a veteribus animadversum est, siquidem <persName ref="Plinius major"
+                        >PLINIUS</persName> ipsum sidus esse inobservabile affirmare non dubitat.
+                    Quapropter nihil amplius hæsitans, meam neotericam inventionem undiquaque recte
+                    constare, nihil absoni vel Mathematice vel Physice suggerere, illi soli
+                    revolutionum cœle<pb ed="A" n="A5v"/>stium redintegrationem ex observationibus
+                    veterum et nostris superstruere in animum induxi, attamen eius probationem in
+                    opus nostrum Astronomicum, quod de totius artis instauratione elaborare, favente
+                    divino auxilio, decrevi, <app>
+                        <lem wit="#Resen">differendam</lem>
+                        <rdg wit="#A">deferendam</rdg>
+                    </app> censui. Verum cum Cometa anni 77, qui se etiam circa Solem non minus quam
+                    Planetæ ipsi convolvebat, me invitasset, <app>
+                        <lem wit="#Resen">ac, dum</lem>
+                        <rdg wit="#A">nedum</rdg>
+                    </app> ipsius apparentias per competentem hypothesin salvare elaboro, huius in
+                    mundana compagine hypotyposis ratiocinationem <app>
+                        <lem wit="#A">iudicatione</lem>
+                        <rdg wit="#Resen">indicatione</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#Resen">generaliori</lem>
+                        <rdg wit="#A">generationi</rdg>
+                    </app> patefacerem usque in operis Astronomici promulgationem, mutata sententia,
+                    rem omnem non differendam consultius iudicavi. Cum <app>
+                        <lem wit="#A">autem</lem>
+                        <rdg wit="#Resen">vero</rdg>
+                    </app> prædicto nobilissimo HENRICO RANZOVIO, amico meo singulari, iuxta ipsius
+                    petitionem aliquot exemplaria secundæ partis operis nostri de recentioribus
+                    ætherei Mundi Phænomenis communicassem, intelligo illum delineationem huius
+                    hypotheseos, quæ capite 8 ibidem reperitur, tibi et alijs <pb ed="A" n="A6r"
+                    />quibusdam eruditis in Germania excerptam transmisisse, neglecta tamen eiusdem,
+                    quæ illis addebatur, succincta explicatione, quam si unâ adiunxisset, utique nec
+                    tu nec alij in tam facile resolubilia circa <app>
+                        <lem wit="#A">hanc</lem>
+                        <rdg wit="#Resen">suam</rdg>
+                    </app> ratiocinationem dubia <app>
+                        <lem wit="#Resen">incidissetis</lem>
+                        <rdg wit="#A">insidicetis</rdg>
+                    </app>, quæ postea minimo labore expediam. Mitto autem tibi hunc eundem librum,
+                    ex quo nobilissimus RANZOVIUS hanc hypotheseos designationem desumpsit, qui de
+                    Cometa anni 77 luculenter tractat. Estque operis eius, de quo dixi, secundus,
+                    nam primus de <app>
+                        <lem wit="A">admiranda</lem>
+                        <rdg wit="#Resen">admiratione</rdg>
+                    </app> illa ad Cassiopæam anno 72 exorta Nova Stella affatim agit, ubi quædam
+                    præmittuntur, quæ toti arti instaurandæ fundamenta ponunt, qualia sunt, quæ de
+                    Solaris cursus ad nostra tempora exacta per certas observationes,
+                    demonstrationes <app>
+                        <lem wit="#A">restitutione</lem>
+                        <rdg wit="#Resen">restitutiones</rdg>
+                    </app> deque affixarum stellarum exquisita certificatione proponuntur. In eodem
+                    quoque libro <app>
+                        <lem wit="#A">aliorum</lem>
+                        <rdg><note>corr. ex <q>reliquorum</q></note></rdg>
+                    </app> circa hanc stellam observationes et placita sub incudem veritatis
+                    revocantur, unâque tuæ olim <placeName ref="Wittenberg">Vitebergæ</placeName>
+                    <pb ed="nAil" n="A6v"/>habitæ, sed instrumentis minus idoneis, animadversiones.
+                    In tertio tomo de alijs tribus quibusdam Cometis post observatis mea inventa
+                    decisionesque expono et cum aliorum in ijsdem placitis confero, disquisitione in
+                    singulis adhibita diligenti, quibus omnibus tandem subiunguntur quædam magna
+                    corollaria, quæ ex illis derivari possunt, qualia sunt: cœlum non constare ex
+                    orbibus realibus et <app>
+                        <lem wit="#A">impervia</lem>
+                        <rdg><note>corr. ex <q>imparia</q></note></rdg>
+                        <rdg wit="#Resen">in prævia</rdg>
+                    </app> substantia, nullos dari revera epicyclos, Terram annuatim nullatenus
+                    convolvi, ut voluit COPERNICUS, et nostram <app>
+                        <lem wit="#A">hypothesium</lem>
+                        <rdg wit="#Resen">hypothesin</rdg>
+                    </app> cœlestium ordinationem rei veritati omni ex parte congruere, nullamque
+                    aliam dari, quæ cunctis requisitis <app>
+                        <lem wit="#A">sufficiat</lem>
+                        <rdg wit="#Resen">sufficiet</rdg>
+                    </app>. Taliter vero per hos tres <pb ed="TBOO" n="VII.132"/> neotericorum et
+                    ascititiorum in cœlo phænomenorum libros viam sternere et fundamenta ponere
+                    volui ad opus illud, quod perpetuorum et mundo coævorum siderum revolutionibus
+                    ex ipso cœlo, faciente ipsius cœli Opifice, restituendis <pb ed="A" n="A7r"
+                    />inserviet. Ideoque hanc peregrinarum et secundariarum stellarum descriptionem
+                    præmittendam consulto iudicavi, idque non saltem ob horum ascititiorum siderum
+                    situm et <app>
+                        <lem wit="#Resen">motum</lem>
+                        <rdg wit="#A">usum</rdg>
+                    </app> penitus cognoscendum, sed multo magis etiam ob totius artis Astronomicæ
+                    redintegrandæ <app>
+                        <lem wit="#Friis">hinc</lem>
+                        <rdg wit="#A #Resen">huic</rdg>
+                    </app> convenienter deductas occasiones. Ipsum vero opus Astronomicum in 7
+                    libros distribuere constitui. Quorum <hi rend="it">primo</hi> agam de Mechanica
+                    huius artis parte, quæ instrumentorum a me excogitatorum fabricam et usum
+                    exponet, qualia nunc plura quam 20 in promptu habeo, non solum magnitudine sed
+                    etiam materiæ soliditate, fabricæ varietate, usus et certitudinis inter
+                    observandum commoditate et correspondentia incomparabilia. <hi rend="it"
+                        >Secundo</hi> de ijs, quæ e triangulorum et numerorum doctrina Astronomicis
+                    rebus subsidio veniunt, tractaturus, ubi compendia quædam reserabuntur, <pb
+                        ed="A" n="A7v"/>antecessorum nostrorum nimios et indefessos labores plurimum
+                    collevantia. Hæc, inquam, in duobus prioribus libris ceteris inservientia
+                    proponere expeditius duxi, ne postea in reliquo opere, quando de apparentes
+                    ipsis limitandis et salvandis ago, negotium mihi facessant, quod alijs nostris
+                    antecessoribus evenisse video. <hi rend="it">Tertius</hi> liber octavæ sphæræ et
+                    fixarum stellarum verificationem exquisitam continebit. <hi rend="it"
+                        >Quartus</hi> Solis et Lunæ, circuitibus ratis ad Terram quiescentem
+                    directis, rationes præcisas suppeditabit. <hi rend="it">Quintus</hi> duorum
+                    Planetarum, qui <app>
+                        <lem wit="#A">Solem</lem>
+                        <rdg wit="#Resen">solum</rdg>
+                    </app> quidem, sed non unâ Terram ambiunt, utpote Veneris et Mercurij,
+                    apparentias enodabit. <hi rend="it">Sextus</hi> autem reliquorum trium, scilicet
+                    &#x2642; &#x2643; et &#x2644;, qui Solem ambientes Terram et totum elementarem
+                    Mundum includunt, irregularitates visui nostro incurrentes salvabit. <hi
+                        rend="it">Septimus</hi> latitudines horum quinque Planetarum scrutabitur, in
+                    quibus etiam non minus <app>
+                        <lem>quam</lem>
+                        <rdg><note>post <q>quam</q> add. <q>in</q> Resen</note></rdg>
+                    </app>
+                    <pb ed="A" n="Ffr"/>ipsis longitudinibus multum adhuc latet erroris, adeo ut
+                    sæpenumero in cœlo boreæ sensibiliter reperiantur, cum in numeris tabularum
+                    australes proponantur et <app>
+                        <lem wit="#A">econtra</lem>
+                        <rdg wit="#Resen">contra</rdg>
+                    </app>. Operis autem huius publicatio adhuc aliquot annorum procrastinationem
+                    exigit; vix enim <app>
+                        <lem wit="#A">intra</lem>
+                        <rdg wit="#Resen">infra</rdg>
+                    </app> quinquennium vel sexennium absolvi poterit, neque id tam ob immensum et
+                    diutinum laborem, qui requiritur in mediorum <app>
+                        <lem wit="#A">motuum</lem>
+                        <rdg wit="#Resen">motum</rdg>
+                    </app> et potissimum προσθαφαιρέσεων tabulis in singulis Planetis de novo
+                    condendis, quam quod <app>
+                        <lem wit="#Friis">plures</lem>
+                        <rdg wit="#A #Resen">plura</rdg>
+                    </app> adhuc desiderem in remotioribus et Solem ambientibus Planetis acronychias
+                    observationes, præsertim in distantioribus <app>
+                        <lem wit="#Friis">eccentrici</lem>
+                        <rdg wit="#A #Resen">eccenterici</rdg>
+                    </app> locis (ut cum veteribus loquar, nam nostræ hypotheses non solum
+                    epicyclos, sed etiam <app>
+                        <lem wit="#Resen">eccentricos</lem>
+                        <rdg wit="#A">eccentericos</rdg>
+                    </app> et æquantes tollunt) idque potissimum in &#x2644; et &#x2643;, maxime
+                    autem in ipso &#x2644; ob motus eius tarditatem, ut collatione in his omnibus
+                    cum veterum, imprimis <pb ed="TBOO" n="VII.133"/>autem PTOLOMÆI, annotationibus
+                    facta circulorum proportiones et <app>
+                        <lem wit="#Friis">motuum</lem>
+                        <rdg wit="#A #Resen">motum</rdg>
+                    </app> congruen<pb ed="A" n="Ffv"/>tiam exquisita indagine pervestigare
+                    demonstrareque et sub numerorum cognitionem revocare liceat. Interea, favente
+                    divino Numine, ea <app>
+                        <lem wit="#TBOO">successive</lem>
+                        <rdg wit="#A #Resen">successione</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#A">præmittam</lem>
+                        <rdg wit="#Resen">promittam</rdg>
+                    </app>, quæ ad hoc totum negotium facere videbuntur, et prima quaque occasione,
+                    ex eo quod tam diutinam dilationem non requirant, absolvi <app>
+                        <lem wit="#A">poterint</lem>
+                        <rdg wit="#Resen">poterunt</rdg>
+                    </app>, qualia sunt, quæ 4 vel 5 prioribus libris continebuntur. Daboque operam,
+                    ut in hoc toto opere omnia apparentijs cœlestibus tam veterum ætate quam nostra,
+                    et ob id etiam posteriorum, ad amussim correspondeant, quod equidem a nemine,
+                    qui tam excellentem laborem exantlare conatus est, hactenus præstitum esse, te
+                    dudum perspexisse, nullum apud me est dubium. Nam licet ille incomparabilis vir
+                    COPERNICUS multa a veteribus minus recte prodita emendare laborârit, tamen ob
+                    instrumentorum (ut recte etiam <app>
+                        <lem wit="#Resen">suspicaris</lem>
+                        <rdg wit="#A">suspicari</rdg>
+                    </app>) minus exactam conformationem usumque non omnino infallibilem
+                    observationes irritas obtinuit. Inge<pb ed="A" n="B2r"/>nium certe et scientia
+                    ad hanc cognitionem et restitutionem illi absolvendum (sicut alteri) non defuit,
+                    solummodo medijs Mechanicis, quibus utebatur, non recte se habentibus et non
+                    prius (<app>
+                        <lem wit="#A">quod</lem>
+                        <rdg wit="#Resen">quæ</rdg>
+                    </app> oportuit) rectificatis affixarum locis. Habeo Parallaticum eius
+                    instrumentum mihi a Canonico quodam Varmiensi dono missum, quod e ligno abiegno
+                    constat, et divisionibus atramento in eo signatis satis ostendit, eum in his non
+                    requisitam habuisse diligentiam. Quod autem meæ assertioni de liquidissima et
+                    subtilissima cœli materia tam belle astipularis eamque sacrarum insuper
+                    literarum testimonio confirmas, mihi pergratum est; tuum enim gravissimum de
+                    rebus iudicium et altam in plurimis scientiam diu <app>
+                        <lem wit="#Resen">magnifeci</lem>
+                        <rdg wit="#A">magnifici</rdg>
+                    </app>, facturusque <app>
+                        <lem>sum</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app>. Deinceps locum illum, quem ex <persName ref="Esaias">ESAIA</persName> 40
+                    v. 22 citas, <persName ref="Castalio">CASTALIO</persName>, cuius versione
+                    admodum delector, paulo aliter Latinitate donavit. Sic eum interpretatus est:
+                        &#187;<hi rend="it">cœlos <pb ed="A" n="B2v"/>quasi membranam intendit utque
+                        tabernaculum expandit ad inhabitandum</hi>&#171;. Sed vetus expositio <app>
+                        <lem wit="#A">verosimilior</lem>
+                        <rdg wit="#Resen">verisimilior</rdg>
+                    </app> videtur, cui <app>
+                        <lem wit="#A">etiam</lem>
+                        <rdg wit="#Resen">&amp;</rdg>
+                    </app> aliæ propius subscribunt. CASTALIO elegantiæ studens interdum a genuina
+                    verborum interpretatione deflexisse videtur. Alter locus, <persName ref="Job"
+                        >IOB</persName>. cap. 37 v. 18, quo contrarium asseverari prima fronte
+                    apparet, quia cœlos chalybis instar induratos esse dicit, recte a te cum priore <app>
+                        <lem wit="#A">conciliatur</lem>
+                        <rdg wit="#Resen">reconciliatur</rdg>
+                    </app>, dum soliditatem et firmitatem constantiamque perpetuam naturæ
+                    revolutionisque cœli et eorum, <app>
+                        <lem wit="#Resen">quæ</lem>
+                        <rdg wit="#A">qui</rdg>
+                    </app> in eo continentur, corporum potius quam <app>
+                        <lem wit="#Resen">materiæ</lem>
+                        <rdg wit="#A">naturæ</rdg>
+                    </app> compagem respici illic, erudite et convenienter exponis. Prædictus
+                    CASTALIO inversione huius loci nostræ sententiæ minus quam antiquus interpres
+                    repugnat, dum sic <app>
+                        <lem>eum</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app> Latine reddit: &#187;<hi rend="it">An <app>
+                            <lem wit="#Resen">æthera</lem>
+                            <rdg wit="#A">ætherea</rdg>
+                        </app> cum eo deduxisti ita firmum, ut concretus esse videatur?</hi>&#171;«
+                    Sed hæc Hebraicæ linguæ excellenter gnaris discutienda relinquo. Quidam
+                    Hispanus, <persName ref="Vallesius">FRANCICUS <pb ed="A" n="B3r"
+                        />VALLESIUS</persName> nomine, vir, ut ex eius scriptis <pb ed="TBOO"
+                        n="VII.134"/>apparet, varia eruditione imprimis excellens, in libro, quem de
+                    sacra Philosophia inscripsit, quique hoc anno Lugduni editus est, cap. 51 ex hoc
+                    ipso loco IOBI secundum veterem interpretationem, qua tu etiam usus es, citato,
+                    ab antiquis Philosophis <persName ref="Pythagoras">PYTHAGORA</persName>,
+                        <persName ref="Parmenides">PARMENIDE</persName>, <persName ref="Platon"
+                        >PLATONE</persName> et <persName ref="Aristoteles">ARISTOTELE</persName>
+                    receptam opinionem confirmare conatur, cœlum videlicet constare substantia
+                    quadam firmissima et solidissima, orbesque ipsos revera huic inesse, omni
+                    adamante solidiores et duriores, ita ut penitus dividi distrahique nequeant.
+                    Verum is nimis literaliter hunc locum, ut quosdam etiam alios, intellexit, nec
+                    ea, quæ in contrariam partem ab ESAIA et alibi dicuntur, consideravit. Quæ vero
+                    Philosophice contra cœli liquidissimam et perviam undiquaque substantiam ratione
+                    raritatis et densitatis atque vacui, et quod non perpetuo regulariter per se
+                    moveri possint Astra, disserit, minus <pb ed="A" n="B3v"/>valida sunt, ut alibi
+                    ostendemus, idque tibi facile apparebit, ubi eius argumentationes ibidem
+                    prolatas penitus introspexeris. Sed et tandem <app>
+                        <lem wit="#Resen">in</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> absurditatem prolabitur, ut ætheris totius e 4 elementis (quæ <app>
+                        <lem wit="#A">tamen</lem>
+                        <rdg wit="#Resen">tum</rdg>
+                    </app>, ut rem plausibiliorem reddat, cœlestia nuncupat) compagem constare non
+                    vereatur. Nec mirum, cum idem author capite primo eiusdem libri per ea, quæ
+                    dicuntur in initio cap. 2 Geneseos: &#187;<hi rend="it">Perfecti sunt cœli et
+                        terra, et omnis ornatus eorum, complevitque Deus die sexto opus
+                    suum</hi>&#171;, et præterea ex dicto hoc tertij capitis Ecclesiastici:
+                        &#187;<hi rend="it">Didici, quod omnia opera Dei perseverent in <app>
+                            <lem wit="#Resen">perpetuum</lem>
+                            <rdg wit="#A">perpetuo</rdg>
+                        </app></hi>&#171;, perperam et contra omne experientiam astruat stellam, quæ
+                    anno 1572 iuxta sedile Cassiopeæ (<app>
+                        <lem wit="#TBOO">quam ille</lem>
+                        <rdg wit="#A #Resen">quum illi</rdg>
+                    </app> ad genua eius inconsiderate reponit) omnium prima exorta <app>
+                        <lem>est</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> tandemque disparuit, nullatenus fuisse novam, ut neque eam, quæ ab
+                        <persName ref="Hipparchos">HYPARCHO</persName>, referente <persName
+                        ref="Plinius major">PLINIO</persName>, animad<pb ed="A" n="B4r"/>versa est,
+                    de qua quidem, cum ipsas HYPARCHI observationes non habeamus, nihil certi
+                    statuere volo. Sed quantum <app>
+                        <lem wit="A">in</lem>
+                        <rdg><note>om. Resen</note></rdg>
+                    </app> nova illa ad Cassiopæam dicto anno et sequenti conspecta a scopo
+                    veritatis declinaverit, e libro nostro primo et recentiorum cœli Phænomenorum
+                    apertissimum evadet. Et quam, quæso, citra omnem sensum et rationem statuit,
+                    stellam illam semper illic fuisse a mundi principio et adhuc permanere, sed tam
+                    exiguam, ut videri nisi debiliter nequeat, at tum visam esse increscere usque ad
+                    primam magnitudinem ob aliquam medij mutationem, quæ in ipsis orbibus cœli non
+                    ubique æqualiter crassis contigerit, ita ut stella hæc <app>
+                        <lem wit="#Resen">inciderit</lem>
+                        <rdg wit="#A">incideret</rdg>
+                    </app> in partem aliquam proximi cœli crassiorem reliquis, per quam densatum
+                    lumen maioris stellæ specimen aliquandiu exhibuerit, et deinceps, hac
+                    discedente, stellam minorem redditam. <app>
+                        <lem wit="#A">O</lem>
+                        <rdg wit="#Resen">&#x2609;</rdg>
+                    </app> speculatio, sic unum absurdum parit alterum, nam cœlum nullis constat
+                    orbibus compactis <pb ed="A" n="B4v"/>et revera <app>
+                        <lem wit="#Friis">illic</lem>
+                        <rdg wit="#A #Resen">illis</rdg>
+                    </app> existentibus, nedum ut illi in quibusdam locis rarioris, in quibusdam
+                    densioris substantiæ sint, veluti quidam etiam <app>
+                        <lem wit="#A">Homocentri</lem>
+                        <rdg wit="#Resen">Homo centri</rdg>
+                    </app> effectores somniârunt. At <app>
+                        <lem wit="#A">demus</lem>
+                        <rdg wit="#Resen">denique</rdg>
+                    </app>, id ipsum concedi posse, <pb ed="TBOO" n="VII.135"/>quî tunc fieret, quod
+                    eadem Cassiopeæ stella non sæpius ita illuminaretur præter solitum, et dum illa
+                    densior cœli particula hanc <app>
+                        <lem wit="#TBOO">pertransiret</lem>
+                        <rdg wit="#A">pertransieret</rdg>
+                    </app>, cur non alias vicinas eodem modo miraculoso lumine auxit? vel cur non
+                    sæpius in reliquis affixis syderibus idem conspicitur? Cur tanta sit earum copia
+                    et præter <app>
+                        <lem wit="#A">totum cœlum</lem>
+                        <rdg wit="#Resen">cœlum totum</rdg>
+                    </app> distributio, ut necessario illæ partes orbium, quæ densiores finguntur,
+                    sub aliquibus illarum <app>
+                        <lem wit="#A">per motus</lem>
+                        <rdg wit="#Resen">permotus</rdg>
+                    </app> sui continuationem <app>
+                        <lem wit="#A">aliquando</lem>
+                        <rdg wit="#Resen">aliquam</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#Friis">præterlaberentur</lem>
+                        <rdg wit="#A #Resen">præterlabetur</rdg>
+                    </app>, easque similiter solito longe maiores redderent? Quod tamen tot iam
+                    seculis a solo HYPARCHO, si ita se habet, et nostro ævo in mirando illo apud
+                    Cassiopeam phænomeno non animadversum est. Sed hæc et plura alia, <app>
+                        <lem wit="#Resen">quæ</lem>
+                        <rdg wit="#A">qui</rdg>
+                    </app> liber <app>
+                        <lem wit="#Resen">iste</lem>
+                        <rdg wit="#A">est</rdg>
+                    </app>, alias admodum ingeniose conscriptus et multiplici variarum rerum
+                    cognitione refertus, nimis <pb ed="A" n="B5r"/>literali sensu e sacris oraculis
+                    proponit, nunc mittamus, siquidem contra præsens negotium divagari nos faciant,
+                    præsertim cum de plerisque in eo contentis et ad rem potissimum Astronomicam
+                    facientibus alibi disquirere animus sit. Nihil igitur obstabit vel e sacris
+                    Biblijs vel Philosophorum decretis, quin cœli <app>
+                        <lem wit="#Resen">materiam</lem>
+                        <rdg wit="#A">naturam</rdg>
+                    </app> liquidissimam et omni aëre tenuiorem subtilioremque certo statuamus. Nam
+                    quod ARISTOTELES, licet contrarias partes tueri plurimum laboret, sibi ipsi
+                    nihilominus contradicat, dum mentes Astrorum motui præesse asseverat, rectissime
+                    a te infertur; id enim longe aliud est, quam circumgyratione certorum <app>
+                        <lem wit="#Resen">orbium</lem>
+                        <rdg wit="#A">urbium</rdg>
+                    </app>, quibus affigerentur, convolvi. Video, te hypotheseos meæ delineationem
+                    nudam mediocriter bene e solo intuitu percepisse, nam in ea quo ad quinque
+                    Planetas circa Solem tanquam centrum revolutos amboque Luminaria et octavam
+                    sphæram ipsam Terram in medio universi quiescentem respicienda omnia recte
+                    exposuisti. Quod autem du<pb ed="A" n="B5v"/>bitas, cur octavam sphæram ima
+                    parte a cæteris stellis pictura tanta capacitate disiungat, facilis est
+                    resolutio. Dum enim omnes quinque Planetæ circa Solem, ducem et regem suum,
+                    gyros ducunt, oportet centra orbium imaginariorum, quos circa eum describunt,
+                    annuatim unâ cum ipso convolvi, hincque fit, ut semper ea pars orbium, quæ Soli
+                    opponitur, intermediante Terra, remotior sit ab octava sphæra quam altera, et
+                    licet tunc appareat ibidem maius spatium vacuum, tamen, Sole circumeunte et in
+                    alteram partem delato, rursus idem impletur, et vacuitas ea, quæ putatur, est
+                    tunc ab altera parte, sicque circumcirca evenit per totum infra octavum orbem
+                    curriculum; alias enim non esset locus, quod accessu et recessu Planetarum ad
+                    Terram, eorumdemque circa Solem annua per totos orbes circumgyratione ... Habuit
+                    etiam <app>
+                        <lem wit="#A">quidam</lem>
+                        <rdg wit="#Resen">quidem</rdg>
+                    </app> alius Mathematicus mihi ignotus aliud quoddam dubium in hac hypothesis
+                    nostræ ordinatione, de qua etiam ad nobilissimum Dominum HENRICUM RANZOVIUM
+                    perscripsit et hy<pb ed="A" n="B6r"/>potheses illi ante biennium per quendam
+                    meum fugitivum ministrum communicatas <app>
+                        <lem wit="#TBOO">indicavit</lem>
+                        <rdg wit="#A #Resen">indicavi</rdg>
+                    </app>. Hæsitat vero ille in hunc <pb ed="TBOO" n="VII.136"/>modum, si &#x2642;
+                    et Sol in eundem locum, ubi eorum orbes se intersecant, <app>
+                        <lem wit="#A">aliquando</lem>
+                        <rdg wit="#Resen">aliquam</rdg>
+                    </app> devenerint, ita ut &#x2642; latitudine prorsus careat, <app>
+                        <lem wit="#A">quomodo</lem>
+                        <rdg wit="#Resen">quam</rdg>
+                    </app> se non impediant, cum duo corpora non possint esse in eodem loco. Verum
+                    hæc dubitatio <app>
+                        <lem wit="#A">non multum</lem>
+                        <rdg wit="#Resen">multum non</rdg>
+                    </app> ingerit scrupuli, cum nunquam id fieri <app>
+                        <lem wit="#Resen">possit</lem>
+                        <rdg wit="#A">posset</rdg>
+                    </app>, quod ipse veretur; apparet enim eum non satis percepisse hypotheseos
+                    nostræ inductiones. <app>
+                        <lem wit="#A">Quî namque</lem>
+                        <rdg wit="#Resen">Quinamque</rdg>
+                    </app> fieri queat, ut, <app>
+                        <lem wit="#A">cum</lem>
+                        <rdg wit="#Resen">cor</rdg>
+                    </app> Martis circuitus Solem semper pro centro non minus quam cæteri Planetæ
+                    respicit, illi <app>
+                        <lem wit="#Friis">unquam</lem>
+                        <rdg wit="#A #Resen">nunquam</rdg>
+                    </app> occurrat? Id enim non magis datur quam circumferentiam alicuius circuli
+                    centro eiusdem uniri et in idem recidere. Non animadvertebat ille, quod <app>
+                        <lem wit="#A">nunc</lem>
+                        <rdg wit="#Resen">cum</rdg>
+                    </app> Sol ubi ad eum locum devenerit, ubi Martis orbis eius curriculum transit,
+                    Martium ipsum curriculum tunc non eodem in loco eum imaginarie secare, sed
+                    ubique <pb ed="A" n="B6v"/>tantundem ut antea a Sole distare, adeo ut Soli
+                    nunquam &#x2642; propior fiat, quam circuitus ipsius circa eum exigit, nisi
+                    quantum particulariores illi motus in duobus <app>
+                        <lem wit="#A">circellis</lem>
+                        <rdg wit="#Resen">circulis</rdg>
+                    </app>, de quibus dixi, parum addant vel auferant. Quod tamen ad maiorem illam
+                    et generaliorem circumvolutionem collatum non adeo multum habet momenti. Verum
+                    hæc melius intelliguntur e mechanica quadam compositione, ita ut Sol et Luna in
+                    suis orbibus circa Terram convolvantur, reliqui vero Planetæ in suis circuitibus
+                    ad Solem. Tunc enim circumducto Sole apparebit, quomodo orbes quinque Planetarum
+                    quotannis totum spatium infra octavam sphæram circumeundo impleant, et qua
+                    ratione retrogradationes et stationes eorum per hanc centri orbis eorum cum Sole
+                    concomitantiam <app>
+                        <lem wit="#Friis">solvantur</lem>
+                        <rdg wit="#A #Resen">solventur</rdg>
+                    </app>, quodque epicycli veterum per accidens fiant e motu videlicet centri
+                    orbium annuo, quodque non opus sit Terram moveri, et nihilominus Mar<pb ed="A"
+                        n="B7r"/>tem illi anxia vespertinum exortum <app>
+                        <lem wit="#Friis">propiorem</lem>
+                        <rdg wit="#A #Resen">propiorem</rdg>
+                    </app> fieri quam ipsum Solem, quod nos docuit diligens experientia, ut prius
+                    indicavi. <app>
+                        <lem wit="#TBOO">Reliquas</lem>
+                        <rdg wit="#A #Resen">Reliqui</rdg>
+                    </app> particulariores inæqualitatis apparentis <app>
+                        <lem wit="#TBOO">differentias</lem>
+                        <rdg wit="#A #Resen">differentæ</rdg>
+                    </app>, quas veteres per eccentricos et æquantes excusârunt, COPERNICUS per
+                    eccentricum cum parvo epicydo, nos in hac hypothesi per duos circellos in
+                    circumferentia orbium Planetarum, quos ipsum sydus certa lege designet, apposite
+                    tuebimur, nisi quod in &#x2640; et præsertim &#x263F; aliquas præterea
+                    gyrationes particulariores assumere oporteat. Sicque <app>
+                        <lem wit="#Friis">omnes</lem>
+                        <rdg wit="#A #Resen">omnis</rdg>
+                    </app> circuitus Planetarum concentri evadent non aliter, quam <persName
+                        ref="Copernicus">COPERNICUS</persName> Lunæ circa Terram revolutiones in
+                    concentrico orbe cum duobus epicyclis fieri admodum ingeniose et recte
+                    speculatus est. Nec enim multopere ab hac differunt trium superiorum Planetarum
+                    tum universales, tum etiam particulares circuitus, nisi quod centrum orbium
+                    illorum Solem annu<pb ed="A" n="B7v"/>atim concomitetur, velut <app>
+                        <lem wit="A">hæc</lem>
+                        <rdg wit="#Resen">hoc</rdg>
+                    </app> fusius et exquisitius in opere illo, de quo dixi, Astronomicæ
+                    instaurationis <app>
+                        <lem wit="#Resen">ipsis</lem>
+                        <rdg wit="#A">et ipsi</rdg>
+                    </app> fundamentis <app>
+                        <lem wit="#Resen">et</lem>
+                        <rdg wit="#A">eque</rdg>
+                    </app> certis observationibus tum veterum tum proprijs (favente divino Numine)
+                    demonstrabo, tabulasque tum æqualium motuum tum etiam προσθα<pb ed="TBOO"
+                        n="VII.137"/>φαιρέσεων huic hypothesi <app>
+                        <lem wit="#Friis">e</lem>
+                        <rdg wit="#A #Resen">&amp;</rdg>
+                    </app> neotericis observationibus exquisitis cum veterum collatis fundatas de
+                    novo condam. Efficiamque, ut numeri observationibus antiquis, imprimis vero
+                        <persName ref="Ptolemaios">PTOLOMAICIS</persName>, et recentioribus etiam ad
+                    amussim correspondeant, id quod hactenus tot iam seculis desideratum est, magna
+                    huius artis quoad præcisionem debitam iactura. Miror doctissimum illum et in his
+                    studijs exercitatissimum <persName ref="Reinhold, Erasmus">REINHOLDUM</persName>
+                    de ijs præclare meritum in præfatione suarum Tabularum Prutenicarum asseverare
+                    in <app>
+                        <lem wit="#Friis">Solis</lem>
+                        <rdg wit="#A #Resen">solis</rdg>
+                    </app> motibus æqualibus <app>
+                        <lem wit="#Resen">aliquam limitationem</lem>
+                        <rdg wit="#A">aliqua limitatione</rdg>
+                    </app> desiderari, προσθαφαιρ<pb ed="A" n="B8r"/>έσεων vero tabulas toti mundi
+                    durationi utiliter inservire, cum unum ex altero magna ex parte dependeat, et
+                    mutatis circulorum proportionibus eccentricitatibusque necesse sit ipsas quoque
+                    prosthaphæreses aliter se habere. Sed interdum etiam magnus dormitat Homerus.
+                    Possibile autem est beneficio quorundam compendiorum in triangulis e <app>
+                        <lem wit="#Resen">datis</lem>
+                        <rdg wit="#A">latis</rdg>
+                    </app> medijs motibus et integro canone triangulorum Planetarum <app>
+                        <lem wit="#A">apparentes</lem>
+                        <rdg wit="#Resen">apperantes</rdg>
+                    </app> situs æque cito, si non citius quam per æquationum tabulas, investigare,
+                    velut alibi aperiemus. Quod tantopere hoc opus nostrum aliquando videre
+                    desideras, adeo ut vel eo nomine tibi vitam divinitus <app>
+                        <lem wit="#A">prorogari</lem>
+                        <rdg wit="#Resen">prorogati</rdg>
+                    </app> exoptes, et insuper nostris conatibus divinæ benedictionis subsidium pio
+                    et benevolo voto compreceris, est, quod tibi pro hoc singulari erga me meaque
+                    studia favore et syncero iudicio summas agam gratias, daboque operam, ut,
+                    quantum in me est, voluminis huius ea, qua fieri unquam potest, matura<pb ed="A"
+                        n="B8v"/>tione elaboratio absolvatur. Deus optimus maximus tibi largiatur
+                    interea firmum robur animi et corporis, vitamque conservet, qua diutissime utens
+                    beneque valens non solum his, sed et alijs Philosophiæ laboribus vacare eosque
+                    promovere et tuum de ijs solertissimum iudicium proferre possis. Quod tot annis
+                    in captivitate (cuius etiam in literis istis mentionem facis) detentus cum magna
+                    iactura bonarum literarum delitueris, ego cum alijs multis viris tibi et studijs
+                    eruditis faventibus plurimum semper indolui.</p>
+                <p rend="indent">Quia vero in custodiæ illius mentionem incidimus, referam ea, quæ
+                    in libro <app>
+                        <lem wit="#A">quodam</lem>
+                        <rdg wit="#Resen">quadam</rdg>
+                    </app> nostro Genethliaco a me, cum Lipsiæ ante annos plus minus viginti quatuor
+                    operam literis darem, apud tuæ Geneseos schema annotata invenio. Tunc enim circa
+                    pueritiam eram Astrologiæ et Genethliacis præsertim prædictionibus paulo
+                    curiosius addictus, quas tamen postea increscente ætate et iudicio, præsertim
+                    quod viderem motus ipsos syderum in tabulis se non recte habere, <pb ed="A"
+                        n="Ggr"/>seposui et ad observationem emendationemque motuum me totum magno
+                    conamine contuli. Reperio autem ibidem sic olim scriptum: <hi rend="it">&#x263F;
+                        in <app>
+                            <lem wit="#B">&#x2651;</lem>
+                            <rdg wit="#A"><note>&#x264b;</note></rdg>
+                            <rdg wit="#Resen">&#x2648;</rdg>
+                        </app> signo &#x2644;<hi rend="sup">ni</hi> et in tertia domo orientalis
+                        liberque a radijs Solis, Luna existente in &#x264a; signo Mercuriali et
+                        præsertim in nona domo, cui etiam &#x263F; præest, ingenium acre et
+                        profundum laborisque patiens et arduum iu<pb ed="TBOO" n="VII.138"/>dicium
+                        designat.</hi> Postea subiungebatur: <hi rend="it">Sed <app>
+                            <lem wit="#A">&#x263E;</lem>
+                            <rdg wit="#Resen">&#x260d;</rdg>
+                        </app> iuxta cuspidem nonæ damnata &#x25a1;<hi rend="sup">to</hi>
+                            &#x2644;<hi rend="sup">ni</hi> et &#x25b3;<hi rend="sup">no</hi> brevi
+                        &#x2642; <hi rend="sup">tis</hi> magnum aliquid mali <app>
+                            <lem wit="#B">insinuat</lem>
+                            <rdg wit="#A #Resen">instituat</rdg>
+                        </app>, <app>
+                            <lem wit="#A">idque causa</lem>
+                            <rdg wit="#Resen">obque causam</rdg>
+                        </app> religionis <app>
+                            <lem wit="#A">ob</lem>
+                            <rdg wit="#Resen">&amp;</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#Resen">nonam</lem>
+                            <rdg wit="#A">nouam</rdg>
+                        </app> domum, ingenij ob &#x264a; signum Mercuriale, mulieris <app>
+                            <lem wit="#Resen">alicuius</lem>
+                            <rdg wit="#A">alienius</rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A">illustris</lem>
+                            <rdg wit="#B">illustribus</rdg>
+                        </app> ob &#x263E; ipsam quæ etiam illustrioribus fixis <app>
+                            <lem wit="#Resen">sed</lem>
+                            <rdg wit="#A">scil.</rdg>
+                        </app> nimis <app>
+                            <lem wit="#A">violentis</lem>
+                            <rdg><note>om. B</note></rdg>
+                        </app>
+                        <app>
+                            <lem wit="#A #Resen">copulatur</lem>
+                            <rdg wit="#B">copulatis</rdg>
+                        </app>.</hi> Deinde de captivitate hæc verba adscripseram: <hi rend="it"
+                        >&#x2642; dominus septimi loci <app>
+                            <lem wit="#B">in duodecima inque suo detrimento constitutus, et insuper
+                                per antisciam partem Saturni læsus</lem>
+                            <rdg wit="#A">in læsus</rdg>
+                            <rdg wit="#Resen">illæsus</rdg>
+                        </app>, carcerem vel exilium diuturnum significat, et quia &#x2642; damnat
+                            &#x263F;<hi rend="sup">m</hi> per &#x25a1; e duodecima, id damni
+                        occasione <app>
+                            <lem wit="#B">ingenij</lem>
+                            <rdg><note>om. A Resen</note></rdg>
+                        </app> et studiorum denotat, <app>
+                            <lem wit="#Resen">sed</lem>
+                            <rdg wit="#A">scil.</rdg>
+                        </app> cum &#x263E; di<pb ed="A" n="Ggv"/>rectionis via pervenerit ad
+                        &#x26b9; &#x2642;<hi rend="sup">is</hi> in 14 &#x264c; in <app>
+                            <lem wit="#A">M.C.</lem>
+                            <rdg wit="#Resen">&#x2652;</rdg>
+                        </app> per mortem vel Martialem aliquem hominem liberabitur et restituetur
+                        in integrum, idque iuxta ætatis annum 60.</hi> Subiunxeram insuper: <hi
+                        rend="it"><app>
+                            <lem wit="#A">cauda</lem>
+                            <rdg wit="#Resen">caudam</rdg>
+                        </app> Draconis in M.C. iuxta Arabum placita <app>
+                            <lem wit="#B">dejectionem</lem>
+                            <rdg wit="#A #Resen">dictionem</rdg>
+                        </app> ab honoribus et dignitatibus <app>
+                            <lem wit="#A">denotat</lem>
+                            <rdg wit="#B">notat</rdg>
+                        </app>, præsertim cum sit in signo Solari, hoc existente depresso, et nullæ
+                        beneficæ stellæ sint in angulis, sed ambæ cadentes.</hi> Hæc, inquam, tunc
+                    temporis infra figuram cœlestem tuæ nativitatis <app>
+                        <lem wit="#TBOO">annotâram</lem>
+                        <rdg wit="#B">annotaveram</rdg>
+                        <rdg wit="#Resen">annotatem</rdg>
+                    </app>, quæ non ob id nunc refero, quod tuæ diutinæ calamitatis <app>
+                        <lem wit="#A">causas</lem>
+                        <rdg wit="#B">causam</rdg>
+                    </app> in sola astra reijcere velim <app>
+                        <lem wit="#Resen">nimium</lem>
+                        <rdg wit="#A">nimirum</rdg>
+                    </app> tribuendo his Astrologicis indicationibus, sed saltem ut tibi obiter
+                    significarem, quid olim hac de re, cum hisce <app>
+                        <lem wit="#B">prædictionibus</lem>
+                        <rdg wit="#A #Resen">prædicationibus</rdg>
+                    </app> impensius occuparer, chartis mandârim. Scio, quantum concedendum sit
+                    Astrologicis coniecturis, nec eas plurimum suspicio, neque etiam nimium
+                    contemno, in quorum utroque a plerisque etiam <pb ed="A" n="C2r"/>eruditioribus
+                    peccatur. Si contineatur hæc ars intra suas metas, significationes quasdam <app>
+                        <lem>Physicas</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> non ineptas neque <app>
+                        <lem wit="#TBOO">utique</lem>
+                        <rdg wit="#A #Resen">ubique</rdg>
+                    </app> frivolas et cognitu non inutiles suppeditat. Sunt tamen plurimæ aliæ
+                    eventuum concurrentes causæ, ex inferioris mundi et <app>
+                        <lem>ijs</lem>
+                        <rdg><note>ante <q>ijs</q> add. <q>in</q> B</note></rdg>
+                    </app>, quæ in hoc <app>
+                        <lem wit="#A">tumultuose</lem>
+                        <rdg wit="#B">tumultuoso</rdg>
+                    </app> geruntur, occasionibus provenientes; <app>
+                        <lem wit="#A">supra</lem>
+                        <rdg wit="#B">super</rdg>
+                    </app> omnia vero Deus ipse author universi, tanquam prima et universalis causa,
+                    liberrime agit, secundariasque <app>
+                        <lem>causas</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> sive superioris sive inferioris mundi pro suo arbitrio disponit et
+                    moderatur. Verum hæc frustra tibi ea satis superque intelligenti suggero. Nunc
+                    ab Astrologicis ad Astronomica revertar.</p>
+                <p rend="indent">Habeo in promptu 24 annorum observationes syderum, quarum eæ, quæ
+                    12 posterioribus in hac insula nostra acceptæ sunt, admodum exacte se <app>
+                        <lem wit="#Resen">habent</lem>
+                        <rdg wit="#A">habeat</rdg>
+                    </app>, postquam instrumenta eximia et affabre extructa hîc maximo labore et
+                    sumpto confieri curavi, quæ dixi supra me absoluta plurim a habere, suntque <pb
+                        ed="A" n="C2v"/>tanta circumspectione et diligentia elaborata, ut,
+                    quibuscunque syderis <app>
+                        <lem wit="#Resen">alicuius</lem>
+                        <rdg wit="#A">aliquem</rdg>
+                    </app> verum situm cœlitus indagare libuerit, in idem prorsus minutum, etiamsi
+                    diversimode composita sunt, et ab alijs atque alijs observatoribus animadversio
+                    fiat, recidant, quod machinarum absolutam structuram et exquisitam divisionem
+                    evidenter probat; ut ob id satis certus sim, nihil vitij in meis observationibus
+                    hisce <pb ed="TBOO" n="VII.139"/>instrumentis cœlitus derivatis latere. Utinam
+                    veteres et antecessores nostri, præsertim nunquam satis ille laudatus COPERNICUS
+                    (ut <app>
+                        <lem>de</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> PTOLOMÆO ipso nihil nunc dicam), tantam diligentiam et præcisionem in
+                    organis Astronomicis conficiendis et observationibus cœlestibus ad amussim
+                    exequendis adhibuissent; equidem ingenti labore in restituendis æthereorum
+                    corporum motibus nunc magna ex parte allevaremur. Excusabiles sunt nihilominus
+                    nostri ævi Mathematici, <app>
+                        <lem wit="#Friis">quod</lem>
+                        <rdg wit="#A #Resen">quod &amp;</rdg>
+                    </app> satis magna aptaque instrumenta, <pb ed="A" n="C3r"/>quibus syderum motus
+                    scrutentur, non possideant, cum <app>
+                        <lem wit="#Resen">salaria</lem>
+                        <rdg wit="#A">solaria</rdg>
+                    </app> eorum et toti reditus annui vix unico organo rite construendo
+                    absolvendoque <app>
+                        <lem wit="#Resen">sufficiant</lem>
+                        <rdg wit="#A">sufficiat</rdg>
+                    </app>. Scio etenim me pleraque habere, quorum singula professoris alicuius in
+                    scholis stipendium annuum vel maximum pretio confectionis longe exsuperent.
+                    Tanta est <app>
+                        <lem wit="#TBOO">ditiorum</lem>
+                        <rdg wit="#A">divorum</rdg>
+                    </app> hominum et præsertim Regum ac Principum erga hæc sublimia studia
+                    illiberalitas; pauci enim nunc vel potius nulli reperiuntur Reges <persName
+                        ref="Alfonso 10.">ALPHONSI</persName>. Quod si partim ex proprijs bonis et
+                    fundis, partim per huius Regni feuda Regia rei <app>
+                        <lem wit="#Resen">familiari</lem>
+                        <rdg wit="#A">familiaris</rdg>
+                    </app> nostræ ita divina liberalitate prospectum non esset, ut his et alijs
+                    sumptibus <app>
+                        <lem wit="#Resen">perferendis</lem>
+                        <rdg wit="#A">proferendis</rdg>
+                    </app> par esse possem, frustra sane, etiamsi cætera omnia adforent, tanta <app>
+                        <lem wit="#Resen">molirer</lem>
+                        <rdg wit="#A">moliret</rdg>
+                    </app>. Exædificavi etiam intra hoc proximum decennium arcem quandam in hac
+                    insula Astronomiæ inprimis instaurationi opportunam, in cuius media et maiori
+                    domo in<pb ed="A" n="C3v"/>strumenta quædam Astronomica in duabus turriculis
+                    versus Austrum et Boream cum suis annexis appendicibus disponuntur. Præterea non
+                    longe extra arcem in monticulo quodam aliud <placeName ref="Stjerneborg"
+                        >observatorium subterraneum</placeName>
+                    <app>
+                        <lem wit="#A">intra</lem>
+                        <rdg wit="#Resen">infra</rdg>
+                    </app> quadriennium fieri curavi, in quo 7 diversa et exquisita tum magnitudine,
+                    tum forma elaborata organa conservantur, ita ut quodlibet <app>
+                        <lem wit="#Resen">eorum</lem>
+                        <rdg wit="#A">notum</rdg>
+                    </app> propriam cryptam occupet, quæ superius aperiri et, in quancunque cœli
+                    partem libuerit, observatio per instrumentum dirigi possit, nihil obstantibus
+                    cæteris machinis. Est enim locus ille ita editus quemadmodum tota fere insula,
+                    ut libere horizon visibilis nullo intercedente impedimento pateat, ob quam et
+                    peculiarem commoditatem in hac potius insula quam alibi tot sumptus feci
+                    tantosque labores exantlavi. Arcis vero illius hîc exstructæ delineationem,
+                    quantum ad ea attinet, quæ supra Terram patent et exterius spectantur, tibi hîc
+                    adiunctam mitto, ut aliquo modo ex eius inspectione cognoscere possis, me rem
+                    serio agere, quoad Astronomiam honori <pb ed="A" n="C4r"/> et nitori restituam, <app>
+                        <lem wit="#Resen">eaque</lem>
+                        <rdg wit="#A">eque</rdg>
+                    </app> in re nulli sumptui aut labori parcere. Cryptarum illarum <app>
+                        <lem wit="#Friis">picturam</lem>
+                        <rdg wit="#A #Resen">pictarum</rdg>
+                    </app>, quæ difficulter in plano exhibetur, nedum exarari curavi. Verum hæc
+                    omnia unâ cum instrumentorum fabrica et usu in primo tomo operis de Astronomia
+                    instauranda, quæ <app>
+                        <lem wit="#Resen">Mechanicam</lem>
+                        <rdg wit="#A">Machinam</rdg>
+                    </app> eius, ut dixi, partem continebit, convenientibus delineationibus ob
+                    oculos ponere sufficienterque declarare constitui. Interea quorundam
+                    instrumentorum, quæ hactenus depicta ex<pb ed="TBOO" n="VII.140"/>culptaque
+                    sunt, Idæam communico. Adiunxi etiam exemplaria nonnulla quarundam epistolarum
+                    ab illustrissimo Principe <persName ref="Wilhelm, landgrave of Hessen"
+                        >VILHELMO</persName> Landgravio Hassiæ rerum Astronomicarum inter Europæ
+                    Principes hoc ævo peritissimo (cuius etiam mentionem in his literis ad Dom.
+                    RANZOVIUM fecisti) et ipsius Celsitudinis Mathematico eruditissimo <persName
+                        ref="Rothmann">CHRISTOPHORO ROTHMANNO</persName> ad me datarum, unâ cum
+                    nostra ad singulas <app>
+                        <lem wit="#Resen">responsione</lem>
+                        <rdg wit="#A">responsiones</rdg>
+                    </app>, quibus plurima ad totam rem Astronomicam ipsasque observationes <pb
+                        ed="A" n="C4v"/>rectius instituendas adeoque artis ipsius redintegrationem
+                    non parum facientia <app>
+                        <lem wit="#Resen">referuntur</lem>
+                        <rdg wit="#A">referantur</rdg>
+                    </app>. Et de hac ipsa quæstione circa motum cœli <app>
+                        <lem wit="#Resen">e</lem>
+                        <rdg wit="#A">a</rdg>
+                    </app> refractionum, quæ in situ stellarum <app>
+                        <lem wit="#TBOO">apparent</lem>
+                        <rdg wit="#A #Resen">apparet</rdg>
+                    </app>, natura et quantitate alijsque occasionibus inter <persName
+                        ref="Rothmann">ROTHMANNUM</persName> et me copiose disseritur. Quæ omnia
+                    tibi legenda et dijudicanda concedere volui, petens amanter, ut, ubi ea
+                    introspexeris diligentiusque evolveris, velis mihi remittere, ne in aliorum
+                    unquam perveniant manus, dumque tecum ea habes, nemini alteri communices, etiam
+                    atque etiam te rogatum habeo. Imprimis vero a te plurimum expeto, ut tuum
+                    iudicium tum de illis, quæ in libro illo secundo æthereorum Phænomeνων nunc <app>
+                        <lem wit="#A">unâ</lem>
+                        <rdg wit="#Resen">uno</rdg>
+                    </app> misso, tum etiam quæ in his adiunctis literis continentur, ad me ante
+                    hyemem libere et luculenter perscribere non graveris. Si quid in transcriptione
+                    earundem literarum ab amanuensibus meis aberratum est, tuum erit idipsum pro tua
+                    solertia emendare; mihi omnia relegendi non suppetebat <pb ed="A" n="5r"/>otium.
+                    Scripsit ad me iam ante nobilissimus ille <persName ref="Rantzau, heirich"
+                        >HENRICUS RANZOVIUS</persName>, nec incongruis rationibus persuadere
+                    conatur, ut tum has illustrissimi Principis <persName
+                        ref="Wilhelm, landgrave of Hessen">VILHELMI</persName>, tum ipsius
+                    Mathematici et aliorum etiam eruditissimorum virorum ad me de hoc toto
+                    Astronomico negotio <app>
+                        <lem wit="#Resen">perscriptas</lem>
+                        <rdg wit="#A">præscriptas</rdg>
+                    </app> literas, unâ cum mea ad quasvis <app>
+                        <lem wit="#Resen">responsione</lem>
+                        <rdg wit="#A">responsiones</rdg>
+                    </app>, in fine operis nostri de Mundi <app>
+                        <lem wit="#TBOO">ætherei</lem>
+                        <rdg wit="#A #Resen">æthereis</rdg>
+                    </app> recentioribus Phænomenis subiungam, eo quod <app>
+                        <lem wit="#A">hæ</lem>
+                        <rdg wit="#Resen">hæc</rdg>
+                    </app> materiam, de qua illic agitur, plurimum illustret et ad totius artis
+                    amplificationem magnopere conducant. Qua in re ipsius iustæ <app>
+                        <lem wit="#A">et</lem>
+                        <rdg wit="#Resen">ac</rdg>
+                    </app> benevolæ petitioni, fretus etiam tuo et aliorum eruditorum iudicio
+                    consilioque, morem gerere non recusandum duxi. Addidi insuper his literis
+                    Solaris cursus restitutionem e meis observationibus et demonstrationibus
+                    deductam ad proximum quinquennium, ut aliquid interea e meis in cursu cœlestium
+                    corporum emendationibus obtineas, donec plura commu<pb ed="A" n="C5v"/>nicare
+                    tempus concesserit. <app>
+                        <lem wit="#Resen">Apogæum</lem>
+                        <rdg wit="#A">Apogæa</rdg>
+                    </app> Solis hîc statuitur iuxta finem 6 gradus
+                    &#x264b;, tribus gradibus Coperniano anterius, et eccentricitas præsupponitur
+                    <app>
+                        <lem wit="#TBOO">gr.</lem>
+                        <rdg wit="#A">&#x2640;</rdg>
+                    </app> 2 min. 9 1/3, qualium <app>
+                        <lem wit="#A">semidiamet.</lem>
+                        <rdg wit="#Resen">semidiametrum</rdg>
+                    </app> eccentrici 60, quod ipsius inventionem plurimum excedit. Cur vero magnus
+                    ille <persName ref="Copernicus">COPERNICUS</persName> vel in ipsius Solaris
+                    cursus retentione tantopere a scopo deflexerit, alibi sufficienter ostendam. Non
+                    autem est, quod dubites, quin hic calculus noster ne in minimo, quod in sensus
+                    cadere possit, differat a tramite, quem Sol <pb ed="TBOO" n="VII.141"/>æthereus
+                    designat, ut non solum nostræ multorum annorum, <app>
+                        <lem wit="#Resen">sed</lem>
+                        <rdg wit="#A">scil.</rdg>
+                    </app> etiam Landgravianæ, præsertim post organorum renovatam rectificationem,
+                    attestantur observationes. Quantum vero ab Alphonsina et Coperniana supputatione
+                    differat, ipsemet collatione facta facile perspicies; adeo ne Solis quidem
+                    motus, quamvis is normam cæteris omnibus præbeat, <pb ed="A" n="C6r"/> hactenus
+                    satis extricatus fuit, nedum ut in reliquis Planetis nihil lateat vitij. Sed
+                    video me epistolæ metas transgredi, dum avidius de his tecum <app>
+                        <lem wit="#A">colloquor</lem>
+                        <rdg wit="#Resen">colloquar</rdg>
+                    </app>; tuum itaque erit hanc prolixitatem unâ cum libro et chartis adiunctis
+                    boni consulere. Ubi primus et ultimus tomi operis, quod nunc præ manibus habeo
+                    de ætheris recentioribus Phænomenis, typis nostris excusi fuerint, te eorum
+                    etiam reddam participem. Quod autem primus antea non prodierit, in causa Gallici
+                    privilegij defectus, quod indies expectabam, Cæsareano antea obtento
+                    adiungendum. Verum cum nunc Gallicum illud <app>
+                        <lem wit="#Resen">acceperim</lem>
+                        <rdg wit="#A">acceperit</rdg>
+                    </app> et <app>
+                        <lem wit="#Resen">Anglicanum</lem>
+                        <rdg wit="#A">Anglicarum</rdg>
+                    </app> quoque brevi habiturus sim, magnifico et eruditissimo viro D. <persName
+                        ref="Rogers, Daniel">DANIELE ROGERSIO</persName>, qui nuper hîc mecum fuit,
+                    ita apud serenissimam Reginam procurante, nihil iam amplius obstabit, quin
+                    primus liber propediem in lucem edatur. Interea his fruere, <pb ed="A" n="C6v"
+                    />et quam felicissime diutissimeque vale, eruditissime et de Republica literaria
+                    optime merite <persName ref="Peucer">PEUCERE</persName>, meque tui amantissimum,
+                    quod facis, redamare et per literas ante hyemem ingruentem revisere non
+                    intermittas. Commodissimum autem <app>
+                        <lem>erit</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> eas <app>
+                        <lem wit="#Friis">te ad</lem>
+                        <rdg wit="#A #Resen">ad te</rdg>
+                    </app> sæpe dictum nobilem Dom. <persName ref="Rantzau, Heinrich">HENRICUM
+                        RANZOVIUM</persName> in Holsatiam mittere, qui illas ad me perferri non
+                    gravatim procurabit.</p>
+                <p rend="indent">Iterum et sæpe multumque vale, vir vita et valetudine diuturna
+                    dignissime. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 13.
+                    Septembris Anno 1588.</p>
+                <lb/>
+                <p><app>
+                        <lem wit="#TBOO"><app>
+                                <lem>Hæ literæ</lem>
+                                <rdg><note>ante <q>Hæ literæ</q> add. <q>S. Doct. Pezelio</q>
+                                        Resen</note></rdg>
+                            </app> lectæ mittantur statim ad D. <persName ref="Dee, John">IOANNEM â
+                                DEE</persName>, quem cras mane ante abitum, Deo volente,
+                            conveniemus.</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app></p>
+            </div>
+        </body>
+    </text>
+</TEI>

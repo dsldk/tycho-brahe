@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Caspar Peucer</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>Bibliotheque Nationale</repository>
+                                <collection>empty</collection>
+                                <idno>franc. 13040</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Mikulov</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>II 72, fol. C7 sqq.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 184-191</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Caspar Peucer</persName>
+                    <placeName>Dessau</placeName>
+                    <date when="1589-05-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588. 22. maj</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-23" who="#pz">Filen etableret</change>
+            <change when="2019-05-27" who="#pz">Tekstkritik indlagt s. 186 med</change>
+            <change when="2019-05-28" who="#pz">Tekstkritik indlagt</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.184"/>
+                <pb ed="A" n="162v"/>
+                <opener><app><lem wit="#A">AD DOMINUM TYCHONEM BRAHE, DANUM, MATHEMATICUM CLARISSIMUM, VIRUM
+                    NOBILISSIMUM.<lb/>S. D.</lem><rdg wit="#B"><q>Casparus Peucerus Tychoni Brahe S.P.D.</q></rdg></app></opener>
+                <p>MAGNA cum lætitia accepi, cum maiore voluptate legi <app><lem wit="#A">literas tuas</lem><rdg wit="#B"><q>tuas literas</q></rdg></app>, vir vere
+                    nobilis, et adiuncta illis τὰ ἀπαμειβόμενα scripta, quibus erudito et
+                    artificibus summis digno examine confertis <app><lem wit="#A">συμπαρατηρήσεις</lem><rdg wit="#B"><q>συμπατηρήσεις</q></rdg></app> vestras
+                    illustrissimus Princeps Landgravius <app><lem wit="#B">Hassiæ</lem><rdg wit="#A"><q>Hassus</q></rdg></app> <persName
+                        ref="Wilhelm, landgrave of Hessen">WILHELMUS</persName> et tu, sed serius
+                    quam oportuit. Abs te enim <app><lem wit="#A">missæ</lem><rdg wit="#B"><q>emissæ</q></rdg></app> <app><lem wit="#B">Uraniburgo</lem><rdg wit="#A"><q>Uraniburgi</q></rdg></app> <pb ed="TBOO" n="VII.185"/>(quod
+                    Uranoscopiam vocare soleo, ut speculam cœli) 13. Septembris anno 88 pervenerunt
+                    ad me demum ultima Ianuarij <app><lem wit="#A">Iuliani</lem><rdg wit="#B"><q>Iuliarii</q></rdg></app> anno <app><lem wit="#A">sequente</lem><rdg wit="#B"><q>sequenti</q></rdg></app> 89; ubi latuerint aut
+                    hæserint, et quorum culpa, nescio. Tardius vero et ego respondeo, destitutus
+                    occasionibus et copia eorum, qui tuto ac mature perferunt. His nunc potitus
+                    <app><lem wit="#A">adventu</lem><rdg wit="#B"><q>adventus</q></rdg></app> ad nos <pb ed="A" n="163r"/>illustrissimi Principis, Ducis Holsatiæ
+                        <persName ref="Hans den Yngre">IOHANNIS</persName>, et volui satisfacere et
+                    tibi et magnifico Domino <persName ref="Rantzau, Heinrich">HENRICO
+                        RANZOVIO</persName>, quantum potui in hac ex senecta et carceribus
+                    debilitata virium ingenij et memoriæ (qui tamdiu a libris et studijs
+                    Astronomicis absum) affectique corporis valetudine, et in his occupationibus,
+                    quibus <app><lem wit="#A">nunc etiam</lem><rdg wit="#B"><q>etiam nunc</q></rdg></app> obruor. Primum autem gratias tibi ago, quas debeo et possum,
+                    quod tam accurate exponis mihi occasionem, historiam et rationem tuarum
+                    observationum et hypothesium, in quibus vere affirmo me non reperire, quod
+                    desiderem. Hæreo alicubi, ut in luminaribus nimirum, cum illa circumagas
+                    circulis Terræ <app><lem wit="#A">homocentricis</lem><rdg wit="#B"><q>homocentris</q></rdg></app> (quibus quam orbibus ut commodius <app><lem wit="#A">sic</lem><rdg wit="#B"><q>sed</q></rdg></app> rectius et
+                    verius uteris) utrum anomaliam apparentem in eis eadem qua in alijs Planetis
+                    quinque ratione (quibus Solem statuis centrum) per circellos duos parvos
+                    expedire velis <persName ref="Copernicus">COPERNICÆO</persName>
+                    exemplo, quod probas in Luna, in qua ille duobus epicyclis usus est, a quibus tu
+                    abhorres, an vero alia, quæ mihi non occurrit. Reliqua ita plana, explicata et
+                    perspicua esse iudico, et ad doctrinæ Astronomicæ <app><lem wit="#B">καὶ</lem><rdg wit="#A"><q>in</q></rdg></app> <app><lem wit="#B">ψηφοφορίας</lem><rdg wit="#A"><q>ψηροφορίας</q></rdg></app> facilitatem tam
+                    accommodata, ut me fateri oporteat, veterum hypotheses, si his conferantur,
+                    labyrinthos videri, illa orbium dissimilium varietate et multitudine nimia, qua
+                    tamen an assequantur, quod promittunt, experientia docet. <app><lem wit="#B">Totum</lem><rdg wit="#A"><q>Totius</q></rdg></app> æthereæ
+                    regionis <app><lem wit="#A">tractum</lem><rdg wit="#B"><q>fractum</q></rdg></app>, stellarum corporibus exceptis, tenuissima constare ætherea
+                    substantia purissimaque et radijs omnibus pervia, eaque liquida et fluida,
+                    divinæ sapientiæ verbo cœlesti patefactæ testimonia non <app><lem wit="#A">dubie</lem><rdg wit="#B"><q>dubia</q></rdg></app> contra Philosophosimmenso
+                    demonstrant. Quam mihi sententiam persuadent et confirmant non illa tantum ante
+                    prolata e Scriptura dicta, sed multo plura alia. <persName ref="Moses"
+                        >MOYSI</persName> enim 1. Genesis cœlum expansum quiddam est; id significat
+                    enim vox Hebræa <hi rend="it">Rakia</hi>, id est quiddam ἀραιωθὲν καὶ λεπτωθὲν<app><lem resp="Friis"></lem><rdg wit="#A"><q>ἀραιώσει καὶ λεπτώσει</q></rdg><rdg wit="#A"><q>ἀρανώβεν καὶ λευτώσεν</q></rdg></app> κατὰ διάκρισιν
+                    veram, fusum <app><lem wit="#A">atque</lem><rdg wit="#B"><q>ac</q></rdg></app> <app><lem wit="#B">dilatatum</lem><rdg><note>om. A</note></rdg></app> <app><lem>expansu</lem><rdg wit="#A #B">expansum</rdg><rdg><note>sed corr. A</note></rdg></app> <app><lem wit="#A">immenso</lem><rdg wit="#B"><q>immensum</q></rdg></app> <pb ed="A" n="163v"/>in corpus
+                    <app><lem wit="#A">δυνάμει</lem><rdg wit="#B"><q>δυνάμεν</q></rdg></app> διαφανές, quod luce accensa ac diffusa creatione factum est διαφανὲςimmenso
+                    ἐνεργείᾳ. Diffusam hanc lucem omnipotentia Opificis summi postea die quarto collectam
+                    <app><lem wit="#A">rursus</lem><rdg><note>post <q>rursus</q> add. <q>die quarto</q> B</note></rdg></app> coegit, coagmentavit et digessit κατἀ σύγκρισιν in <app><lem wit="#A">luminarium</lem><rdg wit="#B"><q>lunarium</q></rdg></app> ac
+                    stellarum distincta corpora. Septuaginta interpretes verterunt στερέωμα, unde
+                    firmamenti manavit appellatio. Utraque appellatione indicari existimo cum
+                    repagula illa admiranda nobisque inexplorata, quibus moles aquarum orbi creato
+                    circumfusa sustinetur ac coercetur, tum hoc nobis obvium <app><lem wit="#A">et</lem><rdg wit="#B"><q>est</q></rdg></app> sæculis omnibus a
+                    Philosophis etiam agnitum <app><lem wit="#A">ἀμετάβλητον</lem><rdg wit="#B"><q>ἀματαβλητὸν</q></rdg></app> regionis æthereæ, quod propter <persName
+                        ref="Aristoteles">ARISTO<pb ed="TBOO" n="VII.186"/>TELES</persName> inter
+                    secundas causas <app><lem wit="#B">invexit</lem><rdg><note>om. A</note></rdg></app> τὴν ἀνάγκην ἀπὸ τῆς φύσεως distinctam <app><lem wit="#B">ac diversam</lem><rdg wit="#A"><q>et divisam</q></rdg></app>. Nec
+                    aliud per æneos Cœlos voluit <app><lem wit="#A"><persName ref="Job">HIOBUS</persName></lem><rdg wit="#B"><q>Iobus</q></rdg></app>; fortasse
+                    quia respexerunt ad pervulgatam tunc et vulgo creditam ex <app><lem wit="#B">commentis</lem><rdg wit="#A"><q>commentarijs</q></rdg></app>
+                    Philosophorum in Assyria et Ægypto opinionem de orbibus cœlestibus interpretes,
+                    ex consuetudine vulgi <app><lem>hinc</lem><rdg><note>ex <q>huic</q> corr. A: <q>huic</q> B ut videtur</note></rdg></app> usitatum, ut sæpe fit, vocabulum adsumpserunt; cum
+                    Hebræo enim non congruit. Talem autem Cœli expansum, diductumque ac dilatationem
+                    perpetuo Scriptura repetit et inculcat: ESAIÆ 45: <hi rend="it">Manus meæ tetenderunt Cælos.</hi>
+                        <persName ref="Esaias">ESAIÆ</persName> 44: <hi rend="it">Ego sum Dominus, faciens omnia,
+                    extendens Cælos solus, stabiliens Terram, et nullus mecum.</hi> IOB. 9: <hi rend="it">Qui extendit
+                    Cælos solus.</hi> <persName ref="Jeremias">IEREM.</persName> 1O et Psalmo 135: <hi rend="it">Qui
+                        præparat orbem in sapientia sua, et <app><lem wit="#B">prudentia</lem><rdg wit="#A"><q>providentia</q></rdg></app> sua extendit Cælos</hi>. Extensionem
+                    <app><lem wit="#A">illam autem</lem><rdg wit="#B"><q>autem illam</q></rdg></app>, quæ solius omnipotentiæ opus est, <app><lem resp="Friis">cœpisse</lem><rdg wit="#A #B"><q>cepisse</q></rdg></app> exordio facto ab aquis
+                    <app><lem wit="#A">Terræ</lem><rdg wit="#B"><q>terra</q></rdg></app> circumdatis, quæ τῶν διαφανῶν sunt quasi principium, sed adhuc terrenæ
+                    <app><lem wit="#A">concretionis</lem><rdg wit="#B"><q>conjunctiones</q></rdg></app> sordibus atque <app><lem wit="#A">umbris</lem><rdg><note>post <q>umbris</q> add. <q>est</q> B</note></rdg></app> densum et opacum, quibus in halitum fusis, et
+                    halitu illo magis magisque semper attenuato perpurgatoque ac <app><lem wit="#A">ceu</lem><rdg wit="#B"><q>seu</q></rdg></app> polito et
+                    diffuso usque ad illam tenuitatem et puritatem, quæ recipiendæ luci purissimæ
+                    subiectum fuit idoneum stabile <app><lem wit="#A">et</lem><rdg wit="#B"><q>ac</q></rdg></app> perenne, <app><lem wit="#A">emersisse</lem><rdg wit="#B"><q>immersisse</q></rdg></app> illum immensum Cœli tractum
+                    Scriptura docet, <app><lem wit="#A">ratio</lem><rdg><note>ante <q>ratio</q> add. <q>sed</q> B</note></rdg></app> etiam et experientia <pb ed="A" n="164r"/>convincit,
+                    quamquam non assequitur ullo modo attenuationis purgationisque rationem et <app><lem wit="#B">stabilitatis</lem><rdg wit="#A"><q>subtilitatis</q></rdg></app> immmotæ causas. <app><lem wit="#A">Neque</lem><rdg wit="#B"><q>Nec</q></rdg></app> uspiam legitur, quod in concretum, solidum,
+                    compactum et impervium systema fluidum illud atque<!-- NB: Hvad mener TBOO med: atque] et codd. recte ? --> aërium corpus rursus coiverit
+                    et <app><lem wit="#B">coaluerit</lem><rdg wit="#A"><q>coalueruerit</q></rdg></app> κατὰ σύγκρισιν et πῆξιν. <app><lem wit="#A">Imo testimonia Scripturæ expressa per
+                        omnia et in omnibus</lem><rdg><note>om. B</note></rdg></app> adversantur, quæ prætereo, ut taceam <app><lem wit="#B">cataractas</lem><rdg wit="#A"><q>caractas</q></rdg></app>, aquarum
+                    ascensus <app><lem wit="#A">et</lem><rdg wit="#B"><q>ac</q></rdg></app> descensus, accessus ad thronum æternæ maiestatis et recessus
+                    <app><lem wit="#A">commemoratos</lem><rdg wit="#B"><q>commemoratis</q></rdg></app> in Biblijs, quos neutiquam pia Antiquitas ὁράματα aut φανερώσεις
+                    tantum φανταστικὰς et imaginarias, ut multi <app><lem wit="#A">nunc</lem><rdg wit="#B"><q>unum</q></rdg></app> somniant, sed actus veros et
+                    historicas de ijsdem narrationes esse credidit constanter. Quod ex <persName
+                        ref="Castalio">CASTALIONIS</persName> versione citas (quam mihi non lectam,
+                    a plerisque tamen parum probari intelligo) id textus Hebræus etiam habet, et ex
+                    Psalmo 104 videtur ab ESAIA desumptum. Verba Psalmi sunt: <hi rend="it">Extendens Cœlos sicut
+                    pellem</hi>; quæ cum membrana sensu idem est. Ego vero et ESAIÆ illud 51 de Cœli
+                    Terræque corruptione, qua <app><lem wit="#A">fiet</lem><rdg wit="#B"><q>fiat</q></rdg></app> renovatio utriusque, ad naturam utriusque recte
+                    applicari posse existimo, cum dicit Propheta: <hi rend="it">Cœli <app><lem wit="#A">sicut</lem><rdg wit="#B"><q>ut</q></rdg></app> fumus liquescent, Terra
+                    sicut vestimentum atteretur</hi>. Cœli liquescent sicut fumus aut evanescent quia
+                    sunt velut fumus expertes soliditatis concretæ. Terra crassa et solida
+                    atteretur. Maneo itaque in eadem tecum sententia, ætheream regionem totam
+                    impleri non contextu et compage διαφανῶν seu pellucidorum orbium, qui concretæ
+                    materiæ perspicuitate et soliditate crystallis similes sunt, etsi et <pb
+                        ed="TBOO" n="VII.187"/>his comparantur, non tamen soliditatis sed
+                    perspicuitatis ratione, sed sua quadam subtilissima et purissima substantia, quæ
+                    aëre, a quo propagata est, tenuior multo sinceriorque et ab infusa luce
+                    perfectior est, quam complexu continent atque coercent suo circumfusæ densæ
+                    nubes et aquæ circumfluæ, a quibus Hebræi Cœlum nominant <hi rend="it">Schamaim</hi>, id est: <app><lem wit="#A">ibi</lem><rdg wit="#B"><q>ubi</q></rdg><rdg><note>e corr.</note></rdg></app> aquæ.
+                    <pb ed="A" n="164v"/>De his <app><lem wit="#A">aquis</lem><rdg><note>om. B</note></rdg></app> clara sunt et indubitata testimonia
+                    Scripturæ sacræ, Genes. 1: <hi rend="it">Fecit Deus firmamentum et divisit aquas sub firmamento
+                    ab his, quæ erant supra firmamentum, vocavitque firmamentum Cœlum</hi>. Genes. 7, in
+                    historia diluvij: <hi rend="it">Abyssi Terræ rupti sunt, et <app><lem wit="#B">cataractæ</lem><rdg wit="#A"><q>caractæ</q></rdg></app> Cœli apertæ sunt, et
+                    facta et pluvia Super Terram</hi>. ESAIÆ 24: <hi rend="it">Quia cataractæ Cœli apertæ sunt, et concutientur
+                    fundamenta Terræ</hi>. Psalm. 18: <hi rend="it">Posuit tenebras latibulum suum, in circuitu
+                    tabernaculi sui tenebrosam aquam et densas nubes</hi>. Psalm. 104: <hi rend="it">Qui contignat in 
+                    aquis tabernacula sua</hi>. Quod ætherea regio circumfluis aquis summo extimoque
+                    ambitu inundet, quod nubibus densis operta sit atque obscurata, quod interfusæ
+                    nubes, etiam <app><lem wit="#A">ut</lem><rdg wit="#B"><q>ac</q></rdg></app> aquæ sedem supremam maiestatis divinæ a creatis subtusque
+                    conclusis intraque cœli ambitum, circumflexu huius comprehensis rebus universis
+                    dirimant, cur <app><lem wit="#A">dubitem</lem><rdg wit="#B"><q>dubitarem</q></rdg></app>, intuens auctoritatem et fidem immotam divinæ veritatis
+                    patefactæ? Sed quæ sint illa repagula aut firmamenta, quæ cataractæ, quæ clausæ
+                    cœlestes aquas pendulas in sublimi sua natura graves et nutu <app><lem wit="#A #B">impetuque</lem><rdg><note>ex <q>impulsuque</q> corr. A</note></rdg></app> suo
+                    nitentes deorsum detinent, quæ laxatæ itidem aut adapertæ easdem profundunt, ut
+                    in diluvio, nec Scriptura prodidit, nec Philosophorum quisquam arguti ingenij
+                    coniecturis pervestigabit, nec magis hoc perscrutabitur quisquam, quam
+                    explicatum est a quoquam, quomodo suis sese fultibus in medio mundi libret
+                    immotum terreni globi pondus. Nihil moveor Philosophorum quæstionibus
+                    percontantibus, utrum Terra, utrum Cœlum sit in loco per se vel per accidens,
+                    quia extra Cœlum non sit locus. Sed assentior Scripturæ, quæ induit et cooperit
+                    systema mundi aquarum mole fortasse, si non omne undiquaque, nubium tamen
+                    involucris omne, quæ et <app><lem wit="#A">concentum</lem><rdg wit="#B"><q>consensum</q></rdg></app> <app><lem resp="#TBOO">nobis docet esse</lem><rdg wit="#A">nobis docet esset</rdg><rdg wit="#B"><q>esse docet nobis</q></rdg></app> inexploratum, sed certum
+                    tamen <app><lem wit="#A #B">et</lem><rdg><note>prius ex <q>est</q> corr. B</note></rdg></app> admirandum, accessu recessuque inter superna et infima, <pb
+                        ed="A" n="165r"/>inter aquas etiam cœlestes et imas, quæ denique aquarum et
+                    nubium obscura tenebrositate docet secludi æternam sedem Maiestatis divinæ
+                    æterna luce plenam, in qua <app><lem wit="#A">creaturis</lem><rdg><note><q>creationis</q> in <q>creatoris</q> corr. B</note></rdg></app> inaccessa habitat divinitas, a luce et sede
+                    creata inferiorum. Quid enim <app><lem wit="#A">his</lem><rdg wit="#B"><q>lucis</q></rdg></app> est in Biblijs manifestius? Ratiocinor inde et
+                    multa de causis eorum, quæ in Cœlo creato nobis occurrunt, ut de Cœli colore
+                    sapphirino, qui interdiu noctuque Cœlo sereno conspicitur, dissimiliter tamen,
+                    clarius et liquidius die, obscurius nocte, de dissimilibus Cœli partibus, de
+                    via lactea, quibus nemini leges et dogmata fero, sed coniecturas recito ex Dei
+                    verbo, relinquens expen<pb ed="TBOO" n="VII.188"/>dendum cuique, his utrum
+                    habere fidem an Philosophorum rationibus velit. Colorem Cœli sapphirinum
+                    conijcio non esse aliunde quam ex aquis et nubibus supernis <app><lem wit="#A">profusis</lem><rdg wit="#B"><q>perfusis</q></rdg><rdg><note>(fortasse melius)</note></rdg></app> et tinctis
+                    illa cœlesti sempiterna luce, quæ nobis tanto affulget purior et nitidior, quo
+                    Cœlum nostrum splendet clarius. Inde <app><lem resp="#TBOO">etiam</lem><rdg><note>om. B</note></rdg></app> esse iudico, quicquid tenebrosum in
+                    octavo orbe, noctu præsertim, Cœlo limpidiore cernitur. Nec video, quas alias
+                    Philosophi causas proferre possint, neutiquam enim sufficiunt, quæ ab ætherea
+                    luce creata intra Cœlum petuntur, ut maxime constituantur in Cœlo orbes solidi,
+                    concreti, pellucidi, quos immissa et fracta lux luminarium et stellarum suo
+                    splendore imbutos cæruleo colore <app><lem wit="#B">tingat</lem><rdg wit="#A"><q>tingit</q></rdg></app>, sicut sparsi per æquor radij Solis 
+                    marinas aquas. Unde <app><lem wit="#A">erit enim</lem><rdg wit="#B"><q>enim erit</q></rdg></app> illa umbrosa tenebrositas, quæ supra octavum orbem
+                    sistit ac finit visum, eo usque pervio et nusquam impedito excursu, Cœlo puro,
+                    penetrantem? Viam lacteam autem <app><lem wit="#A">conijcio esse</lem><rdg wit="#B"><q>esse conijcio</q></rdg></app> rariores partes seu nubium, seu
+                    aquarum cœlestium, seu repagulorum, vel horum omnium, per quas supernum,
+                    increatum et æternum lumen penetrat aut pellucet radiatu evidentius, quam in
+                    densioribus et obscurioribus. Nec assentior Philosophorum somnijs, <pb ed="A"
+                        n="165v"/>qui illam fingunt esse confusum <app><lem wit="#A">confertumque</lem><rdg wit="#B"><q>confectumque</q></rdg></app> lumen multarum et
+                    parvarum stellarum, quas propter exilitatem prospectus oculorum consequi ac
+                    discernere nequeat ; malo enim cum Scriptura et ex hac ipsa philosophari, quam
+                    cum Philosophis rerum divinarum imperitis hanc contra nugari (in ijs præsertim,
+                    in quibus aut hærent plane, aut penitus <app><lem wit="#A">cæcutiunt</lem><rdg wit="#B"><q>excutiunt</q></rdg></app>) aut comminisci et assumere
+                    pro certis ac veris hypotheses veritati cœlesti adversas, quod exemplo <app><lem wit="#A">veterum</lem><rdg wit="#B"><q>veteri quodam</q></rdg></app>
+                    COPERNICUS fecit in mobilitate Terræ. Propter has cogitationes ex Dei verbo in
+                    literis ad magnif. Dominum HENRICUM RANZOVIUM movi dubium illud in hypothesibus
+                    tuis de cæli vastitate, non <app><lem wit="#A">quod hoc</lem><rdg><note><q>hoc quod</q> A B, sed corr. A</note></rdg></app> alicuius momenti esse censerem, aut quod
+                    hoc non considerarem, de quo me admones, sed ut ostenderem, me de octavo orbe et
+                    <app><lem wit="#A">contigua</lem><rdg wit="#B"><q>continua</q></rdg></app> sede cum hoc <app><lem wit="#A">Planetarum</lem><rdg wit="#B"><q>planetarium</q></rdg></app> aliquid a Philosophis diversum reperire; non
+                    <app><lem wit="#A">imaginor enim</lem><rdg wit="#B"><q>enim imaginor</q></rdg></app> octavum orbem unum quendam cavum orbem esse, <app><lem wit="#A">cuius</lem><rdg><note>post <q>cuius</q> add. <q>uni</q> B</note></rdg></app> superficiei
+                    inerrantes stellæ infixæ sint, sed has mirando consilio et inenarrabili
+                    sapientia divina per supremum nubibusque et aquis cœlestibus proximum, latissime
+                    patens tamen et <app><lem wit="#A">profunde</lem><rdg wit="#B"><q>profundo</q></rdg></app> se demittens spatium eo ordine sedibus certis fixisque
+                    distributas esse, quo consistere et circumferri uno impetu, inter se immotæ
+                    intervallis, cernuntur, non eodem positu tamen supremi cœli respectu, nec eadem
+                    a terris distantia; quod totum spatium pro octavo orbe est. Scio, quod obijcient
+                    Philosophi: Si orbes non sunt, si stellæ partes orbium non sunt, unde pendebunt
+                    in sua regione, et qua vi, quo motu circumvehentur? Respondeo: Si ARISTOTELES,
+                    qui orbibus eas affigit et circumducit, <app><lem wit="#A">νόους</lem><rdg wit="#B"><q>Hoas</q></rdg><rdg><note>ut videtur</note></rdg></app> illis tamen seu intelligentias
+                    affingit, cur nos <pb ed="TBOO" n="VII.189"/>recte de Dei operibus edocti non
+                    multo magis tribueremus Deo opifici laudem in structura operis impervestigabilis
+                    sapientiæ et potentiæ <pb ed="A" n="166r"/>impervestigabilis? Cur non
+                    statueremus motus stellarum admiranda et imperscrutabili sapientia divina regi,
+                    qua conditi sunt? Cur non fateremur ὰνεξερεύνητα esse opera Dei?</p>
+                <p rend="indent">Concludens itaque hanc epistolæ partem acquiesco tecum in circulis.
+                    In observationibus autem hoc requiro, cum te Martem ἀκρόνυχον καὶ περίγειον in
+                    Solis diametro intelligo multo humiliorem Sole reperisse, utrum etiam duos
+                    inferiores, Venerem et Mercurium, ἀπογειοτάτους, ut pro certo compertoque
+                    statuis, Sole deprehenderis altiores? quod et de Cometa viso anno 77 affirmas.
+                    Quæ enim de 72 anni Cometa, quem tunc meo more cœlum assidue sub noctem et
+                    auroram contemplans <app><lem wit="#A">nostris</lem><rdg wit="#B"><q>nostri</q></rdg></app> primum ostendi, de illo ergo quæ edidisti, visa mihi
+                    nondum sunt. Inquisivi de illis secundæ partis titulo admonitus et ab amicis,
+                    sed consequi non potui. Scis fundamentum doctrinæ Astronomicæ esse certitudinem
+                    observationum, <app><lem wit="#A">eoque</lem><rdg wit="#B"><q>eo</q></rdg></app> magis miror, quod ex mei præceptoris <persName
+                        ref="Reinhold, Erasmus">ERASMI REINHOLDI</persName> Tabulis <app><lem wit="#A">ante</lem><rdg><note>om. B</note></rdg></app> mihi non
+                    animadversum de canonibus mediorum motuum ac προσθαφαιρέσεων profers. Quid <app><lem wit="#A">sunt
+                        enim</lem><rdg wit="#B"><q>enim sunt</q></rdg></app> προσθαφαιρέσεις nisi discrimen inter <app><lem wit="#A">vere</lem><rdg wit="#B"><q>vera</q></rdg></app> apparentia inæqualia et media
+                    æqualia? Id <app><lem wit="#B">vero</lem><rdg wit="#A"><q>mihi</q></rdg></app> discrimen quomodo exacte constituetur, si medij motus exacte
+                    definiti et cum observatis veris comparati non <app><lem wit="#A">sint</lem><rdg wit="#B"><q>sunt</q></rdg></app>? Memini <app><lem wit="#A">magnos etiam</lem><rdg wit="#B"><q>etiam magno</q></rdg></app>
+                    Astronomos observationes in COPERNICO desiderasse, qui suspicabantur, nec satis
+                    diligentem <app><lem wit="#A">illum</lem><rdg wit="#B"><q>ipsum</q></rdg></app> in hoc genere, quod præcipuum est, fuisse, nec tantum
+                    observationum habuisse, quantum operi tanto conficiundo fuit opus. In te vero
+                    nihil horum quisquam <app><lem wit="#B">merito</lem><rdg><note>om. A</note></rdg></app> accusabit, qui tot modis totiesque variatis et
+                    emendatis, ubi necesse fuit, organis, idem toties summa cura expertus es.
+                    Imprimis vero <app><lem wit="#B">laudo</lem><rdg wit="#A"><q>laudum</q></rdg></app> exquisitum <app><lem wit="#A">accuratumque studium tuum</lem><rdg wit="#B"><q>tuum accuratumque studium</q></rdg></app> in discrepantia
+                    notanda, quam parallaxes et διακλάσεις seu fractiones per vapores densiores
+                    pariunt, <pb ed="A" n="166v"/>qua in re nescio, an ex veteribus etiam aliqui
+                    satis diligentes fuerint, confisi fortassis nimium <app><lem wit="#A">serenitate et puritate</lem><rdg wit="#B"><q>serenitati et puritati</q></rdg></app> cœli
+                    austrini Soli propioris. Inerrantium examen et emendatio per τηρήσεις, paucis
+                    exceptis, quæ Eclipticæ vicinæ sunt, nemini admodum <app><lem wit="#A">curæ</lem><rdg wit="#B"><q>cura</q></rdg></app> fuit, inde usque ab
+                    illis descriptionibus, quæ <persName ref="Hipparchos">HIPPARCHO</persName>
+                    tribuuntur. In his insigne inveniri a veterum notatione discrimen,
+                    consentientibus observatis vestris, illustrissimi Landgravij et tuis, hoc magis
+                    gaudeo, quo plus referre existimo, ut illarum sedes, saltem præcipuarum, sint
+                    exquisite certoque designatæ. </p>
+                <p rend="indent">Distributionem operis, quod instituis, valde probo, nec minus
+                    ingeniosa inventa, quæ ad compendiosam facilemque ἐπιλογισμὸν motuum
+                    apparentium vel ex solo triangulorum canone promittis. Utinam vivam tamdiu, ut
+                    cognoscam, quomodo consensus <app><lem wit="#A">experientijs</lem><rdg wit="#B"><q>experientiæ</q></rdg></app> comprobet ac <pb ed="TBOO" n="VII.190"
+                    />stabiliat illam quam hypothesibus tuis condis novam fabricam in maximis et
+                    mirandis Dei operibus, quibus quantum de summa illa <app><lem wit="#A">Dei</lem><rdg><note>om. B</note></rdg></app> sapientia consecuti
+                    <app><lem wit="#B">simus</lem><rdg wit="#A"><q>simus</q></rdg></app>, intelligemus tunc, quando αὐτόπται coram opera ipsa aspiciemus.</p>
+                <p rend="indent"><persName ref="Vallesius">FRANCISCI VALESIJ</persName> Hispani nec
+                    nomen novi antea, nec legi librum, sed quæ ex illo commemoras, mihi talia
+                    videntur, ut refutatione nec arguta nec operosa indigeant. Absurdius est, quod
+                    cœlum ex elementis quatuor <app><lem wit="#A #B">conflat</lem><rdg><note>e <q>constat</q> corr. B</note></rdg></app>, cui propter ἀμετακίνητον ἀφθαρσίαν
+                    Philosophi omnes essentiam quintam, <app><lem wit="#A">aliam</lem><rdg><note>om. B</note></rdg></app> scilicet ab elementis, tribuerunt. Nec
+                    <app><lem wit="#A">repererunt</lem><rdg wit="#B"><q>reperiunt</q></rdg></app>, quomodo τό διαφανές ἐνεργείᾳ seu natura sua et actu lucidum ex
+                    elementis detexerent aut demonstrarent.</p>
+                <p rend="indent">Anno præterito fui Cassellis apud illustrissimum Principem
+                    WILHELMUM Landgravium, Dominum et benefactorem meum clementissimum, ubi magna
+                    cum voluptate spectavi et consideravi instrumenta, quibus ad observationes ipse
+                    utitur, <app><lem wit="#A">Sextantem</lem><rdg wit="#B"><q>sex tamen</q></rdg></app> imprimis ex tua, quantum intelligo, officina profectum et
+                    ibidem natum. Experiri vim et usum propter temporis brevitatem et copiam ac
+                    varietatem rerum, quæ mihi ostendebantur, ut <app><lem wit="#A">optâram</lem><rdg wit="#B"><q>optarem</q></rdg></app>, non potui. Nec scio, an
+                    <app><lem wit="#A">possim</lem><rdg wit="#B"><q>possem</q></rdg></app> in hoc genere quid præstare amplius, oculorum acumine hebescente. Literas
+                    vero ultro citroque <app><lem wit="#A">scriptas inter vos</lem><rdg wit="#B"><q>inter vos scriptas</q></rdg></app>, quas <pb ed="A" n="167r"/>mecum
+                    humanissime communicasti, inspexi accurate, nondum perlegi, quod faciam,
+                    quamprimum me levâro aliqua parte illarum operarum, quibus nunc occupor et
+                    exerceor. Quæ mihi ex Genethliaco meo themate ante tot annos præsagijsti nimis
+                    verus vates, <app><lem wit="#B ">sic evenerunt, ut præsagijsti</lem><rdg><note>om. A</note></rdg></app>; horum ego nonnulla, exilium præsertim,
+                    mei etiam <app><lem wit="#A">fati</lem><rdg wit="#B"><q>facti</q></rdg></app> sensu et monitu aliorum prospexi ac metui, sed tu omnia, causas
+                    etiam et occasiones, melius et integrius, eoque magis cum excellentiam ingenij
+                    tui in omnium artium ac præsertim disciplinarum Mathematicarum genere, <app><lem wit="#B">tum</lem><rdg wit="#A"><q>tuum</q></rdg></app> vero
+                    imprimis in Prognostico δι&#x2019; ἀστρολογίας etiam ἀγχίνοιαν στοχαστικήν admiror. Non
+                    illa magis contemnenda iudico erudita et rationibus atque experientia <app><lem wit="#A">nixa</lem><rdg wit="#B"><q>iuxta</q></rdg></app>
+                    prædicta (cum sint in conditis a Deo operibus creata simul et ordinata ad naturæ
+                    totius et singularum partium utilitatem et physicam gubernationem vestigia
+                    sapientiæ, documenta providentiæ et testimonia præsentiæ divinæ) quam
+                    coniecturas et præsagia medicorum. Plus scientiæ de illis, plus studij et
+                    diligentiæ in plerisque, qui tractant, et usum magis sobrium <app><lem wit="#A">et</lem><rdg wit="#B"><q>ac</q></rdg></app> sanum requiro
+                    in plurimis. Illa inficiari, quæ λόγον habent καὶ πείραν, est derogando ordini
+                    et virtuti operum divinorum contumelia Deum afficere. Neque existimemus, <app><lem wit="#A">casu
+                    aut</lem><rdg><note>om. B</note></rdg></app> temere alios alio syderum positu in lucem edi, etsi frequentius homines
+                    significatis syderum deteriores vita et moribus, <app><lem wit="#A">infeliciores eventu ac</lem><rdg wit="B"><q>eventu infeliciores et</q></rdg></app>
+                    successibus, raro meliores <app><lem wit="#A">evadent</lem><rdg wit="#B"><q>evadunt</q></rdg></app> ac <app><lem wit="#A">deportenduntur</lem><rdg wit="#B"><q>deprehenduntur</q></rdg></app> aut feliciores. Tu vero
+                    præclare fecisti, quod non repudiatis quidem, <pb ed="TBOO" n="VII.191"/>sed
+                    intermissis Prognosticis, ad divinas <app><lem wit="#A">illas divinaque</lem><rdg wit="#B"><q>illasque divina</q></rdg></app> sapientia plenas artes
+                    totis te viribus convertisti, ingenijque acumine et alis Geometricis atque
+                    Arithmeticis ad ipsorum syderum præsentem quasi contuitum motuumque
+                    explorationem evolasti ac penetrasti, quæ te nobilitabunt ad omnem posteritatem.
+                    <app><lem wit="#A">Mirifice</lem><rdg wit="#B"><q>Mirifico</q></rdg></app> tamen et mihi et doctis omnibus, quibus exhibeo, <app><lem wit="#A">Prognosticum</lem><rdg wit="#B"><q>Prognosticon</q></rdg></app> tuum
+                    placet, deque <pb ed="A" n="167v"/>eo communicato mecum, ut de alijs, gratiam <app><lem wit="#A">me
+                    tibi eximiam debere</lem><rdg wit="#B"><q>eximiam debere me tibi</q></rdg></app> agnosco. De editione epistolarum, et tuarum ad amicos et
+                    amicorum ad te, cur non vehementer probarem consilium <app><lem wit="#A">Mag.</lem><rdg><note>post <q>Mag.</q> add. <q>Domini</q> B</note></rdg></app> HENRICI RANZOVII,
+                    causam non reperio. Quamquam enim ipsum sese et te auctorem opus satis cuique
+                    commendabit, tamen plus auctoritatis, fidei studijque utrique literæ illæ
+                    publicatæ adiungent, si innotuerit palam, quantum industriæ, operæ, vigiliarum
+                    et sumptuum impenderis, et quantopere tibi curæ fuerit aliorum etiam consulere et
+                    exquirere iudicia, quantumque tuum antecellat. Addo <app><lem wit="#A">hoc etiam</lem><rdg wit="#B"><q>etiam hoc</q></rdg></app>, me paucis diebus
+                    ante has literas scriptas, procurante Domino RANZOVIO, accepisse æneam ἰχνογραφίαν et fabricam hypothesium tuarum, in cuius consideratione pleraque tua
+                    intellexi plenius, uno hærente de circellis, quod si in luminaribus, ut Planetis
+                    quinque, observas, nihil desidero. Bene et feliciter vale, meque te reverenter
+                    amantem et colentem propter singulares et eximias dotes divinas, quibus
+                    divinitus <app><lem wit="#A">excitatum te</lem><rdg wit="#B"><q>te excitatum</q></rdg></app> video et prædico esse ad hanc Mathematicæ doctrinæ partem
+                    illustrandam et absolvendam, quam ego maximi feci semper, cumque admiratione et
+                    voluptate colui, sed avocatus alijs studijs nimis cito de manibus deposui,
+                    redama.</p>
+                <p rend="indent">Datæ <placeName ref="Dessau">Dessæ</placeName> 1O. die Maij Iuliani
+                    Anno 1589.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 54</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Hven</placeName>
+                    <date when="1579-05-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Anders Sørensen Vedel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1579. 21. maj</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.54"/>
+                <pb ed="A" n="6r"/>
+                <p><persName ref="Vedel">A. WELLEIO</persName> CONCIONATORI REGIS. SALUTEM IN
+                    SALVATORE.</p>
+                <p>ACCEPI literas tuas, dilecte M. ANDREA, et de equo minus bene vidente <persName
+                        ref="Frandsen, Hans">D. I. FRANCISCI</persName> (cæcum <app>
+                        <lem wit="#TBOO">ne appellem</lem>
+                        <rdg wit="#A">enim appellant</rdg>
+                    </app>, multis deierationibus absterremur) intellexi: qui <app>
+                        <lem>[quoniam]</lem>
+                        <rdg><note>suppl. TBOO</note></rdg>
+                    </app>
+                    est vir benevolus et nobis Amicus, <app>
+                        <lem wit="#TBOO">eum</lem>
+                        <rdg wit="#A">cum</rdg>
+                    </app> non denegat sed sponte offert sive venalem, sive commutabilem; ego ubi
+                    artificium molæ nostræ, in quo eo uti vellem, paratum fuerit, cum eo de hoc
+                    agam, si proprijs equis uti non licuerit, eo quod eo dono destituantur, quo suum
+                    etiam carere mallet. Agas itaque ipsi interea meo nomine gratias. De istius
+                    vafri hominis perfidia, qui sponte oblatam reconciliationem callide aversatur,
+                    ut impune sibi per Legati adventum famam meam læsisse consultum sit, nihil
+                    dicam, donec vir ille opt. et æquus adveneri, cuius etiam arbitrio primum stabo,
+                    an æquum sit me ista immerito ab eo pati et per civitatem ab ijs, quibus nihil
+                    mali volui, sed ab his passus sum, defamari. Quid <persName ref="'Hessus'"
+                        >Hessus</persName> iste dicat et quam gratiam referat, nihil curo, cum non
+                    alia ab eo exspectârim unquam, neque ob id medicinam conficiam, quod vel gratiam
+                    vel lucrum inde sperem ullum, miror saltem eousque Christianismi institutionem
+                    pervenisse, ut Magistratus ipse gloriari audeat, a membris Satanæ opem, quam
+                    ferre nequeunt, allatam sibi esse, posthabitis Dei auxilio et ab ipso ordinatis
+                    medijs. O Doctores, o Discipuli. De Curia ista quæ ad nos pertinet in Angulo
+                    Civitatis Matri, ut consuluisti, scripsi, ab ea brevi responsum expecto, quod
+                    ubi nactus fuero, modo ex votis nostris contigerit, cum <persName
+                        ref="Urup, Christian">CHRISTIERNO URUP</persName> præsens, ubi Haffniam
+                    advenero, agam; effice interea apud ipsum, ne curiam suam prius alteri divendat.
+                    Controversiam, quæ inter Fratrem meum et <persName ref="Blessius"
+                        >BLESSIUM</persName> istum incidit, nondum a quoquam intellexi, felicior
+                    enim sum in hac Insula, quam quod plurimas mundanæ fabulæ nugas, hominumque
+                    Eccentricitates sæpius cum molestia exauditas doleam. Velim tamen ut me de isto
+                    negotio certiorem reddas, siquidem Fratris mei magnopere interesse ex te
+                    intelligo. Vale et significa quando <persName>Iohannes</persName> Patri
+                    redierit. Iterum vale et saluta <persName ref="Lurentius, magister">Mag.
+                        LAURENTIUM</persName> Amicum communem meo nomine plurimum. Datæ <placeName
+                        ref="Hven">Huennæ</placeName> 21. Maij Anno 79. </p>
+                <lb/>
+                <p rend="rightMargin">T.<lb/>TYCHO BRAHE.</p>
+                <lb/>
+                <p>Mitto tibi Catalogum librorum <placeName ref="Frankfur am Main"
+                        >Francofurtensium</placeName> et peto ut <persName ref="Balthasar"
+                        >BALTHAZARO</persName> significari curare velis, ut eos libros quos lineola
+                    in margine notavi, quamprimum licuerit, mihi procurare velit. Sunt autem novem
+                    Latini, tres Germanici et unus Gallicus. Remitto tibi 8 Ioachimicos per hunc
+                        <persName ref="Christian, fiskehandler">CHRISTIERNUM</persName> piscium
+                    mercatorem, pro quibus ago gratias. Iterum vale.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

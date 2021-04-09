@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Votivsten fra papirmølle på Hven</title>
+        <title xml:lang="en">Votive stone from paper mill on Hven</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="Vellev">
+            <bibl>Jens Vellev, "Et industrianlæg og en votivsten på Hven fra renæssancen. Om Tycho Brahes papirmølle", <title>Renæssanceforum</title> 12, 2017</bibl>
+          </witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. VI, Hauniæ 1919, p. 365</bibl>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation><date>1592</date></creation>
+      <langUsage>
+        <language ident="la" />
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>inskription</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-01-12" who="#pz">Filen etableret</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front/>
+    <body>
+      <div>
+        <head>
+          <orig/>
+          <reg>Indskrift</reg>
+        </head>
+        <p><lb/><pb ed="TBOO" n="VI.365"/>Dvm tempvs habemur operemur
+          <app>
+            <lem resp="#Vellev">bonum</lem>
+            <rdg><note>om.  TBOO</note>
+          </rdg>
+        </app>
+        </p> 
+        <p>Hoc Vallvm et Molam papyraceam
+        cvm omnibvs adivnctis artificiis et svperivs dispositis piscinis
+        hic vbi nihil tale <app>
+          <lem resp="#Vellev">antea</lem>
+          <rdg resp="#TBOO">ante</rdg>
+        </app> extitit in patriæ svvm
+        posterorvmqve commodvm ordinatione labore et svmptibvs propriis</p>
+      <closer>
+        <signed>Tycho Brahe O. de Knvdstrvp <lb/>ff</signed>
+        <dateline>incepit anno 1590 complevit 1592</dateline>
+      </closer>
+      </div>
+    </body>
+  </text>
+</TEI>

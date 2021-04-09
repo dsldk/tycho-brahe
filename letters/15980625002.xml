@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno/>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transcript</ab>
+                            </physDesc>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 140</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Ernst, Elector, Archbishop of Cologne</persName>
+                    <placeName>Liège</placeName>
+                    <date when="1598-06-25"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598-06-25 n.s.</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-09-07" who="#pz">Filen etableret</change>
+            <change when="2020-09-08" who="#lrp">Korrektur påbegyndt</change>
+            <change when="2021-01-18" who="#pz">Korrekturlæst</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="XIV.140"/>NOBILISSIMO NOBIS SINGULARITER DILECTO TYCHONI
+                     BRAHE, DOMINO DE KNUDSTRUP.</opener>
+
+                <p><persName ref="Ernst">ERNESTUS</persName> electus et confirmatus archiepiscopus <placeName ref="Köln">Coloniensis</placeName>, sacri Romani
+                    imperij per <placeName ref="Italy">Italiam</placeName> archicancellarius et princeps elector, episcopus <placeName ref="Liège">Leodiensis</placeName>,
+                    <placeName ref="Rheinpfalz">palatinus Rheny</placeName>, dux utriusque <placeName ref="Bayern">Bauarie</placeName>. Clementi Nostra salutatione
+                    premissa. Nobilissime singulariter dilecte, quas mihi iuuenis ille notus a te
+                    literas dedit et quæ de rebus tuis addidit, singulari lætitia legi et audiui.
+                    Munus vero litterarium librorum tuorum, quos ut a te rerum istarum peritissimo
+                    profectos et de cœlestibus illis corporibus tractantes, quorum vel solus
+                    aspectus idiotarum oculos pascit, cognitio uero et meum et omnium peritorum
+                    animos honestiore uoluptate moratur, mihi supra modum fuit acceptum. Gratias
+                    pro ijs tibi ago et quod factum a me hactenus non indiligenter, pergam sedulo te
+                    tuaque <persName ref="Rudolf 2.">cæs: mti:</persName> commendare. Declaraui hunc animi mei sensum latori literarum
+                    tuarum et <persName ref="Tengnagel">harum relatori</persName>. Ex eo intelliges, quæ de omnibus, quæ scire
+                    cupiebas, illum feci certiorem. Vale et tibi persuade et tua et studiorum
+                    caussa me quiduis conaturum.</p>
+               <closer><dateline><placeName ref="Liège">Leody</placeName> xxv iunij 1598.</dateline>
+                <signed><persName ref="Ernst">Ernestus</persName>, mpp.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

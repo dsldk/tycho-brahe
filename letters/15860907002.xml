@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Rothmann, Christopher</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="C">
+                        <bibl>Exemplum epistolae Casellis asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rothmann, Christopher (1550-ca. 1608)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1586-09-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586. 7. september</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+        
+            <div>
+                <opener><pb ed="TBOO" n="VI.61"/><pb ed="E"
+                    n="33"/><app>
+                        <lem>NOBILISSIMO VIRO, DOMINO TYCHONI BRAHE, EQVITI DANO, DOMINO A
+                            KNVDSTRVP, MATHEMATICO NOSTRO SECVLO PRÆSTANTISSIMO, ETC. DOMINO AC
+                            FAUTORI SUO VNICE COLENDO, ETC. S. P.</lem>
+                        <rdg wit="#C">eidem</rdg>
+                    </app>
+                </opener>
+                <p>NON dubito, Nobilissime Domine, Mathematicorum præstantissime, quin in recenti
+                    adhuc habeas memoria, quæ in proximis nundinis <placeName
+                        ref="Frankfurt am Main"><app>
+                            <lem>Francofordiensibus</lem>
+                            <rdg wit="#C">Francofurdiensibus</rdg>
+                        </app></placeName> mandato Illustrissimi <persName
+                            ref="Wilhelm, landgrave of Hessen">Principis nostri</persName> transmittendo <app>
+                                <lem>aliquot Obseruationes</lem>
+                                <rdg wit="#C">obseruationes aliquot</rdg>
+                            </app> ad T. Excell. perscripserim, et vt a T. Excell., etiam atque etiam
+                    petierim, vt his <app>
+                        <lem>nostris Literis</lem>
+                        <rdg wit="#C">literis nostris</rdg>
+                    </app> respondere dignaretur. <app>
+                        <lem>At cum</lem>
+                        <rdg wit="#C">Cum igitur</rdg>
+                    </app> nullum adhuc a T. Excell. viderimus responsum, valde dubitat Illustriss.
+                    <persName ref="Wilhelm, landgrave of Hessen">Princeps noster</persName>, num
+                    eæ ad manus tuas peruenerint. Mandauerat enim Illustriss. ipsius Celsitudo, vt
+                    non <app>
+                        <lem>tantum</lem>
+                        <rdg wit="#C">tanam</rdg>
+                    </app>
+                    <app>
+                        <lem>suæ Celsitudinis</lem>
+                        <rdg><note>om. C, qui post <q>salutationem</q> addit
+                            <q>suam</q></note></rdg>
+                    </app> clementem salutationem, verumetiam ingens tuæ responsionis videndæ
+                    desiderium per ministrum <app>
+                        <lem>tuum</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> tibi significarem. Quapropter cum nullus Dies intercedat, quin de T.
+                    Excell. responsione ab Illustrissimo <persName
+                        ref="Wilhelm, landgrave of Hessen">principe nostro</persName> interroger,
+                    eiusque intermissionem semper a disiunctione locorum excusare cogar, peto a T.
+                    Excell. adhuc maiorem in modum, ne responsionem <app>
+                        <lem>in Salutem et promotionem Astronomiæ</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> diutius intermittat. Ipse quidem, quibuscunque possum rationibus,
+                    Astronomiam Illustrissimo Principi nostro etiam atque etiam commendare non
+                    desino: dummodo T. Excell. mihi in subsidium veniat, atque currentem et bene
+                    admonitum acrioribus calcaribus instiget. <app>
+                        <lem>Acer</lem>
+                        <rdg><note>E cum Ovidio: Fortis C</note></rdg>
+                    </app> et ad palmæ per se cursurus honores: Si tamen horteris, fortius ibit
+                    equus. De Altitudinibus Stellarum Meridianis a me per Quadrantem obseruatis,
+                    inuenio Quadranti non iuste secundum Horizontis planum a <persName
+                        ref="Wittich, Paul">Wittichio</persName> et <persName ref="Bürgi"
+                            >Horologiario nostro</persName> perpendicula esse applicata, sed ostendi ab
+                    eo Altitudines Stellarum iusto et quidem integro minuto maiores, quam reuera
+                    sint: Quod licet toties Illustriss. <persName ref="Wilhelm, landgrave of Hessen"
+                        >Principi nostro</persName> ab eo tempore, quo hîc Mathematicum ago,
+                    dixerim, credere tamen noluit, donec nuper defectionem <app>
+                        <lem>tam <persName ref="Bürgi">Horologiario</persName>, quam Illustriss.
+                            <persName ref="Wilhelm, landgrave of Hessen">ipsius Cels.</persName>
+                            ad oculum</lem>
+                        <rdg wit="#C">ad oculum tam horologiario quam ipsius Celsit.</rdg>
+                    </app> ostenderem. Nec dubito, quin tu quoque eundem errorem in nostris
+                    Obseruationibus <app>
+                        <lem>iamdudum</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> animaduerteris. Iteratis igitur Obseruationibus inuenio correctis
+                    perpendiculis Eleuationem Poli huius loci <app>
+                        <lem>ex Stella Polari</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> 51 grad. 19 min. vno scilicet minuto minorem. Ad summam, non dubito, quin
+                    pro tuo erga Astronomiam singulari Amore Nobilissimam hanc Scientiam etiam atque
+                    etiam apud Illustrissimum <persName ref="Wilhelm, landgrave of Hessen">Principem
+                        nostrum</persName> sis commendaturus. Scis hanc Artem omnino Regiam esse, <app>
+                            <lem>ac</lem>
+                            <rdg wit="#C">et</rdg>
+                        </app> Regum ac Principum fauorem desiderare. Plura scriberem, <app>
+                            <lem>præsertim de impuro illo nebulone <persName ref="Ursus">Nicolao <pb
+                                ed="TBOO" n="VI.62"/>Raymaro Vrso</persName> Dithmarso, qui
+                                superiori Hyeme apud T. Excell. Typographicam Literarum collectionem et
+                                ordinationem, vt opinor, exercuit, <pb ed="E" n="34"/>quomodo scilicet
+                                hic te conuicijs proscindere non desierit, et quomodo te
+                                defenderim:</lem>
+                            <rdg><note>om. C</note></rdg>
+                        </app> nisi angustia temporis me impediret. <app>
+                            <lem>Cum nuper in præsentia Illustrissimi Principis <persName
+                                ref="Johann Casimir">JOANNIS CASIMIRI</persName> Ducis Palatini,
+                                etc. Itemque, Inclyti Domini a Donaw, tui honorificam, vt par erat,
+                                facerem mentionem: dici vix potest, quomodo Dominus a Donaw te
+                                commendârit, adeo vt me iam pridem tui amore flagrantem iam totum
+                                inflammârit.</lem>
+                            <rdg><note>om. C</note></rdg>
+                        </app> His igitur bene et feliciter vale, optime TYCHO, et de Astronomia bene
+                    mereri ne desine.</p>
+                <closer>
+                    <dateline><placeName ref="Kassel">Cassellis</placeName> 7 Calend. Septembris,
+                        Anno 86. </dateline>
+                    <signed>T. T.<lb/><persName ref="Rothmann">CHRISTOPHORVS ROTHMANNVS</persName>
+                        <app>
+                            <lem>Bernburgensis</lem>
+                            <rdg><note>om. C</note></rdg>
+                        </app>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

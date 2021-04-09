@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 315-316</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-05-07"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Johann Barwitz</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 7. maj. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.315"/><pb ed="A" n="120r"/>MAGNIFICO ET NOBILISSIMO
+                    VIRO, DOMINO <persName ref="Barwitz">IOHANNI BARVITIO</persName>, SACRÆ CÆSAREÆ
+                    MAIESTATIS SECRETARIO SUPREMO ET A CONSILIJS INTIMIS, DOMINO ET AMICO
+                    HONORANDISSIMO.</opener>
+
+                <p><pb ed="A" n="119r"/>MAGNIFICE ET NOBILISSIME VIR, DOMINE ET AMICE
+                    HONORANDISSIME.</p>
+                <p>QUONIAM ea, de quibus Mag<hi rend="sup">a</hi> V<hi rend="sup">a</hi> mihi per
+                    domesticum meum, quem ultimo <placeName ref="Plzeň">Pilsnæ</placeName> habui, spem fecit, brevi effectum exoptatum
+                    habitura, adhuc infecta hæreant, et frustra hac præterlapsa septimana cum Sacra
+                        <persName ref="Rudolf 2.">Cæs<hi rend="sup">a</hi> Maiestate</persName>,
+                    Domino nostro Clementissimo, V<hi rend="sup">æ</hi> Mag<hi rend="sup">æ</hi> accessum a multis
+                    pariter speratum per aliquot dies <placeName ref="Praha">Pragæ</placeName>
+                    expectarem, cogor denuo (siquidem res ulteriorem moram vix patiatur, et incertus
+                    sim, quam cito S<hi rend="sup">a</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">a</hi> Ma<hi rend="sup"
+                        >tas</hi></persName> eo redire decreverit) eundem <pb ed="TBOO" n="VIII.316"
+                    />familiarem ad vos amandare, ut si per alias multiplices occupationes fieri
+                    nunc commodius quam antea possit, plenariam aliquam resolutionem obtinere queam,
+                    quod Mag<hi rend="sup">æ</hi> V<hi rend="sup">æ</hi> favorabili intercessione me
+                    impetraturum confido. Quænam vero illa sint, de quibus <pb ed="A" n="119v"
+                    />adhuc sollicitus detineor, is, quem amando, V<hi rend="sup">æ</hi> Mag<hi
+                        rend="sup">æ</hi> rectius et plenius, quando ipsum audire commodum fuerit,
+                    exponet, ut non opus sit multis verborum ambagibus, eam alias occupatissimam
+                    hisce literis ulterius interpellare. Rogo autem Mag<hi rend="sup">am</hi> V<hi
+                        rend="sup">am</hi> officiose, quemadmodum semper sua benevolentia mihi
+                    præsto fuit, sic etiam nunc non deesse velit. Inveniet me semper pro mea
+                    tenuitate eius vicissim studiosissimum et observantissimum. Valeat Mag<hi
+                        rend="sup">a</hi> V<hi rend="sup">a</hi> quam diutissime et quam <pb ed="A"
+                        n="120r"/>felicissime. Dabantur ex <placeName ref="Benatky">arce
+                        Benaticka</placeName> die 7 Maij Anni 1600. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

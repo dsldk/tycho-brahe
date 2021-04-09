@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Wilhelm, Landgrave of Hesse-Kassel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel (1532-1592)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1586-10-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586. 14. oktober</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                    <opener><pb ed="TBOO" n="VI.62"/><pb ed="E" n="34"/>
+                        <app>
+                            <lem>DEM VESTEN VNSERM LIEBEN BESONt DERN <hi
+                                rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                                <lb/><persName ref="Wilhelm, landgrave of Hessen"
+                                    >WILHELM</persName> VON GOTTES GNADEN LANDTGRAUE ZU HESSEN/
+                                GRAUE ZU CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND NIDDA/
+                                ETC.</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                    </opener>
+                
+                <p>
+                    UNSERN gnedigen Gruß zuuor/ Vester lieber besonder/ Wir
+                        haben euch nun zu zweyen vnderschiedenen mahlen/ wol bey ewrem Diener/ den
+                        <hi rend="it">14 Aprilis</hi>, als auch <app>
+                            <lem>hernacher</lem>
+                            <rdg wit="#M">hernach</rdg>
+                        </app> den <hi rend="it">26 Augusti</hi> geschrieben/ vnd vnsere <hi
+                            rend="it">Obseruationes Stellarum fixarum</hi> vberschickt/ vnd darneben
+                        in gnaden begeret/ nicht allein ewer Iudicium darauff vns zuzuschreiben/
+                        sondern auch ewre <hi rend="it">Obseruationes</hi> dargegen <app>
+                            <lem>zuuberschicken</lem>
+                            <rdg wit="#M">uberschickenn</rdg>
+                        </app>. Wann vns aber biß noch von euch kein antwort einkommen/ welches vns
+                        gleichwol verwundert/ Als haben wir nicht vnderlassen wollen/ bey dieser
+                        gelegenen Botschafft/ euch nachmahls zuerinnern/ Vnd ist an euch vnser
+                        gnediges begeren/ Ihr wollet vns nicht allein auff <app>
+                            <lem>solche vnsere</lem>
+                            <rdg><note>solcher vnser E: corr. TBOO ex M</note></rdg>
+                        </app> schreiben hinwieder beantworten/ Sondern auch ewre <hi rend="it"
+                            >Obseruationes</hi> vbersenden/ damit wir sie mit den vnsern zu <hi
+                                rend="hi">conferiren</hi> haben. Das versehen wir vns/ vnd seind Euch <app>
+                                    <lem>mit gnaden geneigt</lem>
+                                    <rdg wit="#M">wohll gewogen</rdg>
+                                </app>/</p>
+                <closer>
+                    <dateline><hi rend="it">Datum</hi>
+                        <app>
+                            <lem>in vnser Stadt vnd Vestung</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                        <placeName ref="Kassel">Cassell</placeName> am <hi rend="it">14 Octob. Anno
+                            86</hi>. </dateline>
+                    <signed>
+                        <persName ref="Wilhelm, landgrave of Hessen"
+                            >WILHELM</persName> LANDTGRAFF ZU HESSEN. 
+                    </signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

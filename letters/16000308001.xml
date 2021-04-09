@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Basileensi G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 257-259</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-03-08"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Rudolf Corraduc</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 8. marts. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-08" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.257"/>TYCHO BRAHE AD <persName ref="Corraduc"
+                        >RUDOLPHUM CORRADUCIUM</persName>.</opener>
+                <p><pb ed="A" n="33r"/>ILLUSTRIS ET MAGNIFICE VIR, DOMINE ET AMICE
+                    OBSERVANDISSIME.</p>
+                <p>QUANTUM me sollicitum habuit vagus quidam rumor de adversâ Ill<hi rend="sup"
+                        >ris</hi> Dn<hi rend="sup">is</hi> tuæ valetudine, tanto maiori gaudio sum
+                    affectus, postquam eam salvam et incolumem e longinquo et difficili itinere
+                        <placeName ref="Italy">Italico</placeName>, legatione perfunctam amplissimâ,
+                    in <placeName ref="Bohemia">Bohemiam</placeName> reversam accepi. Quo nomine Deo
+                    Opt. maximo gratias ago, eumque precor, ut in posterum quoque D<hi rend="sup"
+                        >em</hi> T<hi rend="sup">am</hi> incolumem ac florentem Reip. et literis
+                    reservet. Non dubito, quin iam antea D<hi rend="sup">o</hi> T<hi rend="sup">a</hi> ex alijs cognoverit, quomodo
+                    Clementissimæ voluntati S<hi rend="sup">æ</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
+                        >tis</hi></persName>, quam per literas mihi, cum adhuc <placeName
+                        ref="Wittenberg">Witebergæ</placeName> subsisterem, D<hi rend="sup">o</hi> T<hi rend="sup">a</hi>, priusquam in
+                        <placeName ref="Italy">Italiam</placeName> iret, significavit, superiori
+                    Iulio (siquidem remoræ quædam inopinatæ id prius non permiserint) subiectissime
+                    paruerim, et postquam huc in <placeName ref="Bohemia">Bohemiam</placeName> veni,
+                    in S<hi rend="sup">æ</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
+                        >tis</hi></persName> clientelam benignissime sim receptus. Quare huius rei prolixiori commemoratione apud D<hi rend="sup"
+                            >em</hi> T<hi rend="sup">am</hi> alias
+                    occupatissimam supersedeo. </p>
+                <p rend="indent">Id potius agam, ut Ill<hi rend="sup">rem</hi> D<hi
+                        rend="sup">em</hi> T<hi rend="sup">am</hi> debitâ cum reverentiâ obnixe
+                    rogem, ut in eâ benevolentiâ, quâ me nihil tale antea promeritum sic complexa
+                    est, ut S<hi rend="sup">æ</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
+                        >ti</hi></persName> (quod et ultro facturam confido) me commendare meaque
+                    studia promovere non sit degravata (quamobrem etiam gratias ago quas possum
+                    maximas, et acturus sum, quoad vixero) in eâ, inquam, benevolentiâ in posterum
+                    quoque persistat, meque, si<pb ed="TBOO" n="VIII.258"/>cubi fuerit opus, auxilio
+                    consilioque adiuvet. Nam licet de <persName ref="Rudolf 2.">Cæs<hi rend="sup"
+                            >æ</hi> Ma<hi rend="sup">tis</hi></persName>, cuius Clementissimum erga
+                    me favorem ratis indicijs expertus sum, in me perseveranter fovendo constantiâ,
+                    quâ alias Heroice prædita est, nullatenus addubitem, cum tamen ego hîc
+                    peregrinus habear, et instituto vitæ, studiorum ratione, non minus quam locorum
+                    intervallo ab Aulâ vestra sim remotus: facile prævideo, quam multa incidere
+                    possint, quæ ab Ill<hi rend="sup">ri</hi> D<hi rend="sup">e</hi> Tuâ, prudentiâ, rerum usu, authoritate, dignitate
+                    inprimis pollente, longe melius, <pb ed="A" n="33v"/>quam per me ipsum caveri,
+                    et, prout res postulârit, emendari queant. Neque enim possum mihi omnino
+                    polliceri, tutiorem me hîc fore, quam antea in <placeName ref="Denmark"
+                        >Daniâ</placeName>, ab invidorum morsibus, eorumque, qui sinistre de ijs,
+                    quæ tracto, studijs loquentur et sentient, oblocutionibus. Etenim si isthic, ubi
+                    radices altius et firmius egeram, ac Consanguineorum, qui in præcipuâ dignitate
+                    ibidem constituti, non exiguâ manu stipatus et munitus eram, hoc tamen inertiæ
+                    et invidiæ virus amoliri non ita dabatur, quin hæc mea studia fastidiret et non
+                    ubique obvios plurimorum Annorum labores irritos reddere tentaret, aut (quod
+                    potius elegi) me meamque domum universam in peregrinas oras cum magnâ rei,
+                    maiori temporis irrecuperabilis iacturâ importunitate suâ migrare faceret:
+                    quanto igitur magis huic communi omnium, qui præter vulgarem consuetudinem
+                    aliquid arduum exantlare satagunt, fortunæ iam hîc in exteris locis expositus
+                    ero, nullâ familiæ avitæ potentiâ fultus, nisi mihi Deus Opt. max. de fidis,
+                    candidis, Dominationisque Tuæ similibus Amicis et fautoribus prospexerit, qui,
+                    aut quâ dexteritate cavendi, aut quâ lenitate consopiendi, aut quo animo
+                    excipiendi sint, si qui erunt eiuscemodi adversarij occulti vel aperti, oportune
+                    norint. Quod ut D<hi rend="sup">o</hi> T<hi rend="sup">a</hi> tantâ promptitudine faciat, quantum ipsi est ad id
+                    faciendum facultatis, atque ut hoc, quod molior, Astronomicum exercitium, huc in
+                    honorem <persName ref="Rudolf 2.">Cæsaris</persName> et Imperij a Tuâ inter
+                    primos D<hi rend="sup">ne</hi> translatum, tutari etiam et promovere non desinat, id equidem rogarem
+                    illam operosius, nisi mihi de præclarissimâ et spontaneâ eiusdem voluntate iam
+                    antea liquido constaret. Quæ brevitatis caussâ hîc omisi, quodque ea calamus non
+                    facile sustineret, illa D<hi rend="sup">o</hi> Tua, ubi vacaverit, oretenus audiet ab
+                    exhibitore harum, Nobili et Erudito Iuvene <persName ref="Tengnagel">FRANCISCO
+                        TENGNAGEL</persName>, meo domestico, nuper ex <placeName ref="Italy"
+                        >Italiâ</placeName> ad me redeunte, quem Ill<hi rend="sup">rem</hi> D<hi
+                        rend="sup">em</hi> Tuam iam antea <placeName ref="Roma">Romæ</placeName> proculdubio vidisse existimo. Qui cum
+                        <pb ed="A" n="34r"/>D<hi rend="sup">i</hi> T<hi rend="sup">æ</hi>, cuius est
+                    observantissimus, conditiones suas, et quid maxime optet, exponere cupiat, eius
+                    caussâ D<hi rend="sup">em</hi> Tuam etiam atque etiam quam officiosissime rogo, uti pariter et illum
+                    suâ benevolentiâ complectatur et ad optima quæque promoveat. Quicquid in ipsum
+                    beneficij contulerit, id veluti mihi quoque præstitum perpetuo gratâ mente
+                    agnoscam.</p>
+                <p rend="indent">Valeat Ill<hi rend="sup">ris</hi> Dn<hi rend="sup">o</hi> tua quam
+                    diutissime et felicissime, et hanc meam in <pb ed="TBOO" n="VIII.259"/>scribendo
+                    audaciam ac prolixitatem pro suo candore sincere interpretetur. Dabantur ex
+                        <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName> 8 Martij
+                    1600.</p>
+                <lb/>
+                <p rend="rightMargin">Ill<hi rend="sup">ri</hi> Do<hi rend="sp">i</hi> Tuæ
+                    deditiss.<lb/>TYCHO BRAHE.</p>
+                <lb/>
+                <p>Mitto per prædictum <persName ref="Tengnagel">TENGNAGLIUM</persName> duos libros ex meis unâ cum Globo quodam Cœlesti
+                    ad restitutionem stellarum a me factam accurate elaboratum. Quæ ut Ill<hi
+                        rend="sup">ris</hi> Dn<hi rend="sup">o</hi> Tua hac vice, donec plura in hoc
+                    studiorum genere ad colophonem, volente Numine, diduxero, boni consulat,
+                    reverenter oro. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

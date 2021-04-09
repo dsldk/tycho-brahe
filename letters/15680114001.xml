@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>GKS</collection>
+                                <idno>3037a 4to</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>NKS</collection>
+                                <idno>1990d 4to</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliothek</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 3</bibl>
+                    </witness>
+                    
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1568-01-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Johannes Aalborg</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1568. 14. januar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-12" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.3"/>
+                <opener>TYCHO BRAHE AD <persName ref="Aalborg, Johannes">JOHANNEM
+                        AALBURGENSEM</persName> DATÆ 14. IANUARII <app><lem wit="#A #B #C">1568</lem><rdg><note>e corr. (jam in codd.): <q>1598</q> vel <q>1596</q> vel <q>1575</q> ABC</note></rdg></app>.</opener>
+                <p>CHARISSIME Domine JOHANNES, scias me incolumem huc pervenisse <placeName
+                        ref="Rostock">Rostochium</placeName>, ipsis Calendis Januarij, et interea
+                    temporis, apud <persName ref="Battus, Levinus">D. LEVINUM</persName>, hospitio
+                    exceptum fuisse: hodie vero, Deo annuente et prosperante, in propriam quandam
+                    habitationem migrare constitui, quæ est in Juristarum Collegio, satis commoda,
+                    et observationibus cœlestibus, meisque desideriis apta. Illic, si Deo ita visum
+                    fuerit, hanc hiemem transigere constitui; quid deinceps futurum sit, dies dabit,
+                    et Domino illa prospicienda relinquo, admonitus hoc sapienti et veteri versu:
+                    <lg><l>Tu præsens cura, Domino committe futura.</l></lg> Tuum vero est, mi JOHANNES,
+                    eas, quas tibi nostri discessus concredidi causas, in alto silentio apud te
+                    sepelire, ne quis suspicetur, vel intelligat, me de quoquam quidquam conqueri,
+                    aut aliquid in patria fuisse, quod me ad discedendum impulerit. Id etenim
+                    permagni interest, ut nemo audiat, me de ulla re conqueri; uti etiam revera de
+                    multis conqueri non possum. Fui enim in <placeName ref="Denmark"
+                        >patria</placeName> ab omnibus consanguineis et amicis, praeter meritum,
+                    bene exceptus, id solo deficiente, quod non omnibus placuerint mea exercitia:
+                    idque suam meretur excusationem. <hi rend="it">Multus delator ubique
+                    est.</hi></p>
+                <lb/><p rend="rightMargin">Tycho Brahe</p>
+            </div>
+        </body>
+    </text>
+</TEI>

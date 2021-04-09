@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Ferdinando de&#x2019; Medici</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Firenze</settlement>
+                                <repository/>
+                                <!-- NB: i Archivio de Stato? -->
+                                <collection/>
+                                <idno>empty</idno>
+                                <msName>Archivio pubblico Mediceo vol. 65</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 156</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Ferdinando de&#x2019; Medici</persName>
+                    <placeName>empty</placeName>
+                    <date when="1599-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-10" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.156"/><persName ref="Ferdinando"
+                        >FERDINANDUS</persName> MAGNUS ETRURIÆ DUX AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="167r"/>VIR Ill<hi rend="sup">ris</hi>. Gratissimæ fuerunt mihi
+                    literæ Dominationis Tuæ, tum quod præcipuum erga me præseferant amorem atque
+                    benevolentiam, tum etiam quod per eas occasionem oblatam video mutuæ voluntatis
+                    meæ aliquo erga eius D<hi rend="sup">m</hi> officij genere declarandæ. Nam licet ipsa mihi de facie,
+                    ut eius quoque testantur literæ, ignota fuerit, ea tamen, quæ de ipsius nomine
+                    ac virtute circunferuntur, D<hi rend="sup">m</hi> T<hi rend="sup">m</hi> non minus mihi claram quam notam reddere
+                    potuerunt. Sed quando ipsa fama ad id non sufficeret, hanc tamen ex ijs duobus
+                    voluminibus quæ ad me misit, et in quibus vera hominis species innotescit,
+                    abunde consequi potuissem. Cuius quidem muneris pro eo ac debeo D<hi rend="sup">i</hi> T<hi rend="sup">æ</hi> gratias ago.
+                    Illud enim propter subiectæ rei et novi operis rationem charissimum mihi fuit,
+                        <pb ed="A" n="167v"/>et si quid otij dabitur aliquando, utar etiam ad 
+                    illud opus visendum, alicuius in ea re versato legentis opera. <pb ed="A"
+                        n="168r"/>Et si illud commode fieri poterit, ut reliqua D<hi rend="sup">is</hi> T. opera,
+                    qualiacunque hactenus in lucem prodierunt aut in posterum prodibunt, ad me
+                    transmittantur, pro certo habeat in loco me non exigui muneris habiturum. 
+                    <pb ed="A" n="168v"/>Quod vero ad illum adolescentem attinet, quem mihi maxime
+                    commendavit, dabo operam, quemadmodum etiam hactenus factum est, ut et ipse
+                    intelligat, quanti ponderis apud me fuerit D<hi rend="sup">is</hi> T<hi rend="sup">æ</hi> commendatio, et ipsa quoque
+                    cognoscat posse se ac debere non in hac solummodo re, sed in quacunque alia, quæ
+                    videri possit ad eius D<hi rend="sup">is</hi> existimationem et commodum pertinere, omnia a me
+                    semper officia polliceri. Quod reliquum est, Deum opt. max. præcor ut
+                    D<hi rend="sup">m</hi> T<hi rend="sup">m</hi> diutius servet incolumem, quo de præclarissimis artibus ac literarum studijs
+                    benemereri longius possit.</p>
+                <p rend="indent">Datum .......</p>
+            </div>
+        </body>
+    </text>
+</TEI>

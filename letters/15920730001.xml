@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Wilhelm, Landgrave of Hesse-Kassel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel (1532-1592)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1592-07-30"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1592. 30. juli</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <pb ed="TBOO" n="VI.303"/><pb ed="E" n="272"/>DEM VESTEN/ VNSERM LIEBEN
+                        BESONDERN/ <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                        <lb/>WILHELM VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
+                        CATZENELNBOGEN/ ETC.</opener>
+                <p>
+                    VNSERN gnedigen Gruß zuvor/ Vester lieber Besonder. Ihr
+                        wisset euch zweiffels frey zu erinnern/ welcher gestalt jr vns hiebevor
+                        etlicher Elende halber gute vertröstung gethan/ Darauff wir auch nicht
+                        vnderlassen/ vnderm <hi rend="it">dato</hi>, den <hi rend="it">2.
+                            Aprilis</hi>, einen <app>
+                                <lem>eigenen</lem>
+                                <rdg><note><q>eigeuen</q> E: corr. ed. 1601</note></rdg>
+                            </app> Botten mit einem Schreiben an euch haltendt/ abzufertigen/ daß/ wo
+                        solche Elende bey euch ankommen weren/ er vns dieselbige anhero bringen
+                        solte. Wir haben aber sider dem das geringste nicht vernommen/ ob solcher
+                        Botte bey euch ankommen/ oder aber ob er lebendig oder todt sey/ oder wie es
+                        sonst vmb jnen stehe/ daß vns biß noch von euch keine Antwort zukommên ist.
+                        Wie aber deme/ weil vns die Elende/ so vorm Jar auß Schweden bekommen/ alle
+                        gestorben/ vnd wir nur einen Elendtochsen/ so vns vor zweyen Jaren auß
+                        Schweden <pb ed="TBOO" n="VI.304"/>zukommen/ haben/ derselbe dan sehr schön
+                        vnd fein zahm ist/ vnd diß Jar albereit ein fein Gehörn von anderthalben
+                        Schuhe hoch geschoben hat/ vnd jm niergendt woran mangelt/ alß daß er kein
+                        Weibichen hat/ damit er sich paren möchte. Alß begeren wir gnediglich/
+                        woferne euch solche vertröstete Elendsthier/ vnd sonderlich ein Weibichen
+                        zukommen were/ jr wollet vns dieselbige auff vnsern kosten so baldt
+                        vberschicken. Daran thut jr vns zu angenemen gefallen. Vnd seyndt wir es vmb
+                        euch hinwider in allen Gnaden/ damit wir euch ohne das gewogen/ zu erkennen
+                        geneigt. 
+                </p>
+                <closer>
+                    <dateline><hi rend="it">Datum</hi> in vnser Stadt vnd Vestung
+                        <placeName ref="Kassel">Cassel</placeName>/ am <hi rend="it">30.
+                            Iulij, Anno 1592</hi>.
+                    </dateline>
+                    <signed>
+                        WILHELM LANDTGRAFF ZU HESSEN.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

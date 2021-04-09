@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="lrp">
+                        <persName>
+                            <forename type="first">Louisa</forename>
+                            <surname>Rosendal Poulsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 23, Fol. 73 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Original letter</ab>
+                            </physDesc>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 212-13</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Jacob Bording</persName>
+                    <placeName>Güstrow</placeName>
+                    <date when="1600-09-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600-09-19</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-09-07" who="#pz">Filen etableret</change>
+            <change when="2020-09-14" who="#lrp">Korrektur påbegyndt.</change>
+            <change when="2021-01-22" who="#pz">Korrekturlæst</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="XIV.212"/>GENEROSO ET NOBILI VIRO D:NO TYCHONI BRAHE,
+                    DOMINO HEREDITARIO IN KNUDTSTRUP, AMICO SUO INPRIMIS HONORANDO.</opener>
+
+                <p rend="center">Generose et nobilis vir, amice inprimis honorande.</p>
+                <lb/>
+                <p>QUOD ad Generos:tis T: litteras, quas jam ternas accepi, aliquanto serius
+                    respondeam, non mea culpa factum est. Nam <persName ref="Mule, Claus">Claudius
+                        Mulæus</persName>, cui priores traditas Generos:tas T. scribit, ipsemet mihi
+                    non adfuit, nec responsum ullum a me petijt. Alteras m. <persName
+                        ref="Longomontanus">Christianus Longomannus</persName> me absente hic in
+                    aula reliquit, id quod Generos:tas T: ex adiecta hisce schedula, manu eius
+                    scripta, cognoscet. Quare ut me excusatum habeat, maiorem in modum rogo. Jnterim
+                    tamen quam posteriores ad manus meas pervenerunt, sexcentos illos thaleros, qui
+                    juniorum principum <placeName ref="Mecklenburg">Megapolensium</placeName> nomine
+                    Generos:ti T: debentur, <placeName ref="Rostock">Rostochium</placeName> ad d.
+                        <persName ref="Bacmeister">Lucam Backmeisterum</persName>, affinem meum, uti
+                    Generos:tas T: voluit, perferendos curavi. Egi quidem diligenter cum quæstore,
+                    ut in <pb ed="TBOO" n="XIV.213"/>moneta aurea, quod Generos:tas T: cupit,
+                    solutio fieret, sed monetam eam in tanta summa conficere non potuit. Quare ut eo
+                    quoque nomine Generos:ti T: excusatus sim, itidem rogo. Chyrographum fidei meæ
+                    creditum Generos:ti T: remitto, nam alterum, quod m. <persName
+                        ref="Longomontanus">Christianus Longomannus</persName> d. <persName
+                        ref="Bacmeister">Backmeistero</persName> tradidit, quæstor retinuit. Quod
+                    reliquum est Generos:tem T: divini numinis protectioni commendo et officia mea
+                    eidem defero promptissima.</p>
+                <closer><dateline>Datæ <placeName ref="Güstrow">Gustrovij</placeName> 19. die mensis
+                        septemb. stylo veteri anno 1600. Gener: T:
+                            studiosiss:</dateline><signed><persName ref="Bording">Jacobus
+                            Bordingus</persName></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

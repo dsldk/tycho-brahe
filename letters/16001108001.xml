@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 385-386</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-11-08"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 8. november. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.385"/><persName ref="Herwart">IOANNES GEORGIUS HERWARTUS HOHENBURG</persName> AD TYCHONEM
+                    BRAHE.</opener>
+
+                <p><pb ed="A" n="242r"/>EX itinere, quo peregre abieram, Vir Nobilissime atque
+                    Mathematicorum omnium facile Princeps, iam tandem reversus, relegi literas tuas
+                    28 die Augusti ad me datas, et ex adiunctis exemplis deprehendi, me semel atque
+                    iterum in calculo lapsum esse, quo nomine gratias tibi ago eô maiores. Sed
+                    inprimis summe miror, atque adeo satis mirari nequeo, calculum tuum novissimum
+                    Eclipseos Solaris diei 10 Iulij huius anni ἀκριβέστατον tam præcise observationi
+                    cœlesti ei<pb ed="TBOO" n="VIII.386"/>demque exactæ congruere, ita ut nec
+                    sexagesimâ quidem particulâ unius gradus a se invicem discrepare videantur.</p> <lg>
+                        <l>Ἦ μέγα θαῦμα τόδ’ ὀφθαλμοῖσιν ὁρῶμαι.</l>
+                        <l>Respondet numeris tua contemplatio cœli</l>
+                        <l>Unius arctataque ad sexagessma partis. </l>
+                        <l>Θαῦμα ἴδεσται.</l>
+                        <l>Respondent cœlo numeri, quibus attrahis astra, </l>
+                        <l>Unius ar &amp; atique ad Sexage partis. </l>
+                        <l>Θαῦμ’ ἀκόεσται.</l>
+                    </lg>
+                <p>Summo itaque desiderio flagro, ut quanto citius pollicitationem hac in re tuam
+                    adimpleas, totus enim iam calculum hunc tuum Solis et Lunæ novissimum,
+                    posteaquam eundem plane absolveris, exspecto et opto.</p>
+                <p rend="indent">Libros, quos petijsti, habeo, sed iam deest tabellarius. <persName
+                        ref="Vieta">FRANCISCUS VIETÆUS</persName> A<hi rend="sup">o</hi> 89 Londini edidit librum in
+                    folio Regali, cui titulus <persName ref="Vieta">FRANCISCI VIETÆI</persName>
+                    opera Mathematica, in quibus tractatur Canon Mathematicus, seu ad Triangula,
+                    item Canonion Triangulorum laterum rationalium, unâ cum universalium
+                    inspectionum ad Canonem Mathematicum libro singulari etc. In eoque libro multa
+                    tractat de resolutionibus triangulorum, quare plane conijcio <persName
+                        ref="Romanus">ADRIANUM ROMANUM</persName> de hoc ipso libro locutum esse.
+                    Quod si eum desideres, eurabo omnino, ut habeas. <pb ed="A" n="242v"/><persName
+                        ref="Albategnius">ALBATEGNIUS</persName> latius habetur, sed is ipse, qui
+                    multis in locis incorrectus est, Norimbergæ A<hi rend="sup">o</hi> 37 unâ cum <persName
+                        ref="Farghani">ALFRAGANO</persName> editus, et nec is quidem facile
+                    invenitur, attamen πολλαπλασίωσις pretij effecit, ut ego quoque exemplar eiusdem
+                    mendosæ impressionis ex Bibliotheca quadam redemerim. Quod si nihilominus eundem
+                    petas, mittam illico. Mihi sane, præter nomina propria, non videtur adeo
+                    mendosus, si unica cautio adhibeatur; solet enim numerum binarium et quinarium
+                    confundere. Quod si hoc unicum caveatur, in calculo vix error oboriatur.</p>
+                <p rend="indent">Iungo his literis Catalogum nundinarum autumnalium, quem ipsum
+                    quoque iam demum e peregrinatione domum reversus sum nactus; quod si aliquos
+                    libros ex ijs desideres, transmittentur. Affinis meus <persName ref="Vehentner"
+                        >PAULUS ZEHENTNER ab ZEHENTGRUEB</persName> quædam meo nomine tibi referet,
+                    atque hisce vale quam fœlicissime. Datæ Monachij die 8 Nov. A. 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

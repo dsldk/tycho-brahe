@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl><title>Singularia historico-literaria Lusatica</title> part. 27,
+                            Lipsiæ et Budissini 1743</bibl>
+                    </witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1568 ad annum 1587</title>, ed. F.R. Friis, 1876-86</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 61-63</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1581-10-12"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bartholomæus Scultetus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1581. 12. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-21" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.61"/>
+                <pb ed="A" n="178"/>
+                <opener>CLARISSIMO ORNATISSIMOQUE VIRO, MAGISTRO <persName
+                        ref="Scultetus, Bartholomæus">BARTHOLOMÆO SCULTETO</persName>, GORLICENSI,
+                    MATHEMATICO EXIMIO, AMICO VETERI PLURIMUM COLENDO.<lb/>S.</opener>
+                <p>GRATUM mihi fuit, charissime <pb ed="A" n="179"/>SCULTETE, vir doctissime, quod
+                    nostri, et veteris amicitiæ, <placeName ref="Leipzig">Lipsiæ</placeName> olim
+                    inter nos initæ, memoriam conserves. Id enim ex libellis, mihi a te dono missis
+                    (qui pergrati erunt) liquido perspexi. Pro qua tua benevolentia gratias tibi
+                    habeo maximas; daboque operam, ut intelligas, me tui etiam memoriam, quamvis
+                    multorum annorum locorumque intervallo disiuncti simus, ex animo minime
+                    obliterasse. Legi, et diligenter perspexi scriptum tuum de Cometa anni 77. magna
+                    diligentia a te elaboratum; sed ut ingenue et amice de ijs, quæ sentio, te
+                    moneam, videris partim impossibilibus, partim datis minus exquisite observatis
+                    parallaxeos mensuram superstruere. Nam neque Calendis Ianuarij Cometa cum illis
+                        dua<pb ed="A" n="180"/>bus stellis, quas assumis, supra Horizontem in eodem
+                    circulo Verticali esse poterat, neque stellarum intercapedo rite sumpta est, cum
+                    sit illa re vera plus ¾ unius gradus minor tua assignatione; ut de altitudinibus
+                    nihil dicam. Nec enim fieri poterat, ut spacio 12 minutorum temporis mutaretur
+                    parallaxis uno gradu 7 minutis, etiamsi adhuc longe propior Terræ statueretur
+                    Cometa; et ipsemet vides, ex tota inductione absurdum sequi. Nam quod capite
+                    octavo longitudinem Cometæ 4 gradibus cum ½ fere discrepantem a priore positione
+                    calculus admittat, per angulorum angustiam minime excusare poterat. Sed existimo
+                    te destitutum exquisitis instrumentis et medijs, quibus observationes
+                    perficeres; alias demonstrationem tam <pb ed="A" n="181"/>accuratam et
+                    ingeniosam firmiori fundamento superstruxisses, reique veritatem propius
+                    attigisses. Ego sane varijs et exquisitis instrumentis, quæ in promptu habeo, e
+                    solido metallo, tanta magnitudine ad amussim elaborata, ut singulorum minutorum
+                    sint capacia, eius Cometæ apparentias observavi, et parallaxes multis modis
+                    geometrice demonstratas in numeros redegi. At nusquam invenire potui, Cometam
+                    illum parallaxin admittere tantam, quæ unius gradus partem tertiam attingeret,
+                    ut suo loco sufficienter demonstrabimus. Ultimo vero Cometæ <app>
+                        <lem wit="#TBOO">apparentiæ</lem>
+                        <rdg wit="#A">apparentis</rdg>
+                    </app> die, eodem usus observationis et demonstrationum adminiculo, sensibilem
+                    esse parallaxin certissimis rationibus deprehendi. Hinc omnibus huius rei
+                    amatoribus <pb ed="A" n="182"/>quam primum per otium licuerit, copiosiorem et
+                    sufficientem descriptionem, certis observationibus et demonstrationibus innixam,
+                    Deo volente pro<pb ed="TBOO" n="VII.62"/>ponam. Instrumenta, quibus in
+                    observationibus cœlestibus utor, sunt eiusmodi, ut nihil in his, quod ad
+                    perfectionem faciat, desiderare possis. Quadrantes e solido metallo fabricatos,
+                    Azimutha scrupulose unâ indicantes, tantæ magnitudinis habeo, ut singula minuta,
+                    quædam etiam cuiuslibet minuti quartam partem discernant. Armillas <persName
+                        ref="Hipparchos">HYPARCHI</persName> et <persName ref="Ptolemaeus, Claudius"
+                        >PTOLOMÆI</persName> metallicas, singulorum minutorum capaces, quæ novis
+                    quibusdam compendijs ad amussim elaboratæ sunt, habeo. Sextantem Astronomicum,
+                    pro capiendis stellarum distantijs, exquisitius et facilius quam per Radium, quo
+                    unâ tamen <pb ed="A" n="183"/>utor, mira tractandi commoditate pridem parari
+                    feci. Globum apprime rotundum, sex pedes in diametro exuperantem, construi
+                    curavi, qui singulorum pene minutorum capax, stellarum loca, e cœlo per veras
+                    distantias desumpta, continebit, et in numeros facili compendio resolvet.
+                    Torquetum Armillare magnum e metallo solido, tum etiam regulas HYPARCHI,
+                    Azimutha unâ cum altitudinibus monstrantes, longitudine sufficienti nunc confici
+                    curo, pluraque alia, Astronomicis exercitijs inservientia, organa, magna et
+                    exquisita, partim perfecta habeo, partim indies perfici elaboro. Ædificium
+                    etiam, quod Uraniæ nomine insignivi, in medio huius Insulæ his Astronomiæ
+                    exercitijs et Spagyricis laboribus apprime opportunum, nec mi<pb ed="A" n="184"
+                    />nus secundum architectonicæ artis decoram symmetriam extructum, magno sumptu
+                    nunc tandem absolvi. Impendi autem tum in hoc, tum in instrumentorum
+                    constructionem, intra quinquennium proxime elapsum, plus * ib<!-- ??? -->
+                    millibus Ioachimicorum. Serio enim, et pro <app>
+                        <lem wit="#TBOO">rei</lem>
+                        <rdg wit="#A">eri</rdg>
+                    </app>
+                    <app>
+                        <lem wit="#Friis">dignitate</lem>
+                        <rdg wit="#A">lignitate</rdg>
+                    </app> Astronomica hîc tractanda, commoditatesque aptas iudicavi constituendas,
+                    minime ignorans, non esse cuiusque, sumtus tanto negotio rite instruendo
+                    sustinere, et eos, qui possint, id in alijs rebus ludicris potius præstare, quam
+                    ut tantæ scientiæ facultates impendant. Quam cupide optarem, ut hic mihi simul
+                    adesses! Videres sane ea, quæ te non mediocriter oblectarent. Sed quia id fieri
+                    vix potest (uxorem enim, uti audio, duxisti) et Reipublicæ insuper das operam,
+                    effice, ut <pb ed="A" n="185"/>per literas saltem crebrius confabulemur.
+                    Invenies me in conservanda vel per has amicitia minime negligentem. Mitto tibi
+                    fasciculum literarum, et te obnixe rogatum volo, ut per certum hominem ad
+                    Dominum D. <persName ref="Hagecius, Thaddaeus">THADEUM HAGECIUM</persName>
+                    Pragam illas transferri procurare velis. Dedi<persName ref="Wittich, Paul">
+                        PAULO WITICHIO</persName> a nobis discedenti quasdam ipsi etiam mittendas,
+                    quas tamen minus fideliter procuravit, et multis alijs minus sincere mecum
+                    egisse (cum tamen benevole fuerit exceptus) deprehendi. Cum enim mea, quæ
+                    nancisci poterat, clam abstulisset, observandique sidera nostris instrumentis
+                    compendia et rationes perspexisset (quibus tamen tractandis minime idoneus erat,
+                    nam ne unam quidem observationem aut Cometæ aut alicuius stellæ, vel <pb ed="A"
+                        n="186"/>Radio saltem capere illi possibile erat, nedum ut Cometæ parallaxes
+                    deprehenderet, <pb ed="TBOO" n="VII.63"/> prout <persName ref="Dudithius, Andreas"
+                        >DUDITIO</persName> frustra persuasit) tandem sub prætextu, quod avunculus
+                    eius mortuus esset, hæreditatem sibi deberi professus, hinc domum reversus est,
+                    et, quo mirabar maxime, finxit se intra paucas hebdomadas reversurum, cum tamen
+                    ego eius opera minime indigerem, eoque potius carerem, quam ut multo labore mihi
+                    comparata clam a me subduceret, sibique alibi arrogaret, quod, uti in Cometa
+                    fecit, sic etiam in Solaris cursus restitutione, et octavæ Sphæræ emendatione,
+                    quam a nobis nactus est, facturum non dubito. Sed reddidit is me prudentiorem,
+                    effecitque, ne cuivis posthac mea committam. At, quia Solaris cursus a nobis
+                    restituti <pb ed="A" n="187"/>mentio facta est, mitto tibi anni proxime futuri
+                    Ephemerim Solarem, ex nostra motuum ratione, quam annis aliquot præteritis,
+                    præsertim 78, de cœlo instrumentis et Geometricis demonstrationibus in numeros
+                    redegi. Hanc si cum ipso cœlo, beneficio alicuius instrumenti, contuleris,
+                    invenies eam motui Solis, quantum sensus discernere possunt, apprime congruere,
+                    a quo tamen uterque calculus Astronomicus hactenus usurpatus longe interdum
+                    aberrat, ecclipsibus etiam id ipsum non obscure ostendentibus. Tu itaque per
+                    instrumenta nostros motus examina, ita tamen, ut Poli altitudo in ipso scrupulo
+                    nota sit, et parallaxeos Solaris habeatur ratio, instrumentique tanta fuerit
+                    magnitudo, ut singula minuta commode discer<pb ed="A" n="188"/>nat. Sed, ne
+                    videar epistolæ metas transcendere, tecum amplius colloqui ipsa charta nos
+                    prohibet. Tuum erit per occasionem mihi rescribere. Si quæ præterea fuerint
+                    edita, quæ a me expeti posse iudicaveris, ut <persName ref="Dudithius, Andreas"
+                        >DUDITIJ</persName> de Cometis et Astrologia
+                    libellum, et si quæ sunt alia huiusmodi, peto ut ea ad me transmittere velis.
+                    Ego, ubi per otium (ut spero) hybernum, mea, quæ proposui de Cometis, absolvero,
+                    tecum ea, et si quæ habuero alia, tibi grata, lubens communicabo, daboque
+                    operam, ut me perpetuo tui memorem experiaris. Vale, mi <persName
+                        ref="Scultetus, Bartholomæus">SCULTETE</persName>, et mei
+                    memoriam, uti facis, conserva. Datæ <placeName ref="Uraniborg"
+                        >Uranienburgi</placeName> in Insula nostra <placeName ref="Hven"
+                        >Huæna</placeName> 12. Octobr. An. 1581. </p>
+                <lb/>
+                <p rend="rightMargin">TYCHO BRAHE, Danus.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

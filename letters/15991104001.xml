@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Giovanni Antonio Magini</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Bologna</settlement>
+                                <repository>Archivio Malvezzi de' Medici</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Magini1604">
+                        <bibl>Io. Ant. Magini, <title>Tabulæ primi mobilis</title>, Venezia 1604,
+                            foll. 85-86</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 190-191</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Giovanni Antonio Magini</persName>
+                    <placeName>Bologna</placeName>
+                    <date when="1599-11-04"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599-11-04 n.s.</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-18" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.190"/><persName ref="Magini">IOHANNES ANTONIUS
+                        MAGINUS</persName> AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="1r"/>VLTIMA Bacanalium die fuit ad me Dominus <persName
+                        ref="Tengnagel">FRANCISCUS TENGNALIUS</persName>, nobilis iuvenis, omnique
+                    virtute ornatissimus, et talis qualis a te mihi descriptus fuit, qui deferendo
+                    ad me tuas literas unâ cum munere tui libelli de machinis Astronomicis et de
+                    restitutione stellarum fixarum adeo mentem meam gaudio affecit, ut nescirem quo
+                    me continerem, sed hæc mea lætitia aliquantum remissa fuit, quando intellexi,
+                    ipsum discessurum esse sequenti mane <placeName ref="Firenze"
+                        >Florentiam</placeName> versus, nec posse mihi hîc referre ea quæ ipsi
+                    secreto, ut mecum communicaret, imposuisti, qui tamen mihi promisit se hoc
+                    facturum post suum <app>
+                        <lem wit="#TBOO">reditum</lem>
+                        <rdg><note>A ut sæpius</note></rdg>
+                    </app>
+                    <placeName ref="Bologna">Bononiæ</placeName> circiter dimidium Quadragesimæ, sed
+                    frustra per totam Quadragesimam a me expectatus fuit, imo et totam æstatem, cum
+                    toto hoc tempore <placeName ref="Firenze">Florentiæ</placeName> et <placeName
+                        ref="Roma">Romæ</placeName> commoratus sit. Quin et ego quoque die 15<hi
+                        rend="it">a</hi> Maij me <placeName ref="Mantova"><app>
+                            <lem wit="#TBOO">Mantuam</lem>
+                            <rdg wit="#A">Mantuæ</rdg>
+                        </app></placeName> traduxi vocatus a Serenissimo Duce Mantuæ, ut Principes
+                    eius filios in Mathematicis erudirem; ubi permansi tota æstate, nec <placeName
+                        ref="Bologna">Bononiæ</placeName>
+                    <app>
+                        <lem wit="#TBOO">redire</lem>
+                        <rdg wit="#A">reddire</rdg>
+                    </app> potui ante primum Novembris, tempore scilicet novi studij. In hoc autem
+                    meo reditu inveni literas Domini <persName ref="Tengnagel">FRANCISCI</persName>
+                    tui, quibus me commonefecit se quam primum velle <placeName ref="Bologna"
+                        >Bononiæ</placeName> redire, ut mihi exponere posset tuum desiderium, quod
+                    post duos dies fecit, relinquens mihi simul quædam scripta pro instructione
+                    dicti negocij. Valde profecto mihi grata fuit hæc occasio tibi gratificandi, et
+                    plus quam credi possit, quod eventus rei ipsius Deo volente tibi clare
+                    declarabit, neque enim nunc verbis hoc tibi indicare studebo, sed effectibus
+                    ipsis me facturum <app>
+                        <lem wit="#TBOO">reservo</lem>
+                        <rdg wit="#A">reserbo</rdg>
+                    </app>; habeo enim qui hanc provinciam libentissime suscipiet, qui mihi inprimis
+                    devotissimus est, et habeo etiam plures literatos amicos per totam <placeName
+                        ref="Italy">Italiam</placeName>, qui et mihi et huic <pb ed="A" n="1v"/>omne
+                    auxilium præstabunt.</p>
+                <p rend="indent">Plura ad te scribere deberem, nisi improvisus reditus Domini
+                        <persName ref="Tengnagel">FRANCISCI</persName> et maturus discessus eius
+                    obstarent; præsertim cum multis curis et molestijs familiaribus nunc afficiar.
+                    Nolo tamen prætermittere, quin <pb ed="TBOO" n="VIII.191"/>te subnixe et
+                    instantissime rogem, ut mihi gratissime communices Tabulas motuum luminarium a
+                    te editas et forsan publicatas unâ cum eius usu pro his temporibus; cupio enim
+                    primus omnium Ephemerides condere novas secundum tuas observationes et interim,
+                    dum alias tabulas absolves, potero ego supputare motus luminarium in eclipsibus
+                    et insuper figuras ingressus Solis in puncta cardinalia erigere et lunationes
+                    omnes perpendere, et ex his iudicia annua contexere; nam pro hoc negocio
+                    sufficiet calculus reliquorum planetarum iuxta usitatam rationem <persName
+                        ref="Copernicus">COPERNICI</persName>.</p>
+                <p rend="indent">De meo statu certior fies a Domino <persName ref="Tengnagel"
+                        >FRANCISCO</persName> tuo, scilicet me esse perturbationibus onustum, qua de
+                    causa finem huic epistolæ facio, rogans te efficaciter ut hæc omnia in bonam
+                    feras partem, meque ut verum et sincerum amicum et devotissimum servum habeas.
+                    Deum optimum deprecor, ut tuis votis satisfaciat plene. Vale.</p>
+                <p rend="indent"><app>
+                        <lem><placeName ref="Bologna">Bononia</placeName> 4 Novembris 1599.</lem>
+                        <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
+                    </app></p>
+                <lb/>
+                <p rend="rightMargin"><app>
+                        <lem>Perillustri Dominationi tuæ<lb/>addictissimus<lb/><persName
+                                ref="Magini">IO. ANTONIUS MAGINUS</persName>,<lb/>Patavinus.</lem>
+                        <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
+                    </app></p>
+            </div>
+        </body>
+    </text>
+</TEI>

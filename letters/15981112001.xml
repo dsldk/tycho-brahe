@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Gödelmann</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 118</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Gödelmann</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1598-11-12"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 12. november n.s</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.118"/><persName ref="Gödelmann">IOH. GEORG
+                        GŒDELMANN</persName> AD TYCHONEM BRAHE.</opener>
+                <p><foreign xml:lang="la"><hi rend="it">MAGNIFICE Domine TYCHO.</hi></foreign> Gunstiger Herr, vnndt vornehmer
+                    freundt, Ich habe alhier zu <placeName ref="Praha">Prag</placeName> mit
+                    freudenn vernommen, daß Ihr, Gottlob, frisch vnndt gesundt zu <placeName
+                        ref="Dresden">Dreßdenn</placeName> ankommen, vnndt weil Ihr daneben zu
+                    wissen begeret, ob Ihr euch zu der <persName ref="Rudolf 2.">Kay.
+                        Maytt.</persName> begebenn, oder euch in der nehe, wegen der eingefallenen
+                    sterbens leufft, derowegen die <persName ref="Rudolf 2.">Kay. Maytt.</persName>
+                    von <placeName ref="Praha">Prag</placeName> hinweg getzogenn, aufhaltenn sollet, so kann ich euch darauf nicht
+                    bergenn, daß obwoll die <persName ref="Rudolf 2.">Kay. Maytt.</persName> ein
+                    großes verlangenn (alß die in Astronomischen Sachen, gleich wie ihr Großvater
+                    <foreign xml:lang="la"><hi rend="it"><persName ref="Karl 5.">CAROLUS V</persName></hi></foreign> hoch auch erfahrenn) nach dem
+                    Herrn, alß nach dem vornemsten <foreign xml:lang="la"><hi rend="it">Mathematico totius Mundi</hi></foreign>,
+                    dessen Nomen auch vnsterblichen sein wirdt, hatt, auch den Herrn nit weit vonn
+                    sich habenn will, dieweil uber <persName ref="Rudolf 2.">ihr Maytt.</persName> wegen der vergifften Seuchenn, welche
+                    fast alle örter im Königreich <placeName ref="Bohemia">Böheim</placeName> inficiret, bey sich noch nicht
+                    entschlossen, wo sic Ihr Hofflager anstellenn wollenn, alß wirdt der Herr biß
+                    auff <persName ref="Rudolf 2.">Ihr Maytt.</persName> endtliche weitere anordnung, zu <placeName ref="Dresden"
+                        >Dreßden</placeName>, oder <placeName ref="Wittenberg"
+                        >Wittemberg</placeName>, mitlerweil sich auffhaltenn. Thue hiemit vnß
+                    Göttlicher Almacht beuehlenn. Geben <placeName ref="Praha">Prag</placeName>,
+                    12. <foreign xml:lang="la"><hi rend="it">Novembris. Anno</hi></foreign> 98. Deß Herrn dienstvilliger</p>
+                <p rend="rightMargin"><persName ref="Gödelmann">JOHAN GEORG GÖDELMAN</persName>.
+                    D.<lb/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

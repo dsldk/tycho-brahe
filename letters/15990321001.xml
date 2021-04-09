@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 149-151</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wittenberg</placeName>
+                    <date when="1599-03-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Christen Sørensen Longomontanus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599. 21. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-08" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.148"/>TYCHO BRAHE AD <persName ref="Longomontanus"
+                        >CHRISTIANUM LONGOMONTANUM </persName>.</opener>
+                <p><pb ed="A" n="1r"/>S.</p>
+                <p>SCRIPSI tibi eruditissime et mihi plurimum dilecte M. <persName
+                        ref="Longomontanus">CHRISTIANE</persName> bis, postquam huc <placeName
+                        ref="Wittenberg">Wittebergam</placeName> veni, et semel a te literas accepi
+                    sub initium huius anni <placeName ref="Ribe">Ripis</placeName> datas, ubi et
+                    priores meas tibi redditas ex tuis percepi, alteras postmodum <placeName
+                        ref="Rostock">Rostochium</placeName> misi, quas te, quamprimum per hyemis
+                    asperitatem eo navigare licuit, ibi reperisse existimo. Ad tuas vero nunc
+                    brevibus, cum antea non sit oblata occasio, respondebo. Gratissimam rem præstas,
+                    quod in refutatione Capnuraniæ Scoticæ diligentem operam loces. Sunt saltem
+                    speciosa et pomposa eius omnia, ac veritati fucum faciunt. Invenies in libro
+                    nostro secundo de Cometa anni 77. suo loco, præsertim ubi in <persName
+                        ref="Nolthius">NOLTIJ</persName> placita disquiro, quantum in devia ab
+                    observatis detrudetur Cometes, si 5 proxime graduum parallaxin admisisset.
+                    Subsidium, quod expetis ab alijs Cometis, evidentius rem ostendentibus, satis
+                    firmum suppetit <pb ed="TBOO" n="VIII.150"/>Cometa anni 80, qui et in meridiano
+                        <pb ed="A" n="1v"/>et in 90 gradu iuxta horizontem non aliam declinationem
+                    mutavit, quam postulavit eius alteratio diurna, ex meridianis altitudinibus
+                    successive explorata, habita tamen refractionis in decliviori situ insinuatione,
+                    ut de alijs nunc nihil addam. Verum has confirmationes a pluribus Cometis
+                    petitas postea subiungere licebit, indicatione aliqua prius facta in Antapologia
+                    tua, qua introspecta, ulterius quid sentiam scies, quod mallem præsenti
+                    oretenus, quam absenti per literas indicare. De <persName ref="Ursus">bruto
+                        Dithmarsico</persName> non ob id scripsi, quod a te redargutionem
+                    calumniarum eius expeterem, neque enim dignus est; sed saltem ut denotares
+                    obiter in charta aliqua, quæ a nostris domesticis de plagio eius inaudivisti,
+                    quemadmodum fecit M. <persName ref="Riber">CHRISTIANUS <app>
+                            <lem wit="#TBOO">IOHANNIS</lem>
+                            <rdg wit="#A">Johannes</rdg>
+                        </app> Ripensis</persName>, alterum expediet D. D. <persName
+                        ref="Rothmann, Johann">IOHANNES ROTHMANNUS</persName>, uti manes <persName
+                        ref="Rothmann">fratris</persName> defuncti postulant. Constitueram hîc edere
+                    sex <app>
+                        <lem wit="#Friis">illos</lem>
+                        <rdg wit="#A">illas</rdg>
+                    </app> quaterniones, <app>
+                        <lem wit="#Friis">qui</lem>
+                        <rdg wit="#A">quæ</rdg>
+                    </app> in &#x263E; desiderantur, atque sic Tomum primum Progymnasmatum
+                    absolvere, ut in hisce <placeName ref="Frankfurt am Main"
+                        >Francofurdianis</placeName> nundinis venalis extare possit, et iam
+                    inchoatus erat labor ille Typographicus, postquam papyrum meam impressoriam
+                        <placeName ref="Wandsburg">Wandesburgo</placeName> acceperam. Verum dum
+                    Eclipsi &#x263E; die ultimo Ianuarij diligenter hîc per mea instrumenta attendo,
+                    deprehendi eius <pb ed="A" n="2r"/>initium per ⅖ unius horæ quam proxime
+                    calculum prævertere, ideoque a proposito destiti, donec huic deviationi provisum
+                    fuerit. Scis enim me exactam requirere concordantiam, quoad fieri possit. Nec
+                    satis mirari possum, quî fiat, quod Eclipsis anni 81, in Ianuario etiam facta et
+                    prope Apogæum, tam belle nostris numeris conveniat, hæc autem pariter iuxta
+                    Apogæum et eodem anni tempore ita discrepet. Suspicor igitur aliquam adhuc
+                    inæqualitatem Anomaliæ Lunæ subesse, quæ post aliquot annos peracta Eclipsium ad
+                    similia ferme loca restitutione præsertim iuxta Apogæum et Perigæum evidentius
+                    pateat, qua de re tecum, qui omnes nostras Eclipses diligenter examinasti, atque
+                    ipsarum varietates perspectas habes, conferre averem, ut eo citius huic
+                    obstaculo succurratur, quod facile fieri posse existimo. Sum in alijs rebus
+                    occupatissimus, ut satis huic disquisitioni vacare nequeam. Si igitur me
+                    accesseris cum auriga <placeName ref="Wittenberg">Wittebergensi</placeName>, ubi
+                    isthuc reversus fuerit, rem mihi apprime gratam nec tibi inutilem
+                    præstiteris.</p>
+                <p rend="indent">Sum denuo evocatus <placeName ref="Praha">Pragam</placeName> ex
+                    Clementissimo <persName ref="Rudolf 2.">Cæsaris</persName> mandato, per literas
+                    amplissimi Domini Procancellarij <persName ref="Corraduc">CORADUCIJ</persName>,
+                    ut ex adiuncto exemplari vides; <pb ed="A" n="2v"/>et paro nunc omnia ad iter,
+                    quod tamen ante Pascha ingredi non licebit ob aquarum nimiam copiam, postquam
+                    nives subito dissolutæ sunt, vias difficillimas et periculosas reddentem. Si
+                    adfueris et me comitari libuerit, dabo operam, ut tuis rebus rectius consulatur,
+                    quam uspiam alibi, sin vero hîc manere aut redire isthuc mavis, erit et hoc tibi
+                    liberum. Ego tuis commodis quocunque modo, <pb ed="TBOO" n="VIII.151"
+                    />quantumque in me est, sedulo studebo. Non patiar, ullum erga te officium
+                    desiderari. Vale et literas has nemini ostende. Dabantur <placeName
+                        ref="Wittenberg">Wittebergæ</placeName> die 21. Martij 1599. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

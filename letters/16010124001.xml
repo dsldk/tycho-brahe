@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Bologna</settlement>
+                                <repository>Archivio Malvezzi de' Medici</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 394-398</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1601-01-24"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Giovanni Antonio Magini</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1601. 24. januar n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.394"/><pb ed="A" n="4v"/>CLARISSIMO ET EXCELLENTISSIMO
+                    VIRO DOMINO <persName ref="Magini">IOHANNI ANTONIO MAGINO</persName> PATAVINO,
+                    RERUM MATHEMATICARUM IN ILLUSTRI <placeName ref="Bologna"
+                        >BONONIENSEM</placeName> GYMNASIO PROFESSORI ET AMICO SUO HONORANDO.
+                        <lb/><placeName ref="Bologna">BONONIAM</placeName>. </opener>
+
+                <p><pb ed="A" n="1r"/>S.</p>
+                <p>LITERAS tuas humanissimas pariter atque eruditissimas, Clarissime et
+                    Excellentissime Domine <persName ref="Magini">MAGINE</persName>, 4 Martij
+                    superioris Anni datas, recte quidem accepi; nulla tamen ad eas rescribendi
+                    hucusque sese mihi obtulit certa commoditas, priusquam nunc per filium meum natu
+                    maiorem, <persName ref="Brahe, Tycho junior">TYCHONEM</persName> nomine,
+                    Illustrissimum et Amplissimum Magni <placeName ref="Persia">Persarum</placeName>
+                    Regis Legatum comitantem. Cumque a primario Legato, natione Anglo, ipsum
+                        <placeName ref="Bologna">Bononiam</placeName>, in itinere suo <placeName
+                        ref="Roma">Romam</placeName> versus, transiturum, perceperim, non omittendum
+                    duxi, quin meis te salutarem, atque ad ultimas tuas nonnulla rescriberem.</p>
+                <p rend="indent">Quod negotium illud, tuæ fidei secreto commissum, tam diligenter
+                    procurare non degraveris, summas tibi habeo debeoque gratias. Et placet sane
+                    ista ratio, quam proponis, de Excellentissimo illo <persName ref="Baldo"
+                        >BERNARDINO BALDO</persName> Urbinate, Guastallæ Abbate, qui vitas
+                    Mathematicorum conscribere proposuit. Ibi enim id, quod molimur, quam
+                    commodissime inseri poterit. Cuperem tamen (quod et antea rogavi) primas
+                    conceptiones mecum communicari, ut meum etiam aliquale iudicium interponam, ex
+                    quo res meæ nemini rectius quam mihi <app>
+                        <lem wit="#TBOO">ipsi</lem>
+                        <rdg wit="#A">ipso</rdg>
+                    </app> constare possint. Carmina in mei gratiam concinnata, et ulterius, quam
+                    priora <pb ed="TBOO" n="VIII.395"/>erant, aucta, <persName
+                        ref="Brahe, Tycho junior">filius</persName> monstrabit. Si quid in prioribus
+                    mutatum est, potest hinc restitui, et ea quæ ibi desiderantur compleri. Cætera
+                    tuæ prudentiæ et benevolæ erga me voluntati committo.</p>
+                <p rend="indent">Quod Illustrissimus et Reverendissimus <persName
+                        ref="Cardinalis SS. Quattuor">Cardinalis SS. QUATUOR</persName>, Vir procul
+                    dubio eximiæ et variæ doctrinæ, rerumque Mathematicarum amantissimus, Eclipsin
+                        &#x2609;<hi rend="sup">lis</hi> Anni 98, qua licuerat diligentia,
+                    observârit, perlubenter accepi, grataque est eorum, quæ ipsius Dominatio
+                    Illustrissima denotavit, mecum communicata descriptio, licet ob serenitatis
+                    raritatem, tam præcise <pb ed="A" n="1v"/>omnia (uti voluerit) designare
+                    nequierit. Gaudeo, atque hisce studijs plurimum congratulor, quod <placeName
+                        ref="Roma">Romæ</placeName> inter Illustrissimos etiam Cardinales
+                    reperiantur, qui Divinam Astronomiam (uti vel ex hoc solo liquet) in precio
+                    habeant. Hæc Eclipsis <placeName ref="Uraniborg">Uraniburgi</placeName> in
+                        <placeName ref="Denmark">Dania</placeName> meis adhuc isthic residuis
+                    Instrumentis observata est in mea absentia. Habitabam enim tunc prope <placeName
+                        ref="Hamburg">Hamburgum</placeName>, ubi serenitas requisita eius
+                    apparentias satis accurate rimandi non affulsit. Quæ vero in dicto <placeName
+                        ref="Uraniborg">Uraniburgo</placeName> animadversa sunt, in adiuncta charta
+                    habes, unâque mei calculi Epilogismum, prout is ex novissima restitutione nostra
+                    in motu Luminarium diductus est. Quin et huius Anni Eclipsin &#x2609;<hi
+                        rend="sup">larem</hi>, quæ 10 die Iulij contigit, simul assignavi, tam quoad
+                    observationem quam calculum meum reformatum, ut cum vestris in <placeName
+                        ref="Italy">Italia</placeName> considerationibus, sive a prænominato
+                    Illustrissimo Cardinale, sive te ipso, aut quovis alio habitis, conferri queat.
+                    Erues ex hisce quos nunc mitto numeris aliam rationem, eandemque exactiorem,
+                    quam prior erat, in curriculo Lunari eiusque Phænomenis præfiniendis.</p>
+                <p rend="indent">Non ignoravi, Tabulas illas Lunaris motus, quas a Nobili iuvene
+                        <persName ref="Tengnagel">FRANCISCO TENGNAGLIO</persName>, meo domestico,
+                    accepisti, immaturas esse; ideoque eas tunc temporis tibi mittere inconsultum
+                    duxi. Præterquam enim quod ob rerum mearum, cum e <placeName ref="Denmark"
+                        >Dania</placeName> discederem, conturbationem, ea quæ de &#x263E;<hi
+                        rend="sup">â</hi> prius conceperam, diligentius examinare nequierim, ij
+                    etiam numeri, qui a quodam studiosorum meorum, Typographo cuidam imperito
+                        <placeName ref="Hamburg">Hamburgi</placeName>, post meum discessum, commissi
+                    sunt, admodum negligenter et depravate imprimebantur, ut omnem istum laborem
+                    frustraneum habuerim. <pb ed="A" n="2r"/>Dum vero aliquantisper in <placeName
+                        ref="Sachsen">Saxonia</placeName> postmodum subsisto, clementissime id
+                    concedente <persName ref="Rudolf 2.">Cæsarea Maiestate</persName> (quæ me
+                        <placeName ref="Praha">Pragam</placeName> vocârat) donec pestis in
+                        <placeName ref="Bohemia">Bohemia</placeName> remitteret, Tabulas illas
+                    Prostaphæresium Lunarium denuo ad scrupula secunda diligentissime supputari
+                    feci; ubi non saltem ille, de quo tu mones, sed et alij errores, negligentia tam
+                    supputatoris, quam Typographi prius commissi, satis mihi patuerunt. Sed cum ne
+                    sic quidem apparentiæ Lunares hinc derivatæ cœlesti normæ tam præcise
+                    congruerant, prout desiderabam, aliam inivi rationem, et nactus melius hîc in
+                        <placeName ref="Bohemia">Bohemia</placeName> otium, tam Hypothesin Lunaris
+                    motus, quam ei super<pb ed="TBOO" n="VIII.396"/>structos numeros denuo
+                    redintegravi, omniaque huc facientia nunc prælo adorno. Quæ ubi Typis absoluta,
+                    et Progymnasmatum Astronomicorum e nostris Tomo primo debito loco inserta
+                    fuerint, te eorundem, unâ cum toto libro, qui Solaris quoque motionis normam
+                    expedit, et millenas circiter fixas stellas accurate emendat, reddam participem.
+                    Interea hanc intervenientem morulam candide accipe. Licet autem Tabulæ illæ
+                    priores, Lunam concernentes, non exactæ fuerint, nec mihi ipsi suffecerint,
+                    tantam tamen deviationem, quantam tu in supputatione trium exemplorum, quæ in
+                    Epistolis Astronomicis reperiuntur, inducere videris, non admittunt, prout
+                    repetitio calculi iuxta nostram sententiam hisce adiungenda (modo Legatus,
+                    opinione citius, non abierit) te edocebit. Ubi vero librum nostrum
+                    Progymnasmatum, cuius <pb ed="A" n="2v"/>memini, nactus fueris, omnia plenius et
+                    subtiliori indagine inde percipies. Tabulam illam primi mobilis universaliorem a
+                    te ad singula 10 minuta extensam si per occasionem mecum communicaveris, rem
+                    gratissimam præstiteris. Ego vicissim nonnulla ex meis, sive prælo absoluta vel
+                    secus, data oportunitate, retribuam.</p>
+                <p rend="indent">Ephemerides tuas 10 Annorum postremo emissas <placeName
+                        ref="Frankfurt am Main">Francofurto</placeName> accepi. Nihil in ijs, quod a
+                    prioribus differat, te correxisse animadverto, sed solummodo quædam supplementi
+                    loco addidisse, mea equidem opinione non inutilia. Facis spem reliquorum 20
+                    Annorum mox subsequentium, quos pariter obtinere averem.</p>
+                <p rend="indent"><persName ref="Origanus">ORIGANUM</persName> illum, <placeName
+                        ref="Frankfur an der Oder">Francofurtensem ad Oderam</placeName>
+                    Mathematicum et Ephemeridum supputatorem, in hisce tuis ultimo editis necdum,
+                    prout meruit, redarguisti, facturus fortassis idipsum in residuo Ephemeridum
+                    Tomo. Mihi sane eximia tua diligentia in hac pragmateiâ semper placuit, eamque
+                    alijs commendare non desino. Et abhorret animus ab ijs, qui philautia quadam et
+                    arrogantia moti aliorum labores vel levissima de causa insectantur, sæpe nodum
+                    in scirpo quærentes; sed accidit ijs, nec iniuria, quod Comicus aiebat: dicendo
+                    quæ volunt, rursus quæ nollent audiunt. Quod Tabulas primi mobilis præstantiores
+                    procul dubio, quam hactenus habuimus, mediteris, probo, utque Opus illud lucem
+                    publicam mature videat, exopto.</p>
+                <p rend="indent">De Heliacis emersionibus et occultationibus Planetarum et fixarum
+                    non est, quod admodum sis sollicitus. <pb ed="A" n="3r"/>Res hæc præcisione rata
+                    tractari nequit, eo quod limites illi multifariam varient, non saltem ratione
+                    diversæ inclinationis sphæræ, sed prout aëris puritas in quovis Horizonte maior
+                    minorve fuerit. Nec est in omnibus stellis fixis primæ aut secundæ magnitudinis,
+                    par ratio, uti neque in cæteris: differentia etiam non minima incidit, prout
+                    stellæ in parallelo aliquo Horizontis, a loco ubi Sol oritur vel occidit, versus
+                    meridiem aut septentrionem, plus minusve distiterint. Et Planetæ, prout
+                    visibiles diametros, iuxta &#x260c; vel <pb ed="TBOO" n="VIII.397"/>&#x260d;
+                        &#x2609;<hi rend="sup">lis</hi> occasione variæ remotionis a Terra alterant,
+                    nonnihil etiam discriminis pariunt, Latitudine ipsorum, quæ necdum satis
+                    comperta est, etiam difficultatem non postremam ingerente, ut ob id hoc
+                    negotium, per se etiam non admodum necessarium, vix a quoquam iusta amussi
+                    extricari posse autumem. Unde etiam in eo hactenus curiosam operam non locavi.
+                    Crepusculorum terminos quoad &#x2609;<hi rend="sup">lem</hi> a veteribus
+                    Astronomis constitutos, mediocriter bene se habere animadverti. Nam &#x2609;<hi
+                        rend="sup">lem</hi> iuxta æquinoctia arcum crepusculi efficere part. 17½
+                    quam proxime, iam antea in <placeName ref="Denmark">Dania</placeName> comperi.
+                    An id in <placeName ref="Italy">Italia</placeName> et alibi, sub rectiore sphæra
+                    consentiat, indecisum relinquo. Ephemerides &#x2609; huius anni, aut nunc per
+                    filium, aut postmodum, si tam cito exemplum describi nequeat, obtinebis. Addidi
+                    4 annorum Ephemerides &#x2609; interea supputatas; ex his facile plures
+                    derivabis. Apogæum eius nunc versatur in P. 5 M. 40 &#x264b;: et Eccentricitas
+                    est P. 2 M. 9 qualium semidiameter Eccentrici 60. <pb ed="A" n="3v"
+                    />Longitudinem eius non ab inæquali Æquinoctiorum præcessione, qualem <persName
+                        ref="Copernicus">COPERNICUS</persName> frustra admisit, derivo, sed ab
+                    Æquinoctio simplici, quod proximis sæculis insensibiliter variat, et singulis
+                    nunc annis 51'' præcise, qualis etiam est fixarum motus, antevertit. Si vero
+                    Æquinoctiorum præcessio e Spica &#x264d; ad imitationem <persName
+                        ref="Copernicus">COPERNICI</persName> nunc constituenda foret, esset illa
+                    hoc ipso anno part. 28 M. 16 exuperans Copernicæam numerationem sexta Grad.
+                    parte, licet prima stella &#x2648; ab Æquinoctio verno non elongetur ultra
+                    Gradus 27 M. 37. Quæ discrepantia hinc originem trahit, quod <persName
+                        ref="Copernicus">COPERNICUS</persName> intervallum longitudinis Spicæ et
+                    primæ &#x2648; ex <persName ref="Ptolemaios">PTOLEMÆI</persName> abaco, non ipso
+                    cœlo (uti oportuit) perperam assumpserit, discrimine incidente M. 39, quod est
+                    intolerabile. Verum de his et similibus alias forte copiosius tecum philosophari
+                    licebit, ubi Opera mea Astronomica, quorum editionem, quantum in me est, urgeo
+                    et accelero, lucem publicam viderint. Plurima inibi invenies ab ijs, quæ
+                    hactenus in Astronomicis tradita sunt, non parum discrepantia.</p>
+                <p rend="indent">Si quid in elevationibus Poli illic in <placeName ref="Italy"
+                        >Italia</placeName>, cuius exactiorem Geographiam moliris, exploratum habes,
+                    aut (quod mallem) longitudinibus locorum rectius limitandis, id, quicquid est,
+                    mihi impertiaris velim. Conducerent huc ad longitudinis et Meridianorum
+                    differentias apposite determinandas Eclipses Lunares, modo aliquas ibi
+                    diligenter præteritis annis cœlitus denotatas in promptu haberemus. <pb ed="A"
+                        n="4r"/>Quod si non concedatur, attende diligenter per tua Instrumenta ad
+                    illam, quam hic labens annus subministrat, qui etiam in fine, statim a brumali
+                    Solstitio, quandam evidentem Solarem exhibebit, pariter apud vos studiose
+                    observandam, cuius calculum non minus quam Lunarem e numeris nostris, ijs, quæ
+                    prius pollicitus sum, subiungo, ut cum animadversione cœlesti isthic conferri
+                    queat, et certitudo numerationis nostræ explorari.</p>
+                <p rend="indent"><pb ed="TBOO" n="VIII.398"/>Instrumenta mea omnia, quibus in
+                        <placeName ref="Denmark">Dania</placeName> utebar, numero 28, modo hîc
+                        <placeName ref="Praha">Pragæ</placeName>, non longe ab Arce, in <persName
+                        ref="Rudolf 2.">Cæsaris</persName> quadam magnifice extructa domo, disposita
+                    sunt. Quod Colophonis loco indicare volui. Neque enim plura nunc scribere
+                    temporis penuria patitur. Id saltem peramanter te rogo, ut <persName
+                        ref="Brahe, Tycho junior">Filium meum</persName>, præsentium exhibitorem,
+                    tibi diligenter commendatum habeas, atque ut ea, quæ <placeName ref="Bologna"
+                        >Bononiæ</placeName> visu digna sunt, monstrari cures, eumque pariter
+                        <placeName ref="Roma">Romæ</placeName> tuis amicis et familiaribus
+                    commendes. Iamque te, Excellentissime Domine <persName ref="Magini"
+                        >MAGINE</persName>, quam optime et diutissime valere cupio. Dabantur
+                        <placeName ref="Praha">Pragæ Bohæmorum</placeName> Die 24 Ianuarij Anno
+                    1601.</p>
+                <lb/>
+                <p rend="rightMargin">Excellentiæ tuæ<lb/>studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
+                    propria scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

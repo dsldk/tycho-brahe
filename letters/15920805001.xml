@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>John Maitland</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 337-338</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>John Craig</persName>
+                    <placeName>Edinburgh</placeName>
+                    <date when="1592-08-05"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1592. 5. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-31" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VII.337"/><pb ed="A" n="51v"/>NOBILISSIMO ET CLARISSIMO
+                    VIRO D. TYCHONI BRAHE HVENÆ INSULÆ DOMINO, MATHEMATICO LONGE PRÆSTANTISSIMO.</opener>
+                <p><pb ed="A" n="51r"/>CLARISSIME D. TYCHO, in altero antilogiæ nostræ exemplarium,
+                    quæ ab eodem amanuensi descripta sunt, quorum primum ad te missum fuit, hæc
+                    errata reperiuntur: εδειξαι pro δεῖξαι. Ubi <persName ref="Scultetus">SCULTETI</persName> fit mentio, <hi rend="it">exprobas</hi>
+                    pro <hi rend="it">exprobras</hi>. Et cum artificium vestrum examinatur, <hi>ex his</hi> pro <hi>in his</hi>,
+                    ut in <hi>Cœlestibus</hi>: quæ si in tuo occurrant, vel similia, peto corrigas. Pro reliquis
+                    responsurus sum, nec discipulos tuos veriturus, imo ne præceptores tuos. Veritas
+                    et honestas mihi sufficient ad defensionem contra quoscunque. Et tamen, ut
+                    percurri obiter primum Tomum tuum, quamvis in multis a te dissentiam, cœpi
+                    potius tuam industriam et eximias virtutes admirari, ><pb ed="TBOO" n="VII.338"/>quam illarum
+                    iniuriarum, quæ nec te nec me digna fuere, recordari. Clementissimus Deus cœptis tuis benigne faveat et ad optatum exitum perducat.
+                    Datæ 5 Augusti <placeName ref="Edinburgh">Edinburgi</placeName>.</p><lb/>
+                <p rend="rightMargin">IOAN. CRAIGIUS<lb/>Doctor Medicus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

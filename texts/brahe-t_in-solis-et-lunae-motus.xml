@@ -1,0 +1,1939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>In solis et lunæ motus restitutos ac sequens diarium prolegomena / 
+          Forord til solens og månens genetablerede bevægelser og den følgende almanak</title>
+        <title xml:lang="en">In solis et lunæ motus restitutos ac sequens diarium prolegomena / 
+          Preface to the reestablished movements of the Sun and the Moon and to the following
+          almanac</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository>Österreichische Nationalbibliothek</repository>
+                <idno>cod. Vindob. lat. 10686.3</idno>
+              </msIdentifier>
+          </msDesc></witness>
+          <witness xml:id="m.1">huius manuscripti manus prior</witness>
+          <witness xml:id="m.2">huius manuscripti manus posterior</witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+              Tom. V, Hauniæ 1923, p. 165-189</bibl>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation><date>1598</date></creation>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>astronomi</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-01-30" who="#pz">Filen etableret</change>
+      <change when="2020-02-19" who="#pz">tekst importeret</change>
+      <change when="2020-02-24" who="#pz">Opmærket og korrekturlæst. Tekstkritik
+        indlagt</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div n="Epistola dedicatoria" xml:id="epistola-dedicatoria">
+        <head>
+          <orig><pb ed="TBOO" n="V.165"/><pb ed="A" n="1r"/>AD AVGVSTISSIMVM IMPERATOREM
+          <persName ref="Rudolf 2.">RVDOLPHVM SECVNDVM</persName> TYCHONIS BRAHE
+          PRÆFATIO.</orig>
+          <reg>Epistola dedicatoria</reg>
+          <reg xml:lang="en">Epistola dedicatoria</reg>
+      </head>
+        <p>CUM Mechanicam Astronomiæ partem Instrumentorum, Obseruationes Siderum
+          accurate rimantium, descriptionem complectentem, et præterea Inerrantium
+          Stellarum exquisitam restitutionem Canonice expositam, Cæsareæ Tuæ
+          Maiestati, <persName ref="Rudolf 2.">IMPERATOR AVGVSTISSIME</persName>,
+          duobus prioribus libris subiectissimo animo obtulerim, dedicarimque,
+          consequens erat, ut de Planetarum etiam redintegratis motibus nonnulla
+          pariter subiungerem. Quare non intermittendum duxi, quin etiam aliqua in
+          his, proût tempus nunc fert, una præstarem. Inter omnes autem 7. Planetas,
+          ex quo SOL et LVNA, præcipua et maxima Mundi Luminaria, principalem et
+          maximam quoque prærogatiuam obtineant, ab ijs primo ordiri, atque eorum
+          motiones hoc libro ad biennium proximum tanquam in exemplo ob oculos ponere,
+          atque Imperatoriæ Tuæ Maiestati subiectissime dicare animus est. Quæ etiam
+          consideratio post Affixarum Stellarum uerificationem, proxima iuremerito
+          esse debet, et reliquorum quinque Planetarum expositionem antecedere. Licet
+          enim ex Sole Inerrantium limites præfiniendi sint; utpote qui suo ductu
+          Eclipticam designet, eiusque terminos in transitu per Æquatorem ordinet,
+          unde Longitudines stellarum deducuntur, quemadmodum Latitudines earundem, ex
+          distantia utrinque ab Ecliptica numerantur: Attamen cum Cœlum Stellatum,
+          quod octauam Sphæram nuncupant, omnium Planetarum, adeoque ipsius Solis
+          circuitus ambiat atque includat, non inconueniens erat, eius stellarum, quæ
+          Fixæ dicuntur, redintegrata loca tractatui de Sole præmittere; tum quoque
+          Lunæ ab ipso Sole pro maiori parte dependenti; licet et hæc ad Fixarum
+          inquisitionem intermediante Sole, proût a Veteribus factitatum est, aliquo
+          modo conducat, cum sit diei noctisque particeps. Quod etiam Veneris Stellæ
+          nonnunquam competit, unde quoque ab hac potius quam Luna, cum omnia
+          expeditius magisque indubitate præstet, idipsum efficere consultius duximus,
+          quemadmodum id ê Tomo nostro primo Progymnasmatum Astronomicorum liquet.
+          Quin et hîc non respicimus, quo ordine quid prius uel posterius sit, aut
+          inuestigari debeat; sed, ac si singula iam explorata notaque essent, ea,
+          proût distributio conueniens exigit, collocamus, ita ut Inerrantes Stellæ,
+          quæ numero plurimæ sunt, ab Erraticis dirimantur, easque præcedant,
+          quemadmodum etiam in dispositione uniuersi has excedunt, multisque modis ab
+          ijs <pb ed="TBOO" n="V.166"/>differunt; omniumque earum <pb ed="A" n="1v"
+            />Reuolutiones suo ambitu (uti dixi) comprehendunt. At inter Planetas æquum
+          est, de Sole et Luna primum agere, non saltem ob dignitatis et officii
+          præeminentiam, qua Regibus et Reginis in hac Politia terrestri assimilantur;
+          sed et insuper, quod Sol cæterorum Dux sit, eorumque iter suo incessu
+          moderetur: Et Luna eius socia prærogatiuæque consorte, quæ Solem quoque tam
+          lumine quam motu principaliter respicit, secundas partes haud iniuria
+          obtinente. Quæ etiam ad Planetarum apparentias denotandas non parum adfert
+          subsidij, cum in quilibet reuolutione menstruâ singulorum loca inuisat atque
+          pertranseat.</p>
+        <p rend="indent">De Sole itaque et Luna nunc speciatim tractabimus: reliquorum
+          Planetarum considerationem et Cœlesti harmoniæ analogas motiones in aliud
+          peculiare opus reicientes. </p>
+        <p rend="indent">Exhibui autem in Progymnasmatum nostrorum Astronomicæ
+          instaurationis libro primo circa initia, Tabulas nouas ê Cœlestibus
+          obseruationibus demonstratiue deductas, quæ Solis et Lunæ curricula ad
+          proxima aliquot secula succincte et accurate suppeditant. Et quamuis ex his
+          Luminarium loca ad quoduis interea propositum tempus supputari queant; tamen
+          cum res hæc laboriosa quodammodo sit, et perplexitate quadam inuoluta;
+          præsertim quoad Lunam; ita ut utriusque Luminaris motum non satis prompte
+          oculis proponat absque calculi tædio: Idcirco utriusque diarium motum ad <app>
+            <lem>Annum</lem>
+            <rdg><q>hunc Annum</q> m.1: <q>hunc</q> del. m.2</rdg>
+            </app> 1598, et alium mox <app>
+            <lem>insequentem</lem>
+            <rdg><q>insequentes</q> m.1</rdg>
+            </app> usque <app>
+            <lem>ad</lem>
+            <rdg>m.2: <q>in</q> m.1</rdg>
+          </app> incipientem a Christo nato 16 Centenarium iuxta Dionysij Abbatis
+          communiter receptam sententiam numeratione retenta, utut ea uno Anno
+          deficere a recentioribus temporum criticis probetur; calculo ex dictis
+          Tabulis subducere, atque in Ephemeridibus oculis exponere lubuit; quo
+          facillima esset loci utriusque horum in Meridie singulorum dierum ad certum
+          Meridianum cognitio; tum quoque eorum, quæ loca hæc et motiones intermedias
+          proprie respiciunt, atque ab ijs deriuantur; appositis etiam ubique ab
+          utroque hactenus recepto calculo <persName ref="Alfonso 10."
+            >Alphonsino</persName> nimirum et <persName ref="Copernicus"
+            >Coperniceo</persName> incidentibus differentijs, quô, quanta sit eorum
+          a nostra restitutione, adeoque ipso Cœlo, unde eam hausimus, discrepantia,
+          intuitui prompte obuium sit; superaddidimus deinceps nonnullas Tabulas, quæ
+          ad Solis Lunæque motuum rationem, atque in usum applicationes conferunt.</p>
+        <p rend="indent">Plurium uero Annorum pari ratione institutam circa Luminarium
+          motus calculationem breui (uolente Deo) per otii commoditatem continuabimus,
+          et <persName ref="Rudolf 2.">Cæsareæ Tuæ Maiestati</persName>, submisse
+          exhibebimus; quod tam cito propter loci mutationes et rerum mearum per
+          discessum ê <placeName ref="Denmark">Patriâ</placeName> inexpectatas
+          conturbationes, absoluere non licuit, alijs etiam de nostris in hac
+          sublimiori arte laboribus hîc interruptis et conquiescentibus, donec
+          prospiciente Cœlestium authore ex hoc quasi nau<pb ed="TBOO" n="V.167"
+            />fragio in portum tutum delati fuerimus, quod <pb ed="A" n="2r"/>uel te
+          uno, Potentissime et Clementissime <persName ref="Rudolf 2."
+            >Cæsar</persName>, auspice et fautore fieri posse confidimus. Volui
+          autem hunc biennalem calculum non diutius supprimere, aut usque in
+          sequentium aliquot Annorum completionem mecum reseruare, ut interea per
+          idoneos artis alumnos de certitudine in restitutis, tam quoad Solem, quam
+          Lunam, nostris motibus experimentatio Instrumentis requisitis institui
+          possit, eaque rite explorata, reliquorum Annorum Ephemerides eo auidius
+          expeti, atque in usum <app>
+            <lem>adhiberi</lem>
+            <rdg>post adhiberi add. <q>Qua etiam de causa circa calcem huius libri
+                rationes indigitabimus, quibus haec Pragmatείa quoad ratam
+                experientiam utrobique instituenda ueniat</q> m.1, sed haec
+              verba deleta sunt.</rdg>
+          </app>. Quia uero in subsequentibus Προλεγομένοις de ijs, quæ Luminaria et
+          hasce eorum Ephemerides concernunt, fusius tractamus, et Diarij ipsius
+          Methodum atque contenta; tum quoque eorum, quæ subsequuntur, Canonum, una
+          cum omnium horum usu luculenter explicamus, non duco operæprecium, hîc
+          prolixius de talibus agere, atque <persName ref="Rudolf 2.">Imperatoriam
+            Tuam Maiestatem</persName>, alijs grauissimis Imperij, cuius caput est,
+          administrandi occupationibus et curis onustam, ulterius, quam par est,
+          detinere, saltem quâ possum submissione, et quâ decet subiectione rogans, ut
+          <persName ref="Rudolf 2.">Tua Cæsarea Maiestas</persName> hanc quoque
+          nostram opellam hoc libro contentam non minus quam ea, quæ prioribus duobus
+          subiectissime exhibuimus, Clementissimo suo fauore suscipere, meque una cum
+          his, quæ diu multumque molior, exercitijs Astronomicis sub suâ tutelâ et
+          promotione quam commendatissimum habere non dedignetur. Quamprimum
+          reliquorum quinque Planetarum, ex multorum Annorum, quas in promptu habeo,
+          certissimis obseruationibus diducta Phænomêna in competentes Canones, non
+          minus, quam circa Solem et Lunam præstitum est, redegerimus; ita ut
+          numeratio motuum eorum a Cœlesti tramite, proût usitatis in Tabulis plus
+          sæpenumero, quam credi posset, committitur, non exorbitet; horum etiam
+          restitutionem et motuum expositionem <persName ref="Rudolf 2.">Cæsareæ Tuæ
+            Maiestati</persName> humillime offerre, et pariter illos diurnis suis
+          motionibus adaptare atque oculis representare decreui, adiunctis quoque,
+          ueluti hîc, ab utroque recepto calculo, <persName ref="Alfonso 10."
+            >Alphonsino</persName> nimirum et <persName ref="Copernicus"
+            >Coperniceo</persName>, digressionibus, ut hæc una cum ijs, quæ nunc
+          præmitto, quasi Prodromi loco uiam sternant, ad integrum illud Astronomicæ
+          instaurationis, quod intendimus, Opus siue Theatrum; quod etiam, fauente
+          Cœlestium Opifice, <persName ref="Rudolf 2.">Cæsareæ Tuæ
+            Maiestatis</persName> auspiciis, Orbi, adeoque toti Posteritati
+          consecrare in animum induximus, ut præter ea, quæ nunc damus, quæque antea
+          absoluimus, diuina illa Astronomia, multo exactior, locupletior et
+          absolutior, quam unquam antea in communem totius Christianismi et Reipub.
+          literariæ ubique gentium usum, sub <persName ref="Rudolf 2.">Cæsareæ Tuæ
+            Maiestatis</persName> nomine et patrocinio prodeat, promulgetur, uiuat
+          et floreat. Quod quam honorificum, non saltem <persName ref="Rudolf 2."
+            >Cæsareæ Tuæ Maiestati</persName> (quatenus eius gloriæ per se ingenti
+          quippiam accedere potest) sed etiam <pb ed="A" n="2v"/>toti Imperio, cui
+          feliciter præest, <pb ed="TBOO" n="V.168"/>futurum sit; et quam grata mente
+          ab omni posteritate excipiendum, eam non latere arbitror, maloque ab alijs,
+          quam a me dici. Poterit uero in his uel sola, Amplissimæ et laudatissimæ
+          memoriæ <persName ref="Alfonso 10.">Regis Alphonsi</persName>, a quo
+          originem ducis, recordatio atque exemplum, te mouere et admonere; qui ob
+          illas, quas Regiâ suâ liberalitate construi fecit Tabulas, a se etiam
+          denominatas, utut omnibus suis numeris non constantes, nec Cœlestibus
+          apparentijs, quâ decuit amussi, correspondentes, perenne nomen et ipsi Cœlo,
+          unde diductum, coæuum supra alia a se præclare gesta effulgens, magisque
+          durabile consecutus est; ut de pluribus in Clarissima Tua Familia
+          Imperatoribus, Regibus et Principibus, qui Astronomica in precio habuerunt,
+          atque hinc gloriosam famam tam uiui quam apud posteros obtinuerunt, nihil
+          nunc, breuitati studens, addam.</p>
+        <p rend="indent">Sed desino <persName ref="Rudolf 2.">Imperatoriam Tuam
+            Maiestatem</persName> per se Mathematicis rebus impense et Clementissima
+          uoluntate fauentem, earundemque laudabiliter peritum hisce
+          commonefactionibus atque alloquijs ulterius interpellare. Deus Opt. Max.
+          pulcherrimi huius Theatri Mundani Author, et Conseruator, <persName
+            ref="Rudolf 2.">Cæsaream Tuam Maiestatem</persName>, Reipub. bono, et
+          liberalium artium, præsertim harum sublimium et reliquas longe
+          præcellentium, commodo ac promotioni plurimos in Annos felici regimine et
+          profperâ ualetudine gubernet, sustentet et conseruet. <placeName
+            ref="Wandsburg">Wandesburgo</placeName> ex Arce Ranzouianâ quæ est in
+          limitibus <placeName ref="Germany">Germaniæ</placeName> et <placeName
+            ref="Jylland">Cimbricæ Chersonnesi</placeName> sub initia Anni 1598.</p>
+      </div>
+      <div n="Prolegomena" xml:id="prolegomena">
+        <head>
+          <orig><pb ed="TBOO" n="V.169"/><pb ed="A" n="3r"/>IN SOLIS ET LVNÆ MOTVS
+            RESTITVTOS AC SEQVENS DIARIVM PROLEGOMENA.</orig>
+          <reg>Prolegomena</reg>
+          <reg xml:lang="en">Prolegomena</reg>
+        </head>
+        <p><lb/>SOL et LVNA, ambo Mundi huius uisibilis LVMINARIA magna, quemadmodum
+          etiam a Moyse in creationis historia appellantur, ita, ut alterum, nimirum
+          SOL, diei, alterum, utpote LVNA, nocti præsit: Quod et ab Astrologis <app>
+            <lem>ambobus</lem>
+            <rdg><q>illis</q> m.1</rdg>
+          </app> tribuitur, testante idipsum communi experientiâ: hæc (inquam)
+          illustria Orbis uniuersi Lumina a Diuinâ <app>
+            <lem>sapientiâ</lem>
+            <rdg><q>architectatrice</q> posuit post <q>sapientia</q> m.1</rdg>
+          </app> omnium rerum tam uisibilium quam inuisibilium architectatrice in
+          commodum et usum suarum creaturarum, ab initio condita sunt, atque in
+          liquido Cœlo disposita, ut fulgore suo faciem terrarum illustrarent: motu
+          uero Annos, menses et dies efficerent, atque insuper tam patentem quam
+          occultam in hæc inferiora ἐνέργειαν exercerent <app>
+            <lem>suasque significationes ederent</lem>
+            <rdg>om. m.1</rdg>
+          </app>. Cumque ea sint præcipuæ et maximæ dignitatis, utilitatis, et
+          efficaciæ inter omnia cætera Mundi conspicui corpora, dignissima sane sunt,
+          quæ ab homine, cuius de caussâ non minimâ ex parte condita, in
+          considerationem sublimem et <app>
+            <lem>perjucundam</lem>
+            <rdg><q>indefessam</q> m.1</rdg>
+          </app> ueniant; ipsâ etiam necessitate, ut eorum usus et commoditas exactius
+          ac sufficienter pateant, sic requirente. </p>
+        <p rend="indent">Jnter hæc duo SOL præcipuum et maximum Luminare, adeoque inter <app>
+            <lem>reliqua Mundana</lem>
+            <rdg><q>cetera Mundi</q> m.1</rdg>
+            </app> corpora nulli <app>
+            <lem>cedit</lem>
+            <rdg><q>cedens</q> m.1</rdg>
+            </app>; sed omnia sua magnitudine et Maiestate exuperans, adeoque <app>
+            <lem>ut</lem>
+            <rdg><q>ipsam</q> m.1</rdg>
+            </app> Terram <app>
+            <lem>quam incolimus</lem>
+            <rdg>om. m.1</rdg>
+            </app>, sua corputentiâ centies quadragies, iuxta nostra inuenta, <app>
+            <lem>uincat</lem>
+            <rdg><q>uincens</q> m.1</rdg>
+            </app>, <app>
+            <lem>dici</lem>
+            <rdg>post <q>dici</q> add. <q>autem</q> m.2, sed delevit</rdg>
+          </app> satis non potest, quantis officijs, quantisque usibus Vniuersitati
+          rerum præsto sit, potissimum uero Terrestri Globo, et omnibus in eo
+          existentibus tam animantibus quam uegetabilibus et mineralibus, <app>
+            <lem>ut de cœlestibus, quæ omnia etiam multis modis exsuperant, nihil
+              adducam</lem>
+            <note>om. m.1</note>
+          </app>. Js est, qui Annos et tempora suo indefesso exquisitoque curriculo
+          metitur; is est, qui Temporum discrimina et uicissitudines efficit, utpote
+          æstatis et hymnis, Veris et autumni; is est, qui dies et noctes,
+          intermediante Terrâ, alternatim parit. Quin et is mirifico suo calore omnia
+          <pb ed="A" n="3v"/>uegeta fouet, atque ad maturitatem deducit: Cuius
+          uires et efficacia <app>
+            <lem>haud</lem>
+            <rdg><q>non</q> m.1</rdg>
+          </app> saltem in aërem et Terræ superficiem; sed intima eius uiscera
+          penetrant; Jmo non solum Terrestria; sed et cœlestia quæque huic auscultant
+          hunc obseruant, ad huius Jmperium et quasi præscriptum incessus suos
+          moderantur: adeo ut Luna, eius quasi socia et soror, alterumque Noctis
+          Luminare ab eo lumen suum mutuetur, quod Terris impertitur; alias <app>
+            <lem>fere</lem>
+            <rdg><q>luce</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>orba</lem>
+            <rdg>post <q>orba</q> add. <q>et cassa</q> m.1</rdg>
+          </app>, aut saltem, si quod præterea habet, adeo languido et tenui prædita,
+          ut ad nos illud pertingere nequeat. Hinc est, quod <app>
+            <lem>ea faciem</lem>
+            <rdg><q>facies</q> m.1</rdg>
+          </app> uariet, <pb ed="TBOO" n="V.170"/>pro alio atque alio, quoad Solem,
+          positu, <app>
+            <lem>idque</lem>
+            <rdg>om. m.1.</rdg>
+          </app> in peculiare rerum Terrestrium et aquatilium emolumentum: Jlla etiam
+          motum suum motui Solis insigni obseruantiâ ita <app>
+            <lem>accommodat</lem>
+            <rdg><q>accomodat ita</q> m.1</rdg>
+          </app>, ut in omnibus nouilunijs et plenilunijs minorem suo orbiculari ductu
+          describat circuitum in quadraturis autem maiorem; Jdque quoad Circellum
+          illum, quem bis in mense peragrat quemque Epicyclum minorem uocamus; Vt de
+          cæteris nihil hîc addam in Hypothesi nostrâ <app>
+            <lem>libro et Capite primo Progymnasmatum Astronomicorum</lem>
+            <rdg>om. m.1</rdg>
+          </app> expositis. Sic idem SOL reliquos quoque quinque Planetas annuo
+          circuitu circumagit, atque in medio eorum incedens simplicem suum motum
+          singulis communicat, non aliter quam Apollo, cui etiam a Poëtis æquiparatur,
+          in medio Musarum, earum choreas et concentus pulchrâ harmoniâ moderatur,
+          atque in Orbem agit: Jmo non saltem Planetas omnes: sed remotissimas quoque
+          Stellas, quas inerrantes uocamus, is suo uigore <app>
+            <lem>imperio et motu</lem>
+            <rdg><q>et imperio</q> m.1</rdg>
+          </app> afficit; idque non tantum, quoad uarios earundem ortus et occasus,
+          emersiones et occultationes, annuatim recurrentes; sed et earum motum
+          uniformem <app>
+            <lem>dirigit</lem>
+            <rdg>om. m.1</rdg>
+          </app>. Dum enim is aliam atque aliam interiectis aliquot seculis describit
+          Eclipticam, quæ intersectione sua cum Æquatore in anteriora sensim
+          retrocedat, et maximam ad hunc inclinationem non nihil <app>
+            <lem>etiam</lem>
+            <rdg>om. m.1</rdg>
+          </app> uariet; fit hinc, ut omnes Stellæ Fixæ suas pariter mutare
+          Longitudines, atque in consequentia Signorum procedere; <app>
+            <lem>Latitudinem</lem>
+            <rdg>ante <q>latitudinem</q> add. <q>ac</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>insuper</lem>
+            <rdg><q>etiam</q> m.1</rdg>
+            </app> pro ratione <app>
+            <lem>uariatæ</lem>
+            <rdg><q>uariantur</q> m.1</rdg>
+          </app> obliquitatis Signiferi proportionabiliter alterare, animaduertantur.
+          De lumine <app>
+            <lem>quoque</lem>
+            <rdg><q>insuper</q> m.1</rdg>
+          </app> Fixarum, an id Solis beneficio habeant, an uero per se tali præditæ
+          sint, non dixerim. Sunt qui a Sole id saltem obtinere existiment. At ego,
+          eas proprio quidem gaudere lumine, quod tamen a Sole magis augeatur et
+          illustretur, potius crediderim. <pb ed="A" n="4r"/>Jdemque de Planetis
+          statuendum censeo. Obseruatum enim est aliquando ab Ægyptijs, cum aër esset
+          defæcatissimus, quasdam Fixas radios nonnullos instar lucidorum et tenuium
+          crinium in partem a Sole auersam emisisse. Et simile quid nonnunquam in
+          Planetis uisum, exceptâ Lunâ, ob corporis densitatem. Quare uerisimile est,
+          Stellas omnes, tam errantes quam Fixas, a Sole aliquid luminis sortiri:
+          quemadmodum <app>
+            <lem>etiam</lem>
+            <rdg>om. m.1</rdg>
+          </app> Cometarum caudæ in oppositam Solis partem quam proxime uergentes, id
+          non dissimili ratione probant; nisi quod hæc eductio, et radiorum Solis
+          penetratio in ijs manifestior sit ob corporis, quod transeunt, minus
+          perfectam et exaltatam compaginem; Jn stellis uero non nisi rarissima
+          admodumque tenuis, et solummodo in eo Terrarum tractu, ubi aër purissimus
+          esse potest, atque ab ijs insuper hominibus <app>
+            <lem>tantummodo</lem>
+            <rdg><q>solummodo</q> m.1.</rdg>
+            </app>, qui acutissimo uisu <app>
+            <lem>præpollent, idipsum animaduerti potest</lem>
+            <rdg><q>præpolleant conspiciatur</q> m.1</rdg>
+        </app>. </p>
+        <p rend="indent">SOL itaque tot et tantis, imo adhûc pluribus, quæ recensere
+          longum foret, gaudens prærogatiuis, tanquam Rex et Dux præcipuus in hoc <pb
+            ed="TBOO" n="V.171"/>Mundi theatro incedens, reliqua circumundique
+          disposita corpora moderatur, regit, illustrat, uegetat et fouet, indefesso
+          motu, inextincto lumine, et nunquam intermissâ efficaciâ. Vnde hunc plurimi
+          Ethnicorum etiam inter Philosophos (uti ê Plinio, et alijs uidere est) pro
+          Deo quodam habuerunt; cum inter creaturas et Creatorem discernere
+          nequiuerint; et potius ex tam clari et admirandi corporis maiestate longe
+          adhûc maiorem; imo immensam et infinitam Maiestatis Diuinæ essentiam
+          colligere et admirari debuerint. Nec tamen insolens est, quod Filius Dei,
+          uera Lux illuminans huius Mundi tenebras, quatenus eam ferre potest, cum
+          Sole eiusque fulgore non incompetenter, quoad creatura Creatori, finitum
+          infinito assimilari potest, comparetur, adeo ut in nullis creaturis, tam
+          superioris quam inferioris Mundi, perinde eluceat admirandum quoddam
+          Diuinitatis, <app>
+            <lem>imo</lem>
+            <rdg><q>adeoque</q> m.1</rdg>
+          </app> ipsius Trinitatis uestigium, atque in ipso Sole, lucidissimo et
+          maximo Mundi <app>
+            <lem>corpore</lem>
+            <rdg>post <q>corpore</q> add. <q>calore suo reliqua fiuente, et motu
+                regente</q> m.1</rdg>
+          </app>, nisi quis Angelos et homines ob animarum immortabilitatem excipere
+          uolet. Atque hinc factum existimo, quod nonnulli ex sanioribus Philosophis
+          docuerint, hominis in hac Vitâ finem esse, <app>
+            <lem>ipsumque</lem>
+            <rdg><q>adeoque eum</q> m.1</rdg>
+            </app> ob id in Terris, Theatri Mundani meditullio, <app>
+            <lem>collocatum</lem>
+            <rdg><q>positum</q> m.1</rdg>
+            </app>, ut Solem intueatur, obseruet, et admiretur. <app>
+            <lem>Sub quo etiam eos reliqua mundi Ætherei luminosa et excellentissima
+              corpora intellexisse, tanquam de principaliori [men]tionem faciendo
+              et cætera subsumendo, verosimile est.</lem>
+            <rdg>om. m.1.</rdg>
+          </app>
+        </p>
+        <p rend="indent"><pb ed="A" n="4v"/>LVNA uero, alterum (uti dixi) Mundi <app>
+            <lem>inferioris</lem>
+            <rdg>om. m.1</rdg>
+          </app> Luminare, etsi post Solem secundas partes obtineat, et longe minoris
+          sit dignitatis ac roboris; tamen et hæc plurimum potest, <app>
+            <lem>et</lem>
+            <rdg><q>ac</q> m.1</rdg>
+            </app> ingentes habet <app>
+            <lem>efficacias</lem>
+            <rdg>om. m.1</rdg>
+          </app> atque utilitates, nec pauca meretur encomia. Quamuis enim stellis aut
+          Planetis reliquis quantitate et lumine <app>
+            <lem>proprio undiquaque nitente</lem>
+            <rdg>om. m.1</rdg>
+          </app> æquiparari nequeat; tamen uisibili suâ magnitudine et luce, quâ
+          Terras percellit, ijs omnibus <app>
+            <lem>amplior</lem>
+            <rdg>ante <q>amplior</q> add. <q>multo</q> m.1</rdg>
+            </app> et præstantior <app>
+            <lem>apparet</lem>
+            <rdg><q>est</q> m.1</rdg>
+          </app>. Atque hûc respexisse Moysen autumo, dum eam Luminare magnum noctis
+          nuncupat; id quod non de magnitudine uerâ, quâ cæteris Cœli corporibus <app>
+            <lem>ut plurimum</lem>
+            <rdg><q>pro maiori parte</q> m.1</rdg>
+            </app> inferior est; sed <app>
+            <lem>de</lem>
+            <rdg>om. m.1</rdg>
+          </app> apparente solummodo et luce fulgidâ, quâ Terram illuminat,
+          accipiendum censeo. Est enim Luna quadragies bis Terrestri Globo minor,
+          iuxta nostram dimensionem, alibi, <app>
+            <lem>in Progymnasmatum Capite septimo</lem>
+            <rdg>om. m.1</rdg>
+          </app> (quemadmodum etiam in Sole et reliquis stellis tam Fixis quam
+          Erraticis) expositam. Superatur uero a Sole ferme sexies millies, uno
+          millenario minus quam existimauit <persName ref="Copernicus"
+            >Copernicus</persName>, <app>
+            <lem>et adhuc majori differentia quam <persName ref="Ptolemaios"
+                >Ptolemæus</persName></lem>
+            <rdg>om. m.1</rdg>
+        </app>.</p>
+        <p rend="indent">Quemadmodum uero Sol Annos, sic hæc Menses, eorumque discrimina
+          celeriore curriculo metitur. <app>
+            <lem>Et licet</lem>
+            <rdg><q>Licet vero</q> m.1</rdg>
+          </app> respectu reliquorum Cœli corporum tam parua sit, uti diximus; tamen
+          ob uicinitatem Terræ, quâ etiam uisibilem diametrum adauget, <app>
+            <lem>ultra</lem>
+            <rdg><q>supra</q> m.1</rdg>
+            </app> ea <app>
+            <lem>omnia</lem>
+            <rdg>om. m.1</rdg>
+            </app> et nonnunquam <app>
+            <lem>aliquantulum</lem>
+            <rdg><q>aliquando</q> m.1</rdg>
+            </app> ipsum Solem <app>
+            <lem>quantitate apparenti</lem>
+            <rdg>om. m.1</rdg>
+            </app> se extendit. Maxima<pb ed="TBOO" n="V.172"/>rum <app>
+            <lem>insuper</lem>
+            <rdg>om. m.1</rdg>
+          </app> est uirium, et post Solem plurimum potest in hæc inferiora sibi
+          contermina; adeo, ut omnium Superiorum Siderum influentias hûc deducere,
+          easque <app>
+            <lem>extimulare et</lem>
+            <rdg>om. m.1</rdg>
+            </app> maturare, <app>
+            <lem>suffragante</lem>
+            <rdg><q>annuente</q> m.1</rdg>
+          </app> ipsâ experientiâ credatur. Atque hinc est, quod nonnulli
+          Philosophantium Lunam a Cœlestibus exemerint, et Elementaris potius naturæ
+          participem esse uoluerint; alij medium quoddam corpus inter Cœlestia et
+          Elementaria constituerint. Quod plausibilis foret, nisi motus eius, reliquis
+          Cœlestibus non saltem par; sed et hos sua uarietate uincens, reclamitaret;
+          ut de Moysis testimonio, qui eam non minus quam Solem ac reliqua Sidera in
+          liquido Cœlo collocatam profert, nihil hîc addam. Et quamuis per se lumine <app>
+            <lem>destituatur</lem>
+            <rdg><q>orba sit</q> m.1</rdg>
+          </app>, tamen id ipsum, quod a Sole mutuatur, ita crescendo et decrescendo
+          pro aliâ atque aliâ, respectu eius, dispositione temperat et uariat, prout
+          usibus inferioris Naturæ quam maxime <pb ed="A" n="5r"/>commodum est: Jdque
+          propterea albicans et languidius quam Solare euadit, minusque calidum, sed
+          potius humectans; adeo ut Luna fæmineam quandam naturam præ se ferat, prout
+          Sol uirilem. Vnde etiam in ea, quæ humida sunt, atque eius Naturæ analoga, <app>
+            <lem>efficacius uires suas exercet</lem>
+            <rdg><q>quam maxime operatur</q> m.1</rdg>
+          </app>. Hinc est, quod uniuersum Oceanum quater in unâ reuolutione diurnâ
+          attrahat, retrahatque; idque non paucorum cubitorum discrimine. Miraculo
+          sane ingenti; quasi uastissimum et ponderosissimum mare ipsius circuitibus <app>
+            <lem>catenatim</lem>
+            <rdg>om. m.1</rdg>
+          </app> alligatum esset, nullâ tamen intercedente solidâ aut uisibili
+          combinatione. Qui etiam fluxus atque refluxus pro uariâ Lunæ, quoad Solem,
+          constitutione; tum quoque alijs de caussis partim superioribus partim
+          inferioribus augetur atque minuitur. Sic etiam in humores, eius præsertim
+          sexus, qui illi assimilatur, <app>
+            <lem>menstruo</lem>
+            <rdg><q>mensurno</q> m.1</rdg>
+          </app> motu ciendos efficax est, et in omnium animantium cerebella (ijs enim
+          Luna præest, quemadmodum Sol cordibus) atque in <app>
+            <lem>ipsas</lem>
+            <rdg>om. m.1</rdg>
+          </app> medullas non parum obtinet uirium; adeo ut hæc ad Lunæ incrementum et
+          decrementum pariter augeantur et imminuantur. Fidem faciunt carnes piscium
+          conchas habentium, uti in ostreis, cancris et similibus; imo et in arboribus
+          ac fructibus pariter, licet id non adeo percipiatur, uidere est. Crises
+          quoque in morbis <app>
+            <lem>præsertim</lem>
+            <rdg>om. m.1</rdg>
+            </app> acutis, Lunæ transitus <app>
+            <lem>et influxus</lem>
+            <rdg>om. m.1</rdg>
+            </app> efficaciter <app>
+            <lem>patiuntur</lem>
+            <rdg><q>experiuntur</q> m.1</rdg>
+            </app>; ut de alijs <app>
+            <lem>morbis</lem>
+            <rdg>om. m.1</rdg>
+            </app> menstruas eius faces sentientibus, quales sunt <app>
+            <lem>Epileptici</lem>
+            <rdg><q>Ecliptici</q> m.1</rdg>
+            </app> et similes, <app>
+            <lem>qui in Syzig[ijs] euidentibus Lunæ cum Sole euidenter etiam sese
+              produnt,</lem>
+            <rdg>om. m.1</rdg>
+            </app> nihil <app>
+            <lem>superaddam</lem>
+            <rdg><q>dicam</q> m.1</rdg>
+          </app>. Quin et Epidemici morbi nouilunia et plenilunia aliter atque aliter
+          recipiunt, atque secundum hæc uel inualescunt, uel etiam sese remittunt; <app>
+            <lem>prout multiplex testatur experientia ip[si] etiam vulgo
+              perspect[a]</lem>
+            <rdg>om. m.1</rdg>
+            </app>. <app>
+            <lem>Quin et</lem>
+            <rdg><q>Ac</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>plurimas</lem>
+            <rdg>post <q>plurimas</q> add. <q>alias recensitu laboriosas et
+                prolixa</q>s m.1</rdg>
+          </app> Luna obtinet commoditates, atque in hæc inferiora uires; quas nemo
+          nisi sensu communi abutens, aut eo <app>
+            <lem>prorsus</lem>
+            <rdg>om. m.1</rdg>
+          </app> destitutus, uel qui datâ operâ manifestæ experientiæ contradicere
+          præsumit, inficiari potest; <app>
+            <lem>quas etiam omnes recensere et laboriosum et prolix[um] <pb
+                ed="TBOO" n="V.173"/>foret imo imperu...[?]</lem>
+            <rdg>om. m.1</rdg>
+          </app>. Et certe ostendunt singula pene nouilunia et plenilunia, tum quoque
+          intermediæ quadraturæ, quantum Luna ad Solem comparata in aëris
+          mutationibus, atque ijs quæ hinc deriuantur, possit; <app>
+            <lem>coöperante</lem>
+            <rdg>post <q>coöperante</q> add. <q>hîc</q> m.1</rdg>
+          </app> aliorum etiam Siderum ἐνεργεία, pro uariâ eorum dispositione, ita ut
+          generalis quartarum Anni Natura non parum hinc alteretur, intendatur uel
+          relaxetur. <pb ed="A" n="5v"/><app>
+            <lem>Sed desino de his pluribus agere, ex jam dictis satis manifestum
+              arbitrans,</lem>
+            <rdg><q>Et plurima alia Lunæ influentijs competunt, quæ omnia recensere
+                uix datur. Et quatenus ea constant, nimis etiam longum foret.
+                Quare liquidum euadit</q> m.1</rdg>
+            </app> Lunam inter reliqua Cœli corpora post Solem <app>
+            <lem>præcellere et</lem>
+            <rdg>om. m.1</rdg>
+          </app> plurimis pollere prærogatiuis et dotibus, quas tamen pro maiori parte
+          ab eo mutuatur, atque pro sui motus celeritate et luminis alteratione in
+          Elementa atque ex his composita uarie distribuit. Hinc est, quod quidam
+          allegorice rerum Naturam exponentes (quemadmodum etiam in scripturis
+          nonnunquam fit) Lunam Ecclesiæ in his Terris militanti, <app>
+            <lem>atque</lem>
+            <rdg>pst <q>atque</q> add. <q>eius</q> m.1</rdg>
+            </app> uarijs casibus et mutationibus <app>
+            <lem>obnoxiæ</lem>
+            <rdg>om. m.1</rdg>
+          </app> assimilent: quemadmodum Sol illius Domino et sponso Christo, ueluti
+          antea innuimus, confertur. </p>
+        <p rend="indent">Quapropter cum Sol et Luna, ambo Mundi maxima luminaria, tantæ
+          sint Maiestatis, luminis, roboris, et efficaciæ, eorum motus, per quos hæc
+          potissimum Terris impertiuntur, penitius <app>
+            <lem>inuestigare</lem>
+            <rdg><q>uestigare</q> m.1</rdg>
+          </app>, atque Terrigenis patefacere, magnum esse operæ precium et homine,
+          propter quem ea non postremâ ex parte ita condita et disposita sunt, studium
+          dignissimum, quis sanæ mentis, et hæc ipsa, proût merentur, introspiciens,
+          ire poterit inficias? Laborârunt itaque antiquissimi quique, inde ab Adæ
+          filijs et Patriarchis in hoc opere, atque omnes ingenij uires, omnesque
+          conatus eo redegerunt, ut Solis et Lunæ curricula ad amussim explorata
+          mortalibus traderent; cum sine his Annorum et mensium, aliorumque temporis
+          discriminum interualla constare non possent, et magna aliâs foret, cum in
+          historijs, tum communi et publicâ Vita confusio atque barbaries. </p>
+        <p rend="indent">Jnter eos uero, qui post antiquissimos Patriarchas et Patres
+          (quorum inuenta et traditiones iamdudum ob hominum ingratitudinem, <app>
+            <lem>quod dolendum est,</lem>
+            <rdg>om. m.1</rdg>
+          </app> obsoluerunt et prorsus interiêrunt) tam sublimem curam serio
+          susceperunt, præcipui fuêre (quantum quidem ad nos per literas relatum est)
+          <persName ref="Hipparchus">Hipparchus</persName>, <persName
+            ref="Ptolemaios">Ptolemæus</persName>, et Albategnius; atque post hos,
+          superioribus seculis, Rex Castiliæ et Legionis <persName ref="Alfonso 10."
+            >Alphonsus</persName>; tandemque post ipsum antecedente ætate <persName
+            ref="Copernicus">Nicolaus Copernicus</persName>, qui sane non
+          contemnendam in ijs nauârunt operam, sine qua etiam uix aliqua accuratior
+          emendatio institui posset. </p>
+        <p rend="indent"><pb ed="A" n="16r"/>Verum si liceat id, quod res est, dicere;
+          quodque ipsum Cœlum intelligentibus, et <app>
+            <lem>requisita</lem>
+            <rdg><q>ad amussim</q> m.1</rdg>
+            </app>, quæ hûc requiruntur, <app>
+            <lem>adhibentibus</lem>
+            <rdg><q>sectantibus</q> m.1</rdg>
+          </app> pandit et pro se etiamnum eloquitur, testari, uix ulli eorum
+          curricula Solis et Lunæ <app>
+            <lem>eâ præcisione extricârint</lem>
+            <rdg><q>ita extricârunt</q> m.1</rdg>
+            </app>, ut seculis plurimis, ne dicam omnibus, citra ullum dubium <app>
+            <lem>satisfecerint</lem>
+            <rdg><q>satisfecerent</q> m.1</rdg>
+          </app>. An eo ipso, quo uixerunt, tem<pb ed="TBOO" n="V.174"/>pore, illa,
+          quæ ex obseruatis prodiderunt, <app>
+            <lem>omni</lem>
+            <rdg>om. m.1</rdg>
+          </app> uitio caruerint, non dixerim. Licet enim non pauca sint, quæ me hîc
+          ambiguum reddant: tamen tantis Artificibus, quod quam proxime suo æuo rem
+          attigerint, lubentius subscribo, utut ubique rem acu (uti aiunt) fortassis
+          non tetigerint. <persName ref="Hipparchus">Hipparchus</persName> sane, qui
+          in his rimandis diligentissimus fuisse uidetur; quam in ipsis Æquinoctijs
+          deprehendendis uacillârit, uel inde constat, quod ex omnibus ab ipso
+          obseruatis nullum sit, quod non aut in meridie aut mediâ nocte, ortu aut
+          occasu Solis assignetur, quod tamen fieri in ipso Cœlo non potuit. Neque
+          enim his diurnæ reuolutionis cardinibus, Solis per Æquatorem transitus
+          ullatenus <app>
+            <lem>astrictus</lem>
+            <rdg><q>alligatus</q> m.1</rdg>
+          </app> est. Jmo hinc factum, quod ipsa Æquinoctia ab illo denotata, intra
+          quartam diei partem sibi ipsis non <app>
+            <lem>consentiant</lem>
+            <rdg><q>consenserint</q> m.1</rdg>
+            </app>, sed tantundem cis uel ultra <app>
+            <lem>claudicent</lem>
+            <rdg><q>claudicârint</q> m.1</rdg>
+          </app>. Quod sane nimium est, cum Sol interea Declinationem mutet decima
+          Gradus parte, et Longitudinem quartâ eiusdem. Cumque tantopere in
+          Æquinoctijs incertus fuerit <app>
+            <lem>magnus ille <persName ref="Hipparchus">Hipparchus</persName></lem>
+            <rdg>om. m.1</rdg>
+          </app> (quod et ipse ingenue agnoscit), qui, quæso, Solstitia accurate
+          deprehendere potuerit, quæ ob Declinationem insensibiliter uariatam sunt
+          inobseruabilia? <app>
+            <lem>nisi</lem>
+            <rdg><q>post <q>nisi</q> add. <q>quis</q> m.1</q></rdg>
+          </app> aliâ quâdam ratione ex uerificatis prius Fixarum locis per Venerem
+          aut Lunam usque in Solem deductâ animaduersione hoc negotium executus
+          fuerit, multis tamen difficultatibus obnoxium: <app>
+            <lem>Quod, prout a nobis aliquoties experimentatum est,</lem>
+            <rdg><q>At</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>si</lem>
+            <rdg> post <q>si</q> add <q>quis m.2, sed delevit</q></rdg>
+            </app> loca Æquinoctijs et Solstitijs intermedia <app>
+            <lem>assumpsit</lem>
+            <rdg><q>assumpserit</q> m.1</rdg>
+            </app>, certius quidem quam ex Solstitijs rem <app>
+            <lem>tentauit</lem>
+            <rdg><q>tentârit</q> m.1</rdg>
+            </app>. <app>
+            <lem>Cum tamen</lem>
+            <rdg><q>At cum</q> m.1</rdg>
+          </app> in Æquinoctijs, ubi Declinationes maxime uariant, tantopere deuiârit,
+          pronior sane in his locis, circa quæ ea minus alteratur, errori patuit <app>
+            <lem>occasio</lem>
+            <rdg><q>uia</q> m.1</rdg>
+          </app>, ut ob id statuere nequeam, an eâ, quâ oportuit, amussi, Apogæum et
+          Eccentricitas Solis a summo alias Viro <persName ref="Hipparchus"
+            >Hipparcho</persName>, <app>
+            <lem>deprehensa</lem>
+            <rdg><q>constituta</q> m.1</rdg>
+          </app> sint. Quibus rite se non habentibus, quid de exacto Solis motu, siue
+          simplici, siue apparente, sperandum sit, nôrunt harum rerum capaces. Taceo
+          quod incertum sit, an Parallaxeωs Solis rationem <pb ed="A" n="6v"/><app>
+            <lem>adhibuerit</lem>
+            <rdg><q>habuerit</q> m.1</rdg>
+          </app>, quæ nequaquam negligenda fuit. Retractiones certe eum omisisse, cum
+          nuspiam nec in ipsius, nec <persName ref="Ptolemaios">Ptolemæi</persName>
+          <app>
+            <lem>scriptis</lem>
+            <rdg><q>animaduersionibus</q> m.1</rdg>
+          </app> earum fiat mentio, dubium non est. Et quorsum hæc tam subtiliter
+          scrutaretur? cum Jnstrumenta, quibus usus est, uix tantam præcisionem
+          exhibuisse uerosimile sit, ut tam modicas uero loco Solis obrepentes
+          insinuationes præcauere <app>
+            <lem>potuerit</lem>
+            <rdg>post <q>potuerit</q> add. <q>aut necesse habuerit</q> m.1</rdg>
+          </app>. Nolo nunc subijcere de Prædecessorum eius antiquis obseruatis,
+          quibus pro fundamento et tanquam Epochis usus est, quorum si quæ latentia
+          fuêre uitia, in ipsas Hipparchj animaduersiones tacite redundârunt. Cum
+          itaque in Sole ipso nos tam dubios reddiderit tantus Artifex, quid de Luna
+          dicemus eius Socia, cuius motuum leges a Sole ordinantur, adeoque dependent,
+          ut sine ipso competenter constare nequeant? præterquam, quod ea alias per se
+          in <app>
+            <lem>exhibendis</lem>
+            <rdg><q>denotandis</q> m.1</rdg>
+          </app> suis motibus multis sit obnoxia anfracti<pb ed="TBOO" n="V.175"/>bus
+          et difficultatibus. Credibile tamen est, ingentem illum <persName
+            ref="Hipparchus">Hipparchum</persName>, quem supra mortalium sortem
+          natum deprædicat Plinius, ex plurimis collatis inuicem tam Antecessorum sub
+          rectiore illâ Sphærâ <app>
+            <lem>habitantium</lem>
+            <rdg>om. m.1</rdg>
+            </app> in Sole et Luna <app>
+            <lem>quam proprijs</lem>
+            <rdg>om. m.1</rdg>
+            </app> obseruationibus, <app>
+            <lem>quoad</lem>
+            <rdg>ante <q>quoad</q> add. <q>tam</q> m.1</rdg>
+          </app> Ecclipses et cætera loca, quâ licuit diligentia, obseruata Luminarium
+          curricula examinasse et correxisse: ita ut ad ducentos Annos eorum motiones,
+          teste Plinio Posteris <app>
+            <lem>reliquerit</lem>
+            <rdg><q>tradiderit</q> m.1</rdg>
+            </app>. De Anni uero Cœlestis ratione ab illo <app>
+            <lem>determinata</lem>
+            <rdg><q>decisa</q> m.1</rdg>
+          </app> (ut de mensibus nihil dicam) non parum mouet dubij, an ea tanta
+          fuerit, cum Posterorum, præsertim <persName ref="Albategnius"
+            >Albategnij</persName> obseruationes ei non adstipulentur. Attamen <app>
+            <lem><persName ref="Hipparchus">Hipparchianis</persName></lem>
+            <rdg><q>his</q> m.1</rdg>
+            </app> uti et <persName ref="Ptolemaios">Ptolomæus</persName> et <persName
+            ref="Copernicus">Copernicus</persName> necesse habuerunt, cum certiora <app>
+            <lem>in</lem>
+            <rdg><q>non</q> m.1</rdg>
+        </app> promptu non fuerint. </p>
+        <p rend="indent"><app>
+            <lem><persName ref="Ptolemaios">Ptolemæus autem</persName></lem>
+            <rdg><q>Ptolemæi certe</q> m.1; ante <q>Ptolemæus</q> add. <q>Vtinam
+                uero illi non adhûc magis dubia protulissent</q> m.1</rdg>
+          </app> circa Solis Apogæum et Eccentricitatem, adeoque eius maximam
+          Declinationem, <app>
+            <lem>sua</lem>
+            <rdg>om. m.1</rdg>
+            </app> placita, quæ omnia eadem cum <persName ref="Hipparchus"
+            >Hipparcho</persName> constituit, ab <app>
+            <lem>hoc deriuasse</lem>
+            <rdg><q>eo potius deriuata</q> m.1</rdg>
+            </app>, et pro lubitu <app>
+            <lem>assumpsisse potius uidetur</lem>
+            <rdg><q>assumpsisse potius uidetur</q> m.1</rdg>
+            </app>, uti etiam Anni <app>
+            <lem>quantitatem eandem</lem>
+            <rdg><q>quantitatis eadem</q> m.1</rdg>
+          </app> prorsus cum <persName ref="Hipparchus">Hipparcho</persName>
+          <app>
+            <lem>retinuit</lem>
+            <rdg><q>retenta</q> m.1</rdg>
+            </app>, quam <app>
+            <lem>quod</lem>
+            <rdg>post <q>quod</q> add. <q>hæc</q> m.1</rdg>
+          </app> proprijs et renouatis obseruationibus accurate hæc explorata
+          habuerit, ut pace tanti Viri Astronomorum antesignani, et de hac scientiâ
+          alias optime <pb ed="A" n="7r"/>meriti, id quod res exigit dicere liceat.
+          Hinc, quid fidei adhibendum sit <app>
+            <lem>Solis et</lem>
+            <rdg>om. m.1</rdg>
+            </app> Lunæ <app>
+            <lem>motionibus</lem>
+            <rdg><q>motui</q> m.1</rdg>
+            </app> ab <app>
+            <lem>illo</lem>
+            <rdg><q>ipso</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>numeratis</lem>
+            <rdg><q>conformato</q> m.1</rdg>
+            </app>: quid Ecclipsibus tam ueteribus quam <app>
+            <lem>recentibus, quas citat</lem>
+            <rdg><q>Neotericis ab eo citatis</q> m.1</rdg>
+            </app>, quid denique cæteris hûc pertinentibus, quiuis intelligens facile <app>
+            <lem>dispiciet</lem>
+            <rdg><q>despicit</q> m.1</rdg>
+        </app>.</p>
+        <p rend="indent"><persName ref="Albategnius">Albategnius Aratensis</persName>
+          post septem secula <persName ref="Ptolemæus">Ptolemæum</persName> secutus,
+          admodum diligens fuit in expendendis Solis Lunæque curriculis; ut credibile
+          sit, eum circa Solis Apogæum et Eccentricitatem, reliquumque motum certius
+          quid adinuenisse quam ipsum <persName ref="Ptolemæus">Ptolemæum</persName>;
+          Et in Lunæ quoque <app>
+            <lem>curriculo scrutando</lem>
+            <rdg><q>erroribus scrutandis</q> m.1</rdg>
+          </app> diligentiam non postremam adhibuisse; uti et in Anni ac mensium
+          quantitatibus limitandis. At cum <persName ref="Ptolemaios"
+            >Ptolemæi</persName> obseruata pro basi habuerit, ijsque nimium confisus
+          sit, fieri potuit, ut, si non <app>
+            <lem>ex semetipso</lem>
+            <rdg><q>per semetipsum</q> m.1</rdg>
+          </app>, saltem hac occasione nonnihil a scopo deflexerit: Instrumentorum
+          etiam insufficientiâ et <app>
+            <lem>lubricâ</lem>
+            <rdg>post <q>lubricâ</q> add. <q>qua usus est</q> m.1</rdg>
+            </app> obseruandi viâ, difficultatem unâ cum uacillatione <app>
+            <lem>aliqua</lem>
+            <rdg>om. m.1</rdg>
+        </app> ingerente. </p>
+        <p rend="indent">Serenissimus et Potentissimus itaque Rex Castiliæ et Legionis
+          <persName ref="Alfonso 10.">Alphonsus</persName>, quum pene collapsum
+          motuum Cœlestium scientiam animas aduertisset, Heroïco, et uere Regio ausu
+          atque intentione, conuocatis multis hinc inde artificibus, eius
+          redintegrationi liberaliter prouidit. At cum illi nullas peculiares
+          Obseruationes, quantum quidem scitur, cœlitus deductas, <app>
+            <lem>ad manus</lem>
+            <rdg><q>in promptuu</q> m.1</rdg>
+          </app> habuerint, quibus tantum negocium citra erroris suspicionem
+          fundarent, id quod proximum erat, et fieri potuit, <app>
+            <lem>solummodo</lem>
+            <rdg>om. m.1</rdg>
+            </app> effecere; ita ut <app>
+            <lem>collatis</lem>
+            <rdg><q>collocatis</q> m.1</rdg>
+          </app>
+          <persName ref="Ptolemaios">Ptolemæi</persName> et <persName
+            ref="Albategnius">Albategnij</persName>, tum quoque <persName
+            ref="Thebitius">Thebitij</persName>, et <persName ref="Asrael"
+            >Azraëlis</persName> annotatis, hinc Canones illos, qui ex optimo illo
+          et liberalissimo <persName ref="Alfonso 10.">Rege</persName> eorum <app>
+            <lem>Mecænate</lem>
+            <rdg><q>Mæcenate</q> m.1</rdg>
+            </app> Alphonsini merito deno<pb ed="TBOO" n="V.176"/>minantur, <app>
+            <lem>extruxerint</lem>
+            <rdg><q>extruxerunt</q> m.1</rdg>
+          </app>. Et licet per omnia id, quod laudatissimus ille Rex solerter
+          affectabat, assecuti non sint; tamen multo emendatiores motus Cœlestes, quam
+          antea, Posteris reliquerunt; præsertim quoad motus Luminarium, de quibus
+          nunc potissimum agimus. Nam Anni ratio, ab Alphonsinis constituta,
+          insensibiliter ferme a Cœlesti tramite differt, peneque uniuersalis est. Jn <app>
+            <lem>Apogæo</lem>
+            <rdg>TBOO: <q>Appogæo</q> A</rdg>
+          </app> quidem et Eccentricitate Solis, tum <pb ed="A" n="7v"/>quoque
+          quibusdam circa Lunam non nulla commiserunt, exactæ amussi non
+          correspondentia: quæ tamen præ antecedentium <app>
+            <lem>traditionibus</lem>
+            <rdg><q>costructionibus</q> m.1</rdg>
+          </app> minus dubia aut deuia forent, circa ea potissimum Tempora, quando hæc
+          ab ipsis ordinata sunt. </p>
+        <p rend="indent"><persName ref="Copernicus">Copernicus</persName> tandem, Patrum
+          nostrorum memoriâ huic arduo conatui sublimem curam adhibens nonnulla in
+          <persName ref="Ptolemaios">Ptolemæo</persName> et <app>
+            <lem>Prædecessoribus</lem>
+            <rdg>post <q>Prædecessoribus</q> add. <q>suis</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>ad sua tempora restituere</lem>
+            <rdg><q>emendare</q> m.1</rdg>
+          </app> nixus est. Et licet is scientiâ hûc requisitâ nullatenus
+          destitueretur, <app>
+            <lem>et</lem>
+            <rdg><q>sed</q> m.1</rdg>
+          </app> acri ingenio, profundoque præditus esset iudicio, tamen cum medijs et
+          Jnstrumentis satis exactis atque idoneis is <app>
+            <lem>non simul instructus esset</lem>
+            <rdg><q>destitueretur</q> m.1</rdg>
+          </app>, id quod affectabat, non obtinuit: antecessorum etiam
+          obseruationibus, quibus nimium confidebat, eum in Labyrinthos quosdam <app>
+            <lem>ex inopinato</lem>
+            <rdg>om. m.1</rdg>
+            </app> pertrahentibus, atque ita inuoluentibus, ut Anni nimiam <app>
+            <lem>irregularitatem</lem>
+            <rdg>post <q>irregularitatem</q> add. <q>inæqualitatemque</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>astrueret</lem>
+            <rdg><q>abstrueret</q> m.1</rdg>
+            </app>, quæ uel hisce temporibus uno necdum absoluto seculo sensibiliter <app>
+            <lem>in absurdum abit</lem>
+            <rdg><q>absurda euadit</q> m.1</rdg>
+          </app>, unaque præcessionis Æquinoctij intricata ab ipso admissa
+          inæqualitas, quæ cum Anni disparitate frustra colludit. Jdeoque Apogæum et
+          Eccentricitatem Solis, eiusque totum curriculum minus accurate dispositum
+          nobis reliquit; Et pariter in Lunâ discrepantiam a Cœlo <app>
+            <lem>non modicam</lem>
+            <rdg>om. m.1</rdg>
+          </app> commisit; quemadmodum uel solæ Ecclipses nostra ætate non longe ab
+          ipsius reformatione distante diligenter examinatæ, et cum ipsius calculo
+          collatæ liquido produnt: Cæterorum etiam Planetarum cursu in Cœlo aliter se
+          habente, quam ipsius præfiniunt Numeri. Quâ uero occasione tantus alias
+          Artifex in curriculo Solis non satis præcise <app>
+            <lem>explorato</lem>
+            <rdg>post <q>exprorato</q> add. <q>et in calculum redacto</q> m.1</rdg>
+          </app>, aberârit, primo Capite Progymnasmatum nostrorum aperuimus. Ex Solis
+          autem loco non rite præfinito nullæ aliæ tam in Lunam, quam reliquos
+          Planetas, tum quoque Fixas redundant <app>
+            <lem>deuiationes</lem>
+            <rdg><q>diuagationes</q> m.1</rdg>
+            </app>; cum error hic <app>
+            <lem>per se</lem>
+            <rdg>om. m.1</rdg>
+            </app> fœcundus <app>
+            <lem>euadat</lem>
+            <rdg><q>sit</q> m.1</rdg>
+          </app>. Taceo nunc, quod Lunæ apparentias, eiusque Ecclipses, unde has
+          deduxit, non satis subtiliter et sufficienter <pb ed="A" n="8r"/>rimatus
+          sit; quod adeo sensibiles in eius motu tam quoad longum, quam latum a Cœlo
+          exorbitationes <app>
+            <lem>ipsius</lem>
+            <rdg><q>in eius</q> m.1</rdg>
+            </app> calculo <app>
+            <lem>subinde</lem>
+            <rdg><q>in dies</q> m.1</rdg>
+          </app> obrepentes satis superque probant, nondum unico (uti dixi) exhausto
+          seculo. Quid fiet in pluribus? Statuit is quidem, <persName
+            ref="Aristarchos">Aristarchj Samij</persName> placita iamdudum obsoleta
+          ad usum reuocans, (licet id silentio præterierit) Solem immotum quiescere <app>
+            <lem>apud</lem>
+            <rdg><q>circa</q> m.1</rdg>
+            </app> centrum Vniuersi, et terram circa <app>
+            <lem>eum</lem>
+            <rdg><q>eam Annuo motu</q> m.1</rdg>
+            </app> in <app>
+            <lem>Orbe quodam</lem>
+            <rdg><q>quodam Orbe</q> m.1</rdg>
+            </app>, quem magnum uocat, una cum sibi conterminâ Luna <app>
+            <lem>reuolutam</lem>
+            <rdg><q>ereuolutam</q> post <q>uocat</q> posuit m.1</rdg>
+            </app> efficere Annuum tempus, et eas uicissitudines <app>
+            <lem>parere</lem>
+            <rdg>om. m.1</rdg>
+          </app>, quas alias <pb ed="TBOO" n="V.177"/>Soli, (nec immerito) tribuimus.
+          Verum hæc speculatio, utut ingeniosa, et reliquorum Planetarum motionibus <app>
+            <lem>ob Epicyclos</lem>
+            <rdg><q>in Epicyclis</q> m.1</rdg>
+            </app>, quos tollit, <app>
+            <lem>excusandos</lem>
+            <rdg><q>excusandis</q> m.1</rdg>
+          </app>, haud inconueniens, re ipsa consistere non potest, uti alibi fusius
+          ostendemus. Et quantum ad <app>
+            <lem>Solem</lem>
+            <rdg><q>solis motum</q> m.1</rdg>
+            </app>, qui exurgit ut Gygas ad currendum uiam suam, uelut Dauid <app>
+            <lem>rex et Propheta</lem>
+            <rdg>om. m.1</rdg>
+            </app> de eo loquitur, <app>
+            <lem>ejus motum</lem>
+            <rdg><q>eam</q> m.1</rdg>
+            </app> hæc assumptio respectu <app>
+            <lem>nostri</lem>
+            <rdg><q>nostrum</q> m.1</rdg>
+            </app> non alterat, sed pari apparentiâ exhibet; adeo ut ipse <persName
+            ref="Copernicus">Copernicus</persName> promiscue hîc utatur appellatione
+          motus, nonnunquam Terræ, nonnunquam Soli eum attribuens, cum id, quod
+          intenditur, quo nimirum in loco Sol <app>
+            <lem>a nobis</lem>
+            <rdg>om. m.1</rdg>
+        </app> e Terris conspiciatur, eodem modo inde proueniat. </p>
+        <p rend="indent">Quæ uero hactenus dixi de <app>
+            <lem>incertitudine</lem>
+            <rdg><q>incertitudinibus</q> m.1</rdg>
+            </app> rej Astronomicæ adeoque circa ipsa Solis et Lunæ curricula, non satis <app>
+            <lem>scrupulose</lem>
+            <rdg>TBOO: <q>scrupolose</q> A</rdg>
+            </app> extricata, multo temporis tractu <app>
+            <lem>irrepente</lem>
+            <rdg><q>irrepentibus</q> m.1</rdg>
+          </app>, non ob id commemorata uolo, ac si uetustissimorum Astronomorum, et
+          antecessorum nostrorum inuenta ac labores Atlanticos eleuare cupiam, aut præ
+          nostris <app>
+            <lem>uilipendere</lem>
+            <rdg><q>uilipendam</q> m.1</rdg>
+          </app>: Iis enim plurimum deberi honoris et gratiæ, si quis alius, ego sane
+          semper existimaui, et <app>
+            <lem>etiamnum</lem>
+            <rdg><q>adhûc</q> m.1</rdg>
+          </app> existimo, atque ea, quæ ab ipsis tradita sunt, magnifacienda,
+          suspiciendaque; præsertim, cum exactiora in promptu non sint, <app>
+            <lem>statuo</lem>
+            <rdg>om. m.1</rdg>
+          </app>. Jmo nescio, an magis mirandum sit, quod uel hanc qualemcunque
+          certitudinem ab ijs Cœli interpretibus nobis quasi per manus traditam adepti
+          simus, quam quod nonnihil in <app>
+            <lem>talibus</lem>
+            <rdg><q>his</q> m.1</rdg>
+            </app> per se arduis et perplexitati non parum obnoxijs, nonnulla <pb ed="A"
+            n="8v"/>desiderentur; præsertim in tantâ hominum ingratitudine erga eos,
+          qui tam sublimes curas, torpentibus reliquis, animo sustinent, ut ob id non
+          immerito exclamet Plinius, atque hanc inhumanitatem deploret his uerbis: <hi
+            rend="it">Non sumus profecto grati erga eos, qui labore curâque lucem
+            nobis aperuere in hac luce, mirâque humani ingenij peste sanguinem et
+            cædes condere Annalibus iuuat, ut scelera hominum noscantur, Mundi
+            ipsius ignaris:</hi> sic ille de suâ ætate conquestus, a qua tamen hæc
+          nostra plurimum, quoad amorem et curam tam sublimium studiorum, degenerasse
+          uidetur. Verum has antecessorum deuiatiunculas ob id saltem inculco, quo
+          difficultas Artis huius pateat, utque, quam pronum sit in eâ nonnihil
+          aberrare, cum præcipuis etiam Artificibus tale quid <app>
+            <lem>euenerit</lem>
+            <rdg><q>obrepserit</q> m.1</rdg>
+          </app>, negocij molem non considerantibus, insinuem, simulasque ostendam,
+          quanta diligentia hûc annitendum sit, ut omnia exacto, <app>
+            <lem>citra erroris vestigium constent,</lem>
+            <rdg>om. m.1</rdg>
+            </app> quatenus sensibus humanis subijciuntur; <app>
+            <lem>utque simul pateat, quam</lem>
+            <rdg><q>quamque</q> m.1</rdg>
+          </app> necessaria sit nostro etiam æuo motuum Solis et Lunæ, adeoque Anni et
+          temporum hinc prouenientium <app>
+            <lem>redintegratio</lem>
+            <rdg><q>restitutio</q> m.1</rdg>
+            </app>, ut omnia cœlesti normæ ad amussim quadrent, <app>
+            <lem>et</lem>
+            <rdg>om. m.1</rdg>
+          </app> ne nimis socordes et creduli Maiorum placitis, (quibus tamen sua
+          manet gloria et gratia) securius, quam res postulat, aquiescamus, atque his,
+          tanquam nulla amplius opus esset <app>
+            <lem>attentione</lem>
+            <rdg><q>animaduersione</q> m.1</rdg>
+          </app>, nimis confidenter contenti, exacti<pb ed="TBOO" n="V.178"/>ora et
+          ueriora non affectemus; utque simul (quod omnium primo dicendum foret)
+          Maiestatis Diuinæ inexhausta sapientia et prouidentia <app>
+            <lem>elucescat</lem>
+            <rdg><q>pateat</q> m.1</rdg>
+          </app>, quæ semper mortalibus aliquid denuo enucleandum peruestigandumque
+          suppeditat. </p>
+        <p rend="indent">At inferet <app>
+            <lem>hîc</lem>
+            <rdg>om. m.1</rdg>
+          </app> forte aliquis: si antecessorum inuenta et traditiones minus firmæ
+          sunt, et motus, qui ad alia secula ordinantur, <app>
+            <lem>his</lem>
+            <rdg><q>sis</q> m.1</rdg>
+          </app>, tanquam Epochis et fundamentis nituntur, quî fieri potest, ut
+          etiamsi exactiores, quam ab Antecessoribus forte factitatum est, obtineantur
+          animaduersiones, ut motus ad futura aliquot secula hinc deductj omni
+          ambiguitate careant? Difficilis equidem hic nodus est, nec parum nos torsit.
+          At <app>
+            <lem>enitendum</lem>
+            <rdg><q>præstandum</q> m.1</rdg>
+            </app> tamen <app>
+            <lem>hîc</lem>
+            <rdg><q>in hoc</q> m.1</rdg>
+          </app>, ut diffi<pb ed="A" n="9r"/>cultas quoad fieri possit tollatur, et
+          ueritas <app>
+            <lem>omni possibili</lem>
+            <rdg><q>qua licet</q> m.1</rdg>
+          </app> subtilitate enucleetur; nec ob id animus abijciendus, quod tot
+          obstent scopuli: sed declinandi illi potius, atque euitandi quâ datur Arte.
+          Vnde circumspecte limitatis Veterum obseruationibus, ijs præsertim, quæ plus
+          fidei merentur, et considerato simul in quâ parte Cœli <app>
+            <lem>acceptæ</lem>
+            <rdg><q>factæ</q> m.1</rdg>
+          </app> fuerint, quibus Parallaxibus et refractionibus obnoxiæ uel secus, quâ
+          Jnstrumenti formâ et certitudine <app>
+            <lem>conquisitæ</lem>
+            <rdg><q>acceptæ</q> m.1</rdg>
+          </app> sint, atque alijs eiuscemodi hûc conducentibus diligenter trutinatis,
+          eo perueniri posse mihi persuadeo, ut motus non solum Luminarium, sed
+          reliquorum etiam Siderum ad duo millia Annorum tantâ cum ipso Cœlo
+          concordantiâ extendi et præfiniri possint, quantam <persName
+            ref="Hipparchus">Hipparchi</persName> et <persName ref="Ptolemaios"
+            >Ptolemæi</persName> suppeditauit; si modo non adhûc præcisus. Qui uero
+          post tot secula uixerint eximij Artifices (modo Deo uisum fuerit, ut mundus
+          hic tamdiu consistat) ex collatione cum nostris Obseruationibus (quas
+          indubias esse <app>
+            <lem>promitto</lem>
+            <rdg><q>scio promittoque</q> m.1</rdg>
+            </app>) factâ, id quidquid erit minutulæ deviationis haud difficulter <app>
+            <lem>corrigent</lem>
+            <rdg><q>restituent</q> m.1</rdg>
+        </app>. </p>
+        <p rend="indent">Atque ex hac Reuolutionum Solis et Lunæ, cum omnibus suis
+          particularitatibus, necdum satis subtiliter exploratâ amussi factum est, ut
+          Anni cœlestis exquisitissima ratio necdum <app>
+            <lem>satis</lem>
+            <rdg><q>rite</q> m.1</rdg>
+          </app> innotuerit; adeoque eius cum Iuliano comparatio, in quantum uidelicet
+          hunc aliquot seculis anteuertat, eâ, quâ oportuit, præcisione institui
+          nequiuerit: Magno sane temporum rite ordinandorum incommodo. Jdem quoque in
+          Lunæ conuolutionibus atque mensibus hinc <app>
+            <lem>ordinatis</lem>
+            <rdg><q>diductis</q> m.1</rdg>
+          </app> euenit. Quæ fluctuatio et incertitudo effecit, ut Annus Iulianus
+          communiter usurpatus aliquoties castigatione opus habuerit, quodque de
+          correctione Calendarij Summi Viri semper cogitârint; adeo ut in multis
+          Concilijs inde a Niceno hæc quæstio sollicite agitata sit, uti et
+          superioribus temporibus in Lateranensi, ubi, teste ipso <persName
+            ref="Copernicus">Copernico</persName> in præfatione suarum Reuolutionum
+          ad <persName ref="Leo 10.">Leonem X. P. M.</persName> ob Annorum et Mensium
+          magnitudines et Solis Lunæque motus non satis exploratos, illud indecisum
+          mansit: seque <app>
+            <lem>ideo</lem>
+            <rdg><q>ob id</q> m.1</rdg>
+          </app> a Concilij illius Præside admonitum <pb ed="A" n="9v"/>postea
+          obseruandis Luminarium motionibus accuratius attendisse refert. Atque utinam
+          <pb ed="TBOO" n="V.179"/>optimi illius Viri, et rerum Astronomicarum
+          peritissimi, operam, Jnstrumentorum idoneorum defectus, et alia nonnulla, de
+          quibus alibi egimus, non elusissent, utique exactiores Annorum et Mensium
+          metæ, cursusque Solis et Lunæ rationes <app>
+            <lem>nunc constarent</lem>
+            <rdg><q>constitissent</q> m.1</rdg>
+          </app>, nosque magno labore et impendio tam temporis quam sumptuum liberati
+          fuissemus. Vtque alia nunc præteream, testabitur id Annorum primus
+          centenarius hunc subsequens, ubi Æquinoctium Vernum integro die et tribus
+          insuper horis rationes <persName ref="Copernicus">Copernici</persName>
+          <app>
+            <lem>eludet</lem>
+            <rdg><q>fallet</q> m.1</rdg>
+          </app>, <persName ref="Alfonso 10.">Alphonsino</persName> etiam calculo,
+          neque tunc, neque ante aut post, recte se habente, licet nonnunquam propius
+          accedat quam <app>
+            <lem><persName ref="Copernicus">Coperniceus</persName></lem>
+            <rdg><q>Copernicus</q> m.1</rdg>
+          </app>; quemadmodum hæc ex primo capite Progymnasmatum nostrorum
+          instaurationis Astronomicæ <app>
+            <lem>manifesta</lem>
+            <rdg><q>liquida</q> m.1</rdg>
+          </app> euadunt. Quin et hac de caussâ Excellentissimus ille Mathematicus
+          <persName ref="Regiomontanus">Johannes Regiomontanus Francus</persName>,
+          a Pontifice Romam euocatus est, Calendarij Ecclesiastici emendationem
+          laudabili proposito desiderante. Verum is morte præuentus, id quod
+          constituerat, non præstitit. Et sane uix unquam fuisset assecutus, quam diu
+          obseruationes accuratas et sufficientes in motu Solis et Lunæ (ut de Fixis
+          nihil dicam) in promptu non habuerit. Quod enim exactissimâ limâ hæc non
+          tractârit, utpote requisitis medijs destitutus, nec talibus longo usu
+          assuefactus, testari poterunt eæ, quæ sub ipsius et discipuli <persName
+            ref="QGualterus"><app>
+              <lem>Bernardi</lem>
+              <rdg>om. m.1</rdg>
+            </app> Gualteri</persName> nomine extant, <placeName ref="Nürnberg"
+            >Norimbergæ</placeName> a <persName ref="Schonerus">Johanne
+            Schonero</persName> editæ, obseruationes, rarissime sibi ipsis
+          constantes. Quod non ob id refero, quia <app>
+            <lem>excellentissimi <persName ref="Regiomontanus"
+                >Regiomontani</persName> uel discipuli ejus</lem>
+            <rdg><q>eius uel discipuli</q> m.1</rdg>
+          </app>
+          <persName ref="Gualterus">Gualteri</persName>
+          <app>
+            <lem>pariter omni laude dignissimi</lem>
+            <rdg>om. m.1</rdg>
+          </app> labores extenuare cupiam; Jmo optârim eiuscemodi plures extare, Est
+          enim aliquid prodire tenus, si non datur ultra. Exinde multi quidem
+          conquesti de <app>
+            <lem>Calendario</lem>
+            <rdg><q>Calendarij</q> m.1</rdg>
+          </app> ob Anni Juliani cum Solari, quæ diutino temporum tractu tacite
+          irrepsit, discrepantiam per Æquinoctiorum a statis diebus anticipationem;
+          tum quoque ob Lunaris motus perplexitatem, omnibus suis numeris ante hac
+          nequaquam <app>
+            <lem>extricatam</lem>
+            <rdg><q>constaret</q> m.1</rdg>
+            </app>. Verum qui <app>
+            <lem>medelam</lem>
+            <rdg><q>medellam</q> m.1</rdg>
+          </app> huic languori feliciter <pb ed="A" n="10r"/>adhiberet, non est
+          inuentus, antequam <persName ref="Gregor 13.">Gregorius XIII. P.
+            M.</persName> singulari industriâ, et magis secundis quam antecessores
+          auspicijs, id <app>
+            <lem>eximiâ laude</lem>
+            <rdg>om. m.1</rdg>
+            </app> aggressus, operâ cuiusdam Excellentis Mathematici <app>
+            <lem><persName ref="Lilius">Lilij</persName></lem>
+            <rdg>post <q>Lilij</q> add. <q>opus hoc</q> m.1</rdg>
+            </app> ante annos ferme 20, consummauit, atque suâ authoritate ita <app>
+            <lem>promulgauit et</lem>
+            <rdg>om. m.1</rdg>
+          </app> stabiliuit, ut per plærasque Orbis partes, Christianismum
+          profitentes, hæc redintegratio locum adinuenerit. Licet uero a multis uarie
+          disputatum sit de hac ipsâ Anni <app>
+            <lem>renouatâ</lem>
+            <rdg>om. m.1</rdg>
+            </app> formâ, quibusdam eam præ <app>
+            <lem>mera</lem>
+            <rdg>om. m.1</rdg>
+            </app> inscitia culpantibus, quibusdam <app>
+            <lem>(uti existimo)</lem>
+            <rdg>om. m.1</rdg>
+          </app> quod Pontifici hanc gloriam inuiderent, atque eius honori minus
+          fauerent, ex affectibus, quocunque tandem reperto prætextu, impetentibus:
+          nonnullis etiam, qui nimis subtiliter aut rigidius quam decuit, rem
+          ponderârunt, nodum in Scirpo quærentibus. <app>
+            <lem>Et quamuis</lem>
+            <rdg><q>Licet uero</q> m.1</rdg>
+            </app> non diffitear minutula quædam in hac Anni, adeoque <pb ed="TBOO"
+            n="180"/><app>
+            <lem>totius</lem>
+            <rdg>om. m.1</rdg>
+            </app> Calendarij restitutione obuia <app>
+            <lem>esse</lem>
+            <rdg>post <q>este</q> add <q>posse</q> m.1</rdg>
+          </app>, quæ cum Cœlesti harmoniâ non undiquaque satis scrupulose
+          consentiant; certum tamen est, eam illi quam proxime accedere, magnumque et
+          laudabile in hac præstitum esse operæprecium. Nam pro communi usu
+          Ecclesiastico et Politico, in quibus summa præcisio (quam ne ipsi quidem
+          Astronomi hactenus <app>
+            <lem>enodare sustinuerunt</lem>
+            <rdg><q>extricarunt</q> m.1</rdg>
+          </app>) non requiritur, mediocriter se habet. Quare etiam Eruditissimus ille
+          Mathematicus, <persName ref="Clavius">Christophorus Clauius</persName>
+          <placeName ref="Bamberg">Bambergensis</placeName>, hanc Anni et Calendarij
+          correctionem contra <persName ref="Mästlin">Michaëlem Mæsthlinum</persName>
+          <placeName ref="Tübingen">Tubingensem</placeName> Mathematicum in his etiam
+          disciplinis excellenter uersatum non citra rem <app>
+            <lem>meo sane judicio</lem>
+            <rdg>om. m.1</rdg>
+            </app> tutatus est. Etsi enim uterque, tam <persName ref="Clavius"
+            >Clauius</persName> quam <persName ref="Mästlin">Mæsthlinus</persName>,
+          de ijs, quæ ex Cœlestibus pendent, ipso Cœlo inconsulto sententiam lubricam
+          proferant; tamen liquet, ea quæ a <persName ref="Clavius">Clauio</persName>
+          dilutionis caussâ contra <persName ref="Mästlin">Mæsthlinum</persName>
+          <app>
+            <lem>adducuntur</lem>
+            <rdg><q>adferuntur</q> m.1</rdg>
+          </app>, multo rectius se habere, et pro communi usu, quantum necessitas
+          requirit, sufficere, donec meliora et ex ipso Cœlo <app>
+            <lem>penitus</lem>
+            <rdg>om. m.1</rdg>
+        </app> deducta demonstrataque, in eorum locum restituantur.</p>
+        <p rend="indent">Adducit <app>
+            <lem>jam memoratus</lem>
+            <rdg><q>etiam</q> m.1</rdg>
+          </app>
+          <persName ref="Clavius">Clauius</persName>
+          <app>
+            <lem>de mathematicis, si quis alius, præclare meritus</lem>
+            <rdg>om. m.1</rdg>
+            </app> probationis loco quoddam a nobis obseruatum Æquinoctij <app>
+            <lem>Verni</lem>
+            <rdg><q>Vernalis</q> m.1</rdg>
+          </app> tempus, Anno nimirum 1585, quam solam in toto illo Erudito libro
+          allegat Cœlestem animaduersionem cui nitatur. Vnde etiam conuincit, recte in
+          hac Anni Nëotericâ formâ factum esse, quod 10 dies omissi sunt; congruente
+          <pb ed="A" n="10v"/>uidelicet die Æquinoctij Anni restituti cum
+          Æquinoctio a nobis cœlitus denotata. De horis et scrupulis, quatenus aliqua
+          incidit differentia, ociosa hîc est curiositas. Consultius etiam facit
+          <persName ref="Clavius">Clauius</persName>, quod Anno medio, in quo
+          permodicum differunt <persName ref="Alfonso 10.">Alphonsus</persName> et
+          <persName ref="Copernicus">Copernicus</persName>, qualem etiam
+          reformatio ferme assumit, utatur. Nam difformitas illa, quam <persName
+            ref="Copernicus">Copernicus</persName> introduxit, existimans ad 7
+          proxime minuta augeri et imminui posse seculorum tractu Anni simplicem
+          quantitatem, in ipso Cœlo locum non <app>
+            <lem>satis</lem>
+            <rdg>om. m.1</rdg>
+          </app> meretur; sed obseruationum tam Veterum quam propriarum incuriâ hæc
+          diuagatio illi irrepsit; quæ proxime instantibus seculis, quando Anni
+          quantitas apud ipsum maxima est, euidentem prodet absurditatem, Æquinoctio
+          Verno ultra integrum diem (uti et antea insinuauimus) enormiter disposito.
+          Jdeoque frustrâ laborat <persName ref="Mästlin">Mæstlinus</persName>, ê
+          numeris Tabularum Prutenicarum <persName ref="Copernicus"
+            >Coperniceo</persName> fundamento innitentibus Anni renouati
+          restitutionem infirmare; cum potius hi infirmi sint, et ab ipso Cœlo plus
+          iusto deuient; ueluti quiuis expertus Astronomus, circa hæc et sequentia
+          tempora uiuens, qui prope Æquinoctia Declinationem Solis ad amussim dimetiri
+          atque in hunc usum probe applicare <app>
+            <lem>gnarus sit</lem>
+            <rdg><q>nouerit</q> m.1</rdg>
+          </app>, experietur. Quod et præteritorum Annorum considerationes confirmant.
+          Neque sane fieri potest, ut per eam limitationem, quæ a <persName
+            ref="Gregor 13.">Gregorio XIII.</persName> per <persName ref="Lilius"
+            >Lilium</persName> Mathematicum adhibita est, quâ tertio quolibet
+          centenario unus omit<pb ed="TBOO" n="V.181"/>titur bissextilis, ut intra
+          multa secula sensibilis aliqua enormitas sese rursus insinuet, nedum ut
+          decem dierum <app>
+            <lem>fiat</lem>
+            <rdg><q>fiet</q> m.1</rdg>
+            </app> iactura, qualis a tempore Niceni concilij hûc usque tacite <app>
+            <lem>irrepsit</lem>
+            <rdg><q>sese implicuit</q> m.1</rdg>
+          </app>. Fateor quidem (ut et antea monui) hanc renouatam Anni formam non
+          omnibus modis exacte illi scrupulositati respondere, quam Astronomica ex
+          ipso Cœlo <app>
+            <lem>deprompta</lem>
+            <rdg><q>diducta</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>requirit</lem>
+            <rdg><q>fert</q> m.1</rdg>
+          </app> subtilitas, (Nam quis, quæso, hoc facile præstiterit in tantâ
+          Obseruationum tam Veterum quam recentium lubricitate et penuria?) attamen
+          pro uulgari et publico (uti <app>
+            <lem>etiam intulimus</lem>
+            <rdg><q>diximus</q> m.1</rdg>
+          </app>) usu, non inconueniens est, multisque parasangis priorem illam
+          inueteratam formam antecellit.</p>
+        <p rend="indent">At si quis exactissimum quid in his præstandum duceret, <app>
+            <lem>idque ulla</lem>
+            <rdg><q>atque ulla id</q> m.1</rdg>
+          </app> efflagitaret necessitas; <pb ed="A" n="11r"/>posset utique adhûc alia
+          inueniri ratio, quâ omnia Cœlesti normæ, quantum in ullos sensus cadit,
+          apprime consentirent, <app>
+            <lem>et simul</lem>
+            <rdg><q>etiam</q> m.1</rdg>
+          </app> multorum seculorum ætatem sustinere possent. Atque meâ sententiâ
+          promptissimum, ipsique ueritati proximum hîc foret, ad futura aliquot
+          secula, restitutis, quâ fieri posset diligentiâ, tam Solis quam Lunæ
+          curriculis, ad certum aliquem Meridianum pro basi assumptum, supputare, ad
+          singulos Annos ingressus Solis in Æquinoctium Vernum, et plenilunium proxime
+          subsequens una diligenter inquirere, atque hinc diem Paschatis certo <app>
+            <lem>præfinire</lem>
+            <rdg><q>depromere</q> m.1</rdg>
+          </app>, et exinde reliqua festa mobilia, immobilia uero ex Die Natiuitatis
+          Domini, si is biduo Solstitium hybernum pariter calculandum <app>
+            <lem>sequi</lem>
+            <rdg>om. m.1</rdg>
+            </app> assumatur, <app>
+            <lem>rite disponendo</lem>
+            <rdg>om. m.1</rdg>
+          </app>. Hæc uero supputatio, ex nostrâ, in motu Solis et Lunæ, restitutione,
+          adeo certo et commode haberi poterit, ut intra duo millia Annorum in futurum
+          (modo Mundus tam diu durârit) nullam interuenturam, quæ sensibus <app>
+            <lem>admodum</lem>
+            <rdg>om. m.1</rdg>
+          </app> percipi queat, disconuenientiam, fidem interponere ausim. Et si qua
+          forte <app>
+            <lem>exigua</lem>
+            <rdg><q>leuicula</q> m.1</rdg>
+          </app> post plurima secula inciderit discrepantiola, ea facile per eius
+          ætatis Artifices, <app>
+            <lem>collatione</lem>
+            <rdg>post <q>collatione</q> add. <q>præsentium</q> m.1</rdg>
+          </app> cum nostris inuentis factâ, limitari et corrigi poterit. Atque hæc
+          ferme sola exquisita superest ratio, quâ omnia præcise in hac Pragmatείâ et <app>
+            <lem>reformatione tuto administrare</lem>
+            <rdg><q>constitutione exequi</q> m.1</rdg>
+            </app> liceat. Alias uix ulla hûc perueniendi Regia <app>
+            <lem>superest</lem>
+            <rdg><q>datur</q> m.1</rdg>
+            </app> uia. Licet compendia per Cyclos, aureos Numeros, <app>
+            <lem>Epactas</lem>
+            <rdg><q>exactas</q> m.1</rdg>
+          </app> atque similia solerter excogitata sint, ut labor supputationis
+          deuitetur, atque ijs qui in calculo Astronomico non sunt uersati, sic
+          indulgeatur; tamen, si omnia penitius introspiciantur, non <app>
+            <lem>præstant</lem>
+            <rdg><q>habent</q> m.1</rdg>
+          </app> hæc diuerticula et compendia sufficienter in recessu, quod primâ
+          fronte pollicentur; sed tandem in dispendia, post multas potissimum Annorum
+          collectiones abeunt, quamuis et in his ipsis quædam correctiones et
+          alterationes inueniri possint, quibus promptius et conuenientius idem
+          præstetur, atque aliorum imbecillitati et numerorum tædio succurratur,
+          quantum quidem Ecclesiæ et Politiæ usus requirit. </p>
+        <p rend="indent">Cæterum ut propius accedamus ad ea, quæ præsenti libro solum<pb
+            ed="TBOO" n="V.182"/>modo exequenda ostendendaque consti<pb ed="A"
+            n="11v"/>tuimus, quid is contineat, et quâ ratione dispositus sit,
+          qualemque usum habeat, nunc breuibus declarare aggrediemur. </p>
+        <p rend="indent">Primo per Titulum et inscriptionem indicamus, tractari de SOLIS
+          et LVNÆ Mundi Luminarium motu diurno ad <app>
+            <lem>duos Annos 1598 et 1599</lem>
+            <rdg><q>hunc labentem Annum 1598</q> m.1; post <q>duos</q> add.
+              <q>proximos</q> m.2, sed delevit</rdg>
+          </app> ex nostris obseruationibus, atque his fundatis Numeris exposito,
+          appositâ differentiâ utriusque calculi, tam Regis <persName
+            ref="Alfonso 10.">ALPHONSI</persName> quam <persName ref="Copernicus"
+            >Copernici</persName>, quorum Numeri nunc potissimum in usu sunt; idque
+          eam ob caussam, ut discrepantia utriusque non saltem a nostro calculo, sed
+          (quod idem censemus) ab ipso Cœlo eo facilius oculis subijciatur. <app>
+            <lem>Quam non leuem</lem>
+            <rdg><q>Quod non leue</q> m.1</rdg>
+            </app> esse ipsa indicatio <app>
+            <lem>sub conuenientibus titulis</lem>
+            <rdg>om. m.1</rdg>
+          </app> ostendit. Reducta autem sunt omnia ad Longitudinem locorum, quæ est
+          35 partium, qualem proxime habet occidentalior <placeName ref="Italy"
+            >Jtaliæ</placeName> pars iuxta inclytæ et amplissimæ <placeName
+            ref="Venezia">Venetorum Reipublicæ</placeName> tractus, atque sub
+          Meridiano quasi consimili: tum quoque per Medium totius <placeName
+            ref="Germany">Germaniæ</placeName> et <placeName ref="Denmark"
+            >Daniæ</placeName> Patriæ nostræ, ut de <app>
+            <lem><placeName ref="Norway">Noruegiâ</placeName></lem>
+            <rdg><q>Noruagiâ</q> m.1</rdg>
+          </app> et <placeName ref="Sweden">Sueciâ</placeName>, per quorum ferme
+          Regnorum intermedia idem Meridianus transit, nihil addam; adstipulante hîc
+          Præstantissimorum huius seculj Geographorum dimensione, quæ Meridianorum
+          differentiam a Capite uiridi, paulo ultra <placeName ref="Canary Islands"
+            >Insulas Canariæ</placeName> sito competentius, quam antea depromit, eo
+          quod obseruatum sit, sub illo quasi Meridiano lingulam magnetis in planum
+          meridiani Cœlestis ad amussim coincidere, nec ullam hinc inde, prout alibi
+          fit, <app>
+            <lem>Reflexionem</lem>
+            <rdg><q>Declinationem</q> m.1</rdg>
+          </app>
+          <app>
+            <lem>et</lem>
+            <rdg><q>atque</q> m.1</rdg>
+            </app> exorbitationem <app>
+            <lem>admittere</lem>
+            <rdg><q>mittere</q> m.1</rdg>
+            </app>. Atque hæc prima pagina generali iudicatione inscriptionis loco <app>
+            <lem>habet</lem>
+            <rdg>post <q>habet</q> add. <q>Altera mox subsequens medios motus
+                Luminarium siue eorundem Epochas ad Meridiem Calendarum
+                singulorum Mensium ex nostrâ restitutione ab Æquinoctio Verno
+                promit, subiunctâ etiam motus diurni et horarij numeratione.
+                Tertia Festa mobilia secundum renouatam Calendarij formam, tum
+                quoque ueterem illam exhibet; et simul præcipua quædam ex
+                mobilibus iuxta utranque rationem; siquidem pro ijs in ipsa
+                Ephemeride commodus non patuit locus. Adiecta etiam sunt quædam
+                alia communiter apponi solita, ne tritam uiam prorsus negligere
+                uideamur</q> m.1, sed hæc verba deleta sunt</rdg>
+        </app>. </p>
+        <p rend="indent"><pb ed="A" n="12r"/>Postmodum Eclipses tres huius Anni
+          depinguntur et Numeris exponuntur, nimirum binæ Lunares, quarum prior in
+          occasu, posterior iuxta ortum uisa est, et una Solaris intermedia, quæ
+          uersus Meridianum tendebat iuxta triplicem etiam calculi rationem, omnibus
+          consignatis, nimirum <persName ref="Alfonso 10.">Alphonsinam</persName>,
+          <persName ref="Copernicus">Coperniceam</persName> et nostram: quibus
+          subicitur <app>
+            <lem>pro Anno 1598</lem>
+            <rdg>om. m.1</rdg>
+            </app> in ijsdem Ecclipsibus diligens obseruatio, Lunarium quidem <placeName
+            ref="Wandsburg">Wandesburgi</placeName> prope <placeName ref="Hamburg"
+            >Hamburgum</placeName>, a me ipso facta, Solaris autem <placeName
+            ref="Uraniborg">Vraniburgi</placeName>, Jnstrumentis quibusdam meis
+          isthîc adhûc residuis. Quod non omittendum duxi (omnia ingenue et bonâ fide,
+          prout obseruationes oculares, adhibitis idoneis organis, præbuerunt,
+          referens) quo constare posset, quid ipsum Cœlum pro se testabatur, et
+          quomodo cum nostrâ restitutione conuenerit, quantaque utrarumque aliarum
+          supputationum fuerit disconuenientia: quæ sane non modica extitit. Nam in
+          Eclipsatione Lunæ, quæ die 20 Februarij stylo nouo accidit, 10 iuxta
+          Veterem, <persName ref="Alfonso 10.">Alphonsinus</persName> calculus a Cœlo
+          abundat horâ 1⅖, pene sesquialterâ: <persName ref="Copernicus"
+            >Coperniceus</persName> deficit per tres quartas unius horæ: Nostra
+          autem numeratio intra duo minuta insensibilia obseruationi correspondet.
+          Fuit enim iuxta animaduersionem Cœlestem in Meridiano <pb ed="TBOO"
+            n="V.183"/>assumpto ipsissimum deliquij medium H. 6. M. 0. a mediâ nocte
+          antecedente completâ. Visa autem est Luna tunc citra unum digitum defecisse,
+          congruente hic <persName ref="Copernicus">Coperniceo</persName> calculo
+          satis cum nostro; at <persName ref="Alfonso 10.">Alphonsino</persName> pene
+          totalem (quod nimium erat) suggerente. Altera Solaris magna, quæ die <app>
+            <lem>6</lem>
+            <rdg>TBOO: <q>7</q> A</rdg>
+          </app> Martij Anni renouati, sed 24 Februarij ueteri stylo, horis
+          antemeridianis uisa est, si obseruatio <placeName ref="Uraniborg"
+            >Vraniburgi</placeName> facta ad præsuppositum Meridianum redigatur,
+          medium obtinuisse deprehenditur H. 11 .M. 5. quod plane in ipso Minuto cum
+          nostrâ supputatione consentit. Abundat autem hîc <persName ref="Alfonso 10."
+            >Alphonsina</persName> numeratio 33 Minutis, paulo ultra horæ
+          medietatem: <persName ref="Copernicus">Coperniceus</persName> uero calculus
+          horâ 1. M. 18. <pb ed="A" n="12v"/>pene triente unius iusto anterior est,
+          qui nimium sane hic exorbitat, quemadmodum etiam in phase deliquij
+          exprimendâ, quam <app>
+            <lem>reddit</lem>
+            <rdg><q>facit</q> m.1</rdg>
+          </app> 10½ digitorum ab inferiore Solis parte; ita ut sesquialter digitus a
+          superiore lucidus remansisset; cuius tamen contrarium in ipso Cœlo patuit.
+          Defecit enim Sol ab inferiore parte quasi medio modo, inter nonum et decimum
+          digitum, prout etiam nostra ostendit dimensio, a qua non multum abest
+          <persName ref="Alfonso 10.">Alphonsina</persName>, quod potius per
+          accidens hîc contingit. Apparuit autem in hac Ecclipsi peculiare quid, et ab
+          antecessoribus nostris, quantum sciam, prius non animaduersum, (quod tamen
+          et antea in deliquijs Solaribus deprehendimus, atque hanc rationem Tabulis
+          nostris inseruimus) Lunam <app>
+            <lem>nimirum</lem>
+            <rdg><q>nimium</q> m.1</rdg>
+          </app> in nouilunijs, cum Soli secundum uisum copulatur, non obtinere eam
+          magnitudinem apparentem, quam alias habere solet, cum in pari a Terris
+          remotione plena est; sed quartam quasi partem illi abesse; ita ut nunquam
+          Solem totum obtegere possit; sed is Lunare corpus paululum ambiat, et in
+          Ecclipsibus non plane totalibus quasi corniculatim ultra medietatem ambiens
+          circumdet, quemadmodum ipsa figura ex nostrâ ment suratione ostendit: Qualis
+          etiam in ipso Cœlo huius deliquij circa maximam obscurationem Phasis in hoc
+          Boreali Terræ tractu iuxta eleuationem Poli 55 et 56 Graduum sese omnino
+          exhibuit, apud eos, qui tunc sereniore aurâ usi sunt. Vltima Ecclipsis Lunæ,
+          quæ die 16 Augustj noui Anni et <app>
+            <lem>Sextâ</lem>
+            <rdg>TBOO: <q>decimâ</q> A</rdg>
+          </app> ueteris circa orientalem cardinem patuit, medium habuit hora 7. M.
+          40. secundum obseruationem eo redactam; quod saltem duobus Minutis a nostra
+          rectificatione deficit; idque pene insensibile est. At <persName
+            ref="Alfonso 10.">Alphonsinum</persName> calculum per ¾ unius horæ
+          anteuertit; et <persName ref="Copernicus">Coperniceo</persName> paulo plus
+          etiam anterior est. Consideratione uero in his dignum, quod, quemadmodum in
+          priore Ecclipsi Lunari uerum deliquium cœlitus obseruatum, prout et nostrum
+          supputatum, medium quasi erat inter <persName ref="Alfonso 10."
+            >Alphonsinum</persName> et <persName ref="Copernicus"
+            >Coperniceum</persName> calculum; propius ta<pb ed="A" n="13r"/>men huic
+          quam illi accedens: sic in hac alterâ <app>
+            <lem>utriusque calculi</lem>
+            <rdg><q>uterque calculus</q> m.1</rdg>
+            </app> tam <persName ref="Alfonso 10.">Alphonsini</persName> quam <app>
+            <lem><persName ref="Copernicus">Copernicei</persName></lem>
+            <rdg><q>Copernici</q> m.1</rdg>
+            </app> numeratio <app>
+            <lem>sequitur nostram</lem>
+            <rdg><q>nostram sequitur</q> primum dedit m.2: om. m.1, quæ pro his
+              verbis <q>quam Alphonsini</q> præbuit</rdg>
+            </app>, <app>
+            <lem>quæ</lem>
+            <rdg><q>cuius contrarium prius eueniebat, nostra ratiocinatione</q>
+              m.1</rdg>
+            </app> intra bina minuta <app>
+            <lem>Cœlesti obseruationi con<pb ed="TBOO" n="V.184"/>sentire uisa
+              est</lem>
+            <rdg><q>ipsi apprime consentiente</q> m.1</rdg>
+          </app>. Atque hinc liquet, non esse certam aut æquabilem mensuram, quâ hic
+          uel ille calculus Cœlestem normam præcedat aut sequatur; sed id uario modo
+          fieri posse, tam ratione anterioris et posterioris temporis, quam etiam
+          quantitatis eiusdem. Quin et hoc uel ex his tribus Eclipsibus manifestum
+          euadit, quam dissentanea a Cœlo in nouilunijs et plenilunijs ordinandis
+          iuxta <app>
+            <lem>consuetas</lem>
+            <rdg><q>consueta</q> m.1</rdg>
+          </app> motuum Tabulas eueniant temporum momenta, quæ differentia sæpenumero
+          adhûc maior, <app>
+            <lem>quam in hisce Ecclipsibus ostensum est</lem>
+            <rdg>om. m.1</rdg>
+          </app> euadit. Vnde Calendarijs in reformatione et tempore Paschatis
+          ordinando <app>
+            <lem>haud</lem>
+            <rdg><q>non</q> m.1</rdg>
+          </app> parum scrupuli nonnunquam suboriri potest; siquidem unâ uel etiam
+          alterâ hora sic aberrare <app>
+            <lem>pronum est</lem>
+            <rdg><q>poterit</q> m.1</rdg>
+            </app> in plenilunio Æquinoctiali Pascha præcedente <app>
+            <lem>et</lem>
+            <rdg><q>atque ob id</q> m.1</rdg>
+            </app> designante. Quod si iuxta mediam noctem <app>
+            <lem>paulo ante uel post secus</lem>
+            <rdg><q>aut secus aliter</q> m.1</rdg>
+            </app> quam fert Numeratio ex Tabulis usitatis <app>
+            <lem>ceciderit</lem>
+            <rdg>om. m.1</rdg>
+            </app>, <app>
+            <lem>certe</lem>
+            <rdg><q>certo</q> m.1</rdg>
+          </app> integro pene Mense Pascha, aut anterius aut posterius quam fert
+          Cœlestis ratio, reponetur, dispendio nimis euidenti. Jtidem ex ingressu
+          Solis Æquinoctiali non rite iuxta analogiam <app>
+            <lem>Cœlestem</lem>
+            <rdg>om. m.1</rdg>
+          </app> administrato prouenire aliquando poterit. Quod hîc obiter, in re
+          tamen magni momenti, monere uolui. Quantitas huius deliquij apud me minor
+          fuit, quam iuxta <persName ref="Copernicus">Copernicum</persName>, paulo
+          autem maior quam apud <persName ref="Alfonso 10.">Alphonsum</persName>. Sed
+          cum totalis esset Ecclipsis, ipsâ etiam Lunâ, cum in medio umbræ Terrenæ
+          laborâret, necdum apud nos exortâ, ea discrimina obseruationi non <app>
+            <lem>patuerunt</lem>
+            <rdg>post <q>patuerunt</q> add. in marg. <q>De Ecclipsi Lunæ Anni 1599
+                nihil certi quoad observationem Cœlestem subjungere licuit,
+                siquidem competens serenitas</q> m.2, sed haec verba deleta
+              sunt</rdg>
+        </app>. </p>
+        <p rend="indent">Post Eclipsium descriptionem lubuit subiungere quatuor Anni
+          principaliorum temporum octogonica Cœli themata, quæ ad ingressus Solis in
+          quatuor cardinalia puncta Cœlestium signorum cum Planetis dispositionem
+          exhibet; idque triplici ratione; Primo iuxta Alphonsinam supputationem;
+          Secundo <persName ref="Copernicus">Coperniceam</persName>; tertio no<pb
+            ed="A" n="13v"/>stram, quo discrimen, quod non modicum est, in his etiam
+          pateat. Vsus autem sum potius octogonicâ Cœli totius per circuitum
+          uerticalem primarium <app>
+            <lem>diuisione</lem>
+            <rdg>om. m.1</rdg>
+          </app>, quam duodenariâ formâ, eo quod experientiâ compertum habeam, hunc
+          modum maioris esse quoad Mundanas præsertim influentias efficaciæ. Quod et
+          ratio dictitat ob anguli recti, et post hunc dimidij robur, adstipulante
+          etiam crebrâ experientiâ tam in fluxu atque refluxu maris quotidiano, quam
+          alijs <app>
+            <lem>inferioribus rebus</lem>
+            <rdg>om. m.1</rdg>
+            </app>. <app>
+            <lem>Quod</lem>
+            <rdg><q>Quo</q> m.1 ut videtur</rdg>
+          </app> autem non Æquatorem aut Ecclipticam sic subdiuiserim; sed potius
+          uerticalem illum primarium, ex intersectionibus mutuis Horizontis et
+          Meridiani; ideo factum est, quod ab ijsdem punctis nulli alij circuli tam
+          competenter et efficaciter subdiuidantur, quam is, cuius eadem puncta sunt
+          Poli, ut diuisio illa Orthogonalis existat, sicque totum Cœlum, cuius <app>
+            <lem>potissimum</lem>
+            <rdg><q>potissimus</q> m.1</rdg>
+          </app> habendus est respectus, æquales in partes distribuatur, atque
+          methodus hæc uniuersalis sit. Jdeoque hac quoque formâ in <app>
+            <lem>duodenariâ</lem>
+            <rdg><q>duodecima</q> m.1</rdg>
+            </app> Cœli subdiuisione libentius utor, repudiato <persName
+            ref="Regiomontanus">Regiomontani</persName> irrationali <pb ed="TBOO"
+            n="185"/>potius, quam rationali, (licet eum sic appellârit) modo. Quâ de
+          re alibi latius disseruimus. Has uero octogonicas figuras ad Eleuationem
+          Poli 50 partium consulto applicui. Talis enim non saltem per medium
+          <placeName ref="Germany">Germaniæ</placeName>, sed etiam <placeName
+            ref="Praha">Pragæ Bohemorum</placeName>, ubi est Regia sedes, in quâ <app>
+            <lem>Augustissimus</lem>
+            <rdg>om. m.1</rdg>
+            </app> Imperator <persName ref="Rudolf 2.">Rudolphus</persName>, ut plurimum <app>
+            <lem>degit</lem>
+            <rdg><q>moratur</q> m.1</rdg>
+          </app>. Porro differentia, quam dixi non modicam esse, inter hanc
+          tripartitam calculationem ita se habet, ut <app>
+            <lem>in Æquinoctio uerno</lem>
+            <rdg>om. m.1</rdg>
+          </app>
+          <persName ref="Alfonso 10.">Alphonsina</persName> deficiat a nostrâ <app>
+            <lem>Horis 6⅔</lem>
+            <rdg><q>⅔</q> (<q>unius</q> add. m.2, sed delevit) <q>horæ</q> m.1</rdg>
+          </app>, <persName ref="Copernicus">Copernicea</persName> uero abundet H.
+          14¼. Vnde fit, ut admodum disparia etiam euadant Cœli themata: Jn Alphonsinâ
+          formâ exoriente primâ decuriâ &#x264c;, in <persName ref="Copernicus"
+            >Coperniceâ</persName> medio &#x264a;: Jn nostrâ primâ decuriâ &#x264e;,
+          totâ Cœli et Planetarum dispositione dissimili admodum intuitu sese
+          exhibente. Jn Solstitiali ingressu Alphonsus a nobis non differt, nisi
+          tertiâ horæ parte, quam minus habet. At <persName ref="Copernicus"
+            >Copernicus</persName> abundat H. 6½. Vnde inter Alphonsum et nos parua
+          est in Cœli figuratione differentia, exoriente eodem signo <app>
+            <lem>nimirum</lem>
+            <rdg><q>nimium</q> m.1</rdg>
+          </app> &#x2652;. At <persName ref="Copernicus">Copernicus</persName>
+          <pb ed="A" n="14r"/>plurimum abest, et &#x264b;<hi rend="sup">um</hi> oriri
+          facit. Sic etiam in Æquinoctio Autumnali <persName ref="Alfonso 10."
+            >Alphonsina</persName> ratio quartâ saltem horæ parte nostrâ anterior
+          est, ascendente utrobique medietate quasi &#x2650;. A <persName
+            ref="Copernicus">Coperniceâ</persName> 2¼ horis excedit, et decuriam
+          &#x2651; tertiam in oriente collocat. Solstitium hybernum <app>
+            <lem>adhuc</lem>
+            <rdg>om. m.1</rdg>
+          </app> maiorem inter hos tres calculos ingerit differentiam. Efficit enim
+          <persName ref="Alfonso 10.">Alphonsum</persName> illud prius <app>
+            <lem>statuere</lem>
+            <rdg><q>ponere</q> m.1</rdg>
+          </app> nostro 5⅔ horis, <persName ref="Copernicus">Copernicum</persName>
+          uero ulterius producere H. 11¼. Hincque prouenit, ut, dum nobis oritur finis
+          &#x264d;, <persName ref="Copernicus">Copernico</persName> ascendat
+          contrarium signum, nempe initium &#x2653;, totaque Cœli forma inuertatur,
+          <persName ref="Alfonso 10.">Alphonso</persName> autem oriatur finis
+          &#x264b;, quemadmodum hæ <app>
+            <lem>omnes</lem>
+            <rdg>om. m.1</rdg>
+          </app> discrepantiæ latius ex inspectione singularum figurationum,
+          earundemque inter se collatione patent; sicuti etiam ex ijs, quæ lateraliter
+          explicationis caussâ annotauimus, uidere est; ubi differentiam quoque in
+          dominantibus Planetis breuibus iudicaui; et quæ hinc aut alias iuxta
+          Astrologorum coniecturas sequi possunt; quæ tamen parcius attigi, quoniam
+          uaticinationes Astrologicas hîc tractare non est animus: sed solummodo ea,
+          quæ ex certis obseruationibus demonstratiue comperta habeo, <app>
+            <lem>ut</lem>
+            <rdg>post <q>ut</q> add. <q>ea</q> m.1</rdg>
+          </app> cum aliorum placitis conferantur. Atque de ijs, quæ diarium
+          præcedunt, <app>
+            <lem>hæc explicationis loco sit</lem>
+            <rdg><q>sit explicationis loco</q> m.1</rdg>
+        </app> dixisse satis. </p>
+        <p rend="indent">Cæterum ut ea, quæ Diarium ipsum complectitur, breuibus etiam
+          explicentur, <app>
+            <lem>hæc ita</lem>
+            <rdg><q>ea in hunc modum</q> m.1</rdg>
+        </app> se habent: </p>
+        <p rend="indent">Superius indicantur singuli menses Anni Romani reformati cum
+          ijs, quotquot continent diebus. Jn primo autem latere descendendo, atque
+          columnâ eius primâ, alterâque, denotantur sigillatim dies eiusdem Mensis,
+          tam iuxta Neotericam rationem quam Veterem, in quibus noua numeratio primum
+          locum obtinet; <app>
+            <lem>ueteri</lem>
+            <rdg>ante <q>ueteri</q> add. <q>alterâ</q> m.1</rdg>
+          </app> subsequente. Jdem repetitur in alterâ paginâ ê Regione, duabus primis
+          columnis descendentibus. Postea sequuntur in priore facie sex aliæ distinctæ
+          columnæ, <pb ed="TBOO" n="V.186"/>quarum prima tripartita Solis longitudinem
+          ex nostrâ diligenti multorum Annorum animaduersione, atque hinc Geometrice
+          deductâ restitutione exhibet in gradi<pb ed="A" n="14v"/>bus, Minutis,
+          Primis atque Secundis.</p>
+        <p rend="indent">Altera mox sequens quadripartita, differentiam calculi
+          <persName ref="Alfonso 10.">Alphonsini</persName> et <persName
+            ref="Copernicus">Copernicei</persName> a nostrâ numeratione promit in
+          Minutis atque secundis: siquidem discrimen illud nusquam integros gradus
+          attingat. Referunt autem ibidem duæ priores distinctiones, deuiationem
+          <persName ref="Alfonso 10.">Alphonsinam</persName> a nostro calculo,
+          adeoque ipso Cœlo: Reliquæ duæ pariter <persName ref="Copernicus"
+            >Coperniceam</persName>. Vbi animaduertendum, quod quicunque numeri
+          infra literam P. ponuntur, eos omnes PLVS iusto habere sic indicatur. Quæ
+          uero infra literam M. MINVS. Jn his uero differentijs considerandum, quod
+          <persName ref="Alfonso 10.">Alphonsina</persName> digressio nuspiam 18
+          Minuta excedat: quæ maxima est, iuxta medium Januarij Anni ueteris, aut
+          uicesimum quintum renouati. Alias semper minor, ita ut iuxta primam decuriam
+          Mensis Junij ferme cum nostrâ restitutione coincidat, prius decrescendo,
+          postea usque in dictum terminum accrescendo. At in <persName
+            ref="Copernicus">Coperniceâ</persName>, utut magis nouitiâ
+          constitutione, duplo maior (fieri quis posse putâsset?) hæc euadit
+          discrepantia, idque potissimum iuxta 10<hi rend="sup">mum</hi> diem
+          Februarij Anni ueteris, seu 20<hi rend="sup">mum</hi> noui, ubi 37 Minuta
+          attingit. Postea successiue decrescens usque ad medietatem Augusti, <app>
+            <lem>quando</lem>
+            <rdg><q>ubi</q> m.1</rdg>
+          </app> intra 7 proxime Minuta nostro calculo accedit, nusquam eidem propius
+          appropinquans <app>
+            <lem>et</lem>
+            <rdg>om. m.1</rdg>
+            </app> semper minor existens. At <persName ref="Alfonso 10."
+            >Alphonsina</persName> methodus ab initio Anni usque ad 13 Junij
+          reformatum, ubique plus habet. Deinde uero usque in finem Septembris minus.
+          Postremo ad Anni exitum plus: quemadmodum literæ P. uel M. suis locis
+          assignatæ discrete admonent. Tertia columna rursus tripartita motum Lunæ
+          nostrum multo etiam tempore et labore redintegratum largitur; ita ut prima
+          series signum, secunda gradum, tertia Minutum præbeat, in quibus ad Meridiem
+          singulorum dierum correspondentium uersetur. Maiore hîc non opus fuit
+          scrupulositate: quæ etiam uix dari potest. Quarta columna bipartita
+          differentiam calculi Lunæ tam <persName ref="Alfonso 10."
+            >Alphonsini</persName> quam <persName ref="Copernicus"
+            >Copernicei</persName> a nostro hoc ostendit in ipsis minutis: idque <pb
+            ed="A" n="15r"/>eo modo, ut quando discrimen hoc integrum Gradum, seu 60
+          Minuta excedit, 60 illa addita sint excessui; quo duabus Cyphris
+          compendiosius restringatur; atque sic 60 sublatis pro integro Gradu reliquum
+          scrupula remanentia monstret. Deputatur autem primus ordo <persName
+            ref="Alfonso 10.">Alphonsinis</persName>, secundus <persName
+            ref="Copernicus">Coperniceis</persName> deuiationibus; quæ sane
+          utrobique non modicæ aut exiguæ sunt. Pene enim semper sensibilis aliqua
+          reperitur discrepantia, quæ in calculo <persName ref="Alfonso 10."
+            >Alphonsino</persName> sesquialterum Gradum <app>
+            <lem>ferme</lem>
+            <rdg><q>pene</q> m.1</rdg>
+          </app> singulis Mensibus attingere, imo nonnunquam paululum excedere potest.
+          <persName ref="Copernicus">Copernicea</persName> correctio, etsi in motu
+          Lunæ non tantopere exorbitet: tamen et hæc satis euidenter digreditur:
+          utpote quæ <app>
+            <lem>Gradu uno, et insuper decimâ eius ferme parte singulorum pene
+              Men<pb ed="TBOO" n="V.187"/>sium certis diebus abesset</lem>
+            <rdg><q>Gradum unum et insuper decimam eius ferme partem singulis pene
+                Mensibus assequatur</q> m.1</rdg>
+          </app>. Fit autem maxima deuiatio ab ipso Cœlo nostrisque Numeris, quando
+          Luna media est inter &#x260c; et &#x25a1;<hi rend="sup">ram</hi> primam,
+          iuxta octogonicum latus, ad primum <app>
+            <lem>&#x26b9;</lem>
+            <rdg><q>&#x2653;</q> m.1</rdg>
+            </app> accedens: Et postea <app>
+            <lem>iuxta</lem>
+            <rdg><q>prope</q> m.1</rdg>
+            </app> &#x25b3; proximum <app>
+            <lem>&#x260d;</lem>
+            <rdg>ante <q>&#x260d;</q> add. <q>ab</q> m.1</rdg>
+            </app> decrescendo, quod etiam utrobique in <persName ref="Alfonso 10."
+            >Alphonsinâ</persName> numeratione ferme pariter se habet. Vbi autem
+          differentiæ hæ excedunt, uel deficiunt, literæ P. uel M. præscriptæ
+          insinuant. Et quis, quæso, suspicatus fuisset tantam in utroque hoc calculo
+          circa motum tam conspicui Sideris, nobisque proximi, et singulis Mensibus in
+          orbem reuertentis; ideoque obseruationibus crebrius et promptius patentis a
+          Cœlesti normâ latere aberrationem? quæ <app>
+            <lem>Syzygias</lem>
+            <rdg>TBOO: <q>Sycygias</q> A</rdg>
+          </app> cum Sole ultra duas horas aliter quam ferunt consueti Numeri Cœlitus
+          nonnunquam inducit. Quinta columna Latitudinem Lunæ a nobis sedulo ex ipso
+          Cœlo adinuentam numeris promit, ita ut primus ordo Gradus, alter Minuta
+          contineat, quibus ea uel in Boream uel in Austrum ab Ecclipticâ diuagatur,
+          quam partem tertia distinctio discernit, sic ut litera S. Septentrionalem,
+          M. Meridionalem notet; ubi literæ A. uel D. ubique adiunctæ signant, quando <app>
+            <lem>Luna</lem>
+            <rdg><q>Lunæ</q> m.1</rdg>
+          </app> latitudinem hanc uel illam augeat ascendendo, uel imminuat
+          descendendo. Sexta demum et ultima columna prioris huius paginæ,
+          differentiam <pb ed="A" n="15v"/>utriusque calculi a nostrâ reformatione in
+          latitudine Lunæ ob oculos ponit; unicâ saltem serie contenta; eo quod tam
+          <persName ref="Copernicus">Copernicus</persName> quam <persName
+            ref="Alfonso 10.">Alphonsus</persName> Latitudinis Lunæ <app>
+            <lem>motum</lem>
+            <rdg><q>modum</q> m.1</rdg>
+            </app> atque extremos limites a <persName ref="Ptolemaios"
+            >Ptolomæo</persName> pariter mutuati sint, nihilque in his ex proprijs
+          obseruationibus emendârint. Vnde fit, ut eandem pene semper habeant
+          Latitudinem, nisi quatenus diuersitas in Longitudine, et nonnihil etiam in
+          nodis aliquantam differentiam hîc suggerere poterit, quæ tamen perexigua
+          est, et nos medium inter <persName ref="Alfonso 10.">Alphonsum</persName> et
+          <persName ref="Copernicus">Copernicum</persName> ferme ubique
+          retinuimus, quo unicâ serie uitandæ perplexitatis caussâ, hoc negocium
+          promptius absolueretur. Discrimen autem maximum, quod hic ingeri potest,
+          tertiam Gradus partem assequitur, idque solummodo in &#x25a1;<hi rend="sup"
+            >ris</hi> fieri potest. Juxta nouilunia et plenilunia uero uix sensibile
+          est: Deprehendi <app>
+            <lem>enim</lem>
+            <rdg>om. m.1</rdg>
+          </app> in Lunâ Latitudinem maximam, cum noua aut plena est, attingere G. 4.
+          M. 58. quod cum <persName ref="Ptolemaios">Ptolemaicâ</persName> positione,
+          quam omnes hucusque posteri retinuerunt, intra bina Minuta concordat. At
+          apud &#x25a1;<hi rend="sup">ras</hi> inueni eam, cum est iuxta limitem
+          Boreum atque Austrinum, diuagantem ab Ecclipticâ P. 5. M. 18. ut sit
+          interuallum utriusque tertiæ partis (<app>
+            <lem>quemadmodum</lem>
+            <rdg><q>uti</q> m.1</rdg>
+          </app> dixi) unius Gradus. Atque hæc quoad prioris paginæ faciem sic
+          declarata sunto.</p>
+        <p rend="indent">Altera mox a dextris subsequens hanc dilucidationem requirit,
+          quam nunc subiungemus: Prima columna bipartita, quæ cæteris (uti antea)
+          inseruit, dies eiusdem Mensis secundum utriusque Calendarij Numerationem
+          continet. Quare <app>
+            <lem>hâc</lem>
+            <rdg><q>hoc</q> m.1</rdg>
+            </app> indicis loco per se <app>
+            <lem>relictâ</lem>
+            <rdg><q>relicto</q> m.1</rdg>
+          </app>, quemadmodum <pb ed="TBOO" n="V.188"/>et prius fecimus, reliquasque
+          quinque columnas separatim considerantes, earum usum aperiemus.</p>
+        <p rend="indent">Prima harum Nodi Lunæ, circa <app>
+            <lem>quem</lem>
+            <rdg>TBOO: <q>quam</q> A</rdg>
+          </app> in Boream euehitur, motum iuxta nostra inuenta expedit in Gradibus
+          atque Minutis, signo in frontispicio, uel ubi opus est, apposito, ad quod
+          referantur; Altero <app>
+            <lem>nodo</lem>
+            <rdg>TBOO: <q>modo</q> A</rdg>
+            </app>, qui uersus Austrum Lunam deprimit, ex opposito per semicirculum sese <app>
+            <lem>ingerente</lem>
+            <rdg><q>gerente</q> m.1</rdg>
+          </app>, et limitibus extre<pb ed="A" n="16r"/>mis ad Boream atque Austrum
+          per quartam circuli partem <app>
+            <lem>utrinque</lem>
+            <rdg><q>utriusque</q> m.1</rdg>
+          </app> distantibus. Nec miretur aliquis hanc intersectionum uiæ Lunæ cum
+          Ecclipticâ dispositionem a consuetis calculis non parum differre: idque modo
+          quodam inæquali atque hinc inde nutante. Sic enim nos docuit crebra et
+          infallibilis experientia, multis Annis nec sine labore comparata. Quale
+          autem et quantum hoc sit discrimen, sequens patefaciet. Altera itaque
+          columna differentiam utriusque calculi <persName ref="Alfonso 10."
+            >Alphonsini</persName> nimirum et <persName ref="Copernicus"
+            >Copernicei</persName> manifestans, binâ serie hanc indicat; Primâ
+          Gradus, reliquâ Minuta notante. Neque enim in solis minutis hæc uariatio
+          consistit, sed integrum Gradum, et insuper M. 35. exhibere potest cis et
+          ultra. Contingit autem maxima discrepantia medio quasi loco inter nouilunia
+          et utrasque quadraturas, tum quoque inter plenilunia et alteras: Jn quatuor
+          reliquis locis principalioribus quam proxime coincidente Antecessorum
+          annotatione cum nostrâ. Patet itaque, hanc diuersitatem singulis Mensibus
+          Synodicis in Orbem redire atque absolui, peractis suis inæqualitatibus.
+          Tertia columna Syzygias Luminarium repræsentat, nimirum nouilunia et
+          plenilunia, omnesque &#x25a1;<hi rend="sup">ras</hi> intermedias et <app>
+            <lem>&#x26b9;<hi rend="sup">tes</hi></lem>
+            <rdg><q>&#x2653;<hi rend="sup">es</hi></q> m.1</rdg>
+          </app> atque &#x25b3;<hi rend="sup">nicas</hi> earundem ad inuicem
+          radiationes, tum quoque octogonicas dispositiones per angulos semirectos,
+          uariasque <app>
+            <lem>per</lem>
+            <rdg>om. m.1</rdg>
+          </app> alia atque alia complementa habitudines, cum et hæ, teste certâ
+          experientiâ, non parum habeant ponderis, ita ut lateribus sexangularibus
+          atque Trigonicis sæpenumero præualeant; utut alias negligantur. Apposita
+          autem sunt ubique Syzygiarum et configurationum talium tempora in horis et
+          Minutis a Meridie signatæ diei numerandis, idque prout noster Luminarium
+          cursus requirit in tempore æquali, et ad apparentiam necdum reducto. Quod
+          peculiaribus tabellis fieri oportet, de quibus postea. Quarta columna et
+          quinta expediunt differentiam utriusque calculi assumpti a nostrâ
+          supputatione, quam ipsi Cœlo quadrare compertum habemus. Vbi animaduertere
+          licet, non modicam <pb ed="A" n="16v"/>esse <app>
+            <lem>utrobique</lem>
+            <rdg><q>eorundem</q> m.1</rdg>
+          </app> a Cœlo nostraque illi analogâ restitutione difformitatem: quæ iuxta
+          <persName ref="Alfonso 10.">Alphonsum</persName> in nouilunijs et
+          plenilunijs ultra duas horas excrescere potest; ut de cæteris diuagationibus
+          in reliquis nonnunquam configurationibus sese adhûc plus insinuantibus nihil
+          addam. Quin et <persName ref="Copernicus">Copernici</persName> calculus etsi
+          Lunâ existente nouâ et plenâ hîc non tantum <app>
+            <lem>aberret</lem>
+            <rdg><q>digrediatur</q> m.1</rdg>
+          </app>, adeo ut deuiatio non multo maior unâ horâ ante uel post incidere
+          queat; tamen in reliquis aspecti<pb ed="TBOO" n="V.189"/>bus, præsertim
+          octogonicis dispositionibus, hæc usque in medietatem quasi tertiæ horæ
+          nonnunquam transilit. Ex quibus patet, quam lubrica sint, quæ hactenus de
+          Luminarium combinationibus, &#x260c; <app>
+            <lem>&#x260d;</lem>
+            <rdg>om. m.1</rdg>
+          </app> &#x25a1;<hi rend="sup">ris</hi> reliquisque ad inuicem
+          configurationibus ab Antecessoribus nostris hûcusque tradita accepimus,
+          quamque non saltem Astronomorum, sed et Astrologorum hinc <app>
+            <lem>tam mutationes auræ, quam</lem>
+            <rdg><q>non solum mutationes auræ, sed et</q> m.1</rdg>
+          </app> alios euentus Mundanos uaticinari laborantium uota eludant; non
+          minimo utriusque Artis tam dispendio quam contemptu: cum tamen non hæ, sed
+          potius illi, qui eas negligenter tractant et uenditant, culpandi forent. Et
+          sane non restitutis exacte motibus Siderum, præsertim Luminarium quæ
+          principalem obtinent authoritatem et prærogatiuam, de effectibus eorum quid
+          certi a quoquam pronunciari possit? nisi generali quâdam coniecturâ
+          sæpenumero titubante, non uideo, siue quis Genethliacas, siue Mundi <app>
+            <lem>Elementaris</lem>
+            <rdg><q>Elementarijs</q> m.1</rdg>
+          </app> impressiones, et quæ ex his deriuantur, in contemplationem et
+          prædictionem adhibeat. Quâ de re per suas circumstantias et comprobationes
+          alibi latius. Hæc uero de ipsius diarij, quoad singulos Menses, quæ
+          uniformiter sese exprimunt, <app>
+            <lem>ordinatione</lem>
+            <rdg>om. m.1</rdg>
+            </app> sit dixisse <app>
+            <lem>et exposuisse</lem>
+            <rdg><q>exposuisseque</q> m.1</rdg>
+        </app> satis. </p>
+        <p rend="indent">VSVS uero eius non differt a uulgari ratione in Ephemeridibus
+          usitatâ. Nam si ad Meridiem cuiusuis dati diei ea, quæ Ephemeris hæc iuxta
+          Titulos quarumlibet columnarum <app>
+            <lem>continet</lem>
+            <rdg>om. m.1</rdg>
+          </app>, scire lubet, hæc ibidem satis discrete patent; ita ut nullâ opus
+          habeant correctione, nisi eâ, præsertim quoad Lunam, quæ apparens tempus
+          respicit ad Meridianorum differentiam, de quibus postea <pb ed="A" n="17r"
+            />agemus. At si horæ aliquot fuerint Promeridianæ, numerandæ ab uno meridie
+          in sequentem more Astronomico usque in horas 24, proportionaliter res
+          peragenda uenit iuxta motus diurni exigentiam; ita ut in regulâ proportionum
+          primo loco semper ponantur 24 horæ; secundo motus diurnus, qui est a Meridie
+          proxime antecedente usque in sequentem: Tertio horæ a Meridie cum suis, si
+          quæ adhærent, Minutis propositæ. Peractâ enim operatione, prouenit quartus
+          Numerus, indicans Motum a Meridie antecedente, addendum illi uel ab eo
+          subtrahendum, qui in Ephemeride est, prout usque in sequentem diem is illic
+          crescit aut minuitur, quemadmodum alias in usitatis Ephemeridibus fieri
+          consueuit. Quare ulteriore hîc non opus est explicatione. Altera facies
+          Syzygias exhibens pariter quoque prout alias usitatum, intelligenda est. </p>
+        <p rend="indent">Post hoc Diarium, eâ, quâ dixi, Methodo, ordinatum, lubuit
+          peculiares quasdam Tabulas ad hoc negocium circa apparentias Solis et Lunæ
+          enucleandas plurimum conducentes, quatenus eas nostræ obseruationes, atque
+          his demonstratiue fundati numeri præbent, una cum earum explicatione et usu
+          subiungere; de quibus postea agemus, ubi eædem Tabulæ proxime post Diarium
+          dispositæ <app>
+            <lem>fuerint.</lem>
+            <rdg>post finem add. <q>Admonendum insuper</q> m.2</rdg>
+        </app></p>
+      </div>
+    </body>
+  </text>
+</TEI>

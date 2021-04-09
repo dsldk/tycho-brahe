@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Basileensi G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 261</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-03-09"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>anonymus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 9. marts. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-08" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.261"/>TYCHO BRAHE AD ANONYMUM</opener>
+                <p><pb ed="A" n="37r"/>GENEROSE AC MAGNIFICE VIR, DOMINE ET AMICE INPRIMIS
+                    HONORANDE.</p>
+                <p>CUM hic Nobilis et Eruditus Adolescens <persName ref="Tengnagel">FRANCISCUS
+                        TENGNAGLIUS</persName>, quem tua M<hi rend="sup">a</hi> iam antea novit,
+                    nuper ex <placeName ref="Italy">Italiâ</placeName> huc in <placeName
+                        ref="Bohemia">Bohemiam</placeName> ad me reversus, in Patriam suam Parentum
+                    invisendorum gratiâ nunc cogitet, et in itinere aut reditu Ser<hi rend="sup"
+                        >mum</hi> <persName ref="Ernst">Electorem Coloniensem</persName>, Domimnum nostrum Clementissimum, denuo
+                    humillime accedere, nisi nimia viarum pericula id vetent, omninô constituerit:
+                    idcirco vacuum meis ad M<hi rend="sup">am</hi> tuam literis venire non sum
+                    passus, ex quo M<hi rend="sup">æ</hi> tuæ erga me humanissima officia gratâ
+                    mente etiamnum recolam, et perpetuo eorundem meminerim, paria relaturus, si
+                    vires sufficiant, is aut occasio ulla sese exhibeat. Licet vero quæ ad M<hi rend="sup">am</hi> tuam
+                    perscribam, præter ea, quæ is commodius et tutius oretenus exponet, non habeam,
+                    tamen M<hi rend="sup">am</hi> tuam hisce officiosissime salutare volui, utque dictum <persName
+                        ref="Tengnagel">TENGNAGLIUM</persName> sibi quam commendatissimum habeat, et
+                    utriusque nostrûm negotia apud Ser<hi rend="sup">mum</hi> Principem, prout antea
+                    quoque perlubenter et benevole præstitit, promovere atque expeditionem maturam
+                    impetrare non gravetur. Cumque idem <persName ref="Tengnagel"
+                        >TENGNAGLIUS</persName>
+                    <pb ed="A" n="37v"/>instar vivæ Epistolæ futurus sit, et tam me quam se ipsum
+                    concernentia M<hi rend="sup">æ</hi> tuæ plene et secreto indicaturus, ulteriore
+                    scriptione supersedeo, ac per eundem, quam primum fieri possit, favente Numine,
+                    ad me revertentem responsum expecto. Deus opt. max. M<hi rend="sup">am</hi>
+                    tuam Reip. et bonis literis quam diutissime prosperam et incolumem servet.
+                    Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>, quam
+                    nunc unâ cum meis inhabito, die 9 Martij 1600.</p>
+                <p rend="rightMargin">M<hi rend="sup">æ</hi> Tuæ studiosiss.<lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

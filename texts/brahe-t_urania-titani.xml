@@ -1,0 +1,723 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Urania Titani</title>
+        <title xml:lang="en">Urania Titani</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository>Österreichische Nationalbibliothek</repository>
+                <collection>empty</collection>
+                <idno>cod. Vindob. lat. 10686.12</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness xml:id="V1">
+            <bibl>Correctiones codicis V ipsius Tychonis manui non certo ascribendae (quarum nonnullae eadem manu qua V scriptae sunt</bibl>
+          </witness>
+          <witness xml:id="T">
+            <bibl>Correctiones in codice V ipsius Tychonis manu factae</bibl>
+          </witness>
+          <witness xml:id="T1">
+            <bibl>Correctiones in codice V ipsius Tychonis manu factae</bibl>
+          </witness>
+          <witness xml:id="T2">
+            <bibl>Correctiones in codice V ipsius Tychonis manu factae</bibl>
+          </witness>
+          <witness xml:id="R">
+            <bibl>P.J. Resen <title>Inscriptiones Haffnienses</title>, Hauniæ 1668</bibl>
+          </witness>
+          <witness xml:id="Friis">
+            <bibl>F.R. Friis <title>Breve og Aktstykker angaaende Tyge Brahe og hans Slægtninge</title>, Kjøbenhavn 1875</bibl>
+          </witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 193-211</bibl></witness>
+          <witness xml:id="Zeeberg">
+            <bibl>Peter Zeeberg, <title>Tycho Brahes "Urania Titani". Et digt om Sophie Brahe</title>, (Renæssancestudier 7) København 1994</bibl></witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation><date>1594</date></creation>
+      <langUsage>
+        <language ident="la" />
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>poesi</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-02-02" who="#pz">Filen etableret</change>
+      <change when="2019-02-19" who="#pz">tekst lagt ind; sideskift og tekstkritik fra pz's udgave mangler stadig</change>
+      <change when="2019-02-20" who="#pz">tekstkritik indsat 240 med</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front/>
+    <body>
+      <div xml:id="text">
+        <head>
+          <orig><pb ed="TBOO" n="IX.193"/><pb ed="A" n="1r"/> Urania Titani</orig>
+          <reg>Urania Titani</reg>
+          <reg xml:lang="en">Urania Titani</reg>
+        </head>
+        <lg>
+          <l><app><lem wit="V1">En tibi sexcentos tribuit quos Pagina versus</lem><rdg wit="V"><q>Hanc sexcenteno quæ constat Epistola versu</q></rdg><rdg><note>(non erasum)</note></rdg><rdg wit="R"><q>En tibi sexcentos præbet quos pagina versus</q></rdg></app>,</l>
+          <l rend="indent">Accipe, mi Titan, et lege quando vacat.</l>
+          <l><app><lem wit="T R">Sunt ideo multi</lem><rdg wit="V"><q>Tam prolixa ideo est</q></rdg><note>(non erasum)</note><rdg></rdg></app> ne sit responsio promta,</l>
+          <l rend="indent">Ipse sed hanc nobis ore referre <app><lem>velis.</lem><rdg><note>Versus 1-4 hic praebet R, ad finem carminis V, praemissis tamen his verbis: <q>Superscriptio Epistolæ huius ubj composita et ab Vrania obsignata fuerit hæc erit:</q></note></rdg></app></l>
+        </lg>
+        <lg>
+          <l n="5"><app><lem wit="T R">Venit ab Urania quam cernis Epistola Titan</lem><rdg wit="V"><q>Hæc tua ab Urania tibi fertur Epistola Titan</q></rdg><rdg><note>(non erasum)</note></rdg></app>,</l>
+          <l rend="indent">Nil sibi rescribi, te <app><lem>sed</lem><rdg><note>suppl. V</note></rdg></app> adesse cupit.</l>
+          <l>Littera multa quidem perarata est, multa supersit,</l>
+          <l rend="indent">Ast cùm te caream, quid tua charta juvat?</l>
+          <l><app><lem wit="T">Te retinet nimium nostris ars invida votis</lem><rdg wit="V"><q>Detinet Ars nimium nostris inimica lacertis</q></rdg></app>,</l>
+          <l rend="indent" n="10"><app><lem wit="T">Nec tanti Hermes nec tota Chimia foret</lem><rdg wit="V"><q>Non Hermes tanti, aut Chimia tota foret</q></rdg><rdg wit="R"><q>Crede mihi haud tanti tota Chymia foret</q></rdg></app>.</l>
+          <l><app><lem wit="T">Ars vana et linquens vacuatas ære crumenas</lem><rdg wit="V"><q>Ars vana et vacuas linquens sine fine crumenas</q></rdg></app>,</l>
+          <l rend="indent">Quam propter vacuo linquor et ipsa thoro.</l>
+          <l>Quam propter sine sole dies, sine sidere noctes</l>
+          <l rend="indent">Orba traho, quòd abes Solque, Jubarque meum.</l>
+          <l n="15">Ars utinam tenebris, unde orta, perîsset Averni,</l>
+          <l rend="indent">Quæ mihi tot nitidos abstulit atra dies.</l>
+          <l>Jure vocanda atra est, quia fit carbonibus atris,</l>
+          <l rend="indent">Non decuit niveas res ita nigra manus.</l>
+          <l>Ast ego quòd linquar modicum est, tu læderis inde,</l>
+          <l rend="indent" n="20">Ægra fit hinc tua mens, hinc malè corpus habet.</l>
+          <l>Quando etenim curis nimiis noctesque diesque</l>
+          <l rend="indent">Carperis, ut votis Ars sit amica tuis.</l>
+          <l>Et tandem inventum NIHIL est, quod, et usque requiris,</l>
+          <l rend="indent">Nonne animus tantâ spe cecidisse dolet?</l>
+          <l n="25">Dum per anhela trahis fœdos spiracula fumos,</l>
+          <l rend="indent">Quos simul et carbo, materiesque parit;</l>
+          <l><pb ed="TBOO" n="IX.194"/>Nonne tenella tibi languescere pectora sentis,</l>
+          <l rend="indent"><app><lem>Pectora pectoribus quæ magis apta meis?</lem><rdg><note>omisit V</note></rdg></app></l>
+          <l><app><lem wit="V">Quæ comperta</lem><rdg wit="R"><q>explorata</q></rdg></app> loquor, quia et ipsa sat omnia novi</l>
+          <l rend="indent" n="30">Quot vestræ species, quot mala carbo, ferant.</l>
+          <l>Ah quoties faciem spurcas, quotiesque labella,</l>
+          <l rend="indent">Quæ servanda mihi bella labella forent.</l>
+          <l><pb ed="A" n="1v"/>Sæpe cutis <app><lem wit="T">toto maculis</lem><rdg wit="V"><q>maculs toto</q></rdg></app> tibi corpore <app><lem wit="T">liuet</lem><rdg wit="V"><q>spargit</q></rdg></app>,</l>
+          <l rend="indent">Mollior antè novâ candidiorque nive.</l>
+          <l n="35">Nuper enim Stygias satagenti impellere Lymphas,</l>
+          <l rend="indent">Cum tonitru Nitrum vincula rupit atrox.</l>
+          <l>Fœtor et hinc fusus vitalem polluit auram,</l>
+          <l rend="indent">Semianimes socios quo cecidisse liquet.</l>
+          <l>Tu licet elapsus (precibusque hoc accipe nostris)</l>
+          <l rend="indent" n="40">Crebra tuo tamen hinc corpore <app><lem wit="T">sparsa</lem><rdg wit="V"><q>tincta</q> (?)</rdg></app> nota est.</l>
+          <l>Talia namque meo, de te modò quærere jusso,</l>
+          <l rend="indent">Rettulerat nato Bangus, at ille mihi.</l>
+          <l>Hinc ego concepi majora pericula veris,</l>
+          <l rend="indent">Ô Fons solliciti plene timoris Amor!</l>
+          <l n="45">Sulphura mox timui, timui Arsenicalia monstra,</l>
+          <l rend="indent">Et Salia et Stibium, Mercuriosque vafros.</l>
+          <l>Denique quicquid <app><lem wit="V">erat, quod</lem><rdg wit="R"><q>habet, quo</q></rdg></app> Carbonaria fallax</l>
+          <l rend="indent">Suppetit, <app><lem wit="T">id totum causa timoris erat</lem><rdg wit="V"><q>in caussam cuncta timoris eunt</q></rdg><rdg wit="R">Officiat, timidi caussa doloris erat</rdg></app>.</l>
+          <l>At nostro affulsit Veneris benè Sidus amori,</l>
+          <l rend="indent" n="50">In cineres abiit sospite carbo viro.</l>
+          <l>Rettulit ille etiam, propè quòd Schonburgica rura,</l>
+          <l rend="indent">Effrænes per equos versa quadriga tua est:</l>
+          <l>Teque genu <app><lem wit="V">lapsum</lem><rdg wit="R"><q>excussum</q></rdg></app> læsisse atrociter <app><lem wit="T">inde</lem><rdg wit="V"><q>unum</q></rdg><rdg wit="R">hincque</rdg></app>,</l>
+          <l rend="indent"><app><lem wit="V">Sub medicaque diu decubuisse manu</lem><rdg wit="R"><q>Sub medici curâ decubuisse diu </q></rdg></app>.</l>
+          <l n="55">Quæ licet huc misso haud prorsus cælata ministro,</l>
+          <l rend="indent">Ne mihi fortè <app><lem wit="V">aliàs</lem><rdg wit="R"><q>aliùs</q> (sic)</rdg></app> cresceret inde dolor.</l>
+          <l><app><lem wit="V">Tu tamen</lem><rdg wit="R">Attamen<q></q></rdg></app> astutè damnum molemque pericli</l>
+          <l rend="indent">Texisti, in propriis Ingeniose malis.</l>
+          <l><app><lem wit="V">At</lem><rdg wit="R"><q>Sed</q></rdg></app> mea, quæ eventum perrarò insomnia fallunt,</l>
+          <l rend="indent" n="60"><app><lem wit="V1">Obvenisse</lem><rdg wit="V"><q>Evenisse</q></rdg></app> istud præmonuêre satis.</l>
+          <l>Cor mihi namque, velut currenti, è corpore lapsum,</l>
+          <l rend="indent">Parte sui visum est inferiore premi.</l>
+          <l><pb ed="A" n="2r"/>Mox ego sic, Genio (nondum experrecta) monente,</l>
+          <l rend="indent">Vociferor; Titan cor mihi sicne cadis?</l>
+          <l n="65"><app><lem wit="V">Sed benè tunc</lem><rdg wit="R"><q>Tunc sed enim</q></rdg></app> Phœbus, Medicæ qui præsidet arti,</l>
+          <l rend="indent">Subveniens, nostri fautor amoris erat.</l>
+          <l>Attulit is pedibusque tuis genibusque, redires</l>
+          <l rend="indent"><app><lem wit="V">Quò</lem><rdg wit="R"><q>Ut</q></rdg></app> citiùs, nec <app><lem wit="V1">te plus remorentur, opem</lem><rdg wit="V"><q>plus hinc</q> (?) <q>remoreris opem</q></rdg></app>.</l>
+          <l><pb ed="TBOO" n="IX.195"/>Hunc nondum ob casum mea Sollicitudo remisit,</l>
+          <l rend="indent" n="70">Cùm penetrat gravior corda priore dolor.</l>
+          <l>Diceris isse etenim, famulo comitatus ab uno,</l>
+          <l rend="indent">Per juga præruptis Alpibus alta nimis.</l>
+          <l>Et Venetûm aurivoras cupidè sectarier offas,</l>
+          <l rend="indent">Quas fallax istic Ars et ubique coquit.</l>
+          <l n="75">Tene viæ placuit temerè committere tantæ?</l>
+          <l rend="indent">Quàm benè cautus abis, quàm memor antè mei?</l>
+          <l><app><lem wit="V">Nonne brevi id decuit priùs admonuisse litura</lem><rdg wit="R"><q>Idné priùs brevibus decuit monuisse tabellis </q></rdg></app>,</l>
+          <l rend="indent">Saltem ut votivis te sequerer lachrymis?</l>
+          <l>Fallar: et hæc potiùs vanescat fama sub auras,</l>
+          <l rend="indent" n="80">Lætabor, modò te Teutonis ora tenet.</l>
+          <l>Hinc quia spes aliqua est de te resciscere quicquam,</l>
+          <l rend="indent">Et capere, atque animi mittere sensa, notas.</l>
+          <l>At cur te cupiam Germano limite claudi?</l>
+          <l rend="indent">Heu nimiùm limes latus et iste patet.</l>
+          <l n="85">Cùm non scire licet, quâ tandem parte <app><lem wit="V1">moraris</lem><rdg wit="V"><q>moraris</q></rdg></app></l>
+          <l rend="indent">Teutoniæ, vel quâ conditus urbe lates.</l>
+          <l>Lentus abes, neque nota mihi sat caussa morandi,</l>
+          <l rend="indent">Aut quæ te nimiùm terra vel unda tenet.</l>
+          <l>Quisquis ab Austrino veniens vada Baltica tangit</l>
+          <l rend="indent" n="90">Littore, non de te pauca rogatus, abit.</l>
+          <l>Traditur et nostris charta huic signata labellis,</l>
+          <l rend="indent">Si fortè audierit, quo tibi danda loco.</l>
+          <l>Heu mihi Cœlestis quòd cernitur undique Titan,</l>
+          <l rend="indent">Terrestrem, huncque meum, non reperire datur!</l>
+          <l n="95"><pb ed="A" n="2v"/>Sæpè Ducem Ulricum te detinuisse putavi,</l>
+          <l rend="indent">Caussa tuæ forsan nec fuit ille moræ.</l>
+          <l>Sæpè etiam timui, te, dum freta Baltica tranas,</l>
+          <l rend="indent">More tuo, infesto vela dedisse mari:</l>
+          <l>Ut ratis in scopulos, quos Mœnia suggerit, acta,</l>
+          <l rend="indent" n="100">Membra aliquo cogat læsa fovere loco.</l>
+          <l>Quid multis? cùm scire nequit cur lentior absis</l>
+          <l rend="indent">Mens mea, per caussas irrequieta volat.</l>
+          <l>Tempora si memores, benè quæ memoramus amantes,</l>
+          <l rend="indent">Nostra querela <app><lem wit="V">suam</lem><rdg wit="R"><q>suum</q></rdg></app> non venit ante diem.</l>
+          <l n="105">Nam mihi discedens tremulo es sic ore locutus,</l>
+          <l rend="indent">Pallentes lachrymis cùm maduêre genæ:</l>
+          <l>Sol priùs auriferi non tanget Velleris astrum,</l>
+          <l rend="indent">Quàm tibi Me reducem Scania vestra <app><lem wit="V">ferat</lem><rdg wit="R"><q>feret</q></rdg></app>.</l>
+          <l>Cœlicus is Titan Vellus bis terve revisit</l>
+          <l rend="indent" n="110">Phryxæum, at Titan <app><lem wit="V">Terree</lem><rdg wit="R"><q>Terræ</q></rdg></app> noster abes.</l>
+          <l><pb ed="TBOO" n="IX.196"/>Non puto quòd ratibus secteris Iasonis aurum,</l>
+          <l rend="indent">Aut furtum lanæ versicoloris ames.</l>
+          <l>Nec Medæa fui, nec ero, nil fraudibus utor,</l>
+          <l rend="indent">Colchida si <app><lem wit="V">cupias</lem><rdg wit="R"><q>qværas</q></rdg></app>, híc quoque Colchis erit.</l>
+          <l n="115">Pergula læta mihi est, pulcher quam circuit hortus,</l>
+          <l rend="indent">Vix cui par dabitur, Colchida utrumque vocem.</l>
+          <l>Læta vocata quidem; sed nondum cernere lætam</l>
+          <l rend="indent">Me potuit, quamvis híc tua imago patet.</l>
+          <l>Quam quoties specto, suspiria cordibus imis,</l>
+          <l rend="indent" n="120">Alta traho, et lachrymis ora genasque rigo.</l>
+          <l>Mox caput inclinans, unique innixa lacerto,</l>
+          <l rend="indent">Sic mecum tacito murmure verba premo:</l>
+          <l>Ô si is, quem pulchro referens bellè exprimis ore</l>
+          <l rend="indent">Afforet, ô coràm hunc cernere quando datur!</l>
+          <l n="125">Hancque diu aspiciens, oculis ac sensibus ipsis</l>
+          <l rend="indent">Linquor, et ancillis excipienda, cado.</l>
+          <l><pb ed="A" n="3r"/>Quin mihi vix rediens, iterum hanc, iterumque videre</l>
+          <l rend="indent">Mens avet; in damnum tam studiosa suum est.</l>
+          <l>Imò hæc dum memoro, sanguis præcordia stringit,</l>
+          <l rend="indent" n="130">Vix teneor, quin mox exanimata ruam.</l>
+          <l>Ater sanguis abi, mens et præcordia firma</l>
+          <l rend="indent">Este <app><lem wit="V1 T">mihi</lem><rdg><note>erasum in V1</note></rdg><rdg wit="V"><q>parum</q></rdg></app>, et saltem his addere pauca date:</l>
+          <l>Hæc ubi scripta sient, si tunc mihi parcere iniquum est,</l>
+          <l rend="indent">Auditu et visu me spoliate; feram.</l>
+          <l n="135">Et sat sueta feram, (quàm consolatio dura est,</l>
+          <l rend="indent">Quòd nequeam expertis succubuisse malis.)</l>
+          <l>Nil sed ago precibus, quò plùs tego, sæviùs <app><lem wit="V R">instat</lem><rdg><note>non erasum in V</note></rdg><rdg wit="T"><q>instans</q></rdg></app>,</l>
+          <l rend="indent"><app><lem wit="V R">Susceptumque dolor linquere cogit opus</lem><rdg><note>non erasum in V</note></rdg><rdg wit="T"><q>sistere nunc calamum cogit atroxque dolor</q></rdg><rdg><note>(supra vocem <q>atroxque</q> vocem <q>amore</q> addidit Tycho)</note></rdg></app>.</l>
+          <l>Ferte citæ lymphas, <app><lem wit="V">sal, vinum</lem><rdg wit="R"><q>sal, vinum</q></rdg></app>, aromata, acetum,</l>
+          <l rend="indent" n="140">Ancillæque omnes, Virgoque, ferte citæ.</l>
+          <l>Ah satis ah; redeam ô liceat <app><lem wit="T">calamumque</lem><rdg wit="V"><q>pennamque</q></rdg></app> resumam,</l>
+          <l rend="indent">Quàm mirè cunctis sensibus orbus habet!</l>
+          <l>Ista abeant; adsis Titan, citò meque revise,</l>
+          <l rend="indent">Colchiacas artes, si cupis, ipsa dabo.</l>
+          <l n="145">Non opus ut subeas, veluti <app><lem wit="V">Pagasæus</lem><rdg wit="R"><q>Pegasæus</q></rdg></app> Iason,</l>
+          <l rend="indent">Phasiacas Argo nave repostus aquas.</l>
+          <l>Et superes tot monstra tuis Hecatæa venenis,</l>
+          <l rend="indent">Ignivomos Tauros, terrigenasque viros:</l>
+          <l>Et colubrum, herbarum, vigilem, Virtute, sopitum,</l>
+          <l rend="indent" n="150">Hinc tandem aurato ut vellere dives eas.</l>
+          <l>Fortè sub his technis, (si vera est fabula) tecta</l>
+          <l rend="indent">Ars etiam technis Chrysiopœa latet.</l>
+          <l><pb ed="TBOO" n="IX.197"/>Sint ea vera tamen; quid enim non credimus ambo,</l>
+          <l rend="indent">Quos animis uno corpore nectit Amor?</l>
+          <l n="155">Pergula (quam dixi) quæcunque petuntur ad artem</l>
+          <l rend="indent">Auriferam (si qua est) <app><lem wit="V1 (T?)">exhibitura</lem><rdg wit="V"><q>suppeditura</q></rdg></app> satis.</l>
+          <l>Fornaces varias, carbones, lampada, flammas,</l>
+          <l rend="indent">(Ô Flammæ flammis cedite quæso meis.)</l>
+          <l><pb ed="A" n="3v"/>Materia híc deerit, quæ sat reperitur ubique?</l>
+          <l rend="indent" n="160">Vilis et hæc fertur, nec preciosa nimis.</l>
+          <l>Hîc lapidem arcano simul ambo fovebimus igne.</l>
+          <l rend="indent">Nempè columbæ ovis, femina masque cubant.</l>
+          <l>Hunc si multiplici nimiùm sub cortice tectum,</l>
+          <l rend="indent">Credibile est ullos antè habuisse Sophos:</l>
+          <l n="165">Non dubito, quin tu, vel ego inveniemus eundem,</l>
+          <l rend="indent">Sol pater (ut referunt) Lunaque mater erit.</l>
+          <l><app><lem wit="T">Sis igitur Titan pater et sim</lem><rdg wit="V"><q>Ergo Pater tu Titan ades, sim</q></rdg><rdg wit="R"><q>Sic igitur Titan pater, et sim</q></rdg><rdg><note>In marg. addidit iterumque erasit T <q>Huc ades ergo pater Titan et Ergo pater Titan ades</q></note></rdg></app>, Femina, Lunæ</l>
+          <l rend="indent">Persimilis Mater, sexus et ordo juvant.</l>
+          <l>Scandit is in cœlos, iterum terrena revisit;</l>
+          <l rend="indent" n="170">Sic terrena etiam dicor ego Urania.</l>
+          <l>Primitùs et Sophia ipsa vocor, Lapis ille Sophorum est,</l>
+          <l rend="indent">Forsitan hinc nostrum nomen, et omen habet.</l>
+          <l>Ventus et <app><lem wit="V">hunc</lem><rdg wit="R"><q>hanc</q></rdg></app> utero fertur portasse, vel isto</l>
+          <l rend="indent">Fortè etiam possit qui meliora mihi est.</l>
+          <l n="175">Ingeniumque (ajunt) subtile et suave requirit,</l>
+          <l rend="indent">Haud ego grossitiem fallar ob ingenii.</l>
+          <l>Sic orbem hunc constare putant, sumus Orbis uter¬que,</l><l></l>
+          <l rend="indent">Per me alius mundus parvulus esse potest.</l>
+          <l>Colchide at ex veteri nova cur exempla <app><lem wit="V">petuntur</lem><rdg wit="R"><q>petamus</q></rdg></app></l>
+          <l rend="indent" n="180">Antiqui Hermetis cur ita dicta placent?</l>
+          <l>Quærimus heu variè, frustraque aliundè vocamus,</l>
+          <l rend="indent">Hoc satis in nobis quod latet artis opus.</l>
+          <l>Conjugio assimilant, cùm mas et femina ponunt</l>
+          <l rend="indent">Mollia fœcundo corpora juncta thoro.</l>
+          <l n="185">Contigeritque illis prolem si quando creari,</l>
+          <l rend="indent">Arcani Lapidis protinùs instar habet.</l>
+          <l>Inque utero veluti nutritur sanguine fœtus,</l>
+          <l rend="indent">Sic humore suo fotus et ille viget.</l>
+          <l>Ingenitusque velut calor et moderatus et udus,</l>
+          <l rend="indent" n="190">Maturat partum dum fovet igne levi.</l>
+          <l><pb ed="A" n="3br"/>Sic etiam lapidem liquido lenique calore</l>
+          <l rend="indent">Naturæ ad normam, quá datur arte, fovent.</l>
+          <l>Alterat augendo ut formam, mutatque colorem</l>
+          <l rend="indent">Infans claustra tener dum genetricis habet.  </l>
+          <l n="195"><pb ed="TBOO" n="IX.198"/>Haud aliter Lapis hic crescit variatque colores,</l>
+          <l rend="indent">Fomenta Athânor debita quando regit.</l>
+          <l>Ut Lucina suos dat adhuc à matre rubentes,</l>
+          <l rend="indent">Et teneros fœtus crescere lacte facit;</l>
+          <l>Sic rutilans fulget jam natus Chimicus Infans,</l>
+          <l rend="indent" n="200">Fermentoque suo crescit, et auctus abit.</l>
+          <l>Utque alios iterum natus progignit adultus,</l>
+          <l rend="indent">Sic Lapis hic sobolem multiplicare potest.</l>
+          <l><pb ed="A" n="4r"/>Quàm benè conveniunt nostris ista omnia Votis,</l>
+          <l rend="indent">Quique operi arcano competat Hortus adest.</l>
+          <l n="205">Non qui pestiferos foveat, vigilesque Dracones,</l>
+          <l rend="indent">Et terræ in proprias monstra parata neces:</l>
+          <l>Naribus aut Tauros spirantes undique flammas,</l>
+          <l rend="indent">Vel Medæa tuâ mixta Aconita manu.</l>
+          <l>Brachia sint angues mutuis circumdata collis,</l>
+          <l rend="indent" n="210">Terrigenas acies terrea vasa putem.</l>
+          <l>Si collisa cadant, minima est jactura; Bovesque</l>
+          <l rend="indent">Ipsi erimus juncti conveniente jugo.</l>
+          <l>Æstus et ira absint, proque herbis grata nocivis</l>
+          <l rend="indent">Hortus, qui tribuat Pharmaca, noster erit.</l>
+          <l n="215">Sensus at (ut perhibent) si fortè his mysticus insit,</l>
+          <l rend="indent">Pandere et hunc nobis difficile esse nequit:</l>
+          <l>Tu modò, mi Titan, patrias te confer in oras,</l>
+          <l rend="indent">Aspirent Votis Ventus et <app><lem wit="V">Aura</lem><rdg wit="R"><q>unda</q></rdg></app> meis.</l>
+          <l>Tunc benè nota Redux intrans Pomaria, cernes</l>
+          <l rend="indent" n="220">Quàm locus híc aptus sit tibi, quamque mihi.</l>
+          <l>Hîc simul occultum, junctis modò viribus optes,</l>
+          <l rend="indent"><app><lem wit="V">Artis ut <app><lem wit="T">auriferæ</lem><rdg><note>V legi non potest</note></rdg></app> conficiatur opus</lem><rdg wit="R">Ut foecunda Artis conficiamus opus</rdg></app>.</l>
+          <l>Intereà votis, quæ nunc mihi sola supersunt,</l>
+          <l rend="indent">Orabo Superos, ut tibi adesse velint.</l>
+          <l n="225">Utque brevi incolumis (modo ferre negotia possint</l>
+          <l rend="indent">Quæ versas manibus) restituâre mihi.</l>
+          <l><app><lem wit="V">Non</lem><rdg wit="R"><q>Nunc</q></rdg></app> etenim cupio festinus quòd tibi damno</l>
+          <l rend="indent">sit reditus, quia me nil tua damna levant.</l>
+          <l>Quin tibi cum fidam satis ipsa, ubicunque moreris,</l>
+          <l rend="indent" n="230">Nostra aliis tamen est suspiciosa fides.</l>
+          <l>Credula quòd fuerim nimiùm, quod stultius urar,</l>
+          <l rend="indent">Te quoque me leviter deseruisse, putant.</l>
+          <l><pb ed="A" n="4v"/>Plura feram modò sis tu saltem corpore salvus,</l>
+          <l rend="indent">Id Dii si renuant, te <app><lem wit="V1">sine</lem><rdg wit="V"><q>sine,</q></rdg></app> nulla feram.</l>
+          <l n="235">Objiciunt, blandis quòd <app><lem wit="V">sim</lem><rdg wit="R"><q>sine</q></rdg></app> delusa loquelis,</l>
+          <l rend="indent"><app><lem wit="T1">(sic deludi abs te fæmina crebra volet)</lem><rdg wit="V"><q>(Forte et sic ludi crebra puella volet)</q></rdg><rdg wit="T"><q>(Forte et sic ludi foemina crebra volet)</q></rdg></app></l>
+          <l><pb ed="TBOO" n="IX.199"/>At non mellifluis, quorum tibi copia, verbis,</l>
+          <l rend="indent">Quòd decepta queror, si qua ea culpa, mea est:</l>
+          <l>Sponte tuis <app><lem wit="V1">cessi</lem><rdg wit="V"><q>parui</q></rdg></app> votis, te sponte probavi,</l>
+          <l rend="indent" n="240"><app><lem wit="V">Ut Chalybem magnes attrahit</lem><rdg wit="R"><q>Et Chalybem Magnes ut trahit </q></rdg></app>, ipsa sequor.</l>
+          <l>Inter tot genere illustres, quos Dania nutrit,</l>
+          <l rend="indent">Solus es ex imo qui mihi corde places.</l>
+          <l>Teipsum, non tua verba moror, <app><lem wit="T R">nil</lem><rdg wit="V"><q>non</q></rdg><rdg><note>in marg.: <q>nihil</q> T1</note></rdg></app> indiga verbis</l>
+          <l rend="indent">Forma tua est, Virtus me Probitasque movent.</l>
+          <l n="245">Sit fœcunda aliis, velut est facundia prægnans,</l>
+          <l rend="indent"><app><lem wit="V">Me tamen in partes non</lem><rdg wit="R"><q>Non tamen in partes me</q></rdg></app> trahet illa suas.</l>
+          <l><app><lem wit="V">Suave quidem mel est, at</lem><rdg wit="R"><q>Est mel suave quidem, sed</q></rdg></app> Fel sub cortice dulci</l>
+          <l rend="indent">Quòd tegat, exemplis res mihi nota satis.</l>
+          <l>Nec tua fictitia est, hac te Natura beavit,
+          </l><l rend="indent" n="250">Quâ superas reliquos, grata loquela, viros.</l>
+          <l>Hanc tibi Mercurius Veneri sociatus in ortu,</l>
+          <l rend="indent">Ædibus è propriis largus habere dedit.</l>
+          <l>Nec mirùm Superûm Præconi quòd Venus <app><lem wit="V1">adstans</lem><rdg wit="V"><q>astans</q></rdg></app>,</l>
+          <l rend="indent">Blanda tibi et pariter verba diserta parit.</l>
+          <l n="255">Quin simul his Phœbus Geminorum jungitur astro,</l>
+          <l rend="indent">Noster et hinc Geminus fortè oriundus amor,</l>
+          <l>Sed levis est Stilbon, levis est Cytheræa, Gemelli</l>
+          <l rend="indent">Sunt duplices, constans quid queat inde sequi?</l>
+          <l>Sol etiam radiis, qui pandit et omnia condit,</l>
+          <l rend="indent" n="260">Gradivi et Veneris prodidit antè dolos.</l>
+          <l>At quid ea huc refero? Spurci valeatis amores,</l>
+          <l rend="indent">Concessos thalamos, vincla probata loquor.</l>
+          <l>Si qua tamen levitas hinc aut aliundè subintret,</l>
+          <l rend="indent">Mox abeat, nostro sitque ab amore procul.</l>
+          <l n="265"><pb ed="A" n="5r"/>Me priùs, hanc habeant, quotquot petulanter amasti,</l>
+          <l rend="indent">Aut obiter si quam nunc quoque forsan amas.</l>
+          <l>Ista licet de te malè non ego suspicer unquam,</l>
+          <l rend="indent">Ast aliis dubium vestra libido movet.</l>
+          <l>Te procul ex oculis, quæ distas, scilicet, unam</l>
+          <l rend="indent" n="270">Absens, tamque diu, tamque remotus amet?</l>
+          <l>Quid faciat quæso longinquis deses in oris,</l>
+          <l rend="indent">Qui Paris alter ut est, nil nisi amare potest?</l>
+          <l>Crede peregrino captivus amore tenetur,</l>
+          <l rend="indent">Quænam illa Urania est forsan, et unde rogat,</l>
+          <l n="275">Sic ajunt; surdæ at frustrà mihi talia narrant,</l>
+          <l rend="indent"><app><lem wit="V1">Et surdam et cæcam</lem><rdg wit="V"><q>Et cæcam et surdam</q></rdg></app> me facit Arctus Amor.</l>
+          <l>Quicquid at his poterit (me non credente) subesse,</l>
+          <l rend="indent">Ipsa etiam leviùs sit levitate precor.</l>
+          <l><pb ed="TBOO" n="IX.200"/>In vacuas Stilbon pennis diventilet auras,</l>
+          <l rend="indent" n="280">Inque maris bullas <app><lem wit="V">efflet id omne</lem><rdg wit="R"><q>inde flet orta</q></rdg></app> Venus.</l>
+          <l>Vos duplices Gemini vanum hunc dissolvite amorem,</l>
+          <l rend="indent">Sub duplici et ficto corde sit iste velim.</l>
+          <l>Lumine quique suo citò detegit omnia Phœbus,</l>
+          <l rend="indent">Te prodat, casto si quâ in Amore noces.</l>
+          <l n="285">Me sed fixus amor, (si quid tibi sidera fixi,</l>
+          <l rend="indent">Si quid perpetui contribuêre) juvet.</l>
+          <l>Hunc Jovis intuitus quinta de cuspide firmet,</l>
+          <l rend="indent">Jupiter es constans, Quinta es amica domus.</l>
+          <l>Displicet invisæ constringi Virginis astro,</l>
+          <l rend="indent" n="290">Vosque premi opposito tardigradoque Sene.</l>
+          <l>At mihi Virgo favet, nostro quia fulsit in ortu,</l>
+          <l rend="indent">Heu nimiùm nobis forsitan illa favet.</l>
+          <l>Perpetuò est sterilis, sterilem quoque transigo vitam,</l>
+          <l rend="indent">Virgo nec ulla parit, nec vidua ulla parit.</l>
+          <l n="295">Artibus at facit oblecter, velut altera Pallas,</l>
+          <l rend="indent"><app><lem wit="V">Mercuriique</lem><rdg wit="R Friis TBOO"><q>Mercuriusque</q></rdg></app> sacris Ingeniosa litem.</l>
+          <l>Ipse etiam in propriâ feliciter æde locatus,</l>
+          <l rend="indent">Et Lunam aspiciens, promovet Artis opus.</l>
+          <l><pb ed="A" n="5v"/>Scilicet hoc unum longi est Solamen Amoris,</l>
+          <l rend="indent" n="300">Ut tua Penelope tela retexta diu.</l>
+          <l>Nec placet in signo tibi quòd saltem unicus Erro,</l>
+          <l rend="indent">Hospitium fixo, Marsque malignus, habet.</l>
+          <l>Culmine tecta cadens malè quique inimica subintrat,</l>
+          <l rend="indent">Quin mihi sic etiam Mars inimice cadis?</l>
+          <l n="305">Hoc habeas solido quicunque inimicus amori es,</l>
+          <l rend="indent">Spero quòd hinc nostris hostibus omen erit.</l>
+          <l>Et licet est fixum Martem quo Corniger abdis
+          </l><l rend="indent">Hospitium, tamen id vix placuisse potest.</l>
+          <l>Aversum à proprio est, simul hîc nocet ille Dianæ,</l>
+          <l rend="indent" n="310">Pronuba quæ Tauri scandere tergus avet.</l>
+          <l>Et licet alternâ juvet hanc quòd sede recepit;</l>
+          <l rend="indent">Attamen <app><lem wit="T">his obstat</lem><rdg wit="V"><q>afficiet</q></rdg></app> plùs Duodena domus.</l>
+          <l>Mars igitur valeas, alibi infortunia figas,</l>
+          <l rend="indent">Nunc, quæ agitas, non vult Cornua noster amor.</l>
+          <l n="315">Falcitenens potiùs validos benè firmet amores,</l>
+          <l rend="indent"><app><lem wit="V">Is</lem><rdg wit="R Friis TBOO"><q>in</q> (sic)</rdg></app> quamvis etiam dicitur esse malus:</l>
+          <l><app><lem wit="V">Non</lem><rdg wit="R"><q>Nos</q></rdg></app> tamen esse malum Mystes Ægyptius olim</l>
+          <l rend="indent">Credidit, hunc habuit sed potiore loco.</l>
+          <l>Esse bonus nobis poterit, sublimior extat,</l>
+          <l rend="indent" n="320">Inque Jovis Solio, vix mala blandus agit.</l>
+          <l><pb ed="TBOO" n="IX.201"/><app><lem wit="T">Cuius ad aspectum</lem><rdg wit="V"><q>Ad radios cujus</q></rdg></app> (licet haud bona quadra <app><lem wit="T">putetur</lem><rdg wit="V"><q>putentur</q></rdg></app></l>
+          <l rend="indent"><app><lem wit="T">Est</lem><rdg wit="V"><q>Sunt</q></rdg></app> mage Sextilis) applicat alma Venus.</l>
+          <l><app><lem wit="T">Est mihi, sitque bonus precor, et te figere possit</lem><rdg wit="V"><q>Sunt mihi, sintque boni precor, et te figere possint </q></rdg></app>,</l>
+          <l rend="indent">Ut tuus in nobis perpetuetur Amor.</l>
+          <l n="325">Non tamen ut fixus maneas ubicunque <app><lem wit="V">moreris</lem><rdg wit="R"><q>moraris</q></rdg></app>,</l>
+          <l rend="indent">Te revocet potiùs quæ cita Luna pede est.</l>
+          <l>Ad cuius radios pergit Venus alma, quadrati</l>
+          <l rend="indent">Sint licet, evadunt <app><lem wit="V
+                T">ex</lem><rdg wit="V"><q>ast</q></rdg></app> brevitate boni.</l>
+          <l>Tunc simul ipsa Jovis, qui Conjugialia curat,</l>
+          <l rend="indent" n="330">Sextilem intuitum (Lux benè fausta) petit.</l>
+          <l>Hinc ego concipio spem firmam, nocte quòd ista</l>
+          <l rend="indent">Monstrabit thalamis tæda cupita viam.</l>
+          <l>Cypria nam maribus, Juno <app><lem wit="V">et</lem><rdg><note>omittit R</note></rdg></app> quoque pronuba fertur,</l>
+          <l rend="indent">Conjugiumque illis signat Amoris opus.</l>
+          <l n="335"><pb ed="A" n="6r"/>Adde, quòd et Phœbum radii Jovis inde benigni</l>
+          <l rend="indent">Excipient, qui nos prole beare volent.</l>
+          <l>Quid dicam? Genesis nostra et sub tempore eodem</l>
+          <l rend="indent">Ad Veneris radios te quoque Luna movet.</l>
+          <app><lem wit="V"><l>Mox Venus ipsa Jovis sidus quod præsidet almo</l>
+              <l rend="indent" n="340">Hîc benè conjugio gestit adire Patris.</l></lem><rdg wit="V1"><q>Et</q> (?) <q>Venus ipsa simul Corpus Jovis Altipotentis / Praesidis atq&#x2013;</q></rdg></app>
+          <l>Quàm benè utrinque cadit sub idem directio tempus,</l>
+          <l rend="indent">Aspirant thalamis sidera ubique piis.</l>
+          <l>Quin mihi Saturnus Venerem sat fixit in ipso</l>
+          <l rend="indent">Quo satagunt ambo sceptra tenere loco.</l>
+          <l n="345">At timeo ne sede cadens (sed Sole receptus)</l>
+          <l rend="indent">Hanc nimiùm radio figat ab opposito.</l>
+          <l>Hinc mihi tot forsan, quot castum propter amorem,</l>
+          <l rend="indent">Perfero languores, tristitiæque fluunt.</l>
+          <l>Jupiter <app><lem wit="V">ast</lem><rdg wit="R Friis TBOO"><q>est</q></rdg></app> moderans loca, quæ tribuêre periti</l>
+          <l rend="indent" n="350">Conjugio, in proprio limine faustus agit.</l>
+          <l>Sol, quem Fæmellis perhibent signare maritos,</l>
+          <l rend="indent">Adjuvat hunc flammis irradiatque bonis.</l>
+          <l>Ille etiam signo, quod habet tibi Septima, gaudet,</l>
+          <l rend="indent">Septima Conjugiis ritè dicata domus.</l>
+          <l n="355">Auguror et placidos et lætos hinc Hymenæos,</l>
+          <l rend="indent">Acceleres sacras ô Hymenæe faces.</l>
+          <l>Sepone invidiam, utque tuo mox nomine gaudens,</l>
+          <l rend="indent">Ô Erycina Venus, des Ericina vocer.</l>
+          <l>Adde, Planeta quòd elatus vel sedibus altis,</l>
+          <l rend="indent" n="360">Vel residens propriis bis mihi binus <app><lem>adest.</lem><rdg><note>Versus 259-60 post 261-62 praebuit V, sed postea transpositi sunt.</note></rdg></app></l>
+          <l><app><lem wit="V">Nec me perpetuis patietur fluctibus abdi</lem><rdg wit="R"><q>Ergo haud perpetuis obnoxia fluctibus abdar</q></rdg></app>,</l>
+          <l rend="indent">Tandem etiam nobis tempora Veris erunt.</l>
+          <l><pb ed="TBOO" n="IX.202"/>Nil mirêre tamen, quòd cœlum et Sidera pando,
+          </l><l rend="indent">Utpote Fæmineo quæ minus apta colo.</l>
+          <l n="365">Sum quoque, si nescis, præter muliebria dona,</l>
+          <l rend="indent">Astrologa, id propter dicor et Urania.</l>
+          <l>Sidera suspicio, Genesesque recludo, nec istud</l>
+          <l rend="indent"><app><lem wit="V">Contribuit frustrà nomen Apollo mihi</lem><rdg wit="R"><q>Incassum nomen Frater Apolo</q> (sic) <q>dedit </q></rdg></app>.</l>
+          <l>Tuque velut quæ prona videns, hanc expetis artem,</l>
+          <l rend="indent" n="370">Quæ terrâ effossis rebus anhelat opes:</l>
+          <l><pb ed="A" n="6v"/>Sic ego, sic sursum, quæ sunt cœlestia specto,</l>
+          <l rend="indent">Ars mea (condones) <app><lem wit="V">celsior</lem><rdg wit="R"><q>gnarior</q></rdg></app> arte tuâ est.</l>
+          <l>Ut Cœlum terras, sic nostra Ars Chimica vincit,</l>
+          <l rend="indent">Adde quòd hæc vera est, <app><lem wit="V">Chimia falsa</lem><rdg wit="R"><q>falsa Chymia</q></rdg></app> nimis.</l>
+          <l n="375">Ast tibi quæ placeant, quæcunque vel unde petantur,</l>
+          <l rend="indent">Non poterunt unquam displicuisse mihi.</l>
+          <l>Tu modò fac redeas, revocantiaque Astra sequaris,</l>
+          <l rend="indent">Quæ citò Conjugii tempora læta notant.</l>
+          <l>Quicquid erit, quod te reficit, delecter eodem,</l>
+          <l rend="indent" n="380">Chimica sive voles, Carmina sive voles.</l>
+          <l>Nam cùm te multùm recreet quoque blanda Poësis,</l>
+          <l rend="indent">Altera <app><lem wit="V">sim</lem><rdg wit="R"><q>ero</q></rdg></app> Sappho, metra sonora canam.</l>
+          <l>Sola nec ipsa tibi sim caussa, ut promptior adsis,</l>
+          <l rend="indent">Quin tenerum natum respice quæso meum.</l>
+          <l n="385">Ætas (dante Deo) veniet mage firma Tagoni,</l>
+          <l rend="indent">Consiliis foret hæc nunc moderanda tuis.</l>
+          <l>Ut virtute <app><lem wit="T R">acri</lem><rdg wit="V"><q>altâ</q></rdg><rdg><note>non erasum</note></rdg></app> referens <app><lem wit="Zeeberg">utrumque, Parentem</lem><rdg wit="V R"><q>utrumque Parentem,</q></rdg></app></l>
+          <l rend="indent">Teque sequi studiis gestiat usque bonis.</l>
+          <l><app><lem wit="V">Hei</lem><rdg wit="R"><q>Heu</q></rdg></app> mihi quot morbis fuit ille obnoxius, et quot</l>
+          <l rend="indent" n="390">Dum tu <app><lem wit="V">tardus</lem><rdg wit="R"><q>lentus</q></rdg></app> abes, sæva pericla tulit.</l>
+          <l>Ast spero Numen mihi quod dedit huncce supernum,</l>
+          <l rend="indent">Servet, et haud seros auferat ante dies:</l>
+          <l>Lætitiæ ut nobis decorique existat adultus,</l>
+          <l rend="indent"><app><lem wit="T">Longævus</lem><rdg wit="V"><q>Tandem etiam</q></rdg></app> nostris <app><lem wit="V">insideatque</lem><rdg wit="R"><q>insidiatque</q></rdg></app> bonis.</l>
+          <l n="395">Si quid habent, ut habent, cœlestia <app><lem wit="V R">corpora</lem><rdg><note>non erasum in V</note></rdg><rdg wit="T"><q>sidera</q></rdg></app> veri,</l>
+          <l rend="indent">Nascenti huic puero fata benigna dabant.</l>
+          <l>Pone ortum Venus alma fuit sub Sidere Cancri,</l>
+          <l rend="indent">Quare in amore illi Blande Cupido faves.</l>
+          <l>Sol Geminos tenuit, capit <app><lem wit="T1">hunc consuetus</lem><rdg wit="V"><q>ipsum svetus</q></rdg><rdg wit="T"><q>hunc qui suetus</q> (sic)</rdg></app> Achates</l>
+          <l rend="indent" n="400">Hospitio Stilbon, undecimoque loco.</l>
+          <l>Clarus is hinc fiet, simul ingeniosus, ut artes</l>
+          <l rend="indent">Percipiat doctas; multus amicus erit.</l>
+          <l>Culmine Mars supero mox se sublimior effert,</l>
+          <l rend="indent">Huic Aries solio dat residere suo,</l>
+          <l n="405"><pb ed="TBOO" n="IX.203"/>Ascendens videt is Trino (licet ille quadratus</l>
+          <l rend="indent">Esse queat) radio; te quoque Phœbe videt. </l>
+          <l><pb ed="A" n="7r"/>Hunc etiam recreat Lunæque Jovisque benignus</l>
+          <l rend="indent">Intuitus, nec lux Falcitenentis <app><lem wit="V">obest</lem><rdg wit="V"><q>abest</q></rdg></app>.</l>
+          <l>Prævideo hinc, rebus felicem aptumque futurum,</l>
+          <l rend="indent" n="410">Quas nimiùm toto Mars ferus orbe gerit.</l>
+          <l>Hincque canes et equos, bombardas, arma, sagittas,</l>
+          <l rend="indent">Si qua foret, doctâ <app><lem wit="V">gnarior</lem><rdg wit="R"><q>promptior</q></rdg></app> arte reget.</l>
+          <l>Ast utinam Gradive <app><lem wit="V1">Pater (seu Vitrice prorsus)</lem><rdg wit="V"><q>Pater, seu Vitrice prorsus,</q></rdg></app></l>
+          <l rend="indent">Filiolo hæc non des munera, des aliis.</l>
+          <l n="415">Nulla Salus opere in Martis, Pax aurea præstat,</l>
+          <l rend="indent">Inque malâ poterit re nihil esse boni.</l>
+          <l>Quin mage Saturnum, quem Septimus ordo domorum</l>
+          <l rend="indent"><app><lem wit="V">Continet</lem><rdg wit="R"><q>Detinet</q></rdg></app>, extimeo; lentus atroxque nocet.</l>
+          <l>Is tamen in propria requiescens sede triumphat,</l>
+          <l rend="indent" n="420"><app><lem wit="V">Pocla suus præbens huic Ganymedes adest.</lem><rdg wit="R"><q>Urna sui fundit cui Ganymedis aqvas;</q></rdg></app></l>
+          <l>Conjugio haud obstat, sed firmum et gratius adfert,</l>
+          <l rend="indent">Fortè tamen remoras stans repedansque facit.</l>
+          <l>Id saltem metuo, radiis ne quando sub ortum</l>
+          <l rend="indent">HVeneritH oppositis, damna proterva ferat.</l>
+          <l n="425">Est etenim octavæ Præses, quæ mansio dira est,</l>
+          <l rend="indent">Annus et is novies bis numerandus erit.</l>
+          <l>Hunc pravum intuitum, simul et mox cauda Draconis</l>
+          <l rend="indent">Fascinat excipiens, ingeminatque malum.</l>
+          <l>At quia <app><lem wit="V">tam</lem><rdg wit="R"><q>jam</q></rdg></app> faustas Quinta sub sede tabernas</l>
+          <l rend="indent" n="430">Jupiter, atque illi juncta Diana, tenent:</l>
+          <l>Isque suo gaudens venientem lumine et auctam</l>
+          <l rend="indent">Accipit hospitio; dissipat omne malum.</l>
+          <l>Lætitiam importat, vitam prolongat, honores</l>
+          <l rend="indent">Dans et opes; natis Conjugioque favet.</l>
+          <l n="435">Res quoque rara patet; quatuor sunt <app><lem wit="T">nempe</lem><rdg wit="V"><q>namque</q></rdg></app> Planetæ</l>
+          <l rend="indent">Ædibus in propriis præcipuisque locis.</l>
+          <l>Omnibus in gestis, hæc, toto tempore vitæ</l>
+          <l rend="indent">Eximia natum prosperitate beant.</l>
+          <l>Singula quid referam? Genesis vix faustior ulla est,</l>
+          <l rend="indent" n="440">Si pariam, similem sæpè redire velim.</l>
+          <l>At supera ex voto quamvis sint sidera fausta,</l>
+          <l rend="indent">Cuncta simul faveant inferiora precor.</l>
+          <l><pb ed="A" n="7v"/>Ipsum homines et ament, seu mas, seu femina, et ipsum</l>
+          <l rend="indent">Quicquid terrestris <app><lem wit="V">continet</lem><rdg wit="T"><q>continet</q></rdg><rdg><note>in marg.</note></rdg></app> orbis, amet.</l>
+          <l n="445"><app><lem wit="T">Nulla salus tamen ex astris, tellureque nulla est</lem><rdg wit="V"><q>Nulla salus astris tamen est, Tellureque nulla</q></rdg></app>,</l>
+          <l rend="indent">Te, Tago, perpetuum sospitet, oro, Deus.</l>
+          <l><pb ed="TBOO" n="IX.204"/>Dum loquor; <app><lem wit="T">heu</lem><rdg wit="V"><q>En</q></rdg></app> <app><lem wit="V">tristis nimiùm</lem><rdg wit="R"><q>nimiùm tristis</q></rdg></app> mihi fama refertur,</l>
+          <l rend="indent">Quòd modò præcipuus noster amicus <app><lem wit="V">obit</lem><rdg wit="R"><q>obis</q></rdg></app>.</l>
+          <l>Charior haud illo mihi, vixque fidelior alter</l>
+          <l rend="indent" n="450">Suppetit, Ô nimiùm Mors inimica bonis!</l>
+          <l>Spero tamen quòd inanis erit tam concita fama,</l>
+          <l rend="indent">Hoc meus in somnis nec monuit Genius.</l>
+          <l>Quàm lugubre foret charo hoc privarier astro,</l>
+          <l rend="indent">Talia nam nobis Sidera rara micant.</l>
+          <l n="455">Eurialo et Niso similis quamplurimus olim,</l>
+          <l rend="indent">Tam tibi, quamque mihi, fidus amicus erat.</l>
+          <l>Quàm <app><lem wit="V">benè</lem><rdg wit="R"><q>citò</q></rdg></app> jam reliquos digitis numerabimus omnes,</l>
+          <l rend="indent">Ambobus vix nunc unus et alter adest.</l>
+          <l>Tempora læta ferunt multos, <app><lem wit="V">sed</lem><rdg wit="R"><q>sub</q></rdg></app> nubila tollunt,</l>
+          <l rend="indent" n="560">Fortunæ arbitrio stantque, caduntque simul.</l>
+          <l>Penè mihi solus superest sine felle, vel astu,</l>
+          <l rend="indent">Qui perstet firmâ Frater Apollo fide.</l>
+          <l>Nec frustrà huic placidus roravit Aquarius ortum</l>
+          <l rend="indent">Fixus, et humanus, Tardigradique domus.</l>
+          <l n="465">Cum Jove, qui Venerem facit undique cingere Eöas,</l>
+          <l rend="indent">Scandentesque fores; lux ea fausta micat.</l>
+          <l>Jupiter alternum paritèr cum Falcitenente</l>
+          <l rend="indent">Hospitium mutans, plus gravitate juvat.</l>
+          <l><app><lem wit="V">Mars</lem><rdg wit="R"><q>Mors</q></rdg></app> etiam proprias aurati Velleris ædes,</l>
+          <l rend="indent" n="470">Alterna è cathedra Sole receptus, habet.</l>
+          <l>Unde Animo est acri et rebus citus instat agendis,</l>
+          <l rend="indent">Fortiter Herculei fertque laboris onus;</l>
+          <l>Quinetiam Stilbon Saturni limina grata,</l>
+          <l rend="indent">Hujus et amplexu Soleque cinctus, adit.</l>
+          <l n="475">Cumque sua Lunam gradientem Virgine, Trino,</l>
+          <l rend="indent">Qui menti aspirat, respicit intuitu.</l>
+          <l><pb ed="A" n="8r"/>Inde magis constans habet, ingeniumque profundum,</l>
+          <l rend="indent">Utque operæ <app><lem wit="V">precium</lem><rdg wit="R"><q>precij</q></rdg><rdg><note>in marg.: <q>operaprecij</q> (?) T</note></rdg></app> nil, nisi grande, putet.</l>
+          <l>Hinc quoque judicio consultus prævalet alto,</l>
+          <l rend="indent" n="480">Vulgus ut hunc nugis nil remoretur iners.</l>
+          <l>Ergò minùs mirum est, quòd <app><lem wit="V1">nostro plaudat</lem><rdg wit="V R Friis TBOO"><q>nostro is plaudat</q></rdg></app> amori,</l>
+          <l rend="indent">Hunc temerè ex Atomis nec putet esse satum.</l>
+          <l>Scilicet hic <app><lem wit="V">restat</lem><rdg wit="R"><q>saltem</q></rdg></app> de tot mihi fratribus unus,</l>
+          <l rend="indent"><app><lem wit="V">Qui capiat, quòd te non temulenter amem</lem><rdg wit="R"><q>Esxpensum nostri pondus Amoris habet</q></rdg></app>.</l>
+          <l n="485"><pb ed="A" n="8v"/>Hoc facit Ingenium, Gravitas, Prudentia, Virtus,</l>
+          <l rend="indent">Hoc et amor Recti, Judiciumque facit.</l>
+          <l>Sufficiat nobis primævus, candida, frater</l>
+          <l rend="indent">Quòd nostro facilis, corda, in amore gerat.</l>
+          <l><pb ed="TBOO" n="IX.205"/>Quid si etiam ex astris tandem ventura revolvens,</l>
+          <l rend="indent" n="490">Hinc tacitus nostros prævideat thalamos?</l>
+          <l>Sidereisque ideò frustrà haud obsistere fatis</l>
+          <l rend="indent">Audeat; Ô quantum fata in amore valent!</l>
+          <l>Fato junguntur, Fato solvuntur amores,</l>
+          <l rend="indent">Non habet híc semper Gaza, Genusve locum.</l>
+          <l n="495">Quàm pulchrum est hominem simul et præscire futura,</l>
+          <l rend="indent">Et simul, affuerint si bona fata, sequi.</l>
+          <l>incauti hîc titubant, quos Ignorantia turbat,</l>
+          <l rend="indent">Frater at hic noster callet utrumque satis.</l>
+          <l>Hic mihi frater erit semper, quem fautor Apollo,</l>
+          <l rend="indent" n="500">Ex quo etiam meritò nomina gestat, amet.</l>
+          <l>Sive igitur faveant alii, seu lumina vibrent,</l>
+          <l rend="indent">Ut soliti, torvo torva supercilio.</l>
+          <l>Nil tamen impedient, quin nos constanter amemus,</l>
+          <l rend="indent"><app><lem wit="T">Et</lem><rdg wit="V"><q>Nam</q></rdg></app> pro mille aliis frater is unus erit.</l>
+          <l n="505">Imò haud obstabit, decuit quos ferre levamen,</l>
+          <l rend="indent">Quòd noceant reliqui verbaque sæva crepent.</l>
+          <l>Si non Titanem (dicunt) <app><lem wit="V">tam</lem><rdg wit="R"><q>tum</q></rdg></app> perditè amares,</l>
+          <l rend="indent">Ditior et major Vir tibi (crede) foret.</l>
+          <l>Ipso in Amore tamen si qua est Sapientia, certè</l>
+          <l rend="indent" n="510">Haud credam, quòd te desipienter amem.</l>
+          <l>Non ego divitias, non mundi sector honores,</l>
+          <l rend="indent">Officioque gravi complacuisse viro.</l>
+          <l>Omnibus <app><lem wit="V1">Officiis</lem><rdg wit="V"><q>officiis</q></rdg></app>, fundis, aurique talentis,</l>
+          <l rend="indent">Nam <app><lem wit="V1">Persona</lem><rdg wit="V"><q>persona</q></rdg></app> mihi charior una tua est.</l>
+          <l n="515">Plura etiam agglomerant, mea quæ nunc cuncta referre,</l>
+          <l rend="indent">Vel meminisse semel, mens sibi recta, piget.</l>
+          <l>Hi dicant, quæcunque volent, tua dicar oportet,</l>
+          <l rend="indent">Titanis maneam <app><lem wit="V">semper ego</lem><rdg wit="R"><q>perpetuo</q></rdg></app> Urania.</l>
+          <l>Absis sive diu, <app><lem wit="T">celer hîc me sive revisas</lem><rdg wit="V"><q>celer huc sis sive reversus</q></rdg></app>,</l>
+          <l rend="indent" n="520">Corde meo fixus tu tamen usque sedes.</l>
+          <l>Nec tu sponte tua, sed valdè invitus abesse</l>
+          <l rend="indent">Cogeris, ac malles semper adesse mihi.</l>
+          <l>Hucque subinde etiam, perque intervalla redires</l>
+          <l rend="indent"><app><lem wit="T"></lem><rdg wit="V"><q>Ni timeas dolor hinc quod magis auctus erit</q></rdg><rdg><note>supra quae et <q>dolor hinc noster</q> scripsit T</note></rdg><rdg wit="R">Sed metuis, crescat sic quod utrisque dolor</rdg></app>.</l>
+          <l n="525">Ne me iterùm ut linquas, tibi dum sit forte necessùm,</l>
+          <l rend="indent">Tristitiæ nimiùm multiplicetur onus.</l>
+          <l>Ergò voles potiùs peregrinis degere in oris,</l>
+          <l rend="indent">Hospitia hîc donec Sors tibi firma dabit.</l>
+          <l><app><lem wit="V">Intereàque mihi non scribere negligis ultrò</lem><rdg wit="R"><q>Scribere et interea mihi nunqvam negligis ultrò</q></rdg></app>,</l>
+          <l rend="indent" n="530">Res ea sit quamvis te remorata diu.</l>
+          <l><pb ed="TBOO" n="IX.206"/>Sive quòd ex votis nemo internuncius adsit,</l>
+          <l rend="indent">Sæpè viam ingressæ seu periêre notæ.</l>
+          <l>Quicquid id est, facit hoc non ulla aversa voluntas,</l>
+          <l rend="indent">Scribere satque cupis, satque redire cupis.</l>
+          <l n="535"><app><lem wit="T2">Perque tuum quoties venit huc portata ministrum</lem><rdg wit="V"><q>Nam quoties proprio venit a te missa ministro</q></rdg><rdg wit="T"><q>per proprium quoties venit a te missa ministrum </q></rdg><rdg wit="T1"><q>per proprium quoties venit transmissa ministrum</q></rdg><rdg><note>(In marg.: <q>huc transmissa</q> T)</note></rdg><rdg wit="R">Perque tuum qvoties venit huc allata ministrum</rdg></app>,</l>
+          <l rend="indent">Littera, sic illum diceris ore sequi.</l>
+          <l>Hanc ego, Serve, tibi, qua me felicior <app><lem wit="T">ibis</lem><rdg wit="V"><q>es nunc</q></rdg></app>,</l>
+          <l rend="indent">Fortunam invideo; Servus ego ô fierem.</l>
+          <l>Et chartam <app><lem wit="T R">iratè</lem><rdg wit="V"><q>torvè</q></rdg><rdg><note>non erasum</note></rdg></app> alloqueris, quam rumpere velles,</l>
+          <l rend="indent" n="540">Altera <app><lem wit="V">nî</lem><rdg wit="R"><q>in</q></rdg></app> calamo mox peraranda foret.</l>
+          <l>Tune meis digitis, quibus es conscripta, bearis</l>
+          <l rend="indent">Charta magis? digitis te citò <app><lem wit="V1">Nostra</lem><rdg wit="V"><q>nostra</q></rdg></app> teret.</l>
+          <l><pb ed="A" n="9r"/>Teque oculi inspicient, quos his ego cernere mallem,</l>
+          <l rend="indent">Oscula fortè dabit, quæ mea sola forent.</l>
+          <l n="545">Hoc simul ut faciam fas est, priùs oscula <app><lem wit="V1">libo</lem><rdg wit="V"><q>figo</q></rdg></app>,</l>
+          <l rend="indent">Nomen ubi augustum scribitur Uraniæ.</l>
+          <l><app><lem wit="T1">Spero quòd illa brevi pariter tibi Basia figat</lem><rdg wit="V"><q>Spero quod illa etiam repitita svavia</q> (sic) <q>libet</q></rdg><rdg wit="T"><q>Spero quod illa etiam tibi rursus basia libet</q></rdg><rdg><note>(In marg., erasum: <q>tangat</q> T)</note></rdg><rdg wit="R"><q>Spero quòd illa brevi pariter tibi Basia figet</q></rdg></app>,</l>
+          <l rend="indent">Qua suus hîc Titan nomina parte tenet.</l>
+          <l>Vade igitur visas toto hanc quâ pulchrior orbe</l>
+          <l rend="indent" n="550">Nulla meis oculis Femina, vade citò.</l>
+          <l>Heu mihi quòd sine me tam grata palatia vises,</l>
+          <l rend="indent">Heu quòd scriptori non licet ire tuo!</l>
+          <l>Sic loqueris, (dicunt) sic crebrò nos adeuntes,</l>
+          <l rend="indent">Insequeris famulos; grata loquela mihi est.</l>
+          <l n="555">Singula scire juvat, <app><lem wit="T">missi cunctosque ministri</lem><rdg wit="V"><q>cunctos missique ministri</q></rdg></app></l>
+          <l rend="indent">Ut nutus referant, <app><lem wit="T">cunctaque verba</lem><rdg wit="V"><q>verbaque cuncta</q></rdg></app>, volo.</l>
+          <l>Ergò sive adsis, seu non, seu scribere, seu non</l>
+          <l rend="indent">Sæpè voles, modò ames, semper amandus eris.</l>
+          <l>Nec tamen addubito, quin tu Charissime Titan,</l>
+          <l rend="indent" n="560">Perpetuò Uraniam, quæ Tua semper, ames.</l>
+          <l>Si te etiam nunquam, (quod Dî prohibete) viderem,</l>
+          <l rend="indent">Ex oculis tamen his non abolendus eris.</l>
+          <l>Mente meâ impressus Titan sine fine manebis,</l>
+          <l rend="indent">Fixus eris cordi tempus in omne meo.</l>
+          <l n="565">Te præter nemo nostro potietur Amore,</l>
+          <l rend="indent">Mille Proci fuerint, commoda mille ferant.</l>
+          <l>Attamen haud credam, quòd sint tam Numina sæva</l>
+          <l rend="indent">Nuper ut inceptâ spe spoliare velint.</l>
+          <l>Id saltem vereor, ne dum lentissimus absis,</l>
+          <l rend="indent" n="570">Quòd mea sit reduci forma probata minùs.</l>
+          <l>Nam quæ pulchra satis, te discedente, videbar,</l>
+          <l rend="indent">Altera, quando redis, forsitan esse puter.</l>
+          <l><pb ed="A" n="9v"/><pb ed="TBOO" n="IX.207"/>Non quòd adhuc annis onerer, rugasve timescam,</l>
+          <l rend="indent">Sæpè etiam Senium Sollicitudo parit.</l>
+          <l n="575">Anxietas me multa premit, nec deserit unquam,</l><l></l>
+          <l rend="indent">Hæc quoque dum scribo <app><lem wit="T1">durior ecce</lem><rdg wit="V"><q>pravior ista</q></rdg><rdg><note>in marg.: <q>sævior durior</q> (?) T</note></rdg></app> redit.</l>
+          <l>Nam modò qui fuerat de morte incertus amici</l>
+          <l rend="indent"><app><lem wit="V">Rumor</lem><rdg wit="R"><q>Nuncius</q></rdg></app>, en hunc nimiùm littera missa probat.</l>
+          <l>Heu mala quòd semper sibi constet fama, nec unquam</l>
+          <l rend="indent" n="580">Eventus habeat prospera quæque bonos.</l>
+          <l>Nil licet in somnis hoc admonuisse recorder,</l>
+          <l rend="indent">Signa tamen Genius, me vigilante, dedit.</l>
+          <l>Quàm mihi mira fui, simul et quàm tristis eodem</l>
+          <l rend="indent">Abstulit hunc terris quo Libitina die.</l>
+          <l n="585">Omen erat tanti (modò quid sint omina) luctus,</l>
+          <l rend="indent">Dixi aliis, certè res metuenda subest.</l>
+          <l>Attamen haud potui citò persentiscere, rumor</l>
+          <l rend="indent">Quòd nimiùm verus (proh dolor) iste foret.</l>
+          <l>Nempè ægrè, quæ grata minùs sunt, credimus at quæ</l>
+          <l rend="indent" n="590">Sunt accepta satis, mox meruêre fidem.</l>
+          <l>Non tamen exponam quis sit, mens ipsa tremiscit</l>
+          <l rend="indent">Dicere, nec nomen sustinet ore dolor.</l>
+          <l>Sit signasse satis, quòd erat Tuus Optimus ille</l>
+          <l rend="indent">Et meus, et nostri fratris Amicus: habes.</l>
+          <l n="595">Forsan habes nimiùm, nec enim te scire volebam,</l>
+          <l rend="indent"><app><lem wit="V">Sponte sua pernix sat mala fama venit</lem><rdg wit="R"><q>Nam mala sponte suâ sat citò fama, venit</q></rdg></app>.</l>
+          <l>Nunc igitur dolor hinc auctus, me sistere pennam</l>
+          <l rend="indent">Cogit, et, ut vellem, scribere plura vetat.</l>
+          <l>Ast ubi sis præsens, simul et jungamur in <app><lem wit="V">uno</lem><rdg wit="R"><q>unum</q></rdg></app>,</l>
+          <l rend="indent" n="600">Quæ modò subticeo, plurima <app><lem wit="V">aperta</lem><rdg wit="R"><q>nota</q></rdg></app> dabo.</l>
+          <l><pb ed="A" n="10r"/>Tunc quæ passus eris, mihi denarrabis acerba,</l>
+          <l rend="indent">Ipsaque nostra tibi; fortè levamen erit.</l>
+          <l>Quod superest benè vive diu; ut salvusque revisas</l>
+          <l rend="indent">Uraniam; ô Titan semper Amate Vale.</l>
+        </lg>
+        <lg>
+          <l n="605">Hæc in Erichsholmi <app><lem wit="V">perarata</lem><rdg wit="R"><q>perscripta</q></rdg></app> est litera Castro,</l>
+          <l rend="indent">Cùm geminos Pisces Sol redeundo capit.</l>
+          <l>Dî citò dent gemini híc pisces capiamus <app><lem wit="V1">Amantes</lem><rdg wit="V"><q>amantes</q></rdg></app>,</l>
+          <l rend="indent">Tuque redux Titan, et Tua ego Urania.</l>
+        </lg>
+        <closer></closer>
+      </div>
+    </body>
+  </text>
+</TEI>

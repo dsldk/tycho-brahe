@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1588-01-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588.21. februar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><opener><pb ed="TBOO" n="VI.162"/><pb ed="E" n="132"/>ILLVSTRISSIMO PRINCIPI AC
+                        DOMINO D. <persName ref="Wilhelm, landgrave of Hessen">WILHELMO</persName>
+                        HASSIÆ LANDTGRAVIO, COMITI IN CATZENELLEBOGEN, DIETZ, ZIEGENHAIN <app>
+                            <lem>ET</lem>
+                            <rdg><note>om. E: add. TBOO ex M</note></rdg>
+                        </app> NIDDA: PRINCIPI <app>
+                            <lem>AC</lem>
+                            <rdg wit="#M">et</rdg>
+                        </app> DOMINO SUO CLEMENTISSIMO S. <app>
+                            <lem>P.</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app></opener>
+                
+                <p>ETSI a tua Celsitudine nihil responsi ad posteriores literas circa Nundinas
+                    Autumnales receperim, nihilominus quod subinde Celsit. tuæ scribam, et de
+                    negotio Astronomico conferam, minime ingratum esse, satis mihi persuadeo, pos<pb
+                        ed="E" n="133"/>sunt enim in tanta rerum politicarum administratione, multa
+                    incidere, quæ tuam Celsitud. etiamsi quam maxime velit, a respondendo auocent;
+                    Nam et T. Cels. <persName ref="Rothmann">Mathematicus</persName>, vir in his
+                    artibus apprime industrius mihi per literas significauit, T. Cels. in elocatione
+                    illustris suæ <persName ref="Anna Maria ">Filiæ</persName>, nuptiarumque
+                    magnifico apparatu, tunc temporis occupatam fuisse, quominus hæc curare
+                    tempestiuum fuerit, vnaque sibi iniunctum refert, vt is T. Cels. nomine meis
+                    responderet, Quod et breuibus fecit: Siquidem ad singula rescribere non duxit
+                    necessarium. In primis autem discrepantiam, quæ nobis in verificatione Fixarum
+                    intercedit aliquantula, attingit, existimatque Refractionum vitio minime factum
+                    esse, quod Anno 87. e Sole intermediante Veneris Stella, Longitudines Fixarum
+                    quinis adhuc proxime Scrupulis nostra inuentione <app>
+                        <lem>anteriores</lem>
+                        <rdg wit="#M">vlteriores</rdg>
+                    </app> expertus sit, verum id mihi vix persuadebit. Nam et ego eodem tempore
+                    simili ratione, Fixarum limites explorare non destiti, et pluribus vicibus
+                    diligenti adhibita examintione deprehendi, si Parallaxium et Refractionum non
+                    satis circumspecte præcauerentur impedimenta, quinque vel sex Minutis vlterius,
+                    quam oporteat, recidere. Sed et in Decembri proxime elapsi Anni, cum Venus
+                    rursus Eôa interdiu cerneretur, viceuersa rem omnem exploraui, et tantundem
+                    illic Fixarum loca iusto anterius cadere, eodem modo comperi. Nec dubito, si T.
+                    Cels. <persName ref="Rothmann">Mathematicus</persName> etiam in fine præteriti
+                    Anni, et huius labentis principio, quando Venus multo tempore diurna cernebatur,
+                    ad ipsam matutinam hæc rursus expenderit, idem mecum adinuenisse, quodque iam
+                    sententia mutata, in nostras Longitudines consenserit. Fuere autem circa vtraque
+                    tempora Declinationes Solis et Veneris, atque huius a Terra distantiæ non
+                    admodum dispares, quod multum facit ad rei inquirendæ certitudinem penitius
+                    peruestigandam, præsertim si consimiles, vt oportet, adhibeantur Altitudines. Vt
+                    vero T. Cels. exemplum aliquod e nostris Obseruationibus in promptu habeat,
+                    vnicum hoc subiungam. Anno itaque, vt dixi 87. die 24. Ianuarij, Hor. 0. M. 15.
+                    P. M. cum Sol haberet Altitudinem <pb ed="TBOO" n="VI.163"/>part. 17½.
+                    Obseruabatur hîc per Sextantem Trigonicum quadricubitalem distantia ♀ a centro ☉
+                    partium 37. Min. 5¾. Declinatione eius vna reperta P. 0. M. 25. B. idque per
+                    Armillam decem pedum in Diametro, Axi in Mundi Polos tendenti incumbentem, et
+                    vna cum hoc circumvolubilem. Hinc et ex data Declinatione atque Ascensione recta
+                    Solis per suum locum in P. 14. M. <app>
+                        <lem>17⅙.</lem>
+                        <rdg><note>TBOO ex M: <q>18⅙.</q> E</note></rdg>
+                    </app> ♒ cognitis, elicitur Triangulorum beneficio differentia Ascens. Rect.
+                    inter Solem et Venerem P. 33. M. 26. quæ addita Ascens. Rectæ ☉ promit ♀
+                    Ascensionem rectam, P. 350. M. 12⅙. Deinde postquam Sol Horizontem subierat, <app>
+                        <lem>Horâ</lem>
+                        <rdg><note><q>Horam</q> E: corr. T</note></rdg>
+                    </app> existente 5¼. inueniebatur distantia ♀ et Lucidioris in cap. ♈ P. 40. M.
+                    46. Venerisque Declinatio P. 0. M. 29½. Borea. Ideo cum lucidæ ♈ Declinatio nota
+                    sit part. 21. M. 29. prouenit ambarum differentia in Æquatore P. 35. M. 50⅔. et
+                    per consequens habita ratione eius quæ interea in Venere fiebat promotio<pb
+                        ed="E" n="134"/>nis Ascensio recta Lucidæ ♈ ad hoc tempus, resultat P. 26.
+                    M. 7⅙. cui adhibita modo dicta Declinatione prouenit Longitudo Stellæ in Parte
+                    1. M. 59. ♉, quod a vestra inuentione huc redacta, quam minimum discrepat.
+                    Abundat tamen a vero quinis proxime Scrupulis; ob Refractionum et Parallaxium in
+                    Sole et Venere neglectas implicationes. At rursus Anno mox præterito 1588. die
+                    26. Octobris, Hora 11. Min. 48. A. M. cum Sol eleuaretur Partibus ferme 18.
+                    distabat a ♀ Orientali P. 37. M. 1¾. et Declinatio Veneris simul reperta est
+                    Part. <app>
+                        <lem wit="#M">3.</lem>
+                        <rdg wit="#E">8</rdg>
+                    </app> M. 36¼. Meridional. Cumque locus Solis detur in Part. 13. M. 9⅓. ♏, ex
+                    eius Declinatione cum Declinatione Veneris et distantia cognitis datur
+                    differentia Ascensionalis Part. 35. Min. 33. Inde ex Ascensione recta Solis <app>
+                        <lem>cognita</lem>
+                        <rdg><note>in <q>nota</q> corr. M man, sec. ut videtur</note></rdg>
+                    </app> constabit Ascensio recta Veneris Part. 185. Min. 8⅙. Die vero proxime
+                    sequente Hora 6. Min. 38. capiebatur Veneris et cordis ♌ distantia Part. 42.
+                    Min. 24¾. Venere tunc infra Æquatorem posita Partib. 3. M. 34½. Hinc et per
+                    datam Declinationem cordis ♌, Part. 13. Minut. 57⅙. inuenitur discrimen
+                    Ascensionale Part. 38. Minut. 56½. quod sublatum ab Ascensione recta Veneris
+                    (quæ ex præmissa ad Solem facta obseruatione, applicato tamen motu interea
+                    temporis contingente, innotescit) pandit Ascensionem rectam cordis ♌ Part. 146.
+                    Min. 28⅚. Ideoque euadit Ascensio recta Lucidæ ♈ Part. 25. Minut. 56½. Est enim
+                    differentia Ascensionalis Reguli et huius Stellæ in ♈ ex alijs Obseruantibus
+                    conquisita Part. 120. Min. 32⅓. Ex ista autem Lucidæ ♈ Ascensione recta,
+                    applicata Declinatione, quæ tunc erat Part. 21. Min. 29½. prouenit eius
+                    Longitudo in Part. 1. Min. 50. ♉, quod tantundem verum Scopum anteuertit quinis
+                    videlicet Scrupulis, quantum antea excessit, eo quod Parallaxes et Refractiones
+                    hîc etiam non adhibitæ rem omnem in antecedentia protrudant, sicque a vestra
+                    annotatione adhuc duplo plus receditur. Verum si obseruatio Anni 87. huc
+                    redigatur per eum qui interea Stellis Fixis inest motum, et vtriusque loci
+                    capiatur dimidium; <pb ed="TBOO" n="VI.164"/>Ita enim vtrinque Refractionum et
+                    Parallaxium obstacula, quæ paria sunt, excluduntur, ostendetur Longitudo Stellæ
+                    in Part. 1. Minut. 55. ♉, cum Latitudine Part. 9.Minut. 57½. quæ duo in ipso
+                    Scrupulo recte constare nullum apud me est dubium: Licet vestra positio in Grad.
+                    2. Min. 1. ♉, eandem Stellam ad finem Anni 88. reponat: Ita vt excessus
+                    committatur Minut. 5½. quoad Longitudinem: Circa Latitudinem enim in dimidio
+                    Scrupulo consentimus. Pari ratione non solum ad hos duos Annos in Venere, tam
+                    occidua quam Orientali, huius indagationis periculum feci, sed etiam in
+                    quibusdam alijs, potissimum videlicet collatione facta Obseruationum Anni 82.
+                    cum 85. et 86. quoque, cum præterito 88. multisque et varijs animaduersionibus
+                    in singulis diligenter expensis, atque iusto modo adinuicem comparatis vbique
+                    terminos Longitudinis Affixarum Stellarum plane eodem modo figendos cognoui,
+                    prout antea a me constituti erant. Imo ne in Solari tra<pb ed="E" n="135"/>mite
+                    aliquid minutuli lateret dubij quod hanc Pragmatiam, quo minus ad exactam
+                    præcisionem perduceretur, impediret, Obseruationes integri proxime antecedentis
+                    quinquennij circa ipsum quatuor vel quinque affabre elaboratis Instrumentis,
+                    tantæque magnitudinis, vt de sexta vel quarta ad minimum Scrupuli parte singula
+                    nos certificarent, sub incudem Demonstrationum et numerorum reuocaui. Et licet
+                    in Apogæo solari modicum quid a priori nostra inuentione adimendum repererim et
+                    Eccentricitatem etiam aliquantulo minorem, quam antea constituendam; Tamen hæ
+                    differentiæ adeo exiles sunt, vt vix alicuius momenti æstimandæ veniant: Absidem
+                    enim Solis vix dimidio Gradu anteriorem, et Eccentricitatem tertia solummodo
+                    vnius Minuti parte de sexagesimis integris Semidiametri Eccentrici portionibus
+                    arctiorem efficiunt. At in ipsa Solis Longitudine hæc eadem longe minus ingerunt
+                    discriminis, adeo vt solummodo vnius Minuti circa Brumam, vbi maxima est a
+                    priori differentia subrepat, quod prorsus est eo præsertim in loco insensibile.
+                    Nec dubito hanc posteriorem in itinere Solari limitationem e plurium Annorum
+                    diligentiori examinatione institutam nobis ipsius curriculum cælesti ea
+                    præcisione Analogum manifestâsse, vt ad maiorem subtilitatem vlla Organa,
+                    sensusque oculorum pertingere non sustineant. Nihilominus tamen adhibendo hanc,
+                    de qua loquor, denuo rectificatam Solaris motus correctionem, loca Inerrantium
+                    Stellarum non aliter se habere percipiebam, atque antea e priori in Solis cursu
+                    emendatione exploratum erat, vt nihil prorsus hæsitem, ne vnicum quidem
+                    Scrupulum in nostra Fixarum rectificatione vel deficere vel abundare; Alijs
+                    etiam rationibus huius peruestigationis praxin instituendo et rem ipsam varie
+                    hincinde comprobando. Indicat præterea <persName ref="Rothmann"
+                        >ROTHMANNVS</persName>, me breui vestrarum Obseruationum processum, et
+                    quamobrem in quinis illis Scrupulis a me dissentiatis, rationes visurum, <pb
+                        ed="TBOO" n="VI.165"/>quod equidem magna auiditate desidero. Quin et mea
+                    ratiocinia, cur non aliter in his statuendum sentiam, quampridem a me indicatum
+                    est, etiam Tuæ Celsitudini propediem fauente diuino auxilio e secundo capite
+                    prioris Tomi nostri De recentioribus Ætherei Mundi Phænomenis, quem nunc sub
+                    prælis habeo, perspiciet. Postquam enim in primo capite, Solaris motus
+                    exquisitam normam e minime dubijs aliquot præteritorum Annorum Obseruationibus
+                    per competentes Demonstrationes Geometricas in præcisam numerationem hisce
+                    seculis competentem deduxi, in altero Affixarum, vt dixi, Stellarum
+                    restitutionem ex ipsis Fundamentis molior, et pluribus selectis Obseruationibus
+                    per Solem et Veneris Stellam, in vtroque situ tam matutino, quam vespertino, vna
+                    cum alijs quibusdam circa idem experimentationibus ratam minimeque dubiam
+                    statuo; Nec diffido, vbi Tua Celsitudo meas quoque rationes illic perlustrarit,
+                    et cum suis contulerit, quin concedat, nihil meæ inuestigationi subesse vitij,
+                    meque <pb ed="E" n="136"/>ea diligentia et subtilitate ad veritatis interiorem
+                    nucleum contendisse, vt maiorem adhibere vix cuiquam liceat. Hæc vero propterea
+                    eo latius commemoro, vt T. C. <app>
+                        <lem>cognoscat</lem>
+                        <rdg wit="#M">noscat</rdg>
+                    </app> me de priori transmissa, quoad Fixarum dispositionem, Sententia ne
+                    minimum quid dubitare, quin Cælo ipsi apprime consona sit, et quia quam maxime
+                    optarem aliquando in Longitudinibus Stellarum non minus quam Declinationibus
+                    atque distantijs consensum inter nos vniformem iniri posse. Quoniam vero paulo
+                    antea in Solaris semitæ iterum redintegratæ mentionem <app>
+                        <lem>incidi</lem>
+                        <rdg><note><q>incido</q> E M: corr. TBOO ex M man. sec.</note></rdg>
+                    </app>, mitto T. C. binorum annorum, vtpote huius labentis et proxime instantis
+                    Ephemerides, ex hoc ipso neoterice calculo supputatas, vt et hæc loca, per T. C.
+                    Instrumenta explorentur, et cum prius transmissis conferantur, vtvt discrimen
+                    quod intercidit, sit perexiguum. Sciendum vero has ipsas Solis Ephemerides ad
+                    nostri loci Meridianum, quem ab occasu part. 36. Min. 45. remoueri præsuppono,
+                    directas esse, vnde Meridianus vester, qualis <placeName ref="Kassel"
+                        >Cassellis</placeName> est, vnum proxime Minutum in Solis motu vbique addit.
+                    Sumus enim hîc vobis quasi per Horæ quincuncem (vt existimo) orientaliores.
+                    Addidi quoque Refractionum Tabellam, quæ in Sole ad singulos Altitudinis Gradus
+                    contingentem Refractionem, qua altior apparet, quam reuera est, manifestat, id
+                    quod hactenus desideratum est; vt Cels. T. non saltem in Borealibus signis per
+                    applicatam Altitudini obseruatæ Parallaxin (cuius etiam numerationem in altera
+                    Tabella, prout nobis in vsu est, ad triplicem Solis a Terra remotionem subiunxi)
+                    locum examinare possit; sed etiam in Australioribus, quamuis Refractioni
+                    euidenti obnoxijs, hanc ipsam per dictam Tabellam præcauere, sicque per totum
+                    Annum, præsertim quando Sol in ijs Signis moratur, quæ diurno spatio,
+                    aliquantulam Declinationis variationem admittunt: Eius curriculi metam ex
+                    Obseruationibus Meridianis cum nostro calculo conferre, <pb ed="TBOO" n="VI.166"
+                    />comprobareque dabitur. Etsi enim Refractiones non adeo præcise ad quasuis
+                    Altitudines præfiniri possint, quin aliquando dimidij Scrupuli vel ad summum
+                    integri in illis discrimen, ob non eandem Aëris vbique puritatem cis vel vltra
+                    oriatur; tamen hanc quam definiui, illarum quantitatem e plurimis aliquot
+                    elapsorum annorum sedulo factis animaduersionibus concinnatam, non dubito ijs
+                    Refractionibus, quæ medio modo et vt plurimum proueniunt, vtiliter satisque bene
+                    responsuram, cuius etiam periculum a vobis pluribus inuicem collatis
+                    aduersionibus institui potest. Sed ne T. Cels. et nunc forte alijs negotijs
+                    intentam nimium remorer, finem Epistolæ imponam. Deumque oro, vt T. Cels.
+                    diutissime incolumem et prosperam gubernet.</p>
+                <closer>
+                    <salute>Iamque T. Celsit. quam optime valeat.</salute><dateline> Datæ <placeName
+                            ref="Uraniborg">Vraniburgi</placeName> 21. Februarij, Anno
+                        1589.</dateline>
+                    <signed><app>
+                            <lem>T. C. addict. <lb/>TYCHO BRAHE.</lem>
+                            <rdg><note>subscriptionem <q>Tuus addictissimus Tycho Brahe</q> ipsius
+                                    manu praebet M</note></rdg>
+                        </app></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

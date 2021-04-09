@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>John Craig</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Berlin</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>Ex apographo manu scripto im exemplo Berolinensis operum
+                                    atronomicorum Tychonis</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Nolten">
+                        <bibl><title>Commercium litterarium clarorim virorum</title>, ed. R. A.
+                            Nolten, Brunsvigæ 1737, I p. 1 sqq.</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 191-193</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>John Craig</persName>
+                    <placeName>Edinburgh</placeName>
+                    <date when="1589-06-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589. 18. juni</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-24" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <div>
+                    <pb ed="TBOO" n="VII.191"/>
+                    <opener>IOANNES <persName ref="Craig">CRAIGUS</persName> AD TYCHONEM
+                        BRAHE.</opener>
+                    <pb ed="A" n="6r"/>
+                    <p>DEDI ante ad te literas, nobilissime vir, quibus tuis respondi, sed in ea
+                        festinatione scripta sunt, dum alio avocarer, ut relegere attente, quæ
+                        scripseram, non potuerim. Paucis exposui, quid de quæstione a te mota
+                        sentiam, non contradicendi animo, sed veritatis et amicitiæ nostræ causa,
+                        quo modo ut accipias peto. His literis <pb ed="A" n="6v"/>simili modo dignam
+                        tractarem quæstionem, sed communis lætitia ita animum meum occupavit, ut ab
+                        ea ad eiusmodi speculationes abstrahi nequeat. Alia erit occasio; nunc quod
+                        omnium apud nos iudicijs salutare huic regno fore videtur, et omnium votis
+                        vehementer optatur, id ut eveniat <pb ed="TBOO" n="VII.192"/>et feliciter et
+                        statim, Deum oramus. Nihil etenim æque in votis omnium est, quam ut
+                        clementiss. Domino nostro coniux sit, quæ hac illustri Legatione petetur,
+                        nam inde optimas Reginas semper experti sumus, et nunc fore speramus: mihi
+                        quidem dubium non est, cui progenitores illustrissimæ Principis partim visi,
+                        partim aliter noti sunt; sed id omnes metuimus, cum brevi temporis spacio,
+                        longo locorum intervallo tanta res peragenda sit, ne tantum bonum nobis,
+                        quam statim optamus, non contingat; sed votis aëra fatigabimus, ut hincinde
+                        ventos aspiret secundos. Et Deum <app>
+                            <lem wit="#A">orabimus</lem>
+                            <rdg wit="#Nolten">oramus</rdg>
+                        </app>, ne ulla hominum consilijs sit mora. Ille igitur, in cuius manu corda
+                        Regum sunt, ita omnia prosperet, ut et hominum consilia et Principum in hoc
+                        uno proposito affectus uniat. Illustrem Dominum Legatum comitantur ex amicis
+                        nostris aliqui, Dominus <persName ref="Skynens">SKYNENS</persName>,
+                        iurisprudentia et dignitate apud nos præstans, et doctissimis in Germania
+                        viris olim <app>
+                            <lem wit="#A">charissimus</lem>
+                            <rdg wit="#Nolten">clarissimus</rdg>
+                        </app>; nobilis iuvenis <persName ref="Swuntonius">MARCUS <app>
+                                <lem wit="#A">SWUNTONIUS</lem>
+                                <rdg wit="#Nolten">Swuntanius</rdg>
+                            </app></persName>, propinqua affinitate mihi iunctus; adolescens egregiæ
+                        indolis et expectationis, <persName ref="Nicolson">THOMAS
+                            NICOLSONIUS</persName>, Philosophiæ magister. Hos tua benevolentia
+                        complectaris et amicitia etiam digneris peto; præsertim apud te meo sit loco
+                        affinis meus. Incessit me quidem hoc tempore cupiditas tui visendi, sed ab <app>
+                            <lem wit="#A">ægris</lem>
+                            <rdg wit="#Nolten">agris</rdg>
+                        </app> nobis abesse vix licet; meo loco, ut dixi, hos habeas. Vides, quomodo
+                        familiariter tecum agam, ac si non recens, sed multis annis confirmata esset
+                        nostra amicitia; at ea tamen est, ut mihi persuadeam, ut id abs te petere et
+                        expectare audeam. Ad <app>
+                            <lem wit="#A">nos</lem>
+                            <rdg wit="#Nolten">me</rdg>
+                        </app> si vestratium <pb ed="A" n="7r"/>aliquos venire contigerit, sunt illi
+                        omnes <app>
+                            <lem wit="#A">eo</lem>
+                            <rdg wit="#Nolten">ac</rdg>
+                        </app> apud nos loco, ut amicitiæ non sint futuri immemores.</p>
+                    <p rend="indent">Ne inanes omnino hæ literæ essent, eam tractarem quæstionem, an
+                        hypotheses esse possint, quibus statuatur, absque orbibus Planetas moveri.
+                        Mihi aliquando in mentem veniebat, unicum esse ab octavo ad concavum Lunæ
+                        orbem, qui a primo motu deficeret, in quo Planetæ suos peculiares haberent
+                        orbes, quasi epicyclos quosdam, quibus omnis apparens anomalia possit
+                        explicari, sed has imaginationes alia excusserunt. Et duntaxat adhuc arridet
+                            <persName ref="Aristoteles">ARISTOTELIS</persName> sententia, Planetas
+                        orbium certorum esse partes, a qua tamen nostra speculatio non abhorret. Sed
+                        tubis ad naves convocatur, iamque illustriss. Dominus Comes ingressus est,
+                        ventis afflantibus secundis. Faxit Deus, ut secundissimi sint. Bene et
+                        feliciter vale, et <persName ref="Craig">CRAIGUM</persName> tui amantissimum esse existimato. Datæ 18. Iunij
+                            <placeName ref="Edinburgh">Edenburgi</placeName>.</p>
+                    <lb/>
+                    <p rend="rightMargin">Tuus<lb/>IOAN. CRAIGUS,<lb/>Medicus.</p>
+                </div>
+                <div>
+                    <opener>POST SCRIPTA.</opener>
+                    <p>IAM audio, plures adhuc ex amicis nostris unâ proficisci, et inter alios M.
+                            <persName ref="Fuller">GUILIELMUM FULLERUM</persName>; iuvenis est
+                        egregius, nec tua amicitia indignus. Vide, quam ego tibi notos quasi
+                        accumulem; amici omnes mei sunt, et tuarum excellentium virtutum erunt
+                        admiratores. Iterum vale. Hæc quoque raptim. </p>
+                    <lb/>
+                    <p rend="rightMargin">IOAN. CRAIGUS, D.</p>
+                </div>
+
+            </div>
+        </body>
+    </text>
+</TEI>

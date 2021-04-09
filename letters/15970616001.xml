@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 3</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>David Chytraeus</persName>
+                    <placeName>empty</placeName>
+                    <date when="1597-06-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1597. 16. juni</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-21" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.3"/>           
+                <opener><persName ref="Chytraeus, David">DAVID CHYTRÆUS</persName> AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="1r"/>NOBILIS, generose et magnifice Domine. Gratulor non tam Magnificentiæ vestræ, quam
+                    Academiæ et <placeName ref="Rostock">urbi Rosarum</placeName>, de incolumi in hanc urbem adventu vestro, quam vere Generosæ
+                    Nobilitatis vestræ sapientia, virtus, doctrina et in Rempublicam literariam merita et
+                    Nominis vestri claritas, splendor ac gloria, excellenti virtute ac bene meritis parta,
+                    deinceps illustriorem et clariorem efficiet. Quod igitur <persName ref="Cicero">CICERO</persName> alicubi in Orationibus
+                    exclamat: <hi rend="it">O terram illam beatam, quæ hunc virum exceperit! patriam ingratam, si eiecerit,
+                    miseram, si amiserit!</hi> idem ego ijsdem verbis nunc usurpo, et Deum æternum, suæ
+                    sapientiæ et virtutis radios, ingenij et virtutis Heroicæ dona in men<pb ed="A"
+                        n="1v"/>tes præstantium virorum effundentem, precor, ut Μ. V. incolumem et
+                    florentem perpetuo servet, et migrationem in hanc urbem clementer gubernet, ut paulo
+                    post eos, qui talem virum dimiserunt, erroris sui pœniteat, et quem retinere omnibus
+                    viribus non studuerunt, retrahere tandem ad se omni contentione enitantur. His coram Μ.
+                    V. ad nos advenienti gratulaturus eram, si accurrere ad M.V. per Arthritidem, quæ me
+                    totum possedit, licuisset. Nunc, quæ proficisci a mea tenuitate possunt officiola,
+                    reverenter defero, et pro eruditissimis ad me literis et volumine epistolarum, mecum
+                    superioribus mensibus communicato, reverenter gratias ago. Bene et feliciter Μ. V. in
+                    æternum valeat. Postridie Viti, Anno 1597.</p><lb/>
+                <p rend="rightMargin">Μ. V. reverenter colens<lb/><persName ref="Chytraeus, David">DAVID CHYTRÆUS</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="lrp">
+                        <persName>
+                            <forename type="first">Louisa</forename>
+                            <surname>Rosendal Poulsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichisches Staatsarchiv</repository>
+                                <collection>Beilage zum Reichsregistratur</collection>
+                                <idno>1586, 28. März</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 32</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                    <date when="1586-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Rudolf 2.</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-09-07" who="#pz">Filen etableret</change>
+            <change when="2020-09-15" who="#lrp">Korrektur påbegyndt</change>
+            <change when="2021-01-14" who="#pz">Korrekturlæst</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="XIV.32"/>POTENTISSIME <persName ref="Rudolf 2.">IMPERATOR</persName> D. D. CLEMENTISSIME.</opener>
+                
+                <p>CUM ex liberalitate et optimo erga me studiaque astronomica animo serinissimus
+                    <persName ref="Frederik 2.">rex Daniæ,</persName> dominus meus clementissimus, astronomiæ instaurandæ
+                    gratia insulam <placeName ref="Hven">Huenam</placeName> mihi addixerit, in qua meis sumptibus extruxi
+                    arcem in varia domicilia ad literarum studia, exercitia astronomica, chymica,
+                    opificia, oblectamenta et ad alios usus distinctam et distributam; cui arci
+                    <placeName ref="Uraniborg">Uranieburgo</placeName> a studio astronomico nomen indidi. Ut igitur et voluntati regis nostri
+                    et multorum de me expectationi satisfacerem, ab annis pluribus omne
+                    meum studium et operam in instauranda astronomia posui, iamque <hi rend="it">nonnulla
+                    in ea arte elaborata habeo</hi>, cætera <hi rend="it">sub incude, ut dicitur, versantur, adornantur
+                    et expoliuntur.</hi> Quæ omnia in reipub: literariæ commodum omnibus
+                    communia facere vellem, nostris prælis in eadem arce excusa. Verum plurimum
+                    vereor ne maximis meis impensis, quas tum in typographiam, tum in
+                    opifices feci, et in excudendis operibus mathematicis adhuc facturus sum,
+                    defrauder, si labores mei maximis sumptibus comparati ab alijs typographis
+                    in <placeName ref="Germany">Germania</placeName> et sub ditione Maiestatis Vestræ recudantur et divenduntur. Quare
+                    Maiestatem Vestram cum omni submissione rogo, quæcumque ex mea officina
+                    in mathematicis studijs proditura sint, sive à me elaborata, sive illustrata,
+                    ne ea a quoquam typographo recudantur, clementer privilegio ad decennium
+                    cavere dignetur, idque sub mulcta transgressoribus irrogari solita. Cavebo
+                    vicissim, ne libri a me publicandi quidpiam, quod vel religionis controversiis
+                    vel reipubl: constitutioni offensioni siet, ullo in loco contineant. Et si quid
+                    Cæs: Ma: V: in hisce mathematicis studijs quidpiam à me postulaverit, aut
+                    ego intellexero qua in re gratum servitium eidem præstare possem, me semper
+                    promptum et paratum habebit, cui omne meum studium, operam, officium
+                    et obsequium humiliter defero. Et ut Cæs: Ma: V: rectius intelligat et ædificium
+                    nostræ arcis et totum animi nostri propositum mitto eidem eiusdem
+                    arcis totiusque nostræ insulæ designationem.</p> <closer><salute>Cum his me Cæs: Ma: V:
+                    commendo.</salute> <signed>S: Cæs: Ma: V: addictissimus<lb/>
+                Tycho Brahe Danus Dom: de Knudstrup.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

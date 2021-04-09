@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christopher Rothmann</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rothmann, Christopher (1550-ca. 1608)</persName>
+                    <placeName>empty</placeName>
+                    <date when="1590-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Heinrich Rantzau</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1590 (?)</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VI.202"/><pb ed="E" n="172"/>QUÆDAM EX LITERIS <persName ref="Rothmann"
+                        >CHRISTOPHORI ROTHMANNI</persName>, IVSSV SVI PRINCIPIS, AD DN.
+                        <persName ref="Rantzau, Heinrich">HENRICVM RANZOVIVM</persName>.
+                </opener>
+                <p>ABSOLVTIS pene literis, incidit hoc, quod adhuc subijciendum venit: Superiori
+                    anno Mense Septembri misimus ad Nobilissimum Dominum TYCHONEM BRAHE literas,
+                    Illustrissimus quidem <persName ref="Wilhelm, landgrave of Hessen"
+                        >Princeps</persName> noster vnas, ego vero binas, plenas variarum de rebus
+                    Astronomicis disputationum, ad quas Mathematicus ille Mathematicorum omnium
+                    longe præstantissimus nondum respondit. Cum itaque mihi mandarit Illustrissimus
+                    Princeps noster, vt eum de responsione admonerem, peto a tua Excell vt oblata
+                    occasione, clemens hoc Illustrissimi Principis nostri desiderium ipsi velis
+                    significare, ne responsionem diutius suspendat: qua quidem re T. Excell.
+                    officium longe gratissimum præstabit Illustrissimo Principi nostro. Coram,
+                    Illustrissimus Princeps, et ego in eius comitatu, inuisuri eramus Dn. TYCHONEM,
+                    eiusque Instrumenta Astronomica coram visuri, nisi immatura Serenissimi et
+                    optimi <persName ref="Frederik 2.">Regis</persName> mors, iter nostrum
+                    auertisset, proque tanto et tam læto visendi desiderio, luctum et mœstitiam
+                    Illustrissimo Principi nostro substituisset. Sed sunt omnia in manu præpotentis
+                    DEI. </p>
+                <closer>
+                    <salute>Iterum vale.</salute>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

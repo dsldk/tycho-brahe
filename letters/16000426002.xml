@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 305</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-04-26"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 26. april n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.305"/>IOANNES GEORGIUS HERWARTUS AB HOHENBURG AD
+                    TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="52v"/>PERVENERUNT ad manus meas, Vir nobilissime atque
+                    Mathematicorum omnium facile princeps, libelli duo, quos vir doctissimus et in
+                    Geometricis plane rarus et insignis, <persName ref="Vieta">FRANCISCUS
+                        VIETA</persName>, nuper in lucem prodire voluit. Hos cum non dubitem te
+                    perlibenter visurum, neque forte aliunde absque difficultate exemplaria
+                    adepturum, his iunctos ad te mitto.</p>
+                <p rend="indent">Cogito his diebus, si modo negotia publica et politica, quibus
+                    admodum distrahor, id permittunt, <placeName ref="Augsburg">Augustam</placeName> me conferre, atque ibi, si ulla
+                    ratione fieri poterit, manuscripta opera posthuma <persName ref="Cyprianus">CYPRIANI LEOVITIJ</persName> indagare et
+                    nancisci, ut ea quoque ad te transmittere possim. Atque hisce tibi fælicissima
+                    quæque ex animo precor et opto. Datæ <placeName ref="München">Monachij</placeName> die 26 Apr. A. 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

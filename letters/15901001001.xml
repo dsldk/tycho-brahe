@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1590-10-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1587. 1. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <pb ed="TBOO" n="VI.223"/><pb ed="E" n="193"/><app>
+                        <lem>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO <persName
+                            ref="Wilhelm, landgrave of Hessen">WILHELMO</persName>,
+                            LANDGRAVIO HASSIÆ, COMITI IN CATZENELLEBOGEN, DIETZ, ZIEGENHAIN ET
+                            NIDDA: PRINCIPI AC DOMINO CLEMENTISSIMO.</lem>
+                        <rdg><note>om. M</note></rdg>
+                    </app>
+                        <app>
+                            <lem>S. D.</lem>
+                            <rdg wit="#M">S.</rdg>
+                        </app>
+                </opener>
+                <p>VENIT iam nuper huc in <placeName ref="Denmark">Daniam</placeName> ad me T.
+                    Celsit. Mathematicus <persName ref="Rothmann">CHRISTOPHORVS
+                        ROTHMANNVS</persName>, Princeps Illustrissime, tuæque Celsit. literas
+                    attulit, quibus adeo diutinam in scribendo ad me intermissionem tum ob curarum
+                    molem, tum etiam Mathematici aduersam valetudinem, benigne exponit. Quod vero
+                    studium Mathematicum T. Celsit. ob tot tantaque administrationis publicæ, <app>
+                        <lem>senij</lem>
+                        <rdg><note>ante <q>senij</q> add. <q>et</q> M</note></rdg>
+                    </app> etiam successiue obrepentis impedimenta, non prorsus repudiet, sed
+                    quantum per ocium licuerit, etiamnum continuet, mihi quam iucundum auditu est.
+                    Attamen, quod pari alacritate, quâ antea, priora inuena nunc recognoscere,
+                    tractareque vix promtum sit, mirum esse non debet; cum anni, curæ et morbi, vna
+                    cum corporeæ sanitatis molestatione, ipsum quoque animum atque ingenij vires,
+                    potiorem nostrî partem, non parum aggrauent atque obnubilent. Verum enimuero
+                    quicquid in hoc genere T. Celsit. propriâ operâ <app>
+                        <lem>adeo</lem>
+                        <rdg><note>ante <q>adeo</q> add. <q>non</q> M</note></rdg>
+                    </app> sufficienter atque copiose, vt prius, ob causas antedictas, in posterum
+                    præstare <app>
+                        <lem>vix suffecerit</lem>
+                        <rdg wit="#M">grauabitur</rdg>
+                    </app>, id per alios idoneos artifices sua autoritate atque hortatu, tum etiam
+                    sumtibus et liberalitate, compensare facile sustinebit. Intelligo <persName
+                        ref="Rothmann">ROTHMANNVM</persName> valetudinis causâ aërem mutasse, quod
+                    licet T. Celsit. atque alijs minus tutum atque consultum ab initio videbatur,
+                    tamen quantum ex ipsiusmet relatione cognosco, illi non infeliciter cessit. Nam
+                    statim ab itineris ingressu successiue vires recuperauit, et interea dum hîc <app>
+                        <lem>moraretur</lem>
+                        <rdg wit="#M">moratur</rdg>
+                    </app>, non admodum infirmo vsus est habitu. Quamuis resolutiones et
+                    coagulationes istæ Tartareæ, quibus intrinsecus infestatur, adeo alte etiam in
+                    hac iuuenili ætate radices egerint, vt non tam <pb ed="TBOO" n="VI.224"/>facile
+                    per solam loci mutationem, atque victus rationem, prorsus exstirpari queant, cum
+                    et Galenistarum, vtut satis verbose et affectate de his et similibus
+                    disserentium medicationes quasi ex alto despiciant. Neque enim citra rem aiebat
+                    incomparabilis ille Germanorum Philosophus et Medicus, a quamplurimis citius
+                    improbatus quam intellectus, <persName ref="Paracelsus">Aureolus
+                        Theophrastus</persName>, Tartaream Roades nequeunt curare Podagram, per
+                    Roades (suo more ludens in vocabulis) rudes et inexpertos Medicos intelligens.
+                    Excellentiora sane et præsentiora hîc <app>
+                        <lem wit="#TBOO">requiruntur</lem>
+                        <rdg wit="#E">requiruntut</rdg>
+                    </app> Medicamenta, quam Syrupi, atque Decocta, Pillulæque aut similes
+                    Seplasiariorum impuræ et confusæ mixtiones suppeditare queant. Sed de his, cum
+                    alterius sint negotij, plura non addam.</p>
+                <p rend="indent"><pb ed="E" n="194"/>Fuit autem ipsius <persName ref="Rothmann"
+                    >ROTHMANNI</persName> accessus <app>
+                        <lem>mihi</lem>
+                        <rdg><note>om. M</note></rdg>
+                    </app> inprimis gratus, tam quod a T. Celsit. mihi commendabatur, quam quod
+                    ipsum ob egregiam et penitiorem Artis Astronomicæ et rerum Mathematicarum
+                    cognitionem plurimi semper fecerim. Inspexit ille omnia mea Instrumenta
+                    Astronomica, de quibus ipsemet ad T. Celsit. referet. De Globo quoque
+                    Orichalcico quadrupedali, vel potius <app>
+                        <lem>ampliori</lem>
+                        <rdg wit="#M">vltra</rdg>
+                    </app> in diametro, quem <persName ref="Bürgi">Automatopæus</persName> T. Cel.
+                    iam præ manibus habet, <app>
+                        <lem>me</lem>
+                        <rdg><note>post <q>me</q> add. <q>etiam</q> M</note></rdg>
+                    </app> certiorem fecit. At vereor, vt sola tornatione eum ad exactam
+                    rotunditatem vndiquaque perducat. Id quod meus, qui maior adhuc est, vtpote
+                    sexpedalis, me satis superque docuit. Sed ipsa experientia in his et similibus
+                    optima erit Magistra.</p>
+                <p rend="indent">Quantum ad Statum Regni nostri attinet, omnia adhuc, diuino fauore, <app>
+                    <lem>tuta</lem>
+                    <rdg wit="#M">lata</rdg>
+                </app> et pacata sunt. Serenissimus Rex noster electus prospere degit, et cum
+                    Regni Primatibus nunc in <placeName ref="Jylland">Cymbria</placeName> comitia
+                    peragit, quæ tamen hisce diebus finiuntur. Ego meo more studijs indulgeo
+                    Philosophicis, quantum per alias occupationes atque auocamenta licet. Liber
+                    noster primus recentiorum cœli Phænomenon fere extremam Typographi manum subijt,
+                    sed Papyri impressoriæ defectus remoram aliquam, quo minus prorsus absolutus
+                    sit, iniecit. Licet enim ipsemet in hac <placeName ref="Hven">Insula</placeName>
+                    Moletrinam pro Papyro conficienda non paruis sumtibus extrui curârim, tamen cum
+                    Chartopæo idoneo destituam nihil adhuc subsidij, quantum ad Papyri
+                    præparationem, hinc obtinere licuit. Spero tamen me breui e vicina <placeName
+                        ref="Germany">Germania</placeName> eiuscemodi artificem obtenturum, qui per
+                    instantem Hyemem, ea quæ desiderantur, confecturus sit; sicque in libro illo
+                    deficientia supplere commodum erit. </p>
+                <p rend="indent">Scripsi circa initium præteriti Aprilis tuæ Celsitudini, de Cometâ
+                    huius Anni, qui paulo ante illuxerat, vnaque eius succinctam descriptionem e
+                    nostris Obseruationibus deriuatam transmisi, prout per literas ad <persName
+                        ref="Rothmann">ROTHMANNVM</persName> antea datas me facturum pollicitus
+                    eram. Verum, cum ab eodem nunc intelligam, id quicquid erat, T. Celsit. interea
+                    non esse redditum, in itinere intercidisse suspicor. Curaui itaque denuo <pb
+                        ed="TBOO" n="VI.225"/>eiusdem Cometæ expositionem transscribi, et his
+                    literis adiungi, quam vt T. Celsit. expendat, dijudicet, bonique consulat, <app>
+                        <lem>rogo.</lem>
+                        <rdg><note>post <q>rogo</q> add. M: <q>De Eclipsi insuper Solis, quæ Julio
+                            præterlapso die eiusdem 21 contigit, quomodo iuxta nostras
+                            accuratas obseruationes hic se exhibuerit, breuibus indicabo.
+                            Incepit &#x2609; deficere hora 6 M. 51 post mediam noctem dicti
+                            diei, desiit vero hora præcise nona completa. Hæc vero
+                            obseruationis tempora mediocriter bene cum calculo Astronomico
+                            consentiunt, eo quod Sol quando signum &#x264c;<hi rend="sup"
+                                >nis</hi> peragrat pauculis saltem scrupulis suo quem
+                            celitus exhibet incessu tabularum numeros eludat, quemadmodum ex
+                            collatione nostræ restitutionis in motu eius cum calculo
+                            Alphonsino vel Coperniceo facile liquet. In magnitudine
+                            nihilominus partis solaris interuentum Lunæ obtectæ
+                            intolerabiliter aberrarunt tabulæ vtræque, adeo vt duplo plus
+                            iusto maiorem pronuntiarint. Eclipsari enim tertia solummodo
+                            Solis portio ad summum conspiciebatur, ita vt digitorum 4 fuerit
+                            deliquium, cum tamen 8 ad minimum punctorum in nostro Horizonte
+                            extitisset, modo canonibus Astronomicis nihil inesset vitij. Si
+                            per T. Gelsit. instrumenta Eclipsis hæc obserata est, poterit
+                            sua Inuenta cum his nostris conferre.</q></note></rdg>
+                    </app> Plura non addam, ne Celsit. T. alijs forte occupationibus præpeditam
+                    nimium detineam.</p>
+                
+                <closer>
+                    <salute><app>
+                        <lem>Vale.</lem>
+                        <rdg wit="#M">Valeat T. Celsi. quam diutissime et felicissime</rdg>
+                    </app></salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Vraniburgi</placeName>, Calendis <app>
+                        <lem>Octob.</lem>
+                        <rdg wit="#M">Septembris</rdg>
+                    </app> Anno 1590.</dateline>
+                    <signed>T. Celsit. Addictiss.<lb/>TYCHO BRAHE.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

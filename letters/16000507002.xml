@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 316-317</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-05-07"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Johannes Jessenius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 7. maj. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-21" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.316"/><pb ed="A" n="121v"/>NOBILI ET CLARISSIMO
+                    ERUDITISSIMOQUE DOMINO <persName ref="Jessenius">IOHANNI IESSENIO A
+                        IESSEN</persName>, PHILOSOPHIÆ ET MEDICINÆ DOCTORI ET PROFESSORI
+                    VITEBERGENSI PUBLICO, AMICO SUO SINCERE DILECTO.</opener>
+
+                <p><pb ed="A" n="121r"/>S</p>
+                <p>GLOBUM, quem Illustrissimo Principi tuo destinâram, nunc ad te mitto, amantissime
+                    Domine <persName ref="Jessenius">IESSENI</persName>, ut tuam rectius redimam
+                    isthic fidem (si quid de eo iam ante accessum scripsisti) quam tu propriam apud
+                    me, in eo, quod te huc rediturum pollicitus es, licet iam id ignorare ais atque
+                    detrectas. Addidi librum de Fixarum restitutione viginti Annorum indefesso
+                    labore exantlata, eumque in membranam exaratum, tum pariter <persName
+                        ref="Christian 2. Sachsen">Electori Saxoniæ</persName> (cui Celsitudini
+                    inclyto unâ scripsi) meo nomine humilime a te adferri cupio, ut habeat eius
+                    Celsitudo Canonicam Stellarum expositionem in promptu, si forte aliquando
+                    maiorem globum confieri curare velit. Exoptarem autem hunc Abacum stelliferum,
+                    cuius similem priora secula (absit invidia <app>
+                        <lem wit="#TBOO">dicto</lem>
+                        <rdg wit="#A">dictum</rdg>
+                    </app>) vix viderunt, ipsius Celsitudo sibi soli reservare velit, nec alijs
+                    communicare, ne sint, qui nostra inventa sibi arrogent atque ijs abutantur,
+                    prout aliquoties mihi in alijs quibusdam contigit. Habes etiam hîc Mechanicæ
+                    Astronomiæ exemplar Magnifico Domino <persName ref="Peifer">Cancellario
+                        Vestro</persName> ex me, præmissa officiosa salutatione, porrigendum.
+                    Subscripsi saltem nomen meum, tu titulum eius, quem non satis perspectum habeo,
+                    superius appone, et librum, si sic lubet, compingi effice, antequam illi
+                    exhibeas. Adiunxi insuper literas ad nobilissimum Virum, Dominum <pb ed="TBOO"
+                        n="VIII.317"/>
+                    <persName ref="Wolframsdorf">GEORGIUM a WOLFRAMSDORF</persName>, Cubicularium
+                    eiusdem Principis, quas illi tradas velim. Habet præterea <persName ref="Fels"
+                        >[DANIEL?]</persName> secum exemplar pro Illustri Domino Cancellario
+                    Bohemico, quod illi exhibere vellet, ubi convenienter ligatum fuerit. Sic satis
+                    superque obtines ea, quæ tibi redeunti committere in me recepi. Tuum est, si
+                    promissi memor esse velis, ea, quæ a Domino <persName ref="Meckerus"
+                        >MECKERO</persName> explicanda tibi concredidi, ad me per literas ante
+                    abitum referre, et Procuratorem illum, de quo scis, huc ad me dirigere, <pb
+                        ed="A" n="121v"/>ita ut cum <persName ref="Fels">DANIELE</persName>
+                    revertente accedat. Tu vero, mi <persName ref="Jessenius">IESSENI</persName>,
+                    feliciter domum redi, atque quam optime vale. Dabantur ex <placeName
+                        ref="Benatky">arce Cæsarea Benatica</placeName> die 7 Maij Anno 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

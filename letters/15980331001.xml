@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Hansch">
+                        <bibl><title>Epistolæ ad Ioannem Keplerum scriptæ</title>, ed. Hansch, 1718,
+                            p. 114 sqq.</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 37</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Daniel Cramer</persName>
+                    <placeName>Stettin</placeName>
+                    <date when="1598-03-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Holger Rosenkrantz</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 31. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-07" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.37"/>
+                <opener><pb ed="A" n="7v"/>DOMINO <persName ref="Rosenkrantz, Holger">OLIGERO
+                        GEORGIJ F. ROSENCRANTZIO</persName> DANO, DOMINO HÆREDITARIO IN <placeName
+                        ref="Rosenholm">ROSENHOLM</placeName>, ET INTER NOBILES DOCTO, INTERQUE
+                    DOCTOS NOBILI, DOMINO ET AMICO SUO IN ÆVITERNUM COLENDO ΕΙΣ XEIPE. <lb/>TICHONI
+                    BRAHE NON MINUS APERIENDAS ET LEGENDAS.<lb/>ΕΥ ΠΡΑΤΤΕΙΝ.</opener>
+                <p><pb ed="A" n="1r"/>BINAS tuas literas, illas <placeName ref="Lübeck"><app>
+                            <lem>Lubeca</lem>
+                            <rdg><note>in <q>Lubeco</q> corr. A (et sic Hansch)</note></rdg>
+                        </app></placeName>, has <placeName ref="Hamburg">Hamburgo</placeName> ad me
+                    datas, quam blande exosculatus fuerim, Generose <persName
+                        ref="Rosenkrantz, Holger">ROSENKRANTZI</persName>, animus meus tibi multis
+                    acceptis beneficijs devinctus a multisque perspectus annis tanquam in speculo et
+                    tabula apud te loqui potest, lingua non potest. Tute enim nosti, quam impense te
+                    amem, colam, quantique faciam, ut quoties literas tuas video, frigidam toties
+                    mihi suffundi, et ad cursum amicitiæ protensiorem me instigari a te persuadear.
+                    Quod cum intelligere te ex literis tuis intelligam, non est, quod pluribus tibi
+                    fidem faciam. At vero quantumvis dulcis mihi utraque tua fuit Epistola,
+                    amariores tamen aliquanto <app>
+                        <lem>fuerunt</lem>
+                        <rdg wit="#A">fuerant</rdg>
+                    </app>, quod simul in illis de plagio Liddeliano in illustrem Astronomum
+                    TYCHONEM BRAHE, consangvineum et affinem tuum, virum multiplici scientia
+                    admirandum, narrabas. Quod magis animum percellebat, quia ipse Dominus TYCHO
+                    suis idem ad me literis testatum reddiderat. Querebatur tecum de singulari tum
+                    impudentia, tum ingratitudine <persName ref="Liddel">DUNCANI LIDDELIJ</persName>
+                    Scoti, qui nunc in Inclyta Iulia Matheseos Professorem agit, quod is non tantum
+                    literis ad suos privatim datis, sed et ex publica prælectionum suarum cathedra
+                    Tychonianarum Hypotheseon se primum esse <app>
+                        <lem>inventorem sit</lem>
+                        <rdg wit="#A">inventorem esse</rdg>
+                    </app> gloriatus. Querela illa certior fuit, quod multis bonorum virorum
+                    testimonijs et literis videbam TYCHONI fidem eius rei factam luculenter, et
+                    gravior, quod <app>
+                        <lem>is non</lem>
+                        <rdg wit="#A">non is</rdg>
+                    </app> solus, sed et cum alijs duobus Plagiarijs tantum facinus in TYCHONEM
+                    ausus fuisset. Indignabar mecum <pb ed="A" n="1v"/>et ridebam tamen cum
+                    Phavorino cornices illas, homines in alienis plumis tripudiantes, ridiculos,
+                    quod ambitiose ad maiora aspirarent, odiosos, quod ea <app>
+                        <lem>consequerentur</lem>
+                        <rdg wit="#A">consequeretur</rdg>
+                    </app> apud quosdam, miserabiles, quod tandem apud omnes laude turpiter
+                    exciderent. So<pb ed="TBOO" n="VIII.38"/>lent enim subventanea (quod aiunt)
+                    parere, qui laudem ex fuco virtutis, non ex virtute, concipiunt. Hac spe
+                    potuissem ego et meum et tuum animum tranquillum reddere, nisi insuper adiectum
+                    fuisset, quod propius me tangit et pungit acrius. Legi enim <persName
+                        ref="Liddel">LIDDELIJ</persName> illius verba, quod is in testimonium Plagij
+                    sui (cuius tamen TYCHONEM præpostere insimulare vult) me testem invocet et
+                    adducat. Sic enim scribit: &#187;<hi rend="it">Primas meas theorias iuxta
+                        triplicem hypothesin satis imperfectas, quas ante septennium <placeName
+                            ref="Rostock">Rostochij</placeName> proposui, TYCHO a Doctore <persName
+                            ref="Cramer">CRAMERO</persName> Pastore nunc <placeName ref="Stettin"
+                            >Stetinensi</placeName> accepit.</hi>&#171; Sic ait. TYCHO BRAHE ergo
+                    inventa sua hausit ex meo libro, ex <persName ref="Liddel">LIDDELIJ</persName>
+                    prælectionibus, qui harum hypothesium inventor est, qui primus deduxit, qui
+                    primus explicuit, si Dijs placet, atque in eius rei testimonium fide dignum,
+                    egone a <persName ref="Liddel">LIDDELIO</persName> asciscor? Obstupui, ingenue
+                    fateor, ubi hæc lego, me in falsum rei testimonium dicendum vocari, et abusu mei
+                    nominis (quod hucusque sincerum Dei beneficio servare studui) rem tam a vero
+                    alienam ceu pallio involvi et incrustari. Mi Domine <persName
+                        ref="Rosenkrantz, Holger">ROSENKRANTZI</persName>, tute ipsemet nosti, cum
+                    tot annos unâ viximus, quo <persName ref="Liddel">DUNCANUM</persName> hunc loco
+                    semper habuerim, quam honeste de illo tibi fuerim locutus, quod is fores Scholæ
+                    Mathematicæ et <pb ed="A" n="2r"/>aliarum quarundam Philosophiæ partium mihi
+                    adolescenti aperuisset; quod autem nunc obloqui illi cogar, id vellem ne fuisset
+                    unquam opus. Sed meministi mecum illud <persName ref="Perikles"
+                        >PERICLIS</persName> Atheniensis, cum amicus eum rogaret, ut pro se causaque
+                    eius falsum <app>
+                        <lem>deieraret</lem>
+                        <rdg wit="#A">diceret</rdg>
+                    </app>, δεῖ με συμπράττειν τοῖς φίλοις ἀλλὰ μέχρι τοῦ βωμοῦ, et quod Philosophus
+                    noster: ἀμφοῖν ὄντοιν φίλοιν ὅσιον προτιμᾶν τὴν ἀλήϑειαν. Non possum enim contra
+                    veritatem, nisi quis <app>
+                        <lem>simul me</lem>
+                        <rdg wit="#Hansch">me simul</rdg>
+                    </app> adulatore et amico uti velit, quod a pia mente duco esse alienum. Ego de
+                    illo Magistro meo non potuissem tantam in me sperare iniuriam, qua me nunc
+                    affecit, quem nihil eius conscium ad falsum rei testimonium allegavit.
+                    Falsimonium committit (quod in foro crimen falsi appellant) qui annulo
+                    signatorio alieno suas periculi et doli plenas clam domino obsignat literas;
+                    nonne illum idem patrare credas, qui alienis alienorum nominum subscriptionibus
+                    in testimonium sine testimonio vocatis sua falsa confirmat? Præposterum est te
+                    vera loqui, cum ne quidem loquaris, affirmare ea, quæ num affirmes nescias. Ita
+                    mecum agit <persName ref="Liddel">LIDDELIUS</persName>, ut testis sim, testis
+                    nunquam auditus, ut affirmem, ignorem, vera loquar, cum ne quidem loquar.
+                    Indignum, insanum. Quia vero <app>
+                        <lem>tantopere is meummet</lem>
+                        <rdg wit="#Hansch">meum tantopere is</rdg>
+                    </app> hac de re testimonium flagitare videtur, ago verum hoc meum testimonium,
+                    contra illud suum, non meum. Tibi et TYCHONI de hoc plagio Lidelliano vera
+                    petenti, quantum mihi quidem constat, deponam, idque tam perspicue, ut si tu
+                    paulo superiorum annorum ἀνάμνησιν tecum per otium renoves, omnia <pb ed="A"
+                        n="2v"/>puncta tua mihi ultro sis adiecturus. Docuit <persName ref="Liddel"
+                        >DUNCANUS <pb ed="TBOO" n="VIII.39"/>LIDDELIUS</persName> Scotus in Academia
+                    Rostochiana Mathemata, quando ego auditor fui anno 88 et sequenti, inter cætera
+                    explicando etiam motum secundum iuxta triplicem hypothesin, primam
+                    Alphonsinorum, secundam <persName ref="Copernicus">COPERNICI</persName>, et
+                    aliam tertiam novam. De hac tertia nova agitur, cuius sit auctoris? Me oportet
+                    reddere testimonium? Egone respondeam? Respondeat ipse <persName ref="Liddel"
+                        >DUNCANUS</persName>, idque ex scriptis Commentarijs, quæ ego adhuc hodie
+                    mecum servo bona fide, qua et servant alij multi, tunc adolescentes, nunc viri,
+                    qui tum temporis eadem eiusdem usi sunt institutione privata, inter quos est
+                    quoque, ut unum nominem, communis noster <app>
+                        <lem>amicus</lem>
+                        <rdg><note>om. Hansch</note></rdg>
+                    </app> M. <persName ref="Praetorius">IOACHIMUS <app>
+                            <lem>PRÆTORIUS</lem>
+                            <rdg wit="#A">Prætorii</rdg>
+                        </app></persName>, Collega in hoc templo et Gymnasio mihi honorandus. In
+                    quibus commentarijs (tu oculatus mihi testis es, vidisti, legisti) <persName
+                        ref="Liddel">DUNCANUS</persName> novam illam Diatyposin appellavit
+                    Tychonianam, idque expressis syllabis literisque, ita quæstionem suam formans:
+                        <hi rend="it">In nova illa, seu Tychoniana Diatyposi, quomodo horum quinque
+                        planetarum motus salvantur?</hi> etc. Sic tum temporis docuit, sic dixit,
+                    sic dictitavit, sic didicimus, sic audivimus, sic scripsimus, sic credidimus.
+                    At, inquis, nunc aliter <placeName ref="Helmstedt">Helmstadij</placeName> dicit,
+                    aliter docet? Id vero ego capere non possum, quo modo, si <persName ref="Liddel"
+                        >DUNCANUS</persName> unus sit et esse velit, <placeName ref="Rostock"
+                        >Rostochij</placeName> hanc hypothesin sibi derogare, <placeName
+                        ref="Helmstedt">Helmstadij</placeName> vero eandem arrogare per tam breve
+                    locorum temporisque intervallum queat? Nisi cum Horizonte animum linguamque
+                    mutarit, quod ego vix con<pb ed="A" n="3r"/>cesserim. Credo ego potius <persName
+                        ref="Liddel">DUNCANO LIDDELIO</persName> Rostochiensi Studioso contra
+                        <persName ref="Liddel">DUNCANUM LIDDELIUM</persName> Professorem
+                    Helmstadianum. Dicit forte præ <app>
+                        <lem>modestia</lem>
+                        <rdg wit="#A">molestia</rdg>
+                    </app> et verecundia se illa vice TYCHONI inventionem ascripsisse? Ergone hac
+                    vice verecundiæ fines transilijt? Ergone contrarium hoc immodestiæ ascribendum?
+                    Et qui novit viri ingenium, neque hoc admittet. Quid multis? Barbari dicere
+                    solebant, prout iacet litera; ita hîc quoque dicendum et pronunciandum <app>
+                        <lem>iam</lem>
+                        <rdg wit="#A">tam</rdg>
+                    </app> est, ex dictatis Rostochianis unius <persName ref="Liddel"
+                        >LIDDELIJ</persName> tertiam hypothesin, quam et nova placita solebat
+                    appellare, non <persName ref="Liddel">DUNCANI</persName> sed TYCHONIS esse;
+                    propria confessio, inquiunt Iurisperiti, est fortissima probatio. Satis superque
+                    hæc tibi, mihi et alijs sufficere possent, nisi, quia sic sermo cœptus est, unum
+                    et alterum adhuc verbum ex ijsdem liberet adijcere. Dici non potest, quam
+                    præclare <app>
+                        <lem>tum</lem>
+                        <rdg wit="#Hansch">tunc</rdg>
+                    </app> temporis in ipsa tractatione istius hypotheseos, quoties occasio dabatur,
+                    de TYCHONE Scotus senserit, et omnibus veteribus prætulerit, et cum
+                    Illustrissimo <persName ref="Wilhelm, landgrave of Hessen">Landgravio
+                        Hassiæ</persName> b. m. coniunxerit. Sic enim in eiusdem commentarijs <app>
+                        <lem>tit.</lem>
+                        <rdg><note>om. Hansch (dub. A).</note></rdg>
+                    </app> de longit. et latit. in Sphæram <persName ref="Brucaeus"
+                        >BRUCÆI</persName> legitur. &#187;<hi rend="it">An vero stellæ fixæ suas
+                        latitudines sive distantias ab Ecliptica variarint, nullus veterum cognovit,
+                        verum <persName ref="Wilhelm, landgrave of Hessen">Landgravius</persName> et
+                        TYCHO BRAHE ex crebris observationibus invenerunt stellas fixas latitudines
+                        suas ad mutationem obliquitatis Zodiaci variasse.</hi>&#171; Et de <pb
+                        ed="TBOO" n="VIII.40"/>latitudine &#x263E; ait: &#187;<hi rend="it">Quod
+                        antea a nemine ante TYCHONEM obser<pb ed="A" n="3v"/>vatum est, latitudo
+                        Lunæ maxima mutata est, et hodie est 5&#176; 15'.</hi>&#171; Item de
+                    eccentricitate Solis <app>
+                        <lem wit="#Hansch">tit.</lem>
+                        <rdg wit="#A">lib.</rdg>
+                    </app> de motu Solis inquit: &#187;<hi rend="it">in quibus omnibus Artifices hoc
+                        seculo, ut sunt Illustrissimus Princeps <persName
+                            ref="Wilhelm, landgrave of Hessen">Landgravius</persName> et TYCHO
+                        BRAHE, multa invenerunt, quæ observationibus <persName ref="Copernicus"
+                            >COPERNICI</persName> non satis consentiunt.</hi>&#171; Sic ille. Quis
+                    hîc, quæso, per febrim potuisset suspicari, <persName ref="Liddel"
+                        >LIDDELIUM</persName> tanti artificis, quem sic ipse commendaret,
+                    præceptorem esse, et illum huius discipulum, uti nunc iactitare audet? Ni
+                    seipsum Scotus <app>
+                        <lem>tantum</lem>
+                        <rdg wit="#A">tertium</rdg>
+                    </app> artificem, aut artificibus illis artificiosiorem et superiorem
+                    constituisset, <app>
+                        <lem>talis non constitueretur</lem>
+                        <rdg wit="#A">constitueretve</rdg>
+                    </app>. Sed tu, Domine <persName ref="Rosenkrantz, Holger"
+                        >ROSENKRANTZI</persName>, pro ἀγχινοίᾳ tua, qua polles, me etiam tacente,
+                    aliud argumentum certitudinis pro TYCHONE, ut opinor, colliges, quando <app>
+                        <lem>audis</lem>
+                        <rdg wit="#Hansch">audivi</rdg>
+                    </app>, quod observata, quæ <persName ref="Copernicus">COPERNICO</persName> non
+                    satis consentiunt, TYCHONI ascribat, ut sic tecum ratiocinere: Qui novas
+                    hypotheses in Astronomia contra omnes antegressores suos invenire et statuere
+                    vult, is ut longe prius observata τῶν φαινομένων Syderalium nova acquisierit,
+                    necesse habet; quare? quia hypotheses novæ, non præsuppositis novorum φαινομένων
+                    fundamentis, anilia sunt τερετίσματα, quandoquidem hypothesium sit salvare motus
+                    observatos; quod si ergo <persName ref="Liddel">LIDDELIUS</persName> Scotus in
+                    obscuro latens et instrumentis destitutus nulla φαινόμενα nova primus
+                    observavit, quid eum <app>
+                        <lem>principio</lem>
+                        <rdg wit="#Hansch">primo</rdg>
+                    </app> impulit, ut ab hypothesi Coperniana (quam mordicus tueri solebat)
+                    desiliret, et de <app>
+                        <lem>nova</lem>
+                        <rdg wit="#A">novo</rdg>
+                    </app> cogitare inciperet? Mirum enim, si se observata a TYCHONE primo ac<pb
+                        ed="A" n="4r"/>cepisse largiri posset. Sic me iudice <app>
+                        <lem>haud</lem>
+                        <rdg wit="#Hansch">non</rdg>
+                    </app> leve argumentum duxeris ad evincendum <persName ref="Liddel"
+                        >DUNCANI</persName> Plagium. Taceo, quod in ipsa tractatione huius novæ
+                    hypotheseos, talem se præstiterit <persName ref="Liddel">LIDDELIUS</persName>,
+                    ut multis indicijs sit colligere, eum auctorem et inventorem non esse. Qui enim
+                    ipse <app>
+                        <lem>inventor</lem>
+                        <rdg wit="#Hansch">autor</rdg>
+                    </app> et auspex est in scientia apodictica certæ alicuius hypotheseos, quam
+                    alios docet, illum dedecet fluctuare aut aliquid eius in medio suspensum
+                    relinquere. Sic enim <persName ref="Liddel">DUNCANUS</persName>, ubi generaliter
+                    Tychonianum typum depinxit: &#187;<hi rend="it">An primus motus, quo omnia ab
+                        ortu in occasum feruntur, ob Terræ motum an cœli extimi rectius dicatur, in
+                        medio hîc relinquimus; probabilius forte videbitur, si extimo cœlo
+                        ascribatur.</hi>&#171; Audis, quam non usurpet sibi arbitrium statuendi,
+                    decidendi, sed aliunde quasi afflatum exspectet, quid hîc sentiendum sit, quid
+                    non sit, quem procul dubio tum temporis nondum ex TYCHONE hauserat. Fortius est,
+                    quod ibidem paulo post ansam præbet sentiendi et disputandi contra hanc
+                    Hypothesin, cum inquit: &#187;<hi rend="it"><persName ref="Copernicus"
+                            >COPERNICI</persName> hypothesin absurdam plerisque videri, hanc vero
+                        (Tychonianam subintelligens) principijs Geometriæ nihil <app>
+                            <lem>repugnare</lem>
+                            <rdg wit="#A">impugnare</rdg>
+                        </app>, licet nonnulla videatur physica absurda ponere.</hi>&#171;
+                    Intelligebat autem orbes æthereos ex <persName ref="Aristoteles">ARISTOTE<pb
+                            ed="TBOO" n="VIII.41"/>LIS</persName> sententia, quod paulo post usu ex
+                    disputatione Physicæ Aristoteleæ cum eodem habita didici. Proposuit enim idem
+                    ibidem Disputationes physicas, in quarum nona, cum ad libros priores de cœlo
+                    venisset, intrepide orbes reales defendere volebat, quos cum <pb ed="A" n="4v"
+                    />exercitij ergo opponendo Tychoniana observata refellerem, excanduit homo
+                    tantum in modum, ut etiam hanc datam hypothesin plane repudiaret et damnaret,
+                    immemor fortasse τῆς μεταβάσεως τοῦ γένους. Unde acerbitati istius ego cedens,
+                    surrexi tum temporis, atque Scholis istius valedixi, ut meministi <app>
+                        <lem>me tibi</lem>
+                        <rdg wit="#A">te</rdg>
+                    </app> sæpius narrasse, et plurimi adhuc in vivis sunt, qui et spectatores et
+                    auditores eius fabulæ fuerunt. Quæ ideo repeto, non ut de re ipsa (quam inter
+                    puerilia nostra pono) agam, sed ut evincam <persName ref="Liddel"
+                        >LIDDELIUM</persName> semper hypothesin illam sic tractasse, sic contra
+                    disputasse, ut alterius, non suum inventum esse clarissime dederit cuivis
+                    contestatum. Rigidius enim pro illa pugnasset, si proprium figmentum (ex quo
+                    immortaliter se victurum esse sperasset) fuisset. Talis, ut audis, <persName
+                        ref="Rosenkrantz, Holger">ROSENKRANTZI</persName>, fuit <persName
+                        ref="Liddel">Scotus</persName> in Schola illa Astronomica <placeName
+                        ref="Rostock">Rostochij</placeName>, quoties collecto grege illi docenti
+                    assedimus; sed est tamen quod dissimulare nequeo, quod et alij mei tum temporis
+                    commilitones (quos nominare <app>
+                        <lem>possum</lem>
+                        <rdg wit="#Hansch">possem</rdg>
+                    </app>) norunt. Quando M. <persName ref="Liddel">DUNCANUS</persName> haud
+                    obscure colligeret, magno applausu excipi TYCHONIS novam, eamque tam concinnam
+                    hypothesin, <app>
+                        <lem>tum</lem>
+                        <rdg wit="#Hansch">tunc</rdg>
+                    </app> laudis, ut opinor, immatura aviditate flagrans (ut erat natura
+                    gloriosior) uni et alteri suorum auditorum (cœtu dimisso) insusurrare solebat,
+                    se habere literas propria TYCHONIS manu exaratas, in quibus TYCHO illi hanc
+                    hypothesin adscribat, his inter cætera verbis: &#187;<hi rend="it">Rem acu
+                        tetigisti</hi>&#171;. Verum nunquam tamen plene literas eas mihi quidem
+                    visendas <app>
+                        <lem>legendasve</lem>
+                        <rdg wit="#A">legendasque</rdg>
+                    </app>
+                    <pb ed="A" n="5r"/>volebat aperire, nescio cur, etiam cum multis rogaretur. Quia
+                    autem integras legere non licuit, multi mecum potius credebant publicis
+                    commentarijs <persName ref="Liddel">DUNCANI</persName>, quam eiusdem
+                    clancularijs et subreptitijs susurris. Exemplar istarum, quas iactat, literarum
+                        <placeName ref="Helmstedt">Helmstadij</placeName> descriptum mihique
+                    communicatum nunc legi, sed lectis illis merito exclamo: Quid est ollas et
+                    cucurbitas lippire, si hoc non sit? Seipsum amare et sapere vix Iovi conceditur.
+                    Perstringit enim amor sui oculos, ut quid album a nigro distet, discerni non
+                    queat. Sed ego illud prolixius hîc agere non teneor. Epistola ubi in lucem
+                    fuerit protracta, pro se loquetur.</p>
+                <p rend="indent">Habes, domine <persName ref="Rosenkrantz, Holger"
+                        >ROSENKRANTZI</persName>, quid mihi ex Liddelianis commentarijs constet, de
+                    inventione novæ seu Tychonianæ hypotheseos. Quod etsi fere præterire potuissem,
+                    tamen ne tuæ petitioni deesse voluisse viderer, nolui omittere. At vero plus mea
+                    interest, an verum dicat <persName ref="Liddel">Scotus</persName>, quod
+                    propositas a se ante Septennium Theorias a me acceperit TYCHO, ut affirmare non
+                    erubescit.</p>
+                <p rend="indent">Narrabo autem brevibus, ut se res habet, atque non minus tibi quam
+                        <pb ed="TBOO" n="VIII.42"/>mihi notum, ut quasi te tibi narrantem me audias,
+                    modo recorderis. Cum Anno 91, a. d. 14 Calend. Iunij e palæstra Academica
+                    Rostochiana avocati essemus ab Illustri tuo Domino Parente, <persName
+                        ref="Rosenkrantz, Jørgen">GEORGIO</persName>, Prorege <placeName
+                        ref="Denmark">Daniæ</placeName> b. m. et substitissemus <placeName
+                        ref="København">Hafniæ</placeName> aliquamdiu, indultum est utrique, ut ad
+                        <placeName ref="Hven">Insulam Huenam</placeName> (qua Urania TYCHONIS tum
+                        tem<pb ed="A" n="5v"/>poris pedem fixerat) <app>
+                        <lem>excurreremus</lem>
+                        <rdg wit="#A">excurremus</rdg>
+                    </app>, quod Dominus parens tuus intelligebat, nos quoque singulari Astronomiæ
+                    amore accendi et magni D<hi rend="sup">num</hi> TYCHONEM ex illa arte facere.
+                    Hac occasione ego, ut cum artifice de arte conferre possem, cœpi recentius
+                    ὑπομνήματα, quæ tam a <persName ref="Liddel">DUNCANO</persName>, quam D<hi
+                        rend="sup">no</hi>
+                    <persName ref="Brucaeus">BRUCÆO</persName>, illo magnæ famæ viro, et alijs
+                    præceptoribus meis imbibissem, ruminare. Et quia partim navi eundum erat, ad
+                    facundum itineris comitem commentaria, quæ uno grandi volumine complicata
+                    habebam, et adhuc habeo, ut nosti, adhibere cœpi. In quo volumine inter alia
+                    etiam <persName ref="Liddel">LIDDELIJ</persName> dictata continebantur. Ita κατὰ
+                    συμβεβηκὸς librum ad Insulam Tychonianam mei, non illius causa transtuli. Ubi
+                    illuc ventum est, post multa, ut fit, familiares et eruditæ collationes de rebus
+                    varijs (quia tota insula erat cornu copiæ rerum visu et auditu mirabilium)
+                    itemque de arte Astronomica inciderunt et, nescio qua occasione, de <persName
+                        ref="Brucaeus">BRUCÆO</persName>, de <persName ref="Liddel"
+                        >LIDDELIO</persName> et alijs in hac scientia <app>
+                        <lem>tum</lem>
+                        <rdg wit="#A">tunc</rdg>
+                    </app> temporis in Academia Rosarum claris. Sensi autem statim non levibus ex
+                    signis, TYCHONEM sinistre sentire de <persName ref="Liddel">LIDDELIO</persName>,
+                    quod is ea, quæ ex privato cum TYCHONE colloquio, quando ante ibi fuisset,
+                    furtim subduxisset, alijs in Academia iniussus propalasset. Ego excusavi virum,
+                    quod is non sibi illa nova placita arrogasset, sed nominatim sub Tychoniano
+                    titulo et honore proposuisset. Quod cum difficulter sibi pateretur persuaderi
+                    Dominus TYCHO, oportune incidebat, me subito interventu fidem facere posse libro
+                        <pb ed="A" n="6r"/>meo, quem manu propria ex ore ipsius excepissem. Sic ecce
+                    producitur liber, ostendo locum unum et alterum, ubi hoc fiebat, ut supra
+                    annotavi. Quo viso acquievit plane Vir Nobilis, et de istis commentarijs inter
+                    nos nihil quicquam amplius actum, nihil cogitatum, nihil somniatum est ab illo
+                    toto tempore usque in hodiernum diem. Septimus nunc agitur annus ab illo
+                    tempore, quo <placeName ref="Uraniborg">Uraniburgi</placeName> ego et tu fuimus.
+                    Ante illud tempus nec ego nec literæ meæ, nec manus nec nomen in <placeName
+                        ref="Denmark">Daniam</placeName>, quod ego sciverim, ad TYCHONEM unquam
+                    venerunt. Quis enim ego, adolescens tum temporis, quis, inquam, eram ætate,
+                    ingenio, fama, ut cum tanto viro et genere et fama Nobilissimo atque ab ipso
+                    Magistro nostro sæpe proclamato huius sæculi artifice, qui cum <persName
+                        ref="Wilhelm, landgrave of Hessen">Landgravio</persName> solus esset in
+                    Astronomia artifex, literis amicitiam contraxissem, aut mea ad illum mittere
+                    potuissem? Post illud tempus, quo et secunda vice, interlapso triennio, in
+                        <placeName ref="Denmark">Daniam</placeName> redijmus, ego nullas de rebus
+                    Astronomicis vel ad TYCHONEM vel alium quenquam dedi <pb ed="TBOO" n="VIII.43"
+                    />aut dare potui literas. Meministi enim professionis meæ Witebergensis
+                    Herculeas molestias, et studiorum genus longe sanctius, quam ut de <app>
+                        <lem>illis</lem>
+                        <rdg wit="#A">nullis</rdg>
+                    </app> rebus mihi in Theologico studio semper παρέργοις ne per suspirium
+                    cogitare, nedum ad Artificem aliquid conferre quiverim. Effricta igitur fronte
+                    mentitur (da verbo veniam) qui dicit TYCHONEM unquam Theorias Liddelianas a me
+                    accepisse. Dictum puta. In testimonium veritatis <app>
+                        <lem>voco</lem>
+                        <rdg wit="#A">loco</rdg>
+                    </app> conscientiam meam, quæ mihi mille testes est, et <app>
+                        <lem>te</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app>, Dn. <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, qui probe
+                    adhuc annales istius δια<pb ed="A" n="6v"/>τριβῆς nostræ Academiæ, in qua iuncti
+                    unis ædibus, una mensa, uno lecto, diu noctuque, domi foris fuimus, ni fallor,
+                    remetiris. Iniuria igitur <app>
+                        <lem><persName ref="Liddel">Scoti</persName> est</lem>
+                        <rdg wit="#Hansch">est Scoti</rdg>
+                    </app>, eaque in me iniuriosissima, quod me nunquam auditum hoc modo in
+                    testimonium sui falsimonij invocat, tantum ut me invisum et suspectum bonis
+                    viris, quos contra insurgit, reddat; malitia, quod alios abusu mei nominis
+                    decepit; impudentia, quod me ignorantem et nihil tale cogitantem in suos
+                    præscriptos cogit gyros, ut mea lingua, non quod mea mens verum esse concepit,
+                    loquatur, sed quod ille finxit, vel absens effutiat. Nonne os meum quovis
+                    mancipio hoc pacto esset servilius? Satis pro imperio. Unde vero scit, TYCHONEM
+                    theorias has a me accepisse? Ego non dixi nec potui dicere, ille non vidit nec
+                    potuit videre, neque ullus alius. Si audivisse se dixerit, reddam cum <persName
+                        ref="Thales">THALETE Milesio</persName> responsum, qui aiebat verum a falso
+                    tantum abesse, quam oculi distant ab auribus, sentiens eos plerumque mentiri,
+                    qui audita non visa referunt. Aut quid si dicam, quod dicat se audivisse, quæ
+                    nunquam audivit? Si per divinationem sit assecutus, dicat an ex sortibus, an
+                    augurijs, an ex asterismis, an somnijs. Sed ex his procul dubio, nisi forte
+                    compertum sit, ex graculorum garritu, εἶπε καὶ <app>
+                        <lem>ὰ Γραίω</lem>
+                        <rdg wit="#A">ἀγροιὸ</rdg>
+                        <rdg wit="#Hansch">ἀγρηιὼ</rdg>
+                    </app> τἀλαϑέα κοσκινόμαντις, dicebat ille apud <persName ref="Theokritos"
+                        >THEOCRITUM</persName>.</p>
+                <p rend="indent">Habes, Nobilissime Domine <persName ref="Rosenkrantz, Holger"
+                        >ROSENCRANTZI</persName>, non ex ingratitudine in præceptorem olim meum (quæ
+                    enim hæc gratitudo in gratiam præceptoris commentiri?) <pb ed="A" n="7r"/>sed ex
+                    candore et veritate, qua amicitia nostra fundatur, redditum verum testimonium
+                    contra effictum illud, non meum de plagio, ut vocas, Liddeliano. Tu hoc exemplo
+                    edoctus recordare tui usitati symboli Νῆφε καὶ μέμνησο ἀπιστεῖν: tum alias, tum
+                    si alij in posterum de me similibus mendaciorum floccis tuas aures opplere <app>
+                        <lem>tentarint</lem>
+                        <rdg wit="#Hansch">tentaverint</rdg>
+                    </app>, reserva alteram mihi liberam, quod cum feceris, et veritas et amicitia
+                    nostra in æviternum sibi inter nos constabunt. His te Deo commendatum volo.
+                    Vale. Deproperatum <placeName ref="Stettin">Stetini</placeName>, <app>
+                        <lem>Anno salutis reparatæ CI&#1021; I&#1021; IIC</lem>
+                        <rdg><note><q>a.d.</q> B, qui post <q>Aprilis</q> add. <q>CI&#1021; I&#1021;
+                                    IIC</q></note></rdg>
+                    </app>. II Calend. Aprilis.</p>
+                <lb/>
+                <p rend="rightMargin">N. T. semper amicus<lb/><persName ref="Cramer">DANIEL
+                        CRAMERUS</persName>,<lb/>Pastor et Professor Ecclesiæ et Gymnasij
+                    Stetinensium.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

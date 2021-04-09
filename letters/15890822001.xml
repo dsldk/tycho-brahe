@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christopher Rothmann</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="C">
+                        <bibl>Exemplum epistolae Casellis asservatum</bibl>
+                    </witness>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rothmann, Christopher (1550-ca. 1608)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1589-08-22"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589. 22. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <p><pb ed="TBOO" n="VI.181"/><app>
+                        <lem>LITERAS</lem>
+                        <rdg><note>ante <q>LITERAS</q> add. E <q>NOBILISSIMO ET VIRTVTE SAPIENTIA
+                                    INGENIOSA ERVDITAQVE DOCTRINA, CLARISSIMO VIRO, DOMINO TYCHONI
+                                    BRAHE, DOMINO DE KNVDSTRVP, EQVITI DANO, MATHEMATICORUM NOSTRO
+                                    SECULO OMNIUM PRÆSTANTISSIMO, ETC. DOMINO SUO CUM OBSERUANTIA
+                                    COLENDO, ETC. S. P.</q></note></rdg>
+                    </app> tuas, Nobilissime Excellentissimeque D. TYCHO, quas tu 21. Februarij
+                    dederas, vix 17. Augusti accepimus, hoc est, sex diebus post, cum alteras ad me
+                    datas scripseras. Quanquam autem varijs iam distrahar occupationibus, tamen
+                    paucis tibi respondendum duxi: Præsertim cum videam, te literas meas superiores,
+                    forte ob varias occupationes <app>
+                        <lem wit="#C">et</lem>
+                        <rdg wit="#E">atque</rdg>
+                    </app> etiam <app>
+                        <lem wit="#C">morbum</lem>
+                        <rdg wit="#E">ob morbum</rdg>
+                    </app> , longe aliter intellexisse, <app>
+                        <lem wit="#C">quam</lem>
+                        <rdg wit="#E">atque</rdg>
+                    </app> ego scripseram. Obijcis enim ea mihi, quæ nec vnquam ex verbis illius
+                    Epistolæ colligi poterunt, nec etiam mihi vnquam in mentem venerunt. Vbi enim
+                    quicquam detraxi authoritati sacrarum literarum? An ea, quæ dixi, non etiam tu
+                    ipse et <app>
+                        <lem>Theologi</lem>
+                        <rdg><note>ante <q>Theologi</q> add. <q>alij</q> C, sed delevit</note></rdg>
+                    </app> omnes sacras literas interpretantes dicunt? Nisi forte existimas, duo cum
+                    dicant idem, non esse idem: Ideoque in me id reprehendendum esse, quod alijs
+                    facile possit concedi. Si <persName ref="Augustinus">Augustinum</persName>
+                    legeris, multo liberius de sacris literis loquentem inuenies. Eandem nuper
+                    sententiam cum exhibuissem Illustrissimo <persName
+                        ref="Wilhelm, landgrave of Hessen">Principi</persName> nostro et nostris
+                    Theologis viris summis, ne litem hanc <app>
+                        <lem wit="#C">facerem meam</lem>
+                        <rdg wit="#E">meam facerem</rdg>
+                    </app> (Nam in nostris Obseruationibus ei peculiare caput attribui, vbi ostendi,
+                    sacras literas non obstare nostræ de liquiditate materiæ cælestis sententiæ) nec
+                    Princeps nec Theologi eam improbârunt, aut quid reprehendendum in ea inuenerunt.
+                    Et tibi idem faciendum erit, si modo quintam tuam Essentiam defendere volueris.
+                    Mihi solius DEI gloria in omnibus meis actionibus proposita est: ne quid impium
+                    de me cogites. De Crepusculis quoque ne me prorsus <pb ed="TBOO" n="VI.182"
+                    />cæcum effice. Nec enim tam temerarius sum, vt in his rebus quicquam scribam,
+                    quod expertus non sim. Scio desinere Crepusculum Sole 17. Gradibus sub
+                    Horizontem depresso, si vulgariter Crepusculum pro luce dubia accipias. At ego <app>
+                        <lem>definiui</lem>
+                        <rdg><note>post <q>definiui</q> add. <q>ex illis literis</q>E </note></rdg>
+                    </app> Crepusculum eôusque, donec nullum amplius vestigium albicantis Aëris
+                    appareat, quod omnino necessarium est, si extremam superficiem Aëris crassi, qui
+                    illuminari potest, determinare exactius volueris. Considera igitur Aërem circa
+                    locum occubitus Solis, desinente vulgari Crepusculo, eumque cum alijs locis
+                    Horizontis circumcirca, vt ad Ortum, <app>
+                        <lem wit="#C">ad Septentrionem, ad Meridiem</lem>
+                        <rdg wit="#E">ad Meridiem, ad Septentrionem</rdg>
+
+                    </app> confer, diuersitatem coloris et vestigia illa albicantis Aëris omnino
+                    reperies. Sed et Refractionibus meis nescio cur detrahas. Quomodo enim alias
+                    inuenire possum aut etiam eruere, quam ipsa Instrumenta præbent? An in tuam
+                    gratiam hoc faciam? Iniqua certe a me postulas, si <app>
+                        <lem wit="#C">hoc</lem>
+                        <rdg wit="#E">hæc</rdg>
+                    </app> postulas. Sed nec titulum Tomorum tuorum de nouis Mundi Ætherei
+                    generationibus repræhendi, nec etiam repræhendendus est, nec tua excusatione
+                    indiget: Siquidem quæ fiunt, etiam generari dicuntur; et reuera Cometæ in Cælo
+                    generantur. Proposui ea non assertiue, sed dubitanter et interrogatiue potius,
+                    præcipue vt explicares mihi sententiam de vestra generatione et corruptione. Quæ
+                    etiam de Cometarum cauda scripsi, <app>
+                        <lem wit="#C">ea</lem>
+                        <rdg><note>om. E</note></rdg>
+                    </app> potius tuo iudicio subieci, quam vt vera vrserim. Et Illustrissimus
+                        <persName ref="Wilhelm, landgrave of Hessen">Princeps</persName> noster
+                    facile excusationem meretur, quoniam tunc temporis vix incipiebat tractare
+                    Obseruationes, necdum Stellarum Fixarum loca correxerat, nec erat in
+                    Obseruationibus exercitatus, nec velim Obseruationem illam publices. Sed et nec
+                    meam de Cometarum generatione sententiam scriptis tuis immisce. Si enim
+                    publicandam censuissem, ipse iamdudum publicassem. Pugnares <app>
+                        <lem>ea ratione</lem>
+                        <rdg><note><q>etiam ea ratione</q> C, sed <q>etiam</q> delevit; <q>ea
+                                    ratione etiam</q> E</note></rdg>
+                    </app> cum muto, siquidem nemo meam istam sententiam adhuc nouit. Postquam mea
+                    scripta publica facta fuerint, poteris ea in tuis scriptis <app>
+                        <lem wit="#C">pro libito examinare</lem>
+                        <rdg wit="#E">examinare pro libitu</rdg>
+                    </app>, siquidem tunc publici iuris erunt: At de nondum editis non est
+                    præiudicium introducendum. Superiore æstate cum de materia <app>
+                        <lem>Stellarum</lem>
+                        <rdg><note>post <q>Stellarum</q> add <q>et viæ lacteæ</q> E</note></rdg>
+                    </app> cogitaui, in aliam sententiam incidi: Inueni etiam, quæ de trabibus
+                    discurrentibus cap. 7. proposueram, prorsus falsa esse. Quapropter totum illud
+                    caput de materia Cometarum eorumque illuminatione sum mutaturus, longeque alia
+                    ratione tractaturus, si alium <app>
+                        <lem wit="#C">adhuc insuper</lem>
+                        <rdg wit="#E">insuper adhuc</rdg>
+                    </app> Cometam obseruauero, omnique diligentia inspexero et considerauero. De
+                    eo, quod Planetæ in subtilissimo et purissimo Aëre pendeant, vlterius tecum non
+                    agam. Tractaui hanc meam sententiam in opere nostro Stellarum Fixarum, nec te
+                    immiscui, sed rem ipsam tractaui. Idem et tibi faciendum erit, vt quibuscunque
+                    possis modis sententiam tuam defendas. Iudicabunt postea Doctissimi Mathematici,
+                    cuius sententia vera sit. Nec enim nos ipsi in hac materia et Actoris et Rei et
+                    Iudicis personam sustinere possu<pb ed="TBOO" n="VI.183"/>mus, sed requiritur ad
+                    sententiam pronuntiandam persona tertia, φιλαληθὴς et nullo prorsus præiudicio <app>
+                        <lem wit="#C">et affectu</lem>
+                        <rdg><note>om. E</note></rdg>
+                    </app> fascinata. Reuera Mysterium Trinitatis a Deo creaturis inditum est, et
+                    reperiuntur <app>
+                        <lem wit="#C">in hoc inferiore mundo omnia terrena</lem>
+                        <rdg wit="#E">omnia Terrena in hoc inferiore Mundo</rdg>
+                    </app> ex Terra, Aqua et Aëre, vt superioribus quoque literis <app>
+                        <lem wit="#C">significaui</lem>
+                        <rdg wit="#E">scripsi</rdg>
+                    </app>, seu potius ex Terrena materia, Aqueo glutine et Aëreo spiritu constare;
+                    Quam materiam sic dispositam deinde Calor cælestis vel Sol accedens specifica et
+                    ingenita sua virtute, luce perfundit, excitat et viuificat. <app>
+                        <lem>De hominis anima nihil dico, quæ est diuinæ particula auræ.</lem>
+                        <rdg><note>om. E</note></rdg>
+                    </app> Sed hæc alibi tractaui. Video me tandem apud te obtinuisse, quod
+                    Diaphanitas Aëris puri nihil differat a Diaphanitate materiæ Planetis
+                    circumfusæ: Reliquam etiam sententiam sine dubio veram, te docebit veritas
+                    temporis filia. De Hypothesibus <persName ref="Ptolemaios">Ptolemæi</persName>
+                    et <persName ref="Copernicus">Copernici</persName>, vtra vera sit, peculiari
+                    olim scripto discutiemus, nec vlteriorem hîc disputationem instituemus. <app>
+                        <lem wit="#C"><pb ed="TBOO" n="VI.361"/>Nec enim Cometa ille Anni 85 in
+                            Solis opposito conspectus, quicquam certi hic nos docere poterit, licet
+                            motui terræ non sit redditus obnoxius. Si enim motus eius tot gradibus
+                            motum reliquorum Planetarum superare potuit, potuit etiam excludere
+                            motum terræ annuum. Huc accedit, quod natura motus ex circularibus
+                            compositi sit, ut omnia sint πρὸς ἄλληλα, et quomodocunque transponas
+                            eccentricos et epicyclos, idem tamen motus eademque a terra distantia
+                            suo modo seruato proueniat, quemadmodum ex <persName ref="Copernicus"
+                                >Copernico</persName> lib. 3 Reuol. cap. 20, lib. 4 cap. 3, et lib.
+                            5 cap. 4, 22 et alijs locis patet, ut nos alibi tradidimus. Ad
+                            hypotheses tuas quod attinet, recte conijcis, generalem illam mundi
+                            delineationem Illustrissimo <persName ref="Wilhelm, Landgrave of Hessen"
+                                >Principi</persName> nostro a <persName ref="Ursus">Thersite illo</persName> fuisse exhibitam. Ita
+                            enim is cum <persName ref="Bürgi">horologiopæo</persName> nostro hac sua
+                            futilitate <persName ref="Wilhelm, landgrave of Hessen">Celsitud.
+                                ipsius</persName> in mea absentia (aberam enim peregre) occupauerat,
+                            ut cum ego redirem hæcque ab Illustrissimo <persName
+                                ref="Wilhelm, landgrave of Hessen">Principe</persName> perciperem,
+                            satis negotij haberem, ut falsitatem eius Illustrissimo <persName
+                                ref="Wilhelm, Landgrave of Hessen">Principi</persName> offenderem.
+                            Erat enim uera <persName ref="Copernicus">Copernici</persName> inuersio mihi satis nota ex meis Astronomicis
+                            Elementis, quæ nec tunc nec etiam nunc uidit Illustriss. <persName
+                                ref="Wilhelm, landgrave of Hessen">Princeps</persName> noster. Ac
+                            dixi palam, <persName ref="Ursus">hominem <pb ed="TBOO" n="VI.362"/>illum</persName> hæc ex suo cerebro
+                            non habere, siquidem Doctrinam Triangulorum prorsus ignorabat: et cum
+                            latitaret se apud te collectorem literarum in tua typographia egisse,
+                            dixi hæc eum ex nemine alio cognouisse præterquam ex te. Non tamen
+                            persuadere poteram prorsus Illustrissimo <persName ref="Wilhelm, landgrave of Hessen">Principi</persName> nostro hæc falsa esse,
+                            quanquam omnia et ex <persName ref="Ptolemaios">Ptolemæo</persName> et
+                            ex <persName ref="Copernicus">Copernico</persName> adducebam; adeo
+                            Illustriss. <persName ref="Wilhelm, landgrave of Hessen">ipsius Celsit.</persName> ab <persName ref="Bürgi"
+                                >horologiopæo</persName> erat occupata. Constructo tamen tandem eo
+                            Instrumento, quod <persName ref="Ursus">homuncio ille</persName> in eo scripto delineauit, ad oculum et
+                            Illustriss. <persName ref="Wilhelm, landgrave of Hessen"
+                                >Princeps</persName> et <persName ref="Bürgi"
+                                >Horologiopæus</persName> uidit, eas hypotheses ueras esse non
+                            posse, præsertim ex Marte. Assumebant enim tantum eccentriculum Solis,
+                            inque eo eccentricos reliquorum Planetarum circumducebant, omissa
+                            æquantium ratione, seu, si secundum <persName ref="Copernicus">Copernicum</persName> loquendum est, omissis
+                            prorsus illis circellis. Nec homo ille sciebat rationes et quantitates
+                            diametrorum et eccentricitatum, sed hæc ex <persName ref="Copernicus"
+                                >Copernico</persName> desumebat <persName ref="Bürgi"
+                                >Horologiopæus</persName> noster, qui satis coram Illustrissimo
+                                <persName ref="Wilhelm, landgrave of Hessen">Principe</persName> ex
+                            me audiebat, quomodo res tractanda esset. Nec ego quicquam de ijs
+                            dixissem, nisi mei officij fuisset, Illustrissimum <persName
+                                ref="Wilhelm, landgrave of Hessen">Principem</persName> meum ab
+                            approbatione (petebat enim ab Illustrissima <persName
+                                ref="Wilhelm, landgrave of Hessen">ipsius Cels.</persName>
+                            testimonium approbationis <persName ref="Ursus">impudentissimus ille</persName>) ab approbatione inquam
+                            falsæ rei retrahere. Et quotiescunque colloquebar cum Illustriss.
+                                <persName ref="Wilhelm, landgrave of Hessen">ipius
+                                Celsit.</persName>, semper aderat etiam <persName ref="Bürgi"
+                                >Horologiopæus</persName>, qui <persName ref="Ursus">hominis</persName> partes agebat. Tantum enim in
+                            mea absentia homo ille ad Illustrissimum <persName ref="Wilhelm, landgrave of Hessen">Principem</persName> erat admissus: postea
+                            uero nunquam amplius admittebatur, ob quam causam etiam in præfatione
+                            tecte in me inuehitur. Et quomodo poteram illum commendare Illustrissimo
+                                <persName ref="Wilhelm, landgrave of Hessen">Principi</persName>
+                            nostro, cum nec eam ipsam delineationem nec quicquam admodum de hac re
+                            intelligerit. Nec tamen rite <persName ref="Bürgi"
+                                >Horologiopæus</persName> noster ex me perceperat, quomodo res
+                            tractanda esset: uerum post hominis illius discessum explicaui
+                            Illustrissimo <persName ref="Wilhelm, landgrave of Hessen"
+                                >Principi</persName>, quomodo omnia data et rationes diametrorum in
+                            circulis ex <persName ref="Copernicus">Copernico</persName> essent
+                            assumenda transponendaque, quæ tunc facile arripiebat <persName
+                                ref="Bürgi">Horologiopæus</persName>, cui <persName ref="Copernicus"
+                                >Copernicum</persName> in germanicum sermonem transtulerat utcunque
+                                <persName ref="Ursus">Vrsus</persName> ille. Ita postea curabat sibi
+                            Illustrissimus <persName ref="Wilhelm, landgrave of Hessen">Princeps</persName> noster per <persName ref="Bürgi">Horologiopæum</persName> confici automaton
+                            perfectissimum, omnium Planetarum motum secundum calculum Copernici
+                            perfecte exhibens, de quo etiam superioribus literis scripsi. Nam illud,
+                            quod delineauit <persName ref="Ursus">homo ille</persName> in scripto suo, nullius est momenti, nec hic
+                            reliquit sed secum abstulit, pro eius fabrica interpretans <persName
+                                ref="Bürgi">Horologiopæo</persName> <persName ref="Copernicus">Copernicum</persName>, a quo etiam mea
+                            <app><lem>compendia</lem><rdg><note>post <q>compendia</q> verba <q>et doctrinam Triangulorum</q> deleta sunt in C</note></rdg></app> quoquo modo
+                            cognouit, et in illo scripto manifestissima maleuolentia <persName
+                                ref="Bürgi">Horologiopæo</persName> homini illiterato et idiotæ
+                            tribuit, quem tamen ego primus demonstrationem 47 p. 1 Eucl. docui, iam
+                            mercedem anguinam reportans. Obliquitatem illam Zodiaci <persName ref="Bürgi">horologiopæus</persName>
+                            noster ex meis obseruationibus transcriptam etiam in secundis scrupulis
+                            ipsi transmisit: ut et alia ex meis obseruationibus collutione <persName
+                                ref="Bürgi">Horologiopæi</persName> surrepta sunt. Sed nolo cum
+                            <persName ref="Ursus">impuro illo</persName> et <persName ref="Bürgi">Horologiopæo</persName> nostro rem
+                            habere: Doctissimi uiri facile iudicabunt, unde fluxerint pleraque, et
+                            quid cuique tribuendum sit. Quod <pb ed="TBOO" n="VI.363"/>nomen meum
+                            omisit, rem mihi pergratam fecit. Si tibi uidebitur, poteris ab ipso
+                            hypotheses tuas uindicare. Vix credere potes, quomodo et te et me et
+                            miserum illum <persName ref="Ptolemaios">Ptolemæum</persName> miserumque <persName ref="Copernicus">Copernicum</persName> et omnes doctos conuituiis
+                            peterent stupidosque et nihil intelligentes asinos appellarent illi
+                            homines duo: soles se mundi lumina iactantes: adeo homine illiterato et
+                            uix prima initia intelligente nihil quicquam est intolerabilius aut
+                            iniustius. Sed hæc nobis sunt pro nihilo habenda et contemnenda.
+                            Perscripsi tamen hac de re superiore Mense Maio ad amicum meum singularem
+                            uirum in quocunque doctrinarum genere et excellentissimum et
+                            uersatissimum D. <persName ref="Dee, John">Ioannem Dee</persName>, ipsique significaui, quod non solum mea
+                                <persName ref="Bürgi">Horologiopæo</persName> illiterato et idiotæ
+                            tribuerit, uerumetiam tibi systema illud mundi surripuerit: iam astute
+                            doctorum aucupia quærens, quos tamen antea Vatiniano prorsus odio cum
+                                <persName ref="Bürgi">Horologiopæo</persName> prosecutus esset.
+                            Omnis <persName ref="Aristippos">Aristippum</persName> decuit color et status et res. Scripsi etiam eum reuera
+                            talem esse, qualem se in præfatione descripsit. Sed nolo cum <persName ref="Ursus">isto
+                            homine</persName>, ut dixi, rem habere, nec dignus est, ut nomen ipsius scriptis
+                            nostris inferatur. Facile uidebunt docti, ex te eum illud systema
+                            habere, siquidem ipse fatetur, se doctrinam Triangulorum ex <persName
+                                ref="Bürgi">Horologiopæo</persName> nostro didicisse. Quomodo autem
+                            sine doctrina Triangulorum de systemate illo et de ordinatione circulorum cælestium deque eorum quantitate quicquam scire potuit? Ipse
+                            quoque in Elementis meis Astronomicis tibi illud systema tribuam, ut et
+                            Instrumentorum nostrorum rationem tibi in opere nostro stellarum fixarum
+                            restitui. Sed de hoc satis. </lem>
+                        <rdg wit="#E">Scriberem etiam de <persName ref="Ursus">Vrso</persName> illo
+                            Dithmarso, deque systemate illo Mundi tibi surrepto: sed Tabellarius
+                            properat, vnde illud in aliud tempus differam.</rdg>
+                    </app>
+                    <pb ed="TBOO" n="VI.183"/>Habebat in animo Illustriss. <persName
+                        ref="Wilhelm, landgrave of Hessen">Princeps</persName> noster tibi ad
+                    literas tuas respondere; Verum subita festinatione iter ingrediens <placeName
+                        ref="Schmalkalden">Smalcaldiam</placeName> petijt, vt hac ratione responsio
+                    sit impedita. Quemadmodum et eo circa hoc tempus maxime impeditur, quod iam
+                    operam det ceruis, qui rem Veneream sectantur, figendis. Nihilominus tamen
+                    Illustriss. ipsius Celsitudinem a te literas expectare et de te sæpe cogitare,
+                    ex iniecta literarum copia poteris intelligere, quas præterito mense Iulio ex
+                    comitatu <placeName ref="Homberg">Hombergico</placeName> Illustriss. ipsius
+                    Celsitud. ad me dedit: Secundum quarum tenorem et Mandatum <persName
+                        ref="Frischlin">Frischlino</persName> quoque literas ad te perferendas
+                    tradidi. Quæ proximis literis ad me scripsisti de structuris et occupationibus
+                    tuis æstiualibus, quod nimirum Molendinam ad conficiendam chartam construxeris,
+                    Illustrissimo <persName ref="Wilhelm, landgrave of Hessen">Principi</persName>
+                    meo indicaui, cui res perplacebat. Literas illas, quas ad <persName
+                        ref="Gellius">Gellium Sasceridem</persName> scripseras, nuper tradidi
+                    Præceptori Nobiliss. <persName ref="Rosenkrantz 89">ROSENCRANTZII</persName>,
+                    qui me et ex te et ex Nobiliss. D. <persName ref="Dee, John"><app>
+                            <lem wit="#C">DEE</lem>
+                            <rdg wit="#E">IOANNE DEE</rdg>
+                        </app></persName>, amico meo singulari, perquam humaniter salutabat, seque
+                    cum alijs ad eundem Gellium literis has quoque missurum aut laturum spondebat.
+                    Nuper D. <persName ref="Schönfeldt">VICTORINVS SCHONFELDT</persName>, <app>
+                        <lem wit="#C">mathematum apud Marpurgenses professor</lem>
+                        <rdg wit="#E">Professor Marpurgensis</rdg>
+                    </app>, per <persName ref="Harsachius">CHRISTOPHORVM HARSACHIVM</persName>,
+                    Illustrissimi <persName ref="Wilhelm, landgrave of Hessen">Principis</persName>
+                    nostri Consiliarium a me petijt, vt Filium suum tibi commendarem, atque ex te
+                    cognoscas rem, num posses illum inter studiosos tuos aliquamdiu recipere et in
+                    his artibus erudire; Sique hoc tibi videretur, se eum sequente æstate ad te <app>
+                        <lem>missurum. </lem>
+                        <rdg><note>post <q>missurum</q> add <q>Est vt audio promotus liberalium
+                                    Artium magister.</q> E</note></rdg>
+                    </app> Si igitur tibi hoc commodum est, poteris voluntatem tuam ad proximas
+                    Nundinas mihi declarare, vt sciat quid sibi agendum sit. Hæc iam summa
+                    festinatione varijs distractus occupationibus breuiter respondere volui, quæ vt
+                    in optimam partem accipias etiam atque etiam oro. Plura scribam, cum occasionem
+                    et otium nactus fuero. </p>
+                <closer>
+                    <salute>Vale igitur <pb ed="TBOO" n="VI.184"/>Nobilissime Excellentissimeque D.
+                        TYCHO, meque quod facis ama.</salute>
+                    <dateline>
+                        <placeName ref="Kassel">Cassellis</placeName> 22. <app>
+                            <lem wit="#C">Septemb.</lem>
+                            <rdg wit="#E">Augusti</rdg>
+                        </app>, Anno 89. </dateline>
+                    <signed>T. T.<lb/> CHRISTOPHORVS ROTHMANNVS.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

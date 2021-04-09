@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 34</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-03-24"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Christen Sørensen Longomontanus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 24. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-06" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.34"/>
+                <opener>TYCHO BRAHE AD <persName ref="Longomontanus">CHRISTIANUM
+                        LONGOMONTANUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>DILECTE <persName ref="Longomontanus">CHRISTIANE</persName>,
+                    scripsit ad me ante paucos dies <persName ref="Monavius">IACOBUS
+                        MONAVIUS</persName> Vratislaviensis, Amicus meus integerrimus, te sub finem
+                    anni præteriti <placeName ref="Wrosław">Vratislaviam</placeName> venisse, et
+                    discessus mei causas e <placeName ref="Denmark">Dania</placeName> per omnes
+                    circumstantias sibi retulisse, tum quoque te admodum de me solicitum fuisse,
+                    atque hac inprimis de causa inde abijsse <placeName ref="Leipzig"
+                        >Lipsiam</placeName>. Quod sane mihi auditu pergratum fuit, dum te ita <app>
+                        <lem>animatum</lem>
+                        <rdg><note>add. Friis e "Dänische Bibliothec" IX. lacuna in
+                            codd.</note></rdg>
+                    </app> agnosco. Ego tibi vicissim ex animo bene favere atque ad meliora quæque
+                    promovere non intermittam. Indicavit insuper ibidem <persName ref="Monavius"
+                        >MONAVIUS</persName>, quod te ad sororem <persName ref="Wittich, Paul"
+                        >WITICHIJ B. M.</persName> deduci curaverit, ubi omnes illius libros
+                    perlustraveris. Rogo itaque ut de ijs, qui et quales fuerint, præsertim
+                    manuscripti, et an eos vendere velit, qualique pretio, mihi significes. Vidisti
+                    proculdubio plagiarij mei impuri illius <persName ref="Ursus">URSI</persName>
+                    maledicentissimum scriptum, in quo præter alia innumera convitia meo et meorum
+                    honori non parcit. Ego quidem refutatione illum indignum censeo, cum omnes
+                    modestiæ limites imo honestatis longe transcenderit; efficiam <pb ed="A" n="1v"
+                    />tamen ut non impune ferat. Cum vero tibi de plagio ipsius tum quoque omnibus
+                    circumstantijs procul dubio ex aliorum, qui tunc adfuerunt, relatu innotuerit,
+                    rogo in charta designare velis, quidnam hac de re a tuis apud me commilitonibus
+                    inaudivisti. Ego quidem nonnulla adhuc recordor, sed poterant aliqua tanto
+                    temporis intervallo, et inter tot alias curas mihi facile excidisse; tum quoque
+                    quid alij in Academijs, ubi interea fuisti, de hoc maledico scripto sentiant.
+                    Verum ut tecum plenius non tantum de hoc negotio, quod ex alto despicio, sed et
+                    de alijs quibusdam longe maioris momenti loqui queam, antequam ad ulteriora hinc
+                    peregrinationem suscipiam, atque plus forte disiungamur, cuperem quam maxime, ut
+                    meis sumptibus actutum huc <placeName ref="Wandsburg">Wandesburgum</placeName>,
+                    dimidio saltem milliari <placeName ref="Hamburg">Hamburgo</placeName> remotum,
+                    te conferres, quo de necessarijs quibusdam tecum præsens agere queam. Neque enim
+                    omnia chartis committere commodum est. Si viaticum tibi ad manus non est, mutuo
+                    ab aliquo pete, vel oppignora quid, a me, qualecunque tandem sit, bona fide
+                    redimendum, aut aliquis pro te spondeat. Faxo ut illi sit indemne. Non est quod
+                    verearis, ne te hîc ultra voluntatem detineam, nam ipsemet <pb ed="A" n="2r"
+                    />non constitui hîc diu manere. Est nunc apud me <persName
+                        ref="Moller, Johannes">IOHANNES MOLLERUS</persName> Electoris Brandenburgici
+                    Mathematicus, qui <placeName>Hvenæ</placeName> in coronatione (ut scis) nobis
+                    aderat. Is negotijs præest Astronomicis et studiosis meis, quos hîc non minus
+                    quam antea <placeName ref="Uraniborg">Uraniburgi</placeName> haud paucos
+                    sustento. Vide <pb ed="TBOO" n="VIII.35"/>iam, mi <persName ref="Longomantanus"
+                        >CHRISTIERNE</persName>, ne fallas exspectationem meam, sed quam primum te
+                    hîc sistas. Invenies me vicissim gratum, ut huius pro me suscepti itineris te
+                    neutiquam pœniteat. Sume tecum exemplar Ephemeridum novarum <persName
+                        ref="Everhartus">N.
+                    EVERHARDI</persName><!-- NB 'M'?? andetsteds hedder han Martin --> e novis (ut
+                    iactitat) Tabulis supputatarum, quod illas in aliqua Academia facile
+                    nancisceris, et si quid aliud nosti, quod meis desiderijs conveniat. <placeName
+                        ref="Hamburg">Hamburgi</placeName> hic liber venalis non est. Mihi nihil
+                    præter solum eius libri titulum in catalogo hucusque videre licuit. Vale, et
+                    confestim, prout tibi confido, ad nos advola. Raptim <placeName ref="Wandsburg"
+                        >Wandesburgi</placeName> die 24. Martij Anni 1598.</p>
+                <lb/>
+                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

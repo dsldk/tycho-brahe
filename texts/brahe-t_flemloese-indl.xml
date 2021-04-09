@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+              <title>Forord til Flemløses En Elementisch oc Jordisch Astrologia</title>                
+              <title xml:lang="en">Preface to Flemløse, En Elementisch oc Jordisch Astrologia</title>
+                <author>Tycho Brahe</author>
+                <author>Christian Longomontanus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl>Peder Jacobsen Flemløse<title>En Elementisch oc Jordisch Astrologia om
+                                Lufftens forendring </title>, Uraniborg 1591</bibl>
+                    </witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Peder Jacobsen Flemløses elementiske og jordiske Astrologi om
+                                Luftens Forandring ...</title>, paany udgiven af F.R. Friis,
+                            København 1865</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1591</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>astronomi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-04-03" who="#pz">Filen etableret</change>
+            <change when="2020-04-06" who="#pz">tekst importeret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage xml:id="titelblad">
+                <docTitle rend="center">
+                    <titlePart><pb ed="A" n="A1r"/>En<lb/>Elementisch oc Jordisch<lb/><foreign
+                            xml:lang="la"><hi rend="it">ASTROLOGIA</hi></foreign><lb/>Om Lufftens
+                        forendring<lb/>oc hues der vnder begribes / tagen aff de Tingest som for
+                        øgnen sees oc forfares oc huer Mand letteligen kand affmerke oc tilforn
+                        wijde: Huilcken holder paa alle Aar ret oc er vdi alle Land
+                        gaffnlig.</titlePart>
+                    <titlePart>Tilsammen dragen<lb/>aff<lb/>Peder Jacobsøn Flemløs<lb/>paa
+                        Hueen.</titlePart>
+                    <titlePart>Prentit paa Vraniborg<lb/>Aff Hans Galschitz<lb/>Anno 1591
+                    </titlePart>
+                </docTitle>
+            </titlePage>
+        </front>
+        <body>
+            <div xml:id="01">
+              <head>
+                <orig><pb ed="A" n="A1v"/><pb ed="A" n="A2r"/> Den fromme Forstanddige oc Gunstige Leser <app>
+                        <lem resp="#Friis">ynsker</lem>
+                        <rdg wit="#A">ynskere</rdg>
+                  </app> ieg <lb/> Peder Jacobsøn Flemløs <lb/> Welfart.</orig>
+                  <reg>Forord</reg>
+                </head>
+                <div>
+                <p>Denne store Herlige oc widbegrebne Verden/ Guds ypperlig oc siunlig Skabning /
+                    vnder huilcken forstais den høye oc wide Himmel / met alle sine Planeter oc
+                    Stierner / som der vdi forfattes oc beweges / saa oc Jorden som giør met det
+                    omsueffuede Haff en Klod / Oc der hos alle de slags Leffuendes Diur / oc huad
+                    andet der vdi / eller paa woxer oc begribes / der til met Lufften / som Himmel
+                    oc Jord imellem gaar / oc bode atskiller oc sammenføger: Dette alsammen endog
+                    det dieles aff forstandige <foreign xml:lang="la"><hi rend="it"
+                        >Philosophis</hi></foreign> i tuende parter / den ene Ætherisk oc Himmelsk /
+                    den anden Ele<pb ed="A" n="A2v"/>mentarisk / vnder huilcken Jorden / Haffuet oc
+                    Lufften forstaaes / som dog en ringe storhed haffuer med den anden / Ætherisk oc
+                    Wbegribelig part at regne: Dogligeuel er disse tuende met hinanden saa forbunden
+                    / oc sammenegnet at denne vnderste part aff Verden / er den øffuerstis Influentz
+                    vndergiffuen / dis ligeste ocsaa aff sig sielff / huis den anden kand vere
+                    angenent oc tilføyelig vdi en bequem offuerens stemmelse indeholder oc fraa sig
+                    giffuer. Oc Lufften er her vdi en medel oc redskab / formedelst huilcken slige
+                    Naturlige <hi rend="it">operation</hi> oc influentzer sammenføges oc vdspredes / huilcken i sig de
+                    Himmelske kraffter oc indgiffuelser letteligen annemmer / oc dennem siden met
+                    Jorden oc Haffuet (huilcke oc Lufften omsueffuer) gienem gaar / oc alle de
+                    Leffuendes Diur / som der tilhører / oc huess der vdi oc offuen paa woxer / met
+                    deler / afficer oc beweger: At her vdaff icke allenist Lufften sielff met
+                    mangfoldige Meteorisch <foreign xml:lang="la"><hi rend="it">impræssionibus</hi></foreign> de Himmelske kraff<pb ed="A" n="A3r"/>ter
+                    oc bewegelser finder oc annemer / men dennem ocsaa vdi Jorden oc Haffuet / oc
+                    blant alle det som der vnder begribes / udspreer oc tilføyer / oc der vdaff
+                    ocsaa igien beueges.</p>
+                <p rend="indent">Huor vdaff det skeer oc foraarsagis at effterdi alle Diur oc
+                    Leffuendes Creature som er paa Jorden oc i Haffuit ere Luften vndergiffuen / oc
+                    der aff ocsaa en stor part fødis oc wederquegis / at de ocsaa de Himmelske
+                    <hi rend="it">operation</hi> fructer oc bewegelser / met Lufften annemmer / oc dennem vndergiffuer
+                    / saa at de der vdaff i deres <foreign xml:lang="la"><hi rend="it">sensibus</hi></foreign> oc befindelser atskilligen forendres oc
+                    beweges / stunden i en maade / vndertijden i en anden / saa at de det tit oc
+                    offte formedelst vdwortes tegn tilkiende giffuer. Oc det allermest skeer i de
+                    Wfornuffstige Diur huilcke oc mere end Mennisken af Lufften regeres oc
+                    forendres. Thi Mennisken haffuer der foruden noget som høgre er vdi sig /
+                    huilcket bode de Himmelske oc Elementariske influentzer <pb ed="A" n="A3v"
+                    />offuergaar / oc formedelst sin fornufft / mangfoldig oc witlefftige tancker oc
+                    idretter / icke saa letteligen der vdaff foruandles oc beueges / som de
+                    Wfornuffstige Diur: dog somme Mennisken mere <app>
+                        <lem>somme</lem>
+                        <rdg><q>omme</q> A (typeudfald)</rdg>
+                    </app> minder.</p>
+                <p rend="indent">Vdi lige maade er det ocsaa at forstaa om Treer oc Vrter / oc hues
+                    der groer paa Jorden / thi det ocsaa alsammen haffuer sin opholdning oc
+                    wederquegelse aff Lufften.</p>
+                <p rend="indent">Derfor effterdi den rette Astrologische Konst / huilcken aff Solens
+                    / Manens / oc de andre fem Planeters / der til met ocsaa alle andre Stierners
+                    Natur oc egenskab / i deres vnderlige gang oc bewegelser / deres influentzer oc
+                    kraffter i den vnderste part aff Verden her paa den Jordiske kretz randsager /
+                    oc at tilforn vide oc Prædicere attraaer oc forgiffuer/ er i sig sielff møgit høy
+                    / Saa at den i mange stycker offuergaar Menniskens begribelse / oc er derfor
+                    icke endnu aff <pb ed="A" n="A4r"/>nogen saa fuldkommeligen som det sig burde
+                    paafunden / oc vdi en retwijß widskab / foruden tuiffuel oc mangel til veye
+                    bracht: Oc det for mange oc atskiellige Aarsager Skyld / som her vilde bliffue
+                    forlangt at opregne. Der til met om end skiønt saa var / at samme Konst i sig
+                    sielff nocksom var paafunden: Da er der dog icke vden faa Mennisker til / end
+                    ocsaa blant de som Regnes for Lerde / huilcke sig her vdi beflitter / oc
+                    grandgiffueligen at Lere attraaer: Thi det er fornøden at de ocsaa skulle haffue
+                    en grundelig forstand oc widskab først paa den Astronomiske Konst / huilcken
+                    Himmelen oc den Himmelske <hi rend="it">Corpors</hi> vnderlige Lob oc Vesen forkynder. Oc dette
+                    icke tilbørligen skee kand vden de ocsaa i den Geometriske oc Arithmetiske Konst
+                    vare nocksom tilforn øffuede. Met møgit andet som der foruden tilhører / saa at
+                    <hi rend="it">Astrologiam</hi> huilcken Himmelens influentzer oc bety<pb ed="A" n="A4v"/>delser
+                    betracter grundeligen (saa vit som mueligt er) at Lere oc forstaa / haffuer
+                    mere paa sig / end de som der met omgaar oc sig der for vdgiffuer / kunde sielff
+                    vide oc mercke: Oc der som de wiste huor møgit der hørde til / oc huor dyb
+                    Konsten er i sig sielff / da bleff der icke saa mange Almanacher oc Practica
+                    Aarligen vdgangen/ oc i adskiellige Land udspræd / dennem sielff som sligt giør
+                    til spot / oc Konsten hoß de Wforstandige til foractelse.</p>
+                <p rend="indent">Da effterdi dette haffuer sig saaledis / oc er ydermere vist / end
+                    nogen kand skee end ocsaa iblant dennem som vdi lang tijd haffuer omgaaet her
+                    met / mercke oc tro kunde / møget mindre kunde de Wlerde oc den gemen Mand aff
+                    samme Konst / huilcken for dennem aldelis forborgen er / haffue nogen vidskab /
+                    nytte oc gaffn. </p>
+                <p rend="indent"><pb ed="A" n="A5r"/>Huorfor den wijse oc Wbegrundlige alle Creaturs
+                    Skabere haffuer det Saaledis forsiunit oc skicket / at disse vnderste oc
+                    Elementariske Creaturer giffuer ocsaa tegen fraa dennem / aff huilcke Mand kand
+                    de Himmelske influentzer oc betydeninger som i Luften er for heender /
+                    letteligen affmercke oc for øgen see / forind de kommer i deres effecter oc
+                    vdførelser. Aff huilcke ocsaa de Wlerde / oc en huer kand merke oc forstaa huad
+                    forendring vdi Lufften for haanden er / om de endskønt aff den rette
+                    Astrologische Konst ingen forstand haffuer.</p>
+                <p rend="indent">Oc effterdi denne widskab oc affmerckelse er ikke alleniste lystig
+                    oc smuck i sig sielff / Men ocsaa saare nyttig at vide oc forstaa for en
+                    Hußfader / oc de som Vandrer oc haffuer deres bestillinger til Lands oc Vands /
+                    oc for Aarsens grøde oc atskiellig forendring vdi Lufften huilcke Mennisken
+                    ocsaa <pb ed="A" n="A5v"/>en part er undergiffuen / haffuer mange icke allenist
+                    blant de Lerde / Men ocsaa aff dennem som i Boglige Konster icke studeret
+                    haffuer / sig her vdi beflittet / at kunde bekomme nogen <hi rend="it">Experientzer</hi> oc
+                    Erfarenhed her paa.</p>
+                <p rend="indent">Og haffde vdi sønderlighed Høglofflig ihukommelse Konning Frederich
+                    / stor Løst oc attraa til sligt at vijde oc forfare / saa at hans Maiestat
+                    haffde sielff mange stycker her vdi aff Longuarendis Paaactning / naar hans
+                    Maiestat wandrede / eller war vdi Jagt vnder oben Himmel / mercket oc forfaret:
+                    oc paa det hans Maiestat end da ydermere her vdi kunde faa vidskab / befol hans
+                    Maiestat for nogle Aar siden min juncker Erlig oc Welbyrdige Mand Tyge Brahe til
+                    Knudstrup / hos huilcken ieg var paa Hueen / noget lenger end vdi ti Aar oc <hi rend="it">Inserveret</hi> hannom vdi astronomiske oc
+                    Pyronomiske Konster / hannom (siger <pb ed="A" n="A6r"/>ieg) befol Konglige
+                    Maiestat at hand udaff sine Bøger / oc egen forfaring / skulle Skriffteligen
+                    forfatte oc sammendrage / saa mange stycker oc <hi rend="it">Experimenter</hi> han kunde her paa
+                    til veye bringe / oc det siden hans Maiestat i en Bog vdi sønderlighed sammen
+                    skreffuit / lade bekomme. Oc effterdi forneffnde Tyge Brahe haffde møgit met sin
+                    andre oc Høyre <foreign xml:lang="la"><hi rend="it">Studijs</hi></foreign> oc Idretter at tage vare / saa at hand icke nocksom havde
+                    stunder at vdlede oc sammendrage det / hues disse <app><lem>Betydeninger</lem><rdg><q>Betydeniner</q> A</rdg></app> angaar: Paalagde
+                    hand der for mig det at giøre oc fuldkomme / oc antwordet mig hues af sine Bøger
+                    der til behøffuedes / oc huad andet hand der vdi sielff haffde forfarit / oc gaff
+                    mig en <hi rend="it">Instruction</hi> oc vnderwisning huorledes altingest var her vdi paa det
+                    letteste oc beste at effterkomme / Saa at ieg der vdoffuer paa en temmelig kort
+                    tijd / dog icke foruden <pb ed="A" n="A6v"/>flyd oc umag tilsammen drog oc
+                    opskreff Hues i denne liden Bog forfattes / om de forendringe som Skeer vdi
+                    Lufften / huorledis Mand dem tilforn mercke oc forkynde kand / enten vdi de
+                    Himmelske <hi rend="it">Corpor</hi>, eller Lufften / eller paa Jorden oc vdi Haffuet / met Hues der
+                    vnder forfattis bode Leffuendes Diur oc Hues der paa oc vdi woxer. Huilcket
+                    arbeid endog det siunes lidet oc ringe / ieg alligeuel forseer mig til at kand
+                    bliffue mange bode Ædel oc WEdel som ganger om met Huußholdning / Jordsens
+                    <app><lem>dyrckning</lem><rdg><q>dryckning</q> A</rdg></app> oc afgrøde / Vanderskab oc Seglation / Jagt / Fiskery oc andet hues
+                    vnder den oben Himmel vdrettis oc tracteris / icke til ringe nytte oc angenem
+                    welbehag. For hues Aarsag skyld ocsaa forneffnde Tyge Brahe haffuer tilsted / at
+                    samme liden Bog maa vdi hans Tryckery paa Vraniborg bliffue Prentit huilcken Hand
+                    der til sin <hi rend="it">Opera Astronomica</hi> haffuer anrettit. Oc effterdi hand <pb ed="A"
+                        n="A7r"/>lader nu paa sin Papyr Mølle / huilcken hand der ocsaa paa Hueen
+                    tilsamme behoff haffuer bekostit oc anstifftit / berede Papyr vdi forraad til
+                    samme <hi rend="it">Opera</hi>, vilde hand icke at hans Bogtrycker dis imellem skulle feriere oc
+                    gange ørckesløs / men lod hannem medler tid tage dette lille Arbeit forheender /
+                    det met Danske styl vdi huilcken Tungmaal det oc beskreffuit er / at forferdige
+                    / huermand som der til Løst hafuuer til nytte oc gaffn. Effterdi forbemelte
+                    Høglofflig i hukommelse Konglige Maiestat war aff denne Verden heden kaldet
+                    førind samme Bog / der den var skriffteligen forfattet / kunde bliffue hans
+                    Maiestat vnderdanigst offuer antwordit.</p>
+                <p rend="indent">Oc paa det dißlettere oc bedre kand forstais huad denne samme liden
+                    Bog indholder / oc met huad ordning oc maade det der vdi begribis vil ieg hindis
+                    indhold oc vddeling nu korteligen tilkiende giffue / oc siden sist vdi Bogen <pb
+                        ed="A" n="A7v"/>tuende witlefftigere Registere oc antegnelser / paa hues
+                    Mand beger her vdaff at vide foreholde oc angiffue. Bedendes at den Gunstige oc
+                    fromme Leser vil tage dette mit ringe Arbeid til tack.</p>
+                </div>
+            <div>
+              <head>
+                <orig><pb ed="A" n="A8r"/>Denne Bog Indholder i sig sex Parter.</orig>
+              </head>
+                <p><lb/>Den Første udwisser tegen til Tøe oc klar Wæir: item til Regn oc Dug / oc
+                    indholdis vdi tretten Capiteler oc CCXXXV. Artickler.</p>
+
+                <p><lb/>I den Anden findis Tegen til Kuld Frost / Sne / Hagel / Rimfrost / mørck
+                    Wæirlig oc Tøe. Huilcken haffuer otte Capiteler oc XXXIIII. Artickler.</p>
+
+                <p><lb/>Wid den tredje giffues tilkiende huor vdaff Mand kand forstaa / naar det vil
+                    Regne / eller Storme: Oc er delet i siu Capiteler oc LXXI. Artickler.</p>
+
+                <p><lb/>Den fierde Lerer huorledis Mand kand wijde naar det vil Torden / oc om den
+                    tilkommendis Torden er Skadelig eller ey / formedelst to Capiteler oc XVI.
+                    Artickler.</p>
+
+                <p><lb/>Den Fempte forkynder den tilkommendis Jordskiel / ved en Capitel oc XIIII.
+                    Artickler.</p>
+
+                <p><lb/><pb ed="A" n="A8v"/>I den Siette foreholdis nogle gemen stycker / aff
+                    huilcke Mand i nogen maade kand beslute / huorledis sig wil begiffue det
+                    tilkommendis Aar met Korn Vegst oc affgrøde / Oc met god eller Diur Tid / oc
+                    endes met to Capiteler oc XXIIII. Artickler. </p>
+            </div>
+            </div>
+        </body>
+    </text>
+</TEI>

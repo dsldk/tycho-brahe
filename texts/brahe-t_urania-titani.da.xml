@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Urania Titani</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                        <!--<witness xml:id="V">
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.12</idno>
+                                <msName>empty</msName>
+                        </witness>
+                    <witness xml:id="V1">
+                            <bibl>Correctiones codicis V ipsius Tychonis manui non certo ascribendae (quarum nonnullae eadem manu qua V scriptae sunt</bibl>
+                        </witness>
+                    <witness xml:id="T, T1, T2">
+                        <bibl>Correctiones in codice V ipsius Tychonis manu factae</bibl>
+                    </witness>
+                    <witness xml:id="R">
+                        <bibl>P.J. Resen <title>Inscriptiones Haffnienses</title>, Hauniæ 1668</bibl>
+                    </witness>
+                    <witness xml:id="Friis">
+                        <bibl>F.R. Friis <title>Breve og Aktstykker angaaende Tyge Brahe og hans Slægtninge</title>, Kjøbenhavn 1875</bibl>
+                    </witness>
+                            <physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>
+                    
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 193-211</bibl></witness>-->
+                    <witness xml:id="Zeeberg">
+                        <bibl>Peter Zeeberg, <title>Tycho Brahes "Urania Titani". Et digt om Sophie Brahe</title>, (Renæssancestudier 7) København 1994</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1594</date></creation>
+            <langUsage>
+                <language ident="da" />
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>poesi</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-26" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+          <div><!--<pb ed="TBOO" n="IX.193"/><pb ed="A" n="1r"/>-->
+            <head>
+              <orig>Brev fra Urania til Titan</orig>
+              <reg>Brev fra Urania til Titan</reg>
+            </head>
+            <lg>
+                <l>På disse sider, Titan, får du nu 600 vers,</l>
+                <l rend="indent">som du kan læse når du har tid.</l>
+                <l>Antallet er så stort for at du ikke skal kunne svare uden videre,</l>
+                <l>men ønske selv at overbringe svaret mundtligt.</l>       
+            </lg>
+<lg>
+    <l n="5">Det brev du har i hånden nu, min Titan, kommer fra Urania.</l>
+    <l>Hun ønsker ikke at få skriftligt svar &#x2013; men dig tilbage!</l>
+    <l>Du har sendt mange breve &#x2013; og det håber jeg blir ved &#x2013;</l>
+    <l>men når jeg savner dig, hvad nytter så papir?</l>
+    <l>Du holdes borte af din videnskab, der er misundelig på mine ønsker.</l>
+    <l n="10">Gid Hermes, ja gid hele din kemi dog havde mindre magt!</l>
+    <l>Din videnskab er tom, og efterlader pungen tom for penge</l>
+    <l>&#x2013; og også jeg er efterladt, min ægteseng er tom på grund af den!</l>
+    <l>På grund af den henlever jeg i ensomhed solløse dage, stjerneløse nætter,</l>
+    <l>mens du er væk, min sol, mit eget lys.</l>
+    <l n="15">Gid dog den videnskab var blevet slugt af mørket i den under-verden den er kommet fra,</l>
+    <l>for denne sorte kunst frastjæler mig så mange lyse dage.</l>
+    <l>Den kan med rette kaldes sort, for den forbruger sorte kul.</l>
+    <l>En ting så sort er ikke dine hvide hænder værdig.</l>
+    <l>Men at jeg lades ene er en småting: du tager skade af det.</l>
+    <l n="20">Dit sind blir træt, din krop blir syg af det.</l>
+    <l>For når du slider i det nat og dag,</l>
+    <l>for at din videnskab skal vise venlighed mod dine ønsker,</l>
+    <l>og du alligevel &#x2013; hvor meget du end søger &#x2013; INTET finder,</l>
+    <l>får du så ikke sår i sjælen af at skuffes i så stort et håb?</l>
+    <l n="25">Når du med møje ånder i den ækle røg</l>
+    <l>fra både kullet og det stof du gør forsøg med,</l>
+    <l>føles det så ikke som om dit stakkels sarte bryst udpines?</l>
+    <l>&#x2013; det bryst der egner sig langt bedre til at hvile imod mit.</l>
+    <l>Jeg taler af erfaring nu. Jeg kender selv til alt det ubehagelige</l>
+    <l n="30">som dine kul og dine mange stoffer kan forvolde.</l>
+    <l>Hvor ofte blir dit ansigt ikke svinet til &#x2013; og dine læber,</l>
+    <l>de søde læber som jo burde være mine helt alene.</l>
+    <l>Og ofte får du blå og gule mærker over hele kroppen,</l>
+    <l>hvor huden før var blød og hvid som urørt sne.</l>
+    <l n="35">En gang for ikke længe siden da du stod og rørte rundt i stygisk vand,</l>
+    <l>sprængte den grusomme salpeter sine lænker med et brag</l>
+    <l>og forgiftede luften med ækle dunster,</l>
+    <l>så dine kammerater sank livløse om.</l>
+    <l>Nu slap du selv med livet (og det kan du takke mine bønner for),</l>
+    <l n="40">men du blev mærket af det overalt på kroppen.</l>
+    <l>Historien har min søn (som jeg har bedt opspore nyt om dig)</l>
+    <l>fået fra Bang &#x2013; og nu fortalt til mig.</l>
+    <l>Den vakte for mit indre blik langt større farer end der er.</l>
+    <l>Ak, kærligheden er en stadig kilde til bekymring.</l>
+    <l n="45">Snart var det svovl, snart arsenik, den Satan, jeg var bekymret for,</l>
+    <l>og salte, antimon og det lumske kviksølv.</l>
+    <l>Ja, kort sagt alt hvad den bedrageriske kulovn kræver</l>
+    <l>gav anledning til frygt.</l>
+    <l>Dog, Venus lyste venligt på min kærlighed:</l>
+    <l n="50">kullet forvandledes til aske, men min mand forblev i live.</l>
+    <l>En anden ting fortalte han: at dine heste var løbet løbsk nær Schönburg,</l>
+    <l>så du var væltet med din vogn.</l>
+    <l>I faldet kom du frygteligt til skade med dit knæ,</l>
+    <l>og du var tvunget til lang tids sygeleje.</l>
+    <l n="55">Og skønt du ikke ganske holdt det skjult, da du sendte din tjener hertil</l>
+    <l>&#x2013; det kunne i sig selv have øget mine sorger &#x2013;</l>
+    <l>tilslørede du snedigt farens omfang,</l>
+    <l>skarpsindig som du er, selv i den største knibe.</l>
+    <l>Men en drøm (og mine drømme tager kun ganske sjældent fejl)</l>
+    <l n="60">gav mig et varsel om at det var sket:</l>
+    <l>Jeg drømte at mit hjerte sprang som om jeg løb, men ud af kroppen,</l>
+    <l>mens noget klemte allerdybest inde i det.</l>
+    <l>Ved dette varsel fra min Genius (mens jeg endnu sov)</l>
+    <l>råbte jeg straks: &#187;Titan, mit hjerte, er det dig der falder sådan?&#171;</l>
+    <l n="65">Men denne gang kom Phoebus, der bestyrer lægekunsten,</l>
+    <l>til undsætning og gav vor kærlighed sin støtte.</l>
+    <l>Han bragte lindring til dit knæ, så du kunne komme hurtigt hjem</l>
+    <l>og ikke også lade et dårligt ben forsinke dig.</l>
+    <l>Men næppe var min uro over dette uheld svundet bort,</l>
+    <l n="70">før jeg blev grebet af en endnu større smerte:</l>
+    <l>De siger at du nu, fulgt af en enkelt tjener,</l>
+    <l>er rejst ned over Alperne, tværs over alt for høje bjerge,</l>
+    <l>i grådig jagt på guld-forslugne klumper fra Venedig,</l>
+    <l>som den forræderiske kunst fremstiller dér &#x2013; og alle vegne.</l>
+    <l n="75">Kunne du virkelig finde på, uden betænkning, at rejse så langt væk?</l>
+    <l>Er det forsigtighed? Er det at vise mig opmærksomhed?</l>
+    <l>Havde det ikke været passende at informere mig på forhånd i et lille brev?</l>
+    <l>Om ikke andet for at jeg, med mine tårer, kunne give dig gode ønsker med på vejen.</l>
+    <l>Gid jeg tager fejl! Gid dette rygte vejres bort i vinden!</l>
+    <l n="80">&#x2013; ja, jeg vil være lykkelig hvis blot du er i Tyskland,</l>
+    <l>for derfra har jeg dog et vist håb om at høre noget til dig,</l>
+    <l>at modtage et par ord fra dig, og selv at sende mine inderligste følelser.</l>
+    <l>Og dog, hvorfor skulle jeg dog ønske at du var i Tyskland?</l>
+    <l>Det land har også alt for vide grænser.</l>
+    <l n="85">Jeg ved jo ikke hvilken del af Tyskland,</l>
+    <l>endsige hvilken by du holder dig i skjul i.</l>
+    <l>Du er så længe borte, og jeg kender ikke grunden til din tøven,</l>
+    <l>ved ikke hvilke bølger eller hvilket land der holder på dig.</l>
+    <l>Ingen rejsende der kommer sydfra over Østersøen</l>
+    <l n="90">slipper herfra før jeg har spurgt ham grundigt ud om dig.</l>
+    <l>Og han får breve med, beseglede af mine læber,</l>
+    <l>for hvis han skulle høre om et sted hvor du kan få dem.</l>
+    <l>Ak, himlens Titan ser man overalt,</l>
+    <l>den jordiske, min egen, kan man ikke finde.</l>
+    <l n="95">Ofte har jeg tænkt at det var Hertug Ulrich der holdt dig tilbage,</l>
+    <l>(og dog var han nok ikke årsag til din tøven).</l>
+    <l>Og ofte har jeg frygtet for at du på vejen over Østersøen</l>
+    <l>har ladet sætte sejl mens havet var i oprør &#x2013; det kunne ligne dig &#x2013;</l>
+    <l>og at dit skib er blevet kastet ind imod de skær der rejser sig på Møn,</l>
+    <l n="100">og du nu ligger dér et sted og plejer dine kvæstelser.</l>
+    <l>Kort sagt: fordi jeg ikke ved hvorfor du er så længe borte,</l>
+    <l>flakker mit sind nu hvileløst fra grund til grund.</l>
+    <l>Hvis du nu ser tilbage &#x2013; og det er vi der elsker gode til &#x2013;</l>
+    <l>så ser du at jeg ikke klager mig for tidligt.</l>
+    <l n="105">For husk på hvad du, bævende om læben, sagde ved vor afsked,</l>
+    <l>mens dine blege kinder vædedes af tårer:</l>
+    <l>&#187;Solen vil ikke nå guldskindets stjernetegn</l>
+    <l>før du har mig tilbage i dit Skåne.&#171;</l>
+    <l>Men nu har himlens Titan været været 2, 3 gange</l>
+    <l n="110">ved Phrixos' skind &#x2013; og du, den jordiske, er stadig borte.</l>
+    <l>Vel tror jeg ikke at du jagter Jasons skind henover havene,</l>
+    <l>og ynder tyveri af farveprægtig uld.</l>
+    <l>Og jeg har heller aldrig været, og vil ikke blive, en Medea &#x2013; jeg bruger ikke svig &#x2013;</l>
+    <l>men hvis du søger Colchis, er Colchis også her:</l>
+    <l n="115">Jeg har et dejligt lysthus, omgivet af en herlig have,</l>
+    <l>som du næppe finder mage til: Dem vil jeg, begge, kalde Colchis.</l>
+    <l>Et lysthus, ja &#x2013; men endnu har det aldrig set mig lystig,</l>
+    <l>til trods for at jeg der har dit portræt.</l>
+    <l>Selv det bedrøver mig: hver gang jeg ser det må jeg sukke dybt fra sjælen</l>
+    <l n="120">og væde kind og mund med mine tårer.</l>
+    <l>Jeg synker sammen, og med hovedet på den ene arm</l>
+    <l>mumler jeg stille for mig selv:</l>
+    <l>&#187;Gid den hvis skønne ansigt du så smukt gengiver</l>
+    <l>var her! Gid jeg får lov engang at se ham selv!&#171;</l>
+    <l n="125">Jeg ser så længe på det at mit syn og mine sanser svigter</l>
+    <l>og mine piger griber mig idet jeg falder.</l>
+    <l>Og næppe er jeg kommet til mig selv før jeg igen vil se det</l>
+    <l>&#x2013; atter og atter higer jeg imod det i bestandig kredsen om min egen ulykke.</l>
+    <l>Selv nu, mens jeg fortæller dette, banker blodet i mit bryst,</l>
+    <l n="130">og jeg kan dårligt holde mig på benene.</l>
+    <l>Bort mørke blod! Mit bryst, mit sind hav styrke!</l>
+    <l>og lad mig føje bare et par linjer til.</l>
+    <l>Hvis jeg så heller ikke da bør skånes &#x2013; efter det par linjer &#x2013;</l>
+    <l>Så tag blot hørelsen og synet fra mig. Så holder jeg det ud</l>
+    <l n="135">&#x2013; det er jeg vant til! (hvor er det dog en grusom trøst</l>
+    <l>at plagerne har været her for ofte til helt at slå mig ud!)</l>
+    <l>Nej, mine bønner hjælper intet: sorgen har fat, </l>
+    <l>nu bider den sig mere fast jo mer jeg holder den tilbage, nu tvinger den mig til at standse.</l>
+    <l>Kom hurtigt, bring mig vand, bring salt, vin, krydderier, eddike!</l>
+    <l n="140">Kom, skynd Jer piger! skynd dig jomfru!</l>
+    <l>Åh ja, det hjalp &#x2013; så lad mig komme videre og atter gribe pennen.</l>
+    <l>Hvor det dog føles sært når alle sanser svigter!</l>
+    <l>Men lad nu alt det fare. Titan, du må komme her tilbage hurtigt.</l>
+    <l>Hvis det er Colchis-kunsten du vil have, har jeg den her.</l>
+    <l n="145">Det kræves ikke at du, ligesom Jason</l>
+    <l>på skibet Argo sejler op ad Phasis bølger,</l>
+    <l>og overvinder uhyrer med dine heksedrikke</l>
+    <l>&#x2013; tyre med ånde af ild, mænd der gror lige op af jorden,</l>
+    <l>en vagtsom slange der må dysses ned med stærke urter &#x2013;</l>
+    <l n="150">for så til sidst at kunne hjemføre det dyrebare gyldne skind.</l>
+    <l>Måske (hvis sagnet taler sandt) er det en kode,</l>
+    <l>et dække over kunsten der kan gøre guld.</l>
+    <l>Vi siger det er sandt! Hvorfor skulle vi to ikke tro det samme,</l>
+    <l>Når Amor nu har knyttet vores sjæle sammen i én krop?</l>
+    <l n="155">Som sagt: Jeg har et lysthus og dér findes alt hvad du skal bruge</l>
+    <l>til guldfremstillings-kunsten (hvis den findes):</l>
+    <l>Ovne af alle slags, kul, lamper, flammer</l>
+    <l>(måske kan mine flammer overdøve dem!)</l>
+    <l>Materialet mangler heller ikke, hvorfor skulle det? Det findes overalt.</l>
+    <l n="160">Og det er billigt, ikke særligt kostbart.</l>
+    <l>Den hemmelige ild der nærer stenen kan vi sammen skabe her,</l>
+    <l>præcis som både han og hun hos duerne udruger ægget.</l>
+    <l>Hvis man skal tro at vise mænd før os har haft den</l>
+    <l>&#x2013; afdækket lag på lag og fundet den &#x2013; </l>
+        <l n="165">så kan jeg ikke tvivle på at også vi kan gøre det.</l>
+    <l>Solen skal være dens far (som de siger) og månen dens mor.</l>
+    <l>Derfor kan du &#x2013; du er jo Titan &#x2013; være far, mens jeg (en kvinde, der ganske ligner månen)</l>
+    <l>er dens mor &#x2013; klasse og køn hjælper til.</l>
+    <l>Den stiger til himmels og vender tilbage til jorden på ny</l>
+        <l n="170">&#x2013; på samme måde kaldes jeg &#x2018;den jordiske Urania&#x2019;.</l>
+    <l>Jeg hedder også helt oprindeligt Sophie, og dette er filosofiens sten</l>
+    <l>&#x2013; det kunne have en dybere betydning.</l>
+    <l>De siger også vinden bar den i sin bug</l>
+    <l>&#x2013; måske kan min bug bære noget bedre!</l>
+        <l n="175">Den kræver (siger de) en skarp og fin begavelse</l>
+    <l>&#x2013; og min begavelse kan næppe kaldes tungnem.</l>
+    <l>På samme måde mener de den er en egen verden: Vi to er hver en verden,</l>
+    <l>og gennem mig kan endnu én, en ganske lille verden blive til.</l>
+    <l>Men hvorfor søge nye mønstre i det gamle Colchis?</l>
+        <l n="180">Hvorfor tiltaler Hermes' ældgamle ord os sådan?</l>
+    <l>Vi søger svaret alle vegne, råber i alle retninger, forgæves,</l>
+    <l>efter det værk der faktisk ligger skjult i vores eget indre.</l>
+    <l>De siger at det svarer til et ægteskab, til når en kvinde og en mand</l>
+    <l>forener deres bløde kroppe i en frugtbar seng,</l>
+        <l n="185">og hvis det skulle lykkes dem at frembringe et afkom</l>
+    <l>må følgelig det afkom svare til den hemmelige sten.</l>
+    <l>Og ligesom det er blod der nærer fostret i en livmoder,</l>
+    <l>er det dens egen væske stenen fostres op på.</l>
+    <l>Ganske som fostret modnes i sin egen jævne, våde varme</l>
+        <l n="190">&#x2013; en sagte ild der holder barnet lunt &#x2013;</l>
+    <l>således giver de også stenen en let og fugtig varme</l>
+    <l>efter naturens forskrift, så præcist som muligt.</l>
+    <l>Som barnet skifter form og farve, mens det </l>
+    <l>som ganske lille vokser til i indelukket hos sin mor,</l>
+        <l n="195">præcis sådan skal stenen vokse til og skifte farve,</l>
+    <l>når blot den får den rette varme i en athanor.</l>
+    <l>Ligesom Lucina bringer sine børn til verden ganske røde</l>
+    <l>for så med mælk at lade det spæde afkom vokse til,</l>
+    <l>således gløder det nyfødte kemiske barn helt rødt,</l>
+        <l n="200">for derpå med ferment at blive øget og forstørret.</l>
+    <l>Og som et barn, når det blir voksent, selv kan avle nye,</l>
+    <l>sådan kan også denne sten formere sig.</l>
+    <l>Alt dette stemmer jo nøjagtig overens med mine ønsker!</l>
+    <l>Og dertil kommer haven, der er velegnet til dette hemmelige værk</l>
+        <l n="205">&#x2013; selvom den ikke huser dødsensfarlige, årvågne drager</l>
+    <l>og jorduhyrer, rede til at udslette hinanden,</l>
+    <l>tyre hvis næsebor spyr ild til alle sider</l>
+    <l>eller de gifte du, Medea, egenhændigt blander.</l>
+    <l>Slangerne kan være vores arme når vi slynger dem om halsen på hinanden,</l>
+        <l n="210">hærskarerne der fødes op af jorden, det kan være urtepotter</l>
+    <l>(hvis de skulle gå i stykker er der ingen skade sket),</l>
+    <l>og okserne det er os selv, når vi er knyttet sammen af et fælles åg.</l>
+    <l>Bort med al had og ondskab, bort fordærvelige urter,</l>
+    <l>i stedet kan min have producere lægeurter.</l>
+        <l n="215">Og hvis der, som de siger, er en mystisk mening bag alt dette,</l>
+    <l>vil det vel heller ikke være svært for os at finde den.</l>
+    <l>Min Titan, du skal blot begive dig hjem til fædrelandet,</l>
+    <l>(gid blæst og vind vil støtte mig i mine ønsker!)</l>
+    <l>og når du kommer hjem og træder ind i den velkendte æblehave,</l>
+        <l n="220">da vil du se hvor velegnet et sted det er for netop dig og mig.</l>
+    <l>Hér kan du håbe på &#x2013; men kun hvis vi forener vores kræfter &#x2013;</l>
+    <l>at guldfremstillings-kunstens hemmelige værk kan gennemføres.</l>
+    <l>Men indtil da er bønner alt jeg har tilbage:</l>
+    <l>jeg beder til guderne at de vil stå dig bi,</l>
+        <l n="225">jeg beder til at jeg snart får dig tilbage, uskadt,</l>
+    <l>(&#x2013; men kun hvis det er muligt for de mange sager  du har mellem hænderne).</l>
+    <l>Jeg ønsker ikke en forhastet hjemkomst, der gir dig problemer:</l>
+    <l>Dine problemer trøster ikke mig.</l>
+    <l>Selv stoler jeg jo på dig, hvor i verden du end er,</l>
+        <l n="230">men denne tillid er der andre der betvivler.</l>
+    <l>De mener jeg har været for naiv, at mine hede følelser er tåbelige,</l>
+    <l>og at du uden skrupler har forladt mig.</l>
+    <l>Det kan jeg bære, hvis du blot er sund og rask,</l>
+    <l>&#x2013; hvis guderne vil noget andet, hvis jeg ikke har dig mere, kan jeg intet bære.</l>
+        <l n="235">De påstår at din indsmigrende tale har bedraget mig</l>
+    <l>(og sådan kunne mange kvinder ønske sig at blive snydt af dig!)</l>
+    <l>men jeg kan ikke klage, jeg har ikke ladet mig bedrage af de honningsøde ord du har så let til &#x2013;</l>
+    <l>hvis nogen kan bebrejdes er det mig.</l>
+    <l>Utvunget har jeg underlagt mig dine ønsker, utvunget har jeg godkendt dig,</l>
+        <l n="240">du drager mig som en magnet tiltrækker stål.</l>
+    <l>Blandt alle de velbårne mænd der er i Danmark</l>
+    <l>er du den eneste jeg af mit fulde hjerte holder af.</l>
+    <l>Det er dig selv og ikke dine ord der fængsler mig: Din skønhed gør al tale overflødig,</l>
+    <l>din faste karakter og din anstændighed betager mig.</l>
+        <l n="245">Hos andre kan veltalenheden bære frugt, vi ved at den kan blomstre,</l>
+    <l>men mig kan den nu ikke overtale.</l>
+    <l>Honning er dejlig, men den søde skal kan dække over galde,</l>
+    <l>det er noget ved jeg alt om.</l>
+    <l>I øvrigt er din skønne tale, der fordunkler alle andres, ikke kunstig:</l>
+        <l n="250">Den har naturen skænket dig.</l>
+    <l>Den har Merkur, der stod ved ascendanten, tæt ved Venus,</l>
+    <l>gavmildt forlenet dig med fra sin egen bolig.</l>
+    <l>Når Venus står så nær ved gudernes herold kan det vel ikke undre</l>
+    <l>at dine ord blir både søde og veltalende.</l>
+        <l n="255">Samtidig slutter Phoebus sig til disse to, i Tvillingernes tegn</l>
+    <l>&#x2013; det kan måske forene os, som tvillinger, i kærlighed.</l>
+    <l>Men Stilbon er jo ustabil, og Cytherea ligeledes,</l>
+    <l>tvetydighed er Tvillingernes særtræk &#x2013; hvordan skal dette skænke dig stabilitet?</l>
+        <l>Selv Solen, der med sine stråler åbenbarer og fordølger alt,</l>
+    <l n="260">har før afsløret Mars og Venus i en list.</l>
+    <l>&#x2013; Men hvorfor nævner jeg det her? Nej, smudsig kærlighed har intet her at gøre:</l>
+    <l>Her taler jeg om lovligt ægteskab, om respektable bånd.</l>
+    <l>Og skulle der alligevel et sted indsnige sig letfærdighed,</l>
+        <l>så gid den varer kort, og holder sig langt væk fra vores kærlighed.</l>
+    <l n="265">Nej, den skal ramme alle dem du før min tid har kastet din lidenskab på,</l>
+    <l>eller hende du har en tilfældig affære med for tiden, hvis der er sådan en.</l>
+    <l>&#x2013; Ja, jeg kunne aldrig selv mistænke dig for den slags,</l>
+    <l>men dine drifter vækker skepsis hos de andre:</l>
+        <l>&#187;Mener du virkelig han efter al den tid, så langt langt borte,</l>
+    <l n="270">stadig kun elsker dig, som han aldrig ser?</l>
+    <l>Hvad tror du egentlig man laver når man går og keder sig i fjerne lande</l>
+    <l>&#x2013; og som en anden Paris intet andet har forstand på end at elske?</l>
+    <l>Tro mig, en anden har fanget ham ind i sin kærligheds net</l>
+        <l>&#x2013; han spørger måske sig selv hvem den Urania er, og hvor hun kommer fra!&#171;</l>
+    <l n="275">Ja, sådan siger de, men nej, de taler kun for døve ører:</l>
+    <l>Min kærlighed står fast og gør mig både blind og døv.</l>
+    <l>Men skulle der (selvom jeg ikke tror det) være noget om det,</l>
+    <l>så beder jeg til at det er noget ganske ubetydeligt.</l>
+    <l>Gid Stilbon så med sine fjer vifter det væk i vinden,</l>
+        <l n="280">gid Venus lader det blæse bort blandt havets bobler.</l>
+    <l>I, Tvillinger, gør denne kærlighed forloren og forstilt:</l>
+    <l>Jeg håber Jeres dobbelttydighed gør den halvhjertet.</l>
+    <l>Og gid Apollon med det skarpe blik, der straks ser alt,</l>
+    <l>afslører dig, hvis du på nogen måde øver vold mod kærlighed og troskab.</l>
+        <l n="285">Hvis overhovedet stjernerne har nogen fasthed og bestandighed at give dig,</l>
+    <l>så lad mig nyde en bestandig kærlighed.</l>
+    <l>Jupiters blik fra spidsen af det femte hus må give den styrke.</l>
+    <l>Jupiter, du er stabil &#x2013; det femte er et venligt hus.</l>
+    <l>Desværre blir den holdt i lænker af den forhadte Jomfru,</l>
+        <l n="290">og sammen bliver I truet af den gamle med den træge gang, han står Jer midt imod.</l>
+    <l>Og dog: mod mig er samme Jomfru venligt stemt, hun var i ascendanten ved min fødsel ...</l>
+    <l>&#x2013; åh, bare hun nu ikke er mig alt for venlig:</l>
+    <l>Hun er for evigt gold, det samme er det liv jeg fører,</l>
+    <l>en jomfru føder ingen børn, en enke heller ikke.</l>
+        <l n="295">Til gengæld giver hun, som en anden Pallas, lyst til kunst og videnskab,</l>
+    <l>og evnen til at dyrke helligdommen for Merkur.</l><l></l>
+    <l>Han selv er lykkeligt placeret i sit eget tegn,</l>
+    <l>hvor han, med sit aspekt til Månen, gavner videnskaben.</l>
+    <l>&#x2013; Og videnskaben er det eneste min kærlighed i al den tid har kunnet finde trøst i,</l>
+        <l n="300">ligesom den væv hvor du, Penelope, så tit begyndte forfra.</l>
+    <l>En anden ting jeg ikke holder af er at kun én planet</l>
+    <l>&#x2013; og det den onde Mars &#x2013; hos dig har taget ophold i et fast tegn.</l>
+    <l>Han er i fald fra toppen, netop inde i en fjendtlig bygning.</l>
+    <l>Mars, er det også mig du falder så uvenligt for?</l>
+        <l n="305">Den slags bør hænde alle fjender af den sande kærlighed. </l>
+    <l>Jeg håber det er vores fjender varslet gælder.</l>
+    <l>Og skønt det tegn Mars står i hos den hornede er fast,</l>
+    <l>kan det alligevel næppe glæde nogen.</l>
+    <l>Ikke blot vender det sig væk fra Mars' eget tegn, det lader ham også skade ægteskabets gud Diana,</l>
+    <l n="310">der netop higer mod på at stige op på Tyrens ryg.</l>
+    <l>Og skønt det gavner hende at de sidder i hinandens tegn,</l>
+    <l>gør dog det tolvte hus dem begge større skade.</l>
+    <l>Så derfor, Mars, forsvind! Gør dine ulykker stabile andetsteds!</l>
+        <l>De horn du truer med vil vores kærlighed slet ikke vide af.</l>
+    <l n="315">Nej, seglbæreren, snarere, skal styrke vores sunde kærlighed.</l>
+    <l>Ganske vist regnes også han for ond,</l>
+    <l>men en ægyptisk myste har for længe siden ment han ikke var det,</l>
+    <l>og burde holdes højere i ære.</l>
+    <l>Han kan godt være god mod os: han står ret højt på himlen</l>
+        <l n="320">og i Jupiters højsæde &#x2013; dér er han mild, dér gør han næppe skade.</l>
+    <l>Den milde Venus lægger sig i et aspekt dertil</l>
+    <l>&#x2013; og nok er kvadraturen ikke venlig, men den er også nærmere sextil.</l>
+    <l>Mod mig er han god &#x2013; han skal være god, og skænke dig den fasthed</l>
+    <l>der gør din kærlighed til mig bestandig.</l>
+        <l n="325">&#x2013; Dog ikke sådan at du sidder fast hvor du end er,</l>
+    <l>nej, snarere skal Månen, der er rask til bens, få dig tilbage.</l>
+    <l>Den milde Venus skynder sig mod Månens stråler,</l>
+    <l>i kvadratur godt nok, men varigheden er så kort at det vil ende godt.</l>
+    <l>Samtidig møder hun et blik fra Jupiter (som styrer ægteskabet) </l>
+        <l n="330">i en sekstil &#x2013; et lys der bringer lykke.</l>
+    <l>Det giver mig sikkert håb om at den nat vil komme som vi længes efter,</l>
+    <l>hvor bryllupsfakler viser vejen til vort brudekammer.</l>
+    <l>For mænd kaldes Cypria nemlig for ægteskabsstifter, og Juno det samme,</l>
+    <l>med disse to anviser kærligheden derfor vores bryllup.</l>
+        <l n="335">&#x2013; Og sidst men ikke mindst: fra samme sted indfanger Jupiter med sine stråler også Phoebus:</l>
+    <l>Et venligt blik, der lover at velsigne os med afkom.</l>
+    <l>Hvad er nu det? Mit eget horoskop lader også, på den samme tid,</l>
+    <l>Månen bevæge sig mod Venus stråler.</l>
+    <l>Og snart vil også Venus selv bevæge sig imod sin fars, Jupiters, tegn,</l>
+        <l n="340">som her står for det milde ægteskab.</l>
+    <l>Tænk at en direktion på samme tidspunkt falder så belejligt hos os begge!</l>
+    <l>Ja, alle vegne peger stjernerne på helligt ægteskab!</l>
+    <l>Ovenikøbet har Saturn hos mig befæstet Venus på det sted</l>
+    <l>hvor begge ivrigt ønsker herredømmet.</l>
+        <l n="345">&#x2013; Til gengæld er jeg bange for at han i faldet fra sit sæde (omend til Solens tegn)</l>
+    <l>skal holde hende alt for fast med sin opposition.</l>
+    <l>Heraf udspringer sikkert al den tomhed og bedrøvelse</l>
+    <l>jeg tåler for min trofaste kærligheds skyld.</l>
+    <l>Men Jupiter er herre over stedet som de lærde knytter ægteskabet til,</l>
+        <l n="350">han står så mild og venlig i sin egen bolig.</l>
+    <l>Og Solen, der hos kvinder siges at markere ægtemanden,</l>
+    <l>den støtter ham, den sender gode flammer mod ham.</l>
+    <l>Samtidig glæder den sig over tegnet der hos dig står i syvende hus</l>
+    <l>&#x2013; det hus der er helliget ægteskabet.</l>
+        <l n="355">Jeg spår heraf et både lykkeligt og fredfyldt bryllup.</l>
+    <l>Åh, Hymenæus, lad snart dine hellige fakler lyse.</l>
+    <l>Og Venus, læg misundelsen til side, skænk mig din lykke:</l>
+    <l>Venus fra Eryx, lad mig blive Eriks!</l>
+    <l>Ud over dette har mit horoskop to gange to planeter</l>
+        <l n="360">der enten står ophøjet, højt på himlen, eller i eget tegn.</l>
+    <l>Det uvejr der har grebet mig vil ikke vare evigt</l>
+    <l>&#x2013; også for os blir det engang omsider vår.</l>
+    <l>Nu må det ikke undre dig at jeg fortolker stjernerne og himlen</l>
+    <l>&#x2013; som om jeg havde mindre evner ved en væv end andre kvinder.</l>
+        <l n="365">Skulle du ikke vide det, er jeg &#x2013; ud over mine kvindelige gaver &#x2013;</l>
+    <l>tillige astrolog, og derfor kaldes jeg Urania.</l>
+    <l>Jeg gransker stjernerne og tolker horoskoper,</l>
+    <l>så det var ikke uden grund Apollo gav mig dette navn.</l>
+    <l>Du ser kun det der ligger for din fod, din kunst er den</l>
+        <l n="370">der halser efter skatte ved at grave ned i jorden.</l>
+    <l>Jeg derimod ser op, op mod det himmelske,</l>
+    <l>min kunst &#x2013; tilgiv jeg siger det &#x2013; er højere end din.</l>
+    <l>Min kunst står over alkymien, ligesom himmelen står højere end jorden,</l>
+    <l>og dertil kommer at min kunst er sand, kemien yderst falsk.</l>
+        <l n="375">Men noget du synes om &#x2013; hvad det end er, hvor du end får det fra &#x2013;</l>
+    <l>kan aldrig nogensinde være mig imod.</l>
+    <l>Så sørg nu bare for at komme hjem, følg stjernerne som kalder dig tilbage</l>
+    <l>med tegn på at den glade tid for ægteskab snart kommer.</l>
+    <l>Hvad du end morer dig med, vil jeg også more mig over,</l>
+        <l n="380">kemi hvis det er det du vil, og poesi hvis det er det.</l>
+    <l>For eftersom den skønne poesi fornøjer dig så meget,</l>
+    <l>vil jeg synge klangfulde vers, som en anden Sappho.</l>
+    <l>Men det er ikke kun for min skyld du skal komme hurtigt hjem,</l>
+    <l>nej, du må også tænke på min lille søn.</l>
+        <l n="385">Om Gud vil når min Tage en mere kraftfuld alder,</l>
+    <l>han trænger derfor nu til råd og vejledning fra dig,</l>
+    <l>Så han med viljestyrke ligesom vores</l>
+    <l>til stadighed ønsker at følge både mig og dig på studiernes vej.</l>
+    <l>Hvor megen sygdom og hvor mange frygtelige farer har han ikke måttet udstå</l>
+        <l n="390">i den tid du har ladet vente på dig.</l>
+    <l>Jeg kan dog håbe at den høje gud der skænkede ham til mig</l>
+    <l>bevarer ham, og ikke river ham herfra før sent i livet,</l>
+    <l>så han kan blive os til glæde og til ære når han vokser til,</l>
+    <l>og sidde som herre på vores besiddelser indtil sin høje alderdom.</l>
+        <l n="395">Hvis der er sandhed i hvad himmellegemerne siger &#x2013; og det er der &#x2013;</l>
+    <l>så har de givet denne dreng en heldig skæbne ved hans fødsel.</l>
+    <l>Den milde Venus stod bag ascendanten, under krebsens tegn,</l>
+    <l>derfor giver du ham held i kærlighed, Cupido.</l>
+    <l>Solen residerede i Tvillingernes tegn, hvor dens vanlige fælle Merkur</l>
+        <l n="400">modtog den i sin bolig, i det ellevte hus.</l>
+    <l>Det gør ham anset, og samtidig intelligent,</l>
+    <l>så han kan fatte lærde videnskaber. Det gir ham også mange venner.</l>
+    <l>Mars når snart aller højest op på himlens tinde,</l>
+    <l>hvor han har taget ophold i sit eget tegn, i Vædderen.</l>
+        <l n="405">Han ser mod ascendanten i trigon (det kan dog også være kvadratur)</l>
+    <l>og ligeledes skuer han mod Phoebus.</l>
+    <l>Også fra Jupiter og Månen kan han nyde velvillige blikke</l>
+    <l>og heller ikke seglbærerens lys er ham til skade.</l>
+    <l>Af dette kan jeg forudse at han får både held og dygtighed</l>
+        <l n="410">til det som den grumme Mars udretter alt for meget af i hele verden.</l>
+    <l>Alt dette gir ham evner for den lærde videnskab (hvis man kunne tale om en sådan)</l>
+    <l>at mestre hunde, heste, pile, våben, ja kanoner.</l>
+    <l>Men Mars, du krigens far (eller rettere stedfar), jeg håber</l>
+    <l>du ikke giver den form for gaver til min lille søn, giv dem til andre.</l>
+        <l n="415">For krigens gerning bringer ingen frelse, den gyldne fred står højere end alt.</l>
+    <l>Så ond en ting kan ikke indeholde godt.</l>
+    <l>Men endnu mere frygter jeg for Saturn, der står i det syvende hus,</l>
+    <l>dér gør han skade med sin strenghed og sendrægtighed.</l>
+    <l>&#x2013; Og dog: han hviler sejrssikkert i sit eget sæde,</l>
+        <l n="420">hvor Ganymedes rækker ham hans bægre:</l>
+    <l>Han hindrer næppe ægteskab, han styrker det, gør det behageligt,</l>
+    <l>Dog kan han nok forhale det, for han er standset op og vandrer baglæns.</l>
+    <l>Kun én ting er jeg bange for: at han skal volde hensynsløs fortræd,</l>
+    <l>når han engang står Venus midt imod med sine stråler ned under ascendanten,</l>
+        <l n="425">for han behersker det ottende hus, der er en grufuld bolig.</l>
+    <l>Alt dette vil ske i det attende år.</l>
+    <l>Det væmmelige blik forhekses samtidig af dragens hale,</l>
+    <l>der tager imod det og fordobler den ulykkelige virkning.</l>
+    <l>Men da nu Jupiter, i tæt forening med Diana,</l>
+        <l n="430">er blevet indlogeret så belejligt i det femte hus,</l>
+    <l>og dér &#x2013; mens hendes lys tager til &#x2013; kan modtage hende hjemme hos sig selv,</l>
+    <l>forpurrer han enhver ulykke.</l>
+    <l>Han bringer glæde og gør livet langt, </l>
+    <l>han skænker værdighed og velstand og befordrer ægteskab og afkom.</l>
+        <l n="435">Desuden ses et sjældent fænomen: at af planeterne står fire</l>
+    <l>i deres egen bolig og på fremtrædende steder.</l>
+    <l>I alle gerninger, igennem hele livet,</l>
+    <l>vil dette berige min søn med umådelig medgang.</l>
+    <l>Detaljer er vel overflødige: et mere gunstigt horoskop kan ikke tænkes.</l>
+        <l n="440">Hvis jeg igen skal føde håber jeg det ofte falder ud som her.</l>
+    <l>Men selvom himlens stjerner er så gunstige som jeg har turdet håbe,</l>
+    <l>ønsker jeg inderligt at også alt på jorden hjælper ham</l>
+    <l>&#x2013; at menneskene, mænd som kvinder, ja at alt</l>
+    <l>på jordens kreds skal elske ham.</l>
+        <l n="445">Men stjernerne kan ingen frelse bringe, og jorden ikke heller.</l>
+    <l>Jeg beder til at Vorherre for bestandig ser i nåde til dig, Tage.</l>
+    <l>&#x2013; Men mens jeg taler modtager jeg et alt for tragisk rygte:</l>
+    <l>at vores allerbedste ven er død.</l>
+    <l>En mere elsket, mere trofast ven har jeg nok ikke,</l>
+        <l n="450">åh død, hvor er du hård imod de gode.</l>
+    <l>Jeg kan dog håbe på at rygtet &#x2013; så voldsomt som det er &#x2013; blir gjort til skamme:</l>
+    <l>min genius har ingen drømme sendt mig der gav varsel om det.</l>
+    <l>Hvor ville det dog være frygteligt at miste så dyrebar en stjerne</l>
+    <l>&#x2013; sådanne stjerner er der få af på vor himmel.</l>
+        <l n="455">I gamle dage havde både du og jeg talrige venner</l>
+    <l>så trofaste som Nisus og Eurialus.</l>
+    <l>Nu kan de få vi har tilbage tælles på én hånd,</l>
+    <l>&#x2013; en enkelt eller to, fler er der ikke.</l>
+    <l>I gode tider er de talrige, i dystre få,</l>
+        <l n="460">de kommer og forsvinder ligesom skæbnen veksler.</l>
+    <l>Den eneste jeg har, stort set, der stadig er mig trofast</l>
+    <l>&#x2013; og uden onde bagtanker &#x2013; det er min bror Apollo.</l>
+    <l>Det mærkes at den milde Vandmand vædede hans ascendant,</l>
+    <l>menneskelig og fast, den langsomt skridendes bopæl.</l>
+        <l n="465">I denne venligt lysende konstellation, dér blinker også Jupiter</l>
+    <l>og han og Venus omgiver østens port fra begge sider.</l>
+    <l>Desuden styrker Jupiter besindigheden</l>
+    <l>ved gensidigt at bytte domicil med guden med den store segl.</l>
+    <l>Ja, også Mars står i sit eget tegn, det gyldne skind,</l>
+        <l n="470">og den og Solen modtager gensidigt hinanden i deres højsæder.</l>
+    <l>Det gør ham vågen, hurtig, handlekraftig,</l>
+    <l>det gir ham styrke til at udføre et Herkules-arbejde.</l>
+    <l>Men også Stilbon træder ind i Saturns tiltalende hjem,</l>
+    <l>hvor han (omgivet af Saturn og Solen)</l>
+        <l n="475">betragter Månen i trigon &#x2013; mens hun, der indvirker på sindet,</l>
+    <l>vandrer i selskab med hans Jomfru.</l>
+    <l>Det gir hans ånd såvel dybsindighed som konsekvens,</l>
+    <l>så intet har værdi for ham, hvis ikke det er stort.</l>
+    <l>Og det gir ham en overlegen dømmekraft,</l>
+        <l n="480">så den passive pøbels trivialiteter ingen vægt har for ham.</l>
+    <l>Derfor er det mindre sært at han bifalder vores kærlighed,</l>
+    <l>og ikke regner den for et tilfældigt sammenfald af små atomer.</l>
+    <l>Ja, åbenbart er han den eneste af mine mange brødre</l>
+    <l>der har forstået at min kærlighed til dig er mer end en beruselse.</l>
+        <l n="485">Det skyldes hans begavelse, besindighed, fornuft, moral,</l>
+    <l>det skyldes hans retsindighed og dømmekraft.</l>
+    <l>Det må vel være nok for mig at min ældste bror</l>
+    <l>ser fordomsfrit og venligt på vor kærlighed.</l>
+    <l>... Tænk hvis han også, når han gransker fremtiden i stjernerne, </l>
+        <l n="490">uden at sige det kan forudse vort bryllup,</l>
+    <l>og derfor ser at det vil være nytteløst at trodse skæbnen.</l>
+    <l>&#x2013; Hvor skæbnen dog har vældig vægt i kærlighed!</l>
+    <l>Skæbnen forener os i kærlighed, og skæbnen skiller os igen,</l>
+    <l>hér er det ikke altid slægt og rigdom der betyder noget.</l>
+        <l n="495">Hvor smukt det er at mennesket kan forudsige fremtiden,</l>
+    <l>og samtidig, hvis skæbnen bringer noget godt, opsøge det.</l>
+    <l>Hér er det at de uforsigtige, der ikke véd tilstrækkeligt om sagen, ofte snubler.</l>
+    <l>Min bror, til gengæld, har forstand på begge dele.</l>
+    <l>Ham vil jeg altid kunne stole på &#x2013; den bror der elskes af Apollon,</l>
+        <l n="500">sin skytsgud, som han derfor også helt fortjent er opkaldt efter.</l>
+    <l>Hvadenten nu de andre holder med mig, eller som sædvanlig</l>
+    <l>rynker brynene og sender bistre blikke efter mig,</l>
+    <l>kan de dog aldrig hindre os to i bestandig at elske hinanden</l>
+    <l>&#x2013; og denne ene bror, Apollo, gør det ud for tusind andre.</l>
+        <l n="505">Nej, jeg kan dårligt tage mig af at de der burde give mig trøst og lindring</l>
+    <l>i stedet gør mig ondt og skælder ud.</l>
+    <l>"Hvis du nu ikke," siger de, "så håbløst var forelsket i den Titan,</l>
+    <l>så kunne du bestemt have haft en rigere og mere magtfuld mand."</l>
+    <l>Men hvis der overhovedet er fornuft i kærligheden,</l>
+        <l n="510">så kan jeg ikke tro at det er ufornuftigt af mig at jeg elsker dig.</l>
+    <l>Jeg stræber ikke efter rigdomme og verdslig hæder,</l>
+    <l>jeg stiler ikke mod at falde i en højt placeret herres smag,</l>
+    <l>for din person alene er mig kærere </l>
+    <l>end alle verdens herregårde, embeder og formuer tilsammen.</l>
+        <l n="515">De dynger meget andet over mig, som jeg ikke har lyst til at gengive,</l>
+    <l>eller så meget som huske &#x2013; jeg stoler på mig selv.</l>
+    <l>De kan sige præcis hvad de vil, jeg vil kun kaldes din!</l>
+    <l>For evigt vil jeg være din Urania, min Titan!</l>
+    <l>Hvadenten du bliver længe borte eller hurtigt vender hjem,</l>
+        <l n="520">har du til stadighed din plads hér i mit hjerte.</l>
+    <l>Det er jo heller ikke med, men meget mod din vilje du er borte,</l>
+    <l>du ville foretrække altid at forblive her hos mig.</l>
+    <l>Du ville også gerne komme hjem fra tid til anden,</l>
+    <l>men du er bange for at det skulle øge smerten for os begge</l>
+    <l n="525">&#x2013; for at du, når det blev nødvendigt for dig atter at forlade mig,</l>
+    <l>ville fordoble sorgens byrde mange gange.</l>
+    <l>Af den grund foretrækker du at blive i de fjerne lande</l>
+    <l>til skæbnen lader dig finde varigt ophold her.</l>
+    <l>Og når du, her i ventetiden, ikke skriver til mig er det ufrivilligt,</l>
+        <l n="530">(selvom det er en ting der ofte har forsinket dig)</l>
+    <l>enten fordi du ingen sendebude har når du har brug for et,</l>
+    <l>eller fordi dine breve så ofte forsvinder på vejen.</l>
+    <l>Hvad det end skyldes, skyldes det på ingen måde uvilje:</l>
+    <l>lyst til at skrive, og at komme hjem, det har du.</l>
+        <l n="535">Hver gang din tjener bringer mig et brev,</l>
+    <l>fortæller han at du har sendt ham ud med disse ord:</l>
+    <l>&#187;, tjener, tænk at du skal rejse! Hvor jeg misunder dig den skæbne!</l>
+    <l>Gid jeg var tjener selv! &#171;</l>
+    <l>Du taler også vredt til brevet, og kunne finde at rive det i stykker,</l>
+        <l n="540">&#x2013; hvis ikke du så måtte skrive et nyt med det samme:</l>
+    <l>&#187;Hvorfor skal du, et ark papir, dog finde større lykke end de fingre der har skrevet dig?</l>
+    <l>Om kort tid skal min piges fingre røre ved dig,</l>
+    <l>du skal betragtes af de øjne jeg hellere selv ville se,</l>
+        <l>du får måske de kys der burde være mine helt alene.</l>
+    <l n="545">>Det bør jeg også gøre: jeg fæster først et kys</l>
+    <l>dér hvor Uranias hellige navn står skrevet.</l>
+    <l>Så håber jeg at også hun snart trykker sine kys</l>
+    <l>hvor hendes Titan har sit navnetræk.</l>
+        <l>Rejs derfor ud og opsøg hende der i mine øjne</l>
+    <l n="550">er skønnere end nogen anden kvinde på vor jord. Skynd dig afsted!</l>
+    <l>Tænk at du, uden mig, skal besøge det elskede slot</l>
+    <l>&#x2013; tænk at din egen ophavsmand må blive borte!&#171;</l>
+    <l>Ja, sådan taler du (det siger de), og sådan råber du så tit</l>
+        <l>efter de tjenere der rejser op til mig &#x2013; hvor er det rart at høre!</l>
+    <l n="555">Jeg vil vide alt: jeg sætter dine sendebude til </l>
+    <l>at gengive hvert et nik og hvert et ord.</l>
+    <l>Jeg elsker dig hvad enten du er hjemme eller ej,</l>
+    <l>hvad enten du vil skrive til mig ofte eller ej &#x2013; når blot du elsker mig.</l>
+        <l>Og jeg kan ikke tvivle på at du, min kære Titan,</l>
+    <l n="560">for evigt elsker mig, Urania, som er for evigt din.</l>
+    <l>Selv hvis jeg aldrig skulle se dig mere (hvilket guderne forbyde)</l>
+    <l>kan du på ingen måde slettes fra mit blik:</l>
+    <l>Min Titan, du er for bestandig prentet i mit sind,</l>
+        <l>vil i al fremtid være fæstnet i mit hjerte.</l>
+    <l n="565">Min kærlighed kan ingen andre vinde,</l>
+    <l>om der så kommer tusind bejlere, og alle lover guld og grønne skove.</l>
+    <l>Jeg kan dog ikke tro de høje guder er så grusomme</l>
+    <l>at de vil fratage mig mit spæde håb.</l>
+        <l>Men én ting er jeg bange for: Du er så lang tid borte</l>
+    <l n="570">at du måske synes mindre om mit ydre når du kommer.</l>
+    <l>For selvom jeg var ganske køn da du drog bort,</l>
+    <l>er jeg måske forandret når du vender hjem.</l>
+    <l>Ja, årene tynger mig ikke endnu, jeg frygter endnu ikke rynker,</l>
+    <l>men ofte blir man ældet af bekymring.</l>
+    <l n="575">Bestandig plages jeg af angst og uro, aldrig får jeg fred</l>
+    <l>&#x2013; og netop mens jeg skriver dette vender det tilbage mere grumt end før:</l>
+    <l>For det der før var et usikkert rygte om en god vens død</l>
+    <l>blir nu alt-alt for klart bekræftet af et brev.</l>
+    <l>De onde rygter får da også altid ret,</l>
+    <l n="580">de gode falder aldrig heldigt ud!</l>
+    <l>Selvom min genius, så vidt jeg husker, ikke sendte nogen drøm til varsel,</l>
+    <l>gav den mig dog et tegn mens jeg var vågen:</l>
+    <l>Jeg var så underligt til mode, så bedrøvet,</l>
+    <l>den dag da Libitina rev ham bort fra denne jord.</l>
+    <l n="585">Det var et varsel (men hvad er vel varsler?) om en sorg som denne,</l>
+    <l>og til de andre sagde jeg: &#187;Der er sikkert noget frygteligt på vej.&#171;</l>
+    <l>Og trods det fattede jeg ikke med det samme</l>
+    <l>at dette rygte &#x2013; åh, hvor grusomt &#x2013; at det talte alt for sandt.</l>
+    <l>Det uvelkomne tror vi nødig på,</l>
+    <l n="590">mens det vi helst vil høre hurtigt vinder tiltro.</l>
+    <l>Men jeg fortæller ikke hvem det er. Nej, sindet krymper sig ved ordet.</l>
+    <l>Min sorg er alt for stor til at jeg kan få navnet over mine læber.</l>
+    <l>Jeg nøjes med at sige at han var din bedste ven,</l>
+    <l>ligesom han også var min brors og min. Så meget siger jeg,</l>
+    <l n="595">men muligvis er også det for meget, du skulle ikke vide det,</l>
+    <l>for dårligt nyt når frem helt af sig selv, og alt for hurtigt.</l>
+    <l>Nu tvinger sorgen &#x2013; denne endnu større sorg &#x2013; mig til at lægge pennen.</l>
+    <l>Hvor gerne jeg end ville kan jeg ikke skrive mere.</l>
+    <l>Men når engang du er her selv, når vi forenes &#x2013; bliver til én &#x2013;</l>
+    <l n="600">da vil jeg sige meget åbent som jeg nu fortier.</l>
+    <l>Da skal du genfortælle alt det onde du har måttet udstå,</l>
+    <l>mens jeg fortæller dig om mine pinsler &#x2013; det kan måske lindre.</l>
+    <l>Her kan jeg bare ønske dig alt vel, du kan komme velbeholden hjem til mig.</l>
+    <l>&#x2013; Min Titan, evigt elskede, farvel!</l>
+</lg>       
+     
+         <lg>
+         <l n="605">Jeg skriver dette brev på Eriksholm,</l>
+         <l>Mens Solen på sin vej tilbage fanger de to fisk.</l>
+         <l>Gud give snart at også vi to elskende kan fange fisk her sammen,</l>
+         <l>jeg, din Urania, og du, min Titan, velbeholden hjemme.</l>           
+            </lg>
+        </div>
+        </body>
+    </text></TEI>

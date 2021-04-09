@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Georg Rollenhagen</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 416-417</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Georg Rollenhagen</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1601-04-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1601. 18. april</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-07" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.408"/><pb ed="A" n="90v"/><foreign xml:lang="de">DEM
+                        EDELEN GESTRENGEN EHRENVESTEN HERREN TYCHO BRAHENN AUFF KNUTSTORFF
+                        ERBSASSEN, RÖMISCHER KEYSERLICHER MAIESTAT</foreign>
+                    <hi rend="it">ASTRONOMO,</hi>
+                    <foreign xml:lang="de">MEINEM GROSSGUNSTIGEN HERREN.</foreign></opener>
+
+                <p><pb ed="A" n="89r"/>S.</p>
+                <lb/>
+                <p>GENEROSE et doctissime D. TYCHO, misit ante paucas septimanas responsum ad priores
+                    tuas literas <persName ref="Petkum">SIMON a PETKUM</persName>. Illud, cum
+                    priorem aliquem habere non potuerim, per hunc <persName ref="Schroderus"
+                        >FRANCISCUM SCHROTERUM</persName> Sundensem, Chymicarum rerum studiosum, qui
+                    nescio qua de causa iter <placeName ref="Praha">Pragam</placeName> instituerat,
+                    ad te amandare volui, spero recte redditum iri. De fornacibus quoque advehendis
+                    videbo quid efficere potero. Nondum enim quicquam præter eas <placeName
+                        ref="Hamburg">Hamburgo</placeName> advectum est, propter nimiam Albis
+                    exundationem. Quia vero moris est, ut amici amicis novarum narrationum
+                    communicatione gratificentur, mitto D. TYCHONI cuiusdam LL. Doctoris <persName
+                        ref="Horstius">DETHARDI HORSTIJ</persName>
+                    <placeName ref="Wittenberg">Witebergæ</placeName> agentis prognosticon de eventu
+                    belli <placeName ref="Turkey">Turcici</placeName>, sane gratissimum, utinam
+                    etiam verissimum. Impingunt nostri Theologi et vani vates omnes in eundem quo
+                    Pharisæi et Apostoli olim lapidem, ut vaticinia de CHRISTO eiusque et Ecclesiæ
+                    regno et victorijs, politica Phrasi pronunciata, politice intelligant, cum
+                    Ecclesia novi Testamenti nullam habeat promissionem politiæ et politici regni ut
+                    veteris Testamenti, usque ad CHRISTUM, et CHRISTUS ipse dicat: <hi rend="it">Regnum <pb
+                        ed="TBOO" n="VIII.417"/>meum non est de hoc mundo</hi>, item: <hi rend="it">In mundo afflictionem habebitis,
+                    in me autem TANTUM pacem</hi>. Stultum quoque hoc est, quod omnes vaticinium de GOG
+                    et MAGOG interpretantur de regno <placeName ref="Turkey">Turcico</placeName>, cum id loquatur historice de
+                    victorias Israëlita<pb ed="A" n="89v"/>rum ante CHRISTUM, allegorice vero, ut
+                    Apocalypsis <persName ref="Johannes">IOHANNIS</persName> eum declarat, de
+                    persecutoribus Ecclesiæ in toto orbe terrarum adventu CHRISTI extremo tollendis,
+                    cap. 20 vs. 8: <hi rend="it">Exibit SATHANAS ut seducat gentes, quæ sunt in QUATUOR angulis
+                    terræ,</hi> τὸν Γὼγ καὶ τὸν Μάγωγ, <hi rend="it">qui circumierunt castra Sanctorum et urbem dilectam.
+                    Sed descendit ignis a DEO e cœlo, qui devoravit eos</hi> etc. Simile delirium est, quod
+                    hic interpres idolum vastans interpretatur de <persName ref="Muhammed"
+                        >MAHOMETE</persName>, cum ipse filius DEI dicat Matth. 24 intelligendum esse
+                        <persName ref="Daniel">DANIELEM</persName> de signo præcessuro finalem
+                    Politiæ Iudaicæ, inprimis templi destructionem, Ideo monet: <hi rend="it">Cum videritis
+                    abominationem vastatricem stantem in loco sancto, ut dictum est a <persName
+                        ref="Daniel">DANIELE</persName> propheta tum qui in Iudæa est, fugiat ad
+                    montes</hi> etc. Ridiculum denique plane est somnium, quod metuunt, ne <persName
+                        ref="Daniel">DANIEL</persName> mentiatur, cum definit Monarchias quatuor, si
+                    <placeName ref="Turkey">Turca</placeName> inchoaret quintam Monarchiam, cum prima fuerit Monarchia iam <placeName ref="Assyria">Assyriorum</placeName>,
+                    iam Chaldæorum, in secunda iam in <placeName ref="Babylon">Babylonia</placeName>, iam in <placeName ref="Persia"
+                        >Persia</placeName> dominabantur Monarchæ, in tertia singuli Duces <persName
+                        ref="Alexander">ALEXANDRI</persName> constituebant sibi peculiarem
+                    Monarchiam, in quarta alia erat Orientis, <pb ed="A" n="90r"/>quam dudum rapuit
+                    <placeName ref="Turkey">Turca</placeName>, alia Occidentis, quam hactenus mordicus retinet Papa, et vicinorum
+                    regulorum potentia ad suam triplicem coronam tuendam simplici credulitate et
+                    armis abutitur. Ante vero illa tempora quam varios habuit Monarchas, quorum post
+                    annum CHRISTI 480 nemo Romanus aut Italus fuit, quando <persName ref="Romulus Augustulus"
+                        >AUGUSTULUS</persName> ultimus purpuram abiecit, eamque induit <persName
+                            ref="Odoacer">ODOACER</persName> Sax. Post illum anno 495 CHRISTI <persName ref="Theodoric">THEODORICUS</persName>
+                    Ost-Gotthus dictus Veronensis, inde 574 Longobardorum Reges usque ad <persName
+                        ref="Karl den Store">CAROLUM Magnum</persName> Francum, qui cœpit
+                    Imperator Romanorum dici 800 CHRISTI. Unde reliqui Germani titulum, Papa imperium
+                    habet hactenus. Et sic digiti pedum in <persName ref="Daniel"
+                        >DANIELIS</persName> Colosso varie discriminantur sine inchoatione quintæ
+                    Monarchiæ, et metuimus, ne <placeName ref="Turkey">Turca</placeName> sit quintus Monarcha; qui iamdiu est Monarcha
+                    Orientis. Sed hæc delirant, qui historiarum sunt ignari, et qui amant, ipsi sibi
+                    somnia fingunt. DEUS tueatur hospitia Ecclesiæ, servet verbum suum <pb ed="A"
+                        n="90v"/>et confundat consilia <placeName ref="Turkey">Turcæ</placeName> et Papæ, propter gloriam nominis sui.
+                    Bene in Domino vale. 18 Aprilis nostro 1601.</p>
+                <lb/>
+                <p rend="rightMargin">G. N. T.<lb/>addictiss.<lb/>GEORGIUS ROLLENHAGEN.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

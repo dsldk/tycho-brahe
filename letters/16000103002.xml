@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Basileensi G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Magini1604">
+                        <bibl>Giovanni Antonio Magini, <title>Tabulæ Primi Mobilis</title>, Venezia
+                            1604, fol 86</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 229-232</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-01-03"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Giovanni Antonio Magini</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 3. januar. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.229"/><pb ed="A" n="10r"/>EXCELLENTISSIMO <app>
+                        <lem>ET ERUDITISSIMO</lem>
+                        <rdg wit="#Magini1604">eruditissimoque</rdg>
+                    </app> VIRO, DOMINO <persName ref="Magini">IOHANNI ANTONIO MAGINO</persName>,
+                    MATHEMATUM IN ILLUSTRI BONONIENSEM GYMNASIO PROFESSORI, AMICO SUO PLURIMUM
+                    DILECTO.</opener>
+                <p>REVERSUS ad me <persName ref="Tengnagel">FRANCISCUS TENGNAGLIUS</persName> noster
+                    tuas attulit, Excellentissime et <app>
+                        <lem>Eruditissime</lem>
+                        <rdg><note>post <q>Eruditissime</q> add. <q>vir</q> Magini1604</note></rdg>
+                    </app> plurimumque mihi dilecte Domine D. <persName ref="Magini"
+                        >MAGINE</persName>, meis quidem respondentes, sed tamen de singulis, de
+                    quibus tecum agebam, non sufficienter agentes, quod occupationibus tuis lubens
+                    tribuo. <app>
+                        <lem>Gratum</lem>
+                        <rdg wit="#Magini1604">Gratissimum</rdg>
+                    </app> vero mihi in primis est, quod ijs quæ ille proponebat assentitus sis,
+                    atque in illis tuam operam sive per temetipsum <app>
+                        <lem>sive per alios in <placeName ref="Italy">Italiâ</placeName> Eruditione
+                            pollentes effectui daturum</lem>
+                        <rdg><note>om. Magini1604</note></rdg>
+                    </app> benevole pollicitus.</p>
+                <p rend="indent"><app>
+                        <lem>Existimo te a dicto <persName ref="Tengnagel">TENGNAGLIO</persName>
+                            summa rerum huc pertinentium fastigia hausisse. Adiunxi hisce brevem
+                            discursum de occasionibus mei e <placeName ref="Denmark"
+                                >Daniâ</placeName> discessus, ut eo promptius negocium concipi
+                            possit, et quasdam alias literas huc pertinentes. Cœtera ipsius relatio
+                            ac Carmina tradita, quæ nunc prioribus addo, supplebunt. Da itaque
+                            operam, optime <persName ref="Magini">MAGINE</persName>, ut mature res
+                            omnis conficiatur, mihique primæ conceptiones intra duos menses (si ullo
+                            modo fieri possit) huc in <placeName ref="Bohemia">Bohemiam</placeName>
+                            mittantur, quo quæ necessaria duxero, mutem, addam vel adaugeam, cum
+                            nemini melius quam mihi ipsi mea perspecta sint, moxque vobis reas visa
+                            et locupletata remittam. Placet vero admodum illa ratio, de quâ
+                                <persName ref="Tengnagel">TENGNAGLIUS</persName> admonuit, ut potius
+                            Panægyricum quid sit quam per Dialogos. Sic enim res omnis concinnius
+                            comprehendi poterit et maiori authoritate: ita tamen, ut a
+                            generalioribus ad particularia descendendo primum universæ Artis
+                            Astronomicæ ortus, incrementa, promotiones, augmenta et variæ mutationes
+                            ac peregrinationes recenseantur; quæ omnia <pb ed="A" n="10v"/>ab alijs
+                            scriptoribus, qui hoc argumentum tractârunt, facile cum delectu quodam
+                            hauriri poterunt. Et si alij defuerint, <persName ref="Stadius">IOHANNES
+                                STADIUS</persName> in ijs, quæ Tabulis Bergensibus abs se dictis
+                            subiunxit, occasionem suppeditabunt: quæ tamen in quibusdam, ubi
+                            liberius excurrit, castiganda erunt, uti erat vir ille in dicendo
+                            facilior quam verior. Utinam in calculo Astronomico, qui fucum (uti
+                            historica) non patitur, idem non commisisset. Quâ in re non immerito a
+                            te redarguitur. Sed parcamus iam manibus defuncti. Est aliquid prodire
+                            tenus, si non datur ultra.</lem>
+                        <rdg><note>om. Magini1604</note></rdg>
+                    </app></p>
+                <p rend="indent"><app>
+                        <lem>Deinde postquam narratum est, quomodo e Græciâ in <placeName
+                                ref="Italy">Italiam</placeName> et Hispaniam, postmodum vero ad
+                            Germanos et deinde in <placeName ref="Denmark">Daniam</placeName>
+                            ver</lem>
+                        <rdg><note>om. Magini1604</note></rdg>
+                    </app><pb ed="TBOO" n="VIII.230"/><app>
+                        <lem>sus Septentrionem migrârit Astronomia; quo cum ulterius ob Arctoum
+                            frigus nimiamque sphæræ inclinationem progredi commode non posset, neque
+                            etiam diu ibi subsistere, tandem in <placeName ref="Germany"
+                                >Germaniam</placeName> reversa est, adeoque in ipsam <placeName
+                                ref="Bohemia">Bohemiam</placeName>, <placeName ref="Germany"
+                                >Germaniæ</placeName> quasi cor et meditullium, ubi apud
+                            Augustissimum Imperatorem <persName ref="Rudolf 2.">RUDOLPHUM
+                                II</persName> clemens et benignum hospitium nacta est, ut demum
+                            verificaretur, quod olim <persName ref="Manilius">MANILIUS</persName> ad
+                                <persName ref="Augustus">AUGUSTUM</persName>
+                            <persName ref="Rudolf 2.">Cæsarem</persName> protulit:</lem>
+                        <rdg><note>om. Magini1604</note></rdg>
+                    </app></p>
+                <app>
+                    <lem>
+                        <lg>
+                            <l>Regales animos primum dignata movere</l>
+                            <l>Proxima tangentes Cœlo fastigia rerum.</l>
+                        </lg></lem>
+                    <rdg><note>om. Magini1604</note></rdg>
+                </app>
+                <p><app>
+                        <lem>Hinc sumptâ occasione poterit postea digressio quædam fieri ad me et
+                            ea, quæ mihi in <placeName ref="Denmark">Daniâ</placeName> evenerunt,
+                            tanquam relatione eorum, qui ex <placeName ref="Germany"
+                                >Germaniâ</placeName> et <placeName ref="Bohemia"
+                                >Bohemiâ</placeName> in <placeName ref="Italy">Italiam</placeName>
+                            proficiscuntur, comperta. Decet tamen in his modum aliquem servare et
+                            modeste ac moderate omnia agere, ita ut Patriæ nostræ et <persName
+                                ref="Christian 4.">Regi</persName> plurimisque in ijs præclarâ et
+                            antiquâ Nobilitate viris integris et cordatis, quibus partim inscijs
+                            partim invitis ea evenerunt, quæ discessui meo ansam præbuerunt,
+                            parcatur, utque illi sint excusabiles. Perstringendi vero solummodo pro
+                            merito <persName ref="Friis, Christian">Cancellarius</persName> modernus
+                            et <persName ref="Valkendorf, Christoffer">Aulæ magister</persName>, qui
+                            cum Patriæ honorem ex officio promovere debuissent, <pb ed="A" n="11r"
+                            />eum potius ob avaritiam et sorditiem pari invidiâ, malignitate et odio
+                            coniunctam (cum ipsi liberalibus scientijs vel nihil vel admodum parum
+                            tincti essent) impediverunt et exterminârunt. Nomina eorum invenies in
+                            ijs, quæ de caussis discessus mei Latine exarata nunc mitto. Nec
+                            interest, si illi expresse nominentur in scripto illo, tanquam nomina
+                            eorum hac occasione aliunde in <placeName ref="Italy">Italiâ</placeName>
+                            relata fuerint, cum alias obscuri sint, digni tamen, ut ex tali facinore
+                            famosi evadant, quemadmodum ille, qui Dianæ templum Ephesijs incendio
+                            absumpsit, cuius tamen nomen hoc pacto deletum est. Atque in hunc vel
+                            similem modum possunt ea, quæ Uraniæ nostræ et mihi contigerunt,
+                            amplificari.</lem>
+                        <rdg><note>om. Magini1604</note></rdg>
+                    </app></p>
+                <p rend="indent"><pb ed="A" n="10v"/>Inaudivi te Ephemerides tuas magnâ equidem
+                    diligentiâ supputatas (utut quidam <placeName ref="Frankfurt an der oder"
+                        >Francofurti ad Oderam</placeName>, êditis nuper quibusdam alijs ab anno
+                    1595 incipientibus et ultra tuas decennio prolongatis, minutula quædam, quæ
+                    momentum non habent, in ijs carpere præsumpserit) auxisse ad minimum integro
+                    decennio. Exemplar non vidi: neque enim fuit in Catalogo Nundinarum <placeName
+                        ref="Frankfurt am Main">Francofurtensium</placeName> proxime antecedentium.
+                    Cuperem itaque ex te habere, ut videam, an aliqua inibi præter priorem
+                    diligentiam exantlaveris. Neque enim dubito, tua in hoc genere (cum numerorum
+                    tractatione atque compendijs præpolleas) emuncta et solida esse, quantum fert
+                    fundamentum illud cui superstructa. Cœterum quæ de Tabulis meis in motu
+                    Luminarium restituto expetis, ut ijs, <pb ed="A" n="11r"/>donec reliquorum
+                    Planetarum numeratio ipsi <pb ed="TBOO" n="VIII.231"/>Cœlo consona subsequatur,
+                    in commodum Reip. literariæ uti possis, libenter tecum communicarem, si ea quæ
+                    non tam typis excusa quam manuscripta in his parata habeo, nunc ad manus essent.
+                    Nam ut de rerum mearum vicissitudine, quam a prænominato <persName
+                        ref="Tengnagel">TENGNAGLIO</persName> intellexisti, nihil hîc repetam (piget
+                    enim istorum recordari, nedum ea memorare) scias me præcipuam partem
+                    suppellectilis meæ interea, dum huc in <placeName ref="Bohemia"
+                        >Bohemiam</placeName> a <persName ref="Rudolf 2.">Cæsarea
+                        Maiestate</persName> Clementissime evocatus transeo, <placeName
+                        ref="Magdeburg">Magdæburgi ad Albim</placeName> quasi in medio <placeName
+                        ref="Germany">Germaniæ</placeName> reliquisse, donec de <persName
+                        ref="Rudolf 2.">ipsius Maiestatis</persName> Clementissimâ voluntate certior
+                    redderer; inter quam non saltem Instrumenta quædam ex meis, plura quam huc
+                    attuli, sed et maxima pars Operum meorum tam impressorum quam manuscriptorum
+                    conservatur. Et licet <persName ref="Rudolf 2."><app>
+                            <lem>Cæsarea</lem>
+                            <rdg><note>ante <q>Cæsarea</q> add. <q>Sacra</q> Magini1604</note></rdg>
+                        </app> Maiestas</persName> ante complures hebdomadas Magdæburgensibus
+                    clementer scripserit atque mandârit, ut omnes res meas ibi reservatas huc in
+                        <placeName ref="Bohemia">Bohemiam</placeName> intermediante <placeName
+                        ref="Elben">Albi</placeName> adduci procurent, tamen interveniente hyeme,
+                    quæ fluminis congelationem atque impedimenta varia facile suggerere potuit, id
+                    usque in instans vernum tempus procrastinare necessum habuerunt. Unde fit, ut
+                    tuis votis hac in parte, etiamsi quam maxime vellem, nunc subvenire nequeam, sed
+                    spero Progymnasmatum nostrorum Astronomiæ instauratæ primum Tomum brevi, favente
+                    Cœlesti Numine, in publicum êditum iri: moxque exemplar tibi impertiar. Isthic
+                    capite primo, quæ in calculo <pb ed="A" n="11v"/>curriculi utriusque Luminaris
+                    desideras, sufficienter invenies. Interim hanc incidentem morulam patienter
+                    habe. In reliquis Planetis adhuc strenue laboro. Res enim est maioris
+                    difficultatis, pluribusque anfractibus obnoxia, quam hactenus creditum. Quid in
+                    his atque alijs ad negocium Astronomicum facientibus hucusque aspirante ipso
+                    Cœli authore perfecerim, liber is, quem <persName ref="Tengnagel"
+                        >TENGNAGLIUS</persName> tibi ex me dono dedit, de Mechanicâ Astronomiæ parte
+                    circa finem edocebit. Quem unâ cum altero de affixarum maiore labore quam
+                    æstimatione restitutis locis te accepisse gaudeo; velimque ut tibi soli
+                    reserves, vel saltem ne indignis et ingratis communices.</p>
+                <p rend="indent">Observationes, quas per nova Instrumenta ad imitationem quorundam
+                    ex meis fabrefacta te in <placeName ref="Italy">Italiâ</placeName> fieri
+                    effecturum iam dudum pollicitus es (de quibus etiam antea per literas inculcavi)
+                    necdum conspicere licuit. Averem sane tale quidpiam isthic diligenter effici, ex
+                    quo minor Sphæræ apud vos quam hîc inclinatio maiorem largiatur commoditatem
+                    stellas præsertim Australiores rite examinandi. Nec desunt vobis ingenia ad
+                    quidvis apta, modo in talibus instruantur et adhibeantur. Neque dubito quin
+                    ditiores, qui hac sublimi cognitione afficiuntur, sumptus non invite sint
+                    subministraturi. Quod et illis erit honorificum. Quæ vero in his præcipue
+                    facienda atque eligenda sint, ut Mechanice omnia ad amussim et utiliter
+                    conficiantur, liber, de quo <pb ed="TBOO" n="VIII.232"/>dixi, quemque habes, <app>
+                        <lem>ansam</lem>
+                        <rdg wit="#Magini1604">abunde</rdg>
+                    </app> præbebit. Omnem itaque move lapidem, ut non sub tecto et tuguriolis (uti
+                    nunc communiter fit) sed sub dio atque ipso Cœlo Astronomiam (velut par est) <app>
+                        <lem>veterum</lem>
+                        <rdg><note>ante <q>veterum</q> add. <q>ex</q> Magini1604</note></rdg>
+                    </app> imitatione exerceamus, et sic spectemur agendo.</p>
+                <p rend="indent">Vale, et Annum hunc Iubilæum, multosque alios in Artis huius
+                    nunquam satis laudatæ promulgationem feliciter exige.</p>
+                <p rend="indent">Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
+                        Benaticâ</placeName> 3 Ian. 1600.</p>
+                <lb/>
+                <p rend="rightMargin"><app>
+                        <lem>Excellentiæ tuæ studiosissimus</lem>
+                        <rdg><wit>om. A. TBOO add. e Magini1604</wit></rdg>
+                    </app><lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 219</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1589-11-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Anders Sørensen Vedel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589. 20. november</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-04-30" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.219"/>
+                <pb ed="a" n="6v"/>
+                <opener>DOCTISSIMO VIRO MAGISTRO <persName ref="Vedel">ANDREÆ WELLEIO</persName>, CANONICO RIPENSI, AMICO SUO DENTUR. <lb/>S.</opener>
+                <p>SI vales bene est, ego cum meis (quod Deo acceptum refero) mediocriter me habeo.
+                    Miror, te multo tempore nihil ad me dedisse literarum neque cum <persName ref="Morsing, Elias">HELIA</persName> meo
+                    quidpiam scripsisse. Sicut prorsus mei immemor factus? Da operam, ut exarationem
+                    quandam eorum habeam, quæ in Privilegio Danico commode continebuntur, de quibus
+                    aliquoties tecum egi, sed Iutica fides in verbis quidvis etc. Cuperem hac hyeme
+                    habere, nam primus Tomus mei operis iam sub prelo est. Moletrina papyro
+                    conficiendæ destinata unâ cum annexis iam parata est, et aqua adest in
+                    sufficienti copia non saltem hyberno, sed etiam æstivo tempore, omniaque rite se
+                    habent, saltem chartopæus defideratur. Nam is, qui <persName ref="Lange, Erik">ERICO</persName> inservierat, quem
+                    Lubecam pro veteramentis conquirendis <app><lem wit="#TBOO">misi</lem><rdg wit="#A">mihi</rdg></app>, nusquam postea comparuit. Si talem
+                    Artificem illic expiscari poteris, mitte illum huc mature, pro suo labore debite
+                    remunerandum. Distantias omnium locorum in Cymbria et alibi in Dania, quotquot
+                    hactenus adeptus es, mihi describi cura et quamprimum huc mitti. Rectius erit,
+                    si unius loci a duobus alijs, qui triangulum ferme effecerint, intercapedinem
+                    denotaveris, quoties id fieri queat; tum etiam sylvæ, flumina, portus, littora,
+                    anfractus et similia, qua fieri potest diligentia, designanda veniunt. Effice ut
+                    cito habeam, nam præterquam quod Daniæ chartam aliquando per ocium emendate
+                    conficiendam mediter, in hoc etiam quem nunc imprimi curo libro, in tabella
+                    quadam, ubi longitudines et latitudines diversorum Europæ locorum <app><lem wit="#TBOO">correctiores</lem><rdg wit="#A">correctiones</rdg></app>,
+                    quoad eius fieri potest, ob meridianorum differentias discernendas
+                    comprehenduntur, Patriæ etiam nostræ insigniora quædam loca secundum longum et
+                    latum verificata apponere animus est. Fac itaque, ut nulla sit in te mora, quin
+                    propediem quæ desidero obtineam, et per hunc ipsum nuncium vel quemvis alium
+                    obvium rescribe. Vale et <persName ref="Mette Hansdatter">METTAM</persName> tuam unâ cum utroque Parente cæterisque
+                    <placeName ref="Ribe">Ripensibus</placeName> amicis saluta. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 20. Novemb. 89.</p>
+               <lb/><p rend="rightMargin">Tuus<lb/>TYCHO BRAHE<lb/>manu propria. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

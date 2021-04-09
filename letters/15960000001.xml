@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Holger Rosenkrantz</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno/>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                            1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 375</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Holger Rosenkrantz</persName>
+                    <placeName>empty</placeName>
+                    <date when="1596-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1596</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-11-06" who="#pz">Filen færdig</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VII.375"/><pb ed="A" n="1r"/>TYCHONI BRAHEO.</opener>
+                <p>SALUTEM et officia. Quam semper dedito animo in id incubuerim unice, Generose
+                    TYCHO, quod necessitudinem eam, quam generis et sangvinis inter nos intemeratam
+                    esse voluit communio, ipse, quantum in me sit, non † <app><lem>tu tenes</lem><rdg><note><q>tutarer</q> conj. Friis</note></rdg></app> modo, sed et
+                    confirmarem, licet ex voto sat evidenter prodere huc usque nequiverim, ipse
+                    tamen, quin ex proprio candore te æmulantem reputes, nullus dubito. Quin et eis
+                    me sorte et censu a te sincere ascribi, quos eruditionem tuam ac sapientiam
+                    illustrem suspicientes, ipse redamare non nequis, indubius confido, ut adeoque
+                    operosam animi in te mei deprædicationem erga te accersere, nec operæ nec curæ
+                    precium esse censeam. Nil restat, nisi ut ad amicissimas tuas litteras, quam
+                    debeo et in officio imposito requiris, declaratam fidem reponam. Quam si in
+                    alijs operam meam ipsius concernentibus alias precij alicuius dehinc putaris,
+                    iube, impera, meque addictissimum tibi ex asse habe, macte. De reliquo est, quod
+                    submoneam, litteras tuas parenti insignitas ipsi redditas tum demum, ubi ex
+                    Senatu redijsset, qui ex Generosi <persName ref="Brahe, Steen">STENONIS</persName> fratris tui rela<pb ed="A" n="1v"
+                    />tione causam se cognovisse retulit, atque pro re est, quod rogem, Generosus
+                    meus amicus.</p>
+                <lb/>
+                <p rend="rightMargin">[<persName ref="Rosenkrantz, Holger">Oligerus Rosæcrantz</persName>.]</p>
+            </div>
+        </body>
+    </text>
+</TEI>

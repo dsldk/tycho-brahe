@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1592-02-20"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Christopher Rothmann</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1592. 20. februar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-17" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                    <pb ed="TBOO" n="VI.299"/><pb ed="E" n="268"/><app>
+                        <lem>CLARISSIMO ET ERVDITISSIMO VIRO, D. <persName rend="Rothmann"
+                            >CHRISTOPHORO ROTHMANNO</persName> ILLVSTRISSIMI PRINCIPIS
+                            WILHELMI, LANDTGRAUIJ HASSIÆ, ETC. MATHEMATICO EXIMIO, AMICO SUO
+                            PLURIMUM DILECTO. S. D.</lem>
+                        <rdg wit="#M">Eruditissimo et excellenti Mathematico Christophoro
+                            Rothmanno in hoc studio Illustrissimo Principi Guilhelmo Hassiæ
+                            Landtgravio inseruienti Amico suo dilecto</rdg>
+                    </app>
+                </opener>
+                <p>MIROR eruditissime et dilecte mi <persName ref="Rothmann">ROTHMANNE</persName>,
+                    te, ex quo hinc discessisti, nihil prorsus ad me literarum dedisse, elapso ferme
+                    iam <app>
+                        <lem wit="#T">sesquialtero</lem>
+                        <rdg wit="#E">sequialtero</rdg>
+                    </app> Anno. Neque enim existimo te tam inhumaniter a me vel exceptum, vel
+                    dimissum fuisse, quin paucula verba recordationis ergo, vicissim scribendo
+                    impertiri, aut saltem per alios me salutare, deque tuis rebus commonefacere
+                    æquum fuisset. Scripsit semel atque iterum ad me Illustrissimus tuus Princeps,
+                    atque vbi tam diu morareris miratus est. Verum cum ego ignorarem, <app>
+                        <lem>quibus in locis</lem>
+                        <rdg wit="#M">ubi locorum</rdg>
+                    </app> degeres, scripsi hac de re fratri tuo <persName ref="Rothmann, Johann"
+                        >IOHANNI ROTHMANNO</persName>, qui te valetudiniarium in patria hærere
+                    tandem significavit. At quoniam <app>
+                        <lem>existimem</lem>
+                        <rdg wit="#M">opinor</rdg>
+                    </app> te interea ad Principem tuum reuersum esse, intermittere nolui quo minus
+                    te his compellarem. Rogo autem, vt Eclipsin Lunæ vltimam, si modo <app>
+                        <lem>illîc</lem>
+                        <rdg wit="#M">istic</rdg>
+                    </app> accurate obseruata <app>
+                        <lem>sit</lem>
+                        <rdg wit="#M">est</rdg>
+                    </app>, mecum, quo ad totum Obseruationis processum, communices. Apud nos tunc
+                    temporis non erat serenum, saltem Lunam biduo, et ante et post, cum esset circa
+                    90. ab Horizonte Eclipticæ gradum, sedulo obseruauimus, id enim <app>
+                        <lem>solum</lem>
+                        <rdg><note>post <q>solum</q> add. <q>tunc</q> M</note></rdg>
+                    </app> concedebatur. Et si quas alias Eclipses vel <placeName ref="Kassel"
+                        >Cassellis</placeName>, aut etiam a <persName ref="Mästlin, Michael"
+                            >MESTLINO</persName> vel alijs diligenter annotatas, conquirere licebit, fac
+                    vt earum nudas saltem Obseruationes descriptas, pro Meridianorum diuersitatibus
+                    hinc inde rimandis conciliandisque obtineam. Expeto etiam Acronychas Saturni
+                    circa Annum 76. 77. et 78. et Martis <app>
+                        <lem>76. et 78.</lem>
+                        <rdg wit="#M">iuxta 77 et 78</rdg>
+                    </app> considerationes, quas proculdubio a <persName ref="Mästlin, Michael"
+                        >MESTLINO</persName> per literas impetrabis, dummodo is talibus attenderit.
+                    De 18. illis Minutis (quæ, cum hîc esses, monstraui in Altitudinibus meridianis
+                    Cometæ Anni 1580. <app>
+                        <lem>illic</lem>
+                        <rdg wit="#M">istic</rdg>
+                    </app> obseruatis vbique deficere) cupio a te certior fieri, prout etiam
+                    pollicitus es, quâ occasione idipsum contigerit. Velim insuper, vt mihi exponas
+                    rationem eam facilime contexendi Canones Sinuum, quæ a <persName ref="Bürgi"
+                        >IVSTO BYRGIO</persName> vestro dicitur excogitata. Neque enim satis
+                    assequor, an in recessu habeat id quod primâ <pb ed="TBOO" n="VI.300"/> fronte
+                    pollicetur; Rogoque, tum de his, tum alijs, deque tuo rerum statu, mihi per hunc <app>
+                        <lem>ipsum</lem>
+                        <rdg><note>om. M</note></rdg>
+                    </app> hominem Bibliopolam nostratem e Nundinis <placeName
+                        ref="Frankfurt am Main">Francofurdianis</placeName> ad nos redeuntem,
+                    affatim rescribas.</p>
+                <closer>
+                    <salute>Vale.</salute>
+                    <signed><app>
+                        <lem>TYCHO BRAHE.</lem>
+                        <rdg><note>subscriptionem <q>Tycho Brahe manu propria</q> ipsius manu
+                            praebet M</note></rdg>
+                    </app></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

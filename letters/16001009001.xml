@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 382</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1600-10-09"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>The dean and doctors at the college of medicine i
+                        Wittenberg</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 9. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.382"/><pb ed="A" n="153v"/>SPECTATISSIME DOMINE DECANE
+                    AC SENIOR CÆTERIQUE CLARISSIMI DOCTORES COLLEGIJ MEDICI.</opener>
+
+                <p>QUOD tam honorifice et benevole ad promotionem Doctoratus in facultate medica
+                    circa medium Octobris stylo veteri apud vos solenniter celebrandam (memores
+                    adhuc illius convictus, qui inter nos fuit, dum superiore anno aliquantisper
+                        <placeName ref="Wittenberg">Witebergæ</placeName> subsisterem) vestris
+                    humanissimis literis me invitatis, est cur vobis omnibus et singulis officiose
+                    gratias agam. Satisfacerem vero haud illubenter vestræ petitioni, si per me id
+                    staret, et temporis locorumque ratio, quibus inserviendum, id ferret. Sum enim
+                    ex Sacræ <persName ref="Rudolf 2.">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
+                            >tis</hi></persName>, Domini nostri clementissimi, mandato iam occupatus
+                    in disponendis instrumentis meis Astronomicis, quæ partim ex <placeName
+                        ref="Benatky">Arce Benatica</placeName>, partim <placeName ref="Magdeburg"
+                        >Magdeburgo</placeName>
+                    <placeName ref="Litoměřice">Leutmeritzium</placeName>, quousque <placeName ref="Elben">Albis</placeName> est
+                    navigabilis, deinde huc <placeName ref="Praha">Pragam</placeName>, eiusdem
+                    Maiestatis iussu, nuperrime advecta sunt, ut in ampla quadam et magnifice
+                    superius prope arcem exstructa domo ijs collocatis, <persName ref="Rudolf 2."
+                        >ipsius Maiestati</persName> (sic enim ei clementissime placuit) omnia
+                    propius in conspectu sint, donec quorsum ulterius transferenda, et ubi commode
+                    ad usum stabilienda veniant, benignissime ordinaverit. Quæ cum non ita cito
+                    expediri queant (res enim non parvæ est molis) ut vobis ad constitutum tempus
+                    gratificer, spero tam apud vos, quam Eruditissimum Magistrum <persName
+                        ref="Joestelius">IÖSTELIUM</persName>, Candidatum inter sex illos primarium,
+                    amicum mihi in primis dilectum, excusationi locum futurum. Quod superest, ut
+                    actus ille auspicatus et salutaris sit, precor, vosque omnes Deo Opt. Max.
+                    commendatos habeo. Dabantur <placeName ref="Praha">Praga</placeName> die 9
+                    Octobris stylo reformato Anno 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

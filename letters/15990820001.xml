@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 158-159</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Brandýs</placeName>
+                    <date when="1599-08-20"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599. 20. august n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-11" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.258"/>TYCHO BRAHE AD <persName ref="Longomontanus"
+                        >CHRISTIANUM LONGOMONTANUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>INVENI peculiari Dei providentia et dono <persName
+                        ref="Rudolf 2.">Cæsarem hunc RUDOLPHUM Secundum</persName> mei et eorum, quæ
+                    tracto, studiorum clementi favore amantissimum, qui satis liberaliter mihi et
+                    meis hanc ob rem prospicere non est tergiversatus, veluti alias, Deo volente,
+                    ipsius <persName ref="Rudolf 2.">Cæsareæ Maiestatis</persName> erga me
+                    benignissimam voluntatem, ubi adfueris, intelliges. Introductus quidem sum,
+                    statim ac <placeName ref="Praha">Pragam</placeName> veneram, etiam antequam
+                    audientiam apud <persName ref="Rudolf 2.">Cæsaream Maiestatem</persName>
+                    habueram, in ædes <persName ref="Curtius">Curtianas</persName> splendide et
+                    magnifice exstructas. Verum cum præviderem, me isthic in urbe, ob aulam tam
+                    amplam et hominum omnis generis maximam copiam, otio philosophico vix perfrui
+                    posse, exoptavi potius extra illam seorsim habitare. Quo intellecto <pb
+                        ed="TBOO" n="VIII.259"/>ipsius <persName ref="Rudolf 2.">Cæsarea
+                        Maiestas</persName> postmodum tres eximias arces, unius vel etiam dimidij
+                    diei itinere <placeName ref="Praha">Praga</placeName> distantes, <pb ed="A"
+                        n="1v"/>per quendam nobilem virum, mihi ut eo deduceret adiunctum, monstrari
+                    curavit, ut ex ijs eam, quæ meæ intentioni commodior videretur, eligerem. Quarum
+                    una est <placeName ref="Brandýs">Brandisium</placeName> (ubi hæc scribo) verum
+                    quia cæteris nonnihil declivior, et propriæ <persName ref="Rudolf 2."
+                        >Cæsaris</persName> delectationi, præsertim ubi venationibus indulget,
+                    destinata, hîc habitare non visum opportunum. Reliquæ duæ appellantur <placeName
+                        ref="Lysá">Lyssa</placeName> et <placeName ref="Benátky"
+                        >Benachia</placeName>, ambæ etiam splendidissimæ et iucundissimæ arces.
+                    Inter quas <placeName ref="Benatky"><app>
+                            <lem wit="#Friis">Benachiam</lem>
+                            <rdg wit="#A">Benachium</rdg>
+                        </app></placeName> (quæ Venetiæ Bohemorum ob amœnitatem interpretatur)
+                    prætuli, quo unâ cum omnibus meis hodie vel cras, quod Deus fortunatum velit,
+                    introducturus est hic <persName ref="Capitaneus Brandeisensis">Capitaneus
+                        Brandeisensis</persName>, ex <persName ref="Rudolf 2.">Cæsaris</persName>
+                    mandato ea de causa heri <placeName ref="Praha">Pragam</placeName> ad me
+                    evocatus. Est locus editus, ut undique libere pateat Horizon, Ædificia splendida
+                    et commoda; prope est parva civitas ad fluviolum Eifer in Albim excurrentem
+                    sita, ipsique Arci quasi contigua. <pb ed="A" n="2r"/>Distat <placeName
+                        ref="Praha">Praga</placeName> 5 militaribus, via existente plana, ut iter
+                    saltem sit 6 horarum. Hîc favente divina clementia, cum meis habitare constitui,
+                    donec de feudo, quod <persName ref="Rudolf 2.">Cæsarea Maiestas</persName> mihi
+                    pro me et mea familia posterisque clementissime addixit, alicubi per occasionem
+                    prospectum fuerit. Interim domum etiam opportunam <placeName ref="Praha"
+                        >Pragæ</placeName> ipsius <persName ref="Rudolf 2.">Cæsarea
+                        Maiestas</persName> mihi clementer concedere vult, quam, quoties eo
+                    excurrero, cum meis inhabitem, ut commodius degere et propria quadra vivere
+                    possimus, etc. Datæ festinanter in transcursu <placeName ref="Brandýs"
+                        >Brundisio</placeName>, dum <placeName ref="Benatky">Benachiam</placeName>
+                    petimus, die 20. Aug. stylo novo An. 1599.</p>
+                <lb/>
+                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

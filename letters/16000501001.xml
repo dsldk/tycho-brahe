@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Jaques Bongars</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 318</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Jaques Bongars</persName>
+                    <placeName>Frankfurt am Main</placeName>
+                    <date when="1600-05-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 1. maj</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-21" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.318"/><pb ed="A" n="55v"/>NOBILISSIMO ET AMPLISSIMO
+                    VIRO, DOMINO TICHONI BRAHE, VIRO INCOMPARABILE IN <placeName ref="Benatky">ARCE
+                        CÆSAREA BENATICA</placeName>.</opener>
+
+                <p><pb ed="A" n="54r"/>NOBILISSIME ET AMPLISSIME DOMINE.</p>
+                <p>TRES iam septimanæ abierunt, ex quo redditæ mihi sunt litteræ, quas ad me dedisti
+                    IX Martij. Sed neque eas accepi, quas memoras datas sub finem anni superioris,
+                    neque <persName ref="Tengnagel">FRANCISCUM TENGNAGLIUM</persName> vidi, quem a
+                    te tanto viro commendatum, omnibus fuissem officijs prosecutus. Non gravaberis
+                    itaque repetere, et quæ illis litteris erant explicata, et quæ huius fidei
+                    commiseras. Me certe, magno tuo merito, habebis ad omnia, quæ quidem erunt meæ
+                    potestatis, semper paratissimum. Nec addo plura: mandata tua expecto cupide.
+                    Tuas in posterum ad me tuto poteris committere bibliopolæ ei, qui <persName
+                        ref="Marne">CLAUDIJ MARNIJ </persName> Wecheliani officinæ præest <placeName
+                        ref="Praha">Pragæ</placeName>.</p>
+                <p>Vir Nobiliss. Deus te servet incolumem. <placeName ref="Frankfurt am Main"
+                        >Francofurto</placeName> ipsis Kal. Maijs 1600.</p>
+                <lb/>
+                <p rend="rightMargin">Nominis tui studiosissimus<lb/>BONGARSIUS.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

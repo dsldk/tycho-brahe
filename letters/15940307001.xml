@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="lrp">
+                        <persName>
+                            <forename type="first">Louisa</forename>
+                            <surname>Rosendal Poulsen</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Latina 1586-99</collection>
+                                <idno>Fol. 289 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 66-67</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Christian 4.</persName>
+                    <placeName>Kolding</placeName>
+                    <date when="1594-03-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>empty</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1594-03-07</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-09-07" who="#pz">Filen etableret</change>
+            <change when="2020-09-15" who="#lrp">Korrektur påbegyndt</change>
+            <change when="2021-01-14" who="#pz">Korrekturlæst</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="XIV.66"/>PRIUILEGIUM TYCHONI BRAHÆ
+                    CONCESSUM <placeName ref="Kolding">COLDINGÆ</placeName> VII MARTIJ ANNO 1594.</opener>
+
+                <p>VNIUERSIS et singulis tenore præsentium notum facimus: Cum generosus ac fidelis
+                    nobis dilectus Tycho Brahæ de Knudtstrup ex antiqua et præclara huius regni
+                    nostri nobili Brahorum familia originem ducens post varios diuturnosque in
+                    studio Astronomico, cui inde ab ineunte ætate fuit addictissimus, exantlatos
+                    labores fructus eorundem nonnullos haud asspernendos, nunc in communem
+                    reipublicæ literariæ vtilitatem in publicum edere decreuerit: Astronomicæ
+                    videlicet instaurationis progymnasmata quædam luculenta, integro quod adornat
+                    operi præmittenda, ac vereri se nobis demisse <pb ed="TBOO" n="XIV.67"
+                    />ostenderit ne idem opus, postquam publicatum fuerit, alij temere non exiguo
+                    ipsius detrimento æmulentur, et propterea nobis quam humilime supplicauerit, vt
+                    pro solita nostra clementia indemnem ipsum præstemus. Visum est nobis pro fauore
+                    nostro erga eum singulari hoc illi diplomate nostro regio prouidere, quo serio
+                    ac seuere mandamus cautumque esse volumus, ne qui omnino in regnis ducatibus
+                    atque prouincijs nostris cuiuscunque status aut conditionis existant ullos
+                    libros ab ipso Tychone Brahæ siue proprijs siue alienis
+                    typis editos, præsertim eos, qui rem Philosophicam atque Astronomicam
+                    concernunt, vel recudere vel alibi impressos aut recusos adducere vel uenundare,
+                    siue totaliter siue partialiter, sine ipsius hæredumue eius consensu, publice
+                    uel occulte præsumant, sub pæna decem marcarum auri puri pro dimidia fisco
+                    nostro regio, reliqua uero parte ipsi Tychoni Brahæ siue
+                    eius hæredibus (præter librorum omnium amissionem, quos ipsis uel per se uel
+                    suos sibi vendicare, inque potestatem suam redigere fas esto) nulla sperata
+                    remissione applicandarum. In cuius rei ac voluntatis nostræ fidem et testimonium
+                    hoc diploma regio nostro sigillo munitum, manu propria subscripsimus ac a regni
+                    nostri senatoribus nunc præsentibus subscribendum mandauimus.</p> <closer><dateline>Actum in regia
+                    nostra <placeName ref="Kolding">Coldingæ</placeName>.</dateline></closer>
+                <lb/>
+            </div>
+        </body>
+    </text>
+</TEI>

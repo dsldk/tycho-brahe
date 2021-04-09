@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Kepler</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10702</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 383-385</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Kepler</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1600-10-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 17. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-04" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.383"/><persName ref="Kepler">IOANNES KEPLER</persName>
+                    AD TYCHONEM BRAHE.</opener>
+
+                <p><pb ed="A" n="163r"/>CUM hucusque, Nobilissime et Præstantissime Domine TYCHO,
+                    partim occupationes tuæ, partim febris mea non passæ fuerint, ut rationes
+                    adventus mei in <placeName ref="Bohemia">Bohemiam</placeName> Magnificentiæ Tuæ
+                    ex animi mei sententia recenserem, scripto id rectissime præstitum iri putavi.
+                    Duobus potissimum argumentis Magnificentia Tua, in literis ad me in
+                        <placeName ref="Steiermark">Styriam</placeName> missis, in <placeName
+                        ref="Bohemia">Bohemiam</placeName> me vocavit, altero a contractu nostro,
+                    quem Maio mense et antea talem inivimus, ut pollicerer, interventu <persName ref="Rudolf 2.">Cæsareæ</persName>
+                    voluntatis, Magnificentiæ Tuæ per biennium adesse, laboresque tuos in Astronomia
+                    toti Europæ iam pridem desideratissimos, quantum in me est, maturare et
+                    adiuvare: altero argumento a præsenti mea calamitate deducto, dum me iubes
+                    optima spe ad te proficisci, nec dubitare, quin vel commendationibus tuis ad
+                        <persName ref="Rudolf 2.">Maiestatem Cæsaream</persName>, vel propria opera
+                    auxilioque meis incommodis sis consulturus, adeoque et viaticum compensaturus.
+                    Recte sane de duabus hisce rebus egisti. Nam mihi cum necessitas imponeretur e
+                        <placeName ref="Steiermark">Styria</placeName> migrandi, omnino de utraque
+                    hac cogitandum fuit. Etsi enim, quod primum attinet, omnis noster contractus
+                    expiravit et annihilatus est, sublato fundamento, ut retinerem salarium meum
+                        <placeName ref="Steiermark">Styriacum</placeName> (quod interdictu Provinciæ
+                    mihi ademtum est) utque magistratus meus eius temporis <pb ed="A" n="163v"
+                    />consentiret (cuius loco, cessante officio, iam agnosco Principem
+                    <placeName ref="Würtemberg">Wirtembergicum</placeName>, vigore cum obligationis, tum literarum Reversalium) tamen cum,
+                    durante meo priore officio, res a Magnificentia Tua incepta et <persName
+                        ref="Rudolf 2.">Cæsareæ Maiestati</persName> proposita sit, <persName
+                        ref="Rudolf 2.">Cæsarea Maiestas</persName> etiam consenserit, providendum
+                    certe mihi fuit, ne imprimis <persName ref="Rudolf 2.">Cæsaream
+                        Maiestatem</persName>, tum etiam Magnificentiam Tuam ludificarer, quin potius
+                    vel cum damno meo <placeName ref="Praha">Pragam</placeName> irem, ibique rem vel
+                    penitus confectam (quam spem literæ tuæ in adventum meum præbuerunt) quantum in
+                    me esset, amplecterer, quantum vero in Principe meo situm, per Legatum eius
+                    Dominum Doctorem <persName ref="Doldius">DOLDIUM</persName>, qui <placeName ref="Praha">Pragæ</placeName> esset,
+                    expedirem; vel si adhuc præter opinionem tuam, in dubio suspensa futura esset,
+                    uti tum vires meas explorarem, sumptuum rationem inirem, et quantisper sine
+                    pernicie mea, incertum in eventum, meis impensis, nullo salario, expectare
+                    possim, perpenderem, ubi, si tantæ moræ, quantas postulat aula Imperatoria,
+                    supra facultates meas essent, negotium ipse præsens legitime et cum
+                    Magnificentiæ Tuæ meique ipsius excusatione penitus desererem.</p>
+                <p rend="indent">Quod ad alterum, etsi mihi dubium nunquam neque fuit, neque est,
+                        <pb ed="TBOO" n="VIII.384"/>quin et impense me ames, et optime promotum
+                    velis, et huius rei luculentissimas in loco tam splendido, tanta summi Monarchæ
+                    gratia, habeas occasiones, si moram ego ferre possem: tamen rationes, quibus
+                    præsens meum infortuni<pb ed="A" n="164r"/>um ope divina sublevem, aliæ mihi
+                    sunt, partim necessariæ, partim (ut sunt res meæ tenues) magis utiles. Cum enim
+                    iure obligatorio tenear, operam meam priore Magistratu, cui illam ex concessu
+                    Principis mei Nutricij addixeram, liberatam, eidem Nutricio meo renunciare,
+                    rectissime sane mihi consuluissem, si recta via <placeName ref="Graz">Grätio</placeName> ivissem in <placeName ref="Würtemberg">Wirtembergiam</placeName>.
+                    Certum enim habeo, qui eo veniunt exules, maxime si alumni fuerunt Principis,
+                    illis et de victu statim et de conditionibus primo quoque tempore prospici. Ego
+                    vero præter hæc omnia etiam a Præceptoribus meis in Academia <placeName ref="Tübingen">Tubingensi</placeName> iam
+                    pridem eas habeo promissiones, ut merito ex coniunctione Principis cum Academia
+                    magna mihi spes nasci debeat. Atque hæc via esset omnium compendiosissima ad mea
+                    mitiganda incommoda. Altera est, ut si me causæ forsan aliæ (qualis est
+                    nostra iam tractatio) <placeName ref="Praha">Pragam</placeName> deducerent, uti
+                    tum in ea urbe, nempe in conventu Legatorum ex plerisque provincijs, statim mihi
+                    prospicerem, primo omnium Legatum <placeName ref="Würtemberg">Wirtembergicum</placeName> alloquerer, an commode, parvo
+                    sumptu, commendationibus ipsius adiutus, in <placeName ref="Würtemberg">Wirtembergiam</placeName> ire possim, an
+                    concessionem mihi ab illo Principe impetraret, commendationibus iterum me
+                    iuvaret, ut propter redimendum viaticum in propinquiorem Academiam, qualis est
+                        <placeName ref="Wittenberg">Witeberga</placeName>, <placeName ref="Jena">Iena</placeName>, <placeName
+                        ref="Leipzig">Lipsia</placeName> etc. promoverer. Hæc altera via est,
+                    Nobilissime Domine TYCHO, sublevandis meis miserijs, <pb ed="A" n="164v"/>minus
+                    quidem splendidas conditiones pollicens, quam ex aula sperantur Imperatoria, sed
+                    tamen expeditiores, in præsentia certiores, et mihi, qui ob inopiam non sum
+                    sustinendis diuturnis moris, acceptiores.</p>
+                <p rend="indent">Explicavi, quid de utroque tuo argumento sentiam: iam quo animo huc
+                    venerim, hîcque iam commorer, recensebo. Voluisse me, statim atque in exilium ire
+                    sum iussus, <placeName ref="Würtemberg">Wirtembergiam</placeName> repetere, iam pridem ex literis meis tenes.
+                    Supervenerunt literæ tuæ, quæ et mihi et affinitati amicisque meis satis efficaces
+                    sunt visæ, quæ me permoverent, ut dimisso in Magnificentiæ Tuæ et Astronomiæ
+                    gratiam, inque meum ipsius, si Deus ita vellet, maius incrementum, altero mei
+                    iuvandi modo, retento vero alterius arbitrio pro <placeName ref="Würtemberg">Wirtembergico</placeName> <placeName ref="BOHEMIA">Bohemicum</placeName> iter
+                    arriperem. Bona vero et <persName ref="Müller, Barbara ">uxorem</persName> cum privigna visum est in omnem eventum <placeName ref="Linz">Lincij</placeName>
+                    relinquere, ubi essent in itinere versus <placeName ref="Würtemberg">Wirtembergiam</placeName>.</p>
+                <p rend="indent">Mutavi propositum de <persName ref="Müller, Barbara ">uxore</persName> et privigna (bona enim, sicut dixi,
+                    <placeName ref="Linz">Lincij</placeName> reliqui) hoc metu, qui iam in me exit, ne quis ex nobis ægrotaret,
+                    reliquis absentibus, inter peregrinos. Itaque <placeName ref="Praha"
+                        >Pragam</placeName> veni magno sumptu. Sexaginta expendi in vecturam
+                    personarum, viginti in viaticum, quadraginta amplius in duo vasa, repleta bonis
+                    mobilibus sive suppellectili, <pb ed="TBOO" n="VIII.385"/>idque tantummodo
+                    <placeName ref="Linz">Lincium</placeName> usque. Taceo quanto iam in ære sim hospitis mei. Restant mihi impensæ
+                    non plures, quam quibus ad moram quatuor hebdomadum, et deinde ad iter aliud
+                    (breve tamen) indigeo. Intra has quatuor hebdomadas expectabo eventum <pb ed="A"
+                        n="165r"/>nostri negocij. At nihilominus, dummodo per valetudinem liceat, in
+                    omnem eventum mihi apud Legatos Principum de commoda conditione legitime
+                    circumspiciam, sic tamen, ut si quid interea Magnificentia Tua effecerit, id
+                    ratum, cætera irrita sint. Ubi hoc tempus transierit, atque Magnificentia Tua
+                    postulaverit a me, ut diutius maneam, id non aliter mihi possibile est, nisi aut
+                    viaticum mihi a Magnificentia Tua pro vectura et victu restituatur 150 fl., ut duo
+                    vasa mea huc advehuntur, ne quæ convasata sunt, situ pereant, aut Magnificentia
+                    Tua prædem se præstet pro me apud illos, a quibus necessaria mihi ad victum
+                    coëmenda sunt. Quorum illud si præstetur, ad semestre usque, DEO vitam
+                    prorogante, expectare potero: sin hoc autem, tantisper durare potest mora mea,
+                    dum id Magnificentiæ Tuæ et Creditoribus allubescat. Interea Astronomia et
+                    labores Magnificentiæ Tuæ tantæ mihi curæ erunt, quantam feret valetudo mea.
+                    Quin etiam si negocium ex animi sententia apud <persName ref="Rudolf 2."
+                        >Cæsaream Maiestatem</persName> conficias, viaticumque, uti spem fecisti,
+                    impetres, ab eo summam eam, quæ interea mihi a Magnificentia Tua commodata
+                    fuerit, demptam Magnificentiæ Tuæ restituam. Quin etiam id intra has 4 septimanas
+                    operam dabo, ut aliquis alius mihi id salarium, quod <placeName ref="Graz">Grätij</placeName> habui, in hoc
+                    biennium pendat, pro quo obligatus illi sim, exacto tempore in eius servitium
+                    transire. Habet igitur Magnificentia Tua summam consiliorum meorum: quæ ut mihi
+                    inopi et deserto et exuli non in peiorem partem interpretetur, obnixe rogo.
+                    Vale. 17. Oct.</p>
+                <lb/>
+                <p rend="rightMargin">Magnificentiæ et Nobilitatis<lb/>Tuæ Officiosissimus<lb/>M.
+                    <persName ref="Kepler">IO. KEPLER</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

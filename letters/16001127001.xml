@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 393</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-11-27"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 27. november n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.393"/><persName ref="Herwart">IOANNES GEORGIUS
+                        HERWARTUS AB HOHENBURG</persName> AD TYCHONEM BRAHE.</opener>
+
+                <p><pb ed="A" n="242v"/>LITERAS tuas, Vir Nobilissime atque Mathematicorum omnium
+                    facile Princeps, quas quidem die 14 huius mensis <placeName ref="Praha"
+                        >Pragæ</placeName> ad me dedisti, ex <placeName ref="Ingolstadt"
+                        >Ingolstadio</placeName> ad me transmissas, hac ipsa horâ probe accepi. D.
+                        <persName ref="Varsevicius">CHRISTOPHORUS VARSEVICIUS</persName>, uti
+                    optassem, ad me non venit. M. <persName ref="Kepler">IOAN. KEPLERUM</persName>
+                    male valere doleo, et æque contristor, conditione commodâ eum iam carere. Si
+                    apud <persName ref="Rudolf 2.">Cæsaream Maiestatem</persName>, quod abominor, ei
+                    non sit <app>
+                        <lem wit="#TBOO">permanendum</lem>
+                        <rdg wit="#A">permandendum</rdg>
+                    </app>, ipse quoque dispiciam, anne forte alibi res suas instituere queat.</p>
+                <p rend="indent">Tabulas <persName ref="Bianchini">BLANCHINI</persName>, <persName
+                        ref="Prugner">PRUGNERI</persName> et <persName ref="Peurbach"
+                        >BEURBACHIJ</persName>, quas petis, curabo, si modo extent, ut habeas.
+                        <persName ref="Angelus, Johannes">IOANNIS ANGELI</persName> Astrolabium et
+                    Planum cum <persName ref="Angelus, Jacobus">IACOBO ANGELO</persName> de Cometis
+                    ob defectum tabellariorum mitto hisce iunctum, teque quam fœlicissime florere ex
+                    animo opto. Datæ <placeName ref="München">Monachij</placeName> die 27 Nov. A.
+                    1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

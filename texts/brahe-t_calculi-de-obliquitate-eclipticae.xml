@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Calculi de obliquitate eclipticæ</title>
+        <title xml:lang="en">Calculi de obliquitate eclipticæ</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>København</settlement>
+                <repository>Det Kongelige Bibliotek</repository>
+                <collection>Gamle Kongelige Samling</collection>
+                <idno>1828 4to, fol. 464r</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+          </msDesc></witness>
+          <witness xml:id="B">
+            <msDesc>
+              <msIdentifier>
+                <settlement>København</settlement>
+                <repository>Det Kongelige Bibliotek</repository>
+                <collection>Gamle Kongelige Samling</collection>
+                <idno>318 2do, fol. 2r</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+          </msDesc></witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+              Tom. V, Hauniæ 1923, p. 228-229</bibl>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation><date>1600</date></creation>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>astronomi</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-02-05" who="#pz">Filen etableret</change>
+      <change when="2020-02-19" who="#pz">Tekst importeret, korrekturlæst og opmærket</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div>
+        <head>
+          <orig><pb ed="TBOO" n="V.228"/>DE OBLIQUITATE ECLIPTICÆ. (1600)</orig>
+          <reg>De obliquitate eclipticæ</reg>
+        </head>
+        <div>
+          <head><pb ed="A" n="464r"/>EXCERPTA EX QUODAM LIBRO MANUSCRIPTO EX VETERI
+            COLLEGIO <placeName ref="Praha">PRAGENSI</placeName> A M. <persName
+              ref="Bachazek">BACCHATIO</persName> TYCHONI COMMUNICATO.</head>
+          <p>ITEM anno Domini 1416 in principio &#x264b; maxima ejus elevatio meridiana per
+            quadrantem ferreum et allidadas Ptolomei, similiter et quadricubicas, quæsita,
+            inventa est per utrumque instrumentum prædictorum 63&#176; 26&#8242; super
+            horizontem <placeName ref="Praha">Pragensem</placeName>, singulariter tamen ad
+            domum collegij Caroli Vniversitatis studij <placeName ref="Praha"
+              >Pragensis</placeName>. Et hæc est correctior omnium aliarum prius per me
+            factarum.</p>
+          <p rend="indent">Habet Doctor <persName ref="Syndel">Syndel</persName> Bohemus
+            natione, peritus astronomus. Item eodem anno Domini 1416,14 die Septembris in
+            die S. Crucis altitudo capitis Arietis 39&#176; 54&#8242; 38&#8243; et poli
+            elevatio 50&#176; 5&#8242; 22&#8243;.</p>
+        </div>
+        <div>
+          <head><pb ed="B" n="2r"/>CONSIDERATIO SEQUENTIS OBSERVATIONIS QUÆ
+            2&#8242; HABITA EST <placeName ref="Praha">PRAGÆ</placeName> ANNO 1416 A
+            <persName ref="Syndel">SYNDELIO</persName>.</head>
+          <table>
+            <row>
+              <cell>Solstitialem Solis altitudinem ponit</cell>
+              <cell>63&#176;</cell>
+              <cell>26&#8242;</cell>
+              <cell>0&#8243;</cell>
+            </row>
+            <row>
+              <cell>Adde parallaxin in hac alt.</cell>
+              <cell/>
+              <cell>1</cell>
+              <cell>19</cell>
+            </row>
+            <row>
+              <cell>Altitudo iusta</cell>
+              <cell>63</cell>
+              <cell>27</cell>
+              <cell>20</cell>
+            </row>
+          </table>
+          <p>Cum ait, in die S. Crucis, altitudo Capitis Arietis 39. 54. 38 et hujus
+            complementum assumit pro altitudine polj, patet quod calculum æquinoctij ex
+            tabulis Alphonsinis deduxerit, quæ dant illud ante ejus diej meridiem. Si enim
+            ponas <placeName ref="Praha">Pragam</placeName>
+            <placeName ref="Toledo">Toledo</placeName> orientaliorem H. 1&#176; M.
+            48&#8242;, colliges locum Solis in horizonte Pragensi ad meridiem 14 Sept. anno
+            1601 in 0&#176; 3&#8242; 50&#8243; &#x264e;, cujus declinatio 1&#8242;
+            32&#8243;. Observavit ergo altitudinem meridianam vt prius etiam in solstitio.
+            Cum autem præsupposuisset, Solem in 3. 50 &#x264e; versarj, cujus declinatio est
+            1&#8242; 32&#8243;, tanto scilicet minor altitudo Solis meridiana altitudine
+            æquatoris, addidit hanc declinationem ad altitudinem observatam pro altitudine
+            æquatoris, quam ac appellat altitudinem Capitis Arietis, hoc est punctj Arietis
+            et Libræ. Hanc fuisse mentem observatoris ex secundis allegatis colligitur, quæ
+            in quadricubitalj instrumento nequeunt discernj, itaque per calculum accessisse
+            censerj debent. Subtrahe ergo declinationem iterum quam ipse addidit</p>
+          <table>
+            <row>
+              <cell>39</cell>
+              <cell>54</cell>
+              <cell>38</cell>
+            </row>
+            <row>
+              <cell/>
+              <cell> 1</cell>
+              <cell>32</cell>
+            </row>
+          </table>
+          <p>restat 39 53 6. Si paulo aliam usurpavit meridianorum differentiam
+            declinationemque Eclipticæ <persName ref="Ptolemaios">Ptolemaicam</persName>,
+            habuit <pb ed="TBOO" n="V.229"/>declinationem Solis 1&#8242; 38&#8243; præcise,
+            itaque observasset 39&#176; 53&#8242; altitudinem, quod ita ipsum in instrumento
+            invenisse plane nihil dubito. Adde parallaxin hujus altitudinis 2&#8242;
+            18&#8243;. Habes altitudinem illius diej meridianam 39&#176; 55&#8242; 18&#8243;
+            veram. Iam ex calculo Tychonis collige Solis motum ad illum diem in O. 1. O
+            &#x264e;, differentia meridianorum nullius est momenti, declinationi 24&#8243;
+            addenda, vt sit æquatoris alt. 39. 55. 42, Polj 50&#176; 4&#8242; 18&#8243;,
+            declinatio Eclipticæ 23. 31. 38, quæ utraque hodieque post 200 annos eadem
+            inveniuntur. Prophatius Iudæus 100 annis ante eandem prodidit obliquitatem.
+            <persName ref="Regiomontanus">Regiomontanus</persName> et <persName
+              ref="Gualterus">Waltherus</persName> ex observatis suis bene adhibitis post
+            100 annos itidem eandem.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

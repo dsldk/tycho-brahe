@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Firenze</settlement>
+                                <repository>Bibliotheca Nazionale Centrale</repository>
+                                <collection>empty</collection>
+                                <!-- Fundet på nettet. Faksimile: https://teca.bncf.firenze.sbn.it/ImageViewer/servlet/ImageViewer?idr=BNCF0003559588 - TBOO siger: in codicum Galileianorum tomo 27 (Academia dei Cimento
+            part. 3 vol. 12 -->
+                                <idno>Gal. 286 (Accademia del Cimento part 3, vol. 12)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 242-244</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-01-24"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ferdinando I de&#x2019; Medici</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 24. januar n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-06" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.242"/><pb ed="A" n="6v"/>SERENISSIMO AC POTENTISSIMO
+                    PRINCIPI AC DOMINO. DOMINO <persName ref="Ferdinando">FERDINANDO</persName>, MAGNO HETRURIÆ, FLORENTIÆ, SENORUM AC
+                    PISARUM DUCI, DOMINO SUO CLEMENTISSIMO AD MANUS PROPRIAS.</opener>
+                <p><pb ed="A" n="5r"/>SERENISSIME et Potentissime Princeps, Domine Clementissime.
+                    Quod Serenissima Celsitudo Tua mihi, licet de facie ignoto et tam longe dissito,
+                    adeo clementer et benevole superiori æstate scribere non dedignata fuerit,
+                    humillima et obsequentissima mente eidem gratias ago quas possum maximas. Accepi
+                    eas literas, cum primum <placeName ref="Praha">Pragam</placeName> sub initia
+                    Iulij, a S<hi rend="sup">a</hi> <persName ref="Rudolf 2.">Cæsareâ Maiestate</persName>, Domino meo
+                    Clementissimo, isthuc e <placeName ref="Germany">Germania</placeName> vocatus,
+                    et benignissime susceptus advenissem. Quæ sane non parvâ me affecerunt
+                    voluptate, quod inde perciperem tantum Principem, inter Europæos paucissimis
+                    cedentem, non saltem me immeritum Clementissimo suo favore prosequi, sed et
+                    Divinæ illius Astronomiæ (cui plurimis abhinc Annis, arduo et indefesso studio,
+                    nec modicis impensis operam navavi) mysterijs solerter et iucunde affici, prout
+                    hæc sublimis et Heroica Scientia, inde ab initio Regibus et Principibus,
+                    Heroicisque Viris, in sublimi rerum mundanarum fastigio collocatis, semper
+                    acceptissima, atque ab ijs in præcipuo honore habita fuit. Quâ etiam de caussâ
+                    Augustissimus Imperator <persName ref="Rudolf 2.">RUDOLPHUS II</persName> me unâ cum Uraniâ nostrâ,
+                    Patriâ, quod ibi debite conservari et perpetuari nequiret, sponte excedentem huc
+                    in <placeName ref="Bohemia">Bohemiam</placeName> (uti dictum) ubi nunc in Arce
+                    quâdam Cæsareanâ, itinere saltem dimidij diei <placeName ref="Praha"
+                        >Pragâ</placeName> remotâ, eius fundamina et culturam denuo instauro,
+                    arcessiri voluit, atque huic Regali Studio, Regaliter quoque et liberaliter
+                    prospicere non degravatus est. Libros quos Serenissimæ Tuæ Celsitudini humillime
+                    misi, eidem gratos fuisse, mihi plurimum congratulor.</p>
+                <p rend="indent">Quoniam vero ex prædictis Serenissimæ Celsitudinis Tuæ literis
+                    percepi, illam plura ex meis in re Astronomicâ Operibus Clementissimo animo
+                    requirere, nullatenus intermittam, quin per primam quamque oportunitatem, ipsius
+                    optimæ voluntati, quâ possum reverentiâ, morem geram; et præstitissem id iam
+                    antea quam lubentissime, si supellex mea libraria, quæ <placeName
+                        ref="Magdeburg">Magdæburgi</placeName> in <placeName ref="Germany"
+                        >Germania</placeName> etiamnum reservatur, huc allata fuisset, quod tamen
+                    instanti vere, ubi <placeName ref="Elben">Albis fluvius</placeName> hoc hyberno tempore congelatus, denuo erit
+                    navigabilis, futurum spero. Sic enim a <persName ref="Rudolf 2.">Cæsareâ
+                        Maiestate</persName>
+                    <placeName ref="Magdeburg">Magdæburgensibus</placeName> per literas iniunctum
+                    est. <pb ed="A" n="5v"/>Ex quo insuper Serenissima
+                    Celsitudo Tua Nobilem et Eruditum <pb ed="TBOO" n="VIII.243"/>Adolescentem,
+                        <persName ref="Tengnagel">FRANCISCUM TENGNAGLIUM</persName>, meum aliquandiu
+                    domesticum, qui dictos libros Serenissimæ Tuæ Celsitudini submisse a me obtulit,
+                    ex aliquali nostrâ humillimâ commendatione Clementissimo favore non indignum
+                    censuit, sed ita sibi acceptum habuit, ut nuper huc ad me reversus Serenissimæ
+                    Celsitudinis Tuæ Clementissimam et singularem erga se benignitatem satis
+                    deprædicare nequiverit, id equidem tanti beneficij loco reputo, ac si a Tuâ
+                    Serenissimâ Celsitudine mihi ipsi præstitum foret. Et quia vel inde Serenissimæ
+                    Celsitudinis Tuæ Clementissimum erga me animum haud obscure intelligam, non
+                    verebor Serenissimam Tuam Celsitudinem in alio quodam haud dissimili negotio eo
+                    audentius demisse compellare, præsertim cum Ipsamet in suis ad me Clementissimis
+                    literis benignissima sua officia mihi ultro offerre dignetur. Est autem
+                    eiuscemodi.</p>
+                <p rend="indent">Cuperem quam maxime non saltem in <placeName ref="Italy"
+                        >Italia</placeName>, ubi minor est quam hîc Sphæræ Mundanæ inclinatio, sed
+                    et in Ægypto apud Alexandriam, siquidem ibi adhuc rectior est, nonnulla in
+                    Astrorum Observationibus, quæ hîc non ita patent, perficere. Quamobrem <persName ref="Brahe, Tycho junior">filium
+                    meum</persName> natu maiorem ex me ipso denominatum, adolescentem 18 Annorum, quem inde ab
+                    ipsa pueritia ad hæc exercitia assuefeci, adiuncto illi pro comite quodam ex
+                    meis studiosis, qui usque in tertium Annum in rebus Astronomicis factitandis
+                    fideliter et sedulo mihi inservivit, harumque non vulgarem peritiam sibi interea
+                    comparavit, favente Divino Numine, instanti vere, vel quamprimum fieri poterit,
+                    ad S<hi rend="sup">mam</hi> Tuam Cel<hi rend="sup">nem</hi> in <placeName ref="Toscana">Hetruriam</placeName> mittere, tradito illi uno vel altero
+                    Instrumento ex meis, quod portatile sit (si modo id commode effici queat) unâ
+                    cum instructione, quomodo plura, prout opus fuerit, isthic paranda sint, et
+                    quænam ijs cœlitus denotanda. Daboque simul operam, ut is aliquos librorum
+                    meorum a S. T. Cel<hi rend="sup">ne</hi> clementissime desideraturum secum adferat. Deinde studiosus
+                    ille, relicto in S<hi rend="sup">mæ</hi> Tuæ Cel<hi rend="sup">nis</hi> Aulico servitio (modo S. T. Cel<hi rend="sup">ni</hi> sic
+                    placuerit) filio meo, in Ægyptum navigabit, atque ea quæ isthic ulterius
+                    observari poterunt, iuxta meam præscriptionem pariter designabit. Qua in re
+                    Inclyta <placeName ref="Venezia">Venetiarum Respublica</placeName>, quando
+                    aliquam eo navem ablegat, competentem promotionem (uti etiam spem aliqualem
+                    prædicto <persName ref="Tengnagel">TENGNAGLIO</persName>, hac de re, dum ibi esset, meo nomine solicitanti fecit)
+                    potissimum vero Tuæ Serenissimæ Celsitudinis authoritate et intercessione
+                    allecta, non est (uti spero) denegatura. <pb ed="A" n="6r"/>Si itaque S<hi rend="sup">ma</hi>
+                    Cel<hi rend="sup">do</hi> Tua filium meum unâ cum adiuncto ipsi comite, per annuum tempus aut
+                    circiter in Aula sua apud se retinere, sibique commendatum habere, pro singulari
+                    suo et Clementissimo erga me favore, non aversetur, quibus possum precibus
+                    demisse oro, ut de sua Clementissima hac in parte voluntate me per literas
+                    certiorem reddere non degravetur, aut etiam id Generosissimo <pb ed="TBOO"
+                        n="VIII.244"/>et Magnificentissimo suo apud S<hi rend="sup">am</hi> <persName ref="Rudolf 2."
+                            >Cæs<hi rend="sup">am</hi> Ma<hi rend="sup">tem</hi></persName> Legato,
+                    qui <placeName ref="Praha">Pragæ</placeName> est, significare. Fecerit sic
+                    Serenissima Celsitudo Tua non saltem mihi humillimo suo servitori, ad omnia
+                    obsequia pro virili præstanda paratissimo, sed et ipsi <persName ref="Rudolf 2."
+                        >Cæsareæ Maiestati</persName>, cui hæc studia cordi sunt, rem (uti non
+                    dubito) inprimis acceptam et Serenissimæ Tuæ Celsitudini (modo ipsius laudibus
+                    aliquid accedere possit) gloriosam et apud omnem posteritatem commendabilem.</p>
+                <p rend="indent">Sed desino Serenissimam Tuam Celsitudinem, gravissimis Ditionum
+                    suarum rebus gubernandis intentam, ulterius interpellare. Deus Opt. Max. eam
+                    quam diutissime sospitem et florentem conservet.</p>
+                <p rend="indent">Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
+                        Benaticâ</placeName> Die 24 Ianuarij An. 1600.</p>
+                <lb/>
+                <p rend="rightMargin">Serenissimæ Celsitudinis Vestræ<lb/>humillimus
+                    servitor<lb/>TYCHO BRAHE,<lb/>manu propria scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

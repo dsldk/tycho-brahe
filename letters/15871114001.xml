@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christopher Rothmann</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="C">
+                        <bibl>Exemplum epistolae Casellis asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rothmann, Christopher (1550-ca. 1608)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1587-11-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1587. 14. november</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><opener><pb ed="TBOO" n="VI.120"/><pb ed="E" n="91"/><app>
+                    <lem>NOBILISSIMO ET VIRTVTE SAPIENTIA INGENIOSA ERVDITAQVE DOCTRINA,
+                        CLARISSIMO VIRO, DOMINO TYCHONI BRAHE, DOMINO DE KNVDSTRVP, EQVITI
+                        DANO, MATHEMATICORVM NOSTRO SECULO OMNIUM PRÆSTANTISSIMO, ETC.
+                        DOMINO SUO CUM OBSERUANTIA COLENDO, ETC. S. P.</lem>
+                    <rdg wit="#C">Eidem</rdg>
+                </app></opener>
+                
+                <p>PROXIMIS literis, Vir nobilissime ac excellentissime, memoria lapsus scripsi ad
+                    te, extremam superficiem Aëris crassioris ex Demonstratione Opticorum distare a
+                    superficie Terræ per Semidiametrum Terræ. Verum dum (de absurditate forte
+                    fortuna cogitans, quod nimirum eo præsupposito sequerentur perpetua Crepuscula,)
+                    ipsos Authores consulo, inuenio me ea, quæ ante aliquot Annos in ijs legeram,
+                    non rite meminisse; nec integrum illud, quod putaui, esse Semidiametrum Terræ,
+                    sed sexagesimam nondum Semidiametri Terreni partem. Quapropter peto a te, vt quæ
+                    præcipiti festinatione <app>
+                        <lem>in Literis meis</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> effutij potius quam scripsi, ea velis emendare, ac pro Semidiametro
+                    Terreno sexagesimam fere Semidiametri Terreni <pb ed="E" n="92"/>partem, ac pro
+                    duplicatione <app>
+                        <lem>crassioris Aëris multiplicationem</lem>
+                        <rdg wit="#C">multiplicationem crassioris aëris</rdg>
+                    </app> vbique in ea demonstratione ponere. Ita enim omnia constabunt, ac
+                    demonstratio mea hac ratione a fortiori confirmabitur. Schema quoque aliter in
+                    hunc modum formandum est.</p>
+                <figure n="10">
+                    <desc/>
+                    <p/>
+                    <graphic url="06_120"/>
+                </figure>
+                <p>Scis enim lineas EAG et HCL <app>
+                    <lem>ex centro et superficie Terræ</lem>
+                    <rdg><note>om. C</note></rdg>
+                </app> ob immensitatem Cæli videri parallelas, vel potius vnam et eandem. Iam
+                    facile habes, quanta sit densitas crassioris Aëris circa Horizontem, quanta in
+                    Altitudine 30. Graduum. Connecte enim puncta XA et AO, centrum nimirum Terræ cum
+                    punctis intersectionum extremæ superficiei crassioris Aëris in Horizonte et in
+                    Altitudine 30. Graduum. Iam igitur in Triangulo ACX, quoniam dantur duo latera,
+                    latus nimirum AX Partium 60. Min. 48. Secund. 50. et latus AC Partium 60.
+                    exacte, ex dictorum Opticorum demonstrationibus, et angulus ACX rectus per
+                    Hypothesin: datur itaque et tertium CX latus, densitas nimirum Aëris crassioris,
+                    per quam circa Hori<pb ed="TBOO" n="VI.121"/>zontem formæ Stellarum ad nostrum
+                    visum perueniunt. Sic et in Altitudine 30. Graduum, quoniam in Triangulo ACO
+                    itidem dantur duo latera AO et AC, cum Angulo ACO, qui per Hypothesin vltra
+                    rectum datur 30. Grad. hoc est, Graduum 120; datur igitur et tertium CO latus,
+                    distantia nimirum extremæ superficiei Aëris crassioris in Altitudine 30.
+                    Graduum. Ita vides, hoc vnico argumento, quod nimirum Refractiones non durent
+                    vsque ad verticem, firmissime demonstrari, non esse diuersa Ætheris et Aëris
+                    Diaphana. Nec enim ipsi Optici negare possunt, quin præsupposito diuerso Ætheris
+                    et Aëris Diaphano necessarium sit, vt Refractio duret vsque ad verticem, vt ex
+                    <persName ref="Alhazen">Alhazeno</persName> lib. 7. et <persName
+                        ref="Vitellio"><app>
+                            <lem>Vitellione</lem>
+                            <rdg><note>ante <q>Vitellione</q> add <q>ex</q> C</note></rdg>
+                        </app></persName> lib. 10. P. 51. manifestum est. Ea quoque, quæ <persName
+                            ref="Vitellio">Vitellio</persName> lib. 10. P. 55. de scintillatione
+                    Stellarum proposuit, si vera essent, pro me facerent. Si enim scintillatio
+                    Stellarum fieret propter diuaricationem formæ in loco imaginis, sequeretur inde,
+                    formam illam non alibi quam in crassiore Aëre consistere posse. Nam Ventus vsque
+                    ad concauam superficiem Sphæræ Lunaris non ascendit, nec admodum, vt opinor,
+                    vltra crassiorem illum Aërem. Vix enim in puro illo Aëre Ventus exsistere
+                    poterit. Hæc ad te hac vice perscribere volui, ne <app>
+                        <lem>forte</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> putares, (quod tamen vix mihi credendum erat,) demonstrationem meam eo
+                    infirmari, quod spatium illud crassioris Aëris iusto maius assumserim. Memoriæ
+                    lapsum esse, facile animaduertes; nec tantum temporis tunc mihi <pb ed="E"
+                        n="93"/>sumere potui, vt ipsos Autores consulerem. </p>
+                <closer>
+                    <salute>Vale igitur felicissime et optime, nobilissime et excellentissime Tycho,
+                        et de hoc sublimi negotio mecum conferre ne desine.</salute>
+                    <dateline><placeName ref="Kassel">Cassellis</placeName> 14. Calend. Nouemb. Anno
+                        87. </dateline>
+                    <signed>T. T.<lb/><persName ref="Rothmann">CHRISTOPHORVS
+                        ROTHMANNVS</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

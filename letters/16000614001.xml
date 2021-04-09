@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Jacob Monavius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 325-326</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Jacob Monavius</persName>
+                    <placeName>Wrosław</placeName>
+                    <date when="1600-06-14"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 14. juni n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-24" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.311"/><pb ed="A" n="62v"/>MAGNIFICO NOBILISSIMO ET
+                    AMPLISSIMO VIRO D. TYCHONI BRAHE, MATHEMATICORUM SECULI NOSTRI ET PRÆSERTIM APUD
+                    SACRATISSIMAM <persName ref="Rudolf 2.">CÆSAREAM MAIESTATEM</persName> PRINCIPI,
+                    DOMINO ET AMICO SUMME OBSERVANDO. <placeName ref="Benatky">BENNATICÆ
+                        BOHEMORUM</placeName>.</opener>
+
+                <p><pb ed="A" n="61r"/>MAGNIFICE Domine TYCHO, Vir præstantissime: Non vulgari
+                    lætitia fui affectus, quando mihi redditæ sunt literæ tuæ XVI Maij scriptæ, e
+                    quibus libentissime cognovi, meas, quas mense Martio scripseram, rectâ
+                    pervenisse in manus tuas. Eram enim de ijs nonnihil sollicitus, postquam missæ
+                    fuerant ad illum, quem <placeName ref="Praha">Pragæ</placeName> non
+                    invenerant.</p>
+                <p rend="indent">Ad typographum nostrum quod attinet, facile poteram cogitare hoc
+                    ipsum, quod contigit: nimirum te pretio magis æquo posse alicubi locorum curare
+                    tua inprimenda, quam apud nos, ubi non sunt omnia sic expedita et in promptu.
+                    Boni tamen consules meum studium qualecunque gratificandi tuis postulatis et
+                    desiderijs: opto ex animo, ut in re alia possim tibi probare meum animum tibi
+                    deditissimum.</p>
+                <p rend="indent">Ad Doctorem <persName ref="Bucretius">BUCRETIUM</persName> quod
+                    attinet: is te amanter, diligenter et officiose rogat, et pro missis literis
+                    humaniss. magnas agit gratias. Bene <app>
+                        <lem wit="#TBOO">te</lem>
+                        <rdg wit="#A">de</rdg>
+                    </app> iubeo sperare et de <persName ref="Wittich, Paul">Wittichianis</persName>
+                    reliquijs et de chartis alterius illius, qui quondam apud nos vixit, Astronomi.
+                    Utroque loco hanc rem tanta et fide et diligentia et tam accurate et sedulo egit
+                    et adhuc agit, ut non dubitem nos habituros, quod optamus. Non voluit nunc
+                    respondere literis tuis, quod confidat se propediem reipsa votis tuis
+                    satisfacturum: modo parvam moram <pb ed="A" n="61v"/>æquo feras animo, quod ut
+                    facias, magnopere te rogatum volo.</p>
+                <p rend="indent">Domino Doctori <persName ref="Fischer">FISCHERO</persName>, Viro
+                    certe opt. et doctissimo, gratissimæ fuerunt literæ tuæ, daturo modis omnibus
+                    operam, ut suam tibi fidem et diligentiam omni, quod a se præstare poterit,
+                    officio probet. Nec te spero unquam pœnitebit tuæ in ipsum benevolentiæ.</p>
+                <p rend="indent">De Bibliotheca <persName ref="Dudith">Duditiana</persName>, quæ
+                    mihi est notissima, velim mihi credas. Eam nunc velut inter cœlum et terram
+                    pendere, postquam ab hæredibus <persName ref="Dudith">DUDITIJ</persName> non
+                    possidetur, sed alteri cuidam pro certa pe<pb ed="TBOO" n="VIII.326"/>cuniæ
+                    summa non tam vendita est quam oppignorata. Iacet nunc misera apud nos in domo
+                    quadam, et non aliter iacet (vidi enim aliquoties) quam solent apud nobiles
+                    iacere acervi frumentorum: neque in illam plenum ius habet Emtor neque etiam
+                    venditor. Res plane intricata est, et metuo, ne libri isti magnum aliquod et
+                    irreparabile damnum accipiant.</p>
+                <p rend="indent">Dictum mihi est nuper ab amico quodam, instrumenta tua Mathematica
+                    non levi iactura fuisse per vim ventorum et tempestatum in arce istac tua
+                    affecta. Si ita est, admodum tibi condoleo. Dubito tamen, an sit, cum tu nullam
+                    eius rei mentionem facias.</p>
+                <p rend="indent">Magnificus <placeName ref="Wrosław">huius urbis</placeName> et
+                    Ducatus Capitaneus, Dn. <persName ref="Jengtius">ABRAHAMUS IENGTIUS</persName>,
+                    olim summi nostri <persName ref="Wittich, Paul">WITICHIJ</persName>, dum
+                    viveret, patronus, tui amantiss. et studiosissimus, magnopere te salutat.
+                    Cogitat paulo post ad <pb ed="A" n="62r"/>thermas <placeName ref="Bohemia"
+                        >Boiemicas</placeName> proficisci, et plane constituit in illo itinere te
+                    convenire, ut te videat coram, quem dudum est unice miratus. Dixit ei nuper
+                    Doctor <persName ref="Jessenius">IESSENIUS</persName> de quodam libro tuo recens
+                    edito, quem obtuleris <persName ref="Rudolf 2.">Cæsari</persName>. Eum ipse
+                    unice videre gestit, et iam semel et iterum an viderim ex me quæsivit.
+                    Epistolarum tuarum volumen, quod ex dono liberalitatis tuæ habeo, apud me primus
+                    vidit, et per aliquot dies secum habuit.</p>
+                <p rend="indent">Si quid ad me scribere aut mittere voles, scias rectissime ad me
+                    perventurum, quicquid <placeName ref="Praha">Pragam</placeName> per certos
+                    homines miseris ad Dn. <persName ref="Mylnerus">IOANNEM MYLLNERUM</persName>,
+                    Sacræ <persName ref="Rudolf 2.">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
+                            >tis</hi></persName> Consiliarium et Regni <placeName ref="Bohemia"
+                        >Boem.</placeName> Secretarium supremum, Compatrem meum cariss. et omni fide
+                    observandum. Apud illum enim vivit <persName ref="Paludius">IOANNES
+                        PALUDIUS</persName>, Principis mei Consiliarius <placeName ref="Praha"
+                        >Pragæ</placeName> habitans et negotia Cels. suæ in aula illa curans. Is et
+                    diligenter et libenter curabit, quicquid ad me pertinens acceperit. Bene et
+                    feliciter vale, Vir præstantissime, et me, quem semel amare cœpisti, perpetuo
+                    amare perge: sic te vicissim curet ametque Deus.</p>
+                <p rend="indent"><placeName ref="Wrosław">Vratisl.</placeName> XIIIJ Iunij 1600.</p>
+                <lb/>
+                <p rend="rightMargin">T. Μ. P.<lb/>observantiss. et amantiss.<lb/><persName
+                        ref="Monavius">IAC. MONAW</persName>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

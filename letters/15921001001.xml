@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 344</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1592-10-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Peter Young</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1592. 1. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-31" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VII.344"/><pb ed="A" n="77"/>PETRO IUNIO TYCHO BRAHE.
+                    S.</opener>
+                <p>QUAMVIS, nobilissime et amplissime vir, ultimis meis de neglecta ad priores
+                    aliquot responsione familiari quadam libertate tecum expostulantibus, nihil
+                    adhuc rescripseris: tamen et has illis aggregare non supersedebo, utut diutinam
+                    hanc tuam sive oblivionem sive spontaneam forte scribendi intermissionem vix
+                    (amicitia nostra sic exigente) excusatam habeam. Eroque ob id nunc brevior:
+                    præsertim cum superiora tibi adhuc satis in præsenti esse memoria (in quibus
+                    etiamnum tuam operam obnixe desidero) mihi persuadeam. Neque enim meas tibi non
+                    relatas diffido: ex quo a magnifico D. <persName ref="Maitland">IO. METELLANO</persName>, Cancellario vestro,
+                    responsum acceperim, cui eodem tempore literas tuis simul coniunctas destinâram.
+                    Cum vero in superioribus præter alia ut a <persName ref="James 6.">Serenissimo Rege</persName> carmen quoddam in
+                    mearum lucubrationum Astronomicarum commendationem impetrares, peramanter te
+                    rogassem: et nunc ad ipsius Maiestatem ipsemet hac de causa elegiacam hanc
+                    qualemcunque epistolam exarârim (quam tibi ipsius Maiestati meo nomine submisse
+                    offerendam unâ mitto) idcirco etiamnum a te idipsum quibus possum precibus rogo,
+                    ut tua intercessione, eaque, qua apud ipsam Maiestatem polles, authoritate et
+                    consilij grata (quod et mereris) acceptatione, quo id clementissimi beneficij
+                    mihi impertiatur, quantum in te est, elaborare non degraveris. De privilegio ab
+                    ipsius Maiestate obtinendo, cuius apud te antea satis superque mentionem feci,
+                    nunc nihil superaddam. Hæc igitur singula, et si quæ præterea sunt, alias
+                    significata, tuæ erga me benevolentiæ et amicitiæ nostræ fidelitati fideliter
+                    etiam exequenda committo. Vale. <pb ed="A" n="78"/>Datæ Uraniburgi 1 Oct. A. 1592.</p>
+                    <p rend="rightMargin">Tuæ Magnificentiæ studiosissimus<lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,2486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>De disciplinis mathematicis oratio</title>
+        <title xml:lang="en">De disciplinis mathematicis oratio</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="V">
+            <msDesc>
+              <msIdentifier>
+                <settlement>Wien</settlement>
+                <repository>Österreichische Nationalbibliothek</repository>
+                <collection>empty</collection>
+                <idno>cod. Vidob. lat. 10686.22</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+            </msDesc>
+          </witness>
+          <witness xml:id="T">
+            <bibl>Corrections in Tycho's hand in V</bibl>
+          </witness>
+          <witness xml:id="C">
+            <bibl><title>Tychonis Brahei De disciplinis mathematicis oratio</title> (ed.
+              Cunradus Aslacus), Hafniæ 1610.</bibl>
+          </witness>
+          <witness xml:id="Curtius">
+            <bibl><title>Tychonis Brahei De disciplinis mathematicis oratio</title> (ed.
+              Joachimus Curtius), Hamburgi 1621.</bibl>
+          </witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+              Tom. I, Hauniæ 1913, p. 145-173.</bibl>
+          </witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1574</date>
+      </creation>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>astronomi</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-02-01" who="#pz">Filen etableret</change>
+      <change when="2019-06-11" who="#pz">Tekst indlagt. Afsnit og sidetal indsat</change>
+      <change when="2019-06-12" who="#pz">Korrektur påbegyndt</change>
+      <change when="2019-06-17" who="#pz">Korrektur og opmærkning afsluttet</change>
+      <change when="2019-06-28" who="#pz">Tekstkritik påbegyndt</change>
+      <change when="2019-07-02" who="#pz">Tekstkritik færdig</change>
+      <change when="2019-10-22" who="#pz">Ampersander opløst</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="text" n="Oratio">
+        <head><orig><pb ed="TBOO" n="I.145"/><pb ed="V" n="1r"/><app>
+            <lem wit="V">ORATIO QUAM HABUI ANNO 1574 IN PRINCIPIO SEPTEMBRIS IN
+              CONSESSU MAG.  <ref target="n1"/> <persName ref="Dançay">LEGATI GALLI</persName>
+              DOCTORUM ET PROFESSORUM OMNIUM ATQUE STUDIOSORUM ACADEMIÆ <placeName
+                ref="Copenhagen">HAFNIENSIS</placeName> CUM EX REGIS VOLUNTATE
+              PUBLICAM IN ASTRONOMICIS PRÆLECTIONEM INCHOAREM.</lem>
+            <rdg wit="#C">Tyconis Brahei Oratio. Quam Hafniæ publice habuit in
+              concesso Professorum et Studiosorum, antequam susciperet
+              prælectiones Mathematicas in fine anni 1574</rdg>
+        </app>
+      </orig>
+      <reg>Oratio</reg>
+      <reg xml:lang="en">Oratio</reg>
+    </head>
+
+        <p>CLARISSIMI viri, vosque studiosi adolescentes, rogatus sum, non solum a
+          quibusdam vestrum, amicis meis, sed ab ipso etiam Serenissimo Rege nostro,
+          ut nonnulla in Mathematicis disciplinis publice proponerem. Id muneris, etsi
+          a meis conditionibus, et ingenij ac exercitationis tenuitate, admodum sit
+          alienum: tamen <persName ref="Frederik 2.">Regiæ Majestatis</persName>
+          petitioni resistere non licuit, vestræ non placuit, et meapte sponte ab
+          ineunte ætate eo propensus fui, vt non solum <app>
+            <lem>in</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> his studijs perdiscendis plurimum temporis et laboris impenderem, sed <app>
+            <lem wit="#V">alios</lem>
+            <rdg wit="#C"><q>et alios</q></rdg>
+          </app> etiam ad idem factitandum multopere instigans, eorum conatus pro
+          virili juuarem. Quantum enim hæ disciplinæ præ cœteris obtineant, tum
+          euidentis certitudinis, tum incredibili jucunditate refertæ eruditionis, vix <app>
+            <lem wit="#V">eloqui a quoquam</lem>
+            <rdg wit="#C"><q>dicendo a quoquam exprimi</q></rdg>
+            </app> posse arbitror. Et non solum in demonstrationum <app>
+            <lem wit="#V">robore</lem>
+            <rdg><q>certitudine</q>V man. pr. C</rdg>
+            </app>, et scientiæ pulchritudine, sed et <app>
+            <lem wit="#V">varietate</lem>
+            <rdg wit="#C"><q>veritate</q></rdg>
+            </app> multiplicique cognitionis copia, reliqua <app>
+            <lem wit="#V">omnium</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> artium genera longe antecellunt: adeo ut non immerito ob id
+          Mathematicæ, quasi solæ disciplinarum nomine, ob excellentiam, dignæ, a
+          veteribus appellatæ sint. Versatur autem hæc tota contemplatio, quæ  <ref target="n2"/> <app>
+            <lem wit="#V">Mathesis</lem>
+            <rdg wit="#C"><q>Mathematicæ</q></rdg>
+            </app> nomine venit, in genere, circa quantitatum considerationem, et duabus <app>
+            <lem wit="#V">potissimis</lem>
+            <rdg><note><q>potissimum</q> V man. pr. C</note></rdg>
+            </app> distinguitur partibus, <app>
+            <lem wit="#V">Geometria</lem>
+            <rdg wit="#C"><q>Geometrica</q></rdg>
+          </app> videlicet et Arithmetica: quarum hæc quantitates discretas, illa
+          continuas metitur. Ex his <app>
+            <lem wit="#V">uero</lem>
+            <rdg wit="#C"><q>igitur</q></rdg>
+          </app> duabus ceu parentibus plurimæ aliæ eruditæ et scitu jucundæ gignuntur
+          Mathematicæ scientiæ: inprimis uero sublimis illa ac pariter jucundissima
+          motus et harmoniæ cœlestium corporum consideratrix, Astronomia, de qua
+          postea dicemus, ubi nonnulla prius de his duabus, Geometria et Arithmetica,
+          quibus illa fundatur, præfati fuerimus. Geometriam apud Ægiptios <app>
+            <lem wit="#V">originem duxisse</lem>
+            <rdg wit="#C"><q>ortam fuisse</q></rdg>
+          </app> creditur: <placeName ref="the Nile">Nili</placeName> inundatione
+          agrorum limites absorbere, et hac occasione artis necessitatem, qua dominia
+          agrorum denuo juste partirentur, introducente: hancque ob huius artis primo
+          inventam vtilitatem, a terræ mensuratione, Geometriæ nomen sortitam esse,
+          verisimile est: <app>
+            <lem wit="#C">quamvis</lem>
+            <rdg><note><q>quanquam</q> in <q>quanvis</q> corr. V</note></rdg>
+            </app> nequaquam adeo vilibus sit serua officijs, ut terrarum et agrorum <pb
+            ed="V" n="1v"/>saltem metiatur quantitates, sed omnem magnitudinem,
+          figuram, <pb ed="TBOO" n="I.146"/>proportionem, quæ intellectui
+          compræhensibilis est, explicat, et ad cœlos usque elata, reales ac <app>
+            <lem wit="#V">sensibus</lem>
+            <rdg wit="#C"><q>in sensus</q></rdg>
+          </app> incurrentes motuum cœlestium harmonias in certam cognitionem deducit.
+          Huic olim in <placeName ref="Egypt">Ægipto</placeName> et <placeName
+            ref="Greece">Græcia</placeName> plurimi certatim incubuerunt artifices:
+          quorum singuli ad artis constitutionem <app>
+            <lem wit="#V">aliqua</lem>
+            <rdg wit="#C"><q>aliquid</q></rdg>
+            </app> contulerunt. Horum tandem inventa <persName ref="Euclid">Euclides
+            Megarensis</persName> uno complexus volumine, artis elementa <app>
+            <lem wit="#V">concinno</lem>
+            <rdg wit="#C"><q>continuo</q></rdg>
+          </app> ordine et magna solertia ita tradidit, ut a quouis mediocris ingenij
+          acumine prædito non difficulter percipi <app>
+            <lem wit="#V">possint</lem>
+            <rdg wit="#C"><q>possent</q></rdg>
+            </app>. In hac arte <persName ref="Archimedes">Archimedes
+            Syracusanus</persName> ad miraculum usque clarus extitit, et patriæ
+          muros a Romanorum crebris insultibus, per machinas bellicas <app>
+            <lem wit="#V">huius</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> artis beneficio extructas, diu <app>
+            <lem wit="#V">repulit</lem>
+            <rdg wit="#C"><q>asseruit</q></rdg>
+          </app>, classesque hostium per specula ignem a Sole reflectentia, admirando
+          et ingenioso stratagemate exussit. Quamuis hæc parum ad artis commendationem
+          faciant, cum majora et digniora per eam præstari possint, <app>
+            <lem wit="#V">imo abusus potius tam diuinæ artis ad utilitatem, non
+              destructionem humani generis concessit, ista merito cordatioribus
+              censenda</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Quanta autem huius scientiæ sit certitudo, quanta jucunditas, et per
+          omnes alias artes ac in communi vita vtilitas, verbis satis explicari non
+          potest. Hanc veteres Philosophi statim ab ipsa pueritia discendam
+          præcipiebant, siue quod hæc, præterquam quod per se cognitu dignissima
+          esset, veritatem et cohærentiam in cœteris artibus <app>
+            <lem wit="#V">discerneret</lem>
+            <rdg wit="#C"><q>metiretur</q></rdg>
+            </app>, siue quod per hanc <app>
+            <lem>exercitata</lem>
+            <rdg><note>ex <q>exercitia</q> ut videtur corr. V</note></rdg>
+            </app> et acuita ingenij acie reliquæ disciplinæ caperentur, <app>
+            <lem wit="#V">postmodo</lem>
+            <rdg wit="#C"><q>postmodum</q></rdg>
+            </app> negotio longe minori, et judicium de rebus non præcipitans, sed ex <app>
+            <lem wit="#V">indictione</lem>
+            <rdg wit="#C"><q>indicio</q></rdg>
+            </app> causarum rationabilium, aliquandiu suspensum, rectius <app>
+            <lem wit="#V">formaretur</lem>
+            <rdg wit="#C"><q>informaretur</q></rdg>
+            </app>. Vnde non immerito diuinus ille <persName ref="Platon"
+              >Plato</persName>  <ref target="n3"/> omnes Geometriæ ignaros a sua schola, <app>
+            <lem wit="#V">publice</lem>
+            <rdg wit="#C"><q>publico</q></rdg>
+          </app> foribus appenso edicto, arcebat, tanquam minus idoneos ad reliquam
+          Philosophiam capescendam. Atque hinc factum esse judico, quod veteres
+          Philosophi ad tantum eruditionis fastigium conscenderint, quod <app>
+            <lem wit="#V">hi</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> Geometria a prima pueritia imbuti erant, dum nos plurimos, eosque
+          optimos adolescentiæ annos  <ref target="n4"/> Grammaticæ et linguarum studijs, quæ hi a matre
+          nullo negotio hauserunt, infeliciter impendimus. Ex hac Geometria manat
+          incomparabilis et ingeniosissima illa, tam planorum, quam <app>
+            <lem wit="#V">sphæralium</lem>
+            <rdg wit="#C"><q>sphæricorum</q></rdg>
+          </app> triangulorum scientia, cuius beneficio tota astrorum cognitio
+          extructa est, et si <app>
+            <lem wit="#V">plane</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> collapsa foret, <app>
+            <lem wit="#V">modo dedomena requisita in <pb ed="V" n="2r"/>promptu
+              essent</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, in integrum restitui posset. Ex hac Optica, occultissima illa
+          pariterque jucundissima radiorum visualium speculatio procedit: cuius
+          elementa  <ref target="n5"/> <persName ref="Vitellio">Vitellio</persName> decem libris
+          tradidit, et post illum  <ref target="n6"/> <app>
+            <lem wit="#V"><persName ref="Alhazen">Alhazen</persName></lem>
+            <rdg wit="#C"><q>Alhason</q></rdg>
+          </app> Arabs. Ex hac Gnomonice, quæ vmbrarum et horologiorum sciotericorum,
+          in quauis superficie delineationes proponit, non minus eruditum, quam vtile
+          procedit exercitium. Ex hac Geographia, quas terrarum, marium et vrbium
+          dispositiones ob oculos pingit, suam duxit originem: vt nihil dicam de
+          Architectura, aquæ ducti<pb ed="TBOO" n="I.147"/>bus, machinis bellicis,
+          multisque mechanicis per Geometriam inventis operibus, quibus uel manuales
+          artifices vtuntur, uel instrumenta cœli siderumque motibus, alijsque in
+          terra dimensionibus obseruandis, idonea conficiuntur: <app>
+            <lem wit="#V">ut</lem>
+            <rdg wit="#C"><q>unde</q></rdg>
+          </app> non minus certum et iucundum, quam multiplex et nunquam penitus
+          exhauriendum <app>
+            <lem wit="#V">sit</lem>
+            <rdg><note><q>esse</q> C, qui post <q>studium</q> add.
+                <q>liquet</q></note></rdg>
+            </app> Geometriæ studium: <app>
+            <lem wit="#V">utque</lem>
+            <rdg wit="#C"><q>et ut</q></rdg>
+            </app> verbo rem totam <app>
+            <lem wit="#V">dicam</lem>
+            <rdg wit="#C"><q>complectar</q></rdg>
+            </app>, non est quod quisquam <app>
+            <lem wit="#V">singularis</lem>
+            <rdg wit="#C"><q>perfectæ</q></rdg>
+          </app> eruditionis laudem, qui Geometriæ ignarus fuerit, sibi jure vendicet.
+          Huic inter Mathematicas disciplinas succedit Arithmetica, quæ licet ab ipsa
+          Geometria suorum principiorum demonstrationes sortiatur, tamen hæc non
+          amplius circa quantitates continuas, sed discretas versatur, totaque in
+          numerorum contemplatione absoluitur. Hæc scientia quantam in communi vita, <app>
+            <lem wit="#V">minimis saltem</lem>
+            <rdg wit="#C"><q>etiam minimis</q></rdg>
+          </app> sui partibus vsurpata, vtilitatem habeat, neminem ignorare arbitror,
+          quamvis multo latius se extendat numerorum <app>
+            <lem wit="#V">doctrina</lem>
+            <rdg wit="#C"><q>scientia</q></rdg>
+          </app>, et non minus quam Geometria infinitam, ac a nemine mortalium penitus
+          absoluendam, <app>
+            <lem wit="#V">amplectatur</lem>
+            <rdg wit="#C"><q>complectatur</q></rdg>
+          </app> cognitionem. Per hanc Pythagorici olim totius naturæ et ipsius etiam
+          Dei mysteria velabant: tanquam omnia essent, quemadmodum figuris et
+          proportionibus, ita et numeris consona. Et quamvis <persName
+            ref="Pythagoras">Pythagoræ</persName> hæc inprimis scientia immortalem
+          peperit memoriam, tamen Ægiptios et vicinas gentes <app>
+            <lem wit="#V">eam</lem>
+            <rdg wit="#C"><q>hanc</q></rdg>
+          </app> prius calluisse, a quibus eam Pythagoras hausit, non est dubium.
+          Ægiptios uero hanc ab Abrahamo Patriarcha didicisse,  <ref target="n7"/> <persName
+            ref="Josephus">Josephus</persName>
+          <app>
+            <lem wit="#V">antiquitatum Judaicarum scriptor asseverat</lem>
+            <rdg wit="#C"><q>astipulatur</q></rdg>
+          </app>: ut non minus utilis et erudita, quam antiqua sit numerorum scientia.
+          Ex his <app>
+            <lem wit="#V">duabus</lem>
+            <rdg wit="#C"><q>duobus</q></rdg>
+            </app>, Geometria et Arithmetica, alia sublimis et a terræ fecibus <app>
+            <lem wit="#V">remotissima</lem>
+            <rdg wit="#C"><q>remota</q></rdg>
+          </app> nascitur scientia, quam Astronomiam appellarunt. Hæc non terræ,
+          maris, aut cœterorum <pb ed="V" n="2v"/>elementorum, <app>
+            <lem wit="#C">angustis</lem>
+            <rdg wit="V"><q>angustijs</q></rdg>
+            </app> claudi contenta limitibus, per altissimum et <app>
+            <lem wit="#V">spatiosum</lem>
+            <rdg wit="#C"><q>spatiosissmum</q></rdg>
+            </app> æthera, per lucidissimum Solem, et candidissimam  <ref target="n8"/> multiformemque
+          Lunam, omniaque alia tam errantia, quam inerrantia incedens sidera: horum
+          omnium motus, harmonias, reuolutiones, proportiones, et magnitudines sublimi
+          consideratione scrutatur: a Geometria quidem id <app>
+            <lem wit="#V">mutuata</lem>
+            <rdg wit="#C"><q>mutuatur</q></rdg>
+            </app>, ut per ipsam <app>
+            <lem wit="#V">certa ratione</lem>
+            <rdg wit="#C"><q>certis et exquisitis</q></rdg>
+          </app> constructis organis, siderum obseruentur phænomena, observataque in
+          hypotheses, apparentijs respondentes, redigantur, quibus motuum intricatæ
+          varietates <app>
+            <lem wit="#V">concinne</lem>
+            <rdg wit="#C"><q>continue</q></rdg>
+          </app> salvari possint. Ab Arithmetica vero id beneficij obtinet, ut illa
+          hypotheses per Geometriam inventas et constitutas excipiat, easque in partes <app>
+            <lem wit="#V">dispertiens</lem>
+            <rdg wit="#C"><q>dispartiens</q></rdg>
+          </app>, totum æthera in numeros, quibus quovis tempore siderum cursus
+          præfinire liceat, resolvat. Quamvis autem Astronomia ex his duabus hac
+          ratione in artem certam constituta sit: tamen illa non solum has, sed et
+          omnes alias in toto hoc genere exuperat artes, et velut principem locum
+          obtinet. Nam et antiquitate et nobilitate ac cognitionis sublimitate, præ
+          reliquis omnibus maximam sibi vendicat laudem. Vt enim de Astronomiæ
+          vetustissima <pb ed="TBOO" n="I.148"/>origine primum dicamus, quid <app>
+            <lem wit="#V"><persName ref="Adam">Adamo</persName> eiusque filijs</lem>
+            <rdg wit="#C"><q>Adami filiis</q></rdg>
+          </app> antiquius? Ex quibus <persName ref="Seth">Seth</persName> siderum
+          cognitionem invenisse et posteris tradidisse, <app>
+            <lem wit="#V">ab eodem, de quo diximus, <persName ref="Josephus"
+                >Josepho</persName></lem>
+            <rdg wit="#C"><q>a Josepho antiquitatum judacarum fidelissimo
+                scriptore</q></rdg>
+            </app> asseritur: <app>
+            <lem wit="#V">totamque</lem>
+            <rdg wit="#C"><q>eumque totam</q></rdg>
+          </app> ætatem obseruandis et perscrutandis siderum motibus
+          impendisse,totamque et tandem binas extruxisse columnas, quibus inventa sua,
+          ne unquam <app>
+            <lem wit="#C">e</lem>
+            <rdg wit="#V"><q>a</q></rdg>
+            </app> mortalium memoria perirent, <app>
+            <lem>insculpserat</lem>
+            <rdg><note>ex <q>inscupserat</q> corr. V</note></rdg>
+            </app>. Et quia memorabilis est iste locus, audiamus ipsum <persName
+            ref="Josephus">Josephum</persName> de antiquissima Astronomiæ origine
+          nos commonefacientem. Sic igitur scribit lib. I.  <ref target="n9"/> <hi rend="it">Ex huius
+            <persName ref="Adam">Adami</persName> liberis <persName ref="Seth"
+              >Seth</persName> educatus, ubi eo ætatis venit, ut jam, quod rectum
+            esset, decernere valeret, virtutis studijs se totum <app>
+              <lem wit="#V">dedit</lem>
+              <rdg><note><q>dedidit</q></note></rdg>
+              </app>: et cum <app>
+              <lem wit="#V">vir</lem>
+              <rdg><note><q>ipse vir</q></note></rdg>
+              </app> optimus evasisset, etiam nepotes sui <app>
+              <lem wit="#V">imitatores</lem>
+              <rdg><note><q>similes post se</q></note></rdg>
+            </app> reliquit, qui, quoniam erant omnes
+            bona indole præditi,et patriam absque seditione incolebant, in perpetua
+            felicitate vitam <app>
+              <lem wit="#V">exigebant</lem>
+              <rdg wit="C"><q>exegerunt</q></rdg>
+              </app>, <app>
+              <lem wit="#V">sapientiamque cœlestium rerum atque ornatum
+                animaduerterunt</lem>
+              <rdg wit="C"><q>et sideralem scientiam ac cœlestium rerum
+                  cognitionem excogitaverunt</q></rdg>
+              </app>. Ne autem <app>
+              <lem wit="#V">hæc inuenta</lem>
+              <rdg wit="C"><q>inventa sua</q></rdg>
+              </app> ex hominum noticia dilaberentur, cum <persName ref="Adam"
+              >Adamus</persName> universalem rerum interitum fore prædixisset,
+            vnum incendio, diluuio alterum, excitarunt duas columnas, alteram
+            latericiam, alteram lapideam, et vtrique sua inventa <app>
+              <lem resp="#TBOO">insculpserunt</lem>
+              <rdg wit="#V"><q>inscupserunt</q></rdg>
+              <rdg wit="#C"><q>inscripserunt</q></rdg>
+            </app>, vt si latericiam diluuio deleri contingeret, lapidea superstes
+            hominibus discendi copiam faceret, et quæ inscripta continebat,
+            spectanda exhiberet.</hi>
+          <pb ed="V" n="3r"/>Hæc <persName ref="Josephus">Josephus</persName>, <app>
+            <lem wit="#V">qui insuper addit, quod una earum suo tempore in Syria
+              adhuc extiterit</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. A primis uero his <persName ref="Adam">Adami</persName> filijs, ad
+          eorum successores, et tandem ad Patriarchas descendisse astrorum scientiam
+          credibile est; adeo <app>
+            <lem wit="#V">quod</lem>
+            <rdg wit="#C"><q>ut</q></rdg>
+          </app> idem rerum Judaicarum scriptor non dubitet subjungere,  <ref target="n10"/> <hi rend="it"
+            ><persName ref="Abraham">Abrahamum Patriarcham</persName> ex ijs,
+            quæ videbat circa Solem, Lunam, et reliqua sidera apparere, primum <app>
+              <lem wit="#V">omnium</lem>
+              <rdg><note>om. C</note></rdg>
+            </app> vicinos homines docuisse, vnum esse Deum, rerum vniuersitatis
+            conditorem et consideratorem, cuius voluntati omnia in rerum natura
+            obsecundent: et propterea huic soli honorem et gratias ab hominibus esse <app>
+              <lem wit="#D">referendas</lem>
+              <rdg wit="#V"><q>ferendas</q></rdg>
+          </app>.</hi> Hæc, inquam, ab astrorum æternis et admirandis circuitibus
+          didicisse, aliosque docuisse Abrahamum testatur <persName ref="Josephus"
+            >Josephus</persName>, eundemque non ita diu post in Ægiptum profectum
+          esse ait, atque inter alia Ægiptios, non solum numerorum scientiam, ut supra
+          dixi, sed et Astronomiam docuisse: eo quod illi ante Abrahami ad eos
+          aduentum huius artis ignari essent. <app>
+            <lem wit="#V">Similia <persName ref="Philo">Philo</persName>, Judaicarum
+              etiam rerum scriptor, et <app>
+                <lem wit="#C">philosophiæ</lem>
+                <rdg wit="#V"><q>Philisiphiæ</q></rdg>
+              </app> Platonicæ non ignarus,  <ref target="n11"/> de Abrahamo narrat, quem dum Deum
+              saltem ex cœlestium corporum consideratione nouisset, et Astronomus
+              esset, <app>
+                <lem>Abram primum</lem>
+                <rdg><note>ex <q>Abrahem dictum</q> corr. V</note></rdg>
+              </app>, postea vero, cum ex Dei peculiari dono Theologus una factus
+              esset, <persName ref="Abraham">Abrahamum</persName> dictum
+              esse.</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> Hinc itaque patet, a primis parentibus statim circa mundi exordia
+          inceptam esse astrorum cognitionem, et inde ad Patriarchas quasi per manus
+          traditam, eoque id verisimilius est <app>
+            <lem wit="#V">(quod et prænominatus  <ref target="n12"/> <persName ref="Josephus">Jo<pb
+                  ed="TBOO" n="I.149"/>sephus</persName> non obscure innuit)
+              ijs propterea adeo diutinam ætatem fuisse concessam</lem>
+            <rdg wit="#C"><q>quod hi longæva ætate præditi erant</q></rdg>
+          </app>, quæ requirebatur in diligenter perquirendis intricatis illis
+          tardiorum præsertim syderum motibus, <app>
+            <lem wit="#V">ut de fixis stellis, longissimum tempus requirentibus, non
+              dicam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Quantum uero ad nos in astrorum scientia peruenit,  <ref target="n14"/> <app>
+            <lem resp="#TBOO"><persName ref="Timochares">Timochares</persName></lem>
+            <rdg wit="#V"><q>Timocheres</q></rdg>
+            </app> primum, citante  <ref target="n13"/> <persName ref="Ptolemaios">Ptolomæo</persName>, et
+          deinde  <ref target="n15"/> <persName ref="Hipparchos">Hyparchus Rhodius</persName>
+          <app>
+            <lem wit="#V">præcipuus</lem>
+            <rdg wit="#C"><q>primus</q></rdg>
+          </app> eius parens censetur. Is enim fixarum loca diligenter obseruauit,
+          Solisque et Lunæ cursus per plurimos subsequentes annos designauit, ac in
+          cœterorum planetarum totiusque cœli obseruationibus <app>
+            <lem wit="#V">proculdubio etiam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> diligentissimus fuit, <app>
+            <lem wit="#V">licet scripta eius hac de re ad nos non pervenerint</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>. Huius inventis et considerationibus <persName ref="Ptolemaios"
+            >Ptolomæus Alexandrinus</persName> cum suis <app>
+            <lem wit="#V">potissimum</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> collatis, totam artem in certas hypotheses, unaque in numeros
+          redegit, et immortalem apud omnem posteritatem <app>
+            <lem>hinc</lem>
+            <rdg><note>post <q>hinc</q></note> add. <q>merito</q> C</rdg>
+        </app> sibi peperit memoriam:</p>
+
+        <lg rend="it">
+          <l> <ref target="n16"/> Dum conuexa Poli lustrabit lumine Titan,</l>
+          <l>Et vaga nocturnam præbebit Cynthia lucem,</l>
+          <l>Semper honos, nomenque <app>
+              <lem wit="#D">eius</lem>
+              <rdg wit="#V"><q>tuum</q></rdg>
+          </app>, laudesque manebunt</l>
+        </lg>
+
+        <p><pb ed="V" n="3v"/><app>
+          <lem wit="#V">Post illum  <ref target="n17"/> <persName ref="Albategnius"
+                >Albategnius</persName> quædam enucleatius restituere laborauit,
+            præsertim quo ad Solis et Lunæ fixarumque normas. Ex quibus  <ref target="n18"/> Rex
+              Arragoniæ <persName ref="Alfonso 10.">Alphonsus</persName> per eos
+              quos magnis sumptibus allexerat artifices, pro majori parte
+              assumptis quibusdam a <persName ref="Ptolemaios"
+                >Ptolomæo</persName>, et alijs adminiculis, eam quam adhuc sub
+              ipsius nomine habemus, tabularum farraginem construi curauit.</lem>
+            <rdg><note>om. C</note></rdg>
+        </app> Nostra uero ætate  <ref target="n19"/> <persName ref="Copernicus">Nicolaus
+            Copernicus</persName>, quem alterum <persName ref="Ptolemaios"
+            >Ptolomæum</persName> non immerito dixeris, cum desiderari quædam in
+          <persName ref="Ptolemaios">Ptolomæo</persName> ex obseruationibus a se
+          factis deprehendisset, et hypotheses ab ipso constitutas quiddam absoni et
+          contra axiomata Mathematica peccans admittere judicasset, nec Alphonsinam
+          supputationem, cœli motibus consentaneum, invenisset: idcirco admirandâ
+          ingenij solertiâ, hypothesibus aliter constitutis, cœlestium motuum
+          scientiam ita restaurauit, ut nemo ante ipsum exactius de siderum <app>
+            <lem wit="#V">cursu</lem>
+            <rdg wit="#C"><q>motibus</q></rdg>
+            </app> sit philosophatus. Quamuis enim phisicis principijs quædam contraria <app>
+            <lem wit="#V">struat</lem>
+            <rdg wit="#C"><q>statuat</q></rdg>
+            </app>, ut Solem in centro vniuersi quiescere, Terram cum admistis elementis <app>
+            <lem resp="#TBOO">et Luna</lem>
+            <rdg wit="V">et Lunæ</rdg>
+          </app> moveri circa Solem motu triplici, octauam sphæram consistere immotam,
+          tamen quo ad Mathematica axiomata nihil absurdi admittit: quod in
+          Ptolemaicis et vsitatis hypothesibus, si rem <app>
+            <lem wit="#V">penitus introspiciamus</lem>
+            <rdg wit="#C"><q>penitius introspicias</q></rdg>
+            </app>, animaduertere licet. <app>
+            <lem wit="#C">Hæ</lem>
+            <rdg wit="#V"><q>Hi</q></rdg>
+          </app> enim siderum motus in suis Epiciclis et Excentricis, respectu
+          eorundem circulorum <app>
+            <lem wit="#C">centri</lem>
+            <rdg wit="#V"><q>centra</q></rdg>
+          </app>, irregulares, quod absurdum est, constituunt, regularemque siderum
+          motum per irregularitatem inconvenienter saluant. Ex his duobus artificibus,
+          <persName ref="Ptolemaios">Ptolomæo</persName> et <persName
+            ref="Copernicus">Copernico</persName>, omnia illa, quæ nostra ætate in
+          astrorum reuolutionibus perspecta et cognita habemus, constituta ac tradita
+          sunt. <app>
+            <lem wit="#V">Nam quæ Alphonsini ex <persName ref="Albategnius"
+                >Albategnio</persName> et quibus<pb ed="TBOO" n="I.150"/>dam
+              alijs huc attulerunt, fundamentalem artis tractationem et ex
+              observationibus certis diductam non sapiunt.</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>
+          <app>
+            <lem wit="#V">Danda uero</lem>
+            <rdg wit="#C"><q>Et danda</q></rdg>
+            </app> erat merito opera, ne hæc diuina eorum inventa <app>
+            <lem wit="#V">e</lem>
+            <rdg wit="#C"><q>a</q></rdg>
+            </app> mortalium cognitione perirent, sed <app>
+            <lem wit="#V">potius</lem>
+            <rdg wit="#C"><q>ut</q></rdg>
+          </app> diligenter cognoscerentur ac illustrarentur. Et si quæ in illis (quod
+          in tam perplexa et sublimi scientia aliter fieri <app>
+            <lem wit="#V">nequit</lem>
+            <rdg wit="#C"><q>non potest</q></rdg>
+          </app>) desiderarentur, per crebras siderum observationes, ac observationum
+          in hypothesium <pb ed="V" n="4r"/>et numerorum <app>
+            <lem wit="#V">correctionem</lem>
+            <rdg wit="#C"><q>correctione</q></rdg>
+            </app> distributiones restituerentur. Quid enim hac scientia potest esse <app>
+            <lem wit="#V">difficilius</lem>
+            <rdg wit="#C"><q>nobilius</q></rdg>
+            </app>? quid <app>
+            <lem wit="#V">etiam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> præstantius? Quæ non in <app>
+            <lem wit="#V">terrenis</lem>
+            <rdg wit="#C"><q>terrestribus</q></rdg>
+            </app>, momentaneis, et fluidis rebus occupatur, sed circa <app>
+            <lem wit="#V">præcipua</lem>
+            <rdg wit="#C"><q>æterna</q></rdg>
+          </app> illa, et nulli alterationi obnoxia cœli corpora, ingeniosa et
+          perjucunda contemplatione versatur. Est ubi ver æternum, ubi semper:</p>
+
+        <lg rend="hi">
+          <l> <ref target="n20"/> Lucidus apparet Titan, nullisque tenebris</l>
+          <l>Læditur alma dies: non illic nubifer Auster,</l>
+          <l>Vesanusque Aquilo, non illic bella nec enses:</l>
+          <l>Omnia sed læta placidaque quiete geruntur.</l>
+        </lg>
+
+        <p>Quapropter <app>
+            <lem wit="#V">quam</lem>
+            <rdg wit="#C"><q>quantum</q></rdg>
+          </app> ætherea illa moles hanc inferiorem naturam sua magnitudine, forma,
+          motus perpetua et admiranda lege ac delectabili pulchritudine antecellit: <app>
+            <lem wit="#V">in tantum</lem>
+            <rdg wit="#C"><q>tanto</q></rdg>
+          </app> cœteris artibus, quæ circa  <ref target="n21"/> hæc inferiora et caduca occupantur,
+          nobilior et præstantior jure meritoque censeri debet: cuius sublimem
+          dignitatem, non humilia et terræ, more pecudum, affixa capiunt <app>
+            <lem wit="#C">ingenia</lem>
+            <rdg wit="#V"><q>igenia</q></rdg>
+          </app>, sed quibus igneus inest vigor et cœlestis origo. Quid quæso
+          pulchrius et homine dignius esse potest, quam immensam illam cœli machinam,
+          luminarium, stellarumque omnium <app>
+            <lem wit="#V">exquisitas</lem>
+            <rdg wit="#C"><q>intricatas</q></rdg>
+          </app> et admirandas vicissitudines, motuumque jucundissimas harmonias suo
+          submittere ingenio? Vident quidem imperiti Solem oriri et occidere, Lunam
+          crescere et minui, stellas in cœlo micare: sed in his nihil animaduertunt,
+          quod non a brutis etiam animantibus videri queat. Non vident Solem ab occasu
+          in ortum motui diurno, per obliquum circulum contraniti, et id quidem
+          inæqualiter, atque per hunc motum anni quantitatem, et dierum noctiumque <app>
+            <lem wit="#V">vicissitudinem</lem>
+            <rdg wit="#C"><q>inæqualitatem</q></rdg>
+          </app> efficere. Non animaduertunt Lunam nunc cursum intendere, nunc
+          remittere, interdum Terræ propiorem, interdum <app>
+            <lem>longius</lem>
+            <rdg><note>post <q>longius</q> add. <q>a terra</q> C.</note></rdg>
+          </app> remotam esse. Cœteros insuper quinque planetas non considerant diurno
+          motui etiam in contrarium ferri, idque dispari gressu, nunc cursum
+          accelerare, nunc retardare, aliquando etiam consistere, et nonnunquam priora
+          vestigia relegere, <app>
+            <lem wit="#V">eosdemque</lem>
+            <rdg><note><q>eosdem</q></note></rdg>
+          </app> dum hunc cursum in Zodiaci longitudine peragrant, varie interea ab
+          orbita Solis, tam versus Austrum, quam Boream sese inflectere. Hæc, inquam,
+          et multa alia, quæ in admirandis cœlestium corporum motibus indesinenter
+          fiunt, <app>
+            <lem wit="#V">Astronomicæ</lem>
+            <rdg><note><q>Astronomiæ</q></note></rdg>
+          </app> artis im<pb ed="V" n="4v"/>periti non vident: nec si cernere possent,
+          causas tantarum diuersitatum <pb ed="TBOO" n="I.151"/>intelligunt. Quis
+          huius artis inscius animaduerteret Solem, qui nobis non usque adeo magnus
+          apparet, vera tamen quantitate <app>
+            <lem wit="#V">centum sexaginta</lem>
+            <rdg><note><q>centum sexaginta vicibus</q></note></rdg>
+          </app> vicibus maiorem esse toto orbe terrarum et marium, cum Luna, quæ illi
+          æqualis <app>
+            <lem wit="#V">apparet</lem>
+            <rdg><note><q>videtur</q></note></rdg>
+          </app>, vix sit quadragesima Terræ portio? Quis cœteras stellas tantam
+          obtinere magnitudinem sibi persuaderet, vt nulla <app>
+            <lem wit="#V">fere</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> sit <app>
+            <lem wit="#V">inter fixas</lem>
+            <rdg wit="#C"><q>inter minimas fixas</q></rdg>
+          </app>
+          <app>
+            <lem wit="#V">sensibiliter oculis incurrentes</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, quæ non aliquoties Terræ molem sua quantitate exuperet? cum maximæ
+          et <app>
+            <lem>primum</lem>
+            <rdg><note>post <q>primum</q> add. <q>mutanda</q> V, sed
+                delevit</note></rdg>
+            </app> honorem sortitæ <app>
+            <lem wit="#V">multoties</lem>
+            <rdg wit="#C"><q>plus centies</q></rdg>
+          </app> Terra maiores deprehendantur. Hæc, inquam, et plurima alia, maxima
+          hominum pars, quæ huius artis ignara est, non <app>
+            <lem wit="#V">aduertit</lem>
+            <rdg wit="#C"><q>considerat</q></rdg>
+          </app>: et in hoc pulcherrimo opificio, Homo medius constitutus, tanquam
+          cæcus oberrat, non intelligens domus illius, ut ita dicam, qua circundatur,
+          structuram et ornamenta: sed cœterorum animalium more in terram pronus, nil
+          nisi terrenum et caducum, voluptates, diuitias, honores, luxum, et cœtera
+          huius mundi ludicra spectacula, quæ omnia secum mors abolet, sectatur: <app>
+            <lem wit="#V">cum tamen</lem>
+            <rdg wit="#C"><q>siquidem</q></rdg>
+        </app> Deus illi præ cœteris animantibus</p>
+
+        <lg>
+          <l rend="indent"> <ref target="n22"/> Os sublime dedit, cœlosque tueri</l>
+          <l>Jussit, et erectos ad sidera tollere vultus.</l>
+        </lg>
+
+        <p>De vtilitate autem Astronomiæ, quid opus est multa commemorare? cum sine
+          annorum, mensium et dierum interuallis ac certa designatione, quæ ab
+          Astronomia procedit, nulla politia, nulla Respublica consistere possit, ut
+          de plurimis alijs euidentibus vtilitatibus, quas Astronomiæ cognitio in
+          communi vita affert, nil <app>
+            <lem wit="#V">addam</lem>
+            <rdg wit="#C"><q>dicam</q></rdg>
+          </app>. Imo etiam si hæc ars alias prorsus nihil commoditatis haberet: tamen
+          ipsa per se talis est, ut merito a liberalibus ingenijs eius cognitio expeti
+          debeat. Nam ingenium hominis incredibili et jucunda delectatione afficit et
+          acuit, cogitationesque, in quibus vita illius consistit, a terrenis his,
+          ridiculis et caducis rebus, ad cœlestes, serias et fixas contemplationes
+          avocat, hominemque ipsum vera voluptate, simili quodammodo cœlestium
+          incolarum, eum ultra mortalem sortem euehens, afficit et recreat. Vnde hæc a
+          <persName ref="Ptolemaios">Ptolomæo</persName> prolata, non solum ab
+          ipso, sed a quouis diuinæ illius <pb ed="V" n="5r"/>Astronomiæ gnaro, <app>
+            <lem wit="#V">non citra rem asseri</lem>
+            <rdg wit="#C"><q>jure meritoque jactari</q></rdg>
+        </app> possunt:</p>
+
+        <lg rend="it">
+          <l> <ref target="n23"/> Quamuis mortalis vescor mortalibus auris</l>
+          <l rend="indent">Et quoque mortali cognitione premor,</l>
+          <l>Cum tamen æthereos sublimi mente meatus</l>
+          <l rend="indent">Scrutor, et assiduis astra rotata vijs.</l>
+          <l>Haud ego mortalis, neque mens in corpore sordet</l>
+          <l rend="indent">Mortali, aut terræ pes mihi tangit humum.</l>
+          <l>Sed sublime polo caput vltra nubila tollens,</l>
+          <l rend="indent">Cum Joue cœlesti perfruor Ambrosiâ.</l>
+        </lg>
+
+        <p><pb ed="TBOO" n="I.152"/>Quorsum uero sapiens ille et prouidus rerum
+          vniuersitatis autor, tam admirandas et perpetuas motuum cœlestium leges,
+          tanta diuersitate, et tam <app>
+            <lem wit="#V">concinna</lem>
+            <rdg wit="#C"><q>continua</q></rdg>
+            </app> harmonia effinxisset, si eas ab hominibus, quorum <app>
+            <lem wit="#V">etiam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> caussa <app>
+            <lem wit="#V">magna ex parte</lem>
+            <rdg wit="#C"><q>omnia</q></rdg>
+          </app> visibilia condidit, ignorari voluisset? Imo potius hæc indefesso
+          labore <app>
+            <lem wit="#V">perscrutari ac inquiri</lem>
+            <rdg wit="#C"><q>indagari</q></rdg>
+            </app> voluit, ut ipsius majestas et sapientia <app>
+            <lem wit="#V">quoque</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, hinc a mortalibus perspici et celebrari <app>
+            <lem wit="#V">possit</lem>
+            <rdg wit="#C"><q>posset</q></rdg>
+            </app>. Quapropter post Dei veram et <app>
+            <lem wit="#V">competentem</lem>
+            <rdg wit="#C"><q>legitimam</q></rdg>
+            </app> cognitionem, nobis in verbo <app>
+            <lem wit="#V">a se</lem>
+            <rdg wit="#C"><q>divinitus</q></rdg>
+            </app> dato reuelatam, nihil hominis naturæ magis proprium, et fini, propter <app>
+            <lem wit="#V">quem</lem>
+            <rdg><note><q>quam</q> V man. pr.</note></rdg>
+            </app> homo in Terra, mundi centro, conditus et collocatus <app>
+            <lem wit="#V">sit</lem>
+            <rdg wit="#C"><q>est</q></rdg>
+          </app>, magis consentaneum esse judico, quam ut inde tanquam e loco medio,
+          ea, quæ in tota mundi fabrica, imprimis vero in cœlesti illa et
+          fulgentissima tot perpetuarum stellarum regia elucent, prospectans, jucundâ
+          hâc et ingeniosâ contemplatione ætatem suam suauiter transigat, Deumque
+          opificem in his suis sapientissimis et varijs operibus agnoscens, merita eum
+          veneratione <app>
+            <lem wit="#V">ac</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+            </app> laude celebret. Quamuis enim in hac inferiori natura mirabilia <app>
+            <lem wit="#V">extent</lem>
+            <rdg wit="#C"><q>extant</q></rdg>
+          </app>, diuinæ eius sapientiæ testimonia: tamen nusquam magis elucet eius
+          sapientia et majestas, quam in <app>
+            <lem wit="#V">perpetuo</lem>
+            <rdg wit="#C"><q>æterno</q></rdg>
+          </app> illo et immenso cœli stellarumque omnium theatro, vnde non immerito
+          dixit  <ref target="n24"/> <persName ref="Eobanus">Eobanus</persName>:</p>
+
+        <lg rend="it">
+          <l>Qui negat esse Deum, cœlos et sidera spectet:</l>
+          <l rend="indent">Sidera qui spectat, jurat is esse Deum.</l>
+        </lg>
+
+        <p>Inter præcipuas uero et maximas Astronomiæ vtilitates, hæc, quamuis a vulgi
+          captu remota sit, numerari debet: Quod ex deprehensis siderum per
+          Astronomiam motibus, eorundemque quo ad Zodiacum <pb ed="V" n="5v"/>et
+          cardines mundi <app>
+            <lem wit="#V">positu</lem>
+            <rdg wit="#C"><q>positum</q></rdg>
+            </app>, hinc de mutationibus, quæ in subiecto elementari <app>
+            <lem wit="#V">mundo</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> fiunt, et de humanis casibus, quatenus hi astris subijciuntur,
+          judicium ferre, multaque prævidere liceat. <app>
+            <lem wit="#V">Non dubium est enim</lem>
+            <rdg wit="#C"><q>Non enim dubium est</q></rdg>
+            </app>, hunc inferiorem mundum a <app>
+            <lem wit="#V">superiori</lem>
+            <rdg wit="#C"><q>superiore</q></rdg>
+        </app> regi et impregnari:</p>
+        <lg rend="it">
+          <l rend="indent"> <ref target="n25"/> O quam mira et magna potentia cœli est,</l>
+          <l>Quo sine nil pareret tellus, nil <app>
+              <lem wit="#V">gigneret</lem>
+              <rdg wit="#C"><q>gignetrit</q></rdg>
+          </app> æquor.</l>
+        </lg>
+
+        <p>Hinc nata est alia occultior et a sensibus externis magis separata <app>
+            <lem wit="#V">doctrina</lem>
+            <rdg wit="#C"><q>scientia</q></rdg>
+            </app>, quam Astrologiam appellarunt. Hæc enim de <app>
+            <lem wit="#V">effectibus</lem>
+            <rdg wit="#C"><q>affectibus</q></rdg>
+          </app> et influentia siderum in elementarem mundum et corpora, quæ ex
+          elementis constant, judicium profert. <app>
+            <lem wit="#V">De qua quidem non libenter hic verba facerem, siquidem non
+              ita demonstrationi indubitatæ pateat atque ea, de quibus prius
+              diximus: tamen, quoniam plures inveniantur, qui hac mantica et
+              coniecturali potius, quam demonstratiua cognitione delectentur,
+              plusque hac, quam reliquis antedictis afficiantur, lubet etiam in
+              eorum gratiam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, <app>
+            <lem wit="#V">siquidem</lem>
+            <rdg wit="#C"><q>At quia</q></rdg>
+            </app> in Astrologiæ mentionem incidimus, <app>
+            <lem wit="#V">nonnulla disserere, præsertim</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+            </app> cum hæc partim Mathematica, <app>
+            <lem wit="#V">ob <pb ed="TBOO" n="I.153"/>eam, quam cum Astronomia, de
+              qua antea diximus, habeat cognationem,</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> partim Physica <app>
+            <lem wit="#V">sit</lem>
+            <rdg><note><q>sit</q> ex <q>est</q> corr. V</note></rdg>
+            </app>, <app>
+            <lem wit="#V">nec satis demonstratiua</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>: <app>
+            <lem wit="#V">cumque insuper multi</lem>
+            <rdg wit="#C"><q>multique</q></rdg>
+            </app> sint, qui cum alias Mathematum partes ita suis demonstrationibus <app>
+            <lem wit="#V">esse fulcitas</lem>
+            <rdg wit="#C"><q>stabilitas esse</q></rdg>
+          </app> viderent, vt eas in dubium vocare non possent &#x2013; quis enim a
+          Geometra edoctus, omnes trianguli tres angulos simul sumptos esse æquales
+          duobus rectis, non fatebitur? Quis Arithmetico negabit, quinque esse radicem
+          quadratam de viginti quinque? Quis Astronomo, Solem et Lunam oriri atque
+          occidere (nescio enim an in cœteris stellis idem fieri deprehenderunt)
+          &#x2013; hæc, inquam, et similia in his Mathematum partibus cum negare non
+          possent, in solam Astrologiam <app>
+            <lem wit="#V">invecti fuerunt</lem>
+            <rdg wit="#C"><q>fuerunt injurii</q></rdg>
+            </app>, et in hanc omnia tela converterunt. Quapropter non abs re <app>
+            <lem wit="#V">(uel saltem in eorum, qui his delectantur, gratiam)</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> me facturum existimo, <app>
+            <lem wit="#V">si</lem>
+            <rdg><note><q>sed</q> V man. pr.</note></rdg>
+          </app> hoc loco primum aliqua in confirmationem certitudinis Astrologiæ in
+          medium adduxero, et deinde aduersariorum obiectionibus breuiter
+          respondero.</p>
+
+        <p rend="indent">Astrorum negare vires et influentiam, est sapientiæ et <app>
+            <lem wit="#V">prudentiæ</lem>
+            <rdg wit="#C"><q>providentiæ</q></rdg>
+          </app> diuinæ detrahere, ac manifestæ experientiæ contradicere. Quid enim
+          iniquius et absurdius de Deo cogitari possit, quam ipsum amplissimum hoc <app>
+            <lem wit="#V">et</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> admirandum omnium cœlorum, totque splendentium stellarum theatrum,
+          frustra ac in nullos usus fabricasse? cum nemo hominum <pb ed="V" n="6r"/><app>
+            <lem wit="#V">vilissimum</lem>
+            <rdg wit="#C"><q>ne vilissimum quidem</q></rdg>
+            </app> opus, nisi in certos usus <app>
+            <lem>conficiat</lem>
+            <rdg><note>post <q>conficiat</q> add.<q>Per cœlum tanquam perpetuum et
+                  indefessum</q> V, sed delevit</note></rdg>
+          </app>. Quod enim annorum et mensium, dierumque discrimina, per cœlum
+          tanquam perpetuum et indefessum horologium metiamur, id non sufficienter
+          machinæ cœlestis declarat vtilitatem et finem. Hæc enim quæ ad temporis
+          mensuram faciunt, ex solo Luminarium cursu et primi mobilis revolutione
+          dependent. Quorsum <app>
+            <lem wit="#V">igitur</lem>
+            <rdg wit="#C"><q>ergo</q></rdg>
+            </app> quinque alij proprijs et diuersis <app>
+            <lem wit="#V">circuitibus</lem>
+            <rdg wit="#C"><q>sphæris</q></rdg>
+            </app> multiformiter <app>
+            <lem wit="#V">revoluti</lem>
+            <rdg wit="#C"><q>circumacti</q></rdg>
+            </app> Planetæ? Quorsum tardigradum Saturni sidus, quod <app>
+            <lem wit="#V">in</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> 30 annis semel <app>
+            <lem wit="#V">suam periodum</lem>
+            <rdg wit="#C"><q>periodum suam</q></rdg>
+          </app> absoluit? Quorsum fulgidum Jouis Jubar, duodecim annis circumactum?
+          Quorsum Martius ille fulgor biennio sese reuoluens? Quid Veneris amicabilis
+          Stella Solem perpetuo comitata, eum nunc mane antecedens, nunc vesperi
+          subsequens, operabitur? Quid varium et unâ circa Solem diuersimode reuolutum
+          Mercurij sidus, efficiet? Num hæ omnes stellæ cum suis <app>
+            <lem wit="#V">diuersimodis planeque</lem>
+            <rdg wit="#C"><q>amplissimis Sphæris, et intricatis ac</q></rdg>
+            </app> stupendis <app>
+            <lem wit="#V">motionibus</lem>
+            <rdg wit="#C"><q>motibus</q></rdg>
+            </app> frustra erunt conditæ? Quorsum <app>
+            <lem wit="#V">insuper</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> tota octaua, <app>
+            <lem wit="#V">quam vocant</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, Sphæra tot innumeris, lucidissimis, et varie dispositis ac
+          tardissimo motu præditis stellis referta? An et hæ omnes, quas ob motus
+          tarditatem fixas appellarunt, ociosæ et nullius vtilitatis erunt? Id enim
+          necessario inde sequeretur, si cœlum et cuncta quæ in eo continentur,
+          lucidissima et perpetua corpora, temporis saltem distinctioni inseruient.
+          Deus <app>
+            <lem wit="#V">igitur</lem>
+            <rdg wit="#C"><q>ergo</q></rdg>
+          </app>
+          <app>
+            <lem wit="#V">aliquid incassum</lem>
+            <rdg wit="#C"><q>incassum aliquid</q></rdg>
+          </app> operatus est? Deus tanti artificij, tantæque machinæ nullum finem et
+          vsum prævidit? Id quam absurdum sit cogitare, nedum credere, ex ip<pb
+            ed="TBOO" n="I.154"/>sius Dei perfectissima sapientia demonstratur,
+          et ex minimis quibusque, in hac inferiori natura, creatis rebus manifeste
+          cernere liquet. Nulla enim herba tam exigua, nullum minerale et metallum tam
+          abiectum, nullum animalculum ita vile, quin insigni aliqua <app>
+            <lem wit="#V">ac</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+          </app> propria et specifica virtute sit præditum: idque in tantum, vt
+          omnibus ejus operationibus ac viribus indagandis, humani ingenij solertia
+          hactenus non suffecerit, <app>
+            <lem wit="#V">ut</lem>
+            <rdg wit="#C"><q>adeo ut</q></rdg>
+          </app> ne minimæ herbæ omnes proprietates et virtutes nobis ad amussim
+          cognitas esse existimem. Si igitur Deus in his exiguis ex <app>
+            <lem wit="#V">Elementis corruptibilibus</lem>
+            <rdg wit="#C"><q>corruptibilibus Elementis</q></rdg>
+          </app> constantibus, et ob id alterationi ac dissolutioni obnoxijs rebus,
+          tantum indidit virium et efficaciæ, ut earum virtutes et proprietates
+          nunquam satis percipi possint, quanto plus in maximis illis lucidissimis,
+          perfectissimis, <app>
+            <lem wit="#V">perpetuis</lem>
+            <rdg wit="#C"><q>æternis</q></rdg>
+          </app> et ab alteratione ac dis<pb ed="V" n="6v"/>solutione immunibus
+          cœli corporibus, idem <app>
+            <lem wit="#V">uel potius multo plura</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> præstitit?  <ref target="n26"/> Quapropter <persName ref="Moses">Moses</persName> causam
+          allaturus, cur Deus cœlum, Luminaria, et stellas condiderit, non saltem<app>
+            <lem wit="#V"/>
+            <rdg wit="#C"><q>solum</q></rdg>
+          </app> dicit in tempora, dies et annos, sed etiam ut sint in signa, hæc
+          omnia esse <app>
+            <lem wit="#V">diuinitus condita</lem>
+            <rdg wit="#C"><q>fabricata</q></rdg>
+          </app>. Si igitur cœlestia corpora a Deo, ut sint in signa, constituta sunt,
+          necessario eadem aliqua significant: eaque hominibus, quorum causa <app>
+            <lem wit="#V">magna ex parte</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> creata sunt. Significare autem ea, quæ Deus in arcano consilio
+          conclusit, cuius nulla creatura est particeps, non possunt, quod et
+          ordinarius eorum, <app>
+            <lem wit="#V">ac</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+          </app> perpetuus, sibique semper similis motus ostendit: qui nunquam aliquid
+          noui, aut ab itinere præfinito deuians admittit. Id enim fieri oportebat, si
+          Deus per stellas nonnunquam eorum aliquid, quæ in arcano consilio
+          concluserat, siue iræ, siue gratiæ testimonia, mundo indicare vellet: quorum
+          tamen ipsæ causæ effectrices non essent. Necessario itaque cœlestia corpora
+          suam significationem, atque a Deo ab initio indita virtute <app>
+            <lem wit="#V">diducunt</lem>
+            <rdg wit="#C"><q>deducunt</q></rdg>
+          </app>, ideoque et causas esse eorum, quæ significant, inducitur. Nec
+          propterea omnipotentiæ et libertati diuinæ, quæ nullis alligatur causis
+          secundis, quicquam detrahitur. Quamuis enim Deus sit perfectum et liberum
+          agens, nullis naturæ astrictus legibus: attamen ordinem a seipso constitutum
+          non <app>
+            <lem wit="#V">volet</lem>
+            <rdg wit="#C"><q>vult</q></rdg>
+          </app> facile pervertere, sed eum potius in firmo et perpetuo statu, usque
+          ad mundi consumationem conservare. Et quamvis Deus immediate <app>
+            <lem wit="#V">agere omnia</lem>
+            <rdg wit="#C"><q>omnia agere</q></rdg>
+          </app> potuisset, lucem præbere sine Sole, terram humectare sine pluuijs,
+          nos alere sine cibo et potu, custodire a frigore sine indumentis: tamen ejus
+          imperscrutabili sapientiæ ita placuit, ut hæc et omnia alia, quæ in mundo
+          ordinarie operatur, mediate <app>
+            <lem wit="#V">ab ipso</lem>
+            <rdg wit="#C"><q>a se</q></rdg>
+            </app> procedant. Imo <app>
+            <lem wit="#V">et</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> mysterium redemptionis humani generis, cum ab ipsius omnipotentia
+          immediate absolui potuisset, tamen non sine medio, filio videlicet <app>
+            <lem wit="#V">suo</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> vnigenito sibi coæterno, humanam naturam miraculo omnium hominum <app>
+            <lem wit="#C">captum</lem>
+            <rdg wit="#V"><q>captu</q></rdg>
+          </app> excedente assumpturo, nosque per sui ipsius victimam redempturo,
+          perfici voluit. Cum igitur Deus omnia fere <app>
+            <lem wit="#C">mediate</lem>
+            <rdg wit="#V"><q>meditate</q></rdg>
+          </app> agat, non quod immediate agere <pb ed="TBOO" n="I.155"/>non possit,
+          <pb ed="V" n="7r"/>sed <app>
+            <lem wit="#V">nolle videatur</lem>
+            <rdg wit="#C"><q>nolit</q></rdg>
+          </app>: quid quæso impietatis erit, asserere ipsum hunc inferiorem mundum
+          per superiorem <app>
+            <lem wit="#V">magna ex parte</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> regere et gubernare? ita tamen ut causæ secundæ a prima, cum libitum
+          fuerit, facile everti possint. Apparet <app>
+            <lem wit="#V">itaque</lem>
+            <rdg wit="#C"><q>igitur</q></rdg>
+          </app>, quam inique ordinationi et providentiæ diuinæ contradicant, qui
+          astrorum nullam esse asserunt in hæc inferiora influentiam.</p>
+
+        <p rend="indent">Nec minus in manifestam experientiam peccant, cui contradicere
+          non est hominis <app>
+            <lem wit="#V">sano judicio præditi</lem>
+            <rdg wit="#C"><q>sani judicij</q></rdg>
+          </app>. Quis enim non animaduertit, diuersitatem qualitatum in quatuor anni
+          temporibus ex Solis accessu et recessu ac ordinario per Zodiaci
+          dodecatemoria transitu <app>
+            <lem wit="#V">causari</lem>
+            <rdg wit="#C"><q>provenire</q></rdg>
+          </app>? Sic videmus, crescente Luna, omnia quæ eius naturæ analoga sunt, ut
+          cerebrum in animantibus, medullas ossium et arborum, cancrorum et concharum
+          carnes, multaque alia una crescere, ipsa vero decrescente, hæc eadem <app>
+            <lem wit="#V">imminui</lem>
+            <rdg><note><q>immunui</q> V man. pr.</note></rdg>
+          </app>. Imo et vastissimi illius Oceani fluxus atque refluxus, motui Lunari,
+          quasi per catenam alligatus est, ut statim oriente Luna incipiat mare
+          fluere, donec ipsa medium cœli cardinem attigerit: quo tempore idipsum in
+          occasum usque Lunæ refluit, eandemque vicissitudinem Luna per inferius
+          hemisphærium transeunte seruat: <app>
+            <lem wit="#V">adeo ut mare semper se versus Lunam, tanquam suum magnetem
+              attollat</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>. Hæc tamen omnia fortius et <app>
+            <lem resp="#TBOO">efficacius</lem>
+            <rdg wit="#V">efficicius</rdg>
+            <rdg wit="#C"><q>efficacius expediuntur</q></rdg>
+            </app>, cum Luna Soli in nouilunio conjungitur, aut eidem in plenilunio <app>
+            <lem wit="#V">diametraliter</lem>
+            <rdg wit="#C"><q>e diametro</q></rdg>
+            </app> opponitur, circa medias vero quadraturas debilius et lentius <app>
+            <lem wit="#V">operatur</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, ut non sit dubium, ab vtroque motu Lunæ, tam <app>
+            <lem wit="#V">diurno</lem>
+            <rdg wit="#C"><q>universali</q></rdg>
+            </app>, quam proprio, pendere admirandam totius Oceani exæstuationem. Hæc et <app>
+            <lem wit="#V">plurima</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> his similia etiam artis imperiti <app>
+            <lem wit="#V">nonnunquam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> norunt. Sed et nautæ atque agricolæ certarum fixarum ortus et occasus
+          crebra experientia notarunt, vnde anniversarias tempestates videre et
+          præcavere possunt. Peritiores uero et in hac abstrusa arte exercitati
+          deprehenderunt, quid aliarum etiam inerrantium stellarum mutuæ, <app>
+            <lem wit="#V">uel</lem>
+            <rdg wit="#C"><q>aut</q></rdg>
+            </app> cum Luminaribus <app>
+            <lem wit="#V">aut</lem>
+            <rdg wit="#C"><q>vel</q></rdg>
+          </app> fixis configurationes efficiant. Hincque aëris constitutionem, in
+          quatuor anni temporibus, singulis annis varie affici obseruarunt. Sic <app>
+            <lem wit="#V">animaduersum</lem>
+            <rdg wit="#C"><q>deprehensum</q></rdg>
+          </app> est, Martis et Veneris commixtiones in aptis cœli locis excitare
+          pluuias, imbres, nonnunquam uero <pb ed="V" n="7v"/><app>
+            <lem wit="#V">fulminantia</lem>
+            <rdg wit="#C"><q>fulmina</q></rdg>
+          </app> tonitrua: Iouem et Mercurium, ubi fortiter configurantur, ventorum et
+          tempestatum significationes obtinere: Solem Saturno permixtum aërem efficere
+          turbidum, <app>
+            <lem wit="#V">frigidum</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, et inamænum: hæcque præsertim, si in evidentes Luminarium sizigias,
+          aut cum ex ortu illustrium fixarum hæ uel similes constitutiones inciderint.
+          Sic inde a vetustissimis rei rusticæ scriptoribus, poëtis, et ipsis etiam
+          Astrologis obseruatum est, ortus et occasus præcipuarum quarundam cum Sole
+          fixarum stellarum, nunc pluuias, nunc ventos, tempestatesque sonoras,
+          aliasque mutationes in aëre efficere, idque <app>
+            <lem wit="#V">potissimum</lem>
+            <rdg wit="#C"><q>præsertim</q></rdg>
+            </app>, si in Luminarium quatuor euidentes sizigias, aut etiam <pb ed="TBOO"
+            n="I.156"/>intermedia octogonica <app>
+            <lem wit="#V">loca</lem>
+            <rdg wit="#C"><q>tempora</q></rdg>
+          </app> hi stellarum ortus et occasus inciderint: stimulantibus etiam aut
+          effectum impedientibus, Planetarum vna tunc temporis, vel ad se invicem, uel
+          ad easdem fixas varijs commixtionibus. Ideoque non necessarium erit,
+          earundem stellarum singulis annis ortus et occasus, similes statis
+          temporibus producere effectus. Quod quibusdam responsum volumus, qui ex eo
+          quod <app>
+            <lem wit="#V">Pleiadum et Hyadum</lem>
+            <rdg wit="#C"><q>Planetarum et Siderum</q></rdg>
+            </app>, similiumque humectantium stellarum exortus non singulis annis, <app>
+            <lem wit="#V">certis</lem>
+            <rdg wit="#C"><q>statis</q></rdg>
+          </app> temporibus, humiditates inducat, Astrologicas prædictiones impugnant:
+          cum <app>
+            <lem wit="#V">hæ</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> earum erga Solem habitudines, non semper a Luminarium evidentibus
+          configurationibus, aut similibus Planetarum commixtionibus in effectum
+          stimulentur. Habent se enim stellæ fixæ in cœlo veluti matres, quæ nisi a
+          septem errantibus stellis stimulentur et impregnentur, steriles sunt, et
+          nihil <app>
+            <lem wit="#V">uel admodum parum</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> in hac inferiori natura progignunt. Quam sæpe observatum est,
+          Eclipses Luminarium, præsertim Solares aut euidentes Lunares, <app>
+            <lem wit="#V">nunquam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> caruisse insigni aliquo eventuum effectu, <app>
+            <lem wit="#V">præsertim in ijs horizontibus, ubi angulares extiterunt,
+              uel alias appropriatam aliquam analogiam habuerunt</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Magnas etiam ponderosiorum Planetarum coniunctiones, ingentes
+          mutationes in hoc inferiori mundo efficere, experientia sæpe docuit. Sic
+          anno M.D.LXIII, cum magna contigisset Saturni et Jouis combinatio, in initio
+          Leonis partiliter, juxta stellas nebulosas Cancri, quas <persName
+            ref="Ptolemaios">Ptolomæus</persName> suffocantes et pestilentes
+          vocauit, nonne sequentibus aliquot annis <pb ed="V" n="8r"/>uniuersalis per
+          totam Europam grassabatur pestis, <app>
+            <lem wit="#V">et</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> innumerabilem hominum multitudinem absorbens, <app>
+            <lem>astrorum</lem>
+            <rdg><note>ante <q>astrorum</q> add. <q>quæ</q> C</note></rdg>
+        </app> influentiam nimis certo eventu comprobauit?</p>
+        <p rend="indent">Sed <app>
+            <lem wit="#V">nimis</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> longum foret omnia exempla experientiæ Astrologicæ recensere, quæ
+          indies veri et <app>
+            <lem wit="#V">diligentes</lem>
+            <rdg wit="#C"><q>diligenter</q></rdg>
+          </app> artifices observant. Hæc igitur ad generalem influentiam Astrorum in
+          hunc inferiorem mundum, et in aëris <app>
+            <lem wit="#V">mutationis</lem>
+            <rdg><note><q>mutationes</q> V man. pr.: <q>mutatione</q> C</note></rdg>
+          </app>
+          <app>
+            <lem wit="#V">comprobationem</lem>
+            <rdg wit="#C"><q>comprobandam</q></rdg>
+          </app>, sufficienter hoc loco dicta sint. Nunc uero alius scrupulus nobis
+          restat enucleandus: cœlum videlicet et cœlestia corpora non solum in
+          subiectum <app>
+            <lem wit="#V">aëra</lem>
+            <rdg wit="#C"><q>aërem</q></rdg>
+          </app> atque elementa, sed in ipsum etiam hominem diuersimode influere. Id
+          enim plerique, quamvis priora, manifesta experientia convicti, <app>
+            <lem wit="#C">concedant</lem>
+            <rdg wit="#V"><q>concedunt</q></rdg>
+          </app>, nequaquam admittunt, et hominem siderum efficaciæ non esse subditum,
+          suis quibusdam ducti rationibus contendunt. At nos <app>
+            <lem wit="#V">e</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> contra ostendemus, cœlum non solum in aëra, sed in ipsum quoque
+          hominem <app>
+            <lem wit="#V">agere</lem>
+            <rdg wit="#C">influere</rdg>
+          </app>. Cum enim homo ex elementis constet, et e terra plasmatus sit,
+          necesse est, ut easdem conditiones subeat, quas <app>
+            <lem wit="#C">obtinent</lem>
+            <rdg wit="#V"><q>obtinet</q></rdg>
+          </app> res, e quibus constat. Præterea aër ipse, quem haurimus, et ex quo
+          non minus quam <app>
+            <lem wit="#V">cibo</lem>
+            <rdg wit="#C"><q>ex cibo</q></rdg>
+            </app> et potu alimur, cum varie afficiatur a cœli influentia, <app>
+            <lem wit="#V">ut</lem>
+            <rdg wit="#C"><q>uel</q></rdg>
+          </app> prius demonstrauimus, necesse est nos unâ diuersimode affici: ut
+          interea taceam id, quod omnium intellectui non penitus est obuium, hominem
+          ex ipso cœlo <pb ed="TBOO" n="I.157"/>occulta quadam ratione plus viuere et
+          nutriri, quam vel aëre, uel aqua, vllisue alijs his inferioribus ac
+          elementaribus rebus, et incredibilem cum cognatis astris obtinere <app>
+            <lem wit="#V">confluentiam</lem>
+            <rdg wit="#C"><q>familiaritatem</q></rdg>
+          </app>, ut non immerito animas nostras partem esse ipsius cœli, veteres
+          philosophi, <app>
+            <lem wit="#V">inter quos etiam <persName ref="Hipparchos"
+              >Hypparchus</persName>,  <ref target="n28"/> teste <persName ref="Plinius major"
+                >Plinio</persName></lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, dixerint. Tota insuper humani corporis structura ita est cœlo,
+          proprietatibus septem errantium stellarum analoga, vt similes fere
+          operationes hæc in corpore nostro cum Planetarum in cœlis natura <app>
+            <lem wit="#V">sortiantur</lem>
+            <rdg wit="#C"><q>sortiatur</q></rdg>
+          </app>. Sic Cor in humano corpore, vitalium spirituum autor, Soli cœlesti, a
+          quo mundo vivificus procedit calor, æquiparatur. Sic Cerebrum in homine Lunæ
+          cœlesti <app>
+            <lem wit="#C">assimilatur</lem>
+            <rdg wit="#V"><q>assimulatur</q></rdg>
+            </app>, et ad ipsius crescentiam, <app>
+            <lem wit="#V">uel</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+            </app> decrescentiam, <app>
+            <lem wit="#V">ipsum</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> etiam augetur <pb ed="V" n="8v"/>et minuitur, humidamque Lunæ naturam
+          æmulatur, <app>
+            <lem wit="#V">atque una cum Lunâ perpetuæ irrequietudini est
+              obnoxium</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>. Quemadmodum vero Cor et Cerebrum duo <app>
+            <lem wit="#C">maxima</lem>
+            <rdg wit="#V"><q>maxime</q></rdg>
+          </app> in corpore nostro sunt membra: sic etiam Sol et Luna, quibus hæc sunt
+          analoga, <app>
+            <lem wit="#V">potiora</lem>
+            <rdg wit="#C"><q>maxime principalia</q></rdg>
+            </app> sunt in cœlo Luminaria. Et veluti inter Cor et Cerebrum <app>
+            <lem wit="#V">præcipua</lem>
+            <rdg wit="#C"><q>maxima</q></rdg>
+          </app> intercedit familiaritas, sic etiam inter Solem et Lunam in ipso cœlo
+          multiplex <app>
+            <lem wit="#V">societas</lem>
+            <rdg wit="#C"><q>cernitur combinatio</q></rdg>
+            </app>: adeo <app>
+            <lem wit="#V">quod</lem>
+            <rdg wit="#C"><q>ut</q></rdg>
+          </app> Luna non nisi a Sole suum sortiatur lumen, et ejus motus ad Solis
+          cursum adeo sit alligatus, ut circulorum suorum reuolutiones respectu metæ
+          Solaris cursus perpetuo absoluat. Post hæc duo principaliora in corpore
+          nostro membra, alia duo minus quidem principalia, sed admodum vtilia
+          existunt, Iecur videlicet et Renes, quæ duobus beneficis et vtilibus, non
+          tamen ita ut Sol et Luna, principalibus Planetis, assimilantur. Epar quidem,
+          quod officina est sanguinis, in quo cum vita consistat, sanguineo et vitali
+          Planetæ Ioui est similimum. Renes autem, quæ generationi deputatis membris
+          vires largiuntur, Veneri, prolifico Planetæ et generationum matri <app>
+            <lem wit="#V">assimilantur</lem>
+            <rdg wit="#C"><q>æquiparantur</q></rdg>
+          </app>. Duo insuper alia corporis nostri, non solum respectu Cordis et
+          Cerebri, minus principalia, sed etiam quo ad cœtera vilioribus officijs
+          destinata membra, Splen et Fel, duobus <app>
+            <lem wit="#V">etiam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> vilioribus et minus benevolis Planetis, Saturno et Marti alligantur:
+          ea ratione, ut Splen, quod atræ bilis est receptaculum, Saturno <app>
+            <lem wit="#V">melancholici</lem>
+            <rdg wit="#C"><q>melancholico</q></rdg>
+          </app> humoris præsidi, Fel autem coleræ domicilium, Marti colerico et
+          iracundo Planetæ <app>
+            <lem wit="#V">deputentur</lem>
+            <rdg wit="#C"><q/></rdg>
+            </app>. Restat nunc Pulmo, qui mutabilis illius et <app>
+            <lem resp="#TBOO">vagabundi</lem>
+            <rdg wit="#V"><q>vagibundi</q></rdg>
+            <rdg wit="#C"><q>celeris</q></rdg>
+            </app> Mercurij vicem <app>
+            <lem wit="#V">gerens</lem>
+            <rdg wit="#C"><q>obtinens</q></rdg>
+            </app>, perpetua agitatione in corpore nostro movetur, <app>
+            <lem wit="#V">et spiritum aërium</lem>
+            <rdg wit="#C"><q>aëremque et spiritum</q></rdg>
+          </app> suo motu attrahens, cordis refocillationi impertit: non aliter quam
+          Mercurius in cœlo ventosus et aërius Planeta censetur, semperque Soli præsto
+          est, ejusque mandata, nunc hac, nunc illac discurrens, exequitur. Pulmo
+          insuper loquelæ ac voci inseruit, non <app>
+            <lem wit="#V">secus</lem>
+            <rdg wit="#C"><q>aliter</q></rdg>
+          </app> ac Mercurius munus facundi oratoris ac loquelæ præsidis inter cœteros
+          Planetas obtinere perhibetur. Cum itaque tanta sit analogia inter septem
+          Planetas, et inter septem principalia membra in hominis corpore, adeoque
+          sibi omnia consenti<pb ed="TBOO" n="I.158"/>ant, ut quasi ad ideam
+          superioris mundi formatus esse videatur <app>
+            <lem wit="#V">homo</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, ideoque non immerito a philosophis Microcosmos appelletur: <app>
+            <lem wit="#V">quis vnquam</lem>
+            <rdg wit="#C"><q>quis igitur unquam</q></rdg>
+          </app> sanæ mentis negare poterit, cœlestia corpora in humana, quibus tanta
+          officiorum simili<pb ed="V" n="9r"/>tudine deuincta <app>
+            <lem wit="#V">sint</lem>
+            <rdg wit="#C"><q>sunt</q></rdg>
+        </app>, influere?</p>
+        <p rend="indent">Vnde etiam experientia edocti compertum habemus, eos qui
+          nascuntur, cum Luna a maleficis Planetis afficitur, aliasque infeliciter
+          collocatur, cerebro minus esse robusto, et plurimis eius passionibus
+          obnoxios, adeo ut si Mercurius unâ male afficiatur, Lunamque non aspiciat,
+          plane stupidos, qui sic <app>
+            <lem wit="#V">eduntur</lem>
+            <rdg wit="#C"><q>nascuntur</q></rdg>
+            </app>, effici. Videmus etiam eos, qui <app>
+            <lem>Lunaribus</lem>
+            <rdg wit="#C"><note>post <q>Lunaribus</q> add. <q>cœli</q>
+                C</note></rdg>
+            </app> ægritudinibus, caduco et huius speciebus afficiuntur, <app>
+            <lem wit="#V">eos</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> vehementiores et crebriores paroxismos circa nouilunia, plenilunia et <app>
+            <lem wit="#V">intermedias</lem>
+            <rdg wit="#C"><q>medias</q></rdg>
+          </app> quadraturas experiri: plurimos etiam, non nisi circa hæc tempora
+          mutationum Lunarium, male affici. Sic etiam hydropici ex Salium in corpore
+          resolutione, quibus Luna non minus quam mari præest, grauissime semper circa
+          plenilunia torquentur, eo quod resolutio illa, cum Luna plena, iam in plenum
+          statum <app>
+            <lem wit="#V">adaucta</lem>
+            <rdg wit="#C"><q>advecta</q></rdg>
+          </app> sit: ideoque omnes fere hydropici circa plenilunia moriuntur.
+          Obseruatum etiam est, eos quibus Sol a Saturno uel Marte læditur, crebra
+          cordis palpitatione et debilitate laborare: si uero ambo Luminaria  <ref target="n31"/> <app>
+            <lem wit="#C">aphæticam</lem>
+            <rdg wit="#V"><q>aphoticam</q></rdg>
+            </app> et vitalem <app>
+            <lem wit="#V">prærogatiuam</lem>
+            <rdg wit="#C"><q>significationem</q></rdg>
+          </app> sortita, tum etiam ascendens male se habeat, eos qui sic nascuntur
+          imbecilliori valetudine vexari, et minus vitales esse. Atque hoc modo etiam
+          in cœteris Planetis, eorumque significatis experiri licet, ea se in homine
+          eodem modo habere, quemadmodum et hi in genetliaca constitutione bene uel
+          male affecti erant.</p>
+
+        <p rend="indent">Videmus etiam in singulis hominibus magnam naturarum
+          diuersitatem. Nonnullos altas res et a vulgi captu remotas <app>
+            <lem wit="#V">solitarie</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> scrutari, quos Saturni altissimum sydus feliciter finxit: quosdam
+          iudicialibus et politicis negocijs magis affici, quibus Jouialis affulsit
+          splendor. Nonnullos nil nisi bella, cædes, tumultus et rixas spirare, quos
+          Martius exagitat feruor. Alios honores, dignitates rerumque dominia, Solari <app>
+            <lem wit="#V">ambitiosa</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> influentia affectare. Sunt qui ætatem amoribus, delectationibus,
+          musica, alijsque iucundis delicijs peragant, quos blanda Veneris <app>
+            <lem wit="#V">fascinat</lem>
+            <rdg wit="#C"><q>exhilarat</q></rdg>
+          </app> stella. Alij artibus ingeniosis exercendis, vel etiam mercaturæ se
+          totos dedunt, qui a Mercurij <app>
+            <lem wit="#V">stimulantur</lem>
+            <rdg wit="#C"><q>afficiuntur</q></rdg>
+            </app> sidere. Quidam Lunaris naturæ influentium sortiti, <app>
+            <lem wit="#V">popularibus rebus</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, peregrinationibus, navigijs, piscaturis et <app>
+            <lem>similibus</lem>
+            <rdg><note>post <q>similibus</q> add. <q>rebus</q> C</note></rdg>
+          </app> ætatis cursum absoluunt. <pb ed="V" n="9v"/>Atque hoc modo magna
+          varietas ingeniorum, ad similitudinem <app>
+            <lem wit="#V">influxuum</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> septem errantium stellarum perspici potest: quamuis plurimi ex
+          diuersis horum Planetarum commixtionibus <app>
+            <lem>affecti</lem>
+            <rdg><note>ante <q>affecti</q> add. <q>diversimode</q> C</note></rdg>
+          </app>, varia etiam sectentur studiorum genera, et diuerso ætatis
+          tempore, nunc his, nunc alijs negocijs occupentur, prout tunc temporis huius
+          uel alterius Planetæ radijs, per progressiones occultas, <app>
+            <lem wit="#V">magis minusue</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>
+          <app>
+            <lem wit="#V">subijciuntur</lem>
+            <rdg wit="#C"><q>subijciantur</q></rdg>
+            </app>. Hasque <app>
+            <lem wit="#V">varietates</lem>
+            <rdg wit="#C"><q>diversitates</q></rdg>
+          </app>, <pb ed="TBOO" n="I.159"/>etiam in ipsis fratribus, ijsdem
+          parentibus, eodem in loco editis, et similiter educatis, <app>
+            <lem>cernere</lem>
+            <rdg><note>post <q>cernere</q> add. <q>ubique</q> C</note></rdg>
+            </app> licet, adeo ut fratres natura et moribus sæpissime plus <app>
+            <lem>fere</lem>
+            <rdg><note><q>fere</q>postea add. V: om. C</note></rdg>
+          </app> dissideant, quam vlli alij. Harum vero et similium diuersitatum
+          rationes, nusquam melius quam ab Astrologia <app>
+            <lem wit="#V">naturaliter</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> peti possunt, quamuis non inficior, ab inferioribus etiam causis, <app>
+            <lem wit="#V">ut educatione, institutione, conversatione, peregrinatione
+              et similibus</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, hæc quodammodo alterari. Plurima hoc loco recensere possem
+          genetliaca axiomata, quorum euentus rarissime frustratur: sed non est huius
+          loci, de <app>
+            <lem wit="#V">tam abstrusæ</lem>
+            <rdg wit="#C"><q>tantæ</q></rdg>
+            </app> artis <app>
+            <lem wit="#V">ratis experimentis</lem>
+            <rdg wit="#C"><q>innumeris Mysteriis</q></rdg>
+            </app> verba facere. Id saltem conlusionis loco addere <app>
+            <lem>uolo</lem>
+            <rdg><note>post <q>uolo</q> add. <q>quod</q> C</note></rdg>
+            </app>, etiamsi nihil præterea esset, quod <app>
+            <lem wit="#V">genetliacarum</lem>
+            <rdg wit="#C"><q>genethliacam</q></rdg>
+          </app> prædictionem certitudinem comprobare posset: sola directionum euidens
+          experientia id manifeste efficiet, <app>
+            <lem wit="#V">modo eæ rite per omnia, quod tamen adhuc paucissimis
+              perspectum est, administrentur</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Per directiones enim significatorum ad suos promissores, Genetliaci
+          tempora ipsa præfinire possunt, quibus nato euidens aliquod accidens,
+          respondente ut plurimum certo <app>
+            <lem wit="#D">euentu</lem>
+            <rdg wit="#V"><q>euento</q></rdg>
+            </app>, impendeat. <app>
+            <lem wit="#V">Rarissime</lem>
+            <rdg wit="#C"><q>Vix</q></rdg>
+            </app> enim <app>
+            <lem wit="#V">fit, ut</lem>
+            <rdg wit="#C"><q>fieri potest quin</q></rdg>
+          </app> cum luminaria et ascendens Martijs aut Saturninis alijsue maleuolis
+          per directionem obuiarint locis et radijs, quin corpus valetudinemque ipsius
+          nati, pro natura obuiantis radij, <app>
+            <lem wit="#V">sensibiliter</lem>
+            <rdg wit="#C"><q>graviter</q></rdg>
+            </app> afficiant: interdum uero vitam penitus abrumpant, si <app>
+            <lem wit="#V">admodum</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> fortis fuerit  <ref target="n32"/> anaretæ ad aphætam <app>
+            <lem wit="#V">cursus</lem>
+            <rdg wit="#C"><q>progressio</q></rdg>
+          </app>. Cumque tempora horum accidentium per supputationem artificialem
+          certo præfiniri possint, et sæpissime ab Astrologis, subsequente <app>
+            <lem wit="#V">certo effectu</lem>
+            <rdg wit="#C"><q>certo aliquo effectu</q></rdg>
+          </app>, prædicta sint, certiusque adhuc prædici possint, si de exquisitis
+          siderum motibus, ut in hoc negocio opus est, adamussim constaret: quis <app>
+            <lem wit="#C">manifestæ</lem>
+            <rdg wit="#V"><q>manifeste</q></rdg>
+            </app> experientiæ <app>
+            <lem wit="#V">non</lem>
+            <rdg wit="#C"><q>nunc</q></rdg>
+            </app> contradicens, astrorum esse in nos influentiam, eamque <app>
+            <lem wit="#V">ex genetliaca constitutione</lem>
+            <rdg wit="#C"><q>etiam ut plurimum juxta apotelesmata
+                Astrologica</q></rdg>
+          </app>
+          <app>
+            <lem wit="#V">prævideri</lem>
+            <rdg><note><q>prævidere</q> V man. pr.</note></rdg>
+            </app> posse, ibit inficias? Hæc quamuis ita sint, non defuere tamen semper <app>
+            <lem>inter</lem>
+            <rdg><note>postea add. V</note></rdg>
+            </app> viros aliâs eruditos, <app>
+            <lem wit="#V">licet huius</lem>
+            <rdg wit="#C"><q>huius tamen</q></rdg>
+            </app> occultissimæ <app>
+            <lem wit="#V">scientiæ</lem>
+            <rdg><note>e <q>sapientæ</q> corr. V</note></rdg>
+          </app> ignaros, qui partim Theologicis, partim Philosophicis rationibus,
+          astra in hominem <app>
+            <lem wit="#V">nihil</lem>
+            <rdg wit="#C"><q>non</q></rdg>
+            </app> influere, <pb ed="V" n="10r"/><app>
+            <lem wit="#V">astruere conati sunt</lem>
+            <rdg wit="#C"><q>conabantur asserere</q></rdg>
+          </app>. Philosophi Astrologiam inter cœteras artes non esse numerandam
+          contendunt, eo quod certis et euidentibus careat principijs. Impossibile
+          etiam esse ajunt, natalicij temporis verum momentum scire, et ab eo frustra
+          ad conceptionis tempus recurrere Astrologos, cum hoc ipsum longe magis sit
+          incertum. Adferunt insuper argumenta, ut illis videtur, arti contraria, quod
+          multi uno tempore nascantur, quorum sors et in vita eventus est
+          diuersimodus. Quod gemelli ex ijsdem parentibus, eodem fere tempore nati,
+          diuersissimam sæpenumero sortiantur fortunam: quod plurimi in bello et
+          pestilentia, alijsque vniuersalibus calamitatibus simul moriantur, quorum
+          genesis nequaquam <app>
+            <lem wit="#V">idem</lem>
+            <rdg wit="#C"><q>simile</q></rdg>
+          </app> mortis genus significare potuerit: quod præter hæc invtilis sit
+          futurorum ex astris cognitio, quamvis possibilis esset, <app>
+            <lem wit="#V">hoc argumento contendunt: quod aut bona aut mala</lem>
+            <rdg wit="#C"><q>sive bona sive mala</q></rdg>
+          </app>
+          <pb ed="TBOO" n="I.160"/>prædicant Astrologi. Si bona, tota voluptas, quæ ex
+          eventu percipi debebat, per prævisionem iamdudum perijt: sin mala, ante
+          ipsum euentum <app>
+            <lem wit="#V">continue</lem>
+            <rdg wit="#C"><q>perpetuo</q></rdg>
+            </app> cruciari hominem, qui metus sæpenumero ipso <app>
+            <lem wit="#D">malo</lem>
+            <rdg wit="#V"><q>modo</q></rdg>
+          </app> peior est. Hæc est summa præcipuorum argumentorum, quæ Philosophi
+          contra genetliacas prædictiones adducunt. Theologi uero hæc eadem
+          confirmantes, insuper addunt, hanc artem esse verbo Dei prohibitam, eamque
+          tanquam impiam, et a Dei cognitione homines abducentem, ac contra bonos
+          mores facientem, proclamant. Verum vtrique, tam Theologi quam Philosophi, de
+          re non penitus perspecta judicium ferunt. Nam quod Philosophi obijciunt,
+          Astrologiam certis carere principijs, fatemur quidem principia et axiomata
+          huius artis, non usque adeo esse intellectui obuia, quemadmodum <app>
+            <lem wit="#V">Geometriæ</lem>
+            <rdg><note><q>Geometricæ</q> C V man. pr.</note></rdg>
+            </app> et aliarum Mathematicarum <app>
+            <lem wit="#V">scientiarum</lem>
+            <rdg wit="#C"><q>Artium</q></rdg>
+          </app>, nec Astronomicæ certitudini comparari posse prædictiones
+          Astrologicas, eo quod siderum influentia non ita sensibus <app>
+            <lem wit="#V">incurrat</lem>
+            <rdg wit="#C"><q>occurrat</q></rdg>
+          </app>, quemadmodum eorum motus: nihilominus tamen æque certum est, astrorum
+          esse in hæc inferiora influxum, atque euidenter apparet, illa certo tramite
+          moueri: quamuis facilius <app>
+            <lem wit="#V">contingat</lem>
+            <rdg><note>poat <q>contingat</q> add. <q>nos</q> C</note></rdg>
+            </app> hallucinari in <app>
+            <lem wit="#V">effectu</lem>
+            <rdg wit="#C"><q>effectis</q></rdg>
+          </app> præuidendo, quam in motu deprehendendo: quemadmodum res sensibus
+          externis <app>
+            <lem wit="#V">perceptibiles</lem>
+            <rdg><note><q>præceptibiles</q> V man. pr. ut videtur</note></rdg>
+          </app> certius comprehenduntur, quam illæ, quæ a solo intellectu percipi
+          possunt. Astrologia igitur a <app>
+            <lem wit="#V">posteriori</lem>
+            <rdg wit="#C"><q>posteriore</q></rdg>
+          </app>, hoc est ab ipsa experientia, sua sortitur principia, et a multis
+          particularibus <app>
+            <lem wit="#V">rarius</lem>
+            <rdg wit="#C"><q>raro</q></rdg>
+          </app> fallentibus obseruationibus vniuersales constituit conclusiones: non
+          aliter quam in arte medica fieri assolet, quæ ab ipsa experientia herbarum
+          et mineralium virtutes inquirit, et ex multis particularibus
+          obseruationibus, <pb ed="V" n="10v"/>deinde de <app>
+            <lem wit="#V">eorum</lem>
+            <rdg wit="#C"><q>earum</q></rdg>
+          </app> naturis et efficacia uniuersale promit judicium. Eadem itaque ratione
+          Astrologia non minus quam Medicina inter physicas artes iure meritoque
+          numerari potest. Impossibilitatem uero, quam adducunt ex incognito
+          natiuitatis et conceptionis tempore, nullam et friuolam esse, hinc facile
+          patet. Quamuis enim de certo momento, quo homo in lucem edatur, varijs de
+          causis ambigatur: nihilominus Astrologi verum momentum ex accidentibus in
+          vita, cum natus adoleuerit, contingentibus, ita certo colligere possunt, ut
+          etiamsi plus integra hora falsum sit judicatum tempus, tamen hac ratione in
+          certi <app>
+            <lem wit="#V">propemodum</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> momenti cognitionem pervenire <app>
+            <lem wit="#V">possint</lem>
+            <rdg wit="#C"><q>queunt</q></rdg>
+          </app>. Nec ad conceptionis tempus propterea, ut illi existimant, recurrunt
+          Astrologi, quod <app>
+            <lem wit="#V">illud</lem>
+            <rdg wit="#C"><q>per illud</q></rdg>
+          </app> certius quam natalicium, atque eo melius per siderum constitutionem
+          futura <app>
+            <lem wit="#V">prævideri</lem>
+            <rdg wit="#C"><q>prævidere</q></rdg>
+          </app> posse existiment, sed saltem, ut  <ref target="n33"/> locum Lunæ (retro numerando partus
+          in vtero moram) tempore conceptionis <app>
+            <lem wit="#C">faciant</lem>
+            <rdg wit="#V"><q>faciat</q></rdg>
+          </app> in partu ascendentem, atque ex loco Lunæ, qui tunc existit, iuxta
+          doctrinam <app>
+            <lem wit="#V">antiqui illius</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> Hermetis ascendentis gradum in natiuitate <app>
+            <lem wit="#V">verificari</lem>
+            <rdg wit="#C"><q>verificare</q></rdg>
+            </app> possint: quam tamen horoscopi <app>
+            <lem wit="#V">emendationem</lem>
+            <rdg wit="#C"><q>verificationem</q></rdg>
+            </app> nulli Astrologorum, tanquam <app>
+            <lem wit="#V">omnino</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> cer<pb ed="TBOO" n="I.161"/>tam et ratam habent, sed saltem vero
+          proximam, eaque plerique utuntur, cum natus ad ætatem non peruenerit, et ab <app>
+            <lem wit="#C">euentibus</lem>
+            <rdg wit="#V"><q>euidentibus</q></rdg>
+            </app> in vita <app>
+            <lem wit="#V">ac</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> præteritis casibus natalicium tempus priori illo et certiori modo
+          verificari <app>
+            <lem wit="#V">nequeat</lem>
+            <rdg wit="#C"><q>non potest</q></rdg>
+          </app>. Apparet itaque, quam inique, in certo natiuitatis tempore sciendo,
+          obiciant aduersarij Astrologis, et quam falso eos a natalitio ad
+          conceptionis tempus recurrere arguant: cum ipse <persName ref="Ptolemaios"
+            >Ptolomæus</persName> asserat, conceptionis constitutionem non
+          significare, etiamsi sciri possit, <app>
+            <lem>vlterius</lem>
+            <rdg><note>post <q>vlterius</q> add. <q>supra notum</q> C</note></rdg>
+            </app> quam, quamdiu in vtero moratur <app>
+            <lem wit="#V">fœtus</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, inde uero natalicium tempus usque ad finem vitæ suas <app>
+            <lem wit="#V">vires</lem>
+            <rdg wit="#C"><q>significationes</q></rdg>
+          </app> exercere. De ijs, qui in bello et pestilentia, alijsque uniuersalibus
+          calamitatibus simul moriuntur, <app>
+            <lem wit="#V">respondetur</lem>
+            <rdg wit="#C"><q>respondemus</q></rdg>
+          </app>, eorum mortes non ex particulari genesis constitutione, sed ex
+          uniuersali fato procedere, quod vim derogat particulari, et externam etiam
+          violentiam plurima efficere, quæ in Astris non erant prædisposita: Vnde
+          Astrologi cauti excipiunt in suis prædictionibus vniuersales calamitates, ut
+          pestes, terræmotus, inundationes, bella, mutationes legum et Reip. atque his
+          similes generales calamitates, quæ ab uniuersali fato procedunt, quod cum
+          fortius sit particulari, necesse est, ut suas vires latius exerat, et <app>
+            <lem wit="#V">particulare</lem>
+            <rdg wit="#C"><q>particulares</q></rdg>
+          </app> vincat. Quod uero de ijs insuper afferunt, qui uno tempore nati,
+          diuersa <app>
+            <lem wit="#C">sortiuntur</lem>
+            <rdg wit="#V"><q>sortiantur</q></rdg>
+            </app> fata, <app>
+            <lem wit="#C">sciant</lem>
+            <rdg wit="#V"><q>sciunt</q></rdg>
+          </app>, Astrologos non asserere, cœlum in omnes <pb ed="V" n="11r"/>uno
+          eodemque tempore <app>
+            <lem wit="#V">editos</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, uno eodemque modo agere, sed pro diuersitate subiecti, diuersimode
+          cœli influxus variari: sæpenumero etiam astrorum influentiam, pro <app>
+            <lem wit="#V">varia</lem>
+            <rdg wit="#C"><q>diversa</q></rdg>
+          </app> educationis, disciplinæ, conuersationis et similium in vita
+          mutationum diuersa ratione varie transplantari, tum etiam liberam hominis
+          voluntatem nequaquam <app>
+            <lem wit="#V">esse</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> astris subditam, sed per hanc, ductu rationis, hominem citra astrorum
+          influentiam, si uolet, plurima posse efficere. Non enim volunt Astrologi,
+          omnes homines eodem modo necessario recipere astrorum influxus, sed quosdam
+          magis, quosdam minus, pro ut seipsos ad recipiendum aptos, uel <app>
+            <lem wit="#V">ab his</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> immunes <app>
+            <lem wit="#V">reddiderint</lem>
+            <rdg wit="#C"><q>reddiderunt</q></rdg>
+          </app>. Eodem modo de gemellis responderi potest. Nam et in his, multas ob
+          causas, <app>
+            <lem wit="#V">tum</lem>
+            <rdg wit="#C"><q>tam</q></rdg>
+          </app>  <ref target="n34"/> inferioris naturæ, <app>
+            <lem wit="#V">tum</lem>
+            <rdg wit="#C"><q>quam</q></rdg>
+            </app> liberi arbitrij diuersimode <app>
+            <lem wit="#V">alterantur</lem>
+            <rdg wit="#C"><q>transplantantur</q></rdg>
+            </app> astrorum influxus. <app>
+            <lem wit="#V">Quin</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> et rarissime fieri potest, ut unum habeant gemelli ascendens :
+          quapropter aphætarum et anaretarum etiam diuersa erunt interualla, nec eadem
+          erit in vtrisque siderum influentia: unde non necessarium erit, eos uno
+          eodemque tempore ægrotare, aut <app>
+            <lem wit="#V">etiam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> mori. Adde quod ex ipsa etiam generatione debilior semper sit natura
+          unius, quam alterius, eo quod duo simul æque fortes vix nasci possint, cum
+          virtus dispersa imbecillior sit, <app>
+            <lem wit="#V">seipsa</lem>
+            <rdg wit="#C"><q>ipsa</q></rdg>
+            </app> vnita. Hanc uero subiecti <app>
+            <lem wit="#V">debilitatem</lem>
+            <rdg wit="#C"><q>imbecillitatem</q></rdg>
+            </app> astra <app>
+            <lem wit="#V">non corrigunt</lem>
+            <rdg wit="#C"><q>corrigere non possunt</q></rdg>
+            </app>. Unde æqualiter in ambos gemellos, eodem <app>
+            <lem wit="#V">etiam, si fieri posset</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>, tempore editos, cum æqualiter astrorum vires non recipiant, <app>
+            <lem wit="#V">non</lem>
+            <rdg wit="#C"><q>minime</q></rdg>
+            </app> agunt: ut interea nihil dicam de  <ref target="n35"/> occulta illa ratione, quam aliqui
+          Astrologorum crebra obseruatione didicerunt, tertium ab horo<pb ed="TBOO"
+            n="I.162"/>scopo signum esse secundi gemelli <app>
+            <lem wit="#V">quasi</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> ascendens. Vnde in utrisque tota cœli constitutio, eiusque influentia
+          diuersimode variatur. Quod uero Theologi hoc loco de  <ref target="n36"/> <persName ref="Esau"
+            >Esau</persName> et <app>
+            <lem wit="#V"><persName ref="Jacob">Jacob</persName></lem>
+            <rdg wit="#C"><q>Jacobum</q></rdg>
+            </app> toties inculcant, quamvis ad id eodem modo <app>
+            <lem wit="#V">naturaliter</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> responderi possit, quemadmodum de omnibus gemellis nunc diximus:
+          tamen reuera ad hanc physicam considerationem illud exemplum non pertinet,
+          sed potius ad arcanum Dei consilium referendum est, cui tota natura, tanquam
+          suo creatori obtemperat. Sic enim Deus de illis protulit: <hi rend="it"
+            ><persName ref="Jacob">Jacob</persName> dilexi, <persName ref="Esau"
+              >Esau</persName> vero odio habui.</hi> Quis autem astrologorum, <app>
+            <lem wit="#V">etiam</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> inter Ethnicos, adeo <app>
+            <lem wit="#V">unquam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> fuit impius et temerarius, quin concederet, Deum uniuersitatis
+          autorem libere agere, amare et odisse, quem volet, quomodocunque naturæ fata
+          essent prædisposita? Aliâs enim Deus per naturam a se conditam suæ voluntati
+          frenum iniecisset, et seipsum, quod absurdum est cogitare, captiuasset.
+          Quapropter etsi Deus Jacob plus quam Esau dilexit et ad splendidiorem in
+          vita fortunam evexit: non idcirco astrorum decreta euertuntur, si hanc
+          diuersitatem eorum fortunæ, non ab astris penitus, sed peculiari Dei
+          consilio, <pb ed="V" n="11v"/>immediate profectum esse concedamus, <app>
+            <lem wit="#V">quod et plerisque alijs singulari Dei voluntate evenire
+              non ambigitur</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Ad illud insuper, quod Theologi  <ref target="n37"/> de prohibitis in lege Mosaica
+          prædictionibus Astrologicis afferunt, sic <app>
+            <lem wit="#V">respondemus</lem>
+            <rdg wit="#C">respondeo</rdg>
+          </app>: Nequaquam in eo loco taxari veros Astrologiæ artis Vsus, sed
+          ariolorum, aruspicum, necromanticorum, <app>
+            <lem wit="#C">pythonissarum</lem>
+            <rdg wit="#V">phytonissarum</rdg>
+            </app>, sortilegorum, <app>
+            <lem wit="#C">incantatorum</lem>
+            <rdg wit="#V">incantorum</rdg>
+            </app>, et <app>
+            <lem wit="#V">id</lem>
+            <rdg wit="#C">ejus</rdg>
+            </app> generis <app>
+            <lem>superstitiosorum</lem>
+            <rdg resp="TBOO">superstiorum</rdg>
+            </app> diuinatorum <app>
+            <lem>vanitates</lem>
+            <rdg><note>ante <q>vanitates</q> add <q>prohiberi</q> C</note></rdg>
+          </app>: reprehendi etiam eos, qui sub Astrologiæ prætextu artes sortilegas
+          et incertas, ut multi nostro æuo factitant, venditarunt. Nequaquam vero inde
+          inferri potest, nullam esse stellarum influentiam, et hanc ab hominibus non
+          obseruandam: alias <persName ref="Moses">Moses</persName> sibi ipsi fuisset
+          contrarius, qui statim ab initio asseruit, sidera esse in signa condita, <app>
+            <lem wit="#V">ut iam antea diximus</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>. <app>
+            <lem wit="#V">Ea uero</lem>
+            <rdg wit="#C"><q>Omnia autem</q></rdg>
+          </app>, quæ in rerum natura condita sunt, propter hominem, ut se in illis
+          exerceat et delectetur, condita esse, quis ire potest inficias? Neque illud
+           <ref target="n38"/> <persName ref="Jeremias">Jeremiæ</persName> dictum <app>
+            <lem wit="#V">evertit</lem>
+            <rdg wit="#C"><q>invertit</q></rdg>
+            </app>, sed potius confirmat prædictiones. Non enim ait <persName
+            ref="Jeremias">Jeremias</persName>, cœlum et cœlestia corpora nihil
+          significare, sed signa illa pijs hominibus non esse timenda, verum in Deo
+          ipso penitus sperandum, qui astrorum infelicia decreta auferre uel lenire
+          possit. Eodem modo recte aliquis diceret: Non esse Christianis a <app>
+            <lem wit="#V">Turcis</lem>
+            <rdg wit="#C"><q>Turca</q></rdg>
+          </app> uel Tyrannis timendum. Nec ideo sequitur, Turcam et Tyrannos
+          Christianis <app>
+            <lem wit="#V">aliquatenus</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> nocere non posse, verum id saltem inde infertur,  <ref target="n39"/> non esse timendos
+          eos, qui corpus occidere possunt, in animam uero nullam habent potestatem.
+          Adducunt insuper Theologi illud <persName ref="Esaias">Esaiæ</persName>:  <ref target="n40"/> <hi
+            rend="it">Stent et <app>
+              <lem wit="#C">saluent</lem>
+              <rdg wit="#V"><q>salvant</q></rdg>
+            </app> te augures cœli, qui contemplabantur sidera, et supputabant
+            menses, ut ex ijs <app>
+              <lem wit="#C">annuncient</lem>
+              <rdg wit="#V"><q>annuncirent</q></rdg>
+            </app>
+            <app>
+              <lem wit="#V">ventura</lem>
+              <rdg wit="#C"><q>ventum</q></rdg>
+          </app> tibi.</hi> Eo in loco taxatur abusus artis et Chaldeorum
+          superstitio, qui confidebant <app>
+            <lem wit="#V">in suos impios <pb ed="TBOO" n="I.163"/>diuinatores</lem>
+            <rdg wit="#C"><q>suis impiis divinatoribus</q></rdg>
+            </app> et populum Dei captiuum <app>
+            <lem wit="#V">in exilio Babilonico</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> extra omnem misericordiam inhumaniter tractarunt, sperantes ex falsis
+          prædictionibus suorum ariolorum sibi <app>
+            <lem resp="#TBOO">perpetuam</lem>
+            <rdg wit="V"><q>perpetuum</q></rdg>
+            <rdg wit="#C"><q>æternam</q></rdg>
+            </app> felicitatem polliceri, <app>
+            <lem wit="#C">quo</lem>
+            <rdg wit="#V"><q>qua</q></rdg>
+            </app> semper in <app>
+            <lem wit="#V">subactos</lem>
+            <rdg wit="#C"><q>miseros</q></rdg>
+          </app> Judeos sæuire pro libidine possent: non considerantes, Deum saltem ad
+          tempus suum populum ob idololatriam et alia delicta sub eorum jugum
+          tradidisse, et tandem hunc liberaturum eorumque crudelitatem, quantumcunque <app>
+            <lem wit="#V">fiderent</lem>
+            <rdg wit="#C">crederent</rdg>
+          </app> plausibilibus suorum ariolorum prædictionibus, vindicaturum. Hanc
+          esse genuinam dicti <persName ref="Esaias">Esaiæ</persName> sententiam, ex
+          ipso orationis contextu liquido patet. Nequaquam dicit, astra nihil
+          significare, sed <app>
+            <lem wit="#V">vanam</lem>
+            <rdg wit="#C"><q>variam</q></rdg>
+            </app> confidentiam Chaldeorum in prædictiones <app>
+            <lem wit="#C">illas</lem>
+            <rdg wit="#V"><q>illis</q></rdg>
+            </app> fauorabiles, resistente et <app>
+            <lem wit="#C">adverso</lem>
+            <rdg wit="#V"><q>averso</q></rdg>
+            </app> Deo, damnat. Atque hinc discimus, nullas causas <app>
+            <lem wit="#C">secundas</lem>
+            <rdg><note>om. V</note></rdg>
+            </app> et physicas nobis <pb ed="V" n="12r"/>opem ferre posse, cum est <app>
+            <lem>auersa</lem>
+            <rdg><note>ante <q>auersa</q> add. <q>a nobis</q> C</note></rdg>
+            </app> Dei mens. Ipse itaque solus placandus, non expectanda salus a <app>
+            <lem>creatura</lem>
+            <rdg><note>post <q>creatura</q> add. <q>rerum</q> C</note></rdg>
+            </app>, quæ Deo nolente nihil operatur.  <ref target="n41"/> Sic reprehenditur in sacris literis
+          Rex <app>
+            <lem wit="#C"><persName ref="Asa">Asa</persName></lem>
+            <rdg wit="#V"><q>Ara</q></rdg>
+            </app>, quod dolore pedum ægrotans, non <app>
+            <lem wit="#V">posuit</lem>
+            <rdg wit="#C"><q>posuerit</q></rdg>
+          </app> spem in domino, sed in ope medicorum: nec propterea medicina eo in
+          loco reprehenditur, sed saltem nimia confidentia in res creatas, neglecto
+          ipso creatore. Obiciunt insuper <app>
+            <lem wit="#V">Theologiæ professores</lem>
+            <rdg wit="#C"><q>Theologi</q></rdg>
+          </app>, quod si malæ inclinationes essent ex astris, Deus, qui astra
+          condidit, autor peccati iniuste censeretur. At hi non considerant,
+          Astrologos non alligare hominis voluntatem astris, sed concedere esse in
+          homine aliquid, quod sit supra omnia astra exaltatum: cuius beneficio <app>
+            <lem wit="#V">quascunque</lem>
+            <rdg wit="#C"><q>omnes</q></rdg>
+          </app> maleuolas siderum inclinationes, si iuxta  <ref target="n42"/> verum et supramundanum
+          hominem viuere volet, vincere possit. At si brutalem vitam sequi rapique
+          cæcis affectibus, et cum <app>
+            <lem wit="#V">creaturis</lem>
+            <rdg wit="#C"><q>creatura rerum</q></rdg>
+          </app> potius fornicari eligat, Deus non est censendus autor huius erroris,
+          qui ipsum hominem ita condidit, ut omnes maleuolas siderum inclinationes
+          superare, si uolet, possit. Videant itaque <app>
+            <lem wit="#V">Theologiam profitentes</lem>
+            <rdg wit="#C"><q>Theologi</q></rdg>
+            </app>, quo jure Astrologiam sacris literis <app>
+            <lem wit="#V">prohibitam</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, et Deo aduersam iudicent, non considerantes, connexionem causarum a
+          prima in <app>
+            <lem wit="#V">vltimam</lem>
+            <rdg wit="#C"><q>ultimas</q></rdg>
+          </app> mediate procedere, et comminationes ac promissiones diuinas non
+          temporaneas et corporales <app>
+            <lem wit="#V">in</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> tantum esse, sed potius animi in hac et æterna vita beatitudinem aut
+          cruciatum <app>
+            <lem wit="#V">concernere</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>. Alias hi soli pij et a Deo electi iudicarentur, quibus fortuna, quæ
+          plerumque pessimis fauet, <app>
+            <lem wit="#V">in hac vita</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> abblandiretur: impij uero et a Deo destituti, qui <app>
+            <lem wit="#V">aduersa</lem>
+            <rdg wit="#C"><q>adversa in hac vita</q></rdg>
+          </app> opprimerentur sorte. Sunt itaque duo diuersa, extraneas et
+          temporaneas hominum fortunas, quæ ex astris et alijs physicis causis mediate
+          procedunt, scrutari: et internas illas ac supra mundi <app>
+            <lem wit="#V">huius visibilis</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> horizontem exaltatas, quæ a solo Deo immediate procedunt, fide
+          apprehendere. His itaque consideratis, nihil veræ pietati Astrologiam
+          officere posse <app>
+            <lem wit="#V">verisimile est</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>, nec plus quam medicorum consilia et prædictiones, quæ eodem modo
+          physicæ sunt, hominem a <app>
+            <lem wit="#V">Dei legitimo</lem>
+            <rdg wit="#C"><q>legitimo Dei</q></rdg>
+            </app> cultu <app>
+            <lem>abducere</lem>
+            <rdg><note>post <q>abducere</q> add. <q>existimo</q> C</note></rdg>
+          </app>. Fatemur quidem pluri<pb ed="TBOO" n="I.164"/>mas superstitiones et
+          abusus in hanc artem esse <app>
+            <lem wit="#C">introductos</lem>
+            <rdg wit="#V"><q>introductas</q></rdg>
+          </app>, sed id arti minime vitio verti debet. Ita enim comparatum est, ut
+          quo excellentior, quo sublimior aliqua sit scientia, eo facilius in abusum
+          deueniat. Quid ipsa Theologia præstantius? quid diuinius? cum tamen hæc ipsa
+          per maximam orbis partem inde ab initio plena superstitionum, abusuum, et
+          hæresium fuerit. <pb ed="V" n="12v"/>Idemque in alijs facultatibus Medicina
+          et Jurisprudentia cœterisque liberalibus exercitijs <app>
+            <lem wit="#V">(quod dolendum)</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>
+          <app>
+            <lem wit="#V">animaduertere</lem>
+            <rdg wit="#C"><q>videre</q></rdg>
+            </app> licet: cum nulla harum sit, quin <app>
+            <lem wit="#V">mendis</lem>
+            <rdg wit="#C"><q>suis mendis</q></rdg>
+            </app> et abusibus sit <app>
+            <lem wit="#V">plus quam satis contaminata</lem>
+            <rdg wit="#C"><q>referta</q></rdg>
+          </app>. Committunt etiam ipsi Astrologi in suis prædictionibus multa
+          sæpenumero errata, quæ ipsorum, non artis culpa contingunt. Vitia enim et <app>
+            <lem wit="#V">delicta</lem>
+            <rdg wit="#C"><q>errata</q></rdg>
+            </app> artificum arti ipsi imputari <app>
+            <lem wit="#V">proprie</lem>
+            <rdg><note>om. C</note></rdg>
+          </app> non debent, cumque difficillima sit Astrologiæ cognitio, et
+          paucissimis <app>
+            <lem wit="#V">datum</lem>
+            <rdg wit="#C"><q>detur</q></rdg>
+            </app>, summis labris prima ejus exordia degustare, <app>
+            <lem wit="#V">nedum penetralia introspicere</lem>
+            <rdg><note>om. C; <q>introspicere</q> ex <q>inspicere</q> corr.
+                V</note></rdg>
+          </app>, venia danda erit, si aliquando contigerit, huius artis studiosum a
+          scopo aberrare, <app>
+            <lem wit="#V">nec</lem>
+            <rdg wit="#C"><q>nec propterea</q></rdg>
+            </app> error ille in artis ignominiam cedere <app>
+            <lem wit="#V">merito</lem>
+            <rdg><note>om. C</note></rdg>
+        </app> debet.</p>
+
+        <p rend="indent">Restat ut ad id respondeamus, quod aduersarij tandem inferunt,
+          invtilem esse astrorum præscientiam, eo quod, siue bona, siue mala
+          prædixerint Astrologi, neutra præscire expediat. Id quidem ita se haberet,
+          si necessario reciperemus astrorum influentiam, eamque non immutare vel
+          corrigere <app>
+            <lem wit="#V">liceret</lem>
+            <rdg wit="#C"><q>possemus</q></rdg>
+            </app>. <app>
+            <lem wit="#V">Quod cum ita non sit, nec a quoquam saniore Astrologo
+              prolatum</lem>
+            <rdg wit="#C"><q>Ideoque</q></rdg>
+          </app>, non solum non invtile est, sed maxime expedit, impendentia astrorum
+          decreta præscire, vt si bona fuerint, non insolenti animo inopinatam
+          felicitatem excipiamus, sin mala, ante eorum aduentum nos præmunire, <app>
+            <lem wit="#V">ac ea</lem>
+            <rdg wit="#C"><q>et</q></rdg>
+            </app> præcauere possimus. <app>
+            <lem wit="#V">Vere</lem>
+            <rdg wit="#C"><q>Recte</q></rdg>
+            </app> igitur dixit autor  <ref target="n43"/> Centiloquij, <app>
+            <lem wit="#V">quod <persName ref="Ptolemaios">Ptolomæo</persName>
+              attribuitur</lem>
+            <rdg><note>om. C</note></rdg>
+            </app>: <hi rend="it">Potest, qui sciens est, multos astrorum effectus
+            corrigere, seque ante illorum aduentum præparare</hi>. <app>
+            <lem wit="#V">Hæc ille.</lem>
+            <rdg><note>om. C</note></rdg>
+          </app>
+          <app>
+            <lem wit="#V">Quapropter etiam</lem>
+            <rdg wit="#C"><q>Ideoque</q></rdg>
+            </app> plurimi ignorantes sibi ab astris <app>
+            <lem wit="#V">impendentia naturaliter fata</lem>
+            <rdg wit="#C"><q>dependentia decreta</q></rdg>
+            </app>, non solum <app>
+            <lem wit="#V">ea avertere</lem>
+            <rdg wit="#C"><q>hæc antevertere</q></rdg>
+          </app> nesciunt, sed cæci in sua ruunt infortunia, et astrorum maleuolam
+          significationem potius adaugent, quam <app>
+            <lem resp="#TBOO">quod eam mitigare, uel penitus evitare norint</lem>
+            <rdg wit="#V"><q>quod eam mitigare, uel penitus evitare norent</q></rdg>
+            <rdg wit="#C"><q>imminuunt</q></rdg>
+          </app>. In prosperis uero et ex voto succedentibus rebus, cum ex inopinato
+          sine <app>
+            <lem wit="#V">ulla</lem>
+            <rdg><note>om. C</note></rdg>
+            </app> prævisione illis contingant, tanta animi <app>
+            <lem wit="#V">insolentia</lem>
+            <rdg wit="#C"><q>confidentia</q></rdg>
+            </app> efferuntur, ut sæpenumero ob id <app>
+            <lem wit="#V">ipsa sors benigna ex improuiso illis alludens, mox
+              inauspicata reddatur</lem>
+            <rdg wit="#C"><q>in pœnam superbiæ merito impingant</q></rdg>
+            <rdg><note>reliqua usque ad finem om. C, qui inde ab hoc loco ita
+                orationem concludit: <q>Non enim  minus difficile est, se
+                  constantem et æquali animo in rebus secundis, quam
+                  adversis præbere. Hanc autem constantiam et fortitudinem
+                  longe melius  præstabit, qui futura multo ante præviderit.
+                  &#x2013; Hæc de prædictionibus  Astrologicis prolixius in
+                  medium adduxi, quod hæ ut plurimum, non solum  a vulgo, quod
+                  omnes Artes æquali odio prosequitur: sed a quibusdam  etiam
+                  eruditis hominibus in dubium vocentur: Quamvis sola Artis
+                  ignorantia eos excusare possit. Pergunt enim Arti
+                  contradicere, cujus principia  summis labris non
+                  degustârunt, et cum in aliqua cognitione excellunt, de 
+                  omnibus aliis rebus, quamvis ab ea cognitione longe
+                  dissitis, sibi judicium  arrogant. Solus Picus Mirandula
+                  Astrologiæ gnarus eam ex propriis Apotelesmatibus convellere
+                  aggressus est. Sed hujus objectionibus Lucius Bellantius
+                  erudito scripto jamdudum respondit: Et ipse Picus mortuus
+                  anno  ætatis 33, quem tres Astrologi illi fatalem ex
+                  directione ascendentis ad  corpus Martis prædixerant,
+                  Astrorum efficaciam, quam infringere voluit,  nimis certo
+                  eventu, proprio interitu comprobavit. Atque hæc de
+                  Mathematicis disciplinis, ipsaque Astrologia, generaliter
+                  et tenui Minerva hoc  loco et tempore sufficienter
+                  dicta sint. &#x2013; Restat nunc, ut vos mei instituti 
+                  certiores faciam. Cum itaque Regiæ Majestatis et vestræ
+                  petitioni nunc  obtemperare, et quædam in Mathematicis
+                  scientiis publice proponere decreverim: Nihil mihi visum est
+                  commodius, et e re discentium utilius , quam alteram
+                  Astronomiæ [Astronomiæ Curtius: Astronominæ C] partem, quæ
+                  motus secundi mobilis complectitur, breviter tradere: Cum
+                  primi mobilis doctrina per se facilis sit, et aliâs  in
+                  hac schola sæpenumero prælegatur. Id autem hac ratione
+                  absolvere  constitui, ut modum supputandi veros Planetarum
+                  motus, ex Tabulis Prutenicis, quæ in hoc negotio sunt
+                  exactissimæ, ostendam, unaque Circulorum, quibus Planetas
+                  moveri imaginamur, et ex quorum supputatione numeri
+                  Tabularum supputati sunt, cohærentiam, ac ordinem
+                  demonstrabo. Vt hac discendi [discendi Curtius: dicendi C]
+                  Methodo pulcerrimus fructus doctrinæ secundi Mobilis, quæ
+                  Motum septem errantium stellarum complectitur, vobis
+                  innotescere possit. &#x2013; Cras itaque hac ipsa hora, id
+                  quod promisimus, Deo auspicante incoabimus. &#x2013;
+                  Dixi.</q></note></rdg>
+        </app>. Neque enim frustra sic cecinit Maro:</p>
+
+        <lg rend="it">
+          <l> <ref target="n44"/> Nescia mens hominum fati sortisque futuræ,</l>
+          <l>Et seruare modum, rebus elata secundis.</l>
+        </lg>
+
+        <p>At nimis friuola sunt hæc, quæ a quibusdam philosophastris in hunc modum
+          adducuntur, et Medicina aliæque physicæ artes, ipsaque Œconomia, et
+          Agricultura, Arsque nautica (ut de pluribus non dicam) contrarium ostendunt.
+          In Medicinâ certe, si morbi natura et specifica qua<pb ed="TBOO" n="I.165"
+            />litas, ac quorsum ea progredi soleat, præcognita fuerint, et ijs prævenire
+          atque in tempore rectius præsens Antidotum adhiberi potest, sicque de alijs
+          rebus physicis quotidianâ exercitatione edocemur. In Œconomicis utique
+          crebra testatur experientia, quod prævisio et cautela plurimum prosint. Sit
+          enim exempli caussa, in aliqua parte domus, inscio hero, ignis <pb ed="V"
+            n="13r"/>tacite incendium vastum minitans. Anne si præsciatur et
+          indicetur, citius extingui poterit, adhibitis medijs, quam si improvisum et
+          ignotum invaluerit, et tecta omnia superarit? Agricultura quoque quantum
+          commodi ex prævisione, non saltem naturæ soli, sed et influentiarum cœli
+          sortiatur, quantumque ex horum neglectu incommodi, nemo rerum Rusticarum
+          gnarus, vel suo tam commodo, quam damno, ignorat. Quod et nautis adeo
+          necessarium est, ut ipsa experientia, uel multo ipsorum periculo elicita,
+          docuerit eos rectius sapere, et imminentes tempestates e certis, quæ
+          multimode animaduerterunt, signis, tam circa cœlestia, quam terrestria, et
+          aërem, atque eas, quas tranant, aquas, prænoscere, et quantum fieri potest,
+          evitare. Quin et illi, qui Jurisprudentiam profitentur, et Justitiæ
+          sacerdotes haberi volunt, hanc sublimem Mathematum scientiam elevare, atque
+          de ea minus honorifice loqui præsumserunt: adeo ut non veriti fuerint eorum
+          Antesignani, Titulum in codice ipsorum,  <ref target="n45"/> <hi rend="it">De maleficis et
+            Mathematicis</hi>, ac si hæc synonima essent, consignare; quod per eorum
+          imperitiam potius excusandum venit, quam illis acriori censurâ imputandum.
+          Ex quo inter Artes Mathematicas omnium supremas, et ob id sic κατεξοχὴν
+          dictas, atque ab omnibus sapientiæ, quantum hominibus conceditur, alumnis
+          diu multumque in summo pretio habitas, atque eas, quæ abiectissimæ omnium,
+          quæ pessimæ sunt, maleficia videlicet tractantes, distinguere nesciuerunt.
+          Nec quod eorum interpres eximius aliâs et laboriosus ille  <ref target="n47"/> <persName
+            ref="Accursius">Accursius</persName> hanc glossulam et interpretationem
+          alicubi addiderit:</p>
+        <lg rend="it">
+          <l> <ref target="n48"/> Scire docet <app>
+              <lem wit="#V">Mathesis</lem>
+              <rdg>priore loco in <q>Matesis</q> corr. V</rdg>
+          </app> sed diuinare Mathesis,</l>
+        </lg>
+        <p>convenienter ignorantiam adeo crassam excusat, sed potius linguæ græcæ
+          imperitiam Mathematum inscitiæ agglomerat: cum et aliâs græcarum literarum
+          rudis consultus ille <persName ref="Accursius">Accursius</persName> inter
+          Mathesin secunda  <ref target="n49"/> sillaba pariter longam et breuem tam belle adinvenerit, et
+          carmine probarit differentiam: quæ in vero linguæ illius idiomate atque
+          sillabarum recepta natura nulla est. Sed verisimile videtur, veteres
+          Romanos, qui hanc legem condiderunt, antequam Artes Mathematicæ apud eos
+          notæ atque excultæ erant, per imprudentiam quandam id admisisse, ob
+          Chaldæorum, Arabum, Ægiptiorum quorundam et aliorum superstitiones ac artes
+          sortilegas atque vetitas, forte etiam Necromanticas, quibus vulgus et
+          simpliciores seducebant, nihilominus <pb ed="TBOO" n="I.166"/>se sub nomine
+          Mathematicorum et Astrologicorum venditabant (siquidem ex his <app>
+            <lem>oris</lem>
+            <rdg><note>ante <q>oris</q> praebuit <q>terrarum</q> V, sed
+                delevit</note></rdg>
+          </app> hæ sublimes disciplinæ olim prodierint), <pb ed="V" n="13v"/>ut
+          specioso prætextu lucrum (uti sit) facerent, et incautos deciperent. Nam
+          veras illas et genuinas Mathematum scientias non detestatos esse hos LL.
+          latores, inde patet, quod Geometras et calculatores (sic enim Arithmeticos
+          vocant) alibi in pretio habeant, atque illis <app>
+            <lem resp="#TBOO">salaria</lem>
+            <rdg wit="#V"><q>solaria</q></rdg>
+            </app> numeranda <app>
+            <lem wit="#V">sentiant</lem>
+            <rdg><note>es <q>sensent</q> corr. V</note></rdg>
+          </app>, et immunitate officiorum publicorum donandos. Quod autem ita se
+          res habeat, uel inde patet, quod <app>
+            <lem>alibi</lem>
+            <rdg><note>post <q>alibi</q> praebuit <q>in codice</q> V, sed
+                delevit</note></rdg>
+            </app> sic scriptum inveniatur: <hi rend="it">Artem Geometriæ discere atque
+            exercere publice interest, ars autem Mathematica damnabilis est et
+            interdicta omnino</hi>.  <ref target="n50"/> L. 2. C. de Malef. et Mathematicis. Ex quibus
+          liquet, eos, qui has leges condiderunt, non intellexisse Geometriam esse
+          primam et præcipuam Mathematum partem, unde reliquæ ferme omnes originem
+          trahunt, ideoque admodum imprudenter Mathesin, quæ generalior est, a
+          Geometria sua specie semovisse. Aliud igitur quid per Mathematicas artes
+          tunc intellexerunt, quam hodie receptum est, et verus sensus exposcit, prout
+          antea monui. Sed sit, quicquid velit, nihil nos moratur, quid Romani in suis
+          forensibus legibus de tam sublimibus, et illis vixdum (quod et <persName
+            ref="Seneca">Seneca</persName> suo æuo testatur) supremis labris
+          degustatis scientijs pro authoritate sua, qua omnibus, non saltem gentibus,
+          sed et artibus imperare affectarunt, deciderint. Nam et ijs tum forte adhuc
+          illud Ouidianum non multo minus, quam veteri vrbis Romæ conditori Romulo
+          competebat:</p>
+
+        <lg rend="it">
+          <l> <ref target="n51"/> Scilicet arma magis quam sidera Romule noras,</l>
+          <l rend="indent">Curaque finitimos vincere major erat.</l>
+        </lg>
+
+        <p>Sic et Philosophos et poëtas nonnunquam per imperitiam, pari imprudentiæ
+          coniunctam, Ciuitate  <ref target="n52"/> ejecerunt, quin et vxoribus proprijs (licet ijs carere
+          nequiuerint) interdum ciuitate leuiter interdixerunt, et simili leuitate
+          postea receperunt; ut a talibus, quascunque tandem leges de rebus incognitis
+          præ dominandi libidine et fastuoso arbitrio fingant atque refingant, nihil
+          de artibus excellentioribus, quæ Dei eximia dona sunt, quod in earum
+          neglectum cedat, pronunciandum et credendum merito veniat. Sed his omissis
+          ad Medicinæ professores transeamus: quorum etiam nonnulli Mathematica et
+          inprimis Astrologiam insectantur: licet eorum primarius Antistes  <ref target="n53"/> <persName
+            ref="Hippocrates">Hyppocrates</persName> id ipsum non commiserit, qui
+          vtraque in summo habuit pretio, et non saltem Geometrica pro more
+          Philosophorum eius ætatis egregie calluerit, sed et astrologicas
+          prædictiones suæ facultati convenienter et cum fructu applicuerit: quod et
+          multi alij post ipsum præstiterunt, et plerique nostro etiam æuo non
+          infeliciter imitati sunt. Mirum tamen est, <pb ed="V" n="14r"/>nonnullos,
+          inter quos famosus ille <persName ref="Erastus">Erastus</persName>, †quicum†
+          Medicinam, <pb ed="TBOO" n="I.167"/>quæ physica quædam est cognitio, et ex
+          naturæ inferioris investigatione dependet, cœlestia, unde <app>
+            <lem resp="#TBOO">hæc</lem>
+            <rdg wit="#V"><q>has</q></rdg>
+          </app> vires et mutationes suas sortitur, inconsiderate negligere. Verum cum
+           <ref target="n54"/> <persName ref="Erastus">Erastus</persName> iste erroribus aliâs non
+          modicis,  <ref target="n56"/> Etymologiæ nominis sui <app>
+            <lem wit="#V">congruus</lem>
+            <rdg><note>ex <q>congruis</q> corr. V</note></rdg>
+          </app>, obnoxius fuerit, non est quod ipsius uel ab illo seductorum
+          præoccupatas et frivolas opiniones moremur, sicut plurimum obcæcante eum,
+          cuius authoritali nimium fidebat, <persName ref="Aristoteles"
+            >Aristotele</persName>. Siquidem <app>
+            <lem>is</lem>
+            <rdg><note>ante <q>is</q> praebuit <q>et</q> V, sed delevit</note></rdg>
+          </app>, ut erat ingenio ad contradictiones et aliorum probe inventorum
+          perversiones procliui, quasi in id natus, Magni quoque illius  <ref target="n57"/> <persName
+            ref="Paracelsus">Paracelsi</persName> traditiones, a se nunquam solide
+          intellectas, impugnare non intentatum reliquit; utut tam debilibus, quos
+          admouit cuniculis, expugnare nequiuerit, et cometas quoque sublunares esse,
+          pro suo <persName ref="Aristoteles">Aristotele</persName> frivolis
+          argumentis contenderit, ac multaque alia, a verâ philosophiâ alienissima,
+          tanquam pro aris et focis pugnans protulerit, et calami virulentiâ
+          impetierit. At quorsum opus est, Medicos Astrologiam negligentes refellere?
+          cum nec morborum crises, nec aliæ judicationes <app>
+            <lem wit="#V">uspiam</lem>
+            <rdg><note><q>usque iam</q> V man. pr.</note></rdg>
+          </app> rectius illis pateant, quam ab Astrorum circuitu atque influxu: vt  <ref target="n58"/> de
+          mineralium et herbarum e terrâ evulsionibus, et medicamentorum
+          præparationibus, atque convenienti tempore administrationibus, atque alijs
+          huc pertinentibus nihil dicam. Id certe sine ulla dubitatione asseuerare
+          audeo, eos, qui sine cœlestium cognitione Medicinæ penetralia affectant, vix
+          dimidium eius, quod scire oportuit, capere: siquidem Macrocosmum cum
+          Microcosmo per eam, quæ illis intercedit, convenientem Analogiam conjungere
+          nesciant.</p>
+
+        <p rend="indent">Verum ut tandem dicam, id quod res exigit, neque a Theologiæ,
+          neque Philosophiæ, neque Jurisprudentiæ, neque Medicinæ professoribus,
+          Artibus Mathematicis, aut plerisque eorum, adeo invisæ Astrologiæ quidpiam
+          impendet periculi. Siquidem maxima pars eorum, præsertim ij, qui vehementius
+          has insectantur, eas quam maxime ignorant, nec in tam sacra abdita unquam
+          ingressi sunt. Neque enim judicium de artibus ex eorum opinione sumendum
+          est, qui eas ignorant. Nam ut est in vsitato proverbio:  <ref target="n59"/> <hi rend="it">Nec
+            sutor ultra crepidam</hi>, et  <ref target="n60"/> <hi rend="it">Ardeam auem ob id vocis
+            strepitu aquas culpare aiunt, quia nare non didicerit</hi>: est quidem
+          quorundam præstantiorum ingeniorum hic mos, ut, cum in nonnullis cognitionem
+          quandam <pb ed="V" n="14v"/>uel experientiam assecuti fuerint, atque ob id
+          autoritatem apud quosdam promeriti, ut etiam de alijs rebus non intellectis,
+          et ne quidem per transennam inspectis, judicium sibi arrogent. Quod quam
+          temerarium sit, norunt illi, qui hæc, et rectius intelligunt, et in ijs
+          verum a falso, partim diutino studio, partim crebra exercitatione discernere
+          norunt. Verum illi hisce artibus, et ei, de quâ locuti sumus, Astrologiæ præ
+          cœteris periculosi sunt hostes, qui in ijs aliquandiu, nec obiter versati
+          sunt, et postea desciscentes, eas oppugnant: qualis fuit superiori æuo
+          Illustris ille Italorum Philosophus <pb ed="TBOO" n="I.168"/>in plurimis
+          disciplinis ad miraculum eruditus  <ref target="n61"/> <persName ref="Pico">Picus Comes
+            Mirandulæ</persName>, qui ab ineunte ætate, uti in alijs Mathematicis
+          scientijs ingeniose versatus erat, sic etiam Astrologiæ, prout communiter
+          tradebatur,  <ref target="n62"/> Apotelesmata et præceptiones non perfunctorie calluerat.
+          Tandem uero, siue ob superstitiones et falsitates quorundam
+          pseudastrologorum, siue odio nonnullorum (uti putatur), qui ipsius coætanei
+          erant, et non placentia ipsi prædixerant, magnum volumen in tredecim libros
+          digestum contra Astrologiam vibrauit: in quo tamen, non tam artem ipsam, et
+          huius solidiora molimina quatit, quam Astrologorum imperitorum supervacaneas
+          et frivolas Nænias prodit, quas nemo secretiori et veriori Astrologiæ
+          addictus unquam probarit. Si sic agere liceat, et ob id artes culpandæ sint,
+          quoniam illi, qui eas profitentur, uel minus periti fuerint, uel illis forte
+          abutantur, iam nihil certi et solidi restabit, vel in Theologiæ, vel
+          Jurisprudentiæ, vel Medicinæ, uel totius denique Philosophiæ tractatione:
+          imo in omnibus his ita ferme comparatum est, ut quæ ab hominibus de ijs
+          communiter tradita atque recepta sunt, quam minimi sint ponderis: illa uero,
+          quæ veritatis nucleum attingant, paucissimis nota in abscondito lateant.
+          Quin et eo licentiæ devenit dictus <persName ref="Pico">Comes
+            Mirandulanus</persName>, ut non solum Astrologica (quæ cum Physica et
+          Mantica sint, atque pro subiectæ materiæ fluxibilitate varie alterari
+          queant, facile in controuersiam veniunt), sed et Astronomica, adeoque
+          mutationem maximæ obliquitatis Ecclipticæ a veterum temporibus hucusque
+          factam in dubium vocare non sit veritus: cum tamen ea tam ab <persName
+            ref="Hipparchus">Hipparcho</persName> quam <persName ref="Ptolemaios"
+            >Ptolomæo</persName> maiori præcisione, quam fert sexagesima vnius
+          gradus portio, consentiente indagine, denotata sit, nostro autem tempore
+          omnino tertiâ gradus parte minor quam illorum inventio deprehendatur. Nec in
+          re tam perspicua, et obseruationi facile patente temere movenda erat
+          hæsitatio. Quid igitur de cœteris, sensibus non adeo obuijs, <pb ed="V"
+            n="15r"/>nec ita demonstrabilibus statuendum erit, et quam in his fidem
+          ejus merebuntur contradictiones, siquæ ipsam artem, non autem ejus abusum
+          attigerint? Quin etsi indubitatum fuerit, id quod in Italorum quorundam
+          scriptis reperitur, non opus erit, huius <persName ref="Pico">Pici</persName> contra Astrologos
+          argumentationes aliunde, quam ex proprio in ipsum edito experimento,
+          refellere: vtut  <ref target="n63"/> <persName ref="Belantius">Lucius Belantius</persName>,
+          erudito volumine contra ipsius obiectiones vicissim edito, id admodum
+          solerter præstiterit. Aiunt enim pro certo Italici <app>
+            <lem resp="#TBOO">quidam</lem>
+            <rdg wit="#V"><q>quidem</q></rdg>
+          </app> scriptores, inter quos est  <ref target="n64"/> <persName ref="Gauricus">Lucas
+            Gauricus</persName>, Episcopus Geoponensis appellatus, et ob Astrologiæ
+          professionem clarus, eidem <persName ref="Pico">Pico</persName> tres
+          præstantes in Italia Astrologos annum ætatis 33 fatalem, ex directione
+          Horoscopi ipsius Aphetæ ad corpus &#x2642; anaretæ [<app><lem>prædixerant</lem><rdg><note>om. TBOO (et V?), sed. cf. C et Curtius</note></rdg></app>]: quod et in Genetliaco
+          ipsius Themate (modo id quod circumfertur, verum sit) satis quadrat. Et
+          quamuis idem <persName ref="Pico">Picus</persName> hanc prædictionem
+          amoliri, atque irritam reddere, quantum in ipso <pb ed="TBOO" n="I.169"
+            />erat, laborarit, adeo ut se in cænobium quoddam circa idem ætatis tempus
+          abdidisse dicatur, nihilominus eodem anno, quo prædictum fuerat, fatis
+          concessit, ut sic in proprio corpore, adeoque vitâ ipsâ Astrologiæ
+          certitudinem expertus fuerit, quam ingenio et calamo labefactare nitebatur.
+          Plurima ejusmodi exempla in promptu sunt, ubi prædictiones solertium et
+          crebrâ experientiâ informatorum Astrologorum prædictiones non irritos
+          habuere euentus: licet non diffitear, quam plurimos etiam, qui se pro
+          talibus venditant, imo crebrius quam cœteros, falsa pro veris vaticinari:
+          quod tamen non Arti tam abstrusæ, et si rite exerceatur, atque intra suos
+          terminos cohibeatur, non ita vitiosæ, atque communiter habetur, imputandum
+          merito venit, sed potius ijs, qui ea non rite et circumspecte vtuntur.
+          Imo addam, et pro his, qui nonnunquam aberrant (ne id arti tribuatur),
+          quiddam, quod Paradoxicum forte haberi possit: eos, qui semel atque iterum,
+          uel aliquoties certi aliquid, quoad temporum et euentuum circumstantias, ita
+          ut hinc, et non aliunde id prævisum et euenisse constet, prædixerint, plus
+          probare, Astrologiam non parum veritatis habere, quam si illi ipsi, vel
+          etiam alij multo sæpius falsa rursus vaticinati fuerint: veluti (ut exemplo
+          quodam id palam <app>
+            <lem resp="#TBOO">reddamus</lem>
+            <rdg wit="#V"><q>reddemus</q></rdg>
+          </app>), si quis Medicinam exercens in morbi certo quodam genere rata quædam
+          habuerit experimenta, quæ illi malo ut plurimum <pb ed="V" n="15v"
+            />succurrant, in alijs uero nihil eiusmodi ita certo compererit, et
+          nihilominus quosuis morbos ad se delatos curare præsumserit, is cer[te] dum
+          id genus, in quo euidens aliquod medicamentum, indubitat[â] experientiâ
+          comprobatum, applicando pro majori parte profligat, Medicinæ aliquam Artem
+          esse, eandemque veracem, plus probat, qua[m] si in alijs affectibus, <app>
+            <lem wit="#T">vbi</lem>
+            <rdg wit="#V"><q>etiam</q></rdg>
+            </app> remedia per ignorantiam <app>
+            <lem wit="#T">adhibet</lem>
+            <rdg wit="#V"><q>adhibeat</q> vel <q>adhibens</q></rdg>
+          </app>
+          <app>
+            <lem wit="#T">et [lon]ge sæpius fallatur</lem>
+            <rdg wit="#V"><q>et sit [lon]ge sæpius falsus</q></rdg>
+            </app>, <app>
+            <lem wit="#T">eandem vituperio exponit</lem>
+            <rdg wit="#V"><q>artem nullam vanam esse probat</q></rdg>
+            </app>. Verum enimuero <app>
+            <lem wit="#T">hæc et</lem>
+            <rdg wit="#V"><note>om. V</note></rdg>
+          </app> multo plura, quæ pro Astrologiâ contra eius oppugnatores defensionis
+          caussa adferri possunt, non est, quod quispiam existimet, me propterea in
+          medium protulisse, quod huic vati[ci]natrici præ cœteris philosophiæ
+          partibus plurimum tribuam, au[t] eam studiosis Adolescentibus impensius
+          commendatam velim, sed quia <app>
+            <lem wit="#T">illa præ cœteris</lem>
+            <rdg wit="#V"><q>illam inter alia</q></rdg>
+            </app> Mathematum <app>
+            <lem wit="#T">membris</lem>
+            <rdg wit="#V"><q>membra</q></rdg>
+            </app> (nam <app>
+            <lem wit="#T">et</lem>
+            <rdg wit="#V"><q>ad</q></rdg>
+          </app> hæc ob Astronomiæ, unde dependet, affinitatem, utut pro maiori parte
+          physica sit, referenda venit) ab eruditis alias viris maxime in dubium
+          vocetur, atque illi ferme ubique contradicatur, eius patrocinium aliquatenus
+          suscipiendum existimaui, prout etiam superius <app>
+            <lem wit="#T">innuj</lem>
+            <rdg wit="#V"><q>indicaui</q></rdg>
+          </app>. Neque etiam sentio, hanc esse ex ijs artibus, quæ publice doceri
+          debeant, atque omnibus sine discrimine communicari, sed potius cum delectu
+          quodam ingeniorum sobrie et <app>
+            <lem>parce</lem>
+            <rdg><note>post <q>parce</q> add. <q>tamen</q> V, sed delevit
+                T</note></rdg>
+          </app> administrandam censeo. <pb ed="V" n="16r"/>Neque enim nos nimis
+          curiosos esse oportet in ijs præsertim doctrinis, quæ demonstrationi ratæ
+          minus patent, sed inextricabiles anfractus et Labyrintos subinde
+          insinuant <app>
+            <lem wit="#T">ne<pb ed="TBOO" n="I.170"/>que nimis alte sapiendo veri
+              bonique naufragium faciamus. <app><lem>Quare</lem><rdg><note>post <q>Quare</q> scripserat <q>pru</q> T, sed delevit</note></rdg></app> circumspecte admodum et
+              moderate talia sunt tractanda. Atque hoc de proposita materia in
+              præsentiarum dixisse sufficiat.</lem>
+            <rdg><note>qui delevit haec verva quae praebuerat V: <q>Licet non
+                  ignorem in fundatione huius Regiæ Academiæ ita suo quodam,
+                  nec forte imprudenti ordinatum esse, ut Astrologia ad[eo]que
+                  nominatim Quadripartitum Ptolomæi subinde studiosis
+                  prælegerentur, et Prognostica annua a Mathematum
+                  professore  quotannis ederentur, addita etiam eorum, quæ
+                  obijci possint, succincta  dilutione. Quod tamen hactenus
+                  obseruatum non video. Sed nos non Astrologica, uti modo dixi,
+                  sed potius Astronomica proposituri, doc[tri]nam illam de
+                  uniuersali motu, quem primum vocant, qu[.] qu.t[..]nis h[i.]
+                  repetitur et per se cognitu non est difficilis, minorique
+                  negotio, quam communiter fit, absolui et percipi queat, haud
+                  attingemus, verum de Planetarum circuitibus, quem motum
+                  secundum utpote pri[mo] contrarium, eundemque intellectu longe
+                  difficiliorem vocant, a paucissimis hactenus rite
+                  explicatum, potius agemus, et si non omnium Planetarum hypotheses præ
+                  aliarum, quibus varie distineor, occupationum impedimentis,
+                  tam cito atque cuperem, explanare licebit, saltem duorum
+                  mundi Luminarium Solis et Lunæ Theorias (quatenus inventioni
+                  et numeris Copernicæis quadrare possint), aliâ quadam
+                  ratione, et uti spero, fideliore, quam hactenus a quibusdam
+                  factitatum est, [e]lucidabo. Atque circuituum delineationes
+                  et demonstrationes [g]eometricas, cum numeris hinc deducis,
+                  convenienter adaptabo, [e]t de cæteris quoque Planetis si
+                  plura præstare commodum non fuerit, [g]eneralem quandam
+                  indicationem, per hæc ipsa, quæ de Sole et Lu[n]a dicta
+                  fuerint, exhibebo. Si qui uero inter vos, studiosi
+                  adoles[c]entes, fuerint, qui præ rei familiaris penuria
+                  libris huic negotio in[s]eruientibus destituantur, aut unde
+                  eos coëmant, non supersit, [m]e libere accedant, gratis
+                  hosce subministrabo. Asterismos [q]uoque cœlestes uobis una
+                  cum [<q>una cum</q> T: <q>eorum</q> V] Planetis apparentibus in cœlo mon[s]trabo, quando
+                  vespertinis temporibus sudum fuerit; tunc igitur [m]e hac de
+                  caussa accedere vobis liberum erit. Cras uero hac [h]orâ
+                  nonâ antemeridianâ, in hoc ipso publico loco, id quod
+                  pollici[ti] sumus, volente cœlestium opifice inchoabimus
+                  (utque hoc ipsum eo [ci]tius absolui queat, et ego ad mea
+                  domestica [<q>domestica</q> T: <q>alia</q> V] negotia [hic verba <q>et domesticas [c]uras</q> praebuerat V, sed delevit T] reverti, aliaque  studia exequi queam): singulis
+                  septimanæ diebus sex [<q>sex</q> T: <q>sexies</q> V] prælationem hanc  continuare decreui,
+                  sicque Regiæ Majestatis voluntati, et vestris desiderijs  me
+                  promptius et expeditius satisfacturum confido.
+            </q></note></rdg>
+          </app>
+        </p>
+      </div>
+      <div xml:id="subjungenda" n="Subjungenda">
+        <head>
+          <orig><pb ed="nil" n="17r"/> <ref target="n68"/> HÆC POST ORATIONEM SUBIUNGENDA.</orig>
+          <reg>Subjungenda</reg>
+          <reg xml:lang="en">Subjungenda</reg>
+        </head>
+        <p>INTEREA dum sic perorarem integra hora, omnium qui aderant in me intentis
+          oculis, accidit, ut cum ad illum locum uenissem, ubi Theologorum argumenta
+          contra Astrologos diluo, omnes studiosi conuersa facie in eruditissimum
+          illum et de literis præclare meritum D.  <ref target="n69"/> <persName ref="Hemmingsen, Niels"
+            >Nicolaum Hemmingium</persName>, qui una aderat, tanquam cœterorum
+          Professorum antesignanus, ipsum intuerentur. Is uero, quod conscius esset,
+          se eiuscemodi argumenta ijsdem studiosis contra Astrologiam dictasse, et
+          postmodum <app><lem>Commentarijs</lem><rdg><note>ante <q>Comentarijs</q> add. <q>in</q> V, sed delevit T</note></rdg></app> suis ad Paulinas epistolas <app><lem wit="#T">inserta publicasse</lem><rdg wit="#V"><q>publicari curasse</q></rdg></app>, quæ
+          tamen pro maiori parte e <persName ref="Calvin">Caluini</persName> libello
+          contra Astrologos <app><lem wit="#T">desumta videntur</lem><rdg wit="#V"><q>hauserat</q></rdg></app>, baretrum, quod in capite habuit,
+          aliquantulum subridendo subduxit, utut ego neminem nominarem, sed saltem in
+          genere dicerem, talia obicere Theologiæ <app><lem>Professores</lem><rdg><note>post <q>Professores</q> add. <q>Sed forte accidit id, quod uetus Cato aiebat, Conscius ipse sibi, de se putat omnia dici</q> V, sed delevit VT</note></rdg></app>.</p>
+
+        <p rend="indent">Existimo autem ipsius et aliorum argumentis in hac
+          oratiuncula satis obuiatum esse, et quantum ad <persName ref="Calvin"
+            >Caluini</persName> eruditum alias libellum attinet, quem contra
+          Astrologos uibrauit, is non tam contra eos, quam pro illis facit, uel ipso
+          autore, alias satis perspicaci et ingenioso, ignorante. Dum enim fatetur,
+          sidera in aërem quidem elementarem influere, atque eius impressiones mouere
+          atque alterare, necessarium etiam erit, homines huic influentiæ esse
+          obnoxios, siquidem ex aëre, quem omni momento hauriunt, plus uiuant, quam
+          cibo uel potu, sicque una cœlestium energian tacite imbibant: imo et
+          quotidiana aëris mutatione utplurimum afficiantur, ideoque in trito est
+          uersiculo:</p>
+
+        <lg rend="it">
+          <l>Turbida turbatos facit aura serena serenos.</l>
+        </lg>
+
+        <p>Addidit is et hoc, quo ad genethliacas prædictiones se concedere, in
+          complexiones et crases hominum Astra operari, non autem in euentus
+          subsequentes. At quid hoc est dicere? Certe si complexiones et humores
+          alterant in hominibus, etiam effectis inde prouenientibus occasionem dant.
+          Sic Melancholici ex Saturno atrabilarij sunt, et tristitiæ, inuidiæ atque
+          subdolis machinationibus obnoxij: Sanguinarij <pb ed="V" n="17v"/>econtra ex
+          Joue et Venere hilares, aperti et benigni: Colerici et flaua bile
+          abundantes ex Marte sunt iracundi, impetuosi et pugnaces: Phlegmatici
+          secundum Lunam sunt torpidi, somnolenti et pigri. Quamuis hæc uarie
+          transplantentur atque misceantur, ita ut uix unum aliquod indiuiduum alicui
+          solummodo ex his sit obnoxium, sed ut plurimum de singulis mix<pb ed="TBOO"
+            n="I.171"/>tim participet, idque quo ad maius uel minus, et pro
+          temporis aliorumque accidentium ratione multifaria. Si itaque eiuscemodi
+          complexionibus homines ex astris tinguntur, <app><lem>uti</lem><rdg><note>ante <q>uti</q> add. <q>ita</q> V, sed delevit$</note></rdg></app> concessit <persName
+            ref="Calvin">Caluinus</persName>, subsequens erit talium complexionum
+          fructus etiam inde prouenire: quales sunt illi, ut breuiter dicam, qui ex
+          tristitia, inuidia, maleuolentia, iracundia, effrena hilaritate, luxuria,
+          tarditate, segnitie, atque his similibus proueniunt. Qui quales sint,
+          communis usus et hominum conuersatio ostendit. De cœteris euentibus, quæ
+          extra hominem sunt, uti de accidentijs in uita ex improuiso contingentibus,
+          deque coniugio et liberis, amicis uel inimicis, conuersatione atque his
+          similibus, ipsi Astrologi obiter saltem ac timide pronunciant, eo quod hæc
+          atque eius generis plura extra hominem sint, ipsiusque arbitrio pro maiori
+          parte subiecta. Vnde etiam non usque adeo male, licet non omnino uere uulgo
+          dicitur, <hi rend="it">Quemlibet esse suæ fortunæ fabrum</hi>. Sed de his
+          non est ulterius huius loci disserere. Sufficiant ista, donec commodior
+          detur occasio.</p>
+
+        <p rend="indent">Finita uero hac, quam tunc habui oratione, cum ex dicto loco
+          discedendo me in hospitium reciperem, unaque dictus <persName ref="Dançay"
+            >Magnificus Dominus Legatus Gallicus</persName>, cum Academiæ
+          Professoribus, me beneuolentiæ causa deduceret, accidit, ut inter eundum
+          quidam eorum Jurisprudentiæ prosessorem agens,  <ref target="n72"/> <persName ref="Knoppert"
+            >Albertus Knopperus</persName>, vir alias eximius et apertus, sic
+          inferret ad me uerba conuertens: Cum audiuissem te, et contra Philosophos
+          et Medicos, tum quoque Theologiæ professores disserentem, atque ipsorum
+          obiectiones contra uestram artem refellentem, ualde timui, ne et nos
+          Jurisconsultos aggredereris, adeo ut præ anxietate sudarem; erat enim etiam
+          admodum corpulentus <pb ed="V" n="18r"/>(siue iocose siue serio id referens)
+          male nobis conscius de titulo illo in Pandectis, qui inscribitur Contra
+          maleficos et Mathematicos. Cui ego mox subridendo obuiabam: Equidem non
+          ignarus fui, uos tam insulsum istic assignasse titulum, siquidem  <ref target="n73"/> olim Lipsiæ
+          operam dare uestræ Jurisprudentiæ ex parentum uoluntate cogebar. At malui id
+          silentio præterire, siquidem nihil aliud haberem, quod contra hæc inferrem,
+          quam hoc, quod illi, qui Jurisprudentiam iactitant, non rectius norint
+          discernere inter Mathematicos et Maleficos, quam quod eos sub uno nomine
+          et titulo comprehendant, illorum ignorantiæ tribuendum est, atque per
+          hanc excusandum. Nam quod in glossa alicubi addiderunt, huius forte inscitiæ
+          admoniti, hanc distinctionem:</p>
+
+        <lg rend="it">
+          <l> <ref target="n74"/> Scire docet Mathesis, dat diuinare Mathesis,</l>
+        </lg>
+
+        <p>æque prodit eorum in græca lingua imperitiam, atque in Mathesi stupiditatem,
+          ut ob id non citra rem dixerit uester Accursius: Græca sunt, legi non
+          possunt. Is autem, ut erat homo ingenuus, hæc omnia candide et iocose
+          accipiebat. Ipse uero Magnificus Dominus Legatus cum me <pb ed="TBOO"
+            n="I.172"/>diligenter rogasset, ut ipsi in prandio adesse uellem, atque
+          clarissimum illum Hemmingium aliosque ex Doctoribus eodem nomine coram
+          orasset, non uolui ipsius petitioni refragari. Sed ipsum mox in prandio
+          accedens, ubi etiam dictus <persName ref="Hemmingsen, Niels"
+            >Hemmingius</persName> cum quibusdam ex præcipuis Doctoribus et
+          Professoribus aderat, tunc quæ in oratione illa prolata essent, ulterius
+          inter nos conuiuali sermone uentilabantur. Præstantissimus uero ille
+          <persName ref="Dançay">Danzæus</persName>, ut erat suaui et alacri
+          ingenio præditus, iocose <persName ref="Hemmingsen, Niels"
+            >Hemmingium</persName> et me committere uolens, sic proponebat: Tycho
+          hodie in oratione sua non saltem ali[as] facultates, sed et Theologiam
+          profitentes aggressus est, quod hi Astrologiæ minus tribuant, tanquam
+          Theologiæ contrarianti. Nam et ipse <persName ref="Dançay"
+            >Danzæus</persName> tacite Astrologicis prædictionibus, præsertim
+          Genethliacis, minus fauebat, utut is in adolescentia hoc etiam studium
+          excoluerat, atque magnum in eo profectum fecerat, ita ut multa uero euentu
+          <pb ed="V" n="18v"/>hinc in priuatis personis prædicere potuerat,
+          quemadmodum ipsemet mihi hoc retulit, sed a <persName ref="Calvin"
+            >Caluino</persName> nimis hic rigido  <ref target="n76"/> <persName ref="Aristarchos"
+            >Aristarcho</persName> deterritus, hoc exercitium reliquit. Putabat uero
+          etiam is, Astrologicas prædictiones Euangelicæ doctrinæ refragari. At ego
+          respondere solebam: Nihil inde esse periculi, si sobrie et circumspecte
+          tractentur, nec ultra metas exorbitent, atque in superstitionem prolabantur,
+          sed multo plus damni traxisse ab ijs, qui fatis politicis pro arbitrio
+          præesse uoluerunt. Cum itaque <persName ref="Hemmingsen, Niels"
+            >Hemmingius</persName> audiuisset, <persName ref="Dançay"
+            >Danzæum</persName> ista in memoriam reuocare, putans se, quod et res
+          erat, peti, statim subiunxit, se meæ declarationi non admodum reluctari,
+          siquidem Deum liberrime agere, secundis causis non astrictum, nequaquam
+          inficiarer, nec etiam homini liberum adimerem arbitrium per Astrorum
+          influentias. His duobus stantibus, cœtera tolerari possint. Atqui ego in
+          hunc modum respondi: Deum liberrime agere nullis creaturis obnoxium, nemo
+          Astrologorum etiam inter Ethnicos, nisi plane atheus et  <ref target="n78"/> Epicureus, unquam
+          inficiatus est. Arbitrium uero et mentem hominis non solum Astris non
+          subdj, sed et super hæc exaltari atque in ea dominari posse, præsertim si
+          diuinitus iuuetur, ego pro concesso et confesso semper habui: Sicque
+          inter nos conuenit.</p>
+
+        <p rend="indent">Sequenti uero die, eadem qua antea hora, prælectionem inchoauj,
+          præmissa quadam extemporanea præfatiuncula pro ingressu, qua quid proponere
+          ac docere uellem, generaliori indicatione innuebam, nempe quod doctrinam
+          secundorum mobilium illis quo ad principaliora compendiose essem expositurus
+          iuxta <persName ref="Copernicus">Copernici</persName> mentem et numeros,
+          reducendo tamen omnia ad stabilitatem terræ, quam is triplici cieri motu
+          finxerat, idque circa Fixas stellas, et duo mundi luminaria, Solem atque
+          Lunam, primo facturum et hypotheses eorundem declaraturum, atque tam
+          geometrice per triangulos, quam arithmelice in numeros iuxta Canones
+          <app><lem resp="#TBOO">Prutenicos</lem><rdg wit="#V"><q>Plutenicos</q></rdg></app> Coperniceo nitentes fundamento resolutu<pb ed="TBOO" n="I.173"
+            />[rum]: <pb ed="a" n="19r"/>quod si postea ocium et commoditas
+          superesset, me idem in quinque reliquis Planetis præstiturum. Curaueram
+          autem coëmi proprio ære aliquot exemplaria tabularum Prutenicarum, quæ inter
+          studiosos, præsertim eos, qui tenuioris essent fortunæ, distribui mandaui,
+          ne illis Canones, quibus uterentur, deessent. Vbi uero Luminarium hypotheses
+          absolueram, incumbebat mihi iter quoddam in Germaniam, quare circa Brumam
+          istuc traijciens prælectionem ulterius continuare intermisi. Indicaui
+          nihilominus generali quadam expositione, quomodo in reliquis Planetis hæc
+          ipsa etiam essent intelligenda, et qua ratione illorum apparentiæ ad
+          terræ stabilitatem, manentibus Copernici numeris, adaptari possent,
+          insinuauj, idque aliter quam a <persName ref="Peucer"> <ref target="n79"/> Peucero</persName>
+          et <persName ref="Dasypodius"> <ref target="n80"/> Dasipodio</persName> hoc frustra
+          factitantibus in libello quodam nuper de ea re edito præstitum esset. Illi
+          enim <persName ref="Copernicus">Copernici</persName> calculum hypothesibus
+          Ptolemaicis atque Alphonsinis inconuenienter applicarunt.</p>
+
+        <p rend="indent">Et quoniam haud ingratum forte futurum sit, si Astronomiæ
+          studiosis ea ipsa, quæ tunc prælegi, atque ob <app><lem>.....</lem><rdg><note>lacunae e laceratione chartae extiterunt</note></rdg></app> simul indicaui, hic
+          communicauero, subiungam ....., quid ex ijs inter chartas meas adhuc
+          reperire ....., et quæ memoria non effugerunt, ut sic ad Cop... ...ctionem
+          promptius inuitentur stud..... <persName ref="Ptolemaios"
+            >Ptolemeo</persName> coniungant, atque apud ip..... ...gogen hinc
+          deductas maneant, m... ..... Dulcius ex ipso fonte bibuntur ..... </p>
+      </div>
+    </body>
+  </text>
+</TEI>

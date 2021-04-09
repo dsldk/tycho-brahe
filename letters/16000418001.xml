@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hans Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 302</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-04-18"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 18. april n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.300"/>IOANNES GEORGIUS <persName ref="Herwart"
+                        >HERWARTUS AB HOHENBURG</persName> AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="52v"/>MITTO, Vir nobilissime atque Mathematicorum omnium facile
+                    princeps, ut libri, quos petijsti, ad te transferantur, his iuncta</p>
+                <p><persName ref="Virdungus">IOANNIS VIRDUNGI</persName> tabulas resolutas de supputandis motibus syderum, </p>
+                <p>Tabulas Prutenicas <persName ref="Reinhold, Erasmus">ERASMI RHEINHOLDI</persName>,</p>
+                <p><persName ref="Copernicus">COPERNICUM</persName> de triangulis et Algorithmum
+                    demonstratum No. 76.</p>
+                <p>Habemus exemplar græce manuscriptum <persName ref="Hipparchos"><persName
+                            ref="Hipparchos">HIPPARCHI</persName></persName> Bithyni in <persName ref="Aratos">ARATI</persName> et
+                    <persName ref="Eudoxos">EUDOXI</persName> Phænomena librorum 3, cum Asterismis (uti inscribitur in Codice Florentiæ
+                    A<hi rend="sup">o</hi> 1567 impresso. Nec enim Asterismi illi sunt <persName ref="Hipparchos"
+                        >HIPPARCHI</persName>, nec forte reliqua) et alterum exemplar Magnæ
+                    Syntaxeos CL. <persName ref="Ptolemaios">PTOLEMÆI</persName>, literâ pervetustâ
+                    et eleganti conscriptum. Quod si tibi dubiæ lectiones occurrant, lubens admodum et sedulo conferam et ad
+                    te perscribam. Nec inpræsentiarum occurrunt iam alia, sed hisce tibi officia mea
+                    promptissime offero. Datæ (18 Apr. circiter) A. 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

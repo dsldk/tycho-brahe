@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Holger Rosenkrantz</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 148-149</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Holger Rosenkrantz</persName>
+                    <placeName>empty</placeName>
+                    <date when="1599-03-07"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599. 7. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-08" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.148"/><persName ref="Rosenkrantz, Holger">OLIGERUS
+                        ROSENKRANTZ</persName> AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="1r"/>[IGNES spirant, noctesque diesque meditantur,] sed in proprias
+                    fauces <app>
+                        <lem wit="#Friis">regurgitandos</lem>
+                        <rdg wit="#A">regurgitandas</rdg>
+                    </app>.</p>
+                <p rend="indent">[Si meo non certe affectu ullo temerato,] sed gravissimis quam
+                    plurimis argumentis confirmato, et meditationibus, mihi crede, satis multis et
+                    constantibus maturo [consilio parere volueris], quod spero, [suaserim primum
+                    omnium, litteris regi destinatis insulam <placeName ref="Hven"
+                        >Huennam</placeName> quasi gratias pro regia liberalitate] (prudenter et
+                    placide submonitis submonendis) [agens rursum deferas], ut tamen quo [tua tibi
+                    cadant instrumenta], prudenter ͻ: Politice submoneas. Alterum vero est, ne
+                    [expensarum invisam et odiosam restitutionem] vel saltem velle [exigere
+                    videaris], nedum vel [exigas vel exagites]. Vis, sufficientes dicam rationes et
+                    mearum meditationem momenta. [Dicam, sed ne quæso mihi succenseas, bono] tibique
+                    optime [cupienti animo hæc dico]. Primum, si feceris, ante omnia,
+                    [magnanimitatem tuam] ostenderis. Dein [te omnimodo liberum ab omni
+                    iurisdictione <persName ref="Christian 4.">Regis</persName> vindicaris], quod
+                    vel unicum quantum siet, ipse perpende, quod tamen nisi hoc modo fieri nequit.
+                    Adhæc [si retineas, videas ne te tanquam <foreign xml:lang="da"><hi rend="it">en
+                            Lensmand</hi></foreign>, ut bona tibi a Rege concredita inhabites, iure
+                    quodam suo cogere præsumat]. Et ut omnia uno: [quamdiu insulam eam retinueris,
+                    tanquam subditus cuivis vocationi parere,] quibus certe magnas [tibi parare <pb
+                        ed="TBOO" n="VIII.149"/>possunt] incommoditates et difficultates, insuper
+                    [citatus, ipse, seu præsens comparere], quod <pb ed="A" n="1v"/>tibi valde foret
+                    difficile et prorsus impossibile, [aut quod ais pronunciatum perferre
+                    cogereris]. Et vero quid non [ipse] magna tua cum laude et præter multorum
+                    existimationem [eam deferre malles], cum [possint ipsi, ubi velint, etiam quodam
+                    iure eam præcipere, pretendentes] quippe [litteras tibi a Rege concessas] (quæ
+                    quidem [ad vitam eam] tibi [appropriat insulam]) sub [conditione] Astronomiæ
+                    [hic in <placeName ref="Denmark">Dania</placeName> excolendæ conceptas] esse. Tu
+                    ipse [ingenia eorum nosti]; nihil certe intermiserint, ut interim [immensum
+                    istud discrimen inter alium aliquem nobilem <persName ref="Christian 4."
+                        >Regis</persName> subditum et te] (in quo non postrema [bonitatis causæ tuæ]
+                    ratio vertitur) vel alto silentio [dissimulent] vel [malitiose elevent]. Ad
+                    alterum cogites velim, quam nec natura nec eius imitatores quid frustra
+                    committant, [iure vero quidpiam tentare] frustraneum simul ac periculosum, ubi
+                    et quod me tacente ipse satis intelligis, [quam inconstantes sint principum
+                    animi,] simul ac [quam non corvus unus alteri, quod dicitur, oculos eruat],
+                    tecum attentissime pro tua prudentia perpendas velim. Bono hæc animo dico, fidem
+                    testor et candorem; nec dicerem nisi bono. Nec quidpiam video, licet videre
+                    nunquam non laborem, quod [rebus tuis ulla ratione adversari queat et institutum
+                    tuum tandem turbare queat], præter [hæc duo]. Sed hæc Deo et tuæ prudentiæ.</p>
+                <lb/>
+            </div>
+        </body>
+    </text>
+</TEI>

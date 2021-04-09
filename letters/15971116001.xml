@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 10</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1597-11-16"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Holger Rosenkrantz</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1597. 16. november</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-23" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.10"/>
+                <opener><pb ed="A" n="1v"/>NOBILITATE NON TANTUM GENERIS, SED ET GENIJ ATQUE INGENIJ
+                    VIRO IN PRIMIS CONSPICUO DOMINO <persName ref="Rosenkrantz, Holger">OLIGERO
+                        ROSÆKRANTZIO</persName> DE <placeName ref="Rosenholm">ROSENHOLM</placeName>,
+                    CONSANGVINEO, AFFINI ET AMICO INTEGERRIMO.</opener>
+                <p><pb ed="A" n="1r"/>S. P.</p>
+                <p>CORDATISSIME mi <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, cognate
+                    desideratissime et affinis exoptatissime. Postquam priores hisce..........................<app>
+                        <lem>viserint</lem>
+                        <rdg><note>ex <q>vixerint</q> corr. A</note></rdg>
+                    </app> tandem an non potius sui ipsius, et patriæ, cuius honori studere merito
+                    debuissent, maiore incommodo quam meo................nostræ satis arguunt
+                    compositoris malevolum animum <app>
+                        <lem>pari</lem>
+                        <rdg><note>ex <q>pravo</q> corr. A</note></rdg>
+                    </app> præiudicio et avaritiæ nefanda labe infectum:</p>
+                <p><hi rend="it"><lg>
+                            <l>Proh superi quid non mortalia pectora cogis</l>
+                            <l>Sacra sitis Rosei fontis, præbendaque sacra!</l>
+                        </lg></hi></p>
+                <p rend="indent">Dolendum certe est, imo supra modum dolendum, iuvenem hunc Regem,
+                    alias suapte natura virtutis capacem et generoso animo præditum, talibus
+                    glaucomatistis ita occæcari et in devia deduci, ut id, quod verum rectumque sit
+                    et Regno ac sibi forsan maiore duratione honorificum, quam multa alia, quæ
+                    inutiliter fiunt et profunduntur, perspicere et sentire nequeat, utpote alienis
+                    oculis et auribus tam videns quam audiens. Veniet forsan tempus quando et
+                    oculatior, magisque auritus (experientia et usu rerum sic suadente) reddetur. At
+                    quantum ad me meaque tamdiu exantlata studia nimis sero. Præveniam potius, et
+                    mihi.............favente divina providentia, dum adhuc tempus <app>
+                        <lem>super</lem>
+                        <rdg><note><q>superest</q> ex <q>sufficiet</q> corr. A</note></rdg>
+                    </app><pb ed="TBOO" n="VIII.11"/><app>
+                        <lem>est</lem>
+                        <rdg><note><q>superest</q> ex <q>sufficiet</q> corr. A</note></rdg>
+                        <!-- NB! Dette var den mest elegante løsning jeg kunne finde -->
+                    </app>...........<app>
+                        <lem>iamque</lem>
+                        <rdg><note>ex <q>tamque</q> corr. A</note></rdg>
+                    </app> alea iacta est, numeratæ tesseræ re......Bene sit Regi precor, utut mihi
+                    præter culpam et iniuriam non <app>
+                        <lem>faventi</lem>
+                        <rdg><note>ex <q>facienti</q> corr. A</note></rdg>
+                    </app>. Bene sit vobis omnibus..............præsertim integrioribus. Bene sit
+                    universæ <placeName ref="Denmark">Daniæ</placeName> ex animo opto.</p>
+                <p rend="indent">..............Deo tra..........fortuna, sequamur. Iamque vale mi
+                    amantissime <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, et quæ hîc
+                    desiderantur, in priori<pb ed="A" n="1v"/>bus atque postscriptis lege,
+                    TYCHONEMque ex asse tuum <app>
+                        <lem>sincere</lem>
+                        <rdg><note>ex <q>perge</q> corr. A</note></rdg>
+                    </app> redamare, quod et sponte facturus es, nunquam desiste. Iterumque et
+                    sæpius vale. Dabantur subito <placeName ref="Wandsburg">Wandesburgo</placeName>
+                    prope <placeName ref="Hamburg">Hamburgum</placeName>, die 16. Novembris Anni
+                    97.</p>
+                <p rend="rightMargin">Tuus intimus et extimus<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                <p rend="center"><pb ed="A" n="1r"/>POSTSCRIPTA.</p>
+                <p>AMANTISSIME <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, si res tuæ
+                    ullo modo ita ferrent, nihil magis in votis haberem, quam ut peractis Regijs
+                    Nuptijs velles <placeName ref="Breitenburg">Bredenbergam</placeName> venire et
+                    mihi isthic indicato prius tempore, idque per certum et fidelem internuncium,
+                    obviam ire: partim invisendi optimi illius Senis <persName
+                        ref="Rantzau, Heinrich">RANZOVIJ</persName> communis nostri Affinis et Amici
+                    integerrimi gratia, partim ut bibliothecam eius, qua vix ampliorem et
+                    splendidiorem <placeName ref="Germany">Germania</placeName> habet, lustres, sive
+                    isthic fuerit Produx, sive non; est enim mihi semper liberum, nec dubito quin et
+                    tibi, quem pariter is (prout tua meretur virtus) ex animo diligit; partim etiam,
+                    ut nos invicem adhuc semel (dum modo sæpius non liceat) compellemus, antequam
+                    longius disiungamur; quod non saltem sanguinis ratio et amicitiæ vinculum, sed
+                    et nova inter nos affinitas exposcit. Neque enim ignoras, <pb ed="A" n="1v"/>me
+                    post Patrem esse e sponsæ agnatione proximum adeoque primum, ideoque non
+                    negligendum aut prætereundum; veluti in cæteris vix admisisti. Atque hæ erunt
+                    tibi sufficientes caussæ, imo unica earum, quod isthuc impetrata vel non
+                    impetrata venia eas. Et si de me tacere, idque tibi soli secretum reservare,
+                    cautius duxeris, libenter id concedam. Mihi enim perinde est, sive quis mea de
+                    caussa palam sive clam agat; modo id quod æquum est et res postulat, agat.
+                    Indica saltem actutum, quid a te in his præstari possit, ut et ego de meis
+                    interea rebus sic eo commodius disponam. Exemplum nuperarum (de quibus in
+                    prioribus dictum) literarum nunc non addo. Habebis id alias aut ubi
+                    convenerimus, si etiamnum in Cancellaria vestra tectum habetur; uti solent ea,
+                    quæ lucem oderunt. De tua enim voluntate nihil <pb ed="A" n="2r"/>addubito. Cum
+                    ante mensem circiter Observationes meas Astronomicas invitante Serenitate hîc
+                        <placeName ref="Wandsburg">Wandesburgi</placeName> renovarem, atque in
+                    libro, quo priores <placeName ref="Uraniborg">Uraniburgi</placeName> circa
+                    æquinoctium vernum desinentes denotâram, has posteriores subiungere voluissem,
+                    ut earundem tanto tempore præter solitum interrupta<pb ed="TBOO" n="VIII.12"
+                    />rum occasio mihi et alijs in posterum memoria non excideret (quod tamen vix
+                    futurum) exposui primum isthic prosa discessus mei ex <placeName ref="Hven"
+                        >Insula Venusia</placeName>, adeoque tota Dania, rationes brevibus
+                    comprehensas, moxque dictante genio incidit Carmen elegiacum, quod unâ isthic
+                    adscripsi. Cuius hîc te participem reddo, cum sciam te Poëticis delectari, atque
+                    ex Pegaseis fontibus canoras hausisse lymphas. Si itaque et tu pariter
+                    responderis, non quidem consolandi gratia (cum scias me nihil in his asperi, sed
+                    potius omnia ex usu puta<pb ed="A" n="2v"/>re), verum ut Uraniæ e <placeName
+                        ref="Denmark">Dania</placeName> vestra in alia magisque gratiosa et commoda
+                    loca mecum migranti Propempticum concinnes, nobisque utrinque sic congratuleris,
+                    rem tam illi quam mihi non saltem iocundam sed et acceptam præstiteris. Neque
+                    authoris nomen prodere opus erit: uti et mea apud te secreta haberi, et nemini
+                    quidpiam inde communicari velim. Tradas potius Vulcano, ubi legeris. Sufficit in
+                    memoria habere qua vales, cum et antea hæc ita se habere, satis superque
+                    memineris. Iamque pluries vale. Dabantur ut supra in literis.</p>
+                <lb/>
+                <p rend="rightMargin">T. B.</p>
+                <lb/>
+                <p rend="center">ALTERA POSTSCRIPTA MINORIS MOMENTI.</p>
+                <p>CUM Præfectum illum, quem discedens <placeName ref="Hven">Venusiæ</placeName>
+                    nostræ præfeci, <persName ref="Petri">DAVIDEM PETRI</persName> nomine, apud me
+                    suspectum reddiderit Parochus ille prior in Insula, interea dum hîc mecum egit,
+                    nescio an odio aliquo privato an rei veritate, et inter alia narrârit, eum, cum
+                    Patri tuo optim. mem. inserviret, aliquot centenis eum defraudasse, rogo velis
+                    mihi scheda aliqua obiter indicare, quid de huius Præfecti fide vel secus
+                    exploratum habeas. Nescio enim quantum Parocho isti fidendum sit, cum quia
+                    alteri infensus erat, tum quod me sibi omnino optime cupientem, supra quam credi
+                    posset, ante abitum despexerit, adeoque ut contumelias et calumnias, nulla de
+                    caussa in os mihi dicere non erubuerit, quas tamen patienter ferens, ex alto
+                    derisi, hominemque tanquam sui non compotem, addito viatico et munere, dimisi.
+                    Quod te scire volui, ne in mei gratiam quidpiam de eo amplius sis sollicitus.
+                    Plura ab <persName ref="Bille, Eske">ESCHILLO BILLE</persName> nostro
+                    intelliges, qui acta habet in literas relata et testificata. Datum ut in
+                    prioribus.</p>
+                <lb/>
+                <p rend="rightMargin">T. B.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Georg Rollenhagen</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 327</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>TGeorg Rollenhagen</persName>
+                    <placeName>Magdeburg</placeName>
+                    <date when="1600-06-19"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 19. juni</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-24" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.327"/><pb ed="A" n="60v"/><foreign xml:lang="de">DEM EDLEN EHRNVESTEN VND HOCHGELARTEN HERRN <hi rend="it"
+                                >TYCHO BRAHEN</hi> AUFF KNUTHSTORFF, S. RÖMISCH <persName ref="Rudolf 2.">KEYSERLICHEN
+                            MAYT.</persName></foreign> <hi rend="it">ASTROΝΟΜΟ</hi> <foreign xml:lang="la">AUFF
+                            BENATHEN, MEYNEM ... GÜNSTIGEN HERRN.</foreign> <hi rend="it">CITISSIME.</hi></opener>
+
+                <p><pb ed="A" n="60r"/>S.</p>
+                <p>GENEROSE et doctiss. D. TYCHO, vehementer expectant nostri Canonici tuæ
+                    Astronomicæ suppellectilis avectionem, et pecuniam promtam ad omnia offerunt.
+                    Accessit quoque me <persName ref="Grutzmacher">GRUTZMACERUS</persName>
+                    <placeName ref="Dresden">Dresdensis</placeName> nauta, qui promittit se navibus
+                    suis <placeName ref="Litoměřice">Leutmeritium</placeName> usque omnia recte advecturum. En alius quidam ex nostris, qui
+                    idem rogat, ut sibi committatur. Duabus enim navibus se omnia rite repositurum
+                    esse. Reliqua enim suppellex nuper <placeName ref="Hamburg">Hamburgo</placeName>
+                    quoque advecta est. Quid impediat, scripsi ante Pentecosten, et quia nihil
+                    impetro responsi, existimo non esse redditas meas. Quare rogavi hunc meum
+                    vicinum, ut has aut ipse redderet, aut conducto <placeName ref="Praha"
+                        >Pragæ</placeName> nuncio, cui tu satisfaceres, de tua voluntate
+                    sciscitaretur. Est autem hæc mora, quod inventarium prioris vecturæ <persName ref="Anders">ANDREAS</persName>
+                    vester secum abstulit, ut sine insigni errore nos committere eam nautis prorsus
+                    nequeamus. Omnino ergo oportet <persName ref="Anders ">ANDREAM</persName> <pb ed="A" n="60v"/>ipsum redire ad nos,
+                    aut aliquem ex domesticis, cui nota sunt externo ab intuitu omnia, et qui ex
+                    navi reponat in littore, contra pluvias muniat, tibique postea deferenda curet.
+                    Quod peregrinus nec vult nec potest recte curare. Mittas ergo, quam primum
+                    potes, qui comes et inspector sit omnium. De me præstabo fidelissime omnia, quæ
+                    volueris et quæ potero. B. V. <placeName ref="Magdeburg">Magdæburgi</placeName>
+                    9 Iunij 1600.</p>
+                <lb/>
+                <p rend="rightMargin">Tuus<lb/>GEORGIUS ROLLENHAGEN.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

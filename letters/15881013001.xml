@@ -1,0 +1,696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christopher Rothmann</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="C">
+                        <bibl>Exemplum epistolae Casellis asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rothmann, Christopher (1550-ca. 1608)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1587-01-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588. 13. oktober</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VI.149"/><pb ed="E" n="120"/><app>
+                            <lem>NOBILISSIMO ET VIRTVTE SAPIENTIA INGENIOSA ERVDITAQVE DOCTRINA,
+                                CLARISSIMO VIRO, DOMINO TYCHONI BRAHE, DOMINO DE KNVDSTRVP, EQVITI
+                                DANO, MATHEMATICORVM NOSTRO SECULO OMNIUM PRÆSTANTISSIMO, ETC.
+                                DOMINO SUO CUM OBSERUANTIA COLENDO, ETC. S. P.</lem>
+                            <rdg><note>om. C</note></rdg>
+                        </app>
+                </opener>
+                <p>ACCEPTATISSIMÆ mihi fuerunt vtræque tuæ literas, Nobilissime ac Præstantissime D.
+                    TYCHO, animoque meo longe gratissimæ, et priores cum Tomo secundo <app>
+                        <lem>Phænomenon</lem>
+                        <rdg wit="#C">Phænoménωn</rdg>
+                    </app> Cæli recentiorum, quas 11. Iulij a <persName ref="Gellius">Gellio
+                        Sasceride</persName> accepi, et posteriores, quas iam. Verum ad has tibi
+                    prius respondebo, ad priores inferius. De materia igitur Cæli vt adhuc paucis
+                    tecum agam, peto mihi concedas. Ab ea enim diuelli non possum. Et nisi hæc
+                    quæstio a nobis decisa fuerit, a nullo vnquam, siue Theologo siue Physico
+                    decidetur. Non enim Deus in verbo suo quicquam de hac reuelauit, cum nihil ad
+                    salutem nostram pertineat, nec eiusmodi disputationes, quas pauci admodum etiam
+                    inter Doctos intelligunt, immiscere voluit sacris literis, quæ omnibus omnino
+                    hominibus, Indoctis pariter ac Doctis, Rudibus pariter ac Ingeniosis scriptæ
+                    sunt, vt et ipse Christus Ioan. 3. ad Nicodemum testatur. Physici quoque quomodo
+                    de hac quicquam certi scire poterunt? Tantum enim de eiusmodi sublimibus et tam
+                    procul a nobis dissitis rebus scimus ac intelligimus, quantum per Doctrinam
+                    Triangulorum et Mathematicas demonstrationes inuenimus. Sine his qui de eiusmodi
+                    rebus disserit, vanissimus est prorsusque delirat. Nec ego Aëris materiam vnquam
+                    introduxissem, nisi defectus Refractionum et Demonstrationes opticæ me ad id
+                    impulissent. Quousque enim verum erit, quod diuersa Diaphana efficiant <app>
+                        <lem>Refractionem</lem>
+                        <rdg wit="#C">refractionum</rdg>
+                    </app>, eousque etiam mea assertio vera erit. Nec huic quicquam derogant ea quæ
+                    a te afferuntur. Quod enim a Physicis traditur, in Cælo <app>
+                        <lem>esse nihil</lem>
+                        <rdg wit="#C">nihil esse</rdg>
+                    </app> elementare, nihil corruptibile, nihil variabile, sed æterna omnia: tam
+                    facile negatur quam asseritur. Probandum enim est, cur ita sit et vnde illud
+                    sciatur, non pro hypothesi et axiomate concesso assumendum. Quod si cum
+                    Aristotele ideo id esse dixeris, quoniam nulla mutatio vnquam in corporibus
+                    cælestibus vel potius in magnitudine et claritate Siderum depræhensa sit, nihil
+                    dixeris. Nam nec magnitudo Terræ vnquam mutata est, et tamen in Terra et circa
+                    Terram sunt corruptibilia omnia. Nihil igitur magnitudinis perseuerantia in
+                    Stellis probat. Nec tamen interim nego, ipsa corpora <pb ed="TBOO" n="VI.150"/>
+                    cælestia esse perfectissima, simplicissima, nullique prorsus corruptioni aut
+                    generationi obnoxia; sed tantum de circumfusa materia loquor, <app>
+                        <lem>quam</lem>
+                        <rdg><note><q>quem</q> E C: corr. T</note></rdg>
+                    </app> non impurum sed purissimum dico esse Aërem, qui tamen ab Aëre puro infra
+                        <pb ed="E" n="121"/>Lunam nihil differat. Nam et hic nihil claritati
+                    Stellarum detrahit. Nec inde sequitur, si ipsa corpora sint perfectissima et ab
+                    Elementis diuersa, etiam circumfusam materiam perfectam esse oportere: sed
+                    potius, cum Cometæ in ea generentur, crescant, decrescant, et tandem etiam
+                    euanescant ac dissipentur, tantæque interdum sint magnitudinis, vt etiam
+                    quinquaginta Gradus occupare possint; non vsque adeo a mutatione et corruptione
+                    erit immunis, nec tam æterna, diuina et imperscrutabilis vt fingitur. Nec si
+                    huic rationi et superiori principio Optico innitor, Cælum (si modo circumfusa
+                    illa materia Cælum appellanda est; quanquam non ignorem, Aërem quoque interdum
+                    Cælum appellari.) Non inquam Cælum ideo aliqua labe aspersero, sed potius illud
+                    a vana et præter omnem causam et experientiam otiose afficta substantia
+                    liberauero, veramque sententiam substituero. Nec sonitus vllus e concitato
+                    Siderum motu in Aëre illo puro ciebitur. Quod enim Aër illisus et impulsus
+                    sonitum edat, id in hoc crasso a vento experti sumus (sonitum enim qui ratione
+                    vacui fit, huc non quadrare manifestum est) nec id caret ratione. Quoniam enim
+                    Aër hic crassus semper aliquid aqueum in se continet, Aqua vero sit eiusmodi
+                    res, quæ penetrationem subitam non admittat: non immerito Aër quoque crassus in
+                    impulsione et illisione resistet quodammodo et sonitum edet. At idem in puro
+                    quoque Aëre accidere, nemo facile probauerit. Eum enim esse tenuissimum ac
+                    rarissimum, satis inde liquet, quod hic crassus, licet tenuissimus putetur,
+                    tamen radios Solis etiam serenissimo tempore non irreflexos et sine lumine
+                    transmittat; Illum autem purum radij Solis absque vllo lumine et reflexione
+                    penetrent, vt ex Crepusculis manifestum est. Ideo ob tenuitatem et raritatem
+                    purus ille Aër illidi et impelli non poterit, sed absque vllo obstaculo cedet,
+                    adeoque perpetuitati reuolutionis cælestium corporum et puritati eorum longo vsu
+                    temporeque non detrahet, multo minus atterendo constantissimam harmoniam
+                    labefactabit. Quod si purissimus ille Aër hoc posset, vererer <app>
+                        <lem>vt</lem>
+                        <rdg><note><q>vt</q> in <q>ne</q> corr. C</note></rdg>
+                    </app> a vehementissimis ventorum flatibus in hoc crasso Aëre iamdudum tota
+                    Terra esset attrita et absumta, ac etiam de suo loco mota. Si item tantus sonus
+                    a puro illo Aëre excitari posset, vt nostrum auditum percelleret, omnes Superos
+                    præ nimio metu iamdudum suffocatos putarem. Multo enim magis sonitus crassi
+                    huius Aëris a vehementissimis ventis excitatus a Superis perciperetur, quam ille
+                    a nobis. Sed tamen memini, fuisse aliquando in loco quinque milliaribus hinc
+                    sito vehementissimum ventum, adeo vt ædificia et arbores euerteret; de cuius
+                    tamen sono ego hîc nihil audiebam. Adeo, quæ vera sunt, coniecturis euerti non
+                    possunt. De proportione quoque <pb ed="TBOO" n="VI.151"/>Elementorum scis
+                    quomodo <persName ref="Melanchthon">PHILIPPVS MELANCHTHON</persName> in sua
+                    Physica Peripateticos reprehendat, veramque <persName ref="Aristoteles"
+                        >Aristotelis</persName> sententiam doceat. Et sane cum concedis, vsque ad
+                    Lunam Aërem elementarem esse, eo ipso proportionem Elementorum tollis. Cum enim
+                    vsque ad infimam Lunam, vt te inuenisse in se<pb ed="E" n="122"/>cundo Tomo mihi
+                    transmisso testaris, sint Semidiametri Terræ 52. plus centies millies Aër maior
+                    erit ipso Terræ et Aquæ globo simul. Quæ autem proportio est 1. ad 100000. vel
+                    potius 1. ad 140608. vt interim de Terra ab Aqua separata taceam? Non igitur
+                    proportio Elementorum obstat. Sed nec mea ipsius demonstratio, vt obijcis. Non
+                    enim volui, in Altitudine 30. Grad. nullam amplius fieri posse Refractionem, sed
+                    hoc tantum tanquam <app>
+                        <lem>petitum</lem>
+                        <rdg wit="#C">peritum</rdg>
+                    </app> seu postulatum ex primis tuis literis ad Illustrissimum <persName
+                        ref="Wilhelm, landgrave of Hessen">Principem</persName> nostrum missis
+                    assumsi, vt demonstrare possem, si detur altitudo, in qua Refractiones desinant,
+                    dari etiam quanto spatio radij Solis Aërem crassum irrefracti penetrent:
+                    Eademque demonstratio permanebit, licet Refractiones vix in 40. Altitudinis
+                    Gradu desinant. Cumque ex ea proueniat, vapores circa Horizontem sextuplo
+                    proxime densiores esse quam in Altitudine 30. partium, sequitur inde, minorem
+                    proportionem Refractiones efficere non posse in ea Altitudine; multo minus
+                    spatium eiusdem <app>
+                        <lem>medij circa Horizontem, irrefracte penetratum maius esse eo quod
+                            refracte</lem>
+                        <rdg wit="#C">medij irrefracte penetratum maius esse eo quod refracte circa
+                            Horizontem</rdg>
+                    </app> penetratur. Vide igitur an diuerso Ætheris et Aëris Diaphano ea
+                    demonstratio applicari possit. Quæ enim multiplicatio diuersi Diaphani aut
+                    potius Aëris hîc esse potest? Pone enim combinationem illam mutuam Ætheris et
+                    Aëris fieri in distantia 30. Semidiam. Terrenarum â superficie Terræ, in
+                    Horizonte quæ erit multiplicatio? Nondum enim in Horizonte 31. Semidiam. erunt.
+                    Scilicet radij tot Semidiametros Terrenas diuersi Diaphani irrefracti <app>
+                        <lem>penetrare</lem>
+                        <rdg><note><q>penerrare</q> E: corr. T</note></rdg>
+                    </app> poterunt, vnicam autem Semidiametrum non possint? Quod vero existimas,
+                    etiamsi concedatur, quod nulla fiat Refractio in loco proxime sublunari, non
+                    tamen inde sequi, vt Cælum (si modo circumfusa illa materia, vt antea quoque
+                    dixi, Cælum appellanda est: de ea enim loquimur,) vt inquam Cælum ex Aëre
+                    Elementari constet: Illud longe aliter se habet. Quandocunque enim dantur
+                    diuersa Diaphana, datur etiam Refractio extra perpendicularem, et quandocunque
+                    Refractio extra perpendicularem tollitur, tollitur etiam diuersitas Diaphanorum,
+                    vt manifestum est ex capit. 2. et 4. <persName ref="Alhazen">Alhazeni</persName>
+                    lib. 7. et ex <persName ref="Vitellio">Vitellion.</persName> lib. 10. P. 3. et
+                    passim ex tota Optica. Diuersa enim media diuersimode transmittunt imagines rei
+                    visæ ad oculum, et cum primum medium fuerit subtilius et rarius quam secundum,
+                    imago facilius et velocius transmittitur per primum <app>
+                        <lem>medium</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> quam per secundum, et cum ad secundum peruenit, retardatur quasi, vt ex <app>
+                        <lem>dictis Opticis</lem>
+                        <rdg wit="#C">Opticis dictis</rdg>
+                    </app> notum est. Vnde quoque hîc locum habere non potest ea excusatio, quod
+                    media illa diuersa in mutua connexione sibi <pb ed="TBOO" n="VI.152"/>inuicem,
+                    vt sine causa fingis, assimilentur, et successiue alterum in alterum mutetur.
+                    Erit enim nihilominus in ea mutua combinatione et assimilatione punctum, in quo
+                    imago Stellarum quasi retardetur, quod est punctum Refractionis. Sæpius hyeme
+                    expertus sum, cum aperta fenestra starem in medio Obseruatorij in calido Aëre,
+                    rem vi<pb ed="E" n="123"/>sam in frigido Aëre consistentem refracte videri. Hîc
+                    certe nec similitudo, nec successiua combinatio et assimilatio Refractionem
+                    tollere potuerunt. Si vero media illa per se tam similia sunt, vt inter illa
+                    nulla sit differentia, cur diuersa appellas? cur non etiam sublunarem illum
+                    purum Aërem Æthera, seu, vt Plinius loquitur, Æthereum spiritum appellas? Ita
+                    enim tecum non pugnarem. Tantum enim id contendo, non esse diuersa Ætheris et
+                    Aëris puri Diaphana, cum nulla ab ijs generetur Refractio. Sed nescio quomodo
+                    adeo inhæreas tuæ sententiæ, vt etiam præter omnem experientiam concedas,
+                    Refractionem Ætheris et Aëris durare vsque ad verticem, cum <app>
+                        <lem>tamen</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> eam nunquam Instrumentis senseris. Certe hac ratione quiduis confingere
+                    licet. Sed tamen sequeretur inde, nullam Stellam præter eas, quæ verticem
+                    transeunt et in vertice sunt, vero lumine videri, verum confuso et debilitato.
+                    Omnis enim Refractio debilitat lucem et colorem rei visæ, vt <app>
+                        <lem>demonstrat</lem>
+                        <rdg wit="#C">demonstret</rdg>
+                    </app>
+                    <persName ref="Alhazen">Alhazen</persName> lib. 7. capit. 7. et <persName
+                        ref="Vitellio">Vitellio</persName>, lib. 10. P. 10. Cum igitur diuersitas ea
+                    ex collatione Stellæ verticalis ad reliquas a vaporibus liberas non
+                    depræhendatur, nec Refractio concedi poterit. Verum tu hîc potius in omnia
+                    diuersa. Ais enim, has Ætheris et Aëris Refractiones infra 30. Gradum esse
+                    sensibiles, in altiori vero situ insensibiles, et tamen postea addis,
+                    Refractionem Solis, quam in Altitudine 30. Grad. inuenisti 1½. Minutorum, per
+                    solos vapores vix excusari posse. Vtinam diceres, eam totam esse a diuerso
+                    Ætheris et Aëris Diaphano, demonstrarem vtique, in Altitudine 45. Grad. eam
+                    adhuc debere esse vnius proxime Minuti. Ipso enim vero verius est, si infra 30.
+                    Gradum sensibilis aliqua Refractio Ætheris et Aëris concedatur, eam in altiori
+                    situ non tam subito insensibilem fieri posse. <app>
+                        <lem>Nam</lem>
+                        <rdg><note><q>Non</q> C, qui postea inseruit <q>enim</q>, om. vero
+                                    <q>non</q>, quod sequitur</note></rdg>
+                    </app> ijsdem medijs permanentibus non tam subito mutari possunt Refractiones
+                    ipsæ, cum earum Anguli non tam subito decrescant, quinimo siue ab Aëre ad Aquam,
+                    siue ab Aëre ad vitrum, siue ab Aqua ad vitrum, siue contra fiant, eandem fere
+                    in crescendo et decrescendo retineant proportionem, vt ex Tabula in 8. P. 10.
+                        <persName ref="Vitellio">Vitellion.</persName> posita videre est. Ad quam
+                    etiam respiciens scripsi in superioribus literis, si circa Horizontem detur
+                    Refractio Solis 3. Minut. a diuerso Ætheris et Aëris Diaphano proueniens, dari
+                    eam in Altitudine 45. Graduum 1½. Minuti. Etsi enim aliqua, <app>
+                        <lem>tamen</lem>
+                        <rdg><note>om. C, sed postea inseruit post <q>non</q></note></rdg>
+                    </app> non admodum dissimili proportione decrescent Refractiones ipsæ et
+                    Refractionum Anguli; Quod, si mihi tempus non deesset, facile Calculo
+                    examinarem. Quod autem circa Horizontem tam subito decrescunt Refractiones, id a
+                    meris vaporibus est, qui circa <pb ed="TBOO" n="VI.153"/> Terram et crassiores
+                    sunt, et, vt demonstraui, multiplicantur, et etiam a radijs a latere petuntur.
+                    Aliâs si eadem media manerent, eâdem quantitate eodemque modo disposita, tam
+                    subita mutatio Refractionum accidere non posset, vt demonstrari potest. Sed
+                    restat adhuc demonstratio, quam nemo <pb ed="E" n="124"/>vnquam infringere
+                    poterit. Si enim est Refractio a diuerso Ætheris et Aëris Diaphano proueniens,
+                    ea necessario maior erit in Stellis Fixis, quæ longius distant, quam in Sole,
+                    qui propior est, vt interim de Luna taceam. Nam in Triangulo manente vnico
+                    Angulo et vnico Latere, reliquis lateribus productis, Angulus reliquus ad manens
+                    latus maior redditur, per 21. P. 1. Euclid. Necessario enim idem Refractionis
+                    Angulus in eâdem Altitudine manebit, cum maneant eadem media, nec alius poterit
+                    esse Refractionis Angulus in Sole aut Luna, quam in Fixis. Ex quo
+                    manifestissimum est, si ponas, Refractionem in Sole in certa aliqua Altitudine
+                    insensibilem fieri, eam in Stellis Fixis in eadem Altitudine adhuc sensibilem
+                    esse oportere. Cum igitur per Obseruationes non hoc sed potius contrarium te
+                    ipso teste reperiatur: Refractio a diuerso Ætheris et Aëris Diaphano generari
+                    non poterit: Et propterea, vt sæpius iam ex Opticis probaui, Diaphana Ætheris et
+                    Aëris diuersa esse non possunt sed eadem. Si igitur tu purum illum Aërem Cælum
+                    appellare volueris, nihil pugno, tantum ne purus Aër a cælesti differre
+                    statuatur, adeoque diuersa Diaphana introducantur, cum vt alterum altero
+                    subtilius sit, defectus Refractionis non permittat. Quod autem ex Chymicis
+                    affers, latere in terrenis rebus quintam quandam essentiam, quam tu cælestem
+                    appellas, illud et credo et iucundissime cogito. Verumtamen inde non sequitur,
+                    quod hæc quinta essentia eadem sit cum illa materia quæ Planetis est circumfusa,
+                    sed potius eam â Sole generari. Quemadmodum enim Sol Microcosmi, vt iucundissime
+                    doces, ex sanguine et attracto Aëre (ex quo propter respirationem videtur
+                    ingenita sua natura subtiliorem partem retinere, reliquam respuere.) Quemadmodum
+                    inquam Sol Microcosmi ex Aëre et sanguine in dextro thalamo præparato spiritum
+                    vitalem in sinistro thalamo generat; Ita et Sol totius vniuersi ex Terra, Aqua
+                    et Aëre quintam illam essentiam in rebus naturalibus generare videtur. Aut si
+                    hæc essentia eadem est cum illa Planetis circumfusa materia, eadem erit et cum
+                    puro Aëre, propter adductas demonstrationes. Hæc paulo fusius, quam initio
+                    proposueram, de hac adhuc materia ad te perscribere volui, non quidem studio
+                    contradicendi, sed ex mera φιλαληθέια. Nec quicquam certi de generatione et
+                    materia Cometarum afferri poterit, nisi hæc quæstio fuerit decisa. Sed de hac
+                    pluribus, Deo dante, in nostris Stellarum Fixarum Obseruationibus agam, omissa
+                    tamen huius nostræ dissensionis mentione, ne hæc veritati rei forte quid
+                    detrahat. Nec etiam tuî, nisi sine reprehensione possim, mentionem facio, sed
+                    tunc potius omisso <pb ed="TBOO" n="VI.154"/>nomine res ipsas tracto. Nunc ad
+                    Philosophica illa. Sed <app>
+                        <lem>prius</lem>
+                        <rdg wit="#C">heus</rdg>
+                    </app> adhuc vnum. Satis mirari non possum, quod initium Crepusculi matutini
+                    circa <app>
+                        <lem>Æquinoctia</lem>
+                        <rdg><note><q>æquinoctia</q> ex <q>æquinoctium vernum</q> corr.
+                            C</note></rdg>
+                    </app> inueneris Sole vix 16½. Grad. infra Horizontem in circulo verticali
+                    depresso, cum ego finem Crepusculi vespertini circa Æquinoctium vernum hîc
+                    inuenerim Sole 24. Grad. infra Horizontem depresso, ita tamen, vt nullum <pb
+                        ed="E" n="125"/>amplius albedinis vestigium appareret. Tu igitur idem quoque
+                    tenta in vespertinis Crepusculis, vbi has Obseruationes exactiores esse arbitror
+                    propterea quod facilius animaduerti possit, quando vestigium albicantis Aëris
+                    desinat, quam quando incipiat, dubitante semper Obseruatore, an vestigium illud
+                    albedinis pertineat ad Crepusculum matutinum. Ego quoque in matutinis idem
+                    experiar. Ad dulcissima igitur illa ex intima et profunda Philosophia hausta
+                    nunc venio. Reliqua enim responsione non indigere videntur, nec de Eclipsibus
+                    quicquam hîc propter Cælum pluuiosum obseruare potui. Gratias igitur ago tibi
+                    quas possum maximas, quod me in secretioribus istis tam luculenter erudire
+                    dignatus es, atque vt id in posterum quoque facias, a te etiam atque etiam
+                    maiorem in modum peto. Cum ea legerem, pene exclamaui gaudio. Quam longe veriora
+                    sunt et pulchriora, quam quæ in Aristotele traduntur. Sed tu fac vt plura
+                    intelligam. Scripsisti in superioribus literis cum Rami mentionem faceres, omnia
+                    constare numeris, ponderibus, et mensura. Hoc igitur quid sit, etiam atque etiam
+                    velim mihi explices: addasque, si placet, de spiritibus Sulphure, <app>
+                        <lem>Sale</lem>
+                        <rdg><note><q>Sole</q> E: corr. TBOO ex C</note></rdg>
+                    </app>, et Mercurio, quomodo hi conueniant non solum alijs rebus naturalibus,
+                    verumetiam corporibus humanis; qui ex his vegetet, nutriat et augmentet corpus
+                    nostrum, qui sentire faciat, qui moueat; seu, vt vulgariter loquuntur, qui sit
+                    naturalis, qui vitalis, qui animalis. Admodum enim placet mihi vestra Medicina.
+                    Item de Fixatione spirituum, quomodo spiritus spiritum figere possit, et alter
+                    alterius anima sit, et cur a vobis anima dicatur medium quod spiritum et corpus
+                    vnit, cum in nostro corpore non anima sit vinculum spirituum, sed potius
+                    spiritus sint vinculum animæ. Item vnde calculus in homine generetur, et vnde
+                    Podagra existat. Si enim de his me certiorem feceris, nihil iucundius aut
+                    gratius quicquam mihi accidere poterit. Sed fortassis nimis impudenter te onero,
+                    nimiumque multus sum in responsione ad posteriores literas. Quapropter ad
+                    priores iam accedo. Quod igitur in vtrisque tam posterioribus quam prioribus
+                    literis iudicium meum de ijs, quæ in secundo Cometarum Tomo mihi transmisso
+                    continentur, requiris; id equidem eiusmodi agnosco esse, facile vt negligi
+                    possit. Per te enim tanquam summus artifex ipse intelligis, quid esse possit,
+                    quid non possit. Sed tamen vt habeas quod expetis, ita rem deduxisti, Cometamque
+                    illum in æthere cursum suum absoluisse ita demonstrasti, vt nemo hominum artem
+                    saltem Mathematicam non igno<pb ed="TBOO" n="VI.155"/>rans, tibi contradicere
+                    possit: idque tam luculenter et perspicue, vt nemo luculentius aut enucleatius.
+                    Quapropter vide vt quamprimum reliquos quoque Tomos habeamus. Ita enim non
+                    tantum negotium Cometarum verumetiam Artem nostram summe promouebis. In tertio
+                    Capite facis mentionem maximæ Latitudinis Lunæ, quam et ipse tecum eandem fere
+                    inueni: sed Caput Draconis abest a Tabulis plus quatuor Gradibus, vt per
+                    distantias et Globum reperi, nec arbitror calculum minorem differentiam pro<pb
+                        ed="E" n="126"/>ducturum, quod facile examinarem si tempus mihi non deesset.
+                    De materia Cometarum et quomodo generentur, nihil in eo reperire potui, nisi
+                    cap. 9. de generatione caudæ, de qua tamen an a Sole an vero a Venere, in cuius
+                    oppositas partes ad amussim, vt cap. 7. doces, toto apparitionis tempore
+                    porrecta fuit, generetur dubitas, sed tamen in Solis partes tandem inclinas,
+                    idque latente ac incomperta adhuc Optica ratione fieri posse putas. Verum me de
+                    tota caudæ generatione, an ea per transmissos radios fiat, dubitare non ignoras
+                    ex cap. 7. scripti mei ad te transmissi. Cum enim <persName ref="Cardanus"
+                        >Cardani</persName>, <persName ref="Scaliger">Scaligeri</persName>, et
+                        <persName ref="Apian">Apiani</persName> sententiam de generatione caudæ
+                    recitassem, tandem subiunxi, me, vt ingenue faterer, in hac de generatione caudæ
+                    sententia potius aliorum iudicium quam meum sequi. Hærebat enim tunc temporis
+                    semper in animo, caudam eiusdem materiæ quamuis rarioris cum ipso Cometæ corpore
+                    esse oportere, propterea quod radij Solis etiamsi corpus Cometæ transeant, tamen
+                    post transitum sine materia, in qua similiter reflectantur, in puro illo Aëre
+                    apparere non possint: cum nec post Crystallum aut eiusmodi corpora lux Solis
+                    condensata appareat, nisi materiata res subijciatur, in quam Pyramis illa
+                    impingat: Item quod cauda illa sit dispersa, nec radij eius continuentur, sed
+                    interdum longe post caput abrupte apparere incipiant, et propter alias causas.
+                    Cum tamen eiusmodi caudatas Stellas nunquam obseruassem, nec dum formam et
+                    habitum caudæ diligenter in vlla considerassem, videremque opinionem illam a
+                    nullo esse repræhensam: tantis et tam summis Viris cessi, quod tamen sine
+                    protestatione, vt scis, facere non potui. Fuisse vero iudicium illud meum de
+                    cauda contra summos illos viros verum, superiore hyeme cognoui. Cum enim forte
+                    fortuna inciderem in illas <persName ref="Cyprianus">Cypriani</persName>
+                    Ephemeridas, quas deauratas vna cum sacris Biblijs et Globo seipsum mouente
+                    paruoque Quadrante semper secum vehere solet Illustrissimus <persName
+                        ref="Wilhelm, landgrave of Hessen">Princeps</persName> noster; in principio
+                    earum ita scriptum reperi. Anno post exhibitam toti Terrarum orbi salutem supra
+                    millesimum quingentesimum quinquagesimo octauo comparuit Cometa, qui 13. Calend.
+                    Septemb. obseruamus est ab Illustrissimo Principe ac Domino, D. <persName
+                        ref="Wilhelm, landgrave of Hessen"><app>
+                            <lem>GVILHELMO</lem>
+                            <rdg wit="#C">Guilielmo</rdg>
+                        </app></persName> LANDTGRAVIO HASSIÆ per Torquetum horam circiter nonam in
+                    21. Grad. ♍, Latitudine 31. Grad. ab Ecliptica remotus, comam versus extremam
+                    caudæ Vrsæ Maioris protendens, cum <pb ed="TBOO" n="VI.156"/>ipse esset in
+                    Asterismo Comæ Berenices, vbi sunt Stellæ Venereæ et Lunares. Inde 12. Calend.
+                    progressus est in Grad. 23. ♍, in Latitudinem aut parum aut nihil promouit.
+                    Postremo 10. Calend. in 28. Grad. ♍ progressus in Latitudinis 35. cum semisse
+                    Gradum. Et cum esset admodum obscurus, ab Illustrissimo Principe obseruari
+                    desijt. Longitudinem caudæ non facile visu assequi potuit. Constat <app>
+                        <lem wit="#TBOO">Polum</lem>
+                        <rdg wit="#E">Polos</rdg>
+                        <rdg wit="#C">Polus</rdg>
+                    </app> motus Cometæ fuisse non procul ab Alrucaba versus caput Vrsæ Maioris. Ita
+                    erat tota annotatio. Ex qua manifestissimum est, caudam illius Cometæ neque ad
+                    Solem neque ad alium <pb ed="E" n="127"/>quendam Planetam respexisse, sed per
+                    sese suo ductu apparuisse. Quapropter nunc statuo, caudas eiusdem materiæ esse
+                    cum capite, eodemque modo quo caput, per illuminationem apparere: id quod inde
+                    quoque manifestum est, quod caput Cometæ in disparitione eodem modo dispersum
+                    appareat atque cauda. Nec curuatura illa caudæ, vt arbitror, a te recte
+                    excusatur, cum nihil tale in Stellis et Planetis similiter in recta linea
+                    existentibus appareat, præfertim in tam paruo interstitio, vt ea cauda fuit. Tu
+                    vide, num hæc mea sententia vera esse possit. Ita enim illi magni Cometæ apud
+                        <persName ref="Seneca">Senecam</persName> et <persName ref="Pontanus"
+                        >Pontanum</persName>, quorum alter totam viam lacteam æquauit, alter
+                    occupauit quinquaginta Gradus, facile explicari poterunt, incuruationesque
+                    caudarum nulla excusatione indigebunt. Etsi autem non asseras, qualem Cometarum
+                    materiam statuas, tamen in fine Operis de <persName ref="Graminaeus"
+                        >Graminæo</persName> agens videris meam sententiam reijcere <persName
+                        ref="Aristoteles">Aristotelisque</persName> opinionem esse astruere. Verum
+                    multum ab <persName ref="Aristoteles">Aristotelis</persName> opinione differt.
+                    Ille enim tenacem, lentam, crassam et viscosam eam statuit; ego tenuem, leuem et
+                    a radijs perpurgatam ac excoctam: Ille comburi eam vult et propter ardorem
+                    apparere; ego eam non comburi sed a radijs Stellarum absumi et dispergi, et per
+                    illuminationem apparere. Ille sub Luna, ego vero non tantum sub Luna, verumetiam
+                    in Sphæris Planetarum eam esse statuo. Quæ tua sententia sit, ignoro. Dauus enim
+                    sum, non Oedipus. Ex Titulo tamen, <hi rend="it">De nouis ætherei Mundi
+                        generationibus</hi>, quem in literis et ad Illustrissimum <persName
+                        ref="Wilhelm, landgrave of Hessen">Principem</persName> nostrum et etiam
+                    proximis ad me missis, sic esse voluisti, conijcio te eam secundum tuam
+                    opinionem facere cælestem, generationemque in Cælum introducere. An igitur
+                    putes, eam ex Planetarum corporibus exhalari, an vero aliâs ab ijs generari,
+                    scire non possum. Id opinor certum est, cum generationem in Cælum introducas, te
+                    etiam corruptionem introducere. Nam secundum Artem vestram generatio non existit
+                    nisi ex corruptione. Sed nequeo de hac re plus agere, cum tuam sententiam
+                    ignorem. De Hypothesibus quoque tuis nouis, quarum 8. capit. facis mentionem, te
+                    non per omnia assequor. Ipse equidem, cum Elementa mea Astronomica conscriberem,
+                    eodem modo Lunam deinde Solem circa Terram constituebam, sed in
+                    Homocentrepicyclepicyclis, in centro vero maioris <pb ed="TBOO" n="VI.157"/>et
+                    primi Epicycli Solis rursum Homocentrepicyclepicyclos reliquorum Planetarum, ita
+                    vt centrum Homocentricorum in reliquis Planetis idem semper esset cum centro
+                    maioris Epicycli Solis, vnaque per medium Solis motum in Homocentrico Solis
+                    circumduceretur. Sed id non noua ratione faciebam, sed prorsus secundum
+                        <persName ref="Copernicus">Copernicum</persName>, nec vt conuersim per omnia
+                    Hypotheses <persName ref="Copernicus">Copernici</persName> ad mobilitatem Solis
+                    transferrem aliter facere poteram: videbamque eam rationem et <persName
+                        ref="Rheticus">Rheticum</persName> et <persName ref="Reinhold, Erasmus"
+                        >Reinholdum</persName> intellexisse. Ac secundum hunc modum curauit quoque
+                    Illustridimus <persName ref="Wilhelm, landgrave of Hessen">Princeps</persName>
+                    noster superiori Anno ἀυτόματον <pb ed="E" n="128"/>construi miræ quidem
+                    paruitatis, sed tamen omnium Planetarum motus exhibens. Est enim orbiculus
+                    vtrinque planus in diametro vix 6. pollices continens, in cuius altera planitie
+                    Theorica Lunæ cum suis Epicyclis et Capite Draconis continetur; in altera vero
+                    Solis et reliquorum Planetarum omnium Theoricæ, exhibenturque omnes motus non
+                    solum tam Anomaliarum et centrorum quam veri in Longitudinem, verumetiam in
+                    tribus superioribus in Latitudinem. An vero tuæ Hypotheses cum his eædem sint et
+                    consentiant, certo scire non possum. Etsi enim generalem quidem Hypotyposin et
+                    ordinem Sphærarum ipsosque Planetarum circulos siue Homocentricos siue
+                    Eccentricos eosdem esse satis aperte videam: tamen cum tuas nouas appelles, et
+                    in literis proximis scribas, eas particularibus apparentijs vndiquaque aptissime
+                    satisfacere, quod tamen neutra aliarum omnimode præstet, videntur diuersæ a
+                    Copernicanis inuersis esse. Si enim eædem essent, non magis satisfacerent
+                    apparentijs, quam Copernicanæ ipsæ, siquidem quæcunque apparentiæ ex <persName
+                        ref="Copernicus">Copernicanis</persName> ipsis proueniunt, eæ etiam prorsus
+                    per omnia ex inuersis absque vita differentia proueniant. Deinde videris centra
+                    homocentricorum reliquorum Planetarum non in homocentrico aut centro maioris
+                    Epicycli, sed in ipso Eccentrico Solis circumducere, cum idem quoque in Cometa
+                    facias. Quod si ita esset, nouæ et diuersæ merito essent, cum hac ratione
+                    Eccentricitas Solis sese omnibus Planetis necessario immisceret, aliasque
+                    apparentias introduceret. Verum Obseruationes huic suppositioni respondere, vix
+                    crediderim. Scio equidem <persName ref="Copernicus">Copernicum</persName>
+                    demonstrare, mutationem Eccentricitatis Solis etiam in reliquis Planetis
+                    animaduerti, quod tamen in Tabulis tanquam minus sensibile neglexit. (Vnde ego
+                    quoque Epicyclium illud Solis in maiorem Epicyclum transposui, quod aliâs ad
+                    Terram reponendum fuisset, ita vt infima suî parte per centrum Terræ
+                    transijsset.) Veruntamen id omnino ex ipsius Hypothesi necessarium est, siquidem
+                    per Eccentricum Solis intelligit Eccentricum Terræ, cuius centrum, si mutatum
+                    fuerit, necessario Eccentricitates reliquorum Planetarum mutabit, cum eæ omnes
+                    hoc centrum respiciant et ab hoc centro earum magnitudines numerentur. An
+                    itaque, vt dixi, tuæ cum <persName ref="Copernicus">Copernicanis</persName>
+                    inuersis prorsus <pb ed="TBOO" n="VI.158"/>eædem sint, certo scire non possum.
+                    Quod tamen existimas, generalem illam Sphærarum dispositionem quo diligentius
+                    perspexero, eo magis mihi placituram; scias iamdudum mihi prorsus contrarium
+                    accidisse, de quo etiam cum Eruditissimo Viro <persName ref="GELLIUS">Gellio
+                        Sasceride</persName>. Quo enim diutius eam considero, eo minus mihi placet.
+                    Etsi enim ostendit, quomodo secundum medium motum Solis Planetæ superiores
+                    directi stationarij aut retrogradi reddantur: tamen (quod etiam <persName
+                        ref="Ptolemaios">Ptolemaica</persName> facit,) tantum ostendit quod sic
+                    fiant, non quare sic fiant, Planetasque regressionis macula aspergit. At
+                        <persName ref="Copernicus">Copernicea</persName>, non tantum, quod fiant
+                    regressiones et stationes illæ, ostendit, sed etiam quare sic fiant, non quod
+                        <pb ed="E" n="129"/>tanta sit motus inconstantia in ipsis Planetis, qui
+                    semper suum proprium motum aspiciant, sed quod regressiones illæ <app>
+                        <lem>ita</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> nobis propter motum Terræ appareant, Planetisque putentur inesse, cum
+                    tamen reuera Terræ insint. Ita pulcherrime nullus motus relinquitur nisi
+                    proprius, primus in Reuolutione diurna Terræ, alter in motu ipsius annuo,
+                    tertius in Luna, quartus in Venere, quintus in Mercurio, sextus in Marte,
+                    septimus in Ioue, et octauus tandem in Saturno, absque vlla violentiæ aut
+                    regressionis labe. Deinde quis credet vnquam, Centrum maioris Epicycli Solis
+                    tanta efficacia præditum esse, vt trahere post se Planetas omnes, quinimo e suis
+                    Sphæris detrahere rursumque attollere possit, cum nulla corporali et tenaci
+                    materia connectantur? Qua de causa quoque cum Illustrissimo <persName
+                        ref="Wilhelm, landgrave of Hessen">Principi</persName> nostro ostenderem in
+                    Tomo tuo secundo Cometarum, Hypothesin illam tuam, quam mox, vt aspexit,
+                    agnouit, vtpote cui ea ex Automato satis nota erat: Dij boni, per iocum aiebat,
+                    oportet circulum illum Solis æneo longe esse fortiorem, cum tot Planetas trahere
+                    secum possit. Scilicet hærebat in animo, quod Illustrissimæ ipsius Celsitud.
+                    toties ad aurem decantâram, Tractionis motum e Cælo tollendum esse. Nec vt
+                    arbitror facile concedi poterit Soli, vt reliquorum Planetarum motus proprios
+                    sua hac <app>
+                        <lem>tractione</lem>
+                        <rdg wit="#C">tractatione</rdg>
+                    </app> turbet. Præterea introducit hæc inuersa <persName ref="Copernicus"
+                        >Copernici</persName> ratio confusionem in Sphæras Planetarum. Etsi enim
+                    nulla corporum cælestium illisio inde sequi potest, vt excusare niteris; Tamen
+                    nulla Sphærarum vera aut determinata distinctio manet, sed omnes inter se
+                    confunduntur. At <persName ref="Copernicus">Copernicea</persName> Hypothesis
+                    suum vnicuique Planetæ et determinatum spatium attribuit, e quo motu suo egredi
+                    non possit. Scis autem Deum non confusionis sed ordinis authorem esse,
+                    naturamque ita condidisse, vt a confusione abhorreat; Nedum vt pulcherrimum hoc
+                    et sapientiæ inexhaustæ ædificium tanta labe aspexere voluerit. Accedit et hoc,
+                    quod Natura non agat per plura, cum per pauciora possit. Item quod mutatio
+                    Eccentricitatis Solis etiam in reliquis Planetis sentiatur: quæ etsi
+                    transpositione minoris Epicycli Solis ad Terram, vt dixi, quoquo modo excusari
+                    potest; Tamen nihilominus omnia per tractionem fieri hac ratione fin<pb
+                        ed="TBOO" n="VI.159"/>guntur. Hæc igitur et alia multa etiam atque etiam
+                    considerans, aliud inuenire non possum, quam nullam præter vnicam <persName
+                        ref="Copernicus">Copernici</persName> Hypothesin veram esse. Nec peccat hæc
+                    contra Physica principia, nec cum Terra grossum corpus sit, propterea ad
+                    mouendum inhabilis erit. Quid enim putas reliqua Sidera esse? Non enim errare
+                        <persName ref="Copernicus">Copernicum</persName> arbitror, cum ait,
+                    grauitatem nihil aliud esse, quam appetentiam quandam naturalem partibus inditam
+                    a diuina prouidentia Opificis vniuersorum, vt in vnitatem integritatemque suam
+                    sese conferant in formam globi coëuntes: hancque affectionem etiam Soli, Lunæ
+                    cæterisque Errantium fulgoribus inesse, vt eius efficacia in ea, qua se
+                    repræsentant, rotunditate permaneant: quæ nihilominus multis modis suos
+                    efficiant circuitus. Et sane cum <pb ed="E" n="130"/>Terra, vt reliqui Planetæ,
+                    rotunda figura prædita sit, similiterque libera in Aëre pendeat, cur eam ad
+                    mouendum inhabilem esse dicamus. Videmus si globum in Polis et Axi exactissime
+                    et subtiliter aut erigamus aut suspendamus, atque ita libere pendentem in gyrum
+                    impellamus, eum satis diu hunc motum retinere, nec subito <app>
+                        <lem>cohibere</lem>
+                        <rdg wit="#C">cohiberer</rdg>
+                    </app> posse. Si igitur artificialis motus etiam impeditus hoc possit; quanto
+                    magis naturalis non impeditus? Sed absurditates Physicas satis superque
+                    refutauit <persName ref="Copernicus">Copernicus</persName>. Nec etiam obstat
+                    authoritas sacrarum literarum. Hæ enim non mihi et tibi solummodo, verum omnibus
+                    omnino hominibus scriptæ sunt, ad quorum captum etiam loquuntur, vt etiam omnes
+                    Theologi in explicatione capitis 1. Genes. fatentur. Aliâs Luna contra
+                    Geometricas demonstrationes esset maior reliquis Stellis. Sed et illud ex hoc
+                    manifestum est. Putârunt Hebræi, nubes in sublimi pendere non posse, nisi
+                    subesset materia aliqua dura et imperuia, quæ Aquam sustineret. Ad horum igitur
+                    captum sese accomodans Deus ait, faciam Cælum ferreum ne pluat, etc. Item
+                    aperuit fenestras Cæli, in Diluuio, etc. Item Moses, cum ait, primo die
+                    Firmamentum conditum esse, vt discerneret Aquas supra nos ab Aquis infra nos.
+                    Quo nihil aliud intelligi posse arbitror, quam vim illam, qua nubes ita in
+                    sublimi pendent, primo die conditam esse. Sic et cum nos Opticis de causis
+                    putemus, Cælum esse tanquam expansum tentorium, ideo sacræ literæ hanc vulgi
+                    opinionem sequentes Cælum vocant expansum, et Prophetæ Deum expandere Cælum
+                    tanquam tentorium aiunt. Nec enim hi plus de hac materia intellexerunt, quam
+                    alij vulgares homines aut etiam <persName ref="Lactantius"
+                    >Lactantius</persName>, nec Spiritus sanctus sapientiam, quam in Naturam Deus
+                    transfudit, ijs reuelare voluit, verum eam quæ in stupendo illo et
+                    supernaturali, de Redemtione generis humani mysterio continetur. Et cur Salomon
+                    adeo ad miraculum vsque sapiens habitus est, nisi quod longe excellentiorem
+                    totius Naturæ cognitionem haberet, quam ante eum quisquam alius. Paulus quoque
+                    cum Roman: 1. ait, Deum ex visibilibus hisce agnosci, non obscure arguit, longe
+                    maiorem sapientiam Dei <pb ed="TBOO" n="VI.160"/>latere in Natura, quam in
+                    sacris literis sit reuelata. In Natura dico: De mysterio enim Redemtionis, quod
+                    proprie tractant sacræ literæ, et de agnitione veri Dei, iam non loquor. Ita
+                    authoritas sacrarum literarum, quanquam admodum plausibiliter proferatur, tamen
+                    reuera in hac materia obstare nihil omnino poterit, sed tantum sciemus, quantum
+                    per Demonstrationes Mathematicas inuenimus. Etsi autem <persName ref="Gellius"
+                        >Gellius Sascerides</persName> aiebat, te habere tuæ assertionis
+                    Demonstrationes Geometricas: Tamen hoc ego certa de causa vix crediderim. Non
+                    tamen propterea Hypotheses <persName ref="Copernicus">Copernicæas</persName>
+                    discentibus proponendas esse iudico, cum eæ vix ab Artificibus percipiantur, vt
+                    nec <persName ref="Mästlin">Mæsthlinus</persName> quidem motum librationis in
+                    Latitudinibus et obliquitate Zodiaci recte intelligit: Sed eas, quæ sint omnium
+                    facilimæ, vt pedetentim accessus ad <pb ed="E" n="131"/>Copernicum aperiatur.
+                    Quapropter ipse quoque in Elementis meis Astronomicis superiorem illam
+                    inuersionem expunxi, et Eccentricos in centro mobili substitui, vt discentes
+                    Apogæorum motus et loca eo facilius intelligere possent, et addito in Planetis
+                    Epicyclo directiones, stationes et regressiones eo fierent manifestiores, nec
+                    etiam Latitudinum ratio adeo esset obscura et intricata. Ne tamen deessem
+                    ingeniosis et ijs, qui iam communes motuum singulorum formas intelligerent aut
+                    Automata fabricare vellent: Ad finem pro Corollario eam, de qua supra dixi,
+                        <persName ref="Copernicus">Copernici</persName> Inuersionem subieci, vt ita
+                    discentes ad <persName ref="Copernicus">Copernici</persName> lectionem et
+                    faciliorem intelligentiam præpararem. Sed fortassis plus de hac materia quam sat
+                    erat: ad alia igitur. Quod sub finem <persName ref="Röslin"
+                        >Roeslinianæ</persName> refutationis arbitraris, minimam Eccentricitatem
+                    Solis transijsse, idem et ego statuo. Refero enim minimam Eccentricitatem et
+                    obliquitatem Solis ad <persName ref="Peurbach, Georg von">Purbachium</persName>.
+                    Nec <persName ref="Rheticus">Rheticus</persName> quoque audiendus est, qui cum
+                        <persName ref="Albategnius">Albategnium</persName> nimis libere abuti
+                    mysterijs Astrologiæ scribat, in idem vitium hîc ipse incurrit. Quomodo enim
+                    mutatio Eccentricitatis Solis mutationem imperiorum efficere potest? Nec id
+                    quoque iniuste repræhendis, quod <persName ref="Melanchthon">PHILIPPVS
+                        MELANCHTHON</persName> primus introduxit, nimirum Solem iam Terræ factum
+                    esse propiorem, licet etiam <persName ref="Cardanus">Cardanus</persName> lib. 3.
+                    subtilitatum idem erronee statuat. Nec enim <persName ref="Copernicus"
+                        >Copernici</persName> mentem in hac re sunt assecuti. Te quoque longe
+                    exactiorem Hypothesin motus Cometæ inuenire <app>
+                        <lem>potuisse non</lem>
+                        <rdg><note><q>non potuisse</q> C, sed corr.</note></rdg>
+                    </app> dubito, cum proportionale decrementum ipsius motus satis arguat, ex
+                    circularibus ipsum compositum fuisse. Veruntamen Hypotheses Cometarum
+                    constituere prorsus superuacaneum iudico, cum nullus Periodum absoluat, nec
+                    etiam vlla vtilitas inde redundare possit. Quapropter et in meo scripto
+                    Hypotheseos constitutionem omisi. Ipse illum Cometam, de quo in illo Tomo agis,
+                    conspexi <placeName ref="Bernburg">Bernburgi</placeName> 1O. Nouemb. vna cum
+                        <persName ref="Troldenirerus">Ioanne Troldenirero</persName> Arci
+                    Bernburgicæ tunc temporis præfecto, a quo ad conuiuium Martinale eram inuitatus;
+                    omnibus Bernburgi habitantibus eo die apparuit. Erat enim <pb ed="TBOO"
+                        n="VI.161"/>ibi serenum Cælum. Cum Tomum illum tuum secundum Illustriss.
+                        <persName ref="Wilhelm, landgrave of Hessen">Principi</persName> nostro
+                    ostenderem, plus tribus integris horis in eo diligenter euoluendo occupatus
+                    erat, placebatque ipsius C. mirum in modum, adeo vt etiam astantibus eum
+                    prædicare non intermitteret: contendebatque ibi mecum, sibi a te transmissum
+                    esse librum illum, ego vero ex inscriptione meum arguebam, subiungebamque, te
+                    integrum illud Opus, si absolutum esset, ad Illustriss. ipsius C. missurum. Vide
+                    igitur <app>
+                        <lem>vt</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> fidem meam redimas. Quod si idem etiam ad Filium <persName
+                        ref="Moritz, landgrave of Hessen">Mauritium</persName>, quanquam non in hac
+                    doctrina, tamen in Latinis, Græcis et Hebraicis præclare institutum et præter
+                    Ætatem eruditum; Itemque ad <persName ref="Bernhard">Bernhardum</persName>
+                    Principem Anhaltinum hîc in Aula nostra cum Mauritio versantem, quem parens
+                        <persName ref="Joachim Ernst">Ioachimus Ernestus</persName> felicissimæ
+                    recordationis vna cum fratribus per <persName ref="Gottschalk">Casparum
+                        Godtschalcum</persName> virum Matheseos non imperitum, etiam in his Artibus
+                    institui curauit: si inquam ad hos <pb ed="E" n="132"/>quoque duos Opus illud
+                    tuum absolutum huc miseris, non dubito, quin rem gratissimam ipsis sis facturus,
+                    hac eos ratione ad harum iucundissimarum Artium amorem et cultum pro ætatis
+                    captu tacite<app>
+                        <lem/>
+                        <rdg><note><q>tacite</q> ex <q>facile</q> corr. C</note></rdg>
+                    </app> incitando. Opera illa Mathematica, de quibus superioribus literis
+                    scripsi, propediem diuina fauente clementia sum editurus, vbi ea ad te
+                    transmittam. Sed tempus iam esset, vt nimis prolixam hanc Epistolam tandem
+                    clauderem, nisi mihi Illustriss. <persName ref="Wilhelm, landgrave of Hessen"
+                        >Princeps</persName> noster aliud in mandatis dedisset. <app>
+                        <lem>Cum enim</lem>
+                        <rdg wit="#C">Quoniam enim iam</rdg>
+                    </app> Illustriss. ipsius Celsitud. in elocatione <persName ref="Anna Maria"
+                        >Filiæ</persName> adeo sit occupata, vt respondere nequeat: mandauit mihi,
+                    vt ipse ad ea, quæ continet Epistola tua, respondeam. Verum nihil in ea reperio,
+                    quod responsione admodum indigeat, aut in superioribus Illustrissimi ipsius
+                    Celsitudinis literis ad te missis non satis superque sit deductum: præterquam
+                    quod in Obseruationibus per Venerem institutis nos erroris arguere videris,
+                    vitiumque in Refractiones conferre. Verum Refractiones mihi obstare non
+                    potuerunt, cum et per Azimutha Obseruationes instituerim, et post occasum Solis
+                    distantia Veneris â Tertia ♈ ac alijs accepta propter Refractiones (quas tamen
+                    separaui) iusto minor necessario inuenta fuisset, adeoque Stellarum loca in
+                    antecedentia contra signorum ordinem fuissent retracta. Sed nolo de his plura
+                    agere. Rationem enim Obseruationum nostrarum videbis in Opere nostro Deo volente
+                    breui edendo. Nihil igitur iam amplius restare video, quam vt tandem hanc
+                    Epistolam finiam. Quapropter optime et felicissime vale, Nobilissime
+                    Excellentissimeque D. TYCHO, mihique longe charissime, candoremque meum in
+                    optimam partem accipe, mihique quamprimum rescribe.</p>
+                <closer>
+                    <salute><app>
+                            <lem>Iterum vale.</lem>
+                            <rdg><note>Ante verba <q>Iterum vale </q> hæc addit epistula
+                                    transscripta: <q>Ea quæ de Nicolao Kaas Cancellario et
+                                        administratore regni uestri dignissimo m ihi Gellius
+                                        Sascerides indicauit, ad Illustriss. Principem detuli, qui
+                                        etiam quam primum per occupationes poterit, ad eum ea de re
+                                        perscribet </q></note></rdg>
+                        </app></salute><dateline><placeName ref="Kassel">Cassellis</placeName> 13.
+                        Calendas Octobris, Anno salutis M.D.LXXXIIX. </dateline>
+                    <signed>T. T.<lb/>CHRISTOPHORVS ROTHMANNVS.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

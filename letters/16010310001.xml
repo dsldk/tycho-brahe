@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christoph Sturtz</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 403</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Christoph Sturt</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1601-03-10"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1601. 10. marts n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.375"/><pb ed="A" n="82v"/>MAGNIFICO ET NOBILISSIMO
+                    VIRO, D. TICHONI BRAHE, MATHEMATICO <persName ref="Rudolf 2.">S. C.
+                        MAIESTATIS</persName> EXCELLENTISSIMO, AMICO ET PATRONO PLURIMUM
+                    OBSERVANDO.</opener>
+
+                <p><pb ed="A" n="82r"/>MAGNIFICE AC NOBILISSIME DOMINE TICHO, AMICE HONORANDE.
+                    <lb/>S.</p>
+                <lb/>
+                <p>CUM certa per magnificum Dominum <persName ref="Gödelmannn">IOANNEM GEORGIUM GODELMANNUM</persName> mihi scribendi
+                    occasio daretur, plenius scribendum duxi. Vivo, ut possum, quando iniquitas
+                    temporis et fortunæ maiora spectare non sinit. Calamitas belli Carolini
+                    oppressit meam patriam. Nam Dux <persName ref="Karl 9.">CAROLUS</persName> totam fere occupavit <placeName ref="Livonia">Livoniam</placeName>. Sed qua
+                    felicitate, eventus docebit. Novisti illius tyranni dictum: aliena appetendo
+                    propria amisit. <persName ref="Sigismund 3.">Rex</persName> statusque <placeName ref="Poland">Poloniæ</placeName> de bello per triennium magnis sumptibus
+                    gerendo in Comitijs convenerunt. Funesta ergo omnia in mea patria sunt. Quanta
+                    interim animi virtute et constantia opus sit mihi, facile intelligis, qui et
+                    bonis omnibus et maximis sumptibus propterea factis excidi. Spem tamen reliquam
+                    in DEI auxilio fixam habeo, fore ut postquam nubila et turbulenta ista tempora
+                    transierunt, pax florentissima et quies nobis restituatur. Interim tu me
+                    benevolentia et fide prosequaris singulari velim.</p>
+                <p rend="indent">Quæ ad D. <persName ref="Chytraeus, David">CHYTRÆUM</persName> de tuæ vitæ historia scripsisti, heredes eius mihi
+                    tradiderunt, quæ plene meis historicis meditationibus inseram, nec alia tui
+                    ornandi argumenta omittam. Nam te virum bonum et vere syncerum cognovi, quæ
+                    virtutes profecto pulcherrimam istam artem tuam, in qua præcellis, elegantissime
+                    illuminant. Quod vero tardius liber meus historiarum prodit, multa in causa
+                    sunt, quia et initium cuiusque rei grave est, et veritatem sequi in omnibus hoc
+                    seculo scis quam sit periculosum. Deinde alijs adhuc occupor elaborandis. Mox tamen lucem videbunt, ubi meo genio ita visum fuerit. Vale interim, vir
+                    optime, et magnam salutem tuos domesticos meo nomine imperti. Datæ Rostochio 10
+                    die Martij A. 1601.</p>
+                <lb/>
+                <p rend="rightMargin">Tui amantiss.<lb/><persName ref="Sturtz">CHRISTOPH.
+                        STURCIUS</persName>.</p>
+                <lb/>
+                <p>Orationem de <persName ref="Sigismund August">SIGIS. AUG.</persName> B. M. a me
+                    habitam adiungo.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

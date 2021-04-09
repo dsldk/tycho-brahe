@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hieronymus Wolf</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 57</bibl>
+                    </witness>
+                    <!--<physDesc>
+                                <objectDesc>
+                                    <supportDesc material="paper">
+                                        <support>
+                                            <ab/>
+                                        </support>
+                                        <extent>
+                                            <dimensions unit="cm">
+                                                <height>0</height>
+                                                <width>0</width>
+                                            </dimensions>
+                                        </extent>
+                                        <condition>
+                                            <ab/>
+                                        </condition>
+                                    </supportDesc>
+                                    <layoutDesc>
+                                        <ab/>
+                                    </layoutDesc>
+                                </objectDesc>
+                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
+                                <ab></ab>
+                            </history>-->
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hieronymus Wolf</persName>
+                    <placeName>Augsburg</placeName>
+                    <date when="1580-02-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1580. 8. februar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.57"/>
+                <pb ed="A" n="71r"/>
+                <p><persName ref="Wolf, Hieronymus">HIERONYMUS WOLFIUS</persName> AD TYCHONEM BRAHE. <lb/>S.</p>
+                <p>CUM hi populares tui, nobilissime et humanissime D. TYCHO, suam mihi operam
+                    benigne pollicerentur, nolui eos sine meis literis dimittere. Scias ergo me pro
+                    ætate mediocri esse valetudine, neque quicquam habere, quod de fortuna etiam
+                    magnopere querar, sorte mea philosophica contentus. Sed quid interim Uranie tua?
+                    Illam quidem non dormitare, non cessare persuasum habemus. Sed nihil ad nos
+                    propter locorum intervalla hactenus est perlatum. Quod tamen ut fiat, si pro
+                    humanitate tua curaveris, rem nobis gratissimam feceris. <pb ed="A" n="71v"
+                    />Nostrates Astrologi, <persName ref="Cyprianus">CYPRIANUS</persName>, <persName ref="Turneisser">TURNEISSERUS</persName>, <persName ref="Stadius">STADIUS</persName>, <persName ref="Heinschius">HEINSCHIUS</persName> et alij
+                    multum a vero tempore initij proximæ Eclipseos aberrarunt. A <persName ref="Mästlin">MÆSTLINO</persName> diu nihil
+                    accepimus. Motus Solis verus adhuc valde controversus est; qui utinam accuratis
+                    tuis observationibus certo deprehendatur et constituatur. Quod quo facilius
+                    præstare possis, Deum tibi propitium precor. Vale. <placeName ref="Augsburg">Augustæ Vindelicorum</placeName> 8.
+                    Februarij Anno 1580.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

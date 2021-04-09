@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Firenze</settlement>
+                                <repository>Bibliotheca Nazionale Centrale</repository>
+                                <collection>empty</collection>
+                                <!-- Fundet på nettet. Faksimile: https://teca.bncf.firenze.sbn.it/ImageViewer/servlet/ImageViewer?idr=BNCF0003559832 - TBOO siger: in codicum Galileianorum tomo 27 (Academia dei Cimento
+            part. 3 vol. 12 -->
+                                <idno>Gal. 286 (Accademia del Cimento part 3, vol. 12)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 118-119</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>dresden</placeName>
+                    <date when="1598-11-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Ferdinando I de&#x2019; Medici</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 8. november</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.118"/><pb ed="A" n="4v"/>SERENISSIMO PRINCIPI AC
+                    DOMINO D. <persName ref="Ferdinando">FERDINANDO DE MEDICES</persName>, MAGNO DUCI HETRURIÆ, FLORENTIÆ, SENARUM,
+                    PISARUM, DOMINO MEO CLEMENTISSIMO.</opener>
+                <p><pb ed="A" n="3r"/>SERENISSIME et Illustrissime Princeps, Domine Clementissime.
+                    Cum hîc Adolescens genere Nobilis et liberalibus disciplinis præclare imbutus,
+                    qui mihi per aliquot Annos fuit domesticus, in <placeName ref="Italy">Italiam</placeName> nunc cogitet, sitque Tuæ
+                    Serenitati ab Amplissimo et Nobilissimo Domino <persName ref="Rantzau, Heinrich">HENRICO RANZOVIO</persName> Produce Cimbrico
+                    Affini meo honorando, diligenter commendatus, non intermittendum duxi, quin et
+                    ego, licet Serenitati Tuæ ignotus, idem submisse præstarem, præsertim ex quo
+                    eius mores, integritas et docile ingenium mihi <pb ed="TBOO" n="VIII.119"/>ex diutina
+                    consuetudine quam optime perspecta sint. Quocirca Serenitatem Tuam submisse
+                    rogatam habeo, ut eum vel meo etiam nomine, sibi de meliori (ut aiunt) nota
+                    commendatum habeat. Tradidi illi duos libros, simul ut commodius veherentur
+                    colligatos, Serenitati Tuæ ex me submisse offerendos: Quorum contenta Tituli et
+                    Præfationes expedient: Quos ut clementissimo vultu suscipere, meque suo favore
+                    et benevolentia complecti non dedignetur, qua possum submissione oro. Plura de
+                    me meisque studijs, atque ad <persName ref="Rudolf 2.-">Cæsaream Maiestatem</persName> e <placeName ref="Denmark">Dania</placeName> Patria mea migratione ab
+                    eodem harum exhibitore (si cognoscere non degravetur) clementissime percipiet.
+                    Quocirca Serenitatem <pb ed="A" n="3v"/>Tuam gravissimis Reipub. gubernandæ
+                    negocijs occupatam ulterius remorari desino. Deus Optimus maximus eam quam
+                    diutissime conservet florentem et incolumem.</p>
+                <p rend="indent">Dabantur <placeName ref="Dresden">Dresdæ</placeName> Misniæ die 8 Novembris Anni 1598.</p>
+                <p rend="rightMargin">Serenitati Tuæ<lb/>Submisse addictiss.<lb/>TYCHO
+                    BRAHE,<lb/>manu propria scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

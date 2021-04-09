@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Firenze</settlement>
+                                <repository>Bibliotheca Nazionale Centrale</repository>
+                                <collection>Codd. Galil. Part. 6, Tom. 7</collection>
+                                <idno>empty</idno>
+                                <!-- TBOO siger: inter codices Galileianos Part. VI Tom. VIII -->
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 311-312</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-05-04"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Galileo Galilei</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 4. maj. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.311"/><pb ed="A" n="42v"/>ADMODUM MAGNIFICO ET
+                    EXCELLENTI VIRO DOMINO <persName ref="Galilei">GALILÆO DE GALILÆIS</persName>,
+                    MATHEMATICO EXCELLENTISSIMO, AMICO HONORANDO.</opener>
+
+                <p><pb ed="A" n="41r"/>CLARISSIME et excellentissime Vir; cum hisce diebus
+                        <placeName ref="Praha">Pragæ</placeName> fuissem, atque ibi Serenissimi
+                    Principis, Magni Ducis Hetruriæ, Oratorem apud Sa<hi rend="sup">ram</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">am</hi> Ma<hi rend="sup"
+                        >tem</hi></persName>, Illustrissimum et Generosissimum Dominum <persName
+                        ref="Concini">COSMUM CONCINUM</persName> e Comitibus Pennæ convenissem,
+                    inter alia Illustriss<hi rend="sup">mæ</hi> Dominationis eius humanissima mecum
+                    colloquia (uti sane est Vir eximia comitate, parique doctrina, præter Generis
+                        Illustriss<hi rend="sup">mum</hi> splendorem, admirandus, nec unquam satis
+                    laudatus) incidit etiam Excellentiæ Tuæ honorifica mentio, ob singularem, qua,
+                    in Mathematicis præsertim, plurimos alios antecellis, eruditionem. Cumque a
+                    tanto Viro tuas dotes etiam deprædicari audirem, sim ulavit id prius de
+                        Excell<hi rend="sup">a</hi> T<hi rend="sup">a</hi> animo meo conceptam
+                    sententiam, ut non potuerim non has ad ipsam scribere, atque sic amicitiæ nostræ
+                    et ulterioris inter nos per literas correspondentiæ fundamina ponere. Quia vero
+                    a Nobili Adolescente <persName ref="Tengnagel">FRANCISCO TENGNAGLIO</persName>
+                    meo domestico, ex <placeName ref="Italy">Italia</placeName> huc redeunte,
+                    percepi Excell<hi rend="sup">am</hi> Tuam <pb ed="A" n="41v"/>primum nostrum
+                    Tomum Epistolarum Astronomicarum perlustrasse, atque in eo nonnulla reperijsse,
+                    de quibus mecum conferre cuperet, ego certe idipsum nullatenus detrecto, sed si
+                    quid fuerit, quod Ex<hi rend="sup">a</hi> T<hi rend="sup">a</hi> in
+                    disquisitionem inibi vocare velit, erit id mihi gratissimum, invenietque me ad
+                    respondendum pro meo modulo quam paratissimum: Sive de Hypothesi nostra
+                    Cœlestium revolutionum, quæ Solem centrum facit circuitionis quinque Planetarum,
+                    Terram autem, et eam quiescentem, solummodo amborum Luminarium, atque Octavæ,
+                    quam vocant Sphæræ, cui assumptioni apparentias quam optime congruere
+                    depræhendi, ut nihilominus tollantur vasti illi Epicycli, quemadmodum apud
+                        <persName ref="Copernicus">COPERNICUM</persName>, et Terra in centro
+                    Universi, quod ille non admisit, immota maneat (sunt etiam particularia quædam
+                    in hac nostra inventione, quæ neque iuxta <persName ref="Ptolemaios"
+                        >Ptolemaicam</persName> neque <persName ref="Copernicus"
+                        >Coperniceam</persName> speculationem tam competenter excusari possunt) sive
+                    de Restitutione Fixarum Stellarum, sive de Cometis, quos omnes in ipso Cœlo
+                    curricula sua absolvere, contra quam volunt Peripatetici, probo, idque in septem
+                    a me diligenter observatis demonstratum relinquo, <pb ed="A" n="42r"/>sive de
+                    quacunque tandem alia re, cuius in illo libro mentio fit, mecum disserere
+                        Excell<hi rend="sup">a</hi> Tua volet, faciat id ingenue pro suo arbitrio.
+                    Ego vicissim meam sententiam illi aperire, atque de rebus Astronomicis cum ea
+                    iucunde conferre non <pb ed="TBOO" n="VIII.312"/>intermittam. Valeat Excell<hi
+                        rend="sup">a</hi> Tua quam optime. Dabantur ex <placeName ref="Benatky">Arce
+                        Cæsarea Benatica</placeName>
+                    <app>
+                        <lem>Die 4</lem>
+                        <rdg><note>rectius legeretur fortasse 9 die: cf. litteræ ad Io. G. Herwartum
+                                28 Aug. 1600</note></rdg>
+                    </app> Maij Anni 1600.</p>
+                <lb/>
+                <p rend="rightMargin">Excellentiæ Tuæ<lb/>studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
+                    propria scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

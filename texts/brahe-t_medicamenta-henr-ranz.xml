@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Medicamenta tria cum Henrico Ranzovio communicata / Tre medikamenter delt med Henrik
+          Rantzau</title>
+        <title xml:lang="en">Medicamenta tria cum Henrico Ranzovio communicata / Three medicaments
+          shared with Heinrich Rantzau</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="A">
+            <msDesc>
+              <msIdentifier>
+                <settlement>København</settlement>
+                <repository>Det Kongelige Bibliotek</repository>
+                <collection>empty</collection>
+                <idno>Langebeks excerpter 179</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+            </msDesc></witness>
+          <witness xml:id="B">
+            <bibl>Thomas Bartholin, <title>Cista medica</title>, Hauniæ 1662, p. 96
+            sqq.</bibl></witness>
+          <witness xml:id="TBOO">
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ
+              1927, p. 161-166</bibl></witness>
+        </listWit>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation><date>1597</date></creation>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>medicin</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2019-02-01" who="#pz">Filen etableret</change>
+      <change when="2020-02-18" who="#pz">Tekst importeret, opmærket og korrekturlæst</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <front/>
+    <body>
+      <div xml:id="text">
+        <head rend="center">
+          <orig><pb ed="TBOO" n="IX.161"/><pb ed="A" n="1r"/>MEDICAMENTA TRIA PRO GRAVISSIMIS MORBIS
+            HUMANUM CORPUS INFESTANTIBUS, EAQUE UNIVERSALIA, QUÆ IN IPSIUS LIBRUM MEDICINALEM DOMINO
+              <persName ref="Rantzau, Heinrich">HENRICO RANZOVIO</persName>, PRODUCI CYMBRICO, SUO
+            AFFINI ET AMICO HONORANDO ET DILECTISSIMO TYCHO BRAHE OTTHONIDES HOSPES HOSPITI
+            WANDESBURGI MEMORIÆ ET GRATITUDINIS ERGO COMMUNICAVIT ET PROPRIA MANU INSCRIPSIT.</orig>
+          <reg>Medicamenta tria</reg>
+          <reg xml:lang="en">Medicamenta tria</reg>
+        </head>
+        <div n="Pro morbo epidemico pestilentiali vel aliis contagiis venenatis">
+          <head><orig><pb ed="A" n="2r"/>1. PRO MORBO EPIDEMICO PESTILENTIALI VEL ALIIS CONTAGIIS
+              VENENATIS TAM QUOAD PRÆSERVATIONEM QUAM CURATIONEM.</orig>
+            <reg>Pro morbo epidemico pestilentiali vel aliis contagiis venenatis</reg>
+          </head>
+          <p>ACCIPITUR pro <app>
+              <lem>corpore et</lem>
+              <rdg wit="#B">corporis</rdg>
+            </app> fundamento Theriacæ optimæ <app>
+              <lem>Venetæ</lem>
+              <rdg wit="#B">Venetianæ</rdg>
+            </app> seu potius Alexandrinæ libra una. Huic <app>
+              <lem>superinfundatur</lem>
+              <rdg wit="#B">superfundatur</rdg>
+            </app> Spiritus Vini ter vel quater destillatus in vitro oblongo et maiusculo, ita ut
+            extet ad minimum sex digitis, clausoque vitro quam optime, ne respiret, imponatur in <app>
+              <lem>Balneum</lem>
+              <rdg wit="#B">B</rdg>
+            </app> M. tepidum per dies plus minus 14. donec spiritus <app>
+              <lem>ille</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> vini in se attraxerit omnem tenuiorem et præstantiorem essentiam Theriacæ,
+            residentibus in fundo fæcibus et crassiore materia, quæ filtratione per <app>
+              <lem>papyrum</lem>
+              <rdg wit="#B">chartam</rdg>
+            </app> bibulam sunt separanda, idque quod in <app>
+              <lem>papyro</lem>
+              <rdg wit="#B">charta</rdg>
+            </app> remanet seponendum. Quod vero liquidum et coloratum defluxit peculiari vitro
+            oblongo exceptum, imposito et bene conglutinato <app>
+              <lem>Alembico et anteposito Recipiente maiusculo itidem conglutinato</lem>
+              <rdg><note>om. A</note></rdg>
+            </app>, destilletur inde spiritus <app>
+              <lem>vini</lem>
+              <rdg wit="#A">vino</rdg>
+            </app> in balneo mediocriter calente non fervido, donec essentia in fundo remaneat
+            instar picis liquidæ. Hæc per se conservetur in vitro bene obturato et <app>
+              <lem>spiritus per se in altero</lem>
+              <rdg wit="#B">spiritu vini per se alterato</rdg>
+            </app>. Potest autem spiritus <app>
+              <lem>ille</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> vini vel denuo usui esse in ulteriore eiusmodi <app>
+              <lem>extractione</lem>
+              <rdg wit="#A">extractatione</rdg>
+            </app> semel atque iterum, <app>
+              <lem>sicque</lem>
+              <rdg wit="#B">sic</rdg>
+            </app> redditur præstantior, ut reservetur loco Aquæ vitæ præservativæ <app>
+              <lem>et conservativæ</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> in talibus morbis, præsertim si ter vel quater dicto modo exaltata fuerit. <pb
+              ed="A" n="2v"/>Essentia vero quamvis per se efficax et multo plus quam ipsa Theriaca,
+            tamen ut universalis sit in omnibus morbis contagiosis et Epidemicis præsertim
+            pestilentialibus, sic graduanda. </p>
+          <p rend="indent">Accipiatur sulphuris e colchotare <app>
+              <lem>puro</lem>
+              <rdg wit="#B">pure</rdg>
+            </app> quater sublimati quarta libræ pars. <app>
+              <lem>Huic</lem>
+              <rdg wit="#B">hinc</rdg>
+            </app> superinfundatur in vitro (ut prius) tantum de oleo iuniperi <app>
+              <lem>puro</lem>
+              <rdg wit="#B">pure</rdg>
+            </app> destillato, ut etiam tribus vel quatuor extet digitis, <app>
+              <lem>ponaturque</lem>
+              <rdg wit="#A">ponatur</rdg>
+            </app> in fornace cinerum tepido digerendum ad octiduum, donec maximam par<pb ed="TBOO"
+              n="IX.162"/>tem sulphuris sublimati in se oleum resolverit tinctura rubicundissima.
+            Separentur ut prius, et de residuo essentia nimirum sulphuris <app>
+              <lem>addatur</lem>
+              <rdg><note>post <q>addatur</q> add. <q>is</q> B</note></rdg>
+            </app> priori Theriacæ extracto portio eius duodecima, ita ut Theriacæ essentia tot
+            vicibus exsuperet. Oleum vero iuniperi residuum et aliquatenus separatum per
+            destillationem reservetur in plurimos usus longe efficacius quam antea. Postea addatur
+            de <app>
+              <lem>extractione</lem>
+              <rdg wit="#B">extracto</rdg>
+            </app> Angelicæ, Absinthij, præsertim <app>
+              <lem>salis</lem>
+              <rdg wit="#B">sale</rdg>
+            </app> Karabes albi quasi vigesima quarta pars, ijsque simul iunctis et <app>
+              <lem>adunitis</lem>
+              <rdg wit="#B">unitis</rdg>
+            </app> digerantur <app>
+              <lem>omnia</lem>
+              <rdg><note>om. A</note></rdg>
+            </app> denuo <app>
+              <lem>in</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> tepido calore balnei per octiduum, superaddita, si lubet, aliqua parte <app>
+              <lem>de spiritu</lem>
+              <rdg wit="#B">spiritus</rdg>
+            </app> vini prius <app>
+              <lem>extracto</lem>
+              <rdg wit="#B">extracti</rdg>
+            </app>, ut promptius misceantur et uniantur, qui <app>
+              <lem>sicuti</lem>
+              <rdg wit="#A">uti</rdg>
+            </app> antea per novam filtrationem et destillationem inde separari potest, donec
+            liquida remaneat materia omni auro in sua quantitate et pondere præstantior, quam si
+            tamen adhuc magis exaltare libet et adhibere ad plures morbos humanum corpus
+            infestantes, debilitantes et de<pb ed="A" n="3r"/>struentes, quotquot <app>
+              <lem>sudorifico</lem>
+              <rdg wit="#B">sudorifici</rdg>
+            </app> confortativo propelli possunt, qualis est dimidia ferme omnium eorum pars, sic
+            agendum. </p>
+          <p rend="indent">Accipiatur <app>
+              <lem>antimonij Regulizati</lem>
+              <rdg wit="#B">Regulus ♁</rdg>
+            </app> in reverberatorio fixati, postquam instar Alcohol per cucurbitam <app>
+              <lem>terream</lem>
+              <rdg wit="#B">ferream</rdg>
+            </app> inclinatam forti igne transivit. Figi autem debet in reverberatorio clauso
+            successive aucto calore, donec volatilitatem et Mercurialem corrosionem amiserit
+            ignemque candentem sustinere poterit absque fumo. Tunc amplius sensibiliter non purgat
+            neque per sedes neque per vomitum, nec ullam movet nauseam aut corpus quoquo modo
+            debilitat, sed solummodo lenem (<app>
+              <lem>ubi opus</lem>
+              <rdg wit="#B">opus ubi</rdg>
+            </app> fuerit) ciet sudorem, <app>
+              <lem>obstructiones</lem>
+              <rdg><note>post <q>obstructiones</q> add. <q>omnes</q> B</note></rdg>
+            </app> aperit, febres omnes pellit ante paroxysmos sumptum, omnem sanguinis immunditiem
+            tollit et morbos ex hac prognatos, superatque multis modis Panacæam nunc toties
+            decantatam, estque omnino innoxium per se medicamentum atque instar sacchari assumi
+            potest etiam in magna dosi. At non opus est in dictis morbis nisi <app>
+              <lem>7.</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> 9. vel 12. grana dare in <app>
+              <lem>conveniente</lem>
+              <rdg wit="#B">convenienti</rdg>
+            </app> liquore, et sudorem (si natura volet) procurare, purgato prius antecedentibus
+            diebus corpore, si nimis scateat humoribus, idque levi solutivo, ne medicina tam
+            præstans in ijs submergatur. In Epidemicis vero, de quibus nunc agitur, <app>
+              <lem wit="#TBOO">addatur</lem>
+              <rdg wit="#A #B">addetur</rdg>
+            </app> eius pars decima sexta vel vicesima priori essentiæ, et misceantur quam
+            dlligentissime. <pb ed="A" n="3v"/>Possunt insuper addi hæc confortativa
+            excellentissima.</p>
+          <lg>
+            <l><app>
+                <lem>Tincturæ auri</lem>
+                <rdg wit="#B">Tinctur. ☉</rdg>
+              </app> non corrosivæ <app>
+                <lem>scrupulus dimidius</lem>
+                <rdg wit="#B">scrup. sem.</rdg>
+              </app></l>
+            <l><app>
+                <lem>Argenti resoluti</lem>
+                <rdg wit="#B">Resolut. ☾</rdg>
+              </app> sine <app>
+                <lem>corrosione</lem>
+                <rdg wit="#B">corrosiv.</rdg>
+              </app>
+              <app>
+                <lem>scrupulus unus</lem>
+                <rdg wit="#B">scrup. j.</rdg>
+              </app></l>
+            <l>Margaritarum resolutarum et dulcium <app>
+                <lem>scrupuli duo</lem>
+                <rdg><note>om. B</note></rdg>
+              </app></l>
+            <l>Tincturæ Corallorum <app>
+                <lem>tantundem</lem>
+                <rdg wit="#B">an. scrup. ij</rdg>
+              </app>.</l>
+          </lg>
+          <p>Hisque cum prioribus simul mixtis et bene incorporatis, additaque fragmentorum sapphiri
+            resolutione (si haberi queat) in guttis solum<pb ed="TBOO" n="IX.163"/>modo 12. vel 16.
+            evadit medicamentum contra morbos <app>
+              <lem>antedictos multosque alios</lem>
+              <rdg wit="#B">prædictos aliosque multos</rdg>
+            </app> adeo præstans, ut vix habeat quod illi conferri possit, et in parva dosi tam
+            præservat quam curat absque omni detrimento, non debilitando naturam sed
+            confortando.</p>
+        </div>
+        <div n="Pro morbis epidemicis">
+          <head>2. PRO MORBIS EPIDEMICIS ET HUC PERTINENTIBUS.</head>
+          <p>Sumatur pro corpore Vitrioli Ungarici magna copia, <app>
+              <lem>utpote</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> librarum circiter 20. Exsiccetur, depuretur per aliquot continuas solutiones et
+            exsiccationes, donec maximam partem fæcum terrestrium, quibus scatet, amiserit. Postea
+            indantur cucurbitæ terreæ lutatæ, quæ ignem sustinere <app>
+              <lem>queat</lem>
+              <rdg wit="#B">potest</rdg>
+            </app>, tres vel quatuor libræ, prout cucurbita ferre potest, et apposito maximo
+            recipiente impellantur successive in Athanore spiritus non saltem humidi, sed et sicci,
+            donec colchotar in fundo remanens nullos amplius emittat. Refundantur ijdem spiritus tam
+            humidi quam sicci super idem colchotar prius contusum, <app>
+              <lem>et</lem>
+              <rdg wit="#B">ut</rdg>
+            </app> in nova cucurbita denuo ut prius fiat <app>
+              <lem>spirituum</lem>
+              <rdg wit="#A">spiritum</rdg>
+            </app> in Recipiens magnum impulsio, idque repetatur ter vel quater. Postea liquor in
+            Recipiente remanens infun<pb ed="A" n="4r"/>datur vitro oblongo, et simul affuso eius
+            quantitatis spiritu vini optimo, qui phlegmate careat, fiat digestio conclusa vel in
+            fimo equino calido vel etiam in balneo per spatium mensis, ut liquor vitriolatus suas
+            interiores fæces deponat, <app>
+              <lem>spiritumque</lem>
+              <rdg wit="#B">spiritum</rdg>
+            </app> vini imbibat et assumat. Quibus per filtrationem separatis et destillato inde in
+            balneo lento spiritu vini, manet in fundo essentia vitrioli præstans, quæ tamen, quo hæc
+            quæ dixi de spiritu vini sæpius reiterantur, eo præstantior evadit. Nam ipse spiritus
+            vini amittit suam virtutem et phlegmaticus redditur tribuendo eam essentiæ vitrioli
+            illamque corrigendo, purgando et maturando. Hic liquor vitrioli depuratus non admodum
+            acris et amarus (ut alias) sed subdulcis in parva dosi et convenienti liquore assumptus
+            emendat et sanat morbos istos, de quibus dictum, tum quoque <app>
+              <lem>pene</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> omnes <app>
+              <lem>alios</lem>
+              <rdg><note>post <q>alios</q> add. <q>morbos</q> B</note></rdg>
+            </app> cerebrum graviter infestantes undecunque tandem obortos. Corroborat etiam
+            stomachum et principalia membra non parum, morbisque mulierum præsenter succurrit sive
+            ex palpitatione aut huic connata suffocatione obortis. Potest autem exaltari et <app>
+              <lem>universalior</lem>
+              <rdg wit="#A">universalius</rdg>
+            </app> reddi, si ipsi addantur hæ Extractiones <app>
+              <lem>atque</lem>
+              <rdg wit="#B">vel</rdg>
+            </app> Essentiæ: Corallorum <app>
+              <lem>rubeorum</lem>
+              <rdg wit="#B">rubrorum</rdg>
+            </app>, Margaritarum Cranij Microcosmi recentis, quod terram non attigit, Spodij, Rasuræ
+            Eboris, Sandalorum, Ligni Aloës, Visci Quercini, <app>
+              <lem>Pœoniæ Seminum et Radicum</lem>
+              <rdg wit="#B">Rad. et Sem. Pæon.</rdg>
+            </app>, Spiritus Camphoræ, Extracti Hypericonis atque similium, quæ ex specifica natura <app>
+              <lem>huc</lem>
+              <rdg wit="#B">hæc</rdg>
+            </app> conducunt, ita ut <app>
+              <lem>extracta</lem>
+              <rdg><note>post <q>extracta</q> add. <q>et</q> B</note></rdg>
+            </app> depurata et simul iuncta pro tertia parte cum supradicto Vitrioli liquore
+            iungantur, misceantur et per aliquot septimanas digerantur. Postmodum abiectis fæcibus
+            subsidentibus reservetur liquor sive essentia incomparabilis, quæ in parva dosi curat
+            omnes morbos, <pb ed="TBOO" n="IX.164"/>qui vel Epilepsiæ vel Apoplexiæ aut Paralysis <app>
+              <lem>aliorumque similium nomine</lem>
+              <rdg wit="#B">nomine aliorumque similium</rdg>
+            </app> veniunt. <pb ed="A" n="4v"/>Si additus fuerit ad digerendum liquor &#x263E; sive
+            argenti viridis aut cæruleus pro centesima saltem parte totius liquoris extracti et
+            depurati, credi vix potest, quantum augeatur virtus medicamenti non solum in dictis
+            morbis sed omnibus <app>
+              <lem>insuper</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> cerebri affectibus. Potest etiam ex ipso vitriolo optimo Romano vel Ungarico, aut
+            quod magis <app>
+              <lem>præstaret</lem>
+              <rdg wit="#B">præstat</rdg>
+            </app> Cyprio et Persico (modo haberi queat) parari liquor præstantissimus, sive oleum
+            quoddam subdulce, suave et odoriferum atque pellucidum, quod non saltem hos morbos, de
+            quibus nunc dictum, sed etiam multos alios peneque omnes humani corporis affectiones
+            corrigit et curat, quatenus non <app>
+              <lem>omnimode</lem>
+              <rdg wit="#B">omnimodo</rdg>
+            </app> incurabiles sunt. Habet etiam vitriolum in se occultam quandam et spiritualem <app>
+              <lem>auri</lem>
+              <rdg wit="#B">solis</rdg>
+            </app> naturam, ita ut non minus quam <app>
+              <lem>auri</lem>
+              <rdg wit="#B">solis</rdg>
+            </app> essentia sive tinctura aut liquor potabilis (quando hæc subtiliter <app>
+              <lem>et</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> absque nocivis additamentis haberi queant) confortando naturam ea quæ ipsi
+            obstaculo sunt propellit, imo in quibusdam plusquam ipsa <app>
+              <lem>auri</lem>
+              <rdg wit="#B">solis</rdg>
+            </app> tinctura cum sua spiritualitate citius et magis penetret et membra principaliora
+            petat et corroboret. Eius autem præparatio breviter et summatim exposita in hunc <app>
+              <lem>modum se</lem>
+              <rdg wit="#B">se modum</rdg>
+            </app> habet. Vitrioli selectissimi eius generis de quo dixi capiantur libræ ad minimum
+            40. quod in vaporario primum usque ad albedinem exsiccatum resolvatur limpida aqua et
+            abiectis fæcibus denuo incrassetur atque <app>
+              <lem>leviter</lem>
+              <rdg wit="#B">leniter</rdg>
+            </app> exsiccetur, idque fiat multis vicibus, donec exteriores et crassiores fæces
+            amiserit. Postea in reverberatorio clauso vasculis fortibus et spirituum penetrationem
+            non admittentibus inclusum et bene obturatum digeratur mediocri <pb ed="A" n="5r"
+            />calore successive aucto, donec rubedini appropinquet. Postea aceto <app>
+              <lem>stillatitio</lem>
+              <rdg wit="#A">stillatico</rdg>
+            </app>
+            <app>
+              <lem wit="#TBOO">resolvatur</lem>
+              <rdg wit="#A #B">resolvetur</rdg>
+            </app> et lavetur, ut prius, aqua denuoque exsiccetur, et paulo <app>
+              <lem>fortiori</lem>
+              <rdg wit="#B">fortiore</rdg>
+            </app> calore occluso <app>
+              <lem>tamen</lem>
+              <rdg wit="#B">tum</rdg>
+            </app> reverberetur, ut prius, per dies 14. idque repetatur aliquoties, donec
+            interioribus etiam fæcibus liberatum sit. Postea autem in posterioribus solutionibus cum
+            aceto destillato <app>
+              <lem>misceatur</lem>
+              <rdg wit="#A">misceri</rdg>
+            </app> in dimidia quantitate <app>
+              <lem>vini spiritus depuratus</lem>
+              <rdg wit="#B">spiritus vini depurati</rdg>
+            </app>, et tandem in solo <app>
+              <lem>vini spiritu</lem>
+              <rdg wit="#B">spiritu vini</rdg>
+            </app>
+            <app>
+              <lem>fiat</lem>
+              <rdg wit="#A">fieri</rdg>
+            </app> resolutio ter vel quater, interposita separatione, exsiccatione et digestione,
+            lentiore tamen calore quam antea, idque in vitris bene lutatis et obturatis, donec
+            vitriolum rubicundissimum et purissimum redditum destillationi aptum sit, quæ fieri
+            debet in vitro firmo etiam lutato, in calidis cineribus successive aucto igne, donec
+            totum oleum illud præstantissimum <app>
+              <lem>et rubicundissimum</lem>
+              <rdg><note>om. A</note></rdg>
+            </app> per alembicum ascendens in antepositum magnum receptaculum vitreum descenderit,
+            relicto in fundo Sale albicante, cui <app>
+              <lem>denuo</lem>
+              <rdg><note>ante <q>denuo</q> add. <q>denique</q> B</note></rdg>
+            </app> coniungi potest atque per digestionem menstruam <app>
+              <lem>paulatim</lem>
+              <rdg wit="#B">sublatim</rdg>
+            </app> uniri, <app>
+              <lem>rursusque</lem>
+              <rdg wit="#B">rursumque</rdg>
+            </app>, si lubet, inde destillari, aut simul manere permittendo cum suo sale
+            efficaciter, <app>
+              <lem>eo, uti dixi</lem>
+              <rdg wit="#B">ut dixi, eo</rdg>
+            </app>, uti potes. Si recte paraveris atque inveneris, age DEO gratias.</p>
+        </div>
+        <div n="Pro morbis cutem et sanguinem infestantibus">
+          <head><pb ed="TBOO" n="IX.165"/>3. PRO MORBIS CUTEM ET SANGUINEM INFESTANTIBUS, QUALIS EST
+            SCABIES, INVETERATA LUES <app>
+              <lem>VENEREA</lem>
+              <rdg wit="#B">♀</rdg>
+            </app>, <app>
+              <lem>AC</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> ELEPHANTIASIS, ET SIMILES.</head>
+          <p><app>
+              <lem>Hi</lem>
+              <rdg><note>post <q>Hi</q> add. <q>qui sunt</q> B</note></rdg>
+            </app> morbi et quotquot sub eorum specie comprehenduntur, potissimum <app>
+              <lem>Mercurio</lem>
+              <rdg wit="#B">☿</rdg>
+            </app> curantur, non tamen vulgari modo præparato, sive in unctionibus <pb ed="A" n="5v"
+            />nocivis <app>
+              <lem>aut</lem>
+              <rdg wit="#B">et</rdg>
+            </app> periculosis sive præcipitationibus et Turbithis corrosivis et similibus <app>
+              <lem>vitiosis</lem>
+              <rdg wit="#B">operosis</rdg>
+            </app> præcipitationibus, quæ sæpe plus damni quam commodi afferunt. Verum in hunc modum
+            fiat eius correctio, a venenata natura liberatio, et ubi noxium est medicamentum
+            restitutio.</p>
+          <p rend="indent">Primum ut exteriores fæces deponat per corium (ut fit) trusus et
+            aliquoties sale et aceto lotus postmodum more solito sublimetur et <app>
+              <lem>revivificetur</lem>
+              <rdg wit="#B">revificetur</rdg>
+            </app> in aqua dulci appositis laminibus <app>
+              <lem>ferreis</lem>
+              <rdg wit="#B">♂</rdg>
+            </app>, denuoque exsiccatus sublimetur, vivificetur, idque ad minimum quater, donec
+            interiores suas fæces pro maiori parte amiserit. Postmodum impositus phiolæ vitreæ
+            oblongæ, quæ luto inferiore sui parte munita sit, <app>
+              <lem>superindatur</lem>
+              <rdg wit="#A">superindantur</rdg>
+            </app> illi de optimo oleo vitrioli, quod depuratum sit, quater tantum pondere, prout is
+            habet, et clauso vitri orificio fiat digestio per octiduum in cineribus calidis.
+            Posteaque destinato inde oleo vitrioli in arena calida, remanebit <app>
+              <lem>Mercurius</lem>
+              <rdg wit="#B">☿</rdg>
+            </app> in fundo albus ut nix. Cui superinfusa <app>
+              <lem>bis vel ter</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> aqua <app>
+              <lem>aliqua</lem>
+              <rdg wit="#B">alia</rdg>
+            </app>
+            <app>
+              <lem>stillatitia</lem>
+              <rdg wit="#A">stillativa</rdg>
+            </app>, <app>
+              <lem>puta</lem>
+              <rdg wit="#A">pura</rdg>
+            </app> Rosarum vel <app>
+              <lem>quæcunque</lem>
+              <rdg wit="#B">quacunque</rdg>
+            </app> alia, attrahit statim in se quicquid salis e vitriolo <app>
+              <lem>Mercurio</lem>
+              <rdg wit="#B">☿◦</rdg>
+            </app> adhæret, et per decantationem reiteratam interposita exsiccatione ipsum omnino
+            dulcificat, ita ut corrosivis expers sit. Id <app>
+              <lem>si</lem>
+              <rdg wit="#B">enim</rdg>
+            </app> ter vel quater repetatur, eo magis figitur et depuratur &#x263F;, donec tandem in
+            igne non admodum forti liquescat ut cera absque fumo: tumque periculo vacat. Et <app>
+              <lem>duobus</lem>
+              <rdg><note>ante <q>duobus</q> add. <q>in</q> A</note></rdg>
+            </app> vel tribus granis assumptis in convenienti aliquo corpore per solos sudores
+            morbos dictos curat; nisi <app>
+              <lem>nimis magna</lem>
+              <rdg wit="#B">cum maior</rdg>
+            </app> adsit pituitæ viscositas, tunc etiam ab <pb ed="A" n="6r"/>ijsdem sine periculo
+            per convenientia emunctoria liberat. Augetur tamen præstantia medicamenti, et <app>
+              <lem>universalius</lem>
+              <rdg wit="#A">universalior</rdg>
+            </app> redditur, si in pari pondere misceatur illi <app>
+              <lem>antimonij</lem>
+              <rdg wit="#B">♁</rdg>
+            </app> pulvis fixus, de quo antea dixi, et aurum extractum sive pulvis diaphoreticus non
+            corrosivus, ita ut hæc tria æquali <app>
+              <lem>pondere</lem>
+              <rdg><note>post <q>pondere</q> add. <q>et</q> B</note></rdg>
+            </app> coniuncta et mixta, <app>
+              <lem>superinfusaque</lem>
+              <rdg wit="#B">superinfusoque</rdg>
+            </app> denuo oleo vitrioli purissimo digerantur simul per mensem in mediocri et continuo
+            calore, destillatoque inde oleo (uti antea) materia residua dulcis reddatur per aquas
+            aliquas <app>
+              <lem>puras</lem>
+              <rdg><note>post <q>puras</q> add. <q>et</q> B</note></rdg>
+            </app> stillatitias aliquoties decantando, uti etiam prius <app>
+              <lem>indicatum</lem>
+              <rdg wit="#B">indicatur</rdg>
+            </app>, donec pulvis exsiccatus et subrubeus omnis sit amaritudinis expers gustuique
+            acceptus. Is per excellentiam curat <app>
+              <lem>quos</lem>
+              <rdg wit="#A">quid</rdg>
+            </app> dixi <app>
+              <lem>morbos</lem>
+              <rdg><note>om. A</note></rdg>
+            </app>, sanguinem repurgat, humores noxios consumit, omniaque extremarum partium ulcera
+            et cutis vitia tollit, ipsum <app>
+              <lem>antimonialem</lem>
+              <rdg wit="#B">♁</rdg>
+            </app> pulverem, de quo antea dixi, licet <app>
+              <lem>is</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> maximarum sit virtutum, superat.</p>
+          <p rend="indent">Qui hæc tria <app>
+              <lem>antedicta rite</lem>
+              <rdg wit="#B">autem dicta ita</rdg>
+            </app> parare didicerit, tres <app>
+              <lem>pene</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> partes omnium morborum humanum corpus infestantium, modo opportune etiam ad<pb
+              ed="TBOO" n="IX.166"/>hibere <app>
+              <lem>novit</lem>
+              <rdg wit="#B">cæperit</rdg>
+            </app>, quasi universaliter curabit. Restant <app>
+              <lem>solummodo</lem>
+              <rdg wit="#B">solum</rdg>
+            </app>
+            <app>
+              <lem>is</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> qui ex podagricis fluxionibus et hydropicis atque similibus, qui e salium
+            resolutione non naturali et intempestiva aut eorundem concretione importuna originem
+            trahunt, qui alijs medijs pro maiori parte curandi <app>
+              <lem>atque</lem>
+              <rdg wit="#B">et</rdg>
+            </app> levandi sunt, modo malum non nimis alte radices egerit <pb ed="A" n="6v"
+            />omnesque vires naturales destruxerit, ut <app>
+              <lem>plane</lem>
+              <rdg wit="#B">plene</rdg>
+            </app> sit incurabile, quod et in cæteris <app>
+              <lem>subintelligendum</lem>
+              <rdg wit="#B">intelligendum</rdg>
+            </app> venit. Nam talia mala et divinitus peculiariter inflicta non nisi a solo DEO
+            immediate, ubi voluerit, curantur. </p>
+          <p rend="indent">Postquam hæc in librum Dn. <persName ref="Rantzau, Heinrich">HENRICI
+              RANTZOVIJ</persName> inscribi curassem, ita ut tria folia in folio ijs complerentur
+            conveniente loco, quarum rerum medicinalium vulgarium Teutonice scriptarum, antequam
+            novus de ijsdem inciperet tractatulus, ea quæ sequuntur verba <app>
+              <lem>ab</lem>
+              <rdg><note>om. B</note></rdg>
+            </app> altera huius paginæ parte <app>
+              <lem>subscribi</lem>
+              <rdg wit="#B">inscribi</rdg>
+            </app> curavi. Distichon vero illud et nomen meum, quæque sequuntur, ipsemet propria
+            manu annotavi: Habes mi Dn. <persName ref="Rantzau, Heinrich">HENRICE
+            RANZOVI</persName>, affinis et amice dilectissime, quæ hoc tempore tibi et tuis
+            communicare e secretis artis Pyronomicæ concedebantur, quæ licet cuivis intellectui
+            obviam non <app>
+              <lem>sint</lem>
+              <rdg wit="#A">sit</rdg>
+            </app> (siquidem requirunt tractationis experientiam et praxin) fieri nihilominus
+            potest, ut alicui e tuis successoribus, si non tibi ipsi, hæc usui sint futura. Nam dies
+            diem docet, et omnia tempus habet. Cætera quæ DEI dono diutino labore, sumptu et
+            experientia explorata habeo, si quæ scire aves, non celabo, solummodo expectent, ut tibi
+            et tuis intimis secreta (qualia etiam sunt) conserventur, utut</p>
+          <lg>
+            <l>Talia, me patrias fecere relinquere sedes; </l>
+            <l rend="indent">Sic iuvisse nocet, non nocuisse iuvat.</l>
+          </lg>
+          <closer>
+            <signed>TYCHO BRAHE OTTONIDES,<lb/>manu propria.</signed>
+            <dateline><lb/>Die 13. Decembr. Anno Christi 1597, qui mihi ante Annos 51. completos
+              fuit natalis.</dateline>
+          </closer>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

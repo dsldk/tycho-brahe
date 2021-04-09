@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Wilhelm, Landgrave of Hesse-Kassel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel (1532-1592)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1586-04-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1586. 4. marts</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener>
+                        <pb ed="TBOO" n="VI.48"/><pb ed="E" n="21"/><app>
+                            <lem>DEM VESTEN VNSERM LIEBEN BESONDERN <hi rend="it">TYCHONI
+                                BRAHE</hi>, HERRN ZU KNUDSTRUP.</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                        <lb/><persName ref="Wilhelm, landgrave of Hessen">WILHELM</persName> VON
+                        GOTTES GNADEN LANDTGRAUE ZU HESSEN/ GRAUE ZU CATZENELNBOGEN/ <app>
+                            <lem>DIETZ/ ZIEGENHAIN VND NIDDA/ ETC.</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                </opener>
+                <p>VNSERN günstigen Gruß zuuor/ Vester Lieber Besonder/ Wir haben ewer schreiben
+                        <hi rend="it">de dato</hi> den <hi rend="it">1 Martij</hi> empfangen/
+                    gelesen/ vnd daraus neben andern verstanden/ das der Kön. W. zu <placeName
+                        ref="Denmark">Denmarck</placeName>/ <app>
+                        <lem>Stadthalter</lem>
+                        <rdg><note><q>Stadthaltern</q> E: corr. T</note></rdg>
+                    </app> in <placeName ref="Holstein">Holstein</placeName>
+                    <persName ref="Rantzau, Heinrich">Henrich Rantzow</persName> Euch vnser
+                    schreiben/ so wir an jhnen des letzt erschienen Cometens halben gethan/
+                    zugeschickt/ Das jr vns nun darauff ewre <hi rend="it">Obseruationes</hi>
+                    desselbigen <hi rend="it">Cometen</hi> so gutwillig zugeschickt/ <app>
+                        <lem>dz</lem>
+                        <rdg wit="#M">das</rdg>
+                    </app> thun wir vns gnediglichen bedancken/ vnd <app>
+                        <lem>wöllen</lem>
+                        <rdg wit="#M">wollen</rdg>
+                    </app> euch nicht verhalten/ das so bald wir ewere <hi rend="it"
+                        >Obseruationes</hi> gesehen/ haben wir vnsern <persName ref="Rothmann"><hi
+                            rend="it">Mathematicum</hi></persName> gefordert/ vnd seine <hi
+                        rend="it">Obseruationes eiusdem Cometæ</hi> mit den ewern <hi rend="it"
+                        >conferirt</hi>, vnd befunden/ das nach gebüerender <hi rend="it">æquation
+                        temporis et Longitudinum</hi> beyderley <hi rend="it">Obseruationes</hi>
+                    durchaus kaum vber ein <hi rend="it">minuten</hi> von einander <app>
+                        <lem wit="#T"><hi rend="it">discrepiren</hi></lem>
+                        <rdg wit="#E #M">discrepirt</rdg>
+                    </app>, welches warlich ein grosses/ vnd ein Zeichen ist/ das beid vnsere vnd
+                    auch Ewere <hi rend="it">Instrumenta</hi> just vnd gut/ auch die <hi rend="it"
+                        >Obseruatores</hi> fleißig gewesen/ vnd gut Gesicht gehabt. Vnsere <hi
+                        rend="it">Instrumenta</hi>, nemlich der <hi rend="it">Quadrant</hi> vnd <hi
+                        rend="it">Sextant</hi>, so vnser <persName ref="Rothmann"><hi rend="it"
+                            >Mathematicus</hi></persName> braucht/ seind nicht so groß/ als die
+                    Ewren/ sondern seind nur <hi rend="it">quadrupedalia</hi>, lassen vns auch
+                    bedüncken/ wo sie grösser weren/ sie würden desto vnbreuchlicher/ <hi rend="it"
+                        >et propter molem</hi> desto vbler zu <hi rend="it">tractiren</hi> sein/
+                    doch möchten wir Ewere <hi rend="it">Instrumenta</hi>/ sonderlich den <hi
+                        rend="it">Globum</hi> auch gern sehen vnd <hi rend="it">examiniren</hi>,
+                    auch Euch gönnen/ das <pb ed="TBOO" n="VI.49"/>jhr <hi rend="it">in loco
+                        Meridionalis vaporibus minus obnoxio</hi> ewere Wohnung hettet/ damit jhr
+                    die ding desto besser <hi rend="it">obseruiren</hi> köntet. Was nuhn betrifft/
+                    das wir Euch vnsere <hi rend="it">Obseruationes nouæ Stellæ ad Cassipeiam</hi>,
+                    deßgleichen der andern <hi rend="it">Cometen</hi> vnd auch <hi rend="it"
+                        >Solis</hi> wolten zuschicken/ ists an dem/ das damals/ wie dieselben <hi
+                        rend="it">Obseruationes</hi> geschehen/ vnsere <hi rend="it"
+                        >Instrumenta</hi> noch nicht so fleissig seind abgericht gewesen/ gleich wie
+                    sie jetzo durch angeben des <hi rend="it"><persName ref="Wittich, Paul"
+                            >WITTICHII</persName>, et diligentia et industria</hi> vnsers Vhrmachers
+                    M. <persName ref="Bürgi">Just <hi rend="it">Burrjj</hi></persName>, <hi
+                        rend="it"><app>
+                            <lem>qui quasi indagine alter Archimedes</lem>
+                            <rdg><note>ex <q>welcher quasi miraculum in natura</q> corr.
+                                M</note></rdg>
+                        </app></hi> ist/ seind angerichtet/ Wie aber dem/ so haben wir Ewerm zu vns <app>
+                        <lem>abgefertigten</lem>
+                        <rdg><note><q>abgefertigen</q> E: corr. T</note></rdg>
+                    </app> vergünstiget/ dieselben abzuschreiben/ vnnd Euch zuzubringen. Was aber
+                        <hi rend="it">prædictam nouam Stellam</hi> antrifft/ haben wir an demselsten
+                    gar keine <hi rend="it">Parallaxin</hi>, auch gar keinen <hi rend="it"
+                        >motum</hi> weder <hi rend="it">in Longitudinem</hi> noch <hi rend="it"
+                        >Latitudinem, sed tantum in recta Linea in Altitudinem aut
+                        profunditatem</hi> mercken können/ aber in dem grossen <hi rend="it"
+                        >Cometen</hi>, so <hi rend="it">Anno 77</hi> erschienen/ da haben wir
+                    deßmals keinen <hi rend="it">aulicum Mathematicum</hi> gehabt/ darumb haben wir <app>
+                        <lem wit="#M">auch</lem>
+                        <rdg wit="#E">jhn</rdg>
+                    </app> seine <hi rend="it">Parallaxin</hi> nicht eigentlich <hi rend="it"
+                        >obseruiren</hi> können/ aber wie jhr aus jetzigen vnsers <pb ed="E" n="22"
+                        /><persName ref="Rothmann"><hi rend="it">Mathematici
+                        Obseruation</hi></persName> zusehen/ so wil der auch nicht/ das der jetzo
+                    letzt <app>
+                        <lem>erschienen</lem>
+                        <rdg wit="#M">erschiene</rdg>
+                    </app>
+                    <hi rend="it">Comet</hi> einige <hi rend="it">Parallaxin</hi> gehabt habe/ Ergo
+                    ist das <hi rend="it">fundamentum Philosophicum</hi> nichtig/ das die <hi
+                        rend="it">Cometen in summa Regione Aëris infra circulos Lunæ</hi> solten <hi
+                        rend="it">generirt</hi> werden/ Also auch finden wir nicht allein aus
+                    vorigen vnsern sondern auch jetzigen vnsers <persName ref="Rothmann"><hi
+                            rend="it">Mathematici</hi></persName> gar fleißigen <hi rend="it"
+                        >Obseruationibus</hi>, das warlich <hi rend="it">Stellæ fixæ</hi> viel in
+                    einem andern stande seind/ dann sie in <hi rend="it">Tabulis annotirt</hi>, Dann
+                    jhrer viel vmst etzliche <hi rend="it">gradus</hi> anders befunden/ <hi
+                        rend="it">tam in Longitudine, quam in Latitudine, accedit quod Latitudo, quæ
+                        tamen consensu omnium Astronomorum debebat esse inuariabilis</hi>, in vielen
+                    vnd fast allen sich <hi rend="it">valde sensibiliter</hi>, ja schier vff ein
+                    halben grad vnd mehr verruckt. Ob nun solches geschehen sey <hi rend="it">vitio
+                        Typographorum</hi>, oder ob die <hi rend="it">Stellæ fixæ in se proprium
+                        aliquem motum</hi> haben/ geben wir euch als dem vornemststen dieser zeit
+                        <hi rend="it">Mathematico</hi>, der die sach auch selbst angreifft vnd
+                    verstehet/ vnd nicht ein <hi rend="it">Mathematicus</hi> vnderm Dach ist/ wie
+                    die meisten seind/ zu <hi rend="it">iudiciren</hi> anheim. Was vnsere <hi
+                        rend="it">Instrumenta</hi> betrifft/ haben wir sie ewern abgefertigten <app>
+                        <lem>alle</lem>
+                        <rdg><note>aller E M: corr. T</note></rdg>
+                    </app> sehen lassen/ der euch daruon wird bericht thun können/ Dann den <hi
+                        rend="it">Sextanten</hi> lassen wir warlich nicht verachten/ Sintemal wir zu
+                    etzlichen mahlen vnserm <persName ref="Rothmann"><hi rend="it"
+                        >Mathematico</hi></persName> zween Stern dardurch abzusehen befohlen/ Da wir
+                    nun selbst <hi rend="it">distantiam vtriusque</hi> genommen/ das <hi rend="it"
+                        >Instrument</hi> verruckt/ vnd jhn von newem absehen lassen/ hat er <app>
+                        <lem>fürwar</lem>
+                        <rdg wit="#M">vorwahr</rdg>
+                    </app> sie so scharff abgesehen/ das <hi rend="it">intra primam, secundam et
+                        tertiam Obseruationem</hi> nicht ein viertel einer <hi rend="it">minuten
+                        differentz</hi> zu spüren/ Darumb wenn fehl da ist/ mus <pb ed="TBOO"
+                        n="VI.50"/>man den vnsers bedünckens <hi rend="it">in centro visus</hi> so
+                        <hi rend="it">subtil</hi> nicht suchen/ sondern viel mehr beym <hi rend="it"
+                        >artifice</hi>. Ferner haben wir Ewer <hi rend="it">iudicium de inquirenda
+                        vera Altitudine Poli vel Æquatoris</hi> gar gern vernommen/ dann wir auch
+                    befunden/ das wenn man die ding <hi rend="it">ex Altitudine Solis maxima in
+                        vtroque tropico</hi> suchen wil/ das es gar nicht mit der <hi rend="it"
+                        >Obseruation circumpolarium Stellarum</hi> thut eintreffen/ Derhalben haben
+                    wir durch vnsern <persName ref="Rothmann"><hi rend="it"
+                        >Mathematicum</hi></persName> etzliche Stern/ <hi rend="it">quæ non
+                        occidunt</hi>, lassen <hi rend="it">in Meridiano cis et vltra Polum
+                        obseruiren</hi>, wie jhr hierneben zusehen/ Daraus wir vnsere <hi rend="it"
+                        >Eleuationem Polarem huius loci et quæ his accidunt</hi> genomen/ Also auch
+                    haben wir von etzlichen Jaren <hi rend="it">Refractionem valde sensibilem</hi>,
+                    beyd <hi rend="it">in Sole et Stellis circa Horizontem</hi> gefunden/ auch ein
+                    mal <hi rend="it">Venerem occidentem (quam diligentissime obseruauimus)</hi>
+                    fast beynahe ein viertel einer stund <hi rend="it">stationariam</hi> befunden/
+                        <hi rend="it">adeo vt eo tempore nihil raptu primi mobilis moueretur, et
+                        adhuc appareret Eleuata duobus et amplius gradibus supra Horizontem, cum
+                        totidem reuera esset sub Horizonte, deinde autem quasi ad momentum euanuit.
+                        Quæ omnia videbantur miraculosa nisi <persName ref="Vitellio"
+                            >Vitellio</persName> in suis Opticis harum rationem præbuisset</hi>. Wir
+                    schicken euch auch hierneben: doch in gutem vertrawen/ darin jhr es auch
+                    behalten vnd noch zur zeit <app>
+                        <lem>nicht</lem>
+                        <rdg><note>om. E: add. T</note></rdg>
+                    </app>
+                    <hi rend="it">spargiren</hi>, sondern nur mit Ewren <hi rend="it"
+                        >Obseruationibus conferiren</hi>
+                    <app>
+                        <lem>wöllet</lem>
+                        <rdg wit="#M">wollet</rdg>
+                    </app>: <hi rend="it">Obseruationes</hi> etzlicher vornehmer Stern/ <pb ed="E"
+                        n="23"/>wie sie vnser <persName ref="Rothmann"><hi rend="it"
+                            >Mathematicus</hi></persName> beyd <hi rend="it">in Meridiano</hi>, vnd
+                    auch <hi rend="it">per <app>
+                            <lem>Sextantem</lem>
+                            <rdg><note><q>Sextanten</q> E: corr. TBOO ex M</note></rdg>
+                        </app> obseruirt</hi>. Wo jhr nuhn lust zu <app>
+                        <lem>rechnen</lem>
+                        <rdg><note><q>rechen</q> E: corr. TBOO ex M</note></rdg>
+                    </app> habt/ möcht jhr daraus <hi rend="it">loca vera tam <app>
+                            <lem>Longitudinis</lem>
+                            <rdg><note><q>Longiuditudinis</q> E: corr. T</note></rdg>
+                        </app>, quam Latitudinis</hi> bald finden/ in vnserm <hi rend="it"
+                        >Globo</hi> treffen sie sein zu/ Es sol aber vnser <persName ref="Rothmann"
+                            ><hi rend="it">Mathematicus</hi></persName> dieselben noch <app>
+                        <lem>alle</lem>
+                        <rdg><note><q>alles</q> E: corr. TBOO ex M</note></rdg>
+                    </app>
+                    <hi rend="it">per calculum reformiren</hi>, dann den <hi rend="it"
+                        >Instrumenten</hi>/ sie werden so fleißig gemacht als sie <app>
+                        <lem>wöllen</lem>
+                        <rdg wit="#M">wollen</rdg>
+                    </app>/ <hi rend="it">adamussim</hi> nicht zu trawen. Welches wir euch vff ewer
+                    schreiben hinwider nicht wolten verhalten/ mit gnedigen gesinnen/ jhr wollet vns
+                    ewere <hi rend="it">Obseruationes</hi>, dergleichen <hi rend="it">loca vera
+                        nostrarum Obseruationum</hi>, wie jhr vnsere <app>
+                        <lem>gegen den ewren</lem>
+                        <rdg wit="#M">oder die euernn</rdg>
+                    </app>
+                    <hi rend="it">per calculum</hi> findet/ hinwider zuschicken/ Damit wir es mit
+                    den vnsern zu <hi rend="it">collationiren. Cætera ex adiuncta <hi
+                            rend="Rothmann">Mathematici</hi> Epistola intelliges</hi>. Vnd wir seind <app>
+                        <lem>euch mit gnedigen willen jederzeit wollgeneigt/</lem>
+                        <rdg wit="#M">&amp;c</rdg>
+                    </app>
+                </p>
+                <closer>
+                    <dateline>
+                        <app>
+                            <lem><hi rend="it">Datum</hi> in vnser Festung</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                        <placeName ref="Kassel">Cassel</placeName> am <hi rend="it">14 Aprilis, Anno
+                            86</hi>.</dateline>
+                    <signed>
+                        <foreign xml:lang="de">WILHELM LANDTGRAFF ZU HESSEN.</foreign>
+                    </signed>
+                </closer>
+                <postscript>
+                    <label>POSTSCRIPTA.</label>
+                    <p>
+                        <foreign xml:lang="de">OB wir wol in der <hi rend="it">Epistola</hi> melden/
+                            das wir die <hi rend="it">Obseruationes</hi> ewerm abgefertigten
+                            abzuschreiben zugestelt/ Dieweil sie aber fast mühesamb zu <hi rend="it"
+                                >secerniren</hi>, So haben wir durch ein andern gedachte <hi
+                                rend="it">Obseruationes</hi> beyd <hi rend="it">Cometarum</hi>, vnd
+                            auch <hi rend="it">Solis</hi>, so viel wir <app>
+                                <lem>dero</lem>
+                                <rdg><note><q>derd</q> E: corr. T</note></rdg>
+                            </app>
+                            <pb ed="TBOO" n="VI.51"/>noch bey handen haben/ abschreiben lassen/ vnd
+                            thun sie euch hiermit vbersenden. Was aber <hi rend="it">Obseruationem
+                                Fixarum</hi> betrifft/ haben wir <hi rend="it">loca Longitudinum et
+                                Latitudinum</hi>, wie sie vnser <hi rend="it">Globus</hi> gibt/
+                            hinein verzeichnet. Es soll sie aber v<persName ref="Rothmann">nser <hi
+                                    rend="it">Mathematicus</hi></persName>, wenn er die vbrigen/ so
+                            er <hi rend="it">propter vaporosum Cœlum</hi> bißhero nich <hi rend="it"
+                                >obseruiren</hi> können/ auch <app>
+                                <lem wit="#TBOO">darzu bekümpt/</lem>
+                                <rdg wit="#E">darzu/ bekümpt</rdg>
+                            </app>
+                            <app>
+                                <lem wit="TBOO">alle</lem>
+                                <rdg wit="#E">aller</rdg>
+                            </app> rechnen/ glauben doch/ es werde nicht ein grosser <hi rend="it"
+                                >differentz</hi> zwischen beyderley <hi rend="it">Obseruation</hi>
+                            sein. <hi rend="it">Oculum</hi> ♉ <hi rend="it">dextrum hum. Orionis,
+                                Canem minorem et maiorem</hi>, die haben wir nicht allein <hi
+                                rend="it">per distantiam inter se, et Latitudinem Meridianam</hi>
+                            lassen <hi rend="it">obseruiren</hi>, Sondern durch vnser <hi rend="it"
+                                >minuten</hi> vnd <hi rend="it">Secunden</hi> Vhrlein: welches gar
+                            gewisse stunden geben/ vnd <hi rend="it">a Meridie in Meridiem</hi>
+                            offtmals nicht eine <hi rend="it">minuten varijren</hi>, jhr <hi
+                                rend="it">tempus</hi> oder <hi rend="it">culmination in
+                                Meridiano</hi> gar scharff zu etlich viel mahlen/ vnd daraus jhre
+                                <hi rend="it">Longitudinem vel potius Cœli meditationem</hi>
+                            genommen/ das vnsers bedünckens wir dero gewiß seindt.</foreign>
+                    </p>
+                </postscript>
+                <closer>
+                    <signed>
+                        <foreign xml:lang="de">WILHELM LANDTGRAFF ZU HESSEN.</foreign>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

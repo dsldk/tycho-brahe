@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 381-382</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1600-10-08"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Melchior Jöstel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 8. oktober. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.375"/>TYCHO BRAHE AD MELCHIOREM IŒSTELIUM.</opener>
+
+                <p><pb ed="A" n="151r"/>EX ultimis meis literis, Eruditissime et amantissime Domine
+                        <persName ref="Joestelius">IÖSTELI</persName>, quas Domino Doctori <persName
+                        ref="Francius">FRANTZIO</persName> Iurisconsulto in eas oras proficiscenti
+                    commisi, facile intellexisti, quæ superioribus tuis respondenda habui, et quænam
+                    deinceps a te desiderarem, quod peracta promotione, quæ ut fausta felixque sit
+                    precor, meliori restitutus otio efficias, te etiamnum per amicitiam nostram
+                    rogatum volo. Invenies facile aliquem, qui id, quicquid erit, meis sumptibus ad
+                    mundum describat. Promptissimum vero erit, si hoc per studiosum, quem mihi
+                    polliceris (quod et gratum est) <app>
+                        <lem wit="#TBOO">huc</lem>
+                        <rdg wit="#A">hoc</rdg>
+                    </app> ipsum miseris, modo is non prius, quod tamen mallem, accesserit.</p>
+                <p rend="indent">Quid M. <persName ref="Oswaldus">OSWALDUS</persName> et Typographus
+                    certo addicere velint, etiam mature resciscere cupio, atque ut omnia pro me
+                    isthic peragenda accelerentur, ne irrecuperabile tempus nimis diu incassum
+                    labatur. Sum iam occupatus in disponendis instrumentis meis superius iuxta arcem
+                    in domo quadam ampla, in quam <persName ref="Rudolf 2.">Cæsar</persName> ex
+                    horto suo, cui propinqua est, solitarie, quoties lubuerit, ingredi potest et ea
+                    perlustrare, quod et nuper clementissime nec sine voluptate fecit, licet saltem
+                    ea, quæ <placeName ref="Benatky">Benatica</placeName> advecta sunt, tunc in
+                    promptu fuerint, cætera omnia, de quibus etiam pridie inquisivit, ubi rite
+                    collocata fuerint, visurus, atque tum demum, quo in loco, ut ad usum
+                    perpetuentur, constituenda sint, decreturus. Neque enim vult, ut ego cum meis
+                    studijs tam longe, ut antea, <placeName ref="Praha">Pragâ</placeName> absim,
+                    quod etiam mihi ipsi non oportunum videtur. Verum de huius consilij eventu, quem
+                    spero utilem et commodum futurum, te postmodum certiorem reddam.</p>
+                <p rend="indent">Advenit ante quatriduum per postam, uti vocant, <persName
+                        ref="Rudolf 2.">Cæsaris</persName> frater Archidux <persName
+                        ref="Matthias, archduke">MATTHIAS</persName> ab <persName ref="Rudolf 2."
+                        >ipsius Maiestate</persName> illico vocatus, statim ac magna illa et
+                    inopinata mutatio hîc in aula facta est, reiecto <persName ref="Rumpf"
+                        >RUMPFIO</persName> et <persName ref="Trautsonius ">TRAUTSONIO</persName>,
+                    præcipuis Consilij secreti Capitibus, qui intra biduum discedere iussi sunt,
+                    quod et factum, cæteris eiusdem Consilij membris retentis quidem, sed necdum in
+                    priori gratia habitis. Qua de caussa hæc alteratio peracta, nondum satis liquet.
+                    Fuit quoque dictus serenificus <persName ref="Matthias, archduke"
+                        >Archidux</persName> heri in domo illa, ubi instrumenta mea partim erecta
+                    sunt, partim adhuc eriguntur, et singula, quæ interim maiori copia advecta
+                    erant, diligenter perlustravit, siquidem et is artibus his iucunde et
+                    laudabiliter afficiatur.</p>
+                <p rend="indent">Vale, et cum otium fuerit, plenius rescribe. Atque ubi sexcenti
+                    illi Ioachimici e ducatu <placeName ref="Mecklenburg">Megapolitano</placeName>
+                    advenerint, 50 inde pro laboribus <pb ed="TBOO" n="VIII.382"/>typographicis
+                    tecum retine, et papyrum idoneam pro aliqua eorum parte tempestive coëmi effice.
+                    Plures mittam, ubi opus fuerit. Reliquos intermediante affine tuo <placeName
+                        ref="Dresden">Dresdense</placeName> huc dirige. Iterumque vale, et D. D.
+                        <persName ref="Jessenius">IESSENIUM</persName>, licet mei immemorem,
+                    reliquosque amicos <placeName ref="Wittenberg">Witebergenses</placeName>, inter
+                    quos etiam obmutescentem illum <persName ref="Taubmann">TAUBMANNUM</persName>,
+                    saluta. Dabantur festinanter <placeName ref="Praha">Praga</placeName> die 8 Oct.
+                    stylo novo Anno 1600. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

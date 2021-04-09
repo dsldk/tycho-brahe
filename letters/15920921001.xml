@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1592-09-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Moritz, Landgrave of Hesse-Kassel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1592. 21. september</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-17" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VI.313"/><pb ed="E" n="282"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO MAVRITIO, <app>
+                        <lem>LANDTGRAVIO</lem>
+                        <rdg><note>ante <q>LANDTGRAVIO</q> add. <q>JUNIORI</q> M</note></rdg>
+                    </app> HASSIÆ, COMITI IN CATZENELLEBOGEN, DIETZ, ZIGENHAIN ET NIDDA:
+                        PRINCIPI AC <app>
+                            <lem>DOMINO</lem>
+                            <rdg><note>post<q>DOMINO</q> add. <q>SUO</q> M</note></rdg>
+                        </app> CLEMENTISSIMO. S. <app>
+                            <lem>D.</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                </opener>
+                <p>ILLVSTRISSIME et Generosissime Princeps: Plurimâ equidem T. C. me læticiâ
+                    affecit, dum non modo Literis suis clementer nostris respondere: Sed et Carmen
+                    commendatitium in Opera, quæ molimur, Astronomica, scite et eleganter
+                    concinnare, proprijsque digitis circa frontispicia chartæ transmissæ consignare,
+                    non dedignata sit. Pro qua etiam clementi erga me, meaque studia affectione
+                    gratias T. C. demisse ago, quas possum, maximas. <app>
+                        <lem>Exhibebunt</lem>
+                        <rdg wit="#M">Exhibebit</rdg>
+                    </app> utique versus <app>
+                        <lem>illi</lem>
+                        <rdg wit="#M">ille</rdg>
+                    </app> clarissimum T. C. erga tam sublimes Artes et me etiam favoris et
+                    benevolentiæ <app>
+                        <lem>Τεκμήριον</lem>
+                        <rdg wit="#M"/>
+                    </app>, Posteritati in auspicijs meorum Operum Astronomicorum iugi memoria
+                    consecrandum: mihi vero devotæ erga T. C. observantiæ <app>
+                        <lem>μνημοσὺνον</lem>
+                        <rdg wit="#M">mnemosynon</rdg>
+                    </app> nulla oblivione interiturum suppeditabit. Cur autem non antea T. C. hoc
+                    nomine rescripserim, et quare Tabellarium hunc tam diu hîc detinuerim, caussas
+                    in Literis ad Illustrissimum T. C. Dominum Parentem datis, luculenter exposui.
+                    Quin et antea idem per <app>
+                        <lem>Præstantis. et Eruditis. Virum</lem>
+                        <rdg wit="#M">doctissimum Virum Dominum</rdg>
+                    </app> Doctorem <persName ref="Theophilus">NICOLAVM THEOPHILVM</persName>, nunc
+                    in Academia Hafniensi Iuris Professorem, olim T. C. <persName
+                        ref="Wilhelm, landgrave of Hessen">Parenti</persName> in Cancelliæ negotijs <app>
+                            <lem>operam nauantem</lem>
+                            <rdg wit="#M">exeqvendis inservientem</rdg>
+                        </app>, indicare animus erat: Quo etiam nomine ad ipsum perscripseram. Verum
+                    intellexi postea, ob aduersam valetudinem iter eius, quod in <placeName
+                        ref="Hessen">HASSIAM</placeName> adornârat, præpeditum fuisse. Præter
+                    voluntatem igitur meam accidit, quod adeo tarde tam Illustrissimi Parentis, quam
+                    T. C. Literis <app>
+                        <lem>nunc</lem>
+                        <rdg><note>om. M</note></rdg>
+                    </app> respondeatur. Quam <pb ed="TBOO" n="VI.314"/>moram ut C. T. clementi
+                    animo in potiorem partem accipiat, atque excusatam habere velit, etiam atque
+                    etiam submisse rogo. Nec ulterius T. C. impolitis hisce meis literulis, alijs
+                    forte intentam, gravabo. Verum C. T. Deo Opt. Maximo, quam plurimum commendatam <app>
+                        <lem>cupio</lem>
+                        <rdg wit="#M">habeo</rdg>
+                    </app>. Is <app>
+                        <lem>C. T.</lem>
+                        <rdg wit="#M">T. C.</rdg>
+                    </app> vitam et actiones in vestigia Paternarum virtutum dirigat, et ad Reipub.
+                    emolumentum feliciter disponat.</p>
+                <closer>
+                    <salute>Vale.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Vraniburgj</placeName>, 21. Septemb.
+                        Anno 1592.</dateline>
+                    <signed><app>
+                        <lem>Celsit T.<lb/>Addictis.<lb/>TYCHO BRAHE.</lem>
+                        <rdg><note>subscriptionem <q>Tuæ Celsc. addictiss. Tycho Brahe</q>
+                            ipsius manu praebet M</note></rdg>
+                    </app></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

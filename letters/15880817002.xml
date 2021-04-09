@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl><title>Singularia historico-literaria Lusatica</title>, part 27,
+                            Lipsiae et Budissini 1743</bibl>
+                    </witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 123-124</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1588-08-17"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Bartholomaeus Scultetus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1588. 17. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-29" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.123"/>
+                <pb ed="A" n="191"/>
+                <opener>CLARISSIMO DOCTISSIMOQUE VIRO M. <persName ref="Scultetus">BARTHOLOMÆO
+                        SCULTETO</persName>, GORLICENSI, RERUM MATHEMATICARUM PERITISSIMO, VETERI
+                    AMICO PLURIMUM COLENDO.</opener>
+                <p><pb ed="A" n="189"/>PER Silesium quendam Studiosum <placeName ref="Wroclaw"
+                        >Vratislaviensem</placeName> (ni fallor) tibi scripsi, mense Maio proxime
+                    elapso, amantissime clarissimeque SCULTETE, librumque nostrum secundum,
+                    opusculum, quod de recentioribus <app>
+                        <lem wit="#Friis">ætherei</lem>
+                        <rdg wit="#A">ætheri</rdg>
+                    </app> Mundi Phænomenis emisimus, unâ <app>
+                        <lem wit="#Friis">transmisi</lem>
+                        <rdg wit="#A">transmissi</rdg>
+                    </app>. Nec dubito te eum interea accepisse, perspexisseque diligenter. Rogo
+                    itaque, velis mihi prima occasione tuam de ijs, quæ in eo continentur,
+                    perscribere sententiam. Nec est, cur te moveat, quod a tuis placitis tantopere
+                    in plurimis dissentiam, et fretus libertate Philosophica, quid in his veritati
+                    consentaneum sit, in<pb ed="A" n="190"/>genue proferam. Scis enim, me nullo tua
+                    insectandi aut cavillandi animo id facere, et ut candide interpreteris omnia,
+                    amicitiæ nostræ diuturnum vinculum postulat. Ego tibi vicissim liberum de meis
+                    relinquo iudicium, ut ingenue proferas, quicquid invicta veritatis Mathematicæ
+                    certitudo exigat. Pluri<pb ed="TBOO" n="VII.124"/>mum itaque tuas desidero literas,
+                    quibus meis desiderijs in his satisfiat, quas ut mature ante instantem hyemem
+                    accipiam, operam des: idque commodissime fiet, si eas miseris vel <placeName
+                        ref="Rostock">Rostochium</placeName> ad D. <persName ref="Brucaeus, Henrich"><app>
+                            <lem wit="#Friis">HENRICUM BRUCÆUM</lem>
+                            <rdg wit="#A">Heinricum Bracæum</rdg>
+                        </app></persName> Medicum, vel <placeName ref="Lübeck">Lubecam</placeName>,
+                    ad D. <persName ref="Memmius">PETRUM MEMMIUM</persName>, etiam Medicum, aut <app>
+                        <lem wit="#Friis">illuc</lem>
+                        <rdg wit="#A">illac</rdg>
+                    </app> quoque ad <persName ref="Knockert">FRANCISC. KNOCKERT</persName>,
+                    Patritium et Senatorem urbis, vel Nauclerum quendam, <persName
+                        ref="Grubbe, Albert">ALBERT GRUBE</persName> nomine, habitantem in Angelo
+                    Lubecensi. Quocunque ho<pb ed="A" n="191"/>rum in procurandis literis usus
+                    fueris, spero me eas ad civem quendam <placeName ref="Copenhagen"
+                        >Hafniensem</placeName>, in ædibus meis habitantem, <placeName ref="Didrik"
+                        >DESIDERIUM FULLONEM</placeName> nomine, delatas, facile et brevi
+                    obtenturum. Vale, et rescriptionem matura. Rogo etiam, ut Magnifico
+                    Nobilissimoque Viro <persName ref="Dudith">ANDREÆ DUDITIO</persName>, si vobis
+                    in propinquo est, meo nomine officiose salutem dicere vel perscribere non
+                    intermittas. Optarem vero quam maxime illius de libro nostro, sibi etiam
+                    transmisso, iudicium. Quod si per te ab ipso etiam, ante hyemis impedimenta,
+                    literis consignatum impetravero, feceris mihi rem longe gratissimam. Iterum
+                    felicissime vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 17.
+                    Augusti Anno 1588.</p>
+                <lb/>
+                <p rend="rightMargin">Tui amantissimus<lb/>TYCHO BRAHE.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 178</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 20</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Isaksen Pontanus</persName>
+                    <placeName>empty</placeName>
+                    <date when="1598-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-29" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.20"/>
+                <opener><persName ref="Pontanus">IOHANNES ISACIUS PONTANUS</persName> AD TYCHONEM BRAHE.</opener>
+                <p rend="indent"><pb ed="A" n="2r"/>.....<persName ref="Scaliger">SCALIGER</persName> observationes utrasque (quæ munificentiæ tuæ
+                    sunt) vernalem aio et autumnalem, suis inseruit, et videbis propediem. De secessu vero in 
+                    <placeName ref="Germany">Germaniam</placeName> itidem intellexerat, et dolere se fatetur, si eiusmodi rerum
+                    conturbaretur commoditas, quarum iam fructus redundaret ad <placeName ref="Europe">Europam</placeName> universam. Placet
+                    quidem ei <placeName ref="Germany">Germania</placeName>; sed nescit, an mores undiquaque gentis ad illam facilitatem
+                    humanitatemque apti, quæ debebatur, apti tibi. Optaret, si Dania omnino deserendi staret
+                    animus, <placeName ref="Netherlands">Bataviam</placeName> potius inviseres, amicam studijs, benignam....; et denique te
+                    tuasque virtutes et honorabit, et fere dixerat, adorabit. Esset certe in omnem eventum
+                    hæc ora propinquior <placeName ref="Denmark">Daniæ</placeName>, et ille hîc Ordinum sensus, ut omnes gratias non modo
+                    retinendas, verum etiam acquirendas sciant. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

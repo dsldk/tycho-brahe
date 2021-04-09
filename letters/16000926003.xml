@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <!-- faksimile: https://www.e-manuscripta.ch/bau/doi/10.7891/e-manuscripta-43687 -->
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 369-375</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1600-09-26"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Georg Rollenhagen</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 26. september n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-31" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.369"/>TYCHO BRAHE AD <persName ref="Rollenhagen"
+                        >GEORGIUM ROLLENHAGIUM</persName>.</opener>
+
+                <p><pb ed="A" n="146r"/>S.</p>
+                <p>QUOD supellex mea, quæ <placeName ref="Magdeburg">Magdeburgi</placeName>
+                    reservabatur, nunc tandem in has <placeName ref="Bohemia">Bohemiæ</placeName>
+                    oras appulerit, est cur Reverendissimo Capitulo Vestro, quod sumtus in eos usus
+                    liberaliter suppeditavit, tum quoque tibi, Excellentissime et amantissime Domine
+                        <persName ref="Rollenhagen">ROLLENHAGI</persName>, gratias agam quam
+                    maximas, prout etiam peculiaribus literis ad honorandissimum et nobilissimum
+                    Dominum Decanum reliquosque Capitulares, quas illi per te officiosissime meo
+                    nomine tradi velim, testatus sum. Quod autem cum <persName ref="Anders"
+                        >ANDREA</persName> ministro meo isthuc pro rebus illis huc adferendis emisso
+                    Reverendissimæ illius Dominationi cæterisque nobilissimis Collegis nihil
+                    scripserim, non ulla præpostera voluntate, vel quod hoc ipsis me debere
+                    gratitudinis loco officium non agnoscerem, factum est, sed cum ijs ipsis diebus
+                    in quibusdam a Sacra <persName ref="Rudolf 2.">Cæsarea Maiestate</persName>,
+                    Domino nostro Clementissimo, mihi iniunctis, quæ ocius absolvi debebant, essem
+                    occupatissimus, et aliâs plurimis præpedirer interpellationibus, ita ut varijs
+                    obruerer negocijs, vix tantum mihi supererat temporis, ut ad te nonnulla, quem
+                    ob familiaritatem nostram transcursorie alloqui licuit, exarare potuerim. Quare
+                    prævidens, me id, quod iuremerito facere oportuisset, ut indecenter omitterem,
+                    compelli, te diligenter rogavi, ut hanc literarum intermissionem apud
+                    Reverendissimum Capitulum excusares, meque cum nautis, ubi res meas huc
+                    advexissent, ad vos redituris illis scripturum indicavi, quod et nunc effeci,
+                    non quidem per nautas, siquidem illi nimis cito <placeName ref="Litoměřice"
+                        >Leutmeritzio</placeName> discesserunt, sed cum hoc tabellario <placeName
+                        ref="Hamburg">Hamburgo</placeName> adveniente et commodum sese offerente,
+                    qui in illas oras confestim rediturus est.</p>
+                <p rend="indent">Sororem meam <persName ref="Brahe, Sophie">SOPHIAM</persName> adhuc
+                        <placeName ref="Segeberg">Segebergæ</placeName> prope <placeName
+                        ref="Lübeck">Lubecam</placeName> hærere, idem tabellarius refert, at ubi
+                        <persName ref="Lange, Erik">ERICUS LANGIUS</persName> sit, ignorat. Doleo
+                    utriusque fortunam pertinaciter reluctantem. Scripsi <persName ref="Petkkum"
+                        >SIMONI â PETKUM</persName> Procuratori meo <placeName ref="Hamburg"
+                        >Hamburgensi</placeName>, ut ferreas fornaces, et si quæ alia ibi ex meis
+                    rebus residua sunt, <placeName ref="Magdeburg">Magdeburgum</placeName> per
+                    primam quamque oportunitatem ad te mittat, quæ, uti polliceris, in tuis ædibus,
+                    neque enim multa sunt, reservabis, donec occasio suppetierit <placeName
+                        ref="Litoměřice">Leutmeritzium</placeName> absque magno sumtu ea dirigendi.
+                    Optarem autem fornaces, de quibus dixi, sive integras sive fractas, huc ante
+                    Albis congelationem, modo fieri possit, afferri. </p>
+                <p rend="indent"><pb ed="A" n="146v"/>Instrumenta Astronomica, quæ <placeName
+                        ref="Benatky">Benaticæ</placeName> habui, quotquot mecum <pb ed="TBOO"
+                        n="VIII.370"/>in <placeName ref="Bohemia">Bohemiam</placeName> attuleram,
+                    quæ numero erant sex maiora et aliquot minora, <persName ref="Rudolf 2."
+                        >Cæsar</persName> iussit, ut huc <placeName ref="Praha">Pragam</placeName>
+                    transferrem, ubi ex ipsius etiam Clementissima voluntate in domo quadam
+                    magnifice et splendide iuxta hortum prope arcem a <persName ref="Ferdinand 1."
+                        >FERDINANDO</persName> avo ædificata disposita sunt. Cumque <persName
+                        ref="Rudolf 2.">ipsius Maiestas</persName> quodam die præteritæ septimanæ ea
+                    perlustrare dignata esset, dedit mihi in mandatis, ut cætera omnia, quæ
+                        <placeName ref="Litoměřice">Leutmeritzium</placeName> impensis
+                    Reverendissimi Capituli Vestri iam advenisse retuli, quod et antea cognoverat,
+                    ibidem collocarem, ut omnia simul essent, tunc se, postquam singula
+                    perspexisset, de oportuniore loco, quam est in <placeName ref="Benatky">arce
+                        Benatica</placeName>, ubi collocari et in debito usu conservari possent,
+                    provisurum clementissime addixit. Inclinare autem visus est ad ædes Curtianas,
+                    hac de caussa a vidua relicta comparandas, siquidem non longe ab arce sublimi
+                    prospectu constituantur. Domus etiam amplæ et in edito loco sitæ et dimidio
+                    saltem milliari hinc remotæ atque in formam stellæ cuiusdam, unde etiam nomen
+                    habet, a <persName ref="Ferdinand, archduke">FERDINANDO Archiduce</persName>
+                    sumtuose extructæ, quam hortus ferarum circuit, mentionem fecit, si forte ea
+                    observationibus et instrumentorum tractationi accommoda foret. At ego perinde
+                    esse, ubinam <persName ref="Rudolf 2.">eius Maiestas</persName> id fieri vellet,
+                    modo perpetuari res possit, ne idem aliquando eveniret quod in <placeName
+                        ref="Denmark">Dania</placeName>, subiectissime respondi: tunc <persName
+                        ref="Rudolf 2.">ipsius Maiestas</persName> de ædificio quodam Viennæ a
+                        <persName ref="Maximilian 2.">MAXIMILIANO</persName> parente in alto quodam
+                    loco eleganter nec parvis impensis extructo nonnulla insinuavit, quod Viennam
+                    iter spacio paucorum dierum faciens spectare, et an pro his exercitijs commodum
+                    foret, dispicere possem: ibi se certum esse, quod perpetuo conservari possint
+                    omnia. Sed nihil conclusum est, antequam cætera instrumenta huc allata fuerint,
+                    et illa etiam in dicta domo iuxta hortum collocata viderit <persName
+                        ref="Rudolf 2.">Cæsar</persName>.</p>
+                <p rend="indent">Ad ea, de quibus me commonefacis, in Postscriptis respondebo. Quæ
+                        <persName ref="Anders">ANDREAS</persName> minister meus sui purgandi caussa
+                    tibi dixit, more consueto, quo leviter quidvis loquitur, fecit; neque enim per
+                    omnia ita se habent: discesserat is, cum adhuc <placeName ref="Benatky"
+                        >Benaticæ</placeName> essem, me inscio et non interrogato, nec per octiduum
+                    quæsitus uspiam comparuit. Postea sponte redijt, cum alium forte Dominum
+                    invenire non posset, nec pecunia, quam abliguriret, illi superesset; at ego
+                    illum tunc recipere nolui. Sed ut <persName ref="Capitaneus Brandeisensis"
+                        >Capitaneo Brandeisensi</persName> inserviret, permisi, quod non diu durare
+                    potuit. Falsa etiam sunt, quæ de pecunia illi a me debita narravit: nam
+                    persoluta sunt illi omnia, quæ stipendij loco addixeram, nec habet, quod iure
+                    ulterius poscat, ut vel hoc nomine, quod iniuste de me <pb ed="A" n="147r"/>apud
+                    alios conqueratur, cohercendus foret, verum ego illi ob tuam intercessionem
+                    ignoscam, quia, uti ais, vere simplicissimus est minusque prudens, et quidvis
+                    inconsiderate effutit [n]ec sibi ipsi constat. Si in posterum frugi esse
+                    voluerit, videbo, quid in tui gratiam facere potero, aut si sui <pb ed="TBOO"
+                        n="VIII.371"/>similis permanserit, uti proculdubio faciet, dabo operam, ut
+                    alium acquirat Dominum, quod et antea hîc molitus sum apud satellitum præfectum,
+                    sed necdum succedere potuit.</p>
+                <p rend="indent">Quod Dominus <persName ref="Alemann">CASPAR ALEMANN</persName>
+                    Consul Vester ægre tulerit, in sua absentia reliquum Senatum officium in
+                    advehendis huc meis rebus <persName ref="Rudolf 2.">Cæsari</persName> denegasse,
+                    libenter audio, illique pro hoc suo erga me favore gratias habeo. Præstitisset
+                    forte reliquos civiliores fuisse et <persName ref="Rudolf 2."><app>
+                            <lem wit="#TBOO">Cæsareæ</lem>
+                            <rdg wit="#A">Cæsarei</rdg>
+                        </app> Maiestati</persName>, summo Magistratui, obsequentiores se
+                    exhibuisse. Verum ego id potius, quomodocunque datur, excusare quam aggravare
+                    malim.</p>
+                <p rend="indent">De <persName ref="Ursus">URSO</persName> isto quæ subiunxisti, ita
+                    ferme evenerunt, prout ominari visus es; nam sive in Castris Gallicis, quibus
+                    assuefactus erat, sive Asthmate et Phthisi, vel potius utraque de caussa
+                    consumtus ante sex septimanas expiravit, idque ea ipsa hora, qua Citatio
+                    Commissariorum <persName ref="Rudolf 2.">Cæsaris</persName>, quos, ut de ipso
+                    eiusque famoso scripto iudicarent, impetraram, insinuanda fuit: quam primum enim
+                    huc <placeName ref="Praha">Pragam</placeName> (ut conscius sis) a <persName
+                        ref="Rudolf 2.">Cæsare</persName>, statim ac <placeName ref="Plzeň"
+                        >Pilsena</placeName> redierat, Clementissime vocatus adveneram, atque
+                        <persName ref="Ursus">URSUM</persName> istum periculose decumbere mihi
+                    relatum esset, misi ad illum duos Iuris Doctores unâ cum publico Notario,
+                    quæsitum, an scriptum istud maledicum et calumnijs scatens revocare vellet:
+                    simulque notulas præcipuas calumniarum illi prælegi feci; is licet plæraque in
+                    ijs infitiaretur, quamvis in scripto isto indicata pagina expresse invenirentur,
+                    revocare tamen noluit, sed iudicum arbitrio omnia submisit, quod et lubentius
+                    vidi, ideoque a <persName ref="Rudolf 2.">Cæsare</persName> humilime obtinui, ut
+                    quatuor deputarentur commissarij, qui caussam iure deciderent, inter quos duo
+                    sunt Barones, Dominus <persName ref="Schleunitz">CHRISTOPHORUS de
+                        SCHLEUNITZ</persName> et Dominus <persName ref="Minkwitz">ERNFRIDUS de
+                        MINCKWITZ</persName>, reliqui duo Doctores Iuris ex <persName
+                        ref="Rudolf 2.">ipsius Maiestatis</persName> Consiliarijs. Defuncto autem
+                    reo, et citatione ante obitum ipsi non prælecta, actio suspensa est, donec novum
+                    decretum, quod et brevi futurum confido, superveniret. Expecto saltem reditum
+                    Procuratoris mei in hac caussa, Doctoris cuiusdam Iuris <persName ref="Fritzsch"
+                        >IOHANNIS FRITZSCHIJ</persName>, qui <placeName ref="Bautzen"
+                        >Budissinum</placeName> in <placeName ref="Lausitz">Lusatiam</placeName>
+                    profectus est. <pb ed="A" n="147v"/>Nam actio non est mere personalis, sed etiam
+                    realis, ob scriptum publice editum, perpetuo loco sui authoris loquens. Ideoque
+                    contra hoc procedendum, omnesque calumniæ, quibus abundat, detegendæ, refutandæ
+                    et condemnandæ sunt, posteaque alio scripto in publicum emisso propalandæ, in
+                    quo totus processus omnesque contrariæ probationes continebuntur, adiuncto
+                        <persName ref="Rudolf 2.">Cæs. Ma<hi rend="sup">tis</hi></persName> decreto,
+                    quo per totum Imperium famosus iste liber irritus reddetur, seu, uti aiunt,
+                    annullabitur. Et iam Reverendissimo <persName ref="Zbyněk ">Archiepiscopo
+                        Pragensi</persName> a <persName ref="Rudolf 2.">Cæsare</persName> iniunctum
+                    est, ut in Typographum animadvertat, atque exemplaria omnia conquiri faciat,
+                    quotquot <placeName ref="Praha">Pragæ</placeName> reperiuntur, eaque Vulcano
+                    tradat: si aliquantisper <pb ed="TBOO" n="VIII.372"/>supervixisset author,
+                    sententiam talem, uti ex commissarijs intellexi, accepisset, ut infamis
+                    redditus, capite plecteretur, aut secundum leges Bohemicas in quatuor partes
+                    dissecaretur; sed mihi non tam erat quæstio de ipsius persona, quam scurrilem et
+                    vanam fuisse omnes norunt, sed potius de libro isto tot iniurijs et mendacijs
+                    scatente abolendo, et mea meorumque fama ac existimatione vindicanda, quod
+                    etiamnum volente Deo fiet. Quin et <persName ref="Rothmann"
+                        >ROTHMANNUM</persName>, sive adhuc in vivis sit, sive non, ab ijs, quibus
+                    illum aspersit maculis et vaniloquijs, liberabo, atque iniuriose ipsi illatas
+                    esse pronunciari efficiam, quod ad ipsum, si adhuc superest, perscribas velim.
+                    Et si quas habes eius manu scriptas literas, eas tuis, quibus ipsius esse
+                    Chirographum testeris, inclusas ad me mitte, ut inde probare possim, alteras
+                    tibi sub finem antecedentis anni inscriptas mecumque communicatas ipsius quoque
+                    manu exaratas esse. Ubi processus totus absolutus fuerit, omniaque in codicillos
+                    relata et typis edita, faciam te eorum participem. Vale. Dabantur <placeName
+                        ref="Praha">Pragæ</placeName> die 26 Septembris stylo novo Anno 1600.</p>
+                <lb/>
+                <p rend="center"><pb ed="A" n="148r"/>POSTSCRIPTA.</p>
+                <p>ROGAS, ut Reverendissimo ArchiepiscopatusV estri Domino Decano, qui tam benigne
+                    et libenter res meas huc in <placeName ref="Bohemia">Bohemiam</placeName>
+                    promovit, aliquid medicamenti contra calculi dolores, quibus quotidie
+                    infestatur, quod sane quam libentissime facerem, si eiuscemodi præsens remedium
+                    mihi nunc in promptu esset. Laboratorium, quod <persName ref="Rudolf 2."
+                        >Cæsar</persName> mea de caussa <placeName ref="Benatky"
+                        >Benaticæ</placeName> pro præparationibus Spagyricarum medicinarum extrui
+                    clementissime mandavit, propter <persName ref="Rudolf 2.">eius
+                        Maiestatis</persName> diutinam <placeName ref="Plzeň">Pilsenæ</placeName>
+                    absentiam, non est hactenus absolutum: ideoque eiuscemodi pyronomicis
+                    confectionibus, prout alias voluissem, operam dare non licuit. Ne vero optimum
+                    et honorandissimum illum virum de me tam bene meritum suo hac in parte desiderio
+                    plane frustrare viderer, subiungam quandam medicamenti formam, quæ isthic non
+                    difficulter confieri poterit. Cuius usum in tali affectione præsens afferre
+                    subsidium compertum est.</p>
+                <lg>
+                    <l>Rcp. Semin. Feniculi</l>
+                    <l rend="indent">Petroselini</l>
+                    <l rend="indent">Anisi</l>
+                    <l rend="indent">Saxifragiæ</l>
+                    <l rend="indent">Cardamomi</l>
+                    <l rend="indent">Oculorum cancri</l>
+                    <l rend="indent">Lupi piscis</l>
+                    <l rend="indent">Nucl. persic. ana oz. I</l>
+                    <l rend="indent">Cynosbator. Germ. <foreign xml:lang="de"><hi rend="it"
+                                >hainbutten beeren</hi></foreign></l>
+                    <l rend="indent">Mespillorum</l>
+                    <l rend="indent">Charabes albi ana oz. II.</l>
+                </lg>
+                <p rend="indent"><pb ed="TBOO" n="VIII.373"/>Contundantur omnia in mediocriter
+                    tenuem pulverem, et cucurbitæ vitreæ imponantur, moxque superfundatur de spiritu
+                    iuniperorum, qui instar aquæ vitæ est, tantum, ut duobus vel tribus digitis
+                    superemineat, clausoque postea et bene obturato vitro in tepidum balneum omnia
+                    simul per unam hebdomadam digerenda collocentur, et singulis diebus vitrum <pb
+                        ed="A" n="148v"/>circumspecte exemptum bis vel ter cum imposita materia
+                    circumagatur, et nonnihil hinc inde moveatur, ut specierum impositarum essentiæ
+                    eo melius extrahi et spiritui iuniperino uniri possint. Quo peracto omnis
+                    materia frigefacta unâ cum liquore superfuso primum per lineum pannum fortiter
+                    exprimatur, deinde per bibulam papyrum coletur et filtretur, ut purior evadat:
+                    postmodum hic totus liquor essentiam specierum in se continens in balneo
+                    mediocriter calido per Alembicum distinetur, donec materia quædam instar liquidi
+                    mellis in fundo remaneat, cui materiæ tantundem quasi de spiritu Therebinthinæ
+                    optimo, qui levi calore in balneo ascendit, addendum est, cum quo extractum
+                    illud denuo in tepido balneo, vitro bene clauso, per spacium unius septimanæ
+                    digerendum; posteaque simul per bibulam papyrum iterum filtrandum, addito <app>
+                        <lem wit="#TBOO">aliquantulo</lem>
+                        <rdg wit="#A">aliquantulum</rdg>
+                    </app> de liquore iuniperino prius destinato, si opus fuerit, ut promptius
+                    filtratio absolvatur. Qui tamen liquor lentissimo calore balnei inde postea
+                    auferendus est, ne sua ignea et acuta vi medicamento officiat.</p>
+                <p rend="indent">Ex hoc dicto modo diligenter præparato medicamento dentur patienti
+                    tres vel quatuor guttæ in vino mane singulis diebus, tunc quoque post meridiem
+                    ante cœnam, idque quando et quam diu opus fuerit. Ex liquore autem iuniperino,
+                    qui per Alembicum ascendit, poterit etiam parum quasi quartæ partis unius
+                    cochlearis vesperi ante decubitum assumere instar alterius aquæ vitæ, si modo
+                    eam ferre poterit, idque potius hyeme quam æstate fiat, et non nisi bis vel ter
+                    in septimana eo vesperi, uti dictum, utatur. Hæc si rite et præscripta ratione
+                    executus fuerit, sentiet inde favente Deo morbi non mediocre levamentum.</p>
+                <lb/>
+                <p rend="center"><pb ed="A" n="149r"/>POSTSCRIPTA ALTERA.</p>
+                <p>QUOD amice me admones de ijs, quæ quidam ex aula hac Cæsareana cuidam præcipuo
+                    apud vos nobili scripsit, gratum est, licet omnia illa quæ retulit, prout recte
+                    in literis tuis conijcis, falsissima (quod et præstat) sint. <persName
+                        ref="Rudolf 2.">Ipsius Maiestas</persName> nunquam adhuc mecum de talibus
+                    locuta est, nec per literas aut oretenus <placeName ref="Turkey"
+                        >Turcarum</placeName> aut belli Turcici mentionem ullam fecit, multo minus
+                    ut ego, qui alienis rebus me non immisceam, nec vaticinia profitear, tale quid
+                    protulerim: imo, quod plus est, ea potius semper insinuavi, quæ a melancholicis
+                    curis, animi deiectione, suspicionibus et superstitionibus otiosis, alijsque
+                    eiuscemodi mentem sanam turbantibus avertere possunt, idque ita sedulo hactenus
+                        <pb ed="TBOO" n="VIII.374"/>egi, ut forte vix alius quispiam, qui diu illi
+                    ab intimis fuit consilijs, tam cordate et præsenter facere ausus fuisset, quod
+                    optime novit magnificus Dominus <persName ref="Barwitz">BARVITIUS</persName>
+                    Secretarius præcipuus, qui <persName ref="Rudolf 2.">Cæsari</persName> fere
+                    semper præsto est. Ille eo nomine aliquoties ex animo mihi gratias egit, seque
+                    hanc ingenuitatem, quodque ea, quæ decent et conducibilia sunt, non dissimulem,
+                    sed sincere <persName ref="Rudolf 2.">ipsius Maiestati</persName>, cum
+                    subiectissima tamen discretione, aperiam, deque ijs oportune commonefaciam, ad
+                    cæteros consiliarios præcipuos deprædicasse, non semel indicavit, quibus hoc
+                    gratissimum fuit, adeo ut res longe aliter se habeat, quam quidam ignari et
+                    nescio quid sinistro iudicio somniantes suspicari fortasse possunt. Sic non
+                    defuerunt, qui <persName ref="Rudolf 2.">Cæsaris</persName> tam diutinam
+                        <placeName ref="Plzeň">Pilsenæ</placeName> absentiam mihi vanissime
+                    imputarent, atque id non saltem <placeName ref="Praha">Pragæ</placeName>, sed et
+                    in varijs <placeName ref="Bohemia">Bohemiæ</placeName> locis spargere non sunt
+                    veriti, cum tamen id mihi nunquam in mentem venerit, priusquam ab alijs referri
+                    audivi: et vix alius magis quam ego <persName ref="Rudolf 2.">ipsius
+                        Maiestatis</persName> præsentiam <pb ed="A" n="149v"/>desideravi, siquidem,
+                    interea dum abfuit, res meæ minus promoverentur, utut essent, qui earum
+                    executionem in mandatis haberent. Nec scio quenquam hîc, qui mei odio laboret:
+                    neque enim ulli occasionem dedi, imo quam plurimi adeoque præcipui quique non
+                    saltem in aula, sed et alibi in regno hoc amicitiam et conversationem meam
+                    sponte exoptant, et magis quam cuperem ambiunt, ut sic et temporis et
+                    valetudinis iacturam sæpius quam vellem facere cogar. Quin et illustriores regni
+                    Primates mihi proprio motu nec rogati obtulerunt, ut in regni indigenam
+                    adsciscerer, nec alio me converterem; quod se primis comitijs effecturos prompto
+                    animo polliciti sunt. Si qui inter vulgares latitant morosuli, invidi et
+                    malevoli, quorum tamen neminem novi, illi in sua sese inescent et rodant
+                    malevolentia ac iudicij perversitate, hæcque habeant secum serventque sepulchro:
+                    infelix et miser est, cui nemo invidet, nec splendet aut conspicua virtus, quæ
+                    livore suapte umbra caret. Vides itaque, mi <persName ref="Rollenhagen"
+                        >ROLLENHAGI</persName>, quanta iniuria non saltem meam personam, sed, quod
+                    longe plus est, ipsam Sacram <persName ref="Rudolf 2.">Cæsaream
+                        Maiestatem</persName>, Imperij Caput et Dominum nostrum clementissimum, qui
+                    præsenti est animo, nec <placeName ref="Turkey">Turcas</placeName> formidat, sed
+                    et Pacem, nisi honorifica et utilis sit, etiam ultro oblatam respuit, afficere
+                    non erubescunt, dum tam futilia et a veritate alienissima scribunt. Si simul
+                    essemus, possem multis documentis et Tecmirijs irrefragabiliter ostendere
+                    istorum hominum vaniloquentiam: quodque contrarium potius verum esse. Interim
+                    tamen secreto ex te scire averem, quisnam fuerit, qui talia suis literis
+                    inspersit, et ad quem eas exaravit, non quod tales nugas morer, aut quod illi id
+                    obijcere velim (sunt enim multa dissimulanda et ex alto despicienda) sed saltem
+                    ut mihi ab homine tam sinistra et frivola suspicante et malevolo cavere possim,
+                    si forte ipsum novi aut alicubi in illum inciderim. <pb ed="TBOO" n="VIII.375"
+                    />Ut igitur eundem pauculis vel etiam tectis verbis mihi indices, quam primum
+                    denuo ad me scripseris, te per amicitiam nostram rogatum habeo. Fiet id absque
+                    omni tuo periculo. Scio enim prudenter et taciturne in eiuscemodi malitiosis et
+                    perversis cavillationibus agendum esse. Vale. Datum ut supra in literis. </p>
+                <p rend="indent"><pb ed="A" n="150r"/>Addo et hoc, ea, quæ superioribus literis de
+                    persecutione eorum, qui Euangelicam doctrinam profitentur in <placeName
+                        ref="Austria">Austria</placeName>, consensu <persName ref="Rudolf 2."
+                        >Cæsaris</persName> per Iesuitas fieri innuebas, falso ad vos relata esse.
+                    Omnia enim in <placeName ref="Austria">Austria</placeName> quoad religionem in
+                    priori sunt statu, nec <persName ref="Rudolf 2.">Cæsar</persName> permittit
+                    Iesuitas aut alios, qui se Catholicos nuncupant, turbas excitare, neque quemquam
+                    ob religionis diversitatem odit aut male tractat, cum etiam multos in sua Aula
+                    patiatur a Pontificijs dissentientes. Sed in <placeName ref="Steiermark"
+                        >Styria</placeName> magna suborta est Euangeliorum afflictio, Iesuitis ex
+                    authoritate Principis neminem, qui non cum illis sentiat, istic ferentibus, quod
+                    tamen invito et aliter suadente <persName ref="Rudolf 2.">Cæsare</persName>
+                    evenit. Sunt qui ominantur, <placeName ref="Turkey">Turcam</placeName>
+                    supervenientem controversias illas et persecutiones dirempturum, nam occupato
+                    (quod tamen Deus avertat) <placeName ref="Nagykanizsa">Canisio</placeName>,
+                    nullum restat munitum propugnaculum, antequam <placeName ref="Steiermark"
+                        >Styriam</placeName> invadere possit. Sed de his providebit is, in cuius
+                    manu sunt omnia.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

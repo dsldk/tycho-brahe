@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.24</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 36</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-03-29"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Jakob Bording</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 29. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-07" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.36"/>
+                <opener>TYCHO BRAHE AD <persName ref="Bording">IACOBUM BORDINGUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>S. P.</p>
+                <p>CLARISSIME et Excellentissime Domine Doctor <persName ref="Bording">BORDINGE</persName>, Cancellarie dignissime et
+                    Amice honorande. Cum hic Mechanicus senex M. <persName ref="Jachenaw">PETRUS IACHENOW</persName> denuo isthuc a me rediret, non omittendum
+                    duxi, quin ad Illustrissimum <persName ref="Ulrich">Principem ULDARICUM</persName>, Dominum meum Clementissimum, aliquid
+                    literarum submisse darem, siquidem eius Cel<hi rend="sup">nis</hi> Clementissimam erga me voluntatem indies
+                    magis magisque experiar. Rogoque ut ipsius Cel<hi rend="sup">ni</hi> easdem meo nomine submisse offeras
+                    atque in meliorem partem interpreteris, si quid liberius, re sic urgente, indicavi,
+                    idque in silentio secreto prematur, cum ex eâ, quam erga Illustrissimum illum et optimum
+                    Principem, tum quoque te, gero fiduciâ, sinceroque animo proficiscantur. Poterunt hæc
+                    forte nimis audacter prolata censeri, siquidem veritas plærumque odiosa sit; attamen si
+                    rei molem et eorum, quæ mihi immerito contigerunt, cumulum spectemus, vix supremis
+                    labris attigisse, quæ dicenda forent, videbor. Verum ego hæc omnia Deo committo.
+                    Veritas temporis filia aliquando forte prodet, quid æque aut inique factum sit. Ill<hi rend="sup">mo</hi>
+                    Duci necdum quidpiam responsum esse, etiamnum intelligo. Quod et præsagiebam. Quale
+                    responsum ad meas receperim, ex ijs utcunque intellexisti, quas <placeName ref="Lübeck">Lubecâ</placeName> tibi perscripsi,
+                    cum inde Instrumenta mea et supellectilem librariam huc transferri curarem. Quare</p>
+                <p><hi rend="it"><lg>
+                    <l>Sat Patriæ nostrisque datum, nunc <placeName ref="Germany">Teuthona</placeName> tellus</l>
+                    <l>Excipit, et Patriam largitur maximus Orbis.</l>     
+                </lg></hi></p>
+                <p>Curo quædam ex meis Operibus hîc labore Typographico compleri, quæ, ubi absoluta fuerint, vobiscum communicabo. <pb ed="A" n="1v"/>In re pecuniariâ
+                    me isthic concernente satis actum est. Recepi literas fideiussorias et priores
+                    restitui.</p>
+                <p rend="indent">Novarum rerum nihil peculiare est, nisi quod res composita dicatur inter Pontificem et
+                    <placeName ref="Ferrara">Ferrariæ</placeName> Ducem. Batavos se absentare et tractationem de pace aversari, neque enim
+                    hostibus satis fidunt tam sæpe circumventi. Novam Reginam in <placeName ref="England">Anglia</placeName> electam frementibus
+                    Scotis narrant. Nihil tamen adhuc certi constat. Vobis proculdubio isthic his plura et
+                    certiora innotuerunt. Rex noster Ser<hi rend="sup">mus</hi> fuit apud Dominum <persName ref="Rantzau, Heinrich">RANZOVIUM</persName> <placeName ref="Breitenburg">Bredenbergæ</placeName>
+                    præcedente hebdomadâ ab eo isthic magnifice et splendide exceptus et mox inde
+                    <placeName>Haderslebiam</placeName> recepit. Plura nunc non vacat. Sum enim occupatissimus. Tu vero mi aman<pb ed="TBOO" n="VIII.37"/>tissime 
+                    Domine <persName ref="Bording">BORDINGE</persName> quam felicissime vale, meque solitâ benevolentiâ
+                    (quemadmodum et ego tui amorem non deponam unquam) constanter prosequere. Raptim
+                    <placeName ref="Wandsburg">Wandesburgo</placeName> die 29. Martij Anni 1598.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

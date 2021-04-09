@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 28</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Jakob Monau</persName>
+                    <placeName>Wrocław</placeName>
+                    <date when="1598-03-07"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 7. marts. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-04" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.28"/>
+                <opener><persName ref="Monavius">IACOBUS MONAVIUS</persName> AD TYCHONEM
+                    BRAHE.</opener>
+                <p><pb ed="A" n="1r"/>S.</p>
+                <p>BONA quidem fide, sed paulo tardius mihi redditus est et in manus meas pervenit
+                    fasciculus ille, quem circa finem anni superioris ad me misisti, Nobilissime et
+                    præstantissime Domine TYCHO, magnamque debeo gratiam Viro optimo et amico
+                    integerrimo Domino <persName ref="Möller, Vincent">VINCENTIO MOLLERO</persName>,
+                    quod in eo curando voluit tibique mihique gratificari. Vix autem possum
+                    exprimere verbis, quam grata mihi fuerit Epistola tua, tam amice scripta, et
+                    quam accepta ea, quæ unâ cum literis tuis ad me pervenire voluisti. Cæterum quod
+                    tam serum responsum mitto, non tantum fit eam ob causam, de qua dixi, sed etiam
+                    propter invaletudinem meam, quam totis fere tribus mensibus sensi <app>
+                        <lem wit="#TBOO">prorsus</lem>
+                        <rdg wit="#A">partus</rdg>
+                    </app> incommodum, et quæ me velut ineptum <app>
+                        <lem wit="#Friis">fecit</lem>
+                        <rdg wit="#A">fore</rdg>
+                    </app> ad omnes res agendas. Nondum quidem ab ea sum <app>
+                        <lem wit="#Friis">prorsus</lem>
+                        <rdg wit="#A">partus</rdg>
+                    </app> liberatus. Sed tamen per Dei gratiam, habere cœpi melius, et sentio vires
+                    tum animi tum corporis non parum firmiores, quam fuerunt. Deus Opt. Max. si
+                    volet, poterit hoc robur augere, idque tantum cupio fieri ad gloriam sancti
+                    nominis ipsius, et ad animæ meæ, quæ mihi est cura in his terris præcipua,
+                    salutem. Quod attinet ad famam obitus mei isthuc ad te perlatam, unde tibi data
+                    occasio faciendi mentionem nominis mei in Epistolis tuis, facile potuit hic
+                    error committi in aula Cæsaris, ubi fratrem habui unicum Medicum Imperatorium,
+                    Virum, quem ab alijs, quam a me prædicari malo, qui <app>
+                        <lem>[ante]</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> annos decem obijt <placeName ref="Praha">Pragæ</placeName>. Quia autem
+                    hic error tibi <app>
+                        <lem wit="#Friis">expressit</lem>
+                        <rdg wit="#A">expresse</rdg>
+                    </app> tam honorificas et amicas voces de me, ut inde, quanti memoriam nominis
+                    mei post obitum <pb ed="A" n="1v"/>meum facturus fueris, æstimare liceat:
+                    agnosco me plurimum debere tuis erga me amori et animo, quem <app>
+                        <lem wit="#Friis">ut</lem>
+                        <rdg wit="#A">ne</rdg>
+                    </app> mihi conserves, donec vixero, obnixe rogo; ego vicissim, donec in hoc
+                    corpore sangvis erit, te vicissim amare observare et colere...prædicare et
+                    laudare non desinam. Frater ille meus charissimus, cuius modo feci mentionem,
+                    erat rerum Mathematicarum et amantissimus et intelligentissimus, ac propterea
+                    tui quoque unice observans et studiosus: ac illum sæpe hoc egisse <app>
+                        <lem>[scio]</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> ut amicitiam tuam consequeretur, a qua cura etiam non abstinuisset, si
+                    Deus ei longiora vitæ spatia concessisset. Nunc in alia Schola philosophatur,
+                    coram Deum cernens, et cœlos opera manuum eius contemplans......amori erga
+                    fratrem, si memoriam illius hoc loco tibi volui commendare. Cæterum quod ad
+                    discessum tuum e patria, et præsertim ex <placeName ref="Uraniborg"
+                        >Uranoburgo</placeName> attinet: primum de eo certior factus sum, ex literis
+                    communis amici Domini DAVIDIS.....postea <pb ed="TBOO" n="VIII.29"/>enim plenius
+                    edoctus de omnibus illis circumstantijs a <persName ref="Longomontanus"
+                        >CHRISTIANO SEVERINO LONGOMONTANO</persName>, qui circa finem anni
+                    superioris ad nos venit.......et quem per aliquot dies apud nos retinuimus, et
+                    hospitem gratissimum habuimus; atque utinam tunc venissent ad me literæ tuæ, cum
+                    adhuc apud nos hæreret. Erat enim de te valde sollicitus et hac inprimis de
+                    causa.</p>
+                <p rend="indent">Ego quidem de ijs quid dicam? Cum essem aliquando <placeName
+                        ref="Magdeburg">Magdeburgi</placeName>, vidi super domo quadam aureis
+                    literis inscriptum saxo, <pb ed="A" n="2r"/>quod erat supra fores, hunc ineptum
+                    sensu, sed reipsa nimis verum versum: <hi rend="it">Est erit atque fuit</hi>
+                    Vndanck <hi rend="it">in fine laborum</hi>. Hic versiculus mihi subinde venit in
+                    mentem, quando de te rebusque tuis cogitavi. Sed et hoc mihi incidit, quod si
+                    mundus hic non sit dignus istis Atlanticis bonis et donis nostri TYCHONIS? Etiam
+                    hoc cogitavi, quod si hæc Τύχη, quæ Domino TYCHONI contigit, nunciet instare
+                    finem mundi? Utut sit, adhuc valde dubito, tuamne vicem <app>
+                        <lem>[an patriæ potius tuæ]</lem>
+                        <rdg><note>Friis ex litteræ ad Andream Velleium 10 apr. 1598</note></rdg>
+                    </app>, imo totius Reipublicæ Christianæ magis dolere debeam. Legi diligenter,
+                    quæ ad me misisti, et pro ijs communicatis magnas tibi gratias ago, neque est,
+                    ut putes, ea ventura in manus aliorum. Miratus sum Regem nihil voluisse conferre
+                    in hæc studia, Regibus et eorum subsidijs atque <app>
+                        <lem>[adiumento]</lem>
+                        <rdg><note>Friis ex litteræ ad Andream Velleium 10 apr. 1598</note></rdg>
+                    </app> dignissima, qui tamen nuper tantos sumptus <app>
+                        <lem>fecit</lem>
+                        <rdg><note>ex litteræ ad Andream Velleium 10 apr. 1598.: <q>fiunt</q> in
+                                    <q>faciunt</q> corr. A (<q>fecerunt</q> in marg.)</note></rdg>
+                    </app> in coronationis festo. Aliud fuit iudicium <persName ref="Alfonso 10."
+                        >ALFONSI</persName>: imo aliud etiam ipsius patris <persName
+                        ref="Frederik 2.">FRIDERICI</persName>. Nolo de his plura; in quibus tamen
+                    hoc etiam addo, me idem facere, quod tu facis, hoc est discernere Actorem a
+                    Poëta <app>
+                        <lem wit="#Friis">fabulæ</lem>
+                        <rdg wit="#A">fabula</rdg>
+                    </app>. Facis tu etiam hoc præclare, quod tanto animo (nimirum cœlo et astris
+                    digno) hæc quæ tibi contigerunt, fers, nec propterea cogitas aliquid omittere in
+                    laudabili cursu abs te.....et olim instituto, et per tot annos servato, sed quod
+                    cogitas ad metam usque illum.....Da hic Deus ut perficias quod cœpisti.
+                        <persName ref="Lazarus">LAZARUS</persName>.......vir magnanimus frequenter
+                    in ore solitus fuit habere versum istum: <hi rend="it">Esse aliquid si velle
+                        tenes, et posse tenebis</hi>. Tibi vero datum est et velle et posse.
+                    Amplissimi <pb ed="A" n="2v"/>viri D. <persName ref="Rantzau, Heinrich">HENRICI
+                        RANZOVIJ</persName> maior nunc erit gloria, et fiet ipsius nomen illustre
+                    clarius, postquam Musis tuis hospitium <app>
+                        <lem wit="#Friis">condit</lem>
+                        <rdg wit="#A">coradit</rdg>
+                    </app>. Erit enim vicina urbs <placeName ref="Hamburg">Hamburga</placeName>,
+                    tibi satis oportuna ad absolvenda ea, quorum editio fuit cœpta in <placeName
+                        ref="Hven">Huenna</placeName>. De consilijs tuis, quæ apud........meum
+                    deponis, diligenter cogitavi, et spero ea sic geri posse, ut <app>
+                        <lem>[non]</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> plane careat successu, verum opus erit tempore: cum nunc omnia, quæ
+                    aguntur in aula Cæsarea, tantum.......Martem in hoc gravissimo Reipublicæ
+                    christianæ periculo, quod hoc anno non sine causa (Deus omnia avertat) metuitur.
+                    Agam interea, quantum nunc agi potest per amicos, ut quasi via quædam sternatur,
+                    ad ea, quæ sunt deinceps.....cura et opera tractanda; faciam te quoque certiorem
+                    de rebus omnibus, quæ argumentum facere ad ea, quæ sane tui animi, consilij et instituti<app>
+                        <lem>....</lem>
+                        <rdg><note>lacunam indicavit Friis</note></rdg>
+                    </app> Si viveret adhuc Dominus <persName ref="Curtius">IACO<pb ed="TBOO"
+                            n="VIII.30"/>BUS CURTIUS</persName>, quantopere ostenderet sibi esse
+                    cordi et curæ res tuas et negotium publicum! Sed tamen spero, non defuturos
+                    aliter etiam in aula amicos, de quibus alio tempore, si Deus volet, rebus magis
+                    exploratis te monebo. Pro transmisso libro Epistolarum, qui mihi a te est
+                    amplissimum munus, magnas ago gratias, et peto magnopere, cum reliqua tua, quæ
+                    iam cœpta sunt, ad finem perducta fuerint, ut ijs etiam.......meam ornare non
+                    recuses. Dabitur opera, ne te huius......et beneficij iure et merito
+                    pœniteat.</p>
+                <p rend="indent">Literas tuas ad <persName ref="Rothmann, Johann">IOHANNEM
+                        ROTHMANNUM</persName>, quem cognovi <pb ed="A" n="3r"/>nunc vitam agere in
+                        <placeName ref="Erfurt">Republica Erfurdensi</placeName>, per certos homines <app>
+                        <lem wit="#TBOO">curabo</lem>
+                        <rdg wit="#A">curam</rdg>
+                    </app>, si <app>
+                        <lem wit="#Friis">quid</lem>
+                        <rdg wit="#A">quod</rdg>
+                    </app> aliud a me postulas fieri, semper tibi parata erit pro viribus fida mea
+                    opera. Ex <persName ref="Longomontanus">CHRISTIANO</persName> tuo hoc etiam
+                    libenter cognovi: Te nimirum natum esse eodem et anno et mense, quo ego sum in
+                    lucem editus, valde etiam delectatus sum, inter...quæ nunc mecum communicasti,
+                    lectione carminum tuorum ad........quæ non legi sine varijs animi
+                    perturbationibus. Multa enim de multis, tum tuis tum ijs quæ sunt similia, <app>
+                        <lem>cogitavi</lem>
+                        <rdg><note>ex <q>cogitur</q> corr. A</note></rdg>
+                    </app>. <app>
+                        <lem wit="#TBOO">Geram</lem>
+                        <rdg wit="#A">Horum</rdg>
+                    </app> tibi morem in eo quod petis, et curabo, ne aliquis te non
+                    indignus........de rebus tuis, quæ te digna sint. Tu vicissim, si non est
+                    molestum, exorna meum Symbolum aliquo Epigrammate. Quale sit Symbolum meum,
+                    cognosces ex nostro <persName ref="Möller, Vincent">VINCENTIO
+                    MOLLERO</persName>, qui, si voles, dabit tibi legendum Libellum quendam nostrum,
+                    quem de eodem Symbolo curavi.....publice edi. Equidem miseram ad te exemplum,
+                    quod doleo perijsse. Si postuletis aliud, non invitus communicabo. Interim habe
+                    tibi hanc inscriptionem.....mei.</p>
+                <p rend="indent">Salutat te reverenter amanter et officiose optimus senex Doctor
+                        <persName ref="Hermannus">HERMANNUS</persName> noster, cui vix credas quam
+                    grata fuerit salus et abs te dicta, et nomine præstantissimi <app>
+                        <lem wit="#Friis">senis</lem>
+                        <rdg wit="#A">seni</rdg>
+                    </app>...</p>
+                <p rend="indent">Si non est molestum, rogo ut meis etiam verbis reverenter et
+                    officiose salutes Illustrem Dominum <persName ref="Rantzau, Heinrich">HENRICUM
+                        RANZOVIUM</persName>, qui suam erga me benevolentiam semel et iterum mihi
+                    declaravit. Tu eam, si placet, augebis et con<pb ed="A" n="3v"/>firmabis. Et
+                    quoniam <persName ref="Hemmingsen, Niels">HEMMINGIJ</persName>
+                    <app>
+                        <lem wit="#TBOO">vestri</lem>
+                        <rdg wit="#A">verbi</rdg>
+                    </app> facta est mentio, tuque de eo nunc liberius scribere potes, rogo te per
+                    amicitiam nostram, dic mihi in aures meas, an fidem mereatur hæc inclusa
+                    pagella, quæ ante aliquot annos fuit circumlata.</p>
+                <p rend="indent">Deus scit me istud quærere nec malo animo, nec ad malam
+                    fidem....enim amo et colo istum optimum et optime meritum senem, quem aliquis
+                    cum potest amare et colere, sed tantum cœpi mihi constare historiam rei gestæ,
+                    de qua mihi et alijs semper iure integrum iudicium. Bene et feliciter vale, vir
+                    præstantissime et Nobilissime, mihique conserva tuam......benevolentiam, cuius
+                    fundamenta prima, eaque tunc valde tenuia......sunt ante multos annos.....cum ex
+                    tuis peregrinationibus reversus per aliquot septimanas viveres in domo et mensa
+                        <pb ed="TBOO" n="VIII.31"/>hospitis tunc mei M. <persName
+                        ref="Laurentius Danus">LAURENTIJ DANI</persName>. Ego te amare et observare,
+                    et meam tibi fidem quocunque potero genere...........nunquam desinam. <placeName
+                        ref="Wroclaw"><app>
+                            <lem wit="#Friis">Vratislaviæ</lem>
+                            <rdg wit="#A">Vratisplaniæ</rdg>
+                        </app></placeName> VII. Martij tempore eclipseos Solis 1598.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

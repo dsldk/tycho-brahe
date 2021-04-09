@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>GKS 316 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 13</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>David Fabricius</persName>
+                    <placeName>empty</placeName>
+                    <date when="1597-11-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1597. 23. november</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-24" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <!-- Bindet om GKS 316 fol. kan ses afbildet i Det Kongelige Biblioteks digitale udstilling "Trusler og Tyvekoster":
+                www2.kb.dk/elib/mss/tt/ligegyl/tycho.htm Det er et pergamentbind fremstillet af genbrugte middelalderlige kirkemusiknoder. 
+                På forsiden sidder en kvittering skrevet af Johannes Kepler, der efter Tycho Brahes død lånte de nedskrevne observationer. -->
+                <pb ed="TBOO" n="VIII.13"/>
+                <opener><pb ed="A" n="153bv"/>NOBILISS. ET EXCELLENTISS. DOMINO TYCHONI BRAHE, DOMINO IN KNUDSTRUP ET EQUITI DANO,
+                    DOMINO ET AMICO MEO SUMMA OBSERVANTIA COLENDO.</opener>
+                <p><pb ed="A" n="153br"/>NOBILISSIME et Excellentissime Domine TYCHO, cum post abitum tabellarij summopere tunc
+                    festinantis observationes in &#x2643; ad 20 Nov. diem habitas calculo subijcere vellem, inveni
+                    me errasse in assignatione distantiæ &#x2643; ab Aldeb. quæ revera tunc erat 8&#176; 51', non vero
+                    9&#176;51', quod ex festinatione factum esse scias. Distantia vero &#x2643; et Hu. Orio. vera fuit
+                    19&#176;8', ut post diligenti consideratione sextantis inveni. Verum sextans quo utor (ut et
+                    in literis indicavi) mihi nequaquam satisfacit, maxime propter vulgarem divisionem,
+                    eamque minus ratam. Sic ergo se habent.</p>
+                <p rend="center">20 Nov. H. 12 P. M.</p>
+                <table>
+                    <row>
+                        <cell>Dist. &#x2643; et Aldeboræ</cell><cell>8&#176;</cell><cell>51'</cell> 
+                    </row>
+                    <row>
+                        <cell>Dist. &#x2643; et Hu. dext. Orion.</cell><cell>19</cell><cell>8</cell>
+                    </row>
+                    <row>
+                        <cell>Altit. Merid. &#x2643;</cell><cell>57</cell><cell>54½ vel 55'</cell>
+                    </row>
+                    <row>
+                        <cell>Altit. Aldeb.</cell><cell>52</cell><cell>0</cell>
+                    </row>
+                    <row>
+                        <cell>Altit. Æquat.</cell><cell>36</cell><cell>22</cell><cell>Ergo se recte positio instr. quadr. tunc
+                    habuit.</cell>
+                    </row>
+                    <row>
+                        <cell>Decl. &#x2643;</cell><cell>21</cell><cell>33 fere B.</cell>
+                    </row>
+                    <row>
+                        <cell>Asc. R.</cell><cell>70</cell><cell>13</cell>
+                    </row>
+                </table>
+                <p>Asc. hanc ex asc. R. Aldeb. et ex asc. R. Hu. dex. Orion. inquisivi
+                    viceversa. Asc. R. Hu. Orio. ex loco longit. et latit. iuxta tuum Canonem constitui
+                    videlicet hoc tempore 83 Gr. 23' fere.</p> 
+                <table>
+                    <row>
+                        <cell>Longitudo &#x2643;</cell><cell>11</cell><cell>39</cell><cell>&#x264a;</cell>
+                    </row>
+                    <row>
+                        <cell>Latitudo &#x2643;</cell><cell>0</cell><cell>42½</cell><cell>Merid.</cell>
+                    </row>
+                </table>   
+                <p>Fuit ergo medio motu &#x2609; iuxta tuam restitutionem oppositus die 22 Nov. Hor. 2½ circiter P.
+                    M. iuxta verum motum &#x2609; opponebatur die 23 Nov. Hor. 9 A. M.</p>
+                <p rend="indent">Si Ephemerides <persName ref="Stadius">STADIJ</persName> se recte habent, calculus parum deviat. Sed tuum de his iudicium
+                    peto, et quæ calculi utriusque sit differentia.</p> 
+                <p rend="indent">&#x2642; quoque hisce diebus aliquoties
+                    diligenter considerabo, quod tamen ut in posterum subtilius et expeditius fiat, T. Ex.
+                    observationum mearum in literis propositarum dilucida resolutione haud dubie
+                    efficiet. Et hanc designationem Tabellario in vicina urbe adhuc commoranti transmisi, ut literis
+                    meis eam insereret. Vale.</p>
+                <p rend="center"><pb ed="TBOO" n="VIII.14"/><pb ed="A" n="153bv"/>De altitudine &#x263E; capienda dubium.</p>
+                <p rend="indent">Cum &#x263E; limbus uno quasi minuto extans per rimulam capitur, observatio certa esse non
+                    potest; nam centrum &#x263E; haberi nequit. Nam circa unum latus pinnacidij per unam rimulam
+                    conspicitur limbi extremitas, per alteram rimam conspicitur maior portio &#x263E;. Relinquitur
+                    igitur, incertam esse altitudinem, cum nec medium Lunæ (ut in stellis) habeatur, nec
+                    etiam revera sciri possit, an portio unius vel 2 minut. vel plus minusve de corpore
+                    Lunari conspiciatur, et proinde ignoretur, an semidiameter &#x263E; uno vel duobus minutis
+                    minor sit addenda vel subtrahenda. Hoc dubium in accipienda &#x263E; altitudine certa me valde
+                    torquet. Cupio igitur certi quid in hoc negotio ex T. E. cognoscere. Vale. 23 Nov. 97.</p><lb/> 
+                <p rend="rightMargin">T. Exc.<lb/>observ.<lb/><persName ref="Fabricius, David">D. FABRICIUS</persName>.</p><lb/>
+                <p rend="indent">N. B. Quomodo etiam minimarum stellarum centrum per rimulas sext. vel quadr. haberi
+                    possit, valde miror (cum illarum diameter vix 1 minut.). Aut enim rimulas valde amplas
+                    esse oportet, et sic incertus per rimulam talem laxam vel amplam prospectus esse
+                    videtur, aut si rimulæ mediocres, non videbitur. Quomodo igitur agendum sit, magnopere
+                    scire cupio, et quæ rimularum pro minimis stellis laxitas vel amplitudo maxima esse
+                    debeat in instru. 4 pedum, cognoscere valde desidero.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

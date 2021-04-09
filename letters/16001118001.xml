@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 391-393</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1600-11-18"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Melchior Jöstel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 18. november n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-03" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.391"/>TYCHO BRAHE AD <persName ref="Joestelius"
+                        >MELCHIOREM JŒSTELIUM.</persName>.</opener>
+
+                <p><pb ed="A" n="165r"/>VENIT ad me <placeName ref="Dresden">Dresdâ</placeName>
+                    hisce diebus M. <persName ref="Rhodius">AMBROSIUS RHODIUS</persName>, et nonnulla, quæ circa Hypotheses tentasti,
+                    clarissime et præstantissime D. D. <persName ref="Joestelius">IŒSTELI</persName>, secum a te attulit. Utrumque mihi
+                    gratum fuit. Faciam, quantum ad illum attinet, prout mones. Hypotheses autem
+                    cuperem accuratius enodari, et magis perspicue explicari, ita ut nihil desit aut
+                    sit superfluum, atque ordine debito sese omnia insequantur. Neque quæstio est,
+                    ut loca Planetarum, per Hypothesin quamcunque inventa, cum meis observatis
+                    conferantur, quibus nulla <pb ed="TBOO" n="VIII.392"/>ratio hactenus
+                    præsupposita consentiet, sed sufficit, ut ea, quæ secundum <persName
+                        ref="Ptolemaios">PTOLEMÆUM</persName> deducuntur, calculo respondeant
+                    Alphonsino, ita tamen ut Apogæa, Eccentricitates et dimensiones orbium
+                    adhibeantur, prout Alphonsina fert methodus, a <persName ref="Ptolemaios"
+                        >PTOLEMÆO</persName> potissima ex parte derivata, nisi quod Apogæa hisce
+                    temporibus aliter applicantur. Quæ vero iuxta <persName ref="Copernicus"
+                        >COPERNICUM</persName> fiunt, ea oportet ipsius pariter datis et
+                    assumptionibus, in ijs quæ modo dixi, inniti, et calculo Prutenico convenire,
+                    idque sive iuxta ipsius speculationem Solem ad centrum Universi quiescentem, in
+                    annuo orbe, eius loco revoluta Terra, statuemus, sive immutata hac, uti ego
+                    ostendi, Hypothesi, Terra ibidem immota permanente, et assumptis
+                    Eccentroepicyclis more Ptolemaico, cum circello circa centrum, loco æquantis, uti
+                    recte imitatus es. Sed hæc non est proprie inversio, sed potius permutatio
+                    quædam <pb ed="A" n="165v"/>et cum Ptolemaicis hypothesium <persName
+                        ref="Copernicus">COPERNICI</persName> conciliatio. Nostra autem innovatio,
+                    quæ Epicyclos non minus quam ille negligit, Terra nihilominus immota permanente,
+                    etiam aliud adhuc particulare requirit, ut apparentijs satisfiat, quam a te
+                    iuxta <persName ref="Copernicus">COPERNICI</persName> proportiones factum est.
+                    Ostendunt siquidem apparentiæ, Planetarum circuitus proprios non medium, sed
+                    verum, adeoque ipsum corpus Solis, respicere, ita ut Martiæ stellæ, quæ
+                    præcipuam hîc parit differentiam, phænomena, etiam extra Acronychios situs,
+                    accurate et multipliciter considerata, nos ad ipsius Solis Apogæum iuxta initia
+                    &#x264b;<hi rend="sup">cri</hi> manuducant, ut de Eccentricitate nunc nihil dicam. Recte tamen a te factum
+                    est, quod nostram hypothesin Coperniceæ collatam, et assumptis ijsdem dedomenis,
+                    eundem præbere sideris locum, quem eius exigit numeratio, demonstrâsti. De his
+                    vero per oportunius ocium deliberatius cogita, et quæ vel hactenus perfectius
+                    elaborata habes, quam ea sunt, quæ misisti, vel inposterum elaborare dabitur,
+                    mecum communica.</p>
+                <p rend="indent">Cœterum de Typographo <persName ref="Lehmann, Zacharias"
+                        >LEMANNO</persName> sic habe. Precium quod annotavit pro Balla papyri 15 fl.
+                    nimium est, venditur enim hîc, ubi omnia longe cariora sunt quam <placeName
+                        ref="Leipzig">Lipsiæ</placeName> aut <placeName ref="Wittenberg"
+                        >Witebergæ</placeName>, una eiuscemodi Balla 8 Ioachimicis. Et cum
+                        <placeName ref="Wittenberg">Witebergæ</placeName> essem, potui eam a
+                    cartopœis pro decem fl. si recte memini, obtinere. Verum quantum ad mercedem
+                    attinet, quam pro labore suo Typographico in imprimenda una Balla postulat,
+                    facile inter nos conveniret, si papyrum <pb ed="A" n="166r"/>æquiore precio
+                    adhibuerit, ita ut decem fl. vel ad summum totidem Ioachimicis (quod tamen
+                    pluris est, quam hîc una Balla venit) comparetur. Qua de re ut cum ipso
+                    diligenter meo nomine agas, te peramanter rogatum habeo, utque promptius
+                    intelligat, hanc esse meam sententiam, idipsum Germanicis verbis contignatum
+                    illique tradendum, uti voluisti, adiungo. Exemplar autem, quod ea continebit,
+                    quæ de Luna in 6 illis quaternionibus excudenda erunt, quam primum ad mundum (in
+                    quo nunc <pb ed="TBOO" n="VIII.393"/>laboratur) descriptum fuerit,
+                    mittam, modo prius de voluntate Typographi certior a te factus fuero, quod ut
+                    mature facias, etiam atque etiam peto. Vale et saluta amicos <placeName
+                        ref="Wittenberg">Witebergenses</placeName>, quibus scribere nunc non vacat,
+                    sed fiet id, volente Deo, per oportunius otium, iterumque vale. Dabantur
+                        <placeName ref="Praha">Pragæ</placeName> Bohemorum 18 Novembris Anno 1600.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

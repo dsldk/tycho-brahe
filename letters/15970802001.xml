@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 5</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Jacob Bording</persName>
+                    <placeName>Güstrow</placeName>
+                    <date when="1597-08-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1597. 2. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-21" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.5"/>
+                <opener><persName ref="Bording">IACOBUS BORDINGUS</persName> AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="1r"/>S.</p>
+                <p>REDDITÆ mihi sunt literæ tuæ, Vir Nobilissime, quibus significas, te patrium solum
+                    vertere coactum, et nunc <placeName ref="Rostock">Rostochij</placeName> subsistere, quod etiam ex alijs iam pridem
+                    intellexeram. Doleo profecto non modo vices tuas, sed ingens quoque illud rerum
+                    Astronomicarum dispendium, quod ob hasce rerum tuarum inexpectatas conturbationes
+                    eventurum, unâ prævideo. Sed quid facias? cum hæc nulla tua culpa aut merito
+                    acciderint, nullumque in eo studio laborem, quantumvis gravem aut molestum, detrectâris,
+                    omnibus æquis censoribus facile excusatus eris. Verum de his aliquando coram plura. De
+                    Illustrissimi Principis mei in <pb ed="A" n="1v"/>te clementi favore nihil est quod
+                    dubites. Literas tuas C. E. reverenter obtuli, ac curabo, ut non tantum ad illas responsum, sed
+                    etiam commendatorias ad Sereniss. Daniæ Regem intra biduum vel triduum accipias. Nunc
+                    enim tantum otij mihi non fuit, ut confici potuerint, nec etiam iusto diutius illos
+                    detinere volui, qui tuas attulerint. Quod reliquum est, officia mea tibi defero
+                    promptissima. Vale. Gustrovij die 2. Augusti Anno 1597.</p><lb/>
+                <p rend="rightMargin">T. studiosissimus<lb/>IACOBUS BORDINGUS.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

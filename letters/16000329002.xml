@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 288-289</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-03-29"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Anonymus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 29. marts n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.288"/>TYCHO BRAHE AD ANONYMUM</opener>
+                <p><pb ed="A" n="91r"/>S. P. </p>
+                <p>ATTULIT literas tuas, Nobilis et Eruditissime Vir, <persName ref="Brahe, Tycho junior">filius
+                    meus natu maior</persName>, in principio Ianuarij superioris huc rediens, ex quibus caussas diutini
+                    tui silentij et intermissionis literarum, ob absentiam in <placeName ref="Livonia">Livoniâ</placeName>, cognovi, quare te eo
+                    libentius excusatum habeo, nihil interim de tuâ constantiâ et semel incepto erga me
+                    amore addubitans; invenies et me eundem TYCHONEM meique semper similem in te
+                    redamando. Utinam tu sedes Paternas, quas iure merito affectas, æque feliciter
+                    recuperare possis, et tranquillum invenire portum, atque mihi et meis studijs, Divinâ
+                    Clementiâ, hîc apud Augustissimum <persName ref="Rudolf 2.">Imperatorem</persName> pro his primordijs benignissime provisum
+                    est, spero in posterum, eodem Numine favente, adhuc uberiora. Si qua in re apud Magnates
+                    hîc in Aula tibi aliquando usui esse potero, non deerit tui honorifica mentio secundum
+                    nostram in te propensionem. Filius tuus, ubi accesserit, erit mihi acceptus; optarem et
+                    te Patrem, si fieri posset, hîc semel videre.</p>
+                <p rend="indent"><pb ed="TBOO" n="VIII.289"/>Occupatio <placeName ref="Sweden">Regni Suetici</placeName>, quo <persName ref="Karl 9.">CAROLUM</persName> nunc potiri audio, meâ quoque opinione
+                    maiores turbas dabit, modo SIGISMUNDO non defuerint vires. Non minor est virtus, quam
+                    quærere, parta tueri. Deus aliquando pacem Regionibus illis, diu tempestate bellorum et
+                    aliarum calamitatum conquassatis, largiatur. Ubi occasio huc mittendi tibi data fuerit,
+                    non intermittas, quæso, tam de publicis, quæ in istis oris geruntur, quam privatis
+                    tuis rebus, scribendi officium. Vale. Dabantur ex <placeName ref="Benatky">Arce Cæsarea Benatica</placeName> Die 29 Martij
+                    styl. nov. Anni 1600. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

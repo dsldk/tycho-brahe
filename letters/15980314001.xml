@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 178</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>P.J. Resen: Inscriptionum Haffniensium, København 1668
+                                    (tilskrift i slutningen)</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 31</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-03-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Joseph Scaliger</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 14. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-05" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.31"/>
+                <opener>TYCHO BRAHE AD <persName ref="Scaliger">IOSEPHUM
+                    SCALIGERUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>S. P.</p>
+                <p>DIU multumque in votis habui, Illustris Domine <persName ref="Scaliger">IOSEPHE
+                        SCALIGER</persName>, cum adhuc in <placeName ref="Denmark">Dania</placeName>
+                    Patria mea morarer, ut tecum per litteras amicitiam contraherem, præsertim cum a
+                    plerisque isthinc ad nos venientibus tuum in me, licet de facie tibi ignotum,
+                    candorem et benevolentiam aliquoties perceperim, sed semper aliquid intervenit
+                    obstaculi, quominus id efficere commodum fuerit. Nunc autem, cum hunc Nobilem et
+                    doctum adolescentem <persName ref="Tengnagel">FRANCISCUM <pb ed="TBOO"
+                            n="VIII.32"/>TEGNAGLIUM</persName> mihi domesticum et meæ e <placeName
+                        ref="Denmark">Dania</placeName> migrationis comitem in <placeName
+                        ref="Netherlands">Bataviam</placeName> ablegarem, non intermittendum duxi,
+                    quin aliquid saltem ad te litterarum darem, utut iam essem occupatissimus. Ad
+                    quod me etiam non minimum invitavit excellentissimum et laboriosissimum illud
+                    opus <app>
+                        <lem wit="#B">tuum</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> redintegratum de Temporum Emendatione, quod his ipsis diebus primum
+                    accepi, atque quantum per negotia licuit, perlustravi. Nec possum satis mirari
+                    exactam tuam in eo concinnando diligentiam, pari iudicio atque eruditione
+                    coniunctam. Debet tibi sane vel pro hoc solo labore (ut cæteros illos
+                    præclarissimos a te exantlatos præteream) omnis posteritas immensas gratias,
+                    quod temporum epochas et rationes tam sedulo et subtiliter extricare volueris.
+                    Nec curandum si qui (uti fit) inveniantur ingrati Zoili, quales et hactenus
+                    nonnullos habuisti, qui e contradictionibus famam venari satagunt, sed ex alto
+                    despiciendum. Memini, me cum ad quendam eorum mihi <placeName ref="Heidelberg"
+                        >Heidelberga</placeName> scribentem litteras responsi loco darem, de te
+                    ipsum (siquidem is occasionem præbuerat) discrete admonuisse, ut te tuaque
+                    suspiceret potius quam vellicaret, atque a talibus contradictionibus abstineret,
+                    vel ad minimum ut modestius et maiori verecundia rem ageret. Quid hoc pacto apud
+                    ipsum profecerim, ignoro. Nam postea inter nos altum silentium.</p>
+                <p rend="indent">Reperi in hoc novo tuo volumine, dum illud evolverem, te alicubi
+                    circa finem facere mentionem mearum observationum, quas circa utrumque
+                    Æquinoctium in <placeName ref="Denmark">Dania</placeName> habui, easque cum
+                    Hipparcheis conferre, ut anni Alphonsini a te nunc assumpti magnitudinem
+                    probares. Ago autem tibi officiose gratias, quod tam honorifice et candide mei
+                    et mearum inventionum isthic <app>
+                        <lem wit="#TBOO">memineris</lem>
+                        <rdg wit="#A #B">meminere</rdg>
+                    </app>, et cuperem, ut hæc ipsa uberius adhuc expenderes, conferendo nimirum
+                        <persName ref="Hipparchos">HIPPARCHI</persName> omnes observationes, sed
+                    prius limitatas, ut sibi invicem, quoad fieri <app>
+                        <lem>poterit</lem>
+                        <rdg wit="#B">potest</rdg>
+                    </app>, correspondeant, aut seligendo eas quæ exactiores <app>
+                        <lem>videbuntur</lem>
+                        <rdg wit="#B">videbantur</rdg>
+                    </app>; hac tamen adhibita cautione, ut is annus Iulianus retro numeratus eandem
+                    cum nostro, qui adhibetur, habeat respectu bissexti rationem, ita ut vel ambo
+                    sint bissextiles vel pariter hinc removeantur. Ideoque nostra Tabella utriusque
+                    Æquinoctij, quam e primo capite Progymnasmatum Astronomicorum assumpsisti, eos
+                    annos <app>
+                        <lem>continue</lem>
+                        <rdg wit="#B">continuo</rdg>
+                    </app> exhibet, qui ab uno in alterum bissextilem includuntur. Pluribus enim
+                    opus non erat, licet multos præterea in promptu habeam pariter sibi invicem
+                    correspondentes. Optandum sane foret, ut veteres parem in his præstitissent
+                    accurationem, quod tamen ab ijs factum non esse, propriæ eorum annotationes, ut
+                    tu quoque non iniuria arguis, produnt; utique magis indubiam Anni Cœlestis
+                    rationem, quoad minima momenta, nunc obtineremus, præsertim si a pluribus
+                    Artificibus per aliquot interlapsa secula res <app>
+                        <lem>nunquam</lem>
+                        <rdg wit="#B">nusquam</rdg>
+                    </app> hians aut claudicans comprobata esset. Quin et <pb ed="TBOO" n="VIII.33"
+                    />utrobique medium Æquinoctium capiendum, ut intricatio ea, quæ ex Apogæi et
+                    Eccentricitatis mutatione provenit, præcaveatur. Conducit etiam <persName
+                        ref="Albategnius">ALBATEGNIJ</persName> Aratensis intermedias Observationes
+                    in consilium adhibere. Quibus omnibus rite expensis et adhibita in singulis
+                    cautela, quod <pb ed="A" n="1v"/>parallaxin &#x2609; inter observandum
+                    Æquinoctia forte neglexerint, atque his etiam Æquatoris inclinationem non satis
+                    scrupulose applicârint, dummodo ex altitudine &#x2609; meridiana in utroque
+                    solstitio Poli sublimitatem rimati sunt, existimârim de Alphonsina Anni
+                    quantitate nonnihil adhuc decessurum, ita ut vix 49 minuta ultra integras horas
+                    explere possit, nedum ea in <app>
+                        <lem wit="#TBOO">6 H</lem>
+                        <rdg wit="#A #B">16 </rdg>
+                    </app>. <app>
+                        <lem wit="#TBOO">excederet</lem>
+                        <rdg wit="#A #B">excedere</rdg>
+                    </app>. Si itaque omnes quas habes observationes Hipparcheas tam in æquinoctio
+                    vernali quam autumnali in Tabella discrete expositas (annotando ubique qualis
+                    iste annus fuerit respectu bissexti Iuliani) mecum communicaveris, dabo operam,
+                    ut hæc cum nostris ulterius collata exactum quid non tantum anno Civili, sed et
+                    Astronomico præfiniendo suppeditent. Et si plures in promptu tibi sunt
+                    vetustissimæ Æquinoctiorum Observationes, diligentiam aliquam redolentes, eas
+                    etiam pari modo impertiaris, quæso.Tum quoque de Epocha antiquissima illa
+                    Iudaica, quando Æquinoctium die 21. Aprilis sex horis a Meridie extitisse
+                    creditur, si quid indubitati habes, unde id probari queat, et ad quem meridianum
+                    referendum sit, atque quomodo hic annus ad bissextum sese habuerit, quantumque
+                    ab hisce temporibus citra omnem ambiguitatem distiterit, expone et plenius de
+                    his omnibus, quæ a te collecta, mecum per litteras agere non degravare. Erit id
+                    mihi longe gratissimum. Quicquid vicissim mea opella præstari queat, quod tibi
+                    acceptum sit, habebis me semper ex voto. Fieri autem potest, ut nonnulla horum
+                    in hoc libro tuo elucidaveris, quæ adhuc explorata non habeo. Nam mihi accurate
+                    eum relegere plurimæ occupationes <app>
+                        <lem>nondum</lem>
+                        <rdg wit="#B">necdum</rdg>
+                    </app> permiserunt. Porro referet dictus adolescens quædam ad te meo nomine
+                    secreto, de quibus tuum iudicium et consilium cognoscere averem. Is etiam plura,
+                    cum mearum rerum sit conscius, de ijs aperiet. Quare ut ipsum benigne audias,
+                    tibique commendatum habeas, etiam atque etiam rogo. Vale vir tam doctrina quam
+                    genere revera illustris. Dabantur subito <placeName ref="Wandsburg"
+                        >Wandesburgo</placeName> ex Arce Ranzoviana, quæ est prope <placeName
+                        ref="Hamburg">Hamburgum</placeName>, die 14. Martij Anni 1598.</p>
+                <lb/>
+                <p rend="rightMargin">Illustris tuæ Magnis. studiosiss.<lb/>TYCHO BRAHE,<lb/>manu
+                    propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

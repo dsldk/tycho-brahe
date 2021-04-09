@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 3</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>København</placeName>
+                    <date when="1597-03-31"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Heinrich Rantzau</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1597. 31. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-11-07" who="#pz">Filen færdig</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VII.383"/><pb ed="A" n="42v"/>NOBILISSIMO ET AMPLISSIMO
+                    VIRO, VIRTUTE ET ERUDITIONE INPRIMIS CONSPICUO DOMINO <persName ref="Rantzau, Heinrich">HENRICO RANTZOVIO</persName> DE
+                    BREDENBERGA, PRÆSIDI SEGEBERGENSI ET PRODUCI HOLSATIÆ ET DITMARSIÆ, AMICO ET
+                    AFFINI SUO PLURIMUM COLENDO.<lb/>S.</opener>
+                <p><pb ed="A" n="42r"/>NONNULLAS dedi literas ad te ante aliquot septimanas,
+                    Nobilissime ac amplissime Domine <persName ref="Rantzau, Heinrich">HENRICE RANZOVI</persName>, affinis et amice honorande,
+                    inter quas quædam erant tibi aperte tradendæ, quædam vero secreto, ut seorsim
+                    solus eas legeres. Confido eas te accepisse, verum responsum ad illas usque huc
+                    nondum accepi ullum, quod per hunc tabellarium avide expeto expectoque, si forte
+                    aliqua ratione id neglectum est. Vale, et rem de qua tibi scripsi serio agi
+                    persuasum habe. Iterumque vale. Dabantur <placeName ref="København">Hafniæ</placeName> 31. Martij Anno 97.</p><lb/>
+                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

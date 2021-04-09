@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 35</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-03-28"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Vitus Winshemius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 28. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-06" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.35"/>
+                <opener>TYCHO BRAHE AD <persName ref="Winshemius">VITUM VINSHEMIUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>EXCELLENTISSIME Domine Doctor <persName ref="Winshemius">VINSHEMI</persName>, Amice honorande. Accepi nudius tertius ab <persName ref="Rosenkrantz, Holger">OLIGERO</persName>
+                    nostro literas, in quibus facit circa calcem mentionem librorum, qui adhuc apud Dominum
+                    D. <persName ref="Boekelius">BŒKELIUM</persName> residui sunt, quos omnino obtinere desiderat, et æquum sane est, ut, ex
+                    quo pecuniam totam is receperit, libros omnes tradat, aut se ita apud <persName ref="Rosenkrantz, Holger">OLIGERUM</persName> purget,
+                    ut sit contentus. Ego consanguineo meo et affini amicoque intimo deesse non possum, quin procurem id, quod
+                    a me requirit. Si sponte <persName ref="Boekelius">BŒKELIUS</persName> hoc præstare noluerit, cogor iure rem agere, utut id
+                    libenter non facerem. Rogo <pb ed="A" n="1v"/>itaque peramanter tam <persName ref="Rosenkrantz, Holger">OLIGERI</persName> quam meo
+                    nomine, velis adhuc semel apud ipsum urgere, ut stet promissis. Excusationes, quas
+                    ultimo adduxit, vix accipiet <persName ref="Rosenkrantz, Holger">OLIGERUS</persName>, nam ille aliter ad me rettulit ea de re, imo
+                    <persName ref="Vesalius">VESALIJ</persName> Anatomiam mihi dono dedit, licet ego id recusarim, nisi alium ex meis libris
+                    æquivalentem eius loco habere vellet. Nec valor eius est maior sex vel septem
+                    Ioachimicorum, etiamsi de novo ematur. Fac itaque, mi Domine Doctor <persName ref="Winshemius">VINSHEMI</persName>, ut <persName ref="Rosenkrantz, Holger">OLIGERI</persName>
+                    expectationi satisfiat, et schedas, quas hac de re ultimo accepisti, remitte. Scripturus enim sum hisce diebus 
+                    <persName ref="Rosenkrantz, Holger">OLIGERO</persName> et negotium hoc expositurus. Vale, et si quæ
+                    nova scis, indica. Raptim <placeName ref="Wandsburg">Wandesburgi</placeName> die 28. Martij Anni 98.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

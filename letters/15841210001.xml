@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Heinrich Brucaeus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1568 ad annum 1587</title>, ed. F.R. Friis, 1876-86</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 88-89</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Heinrich Brucaeus</persName>
+                    <placeName>Rostock</placeName>
+                    <date when="1584-12-10"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1584. 10. december</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-03-21" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.88"/>
+                <pb ed="A" n="85v"/>
+                <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
+                    BRAHE. <lb/>S. P.</opener>
+                <p>SCRIPSI per eundem, qui tuas literas ad me pertulit, Bibliopolam <placeName
+                        ref="Frankfurt am Main">Francofurto</placeName> ad nos redeuntem nihil eorum
+                    librorum, quorum in literis meministi, attulisse, daturum autem me operam, ut
+                    vel <placeName ref="Leipzig">Lipsia</placeName> aut <placeName ref="Wittenberg">Witeberga</placeName>, quos nancisci potero, adferendos curem. <app>
+                        <lem wit="#Friis">Gnomotericam</lem>
+                        <rdg wit="#A">Gnomoterica</rdg>
+                    </app>
+                    <persName ref="Clavius">CLAVIJ</persName>, quam æstimat Ioachimicis prope 5,
+                        <persName ref="Rantzau, Heinrich">RANZOVIO</persName> vendidij. Laborabo, ut
+                    studium et diligentiam nostram in hisce libris conquirendis agnoscas. Intellige
+                    autem, duo illa volumina iunctim venire Joachimicis 16. Typographum nostrum
+                        <persName ref="Myliander">MYLIANDRUM</persName> typorum nomine conveni; is
+                    respondet, ante D. Antonij festum non posse hisce typis carere, tum, si voles,
+                    velle aliquot libras vendere; arbitratur autem, <pb ed="A" n="86r"/> libras 10
+                    non sufficere ad unam columnam sive paginam excudendam. Æstimat singulas libras
+                    dimidio Thalero. Quid fieri velis, indicabis, antequam mare claudatur. <persName
+                        ref="Vitus">VITUS</persName> ille, cuius meministi, mihi adfuit et
+                    respondit, velle fundere typos, quorum in tuis literis ad eum datis mentionem
+                    fecisti. Quærenti mihi de precio respondit, unâ cum quadratis Ioachimicos prope
+                    requiri.</p>
+                <p rend="indent">In Eclipsi Lunæ 7. Novembris observata nostræ observationes non
+                    plane cum tuis conveniunt. Initium non fuit observatum. Porro ubi tota obscurari
+                    visa est, deprehensa est Procyonis altitudo partium 26. Cum primum ex umbra
+                    inciperet emergere, altitudo eiusdem stellæ partium erat 37. Ubi tota ex umbra
+                    emergere visa est, erat 41. Ex quibus tempora si deducantur, principium Eclipsis
+                    incidet in horam 11 6' 32 ", principium vero totius occultationis in h. 12 11'
+                    44", medium [totius obsecrationis in h. 1 1' 48", finis] totius obscurationis in
+                    h. 1 51' 52". Tota ex umbra emersit h. 2 55' 4". Ex quibus colligo <persName
+                        ref="Mästlin, Micheal">MÆSTLINUM</persName> sesquihora ab hac observatione
+                    differre, ipsum vero <persName ref="Copernicus">COPERNICUM</persName> scrupulis
+                    solum sex, <persName ref="Peurbach, Georg von">PURBACHIUM</persName> vero 30'.
+                    Si quid tamen ex superioribus observationibus potui colligere, propius a
+                    <persName ref="Peurbach, Georg von">PURBACHIO</persName> fuit accessum in aliquot prioribus Eclipsibus. Et credo, me superiorem
+                    aliquam Eclipsin observasse, in qua proxime visus est MÆSTLINUS accedere. Verum,
+                    mi TYCHO, hæc res eget, ut ego iudico, longe ante actorum temporum et
+                    observationum artificum excellentium collatione, et homine ingenij sagacis, qui
+                    queat aliorum inventis aliquid addere. Ego in <persName ref="Proclos"
+                        >PROCLO</persName> ad Solis usque motum progressus sum, in cuius
+                    consideratione, ut aliorum siderum, cum studium tuum et diligentia perspecta
+                    mihi sint, velim æquinoctium solstitiorumque tempora ex te intelli<pb ed="TBOO"
+                        n="89"/>gere. Tua enim industria cum habeas instrumenta exquisite elaborata
+                    et utendi ratio optime tibi constet, non dubito, tibi dies et horarum momenta,
+                    in quæ incidunt, constare. Bene vale, carissime TYCHO, et me mutuo amore
+                    prosequere. <placeName ref="Rostock">Rostochij</placeName> 1O. Decemb. 1584.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

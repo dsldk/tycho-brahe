@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hartwig von Dassel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl>Hartwig von Dassel, <title>Poematum libri IV</title>, Bremae
+                            1603</bibl></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                            1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 3</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hartwig von Dassel</persName>
+                    <placeName>Lüneburg</placeName>
+                    <date when="1596-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1596</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-11-06" who="#pz">Filen færdig</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VII.376"/><pb ed="A" n="264"/><persName ref="Dassel">HARDEWIGUS A DASSELL</persName> I. C.
+                    TYCHONI BRAHEN EQUITI, VIRO NOBILISSIMO.<lb/>S. D.</opener>
+                <p>NOBILISSIME et amplissime vir, etsi singularis in te observantia ex ingenij tui
+                    præclaris orta monumentis postulabat, ut aliquid ad te literarum darem, me tamen
+                    deterruit hactenus personæ tuæ dignitas, utpote hominis de facie mihi ignoti,
+                    verentem, ne talem virum tantarum rerum occupatione distentum inanibus appellare
+                    literis, pudentis hominis non esset. Nunc ut, quod sentio, dicam, pæne accuso
+                    modestiam meam, quod, dum cogito ad te scribere, non tamen consilium explico.
+                    Interea tua fecit singularis humanitas, ut, dum Domini <persName ref="Rantzau, Heinrich">RANZOVIJ</persName> Producis
+                    Cimbrici literas ad me mittis, scribendo anteverteres.</p>
+                <p rend="indent">Quanquam cur ego apud te maximarum virtutum <pb ed="A" n="265"/>laude præstantem,
+                    ad quas mihi adspirare non licet, plus residere officij moleste feram, cum
+                    præsertim hoc ipsum amoris in me tui, quo equidem antiquius nihil habeo, non
+                    obscurum argumentum esse videatur? Quocirca ut interdum me pudet pudoris mei,
+                    quod nihil ad te scribere sim ausus, cum tamen maxime cuperem, sic istâ
+                    voluntatis declaratione mirifice delector. Ego te, nobilissime vir, semper
+                    maximi feci, non propter illa, quæ vulgi oculos in se convertunt, sed propter
+                    illa vere ac proprie tua, quæ et te provexerunt ad istum, in quo es, dignitatis
+                    gradum, et provectura, ut spero, sunt etiam <app><lem wit="#Friis">altius</lem><rdg wit="#A">alius</rdg></app>; etsi nihil aut tale
+                    effecissent, aut effectura essent, omni te tamen cultu atque observantiâ
+                    dignissimum reddidissent. Virtus enim et eruditio, vera mihi et solida videntur
+                    bona, eâque de causâ recte dicitur a Plutarcho: Τῆς ἀληθινῆς εὐδαιμονίας τὸ
+                    πλεῖστον ἐν ἤθει καὶ διαθέσει τῆς ψυχῆς εἶναι. Reliquum est, ut, cum tibi
+                    persuaseris me amantissimum tui esse, hoc mihi etiam des, ut in te expetendo, et
+                    tibi prospera omnia feliciaque optando concedam nemini. Vale. <placeName ref="Lüneburg">Luneburgi</placeName>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

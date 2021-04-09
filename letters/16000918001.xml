@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 35</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 363-364</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Prague</placeName>
+                    <date when="1600-09-18"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Melchior Jöstel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 18. september n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-30" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.363"/>TYCHO BRAHE AD <persName ref="Joestelius"
+                        >MELCHIOREM IŒSTELIUM</persName>.</opener>
+
+                <p><pb ed="A" n="139r"/>S.</p>
+                <p>DEDI iterum ad te literas, Eruditissime et amantissime Domine M. <persName
+                        rend="Joestelius">MELCHIOR IÖSTELI</persName>, ante paucos dies, de ijsdem
+                    ferme rebus, quas superioribus attigeram; ultimas autem hasce Domino Doctori
+                        <persName ref="Francius">FRANCIO</persName>, Iure consulto, nunc Comitis
+                    Embdensis Cancellario, hinc proficiscenti commisi, qui eas se recte curaturum
+                    addixit: interim commodum accidit, quod tuæ antepenultimo Augusti <placeName
+                        ref="Wittenberg">Wittebergâ</placeName> ad me datæ intervenirent, quæ eorum,
+                    de quibus antea memineram, resolutionem, quoad principaliora, continent; ad quam
+                    sic respondeo.</p>
+                <p rend="indent">Polliceris ab initio te collationem Hypothesium brevi missurum,
+                    siquidem iam perfectiorem quam antea elaboratam habeas. Fac igitur, ut mature
+                    obtineam, et figuras decenter assigna; addenda est autem explicatio sufficiens,
+                    non quidem admodum prolixa, sed etiam non nimium concisa; descendendum etenim
+                    nonnunquam ad captum Tyronum. Spero itaque me intra duas vel tres hebdomadas id,
+                    quicquid erit, a te habiturum.</p>
+                <p rend="indent">Quæ de M. <persName ref="Östwald">ŒSTWALDO</persName> scribis, non
+                    improbo. Maneat isthic, siquidem id malit, et supputet nihilominus pro me, quæ
+                    per ocij intervalla absolvere poterit, numerabo illi in singulos Anni quadrantes
+                    sex Ioachimicos, quod in singulas hebdomadas dimidium ferme Ioachimicum facit.
+                    Sed volo, ut etiam singulis Anni quadrantibus mittat, quæ absoluta habuerit. Hæc
+                    ad ipsum ferre poteris. Quamprimum Tabulæ Lunares unâ cum ijs, quæ huc
+                    requiruntur, ad mundum descriptæ fuerint, mittam exemplar, ut inde Ephemerides
+                    supputet incipientes ab hoc labente 1600, et per sexennium instans continuandæ,
+                    unâ cum Solari Diario atque aspectibus omniumque differentijs, prout antea
+                    fecit, solvam autem illi pro cuiuslibet Anni Ephemeride tres Ioachimicos, prout
+                    in ultimis <pb ed="A" n="139v"/>ad te literis scripsi, sed vellem, ut calculum
+                    maturaret, quo omnia unâ cum adiungendis satis cito inprimi adque instantes
+                        <placeName ref="Frankfurt am Main">Francofurti</placeName> Nundinas Vernales
+                    mitti possint, in 4to maiori excusa.</p>
+                <p rend="indent"><pb ed="TBOO" n="VIII.364"/>Cum Typographo vestro M. <persName
+                        ref="Lehmann, Zacharias">ZACHARIA <app>
+                            <lem wit="#TBOO">LEHMANO</lem>
+                            <rdg wit="#A">Lhemano</rdg>
+                        </app></persName> age, ut sex illos quaterniones, vel tres duplicatos, qui
+                    desiderantur in Progymnasmatis meis, inprimat, atque papyrum similem illi, quæ
+                    in libro est, æque nimirum albam et tenuem eiusdemque magnitudinis, sibi
+                    procuret, ita ut 1400 exemplaria de quolibet quaternione inprimat. Existimo,
+                    quod Ballam eiuscemodi papyri pro 10 florenis nanciscetur; nam et ego antea eam,
+                    quæ in libro meo de Cometa Anni 77 est, <placeName ref="Frankfurt am Main"
+                        >Francofurti</placeName> emi pro 8 florenis, Basileæ paratam et longo
+                    itinere isthuc vectam, sed iam forte alia sunt tempora, omniaque nunc cariora.
+                    Quicquid id erit, solvam illi iusto et debito modo, ut indemnis sit: prospiciat
+                    saltem de papyro, uti dixi, quæ conveniens sit, interea dum exemplum paratur.
+                    Mittam postea, quæ præfationis loco præfigenda, tum quoque quæ in conclusione
+                    subiungenda, ut et illa absolvat. Si pecunia mea tam cito e <placeName
+                        ref="Mecklenfurg">Mechelburgensi Ducatu</placeName> advenerit, potes inde 25
+                    Ioachimicos tecum retinere pro solutione tam papyri quam laboris Typographici,
+                    successive exponenda: verum si id non evenerit, mittam ipsemet cum Domino
+                    Doctore <persName ref="Gödelmann">GÖDELMANO</persName>, qui hîc Legatum agit
+                    Saxonicum, pecuniam sufficientem; ille enim post 14 dies constituit hinc
+                        <placeName ref="Rostock">Rostochium</placeName> proficisci, atque in itinere
+                        <placeName ref="Wittenberg">Wittebergam</placeName> transire; sorte etiam
+                    exemplum secum adferet, si alia negotia descriptionem non remorata fuerint. </p>
+                <p rend="indent"><pb ed="A" n="140r"/>Cognovi insuper ex hisce tuis, quâ de caussâ
+                    huc venire nequeas, et libenter tuo acquiesco consilio, neque amplius hac de re
+                    quidpiam movebo. Confido tamen, quod etiam isthic habitans operam tuam
+                    nonnunquam per otij oportunitatem, in ijs, quæ a te fieri desiderâro, non
+                    denegaturus sis, inveniar vicissim gratus. Et siquidem medicinæ applicâsti
+                    animum, et in ea facultate promovere constituisti, det Deus, ut omnia tibi
+                    feliciter et ex voto succedant. Memineris autem, medicinam rite præparatam
+                    medicum efficere et pro ipso operari; non verba, sive <persName
+                        ref="Hippokrates">HIPPOCRATIS</persName>, sive <persName ref="Galen"
+                        >GALENI</persName>, sive cuiusvis alterius diserti authoris. An vero hoc,
+                    quod dixi, isthic assequeris, admodum dubito, optare id potius licet quam
+                    sperare. Sed efficies facile quod cœteri, ut mundus habeat, quod vult. Hæc si
+                        <persName ref="Jessenius">IESSENIO</persName> nostro dixeris, partim risum,
+                    partim bilem illi movebit scio. Miror, quod ille mihi nihil scribat, nec
+                    indicet, quid de libro et Globo illi tradito factum sit.</p>
+                <p rend="indent">De Genesi illa, quam nôsti, poteris suo tempore, cum rectius
+                    vacârit, dispicere et ad me quidpiam perscribere. Vale et primâ quaque occasione
+                    responde; saluta amicos meos Wittebergenses, quos nôsti. Dabantur festinanter
+                        <placeName ref="Praha">Praga</placeName> Die 18 Septembris Anno 1600 stylo
+                    novo.</p>
+                <p rend="indent">Rogo insuper velis providere de studioso uno vel altero ad hæc
+                    studia apto, prout in ultimis scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

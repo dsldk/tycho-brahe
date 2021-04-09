@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 242-243</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1590-04-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Heinrich Rantzau</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1590. 2. april</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-06-03" who="#pz">Filen etableret. </change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.242"/>
+                <pb ed="A" n="11v"/>
+                <opener>NOBILISSIMO ET AMPLISSIMO VIRO, VIRTUTE ET ERUDITIONE IMPRIMIS CONSPICUO,
+                    DOMINO HENRICO RANZOVIO, DOMINO DE BREITENBERGA ET REGIO IN HOLSATIA AC
+                    DITHMARSIA GUBERNATORI ETC. AMICO SUO PLURIMUM COLENDO.</opener>
+                <p><pb ed="A" n="10r"/>SERIUS ego quidem, Nobilissime mi <persName
+                        ref="Rantzau, Heinrich">RANZOVI</persName>, tuis iam respondeo literis, non
+                    tam mea culpa, quam quod de Insignibus Sturorum certior interea temporis fieri
+                    nequiverim. Licet enim diligentissime hincinde per sororem quoque meam <persName
+                        ref="Brahe, Sophie">SOPHIAM</persName> a Domina <persName
+                        ref="Gørvel Fadersdatter">GURUILDA</persName>, relicta D. <persName
+                        ref="Brahe, Lave">LAGONIS BRAHE</persName> vidua, id expiscari attentârim,
+                    votis tamen nostris nondum est satisfactum, ut et adiunctæ indicabunt literæ.
+                    Accessit et hoc, quod septimanis præteritis hospitum, qui me invisebant,
+                    multitudine sim præpeditus, quo minus, uti volebam, tuæ petitioni satisfacere
+                    vacârit. Ne vero adhuc te sine responso diutius detineam, non amplius
+                    rescriptione abstinendum duxi, <pb ed="TBOO" n="VII.243"/>licet nihil, quod ad
+                    Insignia illa attinet, adhuc compertum habeam. Ubi tamen aut ex <placeName
+                        ref="Sweden">Svecia</placeName> vel aliunde rem ipsam cognovero, curabo, ut
+                    resciscas. Quod ad figuras libris præfigendas attinet, eas Buxo solummodo
+                    insculptas expeto, neque enim Typographus meus cupreus aptare novit. Typi
+                        <persName ref="Wolf">WOLFFIANI</persName> meis non correspondent, præterea
+                    eos carius æstimat atque <placeName ref="Wittenberg">Vitebergenses</placeName>,
+                    ubi aptiores veneunt 20 floren. in centenar. ut de ijs iam plura agere non sit
+                    necessum. Et ut rem ipsam dicam, non admodum mihi stylo nunc est opus, donec
+                    Chartopæum denuo acquisivero. Is enim, quem ad me misisti, <placeName
+                        ref="Rostock">Rostochium</placeName> pro socio et veteramentis conquirendis
+                    ablegatus, acceptis <pb ed="A" n="10r"/>præter voluntatem meam a D. <persName
+                        ref="Brucaeus, Heinrich">BRUCÆO</persName> sex Ioachimicis, <placeName
+                        ref="Wismar">Wismariam</placeName>, illic se veteramenta collecturum
+                    simulans, abijt, posteaque veterator iste se subduxit. Idem quoque mihi accidit
+                    cum priore, qui a <persName ref="Buck">IOACHIMO BUCK</persName>
+                    <placeName ref="Lübeck">Lubecensi</placeName> pecuniam nactus nusquam deinceps
+                    comparuit. Scripsi lamdudum tibi de ijs, quæ a me tum temporis, cum Calendarium
+                    Ranzovianum misisti, expetebas, sed colligo ex literis tuis, meas ad manus tuas
+                    non pervenisse. Ubi interea deliteant, ignoro. Plura per commodum otium scribam
+                    et conabor, quantum in me est, ut Insignium istorum Sturianorum delineatione
+                    potiaris. Vale, meaque, uti facis, promovere stude. Dabo vicissim operam, ut quæ
+                    tibi accepta cognovero, ubi potuero, fiant. Iterum vale. Datæ <placeName
+                        ref="Uraniborg">Uraniburgo</placeName> 2. Aprilis Anno 90.</p><lb/>
+                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p><lb/>
+                <p>Literas quas adiunxi ad Illustriss. <persName ref="Wilhelm, landgrave of Hessen"
+                        >Principem Landgravium</persName>, si <placeName ref="Kassel">Cassellas</placeName> mitti procurâris, et alteram
+                    <placeName ref="Praha">Pragam</placeName> versus, rem feceris pergratam. Tunc etiam quæ <placeName ref="Lübeck"
+                        >Lubecam</placeName> et <placeName ref="Hamburg">Hamburgum</placeName>
+                    dirigendæ veniunt.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johannes Oswaldus</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 336</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johannes Oswaldus</persName>
+                    <placeName>Wittenberg</placeName>
+                    <date when="1600-08-06"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 6. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-27" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.336"/><pb ed="A" n="65v"/>NOBILISSIMO DOMINO TYCHONI
+                    BRAHE, DOMINO DE KNUDSTRUP, MATHEMATICO NOSTRO SÆCULO PRAESTANTISSIMO, DOMINO AC
+                    FAUTORI SUO UNICE COLENDO.</opener>
+
+                <p><pb ed="A" n="63r"/>SALUTEM IN CHRISTO IESU</p>
+                <p>NOBILISSIME Domine TYCHO, remunerationem quinque scilicet Ioachimicos, propter
+                    diarium Solis et Lunæ, in Martio huius anni 1600 nobilitati tuæ transmissum, a M.
+                        <persName ref="Longomontanus">CHRISTIANO LONGIMONTANO</persName> accepi,
+                    Quare T. N. ut par est, gratias ago et habeo. Quod in superioribus meis literis,
+                    num in oras Bohemicas me vellem conferre nec ne, nihil habetur, causa fuit non
+                    mea in scribendo negligentia, vel oblivio, sed quod 14 diebus, antequam N. T.
+                    sententia de re illa huc allata esset, istæ meæ literæ fuerunt scriptæ et
+                    obsignatæ. Ideoque M. <persName ref="Joestelius">MELCHIOREM IOSTELIUM</persName>
+                    rogavi, ut tuæ nobilitati, mecum prius deliberandum, scriberet. In tali autem
+                    deliberatione reperi, consultius fore, si <placeName ref="Wittenberg"
+                        >Witebergæ</placeName> permanens tuæ N. in rebus astronomicis pro animi mei
+                    tenuitate inservirem, singulisque diebus aliquot certas horas, utpote tres vel
+                    quatuor, in laborem istum impenderem. Tuæ nobilitati si hoc meum propositum
+                    placuerit, certum stipendium ex æquo et bono mihi determinare, et quid
+                    expectandum, data aliqua occasione, haud gravatim significare poterit. Vale.
+                    Dabantur <placeName ref="Wittenberg">Witebergæ</placeName> 6 Augusti veteri
+                    stylo Anni 1600 Christi.</p>
+                <lb/>
+                <p rend="rightMargin">T. N.<lb/>humiliter colens<lb/>M . <persName ref="Oswaldus">IOHANNES
+                    OSWALDUS</persName>,<lb/><placeName ref="Zeil am Main">Zeillensis</placeName> Francus.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

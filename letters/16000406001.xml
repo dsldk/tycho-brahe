@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10703</idno>
+                                <msName>(transcript by Kepler)</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 297</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1600-04-06"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Johann Friedrich Hoffmann</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 6. april. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.297"/><pb ed="A" n="126a-r"/>ILLUSTRI ET GENEROSO
+                    DOMINO, DOMINO <persName ref="Hoffmann">IOHANNI FRIDERICO HOFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUEHEL</hi> ET
+                    <hi rend="it">STRECHAU</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET ARCHIDUCATUS AUSTRIÆ,
+                    MARSCHALCHO UBIQUE HÆREDITARIO, BURGRAVIO IN <hi rend="it">STEYER</hi>, NEC NON SACRÆ CÆSAREÆ
+                    MAIESTATIS AULÆ CONSILIARIO ET SERENISSIMI ARCHIDUCIS MAXIMILIANI CUBICULARIO
+                    PRIMARIO, DOMINO ET AMICO SUO IMPRIMIS HONORANDO.</opener>
+                <p>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE HONORANDISSIME.</p>
+                <p>REDIT nunc <placeName ref="Praha">Pragam</placeName> M. <persName ref="Kepler"
+                        >KEPLERUS</persName>, et licet suasor illi fuerim, ut domestici mei, qui
+                    etiamnum <placeName ref="Plzeň">Pilsnæ</placeName> est, et inter alia in negocio
+                    dictum <persName ref="Kepler">KEPLERUM</persName> concernente
+                    sollicitat, reditum, quem intra paucos dies futurum spero, expectaret, ut quid fieri
+                    possit, certius resciremus (præsertim cum spes aliqua facta sit, Sa<hi
+                        rend="sup">am</hi>
+                    <persName ref="Rudolf 2.">Cæs<hi rend="sup">am</hi> Ma<hi rend="sup"
+                        >tem</hi></persName> petitionibus meis humilimis clementissime annuere
+                    velle) atque demum aliquid rati concludere possemus: tamen cum ipsum nihilominus
+                    abitum festinare intelligerem, reliqui hominem suo arbitrio. Quid vero inter nos
+                    ventilatum sit, Ill<hi rend="sup">ris</hi> D<hi rend="sup">o</hi> Tua e D.
+                    Doctore <persName ref="Jessenius">IOANNE IESSENIO</persName>, qui has adfert,
+                    seorsim cognoscet: is enim interfuit, dum hæc gererentur: quare longiore et
+                    tædiosâ eorum commemoratione supersedeo, omnia ad hanc rem facientia Illustris
+                        D<hi rend="sup">nis</hi> Tuæ prudenti consilio dispicienda ordinandaque
+                    etiamnum relinquens.</p>
+                <p rend="indent">Cœterum de puero, quem Illustris D<hi rend="sup">natio</hi> Tua ad
+                    me mittere decrevit, sciat me libenter eum, quandocunque ad<pb ed="A" n="126a-v"/>venerit,
+                    recepturum, tum quoque laboratorem Spagiricum. Et expecto pariter fabrum illum
+                    Mechanicum, qui e <placeName ref="Steiermark">Styria</placeName> venturus est.
+                    Quam primum vero per occupationes licuerit, spero me <placeName ref="Praha"
+                        >Pragæ</placeName> futurum, ubi plenius cum Ill<hi rend="sup">ri</hi> D<hi
+                        rend="sup">one</hi> Tua de ijs, quæ hîc omissa sunt, agam. Valeat Tua Ill<hi
+                        rend="sup">ris</hi> D<hi rend="sup">o</hi> quam optime et diutissime.
+                    Dabantur ex <placeName ref="Benatky">arce Cæsarea Benatica</placeName> die 6
+                    Aprilis Anno 1600.</p>
+                <lb/>
+                <p rend="rightMargin">Ill<hi rend="sup">ri</hi> Generositati
+                    Tuæ<lb/>Addictissimus<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

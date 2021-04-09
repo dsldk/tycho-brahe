@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Wilhelm, Landgrave of Hesse-Kassel</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel (1532-1592)</persName>
+                    <placeName>Kassel</placeName>
+                    <date when="1589-07-26"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Christopher Rothmann</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589. 26. juni</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VI.184"/><pb ed="E" n="154"/>VNSERM <hi rend="it"
+                            >MATHEMATICO</hi> VND LIEBEN GETREWEN CHRISTOPHORO ROTHMANNO.
+                            <lb/><persName ref="Wilhelm, landgrave of Hessen">WILHELM</persName> VON
+                        GOTTES GNADEN LANDTGRAUE ZU HESSEN/ GRAUE ZU CATZENELNBOGEN/ DIETZ/
+                        ZIEGENHAIN VND NIDDA/ ETC.
+                </opener>
+                <p>
+                    LIEBER Getrewer/ Wir mögen dir in gnaden nicht verhalten/
+                        das Zeiger dieses <hi rend="it">D. <persName ref="Frischlin">Nicodemus
+                                Frischlinus</persName></hi> vorhabens ist/ eine Reyse in <hi
+                            rend="it">Daniam</hi> zuthun. Dieweil er dann sonder zweiffel zu dem <hi
+                            rend="it">TYCHONI de BRAHE</hi> kommen wirdet/ Als ist an dich vnser
+                        befelich in gnaden/ das du etwa ein sein schreiben an jhnen thuest/ vnd von
+                        jhme zuwissen begerest/ was er jtzo gutes vorhabe/ vnd wann er seine
+                        vorgehabte Arbeit dermahls eins werde außgehen lassen/ Dann vns verlange
+                        sehr darnach solchs zusehen. Das thun wir vns zu dir mit gnaden versehen.
+                    </p>
+                <closer>
+                    <dateline><hi rend="it">Datum</hi>
+                            <placeName ref="Homberg">Hombergk</placeName> am 26. <hi rend="it"
+                                >Iulij, Anno 89.</hi>
+                    </dateline>
+                    <signed>
+                        <persName ref="Wilhelm, landgrave of Hessen"
+                                >WILHELM</persName> LANDTGRAFF ZU HESSEN.
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

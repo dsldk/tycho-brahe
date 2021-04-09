@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Hans Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 300</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-04-11"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 11. april n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-16" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.300"/>IOANNES GEORGIUS HERWARTUS AB HOHENBURG AD TYCHONEM BRAHE.</opener>
+                <p><pb ed="A" n="49r"/>INTELLEXI, Vir nobilissime atque Mathematicorum omnium facile
+                    Princeps, ex Agente rerum Serenissimi Principis mei in aulâ Cæsareâ, <persName ref="Prendtl">ALEX. PRENDTL</persName>, qui
+                    ad negotia sua quædam propria expedienda hâc transijt, literas illas, quas D. Doctori
+                    <persName ref="Heller">HELLER</persName> ad me dirigendas committis, præposito seu Magistro supremo equorum dispositorum
+                    <placeName ref="Praha">Pragæ</placeName> consignari. Cœterum novi et expertus sum eorum, quibus cura Postæ seu equorum
+                    dispositorum incumbit, negligentiam et desidiam, atque adeo oscitantiam quoque miram,
+                    ita ut literas aliô dirigendas aliorsum nonnunquam transmittant. Tenet itaque hæc res
+                    me admodum et forte plus nimio solicitum, ne forte ea, quæ ad me mittis, intereant.
+                    Quare rogo te etiam atque etiam, ut in posterum, si quid literarum ad me dederis, eas
+                    præfato Agenti rerum Principis mei, vel in absentia illius <persName ref="Menhardus">IOANNI MENHARDO</persName> S. <persName ref="Rudolf 2.">Cæs. M.</persName>
+                    Consilij aulæ Imperialis Secretario Latino, qui aulam <persName ref="Rudolf 2.">Imperatoris</persName> sequitur, quorum
+                    titulos his subscripsi, consignes; curabunt enim illi sedulo, ut sub coperto, uti
+                    vocant, Serenissimi mei Principis tuto ad me transferantur.</p>
+                <p rend="intent">Novissime literas tuas pridie huius anni labentis datas unâ cum dono partis primæ
+                    Progymnasmatum restauratæ Astronomiæ (id quod gratitudinis ergo commemoro) accepi,
+                    nullas autem recentiores. Quod si interea temporis nullas ad me dederis, bene se res
+                    habet, et omni solicitudine vaco: si quas vero dederis, timeo, ne alicubi delitescant,
+                    et obsecro summopere, ut eas reiterari cures, et vel hac ratione solicitudinem alleves.
+                    Atque hisce tibi officia et studia mea paratissima quæque polliceor. Datæ <placeName ref="München">Monachij</placeName> die
+                    11 Apr. A. 1600.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

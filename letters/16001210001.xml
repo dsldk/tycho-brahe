@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 393-394</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <placeName>München</placeName>
+                    <date when="1600-12-10"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 10. december n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-02-05" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.393"/><persName ref="Herwart">IOANNES GEORGIUS
+                        HERWARTUS AB HOHENBURG</persName> AD TYCHONEM BRAHE.</opener>
+
+                <p><pb ed="A" n="243r"/>PRÆVIA precatione fœlicis et auspicatissimi novi anni, Vir
+                    Nobilissime atque Mathematicorum omnium facile Princeps, mitto <persName ref="Alfonso 10.">Alphonsinas</persName>
+                    Tabulas recognitas, Parisijs An<hi rend="sup">o</hi> 53 impressas, No. 43
+                    signatas. Et simul unâ <persName ref="Methodius">METHODIJ</persName> uti fertur
+                    Revelationem, quam describi curavi, cum liber, cui inserta fuerat, ob molem
+                    transferri nequeat. Neque iam occurrit aliud, quod ad te modo scribendum esse
+                    ducam. Summa enim illa tua ἀκρίβεια, quâ vel ad sexagesimam gradus partem
+                    novissimus tuus calculus Solis et Lunæ, cum exactissimâ tuâ cœlestium
+                    apparentium contemplatione, coincidit, eo me redegit angustiarum, ut quo me
+                    vertam, non habeam, et ob id ipsum Mathe<pb ed="TBOO" n="VIII.394"/>seos
+                    operationes tantisper omnino seponendas esse decreverim, donec calculum istum
+                    tuum novissimum abs te absolutum, quem liberali tuâ spontaneâ et benevolâ
+                    pollicitatione iam quodammodo meum fecisse videris, mihi impertiri dignatus
+                    fueris. Ea siquidem, quæ Arithmeticam concernunt, satis hac ætate elaborata esse
+                    videntur. Quæ vero Astronomica sunt, vel saltem cum ijs coniuncta, manifestis
+                    difficultatibus sunt implicita. Ut sive <persName ref="Ptolemaios"
+                        >PTOLOMÆUM</persName> quis sequatur, sive <persName ref="Alfonso 10."
+                        >ALPHONSUM</persName>, sive <persName ref="Copernicus"
+                    >COPERNICUM</persName>, in multis offendat necesse est. Unice itaque
+                    restaurationem hanc tuam exopto, cui, tametsi forte nondum extremam manum
+                    adhibueris, tamen ea sine omni dubio aliorum calculos longe superabit. Atque
+                    hisce tibi fœlicissima quæque præsagio et ex animo precor. Datæ <placeName
+                        ref="München">Monachij</placeName> 10 Decemb. A. 1600. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

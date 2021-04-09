@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 182-184</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Benatky</placeName>
+                    <date when="1599-09-22"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Christen Sørensen Longomontanus</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1599. 22. september n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-12-17" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.182"/>TYCHO BRAHE AD <persName ref="Longomontanus"
+                        >CHRISTIANUM LONGOMONTANUM</persName>.</opener>
+                <p><pb ed="A" n="1r"/>S.</p>
+                <p><persName ref="Brahe, Tycho junior">FILIUS TYCHO</persName>, quem nunc cum
+                        <persName ref="Mule, Claus">MULÆO</persName> in <placeName ref="Denmark"
+                        >Daniam</placeName> pro adferendis residuis instrumentis (sic volente
+                        <persName ref="Rudolf 2.">Cæsare</persName>) mitto <app>
+                        <lem>.....</lem>
+                        <rdg><note>lacunam indicavit Friis</note></rdg>
+                    </app> te socium tertium ijs adiungere, atque in expediendis pro me rebus
+                    adiutor esse poteris, eos in <placeName ref="Denmark">Daniam</placeName>, inque
+                    insulam isthic desertam comitari et cum ijs, Deo volente, revertentibus me eodem
+                    curru accedere, nam et sic rem gratam præstiteris, utpote cum sciam te in
+                    instrumentis maioribus componendis et conservandis, atque in ijs, quæ huc
+                    mechanice efficienda sunt, solertem esse, eaque rite præordinare posse, tum
+                    quoque urgere, ut sine temporis iactura omnia mature et recte conficiantur.
+                    Scripsit iussu <persName ref="Rudolf 2.">Cæsaris</persName> magnif. Dominus
+                        <persName ref="Barwitz">BARVICTIUS</persName> supremus Imperij Secretarius,
+                        <persName ref="Rudolf 2.">Cæsaris</persName> intimus, imo apud ipsum <app>
+                        <lem wit="#Friis">factotum</lem>
+                        <rdg wit="#A">fac totum</rdg>
+                        <rdg/>
+                    </app>, uti loquuntur, ad Dominum <persName ref="Ramel">HENRICUM
+                        RAMELIUM</persName>, ut Astronomicarum rerum, quascunque ibi residuas
+                    habuero, evectionem promoveat, et ego pariter <pb ed="A" n="1v"/>ad <persName
+                        ref="Valkendorf, Christoffer">aulæ Magistrum</persName> hac de re literas
+                    dedi etc<app>
+                        <lem>. .........</lem>
+                        <rdg><note>lacunam indicavit A addens verba <q>Post aliqua</q></note></rdg>
+                    </app></p>
+                <p rend="indent"><persName ref="Mullerus">IOHANNEM MULLERUM</persName> Mathematicum
+                        <persName ref="Joachim Friedrich">Electoris Brandeburgici</persName> brevi
+                    huc venturum expecto, nam cum sponte mihi suam operam, <placeName
+                        ref="Wittenberg">Wittebergam</placeName> ante meum discessum isthinc
+                    transiens, obtulerit, si modo cum <persName ref="Joachim Friedrich">Principis
+                        sui</persName> bona venia id fieri possit, impetravi, ut <persName
+                        ref="Rudolf 2.">Cæsarea Maiestas</persName> hoc nomine ad <persName
+                        ref="Joachim Friedrich">Electorem Brandeburgicum</persName> scriberet (sic
+                    enim inter <persName ref="Mullerus">MULLERUM</persName> et me convenit) quarum
+                    etiam literarum exemplar inter alia apud <persName ref="Brahe, Tycho junior"
+                        >filium</persName> videbis. Est is, præter ingenium disciplinarum
+                    Mathematicarum capax, in Mechanicis huc facientibus non infeliciter versatus.
+                    Aderit etiam forte mihi Landgravianus olim Mathematicus <persName ref="Rothmann"
+                        >CHRISTOPHORUS ROTHMANNUS</persName>, quem obijsse existimavimus, sed ex
+                    nuperis eius ad <persName ref="Rollenhagen">ROLLENHAGIUM</persName> literis
+                    ipsius manum cognovi, et adhuc in vivis esse <app>
+                        <lem wit="#Friis">perlubenter</lem>
+                        <rdg wit="#A">perhibenter</rdg>
+                    </app> intellexi, ut sic dupliciter mentita sit sine omni pudore <persName
+                        ref="Ursus">Ursina ista et Dithmarsica Bestia</persName> in suo famoso
+                    scripto, cum de me, quod ob facinus aliquod non leve, absque omni dubio
+                    perpetratum, e <placeName ref="Denmark">Dania</placeName> eruptionem fecerim,
+                    vanissimo et impudentissimo ore fingat, sic illum nescio quibus <pb ed="A"
+                        n="2r"/>morbis (pudet enim referre) infectum et confectum, qui tamen adhuc
+                    vivit et mediocriter bene habet, futiliter blaterat. Scripsi hisce diebus eidem
+                        <persName ref="Rothmann">ROTHMANNO</persName>, atque eum ad me, si per
+                    valetudinem liceret, invitavi. Quin et M. <persName ref="Fabricius, David">DAVID
+                        FABRICIUS</persName> Œst-Frisius, qui apprime his disciplinis delectatur,
+                    quem etiam tu, cum <placeName ref="Wandsburg">Wandesburgi</placeName> apud me
+                    esset, novisti, tam ut mihi a privatis <pb ed="TBOO" n="VIII.183"/>concionibus
+                    sit, quam ut se collaboratorem, prout a me instructus fuit, horum studiorum
+                    præbeat, ut existimo, adveniet. Duos quoque studiosos in triangulis et calculo
+                    versatos, sic per <persName ref="Joestelius">IOSTELIUM</persName> nostrum
+                    expetentes, <placeName ref="Wittenberg">Witteberga</placeName> acciri curo,
+                    habiturus postmodum plures, prout opus fuerit. Accedent forte ultro et alij. Nam
+                    scholam Astronomicam, multorumque in eadem operas, favente cœlestium Opifice,
+                        <persName ref="Rudolf 2.">Cæsare</persName> clementissime subsidia
+                    largiente, de novo erigere constitui; cuius ususfructus ad posteritatem omnem,
+                    uti spero, perseverabit, in Dei fabricæ cœlestis authoris gloriam, et <persName
+                        ref="Rudolf 2.">Cæsaris</persName> nunquam intermorituram memoriam et
+                    laudabilem famam; atque ne nos etiam frustra extitisse talentumque divinitus
+                    concessum abscondidisse ac tempus preciosissimum inutiliter, ut nimis multi,
+                    quod dolendum est, faciunt, contrivisse videamur. Exop<pb ed="A" n="2v"/>tarem
+                    primo quoque tempore quaterniones pauculos, qui in Tomo Progymnasmatum nostrorum
+                    primo desiderantur, labore typographico compleri, siquidem ea, quæ incuria
+                        <placeName ref="Hamburg">Hamburgensis</placeName> typographi perdidit, usui,
+                    scis, esse nequeunt, nec <placeName ref="Wittenberg">Wittebergæ</placeName> ea
+                    recudere ob causam tibi notam placuerit. Inveniemus facile rationem, ubi simul
+                    fuerimus, qua obstaculis, quoad nunc fieri potest, succurratur, ut liber is
+                    brevi in lucem prodire possit. Cogita enim quanto non solum meo damno tot
+                    exemplaria tam diu mecum reservo, sed et quam aliorum desiderio minus, dum
+                    publicatio differtur, satisfacio. Poterit etiam mox subsequi prima pars secundi
+                    Tomi, quæ de Cometa Anni 77 nunc cum Apologis huc pertinentibus luculenter agit,
+                    donec altera pars reliquorum Cometarum a nobis observatorum descriptiones
+                    complectens (quarum fundamenta in promptu sunt) subiungatur. Eclipsis Solis in
+                    Iulio huius Anni circa ortum visa meis instrumentis, <placeName ref="Praha"
+                        >Pragæ</placeName> quoque in turricula veteris Collegij observata est per
+                        <persName ref="Johannes Hamburgensis">IOHANNEM</persName> meum Hamburgensem,
+                    adstantibus alijs, deprehensusque est Sol, cum elevaretur 2 gradibus,
+                    deficientibus saltem totidem minutis, quasi unum digitum de limbo versus
+                    Septentrionem inclina<pb ed="A" n="3r"/>to, <app>
+                        <lem wit="#TBOO">interventu</lem>
+                        <rdg wit="#A">interventa</rdg>
+                    </app> &#x263E; amisisse, et postea successive rotunditatem acquisivisse
+                    consuetam. Elevatur autem <placeName ref="Praha">Pragæ</placeName> polus, ut
+                    ipsemet, dum ibi morarer, tam ex Sole quam stellis observavi, partibus
+                    quinquaginta m. 4½ , sed hîc <placeName ref="Benatky">Benachiæ</placeName> est
+                    partium 5 m. 16, in tantum sumus hîc <placeName ref="Praha">Praga</placeName>
+                    septentrionaliores, nonnihil tamen ad ortum versus <placeName ref="Schlesien"
+                        >Silesiam</placeName>, ita ut <placeName ref="Gölitz">Gorlicium</placeName>
+                    duorum saltem dierum itinere hinc removeatur, dispositi, et axis cœlestium
+                    revolutionum 6 pene gradibus hîc minus elevata, pauloque rectiorem præbens
+                    sphæram, quam in Danico nostro <placeName ref="Uraniborg"
+                    >Uraniburgo</placeName>, ad observationes cœlestes aliquanto magis conducit.</p>
+                <p rend="indent">Cæterum de <persName ref="Ursus">fera ista Dithmarsica</persName>
+                    nimis effera et bruta, ut aliqua subiungam, licet indigna sit, cuius recordetur,
+                    scias, istam ante aliquot septimanas, prout nuper rescivi, <placeName
+                        ref="Praha">Praga</placeName> se subduxisse, sive male sibi con<pb ed="TBOO"
+                        n="VIII.184"/>scia, et quod iustas pœnas per leges formidaret, sive quod
+                    aliud sinu suo latenter, more suo, ruminans. Sed investiganda tamen suo tempore
+                    per otium atque in ius protrahenda et punienda, quod etiam optimi quique
+                        <placeName ref="Praha">Pragæ</placeName> suadent. Verum de isto calumniatore
+                    et vitiatore impuden<pb ed="A" n="3v"/>tissimo hîc satis. Cætera ipsemet apud
+                    iudicem experietur. Restat, ut scribendi finem faciam, cum plura non vacet, sum
+                    enim scribendis non saltem in <placeName ref="Denmark">Daniam</placeName> sed et
+                    hinc inde ad notos et amicos plurimis literis (cumuli partem residuam filius
+                    ostendet) quam occupatissimus, ideoque et hæc festinanti calamo ad te exarata
+                    boni consulas atque desiderijs nostris tuoque commodo morem gere. Videbis hîc
+                    locum amœnissimum, in edito et saluberrimo aëre situm. Vale. Dabantur <placeName
+                        ref="Benatky">Venetijs Bohemorum,</placeName> sic enim arcis huius nomen
+                    vernacula gentis lingua interpretatur, ipso die Æquinoctij autumnalis 99.</p>
+                <lb/>
+                <p rend="rightMargin">Tui amantiss.<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

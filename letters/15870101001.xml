@@ -1,0 +1,972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Uraniborg 1596</bibl>
+                    </witness>
+                    <witness xml:id="T">
+                        <bibl>Index erratorum editionis principis (E)</bibl>
+                    </witness>
+                    <witness xml:id="M">
+                        <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+                    </witness>
+                    <witness xml:id="Vindob.10689.10">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliohek</repository>
+                                <collection>empty</collection>
+                                <idno>Cod. Vindob. 10689.10</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                    </witness>
+                    <witness xml:id="ed.1601">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Nürnberg 1601</bibl>
+                    </witness>
+                    <witness xml:id="ed.1610">
+                        <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Uraniborg</placeName>
+                    <date when="1587-01-01"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Wilhelm, Landgrave of Hesse-Kassel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1587. 1. januar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-02-15" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div><opener><pb ed="TBOO" n="VI.63"/><pb ed="E" n="35"/><app>
+                            <lem>ILLVSTRISSIMO</lem>
+                            <rdg><note>post <q>ILLVSTRISSIMO</q> add. <q>ET GENEROSISSIMO</q>
+                                    M</note></rdg>
+                        </app> PRINCIPI AC DOMINO D. <persName ref="Wilhelm, landgrave of Hessen"
+                            >WILHELMO</persName> LANDTGRAVIO HASSIÆ, COMITI IN CATZENELLEBOGEN,
+                        DIETZ, ZIEGENHAIN ET <app>
+                            <lem>NIDDA</lem>
+                            <rdg><note>post <q>NIDDA</q> add. <q>&amp;C</q> M</note></rdg>
+                        </app>: PRINCIPI <app>
+                            <lem>AC</lem>
+                            <rdg wit="#M">ET</rdg>
+                        </app> DOMINO SUO CLEMENTISSIMO <app>
+                            <lem>S. P.</lem>
+                            <rdg wit="#M">SALUTEM ET OBSEQUIUM</rdg>
+                        </app></opener>
+                
+                
+                    <p>LITERAS Celsitudinis Tuæ Princeps Illustriss. ad me circa Vernum tempus
+                        proxime elapsi Anni datas, quibus meis respondere dignabaris, per eundem
+                        quem ad Tuam Cels. ablegaueram mihi domesticum, <app>
+                            <lem>accepi</lem>
+                            <rdg wit="#M">recepi</rdg>
+                        </app>, pro qua clementi Tuæ Celsitud. erga me beneuolentia, <app>
+                            <lem>demisse</lem>
+                            <rdg wit="#M">maximas humiliter</rdg>
+                        </app> ago gratias. Quod <app>
+                            <lem>vero</lem>
+                            <rdg><note>post <q>vero</q> add. <q>hactenus</q> M</note></rdg>
+                        </app> tanto temporis interuallo, nihil <app>
+                            <lem>ijs responderim</lem>
+                            <rdg wit="#M">responsi dederim</rdg>
+                        </app>, et T. Cels. desiderijs satisfacere tam diu intermiserim, licet etiam
+                        interea bis per <app>
+                            <lem>alias</lem>
+                            <rdg><note>post <q>alias</q> add. <q>peculiares</q> M</note></rdg>
+                        </app> a T. Cels. Literas hoc nomine commonefactus, non est quod Celsit. T.
+                        existimet, vel incuria quadam, vel data opera <app>
+                            <lem>factum</lem>
+                            <rdg wit="#M">tarditatem hanc diuturniorem admissam</rdg>
+                        </app> esse, sed locorum potius nimia intercapedo, raraque illuc mittendi
+                        Literas oportunitas, me a scribendo hactenus retardârunt. <pb ed="E" n="36"
+                        />Duobus enim saltem Anni temporibus, commodior hinc <placeName ref="Kassel"
+                            >Cassellas</placeName> versus <app>
+                            <lem>scribendi</lem>
+                            <rdg wit="#M">quidpiamm procurandi</rdg>
+                        </app>, conceditur occasio, cum videlicet ad vtrasque Nundinas <placeName
+                            ref="Frankfurt am Main">Francofordianas</placeName>
+                        <app>
+                            <lem>nostrates proficiscuntur</lem>
+                            <rdg><note>ex <q>a nostratibus proficiscitur</q> corr. M man.
+                                    sec.</note></rdg>
+                        </app>. Quapropter, cum paulo post <pb ed="TBOO" n="VI.64"/>nundinas vltimas
+                        vernales, Tuæ Celsitudinis literas accepissem, in eas quæ proxime
+                        sequebantur Autumnales, responsum differre <app>
+                            <lem>necessitas</lem>
+                            <rdg wit="#M">nunciorum penuria</rdg>
+                        </app> coëgit. <app>
+                            <lem>Vbi</lem>
+                            <rdg wit="#M">Cum</rdg>
+                        </app> vero circa id temporis, quo ad præteritas proxime elapso Autumno,
+                            <placeName ref="Frankfurt am Main">Francoforti</placeName> celebratas
+                        nundinas <app>
+                            <lem>Mercatores hinc eo</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> se <app>
+                            <lem>conferre vellent</lem>
+                            <rdg wit="#M">conferebant</rdg>
+                        </app>, cum quodam <app>
+                            <lem>Bibliopola</lem>
+                            <rdg><note>post <q>Bibliopola</q> add. <q>huic per qvem nunc has
+                                        litteras mitto inserviente</q> M</note></rdg>
+                        </app> sedulo egissem, vt paulo ante discessum, me in <placeName ref="Hven"
+                            >hac Insula</placeName> conueniret, secumque Literas T. Cels. Secretario
+                            <placeName ref="Kassel">Cassellis</placeName> tradendas asportaret. <app>
+                            <lem>Quod etiam ille promiserat, et præstare omnino constituerat.</lem>
+                            <rdg><note>uncis inclusit M</note></rdg>
+                        </app>
+                        <app>
+                            <lem>Sed</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> accidit <app>
+                            <lem>præter</lem>
+                            <rdg wit="#M">citra</rdg>
+                        </app> opinionem, vt ijs ipsis diebus, quibus illi huc accedendum foret,
+                        Illustris. Princeps <persName ref="Ulrich">VDALRICVS</persName><app>
+                            <lem/>
+                            <rdg wit="#M">Vldaricus</rdg>
+                        </app> Dux Megapolensis, vna cum Illustrissima <app>
+                            <lem>Principe</lem>
+                            <rdg wit="#M">Principissa</rdg>
+                        </app> Domina <persName ref="Elisabeth">ELIZABETHA</persName> Coniuge (quæ
+                        postea in ipso reditu <placeName ref="Mecklenburg">Mechelburgam</placeName>
+                        versus, antequam Mare <app>
+                            <lem>traiecisset</lem>
+                            <rdg wit="#M">trajecissent</rdg>
+                        </app>, magno omnium luctu diem obijt) et Fratris Filio Duce <persName
+                            ref="Sigismund">SIGISMVNDO</persName>, deducente illos ipsa etiam
+                        Sereniss. <persName ref="Sophie af Mecklenburg">REGINA</persName> nostra vna
+                        cum magno Nobilium Virorum comitatu, me hic <placeName ref="Uraniborg"
+                            >Vraniburgi</placeName> inuisere <app>
+                            <lem>sint dignati</lem>
+                            <rdg wit="#M">non sint dedignati</rdg>
+                        </app>, partim vt machinas Astronomicas, quibus has ædes refertas sciebant,
+                        coram contemplarentur, partim vt Inclytus Dux <persName ref="Ulrich"
+                            >VDALRICVS</persName><app>
+                            <lem/>
+                            <rdg wit="#M">Vldaricus</rdg>
+                        </app>, Pyronomicos meos labores (quibus non minorem quam Astronomicis
+                        operam impendo) et his inseruientem apparatum Mechanicum, penitius
+                        introspiceret. <app>
+                            <lem>Nam</lem>
+                            <rdg wit="#M">eo quod</rdg>
+                        </app> ipsius Celsitudo, multis ab hinc Annis, ijs exercitijs plurimum <app>
+                            <lem>delectatur</lem>
+                            <rdg wit="#M">delectetur</rdg>
+                        </app>, et non vulgaria in his, propria industria adinuenit, quemadmodum et
+                        Serenissima <persName ref="Sophie af Mecklenburg">Regina</persName> ipsius
+                        Filia, hisce Artificijs Spagyricis magnopere afficitur, quo nomine etiam
+                        præterito Anno, Mare hoc bis traijcere, nostrosque lares subire non <app>
+                            <lem>grauata est</lem>
+                            <rdg wit="#M">gravabatur</rdg>
+                        </app>. Cum itaque eo ipso tempore, quo T. Celsit. <app>
+                            <lem>commode</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> rescribendum esset, his tam Illustribus Hospitibus excipiendis
+                        occuparer, idque Bibliopola ille, qui me ex promisso accedere animum
+                        induxerat <placeName ref="København">Haffniæ</placeName> (eo quod inde
+                        nauigia Regia, quibus traijciendum erat, procurabantur) cognouisset,
+                        propositum mutauit, et ne Nundinarum, diutius præstolando, <app>
+                            <lem>tempus negligeret</lem>
+                            <rdg wit="#M">jacturam faceret</rdg>
+                        </app>, me, quem intelligebat <app>
+                            <lem>impeditum</lem>
+                            <rdg wit="#M">præpeditum</rdg>
+                        </app> esse, non accedens, itineri se commisit. Hinc itaque factum est, vt
+                        hac oportuna occasione Tuæ Celsit. rescribendi, præter omnem expectationem, <app>
+                            <lem>frustratus sim</lem>
+                            <rdg wit="#M">exciderim</rdg>
+                        </app>. Cumque ex eo tempore, nulla eiuscemodi commoditas Literas ad T.
+                        Cels. mittendi, mihi oblata fuerit, responsione, quamuis inuitus,
+                        supersedere cogebar, idque in hoc vsque tempus, quo hic <app>
+                            <lem>alter nostras Bibliopola</lem>
+                            <rdg wit="#M">alius vir, qvi olim mihi fuerat domesticus, et Bibliopolam
+                                apus nos agere constituit, eoqve nomine nunc</rdg>
+                        </app>
+                        <placeName ref="Frankfurt am Main">Francofurtum</placeName> ad vernales
+                        nundinas proficiscitur, mihi in perferendis ad T. Celsitud. Literis suam
+                        operam <app>
+                            <lem>polliceretur</lem>
+                            <rdg wit="#M">addiceret</rdg>
+                        </app>. Hæc vero eo pluribus T. Celsitud. ob id commemoro, vt intelligat
+                        nullatenûs mea incuria factum esse, quod in rescribendo iusto tardior
+                        fuerim. Tuam itaque Celsit. submisse rogatam volo, vt ob prædictas rationes
+                        moram hanc candide inter<pb ed="E" n="37"/>pretetur, meque clementer hac in
+                        parte excusatum habeat. <app>
+                            <lem>Quod ego sperans me pro eximia Celsitudinis Tuæ æquanimitate omnino
+                                impetraturum, nunc <pb ed="TBOO" n="VI.65"/>vtar oblata oportuniore
+                                rescribendi occasione, et ad singula capita in T. Celsitud. literis
+                                particulariter respondebo.</lem>
+                            <rdg wit="#M">Ne vero oblata hac oportuniore, per certum hunc et dudum
+                                mihi perspectum hominem, T. C. rescribendi occasione, hoc etiam
+                                tempore frustrarer, T. C. literis in singulis respondere, non
+                                diutius cunctandum duxi.</rdg>
+                        </app> Quod itaque Celsitudo Tua, in prioribus ad me datis literis
+                        responsionem ad meas continentibus, ab initio asserat, conuenientiam illam
+                        inter <persName ref="Rothmann">sui Mathematici</persName> Obseruationes, et
+                        meas in Cometa Anni 85. adeo exquisitam, admodum placuisse, et magni
+                        ponderis locum meruisse, id sane et me plurimum <app>
+                            <lem>oblectauit</lem>
+                            <rdg wit="#M">recreavit</rdg>
+                        </app>. Neque enim similem in aliorum Mathematicorum scriptis de Cometis
+                        aliquot præteritis cum ipso cælo, nostrisque Obseruationibus congruentiam,
+                        vspiam ferme inuenio, quod illorum in obseruando et demonstrando negligentia
+                        factum non dubito. Diuersitas autem, si qua erat inter <persName
+                            ref="Rothmann">Tuæ Celsi Mathematici</persName> et nostras in dicto
+                        Cometa animaduersiones, potius <app>
+                            <lem>inde</lem>
+                            <rdg wit="#M">ob id</rdg>
+                        </app> eueniebat, quod Stellarum fixarum loca, quarum vsus requirebatur, non
+                        præcise in ijsdem scrupulis assumserimus, licet ea ipsa, quæ in his nobis
+                        intercessit discrepantia, paucissimorum et nullius pene momenti scrupulorum
+                        fuerit, vt ex collatione cum nostris locis plenius videre licet. Inprimis
+                        vero mihi perceptu iucundum fuit, quod <persName ref="Rothmann">Tuæ
+                            Celsitud. Mathematicus</persName> nullam in eodem Cometa deprehenderit
+                        parallaxin, quemadmodum et ego vel nullam, vel pene insensibilem,
+                        multiplicibus et accuratis Obseruationibus inuenire potui. Ideoque plane in
+                        eo Rei veritate idipsum exigente consentimus, non in Elementari orbe, sed in
+                        supremo æthere genitum fuisse hunc Cometam, contra quam hactenus
+                        Peripatetici, et omnes fere Philosophi, ipsique adeo Mathematici, pro rato
+                        indubitatoque <app>
+                            <lem>asseuerârant</lem>
+                            <rdg wit="#M">asseverant</rdg>
+                        </app>. Quod etiam fieri posse, Noua illa, et miraculosa ad Cassiopeam
+                        Stella superioribus annis conspecta, vel ex proprijs Tuæ Celsitudinis
+                        Obseruationibus, quibus meæ apprime astipulabantur, liquidissime
+                        comprobauit. Imo et nos in 4. alijs Cometis interea conspectis nullum eorum
+                        infra Lunam, sed omnes in ipso æthere cursum suum absoluisse, e certissimis
+                        Obseruationibus Geometrica veritate demonstrauimus; vt ob id prorsus
+                        existimem omnes Cometas in ipso Cœlo supra Lunam generari, nullumque eorum
+                        vnquam Elementarem extitisse. Nam quod <persName ref="Regiomintanus"
+                            >Regiomontani</persName> et <persName ref="Vögelin">Vogelini</persName>
+                        Obseruationes in duobus Cometis veteribus, et recentiorum quorundam placita,
+                        in his ipsis, quorum nos inuestigationem per Instrumenta debita nacti sumus,
+                        diuersum ostendant, nihil moramur; Siquidem, quantum illorum Obseruationibus
+                        fidentium sit, vel in ipsis mundo congenitis sideribus perspectum habeamus.
+                        Et longe subtilioris artifici <app>
+                            <lem>existit</lem>
+                            <rdg wit="#M">existat</rdg>
+                        </app> parallaxes tam exiguas discernere, præsertim vbi motus proprij vna
+                        sit habenda consideratio, quam hactenus communiter vsitata apparentias
+                        cælestes scrutandi ratio, suppeditare queat. De toto vero hoc Cometarum <app>
+                            <lem>argumento</lem>
+                            <rdg wit="#M">negicio</rdg>
+                        </app> nostras Obseruationes, hisque innixas demonstrationes Tua Celsitudo
+                        vberius et sufficienter <app>
+                            <lem>sententiam nostram</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>
+                        <app>
+                            <lem>cognos<pb ed="E" n="38"/>cet</lem>
+                            <rdg wit="#M">perspiciet</rdg>
+                        </app> vbi <app>
+                            <lem>Opus</lem>
+                            <rdg><note>post <q>Opus</q> add. <q>hoc</q> M</note></rdg>
+                        </app>, quod nunc de hac ipsa materia ad<app>
+                            <lem/>
+                            <rdg wit="#M">in</rdg>
+                        </app> præ<pb ed="TBOO" n="VI.66"/>lum adorno, <app>
+                            <lem>in publicam vtilitatem euulgatum</lem>
+                            <rdg wit="#M">publicæ utilitati communicatum</rdg>
+                        </app> fuerit. Quantum ad Obseruationes Tuæ Celsitudinis mihi transmissas
+                        (quo etiam nomine Tuæ Celsitud. plurimas reuerenter habeo gratias) attinet,
+                        contuli eas tum inter se, tum vna cum meis diligenter, et quidem in
+                        distantijs ipsis nullum reperio alicuius momenti discrimen, quin tuum
+                        Instrumentum easdem præbeat, quas mei Sextantes. Id quod vel ex sola inter
+                        Regulum et Spicam ♍ intercapedine (eo quod Obseruatio hæc fiat iuxta
+                        extremos Sextantis limites, vnde etiam exiliores interuallorum Anguli minus
+                        dubij euadunt) manifestum redditur. Hanc enim Tuæ Celsitud. Sextans præbuit
+                        part. 54. M. 2; Nos eandem aliquoties vix Sexta parte vnius minuti
+                        (discrimine pene insensibili et nullius ponderis) minorem deprehendimus,
+                        attestantibus etiam cæteris distantijs Tuæ Celsitudinis cum nostris inuicem
+                        collatis, eum Sextantem, quem Tua Cels. in vsu habet, satis exactas, et ipsi
+                        cœlo congruas præbere intercapedines. Quod tamen vix eius opera factitatum
+                        opinor, qui structuram illius ad mei quem hic conspexerat (<app>
+                            <lem>quod</lem>
+                            <rdg><note>post <q>quod</q> add. <q>tamen</q> M</note></rdg>
+                        </app> proculdubio silentio præterijt) imitationem primum Tuæ Celsitudini
+                        ordinauit. Nota enim satis mihi est ipsius, in his Mechanicis rebus vel
+                        inquirendis, vel imitandis, minus exacta diligentia. Ideoque id potius
+                        propriæ T. Cels. industriæ, et Mathematici ipsius <persName ref="Rothmann"
+                            >Rothmanni</persName>, <persName ref="Bürgi">artificisque vna
+                            Mechanici</persName> ab ipsa experientia indagatæ solertiæ ascribendum
+                        censeo. Quod ad altitudines Meridianas mihi transmissas attinet, in ijs
+                        parum quiddam discriminis a meis inuentis reperio, adeo vt Declinationes
+                        Stellarum inde petitæ, in Borealibus, duobus propemodum vbique scrupulis
+                        abundent, in Australibus vero totidem deficiant, idque præsupposita
+                        Æquatoris inclinatione part. 38. M. 40. quæ ex ea Poli eleuatione, quam
+                            <persName ref="Rothmann">Rothmannus</persName> e Stellarum quarundam non
+                        occidentium vtraque altitudine mihi <app>
+                            <lem>perscripsit</lem>
+                            <rdg><note>in <q>præscripsit</q> corr. M</note></rdg>
+                        </app>, resultare deprehenditur. Cum autem satis perspectum haberem,
+                        Declinationes Stellarum a me indagatas in nullo minuto vel abundare, vel
+                        deficere, eo quod quinis vel senis varie fabricatis, iustæque magnitudinis
+                        Instrumentis, ita vt in quibusdam sexta pars minuti discerni commode queat,
+                        certô exploratæ essent: et satis vna mihi constaret, Tuam Celsitud. in
+                        Obseruationibus etiam, præsertim per hæc Neoterica organa reiteratis, summam
+                        adhibere curam et diligentiam, <app>
+                            <lem>vnde</lem>
+                            <rdg><note>post <q>vnde</q> add. <q>igitur</q> M</note></rdg>
+                        </app> hæc binorum scrupulorum inter nos diuersitas contingeret, primo mecum
+                        plurimum admirabar. Deinde cum eandem pene vbique esse differentiam
+                        considerarem, statim in mentem incidit, facile euenisse, vt vel
+                        pinnacidiorum non rite appositorum vitio bina scrupula iusto altius in Tuæ
+                        Celsit. Quadrante perspicerentur, vel etiam perpendiculi in vnico saltem
+                        minuto, non rite ordinati errore, qui vtrinque assumtus, tam in Poli quam
+                        Stellarum Meridianarum altitudine declinationem earundem binis variaret
+                        scrupulis, aut forte vtraque <pb ed="TBOO" n="VI.67"/>ratione. Id quod
+                        facile in Quadrante bicubitali euenire <pb ed="E" n="39"/>posse inde
+                        colligebam, quod etiam in duplo vel triplo maioribus, si non exactissima,
+                        tam in pinnacidijs, quam perpendiculo adhibeatur applicatio, facile dimidij,
+                        vel etiam integri scrupuli error obrepat. Nec enim diuisioni minus certæ,
+                        aut Centro deuio <app>
+                            <lem>hunc errorem</lem>
+                            <rdg><note>in <q>hoc erratum</q> corr. M man sec.</note></rdg>
+                        </app> imputandum duxi. <app>
+                            <lem>Habebam itaque</lem>
+                            <rdg wit="#M">Habebamque</rdg>
+                        </app> in animo Tuam Celsitud. per literas de his commonefacere, vt
+                        præcisiorem vel pinnacidiorum, vel perpendiculi, aut vtriusque simul
+                        examinationem denuo institueret, quo etiam in Declinationibus Stellarum, non
+                        minus quam in distantijs, exacta inter Tuæ Celsitud. obseruationes et meas
+                        conuenientia stabilietur. Verum dum oportuna mittendi literas occasione
+                        destituor, et circa Nundinarum <placeName ref="Frankfurt am Main"
+                            >Francofurtensium</placeName> tempora, <app>
+                            <lem>causa commemorata</lem>
+                            <rdg wit="#M">modo supradicto</rdg>
+                        </app> â scribendo impedior, <app>
+                            <lem>optime mihi, et ex voto</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> accidit, vt T. Cels. <persName ref="Rothmann">Mathematicus</persName>
+                        interea indicarit, se deprehendisse Quadrantem T. Cels. ob perpendiculi
+                        vitium altitudines priores ostendisse vno scrupulo vbique iusto maiores. <app>
+                            <lem>Quod si est (vti prorsus mihi persuadeo)</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> Poli sublimitatem vno etiam scrupulo minorem, et Æquatoris tantundem
+                        maiorem prouenire consentaneum erit, vt ea reuera sit <placeName
+                            ref="Kassel">Cassellis</placeName> part. 38. M. 41. Huic <app>
+                            <lem>itaque</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> si applicentur altitudines T. Cels. mihi transmissæ, ita vt singulis
+                        ob perpendiculi errorem vnicum adimatur scrupulum, satis exacte cum meis
+                        Stellarum declinationibus consentient. <app>
+                            <lem>Quare plurimum lætatus</lem>
+                            <rdg wit="#M">Plurimum itaque gavisus</rdg>
+                        </app> sum, per hoc vnicum scrupulum, in vitio perpendiculi emendatum, alium
+                        longe maiorem ob hanc, licet non adeo magnam, quæ Obseruationibus nostris
+                        intercedebat differentiam, animo meo inhærentem scrupulum ademptum esse.
+                        Omnes enim cœlestes Obseruationes ad exactam amussim, quatenus in sensus
+                        humanos cadant, instituendas censeo, adeo, vt si quid in his desideretur vel
+                        tantillum, pro <app>
+                            <lem>irritis</lem>
+                            <rdg wit="#M">irrito</rdg>
+                        </app> habeam. Vt vero Celsitudo Tua collationem vlteriorem inter suas et
+                        meas Obseruationes, tam quo ad intercapedines, quam quo ad altitudines
+                        Meridianas, siue inde petitas Declinationes instituere queat, mitto Tuæ
+                        Celsitud. aliquot Stellarum, tum aliarum, tum præsertim insigniorum, quæ
+                        iuxta Zodiacum sunt distantias, meis Sextantibus Trigonicis (sic enim eos
+                        appellare libuit) fideliter exploratas, et præterea sublimitates quasdam
+                        Meridianas Quadrantibus diuersis, inuicem tamen consentientibus indagatas,
+                        idque tum circa finem Anni 84. et labentem 85. tum etiam circa exitum
+                        proxime elapsi 86. et primum initium huius currentis 87. vt Tua Celsitudo eo
+                        expeditius, ad debita tempora suas altitudines cum meis conferre possit.
+                        Siquidem et his ipsis Annis post denuo redintegrata Instrumenta, Tuam
+                        Celsitudinem exactiorem altitudinum Stellarum dimensionem <app>
+                            <lem>notasse</lem>
+                            <rdg wit="#M">obtinuisse</rdg>
+                        </app>, nullatenus dubitem. Nouit enim apprime Tua Celsitudo Declinationes
+                        Stellarum, et ob id etiam earundem altitudines, quotannis aliquantulum <app>
+                            <lem>variare</lem>
+                            <rdg wit="#M">variari</rdg>
+                        </app>, idque præsertim in ijs sideri<pb ed="TBOO" n="VI.68"/>bus, quæ
+                        Æquinoctialibus locis propiora existunt. Eleuatio vero Æquatoris in nostris
+                        sublimitatibus Stellarum adhibenda venit part. 34. /. <app>
+                            <lem>5⅓.</lem>
+                            <rdg wit="#Vindob.10689.10">5½.</rdg>
+                        </app> eo quod crebris <pb ed="E" n="40"/>experimentis adinuenerim, Polum
+                        hîc <placeName ref="Uraniborg">Vraniburgi</placeName>, in loco meæ
+                        Obseruationis, qui est medius Insulæ <placeName ref="Hven">Huenæ</placeName>
+                        in celebri illo <placeName ref="Øresund">Freto Danico</placeName> sitæ,
+                        partibus 55. scr. <app>
+                            <lem>54⅔.</lem>
+                            <rdg wit="#Vindob.10689.10">54½ vel potius ad summum 54⅔</rdg>
+                        </app> attolli, id quod tam ex ipsa Polari Stella, quam cæteris
+                        circumpolaribus non occidentibus, et ob decliuitatem non <app>
+                            <lem>nimium</lem>
+                            <rdg><note><q>nimiam</q> E M Vindob.10689.10: corr. T</note></rdg>
+                        </app> sensibilem, refractionem excludentibus sideribus, multoties
+                        comprobatum habeo. Longitudines et latitudines Stellarum a Tua Celsitud.
+                        mihi communicatas, etiam tum inter se, tum cum meis contuli, deprehendique
+                        assignationem illam e Globo Mechanice institutam, etsi non admodum
+                        disconuenientem, tamen non vbique satis scrupulose annotatis distantijs et
+                        altitudinibus correspondere, quamuis perexigua in quibusdam reperiatur
+                        differentia. Quemadmodum Celsitudo Tua ex nonnullis, quas in adiuncta charta
+                        annotaui collationibus, perspicere potest. Nec sane mihi vsque adeo mirum
+                        videtur, mechanice in Globo perquisitas e distantijs et Altitudinibus
+                        Stellarum longitudines et latitudines non in ipsis scrupulis exactæ rationi
+                        consentire. Siquidem et ego Globum magnum Orichalcicum <app>
+                            <lem>apprime</lem>
+                            <rdg wit="#M">exacte</rdg>
+                        </app> rotundum habeam, qui Sex pedes in diametro contineat, in quo
+                        Ecliptica, Æquatorque in singula scrupula, per puncta transuersalia, more
+                        nobis in cæteris Instrumentis vsitato, subtiliter diuiduntur; nihilominus
+                        tamen in vno vel sesquialtero scrupulo vbique ratam certitudinem in
+                        Stellarum locis per Globum hunc ex Obseruationibus certis indagandis vix
+                        mihi polliceor; Adeo ea, quæ Mechanice, licet summa diligentia elaborantur,
+                        Geometricæ et Arithmeticæ scrupulositati posthabenda veniunt. In ipsis vero <app>
+                            <lem>Longitudinibus</lem>
+                            <rdg><note><q>LoDgitudinibus</q> E: corr. T</note></rdg>
+                        </app> Stellarum a Tua Celsitudine mihi transmissis, <app>
+                            <lem>quamuis</lem>
+                            <rdg wit="#M">ut qvamvis</rdg>
+                        </app> Geometrice, et per numeros Sinuum exactiori trutina expendantur, <app>
+                            <lem>vtplurimum</lem>
+                            <rdg><note>ante <q>vtplurimum</q> add. <q>tamen</q> M man.
+                                sec.</note></rdg>
+                        </app> quina vel sena aut circiter scrupula, nostris Obseruationibus
+                        vlteriora ab æquinoctio numerari animaduerto. In Latitudinibus vero non
+                        maior fere reperitur differentia, quam quæ vel ex Longitudinibus paulo
+                        aliter assumtis, vel Obliquitatis Eclipticæ diuersa constitutione,
+                        potissimum vero e Declinationibus, duobus minutis perpendiculi vestri vitio
+                        a nostris dissidentibus, causari poterat. Est sane discrimen hoc etiam
+                        Longitudinum, nedum Latitudinum, non adeo magni <app>
+                            <lem>momenti</lem>
+                            <rdg><note><q>momcnti</q> E: corr. T</note></rdg>
+                        </app>, si veterum et Neotericorum quorundam conferamus annotationes. Nec
+                        satis mirari possum Celsitudinem Tuam, tam prope suis Instrumentis Stellarum
+                        loca attigisse, præsertim cum colligere queam, Celsitudinem Tuam in
+                        Aldebora, vel quacunque alia pro fundamento vsa sit, Ascensionem eius Rectam
+                        ex transitu per Meridianum, tempore per Horologium inuento et cum Sole
+                        collato, deprehendisse. Quæ sane ratio mihi semper minus tuta videbatur.
+                        Licet enim et ego quaterna eiusmodi <app>
+                            <lem>habeam</lem>
+                            <rdg wit="#M">obtineam</rdg>
+                        </app> Horologia <pb ed="TBOO" n="VI.69"/> diuersæ magnitudinis, exactæque
+                        structuræ, quæ non solum singula scrupula prima, sed etiam secunda indicent;
+                        in tam subtili tamen negotio eis fidem adhibere frustraneum <app>
+                            <lem>duxi</lem>
+                            <rdg><note>ante <q>duxi</q> add. <q>semper</q> M</note></rdg>
+                        </app>, cum 4. saltem secunda, quæ in pluribus horis facile excidunt, <pb
+                            ed="E" n="41"/>vnius scrupuli <app>
+                            <lem>primi</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> in longitudine errorem inducant. Adde quod Horologia ista etiam
+                        diligentissime, vel e rotulis Aurichalcicis elaborata, mutationi aëreæ
+                        sensibiliter obnoxia sint. Taceo <app>
+                            <lem>pondus non esse</lem>
+                            <rdg wit="#M">qvod ponsus non sit</rdg>
+                        </app> æquale, quando sublimius decliuiusque pendet, ob ligamenti, quo
+                        annectitur, variatam Longitudinem, quæ ponderi aliquid successiue addit,
+                        quod licet perexiguum sit, tamen in scrupulis secundis deuiationem non
+                        negligendam <app>
+                            <lem>adfert</lem>
+                            <rdg wit="#M">insinuat</rdg>
+                        </app>. Quapropter, cum hac ratione negotium hoc non satis tuto succedere
+                        perspectum haberem, nec ignorarem, difficultatem haud exiguam subesse, vt
+                        vel vnius Stellæ Fixæ vera ab Æquinoctio peruestigaretur remotio, qua
+                        cognita <app>
+                            <lem>cæteræ</lem>
+                            <rdg><note>post cæteræ add. <q>qvotqvot liberet</q> M</note></rdg>
+                        </app>, vel per distantias ab inuicem, vel per differentias Æquatorias, aut
+                        etiam per Armillas Hipparchicas Zodiacales, quas vna in vsu habemus,
+                        certiori tamen compendio elaboratas, quam a <app>
+                            <lem>veteribus</lem>
+                            <rdg><note>post <q>veteribus</q> add. <q>factitatum est</q>
+                                M</note></rdg>
+                        </app>, <app>
+                            <lem>cæteræ (inquam) quotquot liberet,</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> facile constarent. Nec modum illum quo veteres, <persName
+                            ref="Hipparchos">Hipparchus</persName> inprimis et <persName
+                            ref="Ptolemaios"><app>
+                                <lem>Ptolemæus</lem>
+                                <rdg><note><q>Ptolomæus</q> M man. pr.</note></rdg>
+                            </app></persName> Vsi sunt, superioreque ætate <persName
+                            ref="Copernicus">NICOLAVS COPERNICVS</persName>, per Lunam diei et
+                        noctis participem, tam Soli, quam Stellis per Instrumenta applicatam, suis
+                        carere difficultatibus, errorique minus <app>
+                            <lem>obnoxium</lem>
+                            <rdg wit="#M">obnoxium</rdg>
+                        </app> esse iudicarem. Nam licet concedamus, locum Solis adhibita exquisita
+                        diligentia, in vno vel altero scrupulo, quo ad longitudinem scitu
+                        possibilem, et intercapedinem eius ad Lunam, huiusque ad Stellas, satis
+                        exacte dabilem esse; tamen Parallaxes Lunares, quæ adeo præcise non
+                        cognoscuntur, in vtraque Obseruatione variationem aliquam a vero inducunt.
+                        Adde quod hæc ratio obseruandi non commode fit, nisi Sole circa Horizontem
+                        decliui existente, vbi alius est eius locus apparens, quam verus, qui iuxta
+                        Meridianum patuit, idque non saltem ratione parallaxeos, sed multo potius ob
+                        Refractionem, de qua in prioribus literis Tuæ Celsitud. meam sententiam
+                        latius indicaui; et intelligo ex Tuæ Celsitudinis responso, eam <app>
+                            <lem>etiam</lem>
+                            <rdg><note>post <q>etiam</q> add. <q>sensibilem</q> M</note></rdg>
+                        </app> tam in Sole, quam cæteris Planetis et Fixis, deprehendisse in
+                        decliuiori situ Refractionem <app>
+                            <lem>sensibilem</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>; Quo nomine <app>
+                            <lem>eius de</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> nostris vtrinque Obseruationibus plurimum congratulor. Nec enim
+                        Veteres, vel Recentiores, quod sciam, hanc in siderum collimationibus
+                        animaduerterunt, vel debite præcauerunt. Hac, inquam, ab antecessoribus
+                        nostris strata via, cum satis tuto incedere ob prædictas aliasque plures
+                        rationes non liceret, commodiori et tutiori semita, quæ ad Stellarum exactas
+                        Longitudines perduceret, ingrediendum censui, nullamque aptiorem
+                        exactioremque inueni, <app>
+                            <lem>quam quæ ex opportunitate nobis, Anno 1582</lem>
+                            <rdg wit="#M">qvam eam qvæ ex oportunitate illa qvæ nobis Anno 1582
+                                accidit</rdg>
+                        </app>. quo Veneris Stellam Vespertinam existentem interdiu dilucide
+                        apparentem conspeximus, offerebatur. Tunc enim Venerem a Sole <pb ed="TBOO"
+                            n="VI.70"/>in exacta distantia, a 24. Februarij vsque in medium Aprilis,
+                        pluribus quam facile credi possit, vicibus, diurno tempore diligentissime
+                        obseruauimus, idque non solum in decliuiori Solis situ, sed multoties, cum
+                        is vel in Meridiano, vel saltem vnica, aut sesquialtera hora, vltra hunc
+                        remoueretur, et ♀ admodum <pb ed="E" n="42"/>sublimis vna existeret, adeo,
+                        vt et ipsius per Meridianum transitus, Sole adhuc multum eleuato, a nobis,
+                        tam quo ad altitudinem, quam distantiam a Sole, sæpenumero deprehensus sit.
+                        Quare, cum locus Solis, et ex altitudinibus Meridianis, ac per antecedentium
+                        annorum a nobis adamussim in motu eius factam restitutionem satis exacte
+                        constaret, ex Declinatione Veneris et Solis, data vtriusque per Sextantem
+                        exquisita et sibi consentiente distantia, (ita vt Sol vnum pinnacidium
+                        illuminaret tota sua quantitate; per alterum vero, Venus vtrinque per
+                        rimulas Cylindro superiori parallelas conspiceretur) locus Stellæ Veneris
+                        certo patuit. Qui nocturno tempore, quamprimum Affixarum aliqua iuxta
+                        Zodiacum aspectui offerebatur, per acceptam eius ab hac intercapedinem pari
+                        ratione applicatus, habita prius motus proprij interea transacti ratione,
+                        Stellæ eiusdem locum manifestauit, idque sæpenumero fiebat in diuersis etiam
+                        Stellis, cum Sol, Venus, et Fixæ obseruatæ vbique fere essent in tanta supra
+                        Horizontem altitudine, vt Refractionem omnem excluderent. Si qua vero
+                        interdum erat perexigua, ea ex alijs Obseruationibus circa hanc factis,
+                        præcauebatur. Hac itaque infallibili Methodo in Longitudinis Stellarum
+                        exactam notitiam tunc temporis multiplici experimento in idem recurrente, et
+                        Stellarum earundem inter se distantijs eandem comprobante, optime ex voto
+                        deueni. Adhibui etiam vbique Parallaxes tam Solis, quam Veneris, quatenus
+                        per horarum interualla <app>
+                            <lem>variabantur</lem>
+                            <rdg><note><q>variebantur</q> E M: corr. T</note></rdg>
+                        </app>, vt eo exactior ratio constaret. Imo vero et ipsius Veneris
+                        Parallaxes peruestigare eodem anno non dubitabam, vt, an circa, vel infra
+                        Solem conuolueretur, certius pateret. Quod etiam in Stella Martis in fine
+                        prioris, et circa eiusdem anni initia experiri audebam, quando is <app>
+                            <lem>Acronychus</lem>
+                            <rdg wit="#M">Acronicus</rdg>
+                        </app> et sublimis in ♋ latitudine etiam Borea eum altius attollente
+                        conspiciebatur, vt indagarem an Sole maiorem diuersitatem aspectus
+                        induceret, quod necessarium foret, si <persName ref="Copernicus"
+                            >Coperniana</persName> Hypothesis in rei veritate consisteret. Nam
+                        tertia fere parte per hanc Mars in ☍ Solis terris redditur propior quam ipse
+                        Sol. Vnde etiam tunc maiorem Parallaxis diuersitatem necessario inducit, et
+                        per consequens, Orbes Reuolutionum Martis nequaquam totaliter supra Orbem
+                        Solarem, vt ferunt Hypotheses <persName ref="Ptolemaios"><app>
+                                <lem>Ptolemaicæ</lem>
+                                <rdg><note><q>Ptolomaicæ</q> M, et sic sæpius</note></rdg>
+                            </app></persName>, constituuntur. Ideoque vel rotari Terram annuo motu,
+                        quo Planetarum excusantur omnes Epicycli; vel aliam cælestium Reuolutionum <app>
+                            <lem>dispositionem</lem>
+                            <rdg wit="#M">Symmetriam</rdg>
+                        </app>, quam hactenus factitatum, indagandam esse. Verum hæc nunc extra
+                        propositum dicta, alias dilucidius et copiosius, Deo volente declarabuntur.
+                        Cum itaque (vt ad rem redeam) <pb ed="TBOO" n="VI.71"/>prædicta minime dubia
+                        ratione a Sole per Venerem indicato anno, in cognitionem Longitudinis
+                        aliquot insigniorum fixarum Stellarum circa Zodiacum, earum latitudine se
+                        facile vna ingerente, peruenissem; et ex Obseruationibus quibusdam alijs,
+                        Anno 85. circa autumnale Æquinoctium acceptis, quo tempore Veneris Stella
+                        tunc Matutina, etiam interdiu conspiciebatur, idque in consi<pb ed="E"
+                            n="43"/>mili fere, qua Anno 82. tum distantia a Sole, et Terra, tum
+                        etiam altitudine supra Horizontem (quod negotij certitudinem plurimum
+                        promouit) omnia viceuersa exploratius comprobassem, hinc reliquarum etiam
+                        affixarum Stellarum, tam intra quam extra Zodiacum loca, quo ad longum et
+                        latum restituere, vnaque Planetarum omnium per hæc apparentias peruestigare,
+                        nulla temporis sereni opportunitate <app>
+                            <lem>hactenus intermissa</lem>
+                            <rdg wit="#M">intermissa hactenus</rdg>
+                        </app>, elaboraui. Deprehendo autem in quamplurimis Stellis idipsum, quod T.
+                        Cels. mihi perscribit, eas non saltem Longitudines <app>
+                            <lem>aliter</lem>
+                            <rdg><note>om. E: add. TBOO ex M</note></rdg>
+                        </app> obtinere, quam Veterum traditiones adiecta quoque Æquinoctij
+                        præcessione correctiore exhibent, sed etiam Latitudines multo aliter, in
+                        quibusdam minus, in quibusdam vero plus, ostendere; cum tamen has necessario
+                        inuariatas omni æuo permanere inde a vetustissimis Astronomis, eo quod motus
+                        octauæ Sphæræ circa Polos Eclipticæ contingat, citra omne dubium pro
+                        comperto habeatur. Vnde Cels. T. merito in eius variationis admirationem
+                        perducta, etiam meum de hac re iudicium clementer requirit, an videlicet
+                        singulis Fixis aliquem peculiarem motum per se <app>
+                            <lem>inesse</lem>
+                            <rdg wit="#M">subesse</rdg>
+                        </app>, quo Latitudinem quoque diuersimode mutent, consentaneum existimem.
+                        Qua de re T. Cels. breuibus meam sententiam nunc exponam. Loca omnium
+                        affixarum Stellarum inde a prima mundi Origine in singulis et omnibus, quo
+                        ad se inuicem, prorsus inuariata permanere, omni dubio procul iudico. Idque
+                        inde facile comprobatur, quod omnes fixæ Stellæ, quas recenset <persName
+                            ref="Ptolemaios">Ptolemæus</persName> primo capite dictionis 7. ab
+                        Abrachi seu <persName ref="Hipparchos">Hipparcho</persName> proxime 260.
+                        ante se annis in vna extitisse linea recta, easdem etiam suo æuo in eodem
+                        situ, quo ad se inuicem, permansisse. Cumque eædem tum etiam illæ, quas
+                        postea addit <persName ref="Ptolemaios">Ptolemæus</persName>, vt Posteris
+                        ansam experimentandi relinqueret, etiam hac ætate elapsis ab ipso annis
+                        1400. eundem prorsus, quem idem <persName ref="Ptolemaios"
+                            >Ptolemæus</persName> recenset, positum exacte retinere animaduertantur
+                        (quod nequaquam fieri posset si vna Stella aliter siue Longitudinem siue
+                        Latitudinem, quo ad propriam Sphæram mutaret, quam altera) facile
+                        ratiocinari licebit, omnia affixa Sidera in eodem, quo ad se ipsa situ,
+                        citra Latitudinis vel Longitudinis diuersam inordinatamque mutationem omni
+                        æuo consistere. Quod vero quædam reperiantur Fixæ etiam inter insigniores,
+                        quæ multo aliam latitudinem obtineant, quam <persName ref="Hipparchos"
+                            >Hipparchus</persName> et <persName ref="Ptolemaios"
+                            >Ptolemæus</persName> annotârunt, id partim eorum minus exacta
+                        Obseruatione, partim tot transcriptorum, qui forte negotij subtilitatem
+                        ignorabant, negligentia commissum <app>
+                            <lem>verisimile</lem>
+                            <rdg wit="#M">verosimile</rdg>
+                        </app> est. <app>
+                            <lem>Etenim</lem>
+                            <rdg wit="#M">Cum</rdg>
+                        </app> vix ante 150. <pb ed="TBOO" n="VI.72"/>annos artificium Typographicum <app>
+                            <lem>excogitatum</lem>
+                            <rdg><note>post <q>excogitatum</q> add. <q>sit</q> M</note></rdg>
+                        </app>, et prius tanto temporum interuallo toties rescribendo multa mendose,
+                        præsertim in numerorum Characteribus assignari poterant, cum etiam in hac
+                        ipsa arte impressoria, nisi diligens adhibeatur correctura, facilis,
+                        præsertim in hac materia, lapsus admittatur. Accedit et hoc, quod certis
+                        documentis in quamplurimis affixis circa Zodiacum præsertim Sideribus,
+                        cælitus comprobetur per eam, quæ a <persName ref="Timochares"><app>
+                                <lem>Timocharis</lem>
+                                <rdg><note><q>Timocharidis</q> M, ut sæpius</note></rdg>
+                            </app></persName>, <persName ref="Hipparchos">Hipparchi</persName> et
+                            <persName ref="Ptolemaios">Ptolemæi</persName> temporibus, hucusque
+                        facta est inclinationis Eclipticæ ad Æquatorem immutationem, Latitudines
+                        omnium <pb ed="E" n="44"/>affixarum Stellarum, pro ea ratione, qua Tropicis
+                        locis illarum longitudines magis minusue appropinquant, vna etiam successiue
+                        variatas esse. Quod sane mirum videtur, cum alias octauæ Sphæræ motum circa
+                        Polos Eclipticæ fieri, ob latitudines Stellarum, non aliter, quam minutula
+                        hac <app>
+                            <lem>obliquitatis</lem>
+                            <rdg wit="#M">obliqvationis</rdg>
+                        </app> Signiferi diuersitate, <app>
+                            <lem>imminutas</lem>
+                            <rdg wit="#M">immutatas</rdg>
+                        </app> certo constet. Quia vero intelligo ex literis Tuæ tCelsitud.
+                        Mathematici <persName ref="Rothmann">Rothmanni</persName>, eum in eadem
+                        mecum sententia hac in parte versari, latius ad illum de hoc negotio
+                        perscripsi, et per plurimarum Stellarum certiores Obseruationes, remotis
+                        intercidentibus dubijs, in concepta opinione confirmaui. Hinc Tua Celsitudo
+                        aliqualem in latitudinibus quarundam Stellarum, variationis occasionem
+                        intelliget. Si vero quæ maior coincidit, hanc vel ex Veterum minus certa
+                        annotatione, vel Transcriptorum lapsu, vt prius dixi, euenire necessarium
+                        est. <app>
+                            <lem>Cæterum vt</lem>
+                            <rdg wit="#M">Vt autem</rdg>
+                        </app> Tua Celsitudo perspectius cognoscat, quo situ Stellarum fixarum loca
+                        a me, supradicta ratione indagata sint, descripsi quarundam præcipuarum,
+                        præsertim iuxta Zodiacum, Longitudines et latitudines, quas ad principium
+                        huius labentis Anni redegi, prout hæ nostris exactioribus Obseruationibus
+                        deprehensæ sunt, vt T. Cels. ea loca cum suis expeditius conferre possit.
+                        Plurium Stellarum assignationem addere non duxi operæ precium, cum vel ex
+                        paucioribus, imo ex vnica recte constituta, cæteræ omnes cui Instrumenta
+                        commoda et certa ad manus sunt, facile innotescant. Interuallum autem motus
+                        ab Anno 82. quo aptissimas in his, vt supra indicaui, Obseruationes nactus
+                        sum, non ex <persName ref="Copernicus">Coperniana</persName> Æquinoctiorum
+                        mutatione (quam is e Spica ♍ obseruata, in primam Stellam ♈, retento
+                        interuallo longitudinis <persName ref="Ptolemaios">Ptolemaico</persName>, et
+                        Cælo inconsulto, deriuauit) nec ab <persName ref="Alfonso 10."
+                            >Alphonsina</persName> numeratione mutuatus sum, sed ex ipsa <persName
+                            ref="Copernici">Copernici</persName> Obseruatione in dicta spica ♍ Anno
+                        1525. habita, et cum nostra recentiori collata, negocium hoc absolui. Cum
+                        enim <persName ref="Copernicus">Copernicus</persName> asserat, eo Anno
+                        fuisse Spicæ Altitudinem Meridianam grad. 27. M. 0. et Polus <placeName
+                            ref="Frombork">Fruenburgi</placeName> eleuetur part. 54. M. 22¼. <app>
+                            <lem>velut</lem>
+                            <rdg><note>post <q>velut</q> add. <q>ipsemet</q> M</note></rdg>
+                        </app> proprio exquisitoque Instrumento ante Triennium periculum fieri <app>
+                            <lem>per Studiosum quendam eo cum Organo a me missum</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> curaui, fuit declinatio Spicæ tunc part. 8. Min. 37¾. ideoque assumta
+                        eius latitudine, grad. 1. min. 59½. qualem nos adinueni<pb ed="TBOO"
+                            n="VI.73"/>mus (dimidio saltem scrupulo <persName ref="Copernicus"
+                            >Copernici</persName> positione minorem, quod nihil negocium hoc variat,
+                        cum vtrobique eandem præsupponam) prouenit Longitudo Spicæ ad id tempus <app>
+                            <lem>in part. 17. M. 14. ♎</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app>, licet ipse <persName ref="Copernicus">Copernicus</persName>
+                        <app>
+                            <lem>hanc</lem>
+                            <rdg wit="#M">eam</rdg>
+                        </app> 7. scrupulis vlteriorem constituat, idque procul dubio, vitio minus <app>
+                            <lem>exquisite</lem>
+                            <rdg wit="#M">exqviisitæ</rdg>
+                        </app> cognitæ Eleuationis Polaris, quam credibile est ipsum per Solem ex
+                        altitudine maxima et minima, ratione ob refractionem in decliui situ
+                        fallaci, <app>
+                            <lem>inquisiuisse</lem>
+                            <rdg><note>post <q>inquisiuisse</q> præbet <q>in part. 17. M. 14. ♎</q>
+                                    M</note></rdg>
+                        </app>. Cumque hoc tempore Spica declinet ex nostris Obseruationibus part.
+                        8. M. <app>
+                            <lem wit="#E #M">57.</lem>
+                            <rdg wit="#T">37</rdg>
+                        </app> præcise, et assumta priori latitudine, eius Longitudo incidat in
+                        part. 18. M. 4. ♎, octaua Sphæra <app>
+                            <lem wit="#M">a</lem>
+                            <rdg wit="#E">&amp;</rdg>
+                        </app>
+                        <persName ref="Copernicus">Copernici</persName> Obseruatione hucusque,
+                        interuallo Anno<pb ed="E" n="45"/>rum 61. promota est M. 50. Quare Annis 73. <app>
+                            <lem>(modo non paucioribus)</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> vnum gradum nostro æuo conficit, cum tamen <persName ref="Copernicus"
+                            >Coperniana</persName> anticipatio æquinoctiorum nunc tardissimam fere
+                        Fixarum promotionem expostulet, ita vt centenis ferme Annis vnicum gradum
+                        absoluant. Hinc itaque patet quantum <persName ref="Copernicus"
+                            >Copernianis</persName> inuentis circa Æquinoctiorum præcessionem, vnde
+                        octauæ Sphæræ motus excusatur, (vt de Sole et cæteris nunc nihil dicam)
+                        inhærendum sit, <app>
+                            <lem>vtvt</lem>
+                            <rdg wit="#M">ut qvamvis</rdg>
+                        </app> subtilissime ab Astronomo incomparabili excogitatis. Sed apparentis
+                        motus octauæ Sphæræ exactam cognitionem vix vlli mortalium absolute
+                        perscrutabilem existimo. Siquidem nullam adhuc integram Reuolutionem <app>
+                            <lem>adimplerat</lem>
+                            <rdg wit="#M">adimplerit</rdg>
+                        </app>, et particulæ circuitus a <persName ref="Timochares"
+                            >Timochare</persName> per <persName ref="Hipparchos"
+                            >Hipparchum</persName>, <persName ref="Ptolemaios">Ptolemæum</persName>,
+                            <persName ref="Albategnius">Albategnium</persName>, et <persName
+                            ref="Copernicus">Copernicum</persName> ad nos diductæ non <app>
+                            <lem>sufficiunt</lem>
+                            <rdg wit="#M">sufficiant</rdg>
+                        </app>, nec si id præstarent, satis scrupulose <app>
+                            <lem>constant</lem>
+                            <rdg wit="#M">constent</rdg>
+                        </app>. Cum itaque per Experientiam prædicto modo anticipatio Æquinoctiorum
+                        circa hæc tempora innotuerit, facile erat motum proportionalem ab 82. Anno
+                        in hunc vel quosuis alios nostra ætate transferre. Non enim vnius hominis
+                        æuo aliquam sensibilem inæqualitatem hac in parte contingere consentaneum
+                        est. Congruere vero etiamnum hæc loca Stellarum Obseruationes meæ præterito
+                        Anno, et hoc ipso inde a principio Ianuarij factæ, sufficienter <app>
+                            <lem>declarant</lem>
+                            <rdg wit="#M">astipulantur</rdg>
+                        </app>. Quod vero in T. Celsitud. longitudinibus Stellarum Geometrice, ex
+                        intercapedinibus et Declinationibus in numeros redactis, quina vel sena, aut
+                        circiter, vtplurimum abundent scrupula, facile excusabitur, si constet
+                        Celsitud. T. <app>
+                            <lem>tunc loco Solis, in his limitandis, vsam fuisse,</lem>
+                            <rdg wit="#M">loco Solis, in his limitandis, vsam fuisse, tunc</rdg>
+                        </app> cum Sol versaretur circa <app>
+                            <lem>vernum Æquinoctium</lem>
+                            <rdg wit="#M">Æqvinoctium vernum</rdg>
+                        </app>, in parte Eclipticæ ascendente. Illic enim ratione illius vnici
+                        scrupuli, quod perpendiculi vitio causabatur, Declinatio Solis binis
+                        scrupulis sublimior, quam oportuit, reddebatur, ideoque locus eius quinis in
+                        longitudinem vlterior. Id quod etiam in Stellas fixas ad Solis locum
+                        adaptatas, necessario redundauit, licet circa Autumnale æquinoctium in parte
+                        Eclipticæ descendente, res hæc contrario modo se habeat. Vt vero Celsitudo
+                        T. etiam in cæteris erraticis Stellis aliquod specimen nostrarum
+                        Obseruationum <app>
+                            <lem>videat</lem>
+                            <rdg wit="#M">obtineat</rdg>
+                        </app>, adiungo omnium vera loca, qualia meis Instrumentis accurata <pb
+                            ed="TBOO" n="VI.74"/>animaduersione intra vnicam primi mobilis
+                        reuolutionem, ter hoc ipso Mense Ianuario ab initio noui anni deprehensa
+                        sunt. Quod licet alias rarius contingat, aliquoties tamen <app>
+                            <lem>superioribus annis a me</lem>
+                            <rdg wit="#M">a me superioribus annis</rdg>
+                        </app> factitatum est, præsertim Anno præcedenti in Octobri, cum ☿ eous
+                        multis diebus appareret. Solis motum, e Veneris situ, per Stellas fixas
+                        inquisito, cum per Declinationes impediente etiam Refractione hoc anni
+                        tempore minus <app>
+                            <lem wit="TBOO">certo</lem>
+                            <rdg wit="#E">ccrto</rdg>
+                        </app> haberi queat, comprobaui. Interdiu enim Venus etiam ante Meridianum
+                        hisce diebus, vel in ipso Meridie et ante, per puriorem serenitatem satis
+                        euidenter conspicitur. Refractionis vero parallaxeosque Solis et Veneris
+                        impedimenta prius in consimili altitudine explorata, remoui. Itidem etiam in
+                        Mercurio effeci, <app>
+                            <lem>cum is</lem>
+                            <rdg wit="#M">eo qvod</rdg>
+                        </app> admodum decliuis vix 5. gradibus altus obseruaretur. In cæteris <pb
+                            ed="E" n="46"/>hac limitatione opus non erat, <app>
+                            <lem>quod</lem>
+                            <rdg><note>om. E: add. TBOO ex M, ubi a man. pr. <q>eo qvod</q> scriptum
+                                    fuisse videtur</note></rdg>
+                        </app> sublimiores cælitus capiebantur. Addidi vero ad eadem tempora
+                        Obseruationis nostræ loca Planetarum Alphonsina et <persName
+                            ref="Copernicus">Coperniana</persName>, vt Tua Cels. vnico intuitu
+                        discrepantiam vtriusque calculi a Cælo ipso facilius conspiceret, quamuis
+                        sæpenumero multo plus, quam nunc exorbitent. Peto autem a T. Celsitud.
+                        quibus possum precibus, vt Obseruationes has nostras nemini communicare
+                        velit, cauereque, ne publicæ fiant, præsertim quantum ad Fixarum
+                        longitudines latitudinesque attinet, quas ob id etiam, peculiari charta,
+                        seorsim notari curaui. Nouit enim Tua Celsitudo <app>
+                            <lem>quam</lem>
+                            <rdg><note>om. M</note></rdg>
+                        </app> optime, quantum temporis, laboris, diligentiæ, et sumtuum requiratur,
+                        antequam <app>
+                            <lem>ad</lem>
+                            <rdg wit="#M">in</rdg>
+                        </app> huius rei exactam cognitionem peruenire liceat. Et sane nulli alteri
+                        in tota Germania, vel alibi, cuiuscunque esset conditionis, hæc mea inuenta
+                        communicarem, suppressique ea hactenus, quamuis a multis hoc nomine
+                        solicitatus. Plerique enim cum nihil per se egregij in his præstare velint,
+                        aliorum inuentis et laboribus sese ornare, eaque pro suis venditare, non
+                        sine graui autoris iniuria haud erubescunt. Verum non dubito Celsitud. Tuam
+                        hæc sibi soli reseruaturam, quemadmodum etiam Obseruationum T. Celsit. mihi
+                        communicatarum neminem facio participem. In <app>
+                            <lem>tota vero hac Astronomica tractatione</lem>
+                            <rdg wit="#M">toto vero hoc Astronomico negocio </rdg>
+                        </app>multo<app>
+                            <lem/>
+                            <rdg><note><q>multo</q> M man. sec.: <q>multa</q> E M man
+                                pr.</note></rdg>
+                        </app> plura essent, de quibus copiosius cum Tua Celsit. perlibenter agerem,
+                        sed nec charta, nec commoditas id nunc patitur. Habeo multorum <app>
+                            <lem>præterea</lem>
+                            <rdg wit="#M">præcedentium</rdg>
+                        </app> annorum accuratas et multiplices Obseruationes, non saltem in affixis
+                        Sideribus, sed etiam in omnibus erraticis, quotiescunque nobis aspectabiles
+                        illuxerunt, quas præclaræ possessionis loco (nec enim paucis Vigilijs, et
+                        exiguo labore ac diligentia comparatæ sunt) conseruo. Eas vero cum aliorum
+                        inuentis conferre, et <app>
+                            <lem>tandem</lem>
+                            <rdg wit="#M">successive</rdg>
+                        </app>, in vsum publicum <app>
+                            <lem>producere</lem>
+                            <rdg wit="#M">diducere</rdg>
+                        </app>, vt tota Astrorum scientia exacte apparentijs cælestibus satisfaciat,
+                        elaboro. Dedi autem in mandatis <app>
+                            <lem>huic viro</lem>
+                            <rdg wit="#M">harum allatori</rdg>
+                        </app>, vt Celsit. T. vel <persName ref="Rothmann">ipsius
+                            Mathematico</persName> plura, quam nunc scribere commodum erat, meo
+                        nomine <app>
+                            <lem>exponeret</lem>
+                            <rdg><note><q>exponat</q> M, qui addit <q>cui ut in his fidem adhibeat,
+                                        reverenter oro</q></note></rdg>
+                        </app>. Hæc vero eo prolixius ad Cels. Tuam nunc perscripsi, partim <pb
+                            ed="TBOO" n="VI.75"/>quod sciam Celsitud. T. his Astronomicis rebus
+                        impense delectari, partim vt moram in respondendo hactenus admissam ipsa in
+                        rescribendo copiâ <app>
+                            <lem>recompensarem</lem>
+                            <rdg><note><q>compensarem</q> M man. sec.</note></rdg>
+                        </app>. Ne vero modum in vtroque excedere videar, Tuamque Celsitud. nimia
+                        prolixitate molestem, nunc finem faciam, et cætera, si quæ hîc desiderantur,
+                        Tuæ Celsitud. <persName ref="Rothmann">Mathematico</persName> per literas
+                        indicabo. Id saltem Tuam Celsitud. Colophonis loco humiliter et obnixe <app>
+                            <lem>obtestor</lem>
+                            <rdg wit="#M">obtestatam habeo</rdg>
+                        </app>, vt omnibus neruis hanc diuinam Astrorum scientiam a mendis, quibus
+                        scatet, vindicare, excultioremque reddere, quod etiam suapte sponte hactenus
+                        egregie factitauit, in posterum magis magisque conari non intermittat. Hac
+                        enim ratione T. Celsit. apud omnem Posteritatem tam sublimem et diuinam
+                        scientiam <app>
+                            <lem>veneraturam</lem>
+                            <rdg wit="#M">venerantem</rdg>
+                        </app>, gratissimam diutissimamque sui memoriam conseruabit, quæ eo magis
+                        perpetua præstantiorque erit, quôd non e terrenis, et interitui obnoxijs
+                        rebus, <pb ed="E" n="47"/>quas vulgus suspicit, comparata sit. Nouit Celsit.
+                        Tua hoc studium non esse tenuioris fortunæ hominum, neque ab illis, etiamsi
+                        quam maxime cuperent, intelligerentque, debito modo excoli posse. Cumque
+                        nullus sit præter T. Celsit. inter omnes Europæ Principes Viros, quem Deus
+                        hoc Heroico ingenio ornârit, vt tam arduam scientiam penitius intelligat,
+                        eamque ab erroribus vindicare, et omnibus modis redintegrare nôrit, decet
+                        sane Tuam <app>
+                            <lem>Celsit.</lem>
+                            <rdg><note>post <q>Celsit.</q> add. <q>Principem adeo præcipuum</q>
+                                    M</note></rdg>
+                        </app> huius Principalis et Principis cognitione dignissimæ scientiæ præ
+                        cæteris viris Principibus <app>
+                            <lem>præcipuam</lem>
+                            <rdg wit="#M">principalem</rdg>
+                        </app> etiam curam gerere, eiusque instaurationem, et ad Posteritatem
+                        conseruationem, <app>
+                            <lem>omni conatu</lem>
+                            <rdg wit="#M">omnibus nervis</rdg>
+                        </app> moliri. Hoc etiam nomine Tua Celsit. suum Mathematicum <persName
+                            ref="Rothmann">CHRISTOPHORVM ROTHMANNVM</persName>, sibi præ alijs
+                        commendatum habeat, eo quod ipsum hisce exercitijs admodum solertem et
+                        fidelem nauare operam, ac exactæ veritatis percupidum esse indagatorem
+                        multis indicijs cognoscam. Verum superuacanee hæc Tuæ Cels. suggero, cum sua
+                        sponte animo sit ad res Astronomicas amplificandas propensissimo. In quo
+                        proposito Deus admirandæ et pulcherrimæ huius machinæ cælestis author, Tuam
+                        Celsit. quam diutissime, cum felici omnium animi et corporis bonorum
+                        successu confirmet. Valeat Tua Cels. et mecum de hoc ipso Æthereo et sublimi
+                        negotio vlterius conferre, suisque literis reuisere non dedignetur. </p>
+                    <closer>
+                        <dateline>Datæ <placeName ref="Uraniborg">Vraniburgi</placeName>
+                            <app>
+                                <lem>18. die Ianuarij</lem>
+                                <rdg wit="#M">Januarii die 18</rdg>
+                            </app>, Anno 87. </dateline>
+                        <signed>Tuæ Celsitudini addictissimus <lb/>TYCHO BRAHE.</signed>
+                    </closer>
+                </div>
+        </body>
+    </text>
+</TEI>

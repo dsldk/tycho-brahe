@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Triangulorum planorum et sphæricorum praxis arithmetica</title>
+                <title xml:lang="en">Triangulorum planorum et sphæricorum praxis arithmetica</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Praha</settlement>
+                                <repository>Národni Knihovna</repository>
+                                <collection>empty</collection>
+                                <idno>lat. 2761 (adlig. 14 C 20)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Studnička">
+                        <bibl>Tycho Brahe, <title>Triangulorum planorum et sphæricorum praxis
+                                arithmetica</title>, ed. F.I. Studnička, Praha 1886</bibl></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. I, Hauniæ 1913, p. 283-293</bibl></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <creation><date>1591</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>geometri</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-02-01" who="#pz">Filen etableret</change>
+            <change when="2020-02-23" who="#pz">tekst importeret og opmærket</change>
+            <change when="2020-02-25" who="#pz">tekst korrekturlæst</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <titlePage xml:id="titelblad">
+                <docTitle>
+                    <titlePart><pb ed="TBOO" n="I.283"/><pb ed="A" n="1r"/>TRIANGVLORVM PLANORUM ET
+                        SPHÆRICORUM PRAXIS ARITHMETICA QUA MAXIMUS EORUM PRÆSERTIM IN ASTRONOMICIS
+                        USUS COMPENDIOSE EXPLICATUR</titlePart>
+                </docTitle>
+                <docImprint> TYCHO BRAHE<lb/>CALEND. JANUAR. 1591 </docImprint>
+                <titlePart rend="it">
+                    <lg>
+                        <l>In Trigono invenies satagit quæ dicta Mathesis:</l>
+                        <l rend="indent">Ille aperit clausum quicquid Olympus habet.</l>
+                    </lg>
+                </titlePart>
+                <titlePart rend="rightMargin"><hi rend="it">A.C. 1595. 13. Cal. Decembris</hi>
+                </titlePart>
+            </titlePage>
+        </front>
+        <body>
+            <div n="De triangulis planis" xml:id="de-triangulis-planis">
+              <head><orig><pb ed="TBOO" n="I.285"/><pb ed="A" n="1v"/>DE TRIANGULIS PLANIS COMPENDIUM
+                  CONTINENS DOGMATA SEPTEM.</orig>
+                <reg>De triangulis planis</reg>
+                <reg xml:lang="en">De triangulis planis</reg>
+              </head>
+                <div n="Dogma I planorum">
+                    <head><pb ed="A" n="2r"/>DOGMA I PLANORUM.</head>
+                    <figure n="1" rend="right">
+                      <desc>Demonstratio huius Dogmatis.</desc>
+                      <graphic url="01_285a"/>
+                    </figure>
+                    <p><hi rend="it"><app>
+                                <lem>Trianguli Rectanguli</lem>
+                                <rdg>verba <q>Trianguli Rectanguli</q> etiam in margine praebet
+                                    A.</rdg>
+                            </app>, datis duobus lateribus circa rectum, datur uterque Angulorum cum
+                            Latere reliquo.</hi></p>
+                    <p rend="indent"><hi rend="it">Pro Angulis]</hi> Multiplica latus oppositum
+                        Angulo quæsito per totum, et productum divide per latus reliquum: <app>
+                            <lem>exit numerus, qui in areâ Canonis fœcundi quæsitus, angulum
+                                quæsitum ostendet</lem>
+                            <rdg>in margine leguntur verba <q>Idem per.</q></rdg>
+                        </app>; Reliquum Angulum dat huius complementum ad 90.</p>
+                    <p rend="indent"><hi rend="it">Pro latere]</hi> Quod recto subtenditur,
+                        multiplica alterum latus per totum, et divide in sinum Anguli, cui idem
+                        latus subtenditur: exit ipsum latus quæsitum, quod Angulo Recto
+                        opponitur.</p>
+                </div>
+                <div n="Dogma II planorum">
+                    <head><pb ed="A" n="3r"/>DOGMA II PLANORUM.</head>
+                    <figure n="2" rend="right">
+                      <graphic url="01_285b"/>
+                    </figure>
+                    <p><hi rend="it"/>Trianguli Rectanguli, datis duobus lateribus, quorum alterum
+                        circa rectum, alterum eidem opponitur, dantur Anguli, et reliquum latus.</p>
+                    <p rend="indent">Latus circa Rectum multiplica per totum, et divide per latus
+                        recto subtensum: exit sinus Anguli, cui latus illud subtenditur, cuius arcus
+                        complementum ad 90 dat tertium Angulum. Huius sinum si multiplicaveris per
+                        latus recto subtensum, et diviseris per totum, exit alterum latus circa
+                        rectum, quod quærebatur.</p>
+                </div>
+                <div n="Dogma III planorum">
+                    <head><pb ed="A" n="4r"/>DOGMA III PLANORUM.</head>
+                    <p><hi rend="it"/>Trianguli Rectanguli, dato altero acutorum cum uno latere,
+                        dantur reliqua duo latera.</p>
+                    <p rend="indent">I. Si latus Rectum subtendens Angulum fuerit datum, multiplica
+                        mensuram eius lateris per sinum Anguli, cui opponitur latus quæsitum, et
+                        divide per totum: exit latus, quod quærebatur. </p>
+                    <p rend="indent">II. Si vero alterum duorum laterum recto adiacentium detur, et
+                        volueris mensurare latus Rectum subtendens Angulum, multiplica latus datum
+                        per totum, et divide per sinum Anguli sibi oppositi: exit mensura lateris
+                        Recto oppositi.</p>
+                    <p rend="indent"><pb ed="TBOO" n="I.286"/>III. Si reliquum latus Recto adiacens
+                        voles inquirere, numerum lateris dati per sinum complementi Anguli sibi
+                        oppositi multiplica, et divide per eiusdem Anguli sinum: exit latus
+                        reliquum, quod quærebatur.</p>
+                </div>
+                <div n="Dogma IV planorum">
+                    <head><pb ed="A" n="5r"/>DOGMA IV PLANORUM.</head>
+                    <p><hi rend="it"/><app>
+                            <lem>Trianguli non Rectanguli</lem>
+                            <rdg>verba <q>Trianguli non Rectanguli</q> etiam in margine praebet
+                                A.</rdg>
+                        </app>, datis duobus lateribus cum Angulo comprehenso, dantur Anguli, et
+                        reliquum latus.</p>
+                    <p rend="indent">I. Si triangulum habuerit duo æqualia latera, Angulus datus
+                        dimidiatus, ablatus â 90, ostendit reliquos Angulos; Latus vero tertium
+                        habebis, si multiplicaveris latus per dimidium Anguli dati, et dividas per
+                        totum: exit dimidium reliqui lateris, quod duplica. </p>
+                    <p rend="indent">II.Si vero habuerit Triangulum inæqualia latera, et Angulus
+                        comprehensus fuerit acutus, multiplica maius latus datum, et divide per
+                        totum: exit inventum II, â quo aufer minus latus, et relinquitur inventum
+                        III. Jam duc inventum I in totum, et divide per inventum III: productum in
+                        Canone fœcundo dat complementum Anguli, qui lateri maiori opponitur. </p>
+                    <p rend="indent">Pro latere reliquo, multiplica inventum I per <pb ed="A" n="5v"
+                        />totum, et divide per sinum Anguli iam inventi, oppositi lateri maiori:
+                        exit latus reliquum, quod quærebatur. </p>
+                    <p rend="indent">At si Angulus obtusus fuerit, duc sinum complementi obtusi in
+                        maius latus, et divide per totum: exit inventum I. Deinde duc sinum obtusi
+                        in maius Latus, et divide per totum: exit inventum II. Postea adde I
+                        inventum dato minori lateri, et habebis inventum III. Jam duc inventum II in
+                        totum, et divide per inventum III: exit numerus Anguli, qui adiacet Lateri
+                        minori, in Tabulâ fœcundâ inquirendi. </p>
+                    <p rend="indent">Pro reliquo latere multiplica inventum II per totum, et divide
+                        per sinum Anguli modo inventi, qui adiacet Lateri minori: exit latus III,
+                        quod quærebatur. </p>
+                    <p rend="indent">NB. Est complementum ad 180, ubi Angulus is est obtusus.
+                        Complementum obtusi habes, subtrahendo ab eo 90. Sinum vero obtusi habes
+                        subtrahendo eum a 180, et residui sinum accipiendo, prioris complementum ad
+                            90<hi rend="sup">ta</hi>.</p>
+                    <lb/>
+                    <p rend="center"><pb ed="A" n="6r"/> COMPENDIOSIOR SOLUTIO HUIUS DOGMATIS ABSQUE
+                        DEMISSA PERPENDICULARI.</p>
+                    <p>I. Dati Anguli (acuti vel obtusi) complementum a semicirculo, id est 180,
+                        dimidia, et huius tangentem ex Canone Tangentium accipe. </p>
+                    <p rend="indent">II. Deinde adde minus latus datum lateri maiori dato, et
+                        aggregatum dimidia, quod erit inventum I. </p>
+                    <p rend="indent">III. Ab hoc invento primo subtrahe minus latus denuo, et
+                        residuum erit inventum II. </p>
+                    <p rend="indent">IV. Tertium autem inventum erit Tangens Anguli, ex complemento
+                        dati Anguli prius dimidiato.</p>
+                    <p rend="center"><pb ed="TBOO" n="I.287"/>Πρᾶξις.</p>
+                    <p>Duc iam inventum II in inventum III, et divide per inventum I: exit Tangens
+                        Anguli differentiæ Angulorum, quibus data latera subtendebantur. Itaque si
+                        hanc differentiam in Canone Tangentium inventam subtraxeris ab Angulo prius
+                        per complementum dimidiatum invento, <app>
+                            <lem>pa<pb ed="A" n="6v"/>tescet</lem>
+                            <rdg><q>patescet</q> ex <q>patescat</q> corr. A</rdg>
+                        </app> Angulus, cui minus datorum laterum subtendebatur. Hanc rursus si
+                        addideris eidem Angulo ex complemento invento, manifestatur angulus â maiori
+                        latere subtenso. Vel etiam, <app>
+                            <lem>datis</lem>
+                            <rdg>post <q>datis</q> add. <q>in</q> A, sed delevit</rdg>
+                        </app> duobus Angulis in Triangulis planis, tertius per eorum complementum
+                        ad semicirculum notus existit.</p>
+                </div>
+                <div n="Dogma V planorum">
+                    <head>DOGMA V PLANORUM.</head>
+                    <p><hi rend="it"/>Datis Trianguli non Rectanguli duobus lateribus cum Angulo
+                        opposito, vel duobus Angulis cum Latere, vel subtenso, vel adiacente,
+                        reliqua hinc invenire.<pb ed="A" n="7vr"/></p>
+                    <p rend="indent">.....................................</p>
+                </div>
+                <div n="Dogma VI planorum">
+                    <head><pb ed="A" n="8v"/>DOGMA VI PLANORUM.</head>
+                    <p><hi rend="it"/>Trianguli non Rectanguli, datis tribus lateribus, dantur omnes
+                        Anguli.</p>
+                    <p rend="indent">I. <app>
+                            <lem>ISOPLEURUM</lem>
+                            <rdg><q>Isopleurum</q> A in margine</rdg>
+                        </app>. In Triangulo trium Æqualium laterum, quod ISOPLEURUM vocant, Anguli
+                        60 partes obtinent. </p>
+                    <figure n="3" rend="right">
+                      <desc>Demonstratio huius dogmatis sexti Planorum.</desc>
+                      <graphic url="01_287"/>
+                    </figure>
+                    <p rend="indent">II. <app>
+                            <lem>ÆQUICRURIUM</lem>
+                            <rdg><q>Æquicrurium</q> A in margine</rdg>
+                          </app>. 
+                          
+                          In Triangulo duorum æqualium laterum, quod ÆQUICRURIUM vocant,
+                        dimidiam basin multiplica per totum, et divide per alterum æqualium laterum:
+                        exit sinus Anguli dimidij, â duobus æqualibus lateribus comprehensi. Quare,
+                        cum reliqui sint æquales, huius complementum ad 180, dimidiatam utriusque
+                        reliqui Anguli quantitatem indicabit. </p>
+                    <p rend="indent">II. <app>
+                            <lem>SCALENUM</lem>
+                            <rdg><q>Scalenum</q> A in margine</rdg>
+                        </app>. In Triangulo trium inæqualium laterum: accipe latus minus, et
+                        proxime maius, illa adde invicem, et subtrahe, ambo residua invicem
+                        multiplica, et productum divide per maximum latus: habes inventum I. Hoc ab
+                        eodem maximo latere aufer, et residuum dimidia, idque invento I adde, et
+                            habe<pb ed="A" n="9r"/>bis inventum II. Hoc inventum secundum multiplica
+                        per to<pb ed="TBOO" n="I.288"/>tum, et divide per latus medium, scilicet
+                        proxime maius minimo: exit sinus complementi Anguli, qui minimo lateri
+                        opponitur. Pro reliquo Angulo, accipe residui dimidium prius datum (per
+                        inventum semicompletum secundum) et latus minimum, tanquam oppositum Angulo
+                        (quod subintelligitur) recto, et per secundam huius dabitur Angulus
+                        oppositus lateri mediocri, ergo et tertius notus erit. </p>
+                </div>
+                <div n="Dogma VII planorum">
+                    <head><pb ed="A" n="9v"/>DOGMA VII PLANORUM.</head>
+                    <p><hi rend="it"/> Trianguli, tribus cognitis Angulis, latera singula
+                        invenire.</p>
+                    <p rend="indent">Anguli cuiusvis sinum duplica, et proveniet quantitas lateris
+                        oppositi huic Angulo, in talibus partibus, qualium semidiameter Circuli est
+                        sinus totus.</p>
+                </div>
+            </div>
+            <div n="De triangulis sphæricis" xml:id="de-triangulis-sphaericis">
+              <head><orig><pb ed="A" n="10r"/>SEQUITUR DE TRIANGULIS SPHÆRICIS COMPENDIUM CONTINENS
+                  DOGMATA NOVEM.</orig>
+                <reg>De triangulis sphæricis</reg>
+                <reg xml:lang="en">De triangulis sphæricis</reg>
+              </head>
+                <div n="Dogma I sphæricorum">
+                    <head><pb ed="A" n="11r"/>DOGMA I SPHÆRICORUM.</head>
+                    <p><hi rend="it"/><app>
+                            <lem>Trianguli Retanguli</lem>
+                            <rdg>verba <q>Trianguli Rectanguli</q> etiam in margine praebet A.</rdg>
+                        </app>, datis duobus lateribus, tertium Recto positum invenire.</p>
+                    <p rend="indent"><hi rend="it">Operatio]</hi> Minus latus, et complementum
+                        maioris invicem adde, et aufer, utriusque residui sinum adde, si
+                        complementum maioris lateris maius fuerit minore, alias subtrahe, et
+                        differentiæ cape dimidium, et habebis sinum complementi lateris reliqui
+                        inquirendi.</p>
+                </div>
+                <div n="Dogma II sphæricorum">
+                    <head><pb ed="A" n="12r"/>DOGMA II SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli Rectanguli, datis duobus lateribus, angulum
+                        quemcunque invenire.</p>
+                    <p rend="indent">Si latus rectum subtendens Angulum cum latere, quod opponitur
+                        Angulo inquirendo, data non fuerint, latus, quod ex his ignoratur, primum,
+                        per antecedentem operationem inquirendum erit, et hinc procedendum in hunc
+                        modum. Multiplica sinum lateris oppositi angulo quæsito per sinum totum, et
+                        productum divide per sinum lateris, rectum angulum subtendentis: provenit
+                        sinus Anguli inquirendi, cuius arcus illius Anguli quantitatem metitur.</p>
+                </div>
+                <div n="Dogma III sphæricorum">
+                    <head><pb ed="A" n="13r"/>DOGMA III SPHÆRICORUM.</head>
+                    <p><hi rend="it"/> Trianguli Rectanguli dato uno Angulo, cum Latere adiacente,
+                        reliquum Angulum, lateri dato oppositum invenire.</p>
+                    <p rend="indent"><hi rend="it">Operatio]</hi> Minus datum, et complementum
+                        maioris invicem adde, et aufer, utriusque residui sinus subtrahe, vel adde,
+                        si Angulus fuerit <pb ed="TBOO" n="I.289"/>maior latere adiacente, residui
+                        cape dimidium pro sinu complementi anguli quæsiti, vel sinus lateris
+                        oppositi angulo dato, quando angulus est maior latere adiacente. </p>
+                    <p rend="indent">NB. Habet locum, quando latus adiacens angulo recto fuerit
+                        datum: et notandum, quod, quam diu latus datum est minus Angulo dato, debent
+                        ambo addi, et auferri, et residuorum sinus coniungi, et dimidiari pro sinu
+                        complementi anguli quæsiti; quando vero latus est maius Angulo, potes uti,
+                        prout est in exemplo adscripto, per subtractionem sinuum, accipiendo ipsa
+                        data, non complementum maioris. Si vero utraque data Quadrantem excesserint,
+                        tunc operare per <pb ed="A" n="13v"/>complementum utriusque dati,
+                        subtrahendo invicem sinus aggregati, et differentiæ, quorum et dimidiando
+                        est sinus complementj Anguli quæsiti.</p>
+                </div>
+                <div n="Dogma IV sphæricorum">
+                    <head><pb ed="A" n="14r"/>DOGMA IV SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli Rectanguli, dato uno angulo, et quovis latere,
+                        reliqua invenire.</p>
+                    <p rend="indent">I. Si latus datum Angulo non recto dato opponatur, multiplica
+                        sinum ipsius lateris per totum, et per sinum Anguli dati divide: exit sinus
+                        lateris rectum subtendentis. Reliquum latus dabit Dogma I, Angulos vero
+                        Dogma II. </p>
+                    <p rend="indent">II. Si latus datum Recto opponitur Angulo, sinum eius per sinum
+                        anguli dati multiplica, et productum divide per totum: exit sinus lateris
+                        oppositi Angulo dato. Reliqua inquire per primum et secundum dogma, uti
+                        prius. </p>
+                    <p rend="indent">Si angulus Rectus, et angulus datus lateri dato insideant,
+                        operare per antecedentem pro reliquo Angulo: per sequentem vero pro reliquis
+                        lateribus. </p>
+                </div>
+                <div n="Dogma V sphæricorum">
+                    <head><pb ed="A" n="15r"/>DOGMA V SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli Rectanguli, datis duobus reliquis Angulis, latus
+                        quodcunque invenire.</p>
+                    <p rend="indent">Multiplica sinum complementi Anguli non recti, subtendentis
+                        sive oppositi, <app>
+                            <lem>lateri</lem>
+                            <rdg>post <q>lateri</q> add. <q>reli</q> A, sed delevit</rdg>
+                        </app> quæsito per totum, et productum divide per sinum <app>
+                            <lem>reliqui</lem>
+                            <rdg>TBOO: <q>relilquuum</q> A</rdg>
+                        </app> Anguli non recti: exit sinus complementi lateris quæsiti. </p>
+                    <p rend="indent">Pro reliquis autem lateribus multiplica sinum lateris modo
+                        inventi per sinum Anguli, respicientis reliquum latus quæsitum, sive rectus
+                        fuerit is angulus sive non, productum divide per sinum Anguli, quem
+                        subtendit latus nuper inventum: exibit sinus lateris inquirendi. Tertium
+                        latus dabit I dogma.</p>
+                </div>
+                <div n="Dogma VI sphæricorum">
+                    <head><pb ed="A" n="16r"/>DOGMA VI SPHÆRICORUM.</head>
+                    <p><hi rend="it"/><app>
+                            <lem>Trianguli non Rectanguli</lem>
+                            <rdg>verba <q>Trianguli non Rectanguli</q> etiam in margine praebet
+                                A.</rdg>
+                        </app>, datis duobus circa datum angulum lateribus, reliquum latus
+                        invenire.</p>
+                    <p rend="indent"><pb ed="TBOO" n="I.290"/>Minus latus, et complementum maioris
+                        invicem adde, et aufer; utriusque residui sinus invicem adde, si
+                        supplementum maioris lateris maius fuerit latere minore; alias aufer, ubi eo
+                        minus fuerit; residui dimidium erit inventum I, quod ablatum ab aggregato
+                        primo dabit inventum II, per quod multiplica sinum complementi Anguli dati,
+                        si acutus fuerit (vel sinum excessus eius Anguli ultra quadrantem, si
+                        obtusus), et divide per totum: habebis inventum III. Hoc adde ad inventum I,
+                        si angulus datus acutus fuerit, vel subtrahe ab <app>
+                            <lem>invento I</lem>
+                            <rdg>post <q>invento I</q> add. <q>vel ab invento II (prout fieri
+                                    potest)</q> A, sed delevit</rdg>
+                        </app>, si obtusus: habebis sinum complementi lateris quæsiti.</p>
+                    <lb/>
+                    <p rend="center">VARII CASUS OBSERVATI HUIUS DOGMATIS.</p>
+                    <p rend="indent">I. Si unum laterum ambientium Angulum datum maius Quadrante
+                        fuerit, resultat latus oppositum minus quadrante. Si productum in
+                        multiplicatione maius fuerit invento primo: <pb ed="A" n="16v"/>subducto II <app>
+                            <lem>multiplicato</lem>
+                            <rdg><q>multiplicato</q> (ante quod etiam <q>sed</q> legi videtur)
+                                postea inseruit A</rdg>
+                        </app> ab hoc invento I, relinquitur sinus complementi lateris quæsiti.</p>
+                    <figure n="4">
+                      <desc>Demonstratio huius sexti Dogmatis.</desc>
+                      <graphic url="01_290"/>
+                    </figure>
+                </div>
+                <div n="Dogma VII sphæricorum">
+                    <head><pb ed="A" n="17r"/>DOGMA VII SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli non Rectanguli, datis duobus Angulis circa datum
+                        latus, Angulum reliquum invenire.</p>
+                    <p rend="indent">Angulum minorem, et complementum maioris invicem adde, et
+                        aufer, residui utriusque sinus adde, si complementum maioris Anguli superet
+                        Angulum minorem, vel aufer, si eo minus fuerit, et habebis inventum I, quod
+                        aufer â primo aggregato: habebis inventum II, per quod multiplica sinum
+                        complementi lateris dati, et divide per totum: exit inventum III, quod adde
+                        ad inventum I, si latus datum minus quadrante fuerit; vel subtrahe ab eodem,
+                        si maius extiterit: habes sinum complementi Anguli quæsiti. Fuit itaque
+                        operatio similis priori</p>
+                </div>
+                <div n="Dogma VIII sphæricorum">
+                    <head><pb ed="A" n="18r"/>DOGMA VIII SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli non Rectanguli, datis duobus Angulis cum latere
+                        alteri eorum opposito, reliqua latera, et Angulum invenire.</p>
+                    <p rend="indent">Hîc opus erit resolvere Triangulum in duos Rectangulos, ducta
+                        perpendiculari ab Angulo ignoto, sive cadat extra, sive intra Triangulum, et
+                        deinde operari per III et IV. Exempli gratiâ. Sit Triangulus ABC, cuius
+                        Anguli ad A et B sint noti, cum latere AC. Volo inquirere latus BA. Duco
+                        itaque perpendicularem ab Angulo C ignoto in BA, quæ sit CD. Trianguli
+                        itaque CAD rectanguli datur Angulus ad A cum latere adiacente AC. Ergo per
+                        Tertium dabitur AD. </p>
+                    <figure n="5" rend="right">
+                      <graphic url="01_291"/>
+                    </figure>
+                    <p><hi rend="it">I. Operatio]</hi> Minus datum, et complementum maioris invicem
+                        adde, et aufer, utriusque residui sinus invicem subtractos dimidia, et
+                        habebis sinum complementi lateris <app>
+                            <lem>AD</lem>
+                            <rdg><q>AD</q> ex <q>AB</q> corr. A</rdg>
+                        </app>. </p>
+                    <p rend="indent">II. Deinde per I inquire DC.</p>
+                    <p rend="indent"><pb ed="A" n="18v"/>III. Demum in altero Triangulo Rectangulo
+                        BDC pro latere BC opposito Angulo recto, multiplica sinum lateris DC per
+                        totum, et divide per sinum Anguli dati ad B: exit sinus lateris BC.</p>
+                    <p rend="indent">IV. Pro latere BD operare per I, et minus latus DC, et
+                        supplementum maioris BC, invicem adde, et aufer; sinus utriusque adde, et
+                        dimidia; habesque sinum complementi lateris DB, ideoque ipsum BD. </p>
+                    <p rend="indent">Latus itaque DB adde ad AD prius <app>
+                            <lem>inventum</lem>
+                            <rdg>TBOO: <q>invento</q> A</rdg>
+                        </app>, et habebis totum BA cognitum. Pro angulo vero ACB per III, ut supra,
+                        inquire Angulum DCB, quem adde angulo ACD prius invento, et constabit totus
+                        Angulus ACB, qui quærebatur. Similis est operatio, cum cadit perpendicularis
+                        extra Triangulum.</p>
+                </div>
+                <div n="Dogma IX sphæricorum">
+                    <head><pb ed="A" n="19v"/>DOGMA IX SPHÆRICORUM.</head>
+                    <p><hi rend="it"/>Trianguli non Rectanguli, datis tribus lateribus, Angulum
+                        quemvis invenire.</p>
+                    <p rend="indent"><pb ed="TBOO" n="I.291"/>Duorum laterum, angulum quæsitum <app>
+                            <lem>ambientium</lem>
+                            <rdg><q>ambientium</q> ex <q>ambeuntium</q> correxit A (hoc solo
+                                loco)</rdg>
+                        </app>, minus latus, et supplementum maioris invicem adde, et aufer, ac
+                        utriusque residui sinus adde, si supplementum maioris lateris excedit latus
+                        minus; alias aufer; producti dimidium est inventum I, quod ablatum ab
+                        aggregato primo dat inventum II. Tertium inventum est differentia inventi
+                        primi et sinus complementi lateris reliqui oppositi Angulo quæsito. Deinde
+                        multiplica inventum III per totum, et divide per inventum II. Exit sinus <app>
+                            <lem>complementi</lem>
+                            <rdg>post <q>complementi</q> add. <q>lateris reliqui oppositi</q> A, sed
+                                delevit</rdg>
+                        </app> Anguli quæsiti, si acutus fuerit; sin obtusus, Arcus inventus ipsius
+                        Anguli adiungendus est Quadranti (Est autem hic angulus acutus, quando
+                        inventum I minus est sinu complementi lateris tertij oppositi, obtusus vero,
+                        quando eodem maius est).</p>
+                    <lb/>
+                    <p rend="center"><app>
+                            <lem>CASUS VARIJ.</lem>
+                            <rdg>verba <q>CASUS VARIJ.</q> in margine praebet A paulo infra</rdg>
+                        </app></p>
+                    <p rend="indent">I. N. Si latera ambientia 90 excesserint, sume complementum <pb
+                            ed="A" n="20r"/>â polo Australi.</p>
+                    <p rend="indent">II. Quando vero <app>
+                            <lem>maius</lem>
+                            <rdg>post <q>maius</q> add. <q>est</q> A, sed delevit</rdg>
+                        </app> latus excesserit Quadrantem, operandum est per excessum eius de 90,
+                        et habebis inventum III, addendo inventum I ad sinum complementi lateris
+                        subtendentis Angulum quæsitum, non subtrahendo, ut in Dogmate extat; alias
+                        iuxta Dogma. Et si aggregatum primum excesserit quadrantem, habebis
+                        aggregatum verum, subtrahendo â 180.</p>
+                    <p rend="indent">III. Si unum laterum ambientium 90<hi rend="sup">ta</hi>
+                        excesserit, latus vero oppositum 90<hi rend="sup">ta</hi> præcise, adde
+                        invento primo integrum sinum, et divide per inventum II. Provenit
+                        complementum Anguli quæsiti. Aliter: </p>
+                    <p rend="indent">IV. Si unum laterum ambientium quæsitum Angulum cum opposito
+                        eidem excedat Quadrantem oppositi, subtrahendo inventum I ab huius sinu.
+                    </p>
+                    <figure n="6">
+                      <desc>Demonstratio IX dogmatis Sphæricorum.</desc>
+                      <graphic url="01_293"/>
+                    </figure>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

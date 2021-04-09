@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 in 2do</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="C">
+                        <bibl>Manuscript copy in the Copenhagen copy of P.J. Resen,
+                                <title>Inscriptiones Haffnienses</title>, Hauniæ 1668</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 100-109</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-08-23"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Joseph Justus Scaliger</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 23. august</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-27" who="#pz">Filen etableret</change>
+            <change when="2019-12-02" who="#pz">Filen færdig</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.100"/><app>
+                        <lem>ILLUSTRI ET EXCELLENTISSIMO VIRO DOMINO <persName ref="Scaliger"
+                                >IOSEPHO SCALIGERO</persName>, IUL. CÆS. FILIO, MAGNO ACADEMIÆ
+                                <placeName ref="Leiden">LUGDUNENSIS</placeName> DECORI, AMICO SUO
+                            INPRIMIS HONORANDO.</lem>
+                        <rdg><note>om. AC</note></rdg>
+                    </app></opener>
+                <p><pb ed="A" n="137r"/>S. P.</p>
+                <p>PERMAGNO equidem gaudio me tuis cultissimis et humanissimis literis affecisti,
+                    Vir Illustris, Amice honorande, partim quod de statu <app>
+                        <lem>mearum rerum</lem>
+                        <rdg wit="#B">rerum mearum</rdg>
+                    </app>, postquam <placeName ref="Denmark">Dania</placeName> excessi, te sincere
+                    sollicitum probent, partim quod de recondita <app>
+                        <lem>circa</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> Anni et siderum <app>
+                        <lem>rationes</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> contemplatione mecum solerter agant. Pro qua tua in nos benevola
+                    affectione, quodque meum <persName ref="Tengnagel">TENGNAGLIUM</persName> adeo
+                    comiter et humaniter exceperis, et habeo et semper habiturus sum gratias. De
+                    abitus vero mei occasionibus e natali solo, quæ non leves aut exiguæ erant,
+                    deque locis et conditionibus, quibus postea usus sum, nihil hîc referam,
+                    indignum reputans, tuis auribus talia occinere. Nec ego hac sorte quidpiam
+                    moveor, cum oporteat Philosophiæ studijs addictum κοσμοπολίτην esse, nec ullis <app>
+                        <lem>mutationibus locorum temporum aut hominum</lem>
+                        <rdg wit="#B #C">locorum temporum aut hominum mutationibus</rdg>
+                    </app> affici, sed eodem in quavis rerum et eventuum vicissitudine sibi constare
+                    animo, ac fluctuantis insipientisque Mundi perversa iudicia ex alto negligere.
+                    De ijs etiam, quæ tibi ob eximiam virtutem et doctrinæ præcellentiam ignavorum
+                    et malevolorum peperit invidia, nihil addam, cum et hanc superare magnanimi sit
+                    ingenij. Tales æmuli <pb ed="TBOO" n="VIII.101"/>et Zoili non alijs, sed
+                    sibiipsis detrahunt, suamque fatuitatem cordatioribus ludibrio exponunt, ut <app>
+                        <lem>graviore</lem>
+                        <rdg wit="#B">gravioribus</rdg>
+                    </app>
+                    <app>
+                        <lem>opus non</lem>
+                        <rdg wit="#B #C">non opus</rdg>
+                    </app> habeant vindicta quam propria. His itaque prætermissis et sublimi
+                    firmoque animo posthabitis, ad ea quæ cognitionem non postremam sapiunt, et a te
+                    mota sunt, accedamus.</p>
+                <p rend="indent">Sphalmata, quæ Eruditissimo tuo volumini, arduo summoque labore
+                    comparato de Emendatione temporum per incuriam aliquam erepserunt, nemo
+                    intelligens et sani iudicij tibi imputârit; sed aut Typographo aut occupationum
+                    tuarum moli. Talia etiam mihi (si parva licet componere magnis) in meis quoque
+                    editis scriptis, ubi ea denuo inspicio, subinde contigisse animadverto, quæ
+                    tamen nemo nisi malus et verborum potius quam rerum otiosus æstimator cavillatus
+                    fuerit. Nostras æquinoctiorum observationes tantopere a te probari plurimum mihi
+                    congratulor. Et si liceret mihi de meis inventis id, quod res est, testari,
+                    multo sane auro redimerem, Antecessorum nostrorum sive veterum sive recentium
+                    tam exquisita diligentia administratas fuisse animadversiones. Certe anni
+                    Cœlestis subtilissima dimensio, a qua plurima alia dependent, nos non ita
+                    fluctuantes et incertos redderet. Solis in æquinoctialia puncta ingressum <app>
+                        <lem>dimetiri</lem>
+                        <rdg wit="#B">demetiri</rdg>
+                    </app>, nedum alia, ubi declinatio eius minus variat, altiori indiget molimine
+                    quam putatur, alijsque medijs et Organis, quam vel Antiquos in usu habuisse, aut
+                    etiam <persName ref="Regiomontanus">REGIOMONTANUM</persName>
+                    <app>
+                        <lem>et</lem>
+                        <rdg wit="#B">aut</rdg>
+                    </app>
+                    <persName ref="Copernicus">COPERNICUM</persName> eorumque coætaneos adhibuisse
+                    legimus, indiget. Oportet <app>
+                        <lem>enim</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> ea tanta tamque solide et exquisite elaborata esse, ut intra sextam
+                    Minuti unius partem Altitudinem Solis meridianam discernere queant. Nec uni sed
+                    pluribus potius standum, collatione accurata, prout a nobis non saltem illo quod
+                    produxisti quinquennio, sed et plurimis alijs Annis pari præcisione factitatum
+                    est. Habenda etiam ratio Parallaxeos Solis, tum quoque refractionis in
+                    decliviore præsertim situ. Quæ omnia cum vetustus ille et in scrutandis
+                    Luminarium motibus laboriosissimus <persName ref="Hipparchos"
+                        >HIPPARCHUS</persName> vix præcaverit, non mirum est, ipsius Æquinoctiorum
+                    observata tantopere claudicare, ut intra diei quadrantem sibiipsis non
+                    consentiant. Quæ tamen aliquatenus inter se ob refractionum et Parallaxeων
+                    neglectas implicationes conciliare tentavimus. At vix intra duas <app>
+                        <lem>vel tres horas</lem>
+                        <rdg wit="#B">horas vel tres</rdg>
+                    </app> id præstare licult, cum instrumentum, quo usus est, singula Minuta non
+                    exhibuerit, sed solummodo duodecimam (uti opinor) gradus partem. Quod vel ipse <app>
+                        <lem>prodit</lem>
+                        <rdg wit="#C">proderit</rdg>
+                    </app>, dum nimis lato <pb ed="A" n="137v"/>modo Æquinoctia aut <app>
+                        <lem>in</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> Horizonte aut Meridiano, neglectâ ubique sex horarum differentia,
+                    contigisse assumat potius quam persuadeat, suis nimirum intra has <app>
+                        <lem>metas</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> diffisus Organis. <persName ref="Ptolemaios">PTOLEMÆUM</persName> quidem
+                    adhuc minori certitudine hæc et alia scrutatum, multa ab ipso ea, qua opus fuit,
+                    præcisione non enucleata patefaciunt. Attamen illum totum diem in ingressibus
+                    Æquinoctiorum hal<pb ed="TBOO" n="VIII.102"/>lucinatum fusile non dixerim.
+                    Oportuisset enim eum sic per quincuncem fere gradus Solis declinationem <app>
+                        <lem>admittere erroneam</lem>
+                        <rdg wit="#B #C">erroneam admittere</rdg>
+                    </app>, quod ea instrumentorum magnitudo et elaboratio, qua Tropicorum
+                    intercapedinem sive Eclipticæ obliquationem intra tertiam minuti partem rimatus
+                    est (nisi et hanc ab <persName ref="Hipparchos">HIPPARCHO</persName> mutuabatur)
+                    non patitur. Sic et Lunæ latitudo maxima ab illo per Parallaticum deprehensa
+                    adeo magnam Instrumenti fallaciam non arguit. Si omnia loca, quæ in eo suspecta
+                    habes, denotaveris et mecum unâ cum observationibus <persName ref="Hipparchos"
+                        >HIPPARCHI</persName> ad annos et dies Iulianos retro subactos, addita
+                    indicatione bissextilium communicaveris, inprimis gratum, nec inutile (uti
+                    spero) præstiteris officium.</p>
+                <p rend="indent">Scripsit ad me studiosus ille Danus, olim mihi domesticus, qui iam
+                    apud vos est, <persName ref="Riber">CHRISTIANUS <app>
+                            <lem>IOHANNIS</lem>
+                            <rdg wit="#A">Johannes</rdg>
+                        </app></persName>, penes te esse librum de <persName ref="Hipparchos"
+                        >HIPPARCHI</persName> observatis, in <placeName ref="Italy"
+                        >Italia</placeName> ante aliquot annos Græce editum, cuius exemplar
+                    impressum, aut meis sumtibus descriptum unâ cum tuis annotationibus
+                    marginalibus, ubi potissimum quid erroris aut dubij subesse putaveris, si
+                    impertieris, non modico me affeceris beneficio. <persName ref="Albtegnius"
+                        >ALBATEGNIJ</persName> quoque, quem et <app>
+                        <lem>MAHOMETEM</lem>
+                        <rdg wit="#B">Mahumetem</rdg>
+                        <rdg wit="#C">Mahmetem</rdg>
+                    </app> Aratensem (uti scis) vocant, opusculum castigatum (plurimis enim id quod
+                    extat scatet mendis) unâ cum ijs quas author ipse subiunxerat Tabulis, obtinere
+                    averem, tum quoque si quid præterea apud te, antiquitatum solertissimum
+                    excultorem, similium librorum repertum fuerit, quod Astronomiam in ipso Cœlo,
+                    non solis chartis quæsitam illustret. Optime sane feceris, si me de ijs
+                    reddideris certiorem, et conatus nostros ita non parum iuveris.</p>
+                <p rend="indent">Quæ de Æquinoctiali eiusque polis mobilibus, quodque differant a
+                    polo Mundi disseris, in ijs tibi adstipulari non possum, aliter me instruente
+                    ipsa experientia. Deprehendi enim ex mutata latitudine fixarum iuxta
+                    proportionem mutatæ obliquitatis Signiferi, a temporibus <persName
+                        ref="Timochares">TIMOCHARIS</persName>, <persName ref="Hipparchos"
+                        >HIPPARCHI</persName> et <persName ref="Ptolemaios">PTOLEMÆI</persName>,
+                    hucusque (<app>
+                        <lem>si modo eorum observata in angulo obliquationis maximæ et cæteris omni
+                            vitio careant, qua de re non citra rationes dubito</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>) Eclipticam potius quam Æquatorem cum suis polis instabilem esse, Sole
+                    non semper eandem multo seculorum interiectu describente, et una ea loca, quibus
+                    æquinoctialem transit, successive anticipante. Unde fit ut stellæ fixæ tantundem
+                    progredi videantur, quantum Sol hæc puncta anteriora reddit. Cumque id illi
+                    motui, qui convenit defectui Anni Cœlestis ab Anno Iuliano, non plane coæquetur,
+                    fieri nequit, ut stellæ fixæ ijsdem Anni Iuliani diebus per aliquot seculorum
+                    intervalla cum Sole oriantur <app>
+                        <lem>vel</lem>
+                        <rdg wit="#C">et</rdg>
+                    </app> occidant, alijs etiam concurrentibus causis, quæ <app>
+                        <lem>discrepantiam</lem>
+                        <rdg wit="#B #C">differentiam</rdg>
+                    </app> pariant. Et licet id paucis quibusdam stellis utcunque per longum Annorum
+                    intervallum competere possit, tamen non semper aut omnibus. Nec etiam <pb
+                        ed="TBOO" n="VIII.103"/>ulla est (uti tam in Opere tuo quam hîc infers)
+                    inter polum Æquinoctialis et Mundi discrepantia; sunt enim unum et idem. Neque
+                    extrema in <app>
+                        <lem>cauda</lem>
+                        <rdg wit="#B #C">caudæ</rdg>
+                    </app> Ursæ Minoris, quam Polarem vocant, quod prope polum sit, Mundi polus est,
+                    aut proxima huic, nisi æquinoctialis polum intellexeris, qui a Mundano (uti
+                    dixi) non differt. Distitit quidem hæc stella temporibus <persName
+                        ref="Hipparchos">HIPPARCHI</persName> a polo Æquatoris 12⅖ partibus. At hoc
+                    anno iuxta nostra Inventa appropinquavit illi intra G. 2 M. 51½ , quam ante
+                    annos 25 præcise tribus gradibus <pb ed="A" n="138r"/>ab eodem removeri, Augustæ
+                    Vindelicorum per quadrantem 14 cubitorum in suo Radio, illic a nobis <app>
+                        <lem>in horto prope prædium Consulis <persName ref="Hainzel, Paul"
+                                >HEINZELIJ</persName></lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> extructum deprehensum est. Non tamen ob id hæc stella ullius orbis polus
+                    est, aut prope, sed hic accessus ad polum Æquatoris sive Mundi fit per mutatam
+                    eius longitudinem circa polos Eclipticæ, quâ illius declinatio augetur, cum sit
+                    nunc circa finem signi &#x264a;; tempore autem <persName ref="Hipparchos"
+                        >HIPPARCHI</persName> circa finem &#x2649; versabatur, confectis interea
+                    secundum longitudinem paulo magis 24 gradibus, latitudine autem non plus
+                    alterata, quam fert obliquitatis Eclipticæ (<app>
+                        <lem>modo sic se haberet</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>) per tertiam gradus partem decrementum. Nam ea quam <persName
+                        ref="Ptolemaios">PTOLEMÆI</persName> Abacus in 66 exacte ponit gradibus,
+                    lato modo sumta est. Et si hæc stella nostro Ævo ad Æquatorem referatur, non
+                    cadet in Colurum æquinoctialem, ut tu forte existimas, sed distabit ab hoc in
+                    partibus Æquatoris G. 5¾, testante idipsum ratâ experientiâ. Coniungi autem ipsa
+                    cum polo Æquatoris exacte nunquam poterit. Nam post annos proxime 500, ubi
+                    initium &#x264b; simulque Colurum Solstitialem assecuta fuerit, distabit a polo
+                    versus Eclipticam sive Æquatorem 27½ minutis. Etsi enim Eclipticæ inclinatio
+                    paulo aliter tunc forte aucta fuerit (<app>
+                        <lem>quod tamen vix futurum existimarim</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>) tamen hæc latitudinem saltem stellæ alterabit, nec eam polo ob id
+                    propius admovebit, stellis nimirum fixos Eclipticæ <app>
+                        <lem>polos</lem>
+                        <rdg wit="#B #C">terminos</rdg>
+                    </app> respicientibus, Sole autem nonnihil mobiles per secula describente, <app>
+                        <lem>quatenus antiquorum traditis acquiescendum erit</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>. Quare hæc quæ de diversitate polorum Mundi et Æquatoris deque stella
+                    polari quacunque tandem occasione concepisti, penitius tibi expendenda
+                    relinquo.</p>
+                <p rend="indent">De libello <persName ref="Ptolemaios">PTOLEMÆI</persName>, in quo
+                    stellarum ortus et occasus ad singulos dies Anni Actiaci et Iuliani per aliquot
+                    Climata designantur, libenter audio, quæ adducis. Da operam, ut eum mature
+                    obtineamus. Circa Asterismorum ordinationes etiamsi aliqua <app>
+                        <lem>cum Recentioribus incidat nonnunquam</lem>
+                        <rdg wit="#B #C">nonnumquam com Recentoribus indicat</rdg>
+                    </app> differentia, nihil turbabit negotium, modo constet, cuius stellæ fiat
+                    mentio. Anni Syderei ab Ægyptijs et <app>
+                        <lem>Babilonijs</lem>
+                        <rdg wit="#B">Babylonicis</rdg>
+                    </app> introducta, posteaque a <persName ref="Thebitius ">THEBITIO</persName>
+                    exculta, a <persName ref="Copernicus">COPERNICO</persName> vero nostro ævo
+                    renovata ratiocinatio, non ita vana atque inutilis est, prout existimas, si modo
+                    exacte constaret. Nos eam in Progymnasmatis Astronomicis adhuc accuratius
+                    castigavimus, quatenus Ptolemaicæ cum <pb ed="TBOO" n="VIII.104"/>nostris <app>
+                        <lem>collatæ ferunt</lem>
+                        <rdg wit="#C">collocæ fuerunt</rdg>
+                    </app> Observationes: Sed ubi Hipparcheas in aliqua copia per te nactus fuero,
+                    hanc ipsam subtilius limitabo. Nam et ego potius cum <persName ref="Hipparchos"
+                        >HIPPARCHO</persName> quam <persName ref="Ptolemaios">PTOLEMÆO</persName>
+                    standum tecum censeo. Existimo autem non minus quam <persName ref="Copernicus"
+                        >COPERNICUS</persName> stellas fixas quoad se immotas perpetuo manere.
+                    Progressionem vero illam, quam efficere videntur, per Axem Terræ in sua
+                    revolutione anticipatum libratumque, uti is voluit, non admitto, cum nihil <app>
+                        <lem>eiuscemodi</lem>
+                        <rdg wit="#C">eiusmodi</rdg>
+                    </app> revera Terræ competat, <app>
+                        <lem>at si veterum tradita omnimode rite constare credendum, verisimilius
+                            erit, ipsum Solem aliam atque aliam diversis secutis describere
+                            Eclipticam</lem>
+                        <rdg wit="#B #C">sed ipsum Solem, dum aliam atque aliam diversis seculis
+                            describit Eclipticam, in causa esse cur id fiat statuo</rdg>
+                    </app>. Et quantulacunque <app>
+                        <lem>sic</lem>
+                        <rdg wit="#B #C">hic</rdg>
+                    </app> subesse possit inæqualitas, eam per Solis universalem Hypothesin, prout e
+                    præteritis Artificum observationibus enucleare licuerit, favente Numine
+                    salvabimus. Atque huc conducet Anni Syderei ratio, ut et in Planetarum simplici
+                    motu a certo et immobili puncto deducendo, <app>
+                        <lem>et accuratius</lem>
+                        <rdg wit="#B #C">atque accuratius</rdg>
+                    </app> quam hactenus stabiliendo. Neque <app>
+                        <lem>quidpiam</lem>
+                        <rdg wit="#B #C">quicquam</rdg>
+                    </app> infringit huius anni <app>
+                        <lem>commoditatem</lem>
+                        <rdg wit="#B #C">quantitatem</rdg>
+                    </app>, quod Caniculam <app>
+                        <lem>seu</lem>
+                        <rdg wit="#C">ceu</rdg>
+                    </app> Syrij <app>
+                        <lem>lucidam</lem>
+                        <rdg><note>ante <q>lucidam</q> add. <q>stellam</q> BC</note></rdg>
+                    </app>, <app>
+                        <lem>ut</lem>
+                        <rdg wit="#C">uti</rdg>
+                    </app> veteres hanc vocarunt, per 15 secula eodem proxime die Iuliano exortam
+                    esse <app>
+                        <lem>asseveres</lem>
+                        <rdg wit="#C">asseveris</rdg>
+                    </app>. Id quod in hac stella quodammodo fieri potuisse tibi concesserim, ut ob
+                    id hac experientia edocti, <pb ed="A" n="138v"/>antiquitus Annum Iulianum <app>
+                        <lem>Cinicum</lem>
+                        <rdg wit="#B #C">κυνικόν</rdg>
+                    </app>
+                    <app>
+                        <lem>appellarint</lem>
+                        <rdg wit="#C">appellarunt</rdg>
+                    </app>. Nam et ego Geometrice ad motiones huius stellæ interea factas adoptato
+                    calculo, eam in Horizonte Græcorum, ubi polus 40 <app>
+                        <lem>plus minus</lem>
+                        <rdg wit="#C">plurimis</rdg>
+                    </app> gradibus attollitur, ortum suum cum Sole a <persName ref="Ptolemaios"
+                        >PTOLEMÆI</persName> temporibus per 1500 Annos retro numeratos non nisi
+                    unico die <app>
+                        <lem>Anni Iuliani</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> anticipasse deprehendo. Quæ differentia illis pene insensibilis, siquidem
+                    non satis scrupulose hæc comperta habebant. Fit tamen ea convenientia per
+                    accidens in hac stella ob declinationem intervallo tot seculorum ita variatam
+                    (nimirum tribus gradibus, dempta una tertia) ut hæc <app>
+                        <lem>eam alterationem</lem>
+                        <rdg wit="#B #C">illam aberrationem</rdg>
+                    </app>, quæ ex Anni Iuliani <app>
+                        <lem>ac</lem>
+                        <rdg wit="#B #C">et</rdg>
+                    </app> Syderei <app>
+                        <lem>disconvenientia</lem>
+                        <rdg wit="#B #C">discrepantia</rdg>
+                    </app> incidere <app>
+                        <lem>potuit</lem>
+                        <rdg wit="#B #C">possit</rdg>
+                    </app>, emendarit et quasi eliserit. Quod nihilominus in alijs stellis pariter
+                    non contingit ob aliam atque aliam declinationum alteratarum vicissitudinem, ut
+                    de curriculi Solis inæquali ad eosdem dies revolutione per longum temporis
+                    tractum ob Apogæi eiusdem mutationem nihil nunc dicam. Imo ne quidem in hac ipsa
+                    stella, si a <persName ref="Ptolemaios">PTOLEMÆO</persName>
+                    <app>
+                        <lem>hucusque</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> pari modo fiat periculum, adeo constanter diem Iulianum observari <app>
+                        <lem>comprobabitur</lem>
+                        <rdg wit="#B #C">comperietur</rdg>
+                    </app>; differentia nunc usque in tertium diem sese extendente, eo quod tardior
+                    fuerit posterioribus seculis declinationis variatio, quam illis antecedentibus,
+                    nec reliquo motui adeo analoga. Et si quis post totidem secula in futurum idem
+                    tentet, fiet adhuc maior <app>
+                        <lem>differentia</lem>
+                        <rdg wit="#B #C">disconvenientia</rdg>
+                    </app>, utpote quæ in quintum diem <app>
+                        <lem>excrescet</lem>
+                        <rdg wit="#B #C">se extendet</rdg>
+                    </app>. Quin et de Arcturo, quod ais, eum tempore <persName ref="Hesiodos"
+                        >HESIODI</persName>
+                    <app>
+                        <lem>eadem</lem>
+                        <rdg wit="#B #C">eodem</rdg>
+                    </app> die <app>
+                        <lem>Anni</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> Iuliani nempe VIII Martij ortum fuisse, qua <app>
+                        <lem>idipsum</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> prodiderunt in eo tractu <persName ref="Meton">METON</persName> et
+                        <persName ref="Eutemon">EUTEMON</persName>, numerationi diligentiori non
+                    congruit, si modo recte tem<pb ed="TBOO" n="VIII.105"/>porum intervalla nobis
+                    constiterint. <persName ref="Ptolemaios">PTOLEMÆI</persName> quidem ævo nona die
+                    Martij unico saltem posterius oriri potuit. <persName ref="Hesiodos"
+                        >HESIODI</persName>
+                    <app>
+                        <lem>autem</lem>
+                        <rdg><note>post <q>autem</q> add. <q>ævo</q> BC</note></rdg>
+                    </app>, quod noningentis Annis anterius statuimus, <app>
+                        <lem>secunda</lem>
+                        <rdg wit="#B">secundo</rdg>
+                    </app> die Martij per 7 nimirum dies prius exoriebatur. At tempore <persName
+                        ref="Meton">METONIS</persName>, qui vix 150 Annis post <persName
+                        ref="Hesiodos">HESIODUM</persName> floruit, idem ortus in tertium diem
+                    Martij cadebat. Hisce autem proximis annis decimum nonum ferme diem attingit, ut
+                    ob id, quomodo Arcturi exortus ad certum diem Anni Iuliani multis seculis
+                    alligari queat, prout tua insinuat annotatio, non videam. Sic aliæ et diversæ
+                    stellæ diversimodam quoque in hac pragmatεία ingerunt variationem, ut hinc nihil
+                    certi de Annorum rationibus mutuari liceat. Anni cœlestis periodus in ijs
+                    quidem, quas accepisti, impressis chartis a nobis GELALÆA paulo minor adhibita
+                    est. Hanc tamen non tanquam universalem illic adduximus, sed solummodo ab
+                    Observationibus <persName ref="Regiomontanus">REGIOMONTANI</persName> per unicum
+                    Annorum centenarium <app>
+                        <lem>huc</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> translatam; quod certo consilio fecimus, ut Apogæi et Eccentricitatis, si
+                    qua subreperet incomperta mutatio, minus officeret, præsertim cum ad tria vel
+                    quatuor duntaxat secula motum Solis inibi emendatiorem tradere intenderimus. At
+                    si altius (quod præstat) id petatur, interlapsis plurimis seculis proveniet hic
+                    Annus paulo maior GELALÆO, nec tamen in tantum, ut <persName ref="Alfonso 10."
+                        >Alphonsinum</persName> modum, cui tu nunc subscribis, assequatur. Qua de re
+                    præcisius aliquid, quam antehac statuere licebit, ubi omnibus <persName
+                        ref="Hipparchos">HIPPARCHI</persName> observationibus me instructiorem
+                    reddideris, tum quoque si quas alias adhuc vetustiores aut intermedias in promtu
+                    habueris. Cuperem etiam antiquissimi illius Iudaici Æquinoctij, cuius meministi,
+                    exactam a te cognitionem obtinere, quanto nimirum tempore, quoad annos Iulianos
+                    a nostris observatis retro distiterit; ita tamen, ut iste annus, quo hoc
+                    Æquinoctium celebratum creditur, pariter a bissextili removeatur cum aliquo e
+                    nostris, in quibus ob id quinquennium apponere libuit, quo semper aliquis in
+                    promptu esset, qui sic cum vetustis inventis <app>
+                        <lem>conferri commodius</lem>
+                        <rdg wit="#B #C">commodius conferri</rdg>
+                    </app> posset. Oportet enim <app>
+                        <lem>ubique</lem>
+                        <rdg wit="#B #C">utique</rdg>
+                    </app>
+                    <app>
+                        <lem>semper</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> hanc collationem fieri in ijs Annis, qui vel pariter bissextiles sunt,
+                    vel <app>
+                        <lem>a bissextili æqualiter</lem>
+                        <rdg wit="#B #C">æqualiter a bissextili</rdg>
+                    </app> distant, quod et in prioribus literis me monuisse recordor. Petis, ut
+                    stellarum Eclipticæ vicinarum, præsertim <pb ed="A" n="139r"/>Reguli et πρόποδος
+                    &#x264a; communicem loca atque exortus cum diebus Iulianis. Scias itaque cor
+                    &#x264c; Anno CHRISTI 1600 Dionysiaco <app>
+                        <lem>completo</lem>
+                        <rdg><note>post <q>completo</q> add. <q>gradu</q> BC</note></rdg>
+                    </app> (quo vulgariter, licet inepte, uti recte nos edocuisti, utimur) incidere,
+                    quoad longitudinem in G. 24 M. 17 &#x264c; cum latitudine G. 0 M. 27 Bor.
+                    tuncque obtinere Ascensionem Rectam p. 146 M. 46 ac declinationem p. 13 M. 54,
+                    ideoque oriri in Horizonte illo Græcorum cum 24 g. &#x264c; si completo, quod
+                    cosmice contingit 7. Augusti, Acronyce vero 2. Februarij. Et in nostra quoque
+                    latitudine intra eosdem dies tam cosmice quam Acronyce emergit. Propus &#x264a;
+                    longitudinem ad dictum <pb ed="TBOO" n="VIII.106"/>tempus habet p. 27 M. 53,
+                    latitudinem vero p. 0 M. 58 Merid., Ascensionem Rectam p. 87 M. 42,
+                    declinationem p. 22 M. 33 Septentrionalem. Unde in eodem Bœotico tractu nunc
+                    oritur cum 29<hi rend="sup">no</hi> ferme completo &#x264a;, id est 10. Iunij
+                    cosmice, inter 9<hi rend="sup">um</hi> et 10<hi rend="sup">mum</hi> Decembris
+                    Acronyce.</p>
+                <p rend="indent">Ut vero plurium stellarum, imo quotcunque et qualiumcunque
+                    volueris, loca ipsi cœlo adamussim congrua in promptu habeas, atque hinc
+                    quicquid placuerit, circa earum habitudines sive veterum sive nostro ævo rimari
+                    queas, en hîc peculiari libro mille stellarum (plures enim in nostro climate vix
+                    observationi patent) exactissimam in ipso minuto, adeoque interdum semisse,
+                    quoad longum et latum restitutionem intra 20 elapsos annos magno labore et
+                    diligentia a nobis exantlatam, qualem (absit gloriatio) nulla viderunt priora
+                    secula, <app>
+                        <lem>tecum secreto communico</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>. Redegimus autem omnium longitudines consulto ad Annum vulgarem 1600
+                    completum, quibus <persName ref="Albategnius">ALBATEGNIJ</persName> ætas G. 10
+                    exacte, <persName ref="Ptolemaios">PTOLEMÆI</persName> 21⅖, <persName
+                        ref="Hipparchos">HIPPARCHI</persName> 24¼, <persName ref="Timochares"
+                        >TIMOCHARIS</persName> 25¾ subtrahunt; latitudine pro ratione variatæ
+                    inclinationis Eclipticæ ad Æquatorem in singulis secundum earum peculiarem
+                    dispositionem nonnihil hinc inde crescente vel decrescente. Quæ tamen
+                    differentia, ultra tertiam Gradus partem, ubi vel maxima est, <app>
+                        <lem>hactenus</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> alterata esse non invenitur, <app>
+                        <lem>imo et in hac tantillula mutatione non parum subest dubij</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>. Atque hæc prout ipsi Artifices loca præcipuarum <app>
+                        <lem>aliquot</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> quarundam fixarum suo ævo prodiderunt, in quibus tamen, <persName
+                        ref="Ptolemaios">PTOLEMÆO</persName> præsertim et <persName ref="Timochares"
+                        >TIMOCHARI</persName> aliquem subrepsisse errorem, quo minus <app>
+                        <lem>ea</lem>
+                        <rdg wit="#A">id</rdg>
+                    </app> satis subtiliter scrutati sint, ob nimiam inæqualitatem suspicor,
+                        <persName ref="Albategnius">ALBATEGNIJ</persName> et <persName
+                        ref="Hipparchos">HIPPARCHI</persName> denotationibus magis ratis
+                    exsistentibus. Ex quibus etiam præcipue collegi, inerrantes stellas singulis
+                    annis 51" conficere; quantum videlicet motui Solis simplici competit, in ea
+                    temporis <app>
+                        <lem>differentiolâ</lem>
+                        <rdg wit="#A">differentia</rdg>
+                    </app>, quæ est inter annum Æquinoctialem et Sydereum, quam nos <app>
+                        <lem>statuimus</lem>
+                        <rdg wit="#B #C">statuemus</rdg>
+                    </app> M. 20⅔ quamproxime. Quare in Annis Iulianis 70 Mensibus 7 unum Gradum
+                    absolvunt stellæ, non autem centenis 30 (uti voluit <persName ref="Ptolemaios"
+                        >PTOLEMÆUS</persName>) longe minus pluribus, prout tu existimare videris.
+                    Oporteret enim <app>
+                        <lem>sic</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> supra modum erroneas fuisse antecessorum animadversiones, quod nimis
+                    licentiose asseverare nemini fas est. Additus est iuxta calcem eiusdem libri
+                    catalogus 100 insigniorum stellarum Declinationes et Ascensiones Rectas ad annum
+                    1600 et 1700 exhibens unâ cum suis differentijs, per quas non saltem ad
+                    intermedium seculum, sed et proxime antecedens ac subsequens hæ <app>
+                        <lem>utrinque</lem>
+                        <rdg wit="#B #C">utræque</rdg>
+                    </app> satis commode adaptari queant. Si vero ortus et occasus earum ad certum
+                    Horizontem ratione Solis scire aves, id <persName ref="Regiomontanus"
+                        >REGIOMONTANI</persName> Tabulæ ex data declinatione et <app>
+                        <lem>Ascensione Recta</lem>
+                        <rdg wit="#C">recta Ascensione</rdg>
+                    </app> non difficulter suppeditabunt, aut, si mavis, per Triangula. Ut autem
+                    locus Solis e nostra emenda<pb ed="A" n="139v"/>tione etiam tibi verius quam
+                    alias constet, addidi Ephemeridem motum eius <pb ed="TBOO" n="VIII.107"/>ad
+                    Meridiem singulorum dierum huius labentis Anni in longitudine locorum 37 partium
+                    expedientem. Inde ad plures antecedentes et sequentes eundem intra unum vel
+                    alterum Minutum derivare, exigui est laboris. At si præcisus hunc rimari <app>
+                        <lem>lubuerit</lem>
+                        <rdg wit="#B #C">lubet</rdg>
+                    </app>, utere meis Tabulis in motu Solis, quas puto te in capite illo primo de
+                    curriculo illius a nobis restituto (<app>
+                        <lem>undecumque tandem tecum communicato</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>) accepisse. Sin minus, habes hîc in omnem eventum quaternionem eius
+                    calculo ad proxima aliquot secula sufficientem. Mitto insuper alium librum,
+                    Mechanica Astronomiæ nostra complectentem, quem tamen ordine primum statuo. Eo <app>
+                        <lem>inspecto</lem>
+                        <rdg wit="#B #C">introspecto</rdg>
+                    </app> non obscure æstimabis, quanto molimine, quantaque diligentia talia
+                    tractârim. Et si lubuerit unum vel alterum Instrumentum ad instar eorum confici
+                    curare, habes <app>
+                        <lem>inibi Idæam</lem>
+                        <rdg wit="#B #C">hic ideam</rdg>
+                    </app> et usum. Nec enim inutile foret, si Sextantem quempiam pro Syderum
+                    distantijs et Quadrantem iustæ magnitudinis pro eorundem altitudinibus
+                    dimetiendis tibi paraveris. Qua in re prænominatus ille studiosus Danus tam
+                    quoad divisiones perficiendas quam cætera ordinanda tibi usui esse poterit;
+                    unâque in Praxin observationum opus <app>
+                        <lem>diducere</lem>
+                        <rdg wit="#C">diduxêre</rdg>
+                    </app>, <app>
+                        <lem>prout apud me didicit</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>; <app>
+                        <lem>optarem enim</lem>
+                        <rdg wit="#B #C">siquidem optarem</rdg>
+                    </app>, multis in locis cœlestibus diligenter attendi, ne idem fiat nostro, quod
+                    de ROMULI ævo conqueritur <persName ref="Ovidius">NASO</persName>: <lg>
+                        <l rend="indent">Et inobservata per annum</l>
+                        <l>Sydera currebant.</l>
+                    </lg>
+                    <app>
+                        <lem>Uti</lem>
+                        <rdg wit="#A">Ubi</rdg>
+                    </app> etiam ferme (quod dolendum) nunc accidit.</p>
+                <p rend="indent">Facis quoque sub finem mentionem anni Liliani sive Pontificij, tam
+                    inepte constituti quam approbati. Quem licet omnibus suis numeris non <app>
+                        <lem>exactissime</lem>
+                        <rdg wit="#B #C">exacte</rdg>
+                    </app> constantem (quis enim hoc inconsulto cœlo præstiterit?) convenientiorem
+                    tamen priore illo <app>
+                        <lem>omnino</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> censeo, qui tot dierum ob anni Æquinoctialis et Iuliani aliquale
+                    discrimen anticipationem commisit, inde ab initio annorum CHRISTI, vel (ut illi
+                    maluerunt) a concilio Niceno. Neque tam facile posthac iuxta modum illum
+                    Gregorianum adeo enormis divagatio subrepere potest; sed (ut dicam quod res est)
+                    hæc summa præcisione (si qua foret necessaria) extricare nullis eiuscemodi
+                    compendijs et diverticulis licet. Verum habenda est ipsissima motus utriusque
+                    luminaris ad quævis secula subtilis notitia; qualem ne hoc quidem tempore ex
+                    usitatis Tabulis citra omne erroris vestigium compertam habemus. Ut primi Mensis
+                    huius Anni in Sole et Luna ad longitudinem loci <app>
+                        <lem>35</lem>
+                        <rdg wit="#B #C">34</rdg>
+                    </app> partium e nostris animadversionibus et Tabulis subductus calculus, atque
+                    cum Alphonsinis et Coperniceis numeris collatus (quem etiam in quadam charta, ut
+                    hinc cætera ratiocinari queas, adiunxi) te edocebit. Hæc igitur, quæ nunc
+                    mittere commodum fuit, boni consule. Subiungam suo tempore, favente cœlestium
+                    Opifice, de cœlestibus plura et maiora. <app>
+                        <lem>Et quamvis hisce seriori<pb ed="TBOO" n="VIII.108"/>bus nimium tibi
+                            faciam nunc negotij, lusus nihilominus insuper quosdam poëticos e multis
+                            quos habeo, in mei gratiam, postquam Dania excessi, hinc inde a diversis
+                            concinnatos</lem>
+                        <rdg wit="#B #C">Et ne hisce serijs saltem tibi nimium nunc facerem negotijm
+                            lusus etiam quosdam poëticos e multis quos habeo in mei gratiam
+                            concinnatos, postquam Dania excessi</rdg>
+                    </app>, mihique missos unâ impertior, non quod tua Heroica vena quid dignum
+                    redoleant, sed tantum ut videas, alijs quoque meam inde emigrationem cordi esse.
+                    Selegi autem potissimum hæc, in quibus discessus nostri causæ utcunque
+                    insinuantur. Si præstantissimus ille <persName ref="Dousa">DOUSA</persName>
+                    iunior, quem fata nobis (proh dolor) adeo præpropere surripuerunt, adhuc in
+                    vivis esset, aliquid cultioris ingenij proculdubio de his meditatus fuisset, uti
+                        <pb ed="A" n="140r"/>et antea Cometographica nostra melliflua otia <app>
+                        <lem>ornavit.</lem>
+                        <rdg><note>Hoc loco hæc addunt duo codices Haunieses: <q>De patre eius, qui
+                                    adhuc superstes est, nec minus in Poësi excellit, tale quid
+                                    sperare non ausim, ex quo nulla mihi cum eo per literas
+                                    intercedit familiaritas, et gravioribus Reipub. negotijs
+                                    magisque serijs studijs distineatur. A te, qui omnium optime
+                                    posses, tale quid sperare pudor vetat.</q></note></rdg>
+                    </app></p>
+                <p rend="indent">Retulit mihi <app>
+                        <lem>huc reversus</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>
+                    <persName ref="Tengnagel">TENGNAGLIUS</persName>
+                    <app>
+                        <lem>noster</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> te admodum in votis habere, ut ad vos in Bataviam transmigrem, quod tuo
+                    erga nos amori <app>
+                        <lem>acceptum fero</lem>
+                        <rdg wit="#B #C">tribuo acceptumque fero</rdg>
+                    </app>, <app>
+                        <lem>quemadmodum etiam illustriss. principis <persName ref="Maurits"
+                                >MAURITIJ</persName> et Ordinum desideria et erga me favorem non
+                            obscure hac in parte intellexi, ut de Anglicanis nihil addam</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>. <app>
+                        <lem>Et sane non abhorreret animus ab ea loci mutatione, cum semper mihi
+                            plus arriserint Batavorum solertia ingenia quam Germanorum</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app>. Verum te celare non possum, interea dum hîc in finibus Germaniæ et Daniæ
+                    ultra Annum moror, quo Nostratibus rem rectius dispiciendi satis relinquerem
+                    temporis, Patriæ, cui multum debemus, adhuc studens, <app>
+                        <lem>Sacræ</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> Cæsareæ Maiestati relatione quorundam e præcipuis in Aula, me hîc hærere
+                    innotuisse. Quare ipsius Maiestas per Amplissimum Dominum <persName
+                        ref="Corraduc"><app>
+                            <lem>RUDOLPHUM</lem>
+                            <rdg><note>om. BC</note></rdg>
+                        </app> CORRADUCIUM</persName> Imperij Procancellarium, intermediante etiam
+                    Domino Doctore <persName ref="Hagecius, Thaddaeus">THADDÆO HAGGECIO</persName>
+                    veteri Amicitia mihi iunctissimo, <app>
+                        <lem><placeName ref="Praha">Pragam</placeName> me</lem>
+                        <rdg wit="#B #C">me Pragam</rdg>
+                    </app> evocari mandavit, spem non dubiam facientibus ijs, <persName
+                        ref="Rudolf 2.">Cæsaream Maiestatem</persName>, si accessero, me meaque
+                    studia clementissimo favore prosecuturam et <app>
+                        <lem>promoturam</lem>
+                        <rdg wit="#C">promoturum</rdg>
+                    </app>. Qua de re iam aliquot hac æstate inde <app>
+                        <lem>similia insinuantes</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> accepi literas. Commendavit insuper Serenissimus <persName ref="Ernst"
+                        >Coloniensis Elector</persName>, cui <persName ref="Rudolf 2."
+                        >Cæsar</persName> multum tribuit, illi me meaque omnia de meliori (<app>
+                        <lem>ut</lem>
+                        <rdg wit="#B">quod</rdg>
+                    </app> aiunt) notâ, exquisito erga me favore refertis ad ipsius <persName
+                        ref="Rudolf 2.">Cæsaream Maiestatem</persName>
+                    <app>
+                        <lem>propria manu</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> hoc nomine perscriptis literis; tum quoque alijs ad <app>
+                        <lem>Magnificum</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> Dominum <persName ref="Barwitz">BARVITIUM</persName> intimum <persName
+                        ref="Rudolf 2.">Cæsaris</persName>
+                    <app>
+                        <lem>Consiliarium et</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> Secretarium <app>
+                        <lem>supremum</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app>. Dedit <app>
+                        <lem>quoque</lem>
+                        <rdg wit="#B #C">etiam</rdg>
+                    </app> idem <persName ref="Ernst">Coloniensis</persName> tam ad Dominum
+                        <persName ref="Rantzau, Heinrich">HEINRICUM RANZOVIUM</persName>, Affinem et
+                    hospitem meum charissimum, quam me peculiares literas, quibus profectionem hanc
+                    non infrugiferam futuram persuadet. Quin <app>
+                        <lem>et, si</lem>
+                        <rdg wit="#B #C">etsi</rdg>
+                    </app> præter omnem suam expectationem non successerit, ut <persName
+                        ref="Rudolf 2.">Cæsar</persName> mea studia benigne et liberaliter fovere
+                    sustentareque velit, se idipsum suis sumtibus haud <app>
+                        <lem>invite</lem>
+                        <rdg><note>post <q>invite</q> add. <q>id</q> A</note></rdg>
+                    </app> effecturum sponte pollicitus est. Quare hæc media ita commode oblata,
+                    præsertim apud Imperatorem summum Imperij Caput (cum et Astronomiam
+                    universaliter constituere et stabilire satagam) <app>
+                        <lem>experiunda</lem>
+                        <rdg wit="#B #C">tentanda</rdg>
+                    </app> ante omnia censeo. Constitui <app>
+                        <lem>itaque</lem>
+                        <rdg><note>post <q>itaque</q> add. <q>D. V.</q> BA</note></rdg>
+                    </app> primo quoque <pb ed="TBOO" n="VIII.109"/>tempore <placeName ref="Praha"
+                        >Pragam</placeName> proficisci, quo <persName ref="Rudolf 2."
+                        >Cæsaris</persName> clementissimam voluntatem <app>
+                        <lem>humillime cognoscam</lem>
+                        <rdg wit="#B #C">experiar</rdg>
+                    </app>. Quod si omnia votis nostris minus <app>
+                        <lem>istinc</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> responderint, <app>
+                        <lem>tunc</lem>
+                        <rdg wit="#B">tum</rdg>
+                    </app> demum de alijs sedibus eligendis <app>
+                        <lem>certi quid</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> statuam, <app>
+                        <lem>et aut ad vos vel etiam <placeName ref="England">Anglos</placeName>
+                            transibo, aut potius ad <persName ref="Henri 4.">Regem
+                                Galliarum</persName>, quem scio me et mea studia liberalissime
+                            excepturum eorundemque conservationem in eo Regno munifice
+                            perpetuaturum, et forte veteri Hispaniarum Regi <persName
+                                ref="Alfonso 10.">ALFONSO</persName> hac in parte, quantum commode
+                            ibi res ferunt, non cessurum; quicquid erit, cœlum et Urania, quæ omnes
+                            terras includunt, ab omnibus terris non excludentur, utut Dania nostra
+                            tam sublimibus sacris quorundam inscitia et malevolentia non satis
+                            attenderit</lem>
+                        <rdg><note>pro his verbis <q>et aut... attenderit</q> hæc præbent duo
+                                codices Haunienses: <q>Et si intellexero Illustresn Bataviæ Ordines,
+                                    liberalium artium alias promoteres liberales, hæc quæ tracto
+                                    Astronomica exercita hospitio suo excipere et ijsdem competenter
+                                    providere non aversaturos, isthuc ire totumque Apparatum
+                                    Astronomicum eo conferro non gravabor. Locutus est de his cum
+                                    Illustrissimo Principe MAURITIO noster etiam TENGNAGLIUS, tum
+                                    quoque BARNEVELDIO, qui se Ordinibus ea exposituros in se
+                                    receperunt; præsertim vero MAURITIUS, cui duo illi libri, quos
+                                    tecum nunc communico, tum quoque oblati sunt, qui etiam ad me
+                                    admodum clementer et humaniter rescripsit, suamque operam in me
+                                    promovendo addixit. Sed intellexi, te referente, illorum
+                                    consilia lenta esse. Quare, si res ita ceciderit, ut illos
+                                    animes atque promptiores hac in re tua adhortatione efficias
+                                    (quemadmodum te facturum ultro recepisti) rogo.</q></note></rdg>
+                    </app>. Significabo datâ oportunitate per literas, quomodo iter hoc <app>
+                        <lem>in Bohemiam</lem>
+                        <rdg wit="#B #C">Pragense</rdg>
+                    </app> successerit, ut hinc, quid facto opus sit, <app>
+                        <lem>prævidere et</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> æstimare queas. Sed desino te pluribus detinere. Tuum est hanc
+                    prolixitatem, quam sublimis tui ingenij veneratio, et materiæ, de qua agimus,
+                    præstantia, tuaque in me benevolentia extorsit, boni consulere. Vale Vir
+                    Illustris et Magne ac Reipub. Literariæ diu <app>
+                        <lem>ac feliciter</lem>
+                        <rdg wit="#C">et feliciter</rdg>
+                    </app> vive. Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> ex Arce
+                    Ranzoviana <app>
+                        <lem>prope Hamburgum</lem>
+                        <rdg><note>om. BC</note></rdg>
+                    </app> die <app>
+                        <lem><app>
+                                <lem>23</lem>
+                                <rdg><note>TBOO: Diem præbet 17 Aug. codex Monacensis; hic vero
+                                        secuti sumus Haunienses; nam dies posterior 23 ille esse
+                                        videtur, quo epistula ad finem perducta est.</note></rdg>
+                            </app></lem>
+                        <rdg wit="#A">17</rdg>
+                    </app>. Augusti <app>
+                        <lem>st. vet.</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> Anni <app>
+                        <lem>Christiani vulgaris</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app> 1598.</p>
+                <p rend="rightMargin"><app>
+                        <lem>Tuæ Illustriss</lem>
+                        <rdg wit="#B #C">Illustris tuæ</rdg>
+                    </app>. Amplitud. studiosiss.<lb/>TYCHO BRAHE,<lb/><app>
+                        <lem>manu propria</lem>
+                        <rdg><note>om. A</note></rdg>
+                    </app>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

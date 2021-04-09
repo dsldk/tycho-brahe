@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Wolfgang Franzius</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Basileensi G I 23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 264-265</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Wolfgang Franzius</persName>
+                    <placeName>Wittenberg</placeName>
+                    <date when="1600-03-02"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 2. marts</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-09" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.264"/><pb ed="A" n="50v"/>ILLUSTRI ET GENEROSO VIRO, DOMINO TYCHONI BRAHE,
+                    ASTRONOMORUM NOSTRI SECULI PRINCIPI, DOMINO ET PATRONO DILECTISSIMO.</opener>
+                <p><pb ed="A" n="50r"/>S. P. D. </p>
+                <p>ILLUSTRIS et Generose Domine TYCHO, patrone observandissime, ex litteris, quas proxime
+                    per M. <persName ref="Longomontanus">CHRISTIANUM</persName> misi, Generositati Vestræ innotescere potuit, quo in statu sint res
+                    Transylvani, qui ad Generositatem Vestram excurrerat. Petijt is interim aliquoties a me,
+                    ut eum apud Generositatem Vestram humiliter excusarem. Idoneum alium nullum possum exquirere, ut ut percuperem. Forsan autem in viciniâ vestrâ
+                    aliquis oblatus est.</p>
+                <p rend="indent">Benedictus sit Dominus Deus noster, qui iam tandem Angelo percutienti iuga Bohemica ex
+                    misericordiâ suâ frenum iniecit. Is clemen<pb ed="TBOO" n="VIII.265"/>tissime Halcyonia et aërem
+                    saluberrimum unâ cum longâ vitâ Generositati Vestræ concedat, ut in emolumentum
+                    publicorum studiorum et ad gloriam nominis divini omnia illa, quæ feliciter cœpit, ad
+                    exoptatissimum finem perducere possit. Speramus etiam rabiem Theologicam interim ibi
+                    nonnihil deferbuisse. Etsi vero nihil scriptione magnopere dignum nunc temporis habebam,
+                    tamen D. D. <persName ref="Jessenius">IESSENIUM</persName>, communem amicum nostrum, tanquam planetam ab
+                    Eclipticâ <placeName ref="Wittenberg">Witebergensi</placeName> nunc iterum in latitudinem meridionalem <placeName ref="Bohemia">Bohemicam</placeName> excurrentem,
+                    sine aliquibus meis ad Generositatem Vestram pervenire nolui. Commendo Generositatem
+                    Vestram cum omnibus eidem addictis divinæ protectioni fideliter. <placeName ref="Wittenberg">Witebergæ</placeName> dominicâ
+                    Lætare, non secundum Lilianos, sed secundum Iulianos fastos, licet nunc concurrant in
+                    paucis, anno Christi 1600, quem tamen præter <persName ref="Scaliger">IOSEPHUM SCALIGERUM</persName> etiam <persName ref="Scultetus">BARTHOLOMEUS
+                    SCULTETUS</persName> 1601 esse comprobat.</p><lb/>
+                <p rend="rightMargin">G. V. studiosiss.<lb/><persName ref="Franzius, Wolfgang">WOLFG. FRANZIUS</persName></p>
+            </div>
+        </body>
+    </text>
+</TEI>

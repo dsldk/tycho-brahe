@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="sis">
+                        <persName>
+                            <forename type="first">Signe</forename>
+                            <surname>Strecker</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="Friis">
+                        <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 25</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-02-18"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Anders Sørensen Vedel</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 18. februar</date></creation>
+            <langUsage>
+                <language ident="la"/>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-10-31" who="#sis">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VIII.25"/>
+                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
+                    VELLEIUM</persName>.</opener>
+                <p><pb ed="A" n="3v"/>NUPER cum <persName ref="Rosenkrantz, Holger">OLIGERUS
+                        ROSENKRANTZ</persName> consanguineus Affinis et Amicus meus dilectus hîc me
+                    per duas invisisset hebdomadas, redditæ mihi sunt unâ cum <persName
+                        ref="Lange, Christian">CHRISTIERNI LANGIJ</persName> tuæ literæ, ad quas
+                    tunc respondendi commoditas non dabatur. Videntur hæ ultimæ tuæ, licet lenire et
+                    excusare quædam in prioribus laborent, a primis tamen illis motu proprio ad me
+                    datis <app>
+                        <lem>[non]</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> longe abesse, et privilegijs scatere iudicis, quæ tamen tibi lubens
+                    condono, siquidem non aliter vis. Obijcis ab initio post ea, quæ de <persName
+                        ref="Lange, Christian">LANGIO</persName> et Anglicis literis habes (ad quæ
+                    postea respondebo) quod iter tuum iuxta promissum non præstitum arguam. Et quid
+                    ni? cum sponte promiseris, nec præstiteris? Valetu<pb ed="A" n="4r"/>dinem tuam,
+                    rem domesticam et anni tempus tunc æque noras atque postea. Miraris igitur me
+                    ita singula tua verba et iota notare. Atqui scis me semper Geometrice loqui, cum
+                    serio loquor. Quod et in alijs, præsertim Amicis, quibus bene fido, et requiro
+                    et observo. Quorsum enim verba, nisi rebus consona? Hoc ego idem sentio atque
+                    illudere et negligere. Neque perinde esse, ac candide, aperte et libere agere,
+                    uti tu vis. Immo quiddam his repugnans.</p>
+                <p rend="indent">Quod aliquo loco non sis inter reliquos Pharisæos et Gnathones,
+                    equidem tibi congratulor, nec hanc felicitatem invideo. At quod non talia antea
+                    affectâris, quodque adhuc ijs, si liceret, te participem non redderes, haud
+                    dixerim. Si autem me hîc fallis, est cur tibi hanc animi celsitudinem et
+                    constantiam magis adhuc congratulor. Et si nunc ex Politicis non pendes, veluti
+                    antea, cordatius forsan agis. <app>
+                        <lem wit="#Friis">Eorum</lem>
+                        <rdg wit="#A">Forum</rdg>
+                    </app> fructus sunt præ foribus. Cudentur Machiavellistarum doli et technæ in
+                    ipsorum, uti meriti sunt, capita. Quod et hactenus iustus iudex exequi solitus
+                    est. Quod prandio alicuius interfueris, nihil ad me. Neque ob id ea de re
+                    mentionem feci, quia hoc morarer, sed quoniam tu occasionem dabas de <persName
+                        ref="Lange, Erik">ERICO LANGIO</persName> et me quædam addendo, quæ tamen
+                    neuter nostrum curat. Si talibus, qui astutam vapido servant sub pectore vul<pb
+                        ed="TBOO" n="VIII.26"/>pem, fidis, te ipsum decipis. <pb ed="A" n="4v"/>Qui
+                    et quales eiusmodi sint, fere omnes in <placeName ref="Denmark"
+                        >Dania</placeName> norunt, atque in posterum plus forte noscent. O patria, o
+                    mores. Omnia nunc ruere in peius fata ipsa docebant. Si tibi deinceps vixeris,
+                    uti scribis, rectissime feceris. Nam uti nunc agitur scena Mundana, si unquam
+                    antea, locum meretur illud <persName ref="Ovid">NASONIS</persName> &#187;<hi
+                        rend="it">nimium prælustria vita</hi>&#171;, et &#187;<hi rend="it">bene qui
+                        latuit, bene vixit</hi>&#171;. Quod mihi iam tandem congratularis mutationem
+                    hanc et sortem aliam, rectius facis, quam cum prius eandem indoleres, tanquam
+                    invidens mihi hanc felicitatem. Sic enim ego infirmas accipio querelas. Et, si
+                    sufficienter delictum illud expiare volueris, tacita quædam psalmodia Uraniæ
+                    nostræ omnibusque nobis Propempticum concinna, quodque ea e Cimmerijs, non dico <app>
+                        <lem>Cimbricis</lem>
+                        <rdg><note>in <q>Cimbrias</q> corr. A</note></rdg>
+                    </app>, tenebris, quibus diu multumque offuscabatur, sese tandem Superum dono et
+                    provisu vindicârit, atque in apertam et gratam Universæ <placeName ref="Europe"
+                        >Europæ</placeName> lucem universalior reddita asseruerit, congratulare;
+                    nobis autem, quod tot Machiavellismis, iniurijs, odijs, invidijs, malevolentijs,
+                    calumnijs et detrectationibus atque contemptibus superatis tranquilliori auræ
+                    restituti simus. Hisce igitur si Carmine aliquo, uti Poëta es, applauseris, <pb
+                        ed="A" n="5r"/>apposite feceris et in gratiam cum Urania nobisque omnibus
+                    redieris.</p>
+                <p rend="indent">Rogas deinceps, ut desinam minuta quæque in literis tuis non recte
+                    intellecta exaggerare. Te scripsisse, quod tu cum familia mei essetis amici in
+                        <placeName ref="Denmark">Dania</placeName> despecti, me statim accepisse,
+                    vos a me despectos. Atqui tua non tam clare sonabant verba, pro ut nunc ea
+                    explicas. Aiebas enim: <hi rend="it">Vale,salutatus a tuis amicis in <placeName
+                            ref="Denmark">Dania</placeName> despectis</hi>. Non addidisti, te aut
+                    tuis. Ideoque tuam sententiam prima fronte non satis assecutus sum. Ingerebat
+                    hoc dubium, quod scirem, mihi in <placeName ref="Denmark">Dania</placeName> a
+                    calumniatoribus imputari, quod in despectum patriæ, Regis, consangvineorum et
+                    amicorum inde discesserim. Et sane <persName ref="Rosenkrantz, Holger">OLIGERUS
+                        ROSENKRANTZIUS</persName>, cui hæc tua verba legenda dedi, non aliter capere
+                    potuit, quam ac si tale quid insinuares. Obscurius enim quam decuit, scripta
+                    sunt. Nec ego plane asserui, te quidpiam in me <app>
+                        <lem wit="#Friis">loqui</lem>
+                        <rdg wit="#A">loquere</rdg>
+                    </app>. Ideoque addidi: &#187;<hi rend="it">si recte tuam mentem
+                    percipio</hi>&#171; <app>
+                        <lem wit="#Friis">aut</lem>
+                        <rdg wit="#A">ad</rdg>
+                    </app> simile quid. Et quod tu infers, me excepisse, quasi vos me despiceretis,
+                    scilicet tu et tui, id non saltem est minutula quæque exaggerare, sed et sensum
+                    meum quasi data opera plane pervertere: cum de te et tuis, <pb ed="A" n="5v"
+                    />quos semper dilexi atque etiamnum diligo, nihil sinistri suspicer, sed in
+                    genere de meis in <placeName ref="Denmark">Dania</placeName> malevolis locutus
+                    sim, a quibus despicior, eosque vicissim ex alto rideo et despicio, si quando
+                    præ altioribus curis eorum (quod tamen rarissime facio) meminisse lubet. Tuos
+                    casus, tuaque infortunia magna ex parte scio, et horum authores non ignoro.
+                    Habemus enim hîc mutuo participationem quandam, licet mihi nihil mali inde
+                    evenerit, sed longe plus boni etiam invitis authoribus. At nihil tibi hîc
+                    exprobro, condolui semper, <pb ed="TBOO" n="VIII.27"/>et amovere ista studui et
+                    cum quorundam ex meis offensione, et plus pro te laboravi, quam conscius es, aut
+                    facile crediturus. Norunt id utriusque nostrum, non saltem Amici, sed et
+                    inimici, tum quoque neutrales.</p>
+                <p rend="indent">Quod neque tu neque ego moriemur inulti, omnino mihi persuadeo. Nam
+                    iustus est Deus, etiam tacentibus et patienter sustinentibus, et quæ immerito
+                    pertulerunt hominibus, illi vindicta danda est, <foreign xml:lang="da"><hi
+                            rend="it">oc hand vil rette det nod, om &#8224; Thule nogen sdoon end
+                            aldrig leffde eller haffde leffuet:</hi></foreign> Non tamen Planetarum
+                    revolutiones præficiendæ sunt ei, qui libere et sine tempore, in tempore tamen
+                    satque tempestive agit.</p>
+                <p rend="indent">Demum de victualibus mentionem facis, quod primum et præcipuum esse
+                        <pb ed="A" n="6r"/>[de]buit. De his enim nunc maxime agitur in tanta hîc
+                    annonæ caritate, quanta vix unquam fuit, et familiæ meæ propria, quæ quartum
+                    attingit septenarium, præter eos, qui indies invisunt. At tu videris hîc aurem
+                    claudere, <foreign xml:lang="da"><hi rend="it">paa dansche at være schulørit, oc
+                            icke gide høret oc mercket ret</hi></foreign>. Nam quid pro quo infers.
+                    Satis scio, etiam absque tuo iuramento <foreign xml:lang="da"><hi rend="it">(saa
+                            sandt hielpe mig Gud)</hi></foreign> (an hoc Theologicum est?) quod si
+                    præsens ipse fuissem, non potuissem ista expedire aliter sine rerum dispendio:
+                    scilicet postquam hyems intervenisset, portus conclusi essent, nec terrestre
+                    iter commodum foret. At antea, dum primas istas tuas scribebas, nulla eiusmodi
+                    erant obstacula, aut si qua erant, quare adeo categorice promisisti? quare tot
+                    tantaque præstanda enumerasti? Sororem etiam meam in auxilium vocans, a qua ne
+                    verbum intellexi, licet ter eidem scripserim. Crediderim vos omnes excellenter
+                    iudicare. At si quid vobis <placeName ref="Skåne">Scanicæ</placeName>, id est
+                    veræ et fidei tenacis, restat mentis, en nulla nunc adsunt subterfugia, quin
+                    recte facere liceat, modo libeat. Ego nullum in me officium ingratum esse sinam.
+                    Et si adhuc accesseris unâ cum LANGIO aut etiam solus sine ipso, idque ante
+                    Paschatis festum (modo fieri queat) inprimis erit id mihi acceptum et eo plenius
+                    priora diluentur errata. Vale cum uxore a me salutata, totaque domo. Dabantur
+                        <placeName ref="Wandsburg">Wandesburgi</placeName> die 18. Februarij Anni
+                    1598.</p>
+                <lb/>
+                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

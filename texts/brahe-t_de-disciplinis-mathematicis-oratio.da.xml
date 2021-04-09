@@ -1,0 +1,1194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Tale om de matematiske videnskaber</title>
+        <title xml:lang="en">De disciplinis mathematicis oratio</title>
+        <author>Tycho Brahe</author>
+        <editor>
+          <name xml:id="pz">
+            <persName>
+              <forename type="first">Peter</forename>
+              <surname>Zeeberg</surname></persName></name></editor>
+        <editor role="translator">
+          <name xml:id="cgt">
+            <persName>
+              <forename type="first">Christian Gorm</forename>
+              <surname>Tortzen</surname>
+            </persName>
+          </name>
+        </editor>
+        <editor role="translator">
+          <name xml:id="mlp">
+            <persName>
+              <forename type="first">Anne-Louise</forename>
+              <surname>Paldam</surname>
+            </persName>
+          </name>
+        </editor>
+        <funder>Carlsbergfondet</funder>
+      </titleStmt>
+      <editionStmt>
+        <edition/>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+        </publisher>
+        <pubPlace>København</pubPlace>
+        <date>2019</date>
+        <idno>nil</idno>
+        <idno type="isbn">nil</idno>
+        <availability status="restricted">
+          <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listBibl>
+          <bibl>empty</bibl>
+        </listBibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <creation>
+        <date>1574</date>
+      </creation>
+      <langUsage>
+        <language ident="la"/>
+      </langUsage>
+      <textClass>
+        <keywords>
+          <term>astronomi</term>
+        </keywords>
+      </textClass>
+      <abstract>
+        <ab>nil</ab>
+      </abstract>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2020-11-25" who="#pz">Filen etableret</change>
+      <change when="2021-02-24" who="#pz">ref'er indsat</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="text" n="Oratio">
+        <head><orig><pb ed="TBOO" n="I.145"/><pb ed="V" n="1r"/>En tale, som jeg holdt i begyndelsen
+            af september 1574 i en forsamling af <ref target="n1"/><persName
+              ref="Dançay">den franske gesandt</persName> alle doktorer og professorer, samt
+            studenter ved <placeName ref="Copenhagen">Københavns</placeName> Universitet, da jeg på
+            Kongens ønske indledte min offentlige forelæsning i astronomi </orig>
+          <reg>Oratio</reg>
+          <reg xml:lang="en">Oratio</reg>
+        </head>
+
+        <p>Mine ærede herrer og unge studenter, jeg er blevet bedt om at holde nogle offentlige
+          forelæsninger om de matematiske videnskaber. Denne henvendelse har jeg fået ikke blot fra
+          nogle af jer, som er mine venner, men også personligt fra vor høje konge. Skønt en sådan
+          opgave ligger fjernt fra min ringe formåen og kunnen, mente jeg dog ikke at kunne afslå
+          <persName ref="Frederik 2.">vor Kongelige Majestæts</persName> anmodning &#x2013; ej heller jeres &#x2013; da jeg af egen drift
+          lige fra ungdommen har været uhyre interesseret i indgående at studere disse emner. Jeg
+          har brugt megen tid og anstrengelse herpå, ja endog i høj grad opmuntret andre til at slå
+          ind på samme vej, og jeg har efter bedste evne hjulpet dem i deres forsøg. For det er
+          næppe muligt at udtrykke, i hvilket omfang disse videnskaber frem for andre skaffer sikker
+          klarhed og lærdom fuld af utrolig glæde. Ikke blot gennem bevisernes styrke og indsigtens
+          skønhed, men også i forskelligartede og mangfoldige former for erkendelse overgår de langt
+          alle andre videnskaber. Disse videnskabers overlegenhed er så stor, at de med rette er
+          blevet kaldt &#x2018;matematiske&#x2018; af de gamle, som om kun de i kraft af deres
+          fortrinlighed var værdige til at kaldes &#x2018;videnskaber&#x2018;. Hele denne videnskab,
+          hvis navn kommer af ordet <ref target="n2"/><hi rend="it"
+            >Mathesis</hi>, handler om betragtning af størrelser, og består af to hoveddele, nemlig
+          geometri og aritmetik. Den sidstnævnte måler adskilte størrelser, den førstnævnte
+          sammenhængende størrelser. Fra disse to forældre stammer de fleste andre lærde og
+          interessante videnskaber: Først og fremmest astronomien, den ophøjede og samtidig dybt
+          tilfredsstillende iagttager af himmellegemernes bevægelser og harmoni. Den vil vi siden
+          tale om. Dog vil vi til en begyndelse behandle geometri og aritmetik, som netop er
+          astronomiens fundament. </p>
+        <p rend="indent">Man antager, at geometrien er opstået hos ægypterne. Det er højst
+          sandsynligt, at når <placeName>Nilens</placeName> oversvømmelse fjernede markernes
+          grænsesten, medførte denne begivenhed nødvendigheden af dette fag, som igen kunne fordele
+          jordlodderne retfærdigt; og det fik navnet geometri (af &#x2018;jord-måling&#x2018;) på
+          grund af fagets oprindelige, nyttige anvendelse. Og dog er det på ingen måde blot en
+          tjenestepige for disse ydmyge opgaver, så at det kun kan <pb ed="V" n="1v"/>måle
+          størrelsen på jorder og marker. Det kan derimod forklare enhver størrelse, figur, <pb
+            ed="TBOO" n="I.146"/>proportion, som den menneskelige forstand kan begribe, og når den
+          ophøjes til himlen, leder det til en klar forståelse af himmelbevægelsernes virkelige og
+          sansbare harmonier. </p>
+        <p rend="indent">Engang kappedes adskillige fagfolk i Ægypten og Grækenland i dette fag og
+          bidrog hver især til dets grundlæggelse. <persName ref="Euclid">Euklid fra Megara</persName> indbefattede alle disse
+          menneskers opdagelser i ét enkelt værk og videregav fagets elementer i en præcis orden og
+          med så stor omhu, at enhver normalt begavet person med lethed kan fatte dem. I dette fag
+          fremstod den berømte <persName ref="Archimedes">Archimedes fra Syrakus</persName> næsten som et mirakel, og i lang tid
+          forsvarede han fædrelandets mure mod romernes hyppige angreb med sine krigsmaskiner, der
+          var opfundet takket være dette fag, og med en beundringsværdig og snedig krigslist brændte
+          han fjendernes krigsskibe med spejle, der reflekterede sollyset. Dette bidrager dog kun
+          lidt til respekten for faget, da man kan opnå meget større og værdigere resultater gennem
+          det &#x2013; ja, anvendelsen af dette guddommelige fag bidrager i højere grad til
+          menneskehedens nytte, ikke til dens ødelæggelse, og ud fra dette bør mere forstandige
+          mennesker vurdere det. Man kan ikke med ord forklare, hvor megen vished, hvor megen glæde
+          og hvor megen nytte for andre fag og for det almindelige liv dette fag rummer. </p>
+        <p rend="indent">De gamle filosoffer plejede at indskærpe, at man skulle lære geometri lige
+          fra barndommen. Dette gjorde de, fordi de mente, at geometri, som i sig selv fortjener at
+          gøres til genstand for erkendelse, dels klargør sandheden og sammenhængen i andre
+          videnskaber, og dels ansporer intellektet til videre erkendelse. Som følge heraf mente de,
+          at man langt lettere kan danne sig anskuelser, som ikke er uoverlagte, men tværtimod er
+          mere velbegrundede, fordi de sinkes nogen tid af den rationelle udredning af årsagerne.
+          Derfor var det ikke uden grund, at den guddommelige <persName ref="Platon">Platon</persName> ved en offentlig bekendtgørelse
+          <ref target="n3"/>nægtede alle uden kendskab til geometri adgang til
+          sin skole. Han anså dem åbenbart for mindre egnede til at forstå den øvrige filosofi!
+          Dette, tror jeg, er grunden til, at de gamle filosoffer nåede et sådant højdepunkt af
+          viden: De var lige fra barnsben blevet fyldt med geometri. Vi andre ofrer ulykkeligvis de
+          fleste og samtidig de bedste år af vores ungdom med
+          <ref target="n4"/>grammatiske og sproglige studier, et område hvor de
+          gamle fik det hele forærende af deres moder! Fra geometrien stammer den uforlignelige og
+          yderst skarpsindige videnskab om de plane og de sfæriske trekanter. Forståelsen af
+          stjernebillederne er opbygget heraf, og selvom den skulle forgå, <pb ed="TBOO" n="I.146"
+          />ville den kunne genskabes, når blot de nødvendige redskaber er for hånden. Herfra kommer
+          optikken, den ganske skjulte og vidunderlige iagttager af de visuelle stråler.
+          <ref target="n5"/><persName ref="Vitellio">Vitellio</persName> har behandlet dens elementer i ti bøger,
+          og efter ham <ref target="n6"/>araberen <persName ref="Alhazen">Alhazen</persName>. Fra geometrien
+          stammer også den gnomoniske videnskab. De behandler på lærd og nyttig vis skyggers og
+          solures afbildninger på en hvilken som helst overflade. Også geografien, som for ens øjne
+          måler landes, haves og byers beliggenhed, skylder denne videnskab sin oprindelse. For slet
+          ikke at tale om arkitekturen, som med geometriens hjælp både har skabt <pb ed="TBOO"
+            n="I.147"/>akvædukter, krigsmaskiner og megen anden mekanik, som håndværkere bruger,
+          foruden redskaber, der kan observere stjernernes bevægelser på himmelen og foretage
+          udmålinger på Jorden.For nu at gøre det helt klart, hvor mangfoldigt og uudtømmeligt
+          studiet af geometri er, kan man sammenfattende sige: Ingen uden kendskab til geometri kan
+          med rette gøre fordring på at være i besiddelse af højere dannelse! </p>
+        <p rend="indent">Blandt de matematiske videnskaber følger dernæst aritmetikken. Skønt den
+          kan takke geometrien for beviserne for sine grundsætninger, drejer den sig om adskilte og
+          ikke sammenhængende størrelser, og den består fuldt og helt i iagttagelse af tal. Jeg tror
+          ikke, at nogen er uvidende om, hvor stor nytte denne videnskab gør i det daglige på det
+          helt elementære plan. Dog strækker læren om tallene sig langt videre og omfatter en
+          erkendelse af mindst samme omfang som geometrien og helt nødvendig for ethvert menneske. </p>
+        <p rend="indent">Pythagoræerne indhyllede dengang naturens og selve Guds mysterier i
+          geometrien: Alle ting var samsvarende med tal, på samme måde som de var det med figurer og
+          proportioner. Selvom især denne lære har skabt <persName ref="Pythagoras">Pythagoras</persName> et udødeligt ry, er der ingen
+          tvivl om, at ægypterne og nabofolkene allerede tidligere havde erfaring heri, og at
+          <persName ref="Pythagoras">Pythagoras</persName> har hentet sin viden fra dem. <ref target="n7"/><persName ref="Josephus">Josephus</persName>,
+          forfatteren til De jødiske Antikviteter, fastslår, at ægypterne lærte den af patriarken
+          Abraham; den er derfor ikke mindre nyttig og lærd end den gamle tallære. Af disse to,
+          geometri og aritmetik, opstår en anden ophøjet videnskab, som ligger Jordens bærme fjernt.
+          Man kalder den astronomi. Den omsluttes og indespærres ikke af landes, haves eller andre
+            <pb ed="V" n="2v"/>elementers snævre grænser, men skrider frem gennem den klare og
+          vidtstrakte æther, mellem den lysende Sol, den strålende,
+          <ref target="n8"/>mangeformede Måne og de vandrende og faste
+          stjerner. Med ophøjede overvejelser undersøger astronomien deres bevægelser, harmonier,
+          omdrejninger, proportioner og størrelser. Af geometrien har den lært at kunne observere
+          fænomener i stjernerne med nøjagtigt konstruerede instrumenter, og at kunne omsætte disse
+          observationer til hypoteser svarende til fænomenerne, hvorved de indviklede forandringer i
+          bevægelserne smukt kan fastholdes. Aritmetikken hjælper astronomien med at udlægge
+          hypoteser, der er fundet og fastlagt ud fra geometrien, og med at opløse dem i dele og
+          omsætte hele ætheren i tal, hvormed man til hver en tid kan bestemme stjernernes baner.
+          Skønt astronomien, affødt af disse to, således er blevet grundfæstet som en sikker
+          videnskab, overgår den alligevel ikke blot disse, men også alle andre videnskaber og står
+          i grunden højest af alle. For med sin høje alder, ædelhed og udsøgte lærdom gør den
+          fordring på den højeste anerkendelse. </p>
+        <p rend="indent">For nu først at tale om astronomiens allerældste <pb ed="TBOO" n="I.148"
+          />oprindelse: Hvad er så ældre end <persName ref="Adam">Adam</persName> og hans sønner? Den føromtalte <persName ref="Josephus">Josephus</persName> fastslår,
+          at Seth opdagede erkendelsen af stjernerne og gav den videre til sine efterkommere. Han
+          tilbragte hele sit liv med at observere og undersøge stjernernes bevægelser og opstillede
+          til sidst to søjler, hvorpå han indhuggede sine opdagelser, for at de aldrig nogensinde
+          skulle forsvinde ud af menneskenes erindring. Da dette sted er værd at huske, skal vi nu
+          høre <persName ref="Josephus">Josephus</persName> selv belære os om astronomiens allerældste oprindelse. Han skriver således i
+          første bog: <ref target="n9"/>&#x2018;<persName ref="Seth">Seth</persName>, en af denne <persName ref="Adam">Adams</persName> børn,
+          voksede op, og da han var nået til den alder, hvor han allerede kunne skelne, hvad der var
+          ret, hengav han sig fuldstændig til studiet af dyden. Da den gode mand var gået bort,
+          efterlod han sig sønnesønner som sine efterfølgere, og da de alle havde gode anlæg og
+          dyrkede deres fædreland uden strid og splittelse, levede de i evig lykke og iagttog
+          himmellegemernes visdom og skønhed. For at disse opdagelser ikke skulle glide ud af den
+          menneskelige erindring (<persName ref="Adam">Adam</persName> havde jo forudsagt, at der ville indtræde en
+          verdensomspændende ødelæggelse af alting: én ved brand, en anden ved syndflod), opstillede
+          de to søjler, den ene af tegl, den anden af sten, og de indhuggede deres opdagelser på dem
+          begge. Hvis teglsøjlen skulle gå til grunde ved en syndflod, ville den overlevende
+          stensøjle give menneskene mulighed for at lære og gøre det muligt at se, hvad der stod
+          skrevet.&#x2018; <pb ed="V" n="3r"/>Så vidt <persName ref="Josephus">Josephus</persName>, som tilføjer, at den ene af søjlerne
+          stadig på hans tid eksisterede i Syrien. Det er troligt, at stjernevidenskaben stammer fra
+          <persName ref="Adam">Adams</persName> første sønner og er videreført til hans efterkommere og endelig til patriarkerne.
+          Den samme forfatter af <hi rend="it">De jødiske Antikviteter</hi> tøver endog ikke med at tilføje,
+          <ref target="n10"/>&#x2018;at patriarken <persName ref="Abraham">Abraham</persName> ud fra de ting, som
+          han så ske vedrørende Sol, Måne og de øvrige stjerner, var den første af alle, der lærte
+          de omkringboende, at der er én Gud, universets bygger og opretholder, hvis vilje alt i
+          naturen følger. Og derfor skal menneskene rette deres æresbevisning og taksigelser til ham
+          alene.&#x2019; <persName ref="Josephus">Josephus</persName> bevidner som sagt, at Abraham lærte af stjernernes evige og
+          vidunderlige kredsbevægelser, og at han underviste andre i det, og han siger også, at ikke
+          længe efter, at Abraham var rejst til Ægypten, lærte han bl.a. ægypterne ikke blot (som
+          før nævnt) kendskabet til tal, men også astronomi. Før Abrahams ankomst til dem havde de
+          nemlig intet kendskab til dette fag. <persName ref="Philo">Filon</persName>, der ligeledes har skrevet om jødiske forhold
+          og er velbevandret i den platoniske filosofi,
+          <ref target="n11"/>fortæller noget tilsvarende om Abraham: Mens han
+          kun kendte Gud ud fra betragtningen af himmellegemerne og var astronom, blev han først
+          kaldt Abram, men senere, da han ved Guds særlige gave også blev teolog, blev han kaldt
+          Abraham. Heraf fremgår klart, at kendskabet til stjernerne begyndte straks med de første
+          forældre ved verdens begyndelse og dernæst blev overdraget nærmest fra hånd til hånd
+          indtil patriarkerne. Det er des mere sandsynligt (hvilket den førnævnte <pb ed="V" n="3r"
+          /><ref target="n12"/><persName ref="Josephus">Josephus</persName> tydeligt fremhæver ), <pb ed="TBOO"
+            n="I.149"/>at dette var grunden til, at de opnåede en længere levetid, som krævedes for
+          omhyggeligt at kunne undersøge disse komplicerede bevægelser &#x2013; særligt ved de
+          langsommere stjerner &#x2013; for ikke at nævne fiksstjernerne, der kræver et meget langt
+          tidsrum. Så vidt vi ved, regnes (ifølge <ref target="n13"/><persName ref="Ptolemaios">Ptolemæus</persName>)
+          først <ref target="n14"/><persName ref="Timochares">Timochares</persName> og dernæst
+          <ref target="n15"/><persName ref="Hipparchos">Hipparchus fra Rhodus</persName> for fagets særlige
+          ophavsmænd. Han observerede nemlig omhyggeligt fiksstjernernes positioner og angav Solens
+          og Månens løb i adskillige på hinanden følgende år, og han var utvivlsomt også yderst
+          omhyggelig med observationer af de øvrige planeter og hele himmelen, selvom hans skrifter
+          om denne sag ikke er overleveret til os. <persName ref="Ptolemaios">Ptolemæus</persName> fra Alexandria sammenlignede hans
+          opdagelser og overvejelser med sine egne, særligt indsamlede observationer og
+          sammenfattede hele faget i sikre hypoteser og tilmed i tal og skabte sig herefter et
+          udødeligt ry i al eftertid: </p>
+
+        <lg rend="it">
+          <l><ref target="n16"/>Lige så længe som Titan vil stråle på himmelens
+            bue,</l>
+          <l>mens den flakkende Cynthia giver sit natlige lysskær,</l>
+          <l>lige så længe bevares hans ære, hans navn og hans hæder.</l>
+        </lg>
+
+        <p><pb ed="V" n="3v"/>Efter ham arbejdede
+          <ref target="n17"/><persName ref="Albategnius">Albategnius</persName> på at opstille visse dele endnu
+          tydeligere, særligt med hensyn til reglerne for Solen, Månen og fiksstjerne. Ved hjælp af
+          fagfolk, som han skaffede sig med store udgifter, sørgede kong
+          <ref target="n18"/>Alfonsus af Aragonien at få fremstillet en rodet
+          blanding af tabeller, som vi har den dag i dag under hans navn, og som for størsteparten
+          stammer fra <persName ref="Ptolemaios">Ptolemæus</persName> og andre hjælpemidler. I vor egen tidsalder har
+          <ref target="n19"/><persName ref="Copernicus">Nicolaus Copernicus</persName>, som man med rette kan kalde
+          den anden <persName ref="Ptolemaios">Ptolemæus</persName>, ud fra sine egne observationer afdækket, at der manglede noget hos
+          <persName ref="Ptolemaios">Ptolemæus</persName>, og han har påvist, at hans hypoteser tillader ting, der er ikke passer og som
+          forsynder sig mod de matematiske aksiomer. Han har også fundet ud af, at den alfonsinske
+          beregning ikke svarer til himmelbevægelserne. Derfor har han med en beundringsværdig
+          åndelig indsats og anderledes opstillede hypoteser genskabt videnskaben om
+          himmelbevægelserne, som ingen før ham har undersøgt mere præcist. Selvom han opstiller
+          noget, der er i modstrid med de fysiske principper (nemlig at Solen står stille i
+          universets centrum, og at Jorden sammen med de blandede elementer og Månen bevæger sig
+          rundt om Solen i en tredobbelt bevægelse, og at den ottende sfære er ubevægelig), så
+          antager han, hvad matematiske aksiomer angår, intet absurd, hvilket man kan iagttage i de
+          ptolemæiske og gængse hypoteser, hvis man undersøger sagen lidt nærmere. Disse hypoteser
+          fastslår nemlig, at himmellegemernes bevægelser i deres epicykler og excentriciteter er
+          uregelmæssige i forhold til de samme cirklers centrum, hvilket er absurd, og de redder på
+          uhensigtsmæssig måde himmellegemernes regelmæssige bevægelse ved en uregelmæssighed. Alt,
+          hvad vi i vore dage har indset og forstået om stjerners omdrejninger, stammer fra disse to
+          fagfolk, <persName ref="Ptolemaios">Ptolemæus</persName> og <persName ref="Copernicus">Copernicus</persName>. For hvad alfonsinerne end har fremdraget fra <persName ref="Albategnius">Albategnius</persName>
+          og andre, <pb ed="TBOO" n="I.150"/>så har de ikke forstand på en grundlæggende behandling
+          af faget afledt af sikre observationer. Derfor burde man sandelig bestræbe sig på, at
+          deres guddommelige opdagelser ikke forsvinder fra menneskenes erindring, men derimod
+          bliver grundigt forstået og belyst. Og hvis der mangler noget heri (hvilket der
+          nødvendigvis må i en så indviklet og ophøjet videnskab), burde de genskabes gennem hyppige
+          observationer og rundsendelse af observationerne med henblik på en korrektion af hypoteser
+            <pb ed="V" n="4r"/>og tal.Hvad kan være mere vanskeligt og samtidig mere fremragende end
+          denne videnskab? Den drejer sig ikke om det jordiske, kortvarige og flydende, men gør
+          udelukkende de uforanderlige himmellegemer til genstand for skarpsindig og meget
+          fornøjelig iagttagelse. Den er, hvor det evige forår er, hvor altid:</p>
+
+        <lg rend="hi">
+          <l><ref target="n20"/>Strålende fremtræder Titan i herlig og sejrrig
+            rustning,</l>
+          <l>dagen ånder i fred, ej hæmmet af skyernes mørke;</l>
+          <l>stormene stilnede hen og sværdene hviler i græsset,</l>
+          <l>alt summer salig fred, evindelig lykke og velfærd.</l>
+        </lg>
+
+        <p>Derfor overgår den ætheriske verden langt vor lavere natur gennem sin størrelse, sit
+          udseende, bevægelsens evige og beundringsværdige lov og sin udsøgte skønhed. Ja, alene i
+          sammenligning med de andre videnskaber, som drejer sig om
+          <ref target="n21"/>det nedre og forgængelige, bør denne med rette og
+          efter fortjeneste anses for at være virkelig fortræffelig og fremragende. Dens ophøjede
+          værdighed optager et sind, der ikke som kvægs er lavt og knyttet til jorden, men
+          indeholder glødende kraft og himmelsk oprindelse. Hvad, må jeg spørge, kan være smukkere
+          og mere værdigt for et menneske at fylde sit sind med, end dette umådelige himmelens
+          maskineri, himmellegemernes og alle stjernernes udsøgte, beundringsværdige omskiftelser og
+          bevægelsernes herlige harmonier? De ukyndige ser, at Solen står op og går ned, at Månen
+          vokser og aftager, at stjernerne glimter på himmelen, men de bemærker intet som ikke kan
+          ses selv af umælende skabninger. De ser ikke, at Solen fra nedgang til opgang med daglig
+          bevægelse går frem ad en skrå bane &#x2013; og dette endda ujævnt &#x2013; og ved denne
+          bevægelse skaber årets længde og omskiftelsen mellem dag og nat. De bemærker ikke, at
+          Månen snart anspænder sin gang, snart slapper den og undertiden er nærmere, undertiden
+          fjernere fra Jorden. Ovenikøbet tager de ikke i betragtning, at de fem andre planeter går
+          imod deres daglige bevægelse og med uensartet hastighed. Snart fremskynder de deres løb,
+          snart forhaler de det, indimellem standser de ligefrem og tilbagelægger atter de tidligere
+          spor. De indser heller ikke at mens planeterne følger denne kurs efter voksende længde i
+          dyrekredsen, drejer de sig forskelligt fra Solens bane såvel mod syd som mod vest.Alt
+          dette og meget andet, som uophørligt sker i himmellegemernes forunderlige bevægelser, ses
+          ikke af <pb ed="V" n="4v"/>ukyndige i astronomi. Og hvis de kunne se, ville de dog ikke
+          forstå årsagerne til så betydelige modsætninger. <pb ed="TBOO" n="I.151"/>Hvem uden
+          kendskab til dette fag ville kunne iagttage, at Solen, der for os ikke synes videre stor,
+          i sin virkelige størrelse er 160 gange større end alle lande og have? Mens Månen, som
+          lader til at være af samme størrelse, næppe er 1/40 af Jorden? Hvem ville kunne overbevise
+          sig selv om, at de andre stjerner har en sådan størrelse, at alle synlige fiksstjerner
+          overgår Jorden i omfang adskillige gange, mens de største og mest berømte må forstås som
+          mange gange større end Jorden? Dette og adskilligt andet er skjult for de allerfleste, som
+          mangler kendskab til dette fag. </p>
+        <p rend="indent">Og i dette smukke kunstværk flakker mennesket om som blind, skønt han er
+          anbragt midt i det, uden at forstå opbygningen og udsmykningen af det hus, der omgiver
+          ham. Ligesom et dyr, bøjet mod jorden, søger han kun efter det jordiske og forgængelige:
+          nydelse, rigdom, ære, luksus og resten af verdens åndløse gøglespil, som døden tager med
+          sig! Han har ingen tanke for, at Gud gav ham forrang frem for andre levende skabninger: </p>
+
+        <lg>
+          <l><ref target="n22"/>Mennesket bød han at rejse sit åsyn og skue mod
+            himlen, </l>
+          <l>hæve sit hoved i vejret og se mod stjernernes vrimmel. </l>
+        </lg>
+
+        <p>Hvorfor omtale astronomiens nytte yderligere? Ingen forfatning eller stat kan jo bestå
+          uden sikre angivelser af års, måneders og dages intervaller, som netop astronomien kan
+          give. Men her skal ikke tales om de overmåde mange andre indlysende nyttevirkninger som
+          erkendelsen af astronomien bringer dagliglivet! Nej, selvom denne videnskab slet ikke
+          ellers havde nogen fordel, er den alligevel i sig selv af en sådan karakter, at alle ædle
+          ånder med rette bør stræbe efter kendskab til den. Den påvirker og skærper intellektet med
+          utrolig, skøn nydelse. Den kalder de spekulationer, som præger menneskets liv, bort fra
+          jordiske, latterlige og forgængelige ting til himmelske, alvorlige og uforanderlige
+          betragtninger. Den bereder mennesket selv sand nydelse, og hæver det lig en himmelboer
+          over den dødelige lod. Hvorfor dette, som er fremført af <persName ref="Ptolemaios">Ptolemæus</persName>, kan hævdes uden
+          overdrivelse <pb ed="V" n="5r"/>af enhver der er kyndig i den guddommelige astronomi:</p>
+
+        <lg rend="it">
+          <l><ref target="n23"/>Dødelig er jeg nok og næres af dødelig ånde, </l>
+          <l rend="indent">ganske som dødelighed holder min kundskab i bånd. </l>
+          <l>Men når jeg løfter mit sind og betragter de himmelske baner, </l>
+          <l rend="indent">ser hvordan stjernernes flok kredser i uafbrudt løb, </l>
+          <l>da er jeg næppe en dødelig mer&#x2019;, mit sind ikke bundet </l>
+          <l rend="indent">til en dødelig krop, jorden er fjern fra min fod. </l>
+          <l>Højt over skyerne hæver jeg stolt mit hoved til himlen, </l>
+        </lg>
+
+        <p><pb ed="TBOO" n="I.152"/>Til hvilket formål skulle den vise og fremsynede Skaber af
+          universet have udtænkt så vidunderlige og eviggyldige love for de himmelske bevægelser med
+          en sådan variation og velafstemt harmoni, hvis han havde ønsket dem ukendte af menneskene,
+          for hvis skyld han ellers for en stor del har skabt den synlige verden? Nej, snarere har
+          han villet, at alt dette skal udforskes og undersøges utrætteligt, for at hans egen
+          majestæt og visdom skal kunne ses og berømmes af menneskene. Næst efter en sand og
+          fuldstændig gudserkendelse, som er åbenbaret for os i ordet fra ham, mener jeg, at intet
+          er mere nærliggende for den menneskelige natur og mere overensstemmende med det mål, for
+          hvis skyld mennesket er sat og anbragt på Jorden, altets centrum, end ligesom indefra at
+          betragte universets strålende bygning &#x2013; dette himmelske og stærkt lysende palads,
+          der dannes af de uforanderlige planeter. Ligeledes at tilbringe tiden behageligt med denne
+          skønne, vidunderlige beskuelse, at kende Gud som bygmester på hans vise og mangfoldige
+          værker og at hylde ham med fortjent beundring og pris. Skønt der i vores lave natur
+          eksisterer meget forunderligt, som beviser hans guddommelige indsigt, lyser hans visdom og
+          majestæt dog intetsteds mere end i den evige, umådelige skueplads for himmel og stjerner.
+          Herom siger <ref target="n24"/>Eobanus med rette: </p>
+
+        <lg>
+          <l>Gudsfornægterens spot benægtes af stjernernes vrimmel:</l>
+          <l rend="indent">Den som mod himmelen ser, sværger: &#x2018;Der findes en Gud.&#x2019;
+          </l>
+        </lg>
+
+        <p>Skønt det ligger almindelige menneskers fatteevne fjernt, bør dette regnes blandt
+          astronomiens særlige og største nyttevirkninger: Når man ved astronomiens hjælp har
+          erkendt stjernernes bevægelser og den stilling, <pb ed="V" n="5v"/>de indtager i forhold
+          til dyrekredsen og verdenshjørnerne, kan man danne sig en mening om og forudse de
+          forandringer, der sker i elementernes underliggende verden. Og det samme gælder
+          menneskelige forhold, for så vidt som de er underkastet stjernerne. Der er nemlig ingen
+          tvivl om, at vores lavere verden styres og præges af den højere.</p>
+        <lg rend="it">
+          <l rend="indent"><ref target="n25"/>Oh, hvor er dog himmelens kraft
+            vidunderlig mægtig!</l>
+          <l>Uden den ville jord eller hav slet intet frembringe.</l>
+        </lg>
+
+        <p>Heraf er en anden videnskab blevet født, som er mere skjult og adskilt fra de ydre
+          sanser. Den har man kaldt astrologi. Den taler om stjernernes virkning og indflydelse på
+          elementernes verden og de legemer, som består af elementer. Den ville jeg helst ikke
+          omtale her, fordi den ikke i samme grad er tilgængelig for ubestridelige beviser, som det
+          tidligere omtalte. Alligevel, når vi netop støder på den, vil jeg gøre det. Der er nemlig
+          adskillige, der på den ene side finder behag i dette område, som er præget af spådomme og
+          formodninger mere end af klare beviser, og som på den anden side også imponeres mere af
+          denne end af de før nævnte videnskaber. Endvidere tilskyndes jeg af, at astrologien, skønt
+          den er vanskelig at bevise, <pb ed="TBOO" n="I.153"/>dels er matematisk på grund af sit
+          tidligere omtalte slægtskab med astronomien, dels er fysisk. Desuden er der mange, som,
+          fordi de indså, at de andre dele af matematikken var underbygget af egne beviser, således
+          at de ikke kunne drages i tvivl (for hvem der er uddannet af en geometer, vil ikke
+          indrømme, at trekantens tre vinkler til sammen er lig to rette? Hvem der er uddannet af en
+          aritmetiker, vil nægte, at kvadratroden af 25 er fem? Hvem der er uddannet af en astronom,
+          vil nægte, at Sol og Måne står op og går ned? Jeg ved ikke, om de forstår, at det samme
+          sker med de andre stjerner) &#x2013; altså, fordi de ikke kunne nægte dette og lignende på
+          matematikkens områder, så har de alene angrebet astrologien, og rettet alle våben mod den.
+          Derfor tror jeg ikke, at jeg vil handle uden nytte for sagen (eller kun til glæde for dem,
+          som finder behag i disse emner), hvis jeg på dette sted først fremfører noget for at
+          bekræfte, hvad der med sikkerhed kan siges om astrologien, og dernæst kort svarer på
+          modstandernes angreb. </p>
+        <p rend="indent">At benægte den kraft og indflydelse, der ligger i stjernerne, svarer til at
+          ringeagte den guddommelige visdom og forudseenhed og til at modsige åbenlyse erfaringer.
+          Hvad kan man forestille sig mere uretfærdigt og urimeligt om Gud, end at han skulle have
+          bygget dette himmelens og de utallige strålende stjerners umådelige og beundringsværdige
+          teater forgæves og til ingen nytte? <pb ed="V" n="6r"/>Intet menneske fuldfører jo selv
+          det mest værdiløse værk uden i en bestemt hensigt. At vi kan aflæse skillelinjerne mellem
+          år, måneder og dage på himmelen, som på et evigt og utrætteligt ur, er ikke tilstrækkeligt
+          bevis for den himmelske maskines nytte og meningsfuldhed. For deres betydning for
+          tidsmålingen afhænger udelukkende af himmellysenes løb og fiksstjernehimlens omdrejning.
+          Hvortil tjener så de fem andre planeter, som drejer rundt med deres egne og
+          forskelligartede omløb? Hvortil tjener Saturns langsomtgående stjerne, der fuldfører sin
+          periode én gang på 30 år? Hvortil Jupiters strålende stjerne, der føres rundt på 12 år?
+          Hvortil Mars&#x2019; kendte glød, der drejer sig på to år? Og Venus&#x2019; venlige
+          stjerne, som altid følger Solen, hvorfor forretter den sin gerning ved snart at stå op om
+          morgenen før den, snart at følge efter den om aftenen? Hvad udfører Merkurs stjerne, der
+          drejer omkring Solen på den mest forskelligartede måde? Mon alle disse stjerner med deres
+          forskelligartede og helt vidunderlige bevægelser er skabt forgæves? Desuden, hvad tjener
+          hele den såkaldte ottende sfære til, der er fuld af utallige, klart strålende stjerner,
+          som er anbragt forskelligt og i besiddelse af en meget langsom bevægelse? Mon også alle de
+          stjerner, som man på grund af deres langsomhed har kaldt fiksstjerner, er uvirksomme og
+          til ingen nytte? For dette måtte nødvendigvis følge, hvis himmelen og alt hvad der
+          indeholdes i den, de strålende og evige legemer, blot skulle tjene til inddeling af tiden.
+          Gud har altså givet sig af med noget nytteløst? Gud har ikke på forhånd tænkt over noget
+          mål og nogen hensigt med et så stort kunstværk, en så vældig maskine? </p>
+        <p rend="indent">Hvor absurd det er at tænke, endsige tro dette, <pb ed="TBOO" n="I.154"
+          />bevises af Guds egen, fuldkomne visdom. Det er tydeligt og klart at se i selv den
+          allermindste ting, der er skabt i denne lave natur. Ingen urt er så ubetydelig, intet
+          mineral eller metal så foragteligt, intet levende så usselt, at det dog ikke er i
+          besiddelse af en egen og særlig egenskab. Og dette i en sådan grad, at det menneskelige
+          intellekt i sin dygtighed endnu ikke har været i stand til at udforske alle hans
+          skaberkræfter. Jeg tror, at end ikke den mindste urts talrige karakteristiske egenskaber
+          er nøjagtigt erkendt af os. Lad os altså forudsætte, at Gud i de små ting, som består af
+          forgængelige elementer og således er underkastet forandring og tilintetgørelse, har
+          indgivet så betydelige skabende kræfter, at deres særegenhed aldrig helt kan udforskes. I
+          så fald, hvor meget mere har han ikke ydet, når det drejer sig om de enorme, lysende,
+          fuldkomne og evige himmellegemer, <pb ed="V" n="6v"/>uberørte af forandring og
+          tilintetgørelse! <ref target="n26"/>Derfor siger <persName ref="Moses">Moses</persName>, når han vil
+          omtale grunden til, at Gud skabte himmelen, himmellegemerne og stjernerne, at alt er
+          guddommeligt skabt, ikke blot for at angive tid, dage og år, men også for at kunne være
+          tegn. Hvis himmellegemerne altså er blevet anbragt af Gud for at være tegn, må de
+          nødvendigvis også vise noget. Og de må vise det til menneskene, for hvis skyld de først og
+          fremmest er skabt. Men de kan ikke vise det, som Gud har indesluttet i sin hemmelige plan,
+          og som ingen levende skabning har del i, hvilket deres almindelige, evige og uforanderlige
+          bevægelse viser. Aldrig tillader den noget nyt eller afviger fra den forud fastlagte vej.
+          Det burde nemlig ske, hvis Gud undertiden med stjernernes hjælp ville angive noget af det
+          for verden, som han havde gemt i den hemmelige plan, til bevis enten på vrede eller nåde,
+          men som de ikke selv var årsag til. Nødvendigvis har himmellegemerne således deres egen
+          betydning, der fra begyndelsen hidrører fra Gud som en medfødt evne. Derfor følger det, at
+          de selv er årsager til det, som de viser. Dog formindskes af den grund intet af den
+          guddommelige almagt og frihed, der ikke bindes af nogen som helst sekundære årsager. På
+          den ene side handler Gud fuldkommen frit uden at være forpligtet af nogen naturlove. På
+          den anden side vil han ikke uden videre vende op og ned på en orden fastlagt af ham selv,
+          men snarere bevare den i en fast og evig stilling indtil verdens undergang. </p>
+        <p rend="indent">Gud kunne for så vidt have udført alt direkte: skaffet lys uden sol, vædet
+          jorden uden regn, næret os uden mad og drikke, beskyttet os mod kulden uden klæder.
+          Alligevel fandt han det rigtigt i sin uransagelige visdom, at dette og alt andet, som han
+          tager sig af i den almindelige verden, skal komme indirekte fra ham. Alligevel ønskede
+          han, at selve forløsningen af den menneskelige slægt skulle fuldbyrdes af en formidler,
+          skønt det kunne være sket alene ved hans almagt. Hans enbårne, evige søn skulle ved et
+          under, der overstiger al menneskelig fatteevne, antage menneskelig natur og forløse os med
+          sig selv som offer! </p>
+        <p rend="indent">Når Gud således udfører næsten alt indirekte, ikke fordi han ikke kan
+          handle direkte, <pb ed="TBOO" n="I.155"/><pb ed="V" n="7r"/>men fordi han synes ikke at
+          ville, er det da manglende ærefrygt at hævde, at han for en stor del leder og styrer denne
+          nedre verden gennem den øvre, sådan at sekundære årsager let kan afvendes af en primær,
+          når det lyster ham? Derfor er det klart, hvor urimeligt de, der hævder, at stjernerne
+          ingen indflydelse har på denne verden, taler imod guddommeligt forsyn og orden. </p>
+        <p rend="indent">De tager endnu mere fejl med hensyn til den håndgribelige erfaring, som
+          intet menneske med en sund dømmekraft kan modsige. Hvem har nemlig ikke lagt mærke til, at
+          kvalitetsforskellen i de fire årstider forårsages af Solens tilnærmelse, tilbagetrækning
+          og regelmæssige passage over dyrekredsens tolv dele? Således ser vi også, at når Månen er
+          i tiltagende, tiltager samtidig alt, hvad der er analogt med dens natur, fx hjernen hos de
+          levende væsner, knogle- og træmarv, krebs&#x2019; og snegles kød og meget andet; når den
+          derimod aftager, mindskes de selv samme ting. Ja, også det umådelige oceans flod og ebbe
+          er bundet til månebevægelsen som i en kæde, således at havet straks ved Månens opgang
+          begynder at stige, indtil den når himmelens midtpunkt, fra det tidspunkt falder det lige
+          indtil Månens nedgang og viser den samme vekslen, når Månen passerer den nedre halvkugle
+          så at det altid strækker sig mod Månen ligesom mod sin egen magnet. Alt dette sker dog
+          stærkere og mere virkningsfuldt, når Månen er i konjunktion med Solen ved nymåne, eller
+          når den er i diametral opposition ved fuldmåne, mens havet udfører handlingen svagere og
+          blidere midt imellem, i kvadratur. Der er således ingen tvivl om, at hele oceanets
+          forunderlige stigning og fald skyldes de to månebevægelser, den daglige såvel som den
+          særlige. Dette og meget andet tilsvarende har fagfolk altid været ganske klare over. Men
+          også søfolk og landmænd har ved jævnlig erfaring bemærket sig visse fiksstjerners op- og
+          nedgange, således at de kan se og tage højde for de årstidsbestemte storme. Mere erfarne
+          folk med øvelse i denne hemmelige kunst har afdækket, hvad også andre ikke-vandrende
+          stjerners indbyrdes konfigurationer enten med himmellysene eller med fiksstjerner kan
+          forårsage. Derfor har de observeret, at luftens konstitution i de frie årstider påvirkes
+          forskelligt hvert enkelt år. Man har således bemærket, at Mars&#x2019; og Venus&#x2019;
+          forening passende steder på himlen skaber regn, skybrud og ofte også <pb ed="V" n="7v"
+          />torden. Når Jupiter og Merkur står i et kraftigt aspekt til hinanden, skaber de tegn på
+          blæst og storm. Hvis Solen står sammen med Saturn, skaber det urolig, kold og ubehagelig
+          luft. Dette gælder især, hvis disse eller lignende konstitutioner indtræder i
+          himmellegemernes tydelige
+          <!-- NB: det bør vi nok have en note til &#x2013; men hvad det betyder her, er ikke så sikkert. Konjunktion og opposition er det ofte, men nedenfor tales der om fire syzygier. Så må det vel være konjunktion, opposition og kvadratur. -->syzygier,
+          eller når de indtræder efter de særlig fremtrædende fiksstjerners &lt;heliakiske&gt;
+          opgang. Lige siden de ældste landbrugsforfattere, digtere, ja selv astrologer har man
+          observeret, at nogle særlige fiksstjerners opgang sammen med Solen somme tider forårsager
+          regn, sommetider blæst, tudende storme og andre vejrforandringer, <pb ed="TBOO" n="I.156"
+          />og særligt hvis de indtræder i himmellysenes fire synlige syzygier, eller også hvis
+          disse stjerneop- og nedgange indtræder i himmellysenes fire synlige syzygier eller i de
+          mellemliggende ottedele. De forskellige foreninger af planeterne på én gang (enten
+          indbyrdes eller til de nævnte fiksstjerner) styrker eller svækker nemlig virkningen.
+          Derfor bliver det heller ikke tvingende nødvendigt, at de samme stjerners op- og nedgange
+          hvert år skaber tilsvarende virkninger på bestemte tidspunkter. Dette vil vi gerne svare
+          visse mennesker, der angriber astrologiske forudsigelser, fordi Plejadernes, Hyadernes og
+          tilsvarende fugtighedsgivende stjerners opgang ikke hvert eneste år giver fugtighed på
+          bestemte tidspunkter. Deres egenskaber i forhold til Solen stimuleres nemlig ikke altid
+          til effekt af himmellegemernes tydelige konfigurationer eller af tilsvarende
+          planetforeninger. Disse fiksstjerner på himlen opfører sig ligesom mødre, der, medmindre
+          de stimuleres og befrugtes af de syv vandrende stjerner, er golde og intet eller næsten
+          intet frembringer i denne lavere natur. Hvor ofte er det ikke observeret, at himmellysenes
+          formørkelser (særligt solformørkelserne eller de synlige måneformørkelser) aldrig har
+          savnet en eller anden bemærkelsesværdig indvirkning på begivenhederne, særligt ved de
+          horisonter, hvor de står i et hjørnehus eller på anden vis har en eller anden passende
+          analogi. Erfaringen har ofte lært, at de tungere planeters store konjunktioner bevirker
+          voldsomme forandringer i denne nedre verden. I året 1563, da der var indtruffet en stor
+          kombination af Saturn og Jupiter nøjagtig i begyndelsen af Løven nær Krebsens
+          tågestjerner, som <persName ref="Ptolemaios">Ptolemæus</persName> kaldte kvælende og sygdomsfremkaldende, hærgede der jo i de
+          følgende år <pb ed="V" n="8r"/>en altomfattende pest over hele Europa, som opslugte en
+          uendelig mængde mennesker og med en kun alt for tydelig begivenhed beviste stjernernes
+          indflydelse. </p>
+        <p rend="indent">Men det ville tage alt for lang tid at gennemgå alle disse eksempler på
+          astrologiske erfaringer, som iagttages kyndigt fra dag til dag af pålidelige og
+          omhyggelige observatører. </p>
+        <p rend="indent">Lad der nu være sagt nok på dette sted både om stjernernes generelle
+          indflydelse på vores lavere verden og til godtgørelse af forandringer i luften. Nu står
+          det tilbage for mig at uddybe en anden sag: Himmelen og himmellegemerne influerer nemlig
+          ikke blot på den underliggende luft og elementerne, men også på forskellig vis på selve
+          mennesket. </p>
+        <p rend="indent">Dette vil de fleste overhovedet ikke anerkende, skønt de er overbeviste af
+          de tidligere omtalte, tydelige erfaringer. Man hævder, hver ud fra sine argumenter, at
+          mennesket overhovedet ikke er underlagt stjernernes indflydelse. Men vi vil tværtimod
+          vise, at himmelen virker ikke blot på luften, men også på selve mennesket! </p>
+        <p rend="indent">Da jo mennesket består af elementer og er dannet af jord, må det
+          nødvendigvis være underkastet de samme betingelser, som behersker den materie, mennesket
+          selv består af. Ydermere, når selve luften, som vi indånder og også næres af i lige så høj
+          grad som af føde og drikke, påvirkes varierende af himmelens indflydelse, således som jeg
+          tidligere har vist, er det uomgængeligt, at også vi påvirkes på forskellig vis. For nu at
+          tie med, hvad der ikke kan indses helt klart af alle: Mennesket lever og næres af selve
+          himmelen <pb ed="TBOO" n="I.157"/>på en vis skjult måde i højere grad end af luft, vand
+          eller noget andet element fra denne lave verden. Det har en utrolig overensstemmelse med
+          beslægtede stjerner, og således er det ikke med urette at de gamle filosoffer (blandt
+          hvilke <persName ref="Hipparchos">Hipparch</persName> <ref target="n28"/>if. <persName ref="Plinius malor">Plinius</persName> er) har sagt, at vore sjæle er en del af selve himmelen. Der
+          er endog en vis analogi mellem det menneskelige legemes dele og de syv planeters særlige
+          egenskaber. Der foregår nemlig omtrent det samme i vort legeme og i de himmelske planeters
+          natur. </p>
+        <p rend="indent">Således kan hjertet, som i det menneskelige legeme er de vitale åndedrags
+          drivkraft, lignes med den himmelske Sol, hvorfra den varme kommer, som er livgivende for
+          verden. Således svarer menneskets hjerne til den himmelske Måne. Ved Månens tiltagen og
+          aftagen forøges <pb ed="V" n="8v"/>og formindskes også hjernen. Den efterligner månens
+          fugtige natur og er sammen med månen underkastet evig uro. På samme måde som hjerte og
+          hjerne er de to betydeligste dele af vort legeme, således er også Sol og Måne yderst
+          vigtige himmellegemer. Ligesom der er et særligt slægtskab mellem hjerne og hjerte,
+          således er der også i selve himmelen mangfoldigt fællesskab mellem Sol og Måne: Månen får
+          sit lys alene fra Solen, og dens bevægelse er i den grad bundet til Solens løb at den
+          fuldender sine egne cirklers omdrejninger under evig hensyntagen til solbanens grænse.
+          Efter disse to livsvigtige dele af vort legeme kommer lever og nyrer, som ganske vist er
+          mindre fremtrædende, men ret så nyttige. De svarer til to gode og nyttige planeter, dog
+          ikke på højde med måne og sol. Leveren, som er værksted for blodet og på hvilken livet
+          beror, er helt tilsvarende den blodfyldte, livlige Jupiter. Nyrerne, der giver kræfter til
+          de lemmer, som er beregnet til forplantningen, svarer til den frugtbare planet Venus,
+          forplantningens moder. </p>
+        <p rend="indent">Hertil kommer milt og galdeblære, som ikke blot i sammenligning med hjerne
+          og hjerte er mindre vigtige, men også er bestemt for ringere formål. Netop derfor knyttes
+          de til planeterne Saturn og Mars, der er af tilsvarende ringe værdi og mindre velgørende.
+          Således kan milten, som optager den mørke galde, lignes med Saturn, den melankolske væskes
+          beskytter. Galdeblæren derimod, galdens bolig, må sammenlignes med den koleriske og
+          galsindede Mars. </p>
+        <p rend="indent">Tilbage er nu lungen, der ligesom den ustadige og vagabonderende Merkur,
+          bevæges i vort legeme i evig uro, og med sin bevægelse drager ånde, hvorved den giver
+          hjertet nyt liv. Ikke anderledes end Merkur i himmelen regnes for en stormfuld, luftig
+          planet, som altid er ved hånden for Solen, hvis bud den udfører i løb snart her snart der.
+          Desuden tjener lungen tale og stemme, ligesom Merkur blandt de andre planeter regnes for
+          at have hvervet som den veltalende orator, talens behersker. </p>
+        <p rend="indent">Der er altså en betydelig analogi mellem de syv planeter og de syv
+          vigtigste dele af mennesket. Alt svarer så udpræget til hinanden, <pb ed="TBOO" n="I.158"
+          />at mennesket synes dannet efter den højere verdens idé. Derfor kaldes mennesket ikke med
+          urette mikrokosmos af filosofferne. Hvem i besiddelse af sund dømmekraft vil nogensinde
+            kunne nægte, at himmellegemerne påvirker menneskene, til hvem de er knyttet <pb ed="V"
+          n="9r"/> med en sådan overensstemmelse? </p>
+        <p rend="indent">Derfor ved vi, belært af erfaringen, at når Månen påvirkes af skadelige
+          planeter og på anden vis er uheldigt placeret, får de fødte en mindre robust hjerne og er
+          modtagelige for de fleste af dens lidelser i en sådan grad, at hvis Merkur samtidig
+          påvirkes dårligt og ikke ikke står I et godt aspekt til Månen, bliver de således fødte
+          rent ud dumme. Vi ser også, at de, der angribes af månesygdomme, den faldende syge og dens
+          underarter, oplever voldsommere og hyppigere anfald omkring nymåne, fuldmåne og de
+          mellemliggende kvadraturer. De fleste påvirkes også udelukkende dårligt ved disse
+          tidspunkter for Månens forandringer. På samme måde plages vattersottige altid voldsomst
+          ved fuldmåne på grund af saltenes opløsning i legemet, som Månen styrer mindst lige så
+          meget, som den styrer havet. Grunden er, at denne opløsning er øget til sin fulde form,
+          når Månen er fuld. Derfor dør næsten alle vattersottige omkring fuldmåne. Man har også
+          observeret, at de, for hvem Solen skades af Saturn eller Mars, lider af hyppig
+          hjertebanken og -svaghed. Men hvis begge de himmellys der er tildelt en <ref target="n31"/> aphetisk og
+          livgivende rolle, og samtidig også ascendanten er dårlig, vil de fødte blive plaget af et
+          dårligt helbred og være mindre livskraftige. På samme måde kan man med de andre planeter
+          og deres virkning erfare, at virkningen forholder sig på samme måde i mennesket, som
+          planeterne er påvirket godt eller dårligt i fødselskonstitutionen. </p>
+        <p rend="indent">Vi ser også en stor forskellighed i naturen hos de enkelte mennesker:
+          Mange, som Saturn, den allerhøjeste stjerne, på lykkelig vis har skabt, udforsker alene de
+          høje ting, som er fjernt fra mængdens fatteevne. De, som Jupiters stråleglans har skinnet
+          på, drages mere af juridiske og politiske hverv. Adskillige af dem, som ophidses af
+          Mars&#x2019; voldsomhed, lever og ånder ikke for andet end krig, drab, kamp og
+          stridigheder. Andre stræber ved Solens ambitiøse indflydelse efter æresbevisninger,
+          værdighedstegn og magt. Der er dem, der tilbringer deres liv i elskovseventyr,
+          adspredelser, musik og andre muntre glæder; det er dem, som Venus&#x2019; indsmigrende
+          stjerne tryllebinder. Andre, som opildnes af Merkurs stjerne, hengiver sig fuldstændigt
+          til udøvelsen af åndrige fag eller også til handel. Nogle af dem, der har fået
+          månenaturens påvirkning som lod, tilbringer deres livsløb med folkelige beskæftigelser som
+          udlandsrejser, sejladser, fiskeri og tilsvarende, <pb ed="V" n="9v"/> og på denne måde kan
+          man se en stor forskellighed i folks naturlige anlæg, i overensstemmelse med indflydelsen
+          fra de syv vandrende stjerner &#x2013; selvom de fleste bliver påvirket af disse planeter i
+          forskellige kombinationer og derfor følger forskellige former for interesser og på
+          forskellige tidspunkter i livet snart er optaget af disse, snart af hine beskæftigelser,
+          efterhånden som de på et bestemt tidspunkt er underlagt den ene eller den anden planets
+          stråler mer eller mindre gennem skjulte progressioner. <pb ed="TBOO" n="I.159"/> Disse
+          forskelligheder kan man konstatere selv hos brødre, der er født af samme forældre, på
+          samme sted og opdraget på samme måde &#x2013; og det i den grad, at brødre i deres natur og sæder
+          som oftest er næsten mere forskellige end nogen andre. Forklaringen på disse og
+          tilsvarende forskelligheder kan ikke på naturlig vis findes bedre nogetsteds end i
+          astrologien &#x2013; selvom jeg ikke vil nægte at det også i et vist omfang kan ændres af
+          underordnede årsager såsom opvækst, uddannelse, omgangskreds, udlandsrejser og lignende.
+          Her ville jeg kunne gennemgå adskillige principper for fødselshoroskoper, hvis udfald
+          yderst sjældent slår fejl. Men det er ikke stedet at udbrede sig om dette hemmelige fags
+          sikre forsøgsresultater. Til afslutning vil jeg dog tilføje dette (også selvom der intet
+          fandtes derudover, som kunne bekræfte sikkerheden i fødselshoroskopernes forudsigelser):
+          Alene den åbenbare erfaring med fremskrivninger vil gøre det håndgribeligt, hvis blot
+          disse administreres rigtigt i alle forhold &#x2013; hvilket kun de færreste hidtil at
+          gennemskuet. Gennem fremskrivning af signifikatorerne til deres promissorer kan
+          horoskoplæggere nemlig forudbestemme de tidspunkter, på hvilke en åbenlys fare truer den
+          fødte, og i de fleste tilfælde svarer det til en reel begivenhed. Når himmellysene og
+          ascendanten ved fremskrivning møder Mars&#x2018;, Saturns (eller andre fjendtligsindedes)
+          steder og stråler, sker det nemlig meget sjældent at de ikke påvirker den fødtes legeme og
+          helbred i følelig grad alt efter karakteren af de stråler de møder. Sommetider afbryder de
+          endog fuldstændig livet, hvis <ref target="n32"/>anaretens forløb mod apheten er tilstrækkelig voldsomt. Når
+          tidspunkterne for disse ulykker kan forudbestemmes med sikkerhed gennem en kunstfærdig
+          beregning og ofte er blevet forudsagt af astrologerne med en efterfølgende sikker effekt,
+          og de derfor kan forudsiges endnu mere sikkert, hvis stjernebevægelserne er undersøgt og
+          det (som det er nødvendigt i denne sag) går som efter en snor, hvem kan så uden at modsige
+          en håndgribelig erfaring benægte, at stjernerne har indflydelse på os, og at den kan
+          forudses ved opstillingen af et fødselshoroskop? Ikke desto mindre har det aldrig skortet
+          på lærde folk, ganske vist uden kendskab til denne skjulte videnskab, som ud fra
+          teologiske og filosofiske argumenter har gjort gældende, at stjernerne ingen indflydelse
+          har på mennesket. </p>
+        <p rend="indent"><pb ed="V" n="10r"/>Filosofferne mener, at astrologien ikke bør regnes
+          blandt de andre fag, fordi den mangler sikre og åbenlyse principper. De siger også, at det
+          er umuligt at kende det sande fødselsøjeblik, og at det er helt forgæves når astrologerne
+          går tilbage herfra til undfangelsestidspunktet, da netop det er langt mere usikkert. De
+          anfører desuden som argumenter (som de opfatter dem) mod faget, at mange fødes på et og
+          samme tidspunkt, hvis skæbne og livsløb er forskelligt. At tvillinger født af de selv
+          samme forældre og på næsten samme tidspunkt meget ofte for en helt forskellig skæbne. At
+          mange, hvis fødsel ikke på nogen måde kunne betyde den samme dødsmåde, dør på samme tid i
+          krig og af sygdomme og andre universalulykker. At kendskabet til fremtiden derudover er
+          nytteløs, selvom den så skulle være mulig, fremfører de med dette argument: 160
+          Astrologerne forudsiger enten noget godt eller noget ondt. <pb ed="TBOO" n="I.160"/>Hvis
+          det er godt, forsvinder hele glæden, som man burde føle efter begivenheden allerede i ens
+          forudviden. Hvis det derimod er noget ondt, vil mennesket hele tiden være plaget førend
+          begivenheden, og denne frygt er tit meget værre end ondet. Dette er summen af de vigtigste
+          argumenter, som filosofferne fremfører mod forudsigelser ud fra fødselstidspunktet.
+          Teologerne er enige i disse punkter og tilføjer desuden, at dette fag er forbudt ved Guds
+          ord og at det er ufromt, og de proklamerer, at faget leder menneskene væk fra erkendelsen
+          af Gud og handler mod gode sæder. Begge parter, teologer såvel som filosoffer, afsiger
+          deres dom uden at have undersøgt sagen tilbundsgående. Med hensyn til filosoffernes
+          indvending, at astrologien mangler sikre principper, må vi nok indrømme, at dette fags
+          principper og aksiomer ikke er lige så tilgængelige for intellektet som geometriens og de
+          andre matematiske videnskabers, og at de astrologiske forudsigelser ikke kan sammenlignes
+          med astronomisk sikkerhed, fordi stjernernes påvirkning ikke rammer sanserne på samme
+          måde, som deres bevægelser gør. Ikke des mindre er det lige så sikkert, at himmellegemerne
+          har indflydelse på disse nedre regioner, og det står ganske klart, at de bevæger sig ad en
+          fast og sikker vej. Selvom det meget lettere kan ske, at man bilder sig noget ind, når man
+          skal forudse en begivenhed, end når man skal fastlægge en bevægelse, bliver ting, der kan
+          opfattes med de ydre sanser, på samme måde opfattet mere sikkert end de, der kun kan
+          forstås med intellektet. Astrologien får altså sine principper fra det sidstnævnte, dvs.
+          fra erfaringen, og har fastlagt sine universelle slutninger ud fra mange
+          enkeltobservationer, der kun sjældent narrer. Det er ikke anderledes, end det plejer at
+          være i medicinen, der ud fra erfaringen undersøger planters og mineralers egenskaber og ud
+          fra mange enkeltobservationer endelig <pb ed="V" n="10v"/>giver en universel dom om deres
+          natur og virksomme evne. Ud fra den samme tankegang kan astrologien ikke med ret og
+          rimelighed regnes blandt de fysiske fag i mindre grad end medicinen. Det fremgår herefter
+          klart, at den umulighed, som de anfører ud fra det manglende kendskab til fødsels- og
+          undfangelsestidspunktet, overhovedet ikke er noget værd. Skønt der af forskellige grunde
+          kan være tvivl om det præcise øjeblik, hvori et menneske kommer til verden, kan
+          astrologerne ikke des mindre ud fra begivenheder, der er indtruffet i livet, efter at den
+          nyfødte er blevet voksen, med sikkerhed sammenstykke det sande tidspunkt, således at de
+          kan nå til en næsten præcis erkendelse af øjeblikket. Astrologerne går heller ikke (sådan
+          som de andre tror) tilbage til undfangelsesøjeblikket, fordi det er mere sikkert end
+          fødselsøjeblikket, og fordi de mener, at fremtiden bedre kan forudses ved stjernernes
+          stilling derudfra. De gør det udelukkende, for at de (ved at tælle fosterets ophold i
+          livmoderen baglæns) kan <ref target="n33"/>gøre Månens sted på undfangelsestidspunktet til ascendanten ved
+          fødslen og ud fra det sted, hvor Månen stod på det tidspunkt, kan verificere ascendantens
+          grad ved fødslen ifølge den berømte gamle Hermes&#x2019; lære. En sådan forbedring af
+          horoskopet regner ingen astrologer for ganske sikker og troværdig, <pb ed="TBOO" n="I.161"
+          />men dog i det mindste nær sandheden, og de fleste bruger den, når den fødte person ikke
+          når til voksenalderen, og fødselstidspunktet derfor ikke kan verificeres med den første og
+          mere sikre måde ud fra begivenheder i livet og tidligere omstændigheder. Det står altså
+          klart hvor urimeligt modstanderne kritiserer astrologerne med hensyn til den præcise
+          fastsættelse af fødselstidspunktet, og hvor forkert det er, når de påstår, at astrologerne
+          går tilbage fra fødselstidspunktet til undfangelsen, da selve <persName ref="Ptolemaios">Ptolemæus</persName> fastslår, at
+          selvom fastlæggelsen af undfangelsen kan findes, angiver den ikke mere end, at uanset hvor
+          længe fosteret forbliver i livmoderen, vil fødselstidspunktet udøve sine kræfter indtil
+          livets ende. Med hensyn til dem, der dør på én gang i krig, under pest eller andre
+          universelle ulykker, må man svare, at deres død ikke kommer af en særlig fødselssituation,
+          men af en universel skæbne, som fjerner den individuelle indvirkning, men at en ydre kraft
+          får den allerstørste betydning, hvilket ikke var forudbestemt i stjernerne. Derfor
+          undtager forsigtige astrologer i deres forudsigelser universelle ulykker såsom epidemier,
+          jordskælv, oversvømmelser, krige, omvæltninger i love og forfatning og tilsvarende
+          overordnede ulykker, som stammer fra en universel skæbne, der nødvendigvis må udøve sine
+          kræfter videre og overgå individet, da den jo er stærkere end individet. Med hensyn til
+          deres yderligere argument: at folk født på samme tid får forskellig skæbne, skal de vide,
+          at astrologer ikke påstår, at himlen <pb ed="V" n="11r"/>opfører sig ens over for alle,
+          der er født på samme tid, men at dens påvirkninger varierer i forhold til en forskel i
+          subjektet. Ofte overføres direkte modsatte virkninger fra stjernerne, afhængige af
+          forskelle i opdragelse, uddannelse og livsomstændigheder. Menneskets frie vilje er på
+          ingen måde underlagt stjernerne! Den sætter tværtimod mennesket i stand til, ledet af
+          fornuften, at udrette det allermeste uden stjernernes indflydelse. For astrologerne påstår
+          ikke, at alle nødvendigvis modtager stjernepåvirkninger på samme måde. Nogle modtager
+          mere, andre mindre alt eftersom de har gjort sig modtagelige eller uimodtagelige. Det
+          samme kan man svare om tvillinger. Også i dette tilfælde ændres stjernernes indflydelse af
+          mange grunde, såvel i <ref target="n34"/>den lavere natur som i den frie vilje. Det sker også yderst
+          sjældent, at tvillinger har samme ascendant. Derfor vil afeternes og anareternes
+          intervaller også være forskellige, og der vil ikke være den samme indflydelse fra
+          stjernerne på dem begge. Derfor vil det ikke være nødvendigt, at de bliver syge &#x2013;
+          eller dør &#x2013; på samme tid. Man kan hertil føje, at i selve tilblivelsen er den enes
+          natur svagere end den andens, fordi to næppe kan fødes lige stærke på én gang, da en
+          tvedelt kraft er svagere, end hvis den var forenet i sig selv. Denne svaghed ved individet
+          korrigerer stjernerne ikke. Derfor virker de ikke ens på begge tvillinger, selv hvis de
+          (om muligt) er født på én og samme tid, da de ikke modtager stjernernes kraft på samme
+          måde. Jeg skal imidlertid ikke komme ind på det <ref target="n35"/>skjulte forhold, som nogle astrologer har
+          lært sig ved hyppig observation, at det tredje tegn fra ascendanten <pb ed="TBOO"
+            n="I.162"/>svarer til den anden tvillings ascendant. Derfor varierer hele himlens
+          konstitution og dens indflydelse over for dem begge. På dette sted kommer teologerne som
+          regel rendende med <ref target="n36"/><persName ref="Esau">Esau</persName> og <persName ref="Jacob">Jakob</persName>, selvom man kan besvare dette ganske naturligt på samme
+          måde, som vi lige har sagt vedrørende tvillinger. Men faktisk har dette eksempel intet at
+          gøre med en fysisk overvejelse, men må snarere henvises til Guds skjulte plan, som hele
+          naturen adlyder som sin skaber. Gud bekendtgjorde nemlig om dem: Jeg elskede <persName ref="Jacob">Jakob</persName>, men
+          hadede <persName ref="Esau">Esau</persName>. Hvilken astrolog, selv blandt hedninger, har nogensinde været så ufrom og
+          ubesindig, at han ikke har medgivet, at Gud som universets ophavsmand handler frit, elsker
+          og hader, hvem han vil &#x2013; hvordan end dennes naturs skæbne er forudbestemt? I modsat
+          fald ville Gud have pålagt sin frie vilje en tøjle ved den natur, som han selv har skabt,
+          og han ville have taget sig selv til fange &#x2013; hvilket er en absurd tanke. Selvom Gud
+          elskede <persName ref="Jacob">Jakob</persName> mere end <persName ref="Esau">Esau</persName> og førte ham til en mere strålende lykke i livet, bliver
+          stjernernes bestemmelser ikke omgået af den grund, hvis vi medgiver, at denne forskel i
+          deres lykke ikke er opstået af stjernerne alene, men udelukkende ved en særlig Guds plan,
+            <pb ed="V" n="11v"/>hvilket efter de fleste andres mening utvivlsomt kommer af Guds
+          særlige vilje. Endvidere svarer vi følgende på det, som teologerne fremfører om <ref target="n37"/>forbud mod
+          astrologiske forudsigelser i Moseloven: Her er det ikke den sande brug af den astrologiske
+          kunst, som fordømmes, men derimod intetsigende spådomme fra sandsigere, varselstydere,
+          nekromantikere, besatte kvinder, spåmænd, kloge koner og den slags overtroiske spåmænd.
+          Man bør også tage afstand fra dem, der under dække af astrologi har bragt upålidelig
+          spådomskunst til torvs, hvilket mange nu til dags giver sig af med. Men heraf kan man på
+          ingen måde slutte, at der ikke findes en indflydelse fra stjernerne, og at menneskene ikke
+          bør observere den. Ellers ville selve <persName ref="Moses">Moses</persName> være i strid med sig selv, når han straks fra
+          begyndelsen har fastslået, at stjernerne er dannet som tegn, som vi allerede før har
+          nævnt. Hvem vil benægte, at det, der er skabt i naturen, er skabt for mennesket, så at det
+          kan opøve sig i det og nyde godt af det? Heller ikke <ref target="n38"/><persName ref="Jeremias">Jeremias&#x2019;</persName> udsagn ændrer dette
+          &#x2013; tværtimod bekræfter det snarere forudsigelser. <persName ref="Jeremias">Jeremias</persName> siger nemlig ikke, at
+          himlen og himmellegemerne intet viser, men at fromme mennesker ikke skal frygte disse
+          tegn, men derimod tro fuldt og fast på Gud selv, der kan fjerne eller lindre stjernernes
+          uheldige bestemmelser. På samme måde kunne man sige: &#x2018;De kristne skal hverken
+          frygte tyrkere eller tyranner&#x2019;; men heraf følger jo ikke, at tyrken og tyrannerne
+          ikke kan skade de kristne i en vis udstrækning. Der kan kun anføres, <ref target="n39"/>at man ikke skal
+          frygte dem, der kan dræbe ens krop, men ingen magt har over ens sjæl. Teologerne anfører
+          også dette sted hos Esajas: <ref target="n40"/>&#x2018;Lad himmeltyderne træde frem og frelse dig, de som så
+          på stjerner og beregnede månederne for ud fra dem at kunne fortælle dig om det, der vil
+          komme.&#x2019; Her kritiseres et misbrug af faget og chaldæernes overtro, de der stolede
+          på deres ufromme varselstydere og handlede ilde <pb ed="TBOO" n="I.163"/>og uden
+          barmhjertighed med Guds trælbundne folk i det babyloniske fangenskab. Ud fra deres
+          sandsigeres falske forudsigelser håbede de at få lovning på en evig lykke, så de hele
+          tiden kunne øve vold mod de undertvungne jøder efter forgodtbefindende. De tænkte ikke på,
+          at Gud kun for en tid havde overgivet sit folk under deres åg på grund af afgudsdyrkelse
+          og andre synder, og at han efter et stykke tid ville befri folket og hævne sig på deres
+          grusomhed, hvor meget de end stolede på deres varselstyderes plausible forudsigelser. At
+          dette er den ægte mening med Esajas&#x2019; udsagn, fremgår af selve talens klare
+          sammenhæng. Han siger på ingen måde, at stjernerne intet betyder, men han fordømmer
+          chaldæernes tåbelige tiltro til de gunstige forudsigelser, skønt Gud modarbejder dem og er
+          imod. Heraf lærer vi, at ingen sekundære og fysiske årsager <pb ed="V" n="12r"/>kan hjælpe
+          os, når Guds sind er imod det. Derfor må han alene forsones, man kan ikke forvente frelse
+          fra en skabning, der intet kan udføre mod Guds vilje. <ref target="n41"/>Således kritiseres kong <persName ref="Asa">Asa</persName> i den
+          hellige skrift, fordi han led af smerter i fødderne og ikke satte sit håb til Herren, men
+          til lægernes hjælp. Derfor kritiseres medicinen ikke på dette sted, blot den alt for store
+          tiltro til skabte ting uden hensyntagen til Skaberen selv. </p>
+        <p rend="indent">De teologiske professorer indvender desuden, at hvis der var dårlige
+          inklinationer fra stjernerne, ville Gud, der har skabt stjernerne, på uretfærdig vis blive
+          betragtet som ophavsmand til synden. De tager dog ikke i betragtning, at astrologerne ikke
+          binder menneskenes vilje til stjernerne, men medgiver, at der findes noget i mennesket,
+          der er hævet over alle stjerner, hvorved mennesket kan overvinde alle stjerners dårlige
+          inklinationer, hvis det vil leve ifølge <ref target="n42"/>det sande og overjordiske menneske. Men hvis det
+          vælger at følge et dyrisk liv og rives med af blinde affekter og nærmest bedriver hor med
+          skabningerne, så kan man ikke regne Gud for ophavsmand til denne fejltagelse, for han har
+          skabt mennesket, så det, hvis det vil, kan overvinde alle stjernernes dårlige
+          inklinationer. Lad så de teologisk indstillede se, men hvilken ret de dømmer, at
+          astrologien er forbudt i den hellige skrift og imod Gud! De overvejer ikke, at årsagskæden
+          går uafbrudt fra den første til den sidste årsag, og at guddommelige trusler og løfter
+          overhovedet ikke er timelige og legemlige, men snarere omfatter sjælens salighed og pine i
+          dette og i det evige liv. Ellers skulle kun de mennesker regnes for fromme og udvalgte af
+          Gud, som i dette liv forkæles med lykken, der i reglen tilsmiler de sletteste; ufromme og
+          gudsforladte skulle derimod de være dem, der sætter sig op imod en hård livslod. Det er
+          derfor tale om to forskellige ting: dels at undersøge menneskenes ydre og timelige skæbne,
+          der fremgår indirekte af stjernerne og andre fysiske årsager, og dels gennem troen at
+          forstå den indre skæbne, der er hævet over denne verdens synlige horisont, og som
+          fremkommer umiddelbart fra Gud alene. Ud fra disse betragtninger er det sandsynligt, at
+          astrologien ikke kan være i modstrid med den sande tro og ikke kan føre mennesket bort fra
+          den lovbestemte gudsdyrkelse i højere grad end lægernes råd og forudsigelser, der er
+          fysiske i samme grad. Vi medgiver ganske vist, <pb ed="TBOO" n="I.164"/>at der er indført
+          adskillige former for overtro og misbrug i dette fag, men det bør ikke lægges faget til
+          last. Det forholder sig nemlig sådan, at jo mere storslået og sublim en videnskab er, des
+          lettere havner den i misbrug. Hvad er da mere fremragende end teologien? Hvad er mere
+          guddommeligt? Og dog har den selv fra begyndelsen været fuld af overtro, misbrug og
+          kætteri over største delen af verden. <pb ed="V" n="12v"/>Det samme kan man iagttage i de
+          andre fakulteter: medicin og jura, og beklageligvis også i de andre frie kunster: Ingen af
+          dem er fri for at være mere end rigeligt besudlet af fejl og misrøgt. Astrologerne selv
+          begår ofte mange fejl i deres forudsigelser, som skyldes deres egne fejl, ikke fagets. For
+          udøvernes fejl og forseelser bør rettelig ikke lastes faget, og da forståelsen af
+          astrologien er yderst vanskelig og det kun er de færreste forundt at nippe til fagets
+          første begyndelse med det yderste af læberne, for ikke at tale om at skue dybere ind i
+          det, må man tilgive, hvis det af og til sker, at en dyrker af faget går fejl af målet, og
+          denne fejltagelse bør ikke medføre en beskæmmelse af faget.</p>
+        <p rend="indent"> Der står nu tilbage at svare på det, som modstanderne anfører til slut: En
+          forudviden fra stjernerne er uden nytte, for hvad enten astrologerne forudsiger noget godt
+          eller dårligt, hjælper det ikke at vide i det forvejen. Det ville nok forholde sig
+          således, hvis vi optog stjernernes indflydelse som en nødvendighed, og hvis det ikke var
+          muligt at forandre eller korrigere den. Men da det ikke er tilfældet, og det heller ikke
+          er blevet fremført af nogen astrolog ved sine fulde fem, er det ikke bare ikke unyttigt,
+          det er yderst gavnligt at kende stjernernes fremtidige afgørelser i forvejen, så at vi
+          ikke skal tage imod en uventet lykke med et uforberedt sind, hvis det er noget godt, og
+          kan tage vore forhåndsregler, hvis det er noget dårligt, og ruste os forud for deres
+          komme. Forfatteren til værket <ref target="n43"/><hi rend="it">Centiloquium</hi>, som tilskrives <persName ref="Ptolemaios">Ptolemæus</persName>, har derfor sagt det
+          så sandt: &#x2018;Den som har indsigten, kan korrigere mange stjerneeffekter og forberede
+          sig før deres komme.&#x2019; Så vidt hans mening. Derfor er de fleste også uvidende om den
+          skæbne, de fra fødslen har fra stjernerne, og ikke alene forstår de ikke at afværge denne,
+          de styrter sig som blinde ud i egen ulykke, og de forøger snarere stjernernes dårlige
+          indflydelse, end de forstår at mindske eller fuldstændig at undgå den. Men når det under
+          heldige omstændigheder går folk, som de ønsker, uden at de har nogen forudanelse, bliver
+          de så åndeligt overmodige, at den heldige lod, som de uventet har fået tildelt, ofte
+          bliver en ulykke for dem. Derfor siger Vergil også ganske rigtigt: </p>
+
+        <lg rend="it">
+          <l><ref target="n44"/>Blindt er menneskesindet for skæbnen og fremtidens veje,</l>
+          <l>Glemmer i medgangens rus at holde sig inden for grænser.</l>
+        </lg>
+
+        <p>Derimod er det helt uantageligt, hvad der således fremføres af visse pseudo-filosoffer
+          &#x2013; og medicinen, de andre fysiske fag og også husholdningen, landbruget og søfarten
+          (for ikke at nævne flere) viser det modsatte. I medicinen: Hvis man i forvejen <pb
+            ed="TBOO" n="I.165"/>kender en sygdoms natur og egenskab og ved, hvilken retning den
+          plejer at tage, kan man imødegå disse ting og bedre give en effektiv modgift i tide, og på
+          samme måde lærer vi også om andre fysiske forhold ved daglig øvelse. I husholdningen
+          bevidner den gentagne erfaring, at forudseenhed og omhu gavner mest. Lad der fx i en del
+          af huset være en ild, der uden husbonds vidende <pb ed="V" n="13r"/>truer med at blive en
+          voldsom brand. Mon ikke den lettere kan slukkes med de rette midler, hvis den bliver
+          opdaget og anmeldt i forvejen, end hvis den pludseligt og ubemærket tager til og omspænder
+          alle tage? Ingen med kendskab til landbrug kan heller ud fra personlig gevinst og tab være
+          i tvivl om, hvor megen nytte man kan få ud af et forhåndskendskab ikke bare til jordens
+          beskaffenhed men også til himlens indflydelse &#x2013; og hvor meget ubehag man kan have
+          af forsømmelighed. Det er også absolut nødvendigt for søfolk at have den rette viden,
+          sådan som selve erfaringen (der er udvundet af deres egne mange farefulde situationer) har
+          lært dem; de må kunne forudsige truende storme ud fra sikre vejrvarsler, som de har lagt
+          særligt mærke til, både med hensyn til tegn på himmelen og på jorden, luften og det vand,
+          de sejler i, og de må så vidt muligt kunne undgå dem. </p>
+        <p rend="indent">Også de, der beskæftiger sig med lov og ret og ønsker at være Justitias
+          præster, har dristet sig til at svække denne ophøjede matematiske videnskab og til at tale
+          mindre pænt om den. Deres stødtropper har tilmed ikke været bange for at bruge denne titel
+          i deres lovkorpus: <ref target="n45"/>&#x201C;Om troldmænd og matematikere&#x201D; &#x2013; som om de to ord var synonymer!
+          Man må snarere undskylde dem på grund af deres uvidenhed end kritisere dem for det. Af
+          denne årsag har de ikke forstået at skelne mellem de ypperste af alle fag, de matematiske,
+          som derfor kaldes &#x2018;de fremmeste&#x2019; og regnes for de mest værdifulde blandt
+          alle, der efter menneskelig målestok er visdommens disciple &#x2013; og så de nedrigste,
+          de sletteste fag, nemlig dem, der beskæftiger sig med trolddom. Deres i øvrigt udmærkede
+          og flittige fortolker <ref target="n47"/><persName
+            ref="Accursius">Accursius</persName> har et sted indføjet denne glosse og udlægning: </p>
+        <lg rend="it">
+          <l><ref target="n48"/>Scire docet Mathesis sed diuinare Mathesis,</l>
+        </lg>
+        <p>&#x2013; men det retfærdiggør ikke på nogen måde en åbenlys uvidenhed; det lægger
+          tværtimod et manglende kendskab til græsk oven i uvidenheden om matematikken: Skønt
+          <persName
+            ref="Accursius">Accursius</persName> i øvrigt ikke kan græsk, finder han indsigtsfuldt og nok så nydeligt på en
+          forskel på <hi ana="it">mathesis</hi> med <ref target="n49"/>såvel kort som lang anden stavelse og beviser i sit digt denne
+          forskel, som overhovedet ikke findes i dette sprogs betydning af ordet eller i
+          stavelsernes fastlagte natur. Det er derimod sandsynligt, at de gamle romere, som gav
+          denne lov, førend de matematiske fag var kendt og dyrket hos dem, af lutter uvidenhed har
+          ladet dette passere på grund af nogle chaldæeres, araberes, ægypteres og andres overtro og
+          forbudte spådomskunster &#x2013; måske tilmed nekromanti &#x2013; som den brede hob og
+          naive mennesker rettede sig efter. Ikke des mindre <pb ed="TBOO" n="I.166"/>falbød de
+          deres kunster under navn af matematik og astrologi (da disse ophøjede discipliner jo
+          engang opstod på disse kyster) <pb ed="V" n="13v"/>for at kunne skaffe sig en indtægt
+          under dette nydelige dække &#x2013; og tage godtroende folk ved næsen. Det fremgår nemlig,
+          at disse lovgivere ikke var fjendtligt stemt mod de sande og ægte matematiske fag, fordi
+          de andetsteds sætter stor pris på geometrer og beregnere (sådan benævner de aritmetikere),
+          og de mener, at der skal udbetales honorar til dem, og at der skal gives dem fritagelse
+          for offentlige hverv. At det forholder sig således, fremgår deraf, at man et andet sted
+          finder skrevet: &#x2018;Det er vigtigt at undervise i geometrifaget og at udøve det
+          offentligt, mens matematik er skadeligt og ganske forbudt.&#x2019; <ref target="n50"/>(L. 2. C Om troldmænd
+          og matematikere). Der er heraf klart, at lovgiverne ikke har forstået, at geometrien er
+          den første og vigtigste del af de matematiske fag, som næsten alle andre tager deres
+          udgangspunkt i, og at de på en overordentlig ufornuftig måde har skilt mathesis, som er
+          det overordnede, fra geometrien som sin egen underafdeling. De forstod altså noget andet
+          ved de matematiske fag, end det man gør i dag, og den sunde fornuft kræver det, ganske som
+          jeg har forklaret før. Lad det nu være, som det være vil. Vi skal ikke lade os forstyrre
+          af, hvad romerne har besluttet i deres proceslove om så ophøjede videnskaber, som de næppe
+          havde nippet til med det yderste af læberne (hvilket også <persName ref="Seneca">Seneca</persName> bevidner for sin tid)
+          &#x2013; med den myndighed, hvormed de stræber efter at herske over alle, ikke blot folk,
+          men også fag. Dette Ovid-sted drejede sig vel i næsten lige så høj grad om disse forhold,
+          som det omhandlede byen Roms gamle grundlægger Romulus:</p>
+
+        <lg rend="it">
+          <l><ref target="n51"/>Mægtige Stifter af Rom! Med Sværd du Naboen kued&#x2019;,</l>
+          <l rend="indent">Alt dit Geni gik til Krig: Stjernerne kendte du slet.</l>
+        </lg>
+
+        <p>Således har <ref target="n52"/>de mere end én gang fordrevet filosoffer og digtere fra staten på grund af
+          deres manglende erfaring parret med en tilsvarende uvidenhed &#x2013; de har tilmed somme
+          tider tankeløst forment deres egne hustruer adgang til staten (skønt de ikke kunne undvære
+          dem) og senere taget dem til sig igen med en tilsvarende tankeløshed. Med de love, som den
+          slags folk ud fra deres lyst til at bestemme og deres hovmodige forgodtbefindende laver og
+          laver om på vedrørende ting, de ikke har forstand på, er det fuldt fortjent, at de hverken
+          skal have lov til at udtale sig eller opnå tiltro om de højere fag, som er Guds uendelige
+          gaver, så at det kan medføre ringeagt for fagene. Lad os nu forlade dem og gå over til
+          medicinens udøvere. Adskillige af dem forfølger også matematikken og især astrologien.
+          Deres fremmeste mester <ref target="n53"/><persName ref="Hippokrates">Hippokrates</persName> har imidlertid ikke begået denne fejl. Han satte stor
+          pris på begge fag og var ikke kun meget dygtig til geometri, som det var skik blandt
+          filosoffer på hans tid. Han føjede også behændigt astrologiske forudsigelser til sit
+          talent og det med udbytte. Det har mange efter ham også gjort, og de fleste har med held
+          efterlignet ham også i vore dage. Det er dog sært, <pb ed="V" n="14r"/>at adskillige
+          (heriblandt den berømte <ref target="n54"/><persName ref="Erastus">Erastus</persName>, som <pb ed="TBOO" n="I.167"/><ref target="n55"/>[beskæftiger sig med]
+          medicinen, der er en slags fysisk erkendelse og afhænger af en undersøgelse af den nedre
+          natur) med velberåd hu udelader himmelfænomenerne, hvorfra medicinen får sine kræfter og
+          forandringer. Men skønt denne <persName ref="Erastus">Erastus</persName> <ref target="n56"/>i overensstemmelse med sit navns etymologi i øvrigt
+          ligger under for temmelig store fejltagelser, er der ingen grund til at dvæle ved hans
+          eller hans forførtes forudfattede og tåbelige meninger, eftersom <persName ref="Erastus">Erastus</persName>, hvis
+          autoritet han satte al for stor lid til, fuldstændig har gjort ham blind. Da han jo havde
+          hang til modsigelse og fordrejning af andres korrekte opdagelser &#x2013; som var det en
+          medfødt evne &#x2013; lod han det heller ikke uforsøgt at angribe den store
+          <ref target="n57"/><persName
+            ref="Paracelsus">Paracelsus&#x2019;</persName> lærdomme, som han ikke selv havde forstået til bunds. Eksempelvis
+          evnede han ikke at undergrave dem med de minegange, som han belærte læseren om; han påstod
+          med løsagtige argumenter til forsvar for sin helt <persName ref="Aristoteles">Aristoteles</persName>, at også kometer er
+          sublunare; han fremførte også meget andet, der er helt fremmed for sand videnskab, som
+          kæmpede han for altre og arner, og han for frem med en meget voldsom pen. Men er der nogen
+          grund til at gendrive medicinere der tilsidesætter astrologien, når sygdomskriser og andre
+          vurderinger aldrig er indlysende for dem i højere grad, end de er ud fra stjernernes
+          forløb og påvirkning. Jeg skal ikke komme ind på <ref target="n58"/>opgravningen af mineraler og urter eller
+          på fremstillingen af medikamenter, på udførelsen af dette på rette tid og andet
+          desangående. Men jeg vil dog uden tøven fastholde, at de, der beskæftiger sig med
+          medicinens hemmeligheder uden en forståelse af det himmelske, næppe fatter halvdelen af,
+          hvad de burde vide, ja de har ikke forstand på at forbinde makrokosmos med mikrokosmos med
+          den passende analogi, der er mellem dem. </p>
+        <p rend="indent">For nu til slut at nævne sagens hovedpunkter: Hverken teologiens,
+          filosofiens, juraens eller medicinens udøvere udgør en trussel for de matematiske fag
+          &#x2013; eller de fleste af dem, herunder den så forhadte astrologi. Ja, størsteparten af
+          disse mennesker (og særligt de, der angriber fagene med stor voldsomhed) har ikke begreb
+          skabt om fagene og har aldrig betrådt disse afsides helligdomme. Derfor bør man ikke
+          afsige dom over disse fag ud fra meningen blandt folk, der intet kender til dem. Det er
+          nemlig som i det kendte ordsprog: <ref target="n59"/>&#x2018;Skomager, bliv ved din læst&#x2019; og
+          <ref target="n60"/>&#x2018;Man siger, at hejren skælder ud på vandet med sin knebren, fordi den ikke har lært
+          at svømme.&#x2019; Det er nemlig en vane hos visse mere begavede mennesker, at <pb ed="V"
+            n="14v"/>når de har opnået en vis erkendelse eller erfaring i mangt og meget og derfor
+          har opnået anerkendelse hos nogle, påberåber de sig også en mening om sager, som de ikke
+          har forstået og som de ikke engang har undersøgt overfladisk. Hvor tilfældigt dette er,
+          ved de, der både forstår dette bedre og forstår at skelne det sande fra det falske, dels
+          ved dagligt studium, dels ved jævnlig træning. </p>
+        <p rend="indent">Særlig farlige fjender af disse fag (især af astrologien) er de, der
+          bekæmper dem, efter først at have beskæftiget sig intenst med dem for senere at falde fra
+          dem. Sådan var i forne tider den berømte italienske filosof, <pb ed="TBOO" n="I.168"/><ref target="n61"/><persName ref="Pico">Pico
+          greve af Mirandola</persName>, der var helt forbløffende veluddannet på adskillige fagområder. Fra
+          sine første år havde han været velbevandret i andre matematiske videnskaber, men han var
+          ikke lige så overlegen i astrologiens <ref target="n62"/>apotelesmata og anvisninger, som man almindeligvis
+          sagde. Alligevel skrev han et stort værk i tretten bøger mod astrologien, enten på grund
+          af visse pseudoastrologers overtro og løgne eller (som det antages) af had til en række
+          mennesker, der var hans samtidige, og som havde forudsagt ham ting, han ikke brød sig om.
+          I dette værk rokker han dog ikke så meget ved selve faget og dets solide fundament, som
+          han afslører uduelige astrologers indholdstomme og forkerte trylleformularer, som ingen
+          tilhænger af den hemmelige og sande astrologi nogensinde har accepteret. Hvis man må
+          opføre sig sådan, og fag må kritiseres, fordi dets udøvere har været mindre kyndige,
+          bliver der intet sikkert og urokkeligt tilbage, hverken i behandlingen af teologien,
+          juraen, medicinen eller af hele filosofien. Ja, det er nærmest en naturlig egenskab ved
+          alle disse fag, at hvad folk i almindelighed siger og hører om dem, er meget lidt værd,
+          mens det der rører ved sandhedens kerne, ligger godt gemt bort og kun er kendt af de
+          færreste. Alligevel har den omtalte greve af Mirandola været så dristig, at han ikke er
+          bange for at kaste tvivl over såvel astrologiske forhold (der er knyttet til fysik og
+          mantik, og som kan variere på forskellig vis i forhold til materiens fluksibilitet og
+          derfor let kan blive udsat for uenighed) som astronomiske, ja sågar den forandring i
+          eklipitkas største hældning, der har fundet sted fra antikken til nu. Den er dog bemærket
+          af både <persName ref="Hipparchos">Hipparch</persName> og <persName ref="Ptolemaios">Ptolemæus</persName> med en større præcision end en tresindstyvendedel af en grad
+          og med et samstemmende resultat; i vor tid findes den derimod at være i alt en tredjedel
+          grad mindre end deres måling viser. I en så soleklar sag, der er så let at observere,
+          burde man ikke have nogen tvivl. Hvad skal man så mene om de andre påstande, der ikke i
+          samme grad er tilgængelige for sanserne <pb ed="V" n="15r"/>og ikke lige så lette at
+          påvise? Og hvilken tiltro fortjener hans indvendinger mod dem, hvis de ikke vedrører selve
+          faget men misbrug af det? Skønt det, man finder i visse italieneres skrifter er ganske
+          ubetvivleligt, er det ikke umagen værd at modbevise denne <persName ref="Pico">Picos</persName> argumentation mod
+          astrologerne på anden vis end ved et eksperiment udgivet særligt mod ham. <ref target="n63"/><persName ref="Belantius">Lucius Belantius</persName>
+          har nemlig i et lærd værk udgivet som modskrift mod hans indvendinger gjort det
+          overordentlig omhyggeligt. Nogle italienske forfattere (heriblandt <ref target="n64"/><persName ref="Gauricus">Lucas
+            Gauricus</persName>, med
+          titel af biskop af Giffoni og berømt for sin beskæftigelse med astrologi) siger nemlig med
+          sikkerhed, at tre fremstående astrologer i Italien forudsagde samme <persName ref="Pico">Pico</persName>, at hans 33. år
+          ville blive fatalt ved en fremskrivning af hans aphet, ascendanten, til Mars som anaret.
+          Dette passer godt med hans fødselshoroskop (hvis det der er i omløb, er sandt). Og selvom
+          samme <persName ref="Pico">Pico</persName> kæmpede alt, hvad han kunne, for at afvende denne forudsigelse og gøre den
+          ugyldig <pb ed="TBOO" n="I.169"/>(i en sådan grad, at man fortæller, at han i omtrent
+          denne alder skjulte sig i et kloster), mødte han ikke desto mindre sin skæbne det selv
+          samme år, der var blevet forudsagt, således at han på sin egen krop og med sit eget liv
+          erfarede astrologiens sandhed. Der er masser af tilsvarende eksempler på, at seriøse og
+          meget erfarne astrologers forudsigelser har haft fuldstændig sikre udfald. Jeg skal ikke
+          benægte, at alt for mange, der udgiver sig for astrologer, varsler falsk i stedet for
+          sandt &#x2013; endog hyppigere end andre mennesker. Det bør man dog ikke lægge det
+          hemmelige fag til last, for hvis det udføres korrekt og holdes inden for sine grænser er
+          det ikke så fejlbehæftet, som det almindeligvis antages. Man skal derimod laste dem, der
+          ikke bruger det korrekt og med omtanke. Til forsvar for dem, der ofte begår fejl (det skal
+          nemlig ikke gå ud over faget) vil jeg føje noget, der måske kan opfattes paradoksalt: en
+          enkelt gang eller to forudsiger noget sandt om omstændighederne for tidspunkter og
+          begivenheder, således at det bliver klart, at det var herfra og ikke andetstedsfra at det
+          blev forudsagt og fik det rette udfald &#x2013; disse mænd fører et bedre bevis for, at
+          astrologien indeholder meget af sandheden, end hvis de selv eller andre meget oftere
+          varslede noget falsk. For nu at gøre det klart med et eksempel: En udøver af medicinen har
+          foretaget nogle eksperimenter i en bestemt form for sygdom, der som regel afhjælper dette
+          onde, <pb ed="V" n="15v"/>men har ikke opnået den samme sikkerhed over for andre sygdomme.
+          Hvis han alligevel giver sig til at kurere alle slags sygdomme, som han får indbragt, så
+          vil han ved for en stor del at helbrede den type sygdom hvor der findes et oplagt
+          medikament, der er afprøvet ved uigendrivelig erfaring, føre et bedre bevis for, at
+          medicinen er et fag, og et sandt fag, end hvis han lægger den for had ved i andre tilfælde
+          at bruge medicinen i uvidenhed og fejle meget oftere.</p>
+        <lb/>
+        <p>Dette og meget mere kan anføres som forsvar for astrologien over for dens modstandere.
+          Dog skal ingen af den grund tro at jeg har fremdraget alt dette, fordi jeg tillægger denne
+          spåkvinde større værdi end de øvrige dele af filosofien. Jeg ønsker heller ikke at
+          anbefale den mere indtrængende for den lærde ungdom. Men siden den frem for de andre
+          matematiske videnskaber (for den bør regnes hertil på grund af sit slægtskab med
+          astronomien, som den afhænger af, ligesom den også for en stor del er fysisk) drages i
+          tvivl af ellers kyndige folk, og næsten overalt modsiges, har jeg ment til en vis grad at
+          burde påtage mig dens forsvar &#x2013; i overensstemmelse med hvad jeg også tidligere har
+          lovet. </p>
+        <p rend="indent">Jeg føler ikke, at denne videnskab hører blandt dem, som bør doceres
+          offentligt og gøres tilgængelig for enhver uden forskel. Nej, snarere bør den omhandles
+          sparsomt med mådehold i en udvalgt, lærd kreds. <pb ed="V" n="16r"/>For vi skal ikke være
+          alt for videbegærlige når det drejer sig om disse videnskaber, som er mindre åbne for
+          sikre beviser, men rummer snirkler og labyrinter der er vanskelige at udrede. <pb
+            ed="TBOO" n="I.170"/>Vi skal ikke lade det sande og gode lide skibbrud ved at være alt
+          for kloge. Derfor bør den slags behandles meget betænksomt og behersket! </p>
+        <p rend="indent">Lad det, der er sagt om det foreliggende emne, være nok for øjeblikket.
+        </p>
+      </div>
+      <div xml:id="subjungenda" n="Subjungenda">
+        <head>
+          <orig><pb ed="nil" n="17r"/><ref target="n68"/>Dette bør tilføjes efter talen</orig>
+          <reg>Subjungenda</reg>
+          <reg xml:lang="en">Subjungenda</reg>
+        </head>
+        <p>Mens jeg således talte en hel time, og alle tilstedeværendes øjne var rettet mod mig, og
+          jeg var kommet til det sted, hvor jeg tilbageviser teologernes argumenter mod
+          astrologerne, skete det, at alle studenterne drejede hovedet og så mod den højlærde og for
+          sine værker berømte doktor <ref target="n69"/><persName ref="Hemmingsen, Niels">Niels Hemmingsen</persName>, der var til stede som en slags formand for
+          professorerne. Han var fuldstændig klar over, at han havde undervist de selv samme
+          studenter i den slags argumenter mod astrologien og senere havde publiceret dem indlagt i
+          sine kommentar til Pauli breve. De synes dog for størsteparten at være hentet i <persName ref="Calvin">Calvins</persName>
+          lille bog mod astrologerne. Smilende lettede han lidt på den baret, han havde på hovedet,
+          fordi jeg ikke nævnte navne med kun talte overordnet om, at teologiske professorer var
+          imod dette. </p>
+
+        <p rend="indent"> Jeg mener dog, at jeg imødegik hans og de andres argumenter i denne lille
+          tale, og med hensyn til <persName ref="Calvin">Calvins</persName> på andre måde lærde bog, som han udslyngede mod
+          astrologerne, så taler den ikke så meget imod astrologerne som til forsvar for teologerne
+          &#x2013; eller af uvidenhed hos dens i andre henseender skarpsindige og kloge forfatter.
+          Da han nemlig vedgår, at stjernerne påvirker elementarluften og bevæger og ændrer dens
+          tryk, følger nødvendigvis heraf, at menneskene er underlagt denne indflydelse, da de jo
+          lever mere af luften, som de hele tiden indånder, end af mad og drikke og således i al
+          stilhed inddrikker himmellegemernes energi. Derfor påvirkes de også af den daglige ændring
+          af luften, som der også står i det forslidte vers: </p>
+
+        <lg rend="it">
+          <l>Ustadigt vejr gør folk ustadige, stadige stadigt.</l>
+        </lg>
+
+        <p>Han tilføjede også, at med hensyn til forudsigelser ud fra fødselstidspunktet medgav han,
+          at stjernerne har en indflydelse på menneskenes temperament og væskesammensætning, men ikke på de efterfølgende begivenheder. Men hvad betyder det? Hvis
+          sammensætninger og legemsvæsker er forskellige hos mennesker, giver de også anledning til
+          nogle deraf afledte virkninger. Fx får melankolikere sort galde af Saturn og ligger under
+          for tristhed, misundelse og nederdrægtige anslag. Sangvinikerne <pb ed="V" n="17v"
+          />derimod bliver glade, åbne og venlige af Jupiter og Venus. Kolerikerne får alt for meget
+          gul galde af Mars og bliver irritable, aggressive og stridbare. Flegmatikerne bliver
+          sløve, dorske og dovne som følge af Månen. Dette forandres og blandes på alle mulige
+          måder, men som regel findes det i en blandet form hos hver enkelt, <pb ed="TBOO" n="I.171"
+          />mere eller mindre og i mange former afhængigt af tid og andre forhold. Hvis menneskene
+          farves af stjernerne med den slags sammensætninger (som <persName ref="Calvin">Calvin</persName> indrømmede), bliver
+          konsekvensen, at der også kommer frugt af disse former for sammensætning. For at gøre det
+          kort er det den slags, der opstår af tristhed, misundelse, uvilje, vrede, ubehersket
+          munterhed, vellevned, sløvhed, svækkelse og tilsvarende. Almindelig skik og folks omgang
+          med hinanden viser, hvad det indebærer. Om de andre begivenheder, som ligger uden for
+          mennesket, fx ulykker der optræder uventet i ens liv, om ægtefælle og børn, venner og
+          fjender, dagligliv og den slags, udtaler astrologerne sig kun i forbigående og forsigtigt,
+          fordi det og mere af den slags befinder sig uden for mennesket og for største parten er
+          underlagt hans egen vilje. Derfor siger man (og det er ikke så galt overhovedet, selvom
+          det måske ikke altid er rigtigt), at enhver er sin egen lykkes smed. Men det er ikke
+          stedet at tale mere herom. Det må være nok, indtil der kommer en bedre lejlighed. </p>
+        <p rend="indent">Da jeg var færdig med min tale, trak jeg mig tilbage til mit logi fra det
+          omtalte sted, og i sin venlighed førte hans excellence, <persName ref="Dançay">">den franske gesandt</persName> mig derhen
+          sammen med akademiets professorer. Da skete det under spadsereturen, at en af dem, den
+          fungerende professor i jura, <ref target="n72"/><persName ref="Knoppert"
+            >Albertus Knopperus</persName>, en i øvrigt fortræffelig og åbenhjertig
+          mand, henvendte sig til mig og sagde: &#x2018;Da jeg hørte dig tale mod både filosofferne
+          og medicinerne &#x2013; og så også mod de teologiske professorer, og hørte dig tilbagevise
+          deres indvendinger mod dit fag, blev jeg så bange for, at du også ville gå løs på os
+          jurister, at jeg af lutter angst kom til at svede!&#x2019; Han var nemlig i øvrigt
+          temmelig korpulent. <pb ed="V" n="18r"/>Hvad enten han sagde dette i spøg eller alvor, var
+          han ikke ordentligt hjemme i det kapitel i Pandekterne, der har overskriften Mod troldmænd
+          og matematikere. Jeg gav ham smilende igen: &#x2018;Jeg var jo ganske klar over, at I har
+          stemplet overskriften dér som tåbelig, for <ref target="n73"/>engang blev jeg tvunget til at beskæftige mig
+          med jeres jura i Leipzig efter mine forældres ønske. Men jeg foretrak at forbigå det i
+          tavshed, da jeg jo ikke havde noget andet, jeg kunne anføre herimod end dette: Når de, der
+          docerer jura, ikke kan kende bedre forskel på matematikere og troldmænd, end at de
+          sammenfatter dem under én benævnelse og overskrift, må man tilskrive dette deres uvidenhed
+          og undskylde dem med den. For når de andetsteds i en glosse har tilføjet denne distinktion
+          (muligvis fordi de var blevet formanet om deres uvidenhed), </p>
+
+        <lg rend="it">
+          <l><ref target="n74"/>Scire docet Mathesis, dat diuinare Mathesis,</l>
+        </lg>
+
+        <p>så afslører det både deres uduelighed i græsk og deres tåbelighed i de matematiske fag,
+          så jeres ven <persName
+            ref="Accursius">Accursius</persName> kunne derfor lige så godt have sagt: <hi rend="it"><ref target="n75"/>Græca sunt, legi non
+          possunt</hi>. Han optog alt dette muntert og i sjov, da han jo var en fornuftig mand.
+          Men da hans excellence selv, gesandten, <pb ed="TBOO" n="I.172"/>udtrykkelig havde spurgt
+          mig, om jeg ville spise til aften med ham, og han i al åbenhed også havde inviteret den
+          berømte <persName ref="Hemmingsen, Niels">Hemmingsen</persName> og andre af doktorerne til det samme, ville jeg ikke afslå hans
+          opfordring. Men da jeg kom til ham under måltidet, hvor også den omtalte <persName ref="Hemmingsen, Niels"><persName ref="Belantius">Lucius Belantius</persName></persName> var
+          til stede sammen med nogle af de bedste doktorer og professorer, blev det, jeg havde sagt
+          i min tale, drøftet yderligere blandt os under middagskonversationen. Da den helt igennem
+          fortræffelige <persName ref="Dançay">Dançay</persName> havde et både venligt og drilsk lune og gerne ville sætte <persName ref="Hemmingsen, Niels">Hemmingsen</persName>
+          og mig op mod hinanden, foreslog han følgende: &#x2018;I dag har Tycho ikke blot angrebet
+          de andre fakulteter, men også lærerne i teologi, fordi de ikke giver meget for
+          astrologien, i og med den er i modstrid med teologien.&#x2019; &#x2013; <persName ref="Dançay">Dançay</persName> var nemlig
+          i al stilhed selv ikke begejstret for astrologiske forudsigelser, særlig
+          fødselshoroskoper, skønt han i sin ungdom også havde dyrket dette studium og havde gjort
+          så store fremskidt heri, <pb ed="V" n="18v"/>at han havde kunnet forudsige mange ting med
+          et sandt resultat for privatpersoner, som han selv fortalte mig. Men han var blevet skræmt
+          fra vid og sans af <persName ref="Calvin">Calvin</persName>, denne på dette punkt alt for rigide <ref target="n76"/><persName ref="Aristarchos"
+            >Aristarch</persName>, og havde opgivet
+          denne beskæftigelse. Han var også af den opfattelse, at astrologiske forudsigelser strider
+          mod den evangeliske lære. Men jeg plejede at svare: &#x2018;Der er intet farligt i det,
+          hvis det bliver gjort sobert og gennemskueligt og ikke går ud over sine fastsatte grænser
+          og forfalder til overtro. Men det er meget mere farligt at overlade det til dem, der ønske
+          at styre statens skæbne efter deres eget ønske.&#x2019; &#x2013; Da <persName ref="Hemmingsen, Niels">Hemmingsen</persName> nu hørte
+          <persName ref="Dançay">Dançay</persName> bringe det på bane og ganske rigtigt antog, at han var målet, tilføjede han straks,
+          at han ikke havde så meget mod min påstand, da jeg jo på ingen måde benægtede, at Gud
+          handler frit og ikke er bundet af nogen sekundær årsag, og heller ikke fratog mennesket
+          dets fri vilje gennem indflydelse fra stjernerne. Hvis disse to ting stod fast, kunne man
+          acceptere resten. Jeg svarede således: &#x2018;At Gud handler frit uden at være underlagt
+          nogen af sine skabninger, det har ingen astrolog selv blandt hedningene (det skulle da
+          lige være den helt ugudelige <ref target="n78"/>Epikur) nogensinde benægtet. Ikke alene er den menneskelige
+          vilje og sjæl ikke underlagt stjernerne, den kan også hæve sig højt over dem og herske,
+          særligt hvis den får guddommelig hjælp. Dette har jeg altid vedgået og troet på.&#x2019;
+          Og således kom vi overens. </p>
+        <p rend="indent">Den næste dag begyndte jeg min forelæsning omtrent på samme klokkeslæt som
+          sidst, og jeg begyndte med en lille ekstemporeret fortale som indledning. Jeg skitserede
+          overordnet, hvad jeg ville fremlægge og undervise i, nemlig at jeg kortfattet ville
+          fremlægge læren om de sekundære bevægelige størrelser ifølge <persName ref="Copernicus">Copernicus</persName>&#x2019; opfattelse
+          og beregninger, dog med en generel overførsel til en fast jord, som han havde bestemt til
+          at bevæge sig i en trefoldig bevægelse; ligeledes ville jeg først anstille og fremlægge
+          nogle hypoteser om fiksstjernerne og de to himmellys i verden, nemlig Solen og Månen, og
+          opløse dem såvel geometrisk ved trekanter som aritmetisk ved tal ifølge de pruteniske
+          regler, der er baseret på <persName ref="Copernicus">Copernicus</persName>. <pb ed="TBOO" n="I.173"/>
+          <pb ed="a" n="19r"/>Hvis der derefter skulle være tid og lejlighed, ville jeg ligeledes
+          fremlægge noget om de øvrige planeter. Jeg havde sørget for i forvejen for egne penge at
+          indkøbe nogle eksemplarer af de pruteniske tabeller, som jeg lod fordele blandt
+          studenterne (særligt de mindre bemidlede), for at de ikke skulle mangle noget at rette sig
+          efter. Da jeg havde afsluttet hypoteserne om himmellysene, lå der foran mig en rejse til
+          Tyskland, hvorfor jeg ved afrejsen hertil opgav at fortsætte min forelæsningsrække
+          yderligere omkring vintersolhverv. Jeg anførte dog i en overordnet fremlæggelse, hvordan
+          det samme skulle forstås også ved de øvrige planeter, og jeg angav, hvordan deres
+          tilsynekomster kunne tilpasses til en fast jord, med bibeholdelse af <persName ref="Copernicus">Copernicus</persName>&#x2019;
+          tal &#x2013; og ganske anderledes, end <ref target="n79"/><persName ref="Peucer">Peucerus</persName> og <ref target="n80"/><persName ref="Dasypodius">Dasipodius</persName>, der har behandlet dette
+          helt forkert, for nylig har fremlagt det i en bog om denne sag. De har nemlig ganske
+          inkonsekvent appliceret <persName ref="Copernicus">Copernicus</persName>&#x2019; beregninger på <persName ref="Ptolemaios">Ptolemæus</persName>&#x2019; hypoteser og
+          de alfonsinske tabeller. Og da det næppe vil være uvelkomment, hvis jeg offentliggør det,
+          jeg dengang forelæste, for astronomiens dyrkere, … Jeg vil tilføje … hvad jeg indtil nu
+          har kunnet finde blandt mine papirer og som ikke er undsluppet min hukommelse … </p>
+      </div>
+    </body>
+  </text>
+</TEI>

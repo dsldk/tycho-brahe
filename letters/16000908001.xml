@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Johann Georg Herwart von Hohenburg</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2020</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 353-354</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <placeName>Augsburg</placeName>
+                    <date when="1600-09-08"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1600. 8. september. n.s</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2020-01-29" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.344"/><persName ref="Herwart">IOANNES GEORGIUS HERWARTUS AB HOHENBURG</persName> AD
+                    TYCHONEM BRAHE.</opener>
+
+                <p><pb ed="A" n="239v"/>CUM primum, Vir nobilissime atque Mathematicorum omnium
+                    facile princeps, ad me misisti carmina illa, quæ de rebus tuis sunt composita,
+                    subijt animum, quod quondam <persName ref="Curtius">IACOBUS CURTIUS</persName>
+                    Procancellarius Imperij, piæ memoriæ (qui mihi assiduus studiorum collega et
+                    contubernalis in <placeName ref="France">Gallia</placeName> et <placeName ref="Italy">Italia</placeName>, exinde
+                    amicus intimus et quidem pars animæ meæ, dum vixit, extitit) mea suggestione
+                    motus, desideravit carmen aliquod huius generis obtinere a D. <persName
+                        ref="Menzel">PHILIPPO MENZELIO</persName>, Medicinæ D. et Professore
+                    celebratissimo, cum is in his partibus Poëtas reliquos longe antecellere
+                    existimetur, sed ob distractiones tam lectionis publicæ quam et praxeos
+                    Medicinalis modo memorati D. <persName ref="Menzel">MENZELIJ</persName> frustra
+                    et incassum laboravit. Idcirco plane constitui <pb ed="TBOO" n="VIII.354"
+                    />nullum non lapidem movere, donec optatum ego adpiscar. Id ægerrime quidem, ut
+                    verum fatear, sed tamen iam tandem aliquando impetravi, et his iunctum ad te
+                    mitto, quod spero et confido tibi non futurum ingratum.</p>
+                <p rend="indent">Mitto etiam veteres quosdam Geographos nunc primum in lucem editos,
+                    mihique inscriptos, inter quos <persName ref="Skylax">SCYLAX
+                        Caryandensis</persName> est, cuius et <persName ref="Strabon"
+                        >STRABO</persName> et <persName ref="Cicero">CICERO</persName> meminit,
+                    author sane vetustissimus, ipso <persName ref="Herodotos">HERODOTO</persName> et
+                        <persName ref="Thukydides">THUCYDIDE</persName> antiquior, ut qui temporibus
+                        <persName ref="Darios">DARIJ</persName> primi <persName ref="Hystaspis"
+                        >HYSTASPIS</persName> filij floruerit, penes quem aliqua reperies, quæ alibi
+                    non extent. Atque simul unâ te bene valere et quam fœlicissime florere ex
+                    animo opto. Datæ <placeName ref="Augsburg">Augustæ</placeName> die 8 Sept. A. 1600.</p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

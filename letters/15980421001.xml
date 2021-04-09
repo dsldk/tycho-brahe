@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <bibl>Johannes Kepler, <title>Opera Omnia</title>, vol I, ed. C. Frisch,
+                            Frankfurt/Erlangen 1858, p. 44-46</bibl>
+                    </witness>
+                    <witness xml:id="B">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Wolfenbüttel</settlement>
+                                <repository>Herzog August Bibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>15. 3 Aug. in 2&#176;, fol. 317</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="C">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>München</settlement>
+                                <repository>Bayerische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>BSB Clm 1607</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 52-55</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Wandsburg</placeName>
+                    <date when="1598-04-21"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Michael Mästlin</persName>
+                    <placeName>Tübingen</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1598. 21. april</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2019-11-20" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="VIII.52"/>CLARISSIMO ET PRÆSTANTISSIMO VIRO DOMINO M.
+                        <persName ref="Mästlin">MICHAELI MÆSTLINO</persName>, MATHEMATICARUM ARTIUM
+                    INSIGNITER PERITO, EARUNDEMQUE IN INCLYTA ACADEMIA TUBINGENSI PROFESSORI
+                    CELEBERRIMO, MIHI PLURIMUM DILECTO.<lb/><hi rend="it"><app>
+                            <lem>TÜBINGEN</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></hi>.<lb/>S.</opener>
+                <p>ANNUS iam agitur decimus, <app>
+                        <lem wit="#A">eruditissime</lem>
+                        <rdg wit="#B">ornatissime</rdg>
+                    </app> et præstantissime <persName ref="Mästlin, Michael">MÆSTLINE</persName>,
+                    ex quo quidam e meis domesticis, qui aliquandiu mihi in rebus Astronomicis
+                    inservierat, exemplum tuarum literarum <placeName ref="Tübingen"
+                        >Tubingâ</placeName> ad se datarum in <placeName ref="Denmark"
+                        >Daniam</placeName> mihi transmisit, quibus pollicebaris, te librum nostrum
+                    de Cometa anni 77 tibi ab eodem communicatum diligenter perlecturum, tuamque de
+                    eius contentis sententiam conscripturum, atque mecum de eis per literas
+                    collaturum, quas te <placeName ref="Marburg">Marpurgum</placeName> ad eundem
+                    mittere decrevisse, ad me postea procurandas innuisti. At ego <app>
+                        <lem wit="#A">tot</lem>
+                        <rdg wit="#B">his</rdg>
+                    </app> interlapsis annis, neque hac de re aut quapiam alia, negocium
+                    Astronomicum, quo utrinque aficimur, concernente, ne verbulum quidem a te
+                    accepi, sive scripto, sive aliorum indicatione, qui isthinc venientes me
+                        <placeName ref="Uraniborg">Uraniburgi</placeName>, dum adhuc in Patria
+                    degerem, inviserunt. Existimassem equidem te <app>
+                        <lem>ob</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> communia nobis studia scriptione aliqua saltem tot interlabentibus annis
+                    non supersessurum, præsertim cum id facturum sponte in te receperis. Ne vero ego
+                    ob id tecum per literas, siquidem aliter non liceat, familiaritatem contrahendi
+                    omnem occasionem respuisse videar, quod ab humanitate et exercitijs, quibus
+                    delectamur, sublimioribus alienum foret: en nunc prævenio, et ad scribendum
+                    respondendumque ultro te invito: data nimirum hac commodiore, qua nunc fruor,
+                    oportunitate, quam antea in <placeName ref="Denmark">Dania</placeName>, ex quo
+                        <pb ed="TBOO" n="VIII.53"/>in arce quadam Ranzoviana, dimidio saltem miliari
+                        <placeName ref="Hamburg">Hamburgo</placeName> remota, nunc habitem, unde in
+                    varia, non saltem <placeName ref="Germany">Germaniæ</placeName>, sed totius pene
+                        <placeName ref="Europe">Europæ</placeName> loca creber et commodus datur
+                    nuncius. Si itaque quid habes, de quo mecum in rebus Astronomicis, sive
+                    Cometicum illud negocium, sive quidvis aliud concernat, conferre libuerit,
+                    invenies me pro meo modulo, et quantum hactenus in ijs assequi licuit, ad
+                    respondendum non difficilem.</p>
+                <p rend="indent">Allatum mihi nuper est eruditum quoddam scriptum Mathematici
+                    excellentis <persName ref="Kepler">JOANNIS KEPLERI</persName> e <placeName
+                        ref="Steiermark">Styria</placeName>, in quo revolutiones Planetarum
+                    secundum formam <persName ref="Copernivus">Coperniceam</persName> ad 5 regularia
+                    corpora harmonice redigere ingeniosa sane speculatione conatur, qua etiam de re
+                    nuper ad me perscripsit, egoque illi, quantum præ occupationum mole licuit, meam
+                    vicissim de talibus aperui sententiam. Video autem te in eodem libro de
+                    Hypothesi a nobis ante annos complures adinventa nonnulla quasi dubitanter
+                    adferre, cum promiscue eam etiam alijs tribuas, plagiarijs forte meis <app>
+                        <lem>nimium</lem>
+                        <rdg><note>om. B</note></rdg>
+                    </app> auscultans, tum quoque plura de eadem inferens, quæ si consideratius
+                    expendisses, et sententiam nostram atque omnes occasiones huius Hypotheseos
+                    constituendæ undiquaque perspectas habuisses, hæsitationibus eiuscemodi forte
+                    supersedisses. Atqui ego, si tibi quid in hac inventione scrupuli restet, id
+                    amovere atque penitius rem omnem explanare paratus sum, quod etiam res ipsa
+                    docebit, ubi Planetarum motus ad eam normam a nobis adeo accurate expansos
+                    cognoveris, ut nihil sit, quod sensus amplius requirant, utut tu in eodem
+                    libello de Astronomiæ correctione non <app>
+                        <lem wit="#B">saltem</lem>
+                        <rdg wit="#A">solum</rdg>
+                    </app> dubitare, sed et animum abijcere videaris, licet antea aliter spem
+                    feceris. Si ab anteriore per corpora ista regularia dimensione facta, ea
+                    restituenda erit, potius quam ex accuratis observationibus <app>
+                        <lem wit="#A">a</lem>
+                        <rdg wit="#B">e</rdg>
+                    </app> posteriori sumptis, veluti insinuas, utique nimis diu, si non prorsus in
+                    perpetuum frustra expectabimus, antequam tale quid a quoquam præstari poterit.
+                    Cum <app>
+                        <lem wit="#B">enim</lem>
+                        <rdg wit="#A">et</rdg>
+                    </app> istorum regularium corporum dimensionis explicatio, si omni ex parte
+                    admittenda foret, observationibus antecedentibus niti et comprobari debeat, nec
+                    etiam particularia quæque præter generaliora illa, utcunque se habentia, hinc ea <app>
+                        <lem wit="#A">qua</lem>
+                        <rdg wit="#B">quæ</rdg>
+                    </app> opus est præcisione derivari possunt, quod te non latere arbitror. Neque
+                    etiam adhuc satis extricatæ sunt Planetarum biformes inæqualitates, quas duplici
+                    eccentrico vel circello excusant. Ignoratur enim iusta harum proportio, ut de
+                    Apogæis non dicam longe aliter se habentibus, quam fert non <app>
+                        <lem wit="#B">saltem</lem>
+                        <rdg wit="#A">solum</rdg>
+                    </app> Alphonsina, sed et <persName ref="Copernivus">Copernicea</persName>
+                    ratiocinatio. Quin et annua illa diversitatis evidens insinuatio necdum satis
+                    comperta est, ita ut undiquaque suis numeris absolute constet, ut ob id e
+                        <persName ref="Copernivus">Coperniceis</persName> proportionibus circulorum
+                    hæc ea, <app>
+                        <lem wit="#B">quæ</lem>
+                        <rdg wit="#A">qua</rdg>
+                    </app> requiritur, subtilitate rimari invium sit; qua etiam de re eruditissimum
+                        <persName ref="Kepler">KEPLERUM</persName> per literas admonui, et in Marte,
+                        <pb ed="TBOO" n="VIII.54"/>ubi hæ differentiæ magis sunt sensibiles,
+                    exemplum indicavi. Verum de his et similibus nimis prolixum foret hîc singula
+                    exequi.</p>
+                <p rend="indent">Ubi opera mea Astronomica lucem publicam viderint, quod nunc magnis
+                    viribus nec minoribus quam antea in Patria urgeo, perspicies, uti spero, rem
+                    Astronomicam aliter quam putatur redintegrari posse, et me non contemnendam in
+                    ea locasse operam; quare de his plura nunc non addo. Aliud quiddam est, etsi
+                    minoris momenti, quod tamen ad negocium hoc omnimode exequendum non parum
+                    conducit, pro ea videlicet, quam meridianorum ingerit in rotundo Terræ globo
+                    alteratio, diversitate necdum satis accurate explorata, de quo tecum agere
+                    averem. Si itaque aliquot Eclipses, præsertim Lunares, isthic exquisita
+                    diligentia præteritis annis observatas habes (de quo non dubito) earum momenta
+                    per observationum etiam circumstantias mecum mature communices velim, quo
+                    collatione facta cum 20 aut pluribus Lunæ deliquijs a me non paucis iam
+                    transactis annis diligenter consideratis conferri queant. Existimo me aliqua
+                    inter ea, quæ ego denotavi, inventurum, quæ etiam a te isthic observata sunt,
+                    atque hinc meridianorum intercapedo, aut ad minimum ductus alicuius meridiani
+                    per certa quædam <placeName ref="Germany">Germaniæ</placeName> loca pervestigari
+                    poterit, præsupposito nimirum quodam cognito ad rationem eam, quam <persName
+                        ref="Ptolemaios">PTOLEMÆUS</persName> et <persName ref="Copernicus"
+                        >COPERNICUS</persName> assumserunt. Hoc si mihi præstiteris officij, rem non <app>
+                        <lem wit="#TBOO">saltem</lem>
+                        <rdg wit="#A">solum</rdg>
+                    </app> gratam, sed etiam Astronomiæ promotioni non inutilem effeceris. Idem
+                    quoque apud alios, quotquot novi cœlestibus apparentijs fideliter attendere, qui
+                    sane perpauci (quod dolendum est) existunt, experior, ut certi quid in his,
+                    quoad licuerit, statuatur. Ad ultima duo luminarium deliquia, quæ in Februario
+                    proxime elapso contigerunt, te sedulo <app>
+                        <lem wit="#A">attendisse</lem>
+                        <rdg wit="#C">animadvertisse</rdg>
+                    </app> non dubito; quare <app>
+                        <lem>eorum etiam</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> momenta et phases isthic animadversas indica. Lunæ Eclipsis, quæ 11. eius
+                    mensis die contigit, hîc ubi polus elevatur 53&#176; 35½', principium habuit,
+                    quando superior Lunæ limbus attollebatur supra horizontem <app>
+                        <lem>24&#176; fere</lem>
+                        <rdg wit="#C">fere 24&#176;</rdg>
+                    </app>. Hinc tempus provenit, adbibito viso loco Lunæ iuxta nostram
+                    restitutionem et refractionum impedimento sublato, H. 4. 14' post mediam noctem
+                    antecedentem. Finis deliquij infra horizontem evenit. Visa autem est Luna <app>
+                        <lem wit="#A">ferme tota</lem>
+                        <rdg wit="#C">tota fere</rdg>
+                    </app> offuscari, minima eius portiuncula ab umbra Terræ libera existente. Solis
+                    eclipsatio, quæ 25. die accidit, hîc, quantum inter recurrentes nubes
+                    animadvertere licuit, initium habuit H. 9. 52' A.M. per Armillas Æquatorias 6
+                    pedum in diametro (nam Instrumenta mea Astronomica huc in <placeName
+                        ref="Germany">Germaniam</placeName> e <placeName ref="Denmark"
+                        >Dania</placeName>, ut conscius sis, transtuli) temporis momenta denotando.
+                    Medium eius, uti neque finem, ob crassiusculas et continuas nubes intervenientes <app>
+                        <lem wit="#A">conspicere</lem>
+                        <rdg wit="#C">conspicare</rdg>
+                    </app> non dabatur. Conveniunt hæc tempora in utraque Eclipsi satis præcise cum
+                    nostro redintegrato calculo, ex 18 Lunaribus et 6 Solaribus prius subtiliter
+                    denotatis eclipsationibus <pb ed="TBOO" n="VIII.55"/>depromto, ut de alijs
+                    hincinde sæpenumero <app>
+                        <lem wit="#A">expensis</lem>
+                        <rdg wit="#C">expressis</rdg>
+                    </app>
+                    <app>
+                        <lem>amborum</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app> luminarium motionibus huc etiam conducentibus nihil addam. Quantitas
+                    corporis Solaris Lunæ interventu offuscati debuit iuxta mea ratiocinia esse
+                    digit. 10¾ in hoc horizonte, idque a superiori parte, cum calculus <persName
+                        ref="Copernicus">Coperniceus</persName> et phasin et momenta huius <app>
+                        <lem wit="#C">obscurationis</lem>
+                        <rdg wit="#A">observationis</rdg>
+                    </app> aliter exhibeat, uti et in Lunari Eclipsi tam is quam <persName
+                        ref="Alfonso 10.">Alphonsinus</persName> nimium cis et ultra exorbitârunt.
+                    An deliquij Solaris magnitudinem nostris numeris recte attigerimus, iudicent
+                    illi, qui eius medium sereniore aura usi conspexerunt. Id vero sciendum est,
+                    Lunam in novilunijs eclipticis non apparere ea magnitudine, qua alias in
+                    plenilunijs, utut in eadem fuerit a Terra remotione, sed quasi pro quinta parte
+                    eam certis de causis alibi reserandis constringere; unde fit ut Luna nunquam
+                    totum Solem prorsus obtegere queat, etiamsi centraliter quoad visum
+                    interponatur, lumine Solari eam aliquali adhuc vestigio ambiente, quod et in <app>
+                        <lem wit="#A">hoc ultimo</lem>
+                        <rdg wit="#C">ultimo hoc</rdg>
+                    </app> deliquio <app>
+                        <lem wit="#A">animadvertere</lem>
+                        <rdg wit="#C">animadverti</rdg>
+                    </app> poterant illi, quibus maxima offuscatio patuit. Oportuit enim tunc Solem
+                    de Lunari corpore utrinque plus includere, idque corniculatim, quam linea per
+                    diametrum ducta exigebat, utut Lunæ diameter tunc fuerit iuxta nostrum etiam
+                    calculum 34¾', apparere autem apud Solem non potuit maior quam 28, quam
+                    limitationem a nemine antea animadversam cognovi, sed in aliquot Solis
+                    observationibus, cum tam a superiore quam inferiore parte tegeretur, sic me
+                    docuit experientia. Tuum erit, excell. <persName ref="Mästlin, Michael"
+                        >MÆSTLINE</persName>, quid in his et similibus compertum habeas, mihi etiam
+                    aperire, atque in posterum iucundam inter nos de rebus Astronomicis collationem,
+                    quam et ego non invite admittam, exercere. De Eclipsium autem, potissimum
+                    Lunarium, a te subtiliter animadversis momentis me, quam primum fieri queat,
+                    certiorem redde, ut correctionem longitudinum, de qua dixi, quam brevi in quadam
+                    tabella adornare constitui, tam hinc, quam ex alijs quibusdam aliunde
+                    conquisitis indicijs eo promtius expediam. Iam vale, v. cl. et de rebus
+                    Astronomicis laudabiliter merite, in quibus etiam expoliendis et locupletandis
+                    ut in posterum perseveres, te adhortor. Ubi rescripseris, effice, ut literæ
+                    quocunque tandem viarum ductu, sive per <placeName ref="Nürnberg"
+                        >Norimbergam</placeName>, sive aliquam aliam celebrem <persName
+                        ref="Germany">Germaniæ</persName> urbem <placeName ref="Hamburg"
+                        >Hamburgum</placeName> perferantur, in hospitium isthic meum, quod est apud
+                        <persName ref="Reuter">HERM. REUTTER</persName> sub signo coronæ aureæ,
+                    sicque eas me certo obtenturum non ambigo. Iamque iterum et sæpius vale.
+                    Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> die 21 Apr. 1598. </p>
+                <lb/>
+                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                <lb/>
+                <p>Cum intellexissem Tabellarium toto hoc die <placeName ref="Hamburg"
+                        >Hamburgi</placeName> moraturum, curavi exemplum literarum <persName
+                        ref="Kepler">KEPLERI</persName> ad me unâ cum meo responso describi, hisque
+                    adiungi, quo de earum etiam contentis certior fieres: ubi plura huc facientia
+                    invenies.</p>
+            </div>
+        </body>
+    </text>
+</TEI>
