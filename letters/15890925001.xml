@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christian 4.</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XVII, 210</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 50</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Christian 4.</persName>
+                    <placeName>København</placeName>
+                    <date when="1589-09-25"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1589. 25. sept.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-07" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.50"/>
+                <opener>TILL TYGE BRAHE NOGEN WOX ANRØRENDIS <foreign xml:lang="la"><hi
+                            rend="it">VT SEQUITUR</hi></foreign></opener>
+                <p><persName ref="christian_4_1577">Christian 4.</persName> etc.</p>
+                <p>WOR gunst tilfornn. Wiid, att thenne breffuißer <persName ref="loeding_thomes_1589">Thomes Loeding</persName> haffuer
+                    wnderdanigst tilkiende giiffuit, huorledis for nogen tiid siiden wdj a:o 87 er
+                    st[r]andit ett schiib paa Anholt, som haffuer tilhørt nogen kiøbmend aff
+                    Engelland, huor wdj haffuer werrit eblant andit guodtz noget wox, aff huilcket
+                    en part schal werre strandit och bierget wed Wardbierg, en part wed Laugholm,
+                    och ett støcke ther for Hueen schal werre indkommen, huilcket du til thig schal
+                    haffue anammit, och fornemme <persName ref="loeding_thomes_1589">Thometz Loeding</persName> paa for:ne engelsche kiøbmends wegne
+                    haffuer wnderdanigst werrit begierendis, hannom samme wox motte betalis och
+                    fornøyes. Tha epterdj att alt huis wrag, som saaledis her vdj riigit nogen
+                    stedts kand strande och indkomme for Wor och cronens grund, tilkommer Oß och
+                    cronen allenne, bede Wij thig och wille, attu thig ther om emoed Wor elsk:e
+                    tilforornede regierings raad erklerer, epter att Wij slige høighet wille Oß allenne forbeholdit haffue, hannom ochsaa samme wox,
+                    som du wdj saa maade haffuer ladet anamme, betaler och fornøyer, att hand sig
+                    wiidere for Oß icke schal haffue sig at beklage. </p>
+                <closer>
+                    <salute>Ther met etc. </salute>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Actum Haffniæ</hi></foreign> 25
+                            <foreign xml:lang="la"><hi rend="it">septem: a:o</hi></foreign>
+                        1589.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

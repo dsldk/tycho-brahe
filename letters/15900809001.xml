@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Sophie</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Kongehusets arkiv</collection>
+                                <idno>Dronning Sophies tegnelser 1588-92, fol. 81 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 53-54</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Sophie (1557-1631)</persName>
+                    <placeName>København</placeName>
+                    <date when="1590-08-09"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1590. 9. aug.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-07" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.53"/>
+                <opener>THYGE BRAHE FICK BREFF NOGEN PENDINGE ANRØRENDIS <foreign xml:lang="la"><hi
+                            rend="it">VT SEQUITUR</hi></foreign></opener>
+                <p><persName ref="sophie_1557">Sophia</persName> etc.</p>
+                <p>WOR gunst thilforn. Wider, att ßom j ether haffuer att erindre om thett thußinnd daller,
+                    Wij naadigst ether haffue med forstrachtt, huilke wdj thenne neruerendis
+                    herredag her wdj Koldinng schulle werrid Oß erlagdtt och bethald, och j
+                    wnnderdannigst erre begierrendis formedelst gott folck dag och reßpitt med ßamme
+                    pending paa nogen wgger epther Michaelis førstkommendis, tha erre Wij naadigst
+                    ther med thillfridtz och wille ether ther med bedage thill fiorthen dage epther
+                    for:ne Michaelis førstkommendis. Bedendis ether therforre och wille, attj thill
+                    thend thiid wisseligen och wden ald widere forhalling och forßømmelse retther
+                    ether epther att erlegge och bethalle Oß for:ne summa pendinge, j wdj ßaa maade
+                    thill Oß schyldig er, att Wij thill ßamme thiid wist kunde komme thill Wor
+                    bethalling, anßehendis att Wij ßidenn pindtzdag, thill huilken thid the schulle
+                    werrid bethald, nu thill for:ne bestempthe dag epther Michaelis aff gode wilge
+                    och naadigst benegenhed haffue med ßamme Wor bethalling forthøffuid, attj
+                    therforre retther ether ßielff, ßaa Wij thill for:ne thermin wden widere ophold
+                    bliffuer hoffuedßum<pb ed="TBOO" n="XIV.54"/>men med renthen fornøyett och
+                    thilstilledtt, ßaa framptt Wij jcke schulle foraarßagis wed anndre middell
+                    baade hoeß ethers forloffuere och ether att ßøge Wor bethallinng, therßom ther
+                    med widerre bliffuer forhalled. </p>
+                <closer>
+                    <salute>Ther med etc.</salute>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Actum</hi></foreign> Koldinghus
+                        thennd 9. <foreign xml:lang="la"><hi rend="it">augustij anno</hi></foreign>
+                        1590.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
