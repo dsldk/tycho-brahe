@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Frederik 2.</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XV, 444</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 28</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Frederik 2.</persName>
+                    <placeName>Sorø</placeName>
+                    <date when="1584-12-11"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1584. 11. dec.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-06" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.28"/>
+                <opener>THYGGE BRAHE FICH BREFF NOGENN COMPASSER ANRØRE[N]DIS <foreign xml:lang="la"
+                            ><hi rend="it">VT SEQUITUR</hi></foreign></opener>
+                <p><persName ref="frederik_2_1534">Frederich</persName> etc.</p>
+                <p>WOR gunst thilforn, Wij kunde Oß andet icke ehrindre, end att Wij nu nogit
+                    forleden haffue thil thig offuerantuordet en Wor compaß, som thu selff haffde
+                    ladit Oß giøre, huilcken war bleffuen nogit wrichthig, attu therfore Oß thend
+                    schulle lade egien giøre thil rette. Ther som nu saa er schet, och samme compas
+                    er ferdig giort, tha bede Wij thig, attu Oß thend wforsømmit thilschicker,
+                    thersom thu och jcke for:ne compaß haffuer bekommit, tha bede Wij thig och
+                    begere, attu wil lade Oß giøre tho compaßer, saadanne som thend anden war, och
+                    thett kunstrichs och restist schie kand, saa Wij
+                    thennum met thett første mueligt wor kunde bekomme. </p>
+                <closer>
+                    <salute>Ther meth etc. </salute>
+                    <dateline><foreign xml:lang="la"
+                        ><hi rend="it">Actum</hi></foreign> Soer, xj
+                        decembr: aar 84.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
