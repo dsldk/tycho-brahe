@@ -154,9 +154,12 @@
         <body>
             <div>
                 <div>
-                  <head><pb ed="TBOO" n="IV.399"/><pb ed="Diar1586" n="Bb2v"/>DE COMETA SEU
+                  <head>
+                    <reg>1</reg>
+                    <orig><pb ed="TBOO" n="IV.399"/><pb ed="Diar1586" n="Bb2v"/>DE COMETA SEU
                     STELLA CRINITA ROTUNDA, QUÆ ANNO ANTECEDENTE IN OCTOBRI ET NOUEMBRI
-                    APPARUIT. </head>
+                      APPARUIT. </orig>
+                  </head>
                     <div>
                         <p>ANNO proxime elapso 1585, Octobris Die 18, inter Horam 9 et 10
                             vespertinam, cum Sidera, more consueto, hîc <placeName ref="Uraniborg"
@@ -331,8 +334,8 @@
                             </app> licet, progrediemur.</p>
                     </div>
                     <div>
-                        <opener><pb ed="Diar1586" n="Cc1v"/>DE HUIUS CRINITÆ STELLÆ EFFECTIBUS
-                            CONIECTURÆ ASTROLOGICÆ.</opener>
+                        <head><pb ed="Diar1586" n="Cc1v"/>DE HUIUS CRINITÆ STELLÆ EFFECTIBUS
+                            CONIECTURÆ ASTROLOGICÆ.</head>
                         <p>QUÆ de Phænomenis huius ascititiæ Stellæ hactenus exposuimus, ea, et
                             Obseruationibus, per Instrumenta minime fallacia diligenter habitis, et
                             Fixarum, quarum in dimensionibus vsus erat, adamussim restitutis locis,
@@ -380,10 +383,10 @@
                             </app>.</p>
                     </div>
                     <div>
-                        <opener><pb ed="Diar1586" n="Cc2v"/><app>
-                                <lem>QUÆ GENERA EUENTUUM PORTENDAT HÆC CRINITA.</lem>
-                                <rdg>add. TBOO ex D E</rdg>
-                            </app></opener>
+                      <head><pb ed="Diar1586" n="Cc2v"/><app>
+                          <lem>QUÆ GENERA EUENTUUM PORTENDAT HÆC CRINITA.</lem>
+                          <rdg><note>add. TBOO ex D E</note></rdg>
+                      </app></head>
                         <p><app>
                                 <lem>QUÆ autem de generibus euentuum consideranda veniunt,
                                     abstrusiora ob id euadunt, quod nullum certum principium detur,
@@ -681,9 +684,9 @@
                     </div>
                 </div>
                 <div>
-                    <opener><pb ed="TBOO" n="IV.408"/><pb ed="B" n="11v"/>DE CRINITA STELLA NON
-                        CAUDATA QUÆ ANNO 1585 ANTECEDENTE MENSE OCTOBRI ET NOUEMBRI
-                        APPARUIT.</opener>
+                  <head><pb ed="TBOO" n="IV.408"/><pb ed="B" n="11v"/>DE CRINITA STELLA NON
+                    CAUDATA QUÆ ANNO 1585 ANTECEDENTE MENSE OCTOBRI ET NOUEMBRI
+                    APPARUIT.</head>
                     <div>
                         <p><pb ed="F" n="1r"/>DIE 18 Octobris, qua nocte eam primum hîc conspeximus,
                             fuit circa horam primam post mediam noctem sequentem ipsius longitudo in
@@ -754,13 +757,13 @@
                             adhibebimus.</p>
                     </div>
                     <div>
-                        <opener><pb ed="F" n="2v"/> DE SIGNIFICATIONIBUS HUIUS COMETÆ IN HÆC
-                            INFERIORA CONIECTURÆ ASTROLOGICÆ.</opener>
-                        <lg>
-                            <l>I. Quid significet et quantum. </l>
-                            <l>II. Quibus regionibus, populis et indiuiduis. </l>
-                            <l>III. Quando incipient effectus et quamdiu durabunt.</l>
-                        </lg>
+                      <head><pb ed="F" n="2v"/> DE SIGNIFICATIONIBUS HUIUS COMETÆ IN HÆC
+                        INFERIORA CONIECTURÆ ASTROLOGICÆ.</head>
+                        <list rend="simple">
+                            <item>I. Quid significet et quantum. </item>
+                            <item>II. Quibus regionibus, populis et indiuiduis. </item>
+                            <item>III. Quando incipient effectus et quamdiu durabunt.</item>
+                        </list>
                         <p rend="center">I. QUID ET QUANTUM SIGNIFICET HIC COMETA.</p>
                         <p>Primum generaliter de natura et effectu huius Cometæ iudicando ex ipsius
                             colore et forma, quia is erat admodum obscurus et nebulosus, similis
