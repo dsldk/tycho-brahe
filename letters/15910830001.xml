@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christian 4.</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkibvet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XVIII, 82 f. </idno>
+                                <msName>empty</msName>
+                            </msIdentifier> </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 60</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Christian 4. (1577-1648)</persName>
+                    <placeName>København</placeName>
+                    <date when="1591-08-30"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1591. 30. aug.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-07" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.60"/>
+                <opener>TYGE BRAHE TILL KNUDSTRUP FICK BREFF FORBERØRTE HELLIGE THRE KONGER CAPELLES
+                    BYGNING ANRØRENDIS <foreign xml:lang="la"><hi rend="it">VT
+                        SEQUITUR</hi></foreign>.</opener>
+                <p><persName ref="christian_4_1577">Christian</persName>.</p>
+                <p>WOR gunft thilfornn. Viid, epter att Wij komme wdi forfaringe, huorledis 
+                    Heilige [thre] konger capelle wed Roschilde domkircke schall møgit werre
+                    bygseldig och forsalden, att thend klart will nedersalde och wdj grün­ den
+                    forderffuis, saa frampt ther till met thet sorite icke schaffuis raad och kommis
+                    tili hielp, och epterdi ditt forleeningsbreff paa forme capelle eblant
+                    andit nochsom thilholder dig at fohulle holde for:ne capelle med relidentzen och andit
+                    guodtz, ther tilliggendis er, wed guoed heffd och macht, tha bede Wij dig och
+                    wille, attu met thet forderligste tiltencker at schaffue raad och middell, att
+                    samme capelle wißeligen inden winteren paakommer igien kand bliffue forferdiget
+                    och forbedrit epter ditt forleeningsbrefss liudelße och indtholdt.Saaframpt for:ne capelle paa sin heffd, grund och bygning for din forsømmelße
+                    schyldt lider ydermere nogen bryst, schade och forderff, eller och anden
+                    wbeleiglighet ther aff kunde indtfalde, Wij tha thet icke fohulle wiide huoß
+                    dig, och dertill wdi saa maade tiltencke andre raad och middell, wed huilcke
+                    forme capell kand holdis wed fin thilbørlig heffd och magt. Ther med foheer Wor
+                    aluorlig wilge och befalning. Thj thag her aldelis ingen forsømmelße fore. 30.
+                    augusti a:o </p>
+                <closer>
+                    <salute>Befalendis dig Gud.</salute>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Haffniæ</hi></foreign> 30.
+                            <foreign xml:lang="la"><hi rend="it">augusti a:o</hi></foreign>
+                        91.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
