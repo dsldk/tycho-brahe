@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Frederik 2.</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Skaanske tegnelser</collection>
+                                <idno>I, 405</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 28-29</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Frederik 2.</persName>
+                    <placeName>Kronborg</placeName>
+                    <date when="1585-05-26"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1585. 26. may</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-06" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.28"/>
+                <opener>THYGE BRAHE FICK BREFF OM THEND LYCHTE PAA KULDEN ANRØRENDIS.</opener>
+                <p>WOR gunst tilforn. Wiid, att som thu haffuer thend løchte paa Kulden mett huis
+                    ther till er forordnitt wdj befalling, saa wille Wij thig naadigst icke
+                    forholde, att offte och jdelig klager kommer for Oß aff thend søefarnne mand
+                    ther wdj fundit, att samme løchte icke tilbørlig holdis med lius och bluß, och
+                    kunde Oß ther offuer icke nogsom forundre, epther att Wij Oß kunde erind[r]e,
+                    att thu synderligen haffuer belangitt hoß Oß, att om en ny bequemlige sted, paa
+                    huilcken samme lychte kunde bedre standis thend søefaren mand til beste, motte
+                    forfaris, och ther om werffuit Wor befallingskriffuelße til Wore gode mend och
+                    til tholderne ther sammestedtz, huor aff Wij kunde haffue att formode thin
+                    synderlig bewagenhet emod thend søefaren mand och flid til for:ne løchte att
+                    holde, huilcke Wore breffue Wij dog forfare icke att were eptherkommen och till
+                    affskeed beforderit, end mindre thend gamble løchte, som nu er, fiden thend thid
+                    att were holdit som thet sig bør, huorfore Wij ere fororsagit thig ther om her
+                    mett att belange. Bedendis thig och wille, att thu er forthencktt vdj samme
+                    løchte saa att lade holde med liuß och bluß som thet er tilbørligt, paa thet att
+                    thend søefaren mand icke, forgefflig sig ther paa forladendis, schulle liide
+                    godtz och liffuis fare, skade och forderuelße, saa framt sig nogen ther offuer
+                    her epther tilbørligen kand beklage, thu tha icke ther fore wilt stande til
+                    rette och Wij fororsagis om <pb ed="TBOO" n="XIV.29"/>samme løchte anderledis
+                    att forordne till andre, som Wor befalling och thend søefarne mandz leylighed
+                    will bedre bethencke. </p>
+                <closer>
+                    <salute>Ther meth etc. </salute>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Actum</hi></foreign> Kroneborg
+                        26. martij aar 1585.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
