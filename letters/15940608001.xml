@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Christian 4.</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Jyske tegnelser</collection>
+                                <idno>IV, 469</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 67</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Christian 4. (1577-1648)</persName>
+                    <placeName>København</placeName>
+                    <date when="1594-06-08"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1594. 8. juni</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-09" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.63"/>
+                <opener>TILL THYGE BRAHE, EN WED NAFFN <persName ref="pepler_christopher_1578">CHRISTOFFER PEPELER</persName> ANRØRENDIS.</opener>
+                <p><persName ref="christian_4_1577"><hi rend="it">Christianus</hi> 4.</persName></p>
+                <p>WOR gunst tilforne. Wiid, effter som <persName ref="Nelle_1594">Nelle Christoffer Pepelers hustru</persName>
+                    wnderdanigstt till Oß haffuer <hi rend="it">supplicerit</hi> och tilkiende giffuett, huorledis
+                    effter att hendis hoßbunde, for:ne <persName ref="pepler_christopher_1578">Christoffer Pepeler</persName>, haffuer werritt thin
+                    fougitt oc du derfore vdj nogenn sager, som hannom och thig skall haffue for
+                    samme hans thieniste emellom werritt, ladett hans godtz vdj Wor kiøpstedt
+                    Bergenn wdj Wortt riige Norge <hi rend="it">arestêre</hi> oc beslaa, oc sidenn effter din forthrøstning oc
+                    for:ne hans hustruis schriffuelße oc begiering haffuer sig begiffuit till Wor
+                    kiøpstedt Helsingøer, saa hand thin thiener ther sammestedtz paa thine wegne for
+                    for:ne sag haffuer satt nøyachtig borgenn, huilckett thu wanseett dog skall
+                    hannom ther effter ladett fenckligenn thage oc hensette paa Hueen, effter som
+                    hendis indlagde <hi rend="it">supplication</hi> ydermere formelder oc wduiiser, tha bede Wij thig
+                    oc Wille, att naar thu her met besøgis, thu tha therudinden retter thig selff
+                    och bethencker oc till sinde fører, medt huad rett oc billighet sligt skee kand,
+                    attu baade haffuer thagett borgenn af hannom oc sidenn hannom fenckligenn lader
+                    anholde, attu therfore om thet sig saaledis befindis, lader hannom egienn løß
+                    och sidenn medt rettenn hannom tillthaler, anseendis huad vdj sig selff
+                    christeligt oc rett er, saa Wij for widere thes klagemaall oc offuerlob maa bliffue forschonett.</p>
+                <closer>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Actum Hafniæ</hi></foreign>
+                        8. <foreign xml:lang="la"><hi rend="it">junii a:o</hi></foreign>
+                        94.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

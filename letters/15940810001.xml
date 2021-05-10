@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>Private collection in Philadelphia, USA.</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 68</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>Helsingør</placeName>
+                    <date when="1594-08-10"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>empty</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1594. 10. aug.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-09" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.63"/>
+                <p>JEG Tygge Brahe thill Knudstrup kienndiß och giør witterligt for alle med thette
+                    mitt obnne breff, att effter som jeg nu haffuer soldt och skiødt till min
+                    kierre broder, erllig och welbyrdig manndt <persName ref="brahe_steen_1547">Steenn Brahe</persName> till Knudstrup, min
+                    halffpartt aff Knudstrups hoffuittgaardt och grund, och jeg mig dog ther hos
+                    forbeholldett att maa och skall ald min liffstiid schriffuis och kalldis aff
+                    samme Knudstrup gaardt, liige som jeg giorde, førenndt jeg thennd affhenndt och soldt
+                    haffuer, eptherthi thennd hafuer verett min federnne gaardt och mig arffueligenn
+                    thillfaldenn som min rette sedegaardt, saa beplichter jeg mig dog med thette
+                    breff, att enndog jeg baade selff schriffuer och kaller, och aff anndre, huem
+                    som held[s]t thed vere kannd, mig lader schriffue och
+                    kalle aff for:ne Knudstrups gaardt, att thed alligeuell icke skall komme for:ne min kierre
+                    broder <persName ref="brahe_steen_1547">Steenn Brahe</persName> eller hanns arffuinge thill hinder eller skade i nogen
+                    maade. This till ydermere vidnisbyrtt haffuer jeg trøgtt min signete her neden
+                    for thette mit obne breff, och mig med egenn hannd vnnderschreffuit, och
+                    wenligen ombedett erllig och welbiurdige menndt, <persName ref="holck_ditlev_1556">Dethleff Holck</persName> thill Høygaardt
+                    och <persName ref="bille_eske_1552">Eske Biillde</persName> til Ellinnge, thette breff med mig thil widnisbyrtt att
+                    besegle.</p>
+                <closer>
+                    <dateline>Giffuit vdi Helsingøer thennd <foreign xml:lang="la"><hi rend="it">x
+                                augustj anno</hi></foreign> Mdlxxxxiiij</dateline>
+                    <signed>Thyge<lb/>Brahe (l.s.)<lb/>egen hand<lb/><lb/>Dettleff<lb/>Holck
+                        (l.s.)<lb/>egen handtt</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
