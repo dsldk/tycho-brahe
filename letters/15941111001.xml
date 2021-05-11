@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Rektor og professorerne ved Københavns Universitet</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc>
+                            <msIdentifier>
+                                <settlement>København</settlement>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Konsistoriums kopibøger</collection>
+                                <idno>1213-02 (1594-1613)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 70</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Rektor og professorerne ved Københavns Universitet</persName>
+                    <placeName>København</placeName>
+                    <date when="1594-11-11"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1594. 11. nov.</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-10" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.70"/>
+                <opener>COPIE AFF ITT BREFF, SOM BLEFF SCHREFFUEN THILL TYGE BRAHE.</opener>
+                <p>VORES ganske venlig helßen nu oc allthid forsent med Gud. Gunstige welbiurdige
+                    Tyge Brahe, nest wores wenlig tacksigelße for all beuiste ære oc gode, giffuer
+                    wi eder thillkiende, att oß nu nyligen er forekommen en woris tienere, <persName ref="lauge_1594">Lauge</persName>
+                    vdj Klare mølle, met klagemaall po en aff eders thienere ved naffn <persName ref="peder_1594">Peder</persName>, i
+                    Hellig 3 kongers mølle, huilched hand schrifftlig vdj dette medfølgendis breff
+                    forfatted oc oß offuerantuordet haffuer. So wilde wi, førend wi wores bonde met
+                    retten forsuare, lade eder, som wores universitetz gode wen oc fordrer,
+                    saadant wide, begierendis ganske gierne her om eders raad oc gode suar, om i
+                    selff wille straffe eders thienere, som denne fattige mand i so maade haffuer
+                    forwretted, eller wi hannem for saadant skall lade thilltale, huilcked wi dog
+                    icke gierne giorde, der som wi wiste, attj derudoffuer skulle lade eder i nogen
+                    mode fortørne, men megit heller giør allthid gierne, huer y sit sted, hues eder thill ære, willie oc thieniste kand werre. Dett
+                    kiende Gud, huilchen wi will her med haffue eder befaled.</p>
+                <closer>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Datum Hafniæ</hi></foreign> 11. <foreign
+                        xml:lang="la"><hi rend="it">novembris anni</hi></foreign> 1594.</dateline>
+                    <signed><foreign xml:lang="la"><hi rend="it">Rector och mænige professores<lb/>academiae Hafniensis.</hi></foreign></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
