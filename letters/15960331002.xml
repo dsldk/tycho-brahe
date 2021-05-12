@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder>Carlsbergfondet</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>
+                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
+                </publisher>
+                <pubPlace>København</pubPlace>
+                <date>2021</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab>Copyright © 2021, Danske Sprog- og Litteraturselskab</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="Dan.Mag.">
+                        <bibl><title>Danske Magazin</title> II, Kiøbenhavn 1746, 306</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 71, nr. 111</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName>Brahe, Tycho (1546-1601)</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1596-03-31"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>Rektor ved Københavns Universitet</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date>1596. 31. marts</date></creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-05-12" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="XIV.74"/>
+                <opener>[AD RECTOREM UNIVERSITATIS HAUNIENSIS].</opener>
+                <p><foreign xml:lang="la"><hi rend="it">MAGNIFICE domine rector</hi></foreign>.
+                    Efterdi jeg formercker, att j mett eders <foreign xml:lang="la"><hi rend="it">assessoribus</hi></foreign> icke wilde bevilge mig att
+                    maa fange att see, hues j giffue mig aff eders <foreign xml:lang="la"><hi rend="it">consistorio</hi></foreign> beskreffuen, førend
+                    det bliffuer beseglet, endog ieg icke dett aff eder begierede i nogen ond
+                    mening, men snarer till dett beste, andre vitløfftighed och uleyglighed att
+                    forekomme, saa kand och wil ieg hertill nu intet andet suare, end j kunde derudi
+                    effterfølge eders egen betenkning och mening, och lade mig mett det første fange
+                    beskreffuet och beseglet, hvis j vilde unde mig, saa at ieg icke nu lenger skal
+                    bliffue opholden, med hvilcket ieg faaer paa denne tid att lade mig nøye.
+                    Begierendis derhos, att alle eders <foreign xml:lang="la"><hi rend="it">acta</hi></foreign>, hues denne min sag angaaer, maa bliffue
+                    paa huer side undertegnet, och siden tillbeseglet och velforvaret, indtil videre
+                    beskeden, efftersom behoff giøris, och att der motte bliffue tegnet paa denne
+                    skrifft, att den er læst for eder.</p>
+                <closer>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Actum</hi></foreign> Kiøbnehaffn 31. <foreign
+                            xml:lang="la"><hi rend="it">martii</hi></foreign> 1596.</dateline>
+                    <signed>Thyge Brahe<lb/>met egen
+                                haand.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
