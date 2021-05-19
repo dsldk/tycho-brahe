@@ -14,7 +14,8 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -28,7 +29,9 @@
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -84,7 +87,8 @@
                     <date when="1572-05-07"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -109,10 +113,10 @@
         <front/>
         <body>
             <div>
-                
+
                 <opener><pb ed="TBOO" n="VII.7"/>
-                <pb ed="A" n="1r"/>VIRO NOBILI TYCHONI BRAHE, DOMINO ET AMICO OBSERVANDISSIMO. <lb/>VERNAS
-                    SALUTES, CHEIROS ET MELISSAS.</opener>
+                    <pb ed="A" n="1r"/>VIRO NOBILI TYCHONI BRAHE, DOMINO ET AMICO OBSERVANDISSIMO.
+                    <lb/>VERNAS SALUTES, CHEIROS ET MELISSAS.</opener>
                 <p>RECEPI literas tuas, amicissime TYCHO, quas magna cum voluptate legi. Obsecro,
                     dum illas funderes, quis te Olympicus radius tinxit, ut me quoque eadem tinctura
                     figeres? An te sacrum Veneris sulphur, an Bacchi æthereus Mercurius, an dium
@@ -132,17 +136,19 @@
                     thesauris Universi, in abyssis animorum: imo intrate; hoc multis quæsitum Latium
                     et Saturnium regnum. Non igitur versus Austrum sensibilem quærenda illa Olympiæ
                     civitatis civilitas: nisi quatenus rigida Septentrio, tantum non tuleris, uti
-                    etiam forte non semper feret splendorem, tantumque <app><lem wit="#TBOO">donum</lem><rdg wit="#A">domum</rdg></app>, vel te ipso (quod
-                    sæpius <pb ed="TBOO" n="VII.8"/>inaudivi) vate atque interprete. Neque tamen
-                    hic, in quo spiramus, Aquilo solus formidatam Barbariem alit. Etenim in extremo
-                    Oriente Austroque animas Boreæ penetrabile frigus etiam nonnunquam adurit, et
-                    latus hoc mundi, quod nebulæ malusque Iupiter urget, amœna quoque temperie
-                    perfundi dubium non est: illis tamen solis cognita, <pb ed="A" n="1v"/>qui supra
-                    temporis et locorum Horizontem lumen intuentur. Profanum itaque sit voluptatis
-                    hortum temporum locorumve carceribus includere. Rident hasce exuvias maculis
-                    purgatæ Lunæ et nitentes Berilli. Nosce te ipsum et omnia noveris. In hanc
-                    dioptram respicientem nunquam te turbida fallet imago. Hactenus silentia: nunc
-                    verbum unum. Venit hisce diebus ad nos <placeName ref="Cologne"
+                    etiam forte non semper feret splendorem, tantumque <app>
+                        <lem wit="#TBOO">donum</lem>
+                        <rdg wit="#A">domum</rdg>
+                    </app>, vel te ipso (quod sæpius <pb ed="TBOO" n="VII.8"/>inaudivi) vate atque
+                    interprete. Neque tamen hic, in quo spiramus, Aquilo solus formidatam Barbariem
+                    alit. Etenim in extremo Oriente Austroque animas Boreæ penetrabile frigus etiam
+                    nonnunquam adurit, et latus hoc mundi, quod nebulæ malusque Iupiter urget, amœna
+                    quoque temperie perfundi dubium non est: illis tamen solis cognita, <pb ed="A"
+                        n="1v"/>qui supra temporis et locorum Horizontem lumen intuentur. Profanum
+                    itaque sit voluptatis hortum temporum locorumve carceribus includere. Rident
+                    hasce exuvias maculis purgatæ Lunæ et nitentes Berilli. Nosce te ipsum et omnia
+                    noveris. In hanc dioptram respicientem nunquam te turbida fallet imago. Hactenus
+                    silentia: nunc verbum unum. Venit hisce diebus ad nos <placeName ref="Cologne"
                         >Coloniâ</placeName> imperterritus ille Danus Wiburgensis, cuius apud te
                     sæpenumero mentio facta est, Græcus, Arabs, Galenicus, Paracelsicus,
                     Theologaster, Philosophus, Medicus, Syrupiaster, Chymista, et plus, si velles:
@@ -160,7 +166,10 @@
                     rebus, vitam calore non posse excitare per te prohibeantur. Certe ut in Austrum
                     vel Occidentem ad nos perferantur ratibus, in medio Aquilone non deerunt
                     Aquilones. Vale; et si coronam vernam expetis, Nymphas placa. <placeName
-                        ref="Copenhagen">Hafniæ</placeName> 7. Maij Anno 1572.</p><lb/><p rend="rightMargin">T.<lb/><persName ref="Johannes Pratensis">Pratensis</persName></p>
+                        ref="Copenhagen">Hafniæ</placeName> 7. Maij Anno 1572.</p>
+                <lb/>
+                <p rend="rightMargin">T.<lb/><persName ref="Johannes Pratensis"
+                    >Pratensis</persName></p>
             </div>
         </body>
     </text>
