@@ -21,21 +21,23 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab>Copyright © 2020, Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2021, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -45,12 +47,26 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>kopi</ab>
+                                <ab>empty</ab>
                             </physDesc>
-                        </msDesc></witness>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Genealogisk heraldisk selskabs papirer, specialia:
+                                    Brahe</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>empty</ab>
+                            </physDesc>
+                        </msDesc>
+                    </witness>
                     <witness xml:id="TBOO">
-                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 146-47, nr. 154</bibl>
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed.
+                            I.L.E. Dreyer, Tom. XIV, Hauniæ 1929, p. 146-47, no. 154</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -72,7 +88,10 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598. 10. september</date></creation>
+            <creation>
+                <date xml:lang="da">1598. 10. september</date>
+                <date xml:lang="en">1598. September 10.</date>
+            </creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -95,43 +114,56 @@
             <div>
                 <opener><pb ed="TBOO" n="XIV.146"/>BERICHT.</opener>
 
-                <p>an den herren <hi rend="it">Tycho</hi> Brahen, waß d. <persName ref="winsheim_veit_1521">Veidt Winßheimb</persName> bey d. <persName ref="boekelius_johannes_1535">Johan Böyklen</persName> wegen der
-                    bücher deß herren <hi rend="it">Tychoen</hi> beuehlicht nach außgerichtet. Eß hat d. Winßheimb
-                    alßbaldt nach empfangenem schreiben, darjnnen von dem herren <hi rend="it">Tychoen</hi> dieser
-                    sachen gemeldet würdt, sich zu d. Böyklen in der perohn begeben vndt jhnen
-                    zu hauße gesucht. Do ehr jhn aber nicht gefunden, darumb ehr d. Böykel hernacher
-                    zu d. Winßheimben in seine behaußung sich vorfüget, do jhn der d. Winßheimb
-                    deßhalben, wie eß der her <hi rend="it">Tycho</hi> in seinem schreiben angedeutet, angesprochen,
-                    worauff d. Böykel diesen bericht vndt antwort vngefehrlichen von sich gegeben,
-                    daß ehr <persName ref="rosenkrantz_holger_1574"><hi rend="it">Oligero</hi> Roßenkrantz</persName> auff seine bitte <persName ref="pieremannus_1598">doctoris Pieremanni</persName> sehligen bucher
-                    auß guttem willen zukommen laßen vor 150 thaler, vnndt wehre solcher kauff
-                    vberhaubt vndt in einer summen geschehen; ehr hette auch, wie ehr domalß wehre
-                    wegkfehrig geweßen, dem <persName ref="mule_claus_1575"><hi rend="it">Nicolao Mulæo</hi></persName> solche bücher alle vberantwortet vndt jhm
-                    dieselbe außleßen laßen, vndt wehre Rosenkrantz midt denen vndt daß ehr jhm
-                    angetzeiget, wie ehr seinem sohne etliche von dießen büchern nach Helmstedt
-                    midtgegeben, wohl zufrieden geweßen, wie ehr dan deßen wegen an Rosenkrantz
-                    forderlichst selbst schreiben vndt hirjnnen notturftiglich erjnnern wolte. Er
-                    hette auch den <persName ref="vesalius_andreas_1514"><hi rend="it">Wesalium</hi></persName> hernacher geschigket, vnangesehen daß Olgar Rosenkrantz
-                    solch buch nicht begehrret geweßen, bestehet also entlichen darauff, daß ehr von
-                    diesen büchern nichts mehr bey sich habe, vndt solche <pb ed="TBOO" n="XIV.147"
-                    />derhalben nicht von sich geben konne. Welcheß d. Winßheimb, wie es an jhn
-                    gelanget, dem herren <hi rend="it">Tychoen</hi> Brahen vnangetzeiget nicht laßen
-                    sollen, wubeneben doch d. Böykell anderß mehr zu seiner endtschuldigung
-                    angetzogen, welcheß alleß hirmidt anzuhengen von vnnöten erachtet.</p>
-                <p rend="indent"><foreign xml:lang="la">De libris residuis a <persName ref="boekelius_johannes_1535">Bochelio</persName> extorquendis
-                    die decimo septembris adfui vna cum m. <persName ref="longomontanus_christen_sorensen_1562">Christiano Longomontano</persName> et ex mandato
-                    d:nj Tychonis ei contenta literarum <persName ref="rosenkrantz_holger_1574">Holligeri</persName> illud negotium concernentium
-                        prælegi, cupiens vt in eadem singula nobis præsentibus se resolueret. Quibus
-                        prælectis e vestigio respondit <persName ref="boekelius_johannes_1535">Buchelius</persName>, verum quidem fuisse se vendidisse
-                        Holligero libros catalogo inscriptos, et liberum ad bibliothecam
-                        perlustrandam Holligero aut eius interniuncio fuisse accessum, seque (quod
-                        iure iurando per animæ salutem aliquoties affirmauit) nihil plane interea e
-                        bibliotheca illa clanculum distraxisse, neque aliud responsum extorquere
-                        potuimus, etiamsi aliquoties coram institimus æquum iustumque esse, vt
-                        catalogo librorum Holligero venditorum omnino satisfieret. De libris <persName ref="aquinas_thomas_1225">Tomæ
-                        Aquinatis</persName> similiter affirmavit aliquot quidem eiusdem requia bibliothecæ
-                        olim interfuisse, sed quo pacto ijdem aut inde distincti aut surrepti se
-                        nesciuisse. Deinde manuscriptum librum physicum cum vrgeremus non ut describendum sed ut descriptum Holligero primo fuisse devenditum, ita
+                <p>an den herren <hi rend="it">Tycho</hi> Brahen, waß d. <persName
+                        ref="winsheim_veit_1521">Veidt Winßheimb</persName> bey d. <persName
+                        ref="boekelius_johannes_1535">Johan Böyklen</persName> wegen der bücher deß
+                    herren <hi rend="it">Tychoen</hi> beuehlicht nach außgerichtet. Eß hat d.
+                    Winßheimb alßbaldt nach empfangenem schreiben, darjnnen von dem herren <hi
+                        rend="it">Tychoen</hi> dieser sachen gemeldet würdt, sich zu d. Böyklen in
+                    der perohn begeben vndt jhnen zu hauße gesucht. Do ehr jhn aber nicht gefunden,
+                    darumb ehr d. Böykel hernacher zu d. Winßheimben in seine behaußung sich
+                    vorfüget, do jhn der d. Winßheimb deßhalben, wie eß der her <hi rend="it"
+                        >Tycho</hi> in seinem schreiben angedeutet, angesprochen, worauff d. Böykel
+                    diesen bericht vndt antwort vngefehrlichen von sich gegeben, daß ehr <persName
+                        ref="rosenkrantz_holger_1574"><hi rend="it">Oligero</hi>
+                        Roßenkrantz</persName> auff seine bitte <persName ref="pieremannus_1598"
+                        >doctoris Pieremanni</persName> sehligen bucher auß guttem willen zukommen
+                    laßen vor 150 thaler, vnndt wehre solcher kauff vberhaubt vndt in einer summen
+                    geschehen; ehr hette auch, wie ehr domalß wehre wegkfehrig geweßen, dem
+                        <persName ref="mule_claus_1575"><hi rend="it">Nicolao Mulæo</hi></persName>
+                    solche bücher alle vberantwortet vndt jhm dieselbe außleßen laßen, vndt wehre
+                    Rosenkrantz midt denen vndt daß ehr jhm angetzeiget, wie ehr seinem sohne
+                    etliche von dießen büchern nach Helmstedt midtgegeben, wohl zufrieden geweßen,
+                    wie ehr dan deßen wegen an Rosenkrantz forderlichst selbst schreiben vndt
+                    hirjnnen notturftiglich erjnnern wolte. Er hette auch den <persName
+                        ref="vesalius_andreas_1514"><hi rend="it">Wesalium</hi></persName> hernacher
+                    geschigket, vnangesehen daß Olgar Rosenkrantz solch buch nicht begehrret
+                    geweßen, bestehet also entlichen darauff, daß ehr von diesen büchern nichts mehr
+                    bey sich habe, vndt solche <pb ed="TBOO" n="XIV.147"/>derhalben nicht von sich
+                    geben konne. Welcheß d. Winßheimb, wie es an jhn gelanget, dem herren <hi
+                        rend="it">Tychoen</hi> Brahen vnangetzeiget nicht laßen sollen, wubeneben
+                    doch d. Böykell anderß mehr zu seiner endtschuldigung angetzogen, welcheß alleß
+                    hirmidt anzuhengen von vnnöten erachtet.</p>
+                <p rend="indent"><foreign xml:lang="la">De libris residuis a <persName
+                            ref="boekelius_johannes_1535">Bochelio</persName> extorquendis die
+                        decimo septembris adfui vna cum m. <persName
+                            ref="longomontanus_christen_sorensen_1562">Christiano
+                            Longomontano</persName> et ex mandato d:nj Tychonis ei contenta
+                        literarum <persName ref="rosenkrantz_holger_1574">Holligeri</persName> illud
+                        negotium concernentium prælegi, cupiens vt in eadem singula nobis
+                        præsentibus se resolueret. Quibus prælectis e vestigio respondit <persName
+                            ref="boekelius_johannes_1535">Buchelius</persName>, verum quidem fuisse
+                        se vendidisse Holligero libros catalogo inscriptos, et liberum ad
+                        bibliothecam perlustrandam Holligero aut eius interniuncio fuisse accessum,
+                        seque (quod iure iurando per animæ salutem aliquoties affirmauit) nihil
+                        plane interea e bibliotheca illa clanculum distraxisse, neque aliud
+                        responsum extorquere potuimus, etiamsi aliquoties coram institimus æquum
+                        iustumque esse, vt catalogo librorum Holligero venditorum omnino
+                        satisfieret. De libris <persName ref="aquinas_thomas_1225">Tomæ
+                            Aquinatis</persName> similiter affirmavit aliquot quidem eiusdem requia
+                        bibliothecæ olim interfuisse, sed quo pacto ijdem aut inde distincti aut
+                        surrepti se nesciuisse. Deinde manuscriptum librum physicum cum vrgeremus
+                        non ut describendum sed ut descriptum Holligero primo fuisse devenditum, ita
                         subiecit, filium suum eundem Brunsuigam secum assumpsisse, eo autem reverso
                         curaret unum aut describi aut eundem librum mitti, tandem cum adhuc vlterius
                         flagitaremus, vt id quod æquum et iustum esset, præstaret, et se atque alios
