@@ -14,27 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,11 +45,29 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.66</idno>
@@ -57,29 +78,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 45</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -89,16 +87,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Steen Bille</persName>
+                    <persName key="bille_steen_1527">Steen Bille</persName>
                     <placeName>Herrevad</placeName>
                     <date when="1577-05-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1577, 3. maj</date></creation>
+            <creation><date xml:lang="da">1577, 3. maj.</date><date xml:lang="en">1577, 3
+                    May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -121,12 +121,13 @@
             <div>
                 <pb ed="TBOO" n="VII.45"/>
                 <pb ed="A" n="11r"/>
-                <opener>TYCHONI BRAHE EX SORORE NEPOTI CHARISSIMO.</opener>
+                <opener><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> EX SORORE NEPOTI
+                    CHARISSIMO.</opener>
                 <lg>
                     <l>Is, quo vita, salus, via, statque redemptio nostra,</l>
                     <l rend="indent">Corporis atque animæ det tibi fausta, precor.</l>
                 </lg>
-                <p>IAM iam literas tuas, Nepos e sorore charissime, de negotijs tuis expediendis
+                <p rend="noIndent">IAM iam literas tuas, Nepos e sorore charissime, de negotijs tuis expediendis
                     apud fabrum ferrarium meum, per famulum tuum accepi, petitionibus tuis quam
                     libentissime satisfacturus, nec officium ullum erga te, quem semper intime
                     dilexi, pollicitationis in me claudier sinam. Armillas, quas, si recte memini,
@@ -136,9 +137,13 @@
                     prætendunt. Sed vereor, ne is iuxta tuam mentem Armillas istas rite parare et
                     levigare norit. Verum, ubi ipsemet me accesseris, rectius de his dispicies. Has
                     scribens, literas Regias accepi, ut ad suam Maiestatem sine mora veniam. Ubi
-                    autem a Regia Maiestate liberabor, Lares <placeName ref="Hven">Huenenses</placeName> seu potius <placeName ref="Uraniborg">Uraniburgicos</placeName>,
-                    adeoque te ipsum invisam, tuis Musis thura libando. His paucis quam feliciter
-                    vale. Datæ Herrisuadi 5 Nonis Maij Anno 1577.</p><lb/><p rend="rightMargin">STENO BILDE.</p>
+                    autem a Regia Maiestate liberabor, Lares <placeName ref="Hven"
+                        >Huenenses</placeName> seu potius <placeName ref="Uraniborg"
+                        >Uraniburgicos</placeName>, adeoque te ipsum invisam, tuis Musis thura
+                    libando.</p>
+                <closer><salute>His paucis quam feliciter vale.</salute><dateline>Datæ Herrisuadi 5
+                        Nonis Maij Anno 1577.</dateline><lb/><signed><persName
+                            ref="bille_steen_1527">STENO BILDE</persName>.</signed></closer>
             </div>
         </body>
     </text>

@@ -14,30 +14,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Bølling</collection>
+                                <idno>D fol. 67</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
                                 <collection>Bølling</collection>
                                 <idno>D fol. 67</idno>
                                 <msName>empty</msName>
@@ -47,29 +59,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 45-46</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -79,16 +68,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Hven</placeName>
                     <date when="1577-05-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Headmaster and professors at the university of Copenhagen</persName>
+                    <persName>Rector and professors at the university of Copenhagen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1577, 21. maj</date></creation>
+            <creation><date xml:lang="da">1577, 21. maj.</date><date xml:lang="en">1577, 21
+                    May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -111,8 +102,9 @@
             <div>
                 <pb ed="TBOO" n="VII.45"/>
                 <pb ed="A" n="1r"/>
-                <opener>MAGNIFICO DOMINO RECTORI ET CLARISS. VIRIS, REGIÆ ACADEMIÆ <placeName ref="Copenhagen">HAFNIENSIS</placeName>
-                    PROFESSORIBUS VENERANDIS, DOMINIS ET AMICIS PERPETUO OBSERVANDIS.<lb/>S.</opener>
+                <opener>MAGNIFICO DOMINO RECTORI ET CLARISS. VIRIS, REGIÆ ACADEMIÆ <placeName
+                        ref="Copenhagen">HAFNIENSIS</placeName> PROFESSORIBUS VENERANDIS, DOMINIS ET
+                    AMICIS PERPETUO OBSERVANDIS.<lb/>S.</opener>
                 <p>MAGNIFICE Domine Rector, clarissimique viri, Hafniensis Academiæ venerandi
                     professores! Quod unanimi consensu, singulari vestro favore impellente, me nihil
                     tale a vobis expectantem Rectoratus honoribus insignire et in Reipublicæ vestræ
@@ -121,24 +113,26 @@
                     præterquam quod me tanto officio digne sustinendo minime idoneum agnoscam,
                     ideoque electionis huius rationem vestræ potius benevolentiæ et favori
                     adscribendam censeam, quam quod revera tale aliquid a me præstari possit,
-                    gravibus insuper ijsque non paucis, hoc præsertim <pb ed="TBOO" n="VII.46"/>tempore,
-                    distrahor curis et negotijs, quo minus vestræ voluntati satisfacere et tam
-                    præclaro officio rite obeundo vacare possim. Inprimis vero ob Architecturæ in
-                    ædificiis constituendis <pb ed="A" n="1v"/>occupationes, quibus in hac
-                    Insula, a veteri desolatione in habitabilem oram, Deo conatui nostro favente,
-                    revocanda, implicor. Quapropter reverenter et obnixe vestras Excellentias
-                    rogatas volo, ut, consideratis his negotijs, quibus hoc ipso tempore, quo vobis
-                    adesse oporteret, impedior, me a tanto munere obeundo, quod alias etiam nostris
-                    viribus impar est, excusatum habere velint. Imposterum vero, Dei nutu, liberato
-                    mihi ab hoc occupationum onere, si quid erit, quo mea tenuitas vestræ Academiæ
-                    et vobis in quocunque officij genere usui esse possit, lubens omnique conatu pro
-                    virium mensura præstare et volo et debeo. Omnemque meam operam, quacunque in re
-                    litterariæ Reipublicæ vestræque utilitati inservire possit, vobis perpetuo
-                    defero. <pb ed="A" n="2r"/>Deus optimus et æternus, autor omnis scientiæ et
-                    veritatis, vos vestraque studia in suum honorem et publici boni utilitatem diu
-                    clementer conservet. Valete. Datæ in Insula <placeName ref="Hven">Huena</placeName> Maij die 21. Anno Christi
-                    1577.</p>
-                <lb/><p rend="rightMargin">Mag. et Exc. V. amantiss.<lb/>Tycho Brahe.</p>
+                    gravibus insuper ijsque non paucis, hoc præsertim <pb ed="TBOO" n="VII.46"
+                    />tempore, distrahor curis et negotijs, quo minus vestræ voluntati satisfacere
+                    et tam præclaro officio rite obeundo vacare possim. Inprimis vero ob
+                    Architecturæ in ædificiis constituendis <pb ed="A" n="1v"/>occupationes, quibus
+                    in hac Insula, a veteri desolatione in habitabilem oram, Deo conatui nostro
+                    favente, revocanda, implicor. Quapropter reverenter et obnixe vestras
+                    Excellentias rogatas volo, ut, consideratis his negotijs, quibus hoc ipso
+                    tempore, quo vobis adesse oporteret, impedior, me a tanto munere obeundo, quod
+                    alias etiam nostris viribus impar est, excusatum habere velint. Imposterum vero,
+                    Dei nutu, liberato mihi ab hoc occupationum onere, si quid erit, quo mea
+                    tenuitas vestræ Academiæ et vobis in quocunque officij genere usui esse possit,
+                    lubens omnique conatu pro virium mensura præstare et volo et debeo. Omnemque
+                    meam operam, quacunque in re litterariæ Reipublicæ vestræque utilitati inservire
+                    possit, vobis perpetuo defero. <pb ed="A" n="2r"/>Deus optimus et æternus, autor
+                    omnis scientiæ et veritatis, vos vestraque studia in suum honorem et publici
+                    boni utilitatem diu clementer conservet.</p>
+                <closer><salute>Valete.</salute>
+                    <dateline>Datæ in Insula <placeName ref="Hven">Huena</placeName> Maij die 21.
+                        Anno Christi 1577.</dateline>
+                    <signed>Mag. et Exc. V. amantiss.<lb/>Tycho Brahe.</signed></closer>
             </div>
         </body>
     </text>

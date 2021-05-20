@@ -20,9 +20,8 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
                 <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
@@ -34,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.66</idno>
@@ -47,29 +55,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 46-47</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -79,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Major</persName>
+                    <persName key="major_johannes_1533">Johannes Major</persName>
                     <placeName>Augsburg</placeName>
                     <date when="1577-09-20"/>
                 </correspAction>
@@ -88,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1577, 20. september</date></creation>
+            <creation><date xml:lang="da">1577, 20. september.</date><date xml:lang="en">1577, 20 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -113,7 +98,7 @@
                 <pb ed="A" n="75r"/>
                 <opener>NOBILISSIMO DOCTRINAQUE ET VIRTUTIBUS PRÆSTANTISSIMO DOMINO TYCHONI BRAHE
                     OTTONIDI DANO, DOMINO DE KNUDSTRUP, DOMINO SUO OBSERVANTER COLENDO.</opener>
-                <p>POST tuum Augusta discessum, generose Domine TYCHO, ad te semel litteras dedi, in
+                <p rend="noIndent">POST tuum Augusta discessum, generose Domine TYCHO, ad te semel litteras dedi, in
                     quibus T. D. pro scripto de stella anno 1572 visa edito, mihique dono misso
                     gratias egi. Deinde aliquid de voluntate <persName ref="Schissler, Christoph"
                         >SCHISLERI</persName> et Globi conficiendi ratione cuiuscunque magnitudinis
@@ -130,10 +115,10 @@
                     magnus ille <persName ref="Ramus, Petrus">PETRUS RAMUS</persName> summopere, cum hîc et tecum esset, admiratus est. D.
                     <persName ref="Wolf, Hieronymus">WOLFIUS</persName> tibi plurimam salutem ex me dicere voluit: ipse scripsisset, nisi
                     publica negotia illi impedimento fuissent et affinis meus non cum summa
-                    festinatione abitum parasset. Vale feliciter. <placeName ref="Augsburg">Augustæ
-                        Rheticæ</placeName> pridie Matthæi Apostoli 1577.</p>
-                <lb/><p rend="rightMargin">T. D. deditiss.<lb/>M. <persName ref="Major, Johannes">Iohan.
-                    Maior</persName>.</p>
+                    festinatione abitum parasset.</p> <closer><salute>Vale feliciter.</salute> <dateline><placeName ref="Augsburg">Augustæ
+                        Rheticæ</placeName> pridie Matthæi Apostoli 1577.</dateline>
+                <signed>T. D. deditiss.<lb/>M. <persName ref="major_johannes_1533">Iohan.
+                    Maior</persName>.</signed></closer>
             </div>
         </body>
     </text>

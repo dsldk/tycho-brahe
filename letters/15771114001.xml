@@ -14,56 +14,36 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                  <witness xml:id="A">
-                    <bibl><title>Nye Samlinger til den danske Historie</title> III,
-                      København 1794, p. 131</bibl>
-                  </witness>
+                    <witness xml:id="A">
+                        <bibl><title>Nye Samlinger til den danske Historie</title> III, København
+                            1794, p. 131</bibl>
+                    </witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 47</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -73,16 +53,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName>Copenhagen</placeName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName xml:lang="da">København</placeName>
+                    <placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1577-11-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Petrus Severinus</persName>
+                    <persName key="sorensen_peder_1540">Petrus Severinus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1577, 14. november</date></creation>
+            <creation><date xml:lang="da">1577, 14. november.</date><date xml:lang="en">1577, 14 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -105,15 +87,18 @@
             <div>
                 <pb ed="TBOO" n="VII.47"/>
                 <pb ed="A" n="131"/>
-                <opener>TYCHO BRAHE AD D. PETRUM SEVERINI.</opener>
-                <p>...... hæc ego ad te perscribere volui, ut
-                    et tu huius Cometæ si non instrumentalem saltem ocularem et physicam
-                    observationem instituere possis, et apud <persName ref="Frederik 2.">Regem</persName> efficere, ne forte ego hinc
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD D. <persName ref="sorensen_peder_1540">PETRUM
+                        SEVERINI</persName>.</opener>
+                <p>...... hæc ego ad te perscribere volui, ut et tu huius Cometæ si non
+                    instrumentalem saltem ocularem et physicam observationem instituere possis, et
+                    apud <persName ref="Frederik 2.">Regem</persName> efficere, ne forte ego hinc
                     avocer interim, dum Cometa fulget, ut plenam eius observationem per instrumenta,
                     quæ hîc solum in promtu habeo, perficere possim. Si vero, antequam servus meus
                     has tibi reddiderit, id quod caveri vellem, factum est, da operam, ut Regis
-                    consensu per alias literas infectum fieri possit.</p> <closer><salute>Vale et saluta amicos.</salute><dateline> Datæ
-                      <placeName ref="Copenhagen">Haffniæ</placeName> 14. Nov. 1577.</dateline><signed>T.<lb/>TYCHO BRAHE.</signed></closer>
+                    consensu per alias literas infectum fieri possit.</p>
+                <closer><salute>Vale et saluta amicos.</salute><dateline> Datæ <placeName
+                            ref="Copenhagen">Haffniæ</placeName> 14. Nov.
+                        1577.</dateline><signed>T.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>
