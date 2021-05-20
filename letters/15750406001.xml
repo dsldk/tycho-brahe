@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,6 +42,18 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Buchanan1715">
                         <bibl><title>G. Buchanani Opera omnia</title>, Edinburgh 1715, Epist.
@@ -60,7 +72,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>George Buchanan</persName>
+                    <persName key="buchanan_george_1506">George Buchanan</persName>
                     <placeName>Stirling</placeName>
                     <date when="1575-04-06"/>
                 </correspAction>
@@ -69,7 +81,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1575. 6. april</date></creation>
+            <creation><date xml:lang="da">1575, 6. april.</date><date xml:lang="en">1575, 6 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -127,7 +139,7 @@
                     nobili, eius Conterraneo, miseram illi libellum meum de Nova Stella, ea adhuc
                     durante, editum. Cum vero exemplum nullum earum literarum mihi supersit,
                     Epigramma solum modo apponam, eidem libro manu scriptum præfixeram .</p>
-                <div type="poem"><opener>AD CLARISSIMUM VIRUM ET POETAM EXCELLENTEM <persName ref="Buchanan">GEORGIUM BUCHANANUM</persName> SCOTUM.</opener>
+                <div type="poem"><opener>AD CLARISSIMUM VIRUM ET POETAM EXCELLENTEM <persName ref="buchanan_george_1506">GEORGIUM BUCHANANUM</persName> SCOTUM.</opener>
                 <lg rend="it">
                     <l>Hunc tibi non magnum mittit, Buchanane, libellum </l>
                     <l rend="indent">Ignotus Boreis Tycho remotus aquis: </l>

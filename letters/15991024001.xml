@@ -19,10 +19,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -33,7 +33,22 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 23, Fol. 7-14.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev. Påskrevet note: <q>Genealogia Braheorum,
+                                    quam habuit prior canceĺlarius Nicolaus Kaas descriptam, quæ
+                                    proculdubio ad sororem eius pervenit, et Bildorum, si haberi
+                                    potest.</q></ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -50,7 +65,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 157-59</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 157-59, no. 166</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -61,19 +76,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Sophie Brahe</persName>
+                    <persName key="brahe_sophie_1559">Sophie Brahe</persName>
                     <placeName>Breitenburg</placeName>
                     <date when="1599-10-24"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599-10-24 <note>Note on the letter: <q>Genealogia Braheorum, quam
-                            habuit prior canceĺlarius Nicolaus Kaas descriptam, quæ proculdubio ad
-                            sororem eius pervenit, et Bildorum, si haberi
-                potest.</q></note></date></creation>
+            <creation><date xml:lang="da">1599, 24. september.</date><date xml:lang="en">1599, 24 September.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>

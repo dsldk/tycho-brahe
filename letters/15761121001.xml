@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -44,29 +44,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 42</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -80,11 +57,11 @@
                 <date when="1576-12-08"/>
             </correspAction>
             <correspAction type="received">
-                <persName>Joachim Camerarius</persName>
+                <persName key="camerarius_joachim_1534">Joachim Camerarius</persName>
                 <placeName>empty</placeName>
             </correspAction>
         </correspDesc>
-            <creation><date>1576. 8. november</date></creation>
+            <creation><date xml:lang="da">1576, 8. november.</date><date xml:lang="en">1576, 8 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -107,7 +84,7 @@
             <div>
                 <pb ed="TBOO" n="VII.42"/>
                 <pb ed="A" n="232"/>
-                <p>CLARISSIMO VIRO D. <persName ref="Camerarius, Joachim, jun.">IOACHIMO CAMERARIO IUNIORI</persName>, PHILOSOPHO ET MEDICO EXIMIO, AMICO
+                <p>CLARISSIMO VIRO D. <persName ref="camerarius_joachim_1534">IOACHIMO CAMERARIO IUNIORI</persName>, PHILOSOPHO ET MEDICO EXIMIO, AMICO
                     SUO COLENDO. <foreign xml:lang="de">DOCTOR CAMERARIUS MEDICUS ZU <placeName ref="Nürnberg">NÜRRENBERG</placeName>.</foreign></p>
                 <p>EX litteris tuis, clarissime Domine Doctor CAMERARI, intellexi, maximam partem
                     librorum Mathematicorum <persName ref="Brechtalius">BRECHTALII</persName> esse distractam; nihilominus peto, ut eos, qui
@@ -136,7 +113,7 @@
                     Vale, vir doctissime et humanissime, et amicitiam inter nos brevi tempore
                     Noribergæ contractam longa tempora ne sinamus obliterare. Iterum vale. Datæ in
                     Insula nostra <placeName ref="Hven">Huena</placeName>, d. 21. Novemb. An. 1576. </p>
-                <lb/><p rend="rightMargin">T.<lb/>TYCHO BRAHE.</p>
+                <lb/><p rend="rightMargin">T.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</p>
             </div>
         </body>
     </text>

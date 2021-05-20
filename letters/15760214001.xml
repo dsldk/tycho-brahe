@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,9 +42,20 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -52,6 +63,17 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -71,11 +93,11 @@
                     <date when="1576-02-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johannes Pratensis</persName>
+                    <persName key="pratensis_johannes_1543">Johannes Pratensis</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 14. februar</date></creation>
+            <creation><date xml:lang="da">1576, 14. februar.</date><date xml:lang="en">1576l, 14 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -98,7 +120,7 @@
             <div>
                 <pb ed="TBOO" n="VII.25"/>
                 <pb ed="A" n="4v"/>
-                <opener>TYCHO BRAHE AD <persName ref="Pratensis">IOHANNEM PRATENSEM</persName>.</opener>
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="pratensis_johannes_1543">IOHANNEM PRATENSEM</persName>.</opener>
                 <p>ACCCEPI literas tuas, eruditissime et amantissime PRATENSIS, ex quibus intelligo
                     te negotium nostrum <placeName ref="Rostock">Rostochiense</placeName> probe curasse, quo nomine tibi gratias ago.
                     Cupis a me scire quid rerum <pb ed="A" n="5r"/>in mundo geratur, quidque ferat
@@ -106,10 +128,10 @@
                     cognoveram, tibi, quam primum reversus essem, <placeName ref="Copenhagen">Haffniæ</placeName> retuli, plura etiamnum
                     relaturus, si quæ ulterius in mentem venerint, ubi vos denuo invisere, quod
                     intra paucos dies facere decrevi; est enim res magni momenti, quam nulli
-                    præterquam Magnifico Domino Legato Gallico <persName ref="Dançay">DANZÆO</persName> et tibi intimo meo aperire
+                    præterquam Magnifico Domino Legato Gallico <persName ref="dancay_charles_1510">DANZÆO</persName> et tibi intimo meo aperire
                     animus est, vestrumque de hac audire consilium. Quoniam vero de abitu meo denuo
                     in <placeName ref="Germany">Germaniam</placeName> mens tibi nonnulla præsagit, licet ego idipsum supprimam, dicam
-                    tibi quippiam in aurem, nemini nisi soli Domino <persName ref="Dançay">DANZÆO</persName>, quem scis taciturnum et
+                    tibi quippiam in aurem, nemini nisi soli Domino <persName ref="dancay_charles_1510">DANZÆO</persName>, quem scis taciturnum et
                     fidum, aperiendum. Recte quidem sive vigilanti sive somnianti tibi tuus dictavit
                     Genius vatidicus, me aliud iter versus Austrum iterum meditari. Quod forte inde
                     subolfecisti, quia nullas ex ijs arcibus, quas Serenissimus Rex noster mihi, cum
@@ -141,7 +163,7 @@
                     alieni, quamque ab ipsa philosophia: excipio excipiendos, quos tamen plures esse
                     mallem quam sunt.</p>
                 <p rend="indent">Sed audi quid hisce diebus præter omnem meam expectationem acciderit, idque solus
-                    audi, et nemini nisi uni <persName ref="Dançay">DANZÆO</persName> nostro <app><lem wit="#TBOO">aperi</lem><rdg wit="#A">aperiri</rdg></app>, idque secreto. Cum ultimo die
+                    audi, et nemini nisi uni <persName ref="dancay_charles_1510">DANZÆO</persName> nostro <app><lem wit="#TBOO">aperi</lem><rdg wit="#A">aperiri</rdg></app>, idque secreto. Cum ultimo die
                     præcedentis septimanæ, qui erat undecimus Februarij matutinis horis in lecto
                     expergefactus, adhuc decumberem, et iter hoc de quo modo dixi, in Germaniam
                     tacitus et solicite animo mecum agitarem, simulque qua ratione, consanguineis
@@ -228,11 +250,11 @@
                     caperem, quod nimirum has satis tolerabiles conditiones a laudatissimo Rege mihi
                     singulari clementia benignissime cupienti, oblatas non acceptârim ac in Patria
                     manserim. Nihil tamen certi adhuc constituere possum, nec etiam volo, antequam
-                    Domini <persName ref="Dançay">DANZÆI</persName> et tuum audivero consilium. Matri et Avunculo aut etiam Fratri,
+                    Domini <persName ref="dancay_charles_1510">DANZÆI</persName> et tuum audivero consilium. Matri et Avunculo aut etiam Fratri,
                     hæc, antequam penitus inter nos deliberatum et conclusum fuerit, in quas partes
                     me dem, non aperiam. Neque enim volo ijs innotescere me denuo in Germaniam
-                    proficisci decrevisse. Hæc mi <persName ref="Pratensis">PRATENSIS</persName>, eo plenius, prout peracta sunt, tibi
-                    refero, ut eo expeditius et melius cum <persName ref="Dançay">DANZÆO</persName> nostro deliberare possis, quid
+                    proficisci decrevisse. Hæc mi <persName ref="pratensis_johannes_1543">PRATENSIS</persName>, eo plenius, prout peracta sunt, tibi
+                    refero, ut eo expeditius et melius cum <persName ref="dancay_charles_1510">DANZÆO</persName> nostro deliberare possis, quid
                     mihi faciendum duxeritis, atque vestram sententiam, quamprimum isthuc venero
                     (quod intra biduum vel triduum ad summum futurum spero) ingenue pro amicitia
                     inter nos mutua et syncera aperiatis; neque enim diu cunctandum censeo, antequam
@@ -274,11 +296,11 @@
                     hanc sententiam <persName ref="Plinius maior">PLINIUM</persName> hausisse verosimile est, licet is idipsum dissimulans
                     eam sibi propriam et privatam asseruit. Verum de his ubi D. V. convenerimus, et
                     commoditas dabitur talia disquirendi, ulterius philosophabimur. Tu vero, mi
-                    charissime <persName ref="Pratensis">PRATENSIS</persName>, quam felicissime vale, et Dominum <persName ref="Dançay">DANZÆUM</persName> nostrum ex me
+                    charissime <persName ref="pratensis_johannes_1543">PRATENSIS</persName>, quam felicissime vale, et Dominum <persName ref="dancay_charles_1510">DANZÆUM</persName> nostrum ex me
                     officiose saluta; meque intra paucos, uti dixi, dies isthic ambo incolumes
                     expectate. Dabantur e sede nostra <placeName ref="Knutstorp">Knudsdorpiana</placeName> die 14. Februarij A.
                     1576.</p>
-                <lb/><p rend="rightMargin">TYCHO BRAHE.</p>
+                <lb/><p rend="rightMargin"><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</p>
             </div>
         </body>
     </text>

@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,34 +42,22 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 33-34</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -79,7 +67,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Heinrich Brucaeus</persName>
+                    <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1576-05-14"/>
                 </correspAction>
@@ -88,7 +76,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 14. maj</date></creation>
+            <creation><date xml:lang="da">1576, 14. maj.</date><date xml:lang="en">1576, 14 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -110,7 +98,7 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.33"/><pb ed="A" n="78v"/> NOBILISSIMO CLARISSIMOQUE VIRO
-                    D. TYCHONI BRAHE, MATHEMATICO EXIMIO, DOMINO ET AMICO OBSERVANDO.</opener>
+                    D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, MATHEMATICO EXIMIO, DOMINO ET AMICO OBSERVANDO.</opener>
                 <p>LITERIS tuis, nobilissime, amantissime Domine TYCHO, nihil mihi fuit charius.
                     Ioachimicos accepi a D. <persName ref="Battus, Levinus">LEVINO</persName>. Chirographum adhuc apud me delitescit sine
                     fraude et dolo. <persName ref="Homelius">OMELIJ</persName> de Horologijs sciotericis partem, quam commodato ceperam,
@@ -144,7 +132,7 @@
                     omnibus, si unus est in omnibus curandi modus. Aut quid omnibus commune, quid
                     singulis peculiare. <pb ed="TBOO" n="VII.34"/>Non dubito pro animi tui candore et amore mutuo,
                     candide omnia communicaturum. Bene vale. <placeName ref="ostock">Rostochij</placeName> XIV Maij anno 1576.</p>
-                <lb/><p rend="rightMargin"><persName ref="Brucaeus, Heinrich">Henricus Brucæus</persName><lb/>plane tuus.</p>
+                <lb/><p rend="rightMargin"><persName ref="brucaeus_heinrich_1530">Henricus Brucæus</persName><lb/>plane tuus.</p>
             </div>
         </body>
     </text>

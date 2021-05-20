@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -44,7 +44,7 @@
                             </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -52,6 +52,18 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -66,7 +78,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Paul Hainzel</persName>
+                    <persName key="hainzel_paul_1527">Paul Hainzel</persName>
                     <placeName>Augsburg</placeName>
                     <date when="1574-03-10"/>
                 </correspAction>
@@ -75,7 +87,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1574. 10. marts</date><placeName>Augsburg</placeName></creation>
+            <creation><date xml:lang="da">1574, 10. marts.</date><date xml:lang="en">1574, 10 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -98,7 +110,7 @@
             <div>
                 <pb ed="TBOO" n="VII.14"/>
                 <pb ed="A" n="13r"/>
-                <opener>NOBILITATE ET ERUDITIONE PRÆSTANTI IUVENI, DOMINO TYCHONI BRAHE.<lb/>S. P. D. </opener>
+                <opener>NOBILITATE ET ERUDITIONE PRÆSTANTI IUVENI, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>.<lb/>S. P. D. </opener>
                 <p>DICERE non possum, Nobilissime et amantissime mi TYCHO, quanta voluptate me
                     affeceris, non saltem eruditissimis literis, ad me nuper datis, sed et
                     contemplatione tua vere Mathematica, de miraculosa illa ad Cassiopeiam stella,
@@ -134,7 +146,7 @@
                     mi TYCHO, et sæpius me tuis eruditis literis invisere ne omittas. Iterumque
                     etiam atque etiam vale. Datæ <placeName ref="Augsburg">Augustæ
                         Vindelicorum</placeName>, Anno 1574 die 10. Martij. </p>
-                <lb/><p rend="rightMargin">T.<lb/><persName ref="Hainzel, Paul">Paulus Haintzel</persName>.</p>
+                <lb/><p rend="rightMargin">T.<lb/><persName ref="hainzel_paul_1527">Paulus Haintzel</persName>.</p>
             </div>
         </body>
     </text>

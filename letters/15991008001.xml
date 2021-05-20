@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Tycho Brahe</author>
+                <author>Vincent Moller</author>
                 <editor>
                     <name xml:id="lrp">
                         <persName>
@@ -13,27 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -42,12 +45,23 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 23, fol. 5 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
                                 <ab>Original letter</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 156</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 156, no. 165</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -58,16 +72,17 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Vincent Möller</persName>
-                    <placeName>Hamburg</placeName>
+                    <persName key="moller_vincent_1560">Vincent Moller</persName>
+                    <placeName xml:lang="da">Hamborg</placeName>
+                    <placeName xml:lang="en">Hamburg</placeName>
                     <date when="1599-10-08"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599-10-08</date></creation>
+            <creation><date xml:lang="da">1599, 8. september.</date><date xml:lang="dena">1599, 8 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -88,24 +103,28 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.156"/>MAGNIFICO ET NOBILISSIMO VIRO, D. TYCHONI BRAHE, DOMINO IN KNUDSTORP,
-                    MATHEMATICO PRÆSTANTISSIMO, DOMINO AC AMICO S. HONORANDO.<lb/>S.</opener>
+                <opener><pb ed="TBOO" n="XIV.156"/>MAGNIFICO ET NOBILISSIMO VIRO, D. TYCHONI BRAHE,
+                    DOMINO IN KNUDSTORP, MATHEMATICO PRÆSTANTISSIMO, DOMINO AC AMICO S.
+                    HONORANDO.<lb/>S.</opener>
 
-                <p>magnifice et nobilissime vir, domine ac amice honorande. Literas tuas
-                        <placeName ref="Benatky">Venetijs Bohemorum</placeName> 28 septemb. datas
-                    summa cum voluptate perlegi, cum quod de tua valetudine, tum et quo in loco T.
-                    M. subsistat, me certiorem fecerint. Literæ <persName ref="Rudolf 2.">s. cæs. m:tis</persName>, domini nostri
-                    clementiss., quarum mentionem T. M. facit, senatui nostro non sunt exhibitæ,
-                    forsitan incuria tuorum neglectæ; quamprimum autem allatæ et in senatu lectæ
-                    fuerint, ex ijsque intellexero, quid tua causa <persName ref="Rudolf 2.">s. cæs. m:tas</persName> fieri velit,
-                    lubens, quantum in me erit, negotium promouebo. <persName ref="Petkum">Simonem a
+                <p>magnifice et nobilissime vir, domine ac amice honorande. Literas tuas <placeName
+                        ref="Benatky">Venetijs Bohemorum</placeName> 28 septemb. datas summa cum
+                    voluptate perlegi, cum quod de tua valetudine, tum et quo in loco T. M.
+                    subsistat, me certiorem fecerint. Literæ <persName ref="Rudolf 2.">s. cæs.
+                        m:tis</persName>, domini nostri clementiss., quarum mentionem T. M. facit,
+                    senatui nostro non sunt exhibitæ, forsitan incuria tuorum neglectæ; quamprimum
+                    autem allatæ et in senatu lectæ fuerint, ex ijsque intellexero, quid tua causa
+                        <persName ref="Rudolf 2.">s. cæs. m:tas</persName> fieri velit, lubens,
+                    quantum in me erit, negotium promouebo. <persName ref="Petkum">Simonem a
                         Petkum</persName>, ut de singulis, quæ tua scire interest, te certiorem
-                    reddat, admonui, qui copiose se rescripturum recepit. Ferramenta
-                        <placeName ref="Wandsburg">Wandesburgi</placeName> relicta quod attinet, existimo de ijs
-                    nihil certi statui posse, antequam <persName ref="Rantzau, Breide">Bredo Ranzouius</persName> ad
-                    tuas responderit. His paucis T. M. æterni Dei tutelæ commendo, qui eandem
-                    diutiss: incolumem conseruet.</p> <closer><dateline>Dabantur <placeName ref="Hamburg">Hamburgj</placeName> 8 octob.
-                    a:o 1599.</dateline> <signed>Mag:æ T. studiosiss:<lb/>Vinc. Moller L.</signed>
+                    reddat, admonui, qui copiose se rescripturum recepit. Ferramenta <placeName
+                        ref="Wandsburg">Wandesburgi</placeName> relicta quod attinet, existimo de
+                    ijs nihil certi statui posse, antequam <persName ref="Rantzau, Breide">Bredo
+                        Ranzouius</persName> ad tuas responderit. His paucis T. M. æterni Dei tutelæ
+                    commendo, qui eandem diutiss: incolumem conseruet.</p>
+                <closer><dateline>Dabantur <placeName ref="Hamburg">Hamburgj</placeName> 8 octob.
+                        a:o 1599.</dateline>
+                    <signed>Mag:æ T. studiosiss:<lb/>Vinc. Moller L.</signed>
                 </closer>
             </div>
         </body>

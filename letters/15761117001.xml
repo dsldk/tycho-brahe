@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,9 +42,20 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -52,6 +63,17 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -70,8 +92,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Charles de Dançay</persName>
-                    <placeName>Copenhagen</placeName>
+                    <persName key="dancay_charles_1510">Charles de Dançay</persName>
+                    <placeName xml:lang="da">København</placeName>
+                    <placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1576-11-17"/>
                 </correspAction>
                 <correspAction type="received">
@@ -79,7 +102,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 17. november</date></creation>
+            <creation><date xml:lang="da">1576, 17. november.</date><date xml:lang="en">1576, 17 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -102,7 +125,7 @@
             <div>
                 <pb ed="TBOO" n="VII.40"/>
                 <pb ed="A" n="10v"/>
-                <opener>NOBILI ET GENEROSO VIRO, DOMINO TYCHONI BRAHE OTTONIDI A KNUDSTORP, AMICO
+                <opener>NOBILI ET GENEROSO VIRO, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE OTTONIDI</persName> A KNUDSTORP, AMICO
                     SUO SEMPER OBSERVANDO.</opener>
                 <p>GENEROSE et clarissime vir, Scotus hîc quidam in hoc postremo bello Danico et
                     Suetico stipendia sub Capitaneo <!-- john Clark? Clarke? --><persName
@@ -147,7 +170,7 @@
                     verbis reverenter saluta. <placeName ref="Copenhagen">Haffniæ</placeName> 17.
                     die Novembris Anno 1576.</p>
                 <lb/>
-                <p rend="rightMargin">Tibi deditissimus<lb/><persName ref="Dançay">Carolus
+                <p rend="rightMargin">Tibi deditissimus<lb/><persName ref="dancay_charles_1510">Carolus
                         Danzeus</persName>.</p>
             </div>
         </body>

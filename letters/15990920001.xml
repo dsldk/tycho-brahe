@@ -19,10 +19,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -33,7 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 23, Fol. 3 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -47,7 +59,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 155-56</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 155-56, no. 164</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -58,16 +70,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Henrik Ramel</persName>
+                    <persName key="ramel_henrik_1550">Henrik Ramel</persName>
                     <placeName>Helsingør</placeName>
                     <date when="1599-09-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Sophie Brahe</persName>
+                    <persName key="brahe_sophie_1559">Sophie Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599-09-20</date></creation>
+            <creation><date xml:lang="da">1599, 20. september.</date><date xml:lang="en">1599, 20 September.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -84,6 +96,7 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-17" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-19" who="#pz">Korrekturlæst</change>
+            <change when="2021-05-20" who="#pz">engelske metadata indsat</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -95,7 +108,7 @@
                         >ERICKSSHOLMB</placeName>, MINN KIERRE SWOGERSKE OCH BESSØNDERLIG GUODE
                     WENN, GANDSCH WENLIGENN THILSCHREFFUENN.</opener>
 
-                <p>MINN gandsch wenlig hilßenn nu och altid forßent med Wor Herre. Kierre fru
+                <p rend="noIndent">MINN gandsch wenlig hilßenn nu och altid forßent med Wor Herre. Kierre fru
                         <persName ref="Brahe, Sophie">Sophia Brahe</persName>, suogerske och
                     beßønderlig guode wenn. Nest en wenlig tacksigelße for megen beuist guode, i mig
                     altid giortt och beuist haffuer, huilckett att forskiulde jeg altid will findis

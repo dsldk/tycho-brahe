@@ -19,10 +19,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -42,12 +42,23 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Original letter</ab>
-                            </physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc></msDesc>
+                            <msDesc xml:lang="en">
+                                <msIdentifier>
+                                    <settlement>Basel</settlement>
+                                    <repository>Universitätsbibliothek Basel</repository>
+                                    <collection>Autographensammlung</collection>
+                                    <idno>Vol. 23, Fol. 17-20.</idno>
+                                    <msName>empty</msName>
+                                </msIdentifier>
+                                <physDesc>
+                                    <ab>Original letter</ab>
+                                </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 160-63</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 160-63, no. 168</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -58,16 +69,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Eske Bille</persName>
+                    <persName key="bille_eske_1552">Eske Bille</persName>
                     <placeName>København</placeName>
                     <date when="1599-10-29"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599-10-29; postscript: 1599-11-11</date></creation>
+            <creation><date xml:lang="da">1599, 29. oktober (PS: 11. november).</date><date xml:lang="en">1599, 29 Oktober (postscript: 11 November).</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -90,7 +101,7 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.160"/>[AD TYCHONEM BRAHE.]</opener>
+                <opener><pb ed="TBOO" n="XIV.160"/>[AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.]</opener>
 
                 <div><p>MYNN ganndtske wennlig helsenn nu och althidt forsendt med Vor Herre. Kierre Tyge
                     Brahe och kierre broder, betaker ieg dig ganndze wennligenn och giernne for
@@ -227,7 +238,7 @@
 
                 <signed>Eskie Byllde.</signed></closer></div>
 
-                <div n="P.S."><p>Kierre <persName ref="Tycho Brahe">Thyge</persName>, sidenn dette breff vor
+                <div n="P.S."><p>Kierre <persName ref="brahe_tycho_1546">Thyge</persName>, sidenn dette breff vor
                     schreffuenn, ehr ieg kommen hid thill byenn wdigienn, och hafuer ieg taldt med
                     din sønn, och formerker ieg, att <pb ed="TBOO" n="XIV.163"/>hand hafuer bekomid
                     schriffuelse, att hand endnu skall forschafe dig vd sa mange som en 14 heste

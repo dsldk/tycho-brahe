@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,6 +42,17 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
                         <msDesc>
@@ -52,34 +63,22 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 35</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -89,7 +88,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Charles de Dançay</persName>
+                    <persName key="dancay_charles_1510">Charles de Dançay</persName>
                     <placeName>Holbæk</placeName>
                     <date when="1576-07-14"/>
                 </correspAction>
@@ -98,7 +97,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 14. juli</date><placeName>Holbæk</placeName></creation>
+            <creation><date xml:lang="da">1576, 14. juli.</date><date xml:lang="en">1576, 14 July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -127,14 +126,14 @@
                     <persName ref="Packius">PACKIUM</persName> essem, redditæ mihi sunt tuæ literæ. Tristia obmittam, cum corrigi non
                     possint: lapis promissus paratus est, inscriptio addita, ut voluisti, cum me
                     vocabis, mature adero, gratissimumque mihi feceris, si plures invitaveris! Ego
-                    idem quoque facturus sum, ne vulgaris hæc sit dedicatio. Utinam ille <persName ref="Pratensis">PRATENSIS</persName>
+                    idem quoque facturus sum, ne vulgaris hæc sit dedicatio. Utinam ille <persName ref="pratensis_johannes_1543">PRATENSIS</persName>
                     viveret et nobis unâ adesse posset. Ego D. <persName ref="Frandsen, Hans">IOHANNI FRANCISCO</persName> nisi adfuerit,
                     ominatus sum aliquid mali. Ille igitur volens (ut spero) vel metu aderit.
                     Literas tuas hîc expecto, ubi <pb ed="A" n="10v"/>iam iucundissime et
                     suavissime vivo. Vale, Vir præstantissime, et DANZEUM tuum, ut incepisti, ama,
                     credeque illum tibi esse deditissimum. Vale et vale felicissime. Holbecæ 14.
                     Iulij A. 1576.</p>
-                <lb/><p rend="rightMargin">Tibi deditissimus <persName ref="Dançay">Carolus Danzeus</persName>.</p>
+                <lb/><p rend="rightMargin">Tibi deditissimus <persName ref="dancay_charles_1510">Carolus Danzeus</persName>.</p>
             </div>
         </body>
     </text>

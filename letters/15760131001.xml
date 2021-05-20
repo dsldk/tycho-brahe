@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,9 +42,20 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -52,34 +63,22 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 23-24</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -89,8 +88,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Pratensis</persName>
-                    <placeName>Copenhagen</placeName>
+                    <persName key="pratensis_johannes_1543">Johannes Pratensis</persName>
+                    <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1576-01-31"/>
                 </correspAction>
                 <correspAction type="received">
@@ -98,7 +97,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 31. januar</date></creation>
+            <creation><date xml:lang="da">1576, 31. januar.</date><date xml:lang="en">1576, 31 January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -120,9 +119,9 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.23"/>
-                <pb ed="A" n="4r"/><persName ref="Pratensis">IOHANNES PRATENSIS</persName> AD TYCHONEM BRAHE. <lb/>SALUTEM ET OMNIA
+                    <pb ed="A" n="4r"/><persName ref="pratensis_johannes_1543">IOHANNES PRATENSIS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>. <lb/>SALUTEM ET OMNIA
                     FAUSTA.</opener>
-                <p>RECEPI literas tuas, TYCHO optime, et pyxidem obsignatam cum pecunia, quam
+                <p>RECEPI literas tuas, <persName ref="brahe_tycho_1546">TYCHO</persName> optime, et pyxidem obsignatam cum pecunia, quam
                     postera statim die <placeName ref="Rostock">Rostochium</placeName> misi; qui tulit, chirographum quitantiarium
                     referet: cui quoque negotium dedi de vase tuo huc perferendo. Ubi venerit,
                     diligenter curabo. Quam vellem te apud nos hîc esse: desiderio enim tui tangimur
@@ -177,7 +176,7 @@
                     illustres ac vegetiores reddas, animisque nostris sacer, uti soles, illabaris.
                     Iamque vale, et fratrem tuum, aliosque qui tecum sunt, sanguine iunctos ex me
                     officiose saluta. Dabantur Haffniæ ult. die Ianuarij Anno 1576.</p>
-                <lb/><p rend="rightMargin">T.<lb/><persName ref="Pratensis">IOH. PRATENSIS</persName>.</p>
+                <lb/><p rend="rightMargin">T.<lb/><persName ref="pratensis_johannes_1543">IOH. PRATENSIS</persName>.</p>
             </div>
         </body>
     </text>

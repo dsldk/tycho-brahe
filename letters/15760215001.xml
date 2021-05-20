@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -34,7 +34,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -42,9 +42,20 @@
                                 <idno>cod. Vindob. lat. 10686.7</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -52,6 +63,17 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab></ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno 1568 ad annum 1587</title>, ed. F.R. Friis, 1876-86</bibl>
@@ -69,8 +91,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Pratensis</persName>
-                    <placeName>Copenhagen</placeName>
+                    <persName key="pratensis_johannes_1543">Johannes Pratensis</persName>
+                    <placeName xml:lang="da">København</placeName>
+                    <placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1575-02-15"/>
                 </correspAction>
                 <correspAction type="received">
@@ -78,7 +101,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 15. februar</date><placeName>nil</placeName></creation>
+            <creation><date xml:lang="da">1576, 15. februar.</date><date xml:lang="en">1576, 15 February.</date><placeName>nil</placeName></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -101,7 +124,7 @@
             <div><div n="Letter">
                 <pb ed="TBOO" n="VII.30"/>
                 <pb ed="A" n="7v"/>
-                <opener><persName ref="Pratensis">IOHANNES PRATENSIS</persName> AD TYCHONEM
+                <opener><persName ref="pratensis_johannes_1543">IOHANNES PRATENSIS</persName> AD TYCHONEM
                     BRAHE.</opener>
                 <p>GENEROSE Domine TYCHO, Amice observande, præ gaudio exsilij, quam primum legi in
                     tuis, ea quæ de Serenissimi <persName ref="Frederik 2.">Regis</persName> nostri
@@ -147,10 +170,10 @@
                     tua Nobilissima et Fratre <persName ref="Brahe, Sten">STENONE</persName>, quam
                     officiosissime. Datæ <placeName ref="Copenhagen">Haffniæ</placeName> festinanti
                     calamo die 15. Februarij horis matutinis Anno 1576.</p>
-                <lb/><p rend="rightMargin">Iohannes Pratensis.</p>
+                <lb/><p rend="rightMargin"><persName ref="pratensis_johannes_1543">Iohannes Pratensis</persName>.</p>
             </div>
             <div n="Explanatory note">
-                <p>In hunc modum Excellentissimus ille <persName ref="Pratensis">PRATENSIS</persName>, bonæ recordationis, tam Magnifici
+                <p>In hunc modum Excellentissimus ille <persName ref="pratensis_johannes_1543">PRATENSIS</persName>, bonæ recordationis, tam Magnifici
                     Domini <persName ref="Dançay">Legati Gallici</persName>, quam suam
                     mihi apperuit sententiam, eandem postea cum simul essemus, pluribus exposuit et
                     confirmavit; visumque est utrique eorum, ut omnino has a Clementissimo <persName
@@ -158,7 +181,7 @@
                     Patria, relicto priori proposito, manerem , inque eius et Regis honorem,
                     quæcunque pro virili præstare possem, sedulo molirer. Certo enim sibi
                     persuadebant, hæc, Deo sic volente et regente, qui corda Regum in sua habet
-                    potestate, fieri. Subiunxit vero inter alia <persName ref="Pratensis, Johannnes"
+                    potestate, fieri. Subiunxit vero inter alia <persName ref="pratensis_johannes_1543"
                         >PRATENSIS</persName>, domum plane Philosophicam in illa Insula
                     exædificandam esse, a vulgaribus differentem quæque hinc inde habeat
                     inscriptiones Gnomologicas, ex antiquorum Philosophorum et Poëtarum scriptis
@@ -193,9 +216,9 @@
                         <pb ed="TBOO" n="VII.32"/>isthic a me extructa deseruerim, atque in Germaniam
                     me cum tota familia et apparatu illo Astronomico contulerim, non est huius loci
                     referre, nimisque longum foret; habet etiam rationes cur lubentius id subticeam.
-                    Sed ad rem, et ea quæ de <persName ref="Pratensis">PRATENSE</persName>. Interim dum ego ædificationes novas in Insula
+                    Sed ad rem, et ea quæ de <persName ref="pratensis_johannes_1543">PRATENSE</persName>. Interim dum ego ædificationes novas in Insula
                     illa adorno, et ob id rarius <placeName ref="Copenhagen">Haffniam</placeName> venio, accidit ut optimus et eruditissimus
-                    ille <persName ref="Pratensis">PRATENSIS</persName>, proh dolor, fatis concesserit, magno sui non saltem apud me, sed
+                    ille <persName ref="pratensis_johannes_1543">PRATENSIS</persName>, proh dolor, fatis concesserit, magno sui non saltem apud me, sed
                     et alios quam plurimos, relicto defiderio; erat enim omnibus ob morum
                     suavitatem, probitatem et candorem, eximiamque humanitatem charissimus. Vixit is
                     saltem usque in 32 ætatis annum, adeoque sub ipso iuventutis flore expiravit,
@@ -230,7 +253,7 @@
                     sertim <pb ed="A" n="9r"/> cum et is Astronomiæ studijs, de quibus hisce
                     Epistolis affatim agitur, præclare imbutus fuerit. Quæ etiam omnia ob id hîc
                     commemoro, ut constare possit meis lectoribus, quî factum sit, quod non plures
-                    in posterum ab hoc Doctissimo <persName ref="Pratensis">PRATENSE</persName> literæ subsequantur, eo nimirum nimis
+                    in posterum ab hoc Doctissimo <persName ref="pratensis_johannes_1543">PRATENSE</persName> literæ subsequantur, eo nimirum nimis
                     matura morte, quod dolendum, nobis prærepto. Nunc igitur Epitaphium, de quo
                     dixi, subijciam, posteaque ad alias Epistolas doctorum virorum aliunde mihi
                     scriptas, continuandas pergam.</p>

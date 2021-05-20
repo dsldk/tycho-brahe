@@ -20,10 +20,10 @@
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
@@ -64,11 +64,11 @@
                     <date when="1576-09-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Petrus Severinus</persName>
+                    <persName key="sorensen_peder_1540">Petrus Severinus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1576. 3. september</date></creation>
+            <creation><date xml:lang="da">1576, 3. september.</date><date xml:lang="en">1576, 3 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,16 +92,16 @@
             <div>
                 <pb ed="TBOO" n="VII.38"/>
                 <pb ed="A" n="1r"/>
-                <opener>CLARISSIMO ET DOCTISSIMO VIRO DOCTORI <persName ref="Severinus, Petrus">PETRO SEVERINI</persName>, MEDICO REGIO, PHILOSOPHO
+                <opener>CLARISSIMO ET DOCTISSIMO VIRO DOCTORI <persName ref="sorensen_peder_1540">PETRO SEVERINI</persName>, MEDICO REGIO, PHILOSOPHO
                     EXIMIO, SUO AMICO. S.</opener>
                 <p>BINAS a te charissime D. D. PETRE recepi literas, quibus interea nihil a me
                     responsum est, non quod amicitiæ et officii immemor essem, sed quod multis
                     negotiis et amicorum visitationibus interea (ut fit) distractus fuerim. In
                     prioribus communis nostri fratris et amici immortali memoria dignissimi
-                    <persName ref="Pratensis">PRATENSIS</persName> casum et immaturum inexpectatumque a nobis discessum merito deploras.
+                    <persName ref="pratensis_johannes_1543">PRATENSIS</persName> casum et immaturum inexpectatumque a nobis discessum merito deploras.
                     In posterioribus vero proprias, quibus conflictaris in vitæ cursu, difficultates
                     doles.</p>
-                <p rend="indent">Etsi vero <persName ref="Pratensis">PRATENSIS</persName> nostri abitus potius, quam obitus ab omnibus merito doleatur,
+                <p rend="indent">Etsi vero <persName ref="pratensis_johannes_1543">PRATENSIS</persName> nostri abitus potius, quam obitus ab omnibus merito doleatur,
                     utpote qui ob multarum scientiarum excellentem peritiam, vitæque et morum
                     incomparabilem suavitatem, in omnium animis perpetuum sui desiderium reliquerit;
                     tamen cum nos divinis oraculis et philosophia aliquatenus imbuti, statuamus eos,
@@ -109,7 +109,7 @@
                     beatioris mundi incolas migrare et tanto beatius deinde vivere, quanto infinita
                     felicitas finitam miseriam exsuperat; o Horizontum temporis et æternitatis
                     imperscrutabile discrimen; cumque is, qui hinc discessit, non decessit
-                    <persName ref="Pratensis">PRATENSIS</persName>, fuerit et divina et humana Philosophia ita edoctus, ut in eius, per
+                    <persName ref="pratensis_johannes_1543">PRATENSIS</persName>, fuerit et divina et humana Philosophia ita edoctus, ut in eius, per
                     quem omnes misericordiam mere<pb ed="TBOO" n="VII.39"/>mur, pia invocatione et officij sui in
                     hac mortali vita fideli vocatione, in æternitatem migraverit, et dum fata
                     sinebant, vitam hanc mortalem bene et laudabiliter transegerit; idcirco non
@@ -170,7 +170,7 @@
                     Dominum <app><lem wit="#A">Decanum</lem><rdg wit="#DänBibl"><q>Legatum</q></rdg></app> meo nomine officiosissime. Iterum terque quaterque vale. Datæ
                     <placeName ref="Knutstorp">Knudsdorp</placeName> die 3. Septembris Anno 1576.</p>
                 <p>Spero <app><lem wit="#DänBibl">me</lem><rdg><note>om. A</note></rdg></app> brevi vobis <placeName ref="Copenhagen">Haffniæ</placeName> affuturum.</p>
-                <lb/><p rend="rightMargin">Tuus<lb/>Tycho Brahe.</p>
+                <lb/><p rend="rightMargin">Tuus<lb/><persName ref="brahe_tycho_1546">Tycho Brahe</persName>.</p>
             </div>
         </body>
     </text>
