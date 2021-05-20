@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Tycho Brahe</author>
+                <author>Tage Ottesen Thott</author>
                 <editor>
                     <name xml:id="lrp">
                         <persName>
@@ -13,27 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 23, Fol. 35 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -47,7 +62,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 170-71 </bibl>
+                            Tom. XIV, Hauniæ 1929, p. 170-71, no. 176</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -58,16 +73,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Tage Ottesen Thott</persName>
+                    <persName key="thott_tage_1580">Tage Ottesen Thott</persName>
                     <placeName>Heidelberg</placeName>
                     <date when="1600-01-15"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-01-15</date></creation>
+            <creation><date xml:lang="da">1600, 15. januar.</date><date xml:lang="en">1600, 15 January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,13 +99,14 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-09" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-20" who="#pz">Korrekturlæst</change>
+            <change when="2021-05-20" who="#pz">revideret, engelsk metatekst indsat</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.170"/>GENEROSO VEREQVE NOBILI VIRO DN. TYCHONI BRAHE DE
+                <opener><pb ed="TBOO" n="XIV.170"/>GENEROSO VEREQVE NOBILI VIRO DN. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DE
                     KNUDSTRUP, AVUNCULO MEO CARISSIMO.</opener>
 
                 <p>DE tuo mei amore, quo indeusque a teneris annis large sum usus, tuisqve
@@ -98,17 +114,18 @@
                     est, ago qvam maximas, polliceorqve, si mea unqvam extare possunt officiola, in
                     te constabunt promptissima paratissimaqve. Ne avtem mirere, avuncule carissime,
                     qvod pavlo tardior in literis hactenus fui, siqvidem variis ego rebus
-                    cogitationibusqve, de instituenda præsertim peregrinatione, varie <pb ed="TBOO" n="XIV.171"/>sum occupatus,
-                    qvibus tamen, avxiliante omnipotenti Deo, decimus tertius dies mensis decembris
-                    proxime absoluti anni, felicem expectatumqve finem imposuit; fore itaqve spero,
-                    ut diligentius post hac, qvoties per occasionem licuerit, literis tecum de meis
-                    rebus agam, certo enim certius mecum statuo, te de mea salute æqve solicitum
-                    atqve de genuini nati. Verum ut cognoscas, ubinam gentium ubiqve terrarum nunc
-                    vivam, scito, me cum comite mei itineris studiorumqve <persName ref="Bachendorf"
-                        >Nicolao Mathiæ Bachendorphio</persName> ad nominatum diem (cum tamen recta
-                        <placeName ref="Basel">Basilæam</placeName> decrevissem) <placeName
-                        ref="Heidelberg">Heidelbergam</placeName> pervenisse, ubi propter urentis
-                    frigoris vehementiam usqve ad vernas nundinas proxime instantes <placeName
+                    cogitationibusqve, de instituenda præsertim peregrinatione, varie <pb ed="TBOO"
+                        n="XIV.171"/>sum occupatus, qvibus tamen, avxiliante omnipotenti Deo,
+                    decimus tertius dies mensis decembris proxime absoluti anni, felicem
+                    expectatumqve finem imposuit; fore itaqve spero, ut diligentius post hac,
+                    qvoties per occasionem licuerit, literis tecum de meis rebus agam, certo enim
+                    certius mecum statuo, te de mea salute æqve solicitum atqve de genuini nati.
+                    Verum ut cognoscas, ubinam gentium ubiqve terrarum nunc vivam, scito, me cum
+                    comite mei itineris studiorumqve <persName ref="Bachendorf">Nicolao Mathiæ
+                        Bachendorphio</persName> ad nominatum diem (cum tamen recta <placeName
+                        ref="Basel">Basilæam</placeName> decrevissem) <placeName ref="Heidelberg"
+                        >Heidelbergam</placeName> pervenisse, ubi propter urentis frigoris
+                    vehementiam usqve ad vernas nundinas proxime instantes <placeName
                         ref="Frankfurt am Main">Francofurdinas</placeName> anchoram figere visum
                     fuit, factumqve est integris, lavs Deo, omnibus. In itinere avtem meo comitata
                     me est mater mea svavissima, <persName ref="Brahe, Sophie">soror tua perqvam
@@ -117,11 +134,12 @@
                         Lange</persName>, qvi cum ipsa, ut puto, in <placeName ref="Jylland"
                         >Cimbriam</placeName> iter fecit. Plura nec tempus nec tabellarii festinatio
                     in præsentiarum scribere permittit. Velis ergo per pavca hæc boni consulere,
-                    alias enim majora dabo.</p> <closer><salute>Vale.</salute> <dateline><placeName ref="Heidelberg"
-                        >Heidelberga</placeName> 18 cal. feb. a:o 1600.</dateline>
-                
-                <signed><persName ref="Thott, Tage">Tacho Tot O. f.</persName><lb/>mea
-                    manu.</signed></closer>
+                    alias enim majora dabo.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline><placeName ref="Heidelberg">Heidelberga</placeName> 18 cal. feb. a:o
+                        1600.</dateline>
+                    <signed><persName ref="thott_tage_1580">Tacho Tot O. f.</persName><lb/>mea
+                        manu.</signed></closer>
             </div>
         </body>
     </text>
