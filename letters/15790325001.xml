@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.66</idno>
@@ -46,29 +55,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 49-50</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Paul Hainzel</persName>
+                    <persName key="hainzel_paul_1527">Paul Hainzel</persName>
                     <placeName>Augsburg</placeName>
                     <date when="1579-03-25"/>
                 </correspAction>
@@ -87,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1579, 25. marts</date></creation>
+            <creation><date xml:lang="da">1579, 25. marts.</date><date xml:lang="en">1579, 25 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -110,7 +96,7 @@
             <div>
                 <pb ed="TBOO" n="VII.49"/>
                 <pb ed="A" n="62v"/>
-                <opener><persName ref="Hainzel, Paul">PAULUS HAINTZELIUS</persName> AD TYCHONEM
+                <opener><persName ref="hainzel_paul_1527">PAULUS HAINTZELIUS</persName> AD TYCHONEM
                     BRAHE.</opener>
                 <p>NIHIL sane opus erat, amantissime mi TYCHO, tam accurata apud me de intermissione
                     literarum excusatione uti, cum tu me eiusdem negligentiæ accusare possis. Verum
@@ -156,9 +142,8 @@
                     tecum per literas, sive etiam tacentem, manere tamen semper in eodem amore et
                     benevolentia erga te tibi plane persuasum habeas. <persName
                         ref="Hainzel, Johann Baptist">IOHANNES BAPTISTA</persName>, frater meus,
-                    salutem tibi plurimam hîc referri voluit. Iterum etiam atque etiam vale.
-                    Dabantur Augustæ 25. Martii An. 79.</p>
-                <lb/><p rend="rightMargin">T.<lb/>Paulus Haintzel.</p>
+                    salutem tibi plurimam hîc referri voluit.</p> <closer><salute>Iterum etiam atque etiam vale.</salute>
+                    <dateline>Dabantur Augustæ 25. Martii An. 79.</dateline> <signed><persName ref="hainzel_paul_1527">Paulus Haintzel</persName>.</signed></closer>
             </div>
             <div>
                 <p>Has saltem optimæ recordationis viri Pauli Haintzelij, Consulis Augustani,

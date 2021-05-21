@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,7 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
-                        </msDesc></witness>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Private archive of Tycho Brahe</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc></msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 77</bibl>
@@ -64,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1584, 16. februar</date></creation>
+            <creation><date xml:lang="da">1584, 16. februar.</date><date xml:lang="en">1584, 16 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,9 +101,9 @@
             <div>
                 <pb ed="TBOO" n="VII.77"/>
                 <pb ed="A" n="2r"/>
-                <p>CLARISSIMO DOCTISSIMOQUE VIRO MAGISTRO <persName ref="Vedel">ANDREÆ SEVERINI
-                        VELLEIO</persName> AMICO SUO PLURIMUM DILECTO. <lb/>SALUTEM.</p>
-                <p>BINAS a te Clarissime M. ANDREA, ex quo e <placeName ref="Jylland"
+                <opener>CLARISSIMO DOCTISSIMOQUE VIRO MAGISTRO <persName ref="vedel_anders_sørensen_1542">ANDREÆ SEVERINI
+                        VELLEIO</persName> AMICO SUO PLURIMUM DILECTO. <lb/>SALUTEM.</opener>
+                <p rend="noIndent">BINAS a te Clarissime M. ANDREA, ex quo e <placeName ref="Jylland"
                         >Cymbria</placeName> vestra domum reversus sum, accepi literas, utrisque
                     negotium Typographi illius tractas; respondissem dudum tuæ petitioni, si hyemis
                     importunitas non obstitisset, literasque ad te transmittendi prius fuisset
@@ -116,18 +130,18 @@
                         ref="Laugesen, Hans">Patrem</persName> et <persName
                         ref="Dorothea Hansdatter">Matrem</persName>, Magistrum
                         <!-- hvem? person i Ribe --><persName ref="Jakob">IACOBUM</persName> et
-                    amicos omnes ceteros. Iterum feliciter vale. Datæ <placeName ref="Uraniborg"
-                        >Uraniburgi</placeName> die 16. Februarij Anno 1584.</p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>TYCHO BRAHE manu propria.</p>
-                <p>Negotium illud de historia <persName ref="Christian 3.">CHRISTIANI
+                    amicos omnes ceteros.</p> <closer><salute>Iterum feliciter vale.</salute> <dateline>Datæ <placeName ref="Uraniborg"
+                        >Uraniburgi</placeName> die 16. Februarij Anno 1584.</dateline><signed>T.<lb/>TYCHO BRAHE manu propria.</signed></closer>
+                
+                
+                <postscript><p rend="noIndent">Negotium illud de historia <persName ref="Christian 3.">CHRISTIANI
                     III</persName>, cum ad <persName ref="Gyldenstierne, Axel">ABSALONEM
                         GYLDENSTIERN</persName> venero, facile, quasi nobis id minime <app>
                         <lem>factitantibus</lem>
                         <rdg><note>post <q>factitantibus</q> add. <q>facile</q> A, sed delevit.</note></rdg>
                     </app>, expediam, tibique postmodo librum vel eius copiam transmittam. Literas
                     et pixidem <persName ref="Friis, Albert">ALBERTO FRISIO</persName> destinatam
-                    tradi procura. </p>
+                    tradi procura. </p></postscript>
             </div>
         </body>
     </text>

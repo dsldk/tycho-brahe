@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +45,21 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -59,16 +78,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1582-09-23"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Thaddaeus Hagecius</persName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1582, 23. september</date></creation>
+            <creation><date xml:lang="da">1582, 23. september.</date><date xml:lang="en">1582, 23
+                    September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,8 +113,8 @@
             <div>
                 <pb ed="TBOO" n="VII.72"/>
                 <pb ed="A" n="19r"/>
-                <opener>TYCHO BRAHE <persName ref="Hagecius, Thaddaeus">THADDÆO AB HAYCK</persName>
-                    S. </opener>
+                <opener>TYCHO BRAHE <persName ref="hagesius_thaddaeus_1525">THADDÆO AB
+                        HAYCK</persName> S. </opener>
                 <p>REDDIDIT mihi ante aliquot septimanas <placeName ref="Görlitz"
                         >Gœrlicius</placeName> quidam Mercator literas tuas, <app>
                         <lem wit="Friis">clarissime</lem>
@@ -106,13 +127,14 @@
                     discessu suo elapso tempore ad me dederit. Sed habet is forte sua impedimenta,
                     neque occasio facile in promptu est. Quare et hac in parte nihil ipsi imputo.
                     Cum vero is qui tuas mihi attulerat, nunc ad me reversus sit, ut responsum,
-                    prout ipsi etiam iniunxeram, tibi reportaret, <pb ed="TBOO" n="VII.73"/>ego quamvis
-                    eo tempore id evenerit, quo maxime ad scribendum ob negociorum multitudinem
-                    impeditus sim, et a Serenissimo <persName ref="Frederik 2.">Rege</persName>
-                    nostro insuper avocer, non potui tamen intermittere, quin aliquid literarum tibi
-                    perferendum ipsi traderem, ne tui oblitus tibique rescribere data opera
-                    neglexisse apud te excusari possem. Quæ itaque tuis literis pro hac brevi
-                    occasione temporis respondenda habui, sic brevibus accipe.</p>
+                    prout ipsi etiam iniunxeram, tibi reportaret, <pb ed="TBOO" n="VII.73"/>ego
+                    quamvis eo tempore id evenerit, quo maxime ad scribendum ob negociorum
+                    multitudinem impeditus sim, et a Serenissimo <persName ref="Frederik 2."
+                        >Rege</persName> nostro insuper avocer, non potui tamen intermittere, quin
+                    aliquid literarum tibi perferendum ipsi traderem, ne tui oblitus tibique
+                    rescribere data opera neglexisse apud te excusari possem. Quæ itaque tuis
+                    literis pro hac brevi occasione temporis respondenda habui, sic brevibus
+                    accipe.</p>
                 <p rend="indent">Quod adventum tuum ad nos prolixe excusas, tibi ea in re non
                     plurimum contrarior, neque ego aliam ob causam nomine Regis te huc invitavi,
                     quam quod a <persName ref="Wittich, Paul">WITTICHIO</persName> intelligerem
@@ -152,9 +174,9 @@
                     subsequentibus præcipuis duobus Cometis, tum etiam de tertio illo non adeo
                     illustri, qui hoc anno mense Maio in Septentrione sub Heniochi sidere per IO
                     dies nobis apparuit, in lucem emittere observationefque certas in medium
-                    adducere et in<pb ed="TBOO" n="VII.74"/>fallibilibus demonstrationibus rem omnem tum
-                    in motu et situ eorum, tum in parallaxibus comprobare. <pb ed="A" n="20v"/>Nam
-                    quod quasdam observationes hîc habitas in Cometa anni 80 a <persName
+                    adducere et in<pb ed="TBOO" n="VII.74"/>fallibilibus demonstrationibus rem omnem
+                    tum in motu et situ eorum, tum in parallaxibus comprobare. <pb ed="A" n="20v"
+                    />Nam quod quasdam observationes hîc habitas in Cometa anni 80 a <persName
                         ref="Wittich, Paul">WITTICHIO</persName> acceperis, et inde parallaxes
                     indagare conatus fueris, oleum et operam perdidisti. Tempora enim ex diversis
                     horologijs et ijsdem nondum satis correctis annotata erant, nec illam
@@ -209,9 +231,9 @@
                     inter cæteros Comites Medicum Doctorem <persName ref="Moffet">THOMAM
                         MUFETUM</persName> secum habuit. Is cum tui inter nos honorifica incidisset
                     mentio, petijt ut tibi per occasionem datam suo nomine plurimam salutem dicerem
-                    tuumque filium, qui in Anglia est, recte habere indicarem. Iterum feliciter
-                    vale. Datæ <placeName ref="Uraniborg">Uranienburgi</placeName> in Insula
-                        <placeName ref="Hven">Huæna</placeName> 23. Septemb. 1582.</p>
+                    tuumque filium, qui in Anglia est, recte habere indicarem.</p> <closer><salute>Iterum feliciter
+                    vale.</salute> <dateline>Datæ <placeName ref="Uraniborg">Uranienburgi</placeName> in Insula
+                        <placeName ref="Hven">Huæna</placeName> 23. Septemb. 1582.</dateline></closer>
             </div>
         </body>
     </text>

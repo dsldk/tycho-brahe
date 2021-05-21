@@ -14,30 +14,43 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Private archive of Tycho Brahe</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
@@ -46,29 +59,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 54</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,7 +68,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Hven</placeName>
                     <date when="1579-05-21"/>
                 </correspAction>
@@ -119,8 +110,7 @@
                     </app>, multis deierationibus absterremur) intellexi: qui <app>
                         <lem>[quoniam]</lem>
                         <rdg><note>suppl. TBOO</note></rdg>
-                    </app>
-                    est vir benevolus et nobis Amicus, <app>
+                    </app> est vir benevolus et nobis Amicus, <app>
                         <lem wit="#TBOO">eum</lem>
                         <rdg wit="#A">cum</rdg>
                     </app> non denegat sed sponte offert sive venalem, sive commutabilem; ego ubi
@@ -149,18 +139,16 @@
                     negotio certiorem reddas, siquidem Fratris mei magnopere interesse ex te
                     intelligo. Vale et significa quando <persName>Iohannes</persName> Patri
                     redierit. Iterum vale et saluta <persName ref="Lurentius, magister">Mag.
-                        LAURENTIUM</persName> Amicum communem meo nomine plurimum. Datæ <placeName
-                        ref="Hven">Huennæ</placeName> 21. Maij Anno 79. </p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>TYCHO BRAHE.</p>
-                <lb/>
-                <p>Mitto tibi Catalogum librorum <placeName ref="Frankfur am Main"
+                        LAURENTIUM</persName> Amicum communem meo nomine plurimum.</p> <closer><dateline>Datæ <placeName
+                        ref="Hven">Huennæ</placeName> 21. Maij Anno 79.</dateline> <signed>T.<lb/>TYCHO BRAHE.</signed></closer>
+                
+                <postscript><p>Mitto tibi Catalogum librorum <placeName ref="Frankfur am Main"
                         >Francofurtensium</placeName> et peto ut <persName ref="Balthasar"
                         >BALTHAZARO</persName> significari curare velis, ut eos libros quos lineola
                     in margine notavi, quamprimum licuerit, mihi procurare velit. Sunt autem novem
                     Latini, tres Germanici et unus Gallicus. Remitto tibi 8 Ioachimicos per hunc
                         <persName ref="Christian, fiskehandler">CHRISTIERNUM</persName> piscium
-                    mercatorem, pro quibus ago gratias. Iterum vale.</p>
+                    mercatorem, pro quibus ago gratias. Iterum vale.</p></postscript>
             </div>
         </body>
     </text>

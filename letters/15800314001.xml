@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,34 +45,26 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 57-58</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,16 +74,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hieronymus Wolf</persName>
+                    <persName key="wolf_hieronymus_1516">Hieronymus Wolf</persName>
                     <placeName>Augsburg</placeName>
                     <date when="1580-03-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1580, 14. januar</date></creation>
+            <creation><date xml:lang="da">1580, 14. januar.</date><date xml:lang="en">1580, 14
+                    January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -120,13 +118,15 @@
                     In observatione proximæ eclipseos nostrates Astrologi omnes, alij plus, alij
                     minus, a vero initio aberrarunt. Exquisitiora abs te expectamus. <pb ed="TBOO"
                         n="58"/>Nova quæ passim feruntur, e popularibus tuis cognosces. Augustana
-                    plæraque antiquum obtinent. Consul <persName ref="Hainzel, Paul">HAINZELIUS</persName> tibi familiarissimus superiori
-                    anno elocavit filiam, eius frater duobus filijs locupletes puellas uxores dedit.
-                    Nos Scholastici etsi rerum nostrarum satagentes, asininam fortunam æqui bonique
-                    facimus; tuæque Excellentiæ cœleste illud et beatum insulæ Uraniæ, vel potius
-                    fortunatæ, otium gratulamur. Vale. Augustæ Vind. pridie Idus Martias Anno
-                    1580.</p>
-                <lb/><p rend="rightMargin">T. Excellentiæ studiosiss.<lb/>Hieron. Wolfius.</p>
+                    plæraque antiquum obtinent. Consul <persName ref="Hainzel, Paul"
+                        >HAINZELIUS</persName> tibi familiarissimus superiori anno elocavit filiam,
+                    eius frater duobus filijs locupletes puellas uxores dedit. Nos Scholastici etsi
+                    rerum nostrarum satagentes, asininam fortunam æqui bonique facimus; tuæque
+                    Excellentiæ cœleste illud et beatum insulæ Uraniæ, vel potius fortunatæ, otium
+                    gratulamur.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Augustæ Vind. pridie Idus Martias Anno 1580.</dateline>
+                    <signed>T. Excellentiæ studiosiss.<lb/><persName ref="wolf_hieronymus_1516">Hieron. Wolfius</persName>.</signed></closer>
             </div>
         </body>
     </text>

@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,20 @@
                                 <idno>cod. Vindob. lat. 10686.65</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.65</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +78,11 @@
                     <date when="1585-08-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Thaddaeus Hagecius</persName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1585, 25. august</date></creation>
+            <creation><date xml:lang="da">1585, 25. august.</date><date xml:lang="en">1585, 25 August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -91,12 +105,12 @@
             <div>
                 <pb ed="TBOO" n="VII.93"/>
                 <pb ed="A" n="4v"/>
-                <p>CLARISSIMO ET VIRTUTE ERUDITIONEQUE PRÆEMINENTI VIRO D. DOCTORI <persName
+                <opener>CLARISSIMO ET VIRTUTE ERUDITIONEQUE PRÆEMINENTI VIRO D. DOCTORI <persName
                         ref="Hagecius, Thaddaeus">THADDÆO AB HAYCK</persName>, MEDICO ET MATHEMATICO
                     INPRIMIS EXCELLENTI, INCOLÆ PRAGENSI, AMICO SUO PERPETUO COLENDO. <lb/><foreign
                         xml:lang="de">HERRN DOCTOR THADÆUS ZU PRAG ZUERFRAGEN.</foreign>
-                    <lb/>S.</p>
-                <p><pb ed="A" n="1r"/>PERFUNCTUS Legatione apud <persName ref="Rudolf 2.">Cæsaream
+                    <lb/>S.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>PERFUNCTUS Legatione apud <persName ref="Rudolf 2.">Cæsaream
                         Maiestatem</persName>, a Serenissimo <persName ref="Frederik 2."
                         >Rege</persName> nostro sibi adiuncta, reversusque huc in patriam frater
                     meus <persName ref="Brahe, Steen">STENO BRAHE</persName>, non saltem literas
@@ -263,16 +277,14 @@
                     mentionem feci, <placeName ref="Rostock">Rostochium</placeName> ad Doctorem
                         <persName ref="Brucaeus, Heinrich">HENRICUM BRUCÆUM</persName> perferri
                     cura. Is enim confestim per crebra quæ inde huc appellunt navigia me eorum
-                    compotem reddet. Iterum mi charissime THADÆE vale quam felicissime. Datæ
-                        <placeName ref="Uraniborg">Uraniburgi</placeName> 25. Augusti Anno 1585. </p>
-                <lb/>
-                <p rend="rightMargin">Tui amantissimus<lb/>TYCHO BRAHE<lb/>manu propria.</p>
-                <lb/>
-                <p><app>
+                    compotem reddet.</p> <closer><salute>Iterum mi charissime THADÆE vale quam felicissime.</salute> <dateline>Datæ
+                        <placeName ref="Uraniborg">Uraniburgi</placeName> 25. Augusti Anno 1585.</dateline> <signed>Tui amantissimus<lb/>TYCHO BRAHE<lb/>manu propria.</signed></closer>
+                
+                <postscript><p><app>
                         <lem>Si ante instantem hyemem responsum a te accepero, rem feceris mihi
                             longe gratissimam</lem>
                         <rdg><note>alia manu postea additi sunt.</note></rdg>
-                    </app>.</p>
+                    </app>.</p></postscript>
             </div>
         </body>
     </text>

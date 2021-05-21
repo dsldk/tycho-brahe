@@ -14,30 +14,43 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Private archive of Tycho Brahe</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
@@ -46,29 +59,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 56-57</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,7 +68,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Hven</placeName>
                     <date when="1579-08-15"/>
                 </correspAction>
@@ -87,7 +78,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1579, 15. august</date></creation>
+            <creation><date xml:lang="da">1579, 15. august.</date><date xml:lang="en">1579, 15
+                    August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -110,26 +102,28 @@
             <div>
                 <pb ed="TBOO" n="VII.56"/>
                 <pb ed="A" n="5r"/>
-                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
+                        ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI
                     VELLEIUM</persName>.<lb/>S.</opener>
                 <p>EODEM vesperi quo reversus sum domum, scripsi <persName ref="Machabæus, Johannes"
-                        >Μ. MACHABÆO</persName>, clarissime Domine Magister <persName ref="Vedel">ANDREA</persName>, de equis, et
-                    tuas unâ illi misi literas, et effeci ut eadem nocte literæ transveherentur, ut
-                    summo mane sequentis diei <placeName ref="Lund">Lundam</placeName> venirent. Ego
-                    interea nihil ab eo responsi accepi, si tu aliquid, nescio. Equos si ab ipso non
-                    acceperis vide ut <placeName ref="Copenhagen">Haffniæ</placeName> habeas, ego
-                    stabo promissis. Mitto tibi nunc literas ad Amicos in <placeName ref="Germany"
-                        >Germania</placeName>, <placeName ref="Nürnberg">Norimbergæ</placeName> ad
-                        <persName ref="Camerarius, Joachim junior">CAMERARIUM</persName>, cui per te
-                        <persName ref="Homelius">HOMELIJ</persName>
+                        >Μ. MACHABÆO</persName>, clarissime Domine Magister <persName ref="Vedel"
+                        >ANDREA</persName>, de equis, et tuas unâ illi misi literas, et effeci ut
+                    eadem nocte literæ transveherentur, ut summo mane sequentis diei <placeName
+                        ref="Lund">Lundam</placeName> venirent. Ego interea nihil ab eo responsi
+                    accepi, si tu aliquid, nescio. Equos si ab ipso non acceperis vide ut <placeName
+                        ref="Copenhagen">Haffniæ</placeName> habeas, ego stabo promissis. Mitto tibi
+                    nunc literas ad Amicos in <placeName ref="Germany">Germania</placeName>,
+                        <placeName ref="Nürnberg">Norimbergæ</placeName> ad <persName
+                        ref="Camerarius, Joachim junior">CAMERARIUM</persName>, cui per te <persName
+                        ref="Homelius">HOMELIJ</persName>
                     <hi rend="it">Gnomonica</hi> remitto. Scripsi illi ut earum Bibliothecarum quæ
                     in ipsorum urbe sunt, aliarumque memorabilium rerum tibi copiam faceret.
                         <placeName ref="Augsburg">Augustæ</placeName> ad Consulem <persName
                         ref="Hainzel, Paul">PAULUM HAINZELIUM</persName> et <persName
                         ref="Wolf, Hieronymus">HIERONIMUM WOLFIUM</persName>, cui etiam tuos conatus
                     commendavi, ut eos pro virili iuvarent. Scripsi etiam quasdam literas in ædes
-                    hospitis mei <persName ref="Laurentius Danus">LAURENTII DEN</persName> et
-                    peto, ut si qua ratione fieri poterit, <app>
+                    hospitis mei <persName ref="Laurentius Danus">LAURENTII DEN</persName> et peto,
+                    ut si qua ratione fieri poterit, <app>
                         <lem wit="#TBOO">efficias</lem>
                         <rdg wit="#A">efficies</rdg>
                     </app> ut <app>
@@ -143,21 +137,24 @@
                     obtineam, et vide quid in Machina quam pro Rege parat, paratum sit, et urge opus
                     tanquam id in mandatis a Rege et me haberes. Augustæ videbis et civitatis et
                     civium instructissimas Bibliothecas, inprimis vero Fuggeranam <pb ed="A" n="5v"
-                    />idque per <persName
-                        ref="Wolf, Hieronymus">WOLFIUM</persName> consequi poteris. Cum Hospite meo LAURENTIO loquere an
-                    quicquam de Fratre meo <persName ref="Brahe, Knud">CANUTO</persName>
-                    intellexerit, et utrum sciat ipsum <placeName ref="Venice">Venetias</placeName>
-                    ivisse, et an adhuc ibi commoretur, et si is tibi inciderit, vel de illo
-                    quicquam audiveris ubi sit, scribe illi meo nomine, ut sit bono animo: <persName
-                        ref="Frederik 2.">Regem</persName> esse placabilem et omnia in melius, quam
-                    adversarij putant, cessura. Sed hæc quæ de hoc scribo, in secreto coram omnibus
-                    et hîc <pb ed="TBOO" n="VII.57"/>et alibi habe. Si quos libros invenies in
-                    Germania, vel de Cometa præter eos, quos habeo, vel aliquid singulare in
-                    Astronomicis, mihi coëmas velim, ego pretium lubens restituam. Bene vale,
-                    charissime Domine M. <persName ref="Vedel">ANDREA</persName>, et Deus te feliciter et incolumem ducat et reducat.
-                    Datæ <placeName ref="Hven">Huenæ</placeName> 15. Augusti Anno 1579.</p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>TYCHO BRAHE.</p>
+                    />idque per <persName ref="Wolf, Hieronymus">WOLFIUM</persName> consequi
+                    poteris. Cum Hospite meo LAURENTIO loquere an quicquam de Fratre meo <persName
+                        ref="Brahe, Knud">CANUTO</persName> intellexerit, et utrum sciat ipsum
+                        <placeName ref="Venice">Venetias</placeName> ivisse, et an adhuc ibi
+                    commoretur, et si is tibi inciderit, vel de illo quicquam audiveris ubi sit,
+                    scribe illi meo nomine, ut sit bono animo: <persName ref="Frederik 2."
+                        >Regem</persName> esse placabilem et omnia in melius, quam adversarij
+                    putant, cessura. Sed hæc quæ de hoc scribo, in secreto coram omnibus et hîc <pb
+                        ed="TBOO" n="VII.57"/>et alibi habe. Si quos libros invenies in Germania,
+                    vel de Cometa præter eos, quos habeo, vel aliquid singulare in Astronomicis,
+                    mihi coëmas velim, ego pretium lubens restituam.</p>
+                <closer><salute>Bene vale, charissime Domine M. <persName ref="Vedel"
+                            >ANDREA</persName>, et Deus te feliciter et incolumem ducat et
+                        reducat.</salute>
+                    <dateline>Datæ <placeName ref="Hven">Huenæ</placeName> 15. Augusti Anno
+                        1579.</dateline>
+                    <signed>T.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                    BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

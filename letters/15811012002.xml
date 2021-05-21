@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,9 +41,23 @@
                                 <idno>cod. Vindob. lat. 10686.66, fol. 12-16</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66, fol. 12-16</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -51,6 +65,20 @@
                                 <idno>cod. Vindob. lat. 10686.66, fol. 32-34</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66, fol. 32-34</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -70,11 +98,11 @@
                     <date when="1581-10-12"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1581, 12. oktober</date></creation>
+            <creation><date xml:lang="da">1581, 12. oktober.</date><date xml:lang="en">1581, 12 October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -97,7 +125,7 @@
             <div>
                 <pb ed="TBOO" n="VII.64"/>
                 <pb ed="A" n="12r"/>
-                <opener>TYCHO BRAHE AD <persName ref="Hagecius, Thaddæus">THADDÆUM
+                <opener>TYCHO BRAHE AD <persName ref="agesius_thaddaeus_1525">THADDÆUM
                         HAGECIUM</persName>.</opener>
                 <p>ANNUS integer iam fere est elapsus, charissime Domine Doctor <persName ref="Hagecius, Thaddæus">THADDÆE</persName>, vir
                     clarissime, ex quo tibi ultimo scripsi, idque per <persName ref="Wittich, Paul"
@@ -150,7 +178,7 @@
                     Multo enim speculative vere demonstrantur, quæ fi in praxin et sensuum <pb
                         ed="TBOO" n="VII.65"/>Mechanicam tractationem deducantur, plurimum a scopo
                     petito aberrabunt, præsertim ubi ex minimis, uti hoc loco fit, ea quæ maxima
-                    sunt investigantur. Imo etiamsi REGIOMONTANI <app>
+                    sunt investigantur. Imo etiamsi <persName ref="Regiomontanus">REGIOMONTANI</persName> <app>
                         <lem>illa</lem>
                         <rdg><note>om. A</note></rdg>
                     </app> speculatio hîc locum aliquem habuisset, et intervallum temporis exquisite
@@ -385,18 +413,16 @@
                     scriptis editum fuerit, benevole mecum communicare, nostrique memoriam, <pb
                         ed="TBOO" n="VII.69"/> uti facis, conservare, et amicitiam literis non tam diu,
                     ut hactenus, intermissis, renovare. Efficiam vicissim, ut nihil in me, quod ad
-                    candidi et constantis amici munus pertineat, uspiam a te desiderari possit.
-                    Vale. Datæ <placeName ref="Uraniborg"><app>
+                    candidi et constantis amici munus pertineat, uspiam a te desiderari possit.</p>
+                    <closer><salute>Vale.</salute> <dateline>Datæ <placeName ref="Uraniborg"><app>
                             <lem>Uranienburg</lem>
                             <rdg wit="#B">Uranienburgi</rdg>
                         </app></placeName> in Insula <placeName ref="Øresund">Danici
                         Hellesponti</placeName>
-                    <placeName ref="Hven">Huæna</placeName> die 12. Octobris Anno 1581.</p>
-                <lb/>
-                <p rend="rightMargin"><app>
+                    <placeName ref="Hven">Huæna</placeName> die 12. Octobris Anno 1581.</dateline> <signed><app>
                         <lem>T.<lb/>TYCHO BRAHE.</lem>
                         <rdg><note>om. B</note></rdg>
-                    </app></p>
+                    </app></signed></closer>
             </div>
         </body>
     </text>

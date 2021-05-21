@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,20 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +78,11 @@
                     <date when="1584-07-15"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johannes Major</persName>
+                    <persName key="major_johannes_1533">Johannes Major</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1584, 15. juli</date></creation>
+            <creation><date xml:lang="da">1584, 15. juli.</date><date xml:lang="dena">1584, 15 July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -145,11 +159,9 @@
                     Gregorianum pacis publicæ causa et ob vicinarum regionum consuetudinem atque cum
                     ijs commercia susceperit, utut reclamitante incerto vulgo, quod semper studia in
                     contraria scinditur. Atque de his hoc tempore satis, de tuis per occationem, si
-                    res ita postulârit, alias plura in medium proferam. Vale. Dabantur ex æde nostra
+                    res ita postulârit, alias plura in medium proferam.</p> <closer><salute>Vale.</salute> <dateline>Dabantur ex æde nostra
                         <persName ref="Knutstorp">Knudstrupiana</persName> 15. die Iulij stylo
-                    veteri, nobis adhuc usitato, Anno 1584.</p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>TYCHO DE BRAHE.</p>
+                    veteri, nobis adhuc usitato, Anno 1584.</dateline> <signed>T.<lb/>TYCHO DE BRAHE.</signed></closer>
             </div>
         </body>
     </text>

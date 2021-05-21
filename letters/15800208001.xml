@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,34 +41,25 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 57</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hieronymus Wolf</persName>
+                    <persName key="wolf_hieronymus_1516">Hieronymus Wolf</persName>
                     <placeName>Augsburg</placeName>
                     <date when="1580-02-08"/>
                 </correspAction>
@@ -87,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1580, 8. februar</date></creation>
+            <creation><date xml:lang="da">1580, 8. februar.</date><date xml:lang="en">1580, 8 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -110,7 +101,7 @@
             <div>
                 <pb ed="TBOO" n="VII.57"/>
                 <pb ed="A" n="71r"/>
-                <p><persName ref="Wolf, Hieronymus">HIERONYMUS WOLFIUS</persName> AD TYCHONEM BRAHE. <lb/>S.</p>
+                <p><persName ref="wolf_hieronymus_1516">HIERONYMUS WOLFIUS</persName> AD TYCHONEM BRAHE. <lb/>S.</p>
                 <p>CUM hi populares tui, nobilissime et humanissime D. TYCHO, suam mihi operam
                     benigne pollicerentur, nolui eos sine meis literis dimittere. Scias ergo me pro
                     ætate mediocri esse valetudine, neque quicquam habere, quod de fortuna etiam
@@ -122,8 +113,8 @@
                     multum a vero tempore initij proximæ Eclipseos aberrarunt. A <persName ref="Mästlin">MÆSTLINO</persName> diu nihil
                     accepimus. Motus Solis verus adhuc valde controversus est; qui utinam accuratis
                     tuis observationibus certo deprehendatur et constituatur. Quod quo facilius
-                    præstare possis, Deum tibi propitium precor. Vale. <placeName ref="Augsburg">Augustæ Vindelicorum</placeName> 8.
-                    Februarij Anno 1580.</p>
+                    præstare possis, Deum tibi propitium precor.</p> <closer><salute>Vale.</salute> <dateline><placeName ref="Augsburg">Augustæ Vindelicorum</placeName> 8.
+                    Februarij Anno 1580.</dateline></closer>
             </div>
         </body>
     </text>

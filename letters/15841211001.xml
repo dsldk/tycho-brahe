@@ -33,10 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XV, 444</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Dansh National Archives</repository>
                                 <collection>Sjællandske tegnelser</collection>
                                 <idno>XV, 444</idno>
                                 <msName>empty</msName>
@@ -55,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Frederik 2.</persName>
+                    <persName key="frederik_2_1534">Frederik 2.</persName>
                     <placeName>Sorø</placeName>
                     <date when="1584-12-11"/>
                     <note>n.s.</note>
@@ -65,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1584, 11. dec.</date></creation>
+            <creation><date xml:lang="da">1584, 11. december.</date><date xml:lang="en">1584, 11 December.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>

@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +45,20 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -59,16 +77,19 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Thaddaeus Hagceius</persName>
-                    <placeName>Prague</placeName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hageceius</persName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1585-12-13"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1585, 13. december</date></creation>
+            <creation><date xml:lang="da">1585, 13. december.</date><date xml:lang="en">1585, 13
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -91,10 +112,11 @@
             <div>
                 <pb ed="TBOO" n="VII.98"/>
                 <pb ed="A" n="21v"/>
-                <p>NOBILITATE GENERIS, VIRTUTE ET ERUDITIONE PRÆSTANTI DOMINO TYCHONI BRAHE DANO
-                    DOMINO ET AMICO OBSERVANDO. <lb/>S.</p>
-                <p>NOBILISSIME Domine TYCHO et amice observandissime, longa intercapedo locorum
-                    facit, ut rarissime per literas colloqui possimus, alioqui non <app>
+                <opener>NOBILITATE GENERIS, VIRTUTE ET ERUDITIONE PRÆSTANTI DOMINO TYCHONI BRAHE
+                    DANO DOMINO ET AMICO OBSERVANDO. <lb/>S.</opener>
+                <p rend="noIndent">NOBILISSIME Domine TYCHO et amice observandissime, longa
+                    intercapedo locorum facit, ut rarissime per literas colloqui possimus, alioqui
+                    non <app>
                         <lem wit="#Friis">intermitterem</lem>
                         <rdg wit="#A">intermittere</rdg>
                     </app>, quin te sæpius meis literis salutarem, aut si iter esset saltem dierum
@@ -103,9 +125,9 @@
                     spem et opinionem incidissem in <persName ref="Heinrich (servus)"
                         >HENRICUM</persName> meum popularem servum Magnif. D. <persName
                         ref="Segurius">IACOBI SEGURII</persName>
-                    <pb ed="A" n="22r"/> Legati Sereniss. Regis Navarræ ad quosdam Germaniæ principes, ac
-                    is servus <placeName ref="Dresden">Dresdâ</placeName> salutandi amicos suos
-                    gratia Pragam excurrisset, diceretque se in <placeName ref="Denmark"
+                    <pb ed="A" n="22r"/> Legati Sereniss. Regis Navarræ ad quosdam Germaniæ
+                    principes, ac is servus <placeName ref="Dresden">Dresdâ</placeName> salutandi
+                    amicos suos gratia Pragam excurrisset, diceretque se in <placeName ref="Denmark"
                         >Daniam</placeName> rectâ cum Domino suo profecturum esse, nolui eum vacuum
                     meis literis dimittere <pb ed="TBOO" n="VII.99"/>istuc neque hanc occasionem
                     scribendi ad te prætermittere. Scias igitur me unâ cum meis omnibus integra
@@ -138,13 +160,13 @@
                     habeo, nllemque quantulumcunque hunc meum laborem perire. Quicquid statueris de
                     libro, ratum et firmum erit apud me. Omnem tibi in illum potestatem trado,
                     adeoque in me, ut libere moneas et reprehendas, fidemque amicitæ in hac re mihi
-                    potissimum præstes. B. V. <placeName ref="Praha">Pragæ</placeName> ad lucernam,
-                    quod servus ille D. <persName ref="Segurius">SEGURIJ</persName> summo mane
-                    abitum pararet, die 13 Decemb. veteris Calendarij, nos 23 numeramus, Anno
-                    1585</p>
-                <lb/>
-                <p rend="rightMargin">T. studiosiss.<lb/><persName ref="Hagecius, Thaddaeus"
-                        >THADD.</persName></p>
+                    potissimum præstes.</p>
+                <closer><salute>B. V.</salute>
+                    <dateline><placeName ref="Praha">Pragæ</placeName> ad lucernam, quod servus ille
+                        D. <persName ref="Segurius">SEGURIJ</persName> summo mane abitum pararet,
+                        die 13 Decemb. veteris Calendarij, nos 23 numeramus, Anno
+                        1585</dateline><signed>T. studiosiss.<lb/><persName
+                            ref="Hagecius, Thaddaeus">THADD.</persName></signed></closer>
             </div>
         </body>
     </text>

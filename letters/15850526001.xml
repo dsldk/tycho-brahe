@@ -33,10 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Skaanske tegnelser</collection>
+                                <idno>I, 405</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc><msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danissh National Archives</repository>
                                 <collection>Skaanske tegnelser</collection>
                                 <idno>I, 405</idno>
                                 <msName>empty</msName>
@@ -55,17 +63,17 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Frederik 2.</persName>
+                    <persName key="frederik_2_1534">Frederik 2.</persName>
                     <placeName>Kronborg</placeName>
                     <date when="1585-05-26"/>
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe (1546-1601)</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe (1546-1601)</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1585, 26. may</date></creation>
+            <creation><date xml:lang="da">1585, 26. maj.</date><date xml:lang="da">1585, 26 May.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -87,8 +95,8 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.28"/>
-                <opener>THYGE BRAHE FICK BREFF OM THEND LYCHTE PAA KULDEN ANRØRENDIS.</opener>
-                <p>WOR gunst tilforn. Wiid, att som thu haffuer thend løchte paa Kulden mett huis
+                <opener><persName ref="brahe_tycho_1546">THYGE BRAHE</persName> FICK BREFF OM THEND LYCHTE PAA KULDEN ANRØRENDIS.</opener>
+                <p rend="noIndent">WOR gunst tilforn. Wiid, att som thu haffuer thend løchte paa Kulden mett huis
                     ther till er forordnitt wdj befalling, saa wille Wij thig naadigst icke
                     forholde, att offte och jdelig klager kommer for Oß aff thend søefarnne mand
                     ther wdj fundit, att samme løchte icke tilbørlig holdis med lius och bluß, och

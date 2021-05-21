@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,20 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Heinrich Brucaeus</persName>
+                    <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1585-06-23"/>
                 </correspAction>
@@ -64,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1585, 23. juni</date></creation>
+            <creation><date xml:lang="da">1585, 23. juni.</date><date xml:lang="en">1585, 23 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,9 +101,9 @@
             <div>
                 <pb ed="TBOO" n="VII.92"/>
                 <pb ed="A" n="87r"/>
-                <opener>TYCHONI BRAHE NOBILI DANO, MATHEMATICO CLARISSIMO, AMICO PERCHARO <persName ref="Brucaeus, Heinrich">HENRICUS
+                <opener><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> NOBILI DANO, MATHEMATICO CLARISSIMO, AMICO PERCHARO <persName ref="brucaeus_heinrich_1530">HENRICUS
                     BRUCÆUS</persName>.<lb/>S. P.</opener>
-                <p>ChARISSIME TYCHO, pecuniam qua <persName ref="Vitus">VITO</persName> Typorum
+                <p rend="noIndent">ChARISSIME TYCHO, pecuniam qua <persName ref="Vitus">VITO</persName> Typorum
                     fusori et mihi satisfieret, accepi. De Calendario per <persName ref="Morsing">tuorum aliquem</persName> edendo
                     utrum sententiam mutâris, nescio; in tanta tamen iudiciorum incertitudine malim
                     nihil tale edi, ne artis vanitas confirmetur. Quod si quid certi subesse
@@ -102,7 +116,7 @@
                     paginas inspexissem. Sic magnis voluminibus sæpe et claris titulis imponitur
                     mundo. Nihil hisce nundinis prodijt Mathematicum, nec nostri Bibliopolæ quicquam
                     attulerunt venale. Literas si quas Pragam mitti ad <persName
-                        ref="HAgecius, Thaddaeus">HAGECIUM</persName> velis, dabo operam ut
+                        ref="Hagecius, Thaddaeus">HAGECIUM</persName> velis, dabo operam ut
                     deferantur. Legi tuos versus,</p>
                 <p>qui in <pb ed="A" n="887v"/><persName ref="Ptolemaios">PTOLEMÆUM</persName> et
                         <persName ref="Copernicus">COPERNICUM</persName> scripti sunt, et
@@ -111,8 +125,8 @@
                     instructus Typis. Quod si plura a VITO desideres, offert suam operam. In me
                     quoque nec voluntatem nec studium defuisse agnosces. Tractatus noster de
                     Crepusculis est in fine libri secundi de motu primo; eum si legas, non dubito
-                    placiturum. Bene vale Nobilissime amantissime TYCHO.
-                        <placeName ref="Rostock">Rostochij</placeName> pridie Iohannis An. Domini 1585. </p>
+                    placiturum.</p> <closer><salute>Bene vale Nobilissime amantissime <persName ref="brahe_tycho_1546">TYCHO</persName>.</salute>
+                        <dateline><placeName ref="Rostock">Rostochij</placeName> pridie Iohannis An. Domini 1585.</dateline> </closer>
             </div>
         </body>
     </text>

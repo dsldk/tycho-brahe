@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,34 +45,26 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                                <physDesc>
+                                    <ab>Afskrift</ab>
+                                </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 51-52</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,12 +74,13 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hieronymus Wolf</persName>
+                    <persName key="wolf_hieronymus_1516">Hieronymus Wolf</persName>
                     <placeName>(Augsburg)</placeName>
                     <date when="1579-03-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -110,7 +107,8 @@
             <div>
                 <pb ed="TBOO" n="VII.51"/>
                 <pb ed="A" n="69r"/>
-                <p>HIERONYMUS WOLFIUS AD TYCHONEM BRAHE.</p>
+                <p><persName ref="wolf_hieronymus_1516">HIERONYMUS WOLFIUS</persName> AD <persName
+                        ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</p>
                 <p>EADEM Tabellarij fortuna, TYCHO nobilissime, amice colende, hîc sumus usi, qua
                     tua præstantia. Nam <persName ref="Aurifaber">Aurifaber</persName> ille, qui
                     tuas reddiderat, hinc abijt. Quis literulas sit perlaturus, nescio, sed sub
@@ -137,24 +135,24 @@
                     Servator in Palatio sui patris parvulam aliquam cellulam assignet, in qua beate
                     et æternum requiescam, quod ita fore clementia divina fretus confido.</p>
                 <p rend="indent">Respublica nostra in eo statu adhuc est, quem hinc discedens
-                    reliquisti. HAINZELIUS filius nuper a
-                    me uxoris suæ Genesin confici voluit, cum ego respondi, D. TYCHONEM id in melius
-                    præstare posse, si vellet. Sed sane dubito, an velles, cum hîc in talibus
-                    difficilimus fueris. Isti homines affectibus suis indulgentes, succensent
-                    Astrologis et vera et falsa dicentibus. Itaque <persName ref="Teiresias"
-                        >Tiresias</persName> soli Apollini vaticinandum esse dixit apud <persName
-                        ref="Sophocles">SOPHOCLEM</persName>, qui hominis indignationem, quippe Deus
-                    negligat. Eclipsin Solis in &#x2653; hîc vidimus pene integram, in qua et
-                        <persName ref="Cyprianus">CYPRIANUS</persName>, sed minus tamen quam
-                        <persName ref="Copernicus">COPERNICUS</persName> aberravit. Cuius
-                        Ephemeridas <persName ref="Mästlin">MICHÆL
-                        MÆSTLINUS</persName>
-                    <pb ed="nil" n="70r"/>instrumentis cœlo uti opinor <pb ed="TBOO" n="VII.52"/>adhibitis ab anno 1577
-                    usque ad annum 1588 correctiores se esse editurum mihi pollicetur, nisi
-                    Typographus in mora sibi sit. Sed iam manum de tabula. Nam advesperascit et
-                    rhabarbarum scriptionem meam interpellat, quo uti sæpius contra Ischiadem et
-                    Chiragram cogor. Tuam vero Excellentiam et valere et florere omni bonorum genere
-                    ex animo et spero et opto. Vale. 25. Martij Anno 1579.</p>
+                    reliquisti. HAINZELIUS filius nuper a me uxoris suæ Genesin confici voluit, cum
+                    ego respondi, D. TYCHONEM id in melius præstare posse, si vellet. Sed sane
+                    dubito, an velles, cum hîc in talibus difficilimus fueris. Isti homines
+                    affectibus suis indulgentes, succensent Astrologis et vera et falsa dicentibus.
+                    Itaque <persName ref="Teiresias">Tiresias</persName> soli Apollini vaticinandum
+                    esse dixit apud <persName ref="Sophocles">SOPHOCLEM</persName>, qui hominis
+                    indignationem, quippe Deus negligat. Eclipsin Solis in &#x2653; hîc vidimus pene
+                    integram, in qua et <persName ref="Cyprianus">CYPRIANUS</persName>, sed minus
+                    tamen quam <persName ref="Copernicus">COPERNICUS</persName> aberravit. Cuius
+                    Ephemeridas <persName ref="Mästlin">MICHÆL MÆSTLINUS</persName>
+                    <pb ed="A" n="70r"/>instrumentis cœlo uti opinor <pb ed="TBOO" n="VII.52"
+                    />adhibitis ab anno 1577 usque ad annum 1588 correctiores se esse editurum mihi
+                    pollicetur, nisi Typographus in mora sibi sit. Sed iam manum de tabula. Nam
+                    advesperascit et rhabarbarum scriptionem meam interpellat, quo uti sæpius contra
+                    Ischiadem et Chiragram cogor. Tuam vero Excellentiam et valere et florere omni
+                    bonorum genere ex animo et spero et opto.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>25. Martij Anno 1579.</dateline></closer>
             </div>
         </body>
     </text>

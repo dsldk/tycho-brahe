@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,7 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
-                        </msDesc></witness>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Private archive of Tycho Brahe</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc></msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 97-98</bibl>
@@ -86,9 +100,9 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.97"/>
-                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI
                         VELLEIUM</persName>.<lb/>S.</opener>
-                <p>PERIUCUNDUM mihi auditu fuerat, amantissime D. Magister <persName ref="Vedel">ANDREA</persName>, quod nuper Hafniæ
+                <p rend="noIndent">PERIUCUNDUM mihi auditu fuerat, amantissime D. Magister <persName ref="Vedel">ANDREA</persName>, quod nuper Hafniæ
                     ex epistola tua Magnifico Domino <persName ref="Dançay">DANZÆO</persName> inscripta intellexeram te brevi nos
                     invisurum, modo hyems iter tuum non impediverit, vel potius gentis in
                     retractandis pollicitis consuetudo. Cur vero nunc has ad te mittam, fraudulenta
@@ -104,7 +118,7 @@
                     omnem causam et <pb ed="TBOO" n="VII.98"/> necessitatem se subducere. Ubi ipsum
                     recepero, si resipuerit et culpam deprecatus fuerit, lenius cum illo agam quam
                     promeritus est, præsertim te pro illo per literas intercedente. Omnem itaque
-                    move lapidem, charissime M. <persName ref="Vedel">ANDREA</persName>, ut certo mihi restituatur, quod sane non
+                    move lapidem, charissime M. <persName ref="vedel_anders_sørensen_1542">ANDREA</persName>, ut certo mihi restituatur, quod sane non
                     difficulter efficere poteris, et da operam ne intelligam te minus sincere meas
                     partes in hoc negocio agere, ne labefactetur amicitia nostra, quæ propemodum
                     vacillare nonnihil mihi videtur ex literis Domino <persName
@@ -115,12 +129,12 @@
                     iudicio minus vere. Vale et da operam, ut in hoc negocio tuam erga me fidem
                     experiar. Saluta <persName ref="Mette Hansdatter">METTAM</persName> cum utroque
                     parente ceterisque amicis nostris. Iterum vale et admonitionem hanc meam ut
-                    libere prolatam patienter et sincere accipe. Iterum terque quaterque vale et
-                    ante hyemem, si per tempestates licuerit, nos invise. Datæ <placeName
-                        ref="Uraniborg">Uraniburgi</placeName> die 11. Nov. Anno 1585.</p>
-                <lb/><p rend="rightMargin">T.<lb/>TYCHO BRAHE<lb/>mea manu.</p><lb/>
-                <p>De alijs rebus et privatis negotijs forsan alias commodius vel etiam coram tutius
-                    agam.</p>
+                    libere prolatam patienter et sincere accipe.</p> <closer><salute>Iterum terque quaterque vale et
+                        ante hyemem, si per tempestates licuerit, nos invise.</salute> <dateline>Datæ <placeName
+                        ref="Uraniborg">Uraniburgi</placeName> die 11. Nov. Anno 1585.</dateline>
+                <signed>TYCHO BRAHE<lb/>mea manu.</signed></closer>
+                <postscript><p>De alijs rebus et privatis negotijs forsan alias commodius vel etiam coram tutius
+                    agam.</p></postscript>
             </div>
         </body>
     </text>

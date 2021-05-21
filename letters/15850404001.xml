@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,20 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -59,8 +73,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Heinrich Brucaeus</persName>
-                    <placeName>Holstein</placeName>
+                    <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
+                    <placeName xml:lang="da">Holsten</placeName>
+                    <placeName xml:lang="en">Holstein</placeName>
                     <date when="1585-04-04"/>
                 </correspAction>
                 <correspAction type="received">
@@ -68,7 +83,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1585, 4. april</date></creation>
+            <creation><date xml:lang="da">1585, 4. april.</date><date xml:lang="en">1585, 4 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -93,7 +108,7 @@
                 <pb ed="A" n="86v"/>
                 <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
                     BRAHE.</opener>
-                <p>LITERAS tuas, amantissime TYCHO, quibus Calendarij a <persName ref="Morsing">tuo
+                <p rend="noIndent">LITERAS tuas, amantissime TYCHO, quibus Calendarij a <persName ref="Morsing">tuo
                         domestico Studioso</persName> edendi mentionem fecisti, accepi et iam Typos
                     fusos a <persName ref="Vitus">VITO</persName> miseram unâ cum libris illius
                     Florentini, adiectis schedulis duabus, una VITI, altera aurigæ <placeName
@@ -122,9 +137,9 @@
                         <lem wit="#Friis">experiamurque</lem>
                         <rdg wit="#A">experiemurque</rdg>
                     </app>, quæ prius nos latuerunt. Scio enim te nil vulgare et tritum moliri,
-                    neque levia tuis concedere. Plura non possum, urgente nuntio. Bene vale, et ut
-                    hoc in genere nobis sis Apollo, opto. Datæ in <placeName ref="Holstein"
-                        >Holsatia</placeName> ipso die Palmarum 1585.</p>
+                    neque levia tuis concedere. Plura non possum, urgente nuntio.</p> <closer><salute>Bene vale, et ut
+                    hoc in genere nobis sis Apollo, opto.</salute> <dateline>Datæ in <placeName ref="Holstein"
+                        >Holsatia</placeName> ipso die Palmarum 1585.</dateline></closer>
             </div>
         </body>
     </text>

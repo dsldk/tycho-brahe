@@ -14,20 +14,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -43,7 +47,7 @@
                             </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -51,6 +55,21 @@
                                 <idno>cod. Vindob. lat. 10686.66, fol. 30-31</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66, fol. 30-31</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -65,16 +84,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Hven</placeName>
                     <date when="1580-11-04"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Thaddaeus Hagecius</persName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1580, 4. november</date></creation>
+            <creation><date xml:lang="da">1580, 4. november.</date><date xml:lang="en">1580, 4
+                    November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -119,17 +140,21 @@
                     </app> commendas, iuvenem sane qui in Mathematicis exercitijs adeo sedulam
                     hactenus operam navavit, ut non saltem dignus sit, qui ab omnibus <pb ed="A"
                         n="11r"/>bonis et doctis commendetur et ametur, sed etiam, qui ipsa
-                    commendatione maior sit. Fuit is mecum aliquandiu hîc in mea Astronomica Insula,
-                    <app><lem>et in triangulorum compendijs plura quam antea, communicatâ operâ, extricabimus.
-                    Nam et ego talibus insudavi atque in posterum ulterius, volente Numine,
-                    insudabo, quo hæc ratio, quæ per προσθαφαίρεσιν procedit absque tædiosa
-                    multiplicatione et divisione, plenius excolatur et locupletetur, in quibus tamen
-                    ille necdum satis est versatus, sed assuescet successive. Visus est enim is,
-                    quod et sponte fatetur, saltem initia quædam hîc iecisse admonitus ijs verbis,
-                    quæ se a me audivisse, dum semel Wittebergam ipso illic studente transirem et me
-                    horum studiorum causa convenisset, licet ego eorum recordari non potu<pb
-                        ed="TBOO" n="VII.59"/>erim. Verum</lem><rdg><note>pro verbis <q>et in... Verum</q> hæc præbet B: <q>socius mearum observationum et studiorum, sed.</q></note></rdg></app> is nunc ne aliquid damni in re familiari
-                    capiat, patriam et suos revisere constituit, brevi huc ad me, <app>
+                    commendatione maior sit. Fuit is mecum aliquandiu hîc in mea Astronomica Insula, <app>
+                        <lem>et in triangulorum compendijs plura quam antea, communicatâ operâ,
+                            extricabimus. Nam et ego talibus insudavi atque in posterum ulterius,
+                            volente Numine, insudabo, quo hæc ratio, quæ per προσθαφαίρεσιν procedit
+                            absque tædiosa multiplicatione et divisione, plenius excolatur et
+                            locupletetur, in quibus tamen ille necdum satis est versatus, sed
+                            assuescet successive. Visus est enim is, quod et sponte fatetur, saltem
+                            initia quædam hîc iecisse admonitus ijs verbis, quæ se a me audivisse,
+                            dum semel Wittebergam ipso illic studente transirem et me horum
+                            studiorum causa convenisset, licet ego eorum recordari non potu<pb
+                                ed="TBOO" n="VII.59"/>erim. Verum</lem>
+                        <rdg><note>pro verbis <q>et in... Verum</q> hæc præbet B: <q>socius mearum
+                                    observationum et studiorum, sed.</q></note></rdg>
+                    </app> is nunc ne aliquid damni in re familiari capiat, patriam et suos revisere
+                    constituit, brevi huc ad me, <app>
                         <lem>veluti sponte dixit</lem>
                         <rdg><note>om. B</note></rdg>
                     </app>, reversurus, ut simul observationes instrumentis meis, quæ varia et
@@ -173,9 +198,8 @@
                     Cometa ob instrumentorum penuriam non fuerunt exactæ neque <app>
                         <lem>intervallo</lem>
                         <rdg><note>ante <q>intervallo</q> add. <q>ex</q> B</note></rdg>
-                    </app>
-                    18 minutorum temporis per <persName ref="Regiomontanus">REGIOMONTANI</persName>
-                    rationem parallaxes ita <app>
+                    </app> 18 minutorum temporis per <persName ref="Regiomontanus"
+                        >REGIOMONTANI</persName> rationem parallaxes ita <app>
                         <lem>variabantur</lem>
                         <rdg wit="#A">variebantur</rdg>
                     </app>, ut discerni et indagari poterant, etiamsi cætera, quæ ad observationem
@@ -243,9 +267,9 @@
                         <rdg wit="#B">anticiparint</rdg>
                     </app>, quod per Spicam facta observatione eadem via qua <app>
                         <lem wit="#TBOO">COPERNICUS</lem>
-                        <rdg><note>post <q>COPERNICUS</q> add. <q>per eandem factitavit</q> B</note></rdg>
-                    </app>
-                    multoties <app>
+                        <rdg><note>post <q>COPERNICUS</q> add. <q>per eandem factitavit</q>
+                            B</note></rdg>
+                    </app> multoties <app>
                         <lem>observavi et</lem>
                         <rdg><note>om. B</note></rdg>
                     </app> demonstravi. Sed de his et alijs data maiori commoditate et otio ad te
@@ -274,10 +298,11 @@
                             tibi Deo felicitante ex voto cessura. Deus Optimus Maximus te conservet,
                             et in omni bono et utili proposito consilio et auxilio sit.</lem>
                         <rdg><note>tantum in B</note></rdg>
-                    </app> Vale. Datæ in Insula nostra <placeName ref="Hven">Huena</placeName> 4.
-                    Novembris Anno 1580.</p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>TYCHO BRAHE.</p>
+                    </app></p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Datæ in Insula nostra <placeName ref="Hven">Huena</placeName> 4.
+                        Novembris Anno 1580.</dateline>
+                    <signed>T.<lb/>TYCHO BRAHE</signed>.</closer>
             </div>
         </body>
     </text>

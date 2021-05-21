@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,20 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Heinrich Brucaeus</persName>
+                    <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1584-06-12"/>
                 </correspAction>
@@ -64,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1584, 12. juni</date></creation>
+            <creation><date xml:lang="da">1584, 12. juni.</date><date xml:lang="en">1584, 12 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,7 +101,7 @@
             <div>
                 <pb ed="TBOO" n="VII.85"/>
                 <pb ed="A" n="85r"/>
-                <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
+                <opener><persName ref="brucaeus_heinrich_1530">HENRICUS BRUCÆUS</persName> AD TYCHONEM
                     BRAHE.</opener>
                 <p>CUM tuus <persName ref="Joachim">Typographus</persName>, Nobilissime
                     Charissimeque TYCHO, Rostochium venit, abfui, domum vero rediens, literis tuis
@@ -136,10 +150,8 @@
                     consumsit solidos 32. Et typos nescio quos maioris notæ emit, de quibus mecum
                     actum ut precium penderem. Verum cum huius rei nulla in tuis literis facta sit
                     mentio, et ignorem, utrum hoc tuo iussu factum sit, nihil a me persolutum. Ex
-                    ipso plene omnia de typis intelliges. Bene vale. <placeName ref="Rostock"
-                        >Rostochij</placeName> 12. Iunij Anno Domini 1584. </p>
-                <lb/>
-                <p rend="rightMargin">HENRICUS BRUCÆUS.</p>
+                    ipso plene omnia de typis intelliges.</p> <closer><salute>Bene vale.</salute> <dateline><placeName ref="Rostock"
+                        >Rostochij</placeName> 12. Iunij Anno Domini 1584.</dateline> <signed><persName ref="brucaeus_heinrich_1530">HENRICUS BRUCÆUS</persName>.</signed></closer>
             </div>
         </body>
     </text>

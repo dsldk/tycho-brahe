@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Private archive of Tycho Brahe</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +75,11 @@
                     <date when="1583-05-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Charles de Dançay</persName>
+                    <persName key="dancay_charles_1510">Charles de Dançay</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1583, 21. maj</date></creation>
+            <creation><date xml:lang="da">1583, 21. maj.</date><date xml:lang="en">1583, 21 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -88,8 +103,8 @@
             <div>
                 <pb ed="TBOO" n="VII.75"/>
                 <pb ed="A" n="1r"/>
-                <opener>TYCHO BRAHE AD <persName ref="Dançay">CAROLUM DANZÆUM</persName>.</opener>
-                <p>MAGNIFICE Domine <persName ref="Dançay">DANZÆE</persName>, Amice summa
+                <opener>TYCHO BRAHE AD <persName ref="dancay_charles_1510">CAROLUM DANZÆUM</persName>.</opener>
+                <p>MAGNIFICE Domine <persName ref="dancay_charles_1510">DANZÆE</persName>, Amice summa
                     observantia colende, reddidit Architectus meus mihi literas a te missas, quibus
                     percepi te, licet inter politica negotia iam multum temporis apud Cimbros
                     consumseris, nondum tamen Huenensium memoriam obliterasse, pro qua benevola erga
@@ -132,10 +147,8 @@
                     revertaris, magno enim tui desiderio detinentur, ut multi alij, sic vel ego
                     maxime, qui te tanto temporis locorumque intervallo tuaque exoptatissima
                     conversatione admodum illibenter careo. Deus opti. max. te nobis incolumem quam
-                    citissime restituat, tuaque omnia negotia optato successu secundet. Vale. Datæ
-                    in <placeName ref="Uraniborg">ædibus Uraniæ</placeName> 21. Augusti 1583.</p>
-                <lb/>
-                <p rend="rightMargin">T. T.<lb/>TYCHO BRAHE.</p>
+                    citissime restituat, tuaque omnia negotia optato successu secundet.</p> <closer><salute>Vale.</salute> <dateline>Datæ
+                    in <placeName ref="Uraniborg">ædibus Uraniæ</placeName> 21. Augusti 1583.</dateline> <signed>T. T.<lb/>TYCHO BRAHE.</signed></closer>
             </div>
         </body>
     </text>

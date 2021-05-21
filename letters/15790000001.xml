@@ -14,28 +14,40 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="A">
-                        <msDesc>
+                    <witness xml:id="A"><msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.66</idno>
@@ -46,29 +58,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 52-53</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -78,12 +67,13 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Hven</placeName>
                     <date when="1579-01-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hieronymus Wolf</persName>
+                    <persName key="wolf_hieronymus_1516">Hieronymus Wolf</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -110,7 +100,7 @@
             <div>
                 <pb ed="TBOO" n="VII.52"/>
                 <pb ed="A" n="70r"/>
-                <opener>TYCHO BRAHE AD <persName ref="Wolf, Hieronymus">HIERONYMUM
+                <opener>TYCHO BRAHE AD <persName ref="wolf_hieronymus_1516">HIERONYMUM
                         WOLFIUM</persName>.</opener>
                 <p>S. <pb ed="nil" n="70r"/>REDDITÆ mihi sunt literæ tuæ, doctissime et amantissime
                     Domine WOLFI, quas circa finem Martij huius anni ad me dedisti, quæ non minimum
@@ -126,16 +116,18 @@
                     restituendis et corrigendis motibus cœlestium corporum moliretur. In Apogei
                     certe anticipatione et Excentricitatis Solis augmento, tum etiam octavæ Sphæræ
                     celeriori, quam existimat <persName ref="Copernicus">COPERNICUS</persName>,
-                    promotione, quantum ex ijs, quæ <persName ref="Hainzel, Paul">HAINZELIUS</persName> communicavit, percipio, a nostris
-                    inventis proximeque elapsis, aliquot annis sedulo factis observationibus non
-                    multum discrepat, ut latius ad Dominum <persName ref="Hainzel, Paul">HAINZELIUM</persName> perscripsi. Ephemerides eius,
-                    vel si quæ alia ab ipso publicata sunt, ad me transmittas velim. <pb ed="A"
-                        n="70v"/>Et, si is aliqua familiaritate tibi coniunctus est, ipsum etsi mihi
-                    ignotum meo nomine salutes quæso et ab ipso impetres, ut per occasionem mihi
-                    scribat, suasque observationes, si quas habet exactiores, mecum (si ita
-                    libuerit) communicet; ego vicissim idem ipsi præstiturus sum et ipsius conatus,
-                    quacunque ratione licuerit, promovere studebo. Si vero interea aliquot Scripta
-                    de Cometa illo adeptus es præter ea, quæ ad me misit Dn. <persName ref="Hainzel, Paul">HAINZELIUS</persName>, peto ut
+                    promotione, quantum ex ijs, quæ <persName ref="Hainzel, Paul"
+                        >HAINZELIUS</persName> communicavit, percipio, a nostris inventis proximeque
+                    elapsis, aliquot annis sedulo factis observationibus non multum discrepat, ut
+                    latius ad Dominum <persName ref="Hainzel, Paul">HAINZELIUM</persName>
+                    perscripsi. Ephemerides eius, vel si quæ alia ab ipso publicata sunt, ad me
+                    transmittas velim. <pb ed="A" n="70v"/>Et, si is aliqua familiaritate tibi
+                    coniunctus est, ipsum etsi mihi ignotum meo nomine salutes quæso et ab ipso
+                    impetres, ut per occasionem mihi scribat, suasque observationes, si quas habet
+                    exactiores, mecum (si ita libuerit) communicet; ego vicissim idem ipsi
+                    præstiturus sum et ipsius conatus, quacunque ratione licuerit, promovere
+                    studebo. Si vero interea aliquot Scripta de Cometa illo adeptus es præter ea,
+                    quæ ad me misit Dn. <persName ref="Hainzel, Paul">HAINZELIUS</persName>, peto ut
                     mihi illa, qualiacunque sint, transmittere non graveris. Ego propter varias
                     occupationes tam Regis, quam amicorum nomine incidentes, inprimis vero propter
                     ædificationem et œconomiæ novæ instituendæ <pb ed="TBOO" n="VII.53"/>molestias,
@@ -166,10 +158,9 @@
                     Bene vale carissime WOLFI, et quavis data occasione mihi scribere et quod saltem
                     licet, calamo et charta gratam amicitiæ nostræ memoriam conservare ne
                     intermittas; ego vicissim nullam occasionem frustra præterlabi sinam, quin
-                    intellifas, me tui perpetuo amantissimum permanere. Iterum quam felicissime et
-                    diutissime vale, mi carissime <persName ref="Wolf, Hieronymus">WOLFI</persName>. Datæ in Insula nostra Huæna 1579. </p>
-                <lb/>
-                <p rend="rightMargin">T.<lb/>Tycho Brahe.</p>
+                    intellifas, me tui perpetuo amantissimum permanere.</p> <closer><salute>Iterum quam felicissime et
+                    diutissime vale, mi carissime <persName ref="wolf_hieronymus_1516">WOLFI</persName>.</salute>
+                    <dateline>Datæ in Insula nostra Huæna 1579.</dateline> <signed>T.<lb/>Tycho Brahe.</signed></closer>
             </div>
         </body>
     </text>

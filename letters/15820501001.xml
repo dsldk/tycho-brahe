@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +45,21 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,16 +74,19 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Thaddaeus Hagecius</persName>
-                    <placeName>Prague</placeName>
+                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1582-05-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1582, 1. maj</date></creation>
+            <creation><date xml:lang="da">1582, 1. maj.</date><date xml:lang="en">1582, 1
+                    May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -96,68 +118,69 @@
                     redditas, vehementer conturbatus sum, cœpique quiritari de iniqua sorte, quod ea
                     utrique nostrum invidit illam iucunditatem, quam percepturi eramus, tu quidem
                     legendo mea, ego sciendo, mea tibi reddita esse. Fuisset etiam liberatus
-                    sinistra suspicione apud te <persName ref="Wittich, Paul">WITTICHIUS</persName> noster, quod tuas mihi non reddidisset,
-                    qui certe non solum primo quoque tempore fidelissime tuas mihi per certos
-                    homines reddidit, verum etiam literis suis mihi persuadere annisus est, ut me
-                    transferrem isthuc, invitabatque ut comes esse vellem sui ad te reditus. Addebat
-                    ad persuadendum te ex certa scientia et voluntate Regis ea ad me perscribere ac
-                    daturum fuisse ipsummet Regem literas invitatorias ad me, <pb ed="A" n="17r"/>si
-                    prius ipsi per te de mea certa voluntate constitisset, quam nunc solum per tuas
-                    literas explorare voluit. Hæc vero etsi in tuis ad me non ita diserte perscripta
-                    et expilata essent, tamen persuasiones illas ab optimo et propensissimo eius
-                    erga utrumque nostrum animo proficisci accipiebam. Tuas quoque rationes, quod ab
-                    eodem animo proficiscerentur, admittebam omniaque illa interpretabar, ut verum
-                    amicum decuit. Quare carere debes hac in parte omni sinistra suspicione de
-                        <persName ref="Wittich, Paul">WITTICHIO</persName> nostro. Præstitit enim
-                    officium boni viri et amici fidelissimi. Me vero respondisse ad tuas mense
-                    Februario anni præteriti, testis esse potest D.
-                        <!-- David eller Nathan? --><persName ref="Chytræus">CHYTRÆUS</persName>. Ad
-                    ipsum enim meas ad te misi, et ut eas ad te perferendas curaret, rogavi.
-                    Respondit mense <app>
+                    sinistra suspicione apud te <persName ref="Wittich, Paul">WITTICHIUS</persName>
+                    noster, quod tuas mihi non reddidisset, qui certe non solum primo quoque tempore
+                    fidelissime tuas mihi per certos homines reddidit, verum etiam literis suis mihi
+                    persuadere annisus est, ut me transferrem isthuc, invitabatque ut comes esse
+                    vellem sui ad te reditus. Addebat ad persuadendum te ex certa scientia et
+                    voluntate Regis ea ad me perscribere ac daturum fuisse ipsummet Regem literas
+                    invitatorias ad me, <pb ed="A" n="17r"/>si prius ipsi per te de mea certa
+                    voluntate constitisset, quam nunc solum per tuas literas explorare voluit. Hæc
+                    vero etsi in tuis ad me non ita diserte perscripta et expilata essent, tamen
+                    persuasiones illas ab optimo et propensissimo eius erga utrumque nostrum animo
+                    proficisci accipiebam. Tuas quoque rationes, quod ab eodem animo
+                    proficiscerentur, admittebam omniaque illa interpretabar, ut verum amicum
+                    decuit. Quare carere debes hac in parte omni sinistra suspicione de <persName
+                        ref="Wittich, Paul">WITTICHIO</persName> nostro. Præstitit enim officium
+                    boni viri et amici fidelissimi. Me vero respondisse ad tuas mense Februario anni
+                    præteriti, testis esse potest D. <!-- David eller Nathan? --><persName
+                        ref="Chytræus">CHYTRÆUS</persName>. Ad ipsum enim meas ad te misi, et ut eas
+                    ad te perferendas curaret, rogavi. Respondit mense <app>
                         <lem wit="#TBOO">Aprili</lem>
                         <rdg wit="#A">Aprilis</rdg>
                     </app> anni superioris se meas accepisse et ad te primo quoque tempore et <pb
                         ed="TBOO" n="VII.70"/>commoditate missurum esse. Intercidisse igitur meas
                     inter Rostochium et Hafniam oportuit, si alicui perferendæ datæ sunt. Hæc tu
-                    ipse, si ita lubet, ex ipsomet D. <persName ref="Chytraeus">CHYTRÆO</persName> cognoscere poteris. Quod ad
-                    invitationem attinet, ut me transferam isthuc, ardua et difficilis est quæstio.
-                    Ac primum quæso te, mi TYCHO, expende ipsemet accuratius et verte omnes
-                    rationes, quam mihi ea difficilia sint factu. Sum ingravescente ætate; ago enim
-                    annum 56. Sum pater multorum liberorum. Commigrare igitur in alienas terras et
-                    quasi spontaneum exilium eligere, ubi et mores gentis et lingua peregrina est,
-                    profecto difficile, durum et miseriâ plenum est. Addo neque honorificum mihi et
-                    meis futurum esse absque honesta et decenti vocatione in alienas terras migrare.
-                    Quid enim aliud vestrates dicturos aut saltem suspicaturos esse cogitare possum,
-                    quando me non vocatum venisse ad vos con<pb ed="A" n="I7v"/>spicerent, quam me
-                    hinc vel eiectum vel egestate compulsum alienas quæsivisse sedes? Quid
-                    nostrates? Levem et inconstantem parumque prudentem, quod me unius hominis amica
-                    invitatione tam facile permoveri passus sim, incerta pro certis elegerim, verba
-                    honoris pro amplissimis rebus acceperim. Dicent etiam haud dubie temerarium et
-                    inconsideratum, et qui conditionis et existimationis suæ nullam scirem habere
-                    rationem, quod qui olim Cæsaris Medicus fuerim, honeste et decenter accitus; qui
-                    ante quinquennium a Rege <placeName ref="Sweden">Sueciæ</placeName>, deinde ab
-                    ordinibus <placeName ref="Steiermark">Stiriæ</placeName> expetitus, cui etiam,
-                    si voluissem aut vellem, locus fuerit, et esse possit adhuc apud Regem
-                        <placeName ref="Poland">Poloniæ</placeName>, denique qui huius Regni nobilis
-                    civis sum, nunc sponte et temere extra patriam ultro sedes quæram et servitium
-                    expetam. Ac ut tandem finiam, migrare ad vos honorifice non vocatus, non
-                    propositis mihi certis conditionibus, plane non videtur consultum, non meæ
-                    ætatis est, non conditionis, non dignitatis. Excurrere vero ad te, ut præclara
-                    illa tua studia Chymica et Mathematica meis oculis conspicerem, teque præsentem
-                    complecterer, et in tuo amore totus conquiescerem, percuperem sane, nisi in eo
-                    quoque non paucæ essent difficultates et quidem graves: iter longum et
-                    difficile, sumptus non exigui, denique excursio illa nimis magna esse videretur.
-                    Sed si aliqua commoditas veniendi isthuc et redeundi se offerret, prætermittere
-                    eam nulla ratione vellem. Nunc quoque impedior cura uxoris meæ, quæ partui
-                    vicina est. Vides, mi TYCHO, meas iustas et honestas rationes, quibus impediar
-                    et detinear, ut neque tuæ benevolentiæ, quam ego summam et optimam esse erga me
-                    agnosco, neque meo desiderio satisfacere queam. Itaque pro tuo isto erga me
-                    optimo et benignissimo animo, <pb ed="A" n="18r"/>cura et solicitudine mei, quod
-                    mihi optima cupias, omniaque officia amoris et benevolentiæ sponte deferas, tibi
-                    maximas, quas verbis exprimere licet, ago et habeo gratias, vicissimque tibi
-                    persuasissimum esse cupio, me ita amore tui incensum esse, ut <pb ed="TBOO"
-                        n="VII.71"/>si liceret tecum esse, reliquum meæ vitæ iucundissimum putarem,
-                    tuaque causa nihil non facturum esse.</p>
+                    ipse, si ita lubet, ex ipsomet D. <persName ref="Chytraeus">CHYTRÆO</persName>
+                    cognoscere poteris. Quod ad invitationem attinet, ut me transferam isthuc, ardua
+                    et difficilis est quæstio. Ac primum quæso te, mi TYCHO, expende ipsemet
+                    accuratius et verte omnes rationes, quam mihi ea difficilia sint factu. Sum
+                    ingravescente ætate; ago enim annum 56. Sum pater multorum liberorum. Commigrare
+                    igitur in alienas terras et quasi spontaneum exilium eligere, ubi et mores
+                    gentis et lingua peregrina est, profecto difficile, durum et miseriâ plenum est.
+                    Addo neque honorificum mihi et meis futurum esse absque honesta et decenti
+                    vocatione in alienas terras migrare. Quid enim aliud vestrates dicturos aut
+                    saltem suspicaturos esse cogitare possum, quando me non vocatum venisse ad vos
+                        con<pb ed="A" n="I7v"/>spicerent, quam me hinc vel eiectum vel egestate
+                    compulsum alienas quæsivisse sedes? Quid nostrates? Levem et inconstantem
+                    parumque prudentem, quod me unius hominis amica invitatione tam facile permoveri
+                    passus sim, incerta pro certis elegerim, verba honoris pro amplissimis rebus
+                    acceperim. Dicent etiam haud dubie temerarium et inconsideratum, et qui
+                    conditionis et existimationis suæ nullam scirem habere rationem, quod qui olim
+                    Cæsaris Medicus fuerim, honeste et decenter accitus; qui ante quinquennium a
+                    Rege <placeName ref="Sweden">Sueciæ</placeName>, deinde ab ordinibus <placeName
+                        ref="Steiermark">Stiriæ</placeName> expetitus, cui etiam, si voluissem aut
+                    vellem, locus fuerit, et esse possit adhuc apud Regem <placeName ref="Poland"
+                        >Poloniæ</placeName>, denique qui huius Regni nobilis civis sum, nunc sponte
+                    et temere extra patriam ultro sedes quæram et servitium expetam. Ac ut tandem
+                    finiam, migrare ad vos honorifice non vocatus, non propositis mihi certis
+                    conditionibus, plane non videtur consultum, non meæ ætatis est, non conditionis,
+                    non dignitatis. Excurrere vero ad te, ut præclara illa tua studia Chymica et
+                    Mathematica meis oculis conspicerem, teque præsentem complecterer, et in tuo
+                    amore totus conquiescerem, percuperem sane, nisi in eo quoque non paucæ essent
+                    difficultates et quidem graves: iter longum et difficile, sumptus non exigui,
+                    denique excursio illa nimis magna esse videretur. Sed si aliqua commoditas
+                    veniendi isthuc et redeundi se offerret, prætermittere eam nulla ratione vellem.
+                    Nunc quoque impedior cura uxoris meæ, quæ partui vicina est. Vides, mi TYCHO,
+                    meas iustas et honestas rationes, quibus impediar et detinear, ut neque tuæ
+                    benevolentiæ, quam ego summam et optimam esse erga me agnosco, neque meo
+                    desiderio satisfacere queam. Itaque pro tuo isto erga me optimo et benignissimo
+                    animo, <pb ed="A" n="18r"/>cura et solicitudine mei, quod mihi optima cupias,
+                    omniaque officia amoris et benevolentiæ sponte deferas, tibi maximas, quas
+                    verbis exprimere licet, ago et habeo gratias, vicissimque tibi persuasissimum
+                    esse cupio, me ita amore tui incensum esse, ut <pb ed="TBOO" n="VII.71"/>si
+                    liceret tecum esse, reliquum meæ vitæ iucundissimum putarem, tuaque causa nihil
+                    non facturum esse.</p>
                 <p rend="indent">Hæc fere in prioribus meis ad te scripseram, quæ quoniam alicubi
                     perijsse intelligo, denuo repetere hisce oportuit. Venio ad alteram Epistolæ tuæ
                     partem. Gratulor tibi vehementer istud otium Mathematicum, in quo te versari
@@ -168,10 +191,11 @@
                     neque in meis ædibus ea mihi est commoditas, ut etiamsi tale quid habeam,
                     collocare queam. Quadrante hactenus meo usus sum in meis stellarum et Cometarum
                     observationibus. In eo dena et quina habentur scrupula. Radium satis magnum
-                    habeo, de quo hauddubie <persName ref="Wittich, Paul">WITTICHIUS</persName> noster tibi significavit. Ad Solem igitur
-                    nullæ mihi fuerunt observationes.Placet quod in Sole habeas rationem
-                    parallaxeos, quam huc usque omnes neglexerunt. <persName ref="Wittich, Paul">WITTICHIUS</persName> noster eam quoque
-                    minime prætermittendam esse censuit. In Apogeo Solis video te <app>
+                    habeo, de quo hauddubie <persName ref="Wittich, Paul">WITTICHIUS</persName>
+                    noster tibi significavit. Ad Solem igitur nullæ mihi fuerunt
+                    observationes.Placet quod in Sole habeas rationem parallaxeos, quam huc usque
+                    omnes neglexerunt. <persName ref="Wittich, Paul">WITTICHIUS</persName> noster
+                    eam quoque minime prætermittendam esse censuit. In Apogeo Solis video te <app>
                         <lem>tribus circiter gradibus anteriorem esse Copernico</lem>
                         <note>ex <q>Alphonsino calculo viciniorem esse</q> corr. A</note>
                     </app>. Sed variatio Apogei etiam plurium graduum non mutat notabiliter motum
@@ -198,25 +222,27 @@
                     invenienda parallaxi ex culminatione Phænomeni cum aliqua stella fixa
                     scripseram, ea iamdudum correxi, ac caput 7,9 et 1O plane mutavi. Illustravi
                     etiam aliquot problemata <persName ref="Diggs, Leonard">DIGGSEI</persName> et
-                    alia adieci tum mea, tum a <persName ref="Wittich, Paul">WITTICHIO</persName> accepta. Et certe hæc doctrina parallaxium
-                    mediocriter per nos illustrata est, de quo tamen tuum et aliorum intelligentium
-                    erit iudicium. Librarius solum nunc nos moratur, qui nostra illa imprimere
-                    vetat. Et ut admirandi illius novi sideris Historia ad posteros transmitteretur,
-                        <pb ed="TBOO" n="VII.72"/>non tantum nostra illa de parallaxibus adiungentur
-                    meæ Dialexi, sed omnium aliorum scripta nostræ sententiæ consentientia. Titulus
-                    libri erit talis, ut hic in charta descriptum vides. Vellem tuas quoque
-                    observationes Cometarum prodire, fuitque hæc causa, cur eas in meo proximi
-                    Cometæ scripto desideraverim. Nam quod æthereus fuerit uterque Cometa, id iam
-                    ante ex tuis ad me intellexeram, ideoque iam ante, ipso adhuc lucente Cometa, ad
-                    multos perscripseram. Proxima quadragesima <pb ed="A" n="19r"/>fui <placeName
-                        ref="Wroclaw">Vratislaviæ</placeName> apud meam filiam et commoratus sum
-                    illic ultra mensem. Mea de parallaxibus cum <persName ref="Wittich, Paul">WITTICHIO</persName> contuli, qui mecum
-                    communicavit vestras observationes proximi Cometæ, quas habuistis diebus XI,
-                    XII, XIII et XVII Octob. Ex his ego experiri volui, in deductione calculi
-                    aberraverim, an momenta observationum non recte abs te aut a <persName ref="Wittich, Paul">WITTICHIO</persName>
-                    consignata sint. Nam ex vestris illis datis ne verisimile quidem in parallaxibus
-                    omnibus illis diebus quicquam invenire potui. In altitudinibus Cometæ inter nos
-                    alias satis recte convenit. Relinquitur igitur, ut momenta temporum minus recte
+                    alia adieci tum mea, tum a <persName ref="Wittich, Paul">WITTICHIO</persName>
+                    accepta. Et certe hæc doctrina parallaxium mediocriter per nos illustrata est,
+                    de quo tamen tuum et aliorum intelligentium erit iudicium. Librarius solum nunc
+                    nos moratur, qui nostra illa imprimere vetat. Et ut admirandi illius novi
+                    sideris Historia ad posteros transmitteretur, <pb ed="TBOO" n="VII.72"/>non
+                    tantum nostra illa de parallaxibus adiungentur meæ Dialexi, sed omnium aliorum
+                    scripta nostræ sententiæ consentientia. Titulus libri erit talis, ut hic in
+                    charta descriptum vides. Vellem tuas quoque observationes Cometarum prodire,
+                    fuitque hæc causa, cur eas in meo proximi Cometæ scripto desideraverim. Nam quod
+                    æthereus fuerit uterque Cometa, id iam ante ex tuis ad me intellexeram, ideoque
+                    iam ante, ipso adhuc lucente Cometa, ad multos perscripseram. Proxima
+                    quadragesima <pb ed="A" n="19r"/>fui <placeName ref="Wroclaw"
+                        >Vratislaviæ</placeName> apud meam filiam et commoratus sum illic ultra
+                    mensem. Mea de parallaxibus cum <persName ref="Wittich, Paul"
+                        >WITTICHIO</persName> contuli, qui mecum communicavit vestras observationes
+                    proximi Cometæ, quas habuistis diebus XI, XII, XIII et XVII Octob. Ex his ego
+                    experiri volui, in deductione calculi aberraverim, an momenta observationum non
+                    recte abs te aut a <persName ref="Wittich, Paul">WITTICHIO</persName> consignata
+                    sint. Nam ex vestris illis datis ne verisimile quidem in parallaxibus omnibus
+                    illis diebus quicquam invenire potui. In altitudinibus Cometæ inter nos alias
+                    satis recte convenit. Relinquitur igitur, ut momenta temporum minus recte
                     assignata fuerint. Et certi temporis consideratio hac in parte valde est
                     difficilis. Subduc quæso tuum calculum et omnia accuratius considera <app>
                         <lem wit="#TBOO">meque</lem>
@@ -224,12 +250,13 @@
                     </app> admone. Ego ipse quoque, modo aliquid otij nactus fuero, denuo repetam
                     calculum et vestra examinabo. Nam eorum in meo opere facere cupio mentionem, ut
                     nostra sententia de Cometis in animis eruditorum eo magis confirmetur. Quod si
-                    post discessum isthinc <persName ref="Wittich, Paul">WITTICHIJ</persName> aliquot dierum alias quoque habes illius Cometæ
-                    observationes, eas mecum communicato. B. V. Pragæ ex ædibus nostris die 1. Maij
-                    Anno 1582.</p>
-                <lb/>
-                <p rend="rightMargin">T. ex animo<lb/><persName ref="Hagecius, Thaddaeus">THADDÆUS
-                        HAGECIUS</persName><lb/>ab Hayck.</p>
+                    post discessum isthinc <persName ref="Wittich, Paul">WITTICHIJ</persName>
+                    aliquot dierum alias quoque habes illius Cometæ observationes, eas mecum
+                    communicato.</p>
+                <closer><salute>B. V.</salute>
+                    <dateline>Pragæ ex ædibus nostris die 1. Maij Anno 1582.</dateline>
+                    <signed>T. ex animo<lb/><persName ref="Hagecius, Thaddaeus">THADDÆUS
+                            HAGECIUS</persName><lb/>ab Hayck.</signed></closer>
             </div>
         </body>
     </text>
