@@ -14,7 +14,8 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -28,7 +29,9 @@
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -38,7 +41,7 @@
                                 part. VII</title>
                         </bibl> Leiden 1700</witness>
                     <witness xml:id="Friis">
-                        <bibl><title></title></bibl>
+                        <bibl><title/></bibl>
                     </witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -50,18 +53,21 @@
                 </listBibl>
             </sourceDesc>
         </fileDesc>
-        <profileDesc><correspDesc>
-            <correspAction type="sent">
-                <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
-                <placeName>Hven</placeName>
-                <date when="1576-12-08"/>
-            </correspAction>
-            <correspAction type="received">
-                <persName key="camerarius_joachim_1534">Joachim Camerarius</persName>
-                <placeName>empty</placeName>
-            </correspAction>
-        </correspDesc>
-            <creation><date xml:lang="da">1576, 8. november.</date><date xml:lang="en">1576, 8 November.</date></creation>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName>Hven</placeName>
+                    <date when="1576-12-08"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="camerarius_joachim_1534">Joachim Camerarius</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date xml:lang="da">1576, 8. november.</date><date xml:lang="en">1576, 8
+                    November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,36 +90,43 @@
             <div>
                 <pb ed="TBOO" n="VII.42"/>
                 <pb ed="A" n="232"/>
-                <p>CLARISSIMO VIRO D. <persName ref="camerarius_joachim_1534">IOACHIMO CAMERARIO IUNIORI</persName>, PHILOSOPHO ET MEDICO EXIMIO, AMICO
-                    SUO COLENDO. <foreign xml:lang="de">DOCTOR CAMERARIUS MEDICUS ZU <placeName ref="Nürnberg">NÜRRENBERG</placeName>.</foreign></p>
+                <p>CLARISSIMO VIRO D. <persName ref="camerarius_joachim_1534">IOACHIMO CAMERARIO
+                        IUNIORI</persName>, PHILOSOPHO ET MEDICO EXIMIO, AMICO SUO COLENDO. <foreign
+                        xml:lang="de">DOCTOR CAMERARIUS MEDICUS ZU <placeName ref="Nürnberg"
+                            >NÜRRENBERG</placeName>.</foreign></p>
                 <p>EX litteris tuis, clarissime Domine Doctor CAMERARI, intellexi, maximam partem
-                    librorum Mathematicorum <persName ref="Brechtalius">BRECHTALII</persName> esse distractam; nihilominus peto, ut eos, qui
-                    residui adhuc sunt, velis mihi, iuxta catalogum tibi missum, curare colligi,
-                    eosque huic artifici Mechanico <persName ref="Labenwolf, Georg">GEORGIO <app><lem wit="#Friis">LAUBIMVOLFI</lem><rdg wit="#Crenius">Laubimvollsi</rdg></app></persName> ad me transmittendos tradere.
-                    Et insuper, si quos alias in Mathematicis et Chymicis inveneris seu novos seu
-                    veteres, quos mihi usui fore existimas, unâ adiungas velim. Precium horum omnium
-                    ex tuo decreto artifex hic persolvet; pecunia meo nomine interea ab alio
-                    artifice <persName ref="Schart, Johann van der">IOHANNE von der SCHACK</persName> nomine, mutuo accepta, donec ego eam hîc
-                    in Dania (est enim is huc venturus) vel etiam Noribergæ restituero. Ignoscas
-                    autem mihi, quod ita audacter toties his meis negotijs molestus tibi sim; id
-                    facio fretus singulari tua humanitate, qua te eximie præditum, cum Noribergæ
-                    ultimo essem, non obscure cognovi. Peto autem, ut per occasionem me de tuis
-                    studiis et laboribus certiorem reddas, utrum in Spagyrica Medicina profectum
-                    aliquem feceris. Ego hac æstate nihil fere eximii in ea arte elaboravi,
-                    impeditus architectura, quam nunc præ manibus habeo. In Insula enim hîc quadam,
-                    quæ sita est in medio famosissimi et celeberrimi freti, ubi omnes naves ab
-                    Oriente in Occidentem transeunt, et e contra, ædes Philosophicas non exiguis
-                    sumptibus extruo. Hac enim Insula eo nomine a Rege donatus sum, ut eo, cum fert
-                    animus, secedere possim, et a vulgi strepitu semotus altioribus vacare
-                    exercitiis. Ubi ve<pb ed="A" n="233"/>ro ædificium hoc absolvero, divina ope 
-                    conatus nostros auxiliante, spero me commoditatem non exiguam adepturum
-                    philosophandi tum in superiori et cœlesti Astronomia, tum etiam in hac inferiori
-                    Spagyrica rerum præparatione. Et si quid mea opera et sumptibus inveniri queat,
-                    quod tibi aliisve amicis id expetentibus usui esse possit, lubens communicabo.
-                    Vale, vir doctissime et humanissime, et amicitiam inter nos brevi tempore
-                    Noribergæ contractam longa tempora ne sinamus obliterare. Iterum vale. Datæ in
-                    Insula nostra <placeName ref="Hven">Huena</placeName>, d. 21. Novemb. An. 1576. </p>
-                <lb/><p rend="rightMargin">T.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</p>
+                    librorum Mathematicorum <persName ref="Brechtalius">BRECHTALII</persName> esse
+                    distractam; nihilominus peto, ut eos, qui residui adhuc sunt, velis mihi, iuxta
+                    catalogum tibi missum, curare colligi, eosque huic artifici Mechanico <persName
+                        ref="Labenwolf, Georg">GEORGIO <app>
+                            <lem wit="#Friis">LAUBIMVOLFI</lem>
+                            <rdg wit="#Crenius">Laubimvollsi</rdg>
+                        </app></persName> ad me transmittendos tradere. Et insuper, si quos alias in
+                    Mathematicis et Chymicis inveneris seu novos seu veteres, quos mihi usui fore
+                    existimas, unâ adiungas velim. Precium horum omnium ex tuo decreto artifex hic
+                    persolvet; pecunia meo nomine interea ab alio artifice <persName
+                        ref="Schart, Johann van der">IOHANNE von der SCHACK</persName> nomine, mutuo
+                    accepta, donec ego eam hîc in Dania (est enim is huc venturus) vel etiam
+                    Noribergæ restituero. Ignoscas autem mihi, quod ita audacter toties his meis
+                    negotijs molestus tibi sim; id facio fretus singulari tua humanitate, qua te
+                    eximie præditum, cum Noribergæ ultimo essem, non obscure cognovi. Peto autem, ut
+                    per occasionem me de tuis studiis et laboribus certiorem reddas, utrum in
+                    Spagyrica Medicina profectum aliquem feceris. Ego hac æstate nihil fere eximii
+                    in ea arte elaboravi, impeditus architectura, quam nunc præ manibus habeo. In
+                    Insula enim hîc quadam, quæ sita est in medio famosissimi et celeberrimi freti,
+                    ubi omnes naves ab Oriente in Occidentem transeunt, et e contra, ædes
+                    Philosophicas non exiguis sumptibus extruo. Hac enim Insula eo nomine a Rege
+                    donatus sum, ut eo, cum fert animus, secedere possim, et a vulgi strepitu
+                    semotus altioribus vacare exercitiis. Ubi ve<pb ed="A" n="233"/>ro ædificium hoc
+                    absolvero, divina ope conatus nostros auxiliante, spero me commoditatem non
+                    exiguam adepturum philosophandi tum in superiori et cœlesti Astronomia, tum
+                    etiam in hac inferiori Spagyrica rerum præparatione. Et si quid mea opera et
+                    sumptibus inveniri queat, quod tibi aliisve amicis id expetentibus usui esse
+                    possit, lubens communicabo. Vale, vir doctissime et humanissime, et amicitiam
+                    inter nos brevi tempore Noribergæ contractam longa tempora ne sinamus
+                    obliterare.</p> <closer><salute>Iterum vale.</salute> <dateline>Datæ in Insula nostra <placeName ref="Hven"
+                        >Huena</placeName>, d. 21. Novemb. An. 1576.</dateline> <signed>T.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                    BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

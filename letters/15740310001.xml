@@ -14,7 +14,8 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -28,7 +29,9 @@
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -62,7 +65,7 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab></ab>
+                                <ab/>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -83,11 +86,13 @@
                     <date when="1574-03-10"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date xml:lang="da">1574, 10. marts.</date><date xml:lang="en">1574, 10 March.</date></creation>
+            <creation><date xml:lang="da">1574, 10. marts.</date><date xml:lang="en">1574, 10
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -110,7 +115,8 @@
             <div>
                 <pb ed="TBOO" n="VII.14"/>
                 <pb ed="A" n="13r"/>
-                <opener>NOBILITATE ET ERUDITIONE PRÆSTANTI IUVENI, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>.<lb/>S. P. D. </opener>
+                <opener>NOBILITATE ET ERUDITIONE PRÆSTANTI IUVENI, DOMINO <persName
+                        ref="brahe_tycho_1546">TYCHONI BRAHE</persName>.<lb/>S. P. D. </opener>
                 <p>DICERE non possum, Nobilissime et amantissime mi TYCHO, quanta voluptate me
                     affeceris, non saltem eruditissimis literis, ad me nuper datis, sed et
                     contemplatione tua vere Mathematica, de miraculosa illa ad Cassiopeiam stella,
@@ -130,8 +136,8 @@
                     hactenus de eadem stella in publicum editas conceptiones, ita ut vix cum hac
                     conferri mereantur: et optarem quam maxime, me id prius obtinuisse, ut
                     descriptum eius cum doctis hinc Mathematicis, cum duraret adhuc ea stella,
-                    præsertim <persName ref="Mästlin">MÆSTHLINO</persName>, qui idem tecum
-                    sentire videtur, licet non tam evidenter atque dilucide, sed per ambages quasdam
+                    præsertim <persName ref="Mästlin">MÆSTHLINO</persName>, qui idem tecum sentire
+                    videtur, licet non tam evidenter atque dilucide, sed per ambages quasdam
                     demonstret, communicare potuissem. Sed spero, me plura exemplaria a te
                     obtenturum, eademque, uti polliceri videris, auctiora reddita, tum demum alijs
                     ea impertiar. Interea hoc meum, uti rem pretiosam, reservabo, et <persName
@@ -143,10 +149,12 @@
                     Quadrante permagno, tuo instinctu hîc elaborato, quas examinare poteris, et tuam
                     postea mihi de ijs indicare censuram. Plura nunc scribere non vacat, ob
                     negotiorum molem in hoc officio, quod sustineo, publico. Tu itaque vale, optime
-                    mi TYCHO, et sæpius me tuis eruditis literis invisere ne omittas. Iterumque
-                    etiam atque etiam vale. Datæ <placeName ref="Augsburg">Augustæ
-                        Vindelicorum</placeName>, Anno 1574 die 10. Martij. </p>
-                <lb/><p rend="rightMargin">T.<lb/><persName ref="hainzel_paul_1527">Paulus Haintzel</persName>.</p>
+                    mi TYCHO, et sæpius me tuis eruditis literis invisere ne omittas.</p>
+                <closer><salute>Iterumque etiam atque etiam vale.</salute>
+                    <dateline>Datæ <placeName ref="Augsburg">Augustæ Vindelicorum</placeName>, Anno
+                        1574 die 10. Martij.</dateline>
+                    <signed>T.<lb/><persName ref="hainzel_paul_1527">Paulus
+                        Haintzel</persName>.</signed></closer>
             </div>
         </body>
     </text>
