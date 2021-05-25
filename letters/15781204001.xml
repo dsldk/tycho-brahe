@@ -37,9 +37,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.66</idno>
@@ -50,29 +59,6 @@
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 48-49</bibl>
                     </witness>
-                    <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -92,7 +78,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1578, 4. december</date></creation>
+            <creation><date xml:lang="da">1578, 4. december.</date><date xml:lang="en">1578, 4
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -117,9 +104,9 @@
                 <pb ed="A" n="80v"/>
                 <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
                     BRAHE.<lb/>S. P.</opener>
-                <p>PRODIJT catalogus librorum <placeName ref="Frankfurt am Main">Francfurti ad
-                        Mœnum</placeName> venalium, inter ceteros hunc invenio: <hi rend="it"
-                        >Observatio et demonstratio Cometæ ætherei, qui anno 1577 et 1578
+                <p rend="noIndent">PRODIJT catalogus librorum <placeName ref="Frankfurt am Main"
+                        >Francfurti ad Mœnum</placeName> venalium, inter ceteros hunc invenio: <hi
+                        rend="it">Observatio et demonstratio Cometæ ætherei, qui anno 1577 et 1578
                         constitutus in sphæra &#x2640; apparuit, autore M. <persName
                             ref="Mästlin, Michael">MICHAËLE MÆSTLINO</persName>, <placeName
                             ref="Tübingen">Tubingæ</placeName> apud <persName
@@ -139,8 +126,9 @@
                     desiderari, abieci aliquo, ut ipse nesciam ubi lateant. Hoc tamen satis recordor
                     me nullam sensibilem parallaxin hinc colligere potuisse, sed calculum potius in
                     contrarium abijsse, id, quod miratus sum, reluctante nostro <persName
-                        ref="Aristoteles">ARISTOTELE</persName>.</p> <closer><salute>Tu interim bene vale, et me mutuo
-                    ama.</salute> <dateline>Rostochij IV. Decem.</dateline></closer>
+                        ref="Aristoteles">ARISTOTELE</persName>.</p>
+                <closer><salute>Tu interim bene vale, et me mutuo ama.</salute>
+                    <dateline>Rostochij IV. Decem.</dateline></closer>
             </div>
         </body>
     </text>
