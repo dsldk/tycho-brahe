@@ -33,7 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Schwerin</settlement>
+                                <repository>Landeshauptarchiv Schwerin</repository>
+                                <collection>Correspondenz des Herzogs Ulrich mit Gelehrten.</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Udkast</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Schwerin</settlement>
                                 <repository>Landeshauptarchiv Schwerin</repository>
@@ -67,11 +79,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 15. aug.</date></creation>
+            <creation><date xml:lang="da">1588, 15. august.</date><date xml:lang="en">1588, 15 August.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -95,7 +107,7 @@
                 <pb ed="TBOO" n="XIV.41"/>
                 <opener>DEM EHRNUESTEN VNSERN BESONDER LIEBEN TYGE BRAHEN AUFF WIEN.</opener>
                 <p><persName ref="ulrich_3_1527">Vlrich</persName> etc.</p>
-                <p>VNSERN günstigen grüs zuuor. Ehrnuester besonder lieber, nachdem Wir in Vnser
+                <p rend="noIndent">VNSERN günstigen grüs zuuor. Ehrnuester besonder lieber, nachdem Wir in Vnser
                     ankunfft alhie befunden, das das druck pappiers, so dieß orts fur euch bestellet
                     worden, funff vnd funfzigk reiß fertigk gewesen, weil sich gleich zugetragen,
                     das meister Peter, der vhrmacher, auch alhie bej Vns angelangt vnd sich

@@ -13,27 +13,31 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2021</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2021, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="E">
                         <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
-                            primus hic ...</title> Uraniborg 1596</bibl>
+                                primus hic ...</title> Uraniborg 1596</bibl>
                     </witness>
                     <witness xml:id="T">
                         <bibl>Index erratorum editionis principis (E)</bibl>
@@ -43,11 +47,11 @@
                     </witness>
                     <witness xml:id="ed.1601">
                         <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
-                            primus hic ...</title> Nürnberg 1601</bibl>
+                                primus hic ...</title> Nürnberg 1601</bibl>
                     </witness>
                     <witness xml:id="ed.1610">
                         <bibl><title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
-                            primus hic ...</title> Frankfurt a. M. 1610</bibl>
+                                primus hic ...</title> Frankfurt a. M. 1610</bibl>
                     </witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -67,11 +71,12 @@
                     <date when="1587-01-17"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 13. oktober</date></creation>
+            <creation><date xml:lang="da">1588, 13. oktober.</date><date xml:lang="en">1588, 13
+                    October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,15 +97,16 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VI.149"/><pb ed="E" n="120"/><app>
-                            <lem>NOBILISSIMO ET VIRTVTE SAPIENTIA INGENIOSA ERVDITAQVE DOCTRINA,
-                                CLARISSIMO VIRO, DOMINO TYCHONI BRAHE, DOMINO DE KNVDSTRVP, EQVITI
-                                DANO, MATHEMATICORVM NOSTRO SECULO OMNIUM PRÆSTANTISSIMO, ETC.
-                                DOMINO SUO CUM OBSERUANTIA COLENDO, ETC. S. P.</lem>
-                            <rdg><note>om. C</note></rdg>
-                        </app>
+                        <lem>NOBILISSIMO ET VIRTVTE SAPIENTIA INGENIOSA ERVDITAQVE DOCTRINA,
+                            CLARISSIMO VIRO, DOMINO TYCHONI BRAHE, DOMINO DE KNVDSTRVP, EQVITI DANO,
+                            MATHEMATICORVM NOSTRO SECULO OMNIUM PRÆSTANTISSIMO, ETC. DOMINO SUO CUM
+                            OBSERUANTIA COLENDO, ETC. S. P.</lem>
+                        <rdg><note>om. C</note></rdg>
+                    </app>
                 </opener>
-                <p>ACCEPTATISSIMÆ mihi fuerunt vtræque tuæ literas, Nobilissime ac Præstantissime D.
-                    TYCHO, animoque meo longe gratissimæ, et priores cum Tomo secundo <app>
+                <p rend="noIndent">ACCEPTATISSIMÆ mihi fuerunt vtræque tuæ literas, Nobilissime ac
+                    Præstantissime D. TYCHO, animoque meo longe gratissimæ, et priores cum Tomo
+                    secundo <app>
                         <lem>Phænomenon</lem>
                         <rdg wit="#C">Phænoménωn</rdg>
                     </app> Cæli recentiorum, quas 11. Iulij a <persName ref="Gellius">Gellio

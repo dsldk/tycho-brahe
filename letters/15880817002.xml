@@ -14,20 +14,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -53,16 +57,17 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1588-08-17"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Bartholomaeus Scultetus</persName>
+                    <persName key="scultetus_bartholomaus_1540">Bartholomaeus Scultetus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 17. august</date></creation>
+            <creation><date xml:lang="da">1588, 17. august.</date><date xml:lang="en">1588, 17
+                    August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -88,10 +93,10 @@
                 <opener>CLARISSIMO DOCTISSIMOQUE VIRO M. <persName ref="Scultetus">BARTHOLOMÆO
                         SCULTETO</persName>, GORLICENSI, RERUM MATHEMATICARUM PERITISSIMO, VETERI
                     AMICO PLURIMUM COLENDO.</opener>
-                <p><pb ed="A" n="189"/>PER Silesium quendam Studiosum <placeName ref="Wroclaw"
-                        >Vratislaviensem</placeName> (ni fallor) tibi scripsi, mense Maio proxime
-                    elapso, amantissime clarissimeque SCULTETE, librumque nostrum secundum,
-                    opusculum, quod de recentioribus <app>
+                <p rend="noIndent"><pb ed="A" n="189"/>PER Silesium quendam Studiosum <placeName
+                        ref="Wroclaw">Vratislaviensem</placeName> (ni fallor) tibi scripsi, mense
+                    Maio proxime elapso, amantissime clarissimeque SCULTETE, librumque nostrum
+                    secundum, opusculum, quod de recentioribus <app>
                         <lem wit="#Friis">ætherei</lem>
                         <rdg wit="#A">ætheri</rdg>
                     </app> Mundi Phænomenis emisimus, unâ <app>
@@ -105,10 +110,11 @@
                     insectandi aut cavillandi animo id facere, et ut candide interpreteris omnia,
                     amicitiæ nostræ diuturnum vinculum postulat. Ego tibi vicissim liberum de meis
                     relinquo iudicium, ut ingenue proferas, quicquid invicta veritatis Mathematicæ
-                    certitudo exigat. Pluri<pb ed="TBOO" n="VII.124"/>mum itaque tuas desidero literas,
-                    quibus meis desiderijs in his satisfiat, quas ut mature ante instantem hyemem
-                    accipiam, operam des: idque commodissime fiet, si eas miseris vel <placeName
-                        ref="Rostock">Rostochium</placeName> ad D. <persName ref="Brucaeus, Henrich"><app>
+                    certitudo exigat. Pluri<pb ed="TBOO" n="VII.124"/>mum itaque tuas desidero
+                    literas, quibus meis desiderijs in his satisfiat, quas ut mature ante instantem
+                    hyemem accipiam, operam des: idque commodissime fiet, si eas miseris vel
+                        <placeName ref="Rostock">Rostochium</placeName> ad D. <persName
+                        ref="Brucaeus, Henrich"><app>
                             <lem wit="#Friis">HENRICUM BRUCÆUM</lem>
                             <rdg wit="#A">Heinricum Bracæum</rdg>
                         </app></persName> Medicum, vel <placeName ref="Lübeck">Lubecam</placeName>,
@@ -128,10 +134,10 @@
                     intermittas. Optarem vero quam maxime illius de libro nostro, sibi etiam
                     transmisso, iudicium. Quod si per te ab ipso etiam, ante hyemis impedimenta,
                     literis consignatum impetravero, feceris mihi rem longe gratissimam. Iterum
-                    felicissime vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 17.
-                    Augusti Anno 1588.</p>
-                <lb/>
-                <p rend="rightMargin">Tui amantissimus<lb/>TYCHO BRAHE.</p>
+                    felicissime vale. </p>
+                <closer><dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 17.
+                        Augusti Anno 1588.</dateline>
+                    <signed>Tui amantissimus<lb/>TYCHO BRAHE.</signed></closer>
             </div>
         </body>
     </text>

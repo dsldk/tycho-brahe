@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.54</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.54</idno>
@@ -64,11 +73,11 @@
                     <date when="1588-09-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 20. september</date></creation>
+            <creation><date xml:lang="da">1588, 20. september.</date><date xml:lang="en">1588, 20 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -94,7 +103,7 @@
                 <pb ed="A" n="21v"/>
                 <opener>CLARISSIMO NOBILISSIMOQUE VIRO D. D. TYCHONI BRAHE, MATHEMATICO EXIMIO,
                     DOMINO ET AMICO SUO PLURIMUM COLENDO.<lb/>S. P.</opener>
-                <p><pb ed="A" n="16r"/>LITERAS tuas, amantissime TYCHO, misi Illustriss. Principis
+                <p rend="noIndent"><pb ed="A" n="16r"/>LITERAS tuas, amantissime TYCHO, misi Illustriss. Principis
                     nostri Cancellario <persName ref="Bording">IACOBO BORDINGO</persName>, verum
                     papyrus non est ad me transmissa; si ad me Illustriss. Princeps miserit, dabo
                     operam, ut a cœli iniurijs tuta <placeName ref="Copenhagen">Haffniam</placeName>
@@ -227,10 +236,8 @@
                                 Gnathomen!</q>. At deleta sunt illa quidem; Tycho vero nihilo minus
                             ad ea respondet 23. Mart. 1589
                             <!-- NB, jeg har skrevet datoen for hans svar i stedet for "p. 171.7 sqq", som står i noten --></rdg>
-                    </app>. Bene vale, mi TYCHO, et me mutuo ama.. <placeName ref="Rostock"
-                        >Rostochij</placeName> 20. Septembris Anno Domini 1588.</p>
-                <lb/>
-                <p><persName ref="Brucaeus">HENRICUS BRUCÆUS</persName>,<lb/>plane tuus. </p>
+                        </app>.</p> <closer><salute>Bene vale, mi <persName ref="brahe_tycho_1546">TYCHO</persName>, et me mutuo ama.</salute> <dateline><placeName ref="Rostock"
+                        >Rostochij</placeName> 20. Septembris Anno Domini 1588.</dateline><signed><persName ref="Brucaeus">HENRICUS BRUCÆUS</persName>,<lb/>plane tuus.</signed> </closer>
             </div>
         </body>
     </text>

@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.62</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.62</idno>
@@ -55,16 +64,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1588-05-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="hagesius_thaddaeus_1525">Thaddaeus Hagecius</persName>
+                    <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 3. maj</date></creation>
+            <creation><date xml:lang="da">1588, 3. maj.</date><date xml:lang="en">1588, 3 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,7 +101,7 @@
                     MATHEMATICO EXCELLENTISSIMO, AMICO SUO SINCERE DILECTO.<lb/><foreign
                         xml:lang="la"><hi rend="it"><placeName ref="Praha"
                         >PRAG</placeName>.</hi></foreign></opener>
-                <p><pb ed="A" n="1r"/>RARIORES ad te dare literas internunciorum cogit penuria,
+                <p rend="noIndent"><pb ed="A" n="1r"/>RARIORES ad te dare literas internunciorum cogit penuria,
                     eruditissime charissimeque D. D. THADDÆE, et locorum quibus disiungimur
                     intercapedo vota nostra plurimum impedit. Nactus itaque iam tandem aliqualem
                     occasionem literas mittendi per Studiosum quendam Silesium me unâ cum quibusdam
@@ -151,10 +160,8 @@
                     itaque, optime <persName
                         ref="Hagecius, Thaddaeus">THADDÆE</persName>, quam felicissime vale et ingravescentis ætatis
                     difficultates forti animo tolera, meque per occasionem quamcunque oblatam
-                    literis revisere non intermitte. Iterum vale. Datæ Uraniburgi die 3. Maij Anno
-                    1588.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus<lb/>TYCHO BRAHE.</p>
+                    literis revisere non intermitte.</p> <closer><salute>Iterum vale.</salute> D<dateline>atæ Uraniburgi die 3. Maij Anno
+                    1588.</dateline> <signed>Tuus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

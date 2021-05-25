@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,7 +41,19 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Transcript</ab>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="enda">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -57,16 +69,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1587-07-18"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Niels Bild</persName>
+                    <persName key="bild_niels_1553">Niels Bild</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1587, 18. juli</date></creation>
+            <creation><date xml:lang="da">1587, 18. juli.</date><date xml:lang="en">1587, 18 July.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -94,7 +106,7 @@
                     DETTE BREFF GANDSKE WENLIG
                     THILLSCHREFFUID.</opener>
                 
-                <p>MIJNN gandske wenlig helßennd nu och altid forsennd med Wor Herre.
+                <p rend="noIndent">MIJNN gandske wenlig helßennd nu och altid forsennd med Wor Herre.
                     Kiere <persName ref="Bild, Niels">Niels Bild</persName>, och sønderlige gode wenn, nest en wenligh tacksigelse
                     for alt beuist gode, huilket jeg altid will findis willig och redebon tiill epther
                     formuenn at forschilde, kand ieg eder wenligen icke forholde, att epthersom

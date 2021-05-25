@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,10 +45,25 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter Copy</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. VII, Hauniæ 1924, p. 1105</bibl>
+                            Tom. VII, Hauniæ 1924, p. 115</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -55,16 +74,17 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Henrik Brucaeus</persName>
+                    <persName key="brucaeus_heinrich_1530">Henrik Brucaeus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1587-10-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1587, 28. oktober</date></creation>
+            <creation><date xml:lang="da">1587, 28. oktober.</date><date xml:lang="en">1587, 28
+                    October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -85,20 +105,20 @@
         <front/>
         <body>
             <div>
-                
+
                 <p><pb ed="TBOO" n="VII.115"/>HENRICUS BRUCÆUS AD TYCHONEM BRAHE.</p>
-                <p><pb ed="A" n="89r"/>GRATISSIMÆ mihi fuerunt tuæ literæ cum literis ultro citroque
-                    ad Landgravium et eius Mathematicum scriptis, in quibus non sine voluptate legi
-                    vestrarum observationum consensum, tum in Cometa anni 85, tum in stellarum
-                    fixarum notatione longitudinum et latitudinum. Latitudines enim uterque mutari
-                    statuit, et sequi mutationem declinationis Eclipticæ, sive obliquitatis
-                    Eclipticæ variationem. Hæc cum maximâ, sententia COPERNICI, sit 24', quæ aliquot
-                    seculorum decursu fiat, et cum non multum inter <persName ref="Ptolemaios"
-                        >PTOLEMÆUM</persName> et <persName ref="Hipparchos">HIPPARCHUM</persName> et
-                        <persName ref="Menelaos">MENELAUM</persName> et <persName ref="Timochares"
-                        >TIMOCHARIN</persName> temporum intervallum intercedat, non mirum,
-                    latitudinum mutationem ab ijs non annotatam. Verum de <persName
-                        ref="Copernicus">COPERNICO</persName> miror, qui evidentem
+                <p rend="noIndent"><pb ed="A" n="89r"/>GRATISSIMÆ mihi fuerunt tuæ literæ cum
+                    literis ultro citroque ad Landgravium et eius Mathematicum scriptis, in quibus
+                    non sine voluptate legi vestrarum observationum consensum, tum in Cometa anni
+                    85, tum in stellarum fixarum notatione longitudinum et latitudinum. Latitudines
+                    enim uterque mutari statuit, et sequi mutationem declinationis Eclipticæ, sive
+                    obliquitatis Eclipticæ variationem. Hæc cum maximâ, sententia COPERNICI, sit
+                    24', quæ aliquot seculorum decursu fiat, et cum non multum inter <persName
+                        ref="Ptolemaios">PTOLEMÆUM</persName> et <persName ref="Hipparchos"
+                        >HIPPARCHUM</persName> et <persName ref="Menelaos">MENELAUM</persName> et
+                        <persName ref="Timochares">TIMOCHARIN</persName> temporum intervallum
+                    intercedat, non mirum, latitudinum mutationem ab ijs non annotatam. Verum de
+                        <persName ref="Copernicus">COPERNICO</persName> miror, qui evidentem
                     mutationem debuit animadvertere in tanta obliquitatis mutatione inter PTOLEMÆUM
                     et COPERNICUM intercedente, si veræ sunt observationes, quæ tantam obliquitatis
                     Zodiaci variationem tradunt. Quæ autem de refractione siderum tradis, subtilia
@@ -107,16 +127,17 @@
                     efficient. Quæ autem a doctissimo <persName ref="Rothmann">CHRISTOPHORO
                         ROTHMANNO</persName> in sua de Cometa anni 85 tractatione commemorantur,
                     velim legere. Ex hypothesi enim falsa verum sequi non dubito; scientiam autem
-                    fieri, nullus mihi persuaserit, si debeat ea oriri ex causis veris
-                    conclusionis. Videmus autem motum Solis tam per Eccentricum, quam per
-                    Concentricum cum Epicyclo tueri nos posse, cum vel neutra vel altera hypothesis
-                    vera esse queat, ut non satis intelligam, cur hoc in loco <persName
-                        ref="Aristoteles">ARISTOTELES</persName> subtilitatis arguatur. Quæ de
-                    cancris fluvialibus scribis, dabo operam, quantum in me erit; verum video
-                    maiores difficultates, quam tu fortasse cogites, quod cancrorum emtio et navium
-                    in Daniam solutio raro in eadem tempora incidant. Attamen studium meum cum in
-                    hoc tum in alio genere cognosces. Bene vale, mi TYCHO, et nos tui studiosissimos
-                    habeto. Rostochij 28 Octobris Anno Domini 1587.</p>
+                    fieri, nullus mihi persuaserit, si debeat ea oriri ex causis veris conclusionis.
+                    Videmus autem motum Solis tam per Eccentricum, quam per Concentricum cum
+                    Epicyclo tueri nos posse, cum vel neutra vel altera hypothesis vera esse queat,
+                    ut non satis intelligam, cur hoc in loco <persName ref="Aristoteles"
+                        >ARISTOTELES</persName> subtilitatis arguatur. Quæ de cancris fluvialibus
+                    scribis, dabo operam, quantum in me erit; verum video maiores difficultates,
+                    quam tu fortasse cogites, quod cancrorum emtio et navium in Daniam solutio raro
+                    in eadem tempora incidant. Attamen studium meum cum in hoc tum in alio genere
+                    cognosces.</p>
+                <closer><salute>Bene vale, mi TYCHO, et nos tui studiosissimos habeto.</salute>
+                    <dateline>Rostochij 28 Octobris Anno Domini 1587.</dateline></closer>
             </div>
         </body>
     </text>

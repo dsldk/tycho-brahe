@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Schleswig</settlement>
                                 <repository>Schleswig-Holsteinisches Landesarchiv</repository>
@@ -40,6 +44,21 @@
                                 <idno>R 119 foll. 586-601</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Schleswig</settlement>
+                                <repository>Schleswig-Holsteinisches Landesarchiv</repository>
+                                <collection>Abt. 127.21</collection>
+                                <idno>R 119 foll. 586-601</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -54,16 +73,18 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1588-12-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Heinrich Rantzau</persName>
+                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName>
+                    <persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 21. december</date></creation>
+            <creation><date xml:lang="da">1588, 21. december.</date><date xml:lang="en">1588, 21
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -85,45 +106,51 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.385"/>TYCHO BRAHE<lb/>S. D.</opener>
-                <p>EX literis tuis mihi non ita dudum perscriptis intellexi, nobilissime et
-                    eruditissime Domine <persName ref="Rantzau, Heinrich">HENRICE
-                    RANZOVI</persName>, te Sciotericum illud horizontale, quod tibi confieri feci,
-                    unâ cum fasciculis literarum adiunctis atque organo illo, quo nostræ hypotheses
-                    revolutionum cœlestium commodius explicantur, accepisse, eaque omnia tibi
-                    placuisse, <pb ed="TBOO" n="VII.386"/>plurimum tibi congratulor. Quantum vero ad
-                    lineæ meridianæ, quam desideras, ordinationem attinet, eam peculiari quadam
-                    ratione e stellis circumpolaribus exacte derivare soleo, ut azimutha
+                <opener><pb ed="TBOO" n="VII.385"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName><lb/>S. D.</opener>
+                <p rend="noIndent">EX literis tuis mihi non ita dudum perscriptis intellexi,
+                    nobilissime et eruditissime Domine <persName ref="Rantzau, Heinrich">HENRICE
+                        RANZOVI</persName>, te Sciotericum illud horizontale, quod tibi confieri
+                    feci, unâ cum fasciculis literarum adiunctis atque organo illo, quo nostræ
+                    hypotheses revolutionum cœlestium commodius explicantur, accepisse, eaque omnia
+                    tibi placuisse, <pb ed="TBOO" n="VII.386"/>plurimum tibi congratulor. Quantum
+                    vero ad lineæ meridianæ, quam desideras, ordinationem attinet, eam peculiari
+                    quadam ratione e stellis circumpolaribus exacte derivare soleo, ut azimutha
                     instrumentorum meorum in ipso scrupulo recte constent (quod alias difficulter
-                    fit). Verum in Scioterico isto tanta præcisio non est necessaria, sufficit itaque
-                    ad unum vel alterum recte elaboratum compassum lineam horæ duodecimæ meridiano
-                    cœlesti correspondentem statuere atque ita leviter firmare laminam. Deinde
-                    instante vere, ubi Sol altior fuerit, videndum diligenter, ut extremitas umbræ
-                    in certa aliqua hora antemeridiana eiusdem sit a centro longitudinis cum aliqua
-                    alia æqualiter post meridiem remota, quod circa ipsum æquinoctium commodius
-                    præstatur; tunc enim extremitas umbræ percurrit transversam rectam, quæ Æquatorem
-                    five initia &#x2648; et &#x264e; repræsentat, estque ea linea meridiei orthogonalis.
-                    Quare si hora 9<hi rend="sup">a</hi> 8<hi rend="sup">a</hi> 7<hi rend="sup">a</hi> matutina et 3<hi rend="sup">a</hi> 4<hi rend="sup">a</hi> 5<hi rend="sup">a</hi> vespertina extremitas umbræ eodem modo
-                    illi lineæ adhæret, recte dispositum est Sciotericum; sin minus, ita hinc inde
-                    componendum, donec omnia rite quadrent; interea vero ut in æquilibrio Horizontis
-                    continue permaneat, diligenter est cavendum. Potes etiam uti, si lubet, vulgari
-                    illa ratione inquirendi lineam meridiei per erectum Gnomonem a plano quodam
-                    horizontali, cui circumductis aliquot circulis videre, in quibus locis ante et
-                    post meridiem eos umbræ extremitas transeat, perque harum intersectionum
-                    medietatem ad centrum lineam ducere, quæ meridiem per umbram Gnomonis
-                    monstrabit, unde etiam Sciotericum eodem instanti ita rectificari potest, ut
-                    etiam unâ horam 12<hi rend="sup">am</hi> Gnomon eius indicet; sed hæc sunt vulgaria.</p>
-                <p rend="indent">Accepi interim et alias semel atque iterum a te literas unâque
+                    fit). Verum in Scioterico isto tanta præcisio non est necessaria, sufficit
+                    itaque ad unum vel alterum recte elaboratum compassum lineam horæ duodecimæ
+                    meridiano cœlesti correspondentem statuere atque ita leviter firmare laminam.
+                    Deinde instante vere, ubi Sol altior fuerit, videndum diligenter, ut extremitas
+                    umbræ in certa aliqua hora antemeridiana eiusdem sit a centro longitudinis cum
+                    aliqua alia æqualiter post meridiem remota, quod circa ipsum æquinoctium
+                    commodius præstatur; tunc enim extremitas umbræ percurrit transversam rectam,
+                    quæ Æquatorem five initia &#x2648; et &#x264e; repræsentat, estque ea linea
+                    meridiei orthogonalis. Quare si hora 9<hi rend="sup">a</hi> 8<hi rend="sup"
+                        >a</hi> 7<hi rend="sup">a</hi> matutina et 3<hi rend="sup">a</hi> 4<hi
+                        rend="sup">a</hi> 5<hi rend="sup">a</hi> vespertina extremitas umbræ eodem
+                    modo illi lineæ adhæret, recte dispositum est Sciotericum; sin minus, ita hinc
+                    inde componendum, donec omnia rite quadrent; interea vero ut in æquilibrio
+                    Horizontis continue permaneat, diligenter est cavendum. Potes etiam uti, si
+                    lubet, vulgari illa ratione inquirendi lineam meridiei per erectum Gnomonem a
+                    plano quodam horizontali, cui circumductis aliquot circulis videre, in quibus
+                    locis ante et post meridiem eos umbræ extremitas transeat, perque harum
+                    intersectionum medietatem ad centrum lineam ducere, quæ meridiem per umbram
+                    Gnomonis monstrabit, unde etiam Sciotericum eodem instanti ita rectificari
+                    potest, ut etiam unâ horam 12<hi rend="sup">am</hi> Gnomon eius indicet; sed hæc
+                    sunt vulgaria.</p>
+                <p>Accepi interim et alias semel atque iterum a te literas unâque
                     pallam papyri impressoriæ meæ officinæ admodum idoneam et quodam etiam tempore
-                    clarissimi et doctissimi viri <persName ref="Braunius">GEORGIJ BRAUN</persName>, Decani <placeName ref="Köln">Coloniensis</placeName>, quartam partem
-                    Theatri urbium, et præterea delineationem exequiarum ac sepulturæ regiæ
-                    <placeName ref="Hamburg">Hamburgi</placeName> per te æneis figuris procuratam; pro quibus omnibus plurimas et
-                    ingentes habeo gratias, quod si referendi occasio oblata unquam fuerit, dabo
-                    operam, ut intelligas me omni gratitudine et officio tibi futurum addictissimum.
-                    Papyrus autem impressoria ultimo missa est quidem satis apta meo operi, sed
-                    aliquanto maiuscula est, ut videre licet ex utroque adiuncto quaternione, nec
-                    tamen refert paululum maiorem esse, ac si minor foret.</p>
-                <p rend="indent">De opere Theatrico civitatum <persName ref="Braunius"
+                    clarissimi et doctissimi viri <persName ref="Braunius">GEORGIJ BRAUN</persName>,
+                    Decani <placeName ref="Köln">Coloniensis</placeName>, quartam partem Theatri
+                    urbium, et præterea delineationem exequiarum ac sepulturæ regiæ <placeName
+                        ref="Hamburg">Hamburgi</placeName> per te æneis figuris procuratam; pro
+                    quibus omnibus plurimas et ingentes habeo gratias, quod si referendi occasio
+                    oblata unquam fuerit, dabo operam, ut intelligas me omni gratitudine et officio
+                    tibi futurum addictissimum. Papyrus autem impressoria ultimo missa est quidem
+                    satis apta meo operi, sed aliquanto maiuscula est, ut videre licet ex utroque
+                    adiuncto quaternione, nec tamen refert paululum maiorem esse, ac si minor
+                    foret.</p>
+                <p>De opere Theatrico civitatum <persName ref="Braunius"
                         >BRAUNIJ</persName>, scias illud admodum mihi placere, et præclare te de
                     Patria nostra meritum iudico, quod urbium nostratium delineationem illi
                     procurâris. Video etiam Huenulam nostram non neglectam, quam tua opera procul
@@ -132,7 +159,7 @@
                     eos hactenus attulerunt. Si constaret mihi, ubi venales forent, et eos coëmerem,
                     quam primum vero per otium licuerit, data commoditate ipsi <persName
                         ref="Braunius">BRAUNIO</persName> scribam.</p>
-                <p rend="indent">Sculptorem sive incisorem talem, qui in ære vel etiam buxo figuras
+                <p>Sculptorem sive incisorem talem, qui in ære vel etiam buxo figuras
                     diligenter ad impressionem adornare norit, admodum expeterem. Constitui enim
                     primo quoque tempore omnia instrumenta mea Astronomica competenter delineata unâ
                     cum declaratione fabricæ et usus, additis quibusdam etiam alijs huc
@@ -142,87 +169,91 @@
                     obtinuero, nihil mihi acceptius evenire poterit. Mercedem ei libenter solvam,
                     quantam alibi promereri poterit, et per totam æstatem, quod agat, illi
                     procuraturus sum.</p>
-                <p rend="indent">Fecisti in aliquibus etiam nuper ad me datis literis mentionem
-                    cuiusdam <persName ref="Ursus">Dithmarsi</persName> nomine et re Ursini unâque misisti extractum literarum 
-                    clarissimi et doctissimi D. <persName ref="Rollenhagen">GEORGIJ
-                        ROLLENHAGIJ</persName> simul cum libro istius impudentis Plagiarij quem
-                    tamen antea aliunde habueram. Ut vero tam tu quam <persName ref="Rollenhagen"
-                        >ROLLENHAGIUS</persName> recte suspicamini istum hypothesium innovationem,
-                    quam sibi inverecunde attribuit, a me suffuratum esse, id ita revera se habet:
-                    Nam licet is nunquam mihi inservierit vel domesticus fuerit, ut vos forte
-                    existimatis, tamen cum ante quadriennium iam elapsum cum nobilissimo et
-                    doctissimo viro <persName ref="Lange, Erik">ERICO LANGIO</persName> de
-                    Engelstholm, tibi bene cognito, cui tunc inserviebat, 14 circiter dies hîc
-                    fuisset, interea dum ego cum <persName ref="Lange, Erik">ERICO</persName> amico
-                    meo singulari et quibusdam alijs unâ hic præsentibus nobilibus hilarius
-                    conversor, iste suffurator mihi plurima ex ijs, quæ magno labore et diligentia
-                    conquisita habui, clam descripsit et instrumentorum omnium, quæ tunc in promptu
-                    erant, formam ac dispositionem delineavit plurimaque alia, quæ conquirere
-                    potuit, subtraxit, similans tamen se nihil horum agere, imo hæc non curare
-                    quidem sed vili pendere. Postquam tamen hanc eius vafriciem suboluissem, alium
-                    quendam subornavi, qui magnam eorum partem, quæ abstulerat, reciperet, quæ adhuc
-                    præsto habeo. Video nunc illum plura quam recuperâram designasse vel etiam
-                    memoria retinuisse. Nam innovatio hæc hypothesium nemini unquam ante me, quod
-                    sciam, in mentem venit, occasionem vero huius inventi ex ijs, quæ nuper ad D.
-                        <persName ref="Peucer">PEUCERUM</persName> scripsi, satis intelliges. Quod
-                    autem hanc hypothesin tunc mihi surripuerit, hinc satis evidenter colligo:
-                    Cum enim prædicto <persName ref="Lange, Erik">ERICO</persName> amico meo,
-                    sciscitanti a me rationem diversitatis apparentiarum et retrogradationum
-                    Planetarum, eam tam secundum veterem Ptolemaicam quam Copernianam
-                    ratiocinationem <pb ed="TBOO" n="VII.388"/>illi in mensa depictam exposuissem,
-                    subiunxi adhuc alia quadam assumptione idem effici posse, et absurda quædam in
-                    his prioribus aperui, ille vero (ut est ingenio admodum docili et sciendi
-                    cupido) hanc formam a me sibi etiam ostendi petijt, quod cum astante et
-                    aspiciente isto Dithmarso servo suo me invite facturum animadverteret (indicâram
-                    enim illi antea me e moribus et physiognomia hominis perspexisse quinam esset)
-                    ille hoc foras amandato, ut aliud quid ageret, id quod voluit a me obtinuit,
-                    nostrasque etiam hypotheses generaliter et breviter indicatas ipsi delineavi,
-                    quas tamen mox expunxi. At Dithmarsus iste, cum aliquid secreti tractari
-                    persentisceret, ut erat nasutulus, eo diligentius inquirere, an aliquid
-                    eiuscemodi reperire posset et furtim subtrahere, itaque inter chartas meas in
-                    fenestra repositas abiectam quandam delineationem huius dispositionis motuum
-                    cœlestium adinvenit, quæ tamen, incuria nescio qua, ita erat depicta, ut orbis
-                    Martius Solarem totaliter ambiret, cumque id non recte se haberet, tanquam
-                    inepta et dissonans cassata atque neglecta est, is tamen hanc ipsam pro vera et
-                    congrua arripiens, aut tacite postea delineavit, vel memoria conservavit, quam
-                    pro sua inventione impudenti mendacio nunc venditat, seque eam ante triennium in
-                    angulo quodam <placeName ref="Poland">Regni Poloniæ</placeName> (ubi procul dubio nunquam fuerat) excogitasse
-                    finxit, imo et illustrissimo <persName ref="Wlhelm, landgrave of Hessen">Principi Landtgravio</persName> eam tanquam a se excogitatam
-                    dedicare non erubescit; tanta est hominis vel potius ursi istius inverecunda
-                    arrogantia. Verum dum falsam, quam hîc reperit, designationem eodem modo
-                    imitatur et eandem sequitur magnitudinem (erat enim et ea erronea delineatio,
-                    quam hîc vidit, in integro folio patenti depicta) satis ipsemet furtum suum
-                    propalat, et hæc ipsa, quæ iactitat, revera se non intelligere, multo minus, ut
-                    eorum autor et inventor sit, non obscuris indicijs prodit. Sic plurima alia, imo
-                    præcipua et fere omnia, quæ in isto libro pro suis venditat, etsi non totaliter
-                    a me prfsecta sint, tamen ab alijs Mathematicis sive scientibus illis sive clam
-                    habuit, adeo ut nihil fere aliud agat in toto isto libello, quam ut alienis se
-                    ornet plumis, nimis perfricta fronte aliorum inventa et labores sibi
-                    attribuendo, eaque quæ nunquam didicit vel præstare potest, promittendo. Sed
-                    indignus est iste inveterator, de quo plura scribam, et forte hæc ipsa nimia
-                    sunt; non potui tamen intermittere, quin tibi significarem, quî factum sit, ut
-                    iste hypotheses nostras acceperit easque prorsus publicârit, ut non solum tu,
-                    sed etiam <persName ref="Rollenhagen">ROLLENHAGIUS</persName> certo sciretis,
-                    merum furtum esse eius in hac hypothesi ostentationem; et recte quidem asseveras
-                    <persName ref="Ursus">URSUM</persName> istum, licet meos labores surripuerit, tamen eum fundamentaliter omnia non
-                    intellexisse, ut patet vel ex falsa illa quam proponit delineatione, dum
-                    proportionem orbis Martij ad Solarem turpiter ignorat. Et <persName
-                        ref="Rollenhagen">ROLLENHAGIUS</persName> candide atque prudenter indicat
-                    ea, quæ a fugitivo aliquo <pb ed="TBOO" n="VII.389"/>ministro a me abalienata et
-                    foras eliminata sunt, mihi indicanda, ut vero inventori postliminio
-                    restituantur. Intelligo enim ipsum statim ex <persName ref="Ursus">URSI</persName> istius scripto perspexisse
-                    hanc, quam pro sua venditat, inventionem a me prodijsse, siquidem antea ad te
-                    perscripserat, sibi ante biennium a fugitivo quodam meo ministro hanc hypothesin
-                    communicatam esse. Neque tamen satis inde colligere possum, an hunc ipsum <persName ref="Ursus">URSUM</persName>
-                    notet, putans forte illum aliquando mihi inservijsse, an vero alium quendam, qui
-                    hinc clam e mea domo decesserit, existimet. Peto itaque peramanter, ut, quam
-                    primum detur occasio ad illum scribendi, velis expiscari, quisnam et quo nomine
-                    fuerit fugitivus ille, de quo scribit, minister meus, cuius opera huius
-                    hypotheseos formam adeptus est. Averem enim scire, an hîc ipsus fuerit <persName ref="Ursus">URSUS</persName> vel
-                    alius quispiam; ego etenim neminem scio ex omnibus studiosis, qui mihi hactenus
-                    in Astronomicis rebus inservierunt, me inscio vel invito clam hinc discessisse.
-                    Nec satis cogitare possum, quisnam ille fuerit fugitivus, cuius semel atque
-                    iterum <persName ref="Rollenhagen">ROLLENHAGIUS</persName> mentionem facit. Eum
+                <p>Fecisti in aliquibus etiam nuper ad me datis literis mentionem
+                    cuiusdam <persName ref="Ursus">Dithmarsi</persName> nomine et re Ursini unâque
+                    misisti extractum literarum clarissimi et doctissimi D. <persName
+                        ref="Rollenhagen">GEORGIJ ROLLENHAGIJ</persName> simul cum libro istius
+                    impudentis Plagiarij quem tamen antea aliunde habueram. Ut vero tam tu quam
+                        <persName ref="Rollenhagen">ROLLENHAGIUS</persName> recte suspicamini istum
+                    hypothesium innovationem, quam sibi inverecunde attribuit, a me suffuratum esse,
+                    id ita revera se habet: Nam licet is nunquam mihi inservierit vel domesticus
+                    fuerit, ut vos forte existimatis, tamen cum ante quadriennium iam elapsum cum
+                    nobilissimo et doctissimo viro <persName ref="Lange, Erik">ERICO
+                        LANGIO</persName> de Engelstholm, tibi bene cognito, cui tunc inserviebat,
+                    14 circiter dies hîc fuisset, interea dum ego cum <persName ref="Lange, Erik"
+                        >ERICO</persName> amico meo singulari et quibusdam alijs unâ hic præsentibus
+                    nobilibus hilarius conversor, iste suffurator mihi plurima ex ijs, quæ magno
+                    labore et diligentia conquisita habui, clam descripsit et instrumentorum omnium,
+                    quæ tunc in promptu erant, formam ac dispositionem delineavit plurimaque alia,
+                    quæ conquirere potuit, subtraxit, similans tamen se nihil horum agere, imo hæc
+                    non curare quidem sed vili pendere. Postquam tamen hanc eius vafriciem
+                    suboluissem, alium quendam subornavi, qui magnam eorum partem, quæ abstulerat,
+                    reciperet, quæ adhuc præsto habeo. Video nunc illum plura quam recuperâram
+                    designasse vel etiam memoria retinuisse. Nam innovatio hæc hypothesium nemini
+                    unquam ante me, quod sciam, in mentem venit, occasionem vero huius inventi ex
+                    ijs, quæ nuper ad D. <persName ref="Peucer">PEUCERUM</persName> scripsi, satis
+                    intelliges. Quod autem hanc hypothesin tunc mihi surripuerit, hinc satis
+                    evidenter colligo: Cum enim prædicto <persName ref="Lange, Erik"
+                        >ERICO</persName> amico meo, sciscitanti a me rationem diversitatis
+                    apparentiarum et retrogradationum Planetarum, eam tam secundum veterem
+                    Ptolemaicam quam Copernianam ratiocinationem <pb ed="TBOO" n="VII.388"/>illi in
+                    mensa depictam exposuissem, subiunxi adhuc alia quadam assumptione idem effici
+                    posse, et absurda quædam in his prioribus aperui, ille vero (ut est ingenio
+                    admodum docili et sciendi cupido) hanc formam a me sibi etiam ostendi petijt,
+                    quod cum astante et aspiciente isto Dithmarso servo suo me invite facturum
+                    animadverteret (indicâram enim illi antea me e moribus et physiognomia hominis
+                    perspexisse quinam esset) ille hoc foras amandato, ut aliud quid ageret, id quod
+                    voluit a me obtinuit, nostrasque etiam hypotheses generaliter et breviter
+                    indicatas ipsi delineavi, quas tamen mox expunxi. At Dithmarsus iste, cum
+                    aliquid secreti tractari persentisceret, ut erat nasutulus, eo diligentius
+                    inquirere, an aliquid eiuscemodi reperire posset et furtim subtrahere, itaque
+                    inter chartas meas in fenestra repositas abiectam quandam delineationem huius
+                    dispositionis motuum cœlestium adinvenit, quæ tamen, incuria nescio qua, ita
+                    erat depicta, ut orbis Martius Solarem totaliter ambiret, cumque id non recte se
+                    haberet, tanquam inepta et dissonans cassata atque neglecta est, is tamen hanc
+                    ipsam pro vera et congrua arripiens, aut tacite postea delineavit, vel memoria
+                    conservavit, quam pro sua inventione impudenti mendacio nunc venditat, seque eam
+                    ante triennium in angulo quodam <placeName ref="Poland">Regni
+                        Poloniæ</placeName> (ubi procul dubio nunquam fuerat) excogitasse finxit,
+                    imo et illustrissimo <persName ref="Wlhelm, landgrave of Hessen">Principi
+                        Landtgravio</persName> eam tanquam a se excogitatam dedicare non erubescit;
+                    tanta est hominis vel potius ursi istius inverecunda arrogantia. Verum dum
+                    falsam, quam hîc reperit, designationem eodem modo imitatur et eandem sequitur
+                    magnitudinem (erat enim et ea erronea delineatio, quam hîc vidit, in integro
+                    folio patenti depicta) satis ipsemet furtum suum propalat, et hæc ipsa, quæ
+                    iactitat, revera se non intelligere, multo minus, ut eorum autor et inventor
+                    sit, non obscuris indicijs prodit. Sic plurima alia, imo præcipua et fere omnia,
+                    quæ in isto libro pro suis venditat, etsi non totaliter a me prfsecta sint,
+                    tamen ab alijs Mathematicis sive scientibus illis sive clam habuit, adeo ut
+                    nihil fere aliud agat in toto isto libello, quam ut alienis se ornet plumis,
+                    nimis perfricta fronte aliorum inventa et labores sibi attribuendo, eaque quæ
+                    nunquam didicit vel præstare potest, promittendo. Sed indignus est iste
+                    inveterator, de quo plura scribam, et forte hæc ipsa nimia sunt; non potui tamen
+                    intermittere, quin tibi significarem, quî factum sit, ut iste hypotheses nostras
+                    acceperit easque prorsus publicârit, ut non solum tu, sed etiam <persName
+                        ref="Rollenhagen">ROLLENHAGIUS</persName> certo sciretis, merum furtum esse
+                    eius in hac hypothesi ostentationem; et recte quidem asseveras <persName
+                        ref="Ursus">URSUM</persName> istum, licet meos labores surripuerit, tamen
+                    eum fundamentaliter omnia non intellexisse, ut patet vel ex falsa illa quam
+                    proponit delineatione, dum proportionem orbis Martij ad Solarem turpiter
+                    ignorat. Et <persName ref="Rollenhagen">ROLLENHAGIUS</persName> candide atque
+                    prudenter indicat ea, quæ a fugitivo aliquo <pb ed="TBOO" n="VII.389"/>ministro
+                    a me abalienata et foras eliminata sunt, mihi indicanda, ut vero inventori
+                    postliminio restituantur. Intelligo enim ipsum statim ex <persName ref="Ursus"
+                        >URSI</persName> istius scripto perspexisse hanc, quam pro sua venditat,
+                    inventionem a me prodijsse, siquidem antea ad te perscripserat, sibi ante
+                    biennium a fugitivo quodam meo ministro hanc hypothesin communicatam esse. Neque
+                    tamen satis inde colligere possum, an hunc ipsum <persName ref="Ursus"
+                        >URSUM</persName> notet, putans forte illum aliquando mihi inservijsse, an
+                    vero alium quendam, qui hinc clam e mea domo decesserit, existimet. Peto itaque
+                    peramanter, ut, quam primum detur occasio ad illum scribendi, velis expiscari,
+                    quisnam et quo nomine fuerit fugitivus ille, de quo scribit, minister meus,
+                    cuius opera huius hypotheseos formam adeptus est. Averem enim scire, an hîc
+                    ipsus fuerit <persName ref="Ursus">URSUS</persName> vel alius quispiam; ego
+                    etenim neminem scio ex omnibus studiosis, qui mihi hactenus in Astronomicis
+                    rebus inservierunt, me inscio vel invito clam hinc discessisse. Nec satis
+                    cogitare possum, quisnam ille fuerit fugitivus, cuius semel atque iterum
+                        <persName ref="Rollenhagen">ROLLENHAGIUS</persName> mentionem facit. Eum
                     itaque si is mihi indicârit, rem pergratam fecerit. Video hunc <persName
                         ref="Rollenhagen">ROLLENHAGIUM</persName> non saltem excellenter eruditum et
                     iudicio gravi præpollentem, sed etiam virum integrum et syncerum benevoleque de
@@ -233,9 +264,10 @@
                     Doctore <persName ref="Peucer">PEUCERO</persName> mihi inscriptas receperis,
                     rogo, ut eas inprimis huc mittere non gravari velis. Vale, vir nobilissime et
                     præclarissime, deque artibus eruditis bene mereri, uti facis, tibique hac
-                    ratione laudem nunquam intermorituram comparare ne intermitte. Iterum quam
-                    felicissime et diutissime vive valeque. Datæ <placeName ref="Uraniborg"
-                        >Uraniburgi</placeName>, die 21 Decembris, Anno 1588.</p>
+                    ratione laudem nunquam intermorituram comparare ne intermitte.</p>
+                <closer><salute>Iterum quam felicissime et diutissime vive valeque.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName>, die 21
+                        Decembris, Anno 1588.</dateline></closer>
             </div>
         </body>
     </text>

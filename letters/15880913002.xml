@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Mikolov (Nicolsburg)</settlement>
                                 <repository>empty</repository>
@@ -40,9 +40,24 @@
                                 <idno>II 72</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Mikolov (Nicolsburg)</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>II 72</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Paris</settlement>
                                 <repository>Bibliotheque Nationale</repository>
@@ -50,6 +65,21 @@
                                 <idno>Français 13040, fol. 162</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>Bibliotheque Nationale</repository>
+                                <collection>empty</collection>
+                                <idno>Français 13040, fol. 162</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Resen">
                         <bibl>P.J. Resen, <title>inscriptiones Hafnienses</title>, Haffniæ 1668, p.
@@ -72,16 +102,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1588-09-13"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Caspar Peucer</persName>
+                    <persName key="peucer_caspar_1525">Caspar Peucer</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 13. september</date></creation>
+            <creation><date xml:lang="da">1588, 13. september.</date><date xml:lang="en">1588, 13 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -105,15 +135,15 @@
             <div>
                 <pb ed="TBOO" n="VII.127"/>
                 <pb ed="A" n="Eer"/>
-                <head><app>
-                        <lem>TYCHO BRAHE</lem>
+                <opener><app>
+                    <lem><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName></lem>
                         <rdg><note>om. Resen</note></rdg>
                     </app>
-                    <persName ref="Peucer">CASPARO PEUCERO</persName>. <lb/><app>
+                    <persName ref="peucer_caspar_1525">CASPARO PEUCERO</persName>. <lb/><app>
                         <lem wit="#A">SALUTEM P. D.</lem>
                         <rdg><note>om. Resen</note></rdg>
-                    </app></head>
-                <p>HABEBAM iam dudum in votis tecum <app>
+                    </app></opener>
+                <p rend="noIndent">HABEBAM iam dudum in votis tecum <app>
                         <lem wit="#A">vel</lem>
                         <rdg wit="#Resen">ut</rdg>
                     </app> coram, cum <placeName ref="Wittenberg">Vitebergam</placeName>
@@ -1172,7 +1202,7 @@
                     ita apud serenissimam Reginam procurante, nihil iam amplius obstabit, quin
                     primus liber propediem in lucem edatur. Interea his fruere, <pb ed="A" n="C6v"
                     />et quam felicissime diutissimeque vale, eruditissime et de Republica literaria
-                    optime merite <persName ref="Peucer">PEUCERE</persName>, meque tui amantissimum,
+                    optime merite <persName ref="peucer_caspar_1525">PEUCERE</persName>, meque tui amantissimum,
                     quod facis, redamare et per literas ante hyemem ingruentem revisere non
                     intermittas. Commodissimum autem <app>
                         <lem>erit</lem>
@@ -1183,11 +1213,11 @@
                     </app> sæpe dictum nobilem Dom. <persName ref="Rantzau, Heinrich">HENRICUM
                         RANZOVIUM</persName> in Holsatiam mittere, qui illas ad me perferri non
                     gravatim procurabit.</p>
-                <p rend="indent">Iterum et sæpe multumque vale, vir vita et valetudine diuturna
-                    dignissime. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 13.
-                    Septembris Anno 1588.</p>
-                <lb/>
-                <p><app>
+                <closer><salute>Iterum et sæpe multumque vale, vir vita et valetudine diuturna
+                    dignissime.</salute> <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 13.
+                    Septembris Anno 1588.</dateline></closer>
+               
+                <postscript><p rend="noIndent"><app>
                         <lem wit="#TBOO"><app>
                                 <lem>Hæ literæ</lem>
                                 <rdg><note>ante <q>Hæ literæ</q> add. <q>S. Doct. Pezelio</q>
@@ -1196,7 +1226,7 @@
                                 DEE</persName>, quem cras mane ante abitum, Deo volente,
                             conveniemus.</lem>
                         <rdg><note>om. A</note></rdg>
-                    </app></p>
+                    </app></p></postscript>
             </div>
         </body>
     </text>

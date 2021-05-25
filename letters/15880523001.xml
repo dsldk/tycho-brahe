@@ -49,16 +49,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Caselius</persName>
+                    <persName key="caselius_johannes_1533">Johannes Caselius</persName>
                     <placeName>Rostock</placeName>
                     <date when="1588-05-23"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 23. maj</date></creation>
+            <creation><date xml:lang="da">1588, 23. maj.</date><date xml:lang="en">1588, 23 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,12 +82,12 @@
                 <pb ed="TBOO" n="VII.121"/>
                 <pb ed="A" n="36"/>
                 <opener>TYCHONI BRAHE.</opener>
-                <p>IAM optimo <persName ref="Frederik 2.">Regi</persName> vestro laudationem pango, cuius exemplum IUNIO ad te mittam: qua
+                <p rend="noIndent">IAM optimo <persName ref="Frederik 2.">Regi</persName> vestro laudationem pango, cuius exemplum IUNIO ad te mittam: qua
                     re cum sim occupatus, neque diligenter scribo, neque uberius. Gratificor autem
                     huic familiari meo <persName ref="Haken">HAKEN</persName>, Equiti Marchico, iuveni probo, nec abhorrenti a
                     litteris, quarum gratia apud nos vivit. Omnino voluit te videre: facies gratum,
                     si facies ut intelligat, te mihi peramicum; nam et alioqui te humanissimum virum
-                    sentiet. Vale. <placeName ref="Rostock">Rostochio</placeName> X. Kalend. Iun. Anno 1588.</p>
+                    sentiet.</p> <closer><salute>Vale.</salute> <dateline><placeName ref="Rostock">Rostochio</placeName> X. Kalend. Iun. Anno 1588.</dateline></closer>
             </div>
         </body>
     </text>

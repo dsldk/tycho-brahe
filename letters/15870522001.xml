@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,21 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +79,11 @@
                     <date when="1587-05-22"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1587, 22. maj</date></creation>
+            <creation><date xml:lang="da">1587, 22. maj.</date><date xml:lang="en">1587, 22 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,7 +107,7 @@
                 <pb ed="TBOO" n="VII.114"/>
                 <opener><persName ref="Brucaeus, Heinrich">HENRICUS BRUCÆUS</persName> AD TYCHONEM
                     BRAHE.</opener>
-                <p><pb ed="A" n="88v"/><!-- måske Renftlerus? --><persName ref="Rentfler">DANIEL
+                <p rend="noIndent"><pb ed="A" n="88v"/><!-- måske Renftlerus? --><persName ref="Rentfler">DANIEL
                         RENTFLERUS</persName>, in bonis literis apprime versatus, eruditus mehercle
                     iuvenis et optimis moribus excultus, Daniam petere voluit visendi gratia et te
                     inprimis salutare, qui alter Atlas cœlum humeris ferre diceris. Age, mi TYCHO,
@@ -120,9 +135,9 @@
                     si aliquot dies carere queas, ad nos mittito. Nos minus hoc tempore hisce
                     studijs vacamus, alijs distracti. Tu quid agas, quid mediteris, fac intelligam.
                     Et si quid ex Vulcani officina habes, quod in paralyticis et alijs contumacibus
-                    morbis nostra medicamenta respuentibus expertus es, id communices rogo. Vale,
-                    Nobilissime doctissimeque TYCHO, et nos mutuo ama. <placeName ref="Rostock"
-                        >Rostochij</placeName> 22. Maij 1587. <pb n="28"/></p>
+                    morbis nostra medicamenta respuentibus expertus es, id communices rogo.</p> <closer><salute>Vale,
+                    Nobilissime doctissimeque TYCHO, et nos mutuo ama.</salute> <dateline><placeName ref="Rostock"
+                        >Rostochij</placeName> 22. Maij 1587.</dateline></closer>
             </div>
         </body>
     </text>

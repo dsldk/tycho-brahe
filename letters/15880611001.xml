@@ -59,7 +59,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName><persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Uraniborg</placeName>
                     <date when="1587-06-11"/>
                 </correspAction>
@@ -68,7 +68,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 11. juni</date></creation>
+            <creation><date xml:lang="da">1588, 11. juni.</date><date xml:lang="en">1588, 11 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -97,7 +97,7 @@
                             ref="Wilhelm, landgrave of Hessen">WILHELMI</persName> LANDTGRAVII
                         HASSIÆ, ETC. MATHEMATICO EXIMIO, AMICO SUO PLURIMUM DILECTO, S. D.
                 </opener>
-                <p>STATVERAM quidem hoc tempore, doctissime et charissime <persName ref="Rothmann"
+                <p rend="noIndent">STATVERAM quidem hoc tempore, doctissime et charissime <persName ref="Rothmann"
                         >ROTHMANNE</persName>, plenius copiosiusque ad proximas Illustrissimi
                         <persName ref="Wilhelm, landgrave of Hessen">Principis</persName> tuasque
                     literas respondere, sed cum plurimæ, tum publicæ, tum priuatæ curæ inciderint,
@@ -164,7 +164,7 @@
                     <salute>Vale.</salute>
                     <dateline>Datum <placeName ref="Uraniborg">Vraniburgi</placeName> circa
                         Solstitium Æstiuum, Anno 1588.</dateline>
-                    <signed>TYCHO BRAHE.</signed></closer>
+                    <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>
