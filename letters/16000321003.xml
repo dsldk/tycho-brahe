@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -43,10 +43,22 @@
                             <physDesc>
                                 <ab>Letter draft</ab>
                             </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 54 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 184</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 184, no. 183</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -63,11 +75,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Oluf Rosensparre</persName>
+                    <persName key="rosensparre_oluf_1559">Oluf Rosensparre</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-03-21 n.s.</date></creation>
+            <creation><date xml:lang="da">1600 21. marts n.s.</date><date xml:lang="en">1600 21 March NS.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -90,11 +102,11 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.184"/>[TYCHO BRAHE AD <persName ref="Rosensparre, Oluf"
+                <opener><pb ed="TBOO" n="XIV.184"/>[<persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="rosensparre_oluf_1559"
                         >OLAUM ROSENSPARRE</persName>].</opener>
 
-                <p>MIN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre <persName
-                        ref="Rosensparre, Oluf">Oluff Rosenspar</persName>, sour och sønderlig gode
+                <p rend="noIndent">MIN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre <persName
+                        ref="rosensparre_oluf_1559">Oluff Rosenspar</persName>, sour och sønderlig gode
                     wen, tacker ieg eder gandske gierne for megit beuist gode, huilket wdjgien att
                     forskylde ieg stedtze will findiß aff formuen willig. Giffuendiß eder derhos
                     gandske wenligen thillkiende, att ieg haffuer bekommit eders skriffuelse met min

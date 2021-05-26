@@ -13,26 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 38 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -46,7 +62,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 175-76</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 175-76, no. 179</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -63,11 +79,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Beate Bille</persName>
+                    <persName key="bille_beate_1526">Beate Bille</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-03-21 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 21. marts n.s.</date><date xml:lang="en">1600, 21.
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -82,26 +99,28 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-01-20" who="#pz">Filen etableret</change>
+            <change when="2021-05-26" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.175"/>[TYCHO BRAHE AD <persName ref="Bille, Beate"
-                        >BEATAM BILLE</persName>].</opener>
+                <opener><pb ed="TBOO" n="XIV.175"/>[<persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="Bille, Beate">BEATAM
+                    BILLE</persName>].</opener>
 
-                <p>MIN gandske sønlig och wenlig hilsen nu och althiid forsendt met Vor Herre.
-                    Kierre moder, Gud almechtigste werre nu och althiid hoß eder och beware eder
-                    naadelligen och well fran alt det, eder kan werre skadelligt enten thill sæll
-                    eller liff, och nest megen thacksigelße for allt bewist gode, for huilcket y
-                    althiid skulle finde mig willig och thienstachtig y alle die maade, ieg kan
-                    giørre nogit, som eder thill ære och gode kan werre, som ieg eder ocsaa stedtze
-                    plichtig er. Giffuer ieg eder gandske wenligen thillkiende, att eders gode
-                    skriffuellse er mig thillhende kommen met min søn Tyge, som kom hid thill mig
-                    ygien nogit epther nøttaarsthag y dette aar, och war det mig megit kiert deraff
-                    att fornemme, att eder Gudtskeloff lider well. Den samme gode Gudt vnde mig
-                    allthiid samme thidenner thill eder att spørge. Och tacker ieg eder derhos
+                <p rend="noIndent">MIN gandske sønlig och wenlig hilsen nu och althiid forsendt met
+                    Vor Herre. Kierre moder, Gud almechtigste werre nu och althiid hoß eder och
+                    beware eder naadelligen och well fran alt det, eder kan werre skadelligt enten
+                    thill sæll eller liff, och nest megen thacksigelße for allt bewist gode, for
+                    huilcket y althiid skulle finde mig willig och thienstachtig y alle die maade,
+                    ieg kan giørre nogit, som eder thill ære och gode kan werre, som ieg eder ocsaa
+                    stedtze plichtig er. Giffuer ieg eder gandske wenligen thillkiende, att eders
+                    gode skriffuellse er mig thillhende kommen met min søn Tyge, som kom hid thill
+                    mig ygien nogit epther nøttaarsthag y dette aar, och war det mig megit kiert
+                    deraff att fornemme, att eder Gudtskeloff lider well. Den samme gode Gudt vnde
+                    mig allthiid samme thidenner thill eder att spørge. Och tacker ieg eder derhos
                     gandske gierne for det møgit gode, y bewiste samme min søn den stun, han var hoß
                     eder, och for die pange, y forærit hannom; hand lod sig derfor giørre itt smugt
                     guldarmbond, som han will forware och berre for eders skyldt den stund han
@@ -138,20 +157,23 @@
                     allthingest, huilket <persName ref="Rudolf 2.">hans may.</persName> ocsaa lod
                     sig naadigst befalle. Och war so naadigst aff mig begerendis, att ieg wille
                     sende hannom nogen aff den <hi rend="it">medecin</hi>, som ieg brugte emod samme
-                    søgdom, och en beskriffning, horledis den skullde beredis, huilket ieg och
-                    strax giorde, huilket <persName ref="Rudolf 2.">hanß may.</persName> well
-                    behagid, efftersom <persName ref="Rudolf 2.">hanß may.</persName>. ellers er
-                    mig met all keiserlige øndist och naade megit well bewogen, so att ieg icke
-                    nochsom kan thacke Vor Herre derfor, som haffuer giort mine willkor anderlediß
-                    och bedre end die thillforn ware y mitt fernelandt. Och will nu icke
-                    widløfftiger schriffue eder thill derom, eptherdj y det thillforn, der min søn
-                    var derinde y landit, haffuer en god part deraff fornummit.</p>
+                    søgdom, och en beskriffning, horledis den skullde beredis, huilket ieg och strax
+                    giorde, huilket <persName ref="Rudolf 2.">hanß may.</persName> well behagid,
+                    efftersom <persName ref="Rudolf 2.">hanß may.</persName>. ellers er mig met all
+                    keiserlige øndist och naade megit well bewogen, so att ieg icke nochsom kan
+                    thacke Vor Herre derfor, som haffuer giort mine willkor anderlediß och bedre end
+                    die thillforn ware y mitt fernelandt. Och will nu icke widløfftiger schriffue
+                    eder thill derom, eptherdj y det thillforn, der min søn var derinde y landit,
+                    haffuer en god part deraff fornummit.</p>
                 <p rend="indent">Allthingest er endnu vdj samme wesen, och haabis nest Guds hielp,
                     att det enda hereffter kan bliffue bedre, hortill den allmechtigste Gud giffue
-                    løcke och benedidellße. Den samme gode Gud vill ieg ocsaa haffue eder till languarendis sundhed, løckke och we[l]fard troligen befalid.</p>
-                <closer><dateline>Daterit paa det keyserlige slot <placeName ref="Benatky">Benatick</placeName> den 21 dag <foreign xml:lang="la"><hi rend="it">martij</hi></foreign>
-                    epther denne regning, som er den 11 hoß eder, <foreign xml:lang="la"><hi rend="it">anno</hi></foreign>
-                    1600.</dateline></closer>
+                    løcke och benedidellße. Den samme gode Gud vill ieg ocsaa haffue eder till
+                    languarendis sundhed, løckke och we[l]fard troligen befalid.</p>
+                <closer><dateline>Daterit paa det keyserlige slot <placeName ref="Benatky"
+                            >Benatick</placeName> den 21 dag <foreign xml:lang="la"><hi rend="it"
+                                >martij</hi></foreign> epther denne regning, som er den 11 hoß eder,
+                            <foreign xml:lang="la"><hi rend="it">anno</hi></foreign>
+                        1600.</dateline></closer>
 
             </div>
         </body>

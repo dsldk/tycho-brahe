@@ -32,7 +32,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 56-63.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -46,7 +58,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 185-89</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 184-89, no. 184</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -62,11 +74,11 @@
                     <date when="1600-03-22"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Eske Bille</persName>
+                    <persName key="bille_eske_1552">Eske Bille</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-03-22 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 22. marts n.s.</date><date xml:lang="en">1600, 22 March NS.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -89,16 +101,16 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.185"/>[TYCHO BRAHE AD <persName ref="Bille, Eske"
+                <opener><pb ed="TBOO" n="XIV.185"/>[<persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="bille_eske_1552"
                         >ESCHILLUM BILLE</persName>].</opener>
 
-                <p>MINN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre
-                        <persName ref="Bille, Eske">Eske Bilde</persName> och kierre broder, Gud
+                <p rend="noIndent">MINN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre
+                        <persName ref="bille_eske_1552">Eske Bilde</persName> och kierre broder, Gud
                     allmechtigste beuare dig nu och allthiid naadelligen och vell fran allt ont, och
                     nest megen tacksigelße for all hulhet och gode, som du mig stedtze giort och
                     beuist haffuer, huilket du skallt allthiid finde mig gandske godwillig aff
                     formuen att forskylde y hues maade ieg kan giørre nogit, som dig till ærre och
-                    gode kan werre. Kierre <persName ref="Bille, Eske">Eske</persName>, bekom ieg
+                    gode kan werre. Kierre <persName ref="bille_eske_1552">Eske</persName>, bekom ieg
                     din skriffuelße met min søn <persName ref="Brahe, Tycho junior">Tyge</persName>,
                     som kom hid hiem till mig igien lidet epther nøtaarsdag, och formercker først
                     derudaff, att diße gode willkord, som Vor Herre haffuer forsønid mig met her hoß
@@ -303,7 +315,7 @@
                     haffuer skreffuit, att ieg icke er tilsindz att giørre der nogen ødermere
                     bekostning paa; det er alt formøgit, som sked er tillforn, haffde ieg die penge
                     vdigien, da skulle die neppe bliffue mere so ilde sted.</p>
-                <p rend="indent">Kierre <persName ref="Bille, Eske">Eske</persName>, som du
+                <p rend="indent">Kierre <persName ref="bille_eske_1552">Eske</persName>, som du
                     formelder y dine <hi rend="it"><foreign xml:lang="la">postscriptis</foreign></hi>, siden du vast igen kommen till
                         <placeName ref="København">Kiøbenhaffn</placeName>, om min gaar der y bøen,
                     att du kanst icke bekomme offuer 15 hundrid thaller derfor aff die frower, so
@@ -354,7 +366,7 @@
                     sin fornembste vrmacher hid till mig, som er en sønderlig kønstler, huilken hoß
                     mig skall forfare allehonne, som der till hører, och siden giørre saadant for
                     hanß may.</p>
-                <p rend="indt">Kierre <persName ref="Bille, Eske">Eske</persName> och kierre broder,
+                <p rend="indt">Kierre <persName ref="bille_eske_1552">Eske</persName> och kierre broder,
                     fortenck mig icke, att ieg saa thitt bemøder dig met min handell, ieg haffuer
                     ingen anden derudj landit, som will haffue saa møgen wmag for mig; dersom ieg
                     vdi nogen mode kan tienne dig vdigien, skall du finde mig mere end villig

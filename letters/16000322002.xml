@@ -32,7 +32,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 64 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -46,7 +58,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 190-91</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 190-91, no. 185</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -63,11 +75,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Kirsten Lindenov</persName>
+                    <persName key="lindenov_kirsten_1535">Kirsten Lindenov</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-03-22 n.s.</date></creation>
+            <creation><date xml:lang="da">1600 22. marts n.s.</date><date xml:lang="eb">1600 22 March NS.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -84,17 +96,18 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-23" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-21" who="#pz">Korrekturlæst</change>
+            <change when="2021-05-26" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.190"/>[TYCHO BRAHE AD <persName ref="Lindenov, Kirsten"
+                <opener><pb ed="TBOO" n="XIV.190"/>[<persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="lindenov_kirsten_1535"
                         >CHRISTINAM LINDENOV</persName>]</opener>
 
-                <p>MIN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre fru
-                        <persName ref="Lindenov, Kirsten">Chirstine</persName> och kierre
+                <p rend="noIndent">MIN gandske wenlig hilsen nu och allthiid forsend met Vor Herre. Kierre fru
+                        <persName ref="lindenov_kirsten_1535">Chirstine</persName> och kierre
                     modersøster, Gud allmechtigste beware eder nadelligen och well fran allt ont,
                     och nest megen tacksigelse for allt bewist gode, huilket vdigien att forskylde
                     ieg stedtze vill findis aff formuen willig. Giffuer ieg eder gandske wenligen

@@ -13,26 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol 35, Fol. 97 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -46,7 +62,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 195</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 195, no. 190</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -67,7 +83,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-04-04 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 04. april n.s.</date><date xml:lang="en">1600, 04 April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,26 +108,31 @@
             <div>
                 <opener><pb ed="TBOO" n="XIV.195"/>REVERENDISSIMIS, NOBILISSIMIS, CLARISSIMISQUE
                     VIRIS D:NIS DECANO, CŒTERISQUE ECCLESIÆ METROPOLITANÆ IN ARCHIEPISCOPATU
-                    MAGDEBURGENSI CAPITULARIBUS ET DOMINIS ET AMICIS SUIS HONORANDISSIMIS.</opener>
-
-                <p rend="center">Reverendissimi et nobilissimi viri d:i et amici honorandissimi.</p>
-                <p>CUM <persName ref="Rudolf 2.">sa:a cæs:a m:tas</persName>, dominus noster clementissimus, jam antea literas dederit ad
-                    amplissimum senatum <placeName ref="Magdeburg">Magdeburgensem</placeName>, ut
-                    jnstrumenta mea astronomica atque supellectilem isthic repositam huc in
-                        <placeName ref="Bohemia">Bohemiam</placeName>, intermediante <placeName
-                            ref="Elben">Albi fluvio</placeName>, suis sumptibus in <persName ref="Rudolf 2.">ipsius ma:tis</persName> gratiam
-                    transferri procurare velint, illj vero id ipsum suo quodam consilio renuere visi
-                    sint, utut bis ab <persName ref="Rudolf 2.">ipsius cæs:a ma:te</persName> hac de re clementissimis literis
-                    compellarentur, non igitur placuit <persName ref="Rudolf 2.">ipsius ma:ti</persName> de his sæpius ad illos scribere,
-                    sed potius ad vestrum reverendissimum capitulum literas hoc nomine dirigere,
-                    præsertim cum subintellexerit vestras reverend:mas dominationes ab hoc officio
-                    <persName ref="Rudolf 2.">suæ cæs:æ ma:ti</persName> obsequiose et reverenter præstando minime alienas esse. Quare
-                    nunc <persName ref="Rudolf 2.">ipsius ma:tis</persName> literas hæc ipsa continentes ad reverend:mas vestras
+                    MAGDEBURGENSI CAPITULARIBUS ET DOMINIS ET AMICIS SUIS HONORANDISSIMIS.<lb/>
+                    <salute>Reverendissimi et nobilissimi viri d:i et amici
+                    honorandissimi.</salute></opener>
+                <p rend="noIndent">CUM <persName ref="Rudolf 2.">sa:a cæs:a m:tas</persName>,
+                    dominus noster clementissimus, jam antea literas dederit ad amplissimum senatum
+                        <placeName ref="Magdeburg">Magdeburgensem</placeName>, ut jnstrumenta mea
+                    astronomica atque supellectilem isthic repositam huc in <placeName ref="Bohemia"
+                        >Bohemiam</placeName>, intermediante <placeName ref="Elben">Albi
+                        fluvio</placeName>, suis sumptibus in <persName ref="Rudolf 2.">ipsius
+                        ma:tis</persName> gratiam transferri procurare velint, illj vero id ipsum
+                    suo quodam consilio renuere visi sint, utut bis ab <persName ref="Rudolf 2."
+                        >ipsius cæs:a ma:te</persName> hac de re clementissimis literis
+                    compellarentur, non igitur placuit <persName ref="Rudolf 2.">ipsius
+                        ma:ti</persName> de his sæpius ad illos scribere, sed potius ad vestrum
+                    reverendissimum capitulum literas hoc nomine dirigere, præsertim cum
+                    subintellexerit vestras reverend:mas dominationes ab hoc officio <persName
+                        ref="Rudolf 2.">suæ cæs:æ ma:ti</persName> obsequiose et reverenter
+                    præstando minime alienas esse. Quare nunc <persName ref="Rudolf 2.">ipsius
+                        ma:tis</persName> literas hæc ipsa continentes ad reverend:mas vestras
                     dominationes per ministrum meum mitto, officiosissime et reverenter simul
-                    rogans, ut, quemadmodum <persName ref="Rudolf 2.">ipsius ma:tis</persName> clementissimæ petitioni obsequentissimo
-                    animo obtemporaturas nihil ambigo, sic etiam effecturas ut omnes res meæ isthic
-                    reservatæ qua fieri potest maturatione, sartætectæ, advehantur, atque de iis,
-                    quæ huc conducunt, provideatur. Accipiet illud <persName ref="Rudolf 2.">ipsius ma:tas</persName> clementissima
+                    rogans, ut, quemadmodum <persName ref="Rudolf 2.">ipsius ma:tis</persName>
+                    clementissimæ petitioni obsequentissimo animo obtemporaturas nihil ambigo, sic
+                    etiam effecturas ut omnes res meæ isthic reservatæ qua fieri potest maturatione,
+                    sartætectæ, advehantur, atque de iis, quæ huc conducunt, provideatur. Accipiet
+                    illud <persName ref="Rudolf 2.">ipsius ma:tas</persName> clementissima
                     favorabili mente eritque simul, vti spero, reip. literariæ utile, cujus
                     promotionem vos non solum genere jllustres, sed et eximia eruditione conspicuos,
                     exoptare et auxiliatrices manus præbere velle persuasum habeo; neque enim ea quæ
@@ -121,23 +142,28 @@
                     nunquam intermoriturum, sedulo elaborare satago, privata sunt, aut ad me meosque
                     solummodo pertinentia, sed ad universam literaturam eruditam ubivis locorum
                     quoad sol et sidera durabunt (prout confido) conducentia. Jdeoque v:s d:es
-                    commune hic bonum lubenti animo adjuturas non est dubium, <app><lem>[omnino mihi
-                    polliceor]</lem><rdg>in margine inserta sunt</rdg></app>; quod equidem officium, quantum ad me attinet, etsi compensare vires
-                    non sufficiant, pro meo tamen modulo inveniar perpetuo erga reverendissimum
-                    vestrum capitulum hoc nomine gratus; sique nihil aliud referre vicissim potero,
-                    vestram tamen hanc præclaram voluntatem apud alios extollere et deprædicare non
+                    commune hic bonum lubenti animo adjuturas non est dubium, <app>
+                        <lem>[omnino mihi polliceor]</lem>
+                        <rdg>in margine inserta sunt</rdg>
+                    </app>; quod equidem officium, quantum ad me attinet, etsi compensare vires non
+                    sufficiant, pro meo tamen modulo inveniar perpetuo erga reverendissimum vestrum
+                    capitulum hoc nomine gratus; sique nihil aliud referre vicissim potero, vestram
+                    tamen hanc præclaram voluntatem apud alios extollere et deprædicare non
                     desistam. Si quempiam ex vestris fidelibus ministris adjunxeritis, qui res meas
                     huc comitetur et earum curam gerat, poteritis (modo vestris dominationibus ita
-                    placuerit) vina <placeName ref="Bohemia">Bohemica</placeName>, quæ superiori æstate adeo generosa hic creverunt, ut
-                    plurimi antecedentes anni vix similia dederint, secum in aliqua copia iustoque
-                    precio recipere: quod ut commode fiat, vel si quid aliud ex his oris
-                    desideratis, quod isthic pluris æstimatur, dabo operam, ut quantum in me est
-                    vestræ voluntati hac in parte satisfiat, sicque sumptus erogati quodammodo mea
-                    opinione resarciri poterunt. Plura et particulariora clar:us et præst:mus vir
-                    d:nus <persName ref="Rollenhagen">Georgius Rollenhagius</persName> isthic scholæ
-                    rector, singularis meus amicus, ad vestras do:nes, sicubi opus fuerit, referet.</p>
-                    <closer><salute>Deus opt. max. vos omnes diu conservet florentes et incolumes.</salute> <dateline>Dabantur ex <placeName ref="Benatky">arce
-                    Cæsarea Benatica</placeName> die 4 aprilis stylo novo anno 1600.</dateline></closer>
+                    placuerit) vina <placeName ref="Bohemia">Bohemica</placeName>, quæ superiori
+                    æstate adeo generosa hic creverunt, ut plurimi antecedentes anni vix similia
+                    dederint, secum in aliqua copia iustoque precio recipere: quod ut commode fiat,
+                    vel si quid aliud ex his oris desideratis, quod isthic pluris æstimatur, dabo
+                    operam, ut quantum in me est vestræ voluntati hac in parte satisfiat, sicque
+                    sumptus erogati quodammodo mea opinione resarciri poterunt. Plura et
+                    particulariora clar:us et præst:mus vir d:nus <persName ref="Rollenhagen"
+                        >Georgius Rollenhagius</persName> isthic scholæ rector, singularis meus
+                    amicus, ad vestras do:nes, sicubi opus fuerit, referet.</p>
+                <closer><salute>Deus opt. max. vos omnes diu conservet florentes et
+                        incolumes.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">arce Cæsarea Benatica</placeName>
+                        die 4 aprilis stylo novo anno 1600.</dateline></closer>
             </div>
         </body>
     </text>
