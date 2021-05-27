@@ -13,31 +13,46 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="A">
-                        <msDesc>
+                    <witness xml:id="A"><msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
                                 <collection>Autographensammlung</collection>
-                                <idno>Vol. 36, Fol. 113</idno>
+                                <idno>Vol. 35, Fol. 113</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 113</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
@@ -46,7 +61,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 201</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 201, no. 194</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -58,16 +73,17 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName>Prague <!-- Benatica --></placeName>
+                    <placeName>Benatky</placeName>
                     <date when="1600-04-24"/>
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Vincent Möller</persName>
+                    <persName key="moller_vincent_1560">Vincent Moller</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-04-24 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 24. april n.s.</date><date xml:lang="en">1600, 24
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,38 +100,44 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-11" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-21" who="#pz">Korrekturlæst</change>
+            <change when="2021-05-27" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.201"/>MAGNIFICO ET PRÆSTANTISSIMO VIRO D:NO <persName ref="Möller, Vincent">VINCENTIO
-                    MOLLERO</persName>, AMPLISSIMÆ REIPUB. <placeName ref="Hamburg">HAMBURGENSIS</placeName> CONSULI
-                    PRUDENTISSIMO ET V. I. LICENTIATO EXIMIO,
-                    AMICO SUO HONORANDO.</opener>
-                
-                <p>MAGNIFICE et excellentissime do:ie <persName ref="Möller, Vincent">Vincenti Mullere</persName>, amice honorande,
-                    pro nupera euectione ad dignitatem consularem in amplissima vestra
-                    republica E:æ T. ex animo congratulor, optoque, ut fausta et salutaris sit.
-                    Ago vero gratias, quod me humanissimis tuis literis inuisere non degrauatus
-                    sis, et negocium apud reliquos dignissimos consules et senatores vrbis
-                    vestræ, de quo <persName ref="Rudolf 2.">cæs:a ma:tas</persName>, d:nus noster clementissimus, meo nomine perscripsit,
-                    promoturum polliceris. Spero autem, literas <persName ref="Rudolf 2.">ipsius m:tis</persName> iam ad vos
-                    peruenisse, aut cum instrumentis et rebus meis, quæ <placeName ref="Lübeck">Lubecæ</placeName> sunt, breui
-                    allatum irj. Quare E:m T:m diligenter et peramice rogatam cupio, ut sua
-                    authoritate et intercessione procurare velit, quo per omnia <persName ref="Rudolf 2.">c:æ m:tis</persName> clementissimæ
-                    voluntatj meæque expectationi satisfiat. De quibus <persName ref="Petkum">Simon de Petkum</persName>
-                    te plenius instruet, ejus enim fidej et curæ rem omnem commisj. Scripsi etiam
-                    denuo illi de ijs, quæ <placeName ref="Wandsburg">Wandesburgj</placeName> meo ære parata sunt et nondum persoluta,
-                    ut compensationem urgeat, in quo etiam negocio Præstantia Tua suo consilio
-                    et auxilio, præsertim quo ad vestræ vrbis fabrum et cæteros opifices, qui
-                    sciunt, quantum exposuerim illisque numerauerim, quam optime mihi subueniet,
-                    nec diffido eam, vt id ingenue fateantur, lubenti animo effecturam.
-                    Si quid in his oris, quod T. P:æ gratum erit, a me præstari poterit, inueniet
-                    me vicissim ad illi gratificandum quam paratissimum.</p> <closer><salute>Valeat P:a T:a cum tota
-                    domo sua quam optime et diutissime.</salute> <dateline>Dabantur properanter ex <placeName ref="Benatky">arce Cæsarea
-                    Benatika</placeName> 24 aprilis stylo nouo anno 1600.</dateline></closer>
+                <opener><pb ed="TBOO" n="XIV.201"/>MAGNIFICO ET PRÆSTANTISSIMO VIRO D:NO <persName
+                        ref="moller_vincent_1560">VINCENTIO MOLLERO</persName>, AMPLISSIMÆ REIPUB.
+                        <placeName ref="Hamburg">HAMBURGENSIS</placeName> CONSULI PRUDENTISSIMO ET
+                    V. I. LICENTIATO EXIMIO, AMICO SUO HONORANDO.</opener>
+
+                <p rend="noIndent">MAGNIFICE et excellentissime do:ie <persName
+                        ref="moller_vincent_1560">Vincenti Mullere</persName>, amice honorande, pro
+                    nupera euectione ad dignitatem consularem in amplissima vestra republica E:æ T.
+                    ex animo congratulor, optoque, ut fausta et salutaris sit. Ago vero gratias,
+                    quod me humanissimis tuis literis inuisere non degrauatus sis, et negocium apud
+                    reliquos dignissimos consules et senatores vrbis vestræ, de quo <persName
+                        ref="rudolf_2_1552">cæs:a ma:tas</persName>, d:nus noster clementissimus,
+                    meo nomine perscripsit, promoturum polliceris. Spero autem, literas ipsius m:tis
+                    iam ad vos peruenisse, aut cum instrumentis et rebus meis, quæ <placeName
+                        ref="Lübeck">Lubecæ</placeName> sunt, breui allatum irj. Quare E:m T:m
+                    diligenter et peramice rogatam cupio, ut sua authoritate et intercessione
+                    procurare velit, quo per omnia <persName ref="rudolf_2_1552">c:æ
+                        m:tis</persName> clementissimæ voluntatj meæque expectationi satisfiat. De
+                    quibus <persName ref="petkum_simon_1600">Simon de Petkum</persName> te plenius
+                    instruet, ejus enim fidej et curæ rem omnem commisj. Scripsi etiam denuo illi de
+                    ijs, quæ <placeName ref="Wandsburg">Wandesburgj</placeName> meo ære parata sunt
+                    et nondum persoluta, ut compensationem urgeat, in quo etiam negocio Præstantia
+                    Tua suo consilio et auxilio, præsertim quo ad vestræ vrbis fabrum et cæteros
+                    opifices, qui sciunt, quantum exposuerim illisque numerauerim, quam optime mihi
+                    subueniet, nec diffido eam, vt id ingenue fateantur, lubenti animo effecturam.
+                    Si quid in his oris, quod T. P:æ gratum erit, a me præstari poterit, inueniet me
+                    vicissim ad illi gratificandum quam paratissimum.</p>
+                <closer><salute>Valeat P:a T:a cum tota domo sua quam optime et diutissime.</salute>
+                    <dateline>Dabantur properanter ex <placeName ref="Benatky">arce Cæsarea
+                            Benatika</placeName> 24 aprilis stylo nouo anno
+                    1600.</dateline></closer>
                 <lb/>
             </div>
         </body>

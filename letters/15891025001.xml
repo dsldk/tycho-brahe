@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +45,21 @@
                                 <idno>cod. Vindob. lat. 9737 f</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter draft</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +79,12 @@
                     <date when="1589-10-25"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>John Craig</persName>
+                    <persName key="craig_john_1620">John Craig</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 25. oktober</date></creation>
+            <creation><date xml:lang="da">1589, 25. oktober.</date><date xml:lang="en">1589, 25
+                    October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,13 +106,15 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.195"/>
-                <p>TYCHO BRAHE AD DR. IOANNEM CRAIGUM.<lb/>S.</p>
+                <p><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD DR. <persName
+                        ref="craig_john_1620">IOANNEM CRAIGUM</persName>.<lb/>S.</p>
                 <pb ed="A" n="8r"/>
-                <p>CUM tres hac elapsa æstate a te receperim literas, Doctiss. CRAIGE, nulla ijs
-                    hactenus respondendi commodior est oblata occasio quam per hunc Magnificum et
-                    Nobiliss. virum <persName ref="Stuart, William">WILHELMUM STUARTUM</persName>,
-                    qui etiam tibi priores meas tradi curavit; cum enim conterranei tui hic essent,
-                    qui magnificum et illustrem Dominum Legatum comitabantur, non concedebatur tibi
+                <p rend="noIndent">CUM tres hac elapsa æstate a te receperim literas, Doctiss.
+                        <persName ref="craig_john_1620">CRAIGE</persName>, nulla ijs hactenus
+                    respondendi commodior est oblata occasio quam per hunc Magnificum et Nobiliss.
+                    virum <persName ref="Stuart, William">WILHELMUM STUARTUM</persName>, qui etiam
+                    tibi priores meas tradi curavit; cum enim conterranei tui hic essent, qui
+                    magnificum et illustrem Dominum Legatum comitabantur, non concedebatur tibi
                     rescribendi otium præ alijs curis politicis et œconomicis. Ab eo vero tempore si
                     quando aliquid ab alijs occupationibus respirationis supererat, amanuensi meo
                     responsionem Apologeticam ad has ipsas tuas literas, quibus et sententiam meam
@@ -114,38 +136,40 @@
                     medicamentorum præparationem tecum non invite communicarem, si scirem, quidnam
                     in ijs maxime expeteres, et ubi in laboribus his pyronomicis dubia præcipue
                     moveris, licet ut dicam id quod res est: hæc arcana neque tuto neque competenter
-                    literis consignantur. <persName ref="Rollandus">ROLANDI</persName> illius, cuius in ultimis literis mentionem facis,
-                    Centurias nondum vidi; ubi nactus fuero, dubitationem, quam circa quasdam inibi
-                    contentas præparationes moves, minimo negotio resolvam. Distillatis uti
-                    purgantibus nec adeo paratu facile est neque etiam, nisi plura adhibeantur et
-                    circumspecte omnia fiant, satis consultum; amittunt enim ea, quæ per se
-                    purgantia sunt, vim ferme omnem, si distillando exaltentur, neque extracta
-                    illorum adeo valida sunt, atque ipsa materia, per se licet impurior. Sed de his
-                    alias plenius tecum agere <pb ed="TBOO" n="VII.196"/>licebit, omnium vero optime coram id
-                    fieret, si nostram invisendi Uraniam unâque officinam Hermeticam tibi unquam
-                    occasio contingeret.</p>
-                <p rend="indent">Pro communicatis quibusdam compendijs Triangulorum gratias habeo, licet ipsemet,
-                    ubi primus numerus est integer sinus, hæc satis antea perspecta habeam ; ubi
-                    plura <pb ed="A" n="9r"/>inquirere atque enodare tibi otium fuerit, feceris
-                    mihi rem gratam, si omnia quotquot eiuscemodi colligere poteris compendia,
-                    peculiari libello comprehensa et exemplis illustrata, mihi transmiseris, utque
-                    inventum illud quod tibi Helix Geometrica appellatur, unâ cum canonis
-                    confectione plenius aperias velim. Ego laboribus et sumptibus non parcam, ut per
-                    operarios sufficientes res hæc executioni mandetur, modo ufufructus par sit
-                    labori, et si per me quidpiam rursus, quod tibi gratum sit, præstari poterit,
-                    invenies me perpetuo ad quodvis officij genus quam promptissimum. Scripseram
-                    tibi et alias literas per quendam Studiosum Germanum, qui aliquot mensibus mecum
-                    fuerat, quemque frater meus in quadam navi Illustrissimam Principem nostram
-                    Serenissimi Regis vestri sponsam in Scotiam, si venti secundi fuissent,
-                    deductura in suo comitatu habuit, sed cum re ob maris sævitiam et ventorum
-                    adversantium vehementiam infecta classis nostra in portum reversa sit, te eas
-                    non accepisse compertum habeo, neque existimo Studiosum illum hac hyeme, ut
-                    constituerat, Scotiam visurum. Quod ideo refero, ne ob moram hanc aliquantulam,
-                    quæ in rescribendo commissa est, me prorsus officij immemorem fuisse suspiceris.
-                    Verum si quid hactenus intermissum est, id scriptum nostrum Apologeticum sua
-                    copia recompensabit, quod ut per otium diligenter evolvas, etsi quid adhuc
-                    foveris scrupuli, ingenue significes, te etiam atque etiam rogatum habeo. Vale.
-                    <placeName ref="Uraniborg">Uraniburgi</placeName> 25. Octobris Anno 89.</p>
+                    literis consignantur. <persName ref="Rollandus">ROLANDI</persName> illius, cuius
+                    in ultimis literis mentionem facis, Centurias nondum vidi; ubi nactus fuero,
+                    dubitationem, quam circa quasdam inibi contentas præparationes moves, minimo
+                    negotio resolvam. Distillatis uti purgantibus nec adeo paratu facile est neque
+                    etiam, nisi plura adhibeantur et circumspecte omnia fiant, satis consultum;
+                    amittunt enim ea, quæ per se purgantia sunt, vim ferme omnem, si distillando
+                    exaltentur, neque extracta illorum adeo valida sunt, atque ipsa materia, per se
+                    licet impurior. Sed de his alias plenius tecum agere <pb ed="TBOO" n="VII.196"
+                    />licebit, omnium vero optime coram id fieret, si nostram invisendi Uraniam
+                    unâque officinam Hermeticam tibi unquam occasio contingeret.</p>
+                <p rend="indent">Pro communicatis quibusdam compendijs Triangulorum gratias habeo,
+                    licet ipsemet, ubi primus numerus est integer sinus, hæc satis antea perspecta
+                    habeam ; ubi plura <pb ed="A" n="9r"/>inquirere atque enodare tibi otium fuerit,
+                    feceris mihi rem gratam, si omnia quotquot eiuscemodi colligere poteris
+                    compendia, peculiari libello comprehensa et exemplis illustrata, mihi
+                    transmiseris, utque inventum illud quod tibi Helix Geometrica appellatur, unâ
+                    cum canonis confectione plenius aperias velim. Ego laboribus et sumptibus non
+                    parcam, ut per operarios sufficientes res hæc executioni mandetur, modo
+                    ufufructus par sit labori, et si per me quidpiam rursus, quod tibi gratum sit,
+                    præstari poterit, invenies me perpetuo ad quodvis officij genus quam
+                    promptissimum. Scripseram tibi et alias literas per quendam Studiosum Germanum,
+                    qui aliquot mensibus mecum fuerat, quemque frater meus in quadam navi
+                    Illustrissimam Principem nostram Serenissimi Regis vestri sponsam in Scotiam, si
+                    venti secundi fuissent, deductura in suo comitatu habuit, sed cum re ob maris
+                    sævitiam et ventorum adversantium vehementiam infecta classis nostra in portum
+                    reversa sit, te eas non accepisse compertum habeo, neque existimo Studiosum
+                    illum hac hyeme, ut constituerat, Scotiam visurum. Quod ideo refero, ne ob moram
+                    hanc aliquantulam, quæ in rescribendo commissa est, me prorsus officij immemorem
+                    fuisse suspiceris. Verum si quid hactenus intermissum est, id scriptum nostrum
+                    Apologeticum sua copia recompensabit, quod ut per otium diligenter evolvas, etsi
+                    quid adhuc foveris scrupuli, ingenue significes, te etiam atque etiam rogatum
+                    habeo.</p>
+                <closer><salute>Vale. </salute><dateline><placeName ref="Uraniborg"
+                            >Uraniburgi</placeName> 25. Octobris Anno 89.</dateline></closer>
             </div>
         </body>
     </text>

@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.31</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.31</idno>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 30. november</date></creation>
+            <creation><date xml:lang="da">1589, 30. november.</date><date xml:lang="en">1589, 30 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,9 +96,9 @@
             <div>
                 <pb ed="TBOO" n="VII.220"/>
                 <pb ed="A" n="7v"/>
-                <opener>ANTIQUA NOBILITATE VIRO CLARISS. ET ERUDITIONE PRÆSTANTI D. TYCHONI BRAHE
+                <opener>ANTIQUA NOBILITATE VIRO CLARISS. ET ERUDITIONE PRÆSTANTI D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>
                     DANO, URANIEBURGI DOMINO, D. ET AMICO OBSERVANDO.<lb/>S.</opener>
-                <p><pb ed="A" n="6r"/>NOBILISS. Domine et amice observande. Cum intellexissem Legatum Regis vestri
+                <p rend="noIndent"><pb ed="A" n="6r"/>NOBILISS. Domine et amice observande. Cum intellexissem Legatum Regis vestri
                     D. <persName ref="Winshemius">VINSHEMIUM</persName> ad nostrum Imp. venisse, quam primum mihi per valetudinem licuit,
                     statim eum adij et percontatus sum, an aliquid literarum abs te mihi attulisset.
                     Iam enim diu exoptabam tuas, quibus saltem edocerer de meis ad te, num omnes,
@@ -128,9 +137,8 @@
                     usque feliciter successisse. <placeName ref="Geneve">Genevæ</placeName> obsidionem solutam narrant, relicta tamen fuisse quædam præsidia in
                     obsidione, quæ Genevenses effusi ex urbe dispulerunt et novum commeatum in urbem
                     invexerunt. Deus suam Ecclesiam contra tyrannos potenti sua manu tueatur et
-                    defendat. B. V. mi amantiss. TYCHO. Datæ <placeName ref="Praha">Pragæ</placeName> die ultima Novemb. veteri stylo Anno 1589.</p>
-                <lb/>
-                <p rend="rightMargin">T. studiosiss.<lb/>THAD.</p>
+                    defendat. </p><closer><salute>B. V. mi amantiss. <persName ref="brahe_tycho_1546">TYCHO</persName>.</salute> <dateline>Datæ <placeName ref="Praha">Pragæ</placeName> die ultima Novemb. veteri stylo Anno 1589.</dateline><signed>T. studiosiss.<lb/><persName ref="hagecius_thaddaeus_1525">THAD.</persName></signed></closer>
+                
             </div>
         </body>
     </text>

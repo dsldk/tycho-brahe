@@ -13,31 +13,47 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
-                                <repository>Universitetsbiblioteket</repository>
+                                <repository>Rigsarkivet</repository>
                                 <collection>Konsistoriums arkiv</collection>
-                                <idno>Pakke 188</idno>
+                                <idno>[gammel signatur: KA 188]</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Konsistoriums arkiv</collection>
+                                <idno>[old signature: KA 188]</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
@@ -62,11 +78,12 @@
                     <date when="1589-12-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Poul Madsen</persName>
+                    <persName key="madsen_poul_1527">Poul Madsen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589-12-16</date></creation>
+            <creation><date xml:lang="da">1589, 16. december.</date><date xml:lang="en">1589, 16
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,44 +100,54 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-15" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-14" who="#pz">Korrekturlæst</change>
+            <change when="2021-05-27" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.50"/>CLARISSIMO DOCTISSIMOQUE VIRO, D. DOCTORI <persName ref="Madsen, Poul">PAULO
-                    MATTHIÆ</persName>, SUPERINTENDENTI SELANDENSI ET NUNC
-                    RECTORI ACADEMIÆ HAFNIENSIS MAGNIFICO,
-                    AMICO PLURIMUM DILECTO.</opener>
-                
-                <p>CLARISSIME et doctissime d. doctor <persName ref="Madsen, Poul">Paule</persName>, amice dilecte. Constitueram
-                    iam aliquamdiu <placeName ref="København">Hafniam</placeName> ire, vt cum domino <persName ref="Kaas">cancellario</persName> cum de alijs,
-                    tum de <persName ref="Gellius">Gellij</persName> negotio, de quo vltimo per m. <persName ref="Petri, Paulus">Paulum Petrj</persName>, jllustrissimi ducis
-                    <persName ref="Ulrik (prins)">Vdalrici</persName> pædagogum, commonefierj curaui, verum, interim dum frigus aspe<pb ed="TBOO" n="XIV.51"/>rius
-                    continue durat, veritus, id quod iam præ foribus est, fretum videlicet hoc
-                    congelatum iri, reditumque maturiorem interclusurum, profectionem hanc
-                    consulto in commodioris auræ statum distuli. Rogo autem peramanter, vt
-                    interea, dum ego absum, nihil <persName ref="Gellius">Gellij</persName> nomine ob promotionem magisterij nondum
-                    susceptam, vel a te vel quoquam alio ad dominum <persName ref="Kaas">cancellarium</persName> perferatur,
-                    quod <persName ref="Gellius">Gellio</persName> meo vllo damno aut detrimento cedat. Jd enim si factum
-                    fuerit, cogor ego postmodum omnem rem apud dominum <persName ref="Kaas">cancellarium</persName>
-                    excusare, atque ea referre, quæ lubentius omitterem. Suasu enim et consilio d.
-                    doct. <!-- nb hvem? -->Andreæ (bonæ memoriæ) id factum est, quod promotio illa dilata sit,
-                    quemadmodum ego illi paucis diebus ante obitum perscripsi, et meapte manu
-                    eius formalia verba, quæ mihi aliquando in aurem dixerat, in memoriam
-                    reuocaui; ignorabam enim illum lethaliter decumbere. Atque ipsæ literæ in
-                    ipsius archiuis adhuc reperientur; ne quis me post descessum eius hæc data
-                    opera excogitare suspicari queat. Pro tua itaque prudentia fac hac in parte
-                    id, quod omnibus consultius erit. Quam primum celi clementia opportunitatem
-                    concesserit dominum <persName ref="Kaas">cancellarium</persName> accedendi, non diffido, quin ab ipso
-                    impetraturus sim, vt cum <persName ref="Gellius">Gellio</persName> hac in parte certas ob caussas dispensetur,
-                    quodque tam vos quam ille sitis extra periculum futuri. Hæc tibi breuibus per
-                    literas nunc indicanda duxi, cum ipsemet tam cito atque vellem præsens adesse
-                    nequeam. Rogo, vt hæc in bonam partem, quemadmodum etiam scripta sunt,
-                    accipere velis, atque per presentem nuntium sententiam tuam hac de re vicissim
-                    significare.</p> <closer><salute>Vale quam felicissime.</salute> <dateline>Datum <placeName ref="Uraniborg">Vraniburgi</placeName> die 16 decembris
-                    anno 89.</dateline><signed>TYCHO BRAHE,<lb/>manu pp:a.</signed></closer>
+                <opener><pb ed="TBOO" n="XIV.50"/>CLARISSIMO DOCTISSIMOQUE VIRO, D. DOCTORI
+                        <persName ref="madsen_poul_1527">PAULO MATTHIÆ</persName>, SUPERINTENDENTI
+                    SELANDENSI ET NUNC RECTORI ACADEMIÆ HAFNIENSIS MAGNIFICO, AMICO PLURIMUM
+                    DILECTO.</opener>
+
+                <p rend="noIndent">CLARISSIME et doctissime d. doctor <persName
+                        ref="madsen_poul_1527">Paule</persName>, amice dilecte. Constitueram iam
+                    aliquamdiu <placeName ref="København">Hafniam</placeName> ire, vt cum domino
+                        <persName ref="Kaas">cancellario</persName> cum de alijs, tum de <persName
+                        ref="Gellius">Gellij</persName> negotio, de quo vltimo per m. <persName
+                        ref="Petri, Paulus">Paulum Petrj</persName>, jllustrissimi ducis <persName
+                        ref="Ulrik (prins)">Vdalrici</persName> pædagogum, commonefierj curaui,
+                    verum, interim dum frigus aspe<pb ed="TBOO" n="XIV.51"/>rius continue durat,
+                    veritus, id quod iam præ foribus est, fretum videlicet hoc congelatum iri,
+                    reditumque maturiorem interclusurum, profectionem hanc consulto in commodioris
+                    auræ statum distuli. Rogo autem peramanter, vt interea, dum ego absum, nihil
+                        <persName ref="Gellius">Gellij</persName> nomine ob promotionem magisterij
+                    nondum susceptam, vel a te vel quoquam alio ad dominum <persName ref="Kaas"
+                        >cancellarium</persName> perferatur, quod <persName ref="Gellius"
+                        >Gellio</persName> meo vllo damno aut detrimento cedat. Jd enim si factum
+                    fuerit, cogor ego postmodum omnem rem apud dominum <persName ref="Kaas"
+                        >cancellarium</persName> excusare, atque ea referre, quæ lubentius
+                    omitterem. Suasu enim et consilio d. doct. <!-- nb hvem? -->Andreæ (bonæ
+                    memoriæ) id factum est, quod promotio illa dilata sit, quemadmodum ego illi
+                    paucis diebus ante obitum perscripsi, et meapte manu eius formalia verba, quæ
+                    mihi aliquando in aurem dixerat, in memoriam reuocaui; ignorabam enim illum
+                    lethaliter decumbere. Atque ipsæ literæ in ipsius archiuis adhuc reperientur; ne
+                    quis me post descessum eius hæc data opera excogitare suspicari queat. Pro tua
+                    itaque prudentia fac hac in parte id, quod omnibus consultius erit. Quam primum
+                    celi clementia opportunitatem concesserit dominum <persName ref="Kaas"
+                        >cancellarium</persName> accedendi, non diffido, quin ab ipso impetraturus
+                    sim, vt cum <persName ref="Gellius">Gellio</persName> hac in parte certas ob
+                    caussas dispensetur, quodque tam vos quam ille sitis extra periculum futuri. Hæc
+                    tibi breuibus per literas nunc indicanda duxi, cum ipsemet tam cito atque vellem
+                    præsens adesse nequeam. Rogo, vt hæc in bonam partem, quemadmodum etiam scripta
+                    sunt, accipere velis, atque per presentem nuntium sententiam tuam hac de re
+                    vicissim significare.</p>
+                <closer><salute>Vale quam felicissime.</salute>
+                    <dateline>Datum <placeName ref="Uraniborg">Vraniburgi</placeName> die 16
+                        decembris anno 89.</dateline><signed>TYCHO BRAHE,<lb/>manu
+                    pp:a.</signed></closer>
             </div>
         </body>
     </text>

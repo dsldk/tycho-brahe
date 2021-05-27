@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,14 +45,38 @@
                                 <idno>cod. Vindob. lat. 10686.81</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde med rettelser af Tycho Brahe</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.81</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Draft with corrections by Tycho Brahe</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Pulkovo (Nu i Sankt Petersborg?)</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Pulkovo (now in Saint Petersburg?)</settlement>
                                 <repository>empty</repository>
                                 <collection>empty</collection>
-                                <idno>ptyem</idno>
+                                <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc></witness>
@@ -78,7 +106,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 1. november</date></creation>
+            <creation><date xml:lang="da">1589, 1. november.</date><date xml:lang="en">1589, 1
+                    November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -94,23 +123,23 @@
         <revisionDesc>
             <change when="2019-04-24" who="#pz">Filen etableret</change>
             <change when="2019-04-30" who="#pz">færdiglæst og -opmærket</change>
+            <change when="2021-05-27" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
-            <div>
                 <div n="Letter">
                     <pb ed="TBOO" n="VII.196"/>
                     <pb ed="A" n="1r"/>
-                    <p>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO VIRO D. <persName
-                            ref="Hagecius, Thaddaeus">THADDÆO HAGGECIO</persName> AB HAYCK,
-                        PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO INPRIMIS COLENDO.</p>
-                    <p><pb ed="A" n="2r"/>QUATERNAS a te hac elapsa æstate, amantissime et
-                        eruditissime mi D. D. <persName ref="Hagecius, Thaddaeus"
-                        >THADDÆE</persName>, accepi literas, primas Cal. Novembris veteri stylo anno
-                        88 exaratas, 27. demum Aprilis huius anni me obtinere contigit; alteras 1O .
-                        Maij <app>
+                    <opener>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO VIRO D. <persName
+                            ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName> AB HAYCK,
+                        PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO INPRIMIS COLENDO.</opener>
+                    <p rend="noIndent"><pb ed="A" n="2r"/>QUATERNAS a te hac elapsa æstate,
+                        amantissime et eruditissime mi D. D. <persName ref="hagecius_thaddaeus_1525"
+                            >THADDÆE</persName>, accepi literas, primas Cal. Novembris veteri stylo
+                        anno 88 exaratas, 27. demum Aprilis huius anni me obtinere contigit; alteras
+                        1O . Maij <app>
                             <lem>huius anni</lem>
                             <rdg><note>in cod. add. ipse Tycho</note></rdg>
                         </app> scriptas ultimo Augusti <app>
@@ -527,7 +556,7 @@
                     <lg rend="it">
                         <l><app>
                                 <lem>Fortis</lem>
-                            <rdg><note>ex <q>Acris</q> corr. Tycho</note></rdg>
+                                <rdg><note>ex <q>Acris</q> corr. Tycho</note></rdg>
                             </app> et ad <app>
                                 <lem>cursum</lem>
                                 <rdg><note>ex <q>pugnam</q> corr. Tycho</note></rdg>
@@ -621,7 +650,7 @@
                         pronuncias. Apparet tamen, quod nonnihil movearis, quia <persName
                             ref="Mästlin">MÆSTHLINUM</persName> contra te defenderim, et existimas
                         aliquid adhuc in contrarium pro te dici posse, si meo iudicio repugnandum
-                        duceres. At sane, mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, <app>
+                        duceres. At sane, mi <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, <app>
                             <lem>ego pro <persName ref="Mästlin">MÆSTHLINO</persName> nihil in eius
                                 gratiam, quod tibi officeret, scripsi, neque ego aut odij aut
                                 amicitiæ caussa hîc quicquam egi, sed saltem ut veritatem
@@ -681,7 +710,7 @@
                         pateat. In Cometis autem, cum non integras absolvant periodos, neque certa
                         lege Soli appropinquent et ab eo expatientur, insolens tibi videtur iusta
                         lege eorum motus astringere. Atqui hîc, dilecte <persName
-                            ref="Hagecius, Thaddaeus">THADDÆE</persName>, non satis considerate, quæ
+                            ref="hagecius_thaddaeus_1525">THADDÆE</persName>, non satis considerate, quæ
                         in libro illo meo circa hoc ipsum negotium protuli, animadvertisse et
                         expendisse mihi videris, siquidem illic hoc dubium et impossibilitatis
                         suspicionem sufficienter resolvi atque amovi, imo ipsemet per hypothesin in
@@ -872,7 +901,7 @@
                         tendunt, illi dijudicent, modo metam petitam cœlitus decernere norint. Quæ
                         tandem obijcis in numeris circa Mæsthlinianam hypothesin a me fuisse
                         aberrata, ea, si bona tua venia dicere liceret, mi <persName
-                            ref="Hagecius, Thaddaeus">THADDÆE</persName>, per aliqua occupationum
+                            ref="hagecius_thaddaeus_1525">THADDÆE</persName>, per aliqua occupationum
                         impedimenta et incuriam quandam penitioris considerationis a te ipso potius
                         commissa sunt, nam primum quantum ad Epocham commutationis mediæ Cometæ ad
                         diem 24. Novembris attinet, quam ego cum <persName ref="Mästlin"
@@ -920,7 +949,7 @@
                         </app> in hac numerationis diver<pb ed="A" n="13v"/>sitate per occupationum
                         impedimenta atque curas alias accepisse«. Quod et satis patuit, nam domum
                         reversi mox arrepto libro meo idipsum satis experti sumus. Si igitur aliud
-                        non habes, optime <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>,
+                        non habes, optime <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>,
                         quod hypothesibus vel a <persName ref="Mästlin">MÆSTHLINO</persName> vel me
                         constitutis obijcias, aut quod pro te contra nos faciat, quam ex hisce tuis
                         literis colligere licet, utique vel te ipso iudice iam satis vides, quam
@@ -1009,7 +1038,7 @@
                         reliquas me conferam, in quibus ero brevior, cum etiam per se non adeo
                         luculentam responsionem requirant.</p>
                     <p rend="indent">Ex secundis tuis literis satis intelligo, amantissime <persName
-                            ref="Hagecius, Thaddaeus">THADDÆE</persName>, quam solicitus fueris de
+                            ref="hagecius_thaddaeus_1525">THADDÆE</persName>, quam solicitus fueris de
                         prioribus unâ cum libro illo <persName ref="Werner">WERNERI</persName> mihi
                         non satis cito allatis, ubi etiam refers (quod tuæ erga me benevolentiæ
                         tribuo) quod Tomum <pb ed="A" n="15r"/>meum primum recentiorum cœli
@@ -1173,20 +1202,24 @@
                                 antea, si recte memini, monui. Sed tempus est, ut nunc tandem vela
                                 contraham calamumque hîc quiescere sinam. Quare iterum et sæpius
                                 vale quam felicissime, mi amantissime <persName
-                                    ref="Hagecius, Thaddaeus">THADDÆE</persName>, et me ante Pasca
+                                    ref="hagecius_thaddaeus_1525">THADDÆE</persName>, et me ante Pasca
                                 tuis eruditissimis literis, tum etiam eximij illius Domini <persName
                                     ref="Curtius, Jacob">CURTIJ</persName>, si illi ita commodum
-                                fuerit, revisendum cura, iamque tertium et pluries vale. Datæ
+                                fuerit, revisendum cura, iamque tertium et pluries vale.</lem><rdg><note>in marg. A</note></rdg></app></p> <closer><dateline><app><lem>Datæ
                                     <placeName ref="Uraniborg">Uraniburgi</placeName></lem>
                             <rdg><note>in marg. A</note></rdg>
-                        </app> <app><lem wit="#Friis">prim. Cal. Novemb. stylo veteri Anno 1589.</lem><rdg><note>om. A</note></rdg></app></p>
-                    <lb/>
-                    <p rend="rightMargin"><app><lem wit="#Friis">TYCHO BRAHE,<lb/>manu propria.</lem><rdg><note>om. A</note></rdg></app></p>
-                    
-                </div>
-                <div n="P.S.">
-                    <opener><pb ed="A" n="17r"/>POST SCRIPTA.</opener>
-                    <p>QUIA in istius Diplomatis Cæsarei mentionem incidimus, est aliquid, de quo
+                        </app>
+                        <app>
+                            <lem wit="#Friis">prim. Cal. Novemb. stylo veteri Anno 1589.</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></dateline><signed><app>
+                            <lem wit="#Friis">TYCHO BRAHE,<lb/>manu propria.</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></signed></closer>
+
+                <postscript>
+                    <label><pb ed="A" n="17r"/>POST SCRIPTA.</label>
+                    <p rend="noIndent">QUIA in istius Diplomatis Cæsarei mentionem incidimus, est aliquid, de quo
                         tecum circa illud ulterius agere, si ita tibi visum fuerit, vellem.
                         Privilegium enim illud nimis mihi videtur breve, nec satis copiosum aut
                         decorum pro artis et materiæ tractandæ magnificentia, et habeo aliud a Rege
@@ -1200,10 +1233,10 @@
                         Gallicanum etiam plurimum excelleret et in Pergameno quoque manu Reginæ
                         subscriptum exararetur. Sic ab Hispaniarum Rege, nisi nimia locorum
                         distantia vota nostra retardârit, spero Privilegium amplum et magnificum;
-                        nollem itaque, ut <persName ref="Rudolf 2.">Cæsarea Maiestas</persName>, quæ primas inter Europæ Reges tenet,
-                        minoribus et brevioribus, quam illi, suum mihi clementer concessum
-                        Privilegium comprehendi pateretur. Id enim et ipsius Maiestati non satis
-                        honorificum esse videtur, nec <app>
+                        nollem itaque, ut <persName ref="Rudolf 2.">Cæsarea Maiestas</persName>, quæ
+                        primas inter Europæ Reges tenet, minoribus et brevioribus, quam illi, suum
+                        mihi clementer concessum Privilegium comprehendi pateretur. Id enim et
+                        ipsius Maiestati non satis honorificum esse videtur, nec <app>
                             <lem>artis</lem>
                             <rdg><note>post <q>artis</q> add. <q>tractandæ</q> A, sed
                                     delevit.</note></rdg>
@@ -1232,31 +1265,40 @@
                         in eos, qui id sibi ex solo naturæ lumine arrogant, competat, quod est in
                         Propheta: »<hi rend="it">Cucurristis, et nemo misit vos, clamastis, et nemo
                             vobis os aperuit</hi>« Sed hæc extra propositum. Vides nunc, mi
-                            <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, quod sit, et
+                            <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, quod sit, et
                         quamobrem velim, quædam in illo Privilegio mutari, augeri atque amplificari,
                         tum etiam in Membrana, ut tutius et diutius conservari queant, describi.
                         Nihil tamen hîc peto, nisi quod deceat et quod te sine dif<pb ed="A" n="18r"
-                        />ficultate et molestia <app><lem>meo nomine</lem><rdg wit="#Friis">mea</rdg></app> impetrare posse speres. Pro ultimo mihi
-                        in Papyro transmisso misi 12 florenos in scriptoris remunerationem, prout
-                        Taxator æstimârat. Si denuo novum et magnificentius in Pergameno exaretur,
-                        ego et nunc scriptionis laborem etiam liberalius, quam Taxator censuerit,
-                        recompensare paratus ero. Omnia tamen in hoc negotio tuo consilio et auxilio
-                        facienda vel infecta relinquenda committo. Et si ita consultum tibi visum
-                        fuerit atque Privilegium novum non difficulter obtinueris, cuperem, ut ante
-                        instantes nundinas <placeName ref="Frankfurt am Main"
-                            >Francofurtianas</placeName> illud mihi huc in Daniam vel proprijs meis
-                        sumtibus transmitti cures, quo satis mature illud nactus prioris tomi
-                        frontispicio præfigere liceat et tunc demum utramque partem excusam in
-                        Cæsaris Cancellariam, uti in me recepi, perferri curare. Iterum feliciter
-                        vale.</p>
-                    <p rend="indent"><app><lem wit="#Friis">Rogo te quoque, mi <persName ref="Hagecius, Thaddaeus"
-                            >HAGECI</persName>, ut si quæ habes literarum, quas ad te dedi,
-                        apographa, ut puto, reservata, ea descripta mihi communices. Ego enim
-                        volumini, quod Epistolas Astronomicus continebit, huiusmodi destinavi.
-                        Quocirca si eas ocius miseris, rem feceris mihi in primis gratam.</lem><rdg><note>om. A</note></rdg></app></p>
+                        />ficultate et molestia <app>
+                            <lem>meo nomine</lem>
+                            <rdg wit="#Friis">mea</rdg>
+                        </app> impetrare posse speres. Pro ultimo mihi in Papyro transmisso misi 12
+                        florenos in scriptoris remunerationem, prout Taxator æstimârat. Si denuo
+                        novum et magnificentius in Pergameno exaretur, ego et nunc scriptionis
+                        laborem etiam liberalius, quam Taxator censuerit, recompensare paratus ero.
+                        Omnia tamen in hoc negotio tuo consilio et auxilio facienda vel infecta
+                        relinquenda committo. Et si ita consultum tibi visum fuerit atque
+                        Privilegium novum non difficulter obtinueris, cuperem, ut ante instantes
+                        nundinas <placeName ref="Frankfurt am Main">Francofurtianas</placeName>
+                        illud mihi huc in Daniam vel proprijs meis sumtibus transmitti cures, quo
+                        satis mature illud nactus prioris tomi frontispicio præfigere liceat et tunc
+                        demum utramque partem excusam in Cæsaris Cancellariam, uti in me recepi,
+                        perferri curare. Iterum feliciter vale.</p>
+                    <p rend="indent"><app>
+                            <lem wit="#Friis">Rogo te quoque, mi <persName ref="hagecius_thaddaeus_1525"
+                                    >HAGECI</persName>, ut si quæ habes literarum, quas ad te dedi,
+                                apographa, ut puto, reservata, ea descripta mihi communices. Ego
+                                enim volumini, quod Epistolas Astronomicus continebit, huiusmodi
+                                destinavi. Quocirca si eas ocius miseris, rem feceris mihi in primis
+                                gratam.</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></p>
                     <lb/>
-                    <p rend="rightMargin"><app><lem wit="#Friis">T. BRAHE.</lem><rdg><note>om. A</note></rdg></app></p><!-- NB! Der bør være et lemma fra Rogo til BRAHE, men der er igen validation error -->
-                </div>
+                    <p rend="rightMargin"><app>
+                            <lem wit="#Friis">T. BRAHE.</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></p>
+                </postscript>
             </div>
         </body>
     </text>

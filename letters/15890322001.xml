@@ -14,28 +14,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.45</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.45</idno>
@@ -61,10 +74,12 @@
                 </correspAction>
                 <correspAction type="received">
                     <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 22. marts</date></creation>
+            <creation><date xml:lang="da">1589, 22. marts.</date><date xml:lang="en">1589, 22
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,10 +102,14 @@
             <div>
                 <pb ed="TBOO" n="VII.165"/>
                 <pb ed="A" n="2v"/>
-                <opener>CLARISSIMO ET VARIA ERUDITIONE EXCULTISSIMO DN. <persName ref="Hagecius, Thaddaeus">THADDÆO
-                    HAGECIO</persName> AB HAICK, MEDICO ET MATHEMATICO PERITISSIMO, AMICO SUO PERPETUO COLENDO.<lb/>
-                    <foreign xml:lang="de"><hi rend="it">AHM HERN DOCTOR THADDEO HAGETIO ZU <placeName ref="Praha">PRAG</placeName> WONHAFFTIG.</hi></foreign> <lb/>S.</opener>
-                <p><pb ed="A" n="1r"/>CUM hodie primum a nobili iuvene <persName ref="Krabbe, Tage">TAGONE KRABIO</persName> nostrate hinc in Cæsariam aulam
+                <opener>CLARISSIMO ET VARIA ERUDITIONE EXCULTISSIMO DN. <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆO HAGECIO</persName> AB HAICK, MEDICO ET
+                    MATHEMATICO PERITISSIMO, AMICO SUO PERPETUO COLENDO.<lb/>
+                    <foreign xml:lang="de"><hi rend="it">AHM HERN DOCTOR THADDEO HAGETIO ZU
+                                <placeName ref="Praha">PRAG</placeName> WONHAFFTIG.</hi></foreign>
+                    <lb/>S.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>CUM hodie primum a nobili iuvene <persName
+                        ref="Krabbe, Tage">TAGONE KRABIO</persName> nostrate hinc in Cæsariam aulam
                     iamiam abituro cognovissem illum Pragam transiturum, non intermittendum duxi,
                     quin aliquid literarum ad te darem, optime et eruditissime mi THADDÆE, præsertim
                     quia nihil adhuc responsi ad ultimas meas receperim, quod tamen indies avide
@@ -115,26 +134,33 @@
                     sæculis satisfacientes reducta restitutio, item affixarum Stellarum, præsertim
                     vero earum, quæ circa Zodiacum versantur, præcisa et ipsi cœlo adamussim consona
                     verificatio, et pleraque alia nunc non attinet singillatim referre. Id saltem te
-                    oratum cuperem, ut <persName ref="Munos">MUNOSI</persName> Hispani et Italorum istorum tum etiam aliorum, qui de
-                    hac stella aliquid publicârunt, scripta mecum communicare non intermittas, si
-                    quæ forte tibi innotuerunt ad nos non perlata. Idem etiam circa rem Cometicam
-                    expeterem. <pb ed="TBOO" n="VII.166"/>peterem. <pb ed="A" n="1v"/>Constitui enim in singulis
-                    iuxta librorum finem, aliorum placita et animadversiones sub incudem
-                    veritatis revocare, ubi in primo atque ultimo tomo, quibus de Nova hac Stella
-                    et Cometa anni 80 agitur, tuarum lucubrationum honorificam, ut par est,
-                    introducere mentionem commodius erat, quam in illo intermedio libro de Cometa
-                    anni 77. Circa hunc enim nimium ab ipso cœlo (vel teipso iudice) deflexisse
-                    deprehenderis. Plura hoc tempore scribere festinus Nobilis huius abitus non
-                    patitur, verum ubi per hunc ad nos redeuntem, vel quacunque alia oblata
-                    oportunitate responsum a te recepero, uberius et pluribus de toto hoc negotio
-                    tecum agam. Intereaque et semper quam diutissime et felicissime vale, et
-                    Amplissimos Generosissimosque Barones D. IOHANNEM <persName ref="Septimius">SEPTIMIUM</persName> <hi rend="it">a Lichtenstein</hi>
-                    et D. <persName ref="Felicianus">FELICIANUM</persName> ab Herberstein , quorum uterque Daniam superioribus annis
-                    pertransiens, me Uraniburgi invisere non gravatus est, meo nomine officiose
-                    saluta. Receperunt vero ambo in se <persName ref="Wittich, Paul">WITICHIANORUM</persName> scriptorum et librorum, quos
-                    post fata reliquit, meo nomine procurationem, de qua ut eos per commoditatem
-                    oblatam admonere velis, peramanter peto. Iterum et sæpius vale. Raptim <placeName ref="Copenhagen">Hafniæ</placeName> die 22. Martij Anno Domini 89.</p><lb/>
-                <p rend="rightMargin">Tui amantiss.<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                    oratum cuperem, ut <persName ref="Munos">MUNOSI</persName> Hispani et Italorum
+                    istorum tum etiam aliorum, qui de hac stella aliquid publicârunt, scripta mecum
+                    communicare non intermittas, si quæ forte tibi innotuerunt ad nos non perlata.
+                    Idem etiam circa rem Cometicam expeterem. <pb ed="TBOO" n="VII.166"/>peterem.
+                        <pb ed="A" n="1v"/>Constitui enim in singulis iuxta librorum finem, aliorum
+                    placita et animadversiones sub incudem veritatis revocare, ubi in primo atque
+                    ultimo tomo, quibus de Nova hac Stella et Cometa anni 80 agitur, tuarum
+                    lucubrationum honorificam, ut par est, introducere mentionem commodius erat,
+                    quam in illo intermedio libro de Cometa anni 77. Circa hunc enim nimium ab ipso
+                    cœlo (vel teipso iudice) deflexisse deprehenderis. Plura hoc tempore scribere
+                    festinus Nobilis huius abitus non patitur, verum ubi per hunc ad nos redeuntem,
+                    vel quacunque alia oblata oportunitate responsum a te recepero, uberius et
+                    pluribus de toto hoc negotio tecum agam. Intereaque et semper quam diutissime et
+                    felicissime vale, et Amplissimos Generosissimosque Barones D. IOHANNEM <persName
+                        ref="Septimius">SEPTIMIUM</persName>
+                    <hi rend="it">a Lichtenstein</hi> et D. <persName ref="Felicianus"
+                        >FELICIANUM</persName> ab Herberstein , quorum uterque Daniam superioribus
+                    annis pertransiens, me Uraniburgi invisere non gravatus est, meo nomine
+                    officiose saluta. Receperunt vero ambo in se <persName ref="Wittich, Paul"
+                        >WITICHIANORUM</persName> scriptorum et librorum, quos post fata reliquit,
+                    meo nomine procurationem, de qua ut eos per commoditatem oblatam admonere velis,
+                    peramanter peto.</p>
+                <closer><salute>Iterum et sæpius vale.</salute>
+                    <dateline>Raptim <placeName ref="Copenhagen">Hafniæ</placeName> die 22. Martij
+                        Anno Domini 89.</dateline>
+                    <signed>Tui amantiss.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>
