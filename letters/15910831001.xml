@@ -65,7 +65,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 31. august</date></creation>
+            <creation><date xml:lang="da">1591, 31. august.</date><date xml:lang="en">1591, 31 August.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,11 +88,11 @@
             <div>
                 <opener>
                         <pb ed="TBOO" n="VI.240"/><pb ed="E" n="209"/>DEM VESTEN/ VNSERM LIEBEN
-                            BESONDERN/ <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                    BESONDERN/ <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName></hi>, HERRN ZU KNUDSTRUP.
                             <lb/>WILHELM VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
                             CATZENELNBOGEN/ ETC.
                 </opener>
-                <p>
+                <p rend="noIndent">
                     VNSERN gnedigen Gruß zuvor/ Vester lieber Besonder/ Wir
                         mögen euch gnediglich nicht verhalten/ daß wir in vnserm Thiergarten ein
                         Elendsthier haben/ daß sich dan diesen Winter vnd Sommer vber wol gehalten/
@@ -119,7 +120,7 @@
                             tansæ proceritatis,quantæ a Gesnero pingitur, siet</hi>.
                 </p>
                 <p rend="indent">
-                    Vnser <hi rend="it">Mathematicus <persName ref="Rothmann"
+                    Vnser <hi rend="it">Mathematicus <persName ref="rothmann_christopher_1550"
                         >CHRISTOPHORVS ROTHMANNVS</persName></hi> ist bey vns noch nicht
                         widerumb ankommen/ vnd ob wir jn wol zu vns anhero erfordert/ so hat er sich
                         doch seiner Schwacheit halben (darumb wir gleichwol keine eigentliche
@@ -156,7 +157,7 @@
                                     1591</hi>. 
                     </dateline>
                     <signed>
-                        WILHELM LANDSGRAFF ZU HESSEN
+                        <persName ref="wilhelm_4_1532">WILHELM</persName> LANDSGRAFF ZU HESSEN
                     </signed>
                 </closer>
                 <postscript>

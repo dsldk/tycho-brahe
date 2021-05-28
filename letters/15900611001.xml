@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,11 +41,29 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.14</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.14</idno>
@@ -54,7 +72,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. VII, Hauniæ 1924, p. 2434-255</bibl>
+                            Tom. VII, Hauniæ 1924, p. 244-255</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -75,7 +93,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 11. juni n.s</date></creation>
+            <creation><date xml:lang="da">1590, 11. juni n.s.</date><date xml:lang="en">1590, 11 June NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,6 +110,7 @@
             <change when="2019-06-03" who="#pz">Filen etableret. Sideskrift og afsnit indsat.
                 korrektur påbegyndt.</change>
             <change when="2019-06-04" who="#pz">Korrektur afsluttet.</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -99,8 +118,8 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.244"/>
-                <opener>THADDÆUS HAGECIUS AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="114r"/>ACCEPI tandem, nobiliss. et doctiss. TYCHO, exoptatissimas
+                <opener><persName ref="hagecius_thaddaeus_1525">THADDÆUS HAGECIUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="114r"/>ACCEPI tandem, nobiliss. et doctiss. TYCHO, exoptatissimas
                     tuas epistolas, et multis nominibus admodum gratas, non solum quod abs te,
                     omnium amicissimo, amicissime scriptæ, sed etiam quod rerum Astronomicarum
                     pulcherrima dissertatione refertæ essent. In quibus dum primordia initæ inter
@@ -174,7 +193,7 @@
                     instar omnium locupletissimum testem adduco. Quamobrem gratissimum fuit auditu
                     et admirabile visum, quod ad alia, sicut scribis, te ex parallaxibus &#x2642;,
                     quando fuit in opposito &#x2609;, viciniorem terris ipso Sole deprehendisse;
-                    quod non nisi ex <persName ref="Copernicus">COPERNICI</persName> hypothesibus,
+                    quod non nisi ex <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName> hypothesibus,
                     vel ex tuis, nuper abs te excogitatis, salvari potuisse asseris: idque non
                     temere, sed certis rationibus confirmatus. Ad quam rem etiamsi non intenderim
                     animum, tamen tibi assentiri potius quam tuas exquisitas observationes in dubium
@@ -190,10 +209,10 @@
                     Ego tamen in ea sum sententia, de aliorum laboribus non esse temere ferendum
                     iudicium, quia doctorum virorum, ut libera esse solent, ita vera esse debent, de
                     rebus præsertim abstrusis iudicia, quemadmodum hac in parte Magnificus D.
-                        <persName ref="Curtius, Jacob">IACOBUS CURTIUS</persName>, ab arcanis
+                        <persName ref="kurz_jacob_1554">IACOBUS CURTIUS</persName>, ab arcanis
                     consilijs Imperatoris et Procancellarius Imperij dignissimus, dominus et amicus
                     meus singulariter observandus, et alij quidam prudenter et sapienter se
-                    gesserunt, qua de re <pb ed="A" n="115r"/>ipse D. <persName ref="Curtius, Jacob"
+                    gesserunt, qua de re <pb ed="A" n="115r"/>ipse D. <persName ref="kurz_jacob_1554"
                         >CURTIUS</persName> plenius ad te perscribet. Est enim, ut in rebus omnibus,
                     ita in hisce Mathematicis studijs vir iudicio acri et perspicacissimo
                     præditus.</p>
@@ -315,7 +334,7 @@
                     temporibus <persName ref="Hipparchos">HIPPARCHI</persName>, illæ eædem deinceps
                     consideratæ sunt successivis seculis a <persName ref="Ptolemaios"
                         >PTOLEMÆO</persName>, <persName ref="Albategnius">ALBATEGNIO</persName>,
-                        <persName ref="Copernicus">COPERNICO</persName>, et ex illarum progressu in
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICO</persName>, et ex illarum progressu in
                     certo tempore de tota periodo ratiocinatum, adeoque et in circulo anomaliæ
                     velocitas et tarditas motus illarum deprehensa est. At quid his simile apparet
                     in Cometis? Cum eorum certitudinem nullam habeamus, nec semper ijdem sint,
@@ -393,10 +412,10 @@
                     contigit.</p>
                 <p rend="indent">Quod ad Apologeticam responsionem tuam pertinet, hanc quoque
                     perlegi diligentissime, eaque sane mirifice sum delectatus. Tam solide enim et
-                    tam luculente respondes, et obiectiones <persName ref="Craig">CRAIGIJ</persName>
+                    tam luculente respondes, et obiectiones <persName ref="craig_john_1620">CRAIGIJ</persName>
                     diluis, ut mirum sane videri possit, quid contra tam evidentia vel hiscere
-                        <persName ref="Craig">CRAIGIUS</persName> aut quivis alius possit. Quod si
-                        <persName ref="Craig">CRAIGIUS</persName> perget veritati obstrepere, in
+                        <persName ref="craig_john_1620">CRAIGIUS</persName> aut quivis alius possit. Quod si
+                        <persName ref="craig_john_1620">CRAIGIUS</persName> perget veritati obstrepere, in
                     longe maiorem incurret reprehensionem apud veritatis amantes, quam quod ego in
                     Nova Stella parum ex arte suo iudicio præstiterim. Sed sit ita, ut ille iudicat:
                     ego certe illud parum multo gloriosius mihi esse duco, quam si manifeste
@@ -406,7 +425,7 @@
                     regione, puta elementari et ætherea, oriantur, qua de re ætas posterior <pb
                         ed="TBOO" n="VII.252"/>rectius iudicabit. Primus etiam labefactavi opinionem
                         <persName ref="Aristoteles">ARISTOTELIS</persName> de Cometis, quam
-                        <persName ref="Craig">CRAIGIUS</persName> mordicus retinet, et pro ea velut
+                        <persName ref="craig_john_1620">CRAIGIUS</persName> mordicus retinet, et pro ea velut
                     pro aris et focis depugnat. Sunt, fateor, mea, quæ tum attuli, admodum exilia,
                     et, quoad doctrinam parallaxium , plurima in eis desiderari. Sed et hæc deinceps
                     aliquantulum recognovi. Tu vero his supremam manum imposuisti. Quamobrem tibi
@@ -417,7 +436,7 @@
                     nemo unquam vir bonus ac doctus et veritatis magis quam amicitiæ studiosus
                     satisfecerit, ausus est) pro virili laborare studuerit, primusque, ut dixi, in
                     hoc angulo hanc glaciem secuerim, et in incognita via novas orbitas impresserim.
-                    Utinam vero <persName ref="Craig">CRAIGIUS</persName> mea illa exilia saltem
+                    Utinam vero <persName ref="craig_john_1620">CRAIGIUS</persName> mea illa exilia saltem
                     umbra veritatis evincere potuisset, habuissem illi gratiam. Sed cum non
                     potuerit, nec poterit unquam, mirum sane non est, quod tua firmissima
                     solidissimaque ne minima quidem in parte labefactârit. Hoc unum egisse video, ut
@@ -430,14 +449,14 @@
                     vel de Cometis protulimus, et abs te solidius multo prolata sunt, afferet,
                     libenter amplectemur. Verum qui nec meliora affert, nec solide aliena refutat,
                     sed tantum rixandi studio contradicit, istud malevoli et invidi hominis est
-                    iudicium. Miror, cur <persName ref="Craig">CRAIGIUS</persName> miscet meam Novam
+                    iudicium. Miror, cur <persName ref="craig_john_1620">CRAIGIUS</persName> miscet meam Novam
                     Stellam cum meo Cometa, cum egomet ingenue fassus sim, certitudinem mearum
                     observationum Cometæ non posse certare cum certitudine observationum Novæ
                     Stellæ, neque mihi fuisse ad manum ea instrumenta, neque eas commoditates
                     observandi Cometam, quas habui in Nova Stella. Nosti etiam memet et in Nova
                     Stella et in Cometa, agnita veritate, partim sponte correxisse quædam, partim
                     abs te et a <persName ref="Praetorius">PRÆTORIO</persName> alijsque de quibusdam
-                    amice monitus nonnulla emendasse. Magis sane miror, <persName ref="Craig"
+                    amice monitus nonnulla emendasse. Magis sane miror, <persName ref="craig_john_1620"
                         >CRAIGIUM</persName> illam mutationem <pb ed="A" n="117v"/>sententiæ in
                     melius, quasi probro, incertitudini et inconstantiæ adscribere, quæ virtuti et
                     ingenuitati adscribenda fuit. Turpe enim non est errorem, agnita veritate,
@@ -454,12 +473,12 @@
                     ab ullo Mathematicorum fuerit demonstratum, quomodo Cometarum remotio a Terra
                     definienda sit, quando nimirum proprio incedunt gressu, et propterea <persName
                         ref="Regiomontanus">REGIOMONTANI</persName> demonstrationem abire in
-                    absurdum? Atqui, optime TYCHO, <persName ref="Craig">CRAIGIUS</persName> hac in
+                    absurdum? Atqui, optime TYCHO, <persName ref="craig_john_1620">CRAIGIUS</persName> hac in
                     re turpissime fallitur, magnaque iniuria afficit optimum artificem <persName
                         ref="Regiomontanus">REGIOMONTANUM</persName>, qui in suo illo præclaro de
                     Cometa libello problema 2. 3. 4. diserte monet, in indagatione parallaxeos
                     proprij Cometæ motus rationem habendam esse, quemadmodum abs te quoque eius
-                    motus ratio habita est. Quare dum ea <persName ref="Craig">CRAIGIUS</persName>
+                    motus ratio habita est. Quare dum ea <persName ref="craig_john_1620">CRAIGIUS</persName>
                     omnibus Mathematicis impingit, tibi quoque non levem facit iniuriam. Ego quidem
                     in eo Cometa et in altero quoque eius motum proprium me neglexisse sciens
                     volensque, lubens fateor. Sed ne ex eius neglectione notabilis et minime
@@ -475,7 +494,7 @@
                     volui. Neque tamen eo inficias, quin melior aliqua ratio vel abs te, vel ab
                     alijs inveniri possit. Interea certitudinem demonstrationum <persName
                         ref="Regiomontanus">REGIOMONTANI</persName> firmam mansuram esse, libere
-                    pronuncio, quam neque <persName ref="Craig">CRAIGIUS</persName>, nec quispiam
+                    pronuncio, quam neque <persName ref="craig_john_1620">CRAIGIUS</persName>, nec quispiam
                     alius ullius absurditatis convincere poterit. Subolfecit sane <persName
                         ref="Regiomontanus">REGIOMONTANUS</persName> quiddam aliud de Cometis, quam
                     quod scholæ ex <persName ref="Aristoteles">ARISTOTELE</persName> publice
@@ -483,24 +502,22 @@
                     discedere: qui si nunc viveret vidissetque Novam Stellam, sine dubio erubuisset,
                     et accuratiores Cometarum considerationes adhibuisset, nec ullum dubium est apud
                     me, quin præposita veritate nostræ sententiæ subscripsisset. Sed quid ego de his
-                    apud te, qui hæc omnia multo solidius pertractaveris, ac <persName ref="Craig"
+                    apud te, qui hæc omnia multo solidius pertractaveris, ac <persName ref="craig_john_1620"
                         >CRAIGIJ</persName> rationes et obiectiones omnes ita dilueris, ut quid
                     illis amplius ad asserendam veritatem adijci possit, non videam. Aliud restat
                     nihil quam ut, pro tua humanitate et candore, mea hæc æqui bonique consulas, et
-                    ijs, quæ a me vel prætermissa, vel minus recte intellecta sunt, veniam des.
-                    Vale, mi dulcissime TYCHO, et me solito tuo amore fac prosequare.<pb ed="TBOO"
-                        n="VII.254"/>Datæ <placeName ref="Praha">Pragæ</placeName>
-                    <pb ed="nil" n="Br"/> 11. Iunij novo stylo, qui dies fuit feria secunda
-                    Pentecostes Anno 1590.</p>
-                <p rend="rightMargin">Tui ex animo studiosus<lb/><persName ref="Hagecius, Thaddaeus"
-                        >THADDÆUS AB HAYCK</persName>.</p>
-                <div>
-                    <opener><pb ed="B" n="1r"/>POST SCRIPTA.</opener>
-                    <p>IAM absolveram meas ad te, et ecce 22. Maij veteris styli affert ad me
+                    ijs, quæ a me vel prætermissa, vel minus recte intellecta sunt, veniam des.</p>
+                    <closer><salute>Vale, mi dulcissime <persName ref="brahe_tycho_1546">TYCHO</persName>, et me solito tuo amore fac prosequare</salute>.<dateline><pb ed="TBOO"
+                        n="VII.254"/>Datæ 11. Iunij novo stylo, qui dies fuit feria secunda
+                    Pentecostes Anno 1590.</dateline><signed>Tui ex animo studiosus<lb/><persName ref="hagecius_thaddaeus_1525"
+                        >THADDÆUS AB HAYCK</persName>.</signed></closer>
+                
+                    <postscript><label><pb ed="B" n="1r"/>POST SCRIPTA.</label>
+                    <p rend="noIndent">IAM absolveram meas ad te, et ecce 22. Maij veteris styli affert ad me
                         tabellarius <placeName ref="Nürnberg">Norimbergensis</placeName> tuas unâ
                         cum descriptione Cometæ proximi ac pagellis impressarum Epistolarum
                         Astronomicarum, quas ego statim avide admodum perlegi et perlustravi, et ut
-                        D. <persName ref="Curtius, Jacob">CURTIUS</persName> haberet veluti stimulum
+                        D. <persName ref="kurz_jacob_1554">CURTIUS</persName> haberet veluti stimulum
                         maturandi privilegium illud et tabellarium quam primum ad te ablegandi,
                         omnia illa ei legenda et evolvenda dedi. Et profecto placuit illi mirifice
                         indefessum tuum illud studium illustrandi rem Astronomicam, qui, ita me Deus
@@ -520,19 +537,19 @@
                         literas ad D. <persName ref="Chytraeus, David">CHYTRÆUM</persName> et petij,
                         ut is meas ad te perferri curaret, quod factum esse minime dubito, si modo
                         is studiosus pervenit illuc. Nihil autem aliud continebant meæ, nisi quod
-                        per peculiarem tabellarium, quem ipsemet D. <persName ref="Curtius, Jacob"
+                        per peculiarem tabellarium, quem ipsemet D. <persName ref="kurz_jacob_1554"
                             >CURTIUS</persName> propediem se ablegaturum ad te diceret, plenissime
                         de omnibus perscripturi sumus. Rogabam etiam eisdem meis, si fieri possit,
                         ut mihi modellam seu formulam tui Sextantis et Armillarum istic, cum
                         artifices ad manum habeas, fieri curares et ad me mitteres, ad cuius
                         exemplum postea iustæ magnitudinis eadem illa organa mihi hîc confici
-                        curarem. Quod cum D. <persName ref="Curtius, Jacob">CURTIO</persName>
+                        curarem. Quod cum D. <persName ref="kurz_jacob_1554">CURTIO</persName>
                         significassem, respondit, multo commodius fore, si istic ea organa eadem
                         magnitudine, qua tua sunt, conficerentur et huc vel per tabellarium vel per
                         aurigam mitterentur, se omnes sumptus libentissime erogaturum. Sed, inquit,
                         hæc a D. TYCHONE petere pudore quodam prohibeor. Ego vero te magnopere rogo,
                         si fieri potest, ut istic conficiantur ea organa, fac, ut ea D. <persName
-                            ref="Curtius, Jacob">CURTIUS</persName> habeat et gratificeris ei hac in
+                            ref="kurz_jacob_1554">CURTIUS</persName> habeat et gratificeris ei hac in
                         parte. Impensas omnes liberaliss. persolvet. Ego deinceps ad <pb ed="TBOO"
                             n="VII.255"/>eorum formam similia mihi confici curârim. Quod si fiet, et
                         nos ijsdem tecum organis utemur, in observationibus mutuas poterimus tradere
@@ -552,7 +569,7 @@
                         sunt, in quibus mecum agis de rebus Astronomicis. Itaque illarum autographa
                         mitto ad te. In epistola Anni 80, ut videbis, cancellavi nonnulla, quæ vel
                         omittenda vel mutanda esse censui. In meis quoque ad te tollenda erunt
-                        quædam, præsertim quæ de <persName ref="Scultetus">SCULTETI</persName>
+                        quædam, præsertim quæ de <persName ref="scultetus_bartholomaus_1540">SCULTETI</persName>
                         concepto erga me odio narrant, et similia, quæ omnia tuæ prudentiæ relinquo
                         tollenda aut mutanda. Corriges etiam in eisdem meis ad te, quas vel mea manu
                         vel aliena scripsi, grammaticalia quædam vitia per incuriam commissa. Ecce
@@ -567,12 +584,12 @@
                         te eius fuisse oblitum, facile mihi persuadeo. Si illius exemplum
                         habuissemus, fuisset sane nobis gratissimum. Dedissemus operam, ne Cæsareum
                         humilius minusque luculentum fieret. Nihilominus non viso illo Gallico
-                        Cæsareum studio et industria D. <persName ref="Curtius, Jacob"
+                        Cæsareum studio et industria D. <persName ref="kurz_jacob_1554"
                             >CURTIJ</persName>, habita ratione virtutis eruditionisque tuæ, adeoque
                         indefessorum laborum in restituenda et illustranda Astronomia, ita confectum
                         esse existimamus, ut tibi non posset non esse longe gratissimum. Pragæ feria
-                        2 Pentecostes.</p>
-                </div>
+                        2 Pentecostes.</p></postscript>
+                
             </div>
         </body>
     </text>

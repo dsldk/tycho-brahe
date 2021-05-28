@@ -14,20 +14,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -81,7 +85,8 @@
                 </correspAction>
             </correspDesc>
             <creation>
-                <date>1590, 5. oktober</date>
+                <date xml:lang="da">1590, 5. oktober.</date><date xml:lang="en">1590, 5
+                    October.</date>
             </creation>
             <langUsage>
                 <language ident="la"/>
@@ -97,6 +102,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-03-12" who="#pz">Filen etableret og korrigeret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -104,18 +110,26 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.275"/>
-                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
-                        VELLEJUM</persName>. S.</opener>
-                <p><pb ed="A" n="3r"/>MIROR [te] dilecte M. <persName ref="Vedel">ANDREA</persName>, in tanto tempore mihi nihil
-                    scribere: existimo vos Lillebergenses de Lillehuenensibus nihil amplius
-                    cogitare, ac si essent remoti extra Solis cœlique vias; fac ut per hunc
-                    ministrum meum cognoscam quid rerum agas et quomodo cum tuis vivas et valeas.
-                    Typographia mea iam feriatur ob papyri impressoriæ defectum. Misi hisce diebus
-                    Typographum meum in <placeName ref="Germany">Germaniam</placeName> pro conquirendo papyro et conducendo idoneo
-                    <app><lem wit="#TBOO">Cartopæo</lem><rdg wit="#A">Cartophoro</rdg></app>, nam moletrina mea, papyro conficiendæ destinata, iam parata est. Si
-                    tibi de <pb ed="TBOO" n="VII.276"/>tali artifice alicubi quicquam constiterit, da operam ut
-                    eum mature habeam, et tuos etiam labores urge, nec nimium procrastina. Vale. Saluta uxorem unâ cum Parentibus et liberis. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> 5. Octob. 1590.</p><lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE.</p>
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI VELLEJUM</persName>.
+                    S.</opener>
+                <p rend="noIndent"><pb ed="A" n="3r"/>MIROR [te] dilecte M. <persName ref="vedel_anders_sørensen_1542"
+                        >ANDREA</persName>, in tanto tempore mihi nihil scribere: existimo vos
+                    Lillebergenses de Lillehuenensibus nihil amplius cogitare, ac si essent remoti
+                    extra Solis cœlique vias; fac ut per hunc ministrum meum cognoscam quid rerum
+                    agas et quomodo cum tuis vivas et valeas. Typographia mea iam feriatur ob papyri
+                    impressoriæ defectum. Misi hisce diebus Typographum meum in <placeName
+                        ref="Germany">Germaniam</placeName> pro conquirendo papyro et conducendo
+                    idoneo <app>
+                        <lem wit="#TBOO">Cartopæo</lem>
+                        <rdg wit="#A">Cartophoro</rdg>
+                    </app>, nam moletrina mea, papyro conficiendæ destinata, iam parata est. Si tibi
+                    de <pb ed="TBOO" n="VII.276"/>tali artifice alicubi quicquam constiterit, da
+                    operam ut eum mature habeam, et tuos etiam labores urge, nec nimium
+                    procrastina.</p>
+                <closer><salute>Vale. Saluta uxorem unâ cum Parentibus et liberis.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> 5. Octob.
+                        1590.</dateline>
+                    <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

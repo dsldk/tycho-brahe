@@ -14,28 +14,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.25</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.25</idno>
@@ -56,7 +69,8 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1590-05-01"/>
                 </correspAction>
                 <correspAction type="received">
@@ -64,7 +78,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 1. maj</date></creation>
+            <creation><date xml:lang="da">1590, 1. maj.</date><date xml:lang="en">1590, 1
+                    May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-04-04" who="#pz">Filen etableret og teksten korrigeret.</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,25 +103,34 @@
             <div>
                 <pb ed="TBOO" n="VII.243"/>
                 <pb ed="A" n="1v"/>
-                <opener>NOBILISS. ET DOCTISS. D. TYCHONI BRAHE DANO, DOMINO URANIBURGI, DOMINO ET
-                    AMICO PLURIMUM OBSERVANDO.</opener>
-                <p><pb ed="A" n="1r"/>NOBILISS. Domine TYCHO et amice plurimum observande. Accepi binas abs te literas,
-                    eodem tenore verborum, alteris adiuncta Apologia. Deinde die 24. Aprilis novo
-                    stylo accepi alias a studioso quodam <placeName ref="Rostock">Rostochiensi</placeName>, scriptas abs te 25. Ianuarij.
-                    Ad eas omnes a me et a Domino <persName ref="Curtius, Jacob">CURTIO</persName> propediem accipies responsum plenissime, unâ cum
-                    Privilegio luculentiori, quæ omnia noster tabellarius, D. <persName ref="Curtius, Jacob">CURTIUS</persName> ad te
-                    ablegabit. Sic enim inter nos iam  <pb ed="TBOO" n="VII.244"/>est constitutum. Hæc brevibus
-                    per eundem studiosum, qui <placeName ref="Rostock">Rostochium</placeName> revertitur, tibi significanda esse duxi. B.
-                    V. Datæ <placeName ref="RPrague">Pragæ</placeName> die 1. Maij novo stylo Anno 1590.</p>
-                <lb/><p rend="rightMargin">T. studiosiss.<lb/>THAD.</p><lb/>
-                <p>Si fieri posset, ut mihi modellam, ut vocant, seu exemplum tuorum instrumentorum
-                    observatoriorum (puta Sextantis et Armillarum; in Quadrante enim non erit ulla
-                    difficultas) ex charta conglutinata aut asserculis mitteres, ad quorum exemplum
-                    similia iustæ magnitudinis mihi construi curarem, faceres mihi rem gratissimam,
-                    et posset ea noster tabellarius, qui ad te cum nostris literis veniet, mihi
-                    afferre. Non puto enim tibi deesse manuarios artifices, qui modellas illas
-                    construere possunt. Indicabis etiam mihi, quantæ magnitudinis a me sint omnia
-                    illa construenda.</p>
+                <opener>NOBILISS. ET DOCTISS. D. <persName ref="brahe_tycho_1546">TYCHONI
+                        BRAHE</persName> DANO, DOMINO URANIBURGI, DOMINO ET AMICO PLURIMUM
+                    OBSERVANDO.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>NOBILISS. Domine <persName
+                        ref="brahe_tycho_1546">TYCHO</persName> et amice plurimum observande. Accepi
+                    binas abs te literas, eodem tenore verborum, alteris adiuncta Apologia. Deinde
+                    die 24. Aprilis novo stylo accepi alias a studioso quodam <placeName
+                        ref="Rostock">Rostochiensi</placeName>, scriptas abs te 25. Ianuarij. Ad eas
+                    omnes a me et a Domino <persName ref="kurz_jacob_1554">CURTIO</persName>
+                    propediem accipies responsum plenissime, unâ cum Privilegio luculentiori, quæ
+                    omnia noster tabellarius, D. <persName ref="kurz_jacob_1554">CURTIUS</persName>
+                    ad te ablegabit. Sic enim inter nos iam <pb ed="TBOO" n="VII.244"/>est
+                    constitutum. Hæc brevibus per eundem studiosum, qui <placeName ref="Rostock"
+                        >Rostochium</placeName> revertitur, tibi significanda esse duxi.</p>
+                <closer><salute>B. V.</salute> Datæ <dateline><placeName ref="Prague"
+                            >Pragæ</placeName> die 1. Maij novo stylo Anno 1590.</dateline>
+                    <signed>T. studiosiss.<lb/><persName ref="hagecius_thaddaeus_1525"
+                            >THAD.</persName></signed></closer>
+                <postscript>
+                    <p>Si fieri posset, ut mihi modellam, ut vocant, seu exemplum tuorum
+                        instrumentorum observatoriorum (puta Sextantis et Armillarum; in Quadrante
+                        enim non erit ulla difficultas) ex charta conglutinata aut asserculis
+                        mitteres, ad quorum exemplum similia iustæ magnitudinis mihi construi
+                        curarem, faceres mihi rem gratissimam, et posset ea noster tabellarius, qui
+                        ad te cum nostris literis veniet, mihi afferre. Non puto enim tibi deesse
+                        manuarios artifices, qui modellas illas construere possunt. Indicabis etiam
+                        mihi, quantæ magnitudinis a me sint omnia illa construenda.</p>
+                </postscript>
             </div>
         </body>
     </text>

@@ -65,7 +65,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 26. september</date></creation>
+            <creation><date xml:lang="da">1591, 26. september.</date><date xml:lang="en">1591, 26 September.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,7 +88,7 @@
             <div>
                 <opener>
                         <pb ed="TBOO" n="VI.243"/><pb ed="E" n="212"/>DEM DURCHLEUCHTIGSTEN/
-                            HOCHGEBORNEN FÜRSTEN VND HERRN/ HERRN <hi rend="it">WILHELM</hi>,
+                    HOCHGEBORNEN FÜRSTEN VND HERRN/ HERRN <hi rend="it"><persName ref="wilhelm_4_1532">WILHELM</persName></hi>,
                             LANDTGRAUEN ZU HESSEN/ GRAUEN ZU CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND
                             NIDDA: MEINEM GNEDIGEN HERRN.
                 </opener>
@@ -210,7 +211,7 @@
                 </p>
                 <p rend="indent">
                     Daß Ew. F. G. <hi rend="it">Mathematicus <persName
-                        ref="Rothmann">ROTHMANNVS</persName></hi>, noch bißhero sich nicht
+                        ref="rothmann_christopher_1550">ROTHMANNVS</persName></hi>, noch bißhero sich nicht
                         hat eingestelt/ thut mich je lenger je mehr verwundern/ vnd es muß seltzame
                         Vrsache haben/ daß er so lange außbleibt. Ewer F. G. wirdt wol Mittel
                         finden/ daß sie jn widerumb zu sich <hi rend="it">alliciren</hi> könne/ wan
@@ -257,14 +258,14 @@
                                     1591</hi>.
                     </dateline>
                     <signed>
-                        Ewer F. G.<lb/>Dienstwilliger <lb/>TYCHO
-                        BRAHE.</signed>
+                        Ewer F. G.<lb/>Dienstwilliger <lb/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName>.</signed>
                 </closer>
                 <postscript>
                     <label>POSTSCRIPTA.</label>
                     <p>
                         NACH dem ich vermercke auß Ew. F. G. Brieff/ daß der
-                            <hi rend="it"><persName ref="Rothmann">ROTHMANNVS</persName></hi>
+                            <hi rend="it"><persName ref="rothmann_christopher_1550">ROTHMANNVS</persName></hi>
                             noch nicht in so lange zeit angekommen ist/ gedencke ich wol/ daß er
                             auch die <hi rend="it"><app>
                                 <lem wit="#TBOO">Descriptionem</lem>
@@ -279,8 +280,8 @@
                                 Astronomica</hi> deutlicher vnd fleissiger/ beyde mit jre <hi
                                     rend="it">Fabricâ</hi> vnd <hi rend="it">vsu</hi> zu beschreiben.
                             Ew. F. G. wolle diese geringe <hi rend="it">Consignation</hi> in
-                            gnedigen Willen annemen. <hi rend="it">Datum vt supra</hi>.
-                    </p>
+                        gnedigen Willen annemen.</p> <closer><dateline><hi rend="it">Datum vt supra</hi>.</dateline></closer>
+                    
                 </postscript>
             </div>
         </body>

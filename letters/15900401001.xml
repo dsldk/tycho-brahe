@@ -65,7 +65,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 1. april</date></creation>
+            <creation><date xml:lang="da">1590, 1. april.</date><date xml:lang="en">1590, 1 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,17 +80,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2021-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <opener><pb ed="TBOO"
-                        n="VI.204"/><pb ed="E" n="174"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO WILHELMO,
+                    n="VI.204"/><pb ed="E" n="174"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO <persName xml:lang="wilhelm_4_1532">WILHELMO</persName>,
                         HASSIÆ LANDGRAVIO, COMITI IN CATZENELNBOGEN, DIETZ, ZIEGENHAIN ET NIDDA:
                         PRINCIPI AC DOMINO SUO CLEMENTISSIMO S. P.
                 </opener>
-                <p>QVÆ ad T. Celsit. hoc tempore perscriberem, Princeps <app>
+                <p rend="noIndent">QVÆ ad T. Celsit. hoc tempore perscriberem, <persName xml:lang="wilhelm_4_1532">Princeps</persName> <app>
                     <lem wit="TBOO">Illustrissime, etsi</lem>
                     <rdg wit="#E">Illustrissime. Etsi</rdg>
                 </app> non multa occurrerent, simulque vererer, ne meis importunis literis T.
@@ -102,7 +103,7 @@
                     lucens: Sciens T. Celsit. huius apparentias cognoscendi cupidam esse (ex quo in
                     vltimo, ante quinquennium viso, simile quid a me expetitum sit) non
                     supersedendum duxi, quin aliquid literarum, vel hoc saltem nomine ad T. Celsit.
-                    mitterem, veluti paulo ante T. Celsit. <persName ref="Rothmann"
+                    mitterem, veluti paulo ante T. Celsit. <persName ref="rothmann_christopher_1550"
                         >Mathematico</persName> scribens, quando nonnullas in eodem Cometa
                     obseruationes continuassem, me facturum spopondi. Circa illudipsum enim tempus
                     Cometa apparere cœpit, et expectandam erat, donec ratas aliquot in <pb ed="TBOO"
@@ -116,7 +117,7 @@
                     illius obseruationi sedulo attendendum censui. Siquidem ex dato ipsius loco, in
                     remotissima, respectu Solis, tam Vespertina, quam Eoa dispositione, ad Apogæi
                     atque Eccentricitatis cognitionem perueniri posse, prout quoque a <persName
-                        ref="Ptolemaios">Ptolemæo</persName> et <persName ref="Copernicus"
+                        ref="Ptolemaios">Ptolemæo</persName> et <persName ref="kopernikus_nikolaus_1473"
                             >Copernico</persName> factitatum est, T. Celsit. non ignorat. Non paucas
                     igitur eiuscemodi a Sole digressiones maximas, matutinas atque vespertinas, iam
                     antea aliquoties exploraui, quibus et hanc adiungere satagebam; vixque bis vel
@@ -137,7 +138,7 @@
                     cum vestris aduersionibus conferre licebit. Rogoque, vt T. Celsit. hanc nostram
                     voluntatem boni consulat. Veneris Stella toto Februario et Martio interdiu,
                     etiam in ipso Meridie apparuit, quod in posterum quoque pro maiori Aprilis parte
-                    futurum iudico. Si itaque T. Celsit. <persName ref="Rothmann"
+                    futurum iudico. Si itaque T. Celsit. <persName ref="rothmann_christopher_1550"
                         >Mathematicus</persName> illi obseruandæ, tam interdiu, quam noctu operam
                     sedulam nauauit, admodum oportunam, de quinis illis Minutis, quibus in
                     Longitudinibus Stellarum differimus, decernendi arripuit ansam. Ex quo tam Venus
@@ -162,7 +163,7 @@
                 <closer>
                     <salute>Vale.</salute>
                     <dateline>Vraniburgo, Calendis Aprilis, Anno 1590.</dateline>
-                    <signed>T. Celsit. <lb/>Addictissimus <lb/>TYCHO BRAHE.</signed>
+                    <signed>T. Celsit. <lb/>Addictissimus <lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
                 </closer>
             </div>
         </body>

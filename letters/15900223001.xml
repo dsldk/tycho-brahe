@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.29</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.29</idno>
@@ -66,7 +75,7 @@
                 </correspAction>
             </correspDesc>
             <creation>
-                <date>1590, 23. februar</date>
+                <date xml:lang="da">1590, 23. februar.</date><date xml:lang="en">1590, 23 February.</date>
             </creation>
             <langUsage>
                 <language ident="la"/>
@@ -81,7 +90,8 @@
             </abstract>
         </profileDesc>
         <revisionDesc>
-            <change when="2019-05-28" who="#pz">Filen etableret og færdig. NB: der er ingen tekstkritik af indsætte</change>
+            <change when="2019-05-28" who="#pz">Filen etableret og færdig. NB: der er ingen tekstkritik at indsætte</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,9 +101,9 @@
                 <pb ed="TBOO" n="VII.225"/>
                 <pb ed="A" n="2v"/>
                 <opener>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO EXCELLENTISSIMOQUE VIRO D.
-                    <persName ref="Hagecius, Thaddaeus">THADDÆO HAGGECIO</persName> AB HAYCK, PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO IN
-                    PRIMIS COLENDO. <lb/><foreign xml:lang="de">ZU <placeName ref="Praha">PRAG</placeName> IM LANDT ZU <placeName ref="Bohemia">BEHMEN</placeName> AN HERN DOCTOR <persName ref="Hagecius, Thaddaeus">THADDÆUM HAGGECIUM</persName>.</foreign></opener>
-                <p><pb ed="A" n="1r"/>SCRIPSI tibi non ita dudum, mi amantissime et doctissime D. D. <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, atque ad
+                    <persName ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName> AB HAYCK, PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO IN
+                    PRIMIS COLENDO. <lb/><foreign xml:lang="de">ZU <placeName ref="Praha">PRAG</placeName> IM LANDT ZU <placeName ref="Bohemia">BEHMEN</placeName> AN HERN DOCTOR <persName ref="hagecius_thaddaeus_1525">THADDÆUM HAGGECIUM</persName>.</foreign></opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>SCRIPSI tibi non ita dudum, mi amantissime et doctissime D. D. <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, atque ad
                     ultimas a te acceptas respondi, solicitudinemque omnem de prioribus tuis, quas
                     suspicabaris non redditas mihi, uti spero, ademi. Nunc et alteras addo, ne
                     semper a te præveniar aut scriptionem tamdiu, ut antea, procrastinem. Licet enim
@@ -109,7 +119,7 @@
                     Operis nostri, cui illud præfigendum destinavi, iam indies ad Colophonem
                     deducitur. Nam eius tertia et ultima pars, quæ aliorum placita, inter quæ etiam
                     tua, expendit, iam sub prælo est. Misi etiam tum temporis Apologeticum quoddam
-                    Scriptum, quo præstanti cuidam in <placeName ref="Scotland">Scotia</placeName> <persName ref="Craig">Mathematico</persName>, Aristotelea tutanti et
+                    Scriptum, quo præstanti cuidam in <placeName ref="Scotland">Scotia</placeName> <persName ref="craig_john_1620">Mathematico</persName>, Aristotelea tutanti et
                     nostra convellere aggresso, occurri. Hoc si perlegisti, velut te fecisse non
                     dubito, tuum mihi de eo iudicium communica, et si quid desiderari aut minus
                     absolute tractatum censueris, ingenue admone. Fieri enim potest, ut Apologiam
@@ -122,7 +132,7 @@
                     materiam faciunt. Cur id cupiam, tunc indicavi. Et ut scias, rem ita se habere,
                     mitto aliquam <pb ed="TBOO" n="VII.226"/>partem libri I Epistolarum Astronomicarum, quæ
                     hactenus typis absoluta est; in qua saltem eæ, quæ ab Illustriss. Principe
-                    <persName ref="Wilhelm, landgrave of Hessen">WILHELMO</persName>, <placeName ref="Hessen">Hassiæ</placeName> Landgravio, et eius Celsit. Mathematico, unâ cum mea ad
+                    <persName ref="wilhelm_4_1532">WILHELMO</persName>, <placeName ref="Hessen">Hassiæ</placeName> Landgravio, et eius Celsit. Mathematico, unâ cum mea ad
                     singulas responsione, ultro citroque hactenus missæ sunt, continentur. Addam et illas, quas me redeuntibus ab hisce Nundinis mercatoribus (<placeName ref="Kassel">Cassellas</placeName>
                     enim pertranseunt) recepturum existimo, unâ cum mea responsione, sicque primam
                     Tomi illius Epistolarum partem claudam. In secunda et tertia (nam et hunc trifariam subdividere lubet) aliorum de re
@@ -145,9 +155,9 @@
                     instituendis quædam agant, de cœli essentia, stellarum refractionibus,
                     hypothesibus cœlestium motuum, tum etiam Cometis atque plerisque eiuscemodi
                     varie inter nos disputatur. Quæ omnia tuo solerti iudicio discernenda relinquo.
-                    Rogoque peramanter, velis cum Nobilissimo et amplissimo viro D. <persName ref="Curtius, Jacob">IACOBO CURTIO</persName> de
+                    Rogoque peramanter, velis cum Nobilissimo et amplissimo viro D. <persName ref="kurz_jacob_1554">IACOBO CURTIO</persName> de
                     his omnibus vel saltem eorum præcipuis per otij commoditatem conferre mecumque
-                    vestram eruditam censuram communicare. Nam et <persName ref="Rothmann">ROTHMANNUS</persName>, cum quo de plerisque
+                    vestram eruditam censuram communicare. Nam et <persName ref="rothmann_christopher_1550">ROTHMANNUS</persName>, cum quo de plerisque
                     non ingrata mihi est controversia, ad arbitros provocat, quod et ego non
                     detrecto. Inspicite, legite, dijudicate. Nolim tamen, ut pluribus hos quaterniones communices, antequam totus liber
                     consummatus prodierit. Primus quaternio deest, in quo titulus atque
@@ -182,20 +192,18 @@
                     ipsis corrigere non difficile erit.</p>
                 <p rend="indent">Qui de Nova Stella atque Cometis scripserunt, modo plures ad manus habueris, quam
                     me obtinuisse putas, et eorum copiam facias velim. Si mittenda <placeName ref="Rostock">Rostochium</placeName> ad D. D. <persName ref="Brucaeus, Heinrich">HENRICUM BRUCÆUM</persName>, aut <placeName ref="Lübeck">Lubecam</placeName> Mercatori meo
-                    <persName ref="Buck">IACOBO BUCK</persName>, ut is nobili viro <persName ref="Rantzau, Heinrich">HENRICO RANZOVIO</persName>, Regis nostri in Holsatia
+                    <persName ref="Buck">IACOBO BUCK</persName>, ut is nobili viro <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName>, Regis nostri in Holsatia
                     Vicario, amico meo singulari, illa transmittat, procurâris, utique ea cito et
                     certo accepturus sum.</p>
                 <p rend="indent">Vide, quot nunc scripserim, licet ab initio vix, quæ exararem, me habiturum
                     putârim. Talis est inter nos animorum confluentia, ut unum pariat alterum. Da
                     operam, ut brevi luculenter respondeas. Ego posthac in rescribendo maturior ero.
-                    Vale et magnificum Dominum <persName ref="Curtius, Jacob">CURTIUM</persName> meis verbis officiose saluta, a quo etiam
-                    responsionem, modo per publica otium illi supererit, indies expecto. Iterum quam
-                    felicissime atque diutissime vale. <placeName ref="Uraniborg">Uraniburgi</placeName> die 23. Februarij 1590.</p><lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE.</p>
-            </div>
-            <div n="P.S.">
-                <pb ed="TBOO" n="VII.228"/>
-                <head>POST SCRIPTA</head>
+                    Vale et magnificum Dominum <persName ref="kurz_jacob_1554">CURTIUM</persName> meis verbis officiose saluta, a quo etiam
+                    responsionem, modo per publica otium illi supererit, indies expecto.</p> <closer><salute>Iterum quam
+                    felicissime atque diutissime vale.</salute> <dateline><placeName ref="Uraniborg">Uraniburgi</placeName> die 23. Februarij 1590.</dateline><signed>Tuus TYCHO BRAHE.</signed></closer>
+            
+                
+                <postscript><label><pb ed="TBOO" n="VII.228"/>POST SCRIPTA</label>
                 <p>CUM eo ipso die, quo has literas meo Amanuensi ad mundum describendas
                     tradidissem, circa vesperas Veneris a Sole digressioni maximæ observandæ
                     intenderem, ecce Cometes quidam ad eandem cœli occiduam plagam ex improviso
@@ -203,7 +211,7 @@
                     istius ascititij sideris apparentias cœlitus per totam eius durationem accurate
                     deductas scrutatus essem, ut mea etiam inventa, ex quo sciam te talibus plurimum
                     affici, unâ transmitterem. Addidi itaque brevem eiusdem Cometæ descriptionem,
-                    qualem illustrissimo quoque Principi <persName ref="Wilhelm, landgrave of Hessen">WILHELMO</persName>, <placeName ref="Hessen">Hassiæ</placeName> Landgravio, nuper hac de
+                    qualem illustrissimo quoque Principi <persName ref="wilhelm_4_1532">WILHELMO</persName>, <placeName ref="Hessen">Hassiæ</placeName> Landgravio, nuper hac de
                     re scribens communicavi. Plenius de eodem tertio nostro Tomo agam. Illic enim
                     hunc prioribus adiungere omnesque eius apparentias, quodque omnino Parallaxi
                     destituebatur, e multiplicibus et certis observationibus Geometrice demonstrare
@@ -219,7 +227,7 @@
                     factum est, quod literas hasce usque in sextam septimanam mecum retinuerim,
                     quod indicandum duxi, ne cur tam diverso tempore hæc scribantur, mirareris, sed
                     moram hanc eo citius excusatam haberes. Iterum vale. Hæc scribebantur quarto
-                    Aprilis. </p>
+                    Aprilis. </p></postscript>
             </div></div>
         </body>
     </text>

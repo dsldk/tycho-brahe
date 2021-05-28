@@ -71,7 +71,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1587, 22. maj</date></creation>
+            <creation><date xml:lang="da">1587, 22. maj.</date><date xml:lang="en">1587, 22 May.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -86,6 +86,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,14 +94,14 @@
             <div>
                 <opener>
                         <pb ed="TBOO" n="VI.231"/><pb ed="E" n="201"/><app>
-                            <lem>DEM VESTEN/ VNSERM LIEBEN BESONDERN <hi rend="it">TYCHONI
-                                BRAHE</hi>, HERRN ZU KNUDSTRUP. <lb/>WILHELM VON GOTTES
+                            <lem>DEM VESTEN/ VNSERM LIEBEN BESONDERN <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI
+                                BRAHE</persName></hi>, HERRN ZU KNUDSTRUP. <lb/><persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES
                                 GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU CATZENELNBOGEN/
                                 ETC.</lem>
                             <rdg><note>om. M</note></rdg>
                         </app>
                 </opener>
-                <p>
+                <p rend="noIndent">
                     VESTER lieber Besonder/ Daß jhr vns vnderm <hi rend="it"
                         >dato <placeName ref="Uraniborg">Vraniburg</placeName></hi>. am <hi
                             rend="it">2. Aprilis</hi> zu verstehen geben/ daß jhr jetzo den ersten
@@ -206,7 +207,7 @@
                     </dateline>
                     <signed>
                         <app>
-                            <lem>WILHELM LANDTGRAFF ZU HESSEN.</lem>
+                            <lem><persName ref="wilhelm_4_1532">WILHELM</persName> LANDTGRAFF ZU HESSEN.</lem>
                             <rdg><note>om. M</note></rdg>
                         </app>
                     </signed>

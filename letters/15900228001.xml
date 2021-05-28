@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737 f</idno>
@@ -55,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>John Craig</persName>
+                    <persName key="craig_john_1620">John Craig</persName>
                     <placeName>Edinburgh</placeName>
                     <date when="1590-02-28"/>
                 </correspAction>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 28. februar</date></creation>
+            <creation><date xml:lang="da">1590, 28. februar.</date><date xml:lang="en">1590, 28 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-06-03" who="#pz">Filen etableret. Tekst korrigeret. MEN de kursiverede forkortelser for vinkler bør nok tjekkes en ekstra gang</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,10 +97,10 @@
             <div>
                 <pb ed="TBOO" n="VII.239"/>
                 <pb ed="A" n="48v"/>
-                <opener>NOBILISS. ET CLARISS. VIRO DOMINO TYCHONI BRAHE, HWENÆ INSULÆ DOMINO, REGIS
+                <opener>NOBILISS. ET CLARISS. VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, HWENÆ INSULÆ DOMINO, REGIS
                     DANIÆ CONSILIARIO ET MATHEMATICO DOCTISSIMO, AMICO SUO HVENAM DANIÆ
                     MITTANTUR.<lb/>NOBILISS. ET CLARISS. VIR, AMICE COLENDE, S. P.</opener>
-                <p><pb ed="A" n="47r"/>ANTE biduum nobis D. <persName ref="Fuller"
+                <p rend="noIndent"><pb ed="A" n="47r"/>ANTE biduum nobis D. <persName ref="Fuller"
                         >FULLERUS</persName> noster obviam factus inter alia retulit, quam
                     honorifice abs te fuerit acceptus, quam admiranda viderit, et quod legerit, quæ
                     ad primas meas responderis, ubi ego: iamdudum mihi constat, in illa Uraniæ arce
@@ -161,8 +171,8 @@
                 <p rend="indent">Quia in has speculationes incidi et figura servit, tertium ascribam,
                     quo omnem <persName ref="Rheticus">RHETICI</persName> Canonem, de quo tantopere gloriatur, eximio fecundi usu
                     tollam, ut dabo hypothenusam <hi rend="it">ad</hi> in partibus, qualium <persName ref="it">db</persName> sinus est sinus totus,
-                    <it rend="it
-                        ">db</it> sinu in fecundo reperto, ut sit 3420201, arcus 20 erit angulo 18° 52½ , ut <hi rend="">db</hi>
+                    <hi rend="it
+                        ">db</hi> sinu in fecundo reperto, ut sit 3420201, arcus 20 erit angulo 18° 52½ , ut <hi rend="it">db</hi>
                     fecundus 3420201 ad <hi rend="it">ab</hi> S. T. sic ab S. T. ad <hi rend="it">bh</hi> fecundum supplementi anguli
                     18° 52½ , qui ex Canone dabitur; est enim <hi rend="it">ab</hi> medium proportionale inter duo
                     fecundos. Ut ergo <hi rend="it">ab</hi> S. T. ad <hi rend="it">bh</hi> fecundum, sic erit <hi rend="it">db</hi> sinus 3420201 ad S. T. <hi rend="it">db</hi>
@@ -206,9 +216,9 @@
                     altitudo, ut principium, sensu per instrumentum notum dari, non ex alijs
                     demonstrari debet. Sed finem faciam, ne sim molestior. Cœli et Terræ Dominus
                     tibi adsit, tuisque faveat conatibus et incolumem conservet, tui amantissimum
-                    tuis literis revise. Datæ Edinburgi pridie Calend. Martij.</p><lb/>
-                <p rend="rightMargin">Tuus IOAN. CRAIGUS, philosophiæ et medicinæ doctor.</p><lb/><p>Si quid singulare in
-                    chymicis habueris, quod putes amico communicandum, facias velim.</p>
+                    tuis literis revise.</p> <closer><dateline>Datæ Edinburgi pridie Calend. Martij.</dateline><signed>Tuus <persName ref="craig_john_1620">IOAN. CRAIGUS</persName>, philosophiæ et medicinæ doctor.</signed></closer>
+                <postscript><p rend="noIndent">Si quid singulare in
+                    chymicis habueris, quod putes amico communicandum, facias velim.</p></postscript>
             </div>
         </body>
     </text>

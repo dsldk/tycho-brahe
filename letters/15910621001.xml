@@ -13,31 +13,47 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Konsistoriums Arkiv</collection>
-                                <idno>Pakke Nr. 185.</idno>
+                                <idno>[gammel signature: KA 185]</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Konsistoriums Arkiv</collection>
+                                <idno>[old signature: KA 185]</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
@@ -62,11 +78,11 @@
                     <date when="1591-06-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Anders Christensen</persName>
+                    <persName key="christensen_anders_1551">Anders Christensen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591-06-21</date></creation>
+            <creation><date xml:lang="da">1591, 21. juni.</date><date xml:lang="en">1591, 21 June.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -83,56 +99,72 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-16" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-11" who="#pz">Korrekturlæst</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.56"/><foreign xml:lang="la">MAGNIFICO DOMINO RECTORI</foreign>, HEDERLIG OC HØGLERDT
-                    MAND, DOCTOR <persName ref="Christensen, Anders">ANDERS CHRISTENSØN</persName>, <foreign xml:lang="la">MEDICINÆ
-                    PROFESSORI</foreign> VDI KIØBENHAFFNS VNIUERSITET,
-                    MIN SYNDERLIG GODE WEN, GANDSKE
-                    WENLIGEN TILSCHREFFUIT.</opener>
-                
-                <p>MIN gandske wenlig helsen nu oc altidt forsendt med Wor Herre. <foreign xml:lang="la"><hi rend="it">Magnifice
-                    d:ne rector,</hi></foreign> oc kiere  <hi rend="it">doctor</hi><persName ref="Christensen, Anders">Andres</persName>, synderlig gode wen. Nest
-                    min wenlig tacksigelse for alt beuist gode, huilcket ieg aff formuen wil findis
-                    willig at forskylde, er min gandske wenlig bøn til eder, at i will wel giøre, oc
-                    lade  <hi rend="it">vocire</hi> oc fordre for eder, oc andre flere aff eders  <foreign xml:lang="la"><hi rend="it">collegis</hi></foreign>, hederlige oc
-                    høglerde  <foreign xml:lang="la"><hi rend="it">professoribus</hi></foreign>, eders <foreign xml:lang="la"><hi rend="it">collegam</hi></foreign>, hederlig oc høglerdt mand <hi rend="it">doctor</hi>
-                    <persName ref="Krag, Niels">Nielß Crage</persName>, oc der till medt ocsaa m. <persName ref="Kolding, Niels">Nielß Colding</persName>, om hand er nogen stedts
-                    at finde der vdi byen, oc lade dennom i min fogits, wed naffn <persName ref="Jude, Christen">Christen Judes</persName>
-                    neruerelse, huilcken ieg der paa fuldmact giffuit haffuer, effter som hand
-                    paa mine wegne eskendis worder, bestaa oc bekiende, alt hues de wide sig i
-                    sandhed at haffue tildraget den tidt, min tiener <persName ref="Pedersen, Rasmus">Rasmus Persøn</persName>, som nu er vdi
-                    <placeName ref="Gundsøgård">Gunsøgaard</placeName>, haffde vdsendt vdi forgangne sommer to mend aff <placeName ref="Roskilde">Roschild</placeName> til
-                    mig, borgemester <persName ref="Skyt, Christen">Christen Skyt</persName>, oc en anden, wed naffn <persName ref="Swerdtfeger, Peder">Peder Swerdtfeger</persName>,
-                    effterdi de war da her tilstede hoß mig, at de derfor enten samptligen, eller
-                    huer i seer for sig, widne och offentlich vdi alle eders neruerelse bekiende oc
-                    bestaa saa widt som de wide, at denne handell anrørendis er, oc kunde medt
-                    en gode  <hi rend="it">conscientz</hi> for Gud oc dennom sielff wide oc bestaa at were i sandhed
-                    tilgangen, oc ydermere for øffuerigheden, der som behoff giøris, bekiender.</p>
-                <p rend="indent">Oc er her till lougligen steffnt oc kaldit for:ne <persName ref="Pedersen, Rasmus">Rasmus Persen</persName>, ocsaasaa at
-                    tage forbemelte mend medt sig, om de haffuer noget heri at sige, som i kunde
-                    forfare aff den steffning oc kaldsbreff, min fogitt haffuer ladet leßt for hannom,
-                    paa huilcken hand oc sielff paaskreffuit haffuer. Oc møder ocsaa der 
-                    hoß mine kaldtsmend, som haffuer her offuer werit, oc wille bestaa det i eders<pb ed="TBOO" n="XIV.57"/>
-                    paahør, enten <persName ref="Pedersen, Rasmus">Rasmus</persName> møder sielff, heller oc hans fuldmectige medt de andre
-                    to, eller oc icke. Er der for min gandske wenlige bøn til eder, at i wille well
-                    giøre, oc lade mig widerfaris hervdj hues billigt oc ret er, ac landzens skick
-                    oc brug medbringer. Oc at ieg kand faa alltingst nu strax beskreffuit, oc vnder
-                    <hi rend="it">vniuersitetens</hi> segel bekrefftigit. Forseendis mig till eder oc de andre eders
-                    <foreign xml:lang="la"><hi rend="it">collegis</hi></foreign>, at i hervdi giørendis worder, saa at ieg icke skal haffue mig der
-                    vdoffuer at beklage, men tacke eder for eders wmage oc gode wilge vdi alle
-                    maade, huilcken ieg oc saa altidt will findis, saa widt mig mugligt kand were,
-                    at forskylle gandske godtwillig oc tilgnegt.</p>
-                <closer><salute>Oc will hermedt nu oc altidt haffue
-                    eder Gud almectigste befalendis.</salute> <dateline><foreign xml:lang="la"><hi rend="it">Datum <placeName ref="Uraniborg">Vraniburg</placeName></hi></foreign> den 21. <hi rend="it">junij <foreign xml:lang="la">anno</foreign></hi> 1591.</dateline>
-                
-                <signed>Tyghe Brahe<lb/>Egen hand.</signed></closer>
+                <opener><pb ed="TBOO" n="XIV.56"/><foreign xml:lang="la">MAGNIFICO DOMINO
+                        RECTORI</foreign>, HEDERLIG OC HØGLERDT MAND, DOCTOR <persName
+                        ref="christensen_anders_1551">ANDERS CHRISTENSØN</persName>, <foreign
+                        xml:lang="la">MEDICINÆ PROFESSORI</foreign> VDI KIØBENHAFFNS VNIUERSITET,
+                    MIN SYNDERLIG GODE WEN, GANDSKE WENLIGEN TILSCHREFFUIT.</opener>
+
+                <p rend="noIndent">MIN gandske wenlig helsen nu oc altidt forsendt med Wor Herre. <foreign
+                        xml:lang="la"><hi rend="it">Magnifice d:ne rector,</hi></foreign> oc kiere
+                        <hi rend="it">doctor</hi><persName ref="christensen_anders_1551"
+                        >Andres</persName>, synderlig gode wen. Nest min wenlig tacksigelse for alt
+                    beuist gode, huilcket ieg aff formuen wil findis willig at forskylde, er min
+                    gandske wenlig bøn til eder, at i will wel giøre, oc lade <hi rend="it"
+                        >vocire</hi> oc fordre for eder, oc andre flere aff eders <foreign
+                        xml:lang="la"><hi rend="it">collegis</hi></foreign>, hederlige oc høglerde
+                        <foreign xml:lang="la"><hi rend="it">professoribus</hi></foreign>, eders
+                        <foreign xml:lang="la"><hi rend="it">collegam</hi></foreign>, hederlig oc
+                    høglerdt mand <hi rend="it">doctor</hi>
+                    <persName ref="Krag, Niels">Nielß Crage</persName>, oc der till medt ocsaa m.
+                        <persName ref="Kolding, Niels">Nielß Colding</persName>, om hand er nogen
+                    stedts at finde der vdi byen, oc lade dennom i min fogits, wed naffn <persName
+                        ref="Jude, Christen">Christen Judes</persName> neruerelse, huilcken ieg der
+                    paa fuldmact giffuit haffuer, effter som hand paa mine wegne eskendis worder,
+                    bestaa oc bekiende, alt hues de wide sig i sandhed at haffue tildraget den tidt,
+                    min tiener <persName ref="Pedersen, Rasmus">Rasmus Persøn</persName>, som nu er
+                    vdi <placeName ref="Gundsøgård">Gunsøgaard</placeName>, haffde vdsendt vdi
+                    forgangne sommer to mend aff <placeName ref="Roskilde">Roschild</placeName> til
+                    mig, borgemester <persName ref="Skyt, Christen">Christen Skyt</persName>, oc en
+                    anden, wed naffn <persName ref="Swerdtfeger, Peder">Peder
+                    Swerdtfeger</persName>, effterdi de war da her tilstede hoß mig, at de derfor
+                    enten samptligen, eller huer i seer for sig, widne och offentlich vdi alle eders
+                    neruerelse bekiende oc bestaa saa widt som de wide, at denne handell anrørendis
+                    er, oc kunde medt en gode <hi rend="it">conscientz</hi> for Gud oc dennom sielff
+                    wide oc bestaa at were i sandhed tilgangen, oc ydermere for øffuerigheden, der
+                    som behoff giøris, bekiender.</p>
+                <p rend="indent">Oc er her till lougligen steffnt oc kaldit for:ne <persName
+                        ref="Pedersen, Rasmus">Rasmus Persen</persName>, ocsaasaa at tage forbemelte
+                    mend medt sig, om de haffuer noget heri at sige, som i kunde forfare aff den
+                    steffning oc kaldsbreff, min fogitt haffuer ladet leßt for hannom, paa huilcken
+                    hand oc sielff paaskreffuit haffuer. Oc møder ocsaa der hoß mine kaldtsmend, som
+                    haffuer her offuer werit, oc wille bestaa det i eders<pb ed="TBOO" n="XIV.57"/>
+                    paahør, enten <persName ref="Pedersen, Rasmus">Rasmus</persName> møder sielff,
+                    heller oc hans fuldmectige medt de andre to, eller oc icke. Er der for min
+                    gandske wenlige bøn til eder, at i wille well giøre, oc lade mig widerfaris
+                    hervdj hues billigt oc ret er, ac landzens skick oc brug medbringer. Oc at ieg
+                    kand faa alltingst nu strax beskreffuit, oc vnder <hi rend="it"
+                        >vniuersitetens</hi> segel bekrefftigit. Forseendis mig till eder oc de
+                    andre eders <foreign xml:lang="la"><hi rend="it">collegis</hi></foreign>, at i
+                    hervdi giørendis worder, saa at ieg icke skal haffue mig der vdoffuer at
+                    beklage, men tacke eder for eders wmage oc gode wilge vdi alle maade, huilcken
+                    ieg oc saa altidt will findis, saa widt mig mugligt kand were, at forskylle
+                    gandske godtwillig oc tilgnegt.</p>
+                <closer><salute>Oc will hermedt nu oc altidt haffue eder Gud almectigste
+                        befalendis.</salute>
+                    <dateline><foreign xml:lang="la"><hi rend="it">Datum <placeName ref="Uraniborg"
+                                    >Vraniburg</placeName></hi></foreign> den 21. <hi rend="it"
+                            >junij <foreign xml:lang="la">anno</foreign></hi> 1591.</dateline>
+                    <signed><persName ref="brahe_tycho_1546">Tyghe Brahe</persName><lb/>Egen
+                        hand.</signed></closer>
             </div>
         </body>
     </text>
 </TEI>
-

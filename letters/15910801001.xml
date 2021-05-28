@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -47,7 +51,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Giovanni Antonio Magini</persName>
+                    <persName key="magini_giovanni_antonio_1555">Giovanni Antonio Magini</persName>
                     <placeName>Padua</placeName>
                     <date when="1591-01-22"/>
                     <note>n.s.</note>
@@ -57,7 +61,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 22. januar n.s</date></creation>
+            <creation><date xml:lang="da">1591, 22. januar n.s.</date><date xml:lang="en">1591, 22
+                    anuary NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -72,6 +77,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-24" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -79,38 +85,38 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.303"/><pb ed="A" n="82r"/>NOBILITATE PERILLUSTRI ET
-                    ERUDITIONE PRÆSTANTISSIMO VIRO. D. TYCHONI BRAHE DANO, DOMINO DE KNUDSTRUP, ET
+                    ERUDITIONE PRÆSTANTISSIMO VIRO. D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DANO, DOMINO DE KNUDSTRUP, ET
                     ARCIS URANIBURG IN INSULA HELLESPONTI DANICI HUÆNA FUNDATORI.</opener>
-                <p>HIS sane litteris, quas nunc ad te mitto, perillustris ac eruditissime vir,
-                    brevitatem sum secutus: et quamvis in Epistola illa, quam cum eo opere, quo te
-                    merito, grati animi meæque erga te observantiæ declarandæ causa, nuncupavi,
-                    communitam dedi, quamque brevi ad te sum transmissurus, pluribus egerim: tamen
-                    ne negligentiæ nomine me accusares, tibi indicandum duxi, me hactenus a
-                        <placeName ref="Padova">Patavina</placeName> poli investigatione ac Martis
-                    affixorumque syderum meridiana altitudine investiganda, quam tantopere cum
-                        <persName ref="Gellius">GELLIO</persName> tuo, vel potius, nostro, observare
-                    cupiebas, supersedisse: cum, quod eiusmodi observationibus nec opportunum loci
-                    situm, nec commodam ad ea exploranda occasionem, ut ingenue <persName
-                        ref="Gellius">GELLIUS</persName> ipse testabitur, invenire potui, tum etiam
-                    quod diversorum negotiorum cumulo varijsque molestijs, quas mors carissimæ
-                    Matris gravissimas auxit, plurimum toto illo æstivo tempore, quo <placeName
-                        ref="Venezia">Venetijs</placeName> et <placeName ref="Padova"
+                <p rend="noIndent">HIS sane litteris, quas nunc ad te mitto, perillustris ac
+                    eruditissime vir, brevitatem sum secutus: et quamvis in Epistola illa, quam cum
+                    eo opere, quo te merito, grati animi meæque erga te observantiæ declarandæ
+                    causa, nuncupavi, communitam dedi, quamque brevi ad te sum transmissurus,
+                    pluribus egerim: tamen ne negligentiæ nomine me accusares, tibi indicandum duxi,
+                    me hactenus a <placeName ref="Padova">Patavina</placeName> poli investigatione
+                    ac Martis affixorumque syderum meridiana altitudine investiganda, quam tantopere
+                    cum <persName ref="sascerides_gellius_1562">GELLIO</persName> tuo, vel potius,
+                    nostro, observare cupiebas, supersedisse: cum, quod eiusmodi observationibus nec
+                    opportunum loci situm, nec commodam ad ea exploranda occasionem, ut ingenue
+                        <persName ref="sascerides_gellius_1562">GELLIUS</persName> ipse testabitur,
+                    invenire potui, tum etiam quod diversorum negotiorum cumulo varijsque molestijs,
+                    quas mors carissimæ Matris gravissimas auxit, plurimum toto illo æstivo tempore,
+                    quo <placeName ref="Venezia">Venetijs</placeName> et <placeName ref="Padova"
                         >Patavij</placeName> hæreo, sum circumventus. Sextantem interim tuæ
                     inventionis, et tui gratia, et meæ exercitationis causa, fabrefieri feci, eumque
-                    cœlo exactissime ad singula minuta, dum unâ cum dicto <persName ref="Gellius"
-                        >GELLIO</persName> easdem nonnullarum fixarum distantias, quales ex tuis
-                    observationibus in Fixarum Catalogo tu ipse antea notasti, deprehendi,
-                    respondere comperi. Eundem <placeName ref="Bologna">Bononiam</placeName> mecum
-                    exportabo, ibique Quadrantem maiorem ad altitudines observandas elaborare
-                    faciam; et plures tui causa observationes perficere conabor. Radium etiam
-                    Astrologicum iustæ magnitudinis construi faciam; in cuius oblongi extremitate
-                    cylindrus sit apponendus, ubi scilicet in aliorum radijs oculus applicatur: in
-                    transversarij vero extremitatibus affigendæ erunt duæ pinnulæ cum suis
-                    foraminibus, sicut in tuis Instrumentis facere soles, quæ tamen libere
-                    circumvolvantur, ut radij per eius rimulas ac iuxta cylindri extremitates
-                    transmissi paralleli fiant. Hoc transversarium volo, ut lateraliter tantum
-                    moveatur, dividendo ipsum in particulas illas, in quas hasta seu fustis divisa
-                    est, pro ratione <app>
+                    cœlo exactissime ad singula minuta, dum unâ cum dicto <persName
+                        ref="sascerides_gellius_1562">GELLIO</persName> easdem nonnullarum fixarum
+                    distantias, quales ex tuis observationibus in Fixarum Catalogo tu ipse antea
+                    notasti, deprehendi, respondere comperi. Eundem <placeName ref="Bologna"
+                        >Bononiam</placeName> mecum exportabo, ibique Quadrantem maiorem ad
+                    altitudines observandas elaborare faciam; et plures tui causa observationes
+                    perficere conabor. Radium etiam Astrologicum iustæ magnitudinis construi faciam;
+                    in cuius oblongi extremitate cylindrus sit apponendus, ubi scilicet in aliorum
+                    radijs oculus applicatur: in transversarij vero extremitatibus affigendæ erunt
+                    duæ pinnulæ cum suis foraminibus, sicut in tuis Instrumentis facere soles, quæ
+                    tamen libere circumvolvantur, ut radij per eius rimulas ac iuxta cylindri
+                    extremitates transmissi paralleli fiant. Hoc transversarium volo, ut lateraliter
+                    tantum moveatur, dividendo ipsum in particulas illas, in quas hasta seu fustis
+                    divisa est, pro ratione <app>
                         <lem wit="#TBOO">sinus</lem>
                         <rdg wit="#A">simus</rdg>
                     </app> totius particularum 10000: hoc <pb ed="A" n="82v"/>enim pacto portio
@@ -137,14 +143,15 @@
                     priusquam sua illa privilegia impertiantur. Illustrissimi autem Ducis Mantuæ et
                     Ferrariæ, per familiares et amicos, privilegium facile, uti spero, obtinebo.
                     Expecto adhuc magno cum desiderio Librum tuum primum, quem iam sub prœlo esse ex
-                        <persName ref="Gellius">GELLIO</persName> intellexi; interim obnixe te rogo,
-                    ut si quid in tui gratiam possum, libere mihi committere ne graveris. Vale,
-                    perillustris Vir, et Astronomiæ Princeps, quam restaurare, ut hucusque
-                    felicissime a te factum, pro communi commodo nunquam intermitte. Iterum diu
-                    feliciterque vale.</p>
-                <p rend="indent">Datæ Patavij, Kalendis Augusti 1591.</p>
-                <p rend="rightMargin">Perillustri Dominationi tuæ addictissimus<lb/><persName ref="Magini">IOAN. ANTONIUS
-                    MAGINUS</persName>.</p>
+                        <persName ref="sascerides_gellius_1562">GELLIO</persName> intellexi; interim
+                    obnixe te rogo, ut si quid in tui gratiam possum, libere mihi committere ne
+                    graveris. Vale, perillustris Vir, et Astronomiæ Princeps, quam restaurare, ut
+                    hucusque felicissime a te factum, pro communi commodo nunquam intermitte.</p>
+                <closer><salute>Iterum diu feliciterque vale.</salute>
+                    <dateline>Datæ Patavij, Kalendis Augusti 1591.</dateline>
+                    <signed>Perillustri Dominationi tuæ addictissimus<lb/><persName
+                            ref="magini_giovanni_antonio_1555">IOAN. ANTONIUS
+                        MAGINUS</persName>.</signed></closer>
             </div>
         </body>
     </text>

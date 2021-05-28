@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Sophie</author>
+                <author>Dronning Sophie</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Kongehusets arkiv</collection>
+                                <idno>Dronning Sophies tegnelser 1589-92, fol. 70 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Kongehusets arkiv</collection>
                                 <idno>Dronning Sophies tegnelser 1589-92, fol. 70 f.</idno>
                                 <msName>empty</msName>
@@ -55,8 +64,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Sophie (1557-1631)</persName>
-                    <placeName>København</placeName>
+                    <persName key="sophie_1557">Dronning Sophie</persName>
+                    <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1590-03-06"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 6. marts</date></creation>
+            <creation><date xml:lang="da">1590, 6. marts.</date><date xml:lang="en">1590, 6 March.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-07" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,10 +97,10 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.51"/>
-                <opener>TYGE BRAHE FICK BREFF ETT AFF HANS BØRNN ANRØRENNDIS <foreign xml:lang="la"
+                <opener><persName ref="brahe_tycho_1546">TYGE BRAHE</persName> FICK BREFF ETT AFF HANS BØRNN ANRØRENNDIS <foreign xml:lang="la"
                             ><hi rend="it">VT SEQUITUR</hi></foreign></opener>
                 <p><persName ref="sophie_1557">Sophia</persName> etc.</p>
-                <p>WOR gunst thilfornn. Wider, att ßom j wnderdannigst lader giffue thilkiennde, att
+                <p rend="noIndent">WOR gunst thilfornn. Wider, att ßom j wnderdannigst lader giffue thilkiennde, att
                     ßom j epther thennd sthormegthigste hogbornne første och herris her Fr[e]drich
                     thend annden, Danmarckis, Norgis etc. konning, Wor kierre sallig affganngnne
                     here och gemhals begierre, epther thennd naade och begaffuede forstanndtt, ßom j

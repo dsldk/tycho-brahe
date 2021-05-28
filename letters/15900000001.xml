@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliothek</repository>
@@ -41,6 +41,21 @@
                                 <idno>179</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>PRoyal Library</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc>
                     </witness>
                     <witness xml:id="TBOO">
@@ -85,6 +100,7 @@
             <change when="2019-05-28" who="#pz">Filen etableret. Afnit gennemrettet. Sidetal fra
                 TBOO indsat.</change>
             <change when="2019-06-02" who="#pz">færdigkorrigeret.</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -92,8 +108,8 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.228"/>
-                <opener>TYCHO BRAHE AD <persName ref="Peucer">CASPARUM PEUCERUM.</persName></opener>
-                <p><pb ed="A" n="1r"/>CUM paulo ante nostratia, quæ quotannis circa Solstitium
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="peucer_caspar_1525">CASPARUM PEUCERUM.</persName></opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>CUM paulo ante nostratia, quæ quotannis circa Solstitium
                     Æstivum celebrantur, Comitia tuas, excellentissime Domine D. PEUCERE, accepissem
                     literas, et mihi illuc tam de more anniversario quam quod quædam ibidem
                     transigenda haberem, necessario accedendum foret, distuli responsionem usque ad
@@ -721,14 +737,14 @@
                     sufficiant, vel potius circa quæstionem illam, quæ Cœlum supremum Aquis
                     obnubilat, tanquam minus Astronomicam, imo ab omni pene Philosophia abhorrentem,
                     nimia et quoque supervacanea esse poterint.</p>
-                <p rend="indent"><persName ref="Rothmann">CHRISTOPHORUM ROTHMANNUM</persName>
+                <p rend="indent"><persName ref="rothmann_christopher_1550">CHRISTOPHORUM ROTHMANNUM</persName>
                     Mathematicum Landgravianum hypotheses Copernicæas Terræque in his astructam
                     mobilitatem serio tueri, totumque Cœlum nihil aliud quam Aërem Elementarem
                     adeoque Animalem esse, existimare, ex quo dubitas, mitto ad te particulam libri
                     Epistolarum Astronomicarum, quas me aliquando publicandum tibi significavi,
                     continentem potissimum præter ipsius Illustrissimi Principis ad me de rebus
                     Astronomicis perscriptas, unâ cum nostra ad singulas responsione, huius quoque
-                        <persName ref="Rothmann">ROTHMANNI</persName> et meas literas, quibus ultro
+                        <persName ref="rothmann_christopher_1550">ROTHMANNI</persName> et meas literas, quibus ultro
                     citroque de toto hoc negotio disputamus. Ex his plenius percipies, quæ sit
                     illius atque mea, tum in talibus tum etiam nonnullis alijs <pb ed="A" n="4v"
                     />huc pertinentibus sententia. Quam ut pro iudicij tui acumine expendere, atque
@@ -752,7 +768,7 @@
                             mentionem facias. Sed levis est iactura; brevi enim, volente Deo,
                             idipsum, tomo secundo adiectum, typisque nostris excusum obtinebis. Tum
                             demum .. præstantissimi illius Mathematici et Philosophi Aristotelici
-                                <persName ref="Craig">IOANNIS CRAIGIJ</persName> Scoti obiectiones
+                                <persName ref="craig_john_1620">IOANNIS CRAIGIJ</persName> Scoti obiectiones
                             nostras assertiones de situ Cometarum <app>
                                 <lem>Olympico</lem>
                                 <rdg><note>ex <q>Æthereo</q> corr. man. 3</note></rdg>

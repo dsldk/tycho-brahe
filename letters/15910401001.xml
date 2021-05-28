@@ -68,7 +68,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 1. april</date></creation>
+            <creation><date xml:lang="da">1591, 1. april.</date><date xml:lang="en">1591, 1 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,17 +83,19 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VI.227"/><pb ed="E" n="197"/>ILLVSTRISSIMO PRINCIPI AC
-                    DOMINO, DOMINO <persName ref="Wilhelm, landgrave of Hessen"
+                    DOMINO, DOMINO <persName ref="wilhelm_4_1532"
                         >WILHELMO</persName>, LANDGRAVIO HASSIÆ, COMITI IN CATZENELLEBOGEN,
                     DIETZ, ZIEGENHAIN ET NIDDA: PRINCIPI AC DOMINO CLEMENTISSIMO. S. D.
                 </opener>
-                <p>REDDIDIT mihi, Illustrissime Princeps, a Celsit. T. amandatus hoc nomine
+                <p rend="noIndent">REDDIDIT mihi, Illustrissime <persName ref="wilhelm_4_1532"
+                    >Princeps</persName>, a Celsit. T. amandatus hoc nomine
                     Tabellarius, die 23. Martij, literas Celsit. T. 3. Februarij labentis Anni ad me
                     scriptas: in quibus Celsit. T. statim ab initio, de tarditate et raritate mearum
                     literarum, quodque ex Obseruationibus meis Mathematicis nihil adipiscatur, mecum
@@ -101,11 +103,11 @@
                     elapsi Anni meas Obseruationes communicaui, et simul, quæ de illo Mathematice
                     breuiter dicenda habui, exposui: Ad quæ omnia nihil adhuc responsi accepi, adeo
                     vt addubitem, an ea ad Celsit. T. manus sarta tecta peruenerint, nec ne:
-                    præsertim, cum <persName ref="Rothmann">ROTHMANNO</persName> a Celsit. T. huc
+                    præsertim, cum <persName ref="rothmann_christopher_1550">ROTHMANNO</persName> a Celsit. T. huc
                     ablegato, qui ante Hyemem præteritam, circa Septembris finem, hinc decessit,
                     nihil de his constiterit. Scripsi etiam denuo per eundem <persName
-                        ref="Rothmann">ROTHMANNVM</persName>, sed meas Celsit. T. non fuisse
-                    allatas, cum ipse <persName ref="Rothmann">ROTHMANNVS</persName> nondum sese in
+                        ref="rothmann_christopher_1550">ROTHMANNVM</persName>, sed meas Celsit. T. non fuisse
+                    allatas, cum ipse <persName ref="rothmann_christopher_1550">ROTHMANNVS</persName> nondum sese in
                     Aula Celsit. T. stiterit, haud obscure conijcio. Mansit ille hîc mecum quinque
                     circiter septimanas, intereaque cum illo de rebus Astronomicis non inuite
                     contuli, vnaque Instrumentorum meorum formam, Magnitudinem, Diuisionem et
@@ -159,7 +161,7 @@
                     Tomus cap. 1. complectitur; vt nihil dicam de ijs, quæ nouam illam et supra
                     modum mirandam Anni 1572. Stellam, alias luculenter tractata concernunt. Quibus
                     subinde nonnulla ad reliquos quoque Planetas pertinentia, oportunitate sic
-                    exigente, intermiscentur. Ostendi autem <persName ref="Rothmann"
+                    exigente, intermiscentur. Ostendi autem <persName ref="rothmann_christopher_1550"
                         >ROTHMANNO</persName> hîc præsenti Volumen illud Progymnasmatum, quoad
                     hactenus absolutum est, in quo etiam pauculi desiderantur quaterniones, cum per
                     se alias magnum sit, et vsque in quintum Alphabetum excreuerit. Is T. C. de
@@ -260,7 +262,7 @@
                         <lem wit="#TBOO">Aprilis</lem>
                         <rdg wit="#E">Augusti</rdg>
                     </app>, Anno 91.</dateline>
-                    <signed>T. Celsit. Addictiss. TYCHO BRAHE.</signed>
+                    <signed>T. Celsit. Addictiss. <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
                 </closer>
             </div>
         </body>

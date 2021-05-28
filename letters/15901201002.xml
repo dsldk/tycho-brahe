@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,21 @@
                                 <idno>cod. Vindob. lat. 10686.5</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.5</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter draft</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +79,11 @@
                     <date when="1590-12-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jacob Curtius</persName>
+                    <persName key="kurz_jacob_1554">Jacob Curtius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 1. december</date></creation>
+            <creation><date xml:lang="da">1590, 1. december.</date><date xml:lang="da">1590, 1 December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +98,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-08-23" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,9 +106,9 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VII.285"/>
-                <opener>TYCHO BRAHE AD IACOBUM CURTIUM.</opener>
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="kurz_jacob_1554">IACOBUM CURTIUM</persName>.</opener>
                 <pb ed="A" n="4r"/>
-                <p>RESCRIPSI tuis humanissimis pariterque eruditissimis hac præterlapsa æstate ad me
+                <p rend="noIndent">RESCRIPSI tuis humanissimis pariterque eruditissimis hac præterlapsa æstate ad me
                     datis literis, vir amplissime et nobilissime, amice in primis honorande, idque
                     per eundem quem tunc temporis ad me ablegâras Tabellarium, nec dubito, quin
                     literæ meæ tibi satis certo redditæ sint; quare de ijs, quæ tunc ultro citroque
@@ -125,7 +141,7 @@
                     pondere itineris difficultates respuente, vix id præstari posse mihi persuadeo.
                     De alia igitur ratione, qua nihilominus in præcipuis quibusdam <placeName ref="Italy">Italiæ</placeName>
                     civitatibus nostris desiderijs satisfiat, mecum constitui. Degit enim nunc
-                    <placeName ref="Padova">Patavij</placeName> iuvenis quidam nostras <persName ref="Gellius">GELLIUS SASCERIDES</persName> nomine, qui mihi paulo antea
+                    <placeName ref="Padova">Patavij</placeName> iuvenis quidam nostras <persName ref="sascerides_gellius_1562">GELLIUS SASCERIDES</persName> nomine, qui mihi paulo antea
                     octennium domesticus fuit, atque tam in exercitijs Astronomicis quam Pyronomicis
                     fidelem navavit operam; huic per literas iam nuper significavi, ut illic
                     Sextantem quendam ad instar cuiusdam meorum, quos hîc vidit atque tractavit,
@@ -146,7 +162,7 @@
                     parari iussi, non commode in <placeName ref="Egypt">Ægiptum</placeName>, ob itineris nimiam intercapedinem aliasque
                     difficultates transvehi operâ unius alicuius hominis possit, nec etiam unicum
                     tanto <pb ed="TBOO" n="VII.287"/>labori atque indubiæ pervestigationi sufficiat, et is etiam,
-                    de quo <pb ed="A" n="5r"/>dixi, <persName ref="Gellius">GELLIUS</persName> meus ex his Arctois locis oriundus,
+                    de quo <pb ed="A" n="5r"/>dixi, <persName ref="sascerides_gellius_1562">GELLIUS</persName> meus ex his Arctois locis oriundus,
                     <placeName ref="Adriatic Sea">Maris Adriatici</placeName> atque <placeName ref="Mediterranean">Mediterranei</placeName> æstuationes, tum etiam aëris Ægiptiaci
                     subtilitatem atque fervorem absque valetudinis iactura aut vitæ periculo vix
                     sustinuerit, et res hæc per se alias sit magni momenti, plurimumque ad
@@ -166,7 +182,7 @@
                     atque ope hoc ipsum <placeName ref="Venice">Venetijs</placeName> mature procuratum fuerit, equidem non dubiam
                     concipio spem, omnia exoptatationi nostræ feliciter et commode satisfactura.
                     Instrumenta autem eiuscemodi affabre et absque vitio elaborandi rationem
-                    artificibus Venetis præscribet antedictus <persName ref="Gellius">GELLIUS</persName>, tum etiam eos, qui observandi
+                    artificibus Venetis præscribet antedictus <persName ref="sascerides_gellius_1562">GELLIUS</persName>, tum etiam eos, qui observandi
                     gratia <persName ref="Alexandria">Alexandriam</persName> amandandi venient, de eorum usu atque tractatione, cæterisque
                     ad cœlestem denotationem rite et citra errorem perficiendis sufficienter
                     instruet, stellarumque quarundam declinationes atque distantias meis hîc organis
@@ -204,9 +220,9 @@
                     Balthici</persName> navigationes impedientem congelationem, mihi de singulis rescribere,
                     atque quid sperandum faciendumque sit, significare non graveris. Vale vir
                     amplissime, meque tui studiosissimum et perpetua amicitia tibi devinctum
-                    retinere (quod et ultro per me fiet) non intermitte. Communi amico nostro <placeName ref="Hagecius, Thaddaeus">THADDÆO</placeName> seorsim scripsi, cui etiam quam optime cupio
-                    omniaque ex animi sententia opto. Iterum quam diutissime felicissimeque vale.
-                    Datæ Calendis Decembris Anni veteris Iuliani 1590.</p>
+                    retinere (quod et ultro per me fiet) non intermitte. Communi amico nostro <placeName ref="hagecius_thaddaeus_1525">THADDÆO</placeName> seorsim scripsi, cui etiam quam optime cupio
+                    omniaque ex animi sententia opto.</p> <closer><salute>Iterum quam diutissime felicissimeque vale.</salute>
+                    <dateline>Datæ Calendis Decembris Anni veteris Iuliani 1590.</dateline></closer>
             </div>
         </body>
     </text>

@@ -72,7 +72,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 9. feb.</date></creation>
+            <creation><date xml:lang="da">1591, 9. februar.</date><date xml:lang="een">1591, 9 February.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -87,6 +87,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-07" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -94,11 +95,11 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.55"/>
-                <opener>AN MATHEMATICUM <persName ref="rothmann_christopher_1550">CHRISTOPHORUM
-                        ROTHMANN</persName>.</opener>
-                <p><persName ref="wilhelm_4_1532">WILHELM</persName>, von Gotteß gnaden landtgrauen
+                <opener><foreign xml:lang="la">AN MATHEMATICUM <persName ref="rothmann_christopher_1550">CHRISTOPHORUM
+                        ROTHMANN</persName>.</foreign></opener>
+                <p rend="indent"><persName ref="wilhelm_4_1532">WILHELM</persName>, von Gotteß gnaden landtgrauen
                     zu Hessen, graue zu Catzenelenbogen.</p>
-                <p>Lieber getrewer. Wir haben dein schreibenn, darin du Vnß dein itzo lang wehrende
+                <p rend="noIndent">Lieber getrewer. Wir haben dein schreibenn, darin du Vnß dein itzo lang wehrende
                     vndt beschwehrliche leibs schwacheit zu erkennen geben, benebenn dem
                     vberschickten abriß des gebewes, so Tycho Brahe <foreign xml:lang="la">pro
                         observationibus siderum</foreign> vffrichten laßen, wie auch die eigentliche

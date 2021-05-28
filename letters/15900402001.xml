@@ -14,28 +14,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737 f</idno>
@@ -60,11 +73,13 @@
                     <date when="1590-04-02"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName><persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
+                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName>
+                    <persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 2. april</date></creation>
+            <creation><date xml:lang="da">1590, 2. april.</date><date xml:lang="en">1590, 2
+                    April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -90,11 +105,11 @@
                 <opener>NOBILISSIMO ET AMPLISSIMO VIRO, VIRTUTE ET ERUDITIONE IMPRIMIS CONSPICUO,
                     DOMINO HENRICO RANZOVIO, DOMINO DE BREITENBERGA ET REGIO IN HOLSATIA AC
                     DITHMARSIA GUBERNATORI ETC. AMICO SUO PLURIMUM COLENDO.</opener>
-                <p><pb ed="A" n="10r"/>SERIUS ego quidem, Nobilissime mi <persName
-                        ref="Rantzau, Heinrich">RANZOVI</persName>, tuis iam respondeo literis, non
-                    tam mea culpa, quam quod de Insignibus Sturorum certior interea temporis fieri
-                    nequiverim. Licet enim diligentissime hincinde per sororem quoque meam <persName
-                        ref="Brahe, Sophie">SOPHIAM</persName> a Domina <persName
+                <p rend="noIndent"><pb ed="A" n="10r"/>SERIUS ego quidem, Nobilissime mi <persName
+                        ref="rantzau_henrik_1526">RANZOVI</persName>, tuis iam respondeo literis,
+                    non tam mea culpa, quam quod de Insignibus Sturorum certior interea temporis
+                    fieri nequiverim. Licet enim diligentissime hincinde per sororem quoque meam
+                        <persName ref="Brahe, Sophie">SOPHIAM</persName> a Domina <persName
                         ref="Gørvel Fadersdatter">GURUILDA</persName>, relicta D. <persName
                         ref="Brahe, Lave">LAGONIS BRAHE</persName> vidua, id expiscari attentârim,
                     votis tamen nostris nondum est satisfactum, ut et adiunctæ indicabunt literæ.
@@ -123,14 +138,18 @@
                     non pervenisse. Ubi interea deliteant, ignoro. Plura per commodum otium scribam
                     et conabor, quantum in me est, ut Insignium istorum Sturianorum delineatione
                     potiaris. Vale, meaque, uti facis, promovere stude. Dabo vicissim operam, ut quæ
-                    tibi accepta cognovero, ubi potuero, fiant. Iterum vale. Datæ <placeName
-                        ref="Uraniborg">Uraniburgo</placeName> 2. Aprilis Anno 90.</p><lb/>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p><lb/>
-                <p>Literas quas adiunxi ad Illustriss. <persName ref="Wilhelm, landgrave of Hessen"
-                        >Principem Landgravium</persName>, si <placeName ref="Kassel">Cassellas</placeName> mitti procurâris, et alteram
-                    <placeName ref="Praha">Pragam</placeName> versus, rem feceris pergratam. Tunc etiam quæ <placeName ref="Lübeck"
-                        >Lubecam</placeName> et <placeName ref="Hamburg">Hamburgum</placeName>
-                    dirigendæ veniunt.</p>
+                    tibi accepta cognovero, ubi potuero, fiant.</p>
+                <closer><salute>Iterum vale.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgo</placeName> 2. Aprilis Anno
+                        90.</dateline><signed>TYCHO BRAHE,<lb/>manu propria.</signed></closer>
+                <postscript>
+                    <p>Literas quas adiunxi ad Illustriss. <persName ref="wilhelm_4_1532">Principem
+                            Landgravium</persName>, si <placeName ref="Kassel">Cassellas</placeName>
+                        mitti procurâris, et alteram <placeName ref="Praha">Pragam</placeName>
+                        versus, rem feceris pergratam. Tunc etiam quæ <placeName ref="Lübeck"
+                            >Lubecam</placeName> et <placeName ref="Hamburg">Hamburgum</placeName>
+                        dirigendæ veniunt.</p>
+                </postscript>
             </div>
         </body>
     </text>

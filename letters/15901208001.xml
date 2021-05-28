@@ -14,20 +14,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,11 +58,12 @@
                     <date when="1590-12-08"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Bartholomaeus Scultetus</persName>
+                    <persName key="scultetus_bartholomaus_1540">Bartholomaeus Scultetus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 8. december</date></creation>
+            <creation><date xml:lang="da">1590, 8. december.</date><date xml:lang="en">1590, 8
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -73,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-24" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -80,15 +86,17 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.301"/>
-                    <pb ed="A" n="196"/>CLARISSIMO ERUDITISSIMOQUE VIRO <persName ref="Scultetus"
-                        >BARTHOLOMÆO SCULTETO</persName>, RERUM MATHEMATICARUM EXCELLENTER PERITO,
-                    CIVI GORLICENSI, VETERI AMICO SUO PLURIMUM DILECTO.</opener>
-                <p><pb ed="A" n="192"/>TOTA hac præterlapsa æstate nihil a te literarum accepi, <app>
+                    <pb ed="A" n="196"/>CLARISSIMO ERUDITISSIMOQUE VIRO <persName
+                        ref="scultetus_bartholomaus_1540">BARTHOLOMÆO SCULTETO</persName>, RERUM
+                    MATHEMATICARUM EXCELLENTER PERITO, CIVI GORLICENSI, VETERI AMICO SUO PLURIMUM
+                    DILECTO.</opener>
+                <p rend="noIndent"><pb ed="A" n="192"/>TOTA hac præterlapsa æstate nihil a te
+                    literarum accepi, <app>
                         <lem wit="#TBOO">dilecte</lem>
                         <rdg wit="#A">dilecte</rdg>
-                    </app> mi <persName ref="Scultetus">SCULTETE</persName>, sive quod nihil
-                    scripseris, ob tabellariorum penuriam, aut Bacho, cui † proces, id non
-                    admittente, sive quod literæ istæ interciderint. Quicquid id est, ego nihilo
+                    </app> mi <persName ref="scultetus_bartholomaus_1540">SCULTETE</persName>, sive
+                    quod nihil scripseris, ob tabellariorum penuriam, aut Bacho, cui † proces, id
+                    non admittente, sive quod literæ istæ interciderint. Quicquid id est, ego nihilo
                     minus has ad te dare, <app>
                         <lem wit="#TBOO">ut[ut]</lem>
                         <rdg wit="#A">ut</rdg>
@@ -142,10 +150,11 @@
                     placuerint, seligam. Nam et ego canora Poësi non parum afficior, soleoque
                     interdum a severioribus occupationibus hac me recreare. Plura nunc non addo, cum
                     tu nihil ad ultimas meas rescripseris. Fac igitur, ut propediem aliquid a te
-                    responsi habeam, moxque copiosiora a me expectabis. Vale! Datæ <placeName
-                        ref="Uraniborg">Uraniburgi</placeName> die 8. Dec. Anno 1590.</p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                    responsi habeam, moxque copiosiora a me expectabis.</p>
+                <closer><salute>Vale!</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> die 8. Dec.
+                        Anno 1590.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

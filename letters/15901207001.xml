@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 7. december</date></creation>
+            <creation><date xml:lang="da">1590, 7. december.</date><date xml:lang="en">1590, 7 December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-08-26" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,10 +98,10 @@
                 <pb ed="TBOO" n="VII.299"/>
                 <pb ed="A" n="13v"/>
                 <opener>NOBILISSIMO ET AMPLISSIMO VIRO, VIRTUTE ET ERUDITIONE INPRIMIS CONSPICUO,
-                    DOMINO <persName ref="Rantzau, Heinrich">HENRICO RANZOVIO</persName>, DOMINO DE BREITENBERGA ET REGIO IN HOLSATIA AC
+                    DOMINO <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName>, DOMINO DE BREITENBERGA ET REGIO IN HOLSATIA AC
                     DITHMARSIA GUBERNATORI, AMICO SUO PLURIMUM COLENDO. <hi rend="it"
                         >BREDENBERG</hi>. S</opener>
-                <p><pb ed="A" n="12r"/>NON desinam, Nobilissime et præclarissime vir, te crebrioribus
+                <p rend="noIndent"><pb ed="A" n="12r"/>NON desinam, Nobilissime et præclarissime vir, te crebrioribus
                     literis compellare, vel potius inter graviores tuas, cum publicas tum privatas,
                     occupationes interpellare, donec aliquid tandem responsi a te receperim. Ternas
                     enim aut etiam quaternas per æstatem et non ita dudum ad te dedi literas, quibus
@@ -146,9 +156,8 @@
                     fiat, te monitore adeoque instigatore opus esse video, quod et ut facias atque
                     cæteris meis desiderijs subvenire non detrectes, etiam atque etiam te per
                     amicitiam nostram diu multumque sartam tectam perduraturam, rogatum habeo. Vale
-                    et felici atque diutina fruere senecta. Iterum cum tota domo suaviter dege et
-                    vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> 7. Xbris Anno 1590.</p><lb/>
-                <p rend="rightMargin">TYCHO BRAHE, <lb/>manu propria.</p>
+                    et felici atque diutina fruere senecta. </p><closer><salute>Iterum cum tota domo suaviter dege et
+                    vale.</salute> <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> 7. Xbris Anno 1590.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

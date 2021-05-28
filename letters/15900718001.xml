@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Sophie</author>
+                <author>Dronning Sophie</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Kongehusets arkiv</collection>
+                                <idno>Dronning Sophies tegnelser 1588-92, fol. 80 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Kongehusets arkiv</collection>
                                 <idno>Dronning Sophies tegnelser 1588-92, fol. 80 f.</idno>
                                 <msName>empty</msName>
@@ -55,17 +64,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Sophie (1557-1631)</persName>
-                    <placeName>København</placeName>
+                    <persName key="sophie_1557">Dronning Sophie</persName>
+                    <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1590-07-18"/>
-                    <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 18. juli</date></creation>
+            <creation><date xml:lang="da">1590, 18. juli.</date><date xml:lang="en">1590, 18 July.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-07" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,8 +98,8 @@
                 <pb ed="TBOO" n="XIV.53"/>
                 <opener>TYGGE BRAHE FICK BREFF NOGEN PENDINGE ANRØRENDIS <foreign xml:lang="la"><hi
                             rend="it">VT SEQUITUR</hi></foreign></opener>
-                <p><persName ref="sophie_1557">Sophia</persName> etc.</p>
-                <p>WOR gunft thilforn. Wider, att ßom j ether haffuer att erinndre om thett thußinnd
+                <p rend="indent"><persName ref="sophie_1557">Sophia</persName> etc.</p>
+                <p rend="noIndent">WOR gunft thilforn. Wider, att ßom j ether haffuer att erinndre om thett thußinnd
                     daller, Wij ether for nogen thiid ßiden naadigst med forstragdtt haffuer och
                     thill ßist forgangen omßlag schulle werrid erlagd och bethald, Wij dog ßamme
                     thiid paa ethers wnderdannigst anfordring haffue ether naadigst bedaged thill

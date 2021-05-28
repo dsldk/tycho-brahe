@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,11 +40,29 @@
                                 <idno>cod. Vindob. lat. 10686.59</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.59</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.56</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.56</idno>
@@ -77,7 +95,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591 and 1592. 14. marts</date></creation>
+            <creation><date xml:lang="da">1591 (uden dato) og 14. marts 1592.</date><date xml:lang="da">1591 (without date) and 14 March 1592.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,6 +110,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-28" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -100,11 +119,11 @@
             <div>
                 <opener><pb ed="TBOO" n="VII.319"/>
                     <pb ed="A" n="32v"/>CLARISSIMO VARIOQUE DOCTRINARUM GENERE ERUDITISSIMO
-                    EXCELLENTISSIMOQUE VIRO, DOMINO <persName ref="Hagecius, Thaddaeus">THADDÆO
+                    EXCELLENTISSIMOQUE VIRO, DOMINO <persName ref="hagecius_thaddaeus_1525">THADDÆO
                         HAGGECIO AB HAYCK</persName>, PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO
                     SUO INPRIMIS DILECTO.</opener>
-                <p><pb ed="A" n="31r"/>MIRATUS equidem non parum sum, clarissime et præstantissime
-                    Domine <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, amice summopere
+                <p rend="noIndent"><pb ed="A" n="31r"/>MIRATUS equidem non parum sum, clarissime et præstantissime
+                    Domine <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, amice summopere
                     dilecte, quod tota hac elapsa æstate nihil a te literarum receperim. Verum
                     idipsum, quod ex tuis iamprimum circa initia Octobris redditis cognovi, te minus
                     prospera usum fuisse valetudine, alijsque occupationibus distentum, iam antea
@@ -181,10 +200,10 @@
                         ref="Curtius">CURTIUM</persName> a me officiose saluta, et si literas, quas
                     semel atque iterum ad illum postmodum dedi, accepit, ut per oblatam a
                     gravioribus Reipubl. curis vacationem respondere et de rebus Mathematicis
-                    iucunde mecum conferre non gravetur, rogatum habe. Iterum diu multumque vale.
-                    Datæ Uraniburgi die Anno 1591.</p>
-                <div>
-                    <opener><pb ed="B" n="24r"/>POSTSCRIPTA.</opener>
+                    iucunde mecum conferre non gravetur, rogatum habe.</p> <closer><salute>Iterum diu multumque vale.</salute>
+                    <dateline>Datæ Uraniburgi die    Anno 1591.</dateline></closer>
+               
+                    <postscript><label><pb ed="B" n="24r"/>POSTSCRIPTA.</label>
                     <p>CONSTITUERAM quidem de Plagiario et Suffuratore isto ne verbum meminisse, ex
                         quo mentione indignum censerem. Verum dum hæ literæ, unum atque alterum
                         diem, ventum et navigium, quo Hafniam transfretent, hîc expectant, incidi
@@ -210,7 +229,7 @@
                         atque in uxorem ducere satagit) is inquam, <persName ref="Lange, Erik"
                             >ERICUS</persName> iam Bacchici liquoris pertæsus et ab URANIA nostra
                         recreari cupiens, cœpit inter alia quærere, an non aliqua daretur ratio, qua
-                        absurditas, quæ motum Terræ a <persName ref="Copernicus"
+                        absurditas, quæ motum Terræ a <persName ref="kopernikus_nikolaus_1473"
                             >COPERNICO</persName> introductum præcavere posset, et superfluitas
                         atque <app>
                             <lem wit="#Friis">inconcinnitas</lem>
@@ -253,9 +272,9 @@
                         Hypothesium inventione, quam sibi falso arrogabat, plurima et mira quædam
                         iactabat: adeo ut cum a viro illo Mathematum non imperito, quædam circa
                         retrogradationes et stationes Planetarum salvandas interrogaretur, seipsum
-                        expedire nequierit: hincque <persName ref="Rothmann">ROLLENHAGIUS</persName>
+                        expedire nequierit: hincque <persName ref="rothmann_christopher_1550">ROLLENHAGIUS</persName>
                         satis perceperit, ipsum huius inventionis authorem primum non esse. Quod et
-                        non ita diu post, tam nobilissimo Domino <persName ref="Rantzau, Heinrich"
+                        non ita diu post, tam nobilissimo Domino <persName ref="rantzau_henrik_1526"
                             >HENRICO RANZOVIO</persName>, quam mihi per literas indicavit, atque
                         plagium hoc omnium primus patefecit, longe antequam Fundamentum illud
                         infirmum et insufficiens, a varijs authoribus corrasum seu potius surreptum,
@@ -275,7 +294,7 @@
                         parte comperta fuerant, invicem communicavimus. Ipse autem <persName
                             ref="Wittich, Paul">WITICHIUS</persName>, postea in patriam rediens
                         atque dehinc ad illustriss. Principem <persName
-                            ref="Wilhelm, landgrave of Hessen">GUILHELMUM</persName> Hassiæ
+                            ref="wilhelm_4_1532">GUILHELMUM</persName> Hassiæ
                         Landgravium proficiscens, illicque aliquandiu commoratus, Principis
                         Automatopæo <persName ref="Bürgi">IUSTO BYRGIO</persName> illiterato quidem
                         sed admodum industrio artifici mechanico, omnia a nobis concinnata
@@ -292,23 +311,23 @@
                             ref="Kassel">Cassellas</placeName> etiam accurrit, hypotheses meas pro
                         suis Principi offert. Quas cum in Automatum redigere satagerent, utut satis
                         idoneum nacti artificem mechanicum, se expedire non poterant, antequam
-                        superveniret <persName ref="Rothmann">ROTHMANNUS</persName>, qui
-                        particularia quædam illic imitatione <persName ref="Copernicus"
+                        superveniret <persName ref="rothmann_christopher_1550">ROTHMANNUS</persName>, qui
+                        particularia quædam illic imitatione <persName ref="kopernikus_nikolaus_1473"
                             >COPERNICI</persName> attexuit. Nam generaliora saltem <persName
                             ref="Ursus">URSUS</persName> iste præripuerat, prout etiam
                         suffuratoribus usu venit, qui præ metu atque conscientiæ fluctuatione quædam
                         sæpenumero non inutilia intacta relinquunt. Quin et rationem sidera
                         observandi restituendique, quam hîc aliqua ex parte viderat, illic a
                             <persName ref="Wittich, Paul">WITICHIO</persName> patefactam, tum etiam
-                        mutuis <persName ref="Wilhelm, landgrave of Hessen">Landgravij</persName>
-                        eiusque <persName ref="Rothmann">Mathematici</persName> et meis literis
+                        mutuis <persName ref="wilhelm_4_1532">Landgravij</persName>
+                        eiusque <persName ref="rothmann_christopher_1550">Mathematici</persName> et meis literis
                         plenius explanatam, illic uberius hausit, et quod potissimum erat (licet
                         pessime acciderit) a dicto <persName ref="Bürgi">IUSTO BYRGIO</persName>
                         Triangulorum compendiosam demonstrationem atque in numeros resolutionem,
                         quam illi <persName ref="Wittich, Paul">WITICHIUS</persName> concesserat,
                         obtinuit; tum etiam quædam alia, pro quibus remunerationis loco illi totum
-                            <persName ref="Copernicus">COPERNICUM</persName> in Germanicum idioma
-                        convertit, quemadmodum hæc et alia <persName ref="Rothmann">CHRISTOPHORUS
+                            <persName ref="kopernikus_nikolaus_1473">COPERNICUM</persName> in Germanicum idioma
+                        convertit, quemadmodum hæc et alia <persName ref="rothmann_christopher_1550">CHRISTOPHORUS
                             ROTHMANNUS</persName> mihi non tam per literas quam præsens ante
                         biennium, cum huc a Principe visendorum meorum instrumentorum causa
                         ablegatus esset, significavit. <persName ref="Ursus">URSUS</persName> autem
@@ -328,7 +347,7 @@
                         se habere, præsertim quantum ad Hypothesium conformationem attinet, addidi
                         ipsam schedam abiectitiam (cuius prius memini) ex qua hanc procul dubio, cum
                         hîc esset, speculationem hausit, quam etiam quidam meorum Studiosorum, quam
-                        primum per dictum <persName ref="Rothmann">ROLLENHAGIUM</persName> de plagio
+                        primum per dictum <persName ref="rothmann_christopher_1550">ROLLENHAGIUM</persName> de plagio
                         hoc admonitus essem, inter cæteras chartas conquisitam mihi attulit,
                         referens hanc, cum <persName ref="Ursus">URSUS</persName> iste hîc adesset,
                         in Musæo meo inter alias schedas in aperto iacuisse, ut facile inde ea quæ
@@ -339,7 +358,7 @@
                         erat, quemadmodum etiam in ipsius diagrammate, cuius imitatione hæc perperam
                         designantur: cæteris, quæ superaddidit, pro libito assutis nec solide ad rem
                         facientibus. Cupio autem hanc ipsam schedam mihi certo remitti. Quin et
-                        prænominatus <persName ref="Gellius">GELLIUS SASCERIDES</persName>, qui
+                        prænominatus <persName ref="sascerides_gellius_1562">GELLIUS SASCERIDES</persName>, qui
                         octennium mihi fuit domesticus, cum hinc in <placeName ref="Italy"
                             >Italiam</placeName> abiturus aliquandiu in <placeName ref="Germany"
                             >Germania</placeName> moraretur et <placeName ref="Strasbourg"
@@ -354,10 +373,10 @@
                         alia illi obiecit mihi prærepta. Verum iste, ut est impudenti vafricie
                         obsitus, se hanc Hypothesin a me non habuisse peierare non est veritus,
                         nihilominus se eam non rite intelligere et Martium orbem perperam in hac
-                        designasse fateri ab eodem <persName ref="Gellius">GELLIO</persName> coactus
+                        designasse fateri ab eodem <persName ref="sascerides_gellius_1562">GELLIO</persName> coactus
                         est. Quomodo igitur, quæso, ea ipsemet invenire potuit, quæ ab alio inventa
                         non rite intellexit, imo potius depravavit? Cum alias facile sit, inventis
-                        aliquid addere. Ex ipsismet huius <persName ref="Gellius">GELLIJ</persName>
+                        aliquid addere. Ex ipsismet huius <persName ref="sascerides_gellius_1562">GELLIJ</persName>
                         literis, quas tum <placeName ref="Strasbourg"><app>
                                 <lem wit="#Friis">Argentinâ</lem>
                                 <rdg wit="#A">Argentinam</rdg>
@@ -393,7 +412,7 @@
                         Parasitum agenti ista lambere, utut demonstrationes eorum Geometricas hîc
                         vix acquirere potuerit, eas enim seorsim inter propria quædam mea maioris
                         momenti scripta conservâram, quas <placeName ref="Kassel"
-                            >Cassellis</placeName> a <persName ref="Wilhelm, landgrave of Hessen"
+                            >Cassellis</placeName> a <persName ref="wilhelm_4_1532"
                             >Landgravij</persName>
                         <persName ref="Bürgi">Automatopæo</persName> postea ea, qua dixi, occasione
                         nactus est. Quin et multa alia habeo, ipsius propria manu scripta, quæ hîc
@@ -432,8 +451,8 @@
                         perfide præripuerit et sibi mendaciter adscripserit: sed et famam et honorem
                         meum suis petulantibus et malitiosis mendacijs <placeName ref="Kassel"
                             >Cassellis</placeName> in aula <persName
-                            ref="Wilhelm, landgrave of Hessen">Landgravij</persName>, forte etiam
-                        alibi, ut ex literis <persName ref="Rothmann">CHRISTOPHORI
+                            ref="wilhelm_4_1532">Landgravij</persName>, forte etiam
+                        alibi, ut ex literis <persName ref="rothmann_christopher_1550">CHRISTOPHORI
                             ROTHMANNI</persName> in portione voluminis Epistolarum Astronomicarum
                         tibi transmissa, pag. 33 iuxta finem earundem videre licet, quantum in se
                         erat, elevare conatus sit. Quamvis ego ad istas nugas ne verbulo respondere
@@ -451,9 +470,9 @@
                         Domino <persName ref="Curtius">CURTIO</persName> et tibi comperta reserves,
                         nisi aliqua urserit necessitas. Nam iste per se satis antea infamis est, et
                         plus, nisi alios mores induerit, imposterum se infamabit, ut non opus sit,
-                        illum per alios famosiorem reddi. Scriptum <placeName ref="Uraniborg"
-                            >Uraniburgi</placeName> die 14 Martij Anno 1592.</p>
-                </div>
+                        illum per alios famosiorem reddi.</p> <closer><dateline>Scriptum <placeName ref="Uraniborg"
+                            >Uraniburgi</placeName> die 14 Martij Anno 1592.</dateline></closer></postscript>
+                
             </div>
         </body>
     </text>

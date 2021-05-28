@@ -32,7 +32,17 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Bologna</settlement>
+                                <repository>Biblioteca dell'Archiginnasio</repository>
+                                <collection>Archivio Malvezzi de' Medici</collection>
+                                <idno>empty</idno>
+                                <msName>Citeret i et brev fra Gellius Sascerides til Giovanni
+                                    Antonio Magini, 14 March 1592.</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Bologna</settlement>
                                 <repository>Biblioteca dell'Archiginnasio</repository>
@@ -57,10 +67,10 @@
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
-                    <date when="1591-01-01"/>
+                    <date when="1591"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Gellius Sacerides</persName>
+                    <persName key="sascerides_gellius_1562">Gellius Sacerides</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -79,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-24" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,8 +97,8 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.305"/>TYCHO BRAHE AD GELLIUM SASCERIDEM.</opener>
-                <p><pb ed="A" n="1r"/>.... Dici non potest quam mihi gratum fuerit, quod intellexerim
-                    Excellentissimum et præstantissimum <persName ref="Magini">MAGINUM</persName> <placeName ref="Padova">Patavium</placeName> venisse, illicque æstivum
+                <p rend="noIndent"><pb ed="A" n="1r"/>.... Dici non potest quam mihi gratum fuerit, quod intellexerim
+                    Excellentissimum et præstantissimum <persName ref="magini_giovanni_antonio_1555">MAGINUM</persName> <placeName ref="Padova">Patavium</placeName> venisse, illicque æstivum
                     semestre consumere decrevisse, quodque Instrumentum illud Sextantis Astronomici,
                     de quo ad te scripsi, per vos elaboretur. Spero enim vos aliquot Stellarum Observationes hac æstate illo intermediante
                     illic obtenturos. An Organum omni ex parte rite constet, distantiæ et
@@ -96,7 +107,7 @@
                     decliviores sunt, eodem diligentius observari, ut Refractionum ratio certius
                     pateat. Eclipses quoque Lunares per Altitudines Fixarum illustrium sedulo
                     notari, ut differentia meridianorum nostrorum innotescat, apprime consultum
-                    duxerim. Atque hæc et similia ipsemet <persName ref="Magini">MAGINUS</persName>, etiam te absente, facile
+                    duxerim. Atque hæc et similia ipsemet <persName ref="magini_giovanni_antonio_1555">MAGINUS</persName>, etiam te absente, facile
                     expediet. Si Planetarum quoque loca per distantias a fixis sideribus, ijs
                     præsertim quæ a nobis restituta Catalogus transmissus exhibet, subinde rimatus
                     fuerit, utique quanta sit Cœli et Canonum Astronomicorum differentia
@@ -112,17 +123,17 @@
                     Eccentricitatis insinuatio postulat. Idem in reliquis duobus superioribus
                     Planetis usu venit, licet in his ob orbium magnitudinem minus sentiatur.
                     Concurrunt tamen et aliæ quædam causæ, ex commensuratione veterum, adeoque
-                    ipsius <persName ref="Copernicus">COPERNICI</persName>, non satis accurate instituta; quæ omnia non est huius loci
+                    ipsius <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName>, non satis accurate instituta; quæ omnia non est huius loci
                     extricare.</p>
                 <p rend="indent">In operibus meis perficiendis excudendisque nihil hac æstate laboratum est, ob
                     varia impedimenta et avocamenta minus grata; si hiems tranquillius et exoptabilius otium præbuerit, favente cœlesti Numine, inchoatam telam pertexam,
-                    posteaquam cum præstantissimo <persName ref="Magini">MAGINO</persName> alijsque in Italia eruditis Philosophis
+                    posteaquam cum præstantissimo <persName ref="magini_giovanni_antonio_1555">MAGINO</persName> alijsque in Italia eruditis Philosophis
                     id, quicquid erit, lubens communicari curabo. Si interea ipsius opera Privilegia
                     a Pontifice et Duce Mantuæ alijsque Italiæ proceribus, quotquot impetrare
                     licuerit, prout benevole pollicetur, obtinuero, rem præstiterit mihi summopere
                     acceptam omnique gratitudinis significatione compensandam.</p>
                 <p rend="indent">Canonem Radicum Quadratarum, quem molitur, avide desidero. Scio equidem tali ratione Tangentium ac Secantium Tabulas excusari posse, an vero
-                    promtiori compendio, nondum dixerim. Scripsissem ipsemet nunc <persName ref="Magini">MAGINO</persName>, sed ad
+                    promtiori compendio, nondum dixerim. Scripsissem ipsemet nunc <persName ref="magini_giovanni_antonio_1555">MAGINO</persName>, sed ad
                     matrem Aulæ magistram (quæ apud Reginam Fridrichsburgi diutius quam sperassem
                     hærens, et proprijs commoditatibus destituta minus prospera <pb ed="A" n="2r"
                     /> fruitur valetudine) avocor, et pleraque alia, quæ me a scriptione retardant,

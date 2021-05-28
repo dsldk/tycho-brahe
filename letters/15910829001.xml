@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.58</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.58</idno>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1591, 29. august n.s</date></creation>
+            <creation><date xml:lang="da">1591, 29. august n.s.</date><date xml:lang="en">1591, 29 August NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-24" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,9 +97,9 @@
             <div>
                 
                 <opener><pb ed="TBOO" n="VII.304"/>
-                <pb ed="A" n="30v"/>NOBILISS: VIRO, VIRTUTE ET ERUDITIONE PRÆSTANTI D. TYCHONI BRAHE DANO,
+                    <pb ed="A" n="30v"/>NOBILISS: VIRO, VIRTUTE ET ERUDITIONE PRÆSTANTI D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DANO,
                     DOMINO IN KNUDSTORPFF ET URANIEBURGO ETC DOMINO ET AMICO OBSERVANDO. S.</opener>
-                <p><pb ed="A" n="30r"/>NOBILISS. D. TYCHO et amice observande. Quod tam diu ad tuas binas non
+                <p rend="noIndent"><pb ed="A" n="30r"/>NOBILISS. D. TYCHO et amice observande. Quod tam diu ad tuas binas non
                     responderim, multa fuerunt quæ me impediverunt: tum valetudo adversa, quæ me per
                     integram propemodum Quadragesimam afflixit, tum etiam curæ domesticæ ac crebræ
                     profectiones medicinæ faciendæ gratia. Huc accesserunt alia plurima, quæ sæpe
@@ -107,11 +117,10 @@
                     ante septimanas aliquot huc venit et innotuit D. <persName ref="Curtius">CURTIO</persName> qui illum <persName ref="Rudolf 2.">Cæsari</persName> ita
                     commendavit, ut pro Mathematico, tenui satis, in his initijs, stipendio sit
                     receptus. Hodie hinc <placeName ref="Frankfurt am Main">Francofurdum</placeName> pro advehenda sua suppellectili discedit, mox
-                    huc rediturus. Aliud quod scribam nunc nec habeo, nec vacat. B. V. Datæ Hîc <placeName ref="Praha">Pragæ</placeName>
-                    die 29 Augusti novo stylo Anno 1591.</p>
-                <p rend="rightMargin">T. studiosiss.<lb/><persName ref="Hagecius, Thaddaeus">THAD.</persName></p>
-                <div n="Postscript">
-                    <opener><pb ed="A" n="31ar"/>POST SCRIPTA.</opener>
+                    huc rediturus. Aliud quod scribam nunc nec habeo, nec vacat.</p> <closer><salute>B. V.</salute> <dateline>Datæ Hîc <placeName ref="Praha">Pragæ</placeName>
+                    die 29 Augusti novo stylo Anno 1591.</dateline> <signed>T. studiosiss.<lb/><persName ref="hagecius_thaddaeus_1525">THAD.</persName></signed></closer>
+                <postscript>
+                    <label><pb ed="A" n="31ar"/>POST SCRIPTA.</label>
                     <p>HERI venit ad me quidam artifex, eius nomen ignoro, vir ætate grandeva, et
                         narravit se vixisse aliquandiu tecum, sæpeque multa de me audivisse: cum
                         igitur venisset in hanc urbem, salutandi et alloquendi gratia me accessisse.
@@ -121,7 +130,7 @@
                         abruptum fuit nostrum colloquium. Electori Saxoniæ, Principi Pomeraniæ et
                         quibusdam alijs eiusmodi currum se confecisse aiebat. Intellexi Cæsari
                         quoque sua servitia offerre velle. </p>
-                </div>
+                </postscript>
             </div>
         </body>
     </text>

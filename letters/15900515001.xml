@@ -65,7 +65,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 15. maj</date></creation>
+            <creation><date xml:lang="da">1590, 15. maj.</date><date xml:lang="en">1590, 15 May.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,21 +80,22 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <opener><pb ed="E" n="182"/>DEM VESTEN/ VNSERM LIEBEN
-                            BESONDERN/ <hi rend="it">TYCHONI BRAHE</hi> HERRN ZU KNUDSTRUP.
-                            <lb/>WILHELM VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
+                    BESONDERN/ <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName></hi> HERRN ZU KNUDSTRUP.
+                    <lb/><persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
                             CATZENELNBOGEN/ ETC.
                 </opener>
-                <p>
+                <p rend="noIndent">
                     VNSERN gnädigen Gruß zuvor/ Vester lieber Besonder/ daß
                         wir euch nu in so langer zeit nicht geschrieben/ ist die Vrsach/ daß vnser
                         <hi rend="it">Mathematicus</hi>
-                        <persName ref="Rothmann">CHRISTOPHORVS ROTHMANNVS</persName>, ein zeitlang
+                        <persName ref="rothmann_christopher_1550">CHRISTOPHORVS ROTHMANNVS</persName>, ein zeitlang
                         hero fast vnpaßlich gewesen/ zu dem auch numehr wir selbst/ <hi rend="it"
                             >tam mole ætatis, quam laborum atque curarum</hi>, dermassen gedruckt
                         werden/ daß wir vns mit den <hi rend="it">oblectamentis Mathematicis</hi>
@@ -106,7 +107,7 @@
                             >magna alacritate</hi> selbst erfunden/ jetzo nicht mehr wol verstehen.
                         <hi rend="it">O pietas, o prisca fides; quis talia fando, Temperet a
                             lachrymis?</hi> Was aber vorgedachten vnsern <hi rend="it"><persName
-                                ref="Rothmann">Mathematicum</persName></hi> betrifft/ ist derselbige
+                                ref="rothmann_christopher_1550">Mathematicum</persName></hi> betrifft/ ist derselbige
                         der meynung/ wenn er nur ein wenig möcht wandern/ vnd die Lufft verendern/
                         daß es alßdenn mit jhm besser werden solle/ Welchs wir jhm aber hart
                         widerrathen/ So hat er aber doch einen eignen Kopff/ den kaufft er alle Jar
@@ -130,7 +131,7 @@
                                 1590.</hi>
                     </dateline>
                     <signed>
-                        WILHELM LANDTGRAFF ZU HESSEN.
+                        <persName ref="wilhelm_4_1532">WILHELM LANDTGRAFF ZU HESSEN</persName>.
                     </signed>
                 </closer>
             </div>

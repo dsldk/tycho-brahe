@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Sophie</author>
+                <author>Dronning Sophie</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Kongehusets arkiv</collection>
+                                <idno>Dronning Sophies tegnelser 1588-92, fol. 81 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Kongehusets arkiv</collection>
                                 <idno>Dronning Sophies tegnelser 1588-92, fol. 81 f.</idno>
                                 <msName>empty</msName>
@@ -55,8 +64,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Sophie (1557-1631)</persName>
-                    <placeName>København</placeName>
+                    <persName key="sophie_1557">Dronning Sophie</persName>
+                    <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1590-08-09"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 9. aug.</date></creation>
+            <creation><date xml:lang="da">1590, 9. august.</date><date xml:lang="en">1590, 9 August.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -87,10 +96,10 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.53"/>
-                <opener>THYGE BRAHE FICK BREFF NOGEN PENDINGE ANRØRENDIS <foreign xml:lang="la"><hi
+                <opener><persName ref="brahe_tycho_1546">THYGE BRAHE</persName> FICK BREFF NOGEN PENDINGE ANRØRENDIS <foreign xml:lang="la"><hi
                             rend="it">VT SEQUITUR</hi></foreign></opener>
-                <p><persName ref="sophie_1557">Sophia</persName> etc.</p>
-                <p>WOR gunst thilforn. Wider, att ßom j ether haffuer att erindre om thett thußinnd daller,
+                <p rend="indent"><persName ref="sophie_1557">Sophia</persName> etc.</p>
+                <p rend="noIndent">WOR gunst thilforn. Wider, att ßom j ether haffuer att erindre om thett thußinnd daller,
                     Wij naadigst ether haffue med forstrachtt, huilke wdj thenne neruerendis
                     herredag her wdj Koldinng schulle werrid Oß erlagdtt och bethald, och j
                     wnnderdannigst erre begierrendis formedelst gott folck dag och reßpitt med ßamme

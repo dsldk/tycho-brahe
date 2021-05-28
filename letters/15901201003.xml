@@ -14,20 +14,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,11 +58,12 @@
                     <date when="1590-12-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Giovanni Antonio Magini</persName>
+                    <persName key="magini_giovanni_antonio_1555">Giovanni Antonio Magini</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 1. december</date></creation>
+            <creation><date xml:lang="da">1590, 1. december.</date><date xml:lang="en">1590, 1
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -73,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-08-26" who="#pz">Filen etableret og korrekturlæst</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -81,20 +87,21 @@
             <div>
                 <pb ed="TBOO" n="VII.289"/>
                 <pb ed="A" n="79v"/>
-                <opener>CLARISSIMO ET EXCELLENTISSIMO VIRO D. IOANNI ANTONIO MAGINO PATAVINO, IN
-                    CELEBRI GYMNASIO BONONIENSI MATHEMATUM PROFESSORI EXIMIO, DEQUE RERUM
-                    ASTRONOMICARUM LOCUPLETATIONE PRÆCLARE MERITO: AMICO SUO PLURIMUM
+                <opener>CLARISSIMO ET EXCELLENTISSIMO VIRO D. <persName
+                        ref="magini_giovanni_antonio_1555">IOANNI ANTONIO MAGINO</persName>
+                    PATAVINO, IN CELEBRI GYMNASIO BONONIENSI MATHEMATUM PROFESSORI EXIMIO, DEQUE
+                    RERUM ASTRONOMICARUM LOCUPLETATIONE PRÆCLARE MERITO: AMICO SUO PLURIMUM
                     COLENDO.</opener>
-                <p>QUOD Librum nostrum secundum de recentioribus Mundi Ætherei Phænomenis per
-                        <persName ref="Gellius">GELLIUM SASCERIDEM</persName> meum iam dudum
-                    obtinueris, vir clarissime, et de re Astronomica, prout hactenus a nostri sæculi
-                    artificibus constituta est, excolenda locupletandaque optime <app>
+                <p rend="noIndent">QUOD Librum nostrum secundum de recentioribus Mundi Ætherei
+                    Phænomenis per <persName ref="sascerides_gellius_1562">GELLIUM SASCERIDEM</persName> meum iam
+                    dudum obtinueris, vir clarissime, et de re Astronomica, prout hactenus a nostri
+                    sæculi artificibus constituta est, excolenda locupletandaque optime <app>
                         <lem wit="#TBOO">merite</lem>
                         <rdg wit="#A">merito</rdg>
                     </app>, ex litteris tuis <placeName ref="Bologna">Bononia</placeName> Idibus
                     Septembris anni recogniti ad me datis, quas ego 8 Calendarum Decembris anni
                     veteris Iuliani hîc accepi, lubenter cognovi; licet idipsum antea quoque dictus
-                        <persName ref="Gellius">GELLIUS</persName> per litteras retulerit, quodque
+                        <persName ref="sascerides_gellius_1562">GELLIUS</persName> per litteras retulerit, quodque
                     scriptionem tamdiu procrastinâris, te iam satis excusatum habeo. Fuisse autem
                     id, quicquid erat libri, tibi gratum, nec displicuisse, mihi quoque admodum
                     acceptum est. Et quod humanissimis tuis litteris me nunc tandem compellare,
@@ -107,7 +114,7 @@
                     vicissim erga te tuosque conatus benignum et tui studiosissimum, amicitiæque
                     semel per litteras contractæ conservatorem promptum et constantem, ne te
                     certasse priorem pœniteat. Etsi vero de ijs, quæ hisce tuis desideras, ante
-                    pauculas septimanas præmonito <persName ref="Gellius">GELLIO</persName>, qui
+                    pauculas septimanas præmonito <persName ref="sascerides_gellius_1562">GELLIO</persName>, qui
                     eadem ferme tuo nomine a me expetierat, descriptumque tuarum litterarum
                     adiunxerat, quo pleraque nunc repetita comprehendebantur, affatim responderim,
                     unâque ut illa ad te referri curaret, iniunxerim, attamen et nunc quoque his
@@ -159,29 +166,30 @@
                     hactenus in usu fuere, sive Alphonsinæ, sive Coperniceæ Fixarum restitutiones,
                     ab ipso cœlo toto pene cœlo deviant, adeo ut ne una quidem sit inter tot
                     stellas, quæ cœlesti normæ conformem dispositionem sortita sit, cum et ipsa
-                    &#x264d; Spica, qua sola <persName ref="Copernicus">COPERNICUS</persName> usus
-                    est, minus apposite ab ipso ordinata sit, cæteris omnibus ad imitationem Abaci
-                    Ptolemaici perperam in suis intercapedinibus iuxta longum et latum retentis. Sic
-                    etiam circa septem Errantium syderum motiones, Canones Astronomici, etiam a
-                    prædicto ingenti illo <persName ref="Copernicus">COPERNICO</persName> eiusque
+                    &#x264d; Spica, qua sola <persName ref="kopernikus_nikolaus_1473"
+                        >COPERNICUS</persName> usus est, minus apposite ab ipso ordinata sit,
+                    cæteris omnibus ad imitationem Abaci Ptolemaici perperam in suis
+                    intercapedinibus iuxta longum et latum retentis. Sic etiam circa septem
+                    Errantium syderum motiones, Canones Astronomici, etiam a prædicto ingenti illo
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICO</persName> eiusque
                     locupletatore <persName ref="Reinhold, Erasmus">REINHOLDO</persName>
                     redintegrati non minus, si modo non plus cœlestibus apparentijs iniuriam
                     inferunt; adeo ut non saltem in pauculis scrupulis, sed et in nonnullis etiam
                     gradibus sæpenumero deprehendatur disconvenientia. Certum quidem est in Apogæis
                     atque Eccentricitatibus, adeoque orbium commensurationibus, non omnia, prout
-                    decet, a <persName ref="Copernicus">COPERNICO</persName> ad amussim (ob
-                    instrumentorum, uti opinor, fallaciam, et observationum exactarum
+                    decet, a <persName ref="kopernikus_nikolaus_1473">COPERNICO</persName> ad
+                    amussim (ob instrumentorum, uti opinor, fallaciam, et observationum exactarum
                     insufficientiam) esse disposita, satisque subtiliter consignata (imo forte ne
                     quidem ab ipso <persName ref="Ptolemaios">PTOLEMÆO</persName>) id quod nostræ
                     evidenter testantur observationes atque ex his derivatæ demonstrationes; adeo ut
                     maiore, quam plerique existimant, in nonnullis adhuc opus sit correctione atque
                     limitatione. Attamen cum alia adhuc subsit inæqualitatis particularis ratio, a
-                    veteribus non animadversa, nec etiam ab ipso <persName ref="Copernicus"
-                        >COPERNICO</persName>, utut industrio cœlestium contemplatore, quæ neutris
-                    eorum hypothesibus analoga est, aut per has commode excusatur. Idcirco de
-                    Apogæis atque Eccentricitatibus orbiumque proportionibus frustra verba facimus,
-                    nisi et huius Anomaliæ habeatur respectus; quæ licet in omnibus quinque Planetis
-                    aliquatenus sese insinuet, in <app>
+                    veteribus non animadversa, nec etiam ab ipso <persName
+                        ref="kopernikus_nikolaus_1473">COPERNICO</persName>, utut industrio
+                    cœlestium contemplatore, quæ neutris eorum hypothesibus analoga est, aut per has
+                    commode excusatur. Idcirco de Apogæis atque Eccentricitatibus orbiumque
+                    proportionibus frustra verba facimus, nisi et huius Anomaliæ habeatur respectus;
+                    quæ licet in omnibus quinque Planetis aliquatenus sese insinuet, in <app>
                         <lem wit="#TBOO">solo</lem>
                         <rdg wit="#A">Sole</rdg>
                     </app> &#x2642; tamen, eo quod Solaris circuitus ad ipsius orbicularem tramitem
@@ -236,20 +244,21 @@
                     sentiatur. Si igitur universales debent esse canones, quod merito etiam
                     requiritur, et huius quoque mutationis ratio non negligenda venit. Optarem quam
                     maxime <persName ref="Ptolemaios">PTOLEMÆI</persName> atque <persName
-                        ref="Copernicus">COPERNICI</persName> circa eius Eccentricitatem, adeoque
-                    ipsum Apogæum prolata rite constare, et firmo adeoque cœlesti inniti fundamento.
-                    Sed enim in utroque horum aliquid satis perceptibilis latere erroris, haud citra
-                    rem suspicor, præsertim in Copernicæa deci<pb ed="TBOO" n="VII.293"/>sione, quam
-                    videtur potius pro libitu ita ordinasse, ut suæ quadraret assumptioni, quam quod
-                    indubijs observationibus ita se exhibere sufficienter compertum habuerit. Quî
-                    enim fieri potuit, ut Martis apparens motus intra unius hominis ætatem a cœlesti
-                    tramite ita difformis redderetur, ut in tribus vel quatuor nonnunquam gradibus
-                    numeri ex ipsius calculatione deprompti a scopo cœlesti digrediantur, si illi
-                    suo tempore atque ijsdem annis, quibus observationes exercuit, competenter cœlo
-                    conformes erant? Verum de his atque alijs ad totam harmoniam cœlestem concinne
-                    in numeros adaptandam facientibus, volumen nostrum Astronomicum de perennium
-                    syderum circuitibus tractans, suo tempore, cum divinitus ita prospectum fuerit,
-                    te plenius admonebit, certioremque reddet.</p>
+                        ref="kopernikus_nikolaus_1473">COPERNICI</persName> circa eius
+                    Eccentricitatem, adeoque ipsum Apogæum prolata rite constare, et firmo adeoque
+                    cœlesti inniti fundamento. Sed enim in utroque horum aliquid satis perceptibilis
+                    latere erroris, haud citra rem suspicor, præsertim in Copernicæa deci<pb
+                        ed="TBOO" n="VII.293"/>sione, quam videtur potius pro libitu ita ordinasse,
+                    ut suæ quadraret assumptioni, quam quod indubijs observationibus ita se exhibere
+                    sufficienter compertum habuerit. Quî enim fieri potuit, ut Martis apparens motus
+                    intra unius hominis ætatem a cœlesti tramite ita difformis redderetur, ut in
+                    tribus vel quatuor nonnunquam gradibus numeri ex ipsius calculatione deprompti a
+                    scopo cœlesti digrediantur, si illi suo tempore atque ijsdem annis, quibus
+                    observationes exercuit, competenter cœlo conformes erant? Verum de his atque
+                    alijs ad totam harmoniam cœlestem concinne in numeros adaptandam facientibus,
+                    volumen nostrum Astronomicum de perennium syderum circuitibus tractans, suo
+                    tempore, cum divinitus ita prospectum fuerit, te plenius admonebit, certioremque
+                    reddet.</p>
                 <p rend="indent">Systema universi a nobis ante non multos annos adinventum, et ex
                     ipso cœlo cœlestium pervestigata dispositione atque incessu, non autem libris
                     vel chartis, sive antiquorum, sive recentium Philosophorum, tibi quoque probari
@@ -258,7 +267,7 @@
                     instructi sunt, qui hanc nostram mundanæ Symmetriæ atque revolutionum cœlestium
                     ordinationem prima fronte inspectam admissuri sint, utut plurimas a <persName
                         ref="Ptolemaios">PTOLEMÆO</persName> et Veteribus commissas inconcinnitates
-                    adeoque superfluitates nimias et a <persName ref="Copernicus"
+                    adeoque superfluitates nimias et a <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICO</persName> introductas absurditates devitando eliminet. At ubi
                     penitius ipsius penetralia introspicere solertibus ingenijs dabitur, utique non
                     diffido, quin hanc Neotericam nostram constitutionem, repudiatis et antiquatis
@@ -303,7 +312,7 @@
                         <rdg wit="#A">Solis</rdg>
                     </app> opticis ratiocinijs, quæ Geometriæ validis affirmantur munimentis,
                     Aristotelicam de cœli natura atque materia nimis diu inveteratam opinionem
-                    aperte eludentibus. Quin et id, de quo sæpedictus <persName ref="Gellius"
+                    aperte eludentibus. Quin et id, de quo sæpedictus <persName ref="sascerides_gellius_1562"
                         >GELLIUS</persName> noster te commonefecit, Martem in situ acronycho terris
                     ipso Sole reddi <app>
                         <lem wit="#TBOO">propiorem</lem>
@@ -323,15 +332,15 @@
                     cæli partem perambulantem, telluri ipso plus admoveri. Unde necessario
                     consequitur, aut Copernicæas hypotheses veras esse, aut ita cœlestium
                     distributionem ordinandam, quemadmodum a nobis nuper constitutum est. At
-                        <persName ref="Copernicus">COPERNICI</persName> circa motum telluris
-                    triplicem, utut ingeniosam et a cœlesti<pb ed="TBOO" n="VII.295"/>bus
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName> circa motum
+                    telluris triplicem, utut ingeniosam et a cœlesti<pb ed="TBOO" n="VII.295"/>bus
                     apparentijs non admodum abhorrentem speculationem, nequaquam in rei veritate
                     constare (si quis est, qui adhuc hæsitat) suo loco et tempore a nobis
                     irrefragabiliter, non saltem Theologice et Physice, sed etiam Mathematice
                     convincetur: utut is se satis Mathematica Mathematicis atque ab illis
                     irreprehensibilia proposuisse sperabat. Imo vel ipsi Cometæ, de quibus dixi (ut
                     hoc obiter nunc quoque indicem) quatenus aliqui eorum circa oppositam Solis
-                    plagam incedebant, motum Terræ annuum a <persName ref="Copernicus"
+                    plagam incedebant, motum Terræ annuum a <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICO</persName> assertum inficiabantur; nihil enim eorum destinato
                     cursui detraxit, nedum ut eos retroagi aut lentiore gressu tardari nobis ita
                     aspectantibus cogeret, de quibus opportuniore loco latius agere decrevimus. Ex
@@ -348,7 +357,7 @@
                     nihilominus pro hac quoque tua non contemnenda erga me benevolentia tibi magnas
                     dico gratias. Et ut conscius sis, Librum illum iam dudum a D. <persName
                         ref="Fabricius, Paulus">FABRITIO</persName> Mathematico Cæsareo,
-                    intermediante D. Doctore <persName ref="Hagecius, Thaddaeus">THADDÆO
+                    intermediante D. Doctore <persName ref="hagecius_thaddaeus_1525">THADDÆO
                         HAGGECIO</persName>, etiam Mathematum insigniter gnaro, adeptus sum. Illum
                     introspexi, disquisivi, dilui: Nam ut paucis expediam, quod res est, <app>
                         <lem wit="#TBOO">ternæ</lem>
@@ -368,8 +377,9 @@
                     subtilitate superædificare laborat, invalida atque ruinosa evadant. Taceo nunc
                     quod ipsas stellas suas latitudines mutare, ad rationem alteratæ obliquitatis
                     Eclipticæ (prout a nobis indubitate deprehensum est) nec is, nec magnus ille
-                        <persName ref="Copernicus">COPERNICUS</persName> animadverterint: multo
-                    minus, ut per hypothesin aliquam hanc divagationem tutati sint.</p>
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>
+                    animadverterint: multo minus, ut per hypothesin aliquam hanc divagationem tutati
+                    sint.</p>
                 <p rend="indent"><pb ed="TBOO" n="VII.296"/>Intelligo te Theoricas tuas nunc publice
                     exponere atque copiosius illustrare, quod etiam plurimum laudo. Attigisti in
                     istis Theoricis <app>
@@ -410,7 +420,7 @@
                     in nostro climate octonos duploque maiorem Lunæ interpositionem promitterent.
                     Desiderarem etiam scire, quid a vobis in <placeName ref="Italy"
                         >Italia</placeName>, ubi deliquium fere totale iuxta Canones esse debuit,
-                    animadversum sit. Scripsi dicto sæpe <persName ref="Gellius">GELLIO</persName>,
+                    animadversum sit. Scripsi dicto sæpe <persName ref="sascerides_gellius_1562">GELLIO</persName>,
                     ut instrumentum quoddam <app>
                         <lem wit="#TBOO">illic</lem>
                         <rdg wit="#A">illis</rdg>
@@ -433,15 +443,16 @@
                 <p rend="indent">Succurrit nunc, quod aliquando in Prolegomenis Tabularum tuarum
                     Secundorum Mobilium legerim, te cum laudatissimæ memoriæ illo <persName
                         ref="Domenico Maria">DOMINICO MARIA Ferrariense</persName>, <persName
-                        ref="Copernicus">COPERNICI</persName> Præceptore, in eadem esse sententia,
-                    quod latitudines locorum successive aliquatenus mutentur, et rationes illic ex
-                    eodem profers, quibus id persuaderi posse existimas, quas tamen ego (utriusque
-                    vestrum pace dixerim) non satis validas et ratas æstimo; quodque id nequaquam
-                    eveniat, alibi evidenter ostensurus sum. Certe sola <placeName ref="Rome"
-                        >Roma</placeName>, quæ eandem ferme adhuc, ex observatione <persName
-                        ref="Regiomontanus">REGIOMONTANI</persName>, quam olim <persName
-                        ref="Plinius major">PLINIJ</persName> tempore, per proportionem gnomonis et
-                    umbræ facta pervestigatione (modo centri Solis, non supremæ superficiei ratio <app>
+                        ref="kopernikus_nikolaus_1473">COPERNICI</persName> Præceptore, in eadem
+                    esse sententia, quod latitudines locorum successive aliquatenus mutentur, et
+                    rationes illic ex eodem profers, quibus id persuaderi posse existimas, quas
+                    tamen ego (utriusque vestrum pace dixerim) non satis validas et ratas æstimo;
+                    quodque id nequaquam eveniat, alibi evidenter ostensurus sum. Certe sola
+                        <placeName ref="Rome">Roma</placeName>, quæ eandem ferme adhuc, ex
+                    observatione <persName ref="Regiomontanus">REGIOMONTANI</persName>, quam olim
+                        <persName ref="Plinius major">PLINIJ</persName> tempore, per proportionem
+                    gnomonis et umbræ facta pervestigatione (modo centri Solis, non supremæ
+                    superficiei ratio <app>
                         <lem>habeatur</lem>
                         <rdg><note>etiam ante <q>ratio</q> præbet A, TBOO del.</note></rdg>
                     </app>) retinet latitudinem, altitudines polares non variari comprobat.
@@ -457,139 +468,142 @@
                     Cum hac <persName ref="Regiomontanus">REGIOMONTANI</persName> observationem
                     antecedenti ævo <placeName ref="Rome">Romæ</placeName> habitam sequenti modo
                     conferemus.</p>
-                <lb/><table><row>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell>ANNO 1462</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                </row>
-                <row>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell>IANUARIJ DIE</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                </row>
+                <lb/>
+                <table>
                     <row>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell>2</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell>11</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    </row><row>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>ANNO 1462</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>IANUARIJ DIE</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>2</cell>
+                        <cell/>
+                        <cell/>
+                        <cell/>
+                        <cell>11</cell>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
                         <cell>P</cell>
                         <cell>&#x02032;</cell>
                         <cell>&#x02033;</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>P</cell>
                         <cell>&#x02032;</cell>
                         <cell>&#x02033;</cell>
                     </row>
                     <row>
                         <cell>Altitudo &#x2609; merid.</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>26</cell>
                         <cell>12</cell>
                         <cell> 0</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>27</cell>
                         <cell>50</cell>
                         <cell> 0</cell>
                     </row>
                     <row>
                         <cell>Parallaxis add.</cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell/>
+                        <cell/>
                         <cell> 2</cell>
                         <cell>45</cell>
-                        <cell></cell>
-                        <cell></cell>
+                        <cell/>
+                        <cell/>
                         <cell> 2</cell>
                         <cell>40</cell>
                     </row>
                     <row>
-                    <cell>Refractio subt.</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell> 2</cell>
-                    <cell>15</cell>
-                    <cell></cell>
-                    <cell></cell>
-                    <cell> 1</cell>
-                    <cell>50</cell>
+                        <cell>Refractio subt.</cell>
+                        <cell/>
+                        <cell/>
+                        <cell> 2</cell>
+                        <cell>15</cell>
+                        <cell/>
+                        <cell/>
+                        <cell> 1</cell>
+                        <cell>50</cell>
                     </row>
                     <row>
                         <cell>Altitudo correcta</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>26</cell>
                         <cell>12</cell>
                         <cell>30</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>27</cell>
                         <cell>51</cell>
                         <cell>50</cell>
                     </row>
                     <row>
                         <cell>Locus Solis noster</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>22</cell>
                         <cell>12</cell>
                         <cell>&#x2651;</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell> 0</cell>
                         <cell>21½</cell>
                         <cell>&#x2652;</cell>
                     </row>
                     <row>
                         <cell>Declinatio ejusdem</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>21</cell>
                         <cell>40½</cell>
                         <cell>M</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>20</cell>
                         <cell> 8</cell>
                         <cell>0 M</cell>
                     </row>
                     <row>
                         <cell>Altitudo Æquatoris</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>47</cell>
                         <cell>53</cell>
                         <cell> 0</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>47</cell>
                         <cell>59</cell>
                         <cell>50</cell>
                     </row>
                     <row>
                         <cell>Elevatio Poli quæsita</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>42</cell>
                         <cell> 7</cell>
                         <cell> 0</cell>
-                        <cell></cell>
+                        <cell/>
                         <cell>42</cell>
                         <cell> 0</cell>
                         <cell>10</cell>
                     </row>
                 </table>
-                
+
                 <!-- <p>ANNO 1462 <lb/>IANUARIOJ DIE 
                     2  
                     P P // A ltitudo ☉ m
@@ -636,7 +650,7 @@
                 <p rend="indent">Constitui <placeName ref="Alexandria">Alexandriæ</placeName> Poli
                     quoque sublimitatem præcise dimetiendam curare, ob quasdam Ptolemaicas illic
                     institutas observationes. Nam an et is illam satis scrupulose deprompserit, non
-                    absque causa ambigo: quemadmodum <persName ref="Copernicus"
+                    absque causa ambigo: quemadmodum <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICUM</persName> in latitudine Fruenburgensi designanda 2¾ scrupulis
                     defecisse iam dudum, misso illuc quodam ex meis cum proprio eodemque exacto
                     instrumento, compertum habeo. Ubi <placeName ref="Alexandria"
@@ -661,21 +675,23 @@
                     perferendi non incommodam opportunitatem. Iterum diu et fæliciter vale, et de
                     studijs Astronomicis bene mereri non intermitte: iamque tertium et pluries
                     vale,</p>
-                <p rend="indent">Datæ <placeName ref="Uraniborg">Uraniburgi</placeName>, Calendis
-                    Decembris, Anni veteris Iuliani 1590.</p>
-                <lb/>
-                <p>POSTSCRIPTUM, UT VOCANT.</p>
-                <p>NE prorsus mearum cœlitus deductarum animadversionum atque restitutionum vacuas
-                    mitterem litteras, addidi instantis anni Ephemeridem e nostris observationibus
-                    et demonstrationibus in numeros redactis derivatam: quarum rationes atque
-                    fundamenta caput primum anterioris Tomi, ubi illum adeptus fueris, expediet.
-                    Interim hanc Solaris tramitis designationem expende, atque cum utraque usitata
-                    numerationem confer. Cognosces utique, quam ipse Sol reliquorum Planetarum Rex
-                    et Ductor, in Tabulis consuetis a cœlesti norma, cui nostra apprime sunt
-                    analoga, deflectat; atque hinc de cæteris quodammodo ratiocinare, Canonumque
-                    usitatorum deviationes percipe. Vale.</p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE</p>
+                <closer><dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName>, Calendis
+                        Decembris, Anni veteris Iuliani 1590.</dateline></closer>
+                <postscript>
+                    <label>POSTSCRIPTUM, UT VOCANT.</label>
+                    <p>NE prorsus mearum cœlitus deductarum animadversionum atque restitutionum
+                        vacuas mitterem litteras, addidi instantis anni Ephemeridem e nostris
+                        observationibus et demonstrationibus in numeros redactis derivatam: quarum
+                        rationes atque fundamenta caput primum anterioris Tomi, ubi illum adeptus
+                        fueris, expediet. Interim hanc Solaris tramitis designationem expende, atque
+                        cum utraque usitata numerationem confer. Cognosces utique, quam ipse Sol
+                        reliquorum Planetarum Rex et Ductor, in Tabulis consuetis a cœlesti norma,
+                        cui nostra apprime sunt analoga, deflectat; atque hinc de cæteris quodammodo
+                        ratiocinare, Canonumque usitatorum deviationes percipe.</p>
+                    <closer><salute>Vale.</salute>
+                        <signed><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName></signed></closer>
+                </postscript>
             </div>
         </body>
     </text>

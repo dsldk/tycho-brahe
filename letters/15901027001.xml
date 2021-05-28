@@ -33,14 +33,29 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
-                                <settlement>Oxforf</settlement>
+                                <settlement>Oxford</settlement>
                                 <repository>Bodleian Library</repository>
                                 <collection>empty</collection>
                                 <idno>Smith 77</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +75,11 @@
                     <date when="1590-10-27"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Peter Young</persName>
+                    <persName key="young_peter_1544">Peter Young</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1590, 27. oktober</date></creation>
+            <creation><date xml:lang="da">1590, 27. oktober.</date><date xml:lang="en">1590, 27 October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-08-22" who="#pz">Filen etableret. Korrekturlæst.</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,9 +103,9 @@
             <div>
                 <pb ed="TBOO" n="VII.282"/>
                 <pb ed="A" n="69"/>
-                <opener><persName ref="Junius">PETRO IUNIO</persName> TYCHO BRAHE</opener>
-                <p>ETSI nihil ad me tanto tempore dederis literarum, nobilissime et eruditissime D.
-                    <persName ref="Junius">PETRE IUNI</persName>, utut præsens te id sæpius facturum addixeris: ego nihilominus oblata
+                <opener><persName ref="young_peter_1544">PETRO IUNIO</persName> TYCHO BRAHE</opener>
+                <p rend="noIndent">ETSI nihil ad me tanto tempore dederis literarum, nobilissime et eruditissime D.
+                    <persName ref="young_peter_1544">PETRE IUNI</persName>, utut præsens te id sæpius facturum addixeris: ego nihilominus oblata
                     hac oportuna per hunc eruditum iuvenem occasione, intermittere nolui, quin
                     aliquid saltem ad te chartis exararem, teque iamdudum inter nos contractæ
                     amicitiæ atque tuarum promissionum commonefacerem. Cupio autem quam maxime ex te
@@ -116,7 +132,7 @@
                     conscriptam, mihi e <placeName ref="Scotland">Scotia</placeName> missurum. Effigiem quidem accepi, quam et
                     Serenissimus Rex vester, quamprimum in musæo meo conspexit, hilari vultu
                     agnovit. Vitæ descriptionem adhuc desidero: fac in utroque stes promissis. Rogo
-                    insuper, ut D. Doctorem <persName ref="Craig">IOHANNEM CRAGIUM</persName>, medicinam <placeName ref="Edinburgh">Edinburgi</placeName> facientem et
+                    insuper, ut D. Doctorem <persName ref="craig_john_1620">IOHANNEM CRAGIUM</persName>, medicinam <placeName ref="Edinburgh">Edinburgi</placeName> facientem et
                     præstantissimum, si quis alius in <placeName ref="Scotland">Scotia</placeName>, Mathematicum, <persName ref="James 6.">Regi</persName> vestro de meliore
                     (ut aiunt) nota commendatum habeas. Est enim dignus, ut ametur et promoveatur.
                     Neque enim ægre fero, quod libro nostro secundo de recentioribus ætherei mundi
@@ -126,9 +142,8 @@
                     priores conceptiones, quas dilui, retractantibus, silentibus et quasi
                     obmutescentibus; quemadmodum ipse suo tempore plenius cognosces. Plura nunc non
                     addo, cum et hæc ipsa forte nimia sint, ex quo tu tam diutino silentio
-                    distineris. Sin tandem aliqua scripseris, ego crebrius et copiosius; nec sinam me <pb ed="A" n="71"/>ullo officij genere a te superari. Vale. Datæ <placeName ref="Uranoborg">Uraniburgi</placeName> die
-                    27. Oct. An. 1590.</p>
-                <p>TYCHO BRAHE.</p>
+                    distineris. Sin tandem aliqua scripseris, ego crebrius et copiosius; nec sinam me <pb ed="A" n="71"/>ullo officij genere a te superari.</p> <closer><salute>Vale.</salute> <dateline>Datæ <placeName ref="Uranoborg">Uraniburgi</placeName> die
+                    27. Oct. An. 1590.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

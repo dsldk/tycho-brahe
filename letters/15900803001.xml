@@ -42,11 +42,29 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.60</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
                     </witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.50</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.50</idno>
@@ -72,12 +90,12 @@
                     <date when="1590-08-03"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Thaddeaeus Hagecius</persName>
+                    <persName key="hagecius_thaddaeus_1525">Thaddeaeus Hagecius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
             <creation>
-                <date>1590, 3. august</date>
+                <date xml:lang="da">1590, 3. august.</date><date xml:lang="en">1590, 3 August.</date>
             </creation>
             <langUsage>
                 <language ident="la"/>
@@ -95,6 +113,7 @@
             <change when="2019-06-06" who="#pz">Filen etableret. Sideskrift og afsnit opmærket.
                 Navnestof tagget. Kontrol påbegyndt</change>
             <change when="2019-04-11" who="#pz">færdigkorrigeret</change>
+            <change when="2019-05-28" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -104,15 +123,15 @@
                 <pb ed="TBOO" n="VII.262"/>
                 <pb ed="A" n="40v"/>
                 <opener>CLARISSIMO ET PRÆSTANTISSIMO VIRO, MULTIPLICIQUE DOCTRINARUM GENERE
-                    EXCELLENTI DOMINO <persName ref="Hagecius, Thaddaeus">THADDÆO HAGECIO AB
+                    EXCELLENTI DOMINO <persName ref="hagecius_thaddaeus_1525">THADDÆO HAGECIO AB
                         HAYCK</persName>, PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO INPRIMIS
                     COLENDO. S.</opener>
-                <p><pb ed="A" n="33r"/>QUOD ultimis illis brevioribus per Studiosum <placeName
+                <p rend="noIndent"><pb ed="A" n="33r"/>QUOD ultimis illis brevioribus per Studiosum <placeName
                         ref="Rostock">Rostochiensem</placeName> missis pollicebaris, optime et
-                    eruditissime mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, amice
+                    eruditissime mi <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, amice
                     colendissime, id iam nunc satis superque præstitum est. Accessit enim hisce
                     diebus Tabellarius <placeName ref="Praha">Pragensis</placeName> unâ cum novo
-                    Privilegio Cæsareo, magnifici Domini <persName ref="Curtius, Jacob"
+                    Privilegio Cæsareo, magnifici Domini <persName ref="kurz_jacob_1554"
                         >CURTIJ</persName> tuasque literas secum asportans, quæ omnia mihi erant
                     longe <app>
                         <lem wit="#B">acceptissima</lem>
@@ -127,7 +146,7 @@
                     Navarræo, sed vix pari erga studia Mathematica affectione, cum nulli, quod
                     sciam, in Aulis Regum ab intimis sint consilijs, qui Mathemata adeo impense
                     atque solide non solum ament, sed etiam intelligant, atque præstantissimus ille
-                    Dominus <persName ref="Curtius, Jacob">CURTIUS</persName>, cuius beneficio
+                    Dominus <persName ref="kurz_jacob_1554">CURTIUS</persName>, cuius beneficio
                     Cæsareanum hoc Diploma impetratum atque adornatum esse grata mente agnosco. Sed
                     cum ipsimet hac de re et ijs, quæ eruditissima ipsius Epistola continentur,
                     scribam, nolo ea pluribus hîc attingere, sed potius ad respondendum hisce tuis
@@ -349,7 +368,7 @@
                     multoque minus <persName ref="Copernicus
                         "
                         >COPERNICUS</persName>, quod alterius est loci plenius discutere.</p>
-                <p rend="indent">Nondum itaque, mi <persName ref="Hagecius, Thaddaeus"
+                <p rend="indent">Nondum itaque, mi <persName ref="hagecius_thaddaeus_1525"
                         >THADDÆE</persName>, ad impossibilitatem omnem deduxisti Cometarum
                     hypotheses, neque inficiari merito potes ea, quæ de Cometa anni 77<hi rend="sup"
                         >mi</hi> (non enim de eo, qui anno 8 effulsit, ut tuæ habent literæ, id
@@ -393,13 +412,13 @@
                         ">COPERNICUM</persName> committere a
                     cœlo ipso discrepantiam hactenus non inveni, licet in &#x2642; hæc ternos
                     subinde gradus vel etiam paulo ultra attingat. Quod vero &#x2643; stella his
-                    ipsis diebus grad. 1⅔ ulterior sit apud <persName ref="Copernicus"
+                    ipsis diebus grad. 1⅔ ulterior sit apud <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICUM</persName> quam <persName ref="Alfonso 10."
                     >ALPHONSUM</persName>, tantum tamen abest, ut vitium penes <persName
-                        ref="Copernicus">COPERNICUM</persName> reperiatur, quod cœlum ipsum adhuc
+                        ref="kopernikus_nikolaus_1473">COPERNICUM</persName> reperiatur, quod cœlum ipsum adhuc
                     quarta fere gradus parte eius longitudinem plus promoveat, quam Ephemerides e
                     Prutenico derivatæ calculo. Sic &#x2644; sexta parte gradus in ipso cœlo est
-                    anterior <persName ref="Copernicus">COPERNICI</persName> numeratione, licet hæc
+                    anterior <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName> numeratione, licet hæc
                     plus 2½ gradibus Alphonsinam præcedat. Latitudo tamen eius cum hoc calculo intra
                     paucula minuta consentit, cum apud <persName
                         ref="Copernicus
@@ -440,11 +459,11 @@
                     remittam Tabellarium, si is eos secum asportare voluerit, sin minus, alia
                     quacunque opportunitate dabo operam, ut restituantur; mihi enim nulli sunt
                     usui.</p>
-                <p rend="indent">Apologiam meam adversus <persName ref="Craig">CRAIGUM</persName> Scotum tibi non displicere lubens
+                <p rend="indent">Apologiam meam adversus <persName ref="craig_john_1620">CRAIGUM</persName> Scotum tibi non displicere lubens
                     accipio. Reddita est illi iamdudum hyeme antecedente, nihil tamen adhuc
                     respondit, nec scio, an quidpiam in contrarium uberius meditetur. Id saltem ex
                     Medico Doctore, qui serenissimam Reginam Scotiæ nostratem illuc proximo vere
-                    comitabatur, cognovi, <persName ref="Craig">CRAIGUM</persName> illum pro suo
+                    comitabatur, cognovi, <persName ref="craig_john_1620">CRAIGUM</persName> illum pro suo
                         <persName ref="Aristoteles">ARISTOTELE</persName>, cui se totum mancipavit,
                     adhuc stare, adeoque eius placitis addictum, ut certiora et saniora omnia
                     respuat, morboque pervicaciæ incurabili laboret. Suspiciat igitur et in pretio
@@ -463,7 +482,7 @@
                     indubitate asseverari, quin suos inveniat contradictores, et ipsissima veritas
                     gravissimis ut plurimum in hoc mundo laborat obtrectationibus, mendacia autem et
                     vanitates pene ubique in pretio sunt.</p>
-                <p rend="indent"><pb ed="TBOO" n="VII.271"/>Quod <persName ref="Craig"
+                <p rend="indent"><pb ed="TBOO" n="VII.271"/>Quod <persName ref="craig_john_1620"
                         >CRAIGUS</persName> te in tua Dialexi parum ex arte præstitisse nimis
                     præsumptuose pronuntiat, videtur ad parallaxium doctrinam minus solide et
                     absolute illic pertractatam respexisse. Ignorabat enim procul dubio, teipsum tua
@@ -481,7 +500,7 @@
                         <lem wit="#TBOO">studioso</lem>
                         <rdg wit="#A">studiose</rdg>
                     </app> et candide omnia accipienti non ingratum futurum mihi persuadeo. Id quod
-                        <persName ref="Craig">CRAIGUS</persName> affirmat, Mathematicos in
+                        <persName ref="craig_john_1620">CRAIGUS</persName> affirmat, Mathematicos in
                     demonstrandis Cometarum parallaxibus nimis secure proprium eorum motum
                     neglexisse, non usque adeo citra rem quoad plærosque asseverat, et ne quidem
                     ipsemet <persName ref="Regiomontanus">REGIOMONTANUS</persName> in suo erudito
@@ -523,7 +542,7 @@
                     minimæ quidem parallaxes, quales in altissimo æthere fiunt, subterfugium aliquod
                     invenirent, nec motus proprij implicatio impedimentum adferret, aut in ipsa
                     denique observandi ratione aliquid errori sensibili occasionem facile præbens
-                    committeretur. Non levem itaque mihi infert iniuriam <persName ref="Craig"
+                    committeretur. Non levem itaque mihi infert iniuriam <persName ref="craig_john_1620"
                         >CRAIGUS</persName>, ut tu quoque fateris, dum motus proprij Cometarum in
                     parallaxibus eorum cognoscendis irrepentes remoras obijcere non dubitat, cum eas
                     admodum studiose et subtiliter ubique amoverim præcaverimque. Ideoque non
@@ -555,12 +574,12 @@
                 <p rend="indent">Quantum ad modellas mea quædam instrumenta repræsentantes attinet,
                     curavi, postquam tuam voluntatem hac in re cognovi, quasdam confieri, quotquot
                     commorante hîc Tabellario absolvere licuit, quas tibi per eundem mitto, rogoque,
-                    ut nemini nisi solo Domino <persName ref="Curtius, Jacob">CURTIO</persName>
+                    ut nemini nisi solo Domino <persName ref="kurz_jacob_1554">CURTIO</persName>
                     communices. Expressit in ijs artifex ea, quæ in tam parvis ad similitudinem
                     maiorum instrumentorum formari commode poterant. Nec enim omnia ad unguem
                     exhibere licuit. Vereor itaque, ne in maiori aliquo organo conficiendo harum
                     idearum præmonstratio minus sufficiens futura sit. Quare non citra rem Dominus
-                        <persName ref="Curtius, Jacob">CURTIUS</persName> eâdem magnitudine, qua mea
+                        <persName ref="kurz_jacob_1554">CURTIUS</persName> eâdem magnitudine, qua mea
                     sunt organa, vobis hîc parari consultius duxit. Qua etiam in re libenter illi
                     gratificarer, si artifices omnes, quorum operâ in meis construendis præteritis
                     aliquot annis usus sum, præsto haberem; eos enim, postquam instrumenta, quæ
@@ -584,14 +603,14 @@
                     propositum est. Hunc ipsum Sextantem vobis aliquandiu impertiri, donec ad eius
                     imitationem alius elaborari poterit, unâque eius usum admodum expeditum et
                     certum in capiendis syderum tam distantijs quam altitudinibus probe
-                    perceperitis, non renuam; modo Domino <persName ref="Curtius, Jacob"
+                    perceperitis, non renuam; modo Domino <persName ref="kurz_jacob_1554"
                         >CURTIO</persName> id acceptum fuerit. Quod si sic, mittat huc ad me iuvenem
                     aliquem doctum et Astronomicarum rerum satagentem, qui instrumenti huius usum
                     eiusque dissolutionem et complicationem hîc sufficienter discat, et postea illud
                     vobis sartum tectum adferat, eiusque explicationem utilitatemque diversimodam
                     illic aperiat. Alias enim frustra mittitur hoc organum, nisi quis unâ adsit, qui
                     eius rationes omnes compertas habeat. Id poteris Domino <persName
-                        ref="Curtius, Jacob">CURTIO</persName> meo nomine renuntiare, meque ad illi,
+                        ref="kurz_jacob_1554">CURTIO</persName> meo nomine renuntiare, meque ad illi,
                     tam in hac parte quam alijs, quantum in me est, gratificandum quam paratissimum
                     fore.</p>
                 <p rend="indent"><pb ed="TBOO" n="VII.274"/>In Epistolis tuis et autographis mihi
@@ -652,20 +671,18 @@
                     in nostro horizonte apparuisset, si tabulis fidentium fuisset. Quæ obiter
                     indicare volui, ut cum vestra animadversione conferantur. Sed ne nimis prolixus
                     in rescribendo sim, tempus est, ut nunc calamum sistam. Tu itaque, optime et
-                    amantissime mi <persName ref="Hagecius, Thaddaeus">THADDÆE</persName>, quam
+                    amantissime mi <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, quam
                     felicissime vale, meque prima quaque occasione literis tuis, siquidem aliter nos
-                    invicem compellare nequeamus, quin revisas, ne intermitte. Datæ <placeName
+                    invicem compellare nequeamus, quin revisas, ne intermitte. </p><closer><dateline>Datæ <placeName
                         ref="Uraniborg">Uraniburgi</placeName> die 3. Augusti stylo veteri Anno
-                    1590.</p>
-                <lb/>
-                <p rend="rightMargin">Tycho Brahe.</p>
-                <lb/>
-                <p><app>
+                    1590.</dateline><signed><persName ref="brahe_tycho_1546">Tycho Brahe</persName>.</signed></closer>
+                
+                <postscript><p><app>
                         <lem>Librum transmissum rogo [ut] nemini communices, præ[terquam] soli
-                            Domino <persName ref="Curtius, Jacob">CURTIO</persName>, ex[pectans
+                            Domino <persName ref="kurz_jacob_1554">CURTIO</persName>, ex[pectans
                             quoad] completus atque [in publicum em]issus sit.</lem>
                         <rdg><note>suppl. lacunas TBOO</note></rdg>
-                    </app></p>
+                    </app></p></postscript>
             </div>
         </body>
     </text>
