@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -41,6 +41,21 @@
                                 <idno>cod. Vindob. lat. 10686.66</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno 1588</title>, ed. F.R. Friis,
@@ -83,6 +98,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-04-12" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,9 +107,9 @@
             <div>
                 <pb ed="TBOO" n="VII.168"/>
                 <pb ed="A" n="107v"/>
-                <opener>CLARISSIMO DN. DOCTORI <persName ref="Brucaeus, Heinrich">BRUCÆO</persName>
-                    TYCHO BRAHE. <lb/>S. P.</opener>
-                <p>RECTE et prudenter asseris, in qua etiam sententia ego
+                <opener>CLARISSIMO DN. DOCTORI <persName ref="brucaeus_heinrich_1530">BRUCÆO</persName>
+                    <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>. <lb/>S. P.</opener>
+                <p rend="noIndent">RECTE et prudenter asseris, in qua etiam sententia ego
                     semper fui, esse levitatis magnæ, ingenij parvi, <pb ed="A" n="108r"/>imbecillis
                     iudicij, imo inconstantis animi, non recte expensis adversariorum opinionibus,
                     quibus calumniandi quam recte sentiendi maior est cura, subito assentiri. Verum

@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
-                                <settlement>Købanhavn</settlement>
+                                <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XVII, 208</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Sjællandske tegnelser</collection>
                                 <idno>XVII, 208</idno>
                                 <msName>empty</msName>
@@ -55,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christian 4.</persName>
+                    <persName key="christian-4-1577">Christian 4.</persName>
                     <placeName>København</placeName>
                     <date when="1589-09-20"/>
                     <note>n.s.</note>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 20. sept.</date></creation>
+            <creation><date xml:lang="da">1589, 20. september.</date><date xml:lang="en">1589, 20 September.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -87,8 +96,8 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.50"/>
-                <opener>TYGE BRAHE FICK BREFF,</opener>
-                <p>at hand her epter schulde holde thend løckte paa Kulden bedre wed mackt end til
+                <opener><persName ref="brahe_tycho_1546">TYGE BRAHE</persName> FICK BREFF,</opener>
+                <p rend="noIndent">at hand her epter schulde holde thend løckte paa Kulden bedre wed mackt end til
                     theß scheed er, saa der ingen klagemaall aff søefarende folck der offuer kommer.</p>
                 <closer>
                     <dateline><foreign xml:lang="la"><hi rend="it">Actum Haffniæ</hi></foreign> 20.

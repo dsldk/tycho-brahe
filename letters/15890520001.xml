@@ -14,28 +14,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.46</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.46</idno>
@@ -56,7 +69,8 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1589-05-20"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -65,7 +79,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 20. maj n.s</date></creation>
+            <creation><date xml:lang="da">1589, 20. maj n.s.</date><date xml:lang="da">1589, 20 May
+                    NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-04-23" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,23 +104,32 @@
             <div>
                 <pb ed="TBOO" n="VII.184"/>
                 <pb ed="A" n="4v"/>
-                <opener>PRISCÆ AC VERÆ NOBILITATIS, INSIGNISQUE ERUDITIONIS VIRO, D. TYCHONI BRAHE DANO,
-                    MATHEMATUM ARTIFICI SUMMO, INSULÆ HUENÆ DOMINO ET AMICO SUO OBSERVANDO. <lb/><foreign xml:lang="de">IN DENNEMARCK.</foreign> <lb/>S.</opener>
-                <p><pb ed="A" n="4r"/>PRIDIE eius diei, quam hinc discederet vestras ille
-                    ad Imp. nuncius, adij illum et de suo hinc discessu percontatus sum. Ille vero
-                    se eo ipso die habiturum audientiam apud Imp. aiebat. Quod vero sequenti mane
-                    discedere vellet, de eo ne verbum ullum. Dixeram me ipsi daturum literas ad te,
-                    quas paratas habebam; expectabam solum eo ipso die Bibliopolas nostrates e
-                    mercatu <placeName ref="Frankfurt am Main">Francoffordensi</placeName>, a quibus cognoscere cupiebam, num essent hoc tempore
-                    allaturi librum illum de astris, recordor fuisse cuiusdam IO. FRANCI, Parisijs
-                    impressum, et Reginæ Galliæ dedicatum, quem tibi olim <placeName ref="Regensburg">Ratisponæ</placeName> donaveram, et tu
-                    eundem superioribus mensibus a me petebas, ut hac commoditate eum ad te
-                    transmitterem. Cum autem non afferrent, mitto nudas literas in hospitium ad
-                    vestratem illum. Ecce vero illum iam die præterito hinc discessisse, mihi
-                    nunciant. Quam me id male habuerit, verbis exprimere non possum. Habes causam et
-                    iustam meam excusationem, cur vestras ille vacuus meis literis redierit ad vos,
-                    quam ut accipias beneque interpreteris, te oro. B. V. <placeName ref="Praha">Pragæ</placeName> die 20. Maij novo
-                    stylo Anno 1589. </p><lb/><p rend="rightMargin">T. studiosiss.<lb/><persName ref="Hagecius, Thaddaeus">Thad</persName>.</p>
+                <opener>PRISCÆ AC VERÆ NOBILITATIS, INSIGNISQUE ERUDITIONIS VIRO, D. <persName
+                        ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DANO, MATHEMATUM ARTIFICI
+                    SUMMO, INSULÆ HUENÆ DOMINO ET AMICO SUO OBSERVANDO. <lb/><foreign xml:lang="de"
+                        >IN DENNEMARCK.</foreign>
+                    <lb/>S.</opener>
+                <p rend="noIndent"><pb ed="A" n="4r"/>PRIDIE eius diei, quam hinc discederet vestras
+                    ille ad Imp. nuncius, adij illum et de suo hinc discessu percontatus sum. Ille
+                    vero se eo ipso die habiturum audientiam apud Imp. aiebat. Quod vero sequenti
+                    mane discedere vellet, de eo ne verbum ullum. Dixeram me ipsi daturum literas ad
+                    te, quas paratas habebam; expectabam solum eo ipso die Bibliopolas nostrates e
+                    mercatu <placeName ref="Frankfurt am Main">Francoffordensi</placeName>, a quibus
+                    cognoscere cupiebam, num essent hoc tempore allaturi librum illum de astris,
+                    recordor fuisse cuiusdam <persName ref="francus_johannes_1589">IO.
+                        FRANCI</persName>, Parisijs impressum, et Reginæ Galliæ dedicatum, quem tibi
+                    olim <placeName ref="Regensburg">Ratisponæ</placeName> donaveram, et tu eundem
+                    superioribus mensibus a me petebas, ut hac commoditate eum ad te transmitterem.
+                    Cum autem non afferrent, mitto nudas literas in hospitium ad vestratem illum.
+                    Ecce vero illum iam die præterito hinc discessisse, mihi nunciant. Quam me id
+                    male habuerit, verbis exprimere non possum. Habes causam et iustam meam
+                    excusationem, cur vestras ille vacuus meis literis redierit ad vos, quam ut
+                    accipias beneque interpreteris, te oro.</p>
+                <closer><salute>B. V.</salute>
+                    <dateline><placeName ref="Praha">Pragæ</placeName> die 20. Maij novo stylo Anno
+                        1589.</dateline>
+                    <signed>T. studiosiss.<lb/><persName ref="hagecius_thaddaeus_1525"
+                            >Thad</persName>.</signed></closer>
             </div>
         </body>
     </text>

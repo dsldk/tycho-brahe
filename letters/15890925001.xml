@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Sjællandske tegnelser</collection>
+                                <idno>XVII, 210</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Sjællandske tegnelser</collection>
                                 <idno>XVII, 210</idno>
                                 <msName>empty</msName>
@@ -55,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christian 4.</persName>
+                    <persName key="christian_4_1577">Christian 4.</persName>
                     <placeName>København</placeName>
                     <date when="1589-09-25"/>
                     <note>n.s.</note>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 25. sept.</date></creation>
+            <creation><date xml:lang="da">1589, 25. september.</date><date xml:lang="en">1589, 25 September.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-07" who="#pz">Filen etableret</change>
+            <change when="2021-05-27" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,10 +97,10 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.50"/>
-                <opener>TILL TYGE BRAHE NOGEN WOX ANRØRENDIS <foreign xml:lang="la"><hi
+                <opener>TILL <persName ref="brahe_tycho_1546">TYGE BRAHE</persName> NOGEN WOX ANRØRENDIS <foreign xml:lang="la"><hi
                             rend="it">VT SEQUITUR</hi></foreign></opener>
-                <p><persName ref="christian_4_1577">Christian 4.</persName> etc.</p>
-                <p>WOR gunst tilfornn. Wiid, att thenne breffuißer <persName ref="loeding_thomes_1589">Thomes Loeding</persName> haffuer
+                <p rend="indent"><persName ref="christian_4_1577">Christian 4.</persName> etc.</p>
+                <p rend="noIndent">WOR gunst tilfornn. Wiid, att thenne breffuißer <persName ref="loeding_thomes_1589">Thomes Loeding</persName> haffuer
                     wnderdanigst tilkiende giiffuit, huorledis for nogen tiid siiden wdj a:o 87 er
                     st[r]andit ett schiib paa Anholt, som haffuer tilhørt nogen kiøbmend aff
                     Engelland, huor wdj haffuer werrit eblant andit guodtz noget wox, aff huilcket

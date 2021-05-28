@@ -33,18 +33,27 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Berlin</settlement>
                                 <repository>empty</repository>
                                 <collection>empty</collection>
-                                <idno>Ex apographo manu scripto im exemplo Berolinensis operum
-                                    atronomicorum Tychonis</idno>
+                                <idno>Håndskrevet afskrift i et eksemplar af Tycho Brahes
+                                    astronomiske skrifter i Berlin</idno>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Berlin</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>Manuscript transscript in a Berlin copy Tycho Brahe's
+                                    astronomical works</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="Nolten">
-                        <bibl><title>Commercium litterarium clarorim virorum</title>, ed. R. A.
+                        <bibl><title>Commercium litterarium clarorum virorum</title>, ed. R. A.
                             Nolten, Brunsvigæ 1737, I p. 1 sqq.</bibl>
                     </witness>
                     <witness xml:id="TBOO">
@@ -60,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>John Craig</persName>
+                    <persName key="craig_john_1620">John Craig</persName>
                     <placeName>Edinburgh</placeName>
                     <date when="1589-06-18"/>
                 </correspAction>
@@ -69,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 18. juni</date></creation>
+            <creation><date xml:lang="da">1589, 18. juni.</date><date xml:lang="en">1589, 18 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,18 +93,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-04-24" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <div>
                     <pb ed="TBOO" n="VII.191"/>
-                    <opener>IOANNES <persName ref="Craig">CRAIGUS</persName> AD TYCHONEM
+                    <opener>IOANNES <persName ref="craig_john_1620">CRAIGUS</persName> AD TYCHONEM
                         BRAHE.</opener>
                     <pb ed="A" n="6r"/>
-                    <p>DEDI ante ad te literas, nobilissime vir, quibus tuis respondi, sed in ea
+                    <p rend="noIndent">DEDI ante ad te literas, nobilissime vir, quibus tuis respondi, sed in ea
                         festinatione scripta sunt, dum alio avocarer, ut relegere attente, quæ
                         scripseram, non potuerim. Paucis exposui, quid de quæstione a te mota
                         sentiam, non contradicendi animo, sed veritatis et amicitiæ nostræ causa,
@@ -152,23 +161,18 @@
                             <persName ref="Aristoteles">ARISTOTELIS</persName> sententia, Planetas
                         orbium certorum esse partes, a qua tamen nostra speculatio non abhorret. Sed
                         tubis ad naves convocatur, iamque illustriss. Dominus Comes ingressus est,
-                        ventis afflantibus secundis. Faxit Deus, ut secundissimi sint. Bene et
-                        feliciter vale, et <persName ref="Craig">CRAIGUM</persName> tui amantissimum esse existimato. Datæ 18. Iunij
-                            <placeName ref="Edinburgh">Edenburgi</placeName>.</p>
-                    <lb/>
-                    <p rend="rightMargin">Tuus<lb/>IOAN. CRAIGUS,<lb/>Medicus.</p>
-                </div>
-                <div>
+                        ventis afflantibus secundis. Faxit Deus, ut secundissimi sint.</p> <closer><salute>Bene et
+                        feliciter vale, et <persName ref="Craig">CRAIGUM</persName> tui amantissimum esse existimato.</salute> <dateline>Datæ 18. Iunij
+                            <placeName ref="Edinburgh">Edenburgi</placeName>.</dateline> <signed>Tuus<lb/><persName ref="craig_john_1620">IOAN. CRAIGUS</persName>,<lb/>Medicus.</signed></closer>
+                
+                <postscript>
                     <opener>POST SCRIPTA.</opener>
                     <p>IAM audio, plures adhuc ex amicis nostris unâ proficisci, et inter alios M.
                             <persName ref="Fuller">GUILIELMUM FULLERUM</persName>; iuvenis est
                         egregius, nec tua amicitia indignus. Vide, quam ego tibi notos quasi
                         accumulem; amici omnes mei sunt, et tuarum excellentium virtutum erunt
-                        admiratores. Iterum vale. Hæc quoque raptim. </p>
-                    <lb/>
-                    <p rend="rightMargin">IOAN. CRAIGUS, D.</p>
-                </div>
-
+                        admiratores.</p><closer> <salute>Iterum vale. Hæc quoque raptim.</salute> <signed><persName ref="craig_john_1620">IOAN. CRAIGUS, D.</persName></signed></closer>
+                </postscript>
             </div>
         </body>
     </text>

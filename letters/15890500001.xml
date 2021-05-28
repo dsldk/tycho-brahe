@@ -33,13 +33,22 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                        <msIdentifier>
+                            <settlement>Berlin</settlement>
+                            <repository>empty</repository>
+                            <collection>empty</collection>
+                            <idno>Håndskrevet afskrift i et eksemplar af Tycho Brahes
+                                astronomiske skrifter i Berlin</idno>
+                        </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Berlin</settlement>
                                 <repository>empty</repository>
                                 <collection>empty</collection>
-                                <idno>Ex apographo manu scripto im exemplo Berolinensis operum
-                                    atronomicorum Tychonis</idno>
+                                <idno>Manuscript transscript in a Berlin copy Tycho Brahe's
+                                    astronomical works</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc></witness>
@@ -60,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>John Craig</persName>
+                    <persName key="craig_john_1620">John Craig</persName>
                     <placeName>Edinburgh</placeName>
                     <date when="1589-05-01"/>
                 </correspAction>
@@ -69,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, maj</date></creation>
+            <creation><date xml:lang="da">1589, maj.</date><date xml:lang="en">1589, May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,6 +93,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-04-23" who="#pz">Filen etableret</change>
+            <change when="2019-05-28" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,7 +103,7 @@
                 <opener><pb ed="TBOO" n="VII.175"/>
                     <pb ed="A" n="1r"/>NOBILISSIME ET CLARISSIME VIR, AMICE HONORANDE.<lb/>S.
                     P.</opener>
-                <p>SUB præteritæ hyemis initium, vir magnificus, D. GUILHELMUS STUARTUS, mihi
+                <p rend="noIndent">SUB præteritæ hyemis initium, vir magnificus, D. <persName rend="stewart_william_1540">GUILHELMUS STUARTUS</persName>, mihi
                     literas tuas et librum, quem misisti, reddidit, quibus, ut in manus meas venêre,
                     avide perlectis, delectatus sum plurimum; nam non solum erudita intricatæ
                     quæstionis tractatio, in qua eximiam doctrinam et singularem industriam
@@ -429,7 +439,7 @@
                         ref="Edinburgh">Edenburgi</persName> in <persName ref="Scotland"
                         >Scotia</persName>, in Martio primum, postea sub Maij initium.</p>
                 <lb/>
-                <p rend="rightMargin">Tui amantiss.<lb/><persName ref="Craig">IOANNES
+                <p rend="rightMargin">Tui amantiss.<lb/><persName ref="craig_john_1620">IOANNES
                         CRAIGUS</persName>,<lb/>Philosophiæ et medicinæ doctor.</p>
             </div>
         </body>

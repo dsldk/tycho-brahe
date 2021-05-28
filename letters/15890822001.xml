@@ -71,7 +71,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1589, 22. august</date></creation>
+            <creation><date xml:lang="da">1589, 22. august.</date><date xml:lang="en">1589, 22 August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,19 +86,20 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-15" who="#pz">Filen etableret</change>
+            <change when="2021-05-27" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
-                <p><pb ed="TBOO" n="VI.181"/><app>
+                <p rend="noIndent"><pb ed="TBOO" n="VI.181"/><app>
                         <lem>LITERAS</lem>
                         <rdg><note>ante <q>LITERAS</q> add. E <q>NOBILISSIMO ET VIRTVTE SAPIENTIA
                                     INGENIOSA ERVDITAQVE DOCTRINA, CLARISSIMO VIRO, DOMINO TYCHONI
                                     BRAHE, DOMINO DE KNVDSTRVP, EQVITI DANO, MATHEMATICORUM NOSTRO
                                     SECULO OMNIUM PRÆSTANTISSIMO, ETC. DOMINO SUO CUM OBSERUANTIA
                                     COLENDO, ETC. S. P.</q></note></rdg>
-                    </app> tuas, Nobilissime Excellentissimeque D. TYCHO, quas tu 21. Februarij
+                    </app> tuas, Nobilissime Excellentissimeque D. <persName ref="brahe_tycho_1546">TYCHO</persName>, quas tu 21. Februarij
                     dederas, vix 17. Augusti accepimus, hoc est, sex diebus post, cum alteras ad me
                     datas scripseras. Quanquam autem varijs iam distrahar occupationibus, tamen
                     paucis tibi respondendum duxi: Præsertim cum videam, te literas meas superiores,
@@ -371,7 +372,7 @@
                             <lem wit="#C">Septemb.</lem>
                             <rdg wit="#E">Augusti</rdg>
                         </app>, Anno 89. </dateline>
-                    <signed>T. T.<lb/> CHRISTOPHORVS ROTHMANNVS.</signed>
+                    <signed>T. T.<lb/><persName ref="rothmann_christopher_1550">CHRISTOPHORVS ROTHMANNVS</persName>.</signed>
                 </closer>
             </div>
         </body>

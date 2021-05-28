@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Paris</settlement>
                                 <repository>Bibliotheque Nationale</repository>
@@ -41,6 +41,21 @@
                                 <idno>franc. 13040</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Paris</settlement>
+                                <repository>Bibliotheque Nationale</repository>
+                                <collection>empty</collection>
+                                <idno>franc. 13040</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
                         <msDesc>
@@ -74,7 +89,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1588, 22. maj</date></creation>
+            <creation><date xml:lang="da">1588, 22. maj.</date><date xml:lang="en">1588, 22 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -91,6 +106,7 @@
             <change when="2019-04-23" who="#pz">Filen etableret</change>
             <change when="2019-05-27" who="#pz">Tekstkritik indlagt s. 186 med</change>
             <change when="2019-05-28" who="#pz">Tekstkritik indlagt</change>
+            <change when="2019-05-28" who="#pz">revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -99,13 +115,13 @@
             <div>
                 <pb ed="TBOO" n="VII.184"/>
                 <pb ed="A" n="162v"/>
-                <opener><app><lem wit="#A">AD DOMINUM TYCHONEM BRAHE, DANUM, MATHEMATICUM CLARISSIMUM, VIRUM
-                    NOBILISSIMUM.<lb/>S. D.</lem><rdg wit="#B"><q>Casparus Peucerus Tychoni Brahe S.P.D.</q></rdg></app></opener>
-                <p>MAGNA cum lætitia accepi, cum maiore voluptate legi <app><lem wit="#A">literas tuas</lem><rdg wit="#B"><q>tuas literas</q></rdg></app>, vir vere
+                <opener><app><lem wit="#A">AD DOMINUM <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>, DANUM, MATHEMATICUM CLARISSIMUM, VIRUM
+                    NOBILISSIMUM.<lb/>S. D.</lem><rdg wit="#B"><q><persName ref="peucer_caspar_1525">Casparus Peucerus</persName> Tychoni Brahe S.P.D.</q></rdg></app></opener>
+                <p rend="noIndent">MAGNA cum lætitia accepi, cum maiore voluptate legi <app><lem wit="#A">literas tuas</lem><rdg wit="#B"><q>tuas literas</q></rdg></app>, vir vere
                     nobilis, et adiuncta illis τὰ ἀπαμειβόμενα scripta, quibus erudito et
                     artificibus summis digno examine confertis <app><lem wit="#A">συμπαρατηρήσεις</lem><rdg wit="#B"><q>συμπατηρήσεις</q></rdg></app> vestras
                     illustrissimus Princeps Landgravius <app><lem wit="#B">Hassiæ</lem><rdg wit="#A"><q>Hassus</q></rdg></app> <persName
-                        ref="Wilhelm, landgrave of Hessen">WILHELMUS</persName> et tu, sed serius
+                        ref="wilhelm_4_1532">WILHELMUS</persName> et tu, sed serius
                     quam oportuit. Abs te enim <app><lem wit="#A">missæ</lem><rdg wit="#B"><q>emissæ</q></rdg></app> <app><lem wit="#B">Uraniburgo</lem><rdg wit="#A"><q>Uraniburgi</q></rdg></app> <pb ed="TBOO" n="VII.185"/>(quod
                     Uranoscopiam vocare soleo, ut speculam cœli) 13. Septembris anno 88 pervenerunt
                     ad me demum ultima Ianuarij <app><lem wit="#A">Iuliani</lem><rdg wit="#B"><q>Iuliarii</q></rdg></app> anno <app><lem wit="#A">sequente</lem><rdg wit="#B"><q>sequenti</q></rdg></app> 89; ubi latuerint aut
@@ -301,7 +317,7 @@
                     />stabiliat illam quam hypothesibus tuis condis novam fabricam in maximis et
                     mirandis Dei operibus, quibus quantum de summa illa <app><lem wit="#A">Dei</lem><rdg><note>om. B</note></rdg></app> sapientia consecuti
                     <app><lem wit="#B">simus</lem><rdg wit="#A"><q>simus</q></rdg></app>, intelligemus tunc, quando αὐτόπται coram opera ipsa aspiciemus.</p>
-                <p rend="indent"><persName ref="Vallesius">FRANCISCI VALESIJ</persName> Hispani nec
+                <p rend="indent"><persName ref="valles_francisco_1524">FRANCISCI VALESIJ</persName> Hispani nec
                     nomen novi antea, nec legi librum, sed quæ ex illo commemoras, mihi talia
                     videntur, ut refutatione nec arguta nec operosa indigeant. Absurdius est, quod
                     cœlum ex elementis quatuor <app><lem wit="#A #B">conflat</lem><rdg><note>e <q>constat</q> corr. B</note></rdg></app>, cui propter ἀμετακίνητον ἀφθαρσίαν
@@ -309,7 +325,7 @@
                     <app><lem wit="#A">repererunt</lem><rdg wit="#B"><q>reperiunt</q></rdg></app>, quomodo τό διαφανές ἐνεργείᾳ seu natura sua et actu lucidum ex
                     elementis detexerent aut demonstrarent.</p>
                 <p rend="indent">Anno præterito fui Cassellis apud illustrissimum Principem
-                    WILHELMUM Landgravium, Dominum et benefactorem meum clementissimum, ubi magna
+                    <persName ref="wilhelm_4_1532">WILHELMUM</persName> Landgravium, Dominum et benefactorem meum clementissimum, ubi magna
                     cum voluptate spectavi et consideravi instrumenta, quibus ad observationes ipse
                     utitur, <app><lem wit="#A">Sextantem</lem><rdg wit="#B"><q>sex tamen</q></rdg></app> imprimis ex tua, quantum intelligo, officina profectum et
                     ibidem natum. Experiri vim et usum propter temporis brevitatem et copiam ac
@@ -356,9 +372,8 @@
                     divinitus <app><lem wit="#A">excitatum te</lem><rdg wit="#B"><q>te excitatum</q></rdg></app> video et prædico esse ad hanc Mathematicæ doctrinæ partem
                     illustrandam et absolvendam, quam ego maximi feci semper, cumque admiratione et
                     voluptate colui, sed avocatus alijs studijs nimis cito de manibus deposui,
-                    redama.</p>
-                <p rend="indent">Datæ <placeName ref="Dessau">Dessæ</placeName> 1O. die Maij Iuliani
-                    Anno 1589.</p>
+                    redama.</p><closer><dateline>Datæ <placeName ref="Dessau">Dessæ</placeName> 1O. die Maij Iuliani
+                    Anno 1589.</dateline></closer>
             </div>
         </body>
     </text>
