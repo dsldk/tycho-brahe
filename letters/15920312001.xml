@@ -57,11 +57,11 @@
                     <date when="1592-03-12"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Bartholomaeus Scultetus</persName>
+                    <persName key="scultetus_bartholomaus_1540">Bartholomaeus Scultetus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 12. marts</date></creation>
+            <creation><date xml:lang="da">1592, 12. marts.</date><date xml:lang="en">1592, 12 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -76,6 +76,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-28" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,7 +87,7 @@
                     <pb ed="A" n="199"/>CLARISSIMO DOCTISSIMOQUE VIRO M. <persName ref="scultetus_bartholomaus_1540"
                         >BARTHOLOMÆO SCULTETO</persName>, GORLICENSI, RERUM MATHEMATICARUM
                     PERITISSIMO, VETERI SUO AMICO PLURIMUM COLENDO. S.</opener>
-                <p><pb ed="A" n="197"/>EN! habes mi <persName ref="scultetus_bartholomaus_1540">SCULTETE</persName>,
+                <p rend="noIndent"><pb ed="A" n="197"/>EN! habes mi <persName ref="scultetus_bartholomaus_1540">SCULTETE</persName>,
                     operum nostrorum, diu a te atque alijs desideratum , primum Quaternionem,
                     inscriptionem quatuor subsequentium tomorum eorumque contenta breviter
                     complectentem. Hinc cætera ratiocinare. Addidi <persName ref="Mylius, Martin"
@@ -127,7 +128,7 @@
                 <closer>
                     <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> d. 12. Martij
                         Anno 1592.</dateline>
-                    <signed>TYCHO BRAHE, manu propria.</signed>
+                    <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>, manu propria.</signed>
                 </closer>
             </div>
         </body>

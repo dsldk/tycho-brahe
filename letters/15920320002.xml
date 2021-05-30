@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Oxford</settlement>
                                 <repository>Bodleian Library</repository>
@@ -40,6 +44,21 @@
                                 <idno>Smith 77</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,11 @@
                     <date when="1592-03-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Peter Young</persName>
+                    <persName key="young_peter_1544">Peter Young</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 20. marts</date></creation>
+            <creation><date xml:lang="da">1592, 20. marts.</date><date xml:lang="en">1592, 20 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +97,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-30" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,64 +105,72 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.330"/>
-                    <pb ed="A" n="73"/><persName ref="young">PETRO IUNIO</persName> TYCHO BRAHE.</opener>
-                <p>QUI fiat, nobilissime et excellentissime D. <persName ref="young">PETRE IUNI</persName>, quod ad meas bis vel ter
-                    ad te datas, plane surdus et mutus videare, equidem ne suspicari quidem, nedum
-                    scire liquet. Si enim aliquanto locorum intervallo, Oceani interfluxu
-                    disiungamur, attamen cum satis frequens hincinde fiat navigatio, quam et
-                    affinitatis inter hæc duo regna necessitudo crebriorem oportunioremque reddit,
-                    nihil hinc suppetit ad excusandum subsidij. Gravibus quidem et multiplicibus in
-                    Aula et Repub. distraheris negotijs. Verum hæc tot tantaque esse ne<pb ed="TBOO"
-                        n="VII.331"/>queunt, quin semel arrepto calamo TYCHONI Dano, amico nequaquam
-                    fucato atque in horas mutabili, vel paucissimis respondere concederetur.
-                    TYCHONEM autem dico, ne, si forte idem tibi accidat, quod illa apud <persName ref="Ovidius">OVIDIUM</persName> de
-                    suo amatore conqueritur, ipsum quoque nomen sui oblivioni dedisse metuens, ut
-                    sic eius verba invertam: <hi rend="it">Forsitan et quis fit TYCHO vel unde roges</hi>, ut sic tibi
-                    mei memoriam nonnihil, ut apparet, obliteratam in animum revocem. De quibus
-                    autem ad te iam aliquoties scripsi, hæc ferme erant: ut <persName ref="Buchanan">BUCHANANI</persName> vitam sponte
-                    dudum promissam describi, transmittique curare non gravarere: inprimis vero,
-                    ut privilegium a Serenissimo Rege vestro tua authoritate atque intercessione
-                    mihi procurares: quo caveretur, ne ullum meorum operum hîc impressorum in ipsius
-                    Maiestatis regno venderetur, aut absque mea permissione divenderetur. Misique
-                    (ni fallor) diplomatis Cæsariani, eodem nomine quoad fines Romani Imperij
-                    clementer concessi, apographum, quod et nunc facio, si forte alterum non est
-                    redditum: non tam ut hinc <pb ed="A" n="74"/>conspicias, quo tenore conficiendum
-                    sit (ipsemet enim pro ea, qua vales, prudentia et eloquendi eximia facultate
-                    facile verba invenies, quibus res hæc peragatur exorneturque) quam ut huius
-                    exemplo promptius Regi vestro persuadeatur, ne in hoc quod peto benevole etiam
-                    concedendo difficilem se præbeat: cum et apud eos, quibus de facie ignotus sum,
-                    talia minimo negotio impetrârim. IACOBUS enim <persName ref="Curtius">CURTIUS</persName>, Imperij
-                    Vicecancellarius, vir præcipuæ in Aula Cæsariana authoritatis et in literis
-                    politioribus, adeoque ipsa Mathesi excellenter versatus, hoc Cæsaris privilegium
-                    mihi sponte propria procuravit, conscripsit, suisque sumptibus conducto
-                    tabellario transmisit, ut ex Literarum ipsius unâ additarum exemplari, quod hîc
-                    simul habes, videre licet. Te igitur mihi, quem (modo recordari vacat) ex
-                    aliquantulo in hac <placeName ref="Hven">insula Uraniburgica</placeName> congressu cognitum habes, hac in parte
-                    non defuturum confido. Si in Icona nostram libris edendis præfigendam, acuto et
+                    <pb ed="A" n="73"/><persName ref="young_peter_1544">PETRO IUNIO</persName>
+                    <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</opener>
+                <p rend="noIndent">QUI fiat, nobilissime et excellentissime D. <persName
+                        ref="young_peter_1544">PETRE IUNI</persName>, quod ad meas bis vel ter ad te
+                    datas, plane surdus et mutus videare, equidem ne suspicari quidem, nedum scire
+                    liquet. Si enim aliquanto locorum intervallo, Oceani interfluxu disiungamur,
+                    attamen cum satis frequens hincinde fiat navigatio, quam et affinitatis inter
+                    hæc duo regna necessitudo crebriorem oportunioremque reddit, nihil hinc suppetit
+                    ad excusandum subsidij. Gravibus quidem et multiplicibus in Aula et Repub.
+                    distraheris negotijs. Verum hæc tot tantaque esse ne<pb ed="TBOO" n="VII.331"
+                    />queunt, quin semel arrepto calamo TYCHONI Dano, amico nequaquam fucato atque
+                    in horas mutabili, vel paucissimis respondere concederetur. TYCHONEM autem dico,
+                    ne, si forte idem tibi accidat, quod illa apud <persName ref="Ovidius"
+                        >OVIDIUM</persName> de suo amatore conqueritur, ipsum quoque nomen sui
+                    oblivioni dedisse metuens, ut sic eius verba invertam: <hi rend="it">Forsitan et
+                        quis fit TYCHO vel unde roges</hi>, ut sic tibi mei memoriam nonnihil, ut
+                    apparet, obliteratam in animum revocem. De quibus autem ad te iam aliquoties
+                    scripsi, hæc ferme erant: ut <persName ref="Buchanan">BUCHANANI</persName> vitam
+                    sponte dudum promissam describi, transmittique curare non gravarere: inprimis
+                    vero, ut privilegium a Serenissimo Rege vestro tua authoritate atque
+                    intercessione mihi procurares: quo caveretur, ne ullum meorum operum hîc
+                    impressorum in ipsius Maiestatis regno venderetur, aut absque mea permissione
+                    divenderetur. Misique (ni fallor) diplomatis Cæsariani, eodem nomine quoad fines
+                    Romani Imperij clementer concessi, apographum, quod et nunc facio, si forte
+                    alterum non est redditum: non tam ut hinc <pb ed="A" n="74"/>conspicias, quo
+                    tenore conficiendum sit (ipsemet enim pro ea, qua vales, prudentia et eloquendi
+                    eximia facultate facile verba invenies, quibus res hæc peragatur exorneturque)
+                    quam ut huius exemplo promptius Regi vestro persuadeatur, ne in hoc quod peto
+                    benevole etiam concedendo difficilem se præbeat: cum et apud eos, quibus de
+                    facie ignotus sum, talia minimo negotio impetrârim. IACOBUS enim <persName
+                        ref="Curtius">CURTIUS</persName>, Imperij Vicecancellarius, vir præcipuæ in
+                    Aula Cæsariana authoritatis et in literis politioribus, adeoque ipsa Mathesi
+                    excellenter versatus, hoc Cæsaris privilegium mihi sponte propria procuravit,
+                    conscripsit, suisque sumptibus conducto tabellario transmisit, ut ex Literarum
+                    ipsius unâ additarum exemplari, quod hîc simul habes, videre licet. Te igitur
+                    mihi, quem (modo recordari vacat) ex aliquantulo in hac <placeName ref="Hven"
+                        >insula Uraniburgica</placeName> congressu cognitum habes, hac in parte non
+                    defuturum confido. Si in Icona nostram libris edendis præfigendam, acuto et
                     succincto aliquo epigrammate luseris, rem utrique, uti spero, nostrum non
-                    inhonorificam præstiteris. Idem petij a magnifico D. Cancellario <persName ref="Maitland">IOHANNE
-                    METELLANO</persName>, cuius in poësi argutum ingenium vel paucula illa carmina ostendunt,
-                    quæ ianuæ conclavis vestri Regis, cum hîc unâ adesset, utut inter circumbibendum
-                    et colloquendum, obiter quidem, sed non sine nervoso acumine, discedensque
-                    mnemosyni loco scripsit, quæ etiamnum illic spectantur. Mirifice placet carmen,
-                    quod serenissima Maiestas Regia <persName ref="Gyldenstierne, Henrik">HENRICO GYLD[ENSTIERN]</persName>, Præfecto Bahusensi,
-                    affini meo dilecto, inter transeundum, elogij gratia exaravit. Et vivida in hoc
-                    ad Poësin cernitur affectio, ingenijque acumen pari solertia coniunctum. Si non
-                    nimium audax censerer, <pb ed="A" n="75"/>submisse optarem, ab ipsius Maiestate
-                    et mihi aliquid de ipsius melliflua et Parnassiaca vena clementer impertiri.
-                    Quod ut mihi <pb ed="TBOO" n="VII.332"/>meisque lucubrationibus honorabile, sic
-                    etiam ipsius Maiestati apud eruditos et cordatos censores non indecorum
-                    reputabitur. Tua intercessione atque suasu votis meis hac in parte non gravatim
-                    (prout confido) satisfiet: hacque ratione me tibi adhuc devinctiorem reddideris.
-                    Rogâram in alteris, ut ministrum aliquem, natione Scotum, qui hortulanum ageret,
-                    unumque, si fieri posset, aucupem mihi honeste hîc sustentandum mittere
-                    satageres, quod et nunc ut præstes † petoque, quamprimum libera et commoda huc
-                    concedatur navigatio, eiusmodi hominem unum vel alterum e vestratibus nanciscar.
-                    Quin et sic desiderijs meis belle subveneris. Quod si quid in hac nostra patria
-                    fuerit, in quo vicissim tibi gratificari per me concedatur, tuum erit ne rogare
-                    quidem, sed verbulo solum, quicquid in votis habueris, indicare. Experiere me in
-                    exequendo alacrem et promptum. Vale. Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> Martij A. 1592.</p>
-                <p rend="rightMargin">TYCHO BRAHE.</p>
+                    inhonorificam præstiteris. Idem petij a magnifico D. Cancellario <persName
+                        ref="maitland_john_1537">IOHANNE METELLANO</persName>, cuius in poësi
+                    argutum ingenium vel paucula illa carmina ostendunt, quæ ianuæ conclavis vestri
+                    Regis, cum hîc unâ adesset, utut inter circumbibendum et colloquendum, obiter
+                    quidem, sed non sine nervoso acumine, discedensque mnemosyni loco scripsit, quæ
+                    etiamnum illic spectantur. Mirifice placet carmen, quod serenissima Maiestas
+                    Regia <persName ref="Gyldenstierne, Henrik">HENRICO GYLD[ENSTIERN]</persName>,
+                    Præfecto Bahusensi, affini meo dilecto, inter transeundum, elogij gratia
+                    exaravit. Et vivida in hoc ad Poësin cernitur affectio, ingenijque acumen pari
+                    solertia coniunctum. Si non nimium audax censerer, <pb ed="A" n="75"/>submisse
+                    optarem, ab ipsius Maiestate et mihi aliquid de ipsius melliflua et Parnassiaca
+                    vena clementer impertiri. Quod ut mihi <pb ed="TBOO" n="VII.332"/>meisque
+                    lucubrationibus honorabile, sic etiam ipsius Maiestati apud eruditos et cordatos
+                    censores non indecorum reputabitur. Tua intercessione atque suasu votis meis hac
+                    in parte non gravatim (prout confido) satisfiet: hacque ratione me tibi adhuc
+                    devinctiorem reddideris. Rogâram in alteris, ut ministrum aliquem, natione
+                    Scotum, qui hortulanum ageret, unumque, si fieri posset, aucupem mihi honeste
+                    hîc sustentandum mittere satageres, quod et nunc ut præstes † petoque,
+                    quamprimum libera et commoda huc concedatur navigatio, eiusmodi hominem unum vel
+                    alterum e vestratibus nanciscar. Quin et sic desiderijs meis belle subveneris.
+                    Quod si quid in hac nostra patria fuerit, in quo vicissim tibi gratificari per
+                    me concedatur, tuum erit ne rogare quidem, sed verbulo solum, quicquid in votis
+                    habueris, indicare. Experiere me in exequendo alacrem et promptum.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> Martij A.
+                        1592.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

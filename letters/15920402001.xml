@@ -71,7 +71,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 2. april</date></creation>
+            <creation><date xml:lang="da">1592, 2. april.</date><date xml:lang="en">1592, 2 April.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -86,20 +86,21 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VI.300"/><pb ed="E" n="269"/><app>
-                        <lem>DEM VESTEN/ VNSERM LIEBEN BESONDERN / <hi rend="it">TYCHONI
-                            BRAHE</hi>, HERRN ZU KNUDSTRUP. <lb/>WILHELM VON GOTTES
+                        <lem>DEM VESTEN/ VNSERM LIEBEN BESONDERN / <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI
+                            BRAHE</persName></hi>, HERRN ZU KNUDSTRUP. <lb/><persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES
                             GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU CATZENELNBOGEN/
                             ETC.</lem>
                         <rdg wit="#M">Wilhelm &amp;c</rdg>
                     </app>
                 </opener>
-                <p>
+                <p rend="noIndent">
                     VNSERN gnedigen Gruß zuvor/ Vester lieber Besonder. Wir
                         haben ewer Schreiben <hi rend="it">de dato Vraniburg</hi>, den <hi rend="it"
                             >20. Februarij</hi>, wol empfangen vnd gelesen. So viel <app>
@@ -192,7 +193,7 @@
                 </p>
                 <p rend="indent">
                     Was dan vnser Sohn Landtgraff <hi rend="it"><persName
-                        rend="Moritz, landgrave of Hessen">MORITZ</persName></hi> an euch
+                        rend="moritz_1572">MORITZ</persName></hi> an euch
                         schreiben thut/ vnd in <hi rend="it">Commendationem</hi> ewers <hi rend="it"
                             >Operis Astronomici</hi> gemacht/ daß habt jr hierneben zu empfangen/
                         vnd begeren gnediglich/ wan solch <hi rend="it">Opus</hi> gar versertigt/ jr
@@ -216,7 +217,7 @@
                                 Anno 1592.</hi>
                     </dateline>
                     <signed>
-                        WILHELM, LANDGRAFF ZU HESSEN.
+                        <persName ref="wilhelm_4_1532">WILHELM</persName>, LANDGRAFF ZU HESSEN.
                     </signed>
                 </closer>
             </div>

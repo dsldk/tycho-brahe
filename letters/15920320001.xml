@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -59,11 +72,12 @@
                     <date when="1592-03-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hugo Blotius</persName>
+                    <persName key="blotius_hugo_1533">Hugo Blotius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 20. marts</date></creation>
+            <creation><date xml:lang="da">1592, 20. marts.</date><date xml:lang="en">1592, 20
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-29" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,101 +100,116 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.328"/>
-                    <pb ed="A" n="22v"/>CLARISSIMO ET ERUDITISSIMO VIRO, DOMINO
-                    <persName ref="Blotius">HUGONI BLOTIO</persName>, I. V. DOCTORI ET CÆSAREÆ MAIESTATIS BIBLIOTHECÆ, QUÆ <placeName ref="Wien">VIENNÆ</placeName> IN
-                    <placeName ref="Austria">AUSTRIA</placeName> EST, PRÆFECTO, AMICO SUO PLURIMUM DILECTO.<lb/>VIENNÆ AUSTRIÆ POST DOMUM
-                    PROVINCIALEM.</opener>
-                <p><pb ed="A" n="21r"/>REDDITÆ sunt mihi his ipsis diebus tuæ literæ unâ cum
-                    <persName ref="hagecius_thaddaeus_1525">Hagecianis</persName>, eximia quadam humanitate et erga me benevolentia affatim refertæ.
-                    Asseris inter nos olim in <placeName ref="Schweiz">Helvetiæ</placeName> oris notitiam aliquam contractam fuisse. Quæ
-                    sane ut id, quod res est, affirmem, mihi iam penitus memoriâ exciderat. Idque
-                    cum ob ea, quæ ex temporum et locorum longinquitate ipsemet adducis obstacula,
-                    tum quod diversissimis et quamplurimis, ex eo tempore (quod sane ad minimum
-                    viginti duos annos excedit) occupationibus et distractionibus implicitus, eorum
-                    omnium, cum quibus in <placeName ref="Germany">Germania</placeName> atque alibi inter peregrinandum familiaritatem
-                    aliquam contraxi, recordationem animo comprehendere, nisi forte per literas
-                    subinde renovaretur, haud sustinuerim. Videor tamen mihi cum quodam Iuvene
-                    Belga, ingenioso atque ad discendum alacri, <placeName ref="Basel">Basileæ</placeName> (uti opinor) non <placeName ref="Strasbourg">Argentinæ</placeName>
-                    (prout tu vis) dum pauculis mensibus illic subsisto, consuetudinem aliquando
-                    inijsse; succurritque, iam me ibidem per otium puerilia quædam Instrumenta
-                    Mathematica (cum alia in promptu non essent) tractasse et harum rerum cupidis
-                    eorum usum ostendisse, ac si quæ superessent, illis non gravatim dono
-                    concessisse. Fieri itaque facile poterit, quod tu ipsus Belga fueris, cum quo
-                    inter alios de his iucunde egi. Pergratum vero mihi accidit, quod hanc, quæ
-                    nobis tunc aliquantulum intercessit, cognitionem, utut tot iam interlapsis annis
-                    ferme obliteratam, per literas in mentem revocare non intermiseris. Ego hanc in
-                    posterum memoriâ solidius firmare et sartam tectam conservare haud negligam.
-                    Nobilem etiam et rerum usu eximie valentem virum <persName ref="Rantzau, Gert">GERARDUM RANZOVIUM</persName>, <persName ref="rantzau_henrik_1526">HENRICI</persName>
+                    <pb ed="A" n="22v"/>CLARISSIMO ET ERUDITISSIMO VIRO, DOMINO <persName
+                        ref="blotius_hugo_1533">HUGONI BLOTIO</persName>, I. V. DOCTORI ET CÆSAREÆ
+                    MAIESTATIS BIBLIOTHECÆ, QUÆ <placeName ref="Wien">VIENNÆ</placeName> IN
+                        <placeName ref="Austria">AUSTRIA</placeName> EST, PRÆFECTO, AMICO SUO
+                    PLURIMUM DILECTO.<lb/>VIENNÆ AUSTRIÆ POST DOMUM PROVINCIALEM.</opener>
+                <p rend="noIndent"><pb ed="A" n="21r"/>REDDITÆ sunt mihi his ipsis diebus tuæ literæ unâ cum
+                        <persName ref="hagecius_thaddaeus_1525">Hagecianis</persName>, eximia quadam
+                    humanitate et erga me benevolentia affatim refertæ. Asseris inter nos olim in
+                        <placeName ref="Schweiz">Helvetiæ</placeName> oris notitiam aliquam
+                    contractam fuisse. Quæ sane ut id, quod res est, affirmem, mihi iam penitus
+                    memoriâ exciderat. Idque cum ob ea, quæ ex temporum et locorum longinquitate
+                    ipsemet adducis obstacula, tum quod diversissimis et quamplurimis, ex eo tempore
+                    (quod sane ad minimum viginti duos annos excedit) occupationibus et
+                    distractionibus implicitus, eorum omnium, cum quibus in <placeName ref="Germany"
+                        >Germania</placeName> atque alibi inter peregrinandum familiaritatem aliquam
+                    contraxi, recordationem animo comprehendere, nisi forte per literas subinde
+                    renovaretur, haud sustinuerim. Videor tamen mihi cum quodam Iuvene Belga,
+                    ingenioso atque ad discendum alacri, <placeName ref="Basel">Basileæ</placeName>
+                    (uti opinor) non <placeName ref="Strasbourg">Argentinæ</placeName> (prout tu
+                    vis) dum pauculis mensibus illic subsisto, consuetudinem aliquando inijsse;
+                    succurritque, iam me ibidem per otium puerilia quædam Instrumenta Mathematica
+                    (cum alia in promptu non essent) tractasse et harum rerum cupidis eorum usum
+                    ostendisse, ac si quæ superessent, illis non gravatim dono concessisse. Fieri
+                    itaque facile poterit, quod tu ipsus Belga fueris, cum quo inter alios de his
+                    iucunde egi. Pergratum vero mihi accidit, quod hanc, quæ nobis tunc aliquantulum
+                    intercessit, cognitionem, utut tot iam interlapsis annis ferme obliteratam, per
+                    literas in mentem revocare non intermiseris. Ego hanc in posterum memoriâ
+                    solidius firmare et sartam tectam conservare haud negligam. Nobilem etiam et
+                    rerum usu eximie valentem virum <persName ref="Rantzau, Gert">GERARDUM
+                        RANZOVIUM</persName>, <persName ref="rantzau_henrik_1526">HENRICI</persName>
                     filium, amicum meum fratris loco dilectum et non ita dudum affinitate
                     coniunctum, tuo nomine salutare atque de notitia inter nos olim contracta
                     commonefacere, prout expetis, non tergiversabor. Quin et Magnificentissimo
-                    Amplissimoque viro Domino <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName> Produci Holsatiæ prima quaque oblata
-                    occasione scribens (quod et sæpius mutuo facere solemus, cum et ille ijsdem,
-                    quibus invigilo, studijs impense afficiatur) vel ipsas tuas literas vel earum
-                    descriptum adiungam, ut filio mittens, tui recordationem, tam apud ipsum quam
-                    cæteros <placeName ref="Holstein">Holsatiæ</placeName> conspicuæ nobllitatis viros, tibi quondam in adolescentia notos, sic promptius in memoriam revo<pb ed="TBOO" n="VII.329"/>cem. Quod et apud
-                    ipsum <persName ref="Rantzau, Gert">GERARDUM</persName>, si illi prius quam Parenti eius scripserim, præstabo. Atque is
-                    rectius reliquos suos, de quibus loqueris, consangvineos novit, eosque tui
-                    memores reddet. Sunt enim, tum is tum etiam alij <placeName ref="Holstein">Holsatiæ</placeName> Nobilitatis eximij
-                    viri, præsertim ex ijs, qui exteras nationes perlustrando variorum hominum mores
-                    et actiones experti sunt, ab humanitatis officijs nequaquam alieni, ut non
-                    dubitem, ijs hanc vestræ conversationis memorationem acceptam futuram.</p>
-                <p rend="indent">Scribis in Bibliotheca Imperatoria, cui <placeName ref="Wien">Viennæ</placeName> præes, reservari
-                    ultra 9000 librorum volumina. Si itaque liceret et tibi nonnunquam otium
-                    suppeteret, optarem mihi Authorum illorum nomina, unâ cum librorum singulorum
-                    inscriptione, præsertim quo ad Philosophica, Mathematica, Astronomica, Medica et
-                    Chymica atque similia opera attinet. Idem quoque in Illustriss. Archiducis
-                    Austriæ <persName ref="Maximilian 3.">MAXIMILIANI</persName> atque aliorum, si quos nosti, Illustrium virorum Bibliothecis
-                        <pb ed="A" n="21v"/>fieri averem; modo id bona eorum pace admittatur. Sin
-                    minus, nolo tibi periculum vel offensas mea de causa creari.</p>
-                <p rend="indent">Quia vero <placeName ref="Uraniborg">Arcis Uraniburgicæ</placeName>, quam in hac Insula præcedentibus
-                    annis extrui curavi, mentionem facis, eius aliqualem repræsentationem tibi in
-                    adiuncta charta mitto. Licet ab eo tempore, quo hæc ita in eum modum excisa
-                    sunt, nonnulla, præsertim quo ad vallum circundans et ædificia in eius quatuor
-                    angulis extantia, immutata et ampliora reddita sint, et Instrumenta Astronomica
-                    plura, tam in Arcis turriculis quam potissimum in Cryptis quibusdam ad collem
-                    extra huius mœnia, e solidis lapidibus constructis, quæ septenas diversi
-                    generis ingentes et affabre elaboratas ad Astronomiæ negotium rite exequendum
-                    inservientes distinctim complectuntur Machinas, hincinde disposita existunt,
-                    adeo ut iam coniunctis ijs, quæ in Arce servantur, mihi 28 ad minimum in promptu
-                    sint Astronomicæ Restitutioni opportuna Organa, solertia, labore, sumptibus
-                    inæstimabilia. Quin et, ut aliquatenus etiamnum cognoscas, quid præteritis annis
-                    his intermediantibus executus sim, quidque in re Astronomica redintegranda
-                    moliar, en habes Operum nostrorum, brevi, favente Cœlestium Opifice, in lucem
-                    publicam evulgandorum quaternionem primum, eorundem Inscriptionem atque contenta
-                    brevibus exponentem. Addidi autem consulto terna eiusdem quaternionis exempla,
-                    ut si qui forte fuerint inter vestrates Bibliopolas aut etiam in vicinia, qui
-                    horum voluminum aliquot exemplaria iusto pretio obtinere cupiant, illis hanc
-                    librorum inscriptionem communicare atque cum ijs de numero Exemplarium, quæ
-                    adipisci satagunt, deque pretio transigere, eo commodius queas. Quod et te meo
-                    nomine haud gravatim facturum confido. Erunt quatuor Tomi, quorum quilibet
-                    semiquinque circiter adimplebit Alphabeta, in hac <pb ed="TBOO" n="VII.330"/>Regali (quam
+                    Amplissimoque viro Domino <persName ref="rantzau_henrik_1526">HENRICO
+                        RANZOVIO</persName> Produci Holsatiæ prima quaque oblata occasione scribens
+                    (quod et sæpius mutuo facere solemus, cum et ille ijsdem, quibus invigilo,
+                    studijs impense afficiatur) vel ipsas tuas literas vel earum descriptum
+                    adiungam, ut filio mittens, tui recordationem, tam apud ipsum quam cæteros
+                        <placeName ref="Holstein">Holsatiæ</placeName> conspicuæ nobllitatis viros,
+                    tibi quondam in adolescentia notos, sic promptius in memoriam revo<pb ed="TBOO"
+                        n="VII.329"/>cem. Quod et apud ipsum <persName ref="Rantzau, Gert"
+                        >GERARDUM</persName>, si illi prius quam Parenti eius scripserim, præstabo.
+                    Atque is rectius reliquos suos, de quibus loqueris, consangvineos novit, eosque
+                    tui memores reddet. Sunt enim, tum is tum etiam alij <placeName ref="Holstein"
+                        >Holsatiæ</placeName> Nobilitatis eximij viri, præsertim ex ijs, qui exteras
+                    nationes perlustrando variorum hominum mores et actiones experti sunt, ab
+                    humanitatis officijs nequaquam alieni, ut non dubitem, ijs hanc vestræ
+                    conversationis memorationem acceptam futuram.</p>
+                <p rend="indent">Scribis in Bibliotheca Imperatoria, cui <placeName ref="Wien"
+                        >Viennæ</placeName> præes, reservari ultra 9000 librorum volumina. Si itaque
+                    liceret et tibi nonnunquam otium suppeteret, optarem mihi Authorum illorum
+                    nomina, unâ cum librorum singulorum inscriptione, præsertim quo ad Philosophica,
+                    Mathematica, Astronomica, Medica et Chymica atque similia opera attinet. Idem
+                    quoque in Illustriss. Archiducis Austriæ <persName ref="Maximilian 3."
+                        >MAXIMILIANI</persName> atque aliorum, si quos nosti, Illustrium virorum
+                    Bibliothecis <pb ed="A" n="21v"/>fieri averem; modo id bona eorum pace
+                    admittatur. Sin minus, nolo tibi periculum vel offensas mea de causa creari.</p>
+                <p rend="indent">Quia vero <placeName ref="Uraniborg">Arcis
+                    Uraniburgicæ</placeName>, quam in hac Insula præcedentibus annis extrui curavi,
+                    mentionem facis, eius aliqualem repræsentationem tibi in adiuncta charta mitto.
+                    Licet ab eo tempore, quo hæc ita in eum modum excisa sunt, nonnulla, præsertim
+                    quo ad vallum circundans et ædificia in eius quatuor angulis extantia, immutata
+                    et ampliora reddita sint, et Instrumenta Astronomica plura, tam in Arcis
+                    turriculis quam potissimum in Cryptis quibusdam ad collem extra huius mœnia, e
+                    solidis lapidibus constructis, quæ septenas diversi generis ingentes et affabre
+                    elaboratas ad Astronomiæ negotium rite exequendum inservientes distinctim
+                    complectuntur Machinas, hincinde disposita existunt, adeo ut iam coniunctis ijs,
+                    quæ in Arce servantur, mihi 28 ad minimum in promptu sint Astronomicæ
+                    Restitutioni opportuna Organa, solertia, labore, sumptibus inæstimabilia. Quin
+                    et, ut aliquatenus etiamnum cognoscas, quid præteritis annis his
+                    intermediantibus executus sim, quidque in re Astronomica redintegranda moliar,
+                    en habes Operum nostrorum, brevi, favente Cœlestium Opifice, in lucem publicam
+                    evulgandorum quaternionem primum, eorundem Inscriptionem atque contenta brevibus
+                    exponentem. Addidi autem consulto terna eiusdem quaternionis exempla, ut si qui
+                    forte fuerint inter vestrates Bibliopolas aut etiam in vicinia, qui horum
+                    voluminum aliquot exemplaria iusto pretio obtinere cupiant, illis hanc librorum
+                    inscriptionem communicare atque cum ijs de numero Exemplarium, quæ adipisci
+                    satagunt, deque pretio transigere, eo commodius queas. Quod et te meo nomine
+                    haud gravatim facturum confido. Erunt quatuor Tomi, quorum quilibet semiquinque
+                    circiter adimplebit Alphabeta, in hac <pb ed="TBOO" n="VII.330"/>Regali (quam
                     vocant) uti vides, papyro. Suntque plurimis schematibus, numeris et
                     Instrumentorum picturis hincinde referti. Tute igitur, qui Augustæ illi Cæsareæ
                     Maiestatis Bibliothecæ negotijs præes, et rem librariam optime calles, facile
                     æstimabis, quantis sumptibus hæc in propria meâ, eâdem de caussa constructa
-                    Typographia, excudi curârim et quali pretio cum indemnitate no<pb ed="A"
-                        n="22r"/>strorum laborum atque impensarum venire merito queant. Quæ omnia
-                    tuæ prudentiæ dispicienda, dijudicanda, exequendaque relinquo. Præstiteris mihi
-                    hac ratione rem imprimis gratam et Reipublicæ literariæ, cuius tu commodum
-                    gnaviter et honorifice procuras, haud, ut spero, inutilem, nec tibi ipsi
-                    indecoram aut sterilem. Ego enim ad vicissim tibi gratificandum et de te bene
-                    merendum promptus inveniar. Carmina, quæ altera habet pagina, non semper illic
-                    locum invenient, sed ubi digniora quædam a Principibus et illustrioribus viris,
-                    quæ expecto, adeptus fuero, illa honoris caussa hanc primi Tomi pagellam
-                    occupabunt; cæteris in reliquos Tomos, prout cuiuslibet Autoris requirit status
-                    et existimatio, iuxta frontispicia debito loco digestis. Si Poëta es (uti procul
+                    Typographia, excudi curârim et quali pretio cum indemnitate no<pb ed="A" n="22r"
+                    />strorum laborum atque impensarum venire merito queant. Quæ omnia tuæ prudentiæ
+                    dispicienda, dijudicanda, exequendaque relinquo. Præstiteris mihi hac ratione
+                    rem imprimis gratam et Reipublicæ literariæ, cuius tu commodum gnaviter et
+                    honorifice procuras, haud, ut spero, inutilem, nec tibi ipsi indecoram aut
+                    sterilem. Ego enim ad vicissim tibi gratificandum et de te bene merendum
+                    promptus inveniar. Carmina, quæ altera habet pagina, non semper illic locum
+                    invenient, sed ubi digniora quædam a Principibus et illustrioribus viris, quæ
+                    expecto, adeptus fuero, illa honoris caussa hanc primi Tomi pagellam occupabunt;
+                    cæteris in reliquos Tomos, prout cuiuslibet Autoris requirit status et
+                    existimatio, iuxta frontispicia debito loco digestis. Si Poëta es (uti procul
                     dubio es) et te nostram Uraniam aut effigiem (cuius ideam præter illam, quæ
                     quaternioni impressa est, aliam cupro subtilius expressam hîc adiunxi) succincto
-                    aliquo Epigrammate ornare, idemque apud alios, si quos nosti, in <placeName ref="Austria">Austria</placeName> argutos
-                    et acutos Poëtas, tua operâ impetrari, desiderarem. Vale. Plura enim non addam,
-                    ne nimium excrescat Epistola; tu prima quaque oblata occasione rescribendo
-                    sæpiusque (quod et ego non intermittam) scribendo, amicitiam veterem renovare,
-                    augere, stabilireque ne supersede. Literas, si <placeName ref="Praha">Pragam</placeName> ad præstantissimum virum
-                    D. <persName ref="hagecius_thaddaeus_1525">THADDÆUM HAGGÆCIUM</persName> miseris, is, cum mihi sæpius scribere soleat, et tuas huc
-                    tuto diriget. Iamque iterum atque iterum vale. Datæ Uraniburgi 20. Martij Anno
-                    92. </p>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                    aliquo Epigrammate ornare, idemque apud alios, si quos nosti, in <placeName
+                        ref="Austria">Austria</placeName> argutos et acutos Poëtas, tua operâ
+                    impetrari, desiderarem. Vale. Plura enim non addam, ne nimium excrescat
+                    Epistola; tu prima quaque oblata occasione rescribendo sæpiusque (quod et ego
+                    non intermittam) scribendo, amicitiam veterem renovare, augere, stabilireque ne
+                    supersede. Literas, si <placeName ref="Praha">Pragam</placeName> ad
+                    præstantissimum virum D. <persName ref="hagecius_thaddaeus_1525">THADDÆUM
+                        HAGGÆCIUM</persName> miseris, is, cum mihi sæpius scribere soleat, et tuas
+                    huc tuto diriget.</p>
+                <closer><salute>Iamque iterum atque iterum vale.</salute>
+                    <dateline>Datæ Uraniburgi 20. Martij Anno 92.</dateline>
+                    <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

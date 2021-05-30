@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,6 +40,21 @@
                                 <idno>cod. Vindob. lat. 9737 f</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -58,7 +73,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>John Maitland</persName>
+                    <persName key="maitland_john_1537">John Maitland</persName>
                     <placeName>Lethington</placeName>
                     <date when="1592-05-16"/>
                 </correspAction>
@@ -67,7 +82,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 16. maj</date></creation>
+            <creation><date xml:lang="da">1592, 16. maj.</date><date xml:lang="en">1592, 16 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,6 +97,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-31" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,9 +105,9 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.336"/><pb ed="A" n="27v"/>AMPLISSIMO NOBILISSIMOQUE
-                    VIRO, VIRTUTE ET ERUDITIONE PRÆSTANTISSIMO DOMINO TYCHONI BRAHE DOMINO DE
+                    VIRO, VIRTUTE ET ERUDITIONE PRÆSTANTISSIMO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DOMINO DE
                     KNUDSTRUP ET VRANIENBURG, AMICO SUO CARISSIMO. GENEROSE VIR. </opener>
-                <p><pb ed="A" n="27r"/>QUAS ad me 13. Novembris dedisti literas, quod humanitatem et
+                <p rend="noIndent"><pb ed="A" n="27r"/>QUAS ad me 13. Novembris dedisti literas, quod humanitatem et
                     eruditionem nulla sui parte non spirarent, præcipue vero quod tui nominis
                     inscriptionem præ se ferrent, mihi certe, ut decuit, acceptissimæ fuerunt. Cum
                     enim in Danica mea <app>
@@ -117,7 +133,7 @@
                     omnibus literatorum omnium bibliothecis sublimem constituet, meo etiam nomini
                     locum aliquem tuo merito ibidem inveniat. Ijs itaque utere, non quidem ut digni
                     sunt, sed ut nostra amicitia et tuo iudicio dignum videbitur. Ego pariter, quæ a
-                    te Domino <persName ref="Young">PETRO IUNIO</persName> mandata sunt, nisi
+                    te Domino <persName ref="young_peter_1544">PETRO IUNIO</persName> mandata sunt, nisi
                     hactenus ab eo effecta sunt, quamprimum illius conveniendi occasio sese
                     obtulerit, ea qua decet fide et diligentia præstabo: quodque de hortulano et
                     aucupe ad me scribis, effectum brevi curabo. Porro <persName ref="craig_john_1620">IOANNEM
@@ -145,10 +161,9 @@
                     ne te cœlestibus et divino tuo ingenio dignis curis distentum frustra morer, hoc
                     solum a te petam, ut amicitiam nostram (quod humanitas et constantia tua satis
                     spondent) inviolatam a temporis et longe dissitorum locorum iniuria tueri ac
-                    paria a me perpetuo expectare velis. Vale. Datæ <placeName ref="Lethington"
-                        >Lethnitoniæ</placeName> die XVI Maij Anno 1592.</p>
-                <p rend="rightMargin">Mag. Tuæ<lb/>addictissimus<lb/>[<persName ref="Maitland"
-                        >IOHANNES METELLANUS</persName>.]</p>
+                    paria a me perpetuo expectare velis.</p> <closer><salute>Vale.</salute> <dateline>Datæ <placeName ref="Lethington"
+                        >Lethnitoniæ</placeName> die XVI Maij Anno 1592.</dateline><signed>Mag. Tuæ<lb/>addictissimus<lb/>[<persName ref="maitland_john_1537"
+                        >IOHANNES METELLANUS</persName>.]</signed></closer>
             </div>
         </body>
     </text>

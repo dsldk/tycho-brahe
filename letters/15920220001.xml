@@ -56,7 +56,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 22. februar</date></creation>
+            <creation><date xml:lang="da">1592, 22. februar.</date><date xml:lang="en">1592, 22 February.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -71,15 +71,16 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VI.370"/>DEM DURCHLEUCHTIGEN, HOCHGEBORNEN FÜRSTEN VND
-                    HERRN WILHELMEN LANDTGRAFFEN ZU HESSEN, GRAFFEN ZU CATZENELNBOGEN, DIETZ,
+                    HERRN <persName ref="wilhelm_4_1532">WILHELMEN</persName> LANDTGRAFFEN ZU HESSEN, GRAFFEN ZU CATZENELNBOGEN, DIETZ,
                     ZIEGENHAIN VND NIDDA, MEINEM GNEDIGEN HERRN. </opener>
-                <p>Durchleuchtiger Hochgeborner Furst:. Gnediger Herr. Nebst meiner alzeit
+                <p rend="noIndent">Durchleuchtiger Hochgeborner Furst:. Gnediger Herr. Nebst meiner alzeit
                     bereitwilliger diensterbietung hab ich nicht vnterlassen konnen Ewrer F. G. bey
                     gegenwertiger, auff die anstehende Franckfurter Messe furgefallener botschafft
                     zuzuschreiben. </p>
@@ -247,11 +248,11 @@
                     leibsgesondtheit vnd friedlicher Landtsregirung dienstvleissig befohlen
                     haben.</p>
                 <closer><dateline>Dat. Vraniburg den Februarii Anno 1592.</dateline>
-                    <signed>E. F. G. <lb/>Alzeit dienstewilliger <lb/>TYCHO BRAHE <lb/>manu
+                    <signed>E. F. G. <lb/>Alzeit dienstewilliger <lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> <lb/>manu
                         propria.</signed></closer>
                 <postscript>
                     <p>Weitergebe ich Ewre F. G. dienstlich zuuerstehen, das ich an Ew. F. G. Sohn
-                        Landgraff <persName ref="Moritz, landgrave of Hessen">Moritz</persName>
+                        Landgraff <persName ref="moritz_1572">Moritz</persName>
                         geschrieben hab, vnd seine F. G. dienstlich gebetten, das sie wolte
                         unbeschwert sein, mir ein <foreign xml:lang="la"><hi rend="it">Carmen in
                                 commendationem Operum meorum Astronomicorum</hi></foreign> zu <hi

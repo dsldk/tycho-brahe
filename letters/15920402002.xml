@@ -55,7 +55,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Moritz, Landgrave of Hesse-Kassel (1572-1632)</persName>
+                    <persName xml:lang="da" key="moritz_1572">Moritz, landgreve af Hesse,-Kassel</persName><persName xml:lang="en" key="moritz_1572">Moritz, Landgrave of Hesse-Kassel</persName>
                     <placeName>Kassel</placeName>
                     <date when="1592-04-02"/>
                 </correspAction>
@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 2. april</date></creation>
+            <creation><date xml:lang="da">1592, 2. april.</date><date xml:lang="EN">1592, 2 April.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,11 +88,11 @@
                 <opener>
                         <pb ed="TBOO" n="VI.311"/><pb ed="E" n="279"
                         />DEM VESTEN/ VNSERM LIEBEN
-                            BESONDERN/ <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                            BESONDERN/ <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName></hi>, HERRN ZU KNUDSTRUP.
                             <lb/>MORITZ VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
                             CATZENELNBOGEN/ ETC.
                 </opener>
-                    <p>
+                    <p rend="noIndent">
                         VNSERN gnedigen Gruß zuvor/ Vester lieber Besonder.
                             Wir haben ewer Schreiben <hi rend="it">de dato Vraniburg</hi>, den <hi
                                 rend="it">20. Februarij</hi>, an vns gethan/ empfangen/ gelesen/ vnd
@@ -124,10 +125,10 @@
                             <placeName ref="Kassel">Cassel</placeName>/ am <hi rend="it">2.
                                 Aprilis, Anno 1592</hi>.</dateline>
                         <signed>
-                            MORITZ LANDTGRAFF ZU HESSEN.
+                            <persName ref="moritz_1572">MORITZ</persName> LANDTGRAFF ZU HESSEN.
                         </signed>
                     </closer></div>
-            <div type="poem" n="Poem" xml:lang="la"><p><pb ed="TBOO" n="VI.312"/><pb ed="E" n="281"/>MAVRITIVS HASSIÆ LANDTGRAVIVS AD TYCHONEM BRAHE, NOBILEM
+            <div type="poem" n="Poem" xml:lang="la"><p><pb ed="TBOO" n="VI.312"/><pb ed="E" n="281"/><persName ref="moritz_1572">MAVRITIVS</persName> HASSIÆ LANDTGRAVIVS AD TYCHONEM BRAHE, NOBILEM
                     ET CLARISSIMVM VIRVM.</p>
                     <lg>
                         <l>VRANIE superat reliqvas divina Sorores,</l>
@@ -155,10 +156,10 @@
                         <l rend="indent" n="20">Inter honoratum præparat Astra locum.</l>
                     </lg>
                     
-                    <signed>MAVRITVS HASSIÆ LANDTGRAVIVS, F. ET MANU PROPRIA SCRIPSIT.</signed>
+                <signed><persName ref="moritz_1572">MAVRITVS</persName> HASSIÆ LANDTGRAVIVS, F. ET MANU PROPRIA SCRIPSIT.</signed>
             </div>
             <div type="poem" n="Poem" xml:lang="la">
-                <p><pb ed="E" n="281"/>MAVRITIVS HASSIÆ LANDTGRAVIVS AD TYCHONEM BRAHE, NOBILEM
+                <p><pb ed="E" n="281"/><persName ref="moritz_1572">MAVRITIVS</persName> HASSIÆ LANDTGRAVIVS AD TYCHONEM BRAHE, NOBILEM
                     ET CLARISSIMVM VIRVM.</p>
                 <lg> 
                     <l>VRANIE superat reliqvas divina Sorores,</l>
@@ -186,7 +187,7 @@
                     <l rend="indent" n="20">Inter honoratum præparat Astra locum.</l>
                 </lg>
                 
-                <signed>MAVRITVS HASSIÆ LANDTGRAVIVS, F. ET MANU PROPRIA SCRIPSIT.</signed>
+                <signed><persName ref="moritz_1572">MAVRITVS</persName> HASSIÆ LANDTGRAVIVS, F. ET MANU PROPRIA SCRIPSIT.</signed>
             </div>
         </body>
     </text>

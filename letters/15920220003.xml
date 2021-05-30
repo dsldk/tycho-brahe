@@ -61,11 +61,11 @@
                     <date when="1592-02-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Moritz, Landgrave of Hesse-Kassel</persName>
+                    <persName key="moritz_1572">Moritz, Landgrave of Hesse-Kassel</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 20. februar</date></creation>
+            <creation><date xml:lang="da">1592, 20. februar.</date><date xml:lang="en">1592, 20 February.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,10 +89,10 @@
                 <opener>
                     <pb ed="TBOO" n="VI.307"/><pb ed="E" n="275"/> DEM DURCHLEUCHTIGEN /
                     HOCHGEBORNEN FÜRSTEN VND HERRN/ HERRN <hi rend="it"><persName
-                            ref="Moritz, landgrave  of Hessen">MAVRITZ</persName></hi>, GEBORN
+                            ref="moritz_1572">MAVRITZ</persName></hi>, GEBORN
                     LANDTGRAUEN ZU HESSEN/ GRAUEN ZU CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND NIDDA:
                     MEINEM GNEDIGEN HERRN.</opener>
-                <p> DURCHLEUCHTIGER/ Hochgeborner Fürst. Ewer F. G. seyndt meine Dienste nach allem
+                <p rend="noIndent"> DURCHLEUCHTIGER/ Hochgeborner Fürst. Ewer F. G. seyndt meine Dienste nach allem
                     vermügen jederzeit zuvor an bereit. Gnediger Herr. Wiewol ich mit Ew. F. G.
                     weiter nicht bekant bin/ dan da ich Ew. F. G. Herrn Vater/ vor etlichen jaren zu
                         <placeName ref="Kassel">Cassel</placeName> besuchte/ zu welcher zeit Ew. F.
@@ -125,7 +126,7 @@
                     nechst für dem <hi rend="it">Diplomate Cæsareo</hi>, mit eigener Hand selber zu
                     schreiben/ vnd mir also eines darvon widerumb zuzuschicken/ daß ich es darnacher
                     baldt nechstfolgendt einem andern (welches ich <hi rend="it">a Serenissimo
-                            <persName ref="James 6.">Rege Scotiæ</persName></hi>, der auch ein
+                            <persName ref="james_6_1566">Rege Scotiæ</persName></hi>, der auch ein
                     trefflich guter <hi rend="it">Poët</hi> ist/ in <pb ed="TBOO" n="VI.308"
                     />gleicher massen täglich gewertig bin/ vnd auff der ersten Seit/ nechst dem <hi
                         rend="it">Effigie</hi>, dieweyl er ein König/ vnd mit vnserm Königlichen
@@ -159,7 +160,7 @@
                     <dateline>
                         <hi rend="it">Datum <placeName ref="Uraniborg">Vraniburg</placeName></hi>,
                         den <hi rend="it">20. Februarij, Anno 1592</hi>. </dateline>
-                    <signed>Ewer F. G.<lb/>Dienstwilliger<lb/>TYCHO BRAHE. </signed>
+                    <signed>Ewer F. G.<lb/>Dienstwilliger<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>. </signed>
                 </closer>
             </div>
             <div type="poem" n="Poem" xml:lang="la"><pb ed="TBOO" n="VI.310"/>
@@ -186,7 +187,7 @@
                     <l>Si mea quid valeat Musula, gratus ero.</l>
                 </lg>
                 <lb/>
-                <signed>Celsit. T. Addictiss.<lb/>TYCHO BRAHE.</signed>
+                <signed>Celsit. T. Addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
             </div>
         </body>
     </text>

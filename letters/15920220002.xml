@@ -71,7 +71,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 20. februar</date></creation>
+            <creation><date xml:lang="da">1592, 20. februar.</date><date xml:lang="en">1592, 20 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,6 +86,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -102,7 +103,7 @@
                             Landtgravio inseruienti Amico suo dilecto</rdg>
                     </app>
                 </opener>
-                <p>MIROR eruditissime et dilecte mi <persName ref="rothmann_christopher_1550">ROTHMANNE</persName>,
+                <p rend="noIndent">MIROR eruditissime et dilecte mi <persName ref="rothmann_christopher_1550">ROTHMANNE</persName>,
                     te, ex quo hinc discessisti, nihil prorsus ad me literarum dedisse, elapso ferme
                     iam <app>
                         <lem wit="#T">sesquialtero</lem>
@@ -159,7 +160,7 @@
                 <closer>
                     <salute>Vale.</salute>
                     <signed><app>
-                        <lem>TYCHO BRAHE.</lem>
+                        <lem><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</lem>
                         <rdg><note>subscriptionem <q>Tycho Brahe manu propria</q> ipsius manu
                             praebet M</note></rdg>
                     </app></signed>

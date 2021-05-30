@@ -65,7 +65,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 30. juli</date></creation>
+            <creation><date xml:lang="da">1592, 30. juli.</date><date xml:lang="en">1592, 30 July.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-16" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,10 +88,10 @@
             <div>
                 <opener>
                     <pb ed="TBOO" n="VI.303"/><pb ed="E" n="272"/>DEM VESTEN/ VNSERM LIEBEN
-                        BESONDERN/ <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
-                        <lb/>WILHELM VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
+                    BESONDERN/ <hi rend="it"><persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName></hi>, HERRN ZU KNUDSTRUP.
+                    <lb/><persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES GNADEN/ LANDTGRAUE ZU HESSEN/ GRAUE ZU
                         CATZENELNBOGEN/ ETC.</opener>
-                <p>
+                <p rend="noIndent">
                     VNSERN gnedigen Gruß zuvor/ Vester lieber Besonder. Ihr
                         wisset euch zweiffels frey zu erinnern/ welcher gestalt jr vns hiebevor
                         etlicher Elende halber gute vertröstung gethan/ Darauff wir auch nicht
@@ -121,7 +122,7 @@
                             Iulij, Anno 1592</hi>.
                     </dateline>
                     <signed>
-                        WILHELM LANDTGRAFF ZU HESSEN.
+                        <persName ref="wilhelm_4_1532">WILHELM</persName> LANDTGRAFF ZU HESSEN.
                     </signed>
                 </closer>
             </div>

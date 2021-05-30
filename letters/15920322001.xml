@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,6 +44,21 @@
                                 <idno>cod. Vindob. lat. 10686.57</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.57</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter draft</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -63,7 +82,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 22. marts</date></creation>
+            <creation><date xml:lang="da">1592, 22. marts.</date><date xml:lang="en">1592, 22
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,27 +98,28 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-30" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.332"/>TYCHO BRAHE AD <persName
+                <opener><pb ed="TBOO" n="VII.332"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
                         ref="hagecius_thaddaeus_1525">THADDÆUM HAGECIUM</persName>.</opener>
-                <p><pb ed="A" n="28r"/>QUAMVIS non ita dudum sit, quod tibi scripserim, optime et
-                    amantissime mi <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, tamen et
-                    has superaddere non gravabor; amicorum enim est sæpius se invicem, si coram non
-                    licet, saltem literis invisere. Ut vero aliquatenus cognoscas, id quod
-                    superioribus indicavi, me hortatu et suasu magnifici Domini <persName
-                        rend="Curtius">CURTII</persName> potissimum impulsum, Astronomiæ
-                    instaurationem, quam in opus integrum et peculiare reservare constitueram, nunc
-                    Progymnasmatis quibusdam Prodromi loco in publicum emittere, en habes operum
-                    meorum, quæ typis brevi, Deo volente, absolventur, quaternionem primum, eorum
-                    contenta sua inscriptione indicantem, ex qua cætera facile ratiocinabere;
-                    hincque colliges me idipsum, quod tunc literis pollicitus sum, nunc moliri.
-                    Addidi autem eiusdem quaternionis sena exempla, ut suppeterent, quæ hincinde ad
-                    Bibliopolas tum vestrates, tum etiam in <placeName ref="Austria"
+                <p rend="noIndent"><pb ed="A" n="28r"/>QUAMVIS non ita dudum sit, quod tibi
+                    scripserim, optime et amantissime mi <persName ref="hagecius_thaddaeus_1525"
+                        >THADDÆE</persName>, tamen et has superaddere non gravabor; amicorum enim
+                    est sæpius se invicem, si coram non licet, saltem literis invisere. Ut vero
+                    aliquatenus cognoscas, id quod superioribus indicavi, me hortatu et suasu
+                    magnifici Domini <persName ref="kurz_jacob_1554">CURTII</persName> potissimum impulsum,
+                    Astronomiæ instaurationem, quam in opus integrum et peculiare reservare
+                    constitueram, nunc Progymnasmatis quibusdam Prodromi loco in publicum emittere,
+                    en habes operum meorum, quæ typis brevi, Deo volente, absolventur, quaternionem
+                    primum, eorum contenta sua inscriptione indicantem, ex qua cætera facile
+                    ratiocinabere; hincque colliges me idipsum, quod tunc literis pollicitus sum,
+                    nunc moliri. Addidi autem eiusdem quaternionis sena exempla, ut suppeterent, quæ
+                    hincinde ad Bibliopolas tum vestrates, tum etiam in <placeName ref="Austria"
                         >Austria</placeName>, <placeName ref="Hungary">Hungaria</placeName> atque
                         <placeName ref="Poland">Polonia</placeName> degentes mitteres, si forte
                     aliqui illic essent, qui exemplaria nonnulla horum tomorum iusto pretio obtinere
@@ -111,9 +132,9 @@
                     Privilegium regis Hispaniarum, Cæsareano subiungendum, quod ubi nactus fuero,
                     publicationem non diutius differam.</p>
                 <p rend="indent">Carmina, quæ hîc vides, in secunda pagina, non semper id spacij
-                    replebunt, sed ubi a serenissimo <persName ref="James 6.">Scotorum
+                    replebunt, sed ubi a serenissimo <persName ref="james_6_1566">Scotorum
                         Rege</persName> et illustrissimo Principe Landgravio iuniore <persName
-                        ref="Moritz, landgrave of Hessen">MAURITIO</persName>, qui ambo eximia
+                        ref="moritz_1572">MAURITIO</persName>, qui ambo eximia
                     pollent vena poëtica, quædam in operum horum commendationem concinnata, prout
                     confido, accepero, <pb ed="A" n="28v"/>epigrammata illa hanc paginam honoris
                     caussa occupabunt. Secundo autem tomo genere et autoritate nobilium virorum
@@ -127,13 +148,13 @@
                         RANZOVIJ</persName> versibus iam antea obtentis (quod et is hisce studijs
                     non parce afficiatur) præponam, reliquis clarorum et doctorum virorum lusibus
                     metricis in frontispicia duorum postremorum tomorum reservatis. Scripsi autem
-                    ipsemet proximis diebus serenissimo Scotorum Regi <persName ref="James 6."
-                        >IACOBO Sexto</persName> et ipsius Cancellario <persName ref="Maitland"
-                        >IOANNI METELLO</persName> hac de re carmine elegiaco, tum quoque Epigramma
-                    quoddam literis ad illustrissimum Principem <persName
-                        ref="Moritz, landgrave of Hessen">MAURITIUM</persName> Landgravium iuniorem
-                    hoc nomine datis subiunxi, quorum carminum descriptum hîc addidi, si forte
-                    talibus delectaris, et si plures nosti Principes, poëseos gnaros et horum
+                    ipsemet proximis diebus serenissimo Scotorum Regi <persName ref="james_6_1566"
+                        >IACOBO Sexto</persName> et ipsius Cancellario <persName
+                        ref="maitland_john_1537">IOANNI METELLO</persName> hac de re carmine
+                    elegiaco, tum quoque Epigramma quoddam literis ad illustrissimum Principem
+                        <persName ref="moritz_1572">MAURITIUM</persName> Landgravium
+                    iuniorem hoc nomine datis subiunxi, quorum carminum descriptum hîc addidi, si
+                    forte talibus delectaris, et si plures nosti Principes, poëseos gnaros et horum
                     studiorum amantes, indica eorum nomina unâ cum titulis, nam et ad eos pariter
                     carminibus scribam, carminaque in Astronomiæ commendationem, uti spero, ab ipsis
                     impetrabo. Conducibile enim et decorum sentio, hæc studia a viris Principibus
@@ -146,20 +167,24 @@
                     alijs nostris desiderijs, quantum in te est, sis sponte profuturus. Ego ad tibi
                     pariter gratificandum offero omnem operam et studium, adeoque me ipsum totum.
                     Vale, et magnisicentissimum Dominum <persName ref="Curtius">CURTIUM</persName>
-                    meis verbis honorifice saluta. Iamque iterum bene vale.</p>
-                <p rend="indnet">Dat. 22 Martij Anno 92.</p>
-                <p rend="indent">Intellexi ex Domini Doctoris <persName ref="Sagerus"
-                        >SAGERI</persName> Lubecensis literis, nuper ad me datis, <persName
-                        ref="Rheticus">RHETICI</persName> Bibliothecam tibi fuisse in testamento
-                    deputatam. Quod si sic est, rogo, ut quicquid ad rem Astronomicam facit, sive id
-                    a præceptore suo <persName ref="kopernikus_nikolaus_1473">COPERNICO</persName>, sive suapte
-                    industria habuerit, meis <pb ed="TBOO" n="VII.334"/>sumtibus descriptum mature
-                    communicare velis. Et si eclipsin &#x263E; ultimo in fine præcedentis anni
-                    contingentem, cœlitus illic denotastis, vel ullas alias, sive a te ipso sive
-                    aliunde conquisitas, in promptu habes vel nancisci poteris observationes, me
-                    quoque earum compotem per primam occasionem effice, quo Meridianorum
-                    discrepantiam hinc certius quam alias, adhibitis nostris vel observationibus vel
-                    numeris, rimari concedatur.</p>
+                    meis verbis honorifice saluta.</p>
+                <closer><salute>Iamque iterum bene vale.</salute>
+                    <dateline>Dat. 22 Martij Anno 92.</dateline></closer>
+                <postscript>
+                    <p rend="noIndent">Intellexi ex Domini Doctoris <persName ref="Sagerus"
+                            >SAGERI</persName> Lubecensis literis, nuper ad me datis, <persName
+                            ref="Rheticus">RHETICI</persName> Bibliothecam tibi fuisse in testamento
+                        deputatam. Quod si sic est, rogo, ut quicquid ad rem Astronomicam facit,
+                        sive id a præceptore suo <persName ref="kopernikus_nikolaus_1473"
+                            >COPERNICO</persName>, sive suapte industria habuerit, meis <pb
+                            ed="TBOO" n="VII.334"/>sumtibus descriptum mature communicare velis. Et
+                        si eclipsin &#x263E; ultimo in fine præcedentis anni contingentem, cœlitus
+                        illic denotastis, vel ullas alias, sive a te ipso sive aliunde conquisitas,
+                        in promptu habes vel nancisci poteris observationes, me quoque earum
+                        compotem per primam occasionem effice, quo Meridianorum discrepantiam hinc
+                        certius quam alias, adhibitis nostris vel observationibus vel numeris,
+                        rimari concedatur.</p>
+                </postscript>
             </div>
         </body>
     </text>

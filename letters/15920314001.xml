@@ -5,7 +5,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Sophie</author>
+                <author>Queen Sophie</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Kongehusets arkiv</collection>
+                                <idno>Dronning Sophies tegnelser 1588-92, fol 102 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copehagen</settlement>
+                                <repository>Danish National Archive</repository>
                                 <collection>Kongehusets arkiv</collection>
                                 <idno>Dronning Sophies tegnelser 1588-92, fol 102 f.</idno>
                                 <msName>empty</msName>
@@ -55,7 +64,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Sophie (1557-1631)</persName>
+                    <persName xml:lang="da" key="sophie_1557">Dronning Sophie</persName>
+                    <persName xml:lang="en" key="sophie_1557">Queen Sophie</persName>
                     <placeName>Frederiksborg</placeName>
                     <date when="1592-03-14"/>
                     <note>n.s.</note>
@@ -65,7 +75,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 14. marts</date></creation>
+            <creation><date xml:lang="da">1592, 14. marts.</date><date xml:lang="en">1592, 14 March.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +90,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-07" who="#pz">Filen etableret</change>
+            <change when="2021-05-30" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,10 +98,10 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.62"/>
-                <opener>TYGE BRAHE FICK BREFF NOGETT SMERLLE ANRØRENDIS <foreign xml:lang="la"><hi
+                <opener><persName ref="brahe_tycho_1546">TYGE BRAHE</persName> FICK BREFF NOGETT SMERLLE ANRØRENDIS <foreign xml:lang="la"><hi
                             rend="it">VT SEQUITUR</hi></foreign>.</opener>
-                <p><persName ref="sophie_1557">Sophia</persName>.</p>
-                <p>WOR gunst thilfornn. Wider, att høgborne første och herre, her Wllrich, herre och
+                <p rend="indent"><persName ref="sophie_1557">Sophia</persName>.</p>
+                <p rend="noIndent">WOR gunst thilfornn. Wider, att høgborne første och herre, her Wllrich, herre och
                     første thill Meckelborg, Vor kierre herre fader, haffuer weed hanns
                     schriffuellse aff Oß werritt begierrenndis, att Wi naadigst wille Hanns f: Naade
                     forschaffe enn prøffue aff thennd jord, som kallis smerle, som glasbrenndere
