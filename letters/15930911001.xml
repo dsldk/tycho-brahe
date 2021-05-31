@@ -13,33 +13,52 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
                         <msDesc>
-                            <msIdentifier>
+                            <msIdentifier xml:lang="da">
                                 <settlement>Oxford</settlement>
                                 <repository>Bodleian Library</repository>
                                 <collection>empty</collection>
                                 <idno>Smith 77</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc>
+                            <msIdentifier xml:lang="en">
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,12 @@
                     <date when="1593-09-11"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Peter Young</persName>
+                    <persName key="young_peter_1544">Peter Young</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1593, 11. september</date></creation>
+            <creation><date xml:lang="da">1593, 11. september.</date><date xml:lang="en">1593, 11
+                    September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,53 +99,61 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-04" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.355"/><pb ed="A" n="81"/><persName ref="young_peter_1544">PETRO IUNIO</persName> TYCHO BRAHE.
-                    S.</opener>
-                <p>DIUTURNUM illud tuum silentium, quod excusationis silentio prætereundum censes,
-                    sicque vel maxime excusas, id quidem, mi optime <persName ref="young_peter_1544">IUNI</persName>, argute facis, at
-                    nihilominus vel sic nimium te apud amicum, sponte sua nihil sinistrius de te
-                    suspicantem, purgas. Non enim addubito, licet <placeName ref="Hven">Huænulam</placeName> nostram literis tuis diu
-                    et avide desideratis (alijs procul dubio et gravioribus impeditus
-                    occupationibus) invisere aliquamdiu supersederis, quin amorem tamen et memoriam
-                    nostri in animo illo tuo adeo humano et candido arcte foveris. Quod ut confidentius mihi persuadeam, non saltem literæ hæ tuæ compotissimæ,
-                    eximiæ erga nos benevolentiæ specimen referentes, et ea, quæ D. Legati ad nos
-                    feliciter reversi, ex tuis de nobis amicis sermonibus insuper retulerunt,
-                    affatim evincunt, verum etiam ex insigni illo studio tuo, quo tam graviter votis
-                    nostris satisfecisti, ut et diploma honorificum plane et præclarum Serenissimi
-                    ac potentissimi <persName ref="james_6_1566">Regis vestri</persName>, et epigrammata, arguta sane illa et accurata, ab
-                    eius Maiestate i6.n mei gratiam favorabiliter conscripta, mihi procurâris, non
-                    obscure liquet, quanti nos et studia nostra facias. Quam quidem ob rem ego
-                    vicissim de te honorifice, ut tua fert virtus et prælustris eruditio, sentire,
-                    gratamque tui memoriam in posterum, uti et hactenus feci, conservare non
-                    desinam, nec ullo officiorum genere, quatenus vires nostræ id sustinent, me a te
-                    vinci sinam. Gratias autem imprimis, quas possum maximas, serenissimo <persName ref="james_6_1566">Regi
-                    vestro</persName> reverenter <pb ed="A" n="82"/>ago, quod Astronomica nostra scripta et diplomate
-                    Regio munere et carminibus adeo elegantibus exornare non sit dedignatus. Tibi
-                    quoque, quod hæc tam illustria nostrorum operum elogia, ab ipsius Maiestate meo
-                    nomine demisse impetrare non sis gravatus, haud parum debeo. Quantum enim
-                    nostris laboribus hinc decoris et gratiæ accessurum sit, non sum nescius. Itaque
-                    ut perpetua observantia tam egregia in me collata beneficia recolam, devinciri
-                    me tibi lubens agnosco. <persName ref="Buchanan">BUCHANANI</persName> vitam, si aliquando per otium describi curâris
-                    mihique miseris, non saltem rem gratam præstiteris, sed iamdudum datis
-                    sponsionibus te tandem exsolveris. Vale, vir præstantissime, et de voluntate ac
-                    officijs in te meis ita velim statuas, ut omnia tibi de me polliceri fidenter et
-                    libere possis, quæ ab amico sincero et constanti proficisci soleant. Iterum
-                    vale, et amicos in <placeName ref="Scotland">Scotia</placeName> ex me saluta, imprimis eruditissimum illum <persName ref="Craig, Thomas">THOMAM
-                    CRAIGIUM</persName>, qui Uraniam nostram carminibus suis haud illepidis decorare voluit.
-                    Fratrem eius, quem meum Antagonistam vocas, attingere non <pb ed="TBOO" n="VII.356"/>audeo,
-                    cum præ arroganti philautia nimis mordax veritatisque invictæ hostis existat.
-                    Quod enim Cometæ in Æthere ipso versentur, non saltem in eo, qui anno 1577
-                    apparuit (de quo inter nos controvertitur) sed quatuor insuper alijs postmodum
-                    visis adeo accurate observavi, Geometriceque demonstravi, ut contradicere
-                    præsumentes sensu communi destitui merito videantur. Iamque tertium et pluries
-                    vale. Datæ Uraniburgi 11 Septemb. 1593.</p><lb/>
-                <p rend="rightMargin">Tuæ Magnificentiæ addictissimus<lb/>TYCHO BRAHE.</p>
+                <opener><pb ed="TBOO" n="VII.355"/><pb ed="A" n="81"/><persName
+                    ref="young_peter_1544">PETRO IUNIO</persName> <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>. S.</opener>
+                <p rend="noIndent">DIUTURNUM illud tuum silentium, quod excusationis silentio
+                    prætereundum censes, sicque vel maxime excusas, id quidem, mi optime <persName
+                        ref="young_peter_1544">IUNI</persName>, argute facis, at nihilominus vel sic
+                    nimium te apud amicum, sponte sua nihil sinistrius de te suspicantem, purgas.
+                    Non enim addubito, licet <placeName ref="Hven">Huænulam</placeName> nostram
+                    literis tuis diu et avide desideratis (alijs procul dubio et gravioribus
+                    impeditus occupationibus) invisere aliquamdiu supersederis, quin amorem tamen et
+                    memoriam nostri in animo illo tuo adeo humano et candido arcte foveris. Quod ut
+                    confidentius mihi persuadeam, non saltem literæ hæ tuæ compotissimæ, eximiæ erga
+                    nos benevolentiæ specimen referentes, et ea, quæ D. Legati ad nos feliciter
+                    reversi, ex tuis de nobis amicis sermonibus insuper retulerunt, affatim
+                    evincunt, verum etiam ex insigni illo studio tuo, quo tam graviter votis nostris
+                    satisfecisti, ut et diploma honorificum plane et præclarum Serenissimi ac
+                    potentissimi <persName ref="james_6_1566">Regis vestri</persName>, et
+                    epigrammata, arguta sane illa et accurata, ab eius Maiestate i6.n mei gratiam
+                    favorabiliter conscripta, mihi procurâris, non obscure liquet, quanti nos et
+                    studia nostra facias. Quam quidem ob rem ego vicissim de te honorifice, ut tua
+                    fert virtus et prælustris eruditio, sentire, gratamque tui memoriam in posterum,
+                    uti et hactenus feci, conservare non desinam, nec ullo officiorum genere,
+                    quatenus vires nostræ id sustinent, me a te vinci sinam. Gratias autem imprimis,
+                    quas possum maximas, serenissimo <persName ref="james_6_1566">Regi
+                        vestro</persName> reverenter <pb ed="A" n="82"/>ago, quod Astronomica nostra
+                    scripta et diplomate Regio munere et carminibus adeo elegantibus exornare non
+                    sit dedignatus. Tibi quoque, quod hæc tam illustria nostrorum operum elogia, ab
+                    ipsius Maiestate meo nomine demisse impetrare non sis gravatus, haud parum
+                    debeo. Quantum enim nostris laboribus hinc decoris et gratiæ accessurum sit, non
+                    sum nescius. Itaque ut perpetua observantia tam egregia in me collata beneficia
+                    recolam, devinciri me tibi lubens agnosco. <persName ref="Buchanan"
+                        >BUCHANANI</persName> vitam, si aliquando per otium describi curâris mihique
+                    miseris, non saltem rem gratam præstiteris, sed iamdudum datis sponsionibus te
+                    tandem exsolveris. Vale, vir præstantissime, et de voluntate ac officijs in te
+                    meis ita velim statuas, ut omnia tibi de me polliceri fidenter et libere possis,
+                    quæ ab amico sincero et constanti proficisci soleant. Iterum vale, et amicos in
+                        <placeName ref="Scotland">Scotia</placeName> ex me saluta, imprimis
+                    eruditissimum illum <persName ref="craig_thomas_1538">THOMAM
+                    CRAIGIUM</persName>, qui Uraniam nostram carminibus suis haud illepidis decorare
+                    voluit. Fratrem eius, quem meum Antagonistam vocas, attingere non <pb ed="TBOO"
+                        n="VII.356"/>audeo, cum præ arroganti philautia nimis mordax veritatisque
+                    invictæ hostis existat. Quod enim Cometæ in Æthere ipso versentur, non saltem in
+                    eo, qui anno 1577 apparuit (de quo inter nos controvertitur) sed quatuor insuper
+                    alijs postmodum visis adeo accurate observavi, Geometriceque demonstravi, ut
+                    contradicere præsumentes sensu communi destitui merito videantur.</p>
+                <closer><salute>Iamque tertium et pluries vale.</salute>
+                    <dateline>Datæ Uraniburgi 11 Septemb. 1593.</dateline><signed>Tuæ Magnificentiæ
+                            addictissimus<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

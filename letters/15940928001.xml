@@ -61,11 +61,11 @@
                     <date when="1594-09-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="rothmann_christopher_1550">Christopher Rothmann</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 28. september</date></creation>
+            <creation><date xml:lang="da">1594, 28. september.</date><date xml:lang="en">1594, 28 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,17 +80,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div type="letter">
                 <opener><pb ed="TBOO" n="VI.314"/><pb ed="E" n="283"/>NOBILISSIMO ET SINGVLARI ERVDITIONE, VIRTVTE, ET
-                    INTEGRITATE PRÆSTANTISSIMO VIRO, DOMINO TYCHONI BRAHE, DOMINO DE KNUDSTRUP,
+                    INTEGRITATE PRÆSTANTISSIMO VIRO, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, DOMINO DE KNUDSTRUP,
                     EQUITI DANO, ETC. DOMINO ET AMICO SUO CUM OBSERVANTIA COLENDO. S. P.
                     
                 </opener>
-                <p>QVANTOS sustinuerim hactenus cruciatus, vir Nobilissime et Eruditissime, non opus
+                <p rend="noIndent">QVANTOS sustinuerim hactenus cruciatus, vir Nobilissime et Eruditissime, non opus
                     esse arbitror ut scribam. Tanti certê fuerunt, ut anima vix corpori inhærere
                     potuerit, recurrente subinde arthritide et immanissimis nephriticis doloribus.
                     Qui etiam in causa fuêre, quo minus ad Illustrissimum Principem ac Dominum meum
@@ -100,7 +101,7 @@
                     misericordia etiam in posterum auxilio suo mihi adsit, et quod cæpit, clementer
                     ad finem perducat. De nostris autem studijs ut aliquid attingam, diligenter
                     hactenus scrutatus sum Catalogos <placeName ref="Frankfurt am Main"
-                        >Francofurtenses</placeName>, num a TYCHONE BRAHE quid editum in ijs
+                        >Francofurtenses</placeName>, num a <persName ref="brahe_tycho_1546">TYCHONE BRAHE</persName> quid editum in ijs
                     invenire possem: Verum nihil reperi. Miror igitur, quid causæ sit, quod Opus
                     illud tuum de Cometis supprimas, nec in publicum prodire sinas, præsertim cum
                     non tantum illud iamdudum fuerit absolutum, verumetiam toties et tanto tempore
@@ -126,7 +127,7 @@
                     certum hominem, qui ad vos iret, vacuas ad Amicum Literas quam nullas dare
                     malui. Accipies igitur hæc in meliorem partem, silentiumque meum diuturnum
                     supradictâ de causâ sufficienter excusatum habebis. Hortum sororis tuæ
-                    Philosophicæ, Dominæ <persName ref="Brahe, Sophie">SOPHIÆ BRAHE</persName>
+                    Philosophicæ, Dominæ <persName ref="brahe_sophie_1559">SOPHIÆ BRAHE</persName>
                     Matronæ perquam solertissimæ et Nobilissimæ, Illustrissimo Principi ac Domino
                     meo, felicissimæ recordationis, pro dignitate commendassem, si ipsius Celsit.
                     accessissem. Attamen per Literas omnia Illustriss. ipsius Celsit. significaui. </p>
@@ -134,11 +135,11 @@
                     <salute>Vale feliciter et <app>
                         <lem wit="#TBOO">optime</lem>
                         <rdg wit="#E">opti me</rdg>
-                    </app> mî Nobilissime et Eruditissime Domine BRAHE, Vraniamque, quod facis,
+                    </app> mî Nobilissime et Eruditissime Domine <persName ref="brahe_tycho_1546">BRAHE</persName>, Vraniamque, quod facis,
                         splendide ornare pergito.</salute>
                     <dateline><placeName ref="Bernburg">Bernburgi</placeName> 28. Septemb. Anno
                         1594.</dateline>
-                    <signed>T. T.<lb/>CHRISTOPHORVS ROTHMANNVS.</signed>
+                    <signed>T. T.<lb/><persName ref="rothmann_christopher_1550">CHRISTOPHORVS ROTHMANNVS</persName>.</signed>
                 </closer>
             </div>
         </body>

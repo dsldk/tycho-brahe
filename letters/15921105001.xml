@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -63,7 +76,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 5. november</date></creation>
+            <creation><date xml:lang="da">1592, 5. november.</date><date xml:lang="en">1592, 5
+                    November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-31" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,23 +100,24 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.345"/><pb ed="A" n="35v"/>NOBILISSIMO CLARISSIMOQUE
-                    VIRO D. TYCHONI BRAHE, MATHEMATICO EXIMIO, DOMINO ET AMICO PLURIMUM OBSERVANDO.
-                    S. P.</opener>
-                <p><pb ed="A" n="35r"/>EGI cum <persName ref="Myliander">MYLIANDRO</persName> de
-                    Typographico ministro, verum in præsentia de nullo ipsi constat. Mathematicarum
-                    disciplinarum studiosi pauci hodie, plerique enim Theologiæ studio vacant.
-                    Certum et præsens viaticum inquiram diligentius. De <persName ref="craig_john_1620"
-                        >CRAIGO</persName> miror, nec scio quomodo paralaxin refellere queat, qua
-                    moti veteres <persName ref="Aristoteles">ARISTOTELIS</persName> interpretes viam
-                    lacteam in cœlo statuerunt. Velim mihi proximis literis indicari rationes quibus
-                    eam evertere conatur, nisi forte observationem culpet. Nam vidi nonnullorum
-                    scripta, qui hunc eundem Cometam infra Lunam statuant. Ego certe parallaxi aut
-                    nulla aut exigua et minore quam in Luna in hoc Cometa concessa, non video
-                    quomodo suam sententiam tueri queat. Si editus est, dabitur aliquando copia
-                    legendi. Si autem non est editus, iudico illum hæc scripsisse, ut magis excitet
-                    ingenij tui acumen, et cogites quæ contra dici possint. Homo est eruditus, ut ex
-                        <persName ref="Duncan">DUNCANO</persName> intellexi, maiorem modestiam in eo
-                    requirerem, si cavillando et detorquendo tua infringere conatur. Attamen non
+                    VIRO D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, MATHEMATICO
+                    EXIMIO, DOMINO ET AMICO PLURIMUM OBSERVANDO. S. P.</opener>
+                <p rend="noIndent"><pb ed="A" n="35r"/>EGI cum <persName
+                        ref="myliander_stephan_1610">MYLIANDRO</persName> de Typographico ministro,
+                    verum in præsentia de nullo ipsi constat. Mathematicarum disciplinarum studiosi
+                    pauci hodie, plerique enim Theologiæ studio vacant. Certum et præsens viaticum
+                    inquiram diligentius. De <persName ref="craig_john_1620">CRAIGO</persName>
+                    miror, nec scio quomodo paralaxin refellere queat, qua moti veteres <persName
+                        ref="aristoteles_0384">ARISTOTELIS</persName> interpretes viam lacteam in
+                    cœlo statuerunt. Velim mihi proximis literis indicari rationes quibus eam
+                    evertere conatur, nisi forte observationem culpet. Nam vidi nonnullorum scripta,
+                    qui hunc eundem Cometam infra Lunam statuant. Ego certe parallaxi aut nulla aut
+                    exigua et minore quam in Luna in hoc Cometa concessa, non video quomodo suam
+                    sententiam tueri queat. Si editus est, dabitur aliquando copia legendi. Si autem
+                    non est editus, iudico illum hæc scripsisse, ut magis excitet ingenij tui
+                    acumen, et cogites quæ contra dici possint. Homo est eruditus, ut ex <persName
+                        ref="liddel_duncan_1561">DUNCANO</persName> intellexi, maiorem modestiam in
+                    eo requirerem, si cavillando et detorquendo tua infringere conatur. Attamen non
                     pæniteat commendasse, decet enim bonum virum iuvare plurimos, obesse nemini.
                     Futuram eclipsim, si conspicietur, accuratius observabo: Globum tuum vel Sphæram
                     armillarem satis affabre confectam vidi, verum parum meis oculis aptam, qui iam
@@ -109,10 +125,12 @@
                         <lem wit="#TBOO">fieri</lem>
                         <rdg wit="#A">ferri</rdg>
                     </app>. Non satis autem intelligo cur Terræ polos detorseris a polis mundi et
-                    Zodiaci. Bene vale. <placeName ref="Rostock">Rostochij</placeName> V<hi rend="sup">a</hi> Novembris A.&#176; Domini
-                    1592.</p>
-                <lb/>
-                <p rend="rightMargin">HENRICUS BRUCÆUS<lb/>plane tuus.</p>
+                    Zodiaci.</p>
+                <closer><salute>Bene vale.</salute>
+                    <dateline><placeName ref="Rostock">Rostochij</placeName> V<hi rend="sup">a</hi>
+                        Novembris A.&#176; Domini 1592.</dateline><signed><persName
+                            ref="brucaeus_heinrich_1530">HENRICUS BRUCÆUS</persName><lb/>plane
+                        tuus.</signed></closer>
             </div>
         </body>
     </text>

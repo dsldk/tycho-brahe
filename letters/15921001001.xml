@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Oxford</settlement>
                                 <repository>Bodleian Library</repository>
@@ -40,6 +44,21 @@
                                 <idno>Smith 77</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,12 @@
                     <date when="1592-10-01"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Peter Young</persName>
+                    <persName key="young_peter_1544">Peter Young</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 1. oktober</date></creation>
+            <creation><date xml:lang="da">1592, 1. oktober.</date><date xml:lang="en">1592, 1
+                    October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,36 +98,43 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-31" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.344"/><pb ed="A" n="77"/>PETRO IUNIO TYCHO BRAHE.
-                    S.</opener>
-                <p>QUAMVIS, nobilissime et amplissime vir, ultimis meis de neglecta ad priores
-                    aliquot responsione familiari quadam libertate tecum expostulantibus, nihil
-                    adhuc rescripseris: tamen et has illis aggregare non supersedebo, utut diutinam
-                    hanc tuam sive oblivionem sive spontaneam forte scribendi intermissionem vix
-                    (amicitia nostra sic exigente) excusatam habeam. Eroque ob id nunc brevior:
-                    præsertim cum superiora tibi adhuc satis in præsenti esse memoria (in quibus
-                    etiamnum tuam operam obnixe desidero) mihi persuadeam. Neque enim meas tibi non
-                    relatas diffido: ex quo a magnifico D. <persName ref="maitland_john_1537">IO. METELLANO</persName>, Cancellario vestro,
+                <opener><pb ed="TBOO" n="VII.344"/><pb ed="A" n="77"/><persName
+                        ref="young_peter_1544">PETRO IUNIO</persName>
+                    <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>. S.</opener>
+                <p rend="noIndent">QUAMVIS, nobilissime et amplissime vir, ultimis meis de neglecta
+                    ad priores aliquot responsione familiari quadam libertate tecum expostulantibus,
+                    nihil adhuc rescripseris: tamen et has illis aggregare non supersedebo, utut
+                    diutinam hanc tuam sive oblivionem sive spontaneam forte scribendi
+                    intermissionem vix (amicitia nostra sic exigente) excusatam habeam. Eroque ob id
+                    nunc brevior: præsertim cum superiora tibi adhuc satis in præsenti esse memoria
+                    (in quibus etiamnum tuam operam obnixe desidero) mihi persuadeam. Neque enim
+                    meas tibi non relatas diffido: ex quo a magnifico D. <persName
+                        ref="maitland_john_1537">IO. METELLANO</persName>, Cancellario vestro,
                     responsum acceperim, cui eodem tempore literas tuis simul coniunctas destinâram.
-                    Cum vero in superioribus præter alia ut a <persName ref="james_6_1566">Serenissimo Rege</persName> carmen quoddam in
-                    mearum lucubrationum Astronomicarum commendationem impetrares, peramanter te
-                    rogassem: et nunc ad ipsius Maiestatem ipsemet hac de causa elegiacam hanc
-                    qualemcunque epistolam exarârim (quam tibi ipsius Maiestati meo nomine submisse
-                    offerendam unâ mitto) idcirco etiamnum a te idipsum quibus possum precibus rogo,
-                    ut tua intercessione, eaque, qua apud ipsam Maiestatem polles, authoritate et
-                    consilij grata (quod et mereris) acceptatione, quo id clementissimi beneficij
-                    mihi impertiatur, quantum in te est, elaborare non degraveris. De privilegio ab
-                    ipsius Maiestate obtinendo, cuius apud te antea satis superque mentionem feci,
-                    nunc nihil superaddam. Hæc igitur singula, et si quæ præterea sunt, alias
-                    significata, tuæ erga me benevolentiæ et amicitiæ nostræ fidelitati fideliter
-                    etiam exequenda committo. Vale. <pb ed="A" n="78"/>Datæ Uraniburgi 1 Oct. A. 1592.</p>
-                    <p rend="rightMargin">Tuæ Magnificentiæ studiosissimus<lb/>TYCHO BRAHE.</p>
+                    Cum vero in superioribus præter alia ut a <persName ref="james_6_1566"
+                        >Serenissimo Rege</persName> carmen quoddam in mearum lucubrationum
+                    Astronomicarum commendationem impetrares, peramanter te rogassem: et nunc ad
+                    ipsius Maiestatem ipsemet hac de causa elegiacam hanc qualemcunque epistolam
+                    exarârim (quam tibi ipsius Maiestati meo nomine submisse offerendam unâ mitto)
+                    idcirco etiamnum a te idipsum quibus possum precibus rogo, ut tua intercessione,
+                    eaque, qua apud ipsam Maiestatem polles, authoritate et consilij grata (quod et
+                    mereris) acceptatione, quo id clementissimi beneficij mihi impertiatur, quantum
+                    in te est, elaborare non degraveris. De privilegio ab ipsius Maiestate
+                    obtinendo, cuius apud te antea satis superque mentionem feci, nunc nihil
+                    superaddam. Hæc igitur singula, et si quæ præterea sunt, alias significata, tuæ
+                    erga me benevolentiæ et amicitiæ nostræ fidelitati fideliter etiam exequenda
+                    committo.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline><pb ed="A" n="78"/>Datæ Uraniburgi 1 Oct. A.
+                        1592.</dateline><signed>Tuæ Magnificentiæ studiosissimus<lb/><persName
+                            ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Jyske tegnelser</collection>
+                                <idno>IV, 469</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Jyske tegnelser</collection>
                                 <idno>IV, 469</idno>
                                 <msName>empty</msName>
@@ -55,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christian 4. (1577-1648)</persName>
+                    <persName key="christian_4_1577">Christian 4.</persName>
                     <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1594-06-08"/>
                     <note>n.s.</note>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 8. juni</date></creation>
+            <creation><date xml:lang="da">1594, 8. juni.</date><date xml:lang="en">1594, 8 June.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-09" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,9 +97,9 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.63"/>
-                <opener>TILL THYGE BRAHE, EN WED NAFFN <persName ref="pepler_christopher_1578">CHRISTOFFER PEPELER</persName> ANRØRENDIS.</opener>
-                <p><persName ref="christian_4_1577"><hi rend="it">Christianus</hi> 4.</persName></p>
-                <p>WOR gunst tilforne. Wiid, effter som <persName ref="Nelle_1594">Nelle Christoffer Pepelers hustru</persName>
+                <opener>TILL <persName ref="brah_tycho_1546">THYGE BRAHE</persName>, EN WED NAFFN <persName ref="pepler_christopher_1578">CHRISTOFFER PEPELER</persName> ANRØRENDIS.</opener>
+                <p rend="indent"><persName ref="christian_4_1577"><hi rend="it">Christianus</hi> 4.</persName></p>
+                <p rend="noIndent">WOR gunst tilforne. Wiid, effter som <persName ref="Nelle_1594">Nelle Christoffer Pepelers hustru</persName>
                     wnderdanigstt till Oß haffuer <hi rend="it">supplicerit</hi> och tilkiende giffuett, huorledis
                     effter att hendis hoßbunde, for:ne <persName ref="pepler_christopher_1578">Christoffer Pepeler</persName>, haffuer werritt thin
                     fougitt oc du derfore vdj nogenn sager, som hannom och thig skall haffue for

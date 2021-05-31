@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Oxford</settlement>
                                 <repository>Bodleian Library</repository>
@@ -40,6 +44,21 @@
                                 <idno>Smith 77</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Oxford</settlement>
+                                <repository>Bodleian Library</repository>
+                                <collection>empty</collection>
+                                <idno>Smith 77</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,12 @@
                     <date when="1593-04-27"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Peter Young</persName>
+                    <persName key="young_peter_1544">Peter Young</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1593, 27. april</date></creation>
+            <creation><date xml:lang="da">1593, 27. april.</date><date xml:lang="en">1593, 27
+                    April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,48 +98,53 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.353"/><pb ed="A" n="79"/><persName ref="young_peter_1544">PETRO IUNIO</persName> TYCHO BRAHE.
-                    S.</opener>
-                <p>SED quorsum, nobilissime et amplissime vir, silentium hoc plus quam Pythagoreum?
-                    Itane crebrioribus meis ad te datis literis nihil plane responderis? Quod sive
-                    veteris tecum initæ amicitiæ oblivione sive ultroneâ scribendi intermissione
-                    acciderit: a nostra id equidem pristina, quantulacunque hæc fuerit,
-                    conversatione, meaque in te fide et expectatione alienissimum censeo. Tempus
-                    itaque est, ut vel nunc tandem per nostrates ad vos Ablegatos, tam commoda
-                    præsertim oblata occasione, quidpiam mecum literarum commutes. Scripsi autem ad
-                    te, ut et alias, superiore anno paulo ante ingruentem brumam, unâque Elegiacam
-                    quandam epistolam serenissimo Regi vestro, tua (uti desiderabam) opera meo
-                    nomine submisse offerendam, adiunxi. Quæ utrum ad te sarta tecta pervenerint, an tabellarij forte incuria
-                    interciderint, nihil interea temporis rescire potui. Mitto itaque iam aliud
-                    eiusdem carminis exemplar, maiorem in modum rogans, ut si prius illud ad ipsius
-                    Maiestatis manus non pervenerit, hoc alterum ipsius Maiestati legendum demisse
-                    exhibere, tuaque qua plurimum vales auctoritate et consilio apud ipsius
-                    Maiestatem intercedere non degravere: quo promptius hac in parte meis
-                    desiderijs benigne satisfiat. Quod si igitur regale et antiquissimum hoc studium
-                    regio suo condecorare carmine, favorabili sua erga me et sublimes has artes
-                    voluntate permota, non dedignetur: operam sane apud candidos et cordatos
-                    æstimatores in<pb ed="A" n="80"/>primis laudabilem præstiterit et eximij erga hæc
-                    sacra Uranica favoris monumentum quoddam perenne iugi posteritatis memoriæ
-                    consecrandum reliquerit. Id quod serenissimam suam Maiestatem tuo præsertim
-                    sensu et consilio clementer concessuram de eadem mihi recipio et polliceor.
-                    Constitui autem Regium hoc epigramma statim in frontispicio meorum instaurandæ
-                    Astronomiæ Progymnasmatum unâ cum Landtgraviano, quod iamdudum obtinuerim, in
-                    pleniorem huius prælustris scientiæ commendationem apponere: prout harum
-                    exhibitor tibi ulterius indicare poterit. Proinde te iterum atque iterum obnixe
-                    rogatum habeo, ut quantum possis (potes autem, nec immerito, plurimum) tua opera
-                    et intercessione, quo id clementissimi beneficij mihi concedatur, et per hunc
-                    ipsum voti compos fiam, sedulo elaborare non degravere. Quin et hunc ipsum D.
-                    <persName n="Krag, Niels">NICOLAUM CRAGIUM</persName>, Iuris Doctorem, et Legationis ad vos in <placeName ref="Scotland">Scotiam</placeName> munus unâ cum
+                <opener><pb ed="TBOO" n="VII.353"/><pb ed="A" n="79"/><persName
+                        ref="young_peter_1544">PETRO IUNIO</persName> TYCHO BRAHE. S.</opener>
+                <p rend="noIndent">SED quorsum, nobilissime et amplissime vir, silentium hoc plus
+                    quam Pythagoreum? Itane crebrioribus meis ad te datis literis nihil plane
+                    responderis? Quod sive veteris tecum initæ amicitiæ oblivione sive ultroneâ
+                    scribendi intermissione acciderit: a nostra id equidem pristina, quantulacunque
+                    hæc fuerit, conversatione, meaque in te fide et expectatione alienissimum
+                    censeo. Tempus itaque est, ut vel nunc tandem per nostrates ad vos Ablegatos,
+                    tam commoda præsertim oblata occasione, quidpiam mecum literarum commutes.
+                    Scripsi autem ad te, ut et alias, superiore anno paulo ante ingruentem brumam,
+                    unâque Elegiacam quandam epistolam serenissimo Regi vestro, tua (uti
+                    desiderabam) opera meo nomine submisse offerendam, adiunxi. Quæ utrum ad te
+                    sarta tecta pervenerint, an tabellarij forte incuria interciderint, nihil
+                    interea temporis rescire potui. Mitto itaque iam aliud eiusdem carminis
+                    exemplar, maiorem in modum rogans, ut si prius illud ad ipsius Maiestatis manus
+                    non pervenerit, hoc alterum ipsius Maiestati legendum demisse exhibere, tuaque
+                    qua plurimum vales auctoritate et consilio apud ipsius Maiestatem intercedere
+                    non degravere: quo promptius hac in parte meis desiderijs benigne satisfiat.
+                    Quod si igitur regale et antiquissimum hoc studium regio suo condecorare
+                    carmine, favorabili sua erga me et sublimes has artes voluntate permota, non
+                    dedignetur: operam sane apud candidos et cordatos æstimatores in<pb ed="A"
+                        n="80"/>primis laudabilem præstiterit et eximij erga hæc sacra Uranica
+                    favoris monumentum quoddam perenne iugi posteritatis memoriæ consecrandum
+                    reliquerit. Id quod serenissimam suam Maiestatem tuo præsertim sensu et consilio
+                    clementer concessuram de eadem mihi recipio et polliceor. Constitui autem Regium
+                    hoc epigramma statim in frontispicio meorum instaurandæ Astronomiæ
+                    Progymnasmatum unâ cum Landtgraviano, quod iamdudum obtinuerim, in pleniorem
+                    huius prælustris scientiæ commendationem apponere: prout harum exhibitor tibi
+                    ulterius indicare poterit. Proinde te iterum atque iterum obnixe rogatum habeo,
+                    ut quantum possis (potes autem, nec immerito, plurimum) tua opera et
+                    intercessione, quo id clementissimi beneficij mihi concedatur, et per hunc ipsum
+                    voti compos fiam, sedulo elaborare non degravere. Quin et hunc ipsum D.
+                        <persName n="Krag, Niels">NICOLAUM CRAGIUM</persName>, Iuris Doctorem, et
+                    Legationis ad vos in <placeName ref="Scotland">Scotiam</placeName> munus unâ cum
                     alijs subeuntem, virum alioquin in literis præclare versatum, et tuo genio
                     suopte (si recte iudico) non displiciturum ingenio, vel meo nomine tibi
-                    commendatum habeas. Vale. Datæ Uraniburgi 27 April. A. 1593. </p><lb/>
-                <p rend="rightMargin">TYCHO BRAHE.</p>
+                    commendatum habeas.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Datæ Uraniburgi 27 April. A. 1593. </dateline><signed><persName
+                            ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

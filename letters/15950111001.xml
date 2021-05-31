@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Københavns Universitets Arkiv</collection>
+                                <idno>[gammel signatur (VP) nr. 501]</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copehagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Københavns Universitets Arkiv</collection>
                                 <idno>[gammel signatur (VP) nr. 501]</idno>
                                 <msName>empty</msName>
@@ -61,11 +70,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Rektor og professorerne ved Københavns Universitet</persName>
+                    <persName xml:lang="da">Rektor og professorerne ved Københavns Universitet</persName><persName xml:lang="en">The rector and the professors at Copenhagen University</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1595, 11. jan.</date></creation>
+            <creation><date xml:lang="da">1595, 11. januar.</date><date xml:lang="en">1595, 11 January.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-10" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,7 +98,7 @@
             <div>
                 <pb ed="TBOO" n="XIV.71"/>
                 <opener>[AD RECTOREM ET PROFESSORES UNIVERSITATIS HAUNIENSIS].</opener>
-                <p>DETTE erre mine suar till den vidisse, som <foreign xml:lang="la"><hi rend="it">magnificus dominus rector</hi></foreign> loedt mig y
+                <p rend="noIndent">DETTE erre mine suar till den vidisse, som <foreign xml:lang="la"><hi rend="it">magnificus dominus rector</hi></foreign> loedt mig y
                     gaardt offuerantuor[de]. Effterdj ieg lod selff formedelst <hi rend="it">doctor</hi> <persName ref="krag_niels_1550">Niell[s] Krag</persName>
                     och <persName ref="dallin_mogens_bertelsen_1619">Mogens Berttellßen</persName>, som vaare vdtßende aff mig, tilbyde
                     den, som sagen ahngaar, der de fem breffue vaare lest for hannem, att der som hand haffde
@@ -151,7 +161,7 @@
                     <dateline><foreign xml:lang="la"><hi rend="it">Actum</hi></foreign> Kiøbenhaffn
                         den 11 <foreign xml:lang="la"><hi rend="it">ianvarii anno</hi></foreign>
                         1595.</dateline>
-                    <signed><foreign xml:lang="la"><hi rend="it">Tyghe Brahe<lb/>met egen
+                    <signed><foreign xml:lang="la"><hi rend="it"><persName ref="brahe_tycho_1546">Tyghe Brahe</persName><lb/>met egen
                             hd.</hi></foreign></signed>
                 </closer>
             </div>

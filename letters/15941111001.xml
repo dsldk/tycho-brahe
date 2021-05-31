@@ -33,10 +33,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Konsistoriums kopibøger</collection>
+                                <idno>1213-02 (1594-1613)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
                                 <collection>Konsistoriums kopibøger</collection>
                                 <idno>1213-02 (1594-1613)</idno>
                                 <msName>empty</msName>
@@ -55,7 +64,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Rektor og professorerne ved Københavns Universitet</persName>
+                    <persName xml:lang="da">Rektor og professorerne ved Københavns Universitet</persName><persName xml:lang="en">The rector and the professors at Copenhagen University</persName>
                     <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1594-11-11"/>
                     <note>n.s.</note>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 11. nov.</date></creation>
+            <creation><date xml:lang="da">1594, 11. november.</date><date xml:lang="en">1594, 11 November.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-10" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,7 +98,7 @@
             <div>
                 <pb ed="TBOO" n="XIV.70"/>
                 <opener>COPIE AFF ITT BREFF, SOM BLEFF SCHREFFUEN THILL TYGE BRAHE.</opener>
-                <p>VORES ganske venlig helßen nu oc allthid forsent med Gud. Gunstige welbiurdige
+                <p rend="noIndent">VORES ganske venlig helßen nu oc allthid forsent med Gud. Gunstige welbiurdige
                     Tyge Brahe, nest wores wenlig tacksigelße for all beuiste ære oc gode, giffuer
                     wi eder thillkiende, att oß nu nyligen er forekommen en woris tienere, <persName ref="lauge_1594">Lauge</persName>
                     vdj Klare mølle, met klagemaall po en aff eders thienere ved naffn <persName ref="peder_1594">Peder</persName>, i

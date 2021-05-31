@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>John Craig</persName>
+                    <persName key="craig_john_1620">John Craig</persName>
                     <placeName>Edinburgh</placeName>
                     <date when="1594-04-22"/>
                 </correspAction>
@@ -63,7 +72,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 22. april</date></creation>
+            <creation><date xml:lang="da">1594, 22. april.</date><date xml:lang="en">1594, 22 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-05" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,10 +96,10 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.362"/><pb ed="A" n="50v"/>GENERIS NOBILITATE, OMNI
-                    DOCTRINARUM ET VIRTUTUM EXCELLENTIA PRÆSTANTISSIMO VIRO D. TYCHONI BRAHE, HWÆNE
+                    DOCTRINARUM ET VIRTUTUM EXCELLENTIA PRÆSTANTISSIMO VIRO D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, HWÆNE
                     INSULÆ, DOMINO ILLUSTR. REGIS DANIÆ CONSILIARIO, DOMINO ET AMICO SUO
                     HONORANDO.</opener>
-                <p><pb ed="A" n="49r"/>EXTINCTA nunc prope Nobiliss. D. TYCHO tuarum de me literarum
+                <p rend="noIndent"><pb ed="A" n="49r"/>EXTINCTA nunc prope Nobiliss. D. <persName ref="brahe_tycho_1546">TYCHO</persName> tuarum de me literarum
                     memoria, quæ in huiusmodi rebus admodum labilis esse solet, et de humanitate tua
                     ea concepta opinione, ut apud ipsum quoque offensiones deferbuisse existimem, ad
                     amicitiam redeundum videtur. Quod hoc tempore vir præstantissimus Dominus
@@ -171,20 +181,18 @@
                     Regem, in lucem cœpit contendere hora tertia post Μ. N. diei 19. Februarij, in
                     eam venit media ad quartam. Arx Sterlini eiusdem cum hac nostra urbe fere
                     latitudinis est, vix uno aut altero scrupulo in Boream declinat, Uraniam, si
-                    placet, consule. Salutat P. T. <persName ref="Craig, Thomas">frater
+                    placet, consule. Salutat P. T. <persName ref="craig_thomas_1538">frater
                         meus</persName> natu maior; ad te hoc tempore scripsisset, nisi Serenissimæ
                         <persName ref="Anna af Danmark">Reginæ</persName> negotia impedijssent;
                     putat sibi maiores gratias esse redditas, quam illud epigramma meritum est;
                     gratum tamen ipsi fuit, sua tibi accepta esse, et paratus est, quibus poterit
-                    officijs, tibi gratificari. Vale præstantissime D. et clementissimus Deus tibi
+                    officijs, tibi gratificari.</p> <closer><salute>Vale præstantissime D. et clementissimus Deus tibi
                     vitam et vires suppeditet, ut illi admirando operi, quod præ manibus habes,
-                    optatum finem possis imponere. Datæ <placeName ref="Edinburgh"
-                        >Edinburgi</placeName> 22. Aprilis. </p>
-                <lb/>
-                <p rend="rightMargin">Tui observantiss.<lb/><persName ref="craig_john_1620">IOAN.
-                        CRAIGIUS</persName>,<lb/>Doctor Medicus.</p>
-                <lb/>
-                <p>Salutem precor doctissimis et præstantissimis viris Domm. D. D. CRAIGIJS.</p>
+                    optatum finem possis imponere.</salute> <dateline>Datæ <placeName ref="Edinburgh"
+                        >Edinburgi</placeName> 22. Aprilis.</dateline> <signed>Tui observantiss.<lb/><persName ref="craig_john_1620">IOAN.
+                        CRAIGIUS</persName>,<lb/>Doctor Medicus.</signed></closer>
+                
+                <postscript><p>Salutem precor doctissimis et præstantissimis viris Domm. D. D. CRAIGIJS.</p></postscript>
             </div>
         </body>
     </text>

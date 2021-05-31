@@ -64,11 +64,11 @@
                     <date when="1592-09-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Moritz, Landgrave of Hesse-Kassel</persName>
+                    <persName xml:lang="da" key="moritz_1572">Moritz, landgreve af Hessen-Kassel</persName><persName xml:lang="en" key="moritz_1572">Moritz, Landgrave of Hesse-Kassel</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 21. september</date></creation>
+            <creation><date xml:lang="da">1592, 21. september.</date><date xml:lang="en">1592, 2 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,12 +83,13 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VI.313"/><pb ed="E" n="282"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO MAVRITIO, <app>
+                <opener><pb ed="TBOO" n="VI.313"/><pb ed="E" n="282"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO <persName ref="moritz_1572">MAVRITIO</persName>, <app>
                         <lem>LANDTGRAVIO</lem>
                         <rdg><note>ante <q>LANDTGRAVIO</q> add. <q>JUNIORI</q> M</note></rdg>
                     </app> HASSIÆ, COMITI IN CATZENELLEBOGEN, DIETZ, ZIGENHAIN ET NIDDA:
@@ -100,7 +101,7 @@
                             <rdg><note>om. M</note></rdg>
                         </app>
                 </opener>
-                <p>ILLVSTRISSIME et Generosissime Princeps: Plurimâ equidem T. C. me læticiâ
+                <p rend="noIndent">ILLVSTRISSIME et Generosissime Princeps: Plurimâ equidem T. C. me læticiâ
                     affecit, dum non modo Literis suis clementer nostris respondere: Sed et Carmen
                     commendatitium in Opera, quæ molimur, Astronomica, scite et eleganter
                     concinnare, proprijsque digitis circa frontispicia chartæ transmissæ consignare,
@@ -153,7 +154,7 @@
                     <dateline>Datæ <placeName ref="Uraniborg">Vraniburgj</placeName>, 21. Septemb.
                         Anno 1592.</dateline>
                     <signed><app>
-                        <lem>Celsit T.<lb/>Addictis.<lb/>TYCHO BRAHE.</lem>
+                        <lem>Celsit T.<lb/>Addictis.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</lem>
                         <rdg><note>subscriptionem <q>Tuæ Celsc. addictiss. Tycho Brahe</q>
                             ipsius manu praebet M</note></rdg>
                     </app></signed>

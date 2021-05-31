@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,11 +40,29 @@
                                 <idno>cod. Vindob. lat. 10686.51</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.51</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.39</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.39</idno>
@@ -73,7 +91,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1595, 12. august</date></creation>
+            <creation><date xml:lang="da">1595, 12. august.</date><date xml:lang="en">1595, 12 August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -89,6 +107,7 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-06" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -100,7 +119,7 @@
                         ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName>, PHILOSOPHEÆ ET
                     MEDICINÆ DOCTORI EXIMIO, AULÆ CÆSAREÆ MEDICO, AMICO SUO INPRIMIS COLENDO.
                     S.</opener>
-                <p><pb ed="A" n="9r"/>INCREDIBILI lætitia sum perfusus, clarissime et amantissime mi
+                <p rend="noIndent"><pb ed="A" n="9r"/>INCREDIBILI lætitia sum perfusus, clarissime et amantissime mi
                         <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, cum tuas ultimas die
                     10 Ianuarij huius anni mihi perscriptas litteras, iam nuper <placeName
                         ref="København">Haffniæ</placeName> in ultimis comitijs per <persName
@@ -119,7 +138,7 @@
                     imminebant, sævitiam divina ope evasisse, ex hisce tuis intelligam, est, cur non
                     saltem tibi, sed et mihi, qui te semper in intimis habui, magnopere congratuler,
                     Deoque tecum gratias agam, quod te tam benigne hactenus conservarit, utque idem
-                    in posterum facere dignetur, ex animo oro. Domini <persName ref="Curtius">I.
+                    in posterum facere dignetur, ex animo oro. Domini <persName ref="kurz_jacob_1554">I.
                         CURTIJ</persName> Procancellarij, communis nostri amici, obitus et mihi sane
                     non minimum luctum peperit. Nam virum illum, non saltem ob Politica negotia et
                         <pb ed="TBOO" n="VII.369"/>officij dignitatem, in qua præcelluit, sed et
@@ -134,7 +153,7 @@
                     quem <app>
                         <lem wit="#TBOO">eidem</lem>
                         <rdg wit="#A">ijdem</rdg>
-                    </app> Domino <persName ref="Curtius">CURTIO</persName> (bonæ memoriæ)
+                    </app> Domino <persName ref="kurz_jacob_1554">CURTIO</persName> (bonæ memoriæ)
                     transmisi, in <app>
                         <lem wit="#A">potestatem tuam redigi</lem>
                         <rdg wit="#B">tuam potestatem reddi</rdg>
@@ -142,7 +161,7 @@
                     omnino publici iuris fieret, concedi vellem, quique meis laboribus, uti
                     sæpenumero fit, abuti non vererentur. Disquiri inibi videbis in omnium scripta,
                     quotquot de Stella illa nova edita nancisci licuit, tum quoque in tuam Dialexin,
-                    prout in eo exemplari, quod Dominus <persName ref="Curtius">CURTIUS</persName>
+                    prout in eo exemplari, quod Dominus <persName ref="kurz_jacob_1554">CURTIUS</persName>
                     acceperat (siquidem id, quod tibi destinaveram, interciderit) videre licet. Has
                     vero meas animadversiones non alio animo quam ab amico decet, prodeuntes, si
                     aliquando perspexisti vel in posterum lecturus es, averem equidem a te
@@ -213,12 +232,12 @@
                     (uti spero) dabitur hæc tractandi exponendique locus. Ego cum sciam te talibus
                     delectari, non omnino hîc intacta relinquere volui, quo aliquid saltem
                     Astronomici hæc nostra Epistola ad rerum Astronomicarum cultorem directa
-                    contineret. Quæ in globo Domini <persName ref="Curtius">CURTIJ</persName> ex
+                    contineret. Quæ in globo Domini <persName ref="kurz_jacob_1554">CURTIJ</persName> ex
                     ligneâ materiâ constante improbas, ea prorsus ita se habent, prout asseris.
                     Frustra enim tales machinæ de ligno, quocunque tandem modo composito,
                     præparantur. Neque enim aëris mutationem, æstatisque et hyemis diversitatem aut
                     temporis diuturnitatem perferunt. Commentaria <persName
-                        ref="Georgius Trapezuntius">TRAPEZUNTIJ</persName> in <persName
+                        ref="trapezuntius_georgius_1395">TRAPEZUNTIJ</persName> in <persName
                         ref="Ptolemaios">PTOLOMÆI</persName> magnam Syntaxin et libellum <persName
                         ref="Apian">APIANI</persName> de Cometâ unâ cum adiunctis libentissime tibi
                     restituerem, <pb ed="TBOO" n="VII.371"/>cum mihi <app>
@@ -231,13 +250,11 @@
                     ad te ipsum perferret: quâ etiam in re posthac, quantum potero, elaborabo.
                     Interea moram (si qua inciderit) candide excusatam habe, meque tui perpetuo fore
                     quam studiosissimum et ad quævis officia præstanda quam paratissimum, tibi (quod
-                    et te facere non dubito) persuasum habe. Iamque feliciter vale, et senij
-                    gravamina patienter sustine. <placeName ref="Uraniborg">Uraniburgi</placeName>
-                    12 Augusti A. <app><lem>C</lem><rdg><note>om. 10686.39</note></rdg></app>. 95.</p>
-                <lb/>
-                <p rend="rightMargin"><app><lem>Tui amantiss.<lb/>TYCHO BRAHE,<lb/>manu propria.</lem><rdg><note>om. 10686.39</note></rdg></app></p>
-                <lb/>
-                <p><app><lem wit="#A">Si <persName ref="Monavius">MONAVIUS</persName> adhuc (uti spero) in vivis est,
+                    et te facere non dubito) persuasum habe.</p> <closer><salute>Iamque feliciter vale, et senij
+                    gravamina patienter sustine. </salute><dateline><placeName ref="Uraniborg">Uraniburgi</placeName>
+                    12 Augusti A. <app><lem>C</lem><rdg><note>om. 10686.39</note></rdg></app>. 95.</dateline><signed><app><lem>Tui amantiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</lem><rdg><note>om. 10686.39</note></rdg></app></signed></closer>
+                
+                <postscript><p><app><lem wit="#A">Si <persName ref="Monavius">MONAVIUS</persName> adhuc (uti spero) in vivis est,
                     et tibi cum eo (de quo non dubito) intercedit familiaritas, rogo ipsum per
                     litteras admoneas, ut de libris <persName ref="Wittich, Paul"
                         >VITICHIANIS</persName>, an eos a sorore superstite, prout idem <persName
@@ -246,7 +263,7 @@
                     iamdudum <persName ref="Monavius">MONAVIO</persName> hac de re scribenti nihil
                     responsum est; sive quod litteræ meæ interciderint, sive quod alia mihi hactenus
                     ignota subsit caussa. Tu vero hæc meo nomine quam commodissime data oportunitate
-                    expedies.</lem><rdg><note>om. B</note></rdg></app></p>
+                    expedies.</lem><rdg><note>om. B</note></rdg></app></p></postscript>
             </div>
         </body>
     </text>

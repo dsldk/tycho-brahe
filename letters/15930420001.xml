@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,6 +44,21 @@
                                 <idno>cod. Vindob. lat. 10686.34</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.34</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Trannscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -63,7 +82,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1593, 20. april</date></creation>
+            <creation><date xml:lang="da">1593, 20. april.</date><date xml:lang="en">1593, 20
+                    April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,17 +99,20 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-03" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.350"/>TYCHO BRAHE AD THADDÆUM HAGECIUM. S.</opener>
-                <p><pb ed="A" n="4r"/>MIRATUS equidem sum, optime mi THADDÆE, quod tam diutino
-                    tempore nihil a te literarum receperim. Verum ex ijs, quas circa initia
-                    Decembris Anni proxime elapsi <placeName ref="Praha">Pragæ</placeName> ad me
-                    perscripseris, quæ circiter medium Aprilis huius anni mihi redditæ sunt, non
+                <opener><pb ed="TBOO" n="VII.350"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="hagecius_thaddaeus_1525">THADDÆUM
+                        HAGECIUM</persName>. S.</opener>
+                <p rend="noIndent"><pb ed="A" n="4r"/>MIRATUS equidem sum, optime mi THADDÆE, quod
+                    tam diutino tempore nihil a te literarum receperim. Verum ex ijs, quas circa
+                    initia Decembris Anni proxime elapsi <placeName ref="Praha">Pragæ</placeName> ad
+                    me perscripseris, quæ circiter medium Aprilis huius anni mihi redditæ sunt, non
                     sine dolore demum percipio, eas dilationis huius in rescribendo fuisse causas,
                     quas non incidisse quivis bonus potius exoptasset. Morbis enim varijs et
                     atrocibus te tota pene æstate conflictatum fuisse, admodum illibenter hinc
@@ -103,40 +126,41 @@
                     remedium in solo Creatore, non autem Creaturis spem locare. Quod et te facere
                     cum alias, tum etiam ex literis hisce satis perspectum habeo.</p>
                 <p rend="indent">Video te perlustrasse scopticum et arrogans illud mei <persName
-                        ref="craig_john_1620">Scotici Antagonistæ</persName> scriptum, idemque Magnifico Dn.
-                        <persName ref="Curtius">CURTIO</persName> inspiciendum dijudicandumque
-                    obtulisse; a neutro autem vestrum probari. Suadetis igitur ut eius Sophismata
-                    redarguam. At cum videam ipsum ita in præconceptis <persName ref="Aristoteles"
-                        >Aristotelicis</persName> opinionibus fascinatum esse, ut veritatem intueri
-                    et amplecti aut nolit aut nequeat, frustraneum duco bonas horas in ipso
-                    refellendo male impendere; ex quo non obscure pateat, ipsum præ Philautia quadam
-                    laudem ex contradictionibus aucupari. Sufficiat ita<pb ed="TBOO" n="VII.350"
-                    />que me ex certis Observationibus et Apodixibus Geometricis (licet et has in
-                    dubium vocare malitiose et ignoranter potius quam iuste et intelligenter
-                    præsumat) viris candidis et cordatis, nec turgido ac temerario præiudicio
-                    obcæcatis, undiquaque satisfacere. Quis enim adeo circumspecte et invicte sua
-                    muniet, ut nulla sit fastuosis et sophisticis ingenijs eadem cavillis impetendi
-                    occasio? Si tamen quippiam a gravioribus aliquando studijs supererit ocij,
-                    efficiam, sive per me ipsum, seu potius discipulorum meorum aliquem, ut invalida
-                    et obtusa huius <persName ref="craig_john_1620">Scoti</persName> tela partim infringantur,
-                    partim aliter exacuata in ipsum retorqueantur, ne sibi nimium placendo veritatis
-                    mænia apud imbelles et inertes se penitus expugnasse iactitet. Id enim facillimo
+                        ref="craig_john_1620">Scotici Antagonistæ</persName> scriptum, idemque
+                    Magnifico Dn. <persName ref="kurz_jacob_1554">CURTIO</persName> inspiciendum
+                    dijudicandumque obtulisse; a neutro autem vestrum probari. Suadetis igitur ut
+                    eius Sophismata redarguam. At cum videam ipsum ita in præconceptis <persName
+                        ref="aristoteles_0384">Aristotelicis</persName> opinionibus fascinatum esse,
+                    ut veritatem intueri et amplecti aut nolit aut nequeat, frustraneum duco bonas
+                    horas in ipso refellendo male impendere; ex quo non obscure pateat, ipsum præ
+                    Philautia quadam laudem ex contradictionibus aucupari. Sufficiat ita<pb
+                        ed="TBOO" n="VII.350"/>que me ex certis Observationibus et Apodixibus
+                    Geometricis (licet et has in dubium vocare malitiose et ignoranter potius quam
+                    iuste et intelligenter præsumat) viris candidis et cordatis, nec turgido ac
+                    temerario præiudicio obcæcatis, undiquaque satisfacere. Quis enim adeo
+                    circumspecte et invicte sua muniet, ut nulla sit fastuosis et sophisticis
+                    ingenijs eadem cavillis impetendi occasio? Si tamen quippiam a gravioribus
+                    aliquando studijs supererit ocij, efficiam, sive per me ipsum, seu potius
+                    discipulorum meorum aliquem, ut invalida et obtusa huius <persName
+                        ref="craig_john_1620">Scoti</persName> tela partim infringantur, partim
+                    aliter exacuata in ipsum retorqueantur, ne sibi nimium placendo veritatis mænia
+                    apud imbelles et inertes se penitus expugnasse iactitet. Id enim facillimo
                     negotio præstabitur, siquidem nihil solidi et ad rem ipsam penitius facientis in
                     medium adferat, sed fucatis et futilibus argutijs potius quam veris et
                     subtilibus argumentis rem agat, merisque calumnijs, scommatis ac perversionibus
                     scateat, nec modestiæ limites transilire erubescat. Interim quid Magnificus Dn.
-                        <persName ref="Curtius">CURTIUS</persName> et tu de eius superciliosa et
-                    commentitia hac Capnuraniæ restinctione (sic enim is scriptum hoc suum vere
-                    fumosum et fastuosum appellat, licet ego Cometas, utut reverâ Cœlestes, <pb
-                        ed="A" n="4v"/>e fumositatibus tamen constare nusquam asseruerim) iudicetis,
-                    postquam eam iam, uti existimo, plenius introspexeritis, per te certior fieri
-                    aveo. Feci semel atque iterum mentionem in literis antea ad te datis de parte
-                    illa prioris Tomi nostri tibi dudum transmissa, ut tuam de hac sententiam
-                    expiscarer. Verum tu nec in prioribus nec hisce ultimis quippiam hac de re
-                    moves. Suspicor itaque, quicquid hoc erat, tibi non esse redditum. Quare nunc
-                    alterum exemplum mitto, in quo pleraque tunc desiderata complentur. Deficiunt
-                    hîc saltem præter Privilegia, Præfationem et Conclusionem, quæ volens differo,
-                    tres quaterniones in fine primi Capitis, quo Lunaris motus restitutio
+                        <persName ref="kurz_jacob_1554">CURTIUS</persName> et tu de eius
+                    superciliosa et commentitia hac Capnuraniæ restinctione (sic enim is scriptum
+                    hoc suum vere fumosum et fastuosum appellat, licet ego Cometas, utut reverâ
+                    Cœlestes, <pb ed="A" n="4v"/>e fumositatibus tamen constare nusquam asseruerim)
+                    iudicetis, postquam eam iam, uti existimo, plenius introspexeritis, per te
+                    certior fieri aveo. Feci semel atque iterum mentionem in literis antea ad te
+                    datis de parte illa prioris Tomi nostri tibi dudum transmissa, ut tuam de hac
+                    sententiam expiscarer. Verum tu nec in prioribus nec hisce ultimis quippiam hac
+                    de re moves. Suspicor itaque, quicquid hoc erat, tibi non esse redditum. Quare
+                    nunc alterum exemplum mitto, in quo pleraque tunc desiderata complentur.
+                    Deficiunt hîc saltem præter Privilegia, Præfationem et Conclusionem, quæ volens
+                    differo, tres quaterniones in fine primi Capitis, quo Lunaris motus restitutio
                     compendiose expedietur. Hos enim typis mandare nondum satis opportunum fuit,
                     præsertim quia Eclipses aliquas in diversis Horizontibus denotatas expecto, ut
                     Meridianorum differentiæ rectius, quam hactenus, præfiniri queant. Neque enim
@@ -152,50 +176,54 @@
                         ref="hagecius_thaddaeus_1525">THADDÆE</persName>, velis quantum per ocium et
                     valetudinem <pb ed="TBOO" n="VII.352"/>liceat, hunc quem mitto, Astronomicæ
                     instaurationis priorem Tomum perlegere, tuamque de eius contentis gravissimam
-                    censuram per literas aperire. Idem ab amplissimo Dn. <persName ref="Curtius"
-                        >CURTIO</persName>, si quando a Reipub. munijs, quæ laudabiliter sustinet,
-                    nonnihil respirârit, fieri quam maxime exoptarem. Tractavi post Luminarium et
-                    Fixarum Stellarum accuratam verificationem de Nova illa Stella aliquanto
-                    prolixius; cum et insolens ac supra modum miraculosa eius apparitio, et aliorum,
-                    quæ expendendæ erant, opiniones id efflagitabant. Egisti et tu olim in erudita
-                    illa Dialexi tua de hoc ipso admirando sidere et scite et luculenter, recteque
-                    nobiscum asseruisti omni Parallaxi destitutum, et inter reliqua octavæ (ut
-                    vocant) Sphæræ Sidera, repositum fuisse. Licet nonnulla sint, quæ in hoc ipso
-                    scripto ob festinationem minus elimate a te proposita sint, nec omnia in
-                    recognitione mihi transmissa satis revisa. Quorum pleraque circa principium Cap.
-                    8, statim post Landgravianas animadversiones expendenda suscepi. Quod et tua me
-                    bona venia fecisse non dubito. Tute nunc in ea circumspectius attende. Videbis
-                    utique me nihil dubij citra rem hîc movisse. Idem quoque circa aliorum Placita,
-                    quæ disquisitioni subijcio, comperies. Nihil enim magis in votis habui, quam ut
-                        <pb ed="A" n="5r"/>veritatem intemeratam in apertum deducerem, et quæ pro
-                    vel contra facerent, libertate quadam Philosophica indicarem, ut aliquid certi
-                    de tam stupendo miraculo nostris temporibus Cœlitus exhibito Posteris constaret,
-                    nec opinionum de hoc varietas et confusio ostenti magnitudinem extenuaret;
-                    siquidem a paucissimis pro ea, qua par erat, subtilitate et diligentia hanc
-                    Spartam fuisse excultam exornatamque iamdudum perspexerim. Tentet et hîc, si
-                    volet, <persName ref="craig_john_1620">Scoticus meus Antagonista</persName>, an ab
-                    affixarum Orbe hanc Stellam in Elementarem Regionem, suis invalidis lacertis
-                    detrahere queat, quo suum, qui perpetua infamia per hanc Stellam liquidissime
-                    affectus est, tueatur <persName ref="Aristoteles">ARISTOTELEM</persName>. Et
-                    sane in scripto isto Antapologetico nescit, quo se vertat, ut huius Stellæ
-                    Phænomena, pro suo illo, in cuius verba iuravit, Magistro excuset. Tandem ad
-                    opinionum varietatem dilabitur, qua sane ratione nihil uspiam certi esse eodem
-                    modo evicerit, cum de re eadem nusquam ferme omnes pariter <app>
+                    censuram per literas aperire. Idem ab amplissimo Dn. <persName
+                        ref="kurz_jacob_1554">CURTIO</persName>, si quando a Reipub. munijs, quæ
+                    laudabiliter sustinet, nonnihil respirârit, fieri quam maxime exoptarem.
+                    Tractavi post Luminarium et Fixarum Stellarum accuratam verificationem de Nova
+                    illa Stella aliquanto prolixius; cum et insolens ac supra modum miraculosa eius
+                    apparitio, et aliorum, quæ expendendæ erant, opiniones id efflagitabant. Egisti
+                    et tu olim in erudita illa Dialexi tua de hoc ipso admirando sidere et scite et
+                    luculenter, recteque nobiscum asseruisti omni Parallaxi destitutum, et inter
+                    reliqua octavæ (ut vocant) Sphæræ Sidera, repositum fuisse. Licet nonnulla sint,
+                    quæ in hoc ipso scripto ob festinationem minus elimate a te proposita sint, nec
+                    omnia in recognitione mihi transmissa satis revisa. Quorum pleraque circa
+                    principium Cap. 8, statim post Landgravianas animadversiones expendenda suscepi.
+                    Quod et tua me bona venia fecisse non dubito. Tute nunc in ea circumspectius
+                    attende. Videbis utique me nihil dubij citra rem hîc movisse. Idem quoque circa
+                    aliorum Placita, quæ disquisitioni subijcio, comperies. Nihil enim magis in
+                    votis habui, quam ut <pb ed="A" n="5r"/>veritatem intemeratam in apertum
+                    deducerem, et quæ pro vel contra facerent, libertate quadam Philosophica
+                    indicarem, ut aliquid certi de tam stupendo miraculo nostris temporibus Cœlitus
+                    exhibito Posteris constaret, nec opinionum de hoc varietas et confusio ostenti
+                    magnitudinem extenuaret; siquidem a paucissimis pro ea, qua par erat,
+                    subtilitate et diligentia hanc Spartam fuisse excultam exornatamque iamdudum
+                    perspexerim. Tentet et hîc, si volet, <persName ref="craig_john_1620">Scoticus
+                        meus Antagonista</persName>, an ab affixarum Orbe hanc Stellam in
+                    Elementarem Regionem, suis invalidis lacertis detrahere queat, quo suum, qui
+                    perpetua infamia per hanc Stellam liquidissime affectus est, tueatur <persName
+                        ref="aristoteles_0384">ARISTOTELEM</persName>. Et sane in scripto isto
+                    Antapologetico nescit, quo se vertat, ut huius Stellæ Phænomena, pro suo illo,
+                    in cuius verba iuravit, Magistro excuset. Tandem ad opinionum varietatem
+                    dilabitur, qua sane ratione nihil uspiam certi esse eodem modo evicerit, cum de
+                    re eadem nusquam ferme omnes pariter <app>
                         <lem wit="#TBOO">sentiant</lem>
                         <rdg wit="#A">sensiant</rdg>
                     </app>, nec numeranda sed æstimanda sint aliorum iudicia. Sed facessat iste,
-                    sibique quantum velit, sapiat. Tu vero, mi <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆE</persName>, prima quaque opportunitate et de valetudine tua et ijs,
-                    quæ nunc expeto, me certiorem reddere non degravere. Habeo etiam gratias pro
-                    emendato illo Cæsareano Privilegio, quod nunc unâ accepi. Scripsi vero ipsemet
-                    Magnifico Dn. <persName ref="Curtius">CURTIO</persName> eique inter alia hoc
-                    nomine gratias egi. Quas literas hic Civis <placeName ref="Görlitz"><app>
+                    sibique quantum velit, sapiat. Tu vero, mi <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆE</persName>, prima quaque opportunitate
+                    et de valetudine tua et ijs, quæ nunc expeto, me certiorem reddere non
+                    degravere. Habeo etiam gratias pro emendato illo Cæsareano Privilegio, quod nunc
+                    unâ accepi. Scripsi vero ipsemet Magnifico Dn. <persName ref="kurz_jacob_1554"
+                        >CURTIO</persName> eique inter alia hoc nomine gratias egi. Quas literas hic
+                    Civis <placeName ref="Görlitz"><app>
                             <lem wit="#TBOO">Gorliciensis</lem>
                             <rdg wit="#A">Gorlisiensis</rdg>
                         </app></placeName> se <placeName ref="Praha">Pragam</placeName> allaturum et
                     unâ cum hisce tibi destinatis diligenter procuraturum recepit. Vale et ne nimis
-                    diu responsionem expectem, provide. Iamque iterum feliciter vale. Datæ
-                        <placeName ref="Uraniborg">Uraniburgi</placeName> April. Anno 1593. </p>
+                    diu responsionem expectem, provide.</p>
+                <closer><salute>Iamque iterum feliciter vale.</salute>
+                    <dateline>Datæ <placeName ref="Uraniborg">Uraniburgi</placeName> April. Anno
+                        1593.</dateline></closer>
             </div>
         </body>
     </text>

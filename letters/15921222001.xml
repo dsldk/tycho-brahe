@@ -61,11 +61,11 @@
                     <date when="1592-12-22"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Moritz, Landgrave of Hesse-Kassel</persName>
+                    <persName xml:lang="da" key="moritz_1572">Moritz, landgreve af Hessen-Kassel</persName><persName xml:lang="en" key="moritz_1572">Moritz, Landgrave of Hesse-Kassel</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 22. december</date></creation>
+            <creation><date xml:lang="da">1592, 22. december.</date><date xml:lang="en">1592, 22 December.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,7 +94,7 @@
                             CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND NIDDA: MEINEM GNEDIGEN
                             HERRN.
                 </opener>
-                <p>
+                <p rend="noIndent">
                     DVRCHLEUCHTIGER/ Hochgeborner/ Gnediger Fürst vnd Herr/
                         Nechst erbietung meiner vntherthenigen willigen Dienste/ sol Ew. F. G. ich
                         vnterthenigklich nicht vorhalten/ Wie dan ohne das sonder zweiffel E. F. G.
@@ -113,7 +114,7 @@
                         brächte/ hab ich denselbigen Botten von hinnen ab in Norwegen abgefertiget/
                         vnd allen müglichen fleiss angewendet/ das mihr fünff sülcher Ellende
                         geschafft würden/ Wie mir von Kuniglicher Majett. in Norwegen Stadthalteren/
-                        meinem Blutsverwanten <hi rend="it"><persName ref="Gyldenstierne, Axel">AXEL
+                        meinem Blutsverwanten <hi rend="it"><persName ref="gyldenstierne_axel_1542">AXEL
                             GVLDENSTERN</persName></hi> zugesagt vnd gehalten ist worden. Von
                         denselbigen fünffen/ die er da wol <pb ed="TBOO" n="VI.338"/>zu passe
                         bekommen/ Hat er mir Zwei/ ein Weiblein vnd ein Menlein lebendig alhie
@@ -154,7 +155,7 @@
                                 <rdg wit="#E">1596</rdg>
                             </app></hi>.</dateline>
                     <signed>Ewer F. G. <lb/> Dienstwilliger<lb/>
-                        TYCHO BRAHE.</signed>
+                        <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
                 </closer>
             </div>
         </body>

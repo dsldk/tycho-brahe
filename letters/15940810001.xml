@@ -33,7 +33,16 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Privat samling i Philadelphia, USA.</settlement>
+                                <repository>empty</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Private collection in Philadelphia, USA.</settlement>
                                 <repository>empty</repository>
@@ -65,7 +74,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 10. aug.</date></creation>
+            <creation><date xml:lang="da">1594, 10. august.</date><date xml:lang="en">1594, 10 August.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-09" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,7 +97,7 @@
         <body>
             <div>
                 <pb ed="TBOO" n="XIV.68"/>
-                <p>JEG Tygge Brahe thill Knudstrup kienndiß och giør witterligt for alle med thette
+                <p rend="noIndent">JEG <persName ref="brahe_tycho_1546">Tygge Brahe</persName> thill Knudstrup kienndiß och giør witterligt for alle med thette
                     mitt obnne breff, att effter som jeg nu haffuer soldt och skiødt till min
                     kierre broder, erllig och welbyrdig manndt <persName ref="brahe_steen_1547">Steenn Brahe</persName> till Knudstrup, min
                     halffpartt aff Knudstrups hoffuittgaardt och grund, och jeg mig dog ther hos
@@ -107,7 +117,7 @@
                 <closer>
                     <dateline>Giffuit vdi Helsingøer thennd <foreign xml:lang="la"><hi rend="it">x
                                 augustj anno</hi></foreign> Mdlxxxxiiij</dateline>
-                    <signed>Thyge<lb/>Brahe (l.s.)<lb/>egen hand<lb/><lb/>Dettleff<lb/>Holck
+                    <signed>Thyge<lb/>Brahe (l.s.)<lb/>egen hand<lb/><lb/><persName ref="holck_ditlev_1556">Dettleff<lb/>Holck</persName>
                         (l.s.)<lb/>egen handtt</signed>
                 </closer>
             </div>

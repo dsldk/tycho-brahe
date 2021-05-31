@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Schleswig</settlement>
                                 <repository>Landesarchiv Schleswig-Holstein</repository>
@@ -40,6 +44,21 @@
                                 <idno>R 119, foll. 1117-1118</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Schleswig</settlement>
+                                <repository>Landesarchiv Schleswig-Holstein</repository>
+                                <collection>Abt. 127.21 (Breitenburg Archive)</collection>
+                                <idno>R 119, foll. 1117-1118</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -63,11 +82,13 @@
                     <date when="1593-01-09"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName><persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
+                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName>
+                    <persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1593, 9. januar</date></creation>
+            <creation><date xml:lang="da">1593, 9. januar.</date><date xml:lang="en">1593, 9
+                    January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,6 +103,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,19 +111,20 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.347"/><persName ref="rantzau_henrik_1526">HENRICO
-                        RANZOVIO</persName> PRODUCI CIMBRICO S. D. TYCHO BRAHE.</opener>
-                <p>QUAMVIS perpaucis abhinc diebus, nobilissime et amantissime Domine <persName
-                        ref="rantzau_henrik_1526">RANZOVI</persName>, ultimis tuis ad me datis literis
-                    nonnihil responderim: facit tamen diutina illa, quæ nobis intercedit, amicitia,
-                    tum negotium etiam quoddam postmodum interveniens, ut te alijs insuper
-                    compellare nihil addubitem; ex quo illam hanc quoque operam superioribus
-                    officijs erga me suis non invite aggregaturam, id vero, quicquid est, tua
-                    auctoritate et adiumento promptissime ac ocijssime istic expeditum iri mihi
-                    persuadeam. Commodum autem accidit, ut meus olim architectus, quem in quibusdam
-                    Astronomicis et Geometricis, dum mecum esset, instruxeram, alias suopte ingenio
-                    ad delineationes artis perspectivæ proclivem, ad me imagines quasdam calamo
-                    repræsentatas, quas frontispicio et calci meorum librorum hîc excudendorum
-                    adiungere constitui, huc ex <app>
+                        RANZOVIO</persName> PRODUCI CIMBRICO S. D. <persName ref="brahe_tycho_1546"
+                        >TYCHO BRAHE</persName>.</opener>
+                <p rend="noIndent">QUAMVIS perpaucis abhinc diebus, nobilissime et amantissime
+                    Domine <persName ref="rantzau_henrik_1526">RANZOVI</persName>, ultimis tuis ad
+                    me datis literis nonnihil responderim: facit tamen diutina illa, quæ nobis
+                    intercedit, amicitia, tum negotium etiam quoddam postmodum interveniens, ut te
+                    alijs insuper compellare nihil addubitem; ex quo illam hanc quoque operam
+                    superioribus officijs erga me suis non invite aggregaturam, id vero, quicquid
+                    est, tua auctoritate et adiumento promptissime ac ocijssime istic expeditum iri
+                    mihi persuadeam. Commodum autem accidit, ut meus olim architectus, quem in
+                    quibusdam Astronomicis et Geometricis, dum mecum esset, instruxeram, alias
+                    suopte ingenio ad delineationes artis perspectivæ proclivem, ad me imagines
+                    quasdam calamo repræsentatas, quas frontispicio et calci meorum librorum hîc
+                    excudendorum adiungere constitui, huc ex <app>
                         <lem wit="#Friis">Hallandia</lem>
                         <rdg wit="#A">Hollandia</rdg>
                     </app> (ubi iam apud <persName ref="Brahe, Jørgen (bror)">fratrem
@@ -119,8 +142,10 @@
                     spero) dignam et utilem elocaveris. Ego si qua in re tibi vicissim <pb ed="TBOO"
                         n="VII.348"/>pro his alijsque affatim erga me exhibitis benevolentiæ
                     officijs inservire queam, faxo ne studium et voluntatem de te pariter, quocunque
-                    modo possum, bene merendi in me unquam desideres. Vale. <placeName
-                        ref="Uraniborg">Uraniburgi</placeName> 9. Ianuarij An. 93.</p>
+                    modo possum, bene merendi in me unquam desideres.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline><placeName ref="Uraniborg">Uraniburgi</placeName> 9. Ianuarij An.
+                        93.</dateline></closer>
             </div>
         </body>
     </text>

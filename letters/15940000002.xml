@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -54,7 +67,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Thomas Craig</persName>
+                    <persName key="craig_thomas_1538">Thomas Craig</persName>
                     <placeName>empty</placeName>
                     <date when="1594-01-01"/>
                 </correspAction>
@@ -79,6 +92,7 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-05" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,11 +100,13 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VII.364"/><pb ed="A" n="52v"/>NOBILI AC GENEROSO DOMINO,
-                    DOMINO TYCHONI BRAHÆ. MAGNIFICE ET GENEROSE DOMINE.</opener>
-                <p><pb ed="A" n="52r"/>GRATA mihi inprimis erat illa mei mentio, quam in literis a
-                    te ad Clarissimum Dominum <persName ref="young_peter_1544">IUNIUM</persName> Serenissimi
-                        <persName ref="james_6_1566">Regis</persName> consiliarium et iam apud vos
-                    legatum missis perlegeram. Nam licet mihi probe conscius essem, <app>
+                    DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHÆ</persName>. MAGNIFICE ET
+                    GENEROSE DOMINE.</opener>
+                <p rend="noIndent"><pb ed="A" n="52r"/>GRATA mihi inprimis erat illa mei mentio,
+                    quam in literis a te ad Clarissimum Dominum <persName ref="young_peter_1544"
+                        >IUNIUM</persName> Serenissimi <persName ref="james_6_1566">Regis</persName>
+                    consiliarium et iam apud vos legatum missis perlegeram. Nam licet mihi probe
+                    conscius essem, <app>
                         <lem>minime</lem>
                         <rdg><note><q>minimum</q> fortasse A</note></rdg>
                     </app> me concernere, quæ de me scripseras, tamen laudari a tali viro, in quo
@@ -115,13 +131,15 @@
                     flammis mandare velis, sive mari Adriano, utrumvis pro tuo arbitrio expectabis.
                     Interea me tui amantissimum et in eo nulli concedentem in futurum pro tuo
                     amplectere. Deus optimus maximus in omnibus rebus tuis gerendis semper adsit,
-                    semper te et tua gubernet precor. Vale.</p>
-                <lb/>
-                <p rend="rightMargin">Tui semper observantissimus<lb/><persName ref="Craig, Thomas"
-                        >THO. CRAGIUS</persName><lb/>Doctor Medicus.</p>
-                <lb/>
-                <p>Expectant nostri omnes tuum de felicissima et auspicatissima principis nostri
-                    genesi iudicium. </p>
+                    semper te et tua gubernet precor.</p>
+                <closer><salute>Vale.</salute>
+                    <signed>Tui semper observantissimus<lb/><persName ref="craig_thomas_1538">THO.
+                            CRAGIUS</persName><lb/>Doctor Medicus.</signed></closer>
+
+                <postscript>
+                    <p>Expectant nostri omnes tuum de felicissima et auspicatissima principis nostri
+                        genesi iudicium. </p>
+                </postscript>
             </div>
         </body>
     </text>

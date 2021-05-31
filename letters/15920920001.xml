@@ -71,7 +71,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1592, 20. september</date></creation>
+            <creation><date xml:lang="da">1592, 20. september.</date><date xml:lang="en">1592, 20 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,6 +86,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-02-17" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -94,7 +95,7 @@
                 <opener>
                     <pb ed="TBOO" n="VI.305"/><pb
                         ed="E" n="273"/>ILLVSTRISSIMO PRINCIPI AC DOMINO, DOMINO
-                        WILHELMO, LANDTGRAVIO HASSIÆ, COMITI IN CATZENELLEBOGEN, DIETZ, ZIGENHAIN ET
+                    <persName ref="wilhelm_4_1532">WILHELMO</persName>, LANDTGRAVIO HASSIÆ, COMITI IN CATZENELLEBOGEN, DIETZ, ZIGENHAIN ET
                         NIDDA: PRINCIPI AC <app>
                             <lem>DOMINO</lem>
                             <rdg><note>post <q>DOMINO</q> add. <q>SUO</q> M</note></rdg>
@@ -102,7 +103,7 @@
                             <lem>S. D.</lem>
                             <rdg><note>om. M</note></rdg>
                         </app></opener>
-                <p>LITERAS Celsit. tuæ, Illustrissime Princeps, circa Aprilis auspicia per <app>
+                <p rend="noIndent">LITERAS Celsit. tuæ, Illustrissime Princeps, circa Aprilis auspicia per <app>
                     <lem>proprium</lem>
                     <rdg><note>post <q>proprium</q> add. <q>suum </q> M</note></rdg>
                 </app> Tabellarium ad me destinatas iuxta <app>
@@ -116,7 +117,7 @@
                         <lem>Nobilissimi viri</lem>
                         <rdg><note>om. M</note></rdg>
                     </app>
-                    <persName ref="Gyldenstierne, Axel">AXILLI GVLDENSTERN</persName> Regij in
+                    <persName ref="gyldenstierne_axel_1542">AXILLI GVLDENSTERN</persName> Regij in
                     <placeName ref="Norway">Noruegia</placeName> Vicarij <app>
                         <lem>literæ</lem>
                         <rdg><note>om. M</note></rdg>
@@ -126,7 +127,7 @@
                         <lem>scribebat</lem>
                         <rdg wit="#M">ajebat</rdg>
                     </app>, possentne terrestri huc itinere perduci, periculum fieri curare. Scripsi
-                    nihilominus eidem <persName ref="Gyldenstierne, Axel">AXILLO</persName> semel
+                    nihilominus eidem <persName ref="gyldenstierne_axel_1542">AXILLO</persName> semel
                     atque iterum, iamque antea mihi factas pollicitationes illi in memoriam
                     reuocaui. Verum is neque terrenis locis, conuallibus vndique inuijs, et
                     confragosis rupibus armentis illis transitum difficiliorem reddentibus, <pb
@@ -164,11 +165,11 @@
                     fuisse, vt non absque his <app>
                         <lem>rediret</lem>
                         <rdg wit="#M">domum reviseret</rdg>
-                    </app>. Sed quamuis prædictus hic <persName ref="Gyldenstierne, Axel"
+                    </app>. Sed quamuis prædictus hic <persName ref="gyldenstierne_axel_1542"
                         >AXILLVS</persName> expectatione nostra serius, vtpote circa Mensis huius
                     ingressum, huc aduentârit; Peropportune tamen accidit, vt ad idem fere tempus,
                     quo alter T. C. nuntius, posteriores literas de eadem re me commonefacientes
-                    asportârit, <persName ref="Gyldenstierne, Axel">AXILLVS</persName> e <placeName
+                    asportârit, <persName ref="gyldenstierne_axel_1542">AXILLVS</persName> e <placeName
                         ref="Norway">Noruegia</placeName>
                     <app>
                         <lem>huc</lem>
@@ -218,7 +219,7 @@
                     expectationi, iam tandem, quantum in nobis erat, <app>
                         <lem>satisfecerimus</lem>
                         <rdg wit="#M">satisfactum siet</rdg>
-                    </app>. Retulit autem <persName ref="Gyldenstierne, Axel">Consanguineus ille
+                    </app>. Retulit autem <persName ref="gyldenstierne_axel_1542">Consanguineus ille
                         meus</persName>, cum hîc præsto esset, <app>
                             <lem>vnam inter istas</lem>
                             <rdg wit="#M">unum inter istos qvos</rdg>
@@ -266,7 +267,7 @@
                     <dateline>Datæ <placeName ref="Uraniborg">Vraniburgi</placeName>, 20. Septemb.
                         Anno 1592.</dateline>
                     <signed><app>
-                        <lem>Celsit.<lb/>T. Addictiss.<lb/>TYCHO BRAHE.</lem>
+                        <lem>Celsit.<lb/>T. Addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</lem>
                         <rdg><note>subscriptionem <q>Tuæ Cels. addictiss. Tycho Brahe</q> ipsius
                             manu praebet M</note></rdg>
                     </app></signed>

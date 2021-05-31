@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.23</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10686.23</idno>
@@ -78,6 +91,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-31" who="#pz">Filen etableret</change>
+            <change when="2021-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,17 +100,17 @@
             <div>
                 <opener><pb ed="TBOO" n="VII.342"/><pb ed="A" n="2v"/>CLARISSIMO, VARIOQUE
                     DOCTRINARUM GENERE ERUDITISSIMO EXCELLENTISSIMOQUE VIRO, DOMINO <persName
-                        ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName> AB HAYCK, PHILOSOPHIÆ
-                    ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO IN PRIMIS COLENDO.</opener>
-                <p><pb ed="A" n="1r"/>QUAMVIS mi amantissime Domine D. <persName
-                        ref="hagecius_thaddaeus_1525">THADDÆE</persName>, nihil a te literarum tota hac
-                    elapsa æstate acceperim, te tamen incolumi, Deo vitam tibi feliciter prorogante,
-                    adhuc esse valetudine spero et ex animo exopto. Ego diutinam hanc literarum
-                    intermissionem nequaquam inde accidisse reor, quod vel tu præter solitum tam diu
-                    a scribendo plane cessaveris aut ad meas, quas interea ad te destinâram, nihil
-                    omnino responderis; sed (uti alias contigit) ob Tabellariorum perfidiam et
-                    incuriam, si quas ad me (prout nihil ambigo) dederis, intercidisse, aut in
-                    tanta, quibus disiungimur, <app>
+                        ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName> AB HAYCK,
+                    PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO IN PRIMIS COLENDO.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>QUAMVIS mi amantissime Domine D. <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆE</persName>, nihil a te literarum tota
+                    hac elapsa æstate acceperim, te tamen incolumi, Deo vitam tibi feliciter
+                    prorogante, adhuc esse valetudine spero et ex animo exopto. Ego diutinam hanc
+                    literarum intermissionem nequaquam inde accidisse reor, quod vel tu præter
+                    solitum tam diu a scribendo plane cessaveris aut ad meas, quas interea ad te
+                    destinâram, nihil omnino responderis; sed (uti alias contigit) ob Tabellariorum
+                    perfidiam et incuriam, si quas ad me (prout nihil ambigo) dederis, intercidisse,
+                    aut in tanta, quibus disiungimur, <app>
                         <lem>locorum</lem>
                         <rdg resp="#TBOO">lo corum</rdg>
                     </app> intercapedine alicubi interceptas fuisse suspicor; præsertim cum in
@@ -124,11 +138,11 @@
                     feliciter adiuvante, futurum confido) mox omnibus numeris absolutum istuc
                     transportari curabo.</p>
                 <p rend="indent">Sed quas iam, præstantissime vir, bullatas nænias ad te adduco? En
-                        <persName ref="craig_john_1620">CRAIGI</persName> istius scriptum admodum insolens ac
-                    scopticum, quo se omnia, quæ in libro nostro secundo de Æthereis sunt
-                    Phænomenis, atque Apologia illi hoc nomine destinata, refutare atque infirmare
-                    perfricta fronte iactârit; cum tamen ne minimum quidem eorum apud eos, qui non
-                    cæco præiudicio, sed solidis rationibus hæc metiuntur, vacillare faciat.
+                        <persName ref="craig_john_1620">CRAIGI</persName> istius scriptum admodum
+                    insolens ac scopticum, quo se omnia, quæ in libro nostro secundo de Æthereis
+                    sunt Phænomenis, atque Apologia illi hoc nomine destinata, refutare atque
+                    infirmare perfricta fronte iactârit; cum tamen ne minimum quidem eorum apud eos,
+                    qui non cæco præiudicio, sed solidis rationibus hæc metiuntur, vacillare faciat.
                     Usqueadeo vir ille Aristotelis de Cometarum generatione fumositatibus, suisque
                     præiudicatis opinionibus occæcatus est, ut non modo nostra <pb ed="TBOO"
                         n="VII.343"/>penitus <pb ed="A" n="1v"/>improbare, invertere, distrahere,
@@ -142,21 +156,21 @@
                         <rdg wit="#A">palæstria</rdg>
                     </app> Astronomica exantlatis laboribus, sed quod tam studiose ipsum <persName
                         ref="james_6_1566">Regi Scotorum</persName>, cum hîc mecum præsto esset, et
-                        <persName ref="maitland_john_1537">Cancellario</persName> (ut ex ipsius ad me data
-                    Epistola, cuius descriptum unâ ad te mitto, plenius cognosces) tum coram tum per
-                    literas iterum atque iterum commendârim, gratiam nunc reporto. At ingratus, qui
-                    bene merita non reddit, ingratior, qui dissimulat aut negat; sed omnium
-                    ingratissimus, qui beneficium maleficio recompensat. Verum de hoc novo Prometheo
-                    et vanissimo Capnuranicæ restinctionis compilatore satis.</p>
-                <p rend="indent">A te autem, mi exoptatissime <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆE</persName>, in primis desidero, ut scriptum hoc magnifico Domino
-                        <persName ref="Curtius">CURTIO</persName>, siquando per alias graviores
-                    quibus vacat occupationes tantum temporis concedatur, legendum exhibeas, ut inde
-                    liquido perspiciat Peripateticum hunc Athletam non propterea tam fastuoso et
-                    pertinaci subinde certamine manus mecum conserere, quasi hoc pacto veritatem
-                    plenius inveniri, stabiliri aut illustrari omnibus nervis contenderet; sed ut
-                    inventam potius calumnijs et cavillis labefactare, et suarum opinionum ac
-                    errorum laqueis <app>
+                        <persName ref="maitland_john_1537">Cancellario</persName> (ut ex ipsius ad
+                    me data Epistola, cuius descriptum unâ ad te mitto, plenius cognosces) tum coram
+                    tum per literas iterum atque iterum commendârim, gratiam nunc reporto. At
+                    ingratus, qui bene merita non reddit, ingratior, qui dissimulat aut negat; sed
+                    omnium ingratissimus, qui beneficium maleficio recompensat. Verum de hoc novo
+                    Prometheo et vanissimo Capnuranicæ restinctionis compilatore satis.</p>
+                <p rend="indent">A te autem, mi exoptatissime <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆE</persName>, in primis desidero, ut
+                    scriptum hoc magnifico Domino <persName ref="kurz_jacob_1554">CURTIO</persName>,
+                    siquando per alias graviores quibus vacat occupationes tantum temporis
+                    concedatur, legendum exhibeas, ut inde liquido perspiciat Peripateticum hunc
+                    Athletam non propterea tam fastuoso et pertinaci subinde certamine manus mecum
+                    conserere, quasi hoc pacto veritatem plenius inveniri, stabiliri aut illustrari
+                    omnibus nervis contenderet; sed ut inventam potius calumnijs et cavillis
+                    labefactare, et suarum opinionum ac errorum laqueis <app>
                         <lem wit="#TBOO">irretitam</lem>
                         <rdg wit="#A">irrititam</rdg>
                     </app> in pristinas ignorantiæ tenebras reducere queat. Peto insuper ut
@@ -172,14 +186,16 @@
                     relinquam. Tu, si quid ad me (id quod magnopere a te expeto) antequam navigatio
                     ob frigoris inclementiam interclusa fuerit, rescripseris, id commode <placeName
                         ref="Rostock">Rostochium</placeName> ad D. D. <persName
-                        ref="Brucaeus, Heinrich">BRUCÆUM</persName> vel <placeName ref="Lübeck"
+                        ref="brucaeus_heinrich_1530">BRUCÆUM</persName> vel <placeName ref="Lübeck"
                         >Lubecam</placeName> ad D. D. <persName ref="Sagerus">IOHANNEM
                         SAGERUM</persName> communem nostrum amicum dirigere poteris. Inde postea ad
-                    me per occasionem tuto et certo facile perferetur. Vale. Datas <placeName
-                        ref="Uraniborg">Uraniburgi</placeName> 28. Septembris Anno 1592.</p>
-                <p rend="indent">Quæso ut salutes meo nomine magnificum Dominum <persName
-                        ref="Curtius">CURTIUM</persName> quam officiosissime. </p>
-                <p rend="rightMargin">Tuus TYCHO BRAHE.</p>
+                    me per occasionem tuto et certo facile perferetur.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Datas <placeName ref="Uraniborg">Uraniburgi</placeName> 28. Septembris
+                        Anno 1592.</dateline><salute>Quæso ut salutes meo nomine magnificum Dominum
+                            <persName ref="kurz_jacob_1554">CURTIUM</persName> quam
+                        officiosissime.</salute><signed>Tuus <persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

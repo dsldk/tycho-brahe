@@ -33,12 +33,21 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Københavns Universitets Arkiv</collection>
                                 <idno>[gammel signatur (VP) nr. 501]</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Københavns Universitets Arkiv</collection>
+                                <idno>[old signature (VP) nr. 501]</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc></witness>
@@ -61,11 +70,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Rektor og professorerne ved Københavns Universitet</persName>
+                    <persName xml:lang="da">Rektor og professorerne ved Københavns Universitet</persName><persName xml:lang="en">The rector and the professors at Copenhagen University</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1594, 7. dec.</date></creation>
+            <creation><date xml:lang="da">1594, 7. december.</date><date xml:lang="en">1594, 7 December.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -80,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-10" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,7 +101,7 @@
                     OC HEDERLIGE OC HØYLERDE <foreign xml:lang="la"><hi rend="it"
                         >PROFESSORIBUS</hi></foreign> Y KIØBENHAFFNS VNIUERSITET, MINE SYNDERLIGE
                     GODE WENNER, GANDSKE WENLIGENN THILLSCHREFFUIT.</opener>
-                <p><foreign xml:lang="la"><hi rend="it">MAGNIFICE d:ne rector</hi></foreign>
+                <p rend="noIndent"><foreign xml:lang="la"><hi rend="it">MAGNIFICE d:ne rector</hi></foreign>
                     och hederlige och høylerde <foreign xml:lang="la"><hi rend="it">professores</hi></foreign> vdj Kiøbenhaffns
                     <hi rend="it">vniversitet</hi>, synderlige gode venner. Nest min wenlig tacksigelse for allt beuiist
                     gode, huilchet at forskylle ieg stedße vill findis aff formuenn willig,
@@ -134,7 +144,7 @@
                 <closer>
                     <dateline><foreign xml:lang="la"><hi rend="it">Datum Vraniborg</hi></foreign> den 7. dag
                             <foreign xml:lang="la"><hi rend="it">decembris a:o</hi></foreign> 94.</dateline>
-                    <signed><foreign xml:lang="la"><hi rend="it">Tycho Brahe<lb/>manu pp:a.</hi></foreign></signed>
+                    <signed><foreign xml:lang="la"><hi rend="it"><persName ref="brahe_tycho_1546">Tycho Brahe</persName><lb/>manu pp:a.</hi></foreign></signed>
                 </closer>
             </div>
         </body>

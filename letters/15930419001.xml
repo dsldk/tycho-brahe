@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,6 +40,21 @@
                                 <idno>cod. Vindob. lat. 10686.16</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.16</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +74,11 @@
                     <date when="1593-04-19"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jacob Curtius</persName>
+                    <persName key="kurz_jacob_1554">Jacob Curtius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1593, 19. april</date></creation>
+            <creation><date xml:lang="da">1593, 19. april.</date><date xml:lang="en">1593, 19 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +93,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,9 +102,9 @@
             <div>
                 <opener><pb ed="TBOO" n="VII.348"/><pb ed="A" n="2r"/>MAGNIFICO AMPLISSIMOQUE VIRO,
                     NOBILITATE GENERIS, PRUDENTIA ATQUE ERUDITIONE ADMODUM CONSPICUO DOMINO
-                    <persName ref="Curtius">IACOBO CURTIO</persName> A SENFFTENAV, CÆSAREÆ MAIESTATIS CONSILIARIO ATQUE IMPERIJ
+                    <persName ref="kurz_jacob_1554">IACOBO CURTIO</persName> A SENFFTENAV, CÆSAREÆ MAIESTATIS CONSILIARIO ATQUE IMPERIJ
                     PROCANCELLARIO DIGNISSIMO, AMICO SUO IN PRIMIS HONORANDO. S.</opener>
-                <p><pb ed="A" n="1r"/>MAGNIFICE et generosissime Domine <persName ref="Curtius">CURTI</persName>, amice summopere
+                <p rend="noIndent"><pb ed="A" n="1r"/>MAGNIFICE et generosissime Domine <persName ref="kurz_jacob_1554">CURTI</persName>, amice summopere
                     colende, non sine grata mente et memoria vetera tua in me præstita officia
                     etiamnum recolo et amplector, dum tua, qua plurimum vales apud augustissimam
                     Cæsaream Maiestatem, auctoritate et consilio, amplissicum , huius Maiestatis
@@ -120,7 +136,7 @@
                     contradictiones ita pro summa animi tui ingenuitate excusaveris, ac si id ille
                     eiusque similes vellent, ut simulate obiectiones quasdam speciosas proponendo
                     pleniorem et exactiorem harum rerum doctrinam publici commodi et posterorum
-                    gratia extorquerent. Illum enim rem serio agere et pro <persName ref="Aristoteles">ARISTOTELE</persName> suo tanquam
+                    gratia extorquerent. Illum enim rem serio agere et pro <persName ref="aristoteles_0384">ARISTOTELE</persName> suo tanquam
                     pro aris et focis pugnare, hinc non obscure animadvertes. Rogo itaque T. M. ut
                     antagonisticam hanc compilationem, utut pretiosissimis suis otijs indignam,
                     diligentius <pb ed="A" n="1v"/>introspicere, mecumque unâ de hac gravissimum
@@ -152,10 +168,8 @@
                     illustre quod sustines officium indesinenter occupatum, meis his literis nimium
                     interpellem, pluribus supersedeo. Vale et amicitiam nostram semel per literas
                     incoatam, ijsdem, siquidem aliter fieri nequit, conservare et stabilire non
-                    gravere. Quod et vicissim a me expectabis. Iterum quam felicissime vale. Datæ
-                    <placeName ref="Uraniborg">Uraniburgi</placeName> 19. Aprilis Anno 1593.</p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE.</p>
+                    gravere. Quod et vicissim a me expectabis.</p> <closer><salute>Iterum quam felicissime vale.</salute> <dateline>Datæ
+                    <placeName ref="Uraniborg">Uraniburgi</placeName> 19. Aprilis Anno 1593.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>
