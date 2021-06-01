@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Tycho Brahe</author>
+                <author>Christian 4.</author>
                 <editor>
                     <name xml:id="lrp">
                         <persName>
@@ -32,10 +32,22 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
                                 <collection>Langebeks Diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
@@ -57,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christian d. 4</persName>
+                    <persName key="christian_4_1577">Christian d. 4</persName>
                     <placeName xml:lang="da">København</placeName><placeName xml:lang="en">Copenhagen</placeName>
                     <date when="1597-10-08"/>
                 </correspAction>
@@ -66,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597-10-08</date></creation>
+            <creation><date xml:lang="da">1597, 8. oktober.</date><date xml:lang="en">1597, 8 October.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -83,16 +95,17 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-16" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-18" who="#pz">Korrektur</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.121"/>OS ELSCHELIGE ERLIGE OG VELBIURDIG MAND TYGE
-                    BRAHE TIL KNUDSTRUP, VOR MAND OG TIENER.</opener>
+                <opener><pb ed="TBOO" n="XIV.121"/>OS ELSCHELIGE ERLIGE OG VELBIURDIG MAND <persName ref="brahe_tycho_1546">TYGE
+                    BRAHE</persName> TIL KNUDSTRUP, VOR MAND OG TIENER.</opener>
 
-                <p><persName ref="Christian 4.">CHRISTIAN den 4.</persName>, med Guds naade
+                <p rend="noIndent"><persName ref="christian_4_1577">CHRISTIAN den 4.</persName>, med Guds naade
                     Danmarkes, Norges, Wendis og Gottis konning. Vor gunst tilforn. Vid, at thin
                     skriffvelße, som du Os tilschreffvet haffver sub dato <placeName ref="Rostock"
                         >Rostoch</placeName> den 10. dag julij sidst forleden, er Os nu i thenne uge
@@ -184,7 +197,7 @@
                     <dateline>Skreffvet paa Vort slot <placeName ref="København"
                             >Kiøbenhaffn</placeName> thend 8. <hi rend="it">octobr: a:o</hi> 1597.
                         Vnder Vort <hi rend="it">signet</hi>.</dateline>
-                    <signed><persName ref="Christian 4.">Christian</persName>.</signed></closer>
+                    <signed><persName ref="christian_4_1577">Christian</persName>.</signed></closer>
             </div>
         </body>
     </text>

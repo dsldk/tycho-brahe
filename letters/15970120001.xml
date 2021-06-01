@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,9 +41,21 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Transscript</ab>
+                                <ab>Afskrift</ab>
                             </physDesc>
-                        </msDesc></witness>
+                        </msDesc>
+                            <msDesc xml:lang="en">
+                                <msIdentifier>
+                                    <settlement>Copenhagen</settlement>
+                                    <repository>Danish National Archives (Rigsarkivet)</repository>
+                                    <collection>Langebeks Diplomatarium</collection>
+                                    <idno>empty</idno>
+                                    <msName>empty</msName>
+                                </msIdentifier>
+                                <physDesc>
+                                    <ab>Transscript</ab>
+                                </physDesc>
+                            </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. XIV, Hauniæ 1929, p. 101-102, no. 115</bibl>
@@ -57,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christian Friis</persName>
+                    <persName key="friis_christian_1556">Christian Friis</persName>
                     <placeName>Kolding</placeName>
                     <date when="1597-01-20"/>
                 </correspAction>
@@ -66,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 20. jan.</date></creation>
+            <creation><date xml:lang="da">1597, 20. januar.</date><date xml:lang="en">1597, 20 January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +95,7 @@
             <change when="2020-09-03" who="#pz">Filen etableret</change>
             <change when="2020-09-07" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-16" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -92,7 +105,7 @@
                 <opener><pb ed="TBOO" n="XIV.101"/>NOBILISSIMO VIRO, DOMINO <hi rend="it">TYCHONI BRAHEN</hi>, HÆREDI
                     IN KNUDSTRUP, AMICO SUO CHARISSIMO.</opener>
 
-                <p>S. Quæ apud serenissimum regem, dominum nostrum clementissimum, nobilissime
+                <p rend="noIndent">S. Quæ apud serenissimum regem, dominum nostrum clementissimum, nobilissime
                     <hi rend="it">Tycho</hi>, amice charissime, tibi a me
                     duplici in negocio effecta dari cupis, ea ex literis tuis, quæ mihi una cum
                     exemplo literarum magnificorum regni senatorum redditæ sunt, intellexi, utque
@@ -116,7 +129,7 @@
                     plane confido, teque quam diutissime vivere et valere ex amino precor.</p> <closer><dateline>Dabantur
                         <placeName ref="Kolding">Coldingi</placeName> xx. januarii 1597.</dateline>
                 
-                    <signed><persName ref="Friis, Christian">Christianus Friis</persName>,<lb/>
+                    <signed><persName ref="friis_christian_1556">Christianus Friis</persName>,<lb/>
                manu pp:a</signed>.</closer>
             </div>
         </body>

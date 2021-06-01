@@ -13,29 +13,37 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <bibl>Ex apographo manu scripto in exemplo Abr. Sculteti <title>Sphæricorum
-                                librorum trium</title> et Bart. Pitisci libri <title>De solutione
-                                triangulorum</title> in bibliotheca Academiæ polytechnicæ Turicensis
-                            asservato</bibl></witness>
+                        <bibl xml:lang="da">Håndskrevet afskrift i et eksemplar af Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title> og Bart. Pitiscus,
+                                <title>De solutione triangulorum</title> Eidgenössische Technische
+                            Hochschule Zürich</bibl>
+                        <bibl xml:lang="da">Transscript in a copy of Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title> and Bart. Pitiscus,
+                                <title>De solutione triangulorum</title> in Swiss Federal Institute
+                            of Technology in Zürich</bibl></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
                             Tom. VII, Hauniæ 1924, p. 377</bibl>
@@ -54,11 +62,12 @@
                     <date when="1596-02-19"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Cort Aslaksen</persName>
+                    <persName key="aslakssøn_cort_1564">Cort Aslaksen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1596, 19. februar</date></creation>
+            <creation><date xml:lang="da">1596, 19. februar.</date><date xml:lang="en">1596, 19
+                    February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -74,20 +83,24 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-06" who="#pz">Filen færdig</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.377"/>M. <persName ref="aslakssøn_cort_1564">CUNRADO ASLACIO</persName> BERGENSI.</opener>
-                <p>... Doctissimi illius <persName ref="Pitiscus">B. PITISCI</persName> de Triangulis acutum et compendiosum libellum
-                    lubens accepi, rogoque ut illi ex me gratias agas. Optarem plures eiuscemodi
-                    concionatores reperiri, qui Geometrica gnaviter callerent, forte plus esset in
-                    ijs circumspecti et solidi iudicij, rixarum inanium et logomachiarum minus. Si
-                    is mihi aliquando scripserit et de hisce studijs contulerit, inveniet
-                    responsorem non invitum. Idem apud alios eruditos viros, quos scis emunctioris
-                    nasi, effice. 19. Febr. 1596 <placeName ref="Uraniborg">Uraniburgi</placeName>.</p>
+                <opener><pb ed="TBOO" n="VII.377"/>M. <persName ref="aslakssøn_cort_1564">CUNRADO
+                        ASLACIO</persName> BERGENSI.</opener>
+                <p rend="noIndent">... Doctissimi illius <persName ref="Pitiscus">B. PITISCI</persName> de
+                    Triangulis acutum et compendiosum libellum lubens accepi, rogoque ut illi ex me
+                    gratias agas. Optarem plures eiuscemodi concionatores reperiri, qui Geometrica
+                    gnaviter callerent, forte plus esset in ijs circumspecti et solidi iudicij,
+                    rixarum inanium et logomachiarum minus. Si is mihi aliquando scripserit et de
+                    hisce studijs contulerit, inveniet responsorem non invitum. Idem apud alios
+                    eruditos viros, quos scis emunctioris nasi, effice.</p>
+                <closer><dateline>19. Febr. 1596 <placeName ref="Uraniborg"
+                        >Uraniburgi</placeName>.</dateline></closer>
             </div>
         </body>
     </text>

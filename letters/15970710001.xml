@@ -32,10 +32,22 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
+                                <collection>Langebeks Ekscerpter</collection>
+                                <idno>nr. 178</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
                                 <collection>Langebeks Ekscerpter</collection>
                                 <idno>nr. 178</idno>
                                 <msName>empty</msName>
@@ -45,10 +57,22 @@
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
                                 <collection>Langebeks Diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
@@ -75,11 +99,11 @@
                     <date when="1597-07-10"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christian 4.</persName>
+                    <persName key="christian_4_1577">Christian 4.</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 10. juli</date></creation>
+            <creation><date xml:lang="da">1597, 10. juli.</date><date xml:lang="en">1597, 10 July.</date></creation>
             <langUsage>
                 <language ident="da"/>
             </langUsage>
@@ -96,15 +120,15 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-21" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-14" who="#pz">korrekturlæst. Tekstkritik rettet til</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.108"/>empty</opener>
 
-                <p><app>
+                <pb ed="TBOO" n="XIV.108"/><p rend="noIndent"><app>
                         <lem>STUORMECTIGE</lem>
                         <rdg><note>Annotavit Oligerus Rosenkrantzius in B: <q><foreign xml:lang="la"
                                         >Exordium videtur affectuosius esse præmittendum, ne animo
@@ -125,13 +149,13 @@
                                     sig saa haffde kundet begiffwe, endeligen haffde wdj sinde
                                     mundtligen att giffwe Eders K:
                                         M: thillkiende.</q></note></rdg>
-                </app> hoyeborne allernaadigste <persName ref="Christian 4.">herre</persName>. Nest min villige och troff thienistis
-                    vnderdanige formelding <persName ref="Christian 4.">E: M:</persName> giffuer ieg
+                </app> hoyeborne allernaadigste <persName ref="christian_4_1577">herre</persName>. Nest min villige och troff thienistis
+                    vnderdanige formelding <persName ref="christian_4_1577">E: M:</persName> giffuer ieg
                     paa det vnderdanigste thilkende, at som ieg ingen leylighedt haffde att komme
-                        <persName ref="Christian 4.">E: K: M:</persName> thil orde, førend ieg
-                    affdrog, och ey viste, om dett kunde vere <persName ref="Christian 4.">E: K:
+                        <persName ref="christian_4_1577">E: K: M:</persName> thil orde, førend ieg
+                    affdrog, och ey viste, om dett kunde vere <persName ref="christian_4_1577">E: K:
                         M:</persName> angenem eller icke, saa foraarsagis ieg nu <persName
-                        ref="Christian 4.">E: K: M:</persName> paa dett korteste schrifftligen att
+                        ref="christian_4_1577">E: K: M:</persName> paa dett korteste schrifftligen att
                     lade vide, huis ieg ellers mundtligen haffde y sinde vnderdanigst att
                     berette.</p>
                 <p rend="indent">Daa, effthersom ieg aff vngdommen haffuer haffdt sønderlig
@@ -142,7 +166,7 @@
                                         voce hac infinita suspendatur animus, malim pro ea
                                         substitui</foreign>: wdj dett første.</q></note></rdg>
                     </app> att bliffue vdi <placeName ref="Germany">Tysklandt</placeName>
-                    bequemmeligen dett att vdrette, saa haffuer <persName ref="Christian 4.">E: K:
+                    bequemmeligen dett att vdrette, saa haffuer <persName ref="christian_4_1577">E: K:
                         M:</persName> herre <persName ref="frederik_2_1534">fader</persName>, hoyeloufflige ihukommelse, der <persName
                         ref="frederik_2_1534">Hans Mayt:</persName> saadant fornam, naadigste begerit
                     och bevegitt mig till ditt samme paa <placeName ref="Hven">Huæn</placeName> att
@@ -156,7 +180,7 @@
                                     ergo: der medt giffwendes thillkiende, att ieg for min
                                     person dett helst etc.</q></note></rdg>
                     </app>
-                    Och haffde <persName ref="Christian 4.">E: K: M:</persName> herre <app>
+                    Och haffde <persName ref="christian_4_1577">E: K: M:</persName> herre <app>
                         <lem><persName ref="frederik_2_1534">fader</persName></lem>
                         <rdg><note>Annotavit Oligerus Rosenkrantzius in B: <q>Jnserj haud inepte poterit: aff synderlig
                                     kongelig och rømlige thillgeneyenhedt thill samme astronomiske
@@ -165,7 +189,7 @@
                     samme konst schulle medt en <hi rend="it">fundatz</hi> nødtorffteligen forsørgis
                     och <hi rend="it">perpetueris</hi>, med flere <pb ed="TBOO" n="XIV.109"/>guode
                     wilkaar, som mig bleff naadigste thilsagdt. Huilchet <persName
-                        ref="Christian 4.">E: K: M:</persName> frue <persName ref="Sophie af Mecklenburg">moder</persName>, min naadigste droning, vden tuiffvell endnu dragis
+                        ref="christian_4_1577">E: K: M:</persName> frue <persName ref="Sophie af Mecklenburg">moder</persName>, min naadigste droning, vden tuiffvell endnu dragis
                     thil minde, och thilforn hoes Dannemarchis raadt haffuer ladit thilkende giffue,
                     saa ieg derfor haffuer bekommit det hele Dannemarchis riges raadz obne pergmentz
                     breff, som mig saadant haffuer <hi rend="it">confirmerit</hi> och viidere <app>
@@ -178,14 +202,14 @@
                                     och thill det beste forhielpe mig fortrøstet.</q></note></rdg>
                     </app> fortrøstitt. Huorudoffuer ieg siden haffuer giordt en vsigelige stuoer
                     vmage och bekaastning ydermere end thilforn forhaabendis, att naar <persName
-                        ref="Christian 4.">E:K:M:</persName> kom thil <app>
+                        ref="christian_4_1577">E:K:M:</persName> kom thil <app>
                         <lem>regimentztidt</lem>
                         <rdg><note>Inseruit Oligerus Rosenkrantzius in B: <q>E: K: M:</q></note></rdg>
                     </app>, schulde da haffue en naadigste behag dertill, och lade mig och mine nyde
                     dett gott att. 
                         Men nu haffuer dett sig anderledis tildragitt en ieg haffde troffuit,
                             huorudom ieg vil nu vformeldit lade videre omstendt.</p>
-                <p rend="indent"><app><lem><persName ref="Christian 4.">E: K: M:</persName> er vden tuiffvel
+                <p rend="indent"><app><lem><persName ref="christian_4_1577">E: K: M:</persName> er vden tuiffvel
                     bevist, att ieg er affschildt med huis</lem>
                         <rdg><note>Annotavit Oligerus Rosenkrantzius in B: <q><foreign xml:lang="la"
                                         >Rigide nimis, hac ergo transi[ti]one leniendum
@@ -200,7 +224,7 @@
                                     da ieg nu der om vnderdanigst igien anlangede, haffwer ieg dette
                                         E: K: M: endelig
                                     swar skrifftligen igien bekommett.</q></note></rdg>
-                    </app>, att <persName ref="Christian 4.">E:K:M:</persName> war icke til sindz <app>
+                    </app>, att <persName ref="christian_4_1577">E:K:M:</persName> war icke til sindz <app>
                         <lem>saadant</lem>
                         <rdg><note>Inseruit Oligerus Rosenkrantzius in B: <q>widre</q></note></rdg>
                     </app> att ville holde ved macht, foruden <app>
@@ -236,7 +260,7 @@
                     alligvel nøddis thil att affhende alt mitt fæderne guodtz. Forseer ieg <app>
                         <lem>mig</lem>
                         <rdg><note>Inseruit Oligerus Rosenkrantzius in B: <q>derfor</q></note></rdg>
-                    </app> till, att <persName ref="Christian 4.">E: K: M:</persName> naadigste
+                    </app> till, att <persName ref="christian_4_1577">E: K: M:</persName> naadigste
                     anseer saadan min nødtorfftighedt och icke tager denne min vdreyße thil nogen
                     vnaade, efftherdi att ieg aff diße och flere aarsager saa hoyeligen trengdis att
                     søge anden middel och raadt, att dett som well er begyndt kand bliffue
@@ -257,7 +281,7 @@
                                     och astronomiske kunst wilde bekaaste och
                             forfremme.</q></note></rdg>
                     </app>
-                    <persName ref="Christian 4.">E: K: M:</persName> eller rigett formøgitt thil
+                    <persName ref="christian_4_1577">E: K: M:</persName> eller rigett formøgitt thil
                     besuering. Dersom dett <app>
                         <lem>kunde</lem>
                         <rdg>Immutavit Oligerus Rosenkrantzius in B in: <q>ellers</q></rdg>
@@ -274,7 +298,7 @@
                         <rdg><note>Immutavit Oligerus Rosenkrantzius in B in: <q>kunde
                             wdføre</q></note></rdg>
                     </app>, vil ieg dett icke forsige; thi ieg endnu som thilforn alsomhelst
-                        <persName ref="Christian 4.">E: K: M</persName> for nogen andre potentater,
+                        <persName ref="christian_4_1577">E: K: M</persName> for nogen andre potentater,
                     och mitt egen fæderne rige thil ære och loufflig effthersagn, alt huis ieg aff
                     yderste <app>
                         <lem>formue kunde vdrette</lem>
@@ -282,9 +306,9 @@
                                     wilde vdrette.</q></note></rdg>
                     </app>, saa fremt dett kunde skee med lidelig vilkaar och vden min skade. Huis
                     och icke, vil ieg dog, huor dett er forseet, att ieg anderstedz skal bliffue,
-                    stedtze vere <persName ref="Christian 4.">E: K: M:</persName> med all loufflig
+                    stedtze vere <persName ref="christian_4_1577">E: K: M:</persName> med all loufflig
                     effthersagn och vnderdanighedt aff min ringe formue villig. Settendis dett
-                    vnderdanigst til <persName ref="Christian 4.">E: K: M:</persName> guode
+                    vnderdanigst til <persName ref="christian_4_1577">E: K: M:</persName> guode
                     bethenckende, att ieg ingenlunde aff nogen lettferdighedt (helst paa denne <app>
                         <lem>alder</lem>
                         <rdg><note>Inseruit Oligerus Rosenkrantzius in B: <q>der</q></note></rdg>
@@ -296,14 +320,14 @@
                         <lem>att</lem>
                         <rdg><note>Inseruit Oligerus Rosenkrantzius in B: <q> det io</q></note></rdg>
                     </app> icke thilforn haffde werit min acht och mening saaledes att ville drage
-                    derfra. Forhaabis derfore vnderdanigste, naar <persName ref="Christian 4.">E: K:
+                    derfra. Forhaabis derfore vnderdanigste, naar <persName ref="christian_4_1577">E: K:
                         M:</persName> dette medt sine omstendighedt rett betrackter, att <persName
-                        ref="Christian 4.">E: K: M:</persName> werer och bliffuer min naadigste
+                        ref="christian_4_1577">E: K: M:</persName> werer och bliffuer min naadigste
                     herre och konningh, och mig och mine medt al kongelig gunst och naade
                     tilbevogenn. Jeg wil althid findis E: K: M: vnderdanig, throff och villig aff
                     min yderste formue, huor Gud almegtigste mig min leylighedt haffuer forsiunit.
                     Denn samme guode Gudt, som raader for all wertzlige regimente, vnde <persName
-                        ref="Christian 4.">E: K: M:</persName> vdi sin kongelige regieringh lycke,
+                        ref="christian_4_1577">E: K: M:</persName> vdi sin kongelige regieringh lycke,
                     velsignelße, guode raad och <app>
                         <lem>anßlagh</lem>
                         <rdg><note>Annotavit Oligerus Rosenkrantzius in B: <q>Paucula quæ in vocabulis

@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +75,11 @@
                     <date when="1597-11-07"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 7. november</date></creation>
+            <creation><date xml:lang="da">1597, 7. november.</date><date xml:lang="en">1597, 7 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-23" who="#sis">Filen etableret</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,10 +104,10 @@
                 <pb ed="TBOO" n="VIII.8"/>
                 <opener>
                     <pb ed="A" n="3v"/>NOBILITATE NON TANTUM GENERIS, SED ET GENIJ ATQUE INGENIJ VIRO
-                    INPRIMIS CONSPICUO DOMINO <persName ref="Rosenkrantz, Holger">OLIGERO ROSÆKRANTZIO</persName> DE <placeName ref="Rosenholm">ROSENHOLM</placeName>, CONSANGVINEO, AFFINI ET
+                    INPRIMIS CONSPICUO DOMINO <persName ref="rosenkrantz_holger_1574">OLIGERO ROSÆKRANTZIO</persName> DE <placeName ref="Rosenholm">ROSENHOLM</placeName>, CONSANGVINEO, AFFINI ET
                     AMICO INTIMO.</opener>
-                <p><pb ed="A" n="1r"/>S. P.</p>
-                <p>DEDI ad te literas, Nobilissime et Præstantissime Domine <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, Cognate et Amice
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">DEDI ad te literas, Nobilissime et Præstantissime Domine <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, Cognate et Amice
                     charissime, ac tuis respondi, priusquam <placeName ref="Rostock">Rostochio</placeName> discederem; quas etiam tibi redditas,
                     utut is, quem isthuc ablegavi, reversus nondum sit, nihil ambigo. Nunc vero, cum
                     amanuensem meum cum Presbytero isthuc remeante ad vos mittere decrevissem, denuo te pro
@@ -111,7 +127,7 @@
                     nihil addubito; ut hanc rerum nostrarum mutationem neu<pb ed="A" n="2r"/>tiquam
                     doleam, sed Deum ob id mihi isthæc evenire permisisse confidam, quo meliorem in
                     <placeName ref="Germany">Germania</placeName> aut alibi locorum fortunam largiretur. Quod autem tam diu in propinquo moratus
-                    sum, hinc factum, ut responsum ad literas Ill<hi rend="sup">mi</hi> <persName ref="Ulrich">Ducis ULDARICI</persName>, meo nomine ad Ser<hi rend="sup">mum</hi>
+                    sum, hinc factum, ut responsum ad literas Ill<hi rend="sup">mi</hi> <persName ref="ulrich_3_1527">Ducis ULDARICI</persName>, meo nomine ad Ser<hi rend="sup">mum</hi>
                     Regem nostrum perscriptas, quibus etiam meæ adiunctæ erant, expectarem. Neque enim
                     longius discedendum, aut apud alios Magnates quidpiam tentandum duxi, antequam
                     responsione accepta, qualis etiamnum esset in me et mea studia animus Regis, comperirem.
@@ -119,12 +135,12 @@
                     recepturum prævidebam (licet non adeo asperam et immeritam) id quod tam diu premebam,
                     iam efficere, nihil <pb ed="A" n="2v"/>restat obstaculi. Daboque operam, favente
                     Numine, ut nemini isthic sim amplius mea præsentia molestus.</p>
-                <p rend="indent">Relatum mihi est te fratris mei <persName ref="Brahe, Axel">AXILLI</persName> filiam <persName ref="Brahe, Sophie niece">SOPHIAM</persName> in uxorem ducturum. Quod equidem
+                <p rend="indent">Relatum mihi est te fratris mei <persName ref="brahe_axel_1550">AXILLI</persName> filiam <persName ref="brahe_sophie_1578">SOPHIAM</persName> in uxorem ducturum. Quod equidem
                     lubentissime inaudivi, atque in hoc coniugio omnia vobis quam faustissima et precor et
                     auguror. Et licet meo iudicio nihil rectius facere potueris, quam ut uxore ducta te ab
                     Aulicis compedibus liberares, cum alios tolerabiliores et minus ingratos futuros spes
                     sit (siquidem per viam universæ carnis eundum est) videris nihilominus, ne per hanc
-                    <persName ref="Brahe, Sophie niece">SOPHIAM</persName> terrigenam sublimiorem quandam ac Philosophicam, Diam illam, et mentem a
+                    <persName ref="brahe_sophie_1578">SOPHIAM</persName> terrigenam sublimiorem quandam ac Philosophicam, Diam illam, et mentem a
                     terrenis caducisque ad longe altiora tollentem, atque immortalitati consecrantem
                     negligas. Solet enim in <pb ed="A" n="3r"/>his fieri id quod præcinebat <persName ref="Ovid">OVIDIUS</persName>: <hi rend="it">Successore
                     novo pellitur omnis amor</hi>. At cum et illa, quatenus fert sexus, Philosophica futura sit,
@@ -132,13 +148,12 @@
                     quam vulgus capit, SOPHIÆ potius quam obstaculum fore, præsagio et opto.</p>
                 <p><pb ed="TBOO" n="VIII.10"/>Plura rerum mearum, temporis angustia præpedito mihi nunc scribere non
                     datur; ex sorore <persName ref="brahe_sophie_1559">SOPHIA</persName>, tibi etiam amica, tum quoque communi Amico Domino Doctore
-                    <persName ref="Krag, Niels">NICOLAO CRAGIO</persName> cognosces. Quæ vero me concernentia, mi <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, nosti, fideliter (uti
+                    <persName ref="krag_niels_1550">NICOLAO CRAGIO</persName> cognosces. Quæ vero me concernentia, mi <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, nosti, fideliter (uti
                     tibi confido) indica, a me tacite habenda: nec invidos osores ac detrectatores meos
                     verearis. Quos et te haud extimescere, omnino mihi persuadeo. Ego iam pridem illorum
-                    malevolentiam superare et negligere didici. Vale mi optime <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, meque quod <pb
-                        ed="A" n="3v"/>facis mutuo amare perge. Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> ex arce Ranzoviana
-                    die 7. Novembris Anni 97.</p><lb/>
-                <p rend="rightMargin">Tuus ex intimis<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                    malevolentiam superare et negligere didici. Vale mi optime <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, meque quod <pb
+                        ed="A" n="3v"/>facis mutuo amare perge.</p> <closer><dateline>Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> ex arce Ranzoviana
+                    die 7. Novembris Anni 97.</dateline> <signed>Tuus ex intimis<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

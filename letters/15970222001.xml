@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737f</idno>
@@ -59,11 +72,13 @@
                     <date when="1597-02-22"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName><persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
+                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName>
+                    <persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 22. februar</date></creation>
+            <creation><date xml:lang="da">1597, 22. februar.</date><date xml:lang="en">1597, 22
+                    February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-07" who="#pz">Filen færdig</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,15 +105,15 @@
                     VIRO DOMINO <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName> DE
                     BREDENBERGA, SERENISSIMI REGIS DANIÆ IN DUCATIBUS HOLSATIÆ ET SCHLESWIGÆ VICARIO
                     ILLUSTRI, AFFINI AC AMICO SUO INPRIMIS COLENDO.</opener>
-                <p><pb ed="A" n="40r"/>AMPLISSIME et nobilissime vir, affinis et amice honorande,
-                    binas iamnunc interea, dum hîc <placeName ref="København">Hafniæ</placeName>
-                    paulisper commoror, a te recepi literas, quarum priores te ea, quæ per
-                    tabellarium tuum remisi, sat perfecta accepisse, atque hinc inde, prout
-                    destinata erant, per certos internuncios dirigi curasse innuerunt. Quod et
+                <p rend="noIndent"><pb ed="A" n="40r"/>AMPLISSIME et nobilissime vir, affinis et
+                    amice honorande, binas iamnunc interea, dum hîc <placeName ref="København"
+                        >Hafniæ</placeName> paulisper commoror, a te recepi literas, quarum priores
+                    te ea, quæ per tabellarium tuum remisi, sat perfecta accepisse, atque hinc inde,
+                    prout destinata erant, per certos internuncios dirigi curasse innuerunt. Quod et
                     lubenter accipio, tibique hoc nomine gratias ago. Et quam de correctione
                     quorundam verborum in diplomate Hispanico licentiam impetrandam amice
                     polliceris, brevi expecto. Alteræ, quibus exemplum literarum Reverendiss. et
-                    Illustriss. Domini <persName ref="Ernst">ERNESTI</persName> Archiepiscopi
+                    Illustriss. Domini <persName ref="ernst_1554">ERNESTI</persName> Archiepiscopi
                     Coloniensis et Electoris Imperij adiunctum erat, de quibusdam cum dicto
                     Illustriss. Principe iuxta ipsius petitionem in utraque Astronomia, tam
                     superiori quam inferiori (sic enim nobis loqui lubet) communicandis me
@@ -161,75 +177,80 @@
                     iuris facere enixe laboro. Quæ ubi absoluta fuerint, quod propediem futurum
                     confido, ipsius Gestit.<hi rend="sup">ni</hi> tum quoque tibi eorundem quædam
                     exemplaria transmittam.</p>
-                <p rend="indent">Miratus Illustriss. ille <persName ref="Ernst">ERNESTUS</persName>
+                <p rend="indent">Miratus Illustriss. ille <persName ref="ernst_1554">ERNESTUS</persName>
                     in dictis ad te literis, quod præstantissimi illius Mathematici <persName
-                        ref="Clavius">CHRISTOPHORI CLAVIJ</persName> Bambergensis in transmissis
+                        ref="clavius_christopher_1538">CHRISTOPHORI CLAVIJ</persName> Bambergensis in transmissis
                     epistolis Astronomicis nullam faciam mentionem, cum is ob tot præclara in
                     Mathematicis edita opera celebris existat; atque hanc nominis ipsius
                     intermissionem, ob locorum nimiam intercapedinem, quodque scripta illius Romæ
                     utplurimum impressa ad nos forte perlata non sint, clementer et candide excusat.
-                    Atqui ego omnia eruditissimi illius <persName ref="Clavius">CLAVIJ</persName>
+                    Atqui ego omnia eruditissimi illius <persName ref="clavius_christopher_1538">CLAVIJ</persName>
                     opera fortassis non vidi, ea nihilominus quæ in <persName ref="Euclid"
-                        >EUCLIDEM</persName> ingeniose et in <persName ref="Sacrobosco">IOHANNEM DE
+                        >EUCLIDEM</persName> ingeniose et in <persName ref="sacrabosco_johannes_de_1195">IOHANNEM DE
                         SACROBUSCHO</persName> luculenter, et de Gnomonicis copiose conscripsit, in
                     promptu habeo, et iamdudum introspexi, tum quoque Apologiam Calendarij novi
-                    contra <persName ref="Mästlin">MÆSTHLINUM</persName>, in qua is mei
-                    alicubi mentionem facit, observationem nostram æquinoctij verni, anni ni fallor
-                    76 allegando, ut probet ex ea recte factum, quod decendij ablatio in Calendario
+                    contra <persName ref="mastlin_michael_1550">MÆSTHLINUM</persName>, in qua is mei alicubi
+                    mentionem facit, observationem nostram æquinoctij verni, anni ni fallor 76
+                    allegando, ut probet ex ea recte factum, quod decendij ablatio in Calendario
                     Gregoriano admissa sit, quod et convenienter se habet, licet summa in his
                     præcisio non sit animadversa, quæ etiam forte in tali negotio, quoad
                     Ecclesiasticum et Politicum usum esse poterit ociosa, quemadmodum <persName
-                        ref="Mästlin, Michael">MÆSTHLINO</persName>, qui scrupulositatem calculi
-                    Prutenici urget, non citra causam subinde obijcit <persName ref="Clavius"
-                        >CLAVIUS</persName>. Verum si liceat id quod res est affirmare, uterque tam <persName ref="Clavius">CLAVIUS</persName>
-                    <pb ed="A" n="41r"/>quam <persName ref="Mästlin">MÆSTHLINUS</persName>
-                    de cœlestibus, cœlo, quod horologium est temporis, inconsulto sententiam
-                    protulit. <persName ref="Clavius">CLAVIUS</persName> enim vix ullam
-                    observationem cœlestem, nisi eam unicam, de qua dixi, e nostris petitam, quæ
-                    sola tam arduo negotio non sufficit, in medium protulit, nullasque Lunarium
-                    motionum, quæ magis intricatæ sunt, quam hactenus creditum est, denotationes,
-                    prout operæprecium fuit, <pb ed="TBOO" n="VII.382"/>in consilium adducit. <persName
-                        ref="Mästlin, Michael">MÆSTHLINUS</persName> nullam plane, quod sciam, e
+                        ref="mastlin_michael_1550">MÆSTHLINO</persName>, qui scrupulositatem calculi
+                    Prutenici urget, non citra causam subinde obijcit <persName ref="clavius_christopher_1538"
+                        >CLAVIUS</persName>. Verum si liceat id quod res est affirmare, uterque tam
+                        <persName ref="clavius_christopher_1538">CLAVIUS</persName>
+                    <pb ed="A" n="41r"/>quam <persName ref="mastlin_michael_1550">MÆSTHLINUS</persName> de
+                    cœlestibus, cœlo, quod horologium est temporis, inconsulto sententiam protulit.
+                        <persName ref="clavius_christopher_1538">CLAVIUS</persName> enim vix ullam observationem
+                    cœlestem, nisi eam unicam, de qua dixi, e nostris petitam, quæ sola tam arduo
+                    negotio non sufficit, in medium protulit, nullasque Lunarium motionum, quæ magis
+                    intricatæ sunt, quam hactenus creditum est, denotationes, prout operæprecium
+                    fuit, <pb ed="TBOO" n="VII.382"/>in consilium adducit. <persName
+                        ref="mastlin_michael_1550">MÆSTHLINUS</persName> nullam plane, quod sciam, e
                     cœlestibus assumpsit probationem. Et si id ex suis observatis fecisset, nihilo
                     plus fidei mereretur. Quæ enim ipsius (si quas absolvit) in correctione motus
                     Solis et Lunæ animadversiones produnt, frustranea sunt, uti consignatio
                     Eclipsium ipsius Ephemeridibus præfixa, cœlesti harmoniæ non magis quam antea,
                     si modo non minus congrua, liquido patefecit. Inhæret enim is nimium fidenter
                     calculo Prutenico, et quantitati annuæ inde desumptæ, quæ nequaquam talem
-                    sortitur inæqualitatem, prout magnus ille alias <persName ref="kopernikus_nikolaus_1473"
-                        >COPERNICUS</persName> voluit; sed propius ad Alphonsinam accedit
-                    supputationem, licet ne hanc quidem satis scrupulose attingat, veluti hæc a
-                    nobis convenientiore loco reserantur. Non igitur tanta disconvenientia est in
-                    Calendario neoterico a cœlesti norma, prout voluit <persName ref="Mästlin"
-                        >MÆSTHLINUS</persName>, quicunque tandem eius autor existat, sive hic
-                        <persName ref="Clavius">CLAVIUS</persName>, sive <persName ref="Lilius, Aloysius"
-                        >ALOYSIUS</persName> ille, de quo pontifex in proœmio publicationis eius
-                    mentionem facit. Licet vero huius excellentissimi Mathematici, <persName
-                        ref="Clavius">CLAVIJ</persName> videlicet in Epistolis hisce non meminerim,
-                    quod nulla fuerit istic occasio id faciendi, præsertim cum is Astronomica ex
-                    ipso cœlo non tractârit, de quibus utplurimum ibi agitur, tamen circa finem
-                    primi nostri Tomi Progymnasmatum antedictorum, cum ea, quæ de Nova Stella in
-                    ultimâ editione Commentariorum Sphæricorum attexuit, sub disquisitionem
-                    libertate Philosophicâ voco, eius luculentam et honorificam, prout præcipua eius
-                    in his artibus doctrina meretur, mentionem facio. Si quæ præterea ex ipsius
-                    Minervâ Mathematicæ lucubrationes in lucem prodierunt, vel adhuc prodituræ sunt,
-                    cuperem eas meis sumptibus mecum communicari. Porro si is mecum per literas
-                    correspondentiam habere atque de his excellentibus studijs, quibus utrimque
-                    dediti, iucunde conferre voluerit, erit mihi idipsum longe gratissimum,
-                    præsertim si autoritate et suasu tanti Principis, uti is in literis innuit, id
-                    fiat. Addet enim idipsum nobis calcar, eritque utrique nostrum eo
+                    sortitur inæqualitatem, prout magnus ille alias <persName
+                        ref="kopernikus_nikolaus_1473">COPERNICUS</persName> voluit; sed propius ad
+                    Alphonsinam accedit supputationem, licet ne hanc quidem satis scrupulose
+                    attingat, veluti hæc a nobis convenientiore loco reserantur. Non igitur tanta
+                    disconvenientia est in Calendario neoterico a cœlesti norma, prout voluit
+                        <persName ref="mastlin_michael_1550">MÆSTHLINUS</persName>, quicunque tandem eius autor
+                    existat, sive hic <persName ref="clavius_christopher_1538">CLAVIUS</persName>, sive <persName
+                        ref="lilius_aloysius_1510">ALOYSIUS</persName> ille, de quo pontifex in proœmio
+                    publicationis eius mentionem facit. Licet vero huius excellentissimi
+                    Mathematici, <persName ref="clavius_christopher_1538">CLAVIJ</persName> videlicet in Epistolis
+                    hisce non meminerim, quod nulla fuerit istic occasio id faciendi, præsertim cum
+                    is Astronomica ex ipso cœlo non tractârit, de quibus utplurimum ibi agitur,
+                    tamen circa finem primi nostri Tomi Progymnasmatum antedictorum, cum ea, quæ de
+                    Nova Stella in ultimâ editione Commentariorum Sphæricorum attexuit, sub
+                    disquisitionem libertate Philosophicâ voco, eius luculentam et honorificam,
+                    prout præcipua eius in his artibus doctrina meretur, mentionem facio. Si quæ
+                    præterea ex ipsius Minervâ Mathematicæ lucubrationes in lucem prodierunt, vel
+                    adhuc prodituræ sunt, cuperem eas meis sumptibus mecum communicari. Porro si is
+                    mecum per literas correspondentiam habere atque de his excellentibus studijs,
+                    quibus utrimque dediti, iucunde conferre voluerit, erit mihi idipsum longe
+                    gratissimum, præsertim si autoritate et suasu tanti Principis, uti is in literis
+                    innuit, id fiat. Addet enim idipsum nobis calcar, eritque utrique nostrum eo
                     honorificentius. Hæc si dicto Illustrissimo Principi cum submissa ex me
                     salutatione per literas indicaveris, recte feceris et me tibi eo devinctiorem
-                    reddideris. Vale, et prolixitati huic ignosce. Dabantur <placeName ref="København">Haffniæ</placeName> die 22. Febr.
-                    Anno 1597.</p><lb/>
-                <p rend="rightMargin">Tycho Brahe,<lb/>manu propria.</p><lb/>
-                <p>Amantissime <persName ref="rantzau_henrik_1526">HENRICE RANZOVI</persName>, si
-                    eadem diligentiâ nobis Privilegium Gallicum et Anglicanum (de quibus etiam antea
-                    ad te scripsi, et istic addicta esse scio) qua Hispanicum ultimo missum, mature
-                    idque ante festum Pentecostes, si id fieri possit, procuraveris, rem hac in
-                    parte non saltem mihi, sed et communibus studijs utilem præstiteris, idque ut
-                    facias (quod et lubenter facturum confido) per mysteria Uraniæ, cui utrinque
-                    litamus, te obsecratum volo.</p>
+                    reddideris.</p>
+                <closer><salute>Vale, et prolixitati huic ignosce.</salute>
+                    <dateline>Dabantur <placeName ref="København">Haffniæ</placeName> die 22. Febr.
+                        Anno 1597.</dateline><signed><persName ref="brahe_tycho_1546">Tycho Brahe</persName>,<lb/>manu
+                    propria.</signed></closer>
+                <postscript>
+                    <p>Amantissime <persName ref="rantzau_henrik_1526">HENRICE RANZOVI</persName>,
+                        si eadem diligentiâ nobis Privilegium Gallicum et Anglicanum (de quibus
+                        etiam antea ad te scripsi, et istic addicta esse scio) qua Hispanicum ultimo
+                        missum, mature idque ante festum Pentecostes, si id fieri possit,
+                        procuraveris, rem hac in parte non saltem mihi, sed et communibus studijs
+                        utilem præstiteris, idque ut facias (quod et lubenter facturum confido) per
+                        mysteria Uraniæ, cui utrinque litamus, te obsecratum volo.</p>
+                </postscript>
             </div>
         </body>
     </text>

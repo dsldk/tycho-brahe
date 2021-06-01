@@ -32,10 +32,23 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Stockholm</settlement>
                                 <repository>Riksarkivet</repository>
+                                <collection>Erik Sparres Samling, Skrivelser till E. S. och hans
+                                    hustru.</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Stockholm</settlement>
+                                <repository>Swedish National Archives (Riksarkivet)</repository>
                                 <collection>Erik Sparres Samling, Skrivelser till E. S. och hans
                                     hustru.</collection>
                                 <idno>empty</idno>
@@ -63,11 +76,11 @@
                     <date when="1597-09-07"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Erik Sparre</persName>
+                    <persName key="sparre_erik_1550">Erik Sparre</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597-09-07</date></creation>
+            <creation><date xml:lang="da">1597, 7. september.</date><date xml:lang="en">1597, 7 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,6 +97,7 @@
             <change when="2020-09-03" who="#pz">Filen etableret</change>
             <change when="2020-09-08" who="#lrp">Korrektur påbegyndt</change>
             <change when="2020-09-03" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,12 +105,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="XIV.119"/>MAGNIFICO ET AMPLISSIMO VIRO, NOBILITATE GENERIS
-                    ET ERUDITIONIS ADMODUM CONSPICUO D:NO <persName ref="Sparre, Erik"><hi rend="it"
+                    ET ERUDITIONIS ADMODUM CONSPICUO D:NO <persName ref="sparre_erik_1550"><hi rend="it"
                             >ERICO SPARRE</hi></persName>, SER:MI SVECIÆ REGIS CANCELLARIO AC
                     CONSILIARIO PRUDENTISSIMO, LIBERO BARONI IN N., COGNATO ATQVE AMICO SUO INPRIMIS
                     HONORANDO. <lb/>S. P. D. </opener>
 
-                <p>Literæ tuæ eruditissimæ pariter ac humanissimæ, cognate optime, amoris
+                <p rend="noIndent">Literæ tuæ eruditissimæ pariter ac humanissimæ, cognate optime, amoris
                     eximij erga me testes, ijs ipsis diebus, quibus <placeName ref="København"
                         >Haffnia</placeName> relicta in <placeName ref="Germany"
                         >Germaniam</placeName> migrandum erat mihi, redditæ sunt. Verum enimvero,
@@ -112,9 +126,9 @@
                     iter ad confinia utriusque regni parantem nancisci liceret. Accessit et hoc,
                     quod nescio quis rumor, utrum te inde in <placeName ref="Sweden"
                         >Sueciam</placeName> interiorem vel <placeName ref="Poland"
-                        >Poloniam</placeName> ad s:m <persName ref="Sigismund 3.">vestrum regem</persName> te recepisses, incertum me
+                        >Poloniam</placeName> ad s:m <persName ref="sigismund_3_vasa_1566">vestrum regem</persName> te recepisses, incertum me
                     redderet. Cumque eo nomine celeberrimum virum d. <persName
-                        ref="Chytraeus, David">Davidem Chytræum</persName>, huius academiæ
+                        ref="chytraeus_david_1530">Davidem Chytræum</persName>, huius academiæ
                     antesignanum, honorifica, prout virtus merebatur, nominis tui mentione
                     compellassem, siquidem eum crebro de rebus regnorum illorum a multis edoceri
                     scirem, et inter te ac ipsum alias commutari literas inaudivissem, attamen
@@ -127,7 +141,7 @@
                     perbenigne ab eodem invitatus, me conferre statui, isthic moraturus, donec rebus
                     meis ulterius ex divino provisu prospexero. Quocirca aliquid ante meum hinc
                     abitum literarum ad te omnino dandum ratus sum, ea spe fretus posse id ad
-                    communem utrique necessarium <persName ref="Sparre, Gabriel">Gabrielem
+                    communem utrique necessarium <persName ref="sparre_gabriel_1549">Gabrielem
                         Sparre</persName> directum, ubicunque tandem locorum hæreres, commodum tibi
                     transmitti.</p>
                 <p rend="indent">Desiderium tui cognoscendi et compellandi, non saltem ob sanguinis
@@ -142,11 +156,11 @@
                     cupiunt, licet graviter nonnunquam impingant, tamen nec errores agnoscere volunt,
                     nec in ijs redargui. Satis equidem mature hanc mutationem prævidi, nihilque
                     prius habui, quam ut eam quovis pacto præcaverem et averterem, literis idcirco
-                    ad s:mi <persName ref="Christian 4.">regis nostri</persName> <persName ref="Friis, Christian">cancellarium</persName> datis (quarum hic exemplum adiunxi), sed
+                    ad s:mi <persName ref="christian_4_1577">regis nostri</persName> <persName ref="friis_christian_1556">cancellarium</persName> datis (quarum hic exemplum adiunxi), sed
                     successu prorsus irrito. Nihil enim impetrare licuit, imo inter alia responsum,
                     regi nostro quidquam sumptuum in jnstrumentorum meorum astro<pb ed="TBOO"
                         n="XIV.120"/>nomiæ conservationem impendere integrum non esse. An vero ex
-                    <persName ref="Christian 4.">regis</persName> ipsius voluntate vel alterius privato affectu idque eo prætextu
+                    <persName ref="christian_4_1577">regis</persName> ipsius voluntate vel alterius privato affectu idque eo prætextu
                     promanaverit, non dixerim. Nec verbis eventus defuit. Nam non tantum feudo illo
                         <placeName ref="Norway">Norvagico</placeName>, cuius in literis fit mentio,
                     confestim post coronationem regiam peractam adempto contenti non fuerunt ij, qui
@@ -156,35 +170,35 @@
                     eius liberalem conservationem perpetuamque spondentes non respexerunt; licet
                     quidam adeoque præcipuus eorum has una subsignarit et subscripserit; quin etiam
                     canonicatum <placeName ref="Roskilde">Roskyldensem</placeName> (quem solum habui
-                    residuum) dictus <persName ref="Friis, Christian">cancellarius</persName> sibi
+                    residuum) dictus <persName ref="friis_christian_1556">cancellarius</persName> sibi
                     acquirere ac in proprium commodum vertere non dubitavit. Tantum abest, ut artis
                     adeo præclaræ et patriæ nostræ forte non inhonorificæ continuationem et
                     perpetuationem pro virili (uti decuit) promovere voluerit. Scripsit autem non
-                    ita pridem illustrissimus dux <persName ref="Ulrich">Uldaricus</persName>, s:mi
-                        <persName ref="Christian 4.">regis</persName> nostri avus, ad ipsum regem
+                    ita pridem illustrissimus dux <persName ref="ulrich_3_1527">Uldaricus</persName>, s:mi
+                        <persName ref="christian_4_1577">regis</persName> nostri avus, ad ipsum regem
                     atque artis huius in integrum istinc restitutionem diligenter suasit. Quibus
-                    literis et meas addideram, etiamnum operam meam s:mo <persName ref="Christian 4.">regi</persName> nostro et patriæ in
+                    literis et meas addideram, etiamnum operam meam s:mo <persName ref="christian_4_1577">regi</persName> nostro et patriæ in
                     perficienda isthic astronomiæ instauratione, quam tam diu tantisque conatibus
                     molitus sum, per eas submisse offerens, modo id commodum exequi liceat et
                     indemnitati meæ consulatur. Sin vero nihil his effectum fuerit, quod priora ac
                     inconsulta quorundam consilia emendet (uti sperare vix licet, idque non tam ob
-                    ipsius s:mi <persName ref="Christian 4.">regis</persName> nostri animum per se satis generosum et integrum, quam eorum,
+                    ipsius s:mi <persName ref="christian_4_1577">regis</persName> nostri animum per se satis generosum et integrum, quam eorum,
                     qui nunc soli quidvis pro arbitrio moderari volunt, aversam voluntatem), mox ad
-                    <persName ref="Rudolf 2.">jmperatoriam ma:tem</persName> aliosque viciniores reges ac præcipuos <placeName
+                    <persName ref="rudolf_2_1552">jmperatoriam ma:tem</persName> aliosque viciniores reges ac præcipuos <placeName
                         ref="Germany">Germaniæ</placeName> principes scribere decrevi, et quid
                     clementis eorum circa artis tam sublimis ulteriorem sustentationem voluntatis ac
                     arbitrij sit, experiri. Vtrum videlicet quidpiam sumptuum ad hoc subministrare
                     velint, quo ea in publicum reipublicæ literariæ emolumentum perfectior quam
                     unquam antea, prodeat, atque orbi communicetur. Quo etiam nomine potentissimum
-                    vestrum regem <persName ref="Sigismund 3.">Sigismundum</persName> submisse
+                    vestrum regem <persName ref="sigismund_3_vasa_1566">Sigismundum</persName> submisse
                     sollicitare proposui, si (uti spem concepi) ipsius m:tas, ut est erga ingenuas
                     artes, cum et his ipsamet imbuta sit, benificentissima, hanc etiam curam et
                     laudem cæteris addendam, suaque regia munificentia dignam censeat. Posset forte
                     aliqua ex jnsulis <placeName ref="Prussia">Prussiæ</placeName> vicinis
                     commoditatem huic negotio præbere, vel id quocunque alio modo fieri, prout
-                    <persName ref="Sigismund 3.">ipsius m:ti</persName> visum foret. Qua in re tuum prudens cum auxilio consilium, mi
+                    <persName ref="sigismund_3_vasa_1566">ipsius m:ti</persName> visum foret. Qua in re tuum prudens cum auxilio consilium, mi
                     amicissime cognate, obnixe peto et expecto, an videlicet hoc studium
-                    astronomicum <persName ref="Sigismund 3.">ipsius ma:ti</persName> offerendum, et an idem cum magno quoque cancellario
+                    astronomicum <persName ref="sigismund_3_vasa_1566">ipsius ma:ti</persName> offerendum, et an idem cum magno quoque cancellario
                     communicandum putes; et utrum specifice jnsula <placeName ref="Dalan">Dalan</placeName>
                     prope <placeName ref="Riga">Rigam</placeName>, vel
                         <placeName ref="Bornhovium">Bornhovium</placeName>, aut jnsula <placeName>Werden</placeName>
@@ -202,7 +216,7 @@
                     <dateline>Datæ <placeName ref="Rostock">Rostochij</placeName> pridie eius diei,
                         qua inde discedere constitui, 7:a nimirum septembris stylo veteri anni etc.
                         1597.</dateline>
-                    <signed>Tui studiosiss.<lb/> Tycho Brahe<lb/>manu propria.</signed></closer>
+                    <signed>Tui studiosiss.<lb/> <persName ref="brahe_tycho_1546">Tycho Brahe</persName><lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -63,11 +67,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Moritz, landgraf von Hessen</persName>
+                    <persName key="moritz_1572">Moritz, landgraf von Hessen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 17. juli</date></creation>
+            <creation><date xml:lang="da">1597, 17. juli.</date><date xml:lang="en">1597, 17
+                    July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,6 +89,7 @@
             <change when="2020-09-03" who="#pz">Filen etableret</change>
             <change when="2020-09-07" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-09-16" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,11 +97,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="XIV.106"/>ILLUSTRISSIMO PRINCIPI AC DOMINO, DOMINO
-                        <persName ref="moritz_1572">MAURITIO, HASSIÆ ETC.
-                        LANDTGRAVIO</persName>, COMITI IN CATZENELNPOGEN, DIETZ, ZIGENHAIN et NIDDA
-                    ETC., DOMINO CLEMENTISSIMO.</opener>
+                        <persName ref="moritz_1572">MAURITIO, HASSIÆ ETC. LANDTGRAVIO</persName>,
+                    COMITI IN CATZENELNPOGEN, DIETZ, ZIGENHAIN et NIDDA ETC., DOMINO
+                    CLEMENTISSIMO.</opener>
 
-                <p>ILLUSTRISSIME <persName ref="moritz_1572">princeps</persName>,
+                <p rend="noIndent">ILLUSTRISSIME <persName ref="moritz_1572">princeps</persName>,
                     domine clementissime. Binas Celsit. Tuæ per civem quendam <placeName
                         ref="Kassel">Cassellanum</placeName> literas mihi clementer missas, calendis
                     ipsis junij accepi. Cum autem tunc in procinctu essem itineris <placeName
@@ -105,21 +111,24 @@
                     paulisper, donec res meæ navigio adventarint, subsisto) nulla dabatur commoditas
                     ijsdem respondendi et longe minus ea, quæ Germanico idiomate exaratis
                     continebantur, exequendi. Jn negotio <persName ref="Lange, Erik">Erici
-                        Langij</persName>, amici et affinis mei dilecti, quod <persName ref="Moritz, landgave of Hessen">T. C.</persName> tam clementem
-                    sedulam dederit operam, ut, quo in statu res eius versentur, quantoque ære
-                    alieno laboret, nobis innotesceret, est cur <persName ref="Moritz, landgave of Hessen">C. T.</persName> submisse gratias plurimas
-                    habeam. Verum incom<pb ed="TBOO" n="XIV.107"/>mode, et præter opinionem accidit,
-                    quod hac æstate comitia regni (uti quotannis fieri solet) celebrata non sint, in
-                    quibus maxima pars nobilitatis Danicæ convenire assolet, cum quorum aliquibus,
-                    præsertim ijs, qui <persName ref="Lange, Erik">Erico</persName> consanguinitatis
-                    vel affinitatis iure coniuncti essent, de debitis eius exolvendis (si qua
-                    ratione id obtinere possem) fideliter agere animus erat. Quin etsi comitia illa
-                    more solito successissent, nimis tamen sero is, qui <persName ref="Moritz, landgave of Hessen">T. C.</persName> literas, una cum
-                    debitorum <persName ref="Lange, Erik">Erici</persName> rationibus attulit,
-                    isthuc accesserat. Neque enim ultra quatuordecim dies post ascensionis festum
-                    procerum et nobilium regni in urbe illa congressus prorogari solent. Extra vero
-                    id tempus, illi, qui <persName ref="Lange, Erik">Erico</persName> aut sanguine,
-                    aut alia ratione coniuncti sunt, ita dispersi hinc inde habitant, ut eorum
+                        Langij</persName>, amici et affinis mei dilecti, quod <persName
+                        ref="moritz_1572">T. C.</persName> tam clementem sedulam
+                    dederit operam, ut, quo in statu res eius versentur, quantoque ære alieno
+                    laboret, nobis innotesceret, est cur <persName ref="moritz_1572"
+                        >C. T.</persName> submisse gratias plurimas habeam. Verum incom<pb ed="TBOO"
+                        n="XIV.107"/>mode, et præter opinionem accidit, quod hac æstate comitia
+                    regni (uti quotannis fieri solet) celebrata non sint, in quibus maxima pars
+                    nobilitatis Danicæ convenire assolet, cum quorum aliquibus, præsertim ijs, qui
+                        <persName ref="Lange, Erik">Erico</persName> consanguinitatis vel
+                    affinitatis iure coniuncti essent, de debitis eius exolvendis (si qua ratione id
+                    obtinere possem) fideliter agere animus erat. Quin etsi comitia illa more solito
+                    successissent, nimis tamen sero is, qui <persName
+                        ref="moritz_1572">T. C.</persName> literas, una cum debitorum
+                        <persName ref="Lange, Erik">Erici</persName> rationibus attulit, isthuc
+                    accesserat. Neque enim ultra quatuordecim dies post ascensionis festum procerum
+                    et nobilium regni in urbe illa congressus prorogari solent. Extra vero id
+                    tempus, illi, qui <persName ref="Lange, Erik">Erico</persName> aut sanguine, aut
+                    alia ratione coniuncti sunt, ita dispersi hinc inde habitant, ut eorum
                     voluntates experiri, et simul cum illis de hoc negotio agere minime oportunum
                     sit. Accessit et hoc, quod mihi, qui hac de re cæteros solicitare constitueram,
                     iam tum e patria in <placeName ref="Germany">Germaniam</placeName> discedendum
@@ -131,49 +140,58 @@
                     illis satisfaciendi, cum ipso contenti esse velint, sua authoritate et clementia
                     effecturam.</p>
                 <p rend="indent"> Meæ autem in <placeName ref="Germany">Germaniam</placeName>
-                    transmigrationis rationes nimis longum foret <persName ref="Moritz, landgave of Hessen">T. C.</persName> hic exponere. Neque etiam
+                    transmigrationis rationes nimis longum foret <persName
+                        ref="moritz_1572">T. C.</persName> hic exponere. Neque etiam
                     tempus et calamus id nunc patiuntur. Id saltem brevibus indicabo, quod, cum
                     intellexissem eos qui nunc fatis apud nos præsunt politicis, minus Uraniæ nostræ
                     arduis laboribus favere, et eorum sufficientem sustentationem suis clancularijs
                     consilijs avertere, nec ijs quæ a <persName ref="frederik_2_1534">Friderico
                         secundo</persName> laudatissimæ memoriæ circa hæc (approbantibus id post
                     ipsius obitum omnibus regni senatoribus, literis confirmantibus) decreta erant,
-                    satis acquiescere, neque <persName ref="Christian 4.">regem</persName> nostrum
+                    satis acquiescere, neque <persName ref="christian_4_1577">regem</persName> nostrum
                     serenissimum alias optima indole et natura præditum ita de his, uti decuit,
                     admonere voluisse: existimavi, mature talibus difficultatibus subveniendum, ne
                     omnia, quæ tot iam annis in astronomiæ instaurationem magno conamine, nec parvis
                     sumptibus molitus sum, interirent. Quare huc in <placeName ref="Germany"
                         >Germaniam</placeName> sponte secessi, ut alias commoditates ea ipsa
                     continuandi absolvendique quærerem, quo omnia in utilitatem reip. literariæ ad
-                    posteritatem sarcta tecta transmitti possent. Qua in parte si <persName ref="Moritz, landgave of Hessen">T. C.</persName> nostris
-                    desiderijs consilio auxilioque subvenire non degravata fuerit, præstiterit rem,
-                    non saltem mihi, sed toti astronomico studio, quod parens tuus laudatissimæ
-                    memoriæ tanto amore prosequutus est, quo etiam ipsemet non modicum afficeris,
-                    percommodam, et cum eorum, qui nunc supersunt, tum etiam posterorum, grata
-                    memoria laudeque celebrandam. Et si <persName ref="Moritz, landgave of Hessen">T. C.</persName> hac de re quidpiam clementer ad me
-                    scribere, literasque illas ad producem <placeName ref="Holstein"
-                        >Holsatiæ</placeName> dominum <persName ref="rantzau_henrik_1526">Henricum
-                        Ranzovium</persName> dirigere voluerit, ille eas facile isthuc, ubicunque
-                    locorum me versari noverit, perferri curabit. Porro icones instrumentorum
-                    meorum, quas transmiseram <persName ref="Moritz, landgave of Hessen">T:æ C:ni</persName>, esse redditas lubens cognovi, et pro opere
-                    canonis triangulorum (cuius quidem antea quaterna exemplaria coëmeram) vicissim
-                    mihi donato gratias submisse ago. Interim vero non possum ex literis <persName ref="Moritz, landgave of Hessen">T. C.</persName> aut
-                    aliunde percipere, utrum liber epistolarum astronomicarum, quem <persName ref="Moritz, landgave of Hessen">T:æ C:i</persName>, quod
-                    paternas mecum communicatas literas contineret, dedicandum censui (quem etiam ob
-                    id non ingratum futurum, mihi persuadebam) ad <persName ref="Moritz, landgave of Hessen">C:nis Tuæ</persName> manus pervenerit, nec
+                    posteritatem sarcta tecta transmitti possent. Qua in parte si <persName
+                        ref="moritz_1572">T. C.</persName> nostris desiderijs
+                    consilio auxilioque subvenire non degravata fuerit, præstiterit rem, non saltem
+                    mihi, sed toti astronomico studio, quod parens tuus laudatissimæ memoriæ tanto
+                    amore prosequutus est, quo etiam ipsemet non modicum afficeris, percommodam, et
+                    cum eorum, qui nunc supersunt, tum etiam posterorum, grata memoria laudeque
+                    celebrandam. Et si <persName ref="moritz_1572">T. C.</persName>
+                    hac de re quidpiam clementer ad me scribere, literasque illas ad producem
+                        <placeName ref="Holstein">Holsatiæ</placeName> dominum <persName
+                        ref="rantzau_henrik_1526">Henricum Ranzovium</persName> dirigere voluerit,
+                    ille eas facile isthuc, ubicunque locorum me versari noverit, perferri curabit.
+                    Porro icones instrumentorum meorum, quas transmiseram <persName
+                        ref="moritz_1572">T:æ C:ni</persName>, esse redditas lubens
+                    cognovi, et pro opere canonis triangulorum (cuius quidem antea quaterna
+                    exemplaria coëmeram) vicissim mihi donato gratias submisse ago. Interim vero non
+                    possum ex literis <persName ref="moritz_1572">T. C.</persName>
+                    aut aliunde percipere, utrum liber epistolarum astronomicarum, quem <persName
+                        ref="moritz_1572">T:æ C:i</persName>, quod paternas mecum
+                    communicatas literas contineret, dedicandum censui (quem etiam ob id non
+                    ingratum futurum, mihi persuadebam) ad <persName
+                        ref="moritz_1572">C:nis Tuæ</persName> manus pervenerit, nec
                     ne. Quod si exemplar a me transmissum intercidit, dabo operam, ut aliud per
                     occasionem oblatam eidem substituatur: nisi forte e nundinis <placeName
                         ref="Frankfurt am Main">Francofurtensibus</placeName> ultimis, ubi aliquot
-                        eiusdem <pb ed="TBOO" n="XIV.108"/>libri exemplaria prostabant, eius copia
-                    facta sit. Sed desino <persName ref="Moritz, landgave of Hessen">T:m C:m</persName> pluribus nunc detinere, cum et ipsemet in hoc
-                    peregrino loco inter alia plurima negotia atque interpellationes vix hæc ipsa
-                    scribendi otium nactus sim. Vbi maiori tranquillitati, favore numinis,
-                    restitutus fuero, plura etiam et accuratiora dare non intermittam. Interea hæc
-                    festinanti calamo, et, citra commoditatem effusa <persName ref="Moritz, landgave of Hessen">T. C.</persName> clementer accipiat, ac
-                    diu feliciterque valeat. </p><closer><dateline>Dabantur <placeName ref="Rostock">Rostochio</placeName>
-                    die 17. junij anni 1597.</dateline> <signed>Tuæ Cels, addictiss.<lb/>
-                Tycho Brahe<lb/>manu
-                    propria.</signed></closer>
+                    eiusdem <pb ed="TBOO" n="XIV.108"/>libri exemplaria prostabant, eius copia facta
+                    sit. Sed desino <persName ref="moritz_1572">T:m C:m</persName>
+                    pluribus nunc detinere, cum et ipsemet in hoc peregrino loco inter alia plurima
+                    negotia atque interpellationes vix hæc ipsa scribendi otium nactus sim. Vbi
+                    maiori tranquillitati, favore numinis, restitutus fuero, plura etiam et
+                    accuratiora dare non intermittam. Interea hæc festinanti calamo, et, citra
+                    commoditatem effusa <persName ref="moritz_1572">T. C.</persName>
+                    clementer accipiat, ac diu feliciterque valeat. </p>
+                <closer><dateline>Dabantur <placeName ref="Rostock">Rostochio</placeName> die 17.
+                        junij anni 1597.</dateline>
+                    <signed>Tuæ Cels, addictiss.<lb/>
+                        <persName ref="brahe_tycho_1546">Tycho Brahe</persName><lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

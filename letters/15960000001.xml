@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno/>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danissh National Archive</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno/>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -58,9 +73,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
-                    <date when="1596-01-01"/>
+                    <date when="1596"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
@@ -83,14 +98,15 @@
         <revisionDesc>
             <change when="2019-11-01" who="#pz">Filen etableret</change>
             <change when="2019-11-06" who="#pz">Filen færdig</change>
+            <change when="2019-05-31" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VII.375"/><pb ed="A" n="1r"/>TYCHONI BRAHEO.</opener>
-                <p>SALUTEM et officia. Quam semper dedito animo in id incubuerim unice, Generose
+                <opener><pb ed="TBOO" n="VII.375"/><pb ed="A" n="1r"/><persName ref="brahe_tycho_1546">TYCHONI BRAHEO</persName>.</opener>
+                <p rend="noIndent">SALUTEM et officia. Quam semper dedito animo in id incubuerim unice, Generose
                     TYCHO, quod necessitudinem eam, quam generis et sangvinis inter nos intemeratam
                     esse voluit communio, ipse, quantum in me sit, non † <app><lem>tu tenes</lem><rdg><note><q>tutarer</q> conj. Friis</note></rdg></app> modo, sed et
                     confirmarem, licet ex voto sat evidenter prodere huc usque nequiverim, ipse
@@ -105,9 +121,7 @@
                     submoneam, litteras tuas parenti insignitas ipsi redditas tum demum, ubi ex
                     Senatu redijsset, qui ex Generosi <persName ref="Brahe, Steen">STENONIS</persName> fratris tui rela<pb ed="A" n="1v"
                     />tione causam se cognovisse retulit, atque pro re est, quod rogem, Generosus
-                    meus amicus.</p>
-                <lb/>
-                <p rend="rightMargin">[<persName ref="Rosenkrantz, Holger">Oligerus Rosæcrantz</persName>.]</p>
+                    meus amicus.</p><closer><signed>[<persName ref="rosenkrantz_holger_1574">Oligerus Rosæcrantz</persName>.]</signed></closer>
             </div>
         </body>
     </text>

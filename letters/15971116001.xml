@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +75,11 @@
                     <date when="1597-11-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 16. november</date></creation>
+            <creation><date xml:lang="da">1597, 16. november.</date><date xml:lang="en">1597, 16 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-23" who="#sis">Filen etableret</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,16 +103,16 @@
             <div>
                 <pb ed="TBOO" n="VIII.10"/>
                 <opener><pb ed="A" n="1v"/>NOBILITATE NON TANTUM GENERIS, SED ET GENIJ ATQUE INGENIJ
-                    VIRO IN PRIMIS CONSPICUO DOMINO <persName ref="Rosenkrantz, Holger">OLIGERO
+                    VIRO IN PRIMIS CONSPICUO DOMINO <persName ref="rosenkrantz_holger_1574">OLIGERO
                         ROSÆKRANTZIO</persName> DE <placeName ref="Rosenholm">ROSENHOLM</placeName>,
                     CONSANGVINEO, AFFINI ET AMICO INTEGERRIMO.</opener>
-                <p><pb ed="A" n="1r"/>S. P.</p>
-                <p>CORDATISSIME mi <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, cognate
-                    desideratissime et affinis exoptatissime. Postquam priores hisce..........................<app>
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">CORDATISSIME mi <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, cognate
+                    desideratissime et affinis exoptatissime. Postquam priores hisce .......................... <app>
                         <lem>viserint</lem>
                         <rdg><note>ex <q>vixerint</q> corr. A</note></rdg>
                     </app> tandem an non potius sui ipsius, et patriæ, cuius honori studere merito
-                    debuissent, maiore incommodo quam meo................nostræ satis arguunt
+                    debuissent, maiore incommodo quam meo ................ nostræ satis arguunt
                     compositoris malevolum animum <app>
                         <lem>pari</lem>
                         <rdg><note>ex <q>pravo</q> corr. A</note></rdg>
@@ -113,35 +129,34 @@
                     oculis et auribus tam videns quam audiens. Veniet forsan tempus quando et
                     oculatior, magisque auritus (experientia et usu rerum sic suadente) reddetur. At
                     quantum ad me meaque tamdiu exantlata studia nimis sero. Præveniam potius, et
-                    mihi.............favente divina providentia, dum adhuc tempus <app>
+                    mihi ............. favente divina providentia, dum adhuc tempus <app>
                         <lem>super</lem>
                         <rdg><note><q>superest</q> ex <q>sufficiet</q> corr. A</note></rdg>
                     </app><pb ed="TBOO" n="VIII.11"/><app>
                         <lem>est</lem>
                         <rdg><note><q>superest</q> ex <q>sufficiet</q> corr. A</note></rdg>
                         <!-- NB! Dette var den mest elegante løsning jeg kunne finde -->
-                    </app>...........<app>
+                    </app> ........... <app>
                         <lem>iamque</lem>
                         <rdg><note>ex <q>tamque</q> corr. A</note></rdg>
                     </app> alea iacta est, numeratæ tesseræ re......Bene sit Regi precor, utut mihi
                     præter culpam et iniuriam non <app>
                         <lem>faventi</lem>
                         <rdg><note>ex <q>facienti</q> corr. A</note></rdg>
-                    </app>. Bene sit vobis omnibus..............præsertim integrioribus. Bene sit
+                    </app>. Bene sit vobis omnibus .............. præsertim integrioribus. Bene sit
                     universæ <placeName ref="Denmark">Daniæ</placeName> ex animo opto.</p>
-                <p rend="indent">..............Deo tra..........fortuna, sequamur. Iamque vale mi
-                    amantissime <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, et quæ hîc
+                <p rend="indent"> .............. Deo tra.......... fortuna, sequamur. Iamque vale mi
+                    amantissime <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, et quæ hîc
                     desiderantur, in priori<pb ed="A" n="1v"/>bus atque postscriptis lege,
                     TYCHONEMque ex asse tuum <app>
                         <lem>sincere</lem>
                         <rdg><note>ex <q>perge</q> corr. A</note></rdg>
-                    </app> redamare, quod et sponte facturus es, nunquam desiste. Iterumque et
-                    sæpius vale. Dabantur subito <placeName ref="Wandsburg">Wandesburgo</placeName>
+                    </app> redamare, quod et sponte facturus es, nunquam desiste.</p> <closer><salute>Iterumque et
+                    sæpius vale.</salute> <dateline>Dabantur subito <placeName ref="Wandsburg">Wandesburgo</placeName>
                     prope <placeName ref="Hamburg">Hamburgum</placeName>, die 16. Novembris Anni
-                    97.</p>
-                <p rend="rightMargin">Tuus intimus et extimus<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
-                <p rend="center"><pb ed="A" n="1r"/>POSTSCRIPTA.</p>
-                <p>AMANTISSIME <persName ref="Rosenkrantz, Holger">OLIGERE</persName>, si res tuæ
+                    97.</dateline><signed>Tuus intimus et extimus<lb/>TYCHO BRAHE,<lb/>manu propria.</signed></closer>
+                <postscript><label><pb ed="A" n="1r"/>POSTSCRIPTA.</label>
+                <p rend="noIndent">AMANTISSIME <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, si res tuæ
                     ullo modo ita ferrent, nihil magis in votis haberem, quam ut peractis Regijs
                     Nuptijs velles <placeName ref="Breitenburg">Bredenbergam</placeName> venire et
                     mihi isthic indicato prius tempore, idque per certum et fidelem internuncium,
@@ -184,12 +199,10 @@
                     authoris nomen prodere opus erit: uti et mea apud te secreta haberi, et nemini
                     quidpiam inde communicari velim. Tradas potius Vulcano, ubi legeris. Sufficit in
                     memoria habere qua vales, cum et antea hæc ita se habere, satis superque
-                    memineris. Iamque pluries vale. Dabantur ut supra in literis.</p>
-                <lb/>
-                <p rend="rightMargin">T. B.</p>
-                <lb/>
-                <p rend="center">ALTERA POSTSCRIPTA MINORIS MOMENTI.</p>
-                <p>CUM Præfectum illum, quem discedens <placeName ref="Hven">Venusiæ</placeName>
+                    memineris. Iamque pluries vale. Dabantur ut supra in literis.</p><closer><signed><persName ref="brahe_tycho_1546">T. B.</persName></signed></closer></postscript>
+               
+                <postscript><label>ALTERA POSTSCRIPTA MINORIS MOMENTI.</label>
+                <p rend="noIndent">CUM Præfectum illum, quem discedens <placeName ref="Hven">Venusiæ</placeName>
                     nostræ præfeci, <persName ref="Petri">DAVIDEM PETRI</persName> nomine, apud me
                     suspectum reddiderit Parochus ille prior in Insula, interea dum hîc mecum egit,
                     nescio an odio aliquo privato an rei veritate, et inter alia narrârit, eum, cum
@@ -204,8 +217,7 @@
                     Plura ab <persName ref="bille_eske_1552">ESCHILLO BILLE</persName> nostro
                     intelliges, qui acta habet in literas relata et testificata. Datum ut in
                     prioribus.</p>
-                <lb/>
-                <p rend="rightMargin">T. B.</p>
+                <closer><signed><persName ref="brahe_tycho_1546">T. B.</persName></signed></closer></postscript>
             </div>
         </body>
     </text>

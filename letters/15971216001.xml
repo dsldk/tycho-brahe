@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +45,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +74,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>Haderslev</placeName>
                     <date when="1597-12-16"/>
                 </correspAction>
@@ -64,7 +83,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 16. december</date></creation>
+            <creation><date xml:lang="da">1597, 16. december.</date><date xml:lang="en">1597, 16
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +99,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-28" who="#sis">Filen etableret</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,66 +107,81 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.15"/>
-                <opener><pb ed="A" n="2r"/>GENEROSO TYCHONI BRAHEO, MATHEMATICO PRINCIPI, COGNATO ET AFFINI
+                <opener><pb ed="A" n="2r"/>GENEROSO <persName ref="brahe_tycho_1546">TYCHONI
+                        BRAHEO</persName>, MATHEMATICO PRINCIPI, COGNATO ET AFFINI
                     DESIDERATISSIMO.</opener>
-                <p><pb ed="A" n="1r"/>GENEROSE mi TYCHO, cognate affinis desideratissime, amicorum intime. Iam inde quo literæ
-                    tuæ desideratissimæ pridie Non. Decembris reddebantur, medijs his turbis nuptialibus,
-                    laboriosissimis districtus præpedimentis distineor, ne quod valde exoptâram, responsum
-                    usque huc festinare licuerit. In præsens vero, ubi liberior aliquanto adspirat aura,
-                    rarissimam hanc felicitatem, qua cum amicis ingenuæ mentis tuto communicare
-                    conceditur, flagrantissime cupitam, adlubentius eo excipio, quo rariores eius census,
-                    multivarios inter, ut nosti ingenia, habeam et æstimem. Utut autem facile sciam nil
-                    præter spem, haud multa præter voluntatem, exuli iam pridem tibi, modo libero,
-                    accidisse, doleo nihilo etiamdum minus, non tui equidem, sed mei ipsius, sed patriæ
-                    immerentis, sed bonorum in patria omnium, quibus integrior mens et animus, caussa, quos
-                    paucorum quorundam livor, alia obtentui sumpta caussa, suo desiderio, sua gloria, suo
-                    privavit amore et gaudio; alias equidem, ut nihil est certe, quod, natura sic 
-                    <pb ed="TBOO" n="VIII.16"/>imperante, in rebus caducis apparere solentius autumem dissimilium inter se haud
-                    interrupta unquam contentione et pugna, quam non abstrusis modo, sensusque latentibus
-                    Naturæ laboribus familiarem, sed et concitatis destinati humanarum rerum dispensatoris
-                    Mentis facinoribus pene domesticam indies ostentari suspicimus, ita et nihil est, cur
-                    eundem hunc Naturæ morem demirarer, si vel maxime hoc ex circo etiam Musæ iunctim
-                    omnes recentibus æmulationibus proscriptæ exularent, tecumque castra moventes, se in
-                    universum hinc, ubi nihil prisci et integri moris, subducerent; magis est vel tandem
-                    experiendo discere, perversam eiuscemodi, non utique alias insolentem, scena hac tripudiantis 
-                    invidentiæ, caute suspectare inconstantiam, pru<pb ed="A" n="1v"/>denterque 
-                    provisis, quæ tempus commonet, subductas sui rationes non stolidis ac
-                    evanidis, ast solidis et ævo dignis firmare munimentis, ne alienis quam proprijs
-                    innixi mage virtutibus, ad aleatorios quosvis fortunæ iactus * cernimus nutare, quin et
-                    concidere penitus eveniat. Tu vero nobis, tu inquam TYCHO generose facem hîc
-                    prætulisti, tu tuo nobis præluxisti exemplo, tu veræ virtutis ipsi sibi ex asse
-                    undique sufficientis, vestigia posuisti, quibus insistere, quis ad hanc metam adspirans
-                    non adniteretur? Ipse ego certe (qui licet illustri huic consessui accersiri non merear,
-                    in spem tamen secundam aut tertiam saltem acciri indies adnitor) multa nec levia in me
-                    malevolentiæ indicia, utut premantur, erumpere sentisco, ast σὺν δαίμονι ἐσϑλῷ quod
-                    spero incassum, nec enim ad hosce ventus ego mea distendi vela, neque enim importuoso
-                    isti me commiserim vado. Sed de me coram ipse præsens, ne adfectu et præcipitantia,
-                    quorum caussas procul habeo, imprudens nimis in literas intutas, relatrices, rationum
-                    mearum secreta conijcere videar, quæ non aliter constant, quam si nulli, nisi alteri
-                    mihi reddantur. Ad diem itaque anni adproperantis quintum decimum, favente Numine, aliud
-                    vitæ meæ facturus initium, tædiosissimo huic renunciaturus ergastulo, rogationi tuæ
-                    amicissimæ vel non rogatus sponte adsentiri iam pridem est animus, nec vero ad ullius
-                    unquam æmulationes et odia me in his, quæ recta sunt, comparaturus sum unquam. Et vero
-                    quid mage dedeceret, te, quem non affinitate modo, sed et sanguine, sed et
-                    necessitudinis vinculis omnibus peculiari sorte, iure primum æstimo, colo et observo,
-                    te inquam post tot benevolentissimi animi in immerentem indicia, insalutatum
-                    præterire? Age ergo, num circa dictum tempus sat commodus tibi meus <pb ed="A" n="2r"
-                    />videatur accessus, litera per hunc tabellarium adsignifices una aut altera; faxo ego
-                    hîc interim, ne, quod in me desideres, præter vires forte, siet quidquam; alia
-                    præsenti adloquio reservanda, quo et si quæ nova sunt, quæ referre interest, relata
-                    velim, nisi quod hoc unicum in præsens referre intersit, communem nostrum <persName ref="Krag, Niels">CRAGIUM</persName> in
-                    <placeName ref="Poland">Poloniam</placeName> brevi ablegandum, ad 1. Ianuarij litteris huc <pb ed="TBOO" n="VIII.17"/>esse advocatum,
-                    quem, itinere per <placeName ref="Holstein">Holsatiam</placeName> sumpto, te invisurum nullus dubito, cui et quo me adiungere
-                    queam, modo non festinantior abierit, enixe studebo. Ego vero si non studio me
-                    continerem, finem vix habiturum esset hoc meum per litteras adloquium, ut et potiora,
-                    imo vero, quod ego sentio potissima, Epistolij tui capita commodiori opportunitati lubens
-                    reservem. Ludant interea meæ Musæ, qua valent, ad hæc; aperte equidem, ast suo sub
-                    velo. Interea te præpotenti rerum nostrarum gubernatori, Trinuno Numini, cum universa
-                    tua familia, consilijs et actionibus, commendo. Vale felicissime.</p>
-                <p rend="indent">Te nulli secundus integerrimo colens animo</p><lb/>
-                <p rend="rightMargin"><persName ref="Rosenkrantz, Holger">OLIGERUS ROSÆCRANTZ</persName>.<lb/>Perscribebam<lb/><placeName ref="Haderslev">Haderslebiæ</placeName> XVI Decemb.<lb/>CIↃ CI IIIC.</p><lb/>
-                <p>Salutari te suo nomine officiosissime voluit <persName ref="Ulfeldt">IACOBUS ULFELDIUS</persName>, quem te sincere etiam
-                    maioribus renitentibus amare et suspicere scias.</p>
+                <p rend="noIndent"><pb ed="A" n="1r"/>GENEROSE mi <persName ref="brahe_tycho_1546"
+                        >TYCHO</persName>, cognate affinis desideratissime, amicorum intime. Iam
+                    inde quo literæ tuæ desideratissimæ pridie Non. Decembris reddebantur, medijs
+                    his turbis nuptialibus, laboriosissimis districtus præpedimentis distineor, ne
+                    quod valde exoptâram, responsum usque huc festinare licuerit. In præsens vero,
+                    ubi liberior aliquanto adspirat aura, rarissimam hanc felicitatem, qua cum
+                    amicis ingenuæ mentis tuto communicare conceditur, flagrantissime cupitam,
+                    adlubentius eo excipio, quo rariores eius census, multivarios inter, ut nosti
+                    ingenia, habeam et æstimem. Utut autem facile sciam nil præter spem, haud multa
+                    præter voluntatem, exuli iam pridem tibi, modo libero, accidisse, doleo nihilo
+                    etiamdum minus, non tui equidem, sed mei ipsius, sed patriæ immerentis, sed
+                    bonorum in patria omnium, quibus integrior mens et animus, caussa, quos paucorum
+                    quorundam livor, alia obtentui sumpta caussa, suo desiderio, sua gloria, suo
+                    privavit amore et gaudio; alias equidem, ut nihil est certe, quod, natura sic
+                        <pb ed="TBOO" n="VIII.16"/>imperante, in rebus caducis apparere solentius
+                    autumem dissimilium inter se haud interrupta unquam contentione et pugna, quam
+                    non abstrusis modo, sensusque latentibus Naturæ laboribus familiarem, sed et
+                    concitatis destinati humanarum rerum dispensatoris Mentis facinoribus pene
+                    domesticam indies ostentari suspicimus, ita et nihil est, cur eundem hunc Naturæ
+                    morem demirarer, si vel maxime hoc ex circo etiam Musæ iunctim omnes recentibus
+                    æmulationibus proscriptæ exularent, tecumque castra moventes, se in universum
+                    hinc, ubi nihil prisci et integri moris, subducerent; magis est vel tandem
+                    experiendo discere, perversam eiuscemodi, non utique alias insolentem, scena hac
+                    tripudiantis invidentiæ, caute suspectare inconstantiam, pru<pb ed="A" n="1v"
+                    />denterque provisis, quæ tempus commonet, subductas sui rationes non stolidis
+                    ac evanidis, ast solidis et ævo dignis firmare munimentis, ne alienis quam
+                    proprijs innixi mage virtutibus, ad aleatorios quosvis fortunæ iactus * cernimus
+                    nutare, quin et concidere penitus eveniat. Tu vero nobis, tu inquam <persName
+                        ref="brahe_tycho_1546">TYCHO</persName> generose facem hîc prætulisti, tu
+                    tuo nobis præluxisti exemplo, tu veræ virtutis ipsi sibi ex asse undique
+                    sufficientis, vestigia posuisti, quibus insistere, quis ad hanc metam adspirans
+                    non adniteretur? Ipse ego certe (qui licet illustri huic consessui accersiri non
+                    merear, in spem tamen secundam aut tertiam saltem acciri indies adnitor) multa
+                    nec levia in me malevolentiæ indicia, utut premantur, erumpere sentisco, ast σὺν
+                    δαίμονι ἐσϑλῷ quod spero incassum, nec enim ad hosce ventus ego mea distendi
+                    vela, neque enim importuoso isti me commiserim vado. Sed de me coram ipse
+                    præsens, ne adfectu et præcipitantia, quorum caussas procul habeo, imprudens
+                    nimis in literas intutas, relatrices, rationum mearum secreta conijcere videar,
+                    quæ non aliter constant, quam si nulli, nisi alteri mihi reddantur. Ad diem
+                    itaque anni adproperantis quintum decimum, favente Numine, aliud vitæ meæ
+                    facturus initium, tædiosissimo huic renunciaturus ergastulo, rogationi tuæ
+                    amicissimæ vel non rogatus sponte adsentiri iam pridem est animus, nec vero ad
+                    ullius unquam æmulationes et odia me in his, quæ recta sunt, comparaturus sum
+                    unquam. Et vero quid mage dedeceret, te, quem non affinitate modo, sed et
+                    sanguine, sed et necessitudinis vinculis omnibus peculiari sorte, iure primum
+                    æstimo, colo et observo, te inquam post tot benevolentissimi animi in immerentem
+                    indicia, insalutatum præterire? Age ergo, num circa dictum tempus sat commodus
+                    tibi meus <pb ed="A" n="2r"/>videatur accessus, litera per hunc tabellarium
+                    adsignifices una aut altera; faxo ego hîc interim, ne, quod in me desideres,
+                    præter vires forte, siet quidquam; alia præsenti adloquio reservanda, quo et si
+                    quæ nova sunt, quæ referre interest, relata velim, nisi quod hoc unicum in
+                    præsens referre intersit, communem nostrum <persName ref="krag_niels_1550"
+                        >CRAGIUM</persName> in <placeName ref="Poland">Poloniam</placeName> brevi
+                    ablegandum, ad 1. Ianuarij litteris huc <pb ed="TBOO" n="VIII.17"/>esse
+                    advocatum, quem, itinere per <placeName ref="Holstein">Holsatiam</placeName>
+                    sumpto, te invisurum nullus dubito, cui et quo me adiungere queam, modo non
+                    festinantior abierit, enixe studebo. Ego vero si non studio me continerem, finem
+                    vix habiturum esset hoc meum per litteras adloquium, ut et potiora, imo vero,
+                    quod ego sentio potissima, Epistolij tui capita commodiori opportunitati lubens
+                    reservem. Ludant interea meæ Musæ, qua valent, ad hæc; aperte equidem, ast suo
+                    sub velo. Interea te præpotenti rerum nostrarum gubernatori, Trinuno Numini, cum
+                    universa tua familia, consilijs et actionibus, commendo. Vale felicissime.</p>
+                <p rend="indent">Te nulli secundus integerrimo colens animo</p>
+                <closer><signed><persName ref="rosenkrantz_holger_1574">OLIGERUS
+                            ROSÆCRANTZ</persName>.<lb/>Perscribebam</signed><dateline><placeName
+                            ref="Haderslev">Haderslebiæ</placeName> XVI Decemb.<lb/>CIↃ CI
+                        IIIC.</dateline></closer>
+                <postscript>
+                    <p>Salutari te suo nomine officiosissime voluit <persName
+                            ref="ulfeldt_jakob_dy_1567">IACOBUS ULFELDIUS</persName>, quem te
+                        sincere etiam maioribus renitentibus amare et suspicere scias.</p>
+                </postscript>
             </div>
         </body>
     </text>

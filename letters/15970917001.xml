@@ -33,9 +33,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 9737 f</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Staatsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 9737 f</idno>
@@ -60,11 +69,11 @@
                     <date when="1597-09-17"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Henrik Rantzau</persName>
+                    <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName><persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 17. september</date></creation>
+            <creation><date xml:lang="da">1597, 17. september.</date><date xml:lang="en">1597, 17 September.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-21" who="#sis">Filen etableret</change>
+            <change when="2019-06-01" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,8 +97,8 @@
             <div>
                 <pb ed="TBOO" n="VIII.5"/>
                 <opener>TYCHO BRAHE AD <persName ref="rantzau_henrik_1526">HENRICUM RANZOVIUM</persName>.</opener>
-                <p><pb ed="A" n="45r"/>S. P.</p>
-                <p>LITERÆ tuæ, Nobilissime et Amantissime Domine <persName ref="rantzau_henrik_1526">RANZOVI</persName>, amice et affinis honorande, per
+                <p rend="indent"><pb ed="A" n="45r"/>S. P.</p>
+                <p rend="noIndent">LITERÆ tuæ, Nobilissime et Amantissime Domine <persName ref="rantzau_henrik_1526">RANZOVI</persName>, amice et affinis honorande, per
                     Præfectum tuum <persName ref="Christianus">CHRISTIANUM</persName> mihi redditæ sunt, cum quo loca a te peramice oblata
                     collustravi, et pro benevolo hoc erga me affectu gratias officiose ago quas possum
                     maximas, pro virili oblatâ occasione relaturus. Placeret quidem utraque conditio, et præ
@@ -106,8 +116,7 @@
                     de omnibus consilium tecum capiam, et desiderium hoc visendæ Arcis eius amplissimæ,
                     inprimisque splendidæ bibliothecæ tuæ, quod me iampridem incessit, nunc tandem
                     expleam. Interea M<hi rend="sup">æ</hi>. T<hi rend="sup">æ</hi>. omnia fausta precor, eamque quam diutissime incolumem ex animo
-                    voveo. Datæ Segebergæ 17. Septembris Anni 97.</p>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                    voveo.</p> <closer><dateline>Datæ Segebergæ 17. Septembris Anni 97.</dateline><signed>TYCHO BRAHE,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>
