@@ -41,14 +41,37 @@
                                 <idno>Langebek 178</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 178</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
-                                <collection>P.J. Resen: Inscriptionum Haffniensium, København 1668
-                                    (tilskrift i slutningen)</collection>
+                                <collection>Håndskrivet afskrift i slutningen af et eksemplar af P.J. Resen: Inscriptiones Haffnienses, København 1668</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Manuscript transscript in a copy of P.J. Resen: Inscriptiones Haffnienses, København 1668</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
@@ -71,11 +94,11 @@
                     <date when="1598-03-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Joseph Scaliger</persName>
+                    <persName key="scaliger_joseph_justus_1540">Joseph Scaliger</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 14. marts</date></creation>
+            <creation><date xml:lang="da">1598, 14. marts.</date><date xml:lang="en">1598, 14 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -90,6 +113,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-05" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -97,10 +121,10 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.31"/>
-                <opener>TYCHO BRAHE AD <persName ref="scaliger_joseph_justus_1540">IOSEPHUM
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="scaliger_joseph_justus_1540">IOSEPHUM
                     SCALIGERUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>S. P.</p>
-                <p>DIU multumque in votis habui, Illustris Domine <persName ref="scaliger_joseph_justus_1540">IOSEPHE
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">DIU multumque in votis habui, Illustris Domine <persName ref="scaliger_joseph_justus_1540">IOSEPHE
                         SCALIGER</persName>, cum adhuc in <placeName ref="Denmark">Dania</placeName>
                     Patria mea morarer, ut tecum per litteras amicitiam contraherem, præsertim cum a
                     plerisque isthinc ad nos venientibus tuum in me, licet de facie tibi ignotum,
@@ -164,7 +188,7 @@
                     </app> hians aut claudicans comprobata esset. Quin et <pb ed="TBOO" n="VIII.33"
                     />utrobique medium Æquinoctium capiendum, ut intricatio ea, quæ ex Apogæi et
                     Eccentricitatis mutatione provenit, præcaveatur. Conducit etiam <persName
-                        ref="Albategnius">ALBATEGNIJ</persName> Aratensis intermedias Observationes
+                        ref="albategnius_0858">ALBATEGNIJ</persName> Aratensis intermedias Observationes
                     in consilium adhibere. Quibus omnibus rite expensis et adhibita in singulis
                     cautela, quod <pb ed="A" n="1v"/>parallaxin &#x2609; inter observandum
                     Æquinoctia forte neglexerint, atque his etiam Æquatoris inclinationem non satis
@@ -173,7 +197,7 @@
                     quantitate nonnihil adhuc decessurum, ita ut vix 49 minuta ultra integras horas
                     explere possit, nedum ea in <app>
                         <lem wit="#TBOO">6 H</lem>
-                        <rdg wit="#A #B">16 </rdg>
+                        <rdg wit="#A #B">16 Π</rdg>
                     </app>. <app>
                         <lem wit="#TBOO">excederet</lem>
                         <rdg wit="#A #B">excedere</rdg>
@@ -198,13 +222,11 @@
                     </app> permiserunt. Porro referet dictus adolescens quædam ad te meo nomine
                     secreto, de quibus tuum iudicium et consilium cognoscere averem. Is etiam plura,
                     cum mearum rerum sit conscius, de ijs aperiet. Quare ut ipsum benigne audias,
-                    tibique commendatum habeas, etiam atque etiam rogo. Vale vir tam doctrina quam
-                    genere revera illustris. Dabantur subito <placeName ref="Wandsburg"
+                    tibique commendatum habeas, etiam atque etiam rogo.</p> <closer><salute>Vale vir tam doctrina quam
+                    genere revera illustris.</salute> <dateline>Dabantur subito <placeName ref="Wandsburg"
                         >Wandesburgo</placeName> ex Arce Ranzoviana, quæ est prope <placeName
-                        ref="Hamburg">Hamburgum</placeName>, die 14. Martij Anni 1598.</p>
-                <lb/>
-                <p rend="rightMargin">Illustris tuæ Magnis. studiosiss.<lb/>TYCHO BRAHE,<lb/>manu
-                    propria.</p>
+                            ref="Hamburg">Hamburgum</placeName>, die 14. Martij Anni 1598.</dateline> <signed>Illustris tuæ Magnis. studiosiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                    propria.</signed></closer>
             </div>
         </body>
     </text>

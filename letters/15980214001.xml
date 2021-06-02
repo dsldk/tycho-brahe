@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +45,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +79,12 @@
                     <date when="1598-02-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 14. februar</date></creation>
+            <creation><date xml:lang="da">1598, 14. februar.</date><date xml:lang="da">1598, 14
+                    February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +99,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-30" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,24 +107,32 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.24"/>
-                <opener><pb ed="A" n="2r"/><persName ref="rosenkrantz_holger_1574">OLIGERO ROSÆKRANTZIO</persName>, VIRO CORDATO ET MIHI AMICO, CONSANGVINEO ET AFFINI
+                <opener><pb ed="A" n="2r"/><persName ref="rosenkrantz_holger_1574">OLIGERO
+                        ROSÆKRANTZIO</persName>, VIRO CORDATO ET MIHI AMICO, CONSANGVINEO ET AFFINI
                     CHARISSIMO.</opener>
-                <p><pb ed="A" n="1r"/>NOBILISSIME Domine <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, Consangvinee et Affinis desideratissime et præ multis
-                    dilecte. Incidit aliquid hodie post tuum a me discessum, quod in scheda memoriali tibi
-                    tradita annotatum non recordor: nempe quod sit nomen Baronis illius Austriaci, qui uxorem
-                    in <placeName>Cimbria</placeName> duxit. Illud enim mihi memoriâ excidit. Cuperem etiam scire, ubinam habitet,
-                    et quomodo intitulandus sit, iuxta morem vobis consuetum; quo illi scribam convenientius
-                    de putidissimo et mendacissimo isto Plagiario, cuius hîc facta est mentio; atque eorum,
-                    quæ ipsi de eo constant, cum mecum ab <persName ref="Lange, Erik">ERICO LANGIO</persName> adductus esset, indicationem
-                    efflagitem. Admoneas etiam, <pb ed="A" n="1v"/>an Latinæ linguæ sit peritus, nec ne;
-                    quo sciam, an Germanice vel Latine illi scribendum sit, aut etiam Danice, si hoc callet
-                    idioma. Vale, et literas Regi destinatas, ad non Regias oblique respondentes per hunc
-                    nuncium remitte, quantum otium tibi permiserit, critizatas, atque glossis marginalibus
-                    <pb ed="TBOO" n="VIII.25"/>auctas: quod etiam ut in prioribus facias, quibus hæ nonnulla
-                    respondent, rogo; nec te id effecturum diffido, quoniam sic in te recepisti. Iamque
-                    ulterius et perpetuo quam felicissime vale, mi exoptatissime et desideratissime <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>.
-                    Raptim <placeName ref="Wandsburg">Wandesburgi</placeName> die 14. Februarij Anni 98.</p><lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+                <p rend="noIndent"><pb ed="A" n="1r"/>NOBILISSIME Domine <persName
+                        ref="rosenkrantz_holger_1574">OLIGERE</persName>, Consangvinee et Affinis
+                    desideratissime et præ multis dilecte. Incidit aliquid hodie post tuum a me
+                    discessum, quod in scheda memoriali tibi tradita annotatum non recordor: nempe
+                    quod sit nomen Baronis illius Austriaci, qui uxorem in
+                        <placeName>Cimbria</placeName> duxit. Illud enim mihi memoriâ excidit.
+                    Cuperem etiam scire, ubinam habitet, et quomodo intitulandus sit, iuxta morem
+                    vobis consuetum; quo illi scribam convenientius de putidissimo et mendacissimo
+                    isto Plagiario, cuius hîc facta est mentio; atque eorum, quæ ipsi de eo
+                    constant, cum mecum ab <persName ref="lange_erik_1553">ERICO LANGIO</persName>
+                    adductus esset, indicationem efflagitem. Admoneas etiam, <pb ed="A" n="1v"/>an
+                    Latinæ linguæ sit peritus, nec ne; quo sciam, an Germanice vel Latine illi
+                    scribendum sit, aut etiam Danice, si hoc callet idioma. Vale, et literas Regi
+                    destinatas, ad non Regias oblique respondentes per hunc nuncium remitte, quantum
+                    otium tibi permiserit, critizatas, atque glossis marginalibus <pb ed="TBOO"
+                        n="VIII.25"/>auctas: quod etiam ut in prioribus facias, quibus hæ nonnulla
+                    respondent, rogo; nec te id effecturum diffido, quoniam sic in te recepisti.</p>
+                <closer><salute>Iamque ulterius et perpetuo quam felicissime vale, mi exoptatissime
+                        et desideratissime <persName ref="rosenkrantz_holger_1574"
+                            >OLIGERE</persName>.</salute>
+                    <dateline>Raptim <placeName ref="Wandsburg">Wandesburgi</placeName> die 14.
+                        Februarij Anni 98.</dateline><signed>Tuus <persName ref="brahe_tycho_1546"
+                            >TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

@@ -32,14 +32,29 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Langebeks diplomatarium</collection>
-                                <idno>cod. Vindob. lat. 10686.55</idno>
+                                <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -59,7 +74,7 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName>empty</placeName>
+                    <placeName>s.l.</placeName>
                     <date when="1598-01-01"/>
                 </correspAction>
                 <correspAction type="received">
@@ -82,18 +97,19 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-20" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.56"/>TYCHO BRAHE AD <persName
+                <opener><pb ed="TBOO" n="VIII.56"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
                         ref="hagecius_thaddaeus_1525">THADDÆUM HAGECIUM</persName>.</opener>
                 <p><pb ed="A" n="1r"/>Post scripta ad D. D. <persName ref="hagecius_thaddaeus_1525"
                         >Thaddæum Hagecium</persName></p>
                 <p>IN alteris tuis, optime mi <persName ref="hagecius_thaddaeus_1525"
-                    >THADDÆE</persName>, facis mentionem istius <persName ref="Ursus">calumniatoris
+                    >THADDÆE</persName>, facis mentionem istius <persName ref="ursus_nicolaus_1551">calumniatoris
                         Ditmarsici</persName>, quodque eius scriptum maledicum in <placeName
                         ref="Denmark">Daniam</placeName> ad me mitti, antequam in <placeName
                         ref="Mähren">Moraviam</placeName> abires, procuraveris, mihi significas, <app>
@@ -132,18 +148,18 @@
                         >Helmstadiensis</placeName> Academia de hoc iudicet, ex ijs, quæ studiosus
                     ille unâ cum libro transmisso ad me perscripsit, videre est, quæ est eiusmodi:
                         &#187;<hi rend="it">Rerum novarum hic nihil est, nisi verum et ferum istum
-                            <persName ref="Ursus">Ursum</persName> non hominem (cuius librum hîc
+                            <persName ref="ursus_nicolaus_1551">Ursum</persName> non hominem (cuius librum hîc
                         quidem non venalem, sed a magno quodam viro acceptum, vobis mitto) pro suo
                         ingenio in vos debacchatum esse, qui, quod vobis gratulamur, sui ipsius ore
                         suam pro<pb ed="TBOO" n="VIII.57"/>didit inscitiam, et innata verborum
                         virulentia ac canina calumniandi rabie vestram probe ultus est iniuriam,
-                        utque doctissimus noster <persName ref="Caselius">CASELIUS</persName>,
+                        utque doctissimus noster <persName ref="caselius_johannes_1533">CASELIUS</persName>,
                         cæteraque Professorum cohors attestatur, quod impuro suo scripto de doctorum
                         virorum cœtu plane se exemit, nec dignus est, ut Cæsaris amplius vocetur
                         Mathematicus, nedum ut sit. Sed næ ego desipio, qui γλαῦκας εἰς Ἀθήνας.
                         Introspiciatis! <placeName ref="Braunschweig">Brunsvicensem</placeName>
                         Cancellarium <placeName ref="Praha">Pragæ</placeName> fuisse, vere ad <pb
-                            ed="A" n="2r"/>vos delatum est, <persName ref="Ursus"
+                            ed="A" n="2r"/>vos delatum est, <persName ref="ursus_nicolaus_1551"
                             >URSUMque</persName> exemplar sui operis illi obtulisse, quo pravi
                         ingenij scurrili specimine statuit hîc professionem ambire atque impetrare.
                         Sed ut Cancellarij humanitatis erat, oblatum librum non renuere, ita
@@ -183,31 +199,31 @@
                         pro suis venditavit, qui satis est conscius a nemine esse excogitatas,
                         antequam vos eas invenissetis, quia in <placeName ref="Denmark"
                             >Dania</placeName> eas a vobis intellexerat, diu antequam <persName
-                            ref="Ursus">URSI</persName> istius Ditmarsici plagiarij vestri
+                            ref="ursus_nicolaus_1551">URSI</persName> istius Ditmarsici plagiarij vestri
                         Fundamentum Astronomicum (si dijs placet) evulgatum est, ubi iste perfrictæ
-                        frontis <persName ref="Ursus">URSUS</persName> hanc inventionem, quam <app>
+                        frontis <persName ref="ursus_nicolaus_1551">URSUS</persName> hanc inventionem, quam <app>
                             <lem wit="#Friis">tamen</lem>
                             <rdg wit="#A">tam</rdg>
                         </app> non satis capere videtur, sibi attribuere non erubescit, quam procul
                         dubio apud vos habuit, cum ante multos annos Nobiliss. viro <persName
-                            ref="Lange, Erik">ERICO LANGIO</persName> serviens, <placeName
+                            ref="lange_erik_1553">ERICO LANGIO</persName> serviens, <placeName
                             ref="Uraniborg">Uraniburgi</placeName>
                         <pb ed="TBOO" n="VIII.58"/>cum dicto <persName ref="Lange Erik"
                             >ERICO</persName> per multos dies mansisset. De hoc <persName
-                            ref="Ursus">URSO</persName>, cum <persName ref="liddel_duncan_1561"
+                            ref="ursus_nicolaus_1551">URSO</persName>, cum <persName ref="liddel_duncan_1561"
                             >DUNCANUS</persName> maledicum in vos scriptum vidisset, licet vobis ob
                         suum conterraneum et præceptorem <persName ref="craig_john_1620">CRAIGUM</persName>
                         non valde faveret, sic dixit: Se satis mirari non posse istius <persName
-                            ref="Ursus">URSI</persName> impudentem audaciam, et quod nulla honestas,
+                            ref="ursus_nicolaus_1551">URSI</persName> impudentem audaciam, et quod nulla honestas,
                         nulla modestia, nullum virtutis vestigium in eo reperiatur, quod omnes etiam
                         docti coguntur fateri, et aiunt: ipsum evacuasse omnis impudentiæ poculum,
                         ipsumque valde, uti et meritus est, execrantur, neque potest honestus animus
                         cordati cuiusvis viri aliud in posterum sentire de isto impudenti <persName
-                            ref="Ursus">URSO</persName>, quam ipsum omnes verecundiæ limi<pb ed="A"
+                            ref="ursus_nicolaus_1551">URSO</persName>, quam ipsum omnes verecundiæ limi<pb ed="A"
                             n="3r"/>tes supra modum excessisse, neque dignum, ut in consortio
                         honestorum virorum amplius versetur.</hi>&#171;</p>
                 <p rend="indent">Hæc nimirum est <placeName ref="Helmstedt"
-                        >Helmstadiensium</placeName> Professorum de <persName ref="Ursus"
+                        >Helmstadiensium</placeName> Professorum de <persName ref="ursus_nicolaus_1551"
                         >URSO</persName> isto Ditmarsico sententia, cui plures etiam Academiæ non
                     difficulter adstipulabantur, et quotquot sunt <placeName ref="Hamburg"
                         >Hamburgi</placeName> viri docti, ad quos infamis iste liber pervenit, non
@@ -224,7 +240,7 @@
                     aliquantisper dissimulanda censeo, donec in altero negotio, quod longe maioris
                     est momenti, ex voto, uti confido, omnia transacta fuerint. Ista alia suam bene
                     invenient occasionem, præsertim ubi <persName ref="rudolf_2_1552">Cæsar</persName>,
-                    cum rectius noverit et clam apud <persName ref="hertugen af Braunschweig">Ducem
+                    cum rectius noverit et clam apud <persName ref="heinrich_julius_1564">Ducem
                         Brunsvicensem</persName> Professionem in Academia <placeName ref="Helmstedt"
                         >Helmstadiensi</placeName> ambivisse, aut repulsam passum esse resciverit.
                     Nec etiam ea, quæ in eodem scripto circa calcem habet, <pb ed="A" n="3v"
@@ -243,16 +259,16 @@
                     quid tibi ipsi contingeret, velut et ego in te semper pari affectus sum animo.
                     Vale.</p>
                 <p rend="indent">Hæc Mathematum quidam Professor <placeName ref="Wittenberg"
-                        >Wittebergensis</placeName>, M. <persName ref="Joestelius">MELCHIOR
+                        >Wittebergensis</placeName>, M. <persName ref="jostelius_melchior_1559">MELCHIOR
                         IŒSTELIUS</persName> scripsit ad <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM
                         SEVERINI LONGOMONTANUM</persName>, meum antea Studiosum, qui sic habet: </p>
-                <p rend="indent"><hi rend="it">De <persName ref="Ursus">RAYMARI</persName> nuperrime
+                <p rend="indent"><hi rend="it">De <persName ref="ursus_nicolaus_1551">RAYMARI</persName> nuperrime
                         in te impudentia per librum quendam suum recens, ut intelligo, editum
-                        sparsa, idem <persName ref="Joestelius">IŒSTELIUS</persName> literis suis
+                        sparsa, idem <persName ref="jostelius_melchior_1559">IŒSTELIUS</persName> literis suis
                         ultimis ad me missis hæc subiungit:</hi></p>
                 <p rend="indent">&#187;<hi rend="it">Pervenit ante paucos dies ad manus meas
-                        libellus quidam <persName ref="Ursus">RAIMARI</persName>, in quo toto non
-                        tam sophistice quam scurriliter in Generosum Dominum TYCHONEM invehitur.
+                        libellus quidam <persName ref="ursus_nicolaus_1551">RAIMARI</persName>, in quo toto non
+                    tam sophistice quam scurriliter in Generosum Dominum <persName ref="brahe_tycho_1546">TYCHONEM</persName> invehitur.
                         Etsi autem certum est, neminem sanum aut cordatum hoc probaturum, Generosum
                         item equum non curare latratum canum, tamen minime dubito, quin saltem
                         coquus Domini TYCHONIS futilitatem et virulentiam ipsius

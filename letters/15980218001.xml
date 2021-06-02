@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
@@ -41,6 +41,21 @@
                                 <idno>Langebek 179</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>KøbenCopehagenhavn</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -68,7 +83,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 18. februar</date></creation>
+            <creation><date xml:lang="da">1598, 18. februar.</date><date xml:lang="en">1598, 18 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
                 <language ident="da"/>
@@ -84,6 +99,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-31" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,12 +107,12 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.25"/>
-                <opener>TYCHO BRAHE AD <persName ref="Vedel">ANDREAM SEVERINI
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI
                     VELLEIUM</persName>.</opener>
-                <p><pb ed="A" n="3v"/>NUPER cum <persName ref="rosenkrantz_holger_1574">OLIGERUS
+                <p rend="noIndent"><pb ed="A" n="3v"/>NUPER cum <persName ref="rosenkrantz_holger_1574">OLIGERUS
                         ROSENKRANTZ</persName> consanguineus Affinis et Amicus meus dilectus hîc me
                     per duas invisisset hebdomadas, redditæ mihi sunt unâ cum <persName
-                        ref="Lange, Christian">CHRISTIERNI LANGIJ</persName> tuæ literæ, ad quas
+                        ref="lange_christian_1604">CHRISTIERNI LANGIJ</persName> tuæ literæ, ad quas
                     tunc respondendi commoditas non dabatur. Videntur hæ ultimæ tuæ, licet lenire et
                     excusare quædam in prioribus laborent, a primis tamen illis motu proprio ad me
                     datis <app>
@@ -104,7 +120,7 @@
                         <rdg><note>suppl. Friis</note></rdg>
                     </app> longe abesse, et privilegijs scatere iudicis, quæ tamen tibi lubens
                     condono, siquidem non aliter vis. Obijcis ab initio post ea, quæ de <persName
-                        ref="Lange, Christian">LANGIO</persName> et Anglicis literis habes (ad quæ
+                        ref="lange_christian_1604">LANGIO</persName> et Anglicis literis habes (ad quæ
                     postea respondebo) quod iter tuum iuxta promissum non præstitum arguam. Et quid
                     ni? cum sponte promiseris, nec præstiteris? Valetu<pb ed="A" n="4r"/>dinem tuam,
                     rem domesticam et anni tempus tunc æque noras atque postea. Miraris igitur me
@@ -125,14 +141,14 @@
                     ipsorum, uti meriti sunt, capita. Quod et hactenus iustus iudex exequi solitus
                     est. Quod prandio alicuius interfueris, nihil ad me. Neque ob id ea de re
                     mentionem feci, quia hoc morarer, sed quoniam tu occasionem dabas de <persName
-                        ref="Lange, Erik">ERICO LANGIO</persName> et me quædam addendo, quæ tamen
+                        ref="lange_erik_1553">ERICO LANGIO</persName> et me quædam addendo, quæ tamen
                     neuter nostrum curat. Si talibus, qui astutam vapido servant sub pectore vul<pb
                         ed="TBOO" n="VIII.26"/>pem, fidis, te ipsum decipis. <pb ed="A" n="4v"/>Qui
                     et quales eiusmodi sint, fere omnes in <placeName ref="Denmark"
                         >Dania</placeName> norunt, atque in posterum plus forte noscent. O patria, o
                     mores. Omnia nunc ruere in peius fata ipsa docebant. Si tibi deinceps vixeris,
                     uti scribis, rectissime feceris. Nam uti nunc agitur scena Mundana, si unquam
-                    antea, locum meretur illud <persName ref="Ovid">NASONIS</persName> &#187;<hi
+                    antea, locum meretur illud <persName ref="ovid_publius_naso_0043">NASONIS</persName> &#187;<hi
                         rend="it">nimium prælustria vita</hi>&#171;, et &#187;<hi rend="it">bene qui
                         latuit, bene vixit</hi>&#171;. Quod mihi iam tandem congratularis mutationem
                     hanc et sortem aliam, rectius facis, quam cum prius eandem indoleres, tanquam
@@ -208,11 +224,9 @@
                     recte facere liceat, modo libeat. Ego nullum in me officium ingratum esse sinam.
                     Et si adhuc accesseris unâ cum LANGIO aut etiam solus sine ipso, idque ante
                     Paschatis festum (modo fieri queat) inprimis erit id mihi acceptum et eo plenius
-                    priora diluentur errata. Vale cum uxore a me salutata, totaque domo. Dabantur
+                    priora diluentur errata.</p> <closer><salute>Vale cum uxore a me salutata, totaque domo.</salute> <dateline>Dabantur
                         <placeName ref="Wandsburg">Wandesburgi</placeName> die 18. Februarij Anni
-                    1598.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+                    1598.</dateline> <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

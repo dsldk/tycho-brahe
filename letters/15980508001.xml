@@ -40,6 +40,18 @@
                                 <idno/>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -63,7 +75,7 @@
                     <date when="1598-05-08"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -83,6 +95,7 @@
         <revisionDesc>
             <change when="2019-11-20" who="#pz">Filen etableret</change>
             <change when="2019-11-22" who="#pz">Filen færdig</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -114,7 +127,7 @@
                     Quam primum enim is, qui se periclitari animadvertit, [Cancellarium accessit,
                     iniurias, non saltem <pb ed="TBOO" n="VIII.60"/><persName
                         ref="rantzau_henrik_1526">RANZOVIO</persName>], sed et [ipsi Regi illatas
-                    superavit manum forte non vacuam porrigens]. De [<persName ref="Pepler"
+                    superavit manum forte non vacuam porrigens]. De [<persName ref="pepler_christopher_1578"
                         >PEPLERO</persName>] quod <pb ed="A" n="1v"/>pudore quosdam affeceris, si
                     modo quem habent, recte quidem a te factum, sed nihil tam iniquum est, quin si
                     mihi ullo modo adversetur, æquum sit. Ego vero nihil inde moveor, saltem hominum
@@ -157,7 +170,7 @@
                     et prudenter sibi ipsis consuluerint. Quid eruditi passim in <placeName
                         ref="Germany">Germania</placeName> atque alibi de mea isthinc emigratione
                     sentiant, longum foret referre, neque nostratibus forte satis honorificum. Habes
-                    hîc unâ solius <persName ref="Monavius">MONAVIJ</persName>
+                    hîc unâ solius <persName ref="monau_jacob_1546">MONAVIJ</persName>
                     <placeName ref="Wrosław">Wratislaviensis</placeName> literas ad me nuperas, quas
                     cupio mihi remitti, quibus in quantum hunc casum <pb ed="A" n="2v"/>exaggeret,
                     percipies, adeo ut quodam in loco nimis hyperbolice <pb ed="TBOO" n="VIII.61"
@@ -166,7 +179,7 @@
                         >Regem</persName> nostrum Serenissimum, aliosque in patria cordatos viros
                     excusare soleo. Cæteri satis sunt [famosi] tam intra quam extra Regnum, ut me
                     notatore non indigeant. Exemi quoque et Regem et quosvis integros viros ab ijs,
-                    quæ mihi evenerunt, in prioribus meis ad <persName ref="Monavius"
+                    quæ mihi evenerunt, in prioribus meis ad <persName ref="monau_jacob_1546"
                         >MONAVIUM</persName>. Hinc est, quod ait, me recte facere, quod discernam
                     actorem a Poëta fabulæ. Quod vero de administratore nihil apud [prædictam]
                     attuleris, consulte factum est. De <persName ref="ulfeldt_jakob_dy_1567">ULFELDIO</persName>
@@ -194,7 +207,7 @@
                     est, quid Mathematicus <placeName ref="Wittenberg">Wittebergensis</placeName>
                     <placeName ref="Rostock">Rostochium</placeName> ad <persName ref="longomontanus_christen_sorensen_1562"
                         >CHRISTIERNUM SEVERINI</persName>, qui mecum per aliquot annos fuit,
-                    perscripserit. Habes quoque exemplum literarum <persName ref="Rollenhagen"
+                    perscripserit. Habes quoque exemplum literarum <persName ref="rollenhagen_georg_1542"
                         >ROLLENHAGIJ</persName>, quas his ipsis diebus accepi, qui fusius de his
                     agit et librum istum scurrilem unâ misit, quem <persName ref="Lange. Erik">ERICO
                         LANGIO</persName> destinavi, siquidem author eum semel atque iterum isthic
@@ -206,7 +219,7 @@
                     reperient; licet non ita κατ’ ἐξοχήν quidvis fingere ausi sint. Sed valeant
                     ista. <pb ed="nil"/></p>
                 <p rend="indent"><pb ed="A" n="3v"/> Venit heri in manus meas liber Ephemeridum
-                    cuiusdam <persName ref="Everhartus">MARTINI EVERHARTI</persName> (ut et hoc
+                    cuiusdam <persName ref="everaert_martin_1540">MARTINI EVERHARTI</persName> (ut et hoc
                     obiter intermisceam) quas ex novis suis tabulis <pb ed="TBOO" n="VIII.62"
                     />Belgicis se supputasse in frontispicio asserit, atque in epistola dedicatoria
                     [ad <persName ref="christian_4_1577">Regem</persName> nostrum] multa de ijsdem
@@ -216,7 +229,7 @@
                     protulerit. In fixis enim stellis retinuit ubique easdem longitudines et
                     latitudines, quæ ex calculo Prutenico derivantur. Quæ si rite se habuissent,
                     quantis laboribus et quot millibus Ioachimicorum parcere potuissem? In Planetis
-                    motus eorum ex utroque calculo nimirum <persName ref="Alfonso 10."
+                    motus eorum ex utroque calculo nimirum <persName ref="alfonso_10_1221"
                         >Alphonsino</persName> et <persName ref="kopernikus_nikolaus_1473"><app><lem wit="#TBOO">Coperniceo</lem><rdg wit="#A">Copernici</rdg></app></persName>
                     simul mixto, et huic quam illi pro arbitrio propius accedendo, quodlibetice, quo
                     imperitis fucum faceret, consarcinavit, maiori sane compendio, quam si ex ipso
@@ -243,7 +256,7 @@
                     sexcenta alia eiuscemodi pro iudicij libertate seu potius levitate, procul dubio
                     comminiscentur, et facilis est assensus. Quis enim Cœlo inconsulto hæc
                     dijudicarit? Cœlum vero consulere quotusquisque rite novit? Sed suo tempore
-                    patebit, quam parum aut potius nihil ab <persName ref="Everhartus"
+                    patebit, quam parum aut potius nihil ab <persName ref="everaert_martin_1540"
                         >EVERHARTO</persName> isto præstitum sit, motusque siderum potius confusione
                     quadam utriusque calculi sic intricatos quam extricatos esse, adeo ut nullo
                     certo, sed saltem opinabili et pro authoris arbitrio utcunque assumpto nitan<pb
@@ -366,7 +379,7 @@
                     <placeName ref="Berlin">Berlini</placeName> diu substitisset, quod ob plurima
                     irrepentia in ea Electoratus mutatione obstacula essent in Aula alias
                     occupatissimi, post nonam tandem hebdomadem reversus unâ cum <persName
-                        ref="Moller, Johannes">IOHANNE MÜLLERO</persName> Mathematico Principis et
+                        ref="muller_johannes_1608">IOHANNE MÜLLERO</persName> Mathematico Principis et
                     liberorum eius instructore, literas quidem tam ab <persName ref="Joachim Friedrich"
                         >Electore</persName> quam <persName ref="Katharina ">Electorissa</persName>
                     attulerunt, et <persName ref="christian_4_1577">Regi</persName> nostro Ser<hi
@@ -378,7 +391,7 @@
                     quas <placeName ref="Bramstedt">Bramstedij</placeName> Principi præsens obtuli, quæ obiter in ea festinatione (siquidem
                     summo mane Princeps discedere voluit) exaratæ erant. At Instructio, quam postea
                     <persName
-                        ref="Moller, Johannes">MÜLLERO</persName> tradidi, alia quædam et particulariora continebat, quorum minima pars in
+                        ref="muller_johannes_1608">MÜLLERO</persName> tradidi, alia quædam et particulariora continebat, quorum minima pars in
                     literis Electoris attingitur. Incertus itaque sum, an literas hasce non magni
                     ponderis ad <persName ref="christian_4_1577">Regem</persName> et <persName ref="Anna Cathrine">Reginam</persName> mittere velim, cum mihi usui isthic futuras vix
                     putem. Si Megapolitanæ tam diligenter scriptæ nihil profuerunt, adeo ut ne

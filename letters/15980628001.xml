@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,11 @@
                     <date when="1598-06-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 28. juni</date></creation>
+            <creation><date xml:lang="da">1598, 28. juni.</date><date xml:lang="en">1598, 28 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +97,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-25" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,109 +109,117 @@
                     GENERIS VIRO INSIGNITER CLARO, DOMINO <persName ref="rosenkrantz_holger_1574"
                         >OLIGERO ROSENCRANTZIO</persName> DE ROSENHOLM, CONSANGVINEO AFFINI ET AMICO
                     MEO INTEGERRIMO.<lb/>S. P.</opener>
-                <p>ETSI utrasque literas, utpote eas quas cum <persName ref="mule_claus_1575"
-                        >MULÆO</persName> misi, quasque postea ad te scripsi, desideratissime mi
-                        <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, tibi redditas esse
-                    non ambigam, atque ex ijs inter alia te cognovisse, quæ <placeName ref="Praha"
-                        >Praga</placeName> a veteri meo amico <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆO</persName> mihi perscripta sunt, tamen cum ante paucos dies ab
-                    Amico illo meo <persName ref="Magdeburg">Magdeburgensi</persName>, quem scis
-                    mihi scribere <pb ed="TBOO" n="VIII.78"/>solitum esse, nonnullas acceperim,
-                    eadem de re quædam agentes, harum quoque exemplum tecum communicandum duxi, quo
-                    plenius intelligeres qualis sit <persName ref="rudolf_2_1552">Cæsareæ Ma<hi
-                            rend="sup">tis</hi></persName> erga me voluntas; præsertim cum <persName
-                        ref="bille_eske_1552">ESCHILLO BILLEO</persName> nostro mihi nunc respondendum
-                    sit ad quasdam hisce diebus mihi ab eo missas, et quendam ex meis nunc
-                        <placeName ref="Lübeck">Lubecæ</placeName> habeam, qui has ad vos certo
-                    dirigat, oblata videlicet commoda aliqua oportunitate, interea dum alijs meis
-                    negotijs isthic exequendis occupatur. Velim autem, ut hæc ipsa quæ nunc scribo
-                    mittoque, non nisi intimis nostris monstres; tute satis nosti, quinam ex ijs
-                    fideles sint, licet et illi, uti fit, pauci; nolui nomen eius, qui hæc ad me
-                    scripsit, subiungi; sed tu et Doctor <persName ref="krag_niels_1550"
-                        >NICOLAUS</persName> facile colligetis, quisnam sit; solet is libere mihi
-                    scribere, utut de facie ignotus ignoto; nollem itaque hasce eius literas alijs
-                    patere, potissimum ob ea quæ de Principe alias satis noto scribit. <pb ed="A"
-                        n="1v"/>Aut igitur hæc admodum secreta habe, aut Vulcano trade. Quam facile
-                    mihi sit, Principis illius obiectis respondere, tute satis nosti, nam desertus
-                    deserui, ne ipsemet spectator essem ruinæ eorum, quæ in Patria tam diu tantoque
-                    nixu molitus sum, quod tamen nec Regno nec Regi imputandum duco; authores satis
-                    noti, utque adhuc famosiores reddantur, promeruere. Quod autem, mi <persName
-                        ref="rosenkrantz_holger_1574">OLIGERE</persName>, hæc, quæ nunc mitto, prioribus
-                    superaddam, ideo factum, quod ex te alijsque intimis amicis oportunum simul
-                    consilium capere velim, quid faciendum existimetis, ubi tale quid mihi oblatum
-                    fuerit. Intelligo ex ijs, qui loca illa norunt, esse arcem splendidam et amœnam,
-                    in quam ipse Cæsar solitus est ante paucos annos animi causa nonnunquam
-                    secedere, quamque post <placeName ref="Praha">Pragensem</placeName> maximi
-                    facit, et circa quam venationem exercere consuevit, dum his et similibus
-                    delectaretur. Nunc enim intra duos vel tres proximos annos saltem in arce
-                        <placeName ref="Praha">Pragensi</placeName> eum se continuisse referunt. Ego
-                    quidem de feudo aliquo in <placeName ref="Silesia">Silesia</placeName>,
-                        <placeName ref="Moravia">Moravia</placeName>, <placeName ref="Lausitz"
-                        >Lusatia</placeName>, aut alijs ditionibus Cæsari subiectis, obtinendo
-                    potius essem sollicitus, quam ut in tam pomposo Bohemiæ loco versarer, sed
-                    obtemperandum est <persName ref="rudolf_2_1552">Imperatoris</persName> clementi
-                    voluntati, quacunque tandem ratione mihi et meis benefacere velit, ita ut
-                    studijs etiam, quibus occupor, liberaliter provideatur, siquidem Patria nostra
-                    hanc curam tam in<pb ed="A" n="2r"/>considerate posthabuerit. Loquere de his
-                    secreto cum <persName ref="bille_eske_1552">ESCHILLO BILLEO</persName> nostro, tum
+                <p rend="noIndent">ETSI utrasque literas, utpote eas quas cum <persName
+                        ref="mule_claus_1575">MULÆO</persName> misi, quasque postea ad te scripsi,
+                    desideratissime mi <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>,
+                    tibi redditas esse non ambigam, atque ex ijs inter alia te cognovisse, quæ
+                        <placeName ref="Praha">Praga</placeName> a veteri meo amico <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆO</persName> mihi perscripta sunt, tamen
+                    cum ante paucos dies ab Amico illo meo <persName ref="Magdeburg"
+                        >Magdeburgensi</persName>, quem scis mihi scribere <pb ed="TBOO" n="VIII.78"
+                    />solitum esse, nonnullas acceperim, eadem de re quædam agentes, harum quoque
+                    exemplum tecum communicandum duxi, quo plenius intelligeres qualis sit <persName
+                        ref="rudolf_2_1552">Cæsareæ Ma<hi rend="sup">tis</hi></persName> erga me
+                    voluntas; præsertim cum <persName ref="bille_eske_1552">ESCHILLO
+                        BILLEO</persName> nostro mihi nunc respondendum sit ad quasdam hisce diebus
+                    mihi ab eo missas, et quendam ex meis nunc <placeName ref="Lübeck"
+                        >Lubecæ</placeName> habeam, qui has ad vos certo dirigat, oblata videlicet
+                    commoda aliqua oportunitate, interea dum alijs meis negotijs isthic exequendis
+                    occupatur. Velim autem, ut hæc ipsa quæ nunc scribo mittoque, non nisi intimis
+                    nostris monstres; tute satis nosti, quinam ex ijs fideles sint, licet et illi,
+                    uti fit, pauci; nolui nomen eius, qui hæc ad me scripsit, subiungi; sed tu et
+                    Doctor <persName ref="krag_niels_1550">NICOLAUS</persName> facile colligetis,
+                    quisnam sit; solet is libere mihi scribere, utut de facie ignotus ignoto; nollem
+                    itaque hasce eius literas alijs patere, potissimum ob ea quæ de Principe alias
+                    satis noto scribit. <pb ed="A" n="1v"/>Aut igitur hæc admodum secreta habe, aut
+                    Vulcano trade. Quam facile mihi sit, Principis illius obiectis respondere, tute
+                    satis nosti, nam desertus deserui, ne ipsemet spectator essem ruinæ eorum, quæ
+                    in Patria tam diu tantoque nixu molitus sum, quod tamen nec Regno nec Regi
+                    imputandum duco; authores satis noti, utque adhuc famosiores reddantur,
+                    promeruere. Quod autem, mi <persName ref="rosenkrantz_holger_1574"
+                        >OLIGERE</persName>, hæc, quæ nunc mitto, prioribus superaddam, ideo factum,
+                    quod ex te alijsque intimis amicis oportunum simul consilium capere velim, quid
+                    faciendum existimetis, ubi tale quid mihi oblatum fuerit. Intelligo ex ijs, qui
+                    loca illa norunt, esse arcem splendidam et amœnam, in quam ipse Cæsar solitus
+                    est ante paucos annos animi causa nonnunquam secedere, quamque post <placeName
+                        ref="Praha">Pragensem</placeName> maximi facit, et circa quam venationem
+                    exercere consuevit, dum his et similibus delectaretur. Nunc enim intra duos vel
+                    tres proximos annos saltem in arce <placeName ref="Praha">Pragensi</placeName>
+                    eum se continuisse referunt. Ego quidem de feudo aliquo in <placeName
+                        ref="Silesia">Silesia</placeName>, <placeName ref="Moravia"
+                        >Moravia</placeName>, <placeName ref="Lausitz">Lusatia</placeName>, aut
+                    alijs ditionibus Cæsari subiectis, obtinendo potius essem sollicitus, quam ut in
+                    tam pomposo Bohemiæ loco versarer, sed obtemperandum est <persName
+                        ref="rudolf_2_1552">Imperatoris</persName> clementi voluntati, quacunque
+                    tandem ratione mihi et meis benefacere velit, ita ut studijs etiam, quibus
+                    occupor, liberaliter provideatur, siquidem Patria nostra hanc curam tam in<pb
+                        ed="A" n="2r"/>considerate posthabuerit. Loquere de his secreto cum
+                        <persName ref="bille_eske_1552">ESCHILLO BILLEO</persName> nostro, tum
                     quoque <persName ref="krag_niels_1550">KRAGIO</persName> communi amico, et quid
                     consilij dederint, literis significa, alias vero hæc, ubi præsertim minus
-                    securum fuerit, cæla. <persName ref="tengnagel_frans_1576">FRANCISCUS TEGNAGLIUS</persName>
-                    meus necdum huc reversus est, sed spero illum brevi feliciter affuturum. Cuperem
-                    etiam, ut <persName ref="mule_claus_1575">MULÆUS</persName> reditum acceleraret,
-                    neque enim de rebus meis, quomodo et quando quippiam agendum, omnino statuere
-                    possum, antequam hi duo redierint. Interea tamen me, quoad datur, itineri
-                    accingo, omniaque Divinæ providentiæ committo, cui etiam te cum omnibus tuis
-                        com<pb ed="TBOO" n="VIII.79"/>mendo. Vale. Dabantur raptim <placeName
-                        ref="Wandsburg">Wandesburgo</placeName> die 28. Iunij Anno Domini 1598. </p>
-                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+                    securum fuerit, cæla. <persName ref="tengnagel_frans_1576">FRANCISCUS
+                        TEGNAGLIUS</persName> meus necdum huc reversus est, sed spero illum brevi
+                    feliciter affuturum. Cuperem etiam, ut <persName ref="mule_claus_1575"
+                        >MULÆUS</persName> reditum acceleraret, neque enim de rebus meis, quomodo et
+                    quando quippiam agendum, omnino statuere possum, antequam hi duo redierint.
+                    Interea tamen me, quoad datur, itineri accingo, omniaque Divinæ providentiæ
+                    committo, cui etiam te cum omnibus tuis com<pb ed="TBOO" n="VIII.79"/>mendo.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur raptim <placeName ref="Wandsburg">Wandesburgo</placeName> die
+                        28. Iunij Anno Domini 1598.</dateline>
+                    <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                        propria.</signed></closer>
                 <lb/>
-                <p rend="center">POSTSCRIPTA.</p>
-                <p>POSTQUAM has ad te exarassem, accessit me huc <persName ref="Schotus, Walter"
-                        >WALTERI SCHOTI</persName> Hamburgensis filius <persName
-                        ref="Schotus, Gabriel">GABRIEL</persName>, a quo pannos Mater et tu emere
-                    soletis, et se brevi Rosenholmium venturum aiebat. De curru quoque, quem mihi
-                    confieri procuras, retulit, Matrem tuam, cum ultimo ibi fuisset, eum brevi
-                    paratum fore <app>
-                        <lem wit="#TBOO">dixisse</lem>
-                        <rdg wit="#A">dixisset</rdg>
-                    </app>; quare se illum in navem ex Arhusia Lubecam secum recepturum pollicitus
-                    est, cumque de te ipso percontarer, in Selandiam abijsse existimavit. Et insuper
-                    se apud fratrem meum <persName ref="brahe_axel_1550">AXILLUM</persName> fuisse,
-                    atque ibi <pb ed="A" n="2v"/>percepisse, quod ad nuptias trium filiarum, quæ
-                    requiruntur, indies adornet, inter quas et tuæ celebrabuntur, idque futurum sex
-                    abhinc hebdomadibus commemoravit. Incidit itaque in mentem, me tibi Epithalamium
-                    quoddam promisisse, quod cum tam cito ob alias occupationes, quibus varie
-                    distrahor, fieri vix queat, hoc saltem breve Epigramma, quod nunc ex tempore in
-                    buccam venit, hîc subiunctum habe. Deus author universi omnia tibi in hoc
-                    coniugio ex voto prospera et salutaria largiatur. Tu autem, ne huius novellæ
-                        <persName ref="Brahe Sophie niece">SOPHIÆ</persName> amor, alterius et diu
-                    tibi excultæ sophiæ amorem labefactet, sed potius adaugeat atque confirmet,
-                        effice.<hi rend="it"> Hoc opus, hic labor, multos ea meta fefellit</hi>.</p>
-                <div type="poem" n="Epigramma ad Olgerum Rosencrantzium sponsum">
-                    <p>EPIGRAMMA AD <persName ref="rosenkrantz_holger_1574">OLIGERUM
-                            ROSENCRANTZIUM</persName> SPONSUM.</p>
-                    <lg>
-                        <l>Tene <persName ref="rosenkrantz_holger_1574">OLIGERE</persName> etiam materno
-                            sauciat arcu</l>
-                        <l rend="indent">Ille levis toto qui volat orbe puer?</l>
-                        <l>Iste puer cæcus minimusque nec ardua curans</l>
-                        <l rend="indent">Quem poteras alto despicere ingenio.</l>
-                        <l>Omnia sed vincit, dices, cedamus amori</l>
-                        <l rend="indent" n="5">Indomito; summos stravit et ante viros.</l>
-                        <l>Est (fateor) fortis; Musæ, Dictinna, Minerva</l>
-                        <l rend="indent">Sunt tamen e quibus is nulla Trophæa gerit.</l>
-                        <l>Intimus es Musis, placet et Dictinna, tibique</l>
-                        <l rend="indent"><pb ed="A" n="3r"/>Artibus exculto culta Minerva favet:</l>
-                        <l n="10">Attamen aut Arte aut Pharetra, qui vincere nullas</l>
-                        <l rend="indent">E tribus his potuit, te superavit amor.</l>
-                        <l>Scilicet ut tandem miro te falleret astu,</l>
-                        <l rend="indent">Miscuit inter se nomina nominibus,</l>
-                        <l>Proque alijs Sophijs Sophiam ut tibi protulit unam</l>
-                        <l rend="indent" n="15">Præ Sophia omni, unam, victus, amas Sophiam .</l>
-                    </lg>
-                    <p rend="rightMargin">T. B.</p>
-                </div>
+                <postscript>
+                    <label>POSTSCRIPTA.</label>
+                    <p rend="noindent">POSTQUAM has ad te exarassem, accessit me huc <persName
+                            ref="Schotus, Walter">WALTERI SCHOTI</persName> Hamburgensis filius
+                            <persName ref="Schotus, Gabriel">GABRIEL</persName>, a quo pannos Mater
+                        et tu emere soletis, et se brevi Rosenholmium venturum aiebat. De curru
+                        quoque, quem mihi confieri procuras, retulit, Matrem tuam, cum ultimo ibi
+                        fuisset, eum brevi paratum fore <app>
+                            <lem wit="#TBOO">dixisse</lem>
+                            <rdg wit="#A">dixisset</rdg>
+                        </app>; quare se illum in navem ex Arhusia Lubecam secum recepturum
+                        pollicitus est, cumque de te ipso percontarer, in Selandiam abijsse
+                        existimavit. Et insuper se apud fratrem meum <persName ref="brahe_axel_1550"
+                            >AXILLUM</persName> fuisse, atque ibi <pb ed="A" n="2v"/>percepisse,
+                        quod ad nuptias trium filiarum, quæ requiruntur, indies adornet, inter quas
+                        et tuæ celebrabuntur, idque futurum sex abhinc hebdomadibus commemoravit.
+                        Incidit itaque in mentem, me tibi Epithalamium quoddam promisisse, quod cum
+                        tam cito ob alias occupationes, quibus varie distrahor, fieri vix queat, hoc
+                        saltem breve Epigramma, quod nunc ex tempore in buccam venit, hîc subiunctum
+                        habe. Deus author universi omnia tibi in hoc coniugio ex voto prospera et
+                        salutaria largiatur. Tu autem, ne huius novellæ <persName
+                            ref="Brahe Sophie niece">SOPHIÆ</persName> amor, alterius et diu tibi
+                        excultæ sophiæ amorem labefactet, sed potius adaugeat atque confirmet,
+                            effice.<hi rend="it"> Hoc opus, hic labor, multos ea meta
+                        fefellit</hi>.</p>
+                </postscript>
+            </div>
+            <div type="poem" n="Epigramma ad Olgerum Rosencrantzium sponsum">
+                <p>EPIGRAMMA AD <persName ref="rosenkrantz_holger_1574">OLIGERUM
+                        ROSENCRANTZIUM</persName> SPONSUM.</p>
+                <lg>
+                    <l>Tene <persName ref="rosenkrantz_holger_1574">OLIGERE</persName> etiam materno
+                        sauciat arcu</l>
+                    <l rend="indent">Ille levis toto qui volat orbe puer?</l>
+                    <l>Iste puer cæcus minimusque nec ardua curans</l>
+                    <l rend="indent">Quem poteras alto despicere ingenio.</l>
+                    <l>Omnia sed vincit, dices, cedamus amori</l>
+                    <l rend="indent" n="5">Indomito; summos stravit et ante viros.</l>
+                    <l>Est (fateor) fortis; Musæ, Dictinna, Minerva</l>
+                    <l rend="indent">Sunt tamen e quibus is nulla Trophæa gerit.</l>
+                    <l>Intimus es Musis, placet et Dictinna, tibique</l>
+                    <l rend="indent"><pb ed="A" n="3r"/>Artibus exculto culta Minerva favet:</l>
+                    <l n="10">Attamen aut Arte aut Pharetra, qui vincere nullas</l>
+                    <l rend="indent">E tribus his potuit, te superavit amor.</l>
+                    <l>Scilicet ut tandem miro te falleret astu,</l>
+                    <l rend="indent">Miscuit inter se nomina nominibus,</l>
+                    <l>Proque alijs Sophijs Sophiam ut tibi protulit unam</l>
+                    <l rend="indent" n="15">Præ Sophia omni, unam, victus, amas Sophiam .</l>
+                </lg>
+                <p rend="rightMargin">T. B.</p>
             </div>
         </body>
     </text>

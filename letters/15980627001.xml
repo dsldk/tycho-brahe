@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,7 +58,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Niels Hemmingsen</persName>
+                    <persName key="hemmingsen_niels_1513">Niels Hemmingsen</persName>
                     <placeName>Roskilde</placeName>
                     <date when="1598-06-27"/>
                 </correspAction>
@@ -63,7 +67,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 27. juni</date></creation>
+            <creation><date xml:lang="da">1598, 27. juni.</date><date xml:lang="en">1598, 27 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +82,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-25" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,30 +90,31 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.77"/><pb ed="A" n="207v"/>NOBILITATE, SAPIENTIA,
-                    PIETATE ET VIRTUTE PRAESTANTISSIMO VIRO DOMINO TYCHONI BRAHE, DOMINO PATRONO ET
+                    PIETATE ET VIRTUTE PRAESTANTISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, DOMINO PATRONO ET
                     AMICO VETERI SUMMA OBSERVANTIA COLENDO.</opener>
-                <p><pb ed="A" n="207r"/>CLARISSIME vir ac frater in Domino dilecte, <persName
-                        ref="mule_claus_1575">CLAUDIUS MULERUS</persName> tuus domesticus tradidit mihi
-                    literas tuas humanissime scriptas, ex quibus intelligo te memorem esse veteris
-                    nostræ consuetudinis atque amicitiæ, id quod mihi pergratum et periucundum fuit.
-                    Rogo Deum optim. max. ut te quam diutissime sanum et incolumem cum tota familiâ
-                    conservet. Etsi autem per valetudinem non licet prolixius scribere, tamen animus
-                    meus, donec vixero, tibi adhærebit sincerus. Quod autem salutes me nomine
-                        <persName ref="Monavius">MONAVIJ</persName> præstantissimi viri <persName
-                        ref="Bucretius, Hermann">HERMANNI</persName> et <persName
-                        ref="Bucretius, Daniel">DANIELIS BUCRETIJ</persName>, est mihi pergratum,
-                    precorque illis vicissim et animi et corporis constantem valetudinem, et rogo te
-                    clarissime vir, ut in tuis ad eos literis vicissim salutem dicas meo nomine.
-                    Porro quod <persName ref="Monavius">MONAVIUS</persName> petat copiam quarundam
-                    literarum <persName ref="Melanchthon">PHILIPPI</persName> ad me scriptarum, non
-                    possum ipsius voto satisfacere. Nam et ipsæ li[teræ] perierunt et fuerunt
-                    scriptæ de privatis negotijs et politicis non publicandis etc. Quare rogo, ut
-                    boni consulas, quod non possim in hac re tuæ petitioni satisfacere, alias
-                    promptissimus ad omnia præstanda, quæ tibi intellexero fore grata. Vale vir
-                    clarissime cum familia tua et domesticis omnibus. Deus te conservet, amen.
-                    Roschildiæ 27. Iunij Anno 1598.</p><lb/>
-                <p rend="rightMargin"><persName ref="Hemmingsen, Niels">NICOLAUS
-                        HEMMINGIUS</persName>,<lb/>manu propria.</p>
+                <p rend="noIndent"><pb ed="A" n="207r"/>CLARISSIME vir ac frater in Domino dilecte, <persName
+                        ref="mule_claus_1575">CLAUDIUS MULERUS</persName> tuus domesticus tradidit
+                    mihi literas tuas humanissime scriptas, ex quibus intelligo te memorem esse
+                    veteris nostræ consuetudinis atque amicitiæ, id quod mihi pergratum et
+                    periucundum fuit. Rogo Deum optim. max. ut te quam diutissime sanum et incolumem
+                    cum tota familiâ conservet. Etsi autem per valetudinem non licet prolixius
+                    scribere, tamen animus meus, donec vixero, tibi adhærebit sincerus. Quod autem
+                    salutes me nomine <persName ref="monau_jacob_1546">MONAVIJ</persName>
+                    præstantissimi viri <persName ref="bucretius_hermann_1598">HERMANNI</persName>
+                    et <persName ref="bucretius_daniel_1562">DANIELIS BUCRETIJ</persName>, est mihi
+                    pergratum, precorque illis vicissim et animi et corporis constantem valetudinem,
+                    et rogo te clarissime vir, ut in tuis ad eos literis vicissim salutem dicas meo
+                    nomine. Porro quod <persName ref="monau_jacob_1546">MONAVIUS</persName> petat
+                    copiam quarundam literarum <persName ref="melanchton_philipp_1497"
+                        >PHILIPPI</persName> ad me scriptarum, non possum ipsius voto satisfacere.
+                    Nam et ipsæ li[teræ] perierunt et fuerunt scriptæ de privatis negotijs et
+                    politicis non publicandis etc. Quare rogo, ut boni consulas, quod non possim in
+                    hac re tuæ petitioni satisfacere, alias promptissimus ad omnia præstanda, quæ
+                    tibi intellexero fore grata. Vale vir clarissime cum familia tua et domesticis
+                    omnibus. Deus te conservet, amen.</p>
+                <closer><dateline>Roschildiæ 27. Iunij Anno 1598.</dateline><signed><persName
+                            ref="hemmingsen_niels_1513">NICOLAUS HEMMINGIUS</persName>,<lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

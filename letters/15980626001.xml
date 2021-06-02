@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,7 +41,19 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>kopi</ab>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -57,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Ernst, archbishop of Cologne (1554-1612)</persName>
+                    <persName xml:lang="da" key="ernst_1554">Ernst, kurfyrste, ærkebiskop af Köln</persName><persName xml:lang="en" key="ernst_1554">Ernst, Elector, Archbishop of Cologne</persName>
                     <placeName>Liège</placeName>
                     <date when="1598-06-26"/>
                     <note>n.s.</note>
@@ -67,7 +79,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 26. june n.s.</date></creation>
+            <creation><date xml:lang="da">1598, 26. juni n.s.</date><date xml:lang="da">1598, 26 June NS.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -82,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-18" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,7 +104,7 @@
                 <opener><pb ed="TBOO" n="XIV.141"/>AN <persName ref="rudolf_2_1552">DIE RÖMISKE KAY:
                         MAYTT:</persName>.</opener>
 
-                <p>ALLERGNEDIGSTER herr vnd vetter. <persName ref="rudolf_2_1552">E: Röm: Kay: Maytt:</persName> kann jch in vnterthenigen
+                <p rend="noIndent">ALLERGNEDIGSTER herr vnd vetter. <persName ref="rudolf_2_1552">E: Röm: Kay: Maytt:</persName> kann jch in vnterthenigen
                     vertrawen nicht verhalten, wie das mir der ansehenliche vnd hochberumbte Tycho
                     Brahe gehorsamblich zuerkennen geben, wie daß ehr auß etlichen hochwichtigen
                     vrsachen sein vaterlandt das königreich Dennemarck zuuerlassen, vnd sich mit

@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -42,7 +42,19 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Copy</ab>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -58,7 +70,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Joachim Friedrich (Brandenburg)</persName>
+                    <persName xml:lang="da" key="joachim_friedrich_1546">Joachim Friedrich, kurfyrste af Brandenburg</persName><persName xml:lang="en" key="joachim_friedrich_1546">Joachim Friedrich, Prince-elector of Brandenburg</persName>
                     <placeName>Cölln an der Spree</placeName>
                     <date when="1598-01-25"/>
                     <note>n.s.</note>
@@ -68,7 +80,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 25. jan.</date></creation>
+            <creation><date xml:lang="da">1598, 25. januar.</date><date xml:lang="en">1598, 25 January.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -83,6 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-17" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>

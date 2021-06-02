@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Staatsbibliothek</repository>
@@ -41,6 +45,21 @@
                                 <idno>cod. Vindob. lat. 10702</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10702</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +74,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Kepler</persName>
+                    <persName key="kepler_johannes_1571">Johannes Kepler</persName>
                     <placeName>empty</placeName>
                     <date when="1597-12-13"/>
                 </correspAction>
@@ -64,7 +83,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 13. december</date></creation>
+            <creation><date xml:lang="da">1597, 13. december.</date><date xml:lang="en">1597, 13
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,30 +107,38 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.14"/>
-                <opener><pb ed="A" n="59r"/>VIRO NOBILISSIMO ET AMPLISSIMO DOMINO TYCHONI BRAHE, DANO,
-                    MATHEMATICORUM PRINCIPI AD MANUS.</opener>
-                <p>CUM te, Vir amplissime, Mathematicorum omnium non huius tantum ætatis, sed totius ævi
-                    Monarcham constituerit incomparabilis doctrina iudicijque præstantia, iniquum fecero, si
-                    opusculo de proportione cœlorum nuper in lucem dato (sub titulo: <hi rend="it">Prodromus
-                    dissertationum cosmographicarum</hi>) ullam gloriam, tuo iudicio et commendatione neglecta, aucuper. Quæ me
-                    causa movit, ut ignotus ex hoc obscuro <placeName ref="Germany">Germaniæ</placeName> angulo literas ad te mitterem, oratum
-                    per illum ingentem Veritatis amorem, quem in te quoque inesse fama tuæ magnitudinis
-                    prædicat: ut, quid tibi de isthoc videatur negocio, ea synceritate et humanitate, quæ
-                    in te prædicatur, explices, brevibusque literis significes. O me felicem, si quod
-                    <persName ref="mastlin_michael_1550">MÆSTLINO</persName>, idem et TYCHONI videbitur: quibus ego duobus propugnatoribus non dubitabo 
-                    <pb ed="TBOO" n="VIII.15"/>totius orbis iam excitatas insectationes forti animo sustinere. Sin autem
-                    id consecutus fuero, ut quæ insunt infirma, inepta, et puerilia, qualia mihi per
-                    ætatem multa exciderunt, censura volueris notare: an ego non rursum huiusmodi
-                    reprehensionem totius mundi, si esset, assensui præferam? Exemplaria non dubito, quin
-                    antea habeas: quare facile patior, ut difficultas transmittendi per tantum intervallum a
-                    mittendo me avocet. Tuorum autem operum ad nos nihil perfertur: quæque de te sciebam,
-                    ex <persName ref="mastlin_michael_1550">MÆSTLINO</persName> didiceram. Dabis igitur veniam, si quibus in locis tui nominis mentionem
-                    faciens, iniuriam tibi tuæque hypothesi faciam. Plura dicturum quæsiturumque
-                    reverentia me retinet. Aperi luctanti voci viam, scriptis ad me paucissimis: efficies
-                    enim, ut tibi demonstrem, quanto sim discendi, quam laudis cupidior. Vale, Vir
-                    Nobilissime, meaque tibi studia commendata habe. Idibus Decemb. An. 1597.</p><lb/>
-                <p rend="rightMargin">Nobilitatis et Magnitudinis<lb/>Tuæ Reverent.<lb/>M. <persName ref="Kepler">IOHANNES KEPLERUS</persName>,
-                    <lb/>Illustrium Styriæ Procerum in Gymnasio<lb/>Græcensi Mathematicus.</p>
+                <opener><pb ed="A" n="59r"/>VIRO NOBILISSIMO ET AMPLISSIMO DOMINO <persName
+                        ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, DANO, MATHEMATICORUM
+                    PRINCIPI AD MANUS.</opener>
+                <p rend="noIndent">CUM te, Vir amplissime, Mathematicorum omnium non huius tantum
+                    ætatis, sed totius ævi Monarcham constituerit incomparabilis doctrina iudicijque
+                    præstantia, iniquum fecero, si opusculo de proportione cœlorum nuper in lucem
+                    dato (sub titulo: <hi rend="it">Prodromus dissertationum cosmographicarum</hi>)
+                    ullam gloriam, tuo iudicio et commendatione neglecta, aucuper. Quæ me causa
+                    movit, ut ignotus ex hoc obscuro <placeName ref="Germany">Germaniæ</placeName>
+                    angulo literas ad te mitterem, oratum per illum ingentem Veritatis amorem, quem
+                    in te quoque inesse fama tuæ magnitudinis prædicat: ut, quid tibi de isthoc
+                    videatur negocio, ea synceritate et humanitate, quæ in te prædicatur, explices,
+                    brevibusque literis significes. O me felicem, si quod <persName
+                        ref="mastlin_michael_1550">MÆSTLINO</persName>, idem et <persName
+                        ref="brahe_tycho_1546">TYCHONI</persName> videbitur: quibus ego duobus
+                    propugnatoribus non dubitabo <pb ed="TBOO" n="VIII.15"/>totius orbis iam
+                    excitatas insectationes forti animo sustinere. Sin autem id consecutus fuero, ut
+                    quæ insunt infirma, inepta, et puerilia, qualia mihi per ætatem multa
+                    exciderunt, censura volueris notare: an ego non rursum huiusmodi reprehensionem
+                    totius mundi, si esset, assensui præferam? Exemplaria non dubito, quin antea
+                    habeas: quare facile patior, ut difficultas transmittendi per tantum intervallum
+                    a mittendo me avocet. Tuorum autem operum ad nos nihil perfertur: quæque de te
+                    sciebam, ex <persName ref="mastlin_michael_1550">MÆSTLINO</persName> didiceram.
+                    Dabis igitur veniam, si quibus in locis tui nominis mentionem faciens, iniuriam
+                    tibi tuæque hypothesi faciam. Plura dicturum quæsiturumque reverentia me
+                    retinet. Aperi luctanti voci viam, scriptis ad me paucissimis: efficies enim, ut
+                    tibi demonstrem, quanto sim discendi, quam laudis cupidior.</p>
+                <closer><salute>Vale, Vir Nobilissime, meaque tibi studia commendata habe.</salute>
+                    <dateline>Idibus Decemb. An. 1597.</dateline>
+                    <signed>Nobilitatis et Magnitudinis<lb/>Tuæ Reverent.<lb/>M. <persName
+                            ref="kepler_johannes_1571">IOHANNES KEPLERUS</persName>, <lb/>Illustrium
+                        Styriæ Procerum in Gymnasio<lb/>Græcensi Mathematicus.</signed></closer>
             </div>
         </body>
     </text>

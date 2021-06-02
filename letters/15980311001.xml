@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +41,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -59,7 +74,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Vitus Winshemius</persName>
+                    <persName key="winsheim_veit_1521">Vitus Winshemius</persName>
                     <placeName ref="Hamburg">Hamborg</placeName>
                     <date when="1598-03-11"/>
                 </correspAction>
@@ -68,7 +83,7 @@
                     <placeName>Wandsburg</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 11. marts</date></creation>
+            <creation><date xml:lang="da">1598, 11. marts.</date><date xml:lang="en">1598, 11 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
                 <language ident="de"/>
@@ -84,6 +99,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-05" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -92,18 +108,18 @@
             <div>
                 <pb ed="TBOO" n="VIII.31"/>
                 <opener>DEM GESTRENGEN, EDLEN
-                    VND ERNVESTEN HERREN TYCHO BRAHEN ITZO ZU <placeName ref="Wandsburg">WANDESBECK</placeName>, MEINEM BESONDERN GUNSTIGEN LIEBEN
+                    VND ERNVESTEN HERREN <persName ref="brahe_tycho_1546">TYCHO BRAHEN</persName> ITZO ZU <placeName ref="Wandsburg">WANDESBECK</placeName>, MEINEM BESONDERN GUNSTIGEN LIEBEN
                     HERREN VNDT FORDERER.</opener>
-                <p>GENEROSE et Magnifice D. TYCHO, omni cum observantia colende mihi Domine. Negotium
-                    commissum apud D. <persName ref="Boekelius">IOANNEM BŒKELIUM</persName>, quomodo confecerim, a M.V. ex scheda inserta
-                    apparebit. <persName ref="Otto, dux">Duci OTTONI Brunsvicensium et Luneburgensium</persName> de sententia Μ.V. diligenter
+                <p rend="noIndent">GENEROSE et Magnifice D. <persName ref="brahe_tycho_1546">TYCHO</persName>, omni cum observantia colende mihi Domine. Negotium
+                    commissum apud D. <persName ref="boekelius_johannes_1535">IOANNEM BŒKELIUM</persName>, quomodo confecerim, a M.V. ex scheda inserta
+                    apparebit. <persName ref="otto_harburg_1528">Duci OTTONI Brunsvicensium et Luneburgensium</persName> de sententia Μ.V. diligenter
                     scripsi. C. ipsius omnino acquiescit et..quod M. Vestræ commodum futurum est. De
                     accessu Reginæ in hanc civitatem nihil ad me perfertur, sicut et ex filio nihil tale
                     accipio. Verum is, quæ alias publice et notorie sparguntur, confirmat. M.V. et mihi
                     quoque ubi vacaverit a negotijs, <app><lem>...</lem><rdg><note>lacunam indicavit Friis.</note></rdg></app>dabo operam, ut illam invisam. Reliqua committo
                     prudentiæ Μ.V. Quæ ut cum suis optime valeat, toto pectore opto. Datæ raptim
                     <placeName ref="Hamburg">Hamburgæ</placeName> XI. Martij An. 1598.</p><lb/>
-                <p rend="rightMargin">Μ.V. omni cum observantia<lb/>qui colo<lb/>VITUS WINSHEMIUS.</p>
+                <p rend="rightMargin">Μ.V. omni cum observantia<lb/>qui colo<lb/><persName ref="winsheim_veit_1521">VITUS WINSHEMIUS</persName>.</p>
             </div>
         </body>
     </text>

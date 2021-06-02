@@ -41,6 +41,18 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Hansch">
                         <bibl><title>Epistolæ ad Ioannem Keplerum scriptæ</title>, ed. Hansch, 1718,
@@ -64,7 +76,7 @@
                     <date when="1598-03-31"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Holger Rosenkrantz</persName>
+                    <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -83,6 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-07" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>

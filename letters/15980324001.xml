@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +45,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +83,13 @@
                     <date when="1598-03-24"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christen Sørensen Longomontanus</persName>
+                    <persName key="longomontanus_christen_sorensen_1562">Christen Sørensen
+                        Longomontanus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 24. marts</date></creation>
+            <creation><date xml:lang="da">1598, 24. marts.</date><date xml:lang="en">1598, 24
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +104,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-06" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,26 +112,28 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.34"/>
-                <opener>TYCHO BRAHE AD <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
+                        ref="longomontanus_christen_sorensen_1562">CHRISTIANUM
                         LONGOMONTANUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>DILECTE <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANE</persName>,
-                    scripsit ad me ante paucos dies <persName ref="Monavius">IACOBUS
-                        MONAVIUS</persName> Vratislaviensis, Amicus meus integerrimus, te sub finem
-                    anni præteriti <placeName ref="Wrosław">Vratislaviam</placeName> venisse, et
-                    discessus mei causas e <placeName ref="Denmark">Dania</placeName> per omnes
-                    circumstantias sibi retulisse, tum quoque te admodum de me solicitum fuisse,
-                    atque hac inprimis de causa inde abijsse <placeName ref="Leipzig"
-                        >Lipsiam</placeName>. Quod sane mihi auditu pergratum fuit, dum te ita <app>
+                <p rend="noIndent"><pb ed="A" n="1r"/>DILECTE <persName
+                        ref="longomontanus_christen_sorensen_1562">CHRISTIANE</persName>, scripsit
+                    ad me ante paucos dies <persName ref="monau_jacob_1546">IACOBUS MONAVIUS</persName>
+                    Vratislaviensis, Amicus meus integerrimus, te sub finem anni præteriti
+                        <placeName ref="Wrosław">Vratislaviam</placeName> venisse, et discessus mei
+                    causas e <placeName ref="Denmark">Dania</placeName> per omnes circumstantias
+                    sibi retulisse, tum quoque te admodum de me solicitum fuisse, atque hac inprimis
+                    de causa inde abijsse <placeName ref="Leipzig">Lipsiam</placeName>. Quod sane
+                    mihi auditu pergratum fuit, dum te ita <app>
                         <lem>animatum</lem>
                         <rdg><note>add. Friis e "Dänische Bibliothec" IX. lacuna in
                             codd.</note></rdg>
                     </app> agnosco. Ego tibi vicissim ex animo bene favere atque ad meliora quæque
-                    promovere non intermittam. Indicavit insuper ibidem <persName ref="Monavius"
+                    promovere non intermittam. Indicavit insuper ibidem <persName ref="monau_jacob_1546"
                         >MONAVIUS</persName>, quod te ad sororem <persName ref="Wittich, Paul"
                         >WITICHIJ B. M.</persName> deduci curaverit, ubi omnes illius libros
                     perlustraveris. Rogo itaque ut de ijs, qui et quales fuerint, præsertim
                     manuscripti, et an eos vendere velit, qualique pretio, mihi significes. Vidisti
-                    proculdubio plagiarij mei impuri illius <persName ref="Ursus">URSI</persName>
+                    proculdubio plagiarij mei impuri illius <persName ref="ursus_nicolaus_1551">URSI</persName>
                     maledicentissimum scriptum, in quo præter alia innumera convitia meo et meorum
                     honori non parcit. Ego quidem refutatione illum indignum censeo, cum omnes
                     modestiæ limites imo honestatis longe transcenderit; efficiam <pb ed="A" n="1v"
@@ -130,24 +154,24 @@
                     redimendum, aut aliquis pro te spondeat. Faxo ut illi sit indemne. Non est quod
                     verearis, ne te hîc ultra voluntatem detineam, nam ipsemet <pb ed="A" n="2r"
                     />non constitui hîc diu manere. Est nunc apud me <persName
-                        ref="Moller, Johannes">IOHANNES MOLLERUS</persName> Electoris Brandenburgici
+                        ref="muller_johannes_1608">IOHANNES MOLLERUS</persName> Electoris Brandenburgici
                     Mathematicus, qui <placeName>Hvenæ</placeName> in coronatione (ut scis) nobis
                     aderat. Is negotijs præest Astronomicis et studiosis meis, quos hîc non minus
                     quam antea <placeName ref="Uraniborg">Uraniburgi</placeName> haud paucos
-                    sustento. Vide <pb ed="TBOO" n="VIII.35"/>iam, mi <persName ref="Longomantanus"
+                    sustento. Vide <pb ed="TBOO" n="VIII.35"/>iam, mi <persName ref="longomontanus_christen_sorensen_1562"
                         >CHRISTIERNE</persName>, ne fallas exspectationem meam, sed quam primum te
                     hîc sistas. Invenies me vicissim gratum, ut huius pro me suscepti itineris te
                     neutiquam pœniteat. Sume tecum exemplar Ephemeridum novarum <persName
-                        ref="Everhartus">N.
+                        ref="everaert_martin_1540">N.
                     EVERHARDI</persName><!-- NB 'M'?? andetsteds hedder han Martin --> e novis (ut
                     iactitat) Tabulis supputatarum, quod illas in aliqua Academia facile
                     nancisceris, et si quid aliud nosti, quod meis desiderijs conveniat. <placeName
                         ref="Hamburg">Hamburgi</placeName> hic liber venalis non est. Mihi nihil
-                    præter solum eius libri titulum in catalogo hucusque videre licuit. Vale, et
-                    confestim, prout tibi confido, ad nos advola. Raptim <placeName ref="Wandsburg"
-                        >Wandesburgi</placeName> die 24. Martij Anni 1598.</p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                    præter solum eius libri titulum in catalogo hucusque videre licuit.</p>
+                <closer><salute>Vale, et confestim, prout tibi confido, ad nos advola.</salute>
+                    <dateline>Raptim <placeName ref="Wandsburg">Wandesburgi</placeName> die 24.
+                        Martij Anni 1598.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

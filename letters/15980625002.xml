@@ -32,12 +32,24 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
                                 <collection>Langebeks Diplomatarium</collection>
                                 <idno/>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
@@ -57,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Ernst, Elector, Archbishop of Cologne</persName>
+                    <persName xml:lang="da" key="ernst_1554">Ernst, kurfyrste, ærkebiskop af Köln</persName><persName xml:lang="en" key="ernst_1554">Ernst, Elector, Archbishop of Cologne</persName>
                     <placeName>Liège</placeName>
                     <date when="1598-06-25"/>
                     <note>n.s.</note>
@@ -67,7 +79,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598-06-25 n.s.</date></creation>
+            <creation><date xml:lang="da">1598 25. juni n.s.</date><date xml:lang="en">1598 25 June NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,16 +96,17 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-08" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-18" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.140"/>NOBILISSIMO NOBIS SINGULARITER DILECTO TYCHONI
-                     BRAHE, DOMINO DE KNUDSTRUP.</opener>
+                <opener><pb ed="TBOO" n="XIV.140"/>NOBILISSIMO NOBIS SINGULARITER DILECTO <persName ref="brahe_tycho_1546">TYCHONI
+                     BRAHE</persName>, DOMINO DE KNUDSTRUP.</opener>
 
-                <p><persName ref="ernst_1554">ERNESTUS</persName> electus et confirmatus archiepiscopus <placeName ref="Köln">Coloniensis</placeName>, sacri Romani
+                <p rend="noIndent"><persName ref="ernst_1554">ERNESTUS</persName> electus et confirmatus archiepiscopus <placeName ref="Köln">Coloniensis</placeName>, sacri Romani
                     imperij per <placeName ref="Italy">Italiam</placeName> archicancellarius et princeps elector, episcopus <placeName ref="Liège">Leodiensis</placeName>,
                     <placeName ref="Rheinpfalz">palatinus Rheny</placeName>, dux utriusque <placeName ref="Bayern">Bauarie</placeName>. Clementi Nostra salutatione
                     premissa. Nobilissime singulariter dilecte, quas mihi iuuenis ille notus a te

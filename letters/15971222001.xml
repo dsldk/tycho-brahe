@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -42,7 +42,19 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Copy</ab>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -64,11 +76,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Joachim Friedrich</persName>
+                    <persName key="joachim_friedrich_1546">Joachim Friedrich</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 22. dec.</date></creation>
+            <creation><date key="da">1597, 22. december.</date><date key="en">1597, 22 December.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -93,7 +105,7 @@
                 <pb ed="TBOO" n="XIV.126"/>
                 <opener>COPIA DESS BRIEFS, SO AN DEM HERRN <persName ref="joachim_friedrich_1546">ADMINISTRATORN</persName> ICH INN DER EIL ZU
                     BRAMBSTADT GEGEBEN HABE.</opener>
-                <p>DURCHLEUCHTIGER hochgeborner <persName ref="joachim_friedrich_1546">furst</persName>, gnedigster herr. Nachdem jch auß
+                <p rend="noIndent">DURCHLEUCHTIGER hochgeborner <persName ref="joachim_friedrich_1546">furst</persName>, gnedigster herr. Nachdem jch auß
                     hochwichtigen vnd nodtwendigen vrsachen, so in die feder nicht alle woll
                     zubringen, mich auß meinem lieben vaterlandt Dennemarck begeben musßen, vnndt
                     hernacher bin innenworden, das die <persName ref="christian_4_1577">kön. maytt:</persName> zu Dennemarcken etc., mein

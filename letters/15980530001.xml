@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno/>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +74,8 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1598-05-30"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -64,7 +84,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 30. maj n.s</date></creation>
+            <creation><date xml:lang="da">1598, 30. maj n.s.</date><date xml:lang="en">1598, 30 May
+                    NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,21 +100,32 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-22" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.68"/><persName ref="hagecius_thaddaeus_1525">THADDÆUS HAGECIUS</persName> AD TYCHONEM BRAHE.</opener>
-                <p>NOBILISSIME Domine TYCHO et amice observande, scripsi tibi propemodum ante mensem
-                    integrum, et cum hucusque nihil rescripseris, nisi forte tardiusculæ ad te pervenerunt
-                    meæ, te ipsum exspectabam, exspectoque etiamnum. Dominus Procancellarius <persName ref="Corraduc">CORADUCIUS</persName>
-                    diebus hisce me allocutus est, et dixit te iam <persName ref="rudolf_2_1552">Cæsari</persName> de meliori nota commendasse, modo
-                    ipse venias, et te <persName ref="rudolf_2_1552">Cæsari</persName> præsentes; in hoc solo cardo rei vertitur.</p>
-                <p rend="indent">Aliud, quod scribam, non habeo, nisi ut quamprimum ad nos advoles. B. V. <placeName ref="Praha">Pragæ</placeName> penult.
-                    Maij novo Stylo 1598.</p><lb/>
-                <p rend="rightMargin">T. THAD.</p>
+                <opener><pb ed="TBOO" n="VIII.68"/><persName ref="hagecius_thaddaeus_1525">THADDÆUS
+                        HAGECIUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName>.</opener>
+                <p rend="noIndent">NOBILISSIME Domine <persName ref="brahe_tycho_1546"
+                        >TYCHO</persName> et amice observande, scripsi tibi propemodum ante mensem
+                    integrum, et cum hucusque nihil rescripseris, nisi forte tardiusculæ ad te
+                    pervenerunt meæ, te ipsum exspectabam, exspectoque etiamnum. Dominus
+                    Procancellarius <persName ref="Corraduc">CORADUCIUS</persName> diebus hisce me
+                    allocutus est, et dixit te iam <persName ref="rudolf_2_1552">Cæsari</persName>
+                    de meliori nota commendasse, modo ipse venias, et te <persName
+                        ref="rudolf_2_1552">Cæsari</persName> præsentes; in hoc solo cardo rei
+                    vertitur.</p>
+                <p rend="indent">Aliud, quod scribam, non habeo, nisi ut quamprimum ad nos
+                    advoles.</p>
+                <closer><salute>B. V.</salute>
+                    <dateline><placeName ref="Praha">Pragæ</placeName> penult. Maij novo Stylo
+                        1598.</dateline>
+                    <signed>T. <persName ref="hagecius_thaddaeus_1525"
+                    >THAD.</persName></signed></closer>
             </div>
         </body>
     </text>

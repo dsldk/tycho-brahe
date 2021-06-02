@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -42,7 +42,19 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Copy</ab>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks Diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
                             </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
@@ -68,7 +80,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1597, 4. aug.</date></creation>
+            <creation><date xml:lang="da">1597, 4. august.</date><date xml:lang="en">1597, 4 August.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -83,7 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-14" who="#pz">Filen etableret</change>
-            <change when="2019-06-01" who="#pz">Filen revideret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -92,7 +104,7 @@
             <div>
                 <pb ed="TBOO" n="XIV.113"/>
                 <opener>ANN DEN <persName ref="christian_4_1577">KÖNIG ZU DENNEMARCK</persName>.</opener>
-                <p>DURCHLEUCHTIGSTER, grosmechtiger <persName ref="christian_4_1577">könig</persName>. E: K: M: seindt Vnsere freundtliche
+                <p rend="noIndent">DURCHLEUCHTIGSTER, grosmechtiger <persName ref="christian_4_1577">könig</persName>. E: K: M: seindt Vnsere freundtliche
                     willige dienste, vnd was Wir den grosvaterlichen verwantnus nach jederzeitt mehr
                     liebs vnnd gutts vermagen zuvor. Freundtlicher <pb ed="TBOO" n="XIV.114"
                     />hertzviellgeliebter sohnn, Vns hatt der ehrnuester Vnser lieber besonder Tycho
@@ -130,7 +142,7 @@
                 <closer>
                     <dateline>Datum Gustruoe 35 den 4. augusti anno 97.</dateline>
                     <salute/>
-                    <signed><persName ref="ulrich_3_1527">Vonn Gottis gnaden Vlrich hertzog
+                    <signed><persName ref="ulrich_3_1527">Vonn Gottis gnaden <persName ref="ulrich_3_1527">Vlrich</persName> hertzog
                             <lb/></persName>zu Meckelnburgk, furst zu Wenden, <lb/>graffe zu
                         Schwerin, <lb/>der lande Rostogk <lb/>vnd Stargard herr.</signed>
                 </closer>

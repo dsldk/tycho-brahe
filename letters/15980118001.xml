@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
                                 <repository>Univ. Bibl.</repository>
@@ -41,9 +41,24 @@
                                 <idno>cod. Monacensi Bibl. Univ. 693 fol.</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
+                                <repository>Univ. Bibl.</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Monacensi Bibl. Univ. 693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -51,6 +66,20 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -65,16 +94,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Heinrich Ellenberger</persName>
+                    <persName key="ellenberger_heinrich_1570">Heinrich Ellenberger</persName>
                     <placeName>London</placeName>
                     <date when="1598-01-18"/>
                 </correspAction>
                 <correspAction type="received">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName ref="Hamburg">Hamborg</placeName>
+                    <placeName xml:lang="da">Hamborg</placeName><placeName xml:lang="en">Hamburg</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 18. januar</date></creation>
+            <creation><date xml:lang="da">1598, 18. januar.</date><date xml:lang="en">1598, 18 January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -89,6 +118,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-10-29" who="#sis">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -96,13 +126,13 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.21"/>
-                <opener>MAGNIFICO ET PRÆSTANTISSIMO VIRO DOMINO TYCHONI BRAHE, NOBILI DANO, DOMINO
+                <opener>MAGNIFICO ET PRÆSTANTISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, NOBILI DANO, DOMINO
                     ET FAUTORI SUO OBSERVANDISSIMO. <placeName ref="Hamburg"
                     >HambURGK</placeName>.<lb/>S. P. D.</opener>
-                <p><pb ed="A" n="125r"/>CUM nuper ex <placeName>Italia</placeName> per utramque
+                <p rend="noIndent"><pb ed="A" n="125r"/>CUM nuper ex <placeName>Italia</placeName> per utramque
                         <placeName ref="Germany">Germaniam</placeName> in
                         <placeName>Angliam</placeName> venissem, Generose et præstantissime Domine
-                    TYCHO, accepissemque a quodam meo amico Domino <persName ref="Roydon">MATTHÆO
+                    <persName ref="brahe_tycho_1546">TYCHO</persName>, accepissemque a quodam meo amico Domino <persName ref="roydon_mathew_1622">MATTHÆO
                         ROYDON</persName>, Anglo, Mathematum, ut mihi videbatur, scientissimo, te ex
                         <placeName ref="Denmark">Dania</placeName> atque
                         <placeName>Uraniburgo</placeName> tuo in <placeName ref="Germany"
@@ -128,7 +158,7 @@
                         >Dania</placeName> tibi evenisse referrent, tuæque abitionis ex <placeName
                         ref="Denmark">Dania</placeName> alij alias recensebant causas. Siquidem
                     fuerunt hîc in <placeName ref="England">Anglia</placeName>, qui tibi cum
-                        <persName ref="Sørensen, Peder">PETRO SEVERINO</persName> Medico litem
+                        <persName ref="sorensen_peder_1540">PETRO SEVERINO</persName> Medico litem
                     fuisse nescio quam asseverarent, teque indignitatis adversarij puditum esse, et
                     ideo inde discessisse. Alij Cancellarium Regium feudum aliquod tibi a <persName
                         ref="frederik_2_1534">FRIDERICO II</persName> felicis memoriæ concessum, sibi
@@ -139,7 +169,7 @@
                     prognatum, et summæ apud Regem auctoritatis virum tam levi molimine non posse ex
                     patria moveri, ut taceam e patria emoveri. <pb ed="A" n="125v"/>Verum cum in
                         <placeName ref="England">Angliam</placeName> etiam delatum sit, <persName
-                        ref="Sørensen, Peder">SEVERINUM</persName> illum apud hunc novellum
+                        ref="sorensen_peder_1540">SEVERINUM</persName> illum apud hunc novellum
                     Cancellarium multum valere, adeo ut is ferme totus ab illo dependeat, atque
                     obscurum non sit, Doctorem illum (ut referunt) diutina tui invidia laborasse,
                     fortassis hoc, quod per semetipsum non potuit exequi, per hunc Cancellarium, cui
@@ -172,12 +202,10 @@
                         >Germaniæ</placeName> etiam sis, invisam, coramque venerer. Vale et meæ
                     impudentiæ ignosce, vir longe præstantissime. Salutem porro accipe a multis in
                         <placeName ref="England">Anglia</placeName> tibi etiam forte ignotis,
-                    nominis tamen tui observantissimis. <placeName ref="London">Londini</placeName>
+                    nominis tamen tui observantissimis.</p> <closer><dateline><placeName ref="London">Londini</placeName>
                     <placeName ref="England">Angliæ</placeName>, anno 1598, 15. Calend.
-                    Februarij.</p>
-                <lb/>
-                <p rend="rightMargin">T. Magnif. addictissimus<lb/>HENRICUS ELLENBERGER,<lb/>Hassus.
-                    M.</p>
+                    Februarij.</dateline> <signed>T. Magnif. addictissimus<lb/><persName ref="ellenberger_heinrich_1570">HENRICUS ELLENBERGER</persName>,<lb/>Hassus.
+                    M.</signed></closer>
             </div>
         </body>
     </text>

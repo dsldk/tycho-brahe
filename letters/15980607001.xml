@@ -59,11 +59,11 @@
                     <date when="1598-06-07"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jacob Grynaeus</persName>
+                    <persName key="grynaeus_simon_1540">Jacob Grynaeus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 7. juni</date></creation>
+            <creation><date xml:lang="da">1598, 7. juni.</date><date xml:lang="en">1598, 7 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-22" who="#pz">Filen etableret</change>
+            <change when="2019-06-02" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,16 +86,16 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.69"/><pb ed="A" n="237"/>CLARISSIMO ET PRÆSTANTISSIMO
-                    VIRO DOCTORI <persName ref="Grynaeus">IO. IACOBO GRYNÆO</persName>, APUD
+                    VIRO DOCTORI <persName ref="grynaeus_simon_1540">IO. IACOBO GRYNÆO</persName>, APUD
                     <placeName ref="Basel">BASILIENSES</placeName> VERBI MINISTRO ET IN INCLYTA ILLA ACADEMIA PROFESSORI CELEBERRIMO,
                     AMICO SUO HONORANDO. <hi rend="it"><placeName ref="Basel"
                     >BASEL</placeName></hi>.</opener>
-                <p><pb ed="A" n="234"/>CLARISSIME et præstantissime vir, quas in Decembri superioris
+                <p rend="noIndent"><pb ed="A" n="234"/>CLARISSIME et præstantissime vir, quas in Decembri superioris
                     anni ante semestre Basileâ ad me dedisti literas, recte quidem accepi, quibus tamen
                     rescribendi nulla sese obtulit interea commoditas, antequam idem, qui tuas
                     reddidit tabellarius, e Dania reversus, et ad vos denuo pergens, hac transiret,
                     quare moram hanc candide accipias rogo. Non possum non ingentes tibi agere
-                    gratias, optime <persName ref="Grynaeus">GRYNÆE</persName>, quod de me, utut longa viarum intercapedine dissito,
+                    gratias, optime <persName ref="grynaeus_simon_1540">GRYNÆE</persName>, quod de me, utut longa viarum intercapedine dissito,
                     tibique de facie ignoto, adeo benevole et sincere sentires, et ea quæ mihi ob
                     quorundam in Patria livorem et malevolentiam, crassâ veri ignorantiâ, sive per
                     imprudentiam, sive datâ operâ, non dixerim, coniunctam ab inexpectato, et aliter
@@ -123,7 +124,7 @@
                     expenderitque, non obscure vel hinc colliget gravissima fuisse illa, quæ me hæc
                     omnia posthabere et Patrium solum deserere totamque familiam in Germaniam
                     transferre adegerunt. Habet præsens tabellarius secum librum quendam hîc per
-                    otium hybernum excusum, quem meo permissu Nepoti ex fratre <persName ref="Brahe, Otte">OTTHONI BRAHE</persName>, qui
+                    otium hybernum excusum, quem meo permissu Nepoti ex fratre <persName ref="brahe_otte_1518">OTTHONI BRAHE</persName>, qui
                     cum suo præceptore in vestra laudatissima Academia aliquando antea versatus est,
                     filius meus natu maior dono mittit; hunc si tantum tibi a gravioribus officij
                     tui curis superest otij, ut quædam in eo perlustrare vacet, mandavi tabellario,
@@ -144,14 +145,13 @@
                     agere aut admittere cogatur. Domino <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName>, affini et amico meo
                     honorando, literas tuas prælegi curavi, illique ex te salutem dixi; is vicissim te
                     peramanter resalutat, gratumque illi fuit, quod tam honorifice de illo
-                    scripseris et senseris. <persName ref="Rantzau, Anton">ANTHONIUM RANZOVIUM</persName> nondum convenire licuit, neque mihi
+                    scripseris et senseris. <persName ref="rantzau_anton_1558">ANTHONIUM RANZOVIUM</persName> nondum convenire licuit, neque mihi
                     constat, ubi is moretur; cum dabitur occasio, huic etiam tuo nomine salutem
                     nunciari curabo. Plura nunc ob occupationum molem addere non vacat. Hæc itaque
                     qualiacunque subito effusa boni consulas, et amicitiam inter nos semel per
                     literas contractam hac etiam ratione, siquidem aliter non liceat, conservare non
-                    desinas. Deus te cum tota domo incolumem conservet et a malis tueatur. Dabantur
-                        <placeName ref="Wandsburg">Wandesburgo</placeName> die 7. Iunij Anni 98.</p>
-                <p rend="rightMargin">Tuæ excell. studiosiss.<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                    desinas. Deus te cum tota domo incolumem conservet et a malis tueatur.</p> <closer><dateline>Dabantur
+                        <placeName ref="Wandsburg">Wandesburgo</placeName> die 7. Iunij Anni 98.</dateline> <signed>Tuæ excell. studiosiss.<lb/>TYCHO BRAHE,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>
