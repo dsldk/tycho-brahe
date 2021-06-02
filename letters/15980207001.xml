@@ -32,7 +32,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol.35, Fol.6f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -57,16 +69,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Tycho Brahe (1546-1601)</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Wandsburg</placeName>
                     <date when="1598-02-07"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christian 4.</persName>
+                    <persName key="christian_4_1577">Christian 4.</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598-02-07</date></creation>
+            <creation><date xml:lang="da">1598, 7. februar.</date><date xml:lang="en">1598, 7 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -93,7 +105,7 @@
                 <opener><pb ed="TBOO" n="XIV.133"/>AD <persName ref="christian_4_1577">REGEM</persName>
                     DANIÆ.</opener>
 
-                <p>SERENISSIME et potentissime <persName ref="christian_4_1577">rex</persName>, domine
+                <p rend="noIndent">SERENISSIME et potentissime <persName ref="christian_4_1577">rex</persName>, domine
                     clementissime. <persName ref="christian_4_1577">Regiæ tuæ Majestati</persName> in
                     hoc novo conjugio adeoque toto regimine optima quæque et faustissima ex animo
                     precor et voveo ac gratias, quas possum, maximas pro beneficiis a laudatissimæ

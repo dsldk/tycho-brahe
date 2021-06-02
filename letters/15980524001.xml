@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,9 @@
                                 <idno/>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
                         </msDesc>
                         <msDesc xml:lang="en">
                             <msIdentifier>
@@ -66,7 +69,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Daniel Cramer</persName>
+                    <persName key="cramer_daniel_1568">Daniel Cramer</persName>
                     <placeName>Stettin</placeName>
                     <date when="1598-05-24"/>
                 </correspAction>
@@ -75,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 24. maj</date></creation>
+            <creation><date xml:lang="da">1598, 24. maj.</date><date xml:lang="en">1598, 24 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -97,7 +100,7 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.69"/>NOBILISSIMO VIRO DOMINO TYCHONI BRAHE OTTONIDI
+                <opener><pb ed="TBOO" n="VIII.69"/>NOBILISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> OTTONIDI
                     DANO, DOMINO IN KNUDSTRUP, ASTRONOMORUM HAC TEMPESTATE PRINCIPI ILLUSTRI, DOMINO
                     ET AMICO SUO ΕΣ ΧΕΙΡΕ.<lb/>S.</opener>
                 <p>MISI tibi, Nobilissime Domine Tycho, Domine et amice honorande, quod petivisti a
@@ -113,7 +116,7 @@
                         >OLIGERO</persName>. <placeName ref="Stettin">Stetini</placeName>. Pridie
                     Ascens. Domini Anno 98· T. M. Add.</p>
                 <lb/>
-                <p rend="rightMargin">Dan. Cramerus.</p>
+                <p rend="rightMargin"><persName ref="cramer_daniel_1568">Dan. Cramerus</persName>.</p>
             </div>
         </body>
     </text>

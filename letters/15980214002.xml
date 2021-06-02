@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,7 +41,7 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                             <physDesc>
-                                <ab>Copy</ab>
+                                <ab>Afskrift</ab>
                             </physDesc>
                         </msDesc>
                         <msDesc xml:lang="en">
@@ -69,16 +69,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Katharina (Brandenburg)</persName>
+                    <persName xml:lang="da" key="katharina_1549">Katharina, kurfyrstinde af Brandenburg</persName><persName xml:lang="en" key="katharina_1549">Katharina, Electress of Brandenburg</persName>
                     <placeName>Cölln an der Spree</placeName>
                     <date when="1598-02-14"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tycho Brahe (1546-1601)</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 14. feb.</date></creation>
+            <creation><date xml:lang="da">1598, 14. februar.</date><date xml:lang="en">1598, 14 February.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -100,10 +100,10 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.135"/>DEM ERNUESTEN VNNSERM BESONDERN LIEBEN TYCHO
-                    BRAHEN VFF KNUDTTSTRUP VNNDT WRANENNBURGK.</opener>
+                <opener><pb ed="TBOO" n="XIV.135"/>DEM ERNUESTEN VNNSERM BESONDERN LIEBEN <persName ref="brahe_tycho_1546">TYCHO
+                    BRAHEN</persName> VFF KNUDTTSTRUP VNNDT WRANENNBURGK.</opener>
 
-                <p>VANN Gottes gnadenn <persName ref="katharina_1549">Katharina</persName>, geborne
+                <p rend="noIndent">VANN Gottes gnadenn <persName ref="katharina_1549">Katharina</persName>, geborne
                     vndt vermehlte marggreffin, auch churfurstin zue Brandenburgk, jnn Preusen
                     hertzogin. Wnsern gnedigenn grues zuuorn. Ernuester besonder lieber, Wir thuen
                     euch auff eur begehrn hiermitt Vnserm diener vndt lieben getrewenn <persName ref="muller_johannes_1608">Johann
