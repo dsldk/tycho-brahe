@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,9 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
                         </msDesc>
                         <msDesc xml:lang="en">
                             <msIdentifier>
@@ -70,7 +77,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Georg Rollenhagen</persName>
+                    <persName key="rollenhagen_georg_1542">Georg Rollenhagen</persName>
                     <placeName>empty</placeName>
                     <date when="1598-04-01"/>
                 </correspAction>
@@ -79,7 +86,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598-04</date></creation>
+            <creation><date xml:lang="da">1598, april.</date><date xml:lang="en">1598,
+                April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -102,32 +110,33 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.50"/><persName ref="rollenhagen_georg_1542">GEORGIUS
-                        ROLLENHAGIUS</persName> AD TYCHONEM BRAHE<lb/>S.</opener>
-                <p><pb ed="A" n="1r"/>NOBILISSIME et Doctissime TYCHO, habui iam per annos aliquot
-                    in aula Cæsareæ Maiestatis inter apparitores præcipuos affinem Lunæburgensem
-                        <persName ref="lehmann_caspar_1563">CASPARUM LEHMANNUM</persName> scalptorem quidem
-                    gemmarum ex professione, sed interim omnium rerum admiratorem, inprimis
-                    Astrologiæ. Ea de caussa cum me amicius colat, interdum quoque invisat ut ante
-                    septimanas non ita multas fecerat, incidit in sermones privatos obiter <persName
-                        ref="ursus_nicolaus_1551">URSI</persName> Dithmarsi mentio, quem dicebat titulum iam
-                    habere Cæsarei Mathematici, etiamsi et vestitu et vita ursus sit, libello quoque
-                    privatim aliquibus dato, te indignis exagitare modis. Rogavi itaque hominem, ut
-                    eum libellum mecum communicaret, quod fecit. Sed incuria cuiusdam mei amici, cui
-                    mandaram, ut præcipua inde capita enotata mihi occupatissimo describeret, in
-                    alienas manus incidit, perijtque nobis prorsus, donec pridie Paschatos, <pb
-                        ed="TBOO" n="VIII.51"/>quo tuæ ab Hamburgensi mihi reddebantur de consilio
-                    cum Cæsare contrahendæ notitiæ, <placeName ref="Praha">Praga</placeName>
-                    reversus est nuncius meus, aliudque exemplar earundem calumniarum secum, ut
-                    scripto ab affine meo petieram, attulit. Quod si vidisses, fieri non posse
-                    arbitror, quin aliquam eius in literis ad me tuis mentionem fecisses. Sic per me
-                    exemplar primum accipis. Quæso considera insigne exemplum Regulæ Ciceronianæ,
-                        <pb ed="A" n="1v"/><app>
+                        ROLLENHAGIUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName><lb/>S.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>NOBILISSIME et Doctissime TYCHO, habui iam per
+                    annos aliquot in aula Cæsareæ Maiestatis inter apparitores præcipuos affinem
+                    Lunæburgensem <persName ref="lehmann_caspar_1563">CASPARUM LEHMANNUM</persName>
+                    scalptorem quidem gemmarum ex professione, sed interim omnium rerum admiratorem,
+                    inprimis Astrologiæ. Ea de caussa cum me amicius colat, interdum quoque invisat
+                    ut ante septimanas non ita multas fecerat, incidit in sermones privatos obiter
+                        <persName ref="ursus_nicolaus_1551">URSI</persName> Dithmarsi mentio, quem
+                    dicebat titulum iam habere Cæsarei Mathematici, etiamsi et vestitu et vita ursus
+                    sit, libello quoque privatim aliquibus dato, te indignis exagitare modis. Rogavi
+                    itaque hominem, ut eum libellum mecum communicaret, quod fecit. Sed incuria
+                    cuiusdam mei amici, cui mandaram, ut præcipua inde capita enotata mihi
+                    occupatissimo describeret, in alienas manus incidit, perijtque nobis prorsus,
+                    donec pridie Paschatos, <pb ed="TBOO" n="VIII.51"/>quo tuæ ab Hamburgensi mihi
+                    reddebantur de consilio cum Cæsare contrahendæ notitiæ, <placeName ref="Praha"
+                        >Praga</placeName> reversus est nuncius meus, aliudque exemplar earundem
+                    calumniarum secum, ut scripto ab affine meo petieram, attulit. Quod si vidisses,
+                    fieri non posse arbitror, quin aliquam eius in literis ad me tuis mentionem
+                    fecisses. Sic per me exemplar primum accipis. Quæso considera insigne exemplum
+                    Regulæ Ciceronianæ, <pb ed="A" n="1v"/><app>
                         <lem wit="#Friis">eum</lem>
                         <rdg wit="#A">eumque</rdg>
                     </app>, qui semel verecundiæ fines transgressus sit, bene et gnaviter impudentem
-                    esse oportere, neque tamen propterea <persName ref="Socrates"
+                    esse oportere, neque tamen propterea <persName ref="sokrates_ 0469"
                         >SOCRATEM</persName> asinum se calcantem ad iudices traxisse, neque
-                        <persName ref="Aristophanes">ARISTOPHANI</persName> publice ipsi in os
+                        <persName ref="aristophanes_0450">ARISTOPHANI</persName> publice ipsi in os
                     maledicenti maledicta regessisse. Legi pro hac mea ætate multa veterum et
                     recentium Philosophorum certamina, etiam de rebus maxime inter ipsos
                     controversis, nunquam vero scriptum insolentius, impudentius, quod haud dubie
@@ -144,42 +153,43 @@
                         <lem wit="#Friis">quondam</lem>
                         <rdg wit="#A">quosdam</rdg>
                     </app> in <placeName ref="Berlin">Berlinensi</placeName> aula dominari <persName
-                        ref="Torneisser">TORNEISSERUM</persName> hominem illiteratissimum, nos vero
-                    cives in literis educatos ut umbras contemni, <app>
+                        ref="thurneisser_leonhard_1531">TORNEISSERUM</persName> hominem
+                    illiteratissimum, nos vero cives in literis educatos ut umbras contemni, <app>
                         <lem wit="#Friis">deque</lem>
                         <rdg wit="#A">idque</rdg>
                     </app> consignatis aliquot problematibus, volebam præsente Illustriss<hi
                         rend="sup">mo</hi> Electore vel Germanice cum ipso conferre. Utebar ad eam
-                    rem <persName ref="Levinus">LEVINO</persName> a Schullenburg nostro Decano.
-                    Legebat meas quæstiones Elector, meque patienter audiebat. Tandem dicebat
-                    intelligere se eius ineptias, neque quicquam ab eo medicamenti <pb ed="A" n="2r"
-                    />accipere. <hi rend="it">Was schadets aber das der Kayser ein Elephanten
-                        hatt?</hi> Itaque me ad cænam iussit adesse, dedit quoque veniam privatim
-                    cum <persName ref="Torneisser">TORNEISSERO</persName> postridie colloquendi, sed
-                    is mihi nunquam erat domi. Sic didici magnates nostros non tam quærere veritatem
-                    quam opinionum pompam. Quod monstrum plures habet spectatores, quam genuina
-                    corporum forma. Sic fortassis in illa quoque aula, de qua scribis, hic <persName
-                        ref="Simon Magus">SIMON MAGUS</persName> imprudentium animos dementavit, ut
-                    existimetur esse aliquid magni. Quare prudenter id periculi tentandum est. Alias
-                    Coloniensis ille vere generosi est animi et prorsus <app>
+                    rem <persName ref="battus_levinus_1591">LEVINO</persName> a Schullenburg nostro
+                    Decano. Legebat meas quæstiones Elector, meque patienter audiebat. Tandem
+                    dicebat intelligere se eius ineptias, neque quicquam ab eo medicamenti <pb
+                        ed="A" n="2r"/>accipere. <hi rend="it">Was schadets aber das der Kayser ein
+                        Elephanten hatt?</hi> Itaque me ad cænam iussit adesse, dedit quoque veniam
+                    privatim cum <persName ref="thurneisser_leonhard_1531">TORNEISSERO</persName>
+                    postridie colloquendi, sed is mihi nunquam erat domi. Sic didici magnates
+                    nostros non tam quærere veritatem quam opinionum pompam. Quod monstrum plures
+                    habet spectatores, quam genuina corporum forma. Sic fortassis in illa quoque
+                    aula, de qua scribis, hic <persName ref="simon_magus_0000">SIMON
+                        MAGUS</persName> imprudentium animos dementavit, ut existimetur esse aliquid
+                    magni. Quare prudenter id periculi tentandum est. Alias Coloniensis ille vere
+                    generosi est animi et prorsus <app>
                         <lem wit="#Friis">politici</lem>
                         <rdg wit="#A">prolitici</rdg>
                     </app>, qui quærit imperij pacem, et illustre apud posteritatem nomen, nec
                     dubites, quin facile eum habeas amicum; sed an utilem, ideo incertum est, quod
                     longissimis itineribus et summis Imperij negotijs est occupatissimus. In aula
                     ipsa qui iam sint politioribus literis imbuti, ignoro, olim <persName
-                        ref="Crato">CRATO</persName> et Dominus <persName ref="kurz_jacob_1554"
+                        ref="crato_1598">CRATO</persName> et Dominus <persName ref="kurz_jacob_1554"
                         >CURTIUS</persName> Musis nostris aditum liberrimum ad summam Maiestatem
                     concedebant. Is, qui rerum summæ præest, amat mathemata, et Vulcani offici<pb
                         ed="TBOO" n="VIII.52"/>nam, ut audij, inprimis si Magistrum nactus fuerit
                     candidum. Sed hæc Deo curæ erunt, et albis puellis, ut ille inquit. Affinis tuus
                         <persName ref="lange_erik_1553">ERICUS LANGIUS</persName> ex <placeName
                         ref="Hessen">Hassia</placeName> ad nos redux iam diversatur Wandio in
-                    comitatu <placeName ref="Mansfeld">Mansfeldensi</placeName> apud IOHAN. ERNESTUM
-                    ab Assaburg nobilem potentem et eruditum; distat is locus hinc decem
-                    milliaribus. Si volueris illi scribere, efficiam, ut literas tuas obtineat.</p>
-                <lb/>
-                <p rend="rightMargin">GEORGIUS ROLLENHAGIUS.</p>
+                    comitatu <placeName ref="Mansfeld">Mansfeldensi</placeName> apud <persName
+                        ref="hans_ernst_1550">IOHAN. ERNESTUM</persName> ab Assaburg nobilem
+                    potentem et eruditum; distat is locus hinc decem milliaribus. Si volueris illi
+                    scribere, efficiam, ut literas tuas obtineat.</p>
+                <closer><signed>GEORGIUS ROLLENHAGIUS.</signed></closer>
             </div>
         </body>
     </text>

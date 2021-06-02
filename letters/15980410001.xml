@@ -14,26 +14,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -41,6 +45,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Tycho Brahes privatarkiv</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -64,7 +83,8 @@
                     <placeName>Ribe</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 10. april</date></creation>
+            <creation><date xml:lang="da">1598, 10. april.</date><date xml:lang="en">1598, 10
+                    April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -87,36 +107,38 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.48"/>
-                <opener>TYCHO BRAHE AD <persName ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI
+                <opener><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
+                        ref="vedel_anders_sørensen_1542">ANDREAM SEVERINI
                     VELLEIUM</persName>.</opener>
-                <p><pb ed="A" n="7r"/>S. P.</p>
-                <p>CLARISSIME et eruditissime Domine Magister <persName ref="vedel_anders_sørensen_1542"
-                        >ANDREA</persName>, veteri amicitia mihi iunctissime. Scripsi ad te ante
-                    aliquot hebdomadas per tabellarium quendam Ripensem, qui semel atque iterum hîc
-                    fuit, et inter alia de victualibus isthic in meum usum conquirendis denuo
-                    admonui. Nec dubito eas te recepisse litteras, utut altum agens silentium nihil
-                    interea responderis. Quod tamen te facturum existimabam, si non prius, saltem
-                    circa hoc tempus, cum boum mercatores inde <placeName ref="Hamburg"
-                        >Hamburgum</placeName> frequentes veniunt. Rogo itaque ut id, quod omissum
-                    est, emendes, atque de victualibus procurandis quæ spes sit, indices. Scripsi
-                    denuo ea de re <persName ref="vedel_anders_sørensen_1542">ANDREÆ SEVERINI</persName>, civi isthic
+                <p rend="indent"><pb ed="A" n="7r"/>S. P.</p>
+                <p rend="noIndent">CLARISSIME et eruditissime Domine Magister <persName
+                        ref="vedel_anders_sørensen_1542">ANDREA</persName>, veteri amicitia mihi
+                    iunctissime. Scripsi ad te ante aliquot hebdomadas per tabellarium quendam
+                    Ripensem, qui semel atque iterum hîc fuit, et inter alia de victualibus isthic
+                    in meum usum conquirendis denuo admonui. Nec dubito eas te recepisse litteras,
+                    utut altum agens silentium nihil interea responderis. Quod tamen te facturum
+                    existimabam, si non prius, saltem circa hoc tempus, cum boum mercatores inde
+                        <placeName ref="Hamburg">Hamburgum</placeName> frequentes veniunt. Rogo
+                    itaque ut id, quod omissum est, emendes, atque de victualibus procurandis quæ
+                    spes sit, indices. Scripsi denuo ea de re <persName
+                        ref="vedel_anders_sørensen_1542">ANDREÆ SEVERINI</persName>, civi isthic
                     primario, qui suam mihi hoc in negotio dudum addixit operam. Spero ipsum suo
                     officio non defuturum. Tu tamen nihilominus, quantum in te est, fac ut
                     desiderijs meis respondeat eventus, nec tot pollicitationes nimium frustra.
                     Adhortare etiam amicos et consanguineos meos per occasionem, si quos faventes et
                     fidos inveneris, ut mihi iam extero, et amplam hîc in summa annonæ caritate
                     alenti familiam id præstent officij, quod sibi vellent, si eorum talis esset
-                    conditio. A sorore <persName ref="Brahe, Margrete">MARGARETA</persName>, quam
-                    mihi non defuturam putabas, ne verbum quidem accepi, licet bis illi scripserim,
-                    vix tertio facturus. Scio quidem victualium exportationem severe isthic
-                    prohibitam esse; attamen non me indigenam Regni Nobilem, sed mercatores hoc
-                    edictum concernere crediderim, nisi forte odio mei id fiat. Quod quomodo in
+                    conditio. A sorore <persName ref="brahe_margrete_1551">MARGARETA</persName>,
+                    quam mihi non defuturam putabas, ne verbum quidem accepi, licet bis illi
+                    scripserim, vix tertio facturus. Scio quidem victualium exportationem severe
+                    isthic prohibitam esse; attamen non me indigenam Regni Nobilem, sed mercatores
+                    hoc edictum concernere crediderim, nisi forte odio mei id fiat. Quod quomodo in
                     Patria promeritus sim, ignoro. Id tamen scio, me isthic ultra tonnam auri
                     insumpsisse, ut eius honori studerem; et quod plus est, prorsusque irreparabile,
                     viginti unum Annos de potissima ætatis parte isthic non satis commode
                     contrivisse. Quod quam maxime doleo. Nec mihi hæc temporis et ætatis iactura
-                    evenisset, nisi ab optimo et laudatiss. mem. <persName ref="frederik_2_1534">Rege
-                        FRIDERICO</persName>
+                    evenisset, nisi ab optimo et laudatiss. mem. <persName ref="frederik_2_1534"
+                        >Rege FRIDERICO</persName>
                     <pb ed="TBOO" n="VIII.49"/>ita persuasus fuissem, cui et Patriæ id concedendum
                     ratus sum. Neque enim ullo modo persentiscere tunc potui, me nihil aliud quam
                     invidiam, odium, calumnias et fraudulentas persecutiones inde reportaturum, unâ
@@ -128,10 +150,11 @@
                         laborum</hi>&#171;. Imo is et altius ea quæ mihi in patria evenerunt, si non
                     nimis hyperbolice exaggerans, in hæc verba prorumpit: &#187;<hi rend="it">Sed et
                         hoc mihi incidit: Quid si mundus hic non sit dignus istis Atlanticis bonis
-                        et donis nostri TYCHONIS. Etiam hoc cogitavi: <app>
+                        et donis nostri <persName ref="brahe_tycho_1546">TYCHONIS</persName>. Etiam
+                        hoc cogitavi: <app>
                             <lem>quid</lem>
-                            <rdg><note><q>quod</q> ex litteræ ad Tychonem Brahe 7. Mart.
-                                1598</note></rdg>
+                            <rdg><note><q>quod</q> ex litteræ ad <persName ref="brahe_tycho_1546"
+                                        >Tychonem Brahe</persName> 7. Mart. 1598</note></rdg>
                         </app><!-- NB! Se om du vil omformulere dette --> si hæc</hi> Τύχη, <hi
                         rend="it">quæ Domino TYCHONI contigit, nunciet instare finem mundi? Utut
                         sit, adhuc valde dubito, tuamne vicem an Patriæ potius tuæ, imo totius Reip.
@@ -160,13 +183,13 @@
                         <rdg><note>ex <q>maturitatem</q> corr. A</note></rdg>
                     </app> et fructuum edunt specimen, ut quivis ea quæ sevit, metat. Sed valeant
                     ista unâ cum istis.</p>
-                <p rend="indent">Tu vero mi amantissime Domine Magister <persName ref="vedel_anders_sørensen_1542"
-                        >ANDREA</persName> me, prout antea constituisti, hîc invise, ut semel adhuc,
-                    siquidem sæpius non liceat, nos invicem intueamur et colloquamur, antequam
-                    disiungamur longius. Hyems nunc non obstat. Est inter Pascha et Pentecosten
-                    iucundissimum Anni tempus et profectionibus imprimis aptum. Valetudo si qua tibi
-                    est remissior, motu corporis inter peregrinandum et aëris mutatione recuperatur
-                    potius quam infringitur, cum <app>
+                <p rend="indent">Tu vero mi amantissime Domine Magister <persName
+                        ref="vedel_anders_sørensen_1542">ANDREA</persName> me, prout antea
+                    constituisti, hîc invise, ut semel adhuc, siquidem sæpius non liceat, nos
+                    invicem intueamur et colloquamur, antequam disiungamur longius. Hyems nunc non
+                    obstat. Est inter Pascha et Pentecosten iucundissimum Anni tempus et
+                    profectionibus imprimis aptum. Valetudo si qua tibi est remissior, motu corporis
+                    inter peregrinandum et aëris mutatione recuperatur potius quam infringitur, cum <app>
                         <lem>quies</lem>
                         <rdg><note>ex <q>quævis</q> corr. A</note></rdg>
                     </app> illi minus conveniat. Nihil igitur aliud obstare poterit, quin post
@@ -174,29 +197,30 @@
                     providebit. Et maior est in amoris constantia parsimonia Amicum veterem
                     negligere quam aliquam pecuniulæ partem, quæ resarciri potest, atque alias <pb
                         ed="TBOO" n="VIII.50"/>interdum profluit? Dedi etiam literas eodem tempore
-                    ad <persName ref="lange_christian_1604">CHRISTIERNUM LANGIUM</persName> quo ad te,
-                    cuius filius etiamnum mecum est, et ne quidem ab illo quidpiam responsi accepi.
-                    Adest iam tempus ad quod usque filium eius in meam familiam me recepturum
-                    addixi. Vellem itaque ut Parens se, quid in posterum de eo agi velit,
+                    ad <persName ref="lange_christian_1604">CHRISTIERNUM LANGIUM</persName> quo ad
+                    te, cuius filius etiamnum mecum est, et ne quidem ab illo quidpiam responsi
+                    accepi. Adest iam tempus ad quod usque filium eius in meam familiam me
+                    recepturum addixi. Vellem itaque ut Parens se, quid in posterum de eo agi velit,
                     resolveret. Est quidem is satis modestus, et quantum ego scio, honeste se
                     gerens, attamen hisce sublimioribus, quæ ego tracto studijs, minus idoneus.
                     Nescio an alijs. Neque ea quibus ego incumbo, ipsi in posterum multum usui esse
                     poterunt. Oportet enim in ijs excellere, si quid hinc emolumenti sperandum.
                     Effice igitur ut Parens mihi mature de sua voluntate scribat. Alterum quoque
-                        <persName ref="Lange, Johannes">LANGIUM IOHANNEM</persName> per literas
-                    suadente <persName ref="rosenkrantz_holger_1574">OLIGERO ROSENKRANTZIO</persName>
-                    nostro sollicitavi, qui etiam nihil rescripsit. Miror vestram taciturnitatem,
-                    cum ego multo forte pluribus onustus occupationibus responsione non supersedeam,
-                    undecunque tandem ad me perferantur literæ, quod creberrime fit ex varijs
-                        <placeName ref="Europe">Europæ</placeName> locis, sed nihil novi est me a
-                    meis in Patria negligi, apud exteros non item.</p>
+                        <persName ref="Lange_hans_1598">LANGIUM IOHANNEM</persName> per literas
+                    suadente <persName ref="rosenkrantz_holger_1574">OLIGERO
+                        ROSENKRANTZIO</persName> nostro sollicitavi, qui etiam nihil rescripsit.
+                    Miror vestram taciturnitatem, cum ego multo forte pluribus onustus
+                    occupationibus responsione non supersedeam, undecunque tandem ad me perferantur
+                    literæ, quod creberrime fit ex varijs <placeName ref="Europe">Europæ</placeName>
+                    locis, sed nihil novi est me a meis in Patria negligi, apud exteros non
+                    item.</p>
                 <p rend="indent">Vale et si potes audesque, veni, nihilque metue, res enim caret
                     periculo. <hi rend="it">Stans tegor in solido, ventus strepat, ignis et
-                        unda</hi>. Saluta ex me uxorem tuam unâ cum alijs amicis Ripensibus.
-                    Dabantur <placeName ref="Wandsburg">Wandesburgi</placeName> die 10. Aprilis Anno
-                    98.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
+                        unda</hi>. Saluta ex me uxorem tuam unâ cum alijs amicis Ripensibus.</p>
+                <closer><dateline>Dabantur <placeName ref="Wandsburg">Wandesburgi</placeName> die
+                        10. Aprilis Anno 98.</dateline>
+                    <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

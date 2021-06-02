@@ -46,9 +46,18 @@
                             </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="C">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Bayerische Staatsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>BSB Clm 1607</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Bayerische Staatsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>BSB Clm 1607</idno>
@@ -73,11 +82,11 @@
                     <date when="1598-04-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Michael Mästlin</persName>
+                    <persName key="mastlin_michael_1550">Michael Mästlin</persName>
                     <placeName>Tübingen</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 21. april</date></creation>
+            <creation><date xml:lang="da">1598, 21. april.</date><date xml:lang="en">1598, 21 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -106,7 +115,7 @@
                             <lem>TÜBINGEN</lem>
                             <rdg><note>om. A</note></rdg>
                         </app></hi>.<lb/>S.</opener>
-                <p>ANNUS iam agitur decimus, <app>
+                <p rend="noIndent">ANNUS iam agitur decimus, <app>
                         <lem wit="#A">eruditissime</lem>
                         <rdg wit="#B">ornatissime</rdg>
                     </app> et præstantissime <persName ref="mastlin_michael_1550">MÆSTLINE</persName>,
@@ -145,7 +154,7 @@
                 <p rend="indent">Allatum mihi nuper est eruditum quoddam scriptum Mathematici
                     excellentis <persName ref="kepler_johannes_1571">JOANNIS KEPLERI</persName> e <placeName
                         ref="Steiermark">Styria</placeName>, in quo revolutiones Planetarum
-                    secundum formam <persName ref="Copernivus">Coperniceam</persName> ad 5 regularia
+                    secundum formam <persName ref="kopernikus_nikolaus_1473">Coperniceam</persName> ad 5 regularia
                     corpora harmonice redigere ingeniosa sane speculatione conatur, qua etiam de re
                     nuper ad me perscripsit, egoque illi, quantum præ occupationum mole licuit, meam
                     vicissim de talibus aperui sententiam. Video autem te in eodem libro de
@@ -184,10 +193,10 @@
                     Apogæis non dicam longe aliter se habentibus, quam fert non <app>
                         <lem wit="#B">saltem</lem>
                         <rdg wit="#A">solum</rdg>
-                    </app> Alphonsina, sed et <persName ref="Copernivus">Copernicea</persName>
+                    </app> Alphonsina, sed et <persName ref="kopernikus_nikolaus_1473">Copernicea</persName>
                     ratiocinatio. Quin et annua illa diversitatis evidens insinuatio necdum satis
                     comperta est, ita ut undiquaque suis numeris absolute constet, ut ob id e
-                        <persName ref="Copernivus">Coperniceis</persName> proportionibus circulorum
+                    <persName ref="kopernikus_nikolaus_1473">Coperniceis</persName> proportionibus circulorum
                     hæc ea, <app>
                         <lem wit="#B">quæ</lem>
                         <rdg wit="#A">qua</rdg>
@@ -212,7 +221,7 @@
                     atque hinc meridianorum intercapedo, aut ad minimum ductus alicuius meridiani
                     per certa quædam <placeName ref="Germany">Germaniæ</placeName> loca pervestigari
                     poterit, præsupposito nimirum quodam cognito ad rationem eam, quam <persName
-                        ref="Ptolemaios">PTOLEMÆUS</persName> et <persName ref="kopernikus_nikolaus_1473"
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName> et <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICUS</persName> assumserunt. Hoc si mihi præstiteris officij, rem non <app>
                         <lem wit="#TBOO">saltem</lem>
                         <rdg wit="#A">solum</rdg>
@@ -295,17 +304,14 @@
                         >Norimbergam</placeName>, sive aliquam aliam celebrem <persName
                         ref="Germany">Germaniæ</persName> urbem <placeName ref="Hamburg"
                         >Hamburgum</placeName> perferantur, in hospitium isthic meum, quod est apud
-                        <persName ref="Reuter">HERM. REUTTER</persName> sub signo coronæ aureæ,
-                    sicque eas me certo obtenturum non ambigo. Iamque iterum et sæpius vale.
-                    Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> die 21 Apr. 1598. </p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
-                <lb/>
-                <p>Cum intellexissem Tabellarium toto hoc die <placeName ref="Hamburg"
+                        <persName ref="reuter_hermann_1598">HERM. REUTTER</persName> sub signo coronæ aureæ,
+                    sicque eas me certo obtenturum non ambigo.</p> <closer><salute>Iamque iterum et sæpius vale.</salute>
+                    <dateline>Dabantur <placeName ref="Wandsburg">Wandesburgo</placeName> die 21 Apr. 1598.</dateline><signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
+                <postscript><p>Cum intellexissem Tabellarium toto hoc die <placeName ref="Hamburg"
                         >Hamburgi</placeName> moraturum, curavi exemplum literarum <persName
                         ref="kepler_johannes_1571">KEPLERI</persName> ad me unâ cum meo responso describi, hisque
                     adiungi, quo de earum etiam contentis certior fieres: ubi plura huc facientia
-                    invenies.</p>
+                    invenies.</p></postscript>
             </div>
         </body>
     </text>

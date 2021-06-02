@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
@@ -41,6 +41,21 @@
                                 <idno>Langebek 178</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Håndskriftsamlingen</collection>
+                                <idno>Langebek 178</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,7 +70,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Isaksen Pontanus</persName>
+                    <persName key="pontanus_johannes_isacius_1571">Johannes Isaksen Pontanus</persName>
                     <placeName>empty</placeName>
                     <date when="1598-01-01"/>
                 </correspAction>
@@ -87,7 +102,7 @@
         <body>
             <div>
                 <pb ed="TBOO" n="VIII.20"/>
-                <opener><persName ref="pontanus_johannes_isacius_1571">IOHANNES ISACIUS PONTANUS</persName> AD TYCHONEM BRAHE.</opener>
+                <opener><persName ref="pontanus_johannes_isacius_1571">IOHANNES ISACIUS PONTANUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
                 <p rend="indent"><pb ed="A" n="2r"/>.....<persName ref="scaliger_joseph_justus_1540">SCALIGER</persName> observationes utrasque (quæ munificentiæ tuæ
                     sunt) vernalem aio et autumnalem, suis inseruit, et videbis propediem. De secessu vero in 
                     <placeName ref="Germany">Germaniam</placeName> itidem intellexerat, et dolere se fatetur, si eiusmodi rerum
