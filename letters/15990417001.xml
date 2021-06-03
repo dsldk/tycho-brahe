@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
                                 <repository>Universitätsbibliothek</repository>
@@ -40,9 +40,24 @@
                                 <idno>693 2do</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 2do</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
@@ -50,17 +65,41 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
-                    <witness xml:id="C"><msDesc>
+                    <witness xml:id="C"><msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
                                 <collection>empty</collection>
                                 <idno>empty</idno>
-                                <msName>transcript in a copy of P.J. Resen, Inscriptiones
+                                <msName>Afskrift i eteksemplar af P.J. Resen, Inscriptiones
                                     Hafnienses, Hauniæ 1668</msName>
                             </msIdentifier>
-                        </msDesc>
+                    </msDesc><msDesc xml:lang="en">
+                        <msIdentifier>
+                            <settlement>Copenhagen</settlement>
+                            <repository>Royal Library</repository>
+                            <collection>empty</collection>
+                            <idno>empty</idno>
+                            <msName>Transcript in a copy of P.J. Resen, Inscriptiones
+                                Hafnienses, Hauniæ 1668</msName>
+                        </msIdentifier>
+                    </msDesc>
                     </witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -80,11 +119,11 @@
                     <date when="1599-04-17"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Joseph Justus Scaliger</persName>
+                    <persName key="scaliger_joseph_justus_1540">Joseph Justus Scaliger</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 17. april</date></creation>
+            <creation><date xml:lang="da">1599, 17. april.</date><date xml:lang="en">1599, 17 April.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -99,16 +138,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-10" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.151"/>TYCHO BRAHE AD <persName
+                <opener><pb ed="TBOO" n="VIII.151"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
                         ref="scaliger_joseph_justus_1540">IOSEPHUM SCALIGERUM</persName>.</opener>
-                <p><pb ed="A" n="141r"/>S. P.</p>
-                <p>ILLUSTRIS et Magnifice Vir, Amice inprimis honorande. Redditæ mihi sunt tuæ
+                <p rend="indent"><pb ed="A" n="141r"/>S. P.</p>
+                <p rend="noIndent">ILLUSTRIS et Magnifice Vir, Amice inprimis honorande. Redditæ mihi sunt tuæ
                     literæ unâ cum libris mihi dono missis serius quam expectassemus, et ego, quod
                     multis distentus fuerim negotijs <app>
                         <lem>atque</lem>
@@ -269,20 +309,18 @@
                     inque cœpto erga me favore et <app>
                         <lem>amore</lem>
                         <rdg wit="#B #C">benevolentia</rdg>
-                    </app> persiste. Vale Vir Illustris et Excellentissime, seculi nostri decus.
-                    Dabantur subito <placeName ref="Wittenberg">Wittebergæ</placeName> die 17
+                    </app> persiste.</p> <closer><salute>Vale Vir Illustris et Excellentissime, seculi nostri decus.</salute>
+                    <dateline>Dabantur subito <placeName ref="Wittenberg">Wittebergæ</placeName> die 17
                     Aprilis <app>
                         <lem>Anni</lem>
                         <rdg><note>om. C</note></rdg>
-                    </app> 99, st. vet.</p>
-                <lb/>
-                <p rend="rightMargin"><app>
-                        <lem>Illustri Magnif. tuæ addictiss.<lb/>TYCHO BRAHE,<lb/><app>
+                    </app> 99, st. vet.</dateline> <signed><app>
+                    <lem>Illustri Magnif. tuæ addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/><app>
                                 <lem>manu propria</lem>
                                 <rdg><note>om. B</note></rdg>
                             </app>.</lem>
                         <rdg><note>om. A</note></rdg>
-                    </app></p>
+                    </app></signed></closer>
             </div>
         </body>
     </text>

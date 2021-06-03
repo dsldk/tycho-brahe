@@ -74,8 +74,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Wittenberg</placeName>
                     <date when="1599-01-09"/>
                     <note>n.s.</note>
@@ -86,8 +85,8 @@
                 </correspAction>
             </correspDesc>
             <creation>
-                <date xml:lang="da">1599. 9. januar</date>
-                <date xml:lang="en">1599. January 9.</date>
+                <date xml:lang="da">1599, 9. januar.</date>
+                <date xml:lang="en">1599, January 9.</date>
             </creation>
             <langUsage>
                 <language ident="de"/>
@@ -103,6 +102,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-19" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -114,7 +114,7 @@
                     MECKELBURGISCHENN RENTMEISTERN VND RATH, MEINEM JNSONDERS GUNSTIGEN VNNDT GUTENN
                     FREUNDT. WISMAR.</opener>
 
-                <p>MEIN freundlichenn grueß mit wunschung alles guthen zuuor, ehrnuester vnndt
+                <p rend="noIndent">MEIN freundlichenn grueß mit wunschung alles guthen zuuor, ehrnuester vnndt
                     achtbar, gunstiger herr renttmeister, besonder guter freundt. Jch kann euch
                     freundtlich nicht bergenn, welchergestalt mir meine elteste tochter anhero
                     zugeschriebenn vnnd zuuernemen gegebenn, daß sie ahnn euch schreibenn vnnd vonn
@@ -148,8 +148,8 @@
                 <closer><dateline><foreign xml:lang="la"><hi rend="it">Datum</hi></foreign>
                         Wittemberg denn 9. <foreign xml:lang="la"><hi rend="it">januarij
                             a:o</hi></foreign> 99. </dateline><salute/>
-                    <signed>Eur a[ller]f[r]w[ndlichster]<lb/>Tycho
-                    Brahe<lb/>eigenhd.</signed></closer>
+                    <signed>Eur a[ller]f[r]w[ndlichster]<lb/><persName ref="brahe_tycho_1546">Tycho
+                    Brahe</persName><lb/>eigenhd.</signed></closer>
 
             </div>
         </body>

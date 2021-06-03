@@ -13,33 +13,52 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
-                                <collection>Langebeks diplomarium</collection>
+                                <collection>Langebeks diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -59,11 +78,12 @@
                     <date when="1599-03-02"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="winsheim_veit_1521">Veit Winsheim</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 2. marts</date></creation>
+            <creation><date xml:lang="da">1599, 2. marts.</date><date xml:lang="en">1599, 2
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +98,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,38 +106,43 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.147"/><pb ed="A" n="1v"/>CLARISSIMO ET EXCELLENTISSIMO
-                    VIRO DOMINO <persName ref="winsheim_veit_1521">VITO WINSHEMIO</persName>, I. V. DOCTORI
-                    EXIMIO, ET DECANO HAMBURGENSI, AMICO SUO HONORANDO.<lb/><placeName ref="Hamburg"
-                            ><hi ref="it">HAMBURGK.</hi></placeName></opener>
-                <p><pb ed="A" n="1r"/>S. P.</p><p>CLARISSIME et Præstantissime Vir, Amice honorande. Accepi
-                    binas a T. Ex. literas, postquam huc <placeName ref="Wittenberg">Wittebergam</placeName> veni, quibus iam antea
-                    respondissem, si per negotia licuisset, et tabellarius oportune in promptu
-                    fuisset, quo nunc se offerente, non intermittendum duxi, quin aliqua saltem,
-                    utut et nunc occupatissimus, ad te darem. Ago autem T. Ex. gratias, quod
-                    amicitiæ nostræ memor, me suis invisere non sit degravata, et peto, ut
-                    tarditatem in rescribendo prorsus candore excusatam habere velit. Existimo Ex.
-                    Tuam ex filio meo <persName ref="brahe_tyge_1581">TYCHONE</persName>, cum istic esset, adducturus huc Matrem cum sororibus,
-                    intellexisse, in quo statu res meæ essent, et qua de causa huc <placeName ref="Wittenberg">Wittebergam</placeName> me
-                    recepissem, monstrato Magnifici Domini <persName ref="coraduz_rudolf_1618"
-                        >CORADUCIJ</persName> Procancellarij Imperialis rescripto, quod, dum
-                        <placeName ref="Dresden">Dresdæ</placeName> essem, nactus sum. Præterita
-                    vero <pb ed="TBOO" n="VIII.148"/>septimana mihi denuo allatæ sunt Amplissimi illius <persName
-                        ref="coraduz_rudolf_1618">CORADUCIJ</persName> literæ, me ex clementissima <persName ref="rudolf_2_1552">Imperatoriæ
-                    Maiestatis</persName> Voluntate hinc <placeName ref="Praha">Pragam</placeName>
-                    benignissime evocantes, quarum exemplum addidi. Accingo itaque me nunc itineri,
-                    ut, quam primum fieri possit, me istic <persName ref="rudolf_2_1552">Cæsareæ
-                        Maiestati</persName> subiectissime sistam, relicturus interea hîc Gynæceum
-                    meum, donec, quomodo <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName> erga
-                    me meaque studia animata sit, coram intellexero. Deus Opt. Max. faxit, ut omnia
-                    prosperos habeant successus. Cæterum Dominum <persName ref="rosenkrantz_holger_1574"
-                        >OLIGERUM ROSENKRANTZIUM</persName> nostrum de hac Augusta (ut et <persName ref="coraduz_rudolf_1618">CORADUCIUS</persName>
-                    eam in literis appellat) <pb ed="A" n="1v"/>evocatione, certiorem per Tuam Ex.
-                    reddi, misso illi hoc exemplo, aut eius descripto averem, idque ut quam
-                    primum certus in illas oras datur nuncius expediat, peramanter rogo. Plura nunc
-                    non vacat. Te itaque protectioni Divinæ commendatum habeo. Datæ <placeName
-                        ref="Wittenberg">Wittebergæ</placeName> die 2. Martij Anni 99.</p>
-                <lb/>
-                <p rend="rightMargin">Tuæ Excell. studiosiss.<lb/>TYCHO BRAHE.</p>
+                    VIRO DOMINO <persName ref="winsheim_veit_1521">VITO WINSHEMIO</persName>, I. V.
+                    DOCTORI EXIMIO, ET DECANO HAMBURGENSI, AMICO SUO HONORANDO.<lb/><placeName
+                        ref="Hamburg"><hi rend="it">HAMBURGK.</hi></placeName></opener>
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">CLARISSIME et Præstantissime Vir, Amice honorande. Accepi binas a
+                    T. Ex. literas, postquam huc <placeName ref="Wittenberg">Wittebergam</placeName>
+                    veni, quibus iam antea respondissem, si per negotia licuisset, et tabellarius
+                    oportune in promptu fuisset, quo nunc se offerente, non intermittendum duxi,
+                    quin aliqua saltem, utut et nunc occupatissimus, ad te darem. Ago autem T. Ex.
+                    gratias, quod amicitiæ nostræ memor, me suis invisere non sit degravata, et
+                    peto, ut tarditatem in rescribendo prorsus candore excusatam habere velit.
+                    Existimo Ex. Tuam ex filio meo <persName ref="brahe_tyge_1581"
+                        >TYCHONE</persName>, cum istic esset, adducturus huc Matrem cum sororibus,
+                    intellexisse, in quo statu res meæ essent, et qua de causa huc <placeName
+                        ref="Wittenberg">Wittebergam</placeName> me recepissem, monstrato Magnifici
+                    Domini <persName ref="coraduz_rudolf_1618">CORADUCIJ</persName> Procancellarij
+                    Imperialis rescripto, quod, dum <placeName ref="Dresden">Dresdæ</placeName>
+                    essem, nactus sum. Præterita vero <pb ed="TBOO" n="VIII.148"/>septimana mihi
+                    denuo allatæ sunt Amplissimi illius <persName ref="coraduz_rudolf_1618"
+                        >CORADUCIJ</persName> literæ, me ex clementissima <persName
+                        ref="rudolf_2_1552">Imperatoriæ Maiestatis</persName> Voluntate hinc
+                        <placeName ref="Praha">Pragam</placeName> benignissime evocantes, quarum
+                    exemplum addidi. Accingo itaque me nunc itineri, ut, quam primum fieri possit,
+                    me istic <persName ref="rudolf_2_1552">Cæsareæ Maiestati</persName>
+                    subiectissime sistam, relicturus interea hîc Gynæceum meum, donec, quomodo
+                        <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName> erga me meaque
+                    studia animata sit, coram intellexero. Deus Opt. Max. faxit, ut omnia prosperos
+                    habeant successus. Cæterum Dominum <persName ref="rosenkrantz_holger_1574"
+                        >OLIGERUM ROSENKRANTZIUM</persName> nostrum de hac Augusta (ut et <persName
+                        ref="coraduz_rudolf_1618">CORADUCIUS</persName> eam in literis appellat) <pb
+                        ed="A" n="1v"/>evocatione, certiorem per Tuam Ex. reddi, misso illi hoc
+                    exemplo, aut eius descripto averem, idque ut quam primum certus in illas oras
+                    datur nuncius expediat, peramanter rogo. Plura nunc non vacat. Te itaque
+                    protectioni Divinæ commendatum habeo. </p>
+                <closer><dateline>Datæ <placeName ref="Wittenberg">Wittebergæ</placeName> die 2.
+                        Martij Anni 99.</dateline><signed>Tuæ Excell. studiosiss.<lb/><persName
+                            ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

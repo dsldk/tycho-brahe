@@ -49,7 +49,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hartwig von Dassel</persName>
+                    <persName key="dassel_hartwig_von_1557">Hartwig von Dassel</persName>
                     <placeName>Lüneburg</placeName>
                     <date when="1599-01-28"/>
                 </correspAction>
@@ -58,7 +58,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 28. januar</date></creation>
+            <creation><date xml:lang="da">1599, 28. januar.</date><date xml:lang="da">1599, 28 January.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -73,16 +73,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>            
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.137"/><pb ed="A" n="275"/>HARDEWIGUS A DASSELL I. C.
-                    TYCHONI BRAHEN VIRO NOBILISS. EQUITI ET MATHEMATICO EXCELLENTISS.<lb/>S.
+                <opener><pb ed="TBOO" n="VIII.137"/><pb ed="A" n="275"/><persName ref="dassel_hartwig_von_1557">HARDEWIGUS A DASSELL</persName> I. C.
+                    <persName ref="brahe_tycho_1546">TYCHONI BRAHEN</persName> VIRO NOBILISS. EQUITI ET MATHEMATICO EXCELLENTISS.<lb/>S.
                     D.</opener>
-                <p>QUOTIESCUNQUE ad statum præsentium temporum, qui est miserrimus, Nobilissime et
+                <p rend="noIndent">QUOTIESCUNQUE ad statum præsentium temporum, qui est miserrimus, Nobilissime et
                     magnifice vir, amice colende, oculos animumque converto (converto autem omnes
                     fere dies <pb ed="A" n="276"/>noctesque) toties mihi in mentem venit, quod Poëta
                     his versibus canit: </p>
@@ -166,7 +167,7 @@
                     possideret, suum esse diceret, sed omnia essent communia. Erantque concordes et perdurantes in doctrina Apostolorum, laudantes Deum
                     eique pro omnibus gratias agentes. Fides vero tanta erat, <pb ed="A" n="280"/>ut
                     nec minis nec ullis cruciatibus a confessione Christianâ deterreri possent. Verum ubi liberalitate et zelo Principum interdum inconsiderato, eadem Ecclesia
-                    in opes et potentiam crevit, ex eo paulatim eius virtus (ut ait D. <persName ref="Jeronimus">HIERONYMUS</persName>)
+                    in opes et potentiam crevit, ex eo paulatim eius virtus (ut ait D. <persName ref="hieronymus_0347">HIERONYMUS</persName>)
                     decrevit, quoad in eum statum et præcipitium delaberetur, quo in præsentiâ
                     redacta est, ut difficillimum sit iudicatu, utri sint deteriores, Pastores an
                     populus; quos inter se concertare dicas, utri alteros ambitione et avaritiâ
@@ -211,13 +212,13 @@
                     Iam pietate et animi robore supra vulgi captum ingeniumque. Sed non ille ad
                     huius seculi gustum, seculi improbi, maligni, ingrati, quo vitijs malisque
                     artibus non modo impunitas, sed apud plerosque etiam honos, innocentiam atque
-                    virtutem vix usquam sine periculo aperte colueris. <persName ref="Christian 3.">CHRISTIANO tertio</persName> Regi
+                    virtutem vix usquam sine periculo aperte colueris. <persName ref="christian_3_1503">CHRISTIANO tertio</persName> Regi
                         <placeName ref="Denmark">Daniæ</placeName> a puero charus, neque id
                     immerito. Nam et ipsi <persName ref="rantzau_henrik_1526">RANZOVIO</persName> una
                     illa post Deum cura, habere clementissimum Regem eumque florentissimum videre.
                     Erat ille familiâ inter Holsatos nobili natus, sed postea ob egregias virtutes,
                     eruditionem haud vulgarem, trium Regum <placeName ref="Denmark"
-                        >Daniæ</placeName>, <persName ref="Christian 3.">CHRISTIANI III</persName> ,
+                        >Daniæ</placeName>, <persName ref="christian_3_1503">CHRISTIANI III</persName> ,
                         <persName ref="frederik_2_1534">FRIDERICI II</persName> et <persName
                         ref="christian_4_1577">CHRISTIANI IV</persName> in Ducatibus Sleswigæ, Holsatiæ
                     et Ditmarsiæ, summâ cum dignitate Vicarius perpetuus. Primos annos bonis
@@ -239,8 +240,8 @@
                     scripseris, expectans. Tu, nobilissime vir, hanc confidentiam compellationis
                     meæ, et, quæ tanquam garriens commiseratione maligni huius seculi motus ad te
                     perscripsi, in bonam partem accipies, beneque valebis.</p>
-                <p rend="indent">Luneburg, 28. Iamiarij
-                    Anno [1599].</p>
+                <closer><dateline>Luneburg, 28. Ianuarij
+                    Anno [1599].</dateline></closer>
             </div>
         </body>
     </text>

@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -67,7 +82,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 7. marts</date></creation>
+            <creation><date xml:lang="da">1599, 7. marts.</date><date xml:lang="en">1599, 7 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,6 +97,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-08" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>            
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,8 +105,8 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.148"/><persName ref="rosenkrantz_holger_1574">OLIGERUS
-                        ROSENKRANTZ</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="1r"/>[IGNES spirant, noctesque diesque meditantur,] sed in proprias
+                    ROSENKRANTZ</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>[IGNES spirant, noctesque diesque meditantur,] sed in proprias
                     fauces <app>
                         <lem wit="#Friis">regurgitandos</lem>
                         <rdg wit="#A">regurgitandas</rdg>

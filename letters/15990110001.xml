@@ -74,8 +74,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Wittenberg</placeName>
                     <date when="1599-01-09"/>
                     <note>n.s.</note>
@@ -103,13 +102,14 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-19" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>            
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <p><pb ed="TBOO" n="XIV.150"/>JCH Tycho Brahe, erbgesessenn zu Knudtstrup im reiche
+                <p><pb ed="TBOO" n="XIV.150"/>JCH <persName ref="brahe_tycho_1546">Tycho Brahe</persName>, erbgesessenn zu Knudtstrup im reiche
                     Dennemarckenn vnnd <persName ref="christian_4_1577">kön: maytt:</persName> alda ambtman auf Vraniburgk, vrkunde vnd bekenne
                     hiemit inn crafft dieses, daß jch vonn dem ehrnuesten vnnd achtbarnn <persName ref="meier_andreas_1600">Andreaß
                     Meyernn</persName>, furstlichenn meckelburgischenn junger herrschafft verordenten 
@@ -122,8 +122,8 @@
                     handt] vnterschriben vnnd mein angeborn pitzschafft hierauff gedruckt.</p>
                 <closer><dateline><foreign xml:lang="la"><hi rend="it">Actum</hi></foreign>
                     Wittemberg denn zehenden tag <foreign xml:lang="la"><hi rend="it">januarij
-                            anno</hi></foreign> 99. </dateline><salute/>
-                    <signed>Tycho Brahe<lb/>eigenhd.<lb/><lb/>(l.s.)</signed></closer>
+                            anno</hi></foreign> 99. </dateline>
+                    <signed><persName ref="brahe_tycho_1546">Tycho Brahe</persName><lb/>eigenhd.<lb/><lb/>(l.s.)</signed></closer>
 
             </div>
         </body>

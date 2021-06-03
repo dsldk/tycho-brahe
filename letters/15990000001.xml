@@ -32,9 +32,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Firenze</settlement>
+                                <repository/>
+                                <!-- NB: i Archivio de Stato? -->
+                                <collection/>
+                                <idno>empty</idno>
+                                <msName>Archivio pubblico Mediceo vol. 65</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Florence</settlement>
                                 <repository/>
                                 <!-- NB: i Archivio de Stato? -->
                                 <collection/>
@@ -55,7 +65,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Ferdinando de&#x2019; Medici</persName>
+                    <persName key="medici_fernando_1549">Ferdinando de&#x2019; Medici</persName>
                     <placeName>empty</placeName>
                     <date when="1599-01-01"/>
                 </correspAction>
@@ -79,6 +89,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-10" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,8 +97,8 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.156"/><persName ref="medici_fernando_1549"
-                        >FERDINANDUS</persName> MAGNUS ETRURIÆ DUX AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="167r"/>VIR Ill<hi rend="sup">ris</hi>. Gratissimæ fuerunt mihi
+                    >FERDINANDUS</persName> MAGNUS ETRURIÆ DUX AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="167r"/>VIR Ill<hi rend="sup">ris</hi>. Gratissimæ fuerunt mihi
                     literæ Dominationis Tuæ, tum quod præcipuum erga me præseferant amorem atque
                     benevolentiam, tum etiam quod per eas occasionem oblatam video mutuæ voluntatis
                     meæ aliquo erga eius D<hi rend="sup">m</hi> officij genere declarandæ. Nam licet ipsa mihi de facie,
@@ -110,7 +121,7 @@
                     semper officia polliceri. Quod reliquum est, Deum opt. max. præcor ut
                     D<hi rend="sup">m</hi> T<hi rend="sup">m</hi> diutius servet incolumem, quo de præclarissimis artibus ac literarum studijs
                     benemereri longius possit.</p>
-                <p rend="indent">Datum .......</p>
+                <closer><dateline>Datum .......</dateline></closer>
             </div>
         </body>
     </text>

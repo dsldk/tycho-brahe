@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -63,11 +78,11 @@
                     <date when="1599-03-21"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christen Sørensen Longomontanus</persName>
+                    <persName key="longomontanus_christen_sorensen_1562">Christen Sørensen Longomontanus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 21. marts</date></creation>
+            <creation><date xml:lang="da">1599, 21. marts.</date><date xml:lang="en">1599, 21 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,6 +97,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-08" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>            
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,8 +106,8 @@
             <div>
                 <opener><pb ed="TBOO" n="VIII.148"/>TYCHO BRAHE AD <persName ref="longomontanus_christen_sorensen_1562"
                         >CHRISTIANUM LONGOMONTANUM </persName>.</opener>
-                <p><pb ed="A" n="1r"/>S.</p>
-                <p>SCRIPSI tibi eruditissime et mihi plurimum dilecte M. <persName
+                <p rend="indent"><pb ed="A" n="1r"/>S.</p>
+                <p rend="noIndent">SCRIPSI tibi eruditissime et mihi plurimum dilecte M. <persName
                         ref="longomontanus_christen_sorensen_1562">CHRISTIANE</persName> bis, postquam huc <placeName
                         ref="Wittenberg">Wittebergam</placeName> veni, et semel a te literas accepi
                     sub initium huius anni <placeName ref="Ribe">Ripis</placeName> datas, ubi et
@@ -102,7 +118,7 @@
                     quod in refutatione Capnuraniæ Scoticæ diligentem operam loces. Sunt saltem
                     speciosa et pomposa eius omnia, ac veritati fucum faciunt. Invenies in libro
                     nostro secundo de Cometa anni 77. suo loco, præsertim ubi in <persName
-                        ref="Nolthius">NOLTIJ</persName> placita disquiro, quantum in devia ab
+                        ref="nolthius_andreas_1573">NOLTIJ</persName> placita disquiro, quantum in devia ab
                     observatis detrudetur Cometes, si 5 proxime graduum parallaxin admisisset.
                     Subsidium, quod expetis ab alijs Cometis, evidentius rem ostendentibus, satis
                     firmum suppetit <pb ed="TBOO" n="VIII.150"/>Cometa anni 80, qui et in meridiano
@@ -159,8 +175,8 @@
                     quam uspiam alibi, sin vero hîc manere aut redire isthuc mavis, erit et hoc tibi
                     liberum. Ego tuis commodis quocunque modo, <pb ed="TBOO" n="VIII.151"
                     />quantumque in me est, sedulo studebo. Non patiar, ullum erga te officium
-                    desiderari. Vale et literas has nemini ostende. Dabantur <placeName
-                        ref="Wittenberg">Wittebergæ</placeName> die 21. Martij 1599. </p>
+                    desiderari.</p> <closer><salute>Vale et literas has nemini ostende.</salute> <dateline>Dabantur <placeName
+                        ref="Wittenberg">Wittebergæ</placeName> die 21. Martij 1599.</dateline> </closer>
             </div>
         </body>
     </text>

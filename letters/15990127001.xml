@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Rudolf Corraduc</author>
+                <author>Rudolf Coraduz</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -54,7 +73,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Rudolf Corraduc</persName>
+                    <persName key="coraduz_rudolf_1618">Rudolf Coraduz</persName>
                     <placeName>Wittenberg</placeName>
                     <date when="1599-01-27"/>
                     <note>n.s.</note>
@@ -64,7 +83,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 27. januar n.s</date></creation>
+            <creation><date xml:lang="da">1599, 27. januar n.s.</date><date xml:lang="en">1599, 27
+                    January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,35 +99,38 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.136"/><pb ed="A" n="2r"/><foreign xml:lang="de">DEM EDLEN VNNDT GESTRENGEN
-                    RITTER HERRN TYCHO BRAHE ZU KNUDSTORP MEYNEM SONDERS GUNSTIGEN VNO VIELGELIEBTEN
-                    HERRENN.<lb/>TRESEN ODER WITTENBERGK.</foreign></opener>
-                <p>ILLUSTRIS ac Clarissime eques et Domine obser<hi rend="sup">me</hi>. Sacra <persName ref="rudolf_2_1552"
-                        >Cæsarea Maiestas</persName> Dominus noster Clementissimus mandavit mihi,
-                    ut Illustrem Dominationem tuam statim huc vocem, cui hisce meis humillime
-                    obsequi et debui et volui. Curet itaque Dominatio Tua Illustris quam
-                    diligentissime, ut quam primum poterit, se ad iter accingat, sicque coram
-                        <persName ref="rudolf_2_1552">Cæsare</persName> hîc <placeName ref="Praha"
-                        >Pragæ</placeName> statuat, ut is hac in parte in Dominatione tua illustri,
-                    vel etiam me ipso, ne minimum quidem defuisse animadvertat. Porro de hac
-                    Illustris D. T. personæ Augusta evocatione non tam D. T. Ill<hi rend="sup">ri</hi> gratulor, quam
-                    mihi ipsi. Mirum in modum gaudeo, ut<pb ed="TBOO" n="VIII.137"/>pote qui hac
-                    occasione, te tantum ac talem virum et præter generis nobilitatem, omni virtutum
-                    et literarum genere exornatum atque excultum coram videre tuisque doctissimis
-                    sermonibus quandoque frui potero. Vale quam optime et diutissime, Vir
-                    Nobilissime, omnemque adhibe diligentiam, ut nobis salvus atque incolumis huc
-                    advenias. Datæ <placeName ref="Praha">Pragæ</placeName> die 27. Ianuarij Anno
-                    1599, quem tibi cum multis alijs felicissimum a Deo ter Optimo Maximo
-                    precor.</p>
-                <p rend="indent">Illustri atque Clariss. D. T. deditissimus</p>
-                <lb/>
-                <p rend="rightMargin">RUDOLPHIUS CORADUCIUS,<lb/>manu propria.</p>
+                <opener><pb ed="TBOO" n="VIII.136"/><pb ed="A" n="2r"/><foreign xml:lang="de">DEM
+                        EDLEN VNNDT GESTRENGEN RITTER HERRN <persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName> ZU KNUDSTORP MEYNEM SONDERS GUNSTIGEN VNO VIELGELIEBTEN
+                        HERRENN.<lb/>TRESEN ODER WITTENBERGK.</foreign></opener>
+                <p rend="noIndent">ILLUSTRIS ac Clarissime eques et Domine obser<hi rend="sup"
+                        >me</hi>. Sacra <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName>
+                    Dominus noster Clementissimus mandavit mihi, ut Illustrem Dominationem tuam
+                    statim huc vocem, cui hisce meis humillime obsequi et debui et volui. Curet
+                    itaque Dominatio Tua Illustris quam diligentissime, ut quam primum poterit, se
+                    ad iter accingat, sicque coram <persName ref="rudolf_2_1552">Cæsare</persName>
+                    hîc <placeName ref="Praha">Pragæ</placeName> statuat, ut is hac in parte in
+                    Dominatione tua illustri, vel etiam me ipso, ne minimum quidem defuisse
+                    animadvertat. Porro de hac Illustris D. T. personæ Augusta evocatione non tam D.
+                    T. Ill<hi rend="sup">ri</hi> gratulor, quam mihi ipsi. Mirum in modum gaudeo,
+                        ut<pb ed="TBOO" n="VIII.137"/>pote qui hac occasione, te tantum ac talem
+                    virum et præter generis nobilitatem, omni virtutum et literarum genere exornatum
+                    atque excultum coram videre tuisque doctissimis sermonibus quandoque frui
+                    potero. Vale quam optime et diutissime, Vir Nobilissime, omnemque adhibe
+                    diligentiam, ut nobis salvus atque incolumis huc advenias.</p>
+                <closer><dateline>Datæ <placeName ref="Praha">Pragæ</placeName> die 27. Ianuarij
+                        Anno 1599, quem tibi cum multis alijs felicissimum a Deo ter Optimo Maximo
+                        precor.</dateline>
+                    <signed>Illustri atque Clariss. D. T. deditissimus<lb/><persName
+                            ref="coraduz_rudolf_1618">RUDOLPHIUS CORADUCIUS</persName>,<lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

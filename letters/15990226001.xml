@@ -32,7 +32,16 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Prag</settlement>
+                                <repository>Universitetets arkiv</repository>
+                                <collection>empty</collection>
+                                <idno>62 B 6</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Prague</settlement>
                                 <repository>University archive</repository>
@@ -68,7 +77,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 26. februar n.s</date></creation>
+            <creation><date xml:lang="da">1599, 26. februar n.s.</date><date xml:lang="en">1599, 26 February NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>            
         </revisionDesc>
     </teiHeader>
     <text>
@@ -93,8 +103,8 @@
                     EXCELLENTISSIMO VIRO DOMINO DOCTORI <persName ref="hagecius_thaddaeus_1525">THADDÆO
                         HAGGECIO AB HAYCK</persName>, INCLYTI REGNI BOIEMIÆ ARCHIATRO ORDINARIO,
                     AMICO SUO VETERI ET HONORANDO.</opener>
-                <p><pb ed="A" n="24r"/>S. D.</p>
-                <p>EΧΟΡΤΑΤΕ accidit, excellentissime et amantissime Domine Doctor <persName
+                <p rend="indent"><pb ed="A" n="24r"/>S. D.</p>
+                <p rend="noIndent">EΧΟΡΤΑΤΕ accidit, excellentissime et amantissime Domine Doctor <persName
                         ref="hagecius_thaddaeus_1525">THADDÆE</persName>, amice honorande, quod heri
                     magnifici et amplissimi Domini <persName ref="coraduz_rudolf_1618">CORADUCIJ</persName>,
                     Procancellarij Imperialis, literas humaniss. <placeName ref="Praha"
@@ -137,7 +147,7 @@
                     <placeName ref="Praha">Pragæ</placeName> proximum occurrit, optarim me istac
                     tuas, quæ me de hospitio et alijs necessarijs instruant, invenire literas.
                     Oportune vero accidit, ut hodie sese offerret quidam auriga <placeName
-                        ref="Olomouc">Olomucensis</placeName>, <persName ref="Müller, Valentin"
+                        ref="Olomouc">Olomucensis</placeName>, <persName ref="muller_valentin_1599"
                         >VALENTINUS MULLER</persName> nomine, alias vacuo curru <placeName
                         ref="Praha">Pragam</placeName>, unde hisce diebus venit, rediturus. Qui
                     cistam quandam cum meis grandiusculis unâ cum alijs thecis secum advehit, in
@@ -167,17 +177,14 @@
                     agnosco gratias relaturus, si vires meæ ulla ratione id unquam sustinuerint.
                     Vale mi charissime <persName ref="hagecius_thaddaeus_1525">THADDÆE</persName>, utque
                     te sanum et prosperum <placeName ref="Praha">Pragæ</placeName> inveniam, tuaque
-                    desideratissima frui possim consuetudine, faxit Deus. Dabantur <placeName
+                    desideratissima frui possim consuetudine, faxit Deus. </p><closer><dateline>Dabantur <placeName
                         ref="Wittenberg">Vitembergæ</placeName> die 26. Feb. stylo novo Anno etc.
-                    99.</p>
-                <lb/>
-                <p rend="rightMargin">Tui amantissimus<lb/>TYCHO BRAHE.</p>
-                <lb/>
-                <p>Saluta meo nomine quam officiosissime Dominum <placeName ref="barvitius_johann_anton_1555"
-                        >BARVICIUM</placeName>.</p>
-                <lb/>
-                <p rend="center"><pb ed="TBOO" n="VIII.147"/><pb ed="A" n="25v"/>POSTSCRIPTA.</p>
-                <p>NDICARAM tibi antea me quædam hîc <placeName ref="Wittenberg"
+                    99.</dateline> <signed>Tui amantissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
+                <postscript><p rend="noIndent">Saluta meo nomine quam officiosissime Dominum <placeName ref="barvitius_johann_anton_1555"
+                        >BARVICIUM</placeName>.</p></postscript>
+                
+                <postscript><label><pb ed="TBOO" n="VIII.147"/><pb ed="A" n="25v"/>POSTSCRIPTA.</label>
+                <p rend="noIndent">INDICARAM tibi antea me quædam hîc <placeName ref="Wittenberg"
                         >Witebergæ</placeName> typis complere in meis operibus decrevisse, præsertim
                     ea, quæ in Progymnasmatum tomo primo tecum communicato desiderantur. Cumque
                     papyrus idonea ac priori similis hîc vel <placeName ref="Leipzig"
@@ -202,7 +209,7 @@
                     Domini Doctoris <persName ref="chytraeus_david_1530">DAVIDIS CHYTRÆI</persName>
                     literas, quæ etiam <placeName ref="Dresden">Dresdæ</placeName> mihi redditæ
                     sunt, si quidem in ijs tui faciat mentionem; poteris illas usque in meum
-                    adventum reservare. </p>
+                    adventum reservare. </p></postscript>
             </div>
         </body>
     </text>
