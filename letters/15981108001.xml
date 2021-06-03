@@ -61,11 +61,11 @@
                     <date when="1598-11-08"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ferdinando I de&#x2019; Medici</persName>
+                    <persName key="medici_fernando_1549">Ferdinando I de&#x2019; Medici</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 8. november</date></creation>
+            <creation><date xml:lang="da">1598, 8. november.</date><date xml:lang="en">1598, 8 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,9 +88,9 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.118"/><pb ed="A" n="4v"/>SERENISSIMO PRINCIPI AC
-                    DOMINO D. <persName ref="Ferdinando">FERDINANDO DE MEDICES</persName>, MAGNO DUCI HETRURIÆ, FLORENTIÆ, SENARUM,
+                    DOMINO D. <persName ref="medici_fernando_1549">FERDINANDO DE MEDICES</persName>, MAGNO DUCI HETRURIÆ, FLORENTIÆ, SENARUM,
                     PISARUM, DOMINO MEO CLEMENTISSIMO.</opener>
-                <p><pb ed="A" n="3r"/>SERENISSIME et Illustrissime Princeps, Domine Clementissime.
+                <p rend="noIndent"><pb ed="A" n="3r"/>SERENISSIME et Illustrissime Princeps, Domine Clementissime.
                     Cum hîc Adolescens genere Nobilis et liberalibus disciplinis præclare imbutus,
                     qui mihi per aliquot Annos fuit domesticus, in <placeName ref="Italy">Italiam</placeName> nunc cogitet, sitque Tuæ
                     Serenitati ab Amplissimo et Nobilissimo Domino <persName ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName> Produce Cimbrico
@@ -102,14 +103,13 @@
                     colligatos, Serenitati Tuæ ex me submisse offerendos: Quorum contenta Tituli et
                     Præfationes expedient: Quos ut clementissimo vultu suscipere, meque suo favore
                     et benevolentia complecti non dedignetur, qua possum submissione oro. Plura de
-                    me meisque studijs, atque ad <persName ref="Rudolf 2.-">Cæsaream Maiestatem</persName> e <placeName ref="Denmark">Dania</placeName> Patria mea migratione ab
+                    me meisque studijs, atque ad <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName> e <placeName ref="Denmark">Dania</placeName> Patria mea migratione ab
                     eodem harum exhibitore (si cognoscere non degravetur) clementissime percipiet.
                     Quocirca Serenitatem <pb ed="A" n="3v"/>Tuam gravissimis Reipub. gubernandæ
                     negocijs occupatam ulterius remorari desino. Deus Optimus maximus eam quam
                     diutissime conservet florentem et incolumem.</p>
-                <p rend="indent">Dabantur <placeName ref="Dresden">Dresdæ</placeName> Misniæ die 8 Novembris Anni 1598.</p>
-                <p rend="rightMargin">Serenitati Tuæ<lb/>Submisse addictiss.<lb/>TYCHO
-                    BRAHE,<lb/>manu propria scripsi.</p>
+                <closer><dateline>Dabantur <placeName ref="Dresden">Dresdæ</placeName> Misniæ die 8 Novembris Anni 1598.</dateline> <signed>Serenitati Tuæ<lb/>Submisse addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                    BRAHE</persName>,<lb/>manu propria scripsi.</signed></closer>
             </div>
         </body>
     </text>

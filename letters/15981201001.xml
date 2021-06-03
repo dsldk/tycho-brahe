@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,20 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                            <ab>Afskrft</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -64,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 1. november. n.s</date></creation>
+            <creation><date xml:lang="da">1598, 1. november n.s.</date><date xml:lang="en">1598, 1 November NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +93,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,19 +101,19 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.119"/>POSTSCRIPTA <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆI HAGECIJ</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="3r"/>CUM hasce ad te literas obsignassem, daturus eas tuo
+                    >THADDÆI HAGECIJ</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="3r"/>CUM hasce ad te literas obsignassem, daturus eas tuo
                     tabellario, misi adhuc meum puerum hodie, qui est 1. Decembr. cum hacce
-                    schedula ad D. <persName ref="Corraduc">CORRADUCIUM</persName>, quam ad te
+                    schedula ad D. <persName ref="coraduz_rudolf_1618">CORRADUCIUM</persName>, quam ad te
                     mitto, ex qua intelliges voluntatem <persName ref="rudolf_2_1552">Cæsaris</persName>. Est sigillum D<hi rend="sup"
                         >ni</hi>
-                    <persName ref="Corraduc">CORRADUCIJ</persName> et manus. Multum gavisus sum, me
+                    <persName ref="coraduz_rudolf_1618">CORRADUCIJ</persName> et manus. Multum gavisus sum, me
                     tandem ante hunc meum abitum hoc responsum et resolutionem Cæsaris accepisse.
                     Hisce quod addam amplius non est necesse.</p><lb/>
-                <p>EXEMPLUM LITERARUM DOMINI D. <persName ref="hagecius_thaddaeus_1525">THADEI</persName> AD AMPLISSIMUM PROCANCELLARIUM IMPERIJ
-                    <persName ref="Corraduc">RUDOLPHUM
-                    CORRADUCIUM</persName>.</p>
-                <p>Mag<hi rend="sup">ce</hi> D. et Patrone observandiss. Hucusque noster Dominus
+                <postscript><label>EXEMPLUM LITERARUM DOMINI D. <persName ref="hagecius_thaddaeus_1525">THADEI</persName> AD AMPLISSIMUM PROCANCELLARIUM IMPERIJ
+                    <persName ref="coraduz_rudolf_1618">RUDOLPHUM
+                    CORRADUCIUM</persName>.</label>
+                <p rend="noIndent">Mag<hi rend="sup">ce</hi> D. et Patrone observandiss. Hucusque noster Dominus
                     TYCHO omnia egit ex consilio tuæ Mag<hi rend="sup">tiæ</hi> et voluntate clementi Cæsaris. Venit cum
                     uxore, liberis et familia <pb ed="A" n="3v"/>ac 12 equis longo et difficili
                     itinere, sumptibus magnis, <placeName ref="Dresden">Dresdam</placeName> usque. Et nulli alij Principi, nulli nationi
@@ -107,17 +122,17 @@
                     stabilireque possit, ac ne ita dubius cum magno suarum rerum dispendio hæreat.
                     Literas meas ad <persName ref="barvitius_johann_anton_1555">BARVITIUM</persName> reverenter peto
                     prima <pb ed="TBOO" n="VIII.120"/>occasione mitti curet, eumque etiam sua schedula
-                    commonefaciat, ut <persName ref="Rusolf 2.">Cæsari</persName> negotium proponat, et ultimam resolutionem <placeName ref="Dresden">Dresdam</placeName>
+                    commonefaciat, ut <persName ref="rudolf_2_1552">Cæsari</persName> negotium proponat, et ultimam resolutionem <placeName ref="Dresden">Dresdam</placeName>
                     mitti curet. Non pœnitebit, scio, Domine, huius operæ, et futurus est D. TYCHO,
-                    ubi de facie aliquando innotuerit, longe gratissimus. <pb ed="A" n="4r"/>B. v.
-                    Ex ædibus nostris 1. Decembris Anno 1598.</p>
-                <lb/>
-                <p rend="rightMargin">T. M. promptus ad officia<lb/><persName
-                        ref="hagecius_thaddaeus_1525">THADEUS</persName></p>
-                <lb/>
-                <p>RUDOLPHUS <persName ref="Corraduc">CORRADUCIUS</persName> AD <persName
-                        ref="hagecius_thaddaeus_1525">THADDÆUM HAGECIUM</persName>.</p>
-                <p>Quæ D. <persName ref="barvitius_johann_anton_1555">BARVITIUS</persName> iussu <persName ref="rudolf_2_1552">Cæsaris</persName> de D<hi rend="sup">no</hi> TYCHONE
+                    ubi de facie aliquando innotuerit, longe gratissimus.</p> <closer><pb ed="A" n="4r"/>B. v.
+                    Ex ædibus nostris 1. Decembris Anno 1598.
+                
+                <signed>T. M. promptus ad officia<lb/><persName
+                        ref="hagecius_thaddaeus_1525">THADEUS</persName></signed></closer></postscript>
+                
+                <postscript><label>RUDOLPHUS <persName ref="coraduz_rudolf_1618">CORRADUCIUS</persName> AD <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆUM HAGECIUM</persName>.</label>
+                <p rend="noIndent">Quæ D. <persName ref="barvitius_johann_anton_1555">BARVITIUS</persName> iussu <persName ref="rudolf_2_1552">Cæsaris</persName> de D<hi rend="sup">no</hi> TYCHONE
                     nostro ad me rescripsit, hæc sunt: &#187;<hi rend="it">De TYCHONIS adventu <persName ref="rudolf_2_1552">Cæsar</persName> perlibenter intellexit; ut <placeName ref="Dresden">Dresdæ</placeName>
                     vel <placeName ref="Praha">Pragæ</placeName> vel alibi in vicinia tantisper, donec aula certo in loco recolligatur,
                     subsistat, cupit; ubi deinde ille commode et opportune collocari possit, benigne cogitat.</hi>&#171; Hactenus D<hi rend="sup">nus</hi>
@@ -125,9 +140,8 @@
                     ad hasce suas significanda duxi. Interim rogo, ut D<hi rend="sup">num</hi>
                     TYCHONEM meis verbis quam officiosissime salutet meamque operam eidem
                     polliceatur meque, quod ei ob ingentes meas occupationes non scribo,
-                    diligentissime excuset.</p>
-                <p rend="rightMargin"><persName ref="Corraduc">RUDOLPHUS
-                    CORRADUCIUS</persName>,<lb/>manu propria.</p>
+                    diligentissime excuset.</p><closer><signed><persName ref="coraduz_rudolf_1618">RUDOLPHUS
+                    CORRADUCIUS</persName>,<lb/>manu propria.</signed></closer></postscript>
             </div>
         </body>
     </text>

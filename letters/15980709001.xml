@@ -13,43 +13,76 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 in 2do</idno>
                                 <msName>empty</msName>
+                            </msIdentifier>> <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 in 2do</idno>
+                                <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
-                                <collection>Langebeks displomatarium</collection>
+                                <collection>Langebeks diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -68,7 +101,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Joseph Scaliger</persName>
+                    <persName key="scaliger_joseph_justus_1540">Joseph Scaliger</persName>
                     <placeName>Leiden</placeName>
                     <date when="1598-07-09"/>
                 </correspAction>
@@ -77,7 +110,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 9. juli</date></creation>
+            <creation><date xml:lang="da">1598, 9. juli.</date><date xml:lang="en">1598, 9
+                    July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -92,38 +126,40 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-26" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.83"/><persName ref="scaliger_joseph_justus_1540">IOSEPHUS
-                        SCALIGER</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="135r"/>S. P.</p>
-                <p>DISCESSUS tuus ex <placeName ref="Denmark">Dania</placeName>, Vir generosissime,
-                    ut nobis acerbissimus fuit, ita ancipites animi nos semper habuit, quem locum
-                    fortunis tuis deligeres. Ubi enim illæ sitæ forent, ibi et animo tuo et serijs
-                    studijs tuis aliquid quietis partum iri confidebamus, idque eo impensius
-                    optabamus, quo propensior nostra in te semper fuisset voluntas; itaque cum
-                    primum accepissem, te <placeName ref="Rostock">Rostochij</placeName> subsedisse,
-                    non mediocriter me consolabar, quod ex eo, quod vicinum <placeName ref="Denmark"
-                        >Daniæ</placeName> tuæ locum optasses, <pb ed="TBOO" n="VIII.84"/>te cito in
-                    patriam rediturum ominabamur. At vero non prius te <placeName ref="Rostock"
-                        >Rostochium</placeName> commigrasse renuntiatum, quam ex alijs accepimus, te
-                    iam inde pedem extulisse. Ab eo tempore frustra semper quæsivimus de statu rerum
-                    tuarum ac de sedibus, quas tibi constituisses. Denique nihil certi ad nos de te
-                    ferebatur præter infelicitatem patriæ tuæ, quæ te carere posset. Quare incerta
-                    animi mei de statu rerum tuarum sententia non passa est me officio illo erga te
-                    fungi, quod tu prior occupasti. Testis est mei consilij iuvenis quidam
-                    Mathematicus, qui hîc agit et in vestris domesticis se fuisse profitetur. Ab eo
-                    primum ante aliquot dies te in <placeName ref="Wandsburg">Arce
-                        Ranzoviana</placeName> degere rescivi et recte se curaturum, si quid ad te
-                    literarum vellem. Id meditantem oppressit me adventus Nobilis adolescentis,
-                        <persName ref="tengnagel_frans_1576">FRANCISCI TEGNAGLIJ</persName> domestici vestri,
-                    qui tuas plenas amoris, humanitatis, eruditionis mihi attulit, ut nondum
-                    constituerim, utrum mihi gratuler de tuis illis humanissimis literis, an doleam
-                    hoc officium a te præreptum fuisse.</p>
+                <opener><pb ed="TBOO" n="VIII.83"/><persName ref="scaliger_joseph_justus_1540"
+                        >IOSEPHUS SCALIGER</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="135r"/>S. P.</p>
+                <p rend="noIndent">DISCESSUS tuus ex <placeName ref="Denmark">Dania</placeName>, Vir
+                    generosissime, ut nobis acerbissimus fuit, ita ancipites animi nos semper
+                    habuit, quem locum fortunis tuis deligeres. Ubi enim illæ sitæ forent, ibi et
+                    animo tuo et serijs studijs tuis aliquid quietis partum iri confidebamus, idque
+                    eo impensius optabamus, quo propensior nostra in te semper fuisset voluntas;
+                    itaque cum primum accepissem, te <placeName ref="Rostock">Rostochij</placeName>
+                    subsedisse, non mediocriter me consolabar, quod ex eo, quod vicinum <placeName
+                        ref="Denmark">Daniæ</placeName> tuæ locum optasses, <pb ed="TBOO"
+                        n="VIII.84"/>te cito in patriam rediturum ominabamur. At vero non prius te
+                        <placeName ref="Rostock">Rostochium</placeName> commigrasse renuntiatum,
+                    quam ex alijs accepimus, te iam inde pedem extulisse. Ab eo tempore frustra
+                    semper quæsivimus de statu rerum tuarum ac de sedibus, quas tibi constituisses.
+                    Denique nihil certi ad nos de te ferebatur præter infelicitatem patriæ tuæ, quæ
+                    te carere posset. Quare incerta animi mei de statu rerum tuarum sententia non
+                    passa est me officio illo erga te fungi, quod tu prior occupasti. Testis est mei
+                    consilij iuvenis quidam Mathematicus, qui hîc agit et in vestris domesticis se
+                    fuisse profitetur. Ab eo primum ante aliquot dies te in <placeName
+                        ref="Wandsburg">Arce Ranzoviana</placeName> degere rescivi et recte se
+                    curaturum, si quid ad te literarum vellem. Id meditantem oppressit me adventus
+                    Nobilis adolescentis, <persName ref="tengnagel_frans_1576">FRANCISCI
+                        TEGNAGLIJ</persName> domestici vestri, qui tuas plenas amoris, humanitatis,
+                    eruditionis mihi attulit, ut nondum constituerim, utrum mihi gratuler de tuis
+                    illis humanissimis literis, an doleam hoc officium a te præreptum fuisse.</p>
                 <p rend="indent">Quod de meo opere de emendatione temporum aliter iudicas ac
                     imperiti, quanquam in eo agnosco amorem tuum in me, tamen exprimet confessionem
                     ab illis, me non operam lusisse, vel eo nomine, quod tanto Viro mea placuerint,
@@ -134,8 +170,8 @@
                     cautius agerent, quam agunt. Ego horum neminem vidi, nisi imperitissimum, et
                     quod pluris est, nequissimum. Quicquid scribunt, id vero chartæ detrimento est,
                     non existimationis nostræ. De simiolo Heydelbergensi, quem trophæa <persName
-                        ref="Miltiades">MILTIADIS</persName> non sinunt dormire, minus mirarer, si
-                        <persName ref="Themistocles">THEMISTOCLES</persName> esse posset. Sed
+                        ref="miltiades_489">MILTIADIS</persName> non sinunt dormire, minus mirarer, si
+                        <persName ref="themistokles_ 525">THEMISTOCLES</persName> esse posset. Sed
                     imitari bonos aliorum hominum est, non stercoreorum et barbarorum et ab omni
                     morum humanitate remotissimorum. Sed quid mirer, cum inveniat secutores et
                     admiratores? εὗρεν <app>
@@ -173,20 +209,20 @@
                     agat. Divinæ æquinoctiorum observationes tuæ locum invenerunt in calce librorum
                     nostrorum, non utique quem debebant, sed quem potuerunt. Non enim prius illas
                     acceperamus. Et tamen ibi sunt a nobis collocatæ, ubi convenientissime cum
-                        <persName ref="hipparchos_0190">Hipparcheis</persName> conferri possunt. Sane
-                    illud continuum quinquennium omnium priscarum observationum dignitatem et fidem
-                    elevat, cum tuæ sibi constent, <persName ref="hipparchos_0190">Hipparcheæ</persName>
-                    quadrante diei plus aut minus <app>
+                        <persName ref="hipparchos_0190">Hipparcheis</persName> conferri possunt.
+                    Sane illud continuum quinquennium omnium priscarum observationum dignitatem et
+                    fidem elevat, cum tuæ sibi constent, <persName ref="hipparchos_0190"
+                        >Hipparcheæ</persName> quadrante diei plus aut minus <app>
                         <lem wit="#Friis">distent</lem>
                         <rdg wit="#A #B">dicant</rdg>
                     </app>, quod quidem illa æquinoctia valde suspecta nobis facit. Nos ex septem
                     illud delegimus, quod ab autore ἀκριβέστατον vocatur: quemadmodum et anni forma
                         <persName ref="alfonso_10_1221">ALFONSINI</persName> GELALÆÆ quanquam
                     elegantissimæ nobis prælata est. Tuus annus Cœlestis pauxillo minor GELALÆO.
-                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> vero observationes tam nobis
-                    falsas esse constat, quam multa alia apud illum scriptorem eximium. Ecce anno
-                    886 Nabonassari, Pharmuthi IX, feria prima, Februarij 23, Christi 139, Sol,
-                    inquit, erat ἀκριβῶς in <app>
+                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> vero
+                    observationes tam nobis falsas esse constat, quam multa alia apud illum
+                    scriptorem eximium. Ecce anno 886 Nabonassari, Pharmuthi IX, feria prima,
+                    Februarij 23, Christi 139, Sol, inquit, erat ἀκριβῶς in <app>
                         <lem wit="#Friis">3&#176;</lem>
                         <rdg><note><q>30</q> AB utroque loco</note></rdg>
                     </app> 30' Piscium. At in meridie prima Thoth primi, Sol erat ἀκριβώς in <app>
@@ -194,94 +230,100 @@
                         <rdg><note><q>30</q> AB utroque loco</note></rdg>
                     </app> 20' Piscium, eodem teste, nempe 26 Februarij. Ergo in 886 annis προήγησις
                     tridui tantum facta fuerit. Quid absurdius? Hæc et plura ἀτοπήματα diligenter in
-                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> annotavimus. Quare lubricæ
-                    sunt eius observationes et male illis fiditur. Itaque non miror, si in 285
-                    annis, tot scilicet, quot inter illius et <persName ref="hipparchos_0190"
-                        >HIPPARCHI</persName> observationes intersunt, unius diei progressionem
-                    æquinoctia tantum fecisse dicit, utpote qui sibi persuasisset in 300 annis id
-                    fieri. Itaque hinc illæ lacrimæ. A prima meridie Nabonassari ad æquinoctia ab se
-                    observata, sunt fere anni noningenti, et proinde triduum tantummodo æquinoctia
-                    εἰς τὸ προηγούμενα promota esse, quare omnes loci Solis ab eo notati ab hac
-                    hæresi pendent, et propterea falsi. Neque hac fine stat eius sententia. Si 23.
-                    Februarij est 3&#176; 30' Piscium, ergo æquinoctium in 23. Martij, quia anno
-                    sequenti ita observarat. Ergo ab hac Epocha æquinoctij verni retro proportione
-                    300 annorum addet diebus Iulianis, ut locum <pb ed="TBOO" n="VIII.86"/>Solis
-                    designet, quod facit in omnibus eclipsibus veteribus. Quare qui sequitur illas
-                    Epochas Solis, sciat se 300 annorum προηγήσεις sequi. Arabes, qui mentem et
-                    consilium <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> non animadverterunt, ex
-                    illis æquinoctialibus <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName>
-                    observationibus μορμολυκεῖον illud Trepidationis pepererunt, ut ex prægressione
-                    æquinoctiorum nihilo monstrosior motus octavæ Sphæræ εἰς τὰ ἑπόμενα natus est.
-                    Neque enim ideo ullus motus Trepidationis assignandus, quod <persName
-                        ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> Instrumenta sua imposuerunt; neque
-                    Sphæram octavam ab occidente in orientem ideo promoveri putandum, quod puncta
-                    æquinoctialia in Ecliptica in antecedentia promoventur. Circuli enim
-                    æquinoctiales ad illa describuntur. Puncta vero mobilia sunt, ergo et ipsi
-                    circuli ad ea descripti sunt mobiles, et consequenter polus æquinoctialis
-                    mobilis. Itaque tempore <persName ref="hipparchos_0190">HIPPARCHI</persName> polus
-                    æquinoctialis aberat a cauda Cynosuræ gr. 12 24'. Hodie minus distat, quam
-                    tribus gradibus. Et tamen omnes putant polum mundi esse non æquinoctialis
-                    circuli, et quidem <persName ref="hipparchos_0190">HIPPARCHUS</persName> primus huius
-                    eximiæ rei observator in ea hæresi fuit. At error est, neque unquam circulus
-                    arcticus ullius loci parallelus fuit Tropicis aut æquinoctiali. Circuli arctici
-                    et antarctici polus idem est cum polo mundi. Circuli æquinoctialis polus variat,
-                    ut diximus. Hactenus igitur nunquam polus æquinoctialis fuit polus mundi; sed
-                    fore aliquando, fidem facit accessus propior ad Cynosuræ caudam, sive ea est
-                    polus mundi, sive aliud punctum non longe ab ea remotum. Quid tui iudicij sit,
-                    quando illi duo poli convenerint, libenter audiverim. Nam magna res est. Item
-                    velim ex te scire an κατάχρησις illa et confusio poli æquinoctialis cum polo
-                    mundi aliquem errorem invexerit in collocatione Asterismorum in Sphæra solida.
-                    Multa enim <pb ed="A" n="136r"/>in illis desidero et <persName ref="hipparchos_0190"
-                        >HIPPARCHUM</persName> ostendemus ea re deceptum. Edituri sumus in calce
-                        <persName ref="Manilius">MANILIJ</persName> nostri aureolum libellum
-                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> adhuc ἀνέκδοτον περὶ ἀπλανῶν
-                    ἀστέρων, in quo per singulos dies anni Actiaci et Iuliani, quæ stella matutino
-                    aut vespertino oriatur occidatve in quinque Climatibus, diligentissime
+                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> annotavimus.
+                    Quare lubricæ sunt eius observationes et male illis fiditur. Itaque non miror,
+                    si in 285 annis, tot scilicet, quot inter illius et <persName
+                        ref="hipparchos_0190">HIPPARCHI</persName> observationes intersunt, unius
+                    diei progressionem æquinoctia tantum fecisse dicit, utpote qui sibi persuasisset
+                    in 300 annis id fieri. Itaque hinc illæ lacrimæ. A prima meridie Nabonassari ad
+                    æquinoctia ab se observata, sunt fere anni noningenti, et proinde triduum
+                    tantummodo æquinoctia εἰς τὸ προηγούμενα promota esse, quare omnes loci Solis ab
+                    eo notati ab hac hæresi pendent, et propterea falsi. Neque hac fine stat eius
+                    sententia. Si 23. Februarij est 3&#176; 30' Piscium, ergo æquinoctium in 23.
+                    Martij, quia anno sequenti ita observarat. Ergo ab hac Epocha æquinoctij verni
+                    retro proportione 300 annorum addet diebus Iulianis, ut locum <pb ed="TBOO"
+                        n="VIII.86"/>Solis designet, quod facit in omnibus eclipsibus veteribus.
+                    Quare qui sequitur illas Epochas Solis, sciat se 300 annorum προηγήσεις sequi.
+                    Arabes, qui mentem et consilium <persName ref="ptolemaios_klaudios_0100"
+                        >PTOLEMÆI</persName> non animadverterunt, ex illis æquinoctialibus <persName
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> observationibus
+                    μορμολυκεῖον illud Trepidationis pepererunt, ut ex prægressione æquinoctiorum
+                    nihilo monstrosior motus octavæ Sphæræ εἰς τὰ ἑπόμενα natus est. Neque enim ideo
+                    ullus motus Trepidationis assignandus, quod <persName
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> Instrumenta sua
+                    imposuerunt; neque Sphæram octavam ab occidente in orientem ideo promoveri
+                    putandum, quod puncta æquinoctialia in Ecliptica in antecedentia promoventur.
+                    Circuli enim æquinoctiales ad illa describuntur. Puncta vero mobilia sunt, ergo
+                    et ipsi circuli ad ea descripti sunt mobiles, et consequenter polus
+                    æquinoctialis mobilis. Itaque tempore <persName ref="hipparchos_0190"
+                        >HIPPARCHI</persName> polus æquinoctialis aberat a cauda Cynosuræ gr. 12
+                    24'. Hodie minus distat, quam tribus gradibus. Et tamen omnes putant polum mundi
+                    esse non æquinoctialis circuli, et quidem <persName ref="hipparchos_0190"
+                        >HIPPARCHUS</persName> primus huius eximiæ rei observator in ea hæresi fuit.
+                    At error est, neque unquam circulus arcticus ullius loci parallelus fuit
+                    Tropicis aut æquinoctiali. Circuli arctici et antarctici polus idem est cum polo
+                    mundi. Circuli æquinoctialis polus variat, ut diximus. Hactenus igitur nunquam
+                    polus æquinoctialis fuit polus mundi; sed fore aliquando, fidem facit accessus
+                    propior ad Cynosuræ caudam, sive ea est polus mundi, sive aliud punctum non
+                    longe ab ea remotum. Quid tui iudicij sit, quando illi duo poli convenerint,
+                    libenter audiverim. Nam magna res est. Item velim ex te scire an κατάχρησις illa
+                    et confusio poli æquinoctialis cum polo mundi aliquem errorem invexerit in
+                    collocatione Asterismorum in Sphæra solida. Multa enim <pb ed="A" n="136r"/>in
+                    illis desidero et <persName ref="hipparchos_0190">HIPPARCHUM</persName>
+                    ostendemus ea re deceptum. Edituri sumus in calce <persName ref="manilius_marcus_0100"
+                        >MANILIJ</persName> nostri aureolum libellum <persName
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> adhuc ἀνέκδοτον περὶ
+                    ἀπλανῶν ἀστέρων, in quo per singulos dies anni Actiaci et Iuliani, quæ stella
+                    matutino aut vespertino oriatur occidatve in quinque Climatibus, diligentissime
                     designatur. Sed recentiores Asterismorum Astrothesiæ valde illis repugnant,
                     neque bene cum illis pariant tabulæ directionum præclari Artificis <persName
-                        ref="Reinhold, Erasmus">REINHOLDI</persName>. Nos omnes omnium Asterismorum
+                        ref="reinhold_erasmus_1511">REINHOLDI</persName>. Nos omnes omnium Asterismorum
                         <persName ref="hipparchos_0190">Hipparcheas</persName> observationes
                     accuratissime collectas in suos dies Iulianos digessimus, in quibus
                     perfectissimus ille artifex notat, quæ prima stella cuiusque Asterismi, quæve
                     ultima oriatur aut occidat, et cum qua parte Eclipticæ. Deprehendimus male illi
-                    cum <persName ref="ptolemaios_klaudios_0100">PTOLEMAEO</persName> convenire, in qua lite
-                    componenda, tuo, Vir clarissime, aut nullo auxilio opus est. Vix tandem vanitas
-                    anni siderei autore <persName ref="Thebitius">THEBITHIO</persName> nobis
-                    comperta est; qui scimus eadem die Iuliana eandem stellam semper oriri
-                    vespertino et occidere matutino, quod vere docebat nos Ægyptiorum sententia, quæ
-                    semper eodem tempore Iuliano <pb ed="TBOO" n="VIII.87"/>Caniculam oriri sciscit.
-                    Quod verum est. Nos tamen illi commentitio anno Sidereo ascensionem
-                    accommodavimus, ut et προηγήσει ἰσημερινῇ unius gradus per 70 annos, cuius
-                    opinionis auctor <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>, <persName
-                        ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName> observat unum gradum promotionem fieri
-                    in centum annis. Ego vereor, ne in pluribus. Sed tu hæc melius, a quo et alia
-                    expectamus. Nam nos homunciones procul spectamus, et intra vestibula sacrarij
-                    consistimus, quia nondum ἐπόπται sumus, neque spes unquam fore. Itaque sufficit
-                    nobis summorum virorum vestigia adorare, quorum tu Princeps, qui talia diu
-                    observasti. Nos vero vobis tantum a labore adesse possumus, quantum a peritia
-                    nobis desumus. Itaque quod sedulitas nostra nos docuit, id non pigebit in medium
-                    proferre. Aio igitur tempore <persName ref="Hesiodos">HESIODI</persName>
-                    Arcturum vespertino oriri solitum in Bœotia et Attica VIII, die Martij Iuliani,
-                    eademque die in eodem tractu ortum illum observatum a <persName ref="Meton"
-                        >METONE</persName> et <persName ref="Euctemon">EUCTEMONE</persName>, et
-                    postremo notatum sæculo <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName>. Hoc
-                    confirmat sententiam nostram de confutatione anni siderei, et Ægyptiorum scitum,
-                    qui annum, quem Iulianum nos vocamus, κυνικόν vocabant, quod per plus, quam
-                    mille quingentos annos Caniculam semper eodem anni Iuliani die oriri
-                    prodiderunt. Hæc observatio, ut spero, tibi ingrata non erit. Magnam a nobis
-                    inibitis gratiam, si paucularum stellarum, quæ propiores sint Eclipticæ, ut
-                    Basilisci et πρόποδος τῶν Διδύμων observationes vestras nobis communicare
-                    libuerit cum latitudinibus, longitudinibus et die Iuliana. Fortasse non
-                    infeliciter cum illis <persName ref="hipparchos_0190">Hipparcheis</persName> et
-                        <persName ref="ptolemaios_klaudios_0100">Ptolemaicis</persName> conferentur. Annum
+                    cum <persName ref="ptolemaios_klaudios_0100">PTOLEMAEO</persName> convenire, in
+                    qua lite componenda, tuo, Vir clarissime, aut nullo auxilio opus est. Vix tandem
+                    vanitas anni siderei autore <persName ref="thabit_ibn_qurra_0826"
+                        >THEBITHIO</persName> nobis comperta est; qui scimus eadem die Iuliana
+                    eandem stellam semper oriri vespertino et occidere matutino, quod vere docebat
+                    nos Ægyptiorum sententia, quæ semper eodem tempore Iuliano <pb ed="TBOO"
+                        n="VIII.87"/>Caniculam oriri sciscit. Quod verum est. Nos tamen illi
+                    commentitio anno Sidereo ascensionem accommodavimus, ut et προηγήσει ἰσημερινῇ
+                    unius gradus per 70 annos, cuius opinionis auctor <persName
+                        ref="kopernikus_nikolaus_1473">COPERNICUS</persName>, <persName
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName> observat unum gradum
+                    promotionem fieri in centum annis. Ego vereor, ne in pluribus. Sed tu hæc
+                    melius, a quo et alia expectamus. Nam nos homunciones procul spectamus, et intra
+                    vestibula sacrarij consistimus, quia nondum ἐπόπται sumus, neque spes unquam
+                    fore. Itaque sufficit nobis summorum virorum vestigia adorare, quorum tu
+                    Princeps, qui talia diu observasti. Nos vero vobis tantum a labore adesse
+                    possumus, quantum a peritia nobis desumus. Itaque quod sedulitas nostra nos
+                    docuit, id non pigebit in medium proferre. Aio igitur tempore <persName
+                        ref="hesiod_0700">HESIODI</persName> Arcturum vespertino oriri solitum in
+                    Bœotia et Attica VIII, die Martij Iuliani, eademque die in eodem tractu ortum
+                    illum observatum a <persName ref="meton_0432">METONE</persName> et <persName
+                        ref="euktemon_0432">EUCTEMONE</persName>, et postremo notatum sæculo
+                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName>. Hoc confirmat
+                    sententiam nostram de confutatione anni siderei, et Ægyptiorum scitum, qui
+                    annum, quem Iulianum nos vocamus, κυνικόν vocabant, quod per plus, quam mille
+                    quingentos annos Caniculam semper eodem anni Iuliani die oriri prodiderunt. Hæc
+                    observatio, ut spero, tibi ingrata non erit. Magnam a nobis inibitis gratiam, si
+                    paucularum stellarum, quæ propiores sint Eclipticæ, ut Basilisci et πρόποδος τῶν
+                    Διδύμων observationes vestras nobis communicare libuerit cum latitudinibus,
+                    longitudinibus et die Iuliana. Fortasse non infeliciter cum illis <persName
+                        ref="hipparchos_0190">Hipparcheis</persName> et <persName
+                        ref="ptolemaios_klaudios_0100">Ptolemaicis</persName> conferentur. Annum
                     cœlestem verum a te prodi unico posse certo scimus, a quo plura in Astrologia
                     quotidie expectamus. Quam ineptus et imperitus fuit auctor Anni Pontificij, non
                     dico nunc. Magis miror, tot millia hominum errores non deprehendisse. Sed te
-                    moramur. Vale, Vir Præstantissime. <placeName ref="Leiden">Lugduni
-                        Batavorum</placeName> VII. Eid. Quintiles Iulianas, CIↃ. IↃ. XC VIII.</p>
-                <p rend="rightMargin">Tibi devotissimus et tuæ<lb/>amplitudinis
-                        studiosissimus<lb/><persName ref="scaliger_joseph_justus_1540">IOSEPHUS
-                    SCALIGER</persName>.</p>
+                    moramur.</p>
+                <closer><salute>Vale, Vir Præstantissime.</salute>
+                    <dateline><placeName ref="Leiden">Lugduni Batavorum</placeName> VII. Eid.
+                        Quintiles Iulianas, CIↃ. IↃ. XC VIII.</dateline>
+                    <signed>Tibi devotissimus et tuæ<lb/>amplitudinis studiosissimus<lb/><persName
+                            ref="scaliger_joseph_justus_1540">IOSEPHUS
+                    SCALIGER</persName>.</signed></closer>
             </div>
         </body>
     </text>

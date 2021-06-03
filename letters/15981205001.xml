@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -63,7 +82,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 5. december</date></creation>
+            <creation><date xml:lang="da">1598, 5. december.</date><date xml:lang="en">1598, 5
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +98,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-04" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,10 +106,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.125"/><pb ed="A" n="2v"/>NOBILISSIMO ET ERUDITISSIMO
-                    VIRO DOMINO <persName ref="rosenkrantz_holger_1574">OLIGERO ROSENKRANTZIO</persName>
-                    DE ROSENHOLM, CONSANGUINEO, AFFINI ET AMICO INTIMO, MIHIQUE CHARISSIMO.</opener>
-                <p><pb ed="A" n="1r"/>S.
-                    P.</p><p>CHARISSIME <persName ref="rosenkrantz_holger_1574"
+                    VIRO DOMINO <persName ref="rosenkrantz_holger_1574">OLIGERO
+                        ROSENKRANTZIO</persName> DE ROSENHOLM, CONSANGUINEO, AFFINI ET AMICO INTIMO,
+                    MIHIQUE CHARISSIMO.</opener>
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">CHARISSIME <persName ref="rosenkrantz_holger_1574"
                         >OLIGERE</persName>, Amice, Consangvinee et Affinis integerrime, de statu
                     mearum rerum cognoscendo te esse sollicitum, id sic suadente eo, quo me
                     prosequeris amore, et ego vicissim te, non dubito. Sic itaque brevibus habe:
@@ -96,61 +118,68 @@
                     discedens <placeName ref="Praha">Pragam</placeName> versus ad <persName
                         ref="rudolf_2_1552">Cæsarem</persName> iturus, <placeName ref="Magdeburg"
                         >Magdeburgi</placeName> primum per octiduum ob <persName
-                        ref="hertugen af Braunschweig ">Ducem Brunsvicensem</persName>, tum quoque
+                            ref="heinrich_julius_1564">Ducem Brunsvicensem</persName>, tum quoque
                         <persName ref="lange_erik_1553">ERICUM LANGIUM</persName> substiti, postea
                         <placeName ref="Dresden">Dresdæ</placeName> per mensem integrum, quo
-                    responsum a <persName ref="rudolf_2_1552">Cæsare</persName>, an illis temporibus,
-                    cum <placeName ref="Praha">Praga</placeName> abesset ob luem Epidemicam, accedendus et compellandus foret,
-                    expectarem; quale vero tandem receperim, ex altera pagina cognosces. Cætera
-                    exemplum <pb ed="A" n="1v"/>literarum ad <persName ref="krag_niels_1550"
-                        >KRAGIUM</persName> nostrum, quod adiunxi (neque enim nunc vacat eadem ad te
-                    repetere) edocebit. Ingressurus est hac ipsa hora filius meus <persName
-                        ref="brahe_tyge_1581">TYCHO</persName> cum quibusdam comitibus iter
-                    <placeName ref="Wandsburg">Wandesburgum</placeName>, ut familiam meam muliebrem huc meis curribus adducat; constitui
-                    enim, favente Deo, hîc <placeName ref="Wittenberg">Wittebergæ</placeName>
-                    hyemare, aut saltem tam diu manere, donec denuo a <persName ref="rudolf_2_1552"
-                        >Cæsare</persName> in <placeName ref="Bohemia">Bohemiam</placeName> vocer.
-                    Plura non addo, quia pluribus otium deest. Tu vero, mi <persName
-                        ref="rosenkrantz_holger_1574">OLIGERE</persName>, copiosius rescribe, et de
-                    singulis, quæ scire <pb ed="TBOO" n="VIII.126"/>mea interesse nosti, affatim
-                    instrue, meque sæpius, interea dum hîc sum, tuis literis invise. Invenies me ad
-                    par pari <pb ed="A" n="2r"/>referendum minime segnem. Habebis brevi plura
-                    carmina ad <persName ref="rudolf_2_1552">Cæsarem</persName> de me, tum quoque ad me
-                    a varijs Poëtis concinnata, quæ nunc describere non licuit. Tu interim, ut <placeName ref="Denmark">Dania</placeName>
-                    <placeName ref="Germany">Germaniæ</placeName> respondeat, effice, pro ut in te sponte recepisti, si modo Iutorum sit
-                    pollicitis aliquando stare. Si ego Schanus tale quid addixissem, certe fidem
-                    meam dudum redemissem, utut fuerim non minus quam tu occupatissimus. Sed si
-                    adhuc promissis steteris, erit veniæ locus. Cum <persName ref="Hunnius"
-                        >HUNNIO</persName> hîc necdum familiaritatem contraxi, pridie enim primum
-                    huc veni, sed fiet id facile in posterum, uti etiam cum reliquis <pb ed="A"
-                        n="2v"/>huius Academiæ Eruditis. <hi rend="
-                            ">POLYCARPUM</hi>
-                    decumbentem, cum <placeName ref="Dresden">Dresdæ</placeName> essem, bis invisi,
-                    humanissime ab illo exceptus; is te salutari voluit. Salutem etiam tibi dicit
-                    Hospes meus D<hi rend="sup">nus</hi> Doctor <persName ref="Jessenius">IOHANNES
-                        IESSENIUS</persName>, qui mihi in <persName ref="melanchton_philipp_1497">Philippæis</persName> olim ædibus commodam
-                    habitationem pro me et meis lubenter et benevole concessit. Vale, et brevi plura
-                    a me expecta. Sed da operam, ut prævenias. Saluta coniugem <persName
-                        ref="brahe_sophie_1578">SOPHIAM</persName> Neptem meam, utque alteri
-                    SOPHIÆ prævaleat, indulge. Dabantur properanter <placeName ref="Wittenberg"
-                        >Wittebergæ</placeName> die 5. Decembris Anni 1598.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE.</p>
-                <lb/>
-                <p rend="center"><pb ed="A" n="4v"/>POSTSCRIPTA.</p>
-                <p>IMPURUM istud et calumnijs scatens <persName ref="ursus_nicolaus_1551">Dithmarsi</persName>
-                    istius scriptum, quod tibi inspiciendum misi, necdum recepi, utut in literis
-                    ultimis, quas, cum <placeName ref="Wandsburg">Wandesburgi</placeName> essem, accepi, indicaveris te illud
-                    mihi remisisse; fac igitur, ut mature habeam, neque enim eo carere possum propter
-                    illa, quæ in margine adscripta erant, ut inde dem occasionem alteri cuipiam ista
-                    maledicta in suum authorem retorquendi; sed luet is brevi quæ meritus est.
-                    Retulit de eo ad me Doct. <persName ref="Gödelmann">IOHANNES
-                        GŒDELMANNUS</persName>, Consiliarius Saxonicus et <persName
-                        ref="chytraeus_david_1530">CHYTRÆI</persName> Gener, quem proculdubio nosti,
-                    quod <persName ref="ursus_nicolaus_1551">URSUS</persName> iste plane contemptus sit et despectui habitus ab omnibus cordatis
-                    viris et ijs, qui in aula sunt <persName ref="rudolf_2_1552">Cæsaris</persName>,
-                    postquam tam insulsum et temerarium scriptum publicavit, esseque ab ipso
-                        <persName ref="rudolf_2_1552">Cæsare</persName> neglectum et vili pensum.</p>
+                    responsum a <persName ref="rudolf_2_1552">Cæsare</persName>, an illis
+                    temporibus, cum <placeName ref="Praha">Praga</placeName> abesset ob luem
+                    Epidemicam, accedendus et compellandus foret, expectarem; quale vero tandem
+                    receperim, ex altera pagina cognosces. Cætera exemplum <pb ed="A" n="1v"
+                    />literarum ad <persName ref="krag_niels_1550">KRAGIUM</persName> nostrum, quod
+                    adiunxi (neque enim nunc vacat eadem ad te repetere) edocebit. Ingressurus est
+                    hac ipsa hora filius meus <persName ref="brahe_tyge_1581">TYCHO</persName> cum
+                    quibusdam comitibus iter <placeName ref="Wandsburg">Wandesburgum</placeName>, ut
+                    familiam meam muliebrem huc meis curribus adducat; constitui enim, favente Deo,
+                    hîc <placeName ref="Wittenberg">Wittebergæ</placeName> hyemare, aut saltem tam
+                    diu manere, donec denuo a <persName ref="rudolf_2_1552">Cæsare</persName> in
+                        <placeName ref="Bohemia">Bohemiam</placeName> vocer. Plura non addo, quia
+                    pluribus otium deest. Tu vero, mi <persName ref="rosenkrantz_holger_1574"
+                        >OLIGERE</persName>, copiosius rescribe, et de singulis, quæ scire <pb
+                        ed="TBOO" n="VIII.126"/>mea interesse nosti, affatim instrue, meque sæpius,
+                    interea dum hîc sum, tuis literis invise. Invenies me ad par pari <pb ed="A"
+                        n="2r"/>referendum minime segnem. Habebis brevi plura carmina ad <persName
+                        ref="rudolf_2_1552">Cæsarem</persName> de me, tum quoque ad me a varijs
+                    Poëtis concinnata, quæ nunc describere non licuit. Tu interim, ut <placeName
+                        ref="Denmark">Dania</placeName>
+                    <placeName ref="Germany">Germaniæ</placeName> respondeat, effice, pro ut in te
+                    sponte recepisti, si modo Iutorum sit pollicitis aliquando stare. Si ego Schanus
+                    tale quid addixissem, certe fidem meam dudum redemissem, utut fuerim non minus
+                    quam tu occupatissimus. Sed si adhuc promissis steteris, erit veniæ locus. Cum
+                        <persName ref="hunnius_aegidius_1550">HUNNIO</persName> hîc necdum
+                    familiaritatem contraxi, pridie enim primum huc veni, sed fiet id facile in
+                    posterum, uti etiam cum reliquis <pb ed="A" n="2v"/>huius Academiæ Eruditis. <hi
+                        rend="polycarpus_1598">POLYCARPUM</hi> decumbentem, cum <placeName
+                        ref="Dresden">Dresdæ</placeName> essem, bis invisi, humanissime ab illo
+                    exceptus; is te salutari voluit. Salutem etiam tibi dicit Hospes meus D<hi
+                        rend="sup">nus</hi> Doctor <persName ref="jessenius_jan_1566">IOHANNES
+                        IESSENIUS</persName>, qui mihi in <persName ref="melanchton_philipp_1497"
+                        >Philippæis</persName> olim ædibus commodam habitationem pro me et meis
+                    lubenter et benevole concessit. Vale, et brevi plura a me expecta. Sed da
+                    operam, ut prævenias. Saluta coniugem <persName ref="brahe_sophie_1578"
+                        >SOPHIAM</persName> Neptem meam, utque alteri SOPHIÆ prævaleat, indulge.</p>
+                <closer><dateline>Dabantur properanter <placeName ref="Wittenberg"
+                            >Wittebergæ</placeName> die 5. Decembris Anni 1598.</dateline>
+                    <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO
+                    BRAHE</persName>.</signed></closer>
+
+                <postscript>
+                    <label><pb ed="A" n="4v"/>POSTSCRIPTA.</label>
+                    <p>IMPURUM istud et calumnijs scatens <persName ref="ursus_nicolaus_1551"
+                            >Dithmarsi</persName> istius scriptum, quod tibi inspiciendum misi,
+                        necdum recepi, utut in literis ultimis, quas, cum <placeName ref="Wandsburg"
+                            >Wandesburgi</placeName> essem, accepi, indicaveris te illud mihi
+                        remisisse; fac igitur, ut mature habeam, neque enim eo carere possum propter
+                        illa, quæ in margine adscripta erant, ut inde dem occasionem alteri cuipiam
+                        ista maledicta in suum authorem retorquendi; sed luet is brevi quæ meritus
+                        est. Retulit de eo ad me Doct. <persName ref="godelmann_johann_georg_1559">IOHANNES
+                            GŒDELMANNUS</persName>, Consiliarius Saxonicus et <persName
+                            ref="chytraeus_david_1530">CHYTRÆI</persName> Gener, quem proculdubio
+                        nosti, quod <persName ref="ursus_nicolaus_1551">URSUS</persName> iste plane
+                        contemptus sit et despectui habitus ab omnibus cordatis viris et ijs, qui in
+                        aula sunt <persName ref="rudolf_2_1552">Cæsaris</persName>, postquam tam
+                        insulsum et temerarium scriptum publicavit, esseque ab ipso <persName
+                            ref="rudolf_2_1552">Cæsare</persName> neglectum et vili pensum.</p>
+                </postscript>
             </div>
         </body>
     </text>

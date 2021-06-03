@@ -13,26 +13,29 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
-                    <witness xml:id="A">
-                        <msDesc>
+                    <witness xml:id="A"><msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +43,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -63,7 +81,8 @@
                     <date when="1598-12-31"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christen Sørensen Longomontanus</persName>
+                    <persName key="longomontanus_christen_sorensen_1562">Christen Sørensen
+                        Longomontanus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -82,44 +101,46 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-04" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.133"/>TYCHO BRAHE AD <persName ref="longomontanus_christen_sorensen_1562"
+                <opener><pb ed="TBOO" n="VIII.133"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="longomontanus_christen_sorensen_1562"
                         >CHRISTIANUM LONGOMONTANUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>S.</p>
-                <p>QUAS <placeName ref="Wandsburg">Wandesburgo</placeName> ad me dedisti literas,
-                    eruditissime et amantissime M. <persName ref="longomontanus_christen_sorensen_1562"
-                        >CHRISTIERNE</persName>, eas hîc <placeName ref="Wittenberg"
-                        >Wittebergæ</placeName> accepi penultimo die huius anni. Refers ab initio in
-                    ijs de incuria Typographi <placeName ref="Hamburg">Hamburgensis</placeName>, qua
-                    quaternionem ibi relictum non saltem non emendatiorem edidit, sed adhuc magis
-                    quam antea corrupit, ut et in priori negligens fuit; sed quid faciendum cum
-                    talibus hominibus, qui nec fidem servant, nec quæ profitentur, satis callent?
-                    Constitui igitur duos illos quaterniones de motu Lunæ hîc, volente Deo, terse et
-                    emendate imprimi curare, ubi et reliquos quatuor Lunam concernentes, quos nunc
-                    sub prælo habeo. Ne igitur sis de priori iactura solicitus, et ferendum est,
-                    quod averti non potest. Quod vero excusas moram tuam aliquantulam isthic
-                        <placeName ref="Wandsburg">Wandesburgi</placeName>, apud familiam meam <pb
-                        ed="A" n="1v"/>muliebrem, tantum abest ut hoc ægre feram, quin potius tibi
-                    gratias habeam, quod id mihi et illis officij præstare volueris, ut non saltem
-                        <placeName ref="Magdeburg">Magdeburgo</placeName> eos isthuc deduxeris, sed
-                    et aliquamdiu cum illis manseris, ne nimis solitariæ essent, donec <persName
-                        ref="Anders">ANDREAS</persName> minister reverteretur. Quoniam vero existimo
-                    te res tuas domi ordinasse, ut in <placeName ref="Germany">Germaniam</placeName>
-                    denuo cogites, aut nunc forte eo reversus sis, cuperem ut me de statu rerum
-                    tuarum certiorem redderes. Intellexisti ex ijs, quas ad te dedi, quam primum huc
-                    veni, me <placeName ref="Wittenberg">Wittebergæ</placeName> hibernare, volente
-                    Numine, constituisse, et quæ sint causæ cur sic faciam. Si igitur res tuæ ullo
-                    modo id ferrent, ut me accedere posses, feceris mihi rem apprime gratam, nec
-                    tibi ipsi infrugiferam. Cum enim et antea a te intellexerim, et hæ tuæ literæ
-                    non obscure insinuent, quod in Academiam aliquam exteram ascendere cupias, ubi
-                    secundum conditiones atque ætatem honeste vivere possis, poterit id sane
-                    aliquantisper non incommode fieri, donec divina providentia res meæ quietum et
-                    certum locum in <app>
+                <p rend="indent"><pb ed="A" n="1r"/>S.</p>
+                <p rend="noIndent">QUAS <placeName ref="Wandsburg">Wandesburgo</placeName> ad me
+                    dedisti literas, eruditissime et amantissime M. <persName
+                        ref="longomontanus_christen_sorensen_1562">CHRISTIERNE</persName>, eas hîc
+                        <placeName ref="Wittenberg">Wittebergæ</placeName> accepi penultimo die
+                    huius anni. Refers ab initio in ijs de incuria Typographi <placeName
+                        ref="Hamburg">Hamburgensis</placeName>, qua quaternionem ibi relictum non
+                    saltem non emendatiorem edidit, sed adhuc magis quam antea corrupit, ut et in
+                    priori negligens fuit; sed quid faciendum cum talibus hominibus, qui nec fidem
+                    servant, nec quæ profitentur, satis callent? Constitui igitur duos illos
+                    quaterniones de motu Lunæ hîc, volente Deo, terse et emendate imprimi curare,
+                    ubi et reliquos quatuor Lunam concernentes, quos nunc sub prælo habeo. Ne igitur
+                    sis de priori iactura solicitus, et ferendum est, quod averti non potest. Quod
+                    vero excusas moram tuam aliquantulam isthic <placeName ref="Wandsburg"
+                        >Wandesburgi</placeName>, apud familiam meam <pb ed="A" n="1v"/>muliebrem,
+                    tantum abest ut hoc ægre feram, quin potius tibi gratias habeam, quod id mihi et
+                    illis officij præstare volueris, ut non saltem <placeName ref="Magdeburg"
+                        >Magdeburgo</placeName> eos isthuc deduxeris, sed et aliquamdiu cum illis
+                    manseris, ne nimis solitariæ essent, donec <persName ref="anders_1598"
+                        >ANDREAS</persName> minister reverteretur. Quoniam vero existimo te res tuas
+                    domi ordinasse, ut in <placeName ref="Germany">Germaniam</placeName> denuo
+                    cogites, aut nunc forte eo reversus sis, cuperem ut me de statu rerum tuarum
+                    certiorem redderes. Intellexisti ex ijs, quas ad te dedi, quam primum huc veni,
+                    me <placeName ref="Wittenberg">Wittebergæ</placeName> hibernare, volente Numine,
+                    constituisse, et quæ sint causæ cur sic faciam. Si igitur res tuæ ullo modo id
+                    ferrent, ut me accedere posses, feceris mihi rem apprime gratam, nec tibi ipsi
+                    infrugiferam. Cum enim et antea a te intellexerim, et hæ tuæ literæ non obscure
+                    insinuent, quod in Academiam aliquam exteram ascendere cupias, ubi secundum
+                    conditiones atque ætatem honeste vivere possis, poterit id sane aliquantisper
+                    non incommode fieri, donec divina providentia res meæ quietum et certum locum in <app>
                         <lem wit="#Friis">portu</lem>
                         <rdg wit="#A">portum</rdg>
                     </app> exoptato et firmo, concedente uti spero <persName ref="rudolf_2_1552"
@@ -129,20 +150,22 @@
                     />patiar, quod oportuna vivendi ratio exigat. Atque ubi præsens fueris (neque
                     enim de tua erga me voluntate aut obsequio quidquam dubito) plenius de ijs, quæ
                     tibi usui esse poterint, inter nos agemus. Gratum mihi inprimis est, quod de
-                    Apologia <persName ref="craig_john_1620">Antagonistæ mei Scotici</persName> refutanda
-                    serio cogites, vellem id mature fieri, ut Tomum illum de Cometa anni 77. sic
-                    concludere possim, atque interea dum hîc sum, typis absolvere, unâ cum alijs
-                    meis operibus antea inceptis, necdum prorsus ad Colophonem deductis. Tu vero mi
-                    dilectiss. Domine <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANE</persName>, te in his
-                    quam primum resolve; ego tibi et tuis commodis, quantum in me est, nullatenus
-                    sum defuturus, sed omni benevolentia et ad meliora semper promovendi amore et
-                    animi propensitate prosequar, idque re ipsa potius quam verbis, quam primum se
-                    occasio obtulerit, ostendam. Vale. Dabantur <placeName ref="Wittenberg"
-                        >Witebergæ</placeName> ex ædibus .... <pb ed="A" n="2v"/>(ubi nunc cum
-                    Domino D. <persName ref="Jessenius">IESSENIO</persName> ... conversor) ultimo
-                    die anni completi.</p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE,<lb/>manu propria.</p>
+                    Apologia <persName ref="craig_john_1620">Antagonistæ mei Scotici</persName>
+                    refutanda serio cogites, vellem id mature fieri, ut Tomum illum de Cometa anni
+                    77. sic concludere possim, atque interea dum hîc sum, typis absolvere, unâ cum
+                    alijs meis operibus antea inceptis, necdum prorsus ad Colophonem deductis. Tu
+                    vero mi dilectiss. Domine <persName ref="longomontanus_christen_sorensen_1562"
+                        >CHRISTIANE</persName>, te in his quam primum resolve; ego tibi et tuis
+                    commodis, quantum in me est, nullatenus sum defuturus, sed omni benevolentia et
+                    ad meliora semper promovendi amore et animi propensitate prosequar, idque re
+                    ipsa potius quam verbis, quam primum se occasio obtulerit, ostendam.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur <placeName ref="Wittenberg">Witebergæ</placeName> ex ædibus
+                        ...... <pb ed="A" n="2v"/>(ubi nunc cum Domino D. <persName
+                            ref="jessenius_jan_1566">IESSENIO</persName> ... conversor) ultimo die
+                        anni completi.</dateline>
+                    <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                        propria.</signed></closer>
             </div>
         </body>
     </text>

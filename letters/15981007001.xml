@@ -13,26 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Prag</settlement>
+                                <repository>Universitetets arkiv</repository>
+                                <collection>empty</collection>
+                                <idno>62 B 6</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Prague</settlement>
                                 <repository>University Archive</repository>
@@ -40,9 +56,12 @@
                                 <idno>62 B 6</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -50,6 +69,20 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -64,7 +97,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>David Chytraeus</persName>
+                    <persName key="chytraeus_david_1530">David Chytraeus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1598-10-07"/>
                 </correspAction>
@@ -73,7 +106,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 7. oktober</date></creation>
+            <creation><date xml:lang="da">1598, 7. oktober.</date><date xml:lang="en">1598, 7
+                    October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -88,24 +122,28 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.116"/>DAVID CHYTRÆ US AD TYCHONEM BRAHE.</opener>
+                <opener><pb ed="TBOO" n="VIII.116"/><persName ref="chytraeus_david_1530">DAVID
+                        CHYTRÆUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName>.</opener>
                 <p><pb ed="A" n="22r"/>S. P.</p>
-                <p>NOBILIS et Magnifice Domine Patrone colende! Ὅσσον ἔαρ χειμῶνος, ὅσον μᾶλον
-                    Βραβύλοιο ἅδιον, tanto mihi gratior et dulcior tua Epistola multis alijs eodem
-                    tempore allatis fuit, quam a summo et laudatissimo Mathematum artifice, ac vere
-                    (ut Summus et Clarissimus ille Princeps ad Cæsaream M<hi rend="sup">tem</hi> de
-                    te testatur) patre Astronomorum huius Seculi et unico huius laudatissimæ
-                    scientiæ instauratore scriptam, singulari mihi et liberis meis honori et
-                    ornamento esse iudico. Periucunda etiam, adeo benigna et humanissima voluntatis
-                    tuæ significatio hac in parte fuit, quod exiguum et tenue observantiæ erga te
-                    huius Academiæ officium, tibi Rostochium ingresso exhibitum, quod sine scelere
-                    prætermitti non poterat, mentione literarum tuarum non indignum <app>
+                <p rend="noIndent">NOBILIS et Magnifice Domine Patrone colende! Ὅσσον ἔαρ χειμῶνος,
+                    ὅσον μᾶλον Βραβύλοιο ἅδιον, tanto mihi gratior et dulcior tua Epistola multis
+                    alijs eodem tempore allatis fuit, quam a summo et laudatissimo Mathematum
+                    artifice, ac vere (ut Summus et Clarissimus ille Princeps ad Cæsaream M<hi
+                        rend="sup">tem</hi> de te testatur) patre Astronomorum huius Seculi et unico
+                    huius laudatissimæ scientiæ instauratore scriptam, singulari mihi et liberis
+                    meis honori et ornamento esse iudico. Periucunda etiam, adeo benigna et
+                    humanissima voluntatis tuæ significatio hac in parte fuit, quod exiguum et tenue
+                    observantiæ erga te huius Academiæ officium, tibi Rostochium ingresso exhibitum,
+                    quod sine scelere prætermitti non poterat, mentione literarum tuarum non
+                    indignum <app>
                         <lem>esse</lem>
                         <rdg><note>om. A</note></rdg>
                     </app> censes, tibique non ingratum nec iniucundum <app>
@@ -121,18 +159,18 @@
                     tuo accurate elaboratæ epistolæ (ad quendam Midam his studijs iniquiorem)
                     exemplum ideo te mihi coram dedisse intelligerem, ut cum pluribus etiam alijs
                     amicis communicarem. Quare non solum <persName ref="monau_jacob_1546">IACOBO
-                        MONAVIO</persName>, verum <persName ref="Melissus">PAULO SCHEDIO
+                        MONAVIO</persName>, verum <persName ref="melissus_paulus_1539">PAULO SCHEDIO
                         MELISSO</persName>, etiam Poëtarum nostræ ætatis Principi, et <persName
-                        ref="Posthius">IOHANNI POSTHIO</persName>, utriusque Artis Apollineæ
-                    antistiti, et <persName ref="Ortelius">ABRAHAMO ORTELIO</persName> Geographo,
+                        ref="posthius_johannes_1537">IOHANNI POSTHIO</persName>, utriusque Artis Apollineæ
+                    antistiti, et <persName ref="ortelius_abraham_1527">ABRAHAMO ORTELIO</persName> Geographo,
                     quem proximus Mensis Iunius Terris eripuit, et aliquot alijs minus celebribus
                     impertivi legendam; qui <pb ed="A" n="22v"/>animo et voce grata officium meum
-                    vicissim prædicarunt. Nobilissimo autem Heroi <persName ref="rantzau_henrik_1526"
-                        >HENRICO RANZOVIO</persName>, sapientia et virtute præstanti, de hac
-                    munificentia gratulor, quod cæteris laudibus amplissimis hanc quoque addidit, ut
-                    ATLANTI Herculeis laboribus <pb ed="TBOO" n="VIII.117"/>axem stellis ardentibus
-                    aptum sustinenti hospitium ex Patria discedenti præberet, cuius memoriam URANIA
-                    ad omnem posteritatem grata <app>
+                    vicissim prædicarunt. Nobilissimo autem Heroi <persName
+                        ref="rantzau_henrik_1526">HENRICO RANZOVIO</persName>, sapientia et virtute
+                    præstanti, de hac munificentia gratulor, quod cæteris laudibus amplissimis hanc
+                    quoque addidit, ut ATLANTI Herculeis laboribus <pb ed="TBOO" n="VIII.117"/>axem
+                    stellis ardentibus aptum sustinenti hospitium ex Patria discedenti præberet,
+                    cuius memoriam URANIA ad omnem posteritatem grata <app>
                         <lem>recolet</lem>
                         <rdg wit="#A">recoleret</rdg>
                     </app> et diuturnius quam ullæ Pyramides aut Obelisci propagatam celebrabit. Quæ URANIA<lg>
@@ -141,24 +179,25 @@
                     </lg>nunc etiam <app>
                         <lem>invictissimi</lem>
                         <rdg wit="#B">augustissimi</rdg>
-                    </app> Imperatoris <persName ref="rudolf_2_1552">RUDOLPHI</persName> animum flectit,
-                    ut patrem Astronomorum huius seculi et unicum laudatissimæ huius scientiæ
-                    instauratorem, in patria Centauris quibusdam ac Midis fastiditum, ad se invitet
-                    et Regiam hanc ac cœlestem sapientiam Cæsareo suo Patrocinio et sumptu excoli et
-                    in sublimi illa arce ætheream artem conservari et longe lateque in suo Imperio
-                    spargi cupiat, sicut primi <persName ref="Caesar">CÆSARIS IULIJ</persName>,
-                    confusam eo tempore Anni Romani rationem restituere molientis, animum movit, ut
-                        <persName ref="Sosigenes">SOSIGENEM</persName> Mathematicum in <placeName
-                        ref="Egypt">Ægypti regno</placeName> minus honorifice a quibusdam habitum,
-                    Romam ad se traduceret, ut sublimem illam ac Cœlestem siderum doctrinam in
-                    sublimi summi Imperatoris terrarum theatro, maiori cum sua gloria et Reip.
-                    fructu propagaret. Proficiscere igitur Deo duce et auspice CHRISTO, quo te <app>
+                    </app> Imperatoris <persName ref="rudolf_2_1552">RUDOLPHI</persName> animum
+                    flectit, ut patrem Astronomorum huius seculi et unicum laudatissimæ huius
+                    scientiæ instauratorem, in patria Centauris quibusdam ac Midis fastiditum, ad se
+                    invitet et Regiam hanc ac cœlestem sapientiam Cæsareo suo Patrocinio et sumptu
+                    excoli et in sublimi illa arce ætheream artem conservari et longe lateque in suo
+                    Imperio spargi cupiat, sicut primi <persName ref="caesar_gaius_julius_0100"
+                        >CÆSARIS IULIJ</persName>, confusam eo tempore Anni Romani rationem
+                    restituere molientis, animum movit, ut <persName ref="sosigenes_0045"
+                        >SOSIGENEM</persName> Mathematicum in <placeName ref="Egypt">Ægypti
+                        regno</placeName> minus honorifice a quibusdam habitum, Romam ad se
+                    traduceret, ut sublimem illam ac Cœlestem siderum doctrinam in sublimi summi
+                    Imperatoris terrarum theatro, maiori cum sua gloria et Reip. fructu propagaret.
+                    Proficiscere igitur Deo duce et auspice CHRISTO, quo te <app>
                         <lem>Augustissimus</lem>
                         <rdg wit="#B">invictissimus</rdg>
                     </app> Imperator et tua τύχη vocat et viri Excellentissimi ac optimi D. D.
-                        <persName ref="hagecius_thaddaeus_1525">THADDÆI HAGGÆCIJ</persName>, studiorum
-                    tuorum socij, et amici coniunctissimi, cum quo annis abhinc triginta <placeName
-                        ref="Wien">Viennæ</placeName> mihi etiam necessitudo intercessit,
+                        <persName ref="hagecius_thaddaeus_1525">THADDÆI HAGGÆCIJ</persName>,
+                    studiorum tuorum socij, et amici coniunctissimi, cum quo annis abhinc triginta
+                        <placeName ref="Wien">Viennæ</placeName> mihi etiam necessitudo intercessit,
                     consuetudine et familiaritate iucundissima, et Reipublicæ profutura, felix
                     fruere; et opera, tot annorum vigilijs et curis elaborata, feliciter pertexe.
                     Nec prolixiore Epistola nunc te ad iter accinctum remorari volo, <pb ed="A"
@@ -166,18 +205,20 @@
                     optimis studijs servet et cursum huius viæ et vitæ totius, ad Dei gloriam et
                     Reipublicæ salutem gubernet. Poëmata in tui gratiam scripta ad <placeName
                         ref="Denmark">Daniam</placeName>, et <placeName ref="Germany"
-                        >Germaniæ</placeName> de tali hospite lætantis, et <persName ref="Braschius"
-                        >BRASCHIJ</persName> nostri <persName ref="rudolf_2_1552">RUDOLPHO</persName>
-                    Cæsari <app>
+                        >Germaniæ</placeName> de tali hospite lætantis, et <persName ref="brasch_martin_1565"
+                        >BRASCHIJ</persName> nostri <persName ref="rudolf_2_1552"
+                        >RUDOLPHO</persName> Cæsari <app>
                         <lem>et tibi</lem>
                         <rdg><note>om. A</note></rdg>
                     </app> de tuo adventu gratulantis, inprimis vero Epigramma, quod restitutioni
-                    Siderum, Duci <persName ref="ulrich_3_1527">ULRICO</persName> inscriptæ, præmisisti,
-                    summa cum voluptate legi ac coniunctim ea typis descripta extare et in
-                    eruditorum manibus versari, toto pectore opto. Bene et feliciter vale. Rhodopoli
-                    Nonis Octobris Anno 1598.</p>
-                <p rend="rightMargin">M<hi rend="sup">tiam</hi> T. reverenter colens<lb/>DAVID
-                    CHYTRÆUS.</p>
+                    Siderum, Duci <persName ref="ulrich_3_1527">ULRICO</persName> inscriptæ,
+                    præmisisti, summa cum voluptate legi ac coniunctim ea typis descripta extare et
+                    in eruditorum manibus versari, toto pectore opto.</p>
+                <closer><salute>Bene et feliciter vale.</salute>
+                    <dateline><placeName ref="Rostock">Rhodopoli</placeName> Nonis Octobris Anno
+                        1598.</dateline> M<hi rend="sup">tiam</hi>
+                    <signed>T. reverenter colens<lb/><persName ref="chytraeus_david_1530">DAVID
+                            CHYTRÆUS</persName>.</signed></closer>
             </div>
         </body>
     </text>

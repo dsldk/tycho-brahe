@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -63,7 +78,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 30. december</date></creation>
+            <creation><date xml:lang="da">1598, 30. december.</date><date xml:lang="en">1598, 30 December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +93,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-04" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,14 +103,14 @@
                 <opener><pb ed="TBOO" n="VIII.131"/><pb ed="A" n="6v"/>CLARISSIMO ET DOCTISSIMO VIRO
                     M. <persName ref="vedel_anders_sørensen_1542">ANDREÆ WELLEIO</persName>, CANONICO RIPENSI, AMICO SUO
                     ........ ET DILECTO.<lb/>S. P.</opener>
-                <p>CUM hic Tabellarius sponte se mihi [of]ferret, qui in <placeName ref="Jylland">Cimbriam</placeName> ire et <placeName ref="Ribe">Ripas</placeName>
+                <p rend="noIndent">CUM hic Tabellarius sponte se mihi [of]ferret, qui in <placeName ref="Jylland">Cimbriam</placeName> ire et <placeName ref="Ribe">Ripas</placeName>
                     transire constituit, non intermittendum duxi, amantissime Domine Magister
                     <persName ref="vedel_anders_sørensen_1542">ANDREA</persName>, quin aliquid saltem literarum ad te darem. Fecissemque idipsum, antequam
                         <placeName ref="Wandsburg">Wandesburgo</placeName> discessi, si negotiorum
                     mole et internuncij penuriâ non fusilem præpedita. De statu autem mearum rerum
                     sic habe. Cum statim a Michaëlis festo inde abijssem <placeName ref="Praha"
                         >Pragam</placeName> versus cogitans, a <persName ref="rudolf_2_1552"
-                        >Cæsare</persName> per Dominum <persName ref="Corraduc"
+                        >Cæsare</persName> per Dominum <persName ref="coraduz_rudolf_1618"
                         >CORRADUCIUM</persName> Imperij Procancellarium, intermediante etiam
                     D. <persName ref="hagecius_thaddaeus_1525">THADDÆO HAGGECIO</persName>, aliquoties eo accitus, accidit ut cum <placeName
                         ref="Dresden">Dresdam</placeName> venissem, certo intelligerem, omnia
@@ -106,9 +122,9 @@
                     publica feriari et iustitium esse. Quare illic paulisper subsistens, misi
                     proprium Tabellarium cum literis, me <placeName ref="Dresden"
                         >Dresdam</placeName> advenisse indicantibus, et quid in tali rerum statu
-                    faciendum sit sciscitantibus. Quarum exemplo a <persName ref="Corraduc">CORRADUCIO</persName> <persName ref="rudolf_2_1552">Cæsari</persName>, ubi tunc
+                    faciendum sit sciscitantibus. Quarum exemplo a <persName ref="coraduz_rudolf_1618">CORRADUCIO</persName> <persName ref="rudolf_2_1552">Cæsari</persName>, ubi tunc
                     degebat, transmisso, responsum postea est a Domino <persName ref="barvitius_johann_anton_1555">BARVITIO</persName>, supremo Secretario
-                    et <pb ed="TBOO" n="VIII.132"/><persName ref="rudolf_2_1552">Cæsari</persName> ab intimis consiliis, <persName ref="Rusolf 2.">Cæsaream Ma<hi rend="sup">tem</hi></persName> perlibenter de meo
+                    et <pb ed="TBOO" n="VIII.132"/><persName ref="rudolf_2_1552">Cæsari</persName> ab intimis consiliis, <persName ref="rudolf_2_1552">Cæsaream Ma<hi rend="sup">tem</hi></persName> perlibenter de meo
                     adventu intellexisse, utque <placeName ref="Dresden">Dresdæ</placeName> vel
                     alibi in vicinia subsistam, donec aula recolligatur, cupere; interea de loco,
                     ubi commode collocari possim, benigne cogitare. Quo responso accepto (cui etiam
@@ -122,7 +138,7 @@
                     unâ cum ijs quæ Cæsari speciatim destinavi. Habito autem hîc <placeName
                         ref="Wittenberg">Wittebergæ</placeName> in ædibus, quæ olim erant optimæ
                     recordationis <persName ref="melanchton_philipp_1497">PHILIPPI MELANCHTONIS</persName>, nunc <persName ref="peucer_caspar_1525">PEUCERI</persName>, inquilino earum me excipiente
-                    Domino Doctore <persName ref="Jessenius">IOHANNE IESSENIO</persName> Philosophiæ et Medicinæ Doctore. Qui ut est vir
+                    Domino Doctore <persName ref="jessenius_jan_1566">IOHANNE IESSENIO</persName> Philosophiæ et Medicinæ Doctore. Qui ut est vir
                     syncerus et humanus, meique amantissimus, plusquam dimidiam ædium partem pro me
                     et mea familia inhabitandam benigne concessit, ita ut mediocri hîc fruar
                     oportunitate, donec res meæ providentia divina uberiorem commoditatem sortitæ
@@ -140,25 +156,22 @@
                     literas, quas illi, quam primum huc veni, destinavi. Scripsi nunc et alteras
                     eidem, sive isthic sive alibi sit, tradendas. Quod si per alios expeditum non
                     fuerit, a te fieri cuperem, ubicunque eum morari nosti. Vale cum tota domo,
-                    salutata a me tua <persName ref="Mette Hansdatter">coniuge</persName> peramanter.
-                </p>
+                    salutata a me tua <persName ref="mette_hansdatter_1561">coniuge</persName> peramanter.</p>
                 <p rend="indent"><pb ed="A" n="8v"/>Per hunc vero Tabellarium ........tius, cum
                     non raro <placeName ref="Wittenberg">Witebergam</placeName> [lite]ras mittendi
                     detur occasio, rescribe. Iterumque vale et Præsidi arcis vestræ de me salutem
                     nuntia unâ cum aliis amicis, si quos forte apud vos habeo residuos. Precor vobis
-                    omnibus Annum hunc instantem auspicatum et salubrem. Iamque tertium et pluries
-                    vale. Dabantur <placeName ref="Wittenberg">Witebergæ</placeName> die penultima
-                    Anni 1598. </p>
-                <lb/>
-                <p rend="rightMargin">TYCHO BRAHE</p>
-                <lb/>
-                <p>De terræmotu, qui has <placeName ref="Germany">Germaniæ</placeName> oras duabus
+                    omnibus Annum hunc instantem auspicatum et salubrem.</p> <closer><salute>Iamque tertium et pluries
+                    vale.</salute> <dateline>Dabantur <placeName ref="Wittenberg">Witebergæ</placeName> die penultima
+                    Anni 1598.</dateline> <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName></signed></closer>
+                
+                <postscript><p>De terræmotu, qui has <placeName ref="Germany">Germaniæ</placeName> oras duabus
                     vicibus conquassavit, die 16. Decembris inter 6 et 7 matutinam, tam hîc quam
                     <placeName ref="Magdeburg">Magdeburgi</placeName> et <pb ed="TBOO" n="VIII.133"/>et <placeName ref="Leipzig">Lipsiæ</placeName> atque
                     in alijs hinc inde locis, te inaudivisse opinor. Si quid tale apud vos vel alibi
                     in <placeName ref="Denmark">Dania</placeName> experti sitis, indica. Existimo
                     enim a Septentrione vel Occasu tremorem illum venisse. Qui tamen in hoc tractu
-                    divina clementia nihil damni intulit.</p>
+                    divina clementia nihil damni intulit.</p></postscript>
 
             </div>
         </body>

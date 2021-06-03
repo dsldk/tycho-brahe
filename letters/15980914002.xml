@@ -76,8 +76,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                     <placeName>Wandsburg</placeName>
                     <date when="1598-09-14"/>
                     <note>n.s.</note>
@@ -108,6 +107,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2021-05-19" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -119,7 +119,7 @@
                     MECKELNBURGK, FÜRSTEN ZU WENDEN, GRAFENN ZU SCHWERIN, DER LANDE ROSTOCK VND
                     STARGAARD HERRN, MEINEM GNEDIGEN FÜRSTEN VND HERRN.</opener>
 
-                <p>DURCHLEUCHTIGER hochgeborner fürst, E.F.G. seindt meine vnterthenige
+                <p rend="noIndent">DURCHLEUCHTIGER hochgeborner fürst, E.F.G. seindt meine vnterthenige
                     bereitwillige dienste iedertzeit bestes fleißes zuuor. Gnediger furst vnnd herr.
                     Daß E.F.G. mir auff mein junsthin verschinnes monnats <hi rend="it">julij</hi>
                     gegebenes schreibenn dero gnedige antwordt nicht allein vbersendet vnnd ihr mein
@@ -157,7 +157,7 @@
                     allmechtigen zu langer bestendiger [ge]sundtheit vnnd fürstlicher wolfart
                     getreulich befehlen. </p>
                 <closer><dateline>Datum Wandeßburg denn 14. septembris <foreign xml:lang="la"><hi rend="it">annj</hi></foreign> 1598. </dateline><salute/>
-                    <signed>E:F:G: vnterthen[iger vnd] di[enstwilliger<lb/>Tycho] Brahe<lb/>mitt eigner handtt</signed></closer>
+                    <signed>E:F:G: vnterthen[iger vnd] di[enstwilliger<lb/><persName ref="brahe_tycho_1546">Tycho] Brahe</persName><lb/>mitt eigner handtt</signed></closer>
 
             </div>
         </body>

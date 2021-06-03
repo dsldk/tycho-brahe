@@ -4,7 +4,7 @@
         <fileDesc>
             <titleStmt>
                 <title>nil</title>
-                <author>Frantz Tengnagel</author>
+                <author>Frans Tengnagel</author>
                 <editor>
                     <name xml:id="pz">
                         <persName>
@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
                                 <repository>Universitätsbibliothek</repository>
@@ -40,10 +44,25 @@
                                 <idno>693 in 2do</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 in 2do</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
-                            1588</title>, ed. F.R. Friis, 1900</bibl>
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
                     </witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -58,7 +77,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Frantz Tengnagel</persName>
+                    <persName key="tengnagel_frans_1576">Frans Tengnagel</persName>
                     <placeName>Amsterdam</placeName>
                     <date when="1598-07-06"/>
                 </correspAction>
@@ -67,7 +86,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 6. juli</date></creation>
+            <creation><date xml:lang="da">1598, 6. juli.</date><date xml:lang="en">1598, 6
+                    July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,6 +102,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-25" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,16 +111,17 @@
             <div>
                 <opener><pb ed="TBOO" n="VIII.80"/><persName ref="tengnagel_frans_1576">FRANCISCUS
                         TENGNAGEL</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="129r"/>S. P.</p><p>NOBILISSIME et præstantissime Domine TYCHO. Rebus M<hi
-                        rend="sup">æ</hi> T<hi rend="sup">æ</hi> ex animi sententia confectis,
-                    officij mei esse ratus sum (siquidem incertus sim, utrum priores meæ raptim
-                        <placeName ref="Köln">Coloniæ</placeName> ad te exaratæ tibi redditæ sint
-                    nec ne) particulatim nonnulla et fusius referre, cum tunc otium singula
-                    attingendi mihi non suppeteret, omissis tamen nunc ingratis, quæ in itinere mihi
-                    evenerunt, siquidem illibenter talia te audire norim. Aquisgranum cum appulissem
-                    relicta 3 die Iunij <placeName ref="Köln">Colonia</placeName>, ibi Serenissimum
-                    Principem Electorem Coloniensem <persName ref="ernst_1554">ERNESTUM</persName> iam
-                    itineri <placeName ref="Liège">Leodium</placeName> versus, quod postero die
+                <p rend="noIndent"><pb ed="A" n="129r"/>S. P.</p>
+                <p>NOBILISSIME et præstantissime Domine TYCHO. Rebus M<hi rend="sup">æ</hi> T<hi
+                        rend="sup">æ</hi> ex animi sententia confectis, officij mei esse ratus sum
+                    (siquidem incertus sim, utrum priores meæ raptim <placeName ref="Köln"
+                        >Coloniæ</placeName> ad te exaratæ tibi redditæ sint nec ne) particulatim
+                    nonnulla et fusius referre, cum tunc otium singula attingendi mihi non
+                    suppeteret, omissis tamen nunc ingratis, quæ in itinere mihi evenerunt, siquidem
+                    illibenter talia te audire norim. Aquisgranum cum appulissem relicta 3 die Iunij
+                        <placeName ref="Köln">Colonia</placeName>, ibi Serenissimum Principem
+                    Electorem Coloniensem <persName ref="ernst_1554">ERNESTUM</persName> iam itineri
+                        <placeName ref="Liège">Leodium</placeName> versus, quod postero die
                     ingressus est, accinctum reperi. Qui quamprimum de eo, quod cum literis tuis
                     adessem, inaudivit, confestim me accersitum humanissime compellavit, gratissimum
                     sibi munus M<hi rend="sup">a</hi> T<hi rend="sup">æ</hi> literarium significans,
@@ -132,113 +154,143 @@
                     obitu <persName ref="frederik_2_1534">FRIDERICI</persName>
                     <pb ed="TBOO" n="VIII.81"/>Regis concessas exauthorare ipsis fas esset; cumque
                     me semel interrogasset, in quantam pecuniæ summam excrescere possent, si
-                    computarentur omnia, quæ a Rege <persName ref="frederik_2_1534">FRIDERICO</persName>
-                    et Senatu Regni ad Astronomiæ instau<pb ed="A" n="129v"/>rationem M<hi
-                        rend="sup">æ</hi> T<hi rend="sup">æ</hi> concessa erant, me certo illud
-                    dicere non posse referente, tantum tamen M<hi rend="sup">æ</hi> T<hi rend="sup"
-                        >æ</hi> suppetijsse, ut omnes e quibuscumque tandem oris adventantes, Reges,
-                    Principes, eorundem Legatos, Doctores, Studiosos, et cuiusvis ordinis homines
-                    splendide semper et munifice tractârit, præterquam quod tot et tantos sumptus in
-                    Astronomiæ redintegrationem, quales nemo ante ipsum, erogasset, et alias
-                    copiosam aleret familiam. An vero beneficis Regijs, an etiam pro parte proprijs
-                    bonis hæreditarijs, illos haberet reditus, mihi non satis constare: Existimare
-                    tamen summam eorum, quæ ex Regno quotannis habebat, quatuor thalerorum millia
-                    mea opinione non multum excessisse, mox R<hi rend="sup">ma</hi> eius Cel<hi rend="sup">do</hi> in hæc formalia verba
-                    prorupit: <foreign xml:lang="de"><hi rend="it">Was? Solte man ein Solchen Man vmb so ein geringes geldt auß dem
-                    Land ziehenn lassen. Schande ist es. Ein Herr verspielt mehr auf einen abendt. Goldt bekompt man
-                    alzeitt aber solche leutte nicht alzeitt.</hi></foreign> Sed quandoquidem ita iam evenerit,
+                    computarentur omnia, quæ a Rege <persName ref="frederik_2_1534"
+                        >FRIDERICO</persName> et Senatu Regni ad Astronomiæ instau<pb ed="A"
+                        n="129v"/>rationem M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi> concessa
+                    erant, me certo illud dicere non posse referente, tantum tamen M<hi rend="sup"
+                        >æ</hi> T<hi rend="sup">æ</hi> suppetijsse, ut omnes e quibuscumque tandem
+                    oris adventantes, Reges, Principes, eorundem Legatos, Doctores, Studiosos, et
+                    cuiusvis ordinis homines splendide semper et munifice tractârit, præterquam quod
+                    tot et tantos sumptus in Astronomiæ redintegrationem, quales nemo ante ipsum,
+                    erogasset, et alias copiosam aleret familiam. An vero beneficis Regijs, an etiam
+                    pro parte proprijs bonis hæreditarijs, illos haberet reditus, mihi non satis
+                    constare: Existimare tamen summam eorum, quæ ex Regno quotannis habebat, quatuor
+                    thalerorum millia mea opinione non multum excessisse, mox R<hi rend="sup"
+                        >ma</hi> eius Cel<hi rend="sup">do</hi> in hæc formalia verba prorupit:
+                        <foreign xml:lang="de"><hi rend="it">Was? Solte man ein Solchen Man vmb so
+                            ein geringes geldt auß dem Land ziehenn lassen. Schande ist es. Ein Herr
+                            verspielt mehr auf einen abendt. Goldt bekompt man alzeitt aber solche
+                            leutte nicht alzeitt.</hi></foreign> Sed quandoquidem ita iam evenerit,
                     quocunque tandem Danorum fato et oscitantia, ut in <placeName ref="Germany"
                         >Germaniam</placeName> veniens M<hi rend="sup">a</hi> T<hi rend="sup">a</hi>
                     sibi propior reddita sit, magnopere se ea de causa lætari, et avide hanc
-                    commoditatem in posterum arrepturum. Placere sibi, quod <app><lem wit="#Friis">nulli</lem><rdg wit="#A">nonnulli</rdg></app> Principi Germaniæ,
-                    aut Regioni exteræ suam operam addicere velit, antequam de Imperatoriæ
-                    Maiestatis clementissimæ voluntate erga se et ea quæ tractat studia, certo
-                    constaret. Et omnino censuit, hanc Regiam artem Imperatori, tanquam præcipuo
-                    Europæ capiti, omnium primo offerendam esse, ac neutiquam se ambigere, imo multa
-                    depositurum, Cæsaream Maiestatem pro eo quo esset erga omnes liberales
-                    disciplinas, inprimis vero Mathematica et inter hæc Astronomica studia singulari
-                    favore et amore, M<hi rend="sup">am</hi> T<hi rend="sup">am</hi> libentissimo
-                    animo excepturam, munifice cum familia et toto apparatu Astronomico
-                    sustentaturam, nec commissuram, ut M<hi rend="sup">am</hi> T<hi rend="sup"
-                        >am</hi> migrationis huius e Dania unquam pœniteat. Qua etiam de re se non
-                    saltem commendatitias, sed pariter congratulatorias ad Imperatoriam Maiestatem
-                    daturum, tum quoque intimo eius Secretario <persName ref="barvitius_johann_anton_1555"
-                        >BARVITIO</persName>, de quo ipse bene meritus esset, quique illi aliquo
-                    modo obstrictus, unâ scripturum. Et si præter omnem suam opinionem Cæs<hi rend="sup">a</hi> Maiestas
-                    Astronomica studia in totius Imperij nunquam intermoriturum honorem et decus
-                    conservare et sustentare ab alijs forte dissuasus gravaretur (quod tamen ipsam
-                    sponte sua non admissuram certe sciret) multos fore, qui hanc gloriam sibi et
-                    suis ditionibus accedere summopere desiderent, nec eam occasionem negligant. Imo
-                    se ipsum suis impensis id præstiturum, nec ullis nisi soli Imperatori, cui hic
-                    honor primum debetur, hac in parte cessurum. Hæc et plura eiuscemodi diversis
-                    temporibus <pb ed="TBOO" n="VIII.82"/>ad me dixit, quæ referre nimis nunc
-                    prolixum foret. Latius D. V. de his coram. Unicum tamen præterire non possum,
-                    quod mihi discessuro confirmationis eorum omnium loco sub ipsum valedictionis
-                    tempus inculcavit; ferme his for<pb ed="A" n="130r"/>malibus verbis: <foreign xml:lang="de"><hi rend="it">Saget
-                    dem guttenn ehrlichenn Mann viel guts von meinet wegenn, und das ich hernacher also bey ihm handeln werde, ais wan er mein leiblicher bruder wehr,
-                    und ich ihn von jugendt auf gekant hette, dessen er sich gentzlichenn zu mir
-                    versehenn soll. Saget ihm auch daneben alles was ihr sonstenn von mir
-                    gehöret habt, und bitet ihn das er mir seinenn zustandt zueschreibe, so offt ihm
-                    gelegenheit vorfelt. Wan ich vormercke, das er bey <placeName ref="Hamburg">Hamburg</placeName> etwas
-                    verziehenn wirdt, ehe er zur Kay. Ma. ziehet, bin ich willens einenn von meinenn</hi>
-                        nobilibus, <hi rend="it">deme ich</hi> in pyronomicis exercitijs <hi rend="it">vertraue, zu ihm abzufertigenn, von
-                            diesem und anderem meinetwegenn mit ihm zu</hi> conferiren. <hi rend="it">Und so baldt ich, ob
-                                Gott will, zu ihr Kay. Mt. komme, will ich ihm</hi> TYCHONEM, <hi rend="it">wo er alda in des
-                    Kaisers gebiet anzutreffen, besuchenn und weiter mit ihm kuntschaft machen.</hi></foreign> Nam
-                    plane nihil dubitavit, se alicubi in Imperatoriæ Ma<hi rend="sup">tis</hi> ditionibus te reperturum. Sicque
-                    me clementer et liberaliter (uti prius innui) dimisit. Pericula et damna, quæ in
-                    hoc itinere perpessus sum, quæque in prioribus meis aliquatenus attigi, hîc
-                    utpote ingrata, non lubet iterare.</p>
-                <p rend="indent">Venio nunc ad <placeName ref="Netherlands">Holandos</placeName>, ad quos in Patria aliquantisper moratus me
-                    contuli, quo commoditatem promptiorem et tutiorem redeundi nanciscerer. Ibi cum
-                    <placeName ref="Haag">Hagam</placeName>, ubi iuris suprema est administratio, quam vel in transcursu cognoscere
-                    avebam, pervenissem, Illustrissimus Princeps <persName ref="morits_oranje_1567"
+                    commoditatem in posterum arrepturum. Placere sibi, quod <app>
+                        <lem wit="#Friis">nulli</lem>
+                        <rdg wit="#A">nonnulli</rdg>
+                    </app> Principi Germaniæ, aut Regioni exteræ suam operam addicere velit,
+                    antequam de Imperatoriæ Maiestatis clementissimæ voluntate erga se et ea quæ
+                    tractat studia, certo constaret. Et omnino censuit, hanc Regiam artem
+                    Imperatori, tanquam præcipuo Europæ capiti, omnium primo offerendam esse, ac
+                    neutiquam se ambigere, imo multa depositurum, Cæsaream Maiestatem pro eo quo
+                    esset erga omnes liberales disciplinas, inprimis vero Mathematica et inter hæc
+                    Astronomica studia singulari favore et amore, M<hi rend="sup">am</hi> T<hi
+                        rend="sup">am</hi> libentissimo animo excepturam, munifice cum familia et
+                    toto apparatu Astronomico sustentaturam, nec commissuram, ut M<hi rend="sup"
+                        >am</hi> T<hi rend="sup">am</hi> migrationis huius e Dania unquam pœniteat.
+                    Qua etiam de re se non saltem commendatitias, sed pariter congratulatorias ad
+                    Imperatoriam Maiestatem daturum, tum quoque intimo eius Secretario <persName
+                        ref="barvitius_johann_anton_1555">BARVITIO</persName>, de quo ipse bene
+                    meritus esset, quique illi aliquo modo obstrictus, unâ scripturum. Et si præter
+                    omnem suam opinionem Cæs<hi rend="sup">a</hi> Maiestas Astronomica studia in
+                    totius Imperij nunquam intermoriturum honorem et decus conservare et sustentare
+                    ab alijs forte dissuasus gravaretur (quod tamen ipsam sponte sua non admissuram
+                    certe sciret) multos fore, qui hanc gloriam sibi et suis ditionibus accedere
+                    summopere desiderent, nec eam occasionem negligant. Imo se ipsum suis impensis
+                    id præstiturum, nec ullis nisi soli Imperatori, cui hic honor primum debetur,
+                    hac in parte cessurum. Hæc et plura eiuscemodi diversis temporibus <pb ed="TBOO"
+                        n="VIII.82"/>ad me dixit, quæ referre nimis nunc prolixum foret. Latius D.
+                    V. de his coram. Unicum tamen præterire non possum, quod mihi discessuro
+                    confirmationis eorum omnium loco sub ipsum valedictionis tempus inculcavit;
+                    ferme his for<pb ed="A" n="130r"/>malibus verbis: <foreign xml:lang="de"><hi
+                            rend="it">Saget dem guttenn ehrlichenn Mann viel guts von meinet wegenn,
+                            und das ich hernacher also bey ihm handeln werde, ais wan er mein
+                            leiblicher bruder wehr, und ich ihn von jugendt auf gekant hette, dessen
+                            er sich gentzlichenn zu mir versehenn soll. Saget ihm auch daneben alles
+                            was ihr sonstenn von mir gehöret habt, und bitet ihn das er mir seinenn
+                            zustandt zueschreibe, so offt ihm gelegenheit vorfelt. Wan ich
+                            vormercke, das er bey <placeName ref="Hamburg">Hamburg</placeName> etwas
+                            verziehenn wirdt, ehe er zur Kay. Ma. ziehet, bin ich willens einenn von
+                            meinenn</hi> nobilibus, <hi rend="it">deme ich</hi> in pyronomicis
+                        exercitijs <hi rend="it">vertraue, zu ihm abzufertigenn, von diesem und
+                            anderem meinetwegenn mit ihm zu</hi> conferiren. <hi rend="it">Und so
+                            baldt ich, ob Gott will, zu ihr Kay. Mt. komme, will ich ihm</hi>
+                        TYCHONEM, <hi rend="it">wo er alda in des Kaisers gebiet anzutreffen,
+                            besuchenn und weiter mit ihm kuntschaft machen.</hi></foreign> Nam plane
+                    nihil dubitavit, se alicubi in Imperatoriæ Ma<hi rend="sup">tis</hi> ditionibus
+                    te reperturum. Sicque me clementer et liberaliter (uti prius innui) dimisit.
+                    Pericula et damna, quæ in hoc itinere perpessus sum, quæque in prioribus meis
+                    aliquatenus attigi, hîc utpote ingrata, non lubet iterare.</p>
+                <p rend="indent">Venio nunc ad <placeName ref="Netherlands">Holandos</placeName>, ad
+                    quos in Patria aliquantisper moratus me contuli, quo commoditatem promptiorem et
+                    tutiorem redeundi nanciscerer. Ibi cum <placeName ref="Haag">Hagam</placeName>,
+                    ubi iuris suprema est administratio, quam vel in transcursu cognoscere avebam,
+                    pervenissem, Illustrissimus Princeps <persName ref="morits_oranje_1567"
                         >MAURITIUS</persName>, qui M<hi rend="sup">am</hi> T<hi rend="sup">am</hi>
                     novit et magni facit, benignum et clementissimum se mihi exhibuit. Cui libros
                     quosdam M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi> secreto ostendi. Quos cum
                     illi apprime arridere viderem, eos consulto ipsi tanquam ex tua voluntate dono
-                    dedi, atque illud inscripsi. Qui sane nihil <app><lem>[magis]</lem><rdg><note>suppl. Friis</note></rdg></app> in votis habuit, quam te in
-                    <placeName ref="Netherlands">Hollandia</placeName> novas Uraniæ sedes figere et stabilire, seque id Ordinibus sedulo
-                    propositurum, modo de tua voluntate certior redderetur, aiebat. Neque enim
-                    ambigere, quin et Ordinibus hoc perplaciturum sit. Existimavit etiam, non
-                    reperturam M<hi rend="sup">am</hi> T<hi rend="sup">am</hi> ullum locum Genio et
-                    studijs suis aptiorem. Quod ut ad M<hi rend="sup">am</hi> T<hi rend="sup"
+                    dedi, atque illud inscripsi. Qui sane nihil <app>
+                        <lem>[magis]</lem>
+                        <rdg><note>suppl. Friis</note></rdg>
+                    </app> in votis habuit, quam te in <placeName ref="Netherlands"
+                        >Hollandia</placeName> novas Uraniæ sedes figere et stabilire, seque id
+                    Ordinibus sedulo propositurum, modo de tua voluntate certior redderetur, aiebat.
+                    Neque enim ambigere, quin et Ordinibus hoc perplaciturum sit. Existimavit etiam,
+                    non reperturam M<hi rend="sup">am</hi> T<hi rend="sup">am</hi> ullum locum Genio
+                    et studijs suis aptiorem. Quod ut ad M<hi rend="sup">am</hi> T<hi rend="sup"
                         >am</hi> suo nomine cum insigni animi sui et amicitiæ declaratione, donec
                     ipsemet istic comparuero, perscriberem, iussit, et has quoque inclusas ad eam
                     primo quoque tempore mittendas dedit. Neque tantum ab Illustrissimo Principe hoc
-                    ipsius et Ordinum notum percepi; sed et <persName ref="Barneveld">IOHANNE
-                        BARNEFELDIO</persName>, qui nomine quidem Advocatus supremus, sed reipsa
-                    quasi Comes ceu Regulus est <placeName ref="Netherlands">Hollandiæ</placeName>. Nam ab eius nutu et voluntate ferme
+                    ipsius et Ordinum notum percepi; sed et <persName
+                        ref="oldenbarneveld_johan_1547">IOHANNE BARNEFELDIO</persName>, qui nomine
+                    quidem Advocatus supremus, sed reipsa quasi Comes ceu Regulus est <placeName
+                        ref="Netherlands">Hollandiæ</placeName>. Nam ab eius nutu et voluntate ferme
                     pendent omnia. Cumque et ipsum non minus quam <persName ref="morits_oranje_1567"
                         >MAURITIUM</persName> (qui brevibus ob innumeras suas occupationes M<hi
                         rend="sup">æ</hi> T<hi rend="sup">æ</hi>
-                    <pb ed="TBOO" n="VIII.83"/><app><lem wit="#Friis">gratias</lem><rdg wit="#A">gratijs</rdg></app>, pro libris actis, rescripsit, particularia
-                    ut M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi> oretenus exponerem iubens) in
-                    nostras partes inclinare animadverterem atque te eo accersendum et benigne
-                    tractandum censere, subiunxi, me de <app><lem wit="#TBOO">tua</lem><rdg wit="#A">sua</rdg></app> voluntate hac in parte nihil certi
-                    referre posse, siquidem intellexerim, te Imperatoriæ Maiestati omnium primo tua
-                    studia demisse offerre decrevisse, tunc ille mox obmutuit et nihil amplius hac
-                    de re ingessit, sed quasi alio declinans orationem, aiebat, se esse in procinctu
-                    itineris Anglici, ubi legatum acturus esset nomine Ordinum. Ideoque nunc
-                    pluribus mecum loqui non posse. Ubi reversus fuerit, sique res ita postularit,
-                    et de tua voluntate sibi quidpiam constiterit, hoc negotium se apud Ordines
-                    peracturum. Inaudivi etiam in <placeName ref="Netherlands">Hollandia</placeName>, <placeName ref="England">Angliam</placeName> magno tui teneri desiderio,
-                    quod et ad te perscriptum esse quidam referebat: verene an falso, me fugit. Sed
-                        <pb ed="A" n="130v"/>tu rectius <app><lem wit="#Friis">dispicies</lem><rdg wit="#A">despicies</rdg></app>, quid tibi faciendum sit. Prævides
-                    enim quantis tumultibus Regnum illud obnoxium sit, quæ tunc primum gliscent, ubi
-                    <persName ref="Elizabeth 1.">Regina</persName> ferme decrepita fatis concesserit. Habes, si sic luberet, <persName ref="james_6_1566">Scotiæ Regem</persName> in
-                    magna illa <placeName ref="Britain">Britannica Insula</placeName>, non saltem affinitate <placeName ref="EDenmark">Danis</placeName> coniunctissimum, sed
-                    et tui amantissimum, vel ex ea consuetudine, quæ vobis intercessit, ex quo illum
-                    cum nobili suo Comitatu te in tua <placeName ref="Hven">Insula</placeName> invisentem magnifice excepisti, deque
-                    rebus eruditis (uti est Princeps doctus) cum eo affatim contulisti.</p>
+                    <pb ed="TBOO" n="VIII.83"/><app>
+                        <lem wit="#Friis">gratias</lem>
+                        <rdg wit="#A">gratijs</rdg>
+                    </app>, pro libris actis, rescripsit, particularia ut M<hi rend="sup">æ</hi>
+                        T<hi rend="sup">æ</hi> oretenus exponerem iubens) in nostras partes
+                    inclinare animadverterem atque te eo accersendum et benigne tractandum censere,
+                    subiunxi, me de <app>
+                        <lem wit="#TBOO">tua</lem>
+                        <rdg wit="#A">sua</rdg>
+                    </app> voluntate hac in parte nihil certi referre posse, siquidem intellexerim,
+                    te Imperatoriæ Maiestati omnium primo tua studia demisse offerre decrevisse,
+                    tunc ille mox obmutuit et nihil amplius hac de re ingessit, sed quasi alio
+                    declinans orationem, aiebat, se esse in procinctu itineris Anglici, ubi legatum
+                    acturus esset nomine Ordinum. Ideoque nunc pluribus mecum loqui non posse. Ubi
+                    reversus fuerit, sique res ita postularit, et de tua voluntate sibi quidpiam
+                    constiterit, hoc negotium se apud Ordines peracturum. Inaudivi etiam in
+                        <placeName ref="Netherlands">Hollandia</placeName>, <placeName ref="England"
+                        >Angliam</placeName> magno tui teneri desiderio, quod et ad te perscriptum
+                    esse quidam referebat: verene an falso, me fugit. Sed <pb ed="A" n="130v"/>tu
+                    rectius <app>
+                        <lem wit="#Friis">dispicies</lem>
+                        <rdg wit="#A">despicies</rdg>
+                    </app>, quid tibi faciendum sit. Prævides enim quantis tumultibus Regnum illud
+                    obnoxium sit, quæ tunc primum gliscent, ubi <persName ref="elizabeth_1_1533"
+                        >Regina</persName> ferme decrepita fatis concesserit. Habes, si sic luberet,
+                        <persName ref="james_6_1566">Scotiæ Regem</persName> in magna illa
+                        <placeName ref="Britain">Britannica Insula</placeName>, non saltem
+                    affinitate <placeName ref="Denmark">Danis</placeName> coniunctissimum, sed et
+                    tui amantissimum, vel ex ea consuetudine, quæ vobis intercessit, ex quo illum
+                    cum nobili suo Comitatu te in tua <placeName ref="Hven">Insula</placeName>
+                    invisentem magnifice excepisti, deque rebus eruditis (uti est Princeps doctus)
+                    cum eo affatim contulisti.</p>
                 <p rend="indent">Hæc M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi>, donec ipsemet
                     Wandesburgi me stitero, præsignificanda habui, quantum nunc inter peregrinandum
                     licuit, ut, quid in posterum sibi faciendum sit, eo citius et rectius statuat.
-                    Vale vir nobilissime et præstantissime, ac me propediem expecta. <placeName ref="Amsterdam">Amstelodamo</placeName> die
-                    6. Iulij Ao. 1598.</p>
-                <lb/>
-                <p rend="rightMargin">M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi> perpetuo
-                        <app><lem wit="#TBOO">devinctus</lem><rdg wit="#A">devictus</rdg></app><lb/><persName ref="tengnagel_frans_1576">FRANCISCUS G. TENGNAGEL</persName>,<lb/>manu propria.</p>
+                    Vale vir nobilissime et præstantissime, ac me propediem expecta.</p>
+                <closer><dateline><placeName ref="Amsterdam">Amstelodamo</placeName> die 6. Iulij
+                        Ao. 1598.</dateline>
+                    <signed>M<hi rend="sup">æ</hi> T<hi rend="sup">æ</hi> perpetuo <app>
+                            <lem wit="#TBOO">devinctus</lem>
+                            <rdg wit="#A">devictus</rdg>
+                        </app><lb/><persName ref="tengnagel_frans_1576">FRANCISCUS G.
+                            TENGNAGEL</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

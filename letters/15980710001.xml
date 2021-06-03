@@ -32,11 +32,23 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                        <msIdentifier>
+                            <settlement>København</settlement>
+                            <repository>Rigsarkivet</repository>
+                            <collection>Langebeks diplomatarium</collection>
+                            <idno>empty</idno>
+                            <msName>empty</msName>
+                        </msIdentifier>
+                        <physDesc>
+                            <ab>Afskrift</ab>
+                        </physDesc>
+                    </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
-                                <settlement>København</settlement>
-                                <repository>Rigsarkivet</repository>
-                                <collection>Langebeks Diplomatarium</collection>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
@@ -57,16 +69,16 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Stygge</persName>
+                    <persName key="stygge_johannes_1598">Johannes Stygge</persName>
                     <placeName ref="Hamburg">Hamburg</placeName>
                     <date when="1598-07-10"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hans Aalborg</persName>
+                    <persName key="aalborg_hans_1542">Hans Aalborg</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598-07-10</date></creation>
+            <creation><date xml:lang="da">1598, 10. juli.</date><date xml:lang="en">1598, 10 July.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +95,7 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-08" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-19" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,12 +103,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="XIV.142"/>ERUDITISSIMO NEC NON PERSPICATISSIMO VIRO DOMINO
-                    M. <persName ref="Aalborg">JOHANNI ALBURGIACO</persName>, BIBLIOPOLÆ HAFFNIENSI
+                    M. <persName ref="aalborg_hans_1542">JOHANNI ALBURGIACO</persName>, BIBLIOPOLÆ HAFFNIENSI
                     PRIMARIO, AMICO MEO PERANTIQUO, DENTUR.</opener>
 
-                <p>S. eruditissime d:ne magister <persName ref="Aalborg">Johannes</persName>, amice
+                <p rend="noIndent">S. eruditissime d:ne magister <persName ref="aalborg_hans_1542">Johannes</persName>, amice
                     rara fide mihi perspecte. Multi, ex quo patriam reliqui, de <hi rend="it"
-                        >Tychonis Brahe</hi> e <placeName ref="Denmark">Dania</placeName> discessu
+                        ><persName ref="brahe_tycho_1546">Tychonis Brahe</persName></hi> e <placeName ref="Denmark">Dania</placeName> discessu
                     nescio quæ garrire ausi eius causas a me sciscitati sunt, quibus ea, quæ patriæ
                     nostræ honorifica erant, retuli, licet quibusdam, quibus <hi rend="it"
                         >Tycho</hi> iste cum nova sua necdum visa aut explorata mathesi pro oraculo
@@ -152,7 +165,7 @@
                     præstantes viri, qui ipsum invisunt et magni faciunt, et quod primarii quique in
                     urbe ipsum in nimio honore habeant. Ideoque suos conterraneos non amplius
                     agnoscit vixque Danus haberi vult, adeo ut cum proprio suo consobrino <persName
-                        ref="Høg, Just"><hi rend="it">Jodoco Hogio</hi></persName>, qui aliquandiu
+                        ref="hoeg_just_1578"><hi rend="it">Jodoco Hogio</hi></persName>, qui aliquandiu
                     hic fuit, ne semel loqui voluerit, et ille, cum accedere eum videret, tam
                     splendide et insolenter se gerere non est ausus; multo minus ego, quem ne
                     aspicere quidem dignatur, cum in curru sublimi per plateas sex equis, sequente
@@ -175,7 +188,7 @@
                         ref="København">Hafniensi</placeName> scriptum illud summopere, ut etiam
                     meretur, arrideat et illi rectius de <hi rend="it">Tychone</hi>, quem etiam
                     melius norunt, judicare possunt quam <pb ed="TBOO" n="XIV.144"/>cæteri,
-                    præsertim inæstimabilis ille mathematicus d:ns d. <persName ref="Finke"><hi
+                    præsertim inæstimabilis ille mathematicus d:ns d. <persName ref="fincke_thomas_1561"><hi
                             rend="it">Thomas Finchius</hi></persName> nunc, ut audio, rector
                     magnificus (qui nequaquam opus habuit, cum in insula ista <hi rend="it"
                         >Tychonis</hi> inutilia instrumenta vidit, a nasutulo illo et cornuto adhuc
@@ -202,21 +215,21 @@
                         ref="Denmark">Dania</placeName> eum, et, licet nobilis, obscurum tamen alias
                     ibi eum esse nec ita celebrem, ut illi putant. Dicebant, se audivisse, illum
                     nunc in <placeName ref="Germany">Germania</placeName> esse, vellent eum multorum
-                    nomine, præcipue cuiusdam, si recte memini, <persName ref="Dee, John"><hi
+                    nomine, præcipue cuiusdam, si recte memini, <persName ref="dee_john_1527"><hi
                             rend="it">Johannis Deen</hi></persName>, salutare. Ego respondi, me, ubi
                     esset, ignorare nec multum curare (nam alias statim concurrissent, quod et
                     postea ab aliis edocti fecerunt). Mox subjunxit quidam eorum <persName
-                        ref="Ruffus">Ruffus</persName>: Nescis tu Danus ea, quæ nos in <placeName
+                        ref="ruffus_1598">Ruffus</persName>: Nescis tu Danus ea, quæ nos in <placeName
                         ref="England">Anglia</placeName> scimus? <persName ref="sorensen_peder_1540"><hi
                             rend="it">Severinus</hi></persName>, regis medicus, diutino et
-                    clandestino eius odio (ob medicamenta eius <persName ref="Paracelsus"
+                    clandestino eius odio (ob medicamenta eius <persName ref="paracelsus_1493"
                         >Theophrastica</persName>, quæ is tam egregie parare novit et olim regi
                         <persName ref="frederik_2_1534"><hi rend="it">Friderico</hi></persName> et
                     nobilibus postea aliis quoque gratis dare solitus est) laboravit, quia putavit,
                     suæ sic aliquid decedere existimationi. Hunc igitur apud nos dicunt multa
                     subdole in <hi rend="it">Tychonem</hi> machinatum esse, ut tandem is talia
                     indigne ferens discederet. Mox ego respondi: quomodo ille doctor hoc facere
-                    posset, cum [non] sit nobilis? <persName ref="Brahe, Tycho"><hi rend="it"
+                    posset, cum [non] sit nobilis? <persName ref="brahe_tycho_1546"><hi rend="it"
                             >Tycho</hi></persName> est ex clara et magna familia in <placeName
                         ref="Denmark">Dania</placeName>, nec habent apud nos tantam autoritatem ut
                     apud vos doctores, et quare non fecit id antea, si potuit, quam nunc? Tunc ille
@@ -244,18 +257,18 @@
                         n="XIV.145"/>omnia, quæ de his audivi, scio sentioque, scribere, nec admodum etiam
                     tutum videtur), fac saltem, ut exemplaria libri expetiti aliquot quocunque
                     tandem pretio certo obtineam. Pecunias, quas expetis, cognatus meus <persName
-                        ref="Dyre, Claus"><hi rend="it">Claudius Dyre</hi></persName> tibi solvet,
+                        ref="dyre_claus_1567"><hi rend="it">Claudius Dyre</hi></persName> tibi solvet,
                     et libros ad me, ubicunque fuero (neque enim hic diu morari <placeName
                         ref="Hamburg">Hamburgi</placeName> constitui), perferri curabit. Rogoque, ut
                     simul mihi tuam quoque censuram de eodem libro scribere non degraveris et me in
                     omnibus voti facere compotem. Si quid sit, in quo tibi vicissem gratificare
                     potero, alacrem me eius habebis executorem. Ante omnia vero cave, ne quis ex
-                    amicis <hi rend="it">Tychonis</hi> (si quos forte adhuc ibi habeat) resciscat,
+                    amicis <hi rend="it"><persName ref="brahe_tycho_1546">Tychonis</persName></hi> (si quos forte adhuc ibi habeat) resciscat,
                     me illa exemplaria a te accepisse.</p>
                 <closer><salute>His vale cum conjuge tua lectissima, quæ ut plures tibi procreet
                         hæredes, vide.</salute>
                     <dateline><placeName ref="Hamburg">Hamburgo</placeName> 10. die julii anni
-                        1598.</dateline><signed><persName ref="Styggius">Johannes
+                        1598.</dateline><signed><persName ref="stygge_johannes_1598">Johannes
                         Stygge</persName>,<lb/>mea manu.</signed></closer>
             </div>
         </body>

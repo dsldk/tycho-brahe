@@ -32,7 +32,9 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <bibl>Manuscript copy in the Copenhagen copy of P.J. Resen,
+                        <bibl xml:lang="da">Afskrift i Det Kongelige Bibliotek i København i et eksemplar af P.J. Resen,
+                            <title>Inscriptiones Haffnienses</title>, Hauniæ 1668, </bibl>
+                        <bibl xml:lang="en">Manuscript copy in a Copenhagen copy of P.J. Resen,
                                 <title>Inscriptiones Haffnienses</title>, Hauniæ 1668</bibl>
                     </witness>
                     <witness xml:id="Friis">
@@ -57,11 +59,11 @@
                     <date when="1598-08-20"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Niels Krag</persName>
+                    <persName key="krag_niels_1550">Niels Krag</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598-08-20</date></creation>
+            <creation><date xml:lang="da">1598, 20. august.</date><date xml:lang="en">1598, 20 August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -76,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-11-27" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,8 +89,8 @@
                     PRÆSTANTISSIMO VIRO DOMINO <persName ref="krag_niels_1550">NICOLAO CRAGIO</persName>
                     I. V. DOCTORI, HISTORICO REGIO ET ACADEMIÆ HAFFNIENSIS PROFESSORI EXIMIO, AMICO
                     SUO EX INTIMIS UNI ET SINCERE DILECTO.</opener>
-                <p><pb ed="A" n="28r"/>S. P.</p>
-                <p>ANTE octiduum primum huc reversus est <persName ref="mule_claus_1575"
+                <p rend="indent"><pb ed="A" n="28r"/>S. P.</p>
+                <p rend="noIndent">ANTE octiduum primum huc reversus est <persName ref="mule_claus_1575"
                         >MULÆUS</persName>, literasque tuas, Præstantissime et amantissime Vir,
                     attulit, multo serius quam sperâram. Detentus quidem ab <persName
                         ref="bille_eske_1552">ESCHILLO</persName> et <persName ref="gyldenstierne_axel_1542"
@@ -175,9 +178,9 @@
                     quadriennium in summa egestate eum obijsse mihi relatum est. Sic et viri
                     Principes tantam impudentiam abominantur. Apud Brunsvicensem author officij,
                     quod in schola ambivit, ea de causa repulsam passus est. Dux <persName
-                        ref="Johan Adolf">ADOLPHUS</persName> Holsaticus, quamprimum nænias istas
+                        ref="johann_adolf_1575">ADOLPHUS</persName> Holsaticus, quamprimum nænias istas
                     vidit, statim addita execratione folia omnia laceravit, atque ad Cancellarium
-                    suum D.D. <persName ref="Gutsloff ">IONATHAM GUTSLOVIUM</persName> librum igne
+                    suum D.D. <persName ref="gutsloff_jonathan_1611">IONATHAM GUTSLOVIUM</persName> librum igne
                     absumendum proiecit. Quod et factum est. <persName ref="rantzau_henrik_1526"
                         >RANZOVIUS</persName> noster non minus movebatur paucis solummodo
                     introspectis verbis, omnia dira authori imprecans, et capitis pœna mactandum
@@ -209,7 +212,7 @@
                     Polari stellâ, fixarum progressu, anni quantitate, <persName ref="ptolemaios_klaudios_0100"
                         >PTOLOMÆI</persName> crassa hallucinatione ex ortu Caniculæ eodem die
                     Iuliano, tot interlapsis seculis, atque similibus commemorat, minus sibi
-                    constant. Nam et bonus interdum dormitat <persName ref="Homeros"
+                    constant. Nam et bonus interdum dormitat <persName ref="homer_0700"
                         >HOMERUS</persName>. Quâ de re, ubi rescribendi otium nactus fuero, ipsum
                     candide admonere constitui. Is nostra plurimi facit, uti non saltem ex his
                     literis, sed et ex ipsa redintegrata temporum emendatione nuper publicatâ
@@ -228,9 +231,9 @@
                     quodvis humanitatis officium adeoque pecuniam, si eâ destitueretur (quod alias
                     rarissimum est) illi obtulerit, nihilque magis in votis habuit, quam ut a
                     Batavis accirer. Ideoque in partes Imperatoris minus in<pb ed="A" n="30r"
-                    />clinavit. Et cum de pollicitis Principis <persName ref="Maurits"
+                    />clinavit. Et cum de pollicitis Principis <persName ref="morits_oranje_1567"
                         >MAURITIJ</persName>, qui etiam mihi Germanice admodum humaniter scripsit,
-                    ac <persName ref="Barneveld">BARNEFELDIJ</persName> nonnulla illi retulisset
+                    ac <persName ref="oldenbarneveld_johan_1547">BARNEFELDIJ</persName> nonnulla illi retulisset
                         <persName ref="tengnagel_frans_1576">FRANCISCUS</persName>, subiunxit <persName
                         ref="scaliger_joseph_justus_1540">SCALIGER</persName>, lenta admodum esse
                     illorum consilia. Sed se eos adhortaturum, ut mature rem agant, et me eo
@@ -278,8 +281,8 @@
                     omnino curaturum, ne extra Germaniam abeam, aut ad Danos redeam: egitque Deo
                     gratias, quod ipsi iam propior essem quam antea; et siquidem ipsum tam cito ac
                     vellem, invisere (quod tamen admodum in votis habuit) haud possem, se quendam
-                    nobilium suorum intimum huc ad me missurum, antequam in superiorem <persName
-                        ref="Germany">Germaniam</persName> me conferrem, dicebat, qui de secretis
+                    nobilium suorum intimum huc ad me missurum, antequam in superiorem <placeName
+                        ref="Germany">Germaniam</placeName> me conferrem, dicebat, qui de secretis
                     quibusdam ad artes abstrusas pertinentibus mecum ageret, atque ad ipsum ea quæ
                     percepisset, referret. Et ut paucis rem absolvam (siquidem omnia narrare nimis
                     foret prolixum) cum alias tum præsertim ubi <persName ref="tengnagel_frans_1576"
@@ -305,8 +308,8 @@
                         <rdg wit="#A">sum</rdg>
                     </app>, ad calendas Græcas (uti tu recte auguraris) expectabunt. Nihil equidem
                     satius ducerem quam Patriæ et <persName ref="christian_4_1577">Regis</persName> mei
-                    honori studere, vel ob optimum illum et laudatissimæ memoriæ <placeName
-                        ref="frederik_2_1534">FRIDERICUM</placeName> huius Parentem, qui præclare de me
+                    honori studere, vel ob optimum illum et laudatissimæ memoriæ <persName
+                        ref="frederik_2_1534">FRIDERICUM</persName> huius Parentem, qui præclare de me
                     meritus est. Sed quid faciam, cum ipsi me respuerint, contempserint, detrimento
                     non exiguo atque multis iniurijs affecerint, odio et invidia persecuti sint,
                     artis, quam tam diu excolui, quamque totus pene orbis a me efflagitat,
@@ -314,14 +317,14 @@
                     denegarint, ac subsidia, quæ prius habui, <pb ed="A" n="31v"/> subtraxerint? Si
                     mihi more cæterorum Nobilium vivendum foret, nec altiora peragenda suscepissem,
                     reliquos inglorius annos isthic traxissem, Bacchum et Cererem consumere natus.
-                    Hæc et similia <persName ref="Ramel">RAMELIO</persName> nostro, qui erga te ob
+                    Hæc et similia <persName ref="ramel_henrik_1550">RAMELIO</persName> nostro, qui erga te ob
                     itineris molestias non ingratus (quod laudo) fuit, quemque ego pro sincero habeo
                     Amico, indices quæso, ne interrogatus de abitus mei caussis respondeat se nullas
                     scire, sed me sponte meâ citra ullas necessitates isthinc abijsse; veluti heri
                     Generosus Dominus <persName ref="Slawata">GULIELMUS SLAWATA</persName>, Liber
                     Baro in <hi rend="it">Chlum</hi> et <hi rend="it">Koschumbergk</hi>, ex
                     commendatione <persName ref="rantzau_henrik_1526">RANTZOVIJ</persName> me hîc in
-                    visens mihi retulit, sibi perconctanti a <persName ref="Ramel"><app>
+                    visens mihi retulit, sibi perconctanti a <persName ref="ramel_henrik_1550"><app>
                             <lem wit="#Friis">RAMELIO</lem>
                             <rdg wit="#A">Remelio</rdg>
                         </app></persName> responsum esse. Satis quidem polite et Politice, an vero
@@ -332,7 +335,7 @@
                     qui in causa fuerunt, non dixerim. Quod <persName ref="christian_4_1577"
                         >Rex</persName> Serenissimus, quotiescunque mei incidit mentio, nullam
                     malevoli animi significationem ostendat, veluti tu scribis, et <persName
-                        ref="Ramel">RAMELIUS</persName> etiam <persName ref="mule_claus_1575">CLAUDIO
+                        ref="ramel_henrik_1550">RAMELIUS</persName> etiam <persName ref="mule_claus_1575">CLAUDIO
                         MULÆO</persName> insinuavit, et credo et lubenter audio. Nam cur male volet
                     illi, qui ipsum dicto factove nunquam offendit, caussas non habet. Sufficit me
                     tacere, et quæ passus sum, dissimulare. Si reliqui duo nunc proximi a <persName
@@ -358,11 +361,11 @@
                     fideli comitatu evocari curabo. Si conditiones apud <persName ref="rudolf_2_1552"
                         >Cæsarem</persName> meis desiderijs non arriserint, ad <persName ref="ernst_1554"
                         >Coloniensem</persName> me convertam. Et si nec ibi, ad Batavos. Pollicitus
-                    enim est Princeps <persName ref="Maurits">MAURITIUS</persName>, <app>
+                    enim est Princeps <persName ref="morits_oranje_1567">MAURITIUS</persName>, <app>
                         <lem wit="#Friis">se</lem>
                         <rdg wit="#A">si</rdg>
                     </app> apud ordines confœderatos meâ de caussa sedulo acturum. Idem et <persName
-                        ref="Barneveld">BARNEVELDIUS</persName> addixit se facturum, quamprimum ex
+                        ref="oldenbarneveld_johan_1547">BARNEVELDIUS</persName> addixit se facturum, quamprimum ex
                         <placeName ref="England">Anglia</placeName> redierit, ubi nunc Legatum agit.
                     Sed <persName ref="tengnagel_frans_1576">FRANCISCUS</persName>, qui cum utroque oretenus
                     hac de re egit, ut secreta omnia haberent, nec quidpiam Ordinibus proponerent,
@@ -371,16 +374,16 @@
                     caussa primum offeram. Quam si renuerit, tunc demum de alijs medijs cogitandum.
                     In <placeName ref="England">Angliam</placeName> quibuscunque tandem
                     pollicitationibus allectus vix iturus <pb ed="A" n="32v"/>sum. Nam et mihi mores
-                    gentis suspecti sunt, præter id quod <persName ref="Elizabeth 1."
+                    gentis suspecti sunt, præter id quod <persName ref="elizabeth_1_1533"
                         >Reginæ</persName> vetulæ obitus magnos motus ciebit peregrinis maxime
                     formidabiles et perniciosos. Quæ omnia propterea fusius tibi scribo, ut de meis
                     consilijs mearumque rerum statu te (quod non dubito) sollicitum certiorem
                     facerem.</p>
-                <p rend="indent">Quod literæ <persName ref="Joachim Friedrich">Electoris</persName>
+                <p rend="indent">Quod literæ <persName ref="joachim_friedrich_1546">Electoris</persName>
                     Soceri <persName ref="christian_4_1577">Regis</persName> non sunt exhibitæ, parum
                     moror. Nam et parum habent ponderis, nimisque Politice et aulice conscriptæ. Non
                     amplius mare Balthicum transibunt. Videbo tamen, quomodo apud <persName
-                        ref="Joachim Friedrich">Electorem</persName> et <persName ref="Katharina "
+                        ref="joachim_friedrich_1546">Electorem</persName> et <persName ref="katharina_1549"
                         >Electorissam</persName>, qui mihi favere videri volunt, id civiliter
                     excusem. At libros quos <persName ref="christian_4_1577">Regi</persName> destinavi,
                     maluissem oblatos esse certis de causis: non tamen quod ego aut sperem aut
@@ -395,26 +398,26 @@
                     scripsi. Si tamen id facere non audeat ............ ita tamen ut libri <persName
                         ref="rosenkrantz_holger_1574">OLIGERO</persName>, si <persName
                         ref="christian_4_1577">Rex</persName> eos (u ti ........... alij cedant. Habebit
-                        <persName ref="Ramel">RAMELIUS</persName>, si voluerit, altera Exemplaria.
+                        <persName ref="ramel_henrik_1550">RAMELIUS</persName>, si voluerit, altera Exemplaria.
                     Ad cætera quæ scribis, quia me parum concernunt, non respondeo. Id saltem
-                    superaddam, si <persName ref="Brahe, Peder">PETRUS BRAHE</persName> cognatus
+                    superaddam, si <persName ref="brahe_peder_1610">PETRUS BRAHE</persName> cognatus
                     meus, quem fratris loco semper dilexi, propterea corbizatori et magno meo bono
                     fœdifrago isti valetudinem primogeniti sui filij, de cuius <pb ed="A" n="33r"
                     />indole multa præclara inaudieram (adeo ut sperârim eum familiæ nostræ, modo
                     disciplinæ isthic aliquem locum mererentur, decus futurum) concredidit, eumque
                     sic amisit, proh dolor (cum plus sæpe periculi a <pb ed="TBOO" n="VIII.99"
                     />Medico quam morbo, præsertim tam vulgari) certe male pro se ultus est
-                    iniuriam, si qua erat, quod cum <persName ref="Crassaeus">CRASSÆO</persName> bis
+                    iniuriam, si qua erat, quod cum <persName ref="grasshoff_johann_1560">CRASSÆO</persName> bis
                     vel ter <placeName ref="Rostock">Rostochij</placeName> locutus sum, et nullum
                     tamen aliud officium aut operam ipsi præstiti. Neque enim ab omni humanitate tam
                     alienus esse poteram, ut tergiversatione eius alloquij satis superque afflicti
                     afflictionem adderem, qui commiseratione potius quam odio dignus est. Et si
-                    Salvatoris nostri monitis auscultaret <persName ref="Brahe, Peder"
+                    Salvatoris nostri monitis auscultaret <persName ref="brahe_peder_1610"
                         >PETRUS</persName>, culpam improvisam tam enixe deprecanti Dei saltem et
                     conscientiæ caussâ remitteret. Sed fit ut plurimum id quod infers; volumus nobis
                     maxima a Deo debita condonari; nos autem proximo ne minima quidem. Vere igitur
                     nostri Deus misereatur, atque hanc etiam obstinationem, et ab eius voluntate
-                    aversionem clementer ignoscat. Cui te tuamque <persName ref="Mule, Else"
+                    aversionem clementer ignoscat. Cui te tuamque <persName ref="mule_else_1556"
                         >ELSULAM</persName> et liberos omnesque tuos commendo. Vale, et prolixitatem
                     hanc boni consule. Dedi tibi sic exemplum, ut et tu solito fusius ad me
                     scriberes. Ignoramus enim an postea, cum longius disiuncti fuerimus, ea dabitur,
@@ -425,27 +428,25 @@
                         >ESCHILLO BILLEO</persName> et <persName ref="rosenkrantz_holger_1574"
                         >ROSÆCRANTZIO</persName> nostro secreto impertire, nec ullis alijs. Iamque
                     iterum unâ cum ijs cæterisque Amicis, qui forte (uti fit) nunc mihi de multis
-                    unus et alter erunt, quam felicissime vale. Dabantur <placeName ref="Wandsburg"
-                        >Wandesburgo</placeName> die 20. Augusti st. vet. Anno 98.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus TYCHO BRHAE,<lb/>manu propria.</p>
-                <lb/>
-                <p><pb ed="A" n="33v"/>Addidi præter ea, quæ ultimo misi, et alia duo Exemplaria
+                    unus et alter erunt, quam felicissime vale.</p> <closer><dateline>Dabantur <placeName ref="Wandsburg"
+                        >Wandesburgo</placeName> die 20. Augusti st. vet. Anno 98.</dateline> <signed>Tuus TYCHO BRHAE,<lb/>manu propria.</signed></closer>
+                
+                <postscript><p><pb ed="A" n="33v"/>Addidi præter ea, quæ ultimo misi, et alia duo Exemplaria
                     literarum <persName ref="hagecius_thaddaeus_1525">THADDÆI</persName>, quas ante
                     triduum accepi, ut hinc videas, quam serio me expectent.</p>
-                <p rend="indent">Cum <persName ref="Styggius">IOHANNES STYGGIUS</persName>, qui nunc
+                <p rend="indent">Cum <persName ref="stygge_johannes_1598">IOHANNES STYGGIUS</persName>, qui nunc
                     Hamburgi est, undecunque rescivisset tandem, quosdam ex Professoribus apud vos
-                    famosum istud de me scriptum magni facere, quodque <persName ref="Aalborg"
+                    famosum istud de me scriptum magni facere, quodque <persName ref="aalborg_hans_1542"
                         >OLBURGENSIS</persName> id illis procurarit, tantæ iniquitatis impatiens,
                     quasdam ad ipsum direxit literas, ita consulto scriptas, quasi hoc factum
                     approbare et laudare videretur: quemadmodum author libri, quem <hi rend="it"
                         >Beinkorf</hi> vocant, Pontifices contrarium sentiendo commendat. Mittit
                     tibi <persName ref="mule_claus_1575">MULÆUS</persName> exemplum, quod ipsi <persName
-                        ref="Styggius">STYGGIUS</persName> tradidit, tibi impertiendum. Habeas tamen
+                        ref="stygge_johannes_1598">STYGGIUS</persName> tradidit, tibi impertiendum. Habeas tamen
                     omnia secreta. Nec nisi cum <persName ref="rosenkrantz_holger_1574"
                         >OLIGERO</persName> nostro aut etiam <persName ref="brahe_sophie_1559"
                         >sorore</persName> quidpiam hac de re communices. Et tacite interim inquiri
-                    procures, quomodo hæ literæ factioni cui <persName ref="Aalborg"
+                    procures, quomodo hæ literæ factioni cui <persName ref="aalborg_hans_1542"
                         >OLBURGENSIS</persName> adhæret, placuerint. Rogo, velis hunc amanuensem
                     meum Germanicum promovere in lis, quæ isthic meo nomine expedienda habet, atque
                     urgere, ut quam citissime huc revertatur: idque intra 14 dies, si ullo modo
@@ -454,20 +455,20 @@
                     unicum habeam Exemplum, et author huius non palam sed clam distrahi
                     procuret.</p>
                 <p rend="indent">Addidi Exemplar Germanicum caussarum discessus mei e <placeName
-                        ref="Denmark">Dania</placeName>, quod Domino <persName ref="Ramel"
+                        ref="Denmark">Dania</placeName>, quod Domino <persName ref="ramel_henrik_1550"
                         >RAMELIO</persName> per occasionem legendum dare poteris; ut si nescius sit,
                     quas habuerim abitus rationes, et immemor eorum, quæ cum ipso <placeName
                         ref="Rostock">Rostochij</placeName> locutus sum, hinc discat, et in memoriam
                     revocet; alias forte hæc <pb ed="A" n="34r"/>ipsa penitius et <app>
                         <lem wit="#Friis">ulterius</lem>
                         <rdg wit="#A">alterius</rdg>
-                    </app> consignabo. Tu interim chartam hanc a <persName ref="Ramel"
+                    </app> consignabo. Tu interim chartam hanc a <persName ref="ramel_henrik_1550"
                         >RAMELIO</persName> receptam secreto penes te serva in memoriam rei bene
                     gestæ, cum sis historicus. Vix enim in cæteris veriora habes documenta: Licet
                     historiam <placeName ref="Hven">Huennensem</placeName> posteriorum præsertim
                     Annorum narrare non audeas, quia veritas odium parit. Facient id tamen forte
                     alij. Neque enim ignota est hæc Metamorphosis, aut alibi ira tacita ut apud nos.
-                    Scribunt enim et loquuntur multi ea de re, quos mallem tacere. </p>
+                    Scribunt enim et loquuntur multi ea de re, quos mallem tacere. </p></postscript>
             </div>
         </body>
     </text>

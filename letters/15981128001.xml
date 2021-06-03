@@ -59,11 +59,11 @@
                     <date when="1598-11-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Giovanni Antonio Magini</persName>
+                    <persName key="magini_giovanni_antonio_1555">Giovanni Antonio Magini</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 28. november</date></creation>
+            <creation><date xml:lang="da">1598, 28. november.</date><date xml:lang="en">1598, 28 November.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,8 +89,8 @@
                     VIRO, DOMINO <persName ref="magini_giovanni_antonio_1555">IOHANNI ANTONIO MAGINO</persName>
                     MATHEMATUM IN CELEBRI BONONIENSEM GYMNASIO PROFESSORI EXIMIO ET AMICO SUO
                     INPRIMIS DILECTO.</opener>
-                <p><pb ed="A" n="1r"/>Clarissime et Excellentissime Vir. </p>
-                <p rend="indent">CUM plures iam elapsi sint anni, atque uti existimo ad minimum
+                <p rend="indent"><pb ed="A" n="1r"/>Clarissime et Excellentissime Vir. </p>
+                <p rend="noIndent">CUM plures iam elapsi sint anni, atque uti existimo ad minimum
                     quinque, ex quo quidam inter meos domesticos studiosos eruditum tuum librum quem
                     Tabulam Tetragonicam vocas, mihique dedicasti, <placeName ref="København">Hafnia</placeName> e nundinis
                     <placeName ref="Frankfurt am Main">Francofurtensibus</placeName> istuc per bibliopolam nostratem allatum, <placeName ref="Uraniborg">Uraniburgum</placeName> secum
@@ -190,7 +191,7 @@
                     conferre, ut aliqua in Progymnasmatis meis alijsque operibus typographico labore
                     necdum plane ob eas, quæ mihi in Patria evenerunt, conturbationes absoluta, ibi
                     compleri procurem, donec pacatiore et saniore in <placeName ref="Bohemia">Bohemia</placeName> restituta degendi
-                    commoditate a <persName ref="Rusolf 2.">Cæsare</persName> eo accedere iubear. Quod tibi indicandum duxi, optime
+                    commoditate a <persName ref="rudolf_2_1552">Cæsare</persName> eo accedere iubear. Quod tibi indicandum duxi, optime
                         <persName ref="magini_giovanni_antonio_1555">MAGINE</persName>, ut de statu mearum rerum conscius
                     esses, utque simul ex iam commemoratis aliquatenus intelligeres, quæ et quanta
                     Astronomiæ, quam intendo, instaurationem remorata sint. Plura et particulariora
@@ -237,11 +238,10 @@
                     satisfaciet. Eum itaque iterum atque iterum tibi acceptum habe, et ad meliora
                     quæque, quantum in te est, istic iuva et promove, quo aliquando, favente Numine,
                     ad me reversus, tuam in se benevolentiam merito prædicare possit, idque erit
-                    mihi longe gratissimum. Vale.</p>
-                <p rend="indent">Dabantur <placeName ref="Dresden">Dresdæ</placeName> Misniæ, ubi est aula Electorum Saxoniæ, Novembris
-                    28 stilo veteri. Anno etc. 1598.</p>
-                <lb/>
-                <p>Si tres Eclipses huius anni istic a te vel quopiam alio observatæ sunt, fac me
+                    mihi longe gratissimum.</p> <closer><salute>Vale.</salute> <dateline>Dabantur <placeName ref="Dresden">Dresdæ</placeName> Misniæ, ubi est aula Electorum Saxoniæ, Novembris
+                    28 stilo veteri. Anno etc. 1598.</dateline></closer>
+                
+                <postscript><p>Si tres Eclipses huius anni istic a te vel quopiam alio observatæ sunt, fac me
                     eius denotationis participem pro meridianorum differentia hinc elicienda. Meis
                     instrumentis sic designatæ sunt, ut momenta observata et ad medium earundem
                     reducta, ita se habuerint.</p>
@@ -273,9 +273,8 @@
                     Habeo certas causas cur potius in <placeName ref="Italy">Italia</placeName> quam <placeName ref="Germany">Germania</placeName> id fieri averem. Multum
                     mea interest, ut hoc perficiatur, quod et levi negocio exequi licebit; impensas
                     lubens solvam inveniarque vicissim gratus. Habet exhibitor harum quædam secum
-                    eius negocij documenta, quæ tibi clam monstrare et exponere poterit. </p><lb/>
-                <p rend="rightMargin">Tuæ Excellentiæ<lb/>Studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
-                    propria scripsi.</p>
+                    eius negocij documenta, quæ tibi clam monstrare et exponere poterit. </p><closer><signed>Tuæ Excellentiæ<lb/>Studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                    propria scripsi.</signed></closer></postscript>
             </div>
         </body>
     </text>

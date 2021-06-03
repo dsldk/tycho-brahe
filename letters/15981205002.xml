@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -63,11 +82,12 @@
                     <date when="1598-12-05"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Niels Krag</persName>
+                    <persName key="krag_niels_1550">Niels Krag</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1598, 5. december</date></creation>
+            <creation><date xml:lang="da">1598, 5. december.</date><date xml:lang="en">1598, 5
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -82,222 +102,228 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-04" who="#pz">Filen etableret</change>
+            <change when="2019-06-03" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.127"/>TYCHO BRAHE AD <persName ref="krag_niels_1550"
-                        >NICOLAUM KRAGIUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>S. P.</p>
-                <p>CUM <placeName ref="Dresden">Dresdæ</placeName> adhuc essem, ante paucos dies
-                    literas tuas accepi, Præstantissime et Amantissime Domine Doctor <persName
-                        ref="krag_niels_1550">NICOLAE KRAGIE</persName>, quæ <placeName ref="København"
-                        >Haffnia</placeName> datæ erant Calendis Octobris huius anni. Indicas autem
-                    ab initio te meas non accepisse, quas <persName ref="rosenkrantz_holger_1574"
-                        >HOLGERUS ROSENKRANTZIUS</persName> noster in tua absentia secum in Cimbriam
-                    recepit; miror itaque eum tanto tempore illas retinuisse. Existimaverat quidem
-                    ille, te esse invisurum sese <placeName ref="Rosenholm">Rosenholmij</placeName>,
-                    uti ei forte pollicitus eras, at ego illi scripseram, quod frustra te
-                    exspectaret, æque enim rarum esse Iutum Iuto vera dicere et fidem facere, atque
-                    augurem auguri, neque sane in hoc augurio falsus sum meo ipsius incommodo,
-                    siquidem plæraque erant in illo, quem tibi inscripseram, fasciculo, quæ te
-                    mature scire avebam; spero tamen te id iam accepisse et eius contenta omnia
-                    percepisse, quare ut de ijs, ubi præsertim opus est, mihi mature respondeas,
-                    rogo; atque simul indices, quid de literis illis actum sit, quas <persName
-                        ref="Styggius">IOHANNES STYGIUS</persName> in <placeName ref="Denmark"
-                        >Daniam</placeName> ad quendam mea de caussa se scripsisse rettulit, et
-                    quomodo intellectæ acceptæque. Quæ de Præsecto meo <placeName ref="Hven"
-                        >Huennensi</placeName> in hisce ultimis attingis, parum moror, is non saltem
-                    erga me infidelis deprehenditur, atque iniquas reddere rationes suæ
-                    villicationis, sed insuper nihil ferme eorum exequitur, quæ aliquoties ei per
-                    literas mando, non sine rerum mearum gravi dispendio, adeo ut aliqua adhuc ex
-                    instrumentis meis et reliqua supellectile isthic in <placeName ref="Hven"
-                        >Insula</placeName>, aut etiam <placeName ref="København"
+                <opener><pb ed="TBOO" n="VIII.127"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="krag_niels_1550">NICOLAUM
+                        KRAGIUM</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">CUM <placeName ref="Dresden">Dresdæ</placeName> adhuc essem, ante
+                    paucos dies literas tuas accepi, Præstantissime et Amantissime Domine Doctor
+                        <persName ref="krag_niels_1550">NICOLAE KRAGIE</persName>, quæ <placeName
+                        ref="København">Haffnia</placeName> datæ erant Calendis Octobris huius anni.
+                    Indicas autem ab initio te meas non accepisse, quas <persName
+                        ref="rosenkrantz_holger_1574">HOLGERUS ROSENKRANTZIUS</persName> noster in
+                    tua absentia secum in Cimbriam recepit; miror itaque eum tanto tempore illas
+                    retinuisse. Existimaverat quidem ille, te esse invisurum sese <placeName
+                        ref="Rosenholm">Rosenholmij</placeName>, uti ei forte pollicitus eras, at
+                    ego illi scripseram, quod frustra te exspectaret, æque enim rarum esse Iutum
+                    Iuto vera dicere et fidem facere, atque augurem auguri, neque sane in hoc
+                    augurio falsus sum meo ipsius incommodo, siquidem plæraque erant in illo, quem
+                    tibi inscripseram, fasciculo, quæ te mature scire avebam; spero tamen te id iam
+                    accepisse et eius contenta omnia percepisse, quare ut de ijs, ubi præsertim opus
+                    est, mihi mature respondeas, rogo; atque simul indices, quid de literis illis
+                    actum sit, quas <persName ref="stygge_johannes_1598">IOHANNES STYGIUS</persName>
+                    in <placeName ref="Denmark">Daniam</placeName> ad quendam mea de caussa se
+                    scripsisse rettulit, et quomodo intellectæ acceptæque. Quæ de Præsecto meo
+                        <placeName ref="Hven">Huennensi</placeName> in hisce ultimis attingis, parum
+                    moror, is non saltem erga me infidelis deprehenditur, atque iniquas reddere
+                    rationes suæ villicationis, sed insuper nihil ferme eorum exequitur, quæ
+                    aliquoties ei per literas mando, non sine rerum mearum gravi dispendio, adeo ut
+                    aliqua adhuc ex instrumentis meis et reliqua supellectile isthic in <placeName
+                        ref="Hven">Insula</placeName>, aut etiam <placeName ref="København"
                         >Haffniæ</placeName> residua sint, quæ necdum <pb ed="A" n="1v"/><placeName
                         ref="Lübeck">Lubecæ</placeName> accipere potuerim, utut aliquoties hac de re
-                    scripserim et <persName ref="mule_claus_1575">MULÆUS</persName>, cum præsens esset,
-                    illi singula oretenus exposuit; taceo quod nullos pisces ex tot meis piscinis
-                    tanti constantibus, sive salitos sive exsiccatos, uti volui, nancisci queam, sed
-                    is illis in suum et suorum commodum saltem utitur, vel potius abutitur. Verum
-                    quid de eo faciendum sit, <persName ref="bille_eske_1552">ESCILLUS
-                        BILLEUS</persName> dispiciat et statuat, cui supremam inspectionem rerum
-                    mearum concredidi. Quod autem ais esse quosdam, qui Insulam meam a me petitam
-                    volunt, peiore mea futura conditione, equidem non intelligo, quid hæc verba sibi
-                    velint, nimis enim obscura sunt, et in varium sensum trahi possunt. Cum tota
-                        <placeName ref="Denmark">Dania</placeName> mihi nimis coarctata censeatur,
-                    quî quæso insulula tam angusta tamque illucrifera me remorabitur, his pauciora
-                    et longe maiora affectantem sperantemque? Sed vertat se meus osor et invidus in
-                    quascunque volet partes, quicunque tandem is sit, non multum de me triumphabit,
-                    sed potius infringet dentem solido, <pb ed="TBOO" n="VIII.128"/>propria delusus
-                    ab Arte. Atqui ego de Insula illa non sum magnopere sollicitus, neque etiam
-                    quodpiam emolumentum inde habeo, sed potius plus damni, neque tamen ullo iure
-                    eam mihi adimere possunt, salvis <persName ref="frederik_2_1534">Regis
-                        FRIDERICI</persName> Literis, neque etiam sine Senatorum omnium iudicio et
-                    consensu id facere licet, si modo non quidvis licet citra ius et fas; oportet
-                    etiam me legitime citari. Sed restituant mihi solummodo meas impensas aut
-                    dimidiam saltem earum partem, quas in illam expendi ultra summam quam a
-                        <persName ref="frederik_2_1534">Rege FRIDERICO</persName> et Senatoribus Regni
-                    accepi, aut decernant, <foreign xml:lang="da"><hi rend="it">om det er billigt
-                            att jeg skulle liide saadan Skade thill forgeffvis</hi></foreign>. Sed
-                    de his alias agemus, quando status mearum rerum fuerit in tutioribus et
-                    inexpugnabilibus terminis, quod brevi <pb ed="A" n="2r"/>me assecuturum, favente
-                    summo Numine, confido. Erit forte aliquis potentior, qui mei patrocinium in se
-                    recipiet, atque a tot iniurijs et damnis, quot in Dania passus sum,
-                    vindicabit.</p>
+                    scripserim et <persName ref="mule_claus_1575">MULÆUS</persName>, cum præsens
+                    esset, illi singula oretenus exposuit; taceo quod nullos pisces ex tot meis
+                    piscinis tanti constantibus, sive salitos sive exsiccatos, uti volui, nancisci
+                    queam, sed is illis in suum et suorum commodum saltem utitur, vel potius
+                    abutitur. Verum quid de eo faciendum sit, <persName ref="bille_eske_1552"
+                        >ESCILLUS BILLEUS</persName> dispiciat et statuat, cui supremam inspectionem
+                    rerum mearum concredidi. Quod autem ais esse quosdam, qui Insulam meam a me
+                    petitam volunt, peiore mea futura conditione, equidem non intelligo, quid hæc
+                    verba sibi velint, nimis enim obscura sunt, et in varium sensum trahi possunt.
+                    Cum tota <placeName ref="Denmark">Dania</placeName> mihi nimis coarctata
+                    censeatur, quî quæso insulula tam angusta tamque illucrifera me remorabitur, his
+                    pauciora et longe maiora affectantem sperantemque? Sed vertat se meus osor et
+                    invidus in quascunque volet partes, quicunque tandem is sit, non multum de me
+                    triumphabit, sed potius infringet dentem solido, <pb ed="TBOO" n="VIII.128"
+                    />propria delusus ab Arte. Atqui ego de Insula illa non sum magnopere
+                    sollicitus, neque etiam quodpiam emolumentum inde habeo, sed potius plus damni,
+                    neque tamen ullo iure eam mihi adimere possunt, salvis <persName
+                        ref="frederik_2_1534">Regis FRIDERICI</persName> Literis, neque etiam sine
+                    Senatorum omnium iudicio et consensu id facere licet, si modo non quidvis licet
+                    citra ius et fas; oportet etiam me legitime citari. Sed restituant mihi
+                    solummodo meas impensas aut dimidiam saltem earum partem, quas in illam expendi
+                    ultra summam quam a <persName ref="frederik_2_1534">Rege FRIDERICO</persName> et
+                    Senatoribus Regni accepi, aut decernant, <foreign xml:lang="da"><hi rend="it">om
+                            det er billigt att jeg skulle liide saadan Skade thill
+                        forgeffvis</hi></foreign>. Sed de his alias agemus, quando status mearum
+                    rerum fuerit in tutioribus et inexpugnabilibus terminis, quod brevi <pb ed="A"
+                        n="2r"/>me assecuturum, favente summo Numine, confido. Erit forte aliquis
+                    potentior, qui mei patrocinium in se recipiet, atque a tot iniurijs et damnis,
+                    quot in Dania passus sum, vindicabit.</p>
                 <p rend="indent">Quia vero de rebus meis certior fieri desideras, sic habe: Paulo
                     post Michaëlis festum <placeName ref="Wandsburg">Wandesburgo</placeName>
-                    <placeName ref="Praha">Pragam</placeName> versus ad <persName ref="rudolf_2_1552"
-                        >Cæsarem</persName> iter suscepi, comitante me etiam familia mea muliebri
-                        <placeName ref="Magdeburg">Magdeburgum</placeName> usque, deinde reversa.
-                    Substiti autem Magdeburgi per octiduum in gratiam <persName ref="lange_erik_1553"
-                        >ERICI LANGIJ</persName> nostri, qui mihi per quinque dies illic aderat,
-                    postea <placeName ref="Dresden">Dresdam</placeName> profectus, ubi certo illic
-                    comperissem, <persName ref="rudolf_2_1552">Cæsarem</persName> relicta <placeName
-                        ref="Praha">Praga</placeName> ob morbos Epidemicos, in tutiorem locum septem
-                    miliaribus inde distantem se recepisse, nec quempiam admittere, nisi paucissimos
-                    quosdam quotidianos ministros, Aulam dissipatam esse, Cancellariam remotam,
-                    Consilia et Iudicia omnia silere, in summa Iustitium esse et actiones cunctas ob
-                    contagium populare conturbatas, consultius duxi scriptis <placeName ref="Praha"
-                        >Pragam</placeName> ad <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆUM</persName> nostrum literis, an in tali rerum statu ulterius
-                    procedendum sit, expiscari, atque interea <placeName ref="Dresden"
-                        >Dresdæ</placeName> responsum præstolari. <persName
+                    <placeName ref="Praha">Pragam</placeName> versus ad <persName
+                        ref="rudolf_2_1552">Cæsarem</persName> iter suscepi, comitante me etiam
+                    familia mea muliebri <placeName ref="Magdeburg">Magdeburgum</placeName> usque,
+                    deinde reversa. Substiti autem Magdeburgi per octiduum in gratiam <persName
+                        ref="lange_erik_1553">ERICI LANGIJ</persName> nostri, qui mihi per quinque
+                    dies illic aderat, postea <placeName ref="Dresden">Dresdam</placeName>
+                    profectus, ubi certo illic comperissem, <persName ref="rudolf_2_1552"
+                        >Cæsarem</persName> relicta <placeName ref="Praha">Praga</placeName> ob
+                    morbos Epidemicos, in tutiorem locum septem miliaribus inde distantem se
+                    recepisse, nec quempiam admittere, nisi paucissimos quosdam quotidianos
+                    ministros, Aulam dissipatam esse, Cancellariam remotam, Consilia et Iudicia
+                    omnia silere, in summa Iustitium esse et actiones cunctas ob contagium populare
+                    conturbatas, consultius duxi scriptis <placeName ref="Praha">Pragam</placeName>
+                    ad <persName ref="hagecius_thaddaeus_1525">THADDÆUM</persName> nostrum literis,
+                    an in tali rerum statu ulterius procedendum sit, expiscari, atque interea
+                        <placeName ref="Dresden">Dresdæ</placeName> responsum præstolari. <persName
                         ref="hagecius_thaddaeus_1525">THADDÆUS</persName> acceptis meis in hanc
-                    sententiam literis, eas Domino Procancellario Imperij <persName ref="Corraduc"
-                        >RUDOLPHO CORRADUCIO</persName>, qui <placeName ref="Praha"
-                        >Pragæ</placeName> remanserat, actutum legendas exhibuit, is vero descriptum
-                    earum confestim <persName ref="Rusolf 2.">Cæsari</persName> misit, petens a
-                        <persName ref="barvitius_johann_anton_1555">BARVICIO</persName>, ut de <persName ref="rudolf_2_1552"
-                        >Cæsaris</persName> voluntate quamprimum fieri possit, quidpiam certi
-                    rescribat cumque hoc aliquamdiu protraheretur, uti sunt lenta, quæ apud Magnates
-                    expedire oporteat, præsertim eo tempore, quando Literæ <placeName ref="Praha"
-                        >Praga</placeName> allatæ ob infectionis <pb ed="A" n="2v"/>metum, non nisi
-                    post aliquot dierum intervallum legebantur. Hinc evenit, ut usque in quartam
-                    hebdomadam <placeName ref="Dresden">Dresdæ</placeName> responsum exspectare
-                    necesse habuerim, <persName ref="hagecius_thaddaeus_1525">THADDÆO</persName> interea
-                    moræ etiam plusquam ego ipsemet impatiente, semel atque iterum responsum
-                    urgente, et cum <persName ref="barvitius_johann_anton_1555">BARVICIO</persName> hac de re quasi
+                    sententiam literis, eas Domino Procancellario Imperij <persName
+                        ref="coraduz_rudolf_1618">RUDOLPHO CORRADUCIO</persName>, qui <placeName
+                        ref="Praha">Pragæ</placeName> remanserat, actutum legendas exhibuit, is vero
+                    descriptum earum confestim <persName ref="rudolf_2_1552">Cæsari</persName> misit,
+                    petens a <persName ref="barvitius_johann_anton_1555">BARVICIO</persName>, ut de
+                        <persName ref="rudolf_2_1552">Cæsaris</persName> voluntate quamprimum fieri
+                    possit, quidpiam certi rescribat cumque hoc aliquamdiu protraheretur, uti sunt
+                    lenta, quæ apud Magnates expedire oporteat, præsertim eo tempore, quando Literæ
+                        <placeName ref="Praha">Praga</placeName> allatæ ob infectionis <pb ed="A"
+                        n="2v"/>metum, non nisi post aliquot dierum intervallum legebantur. Hinc
+                    evenit, ut usque in quartam hebdomadam <placeName ref="Dresden"
+                        >Dresdæ</placeName> responsum exspectare necesse habuerim, <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆO</persName> interea moræ etiam plusquam
+                    ego ipsemet impatiente, semel atque iterum responsum urgente, et cum <persName
+                        ref="barvitius_johann_anton_1555">BARVICIO</persName> hac de re quasi
                     expostulante, illique <persName ref="kurz_jacob_1554">IACOBUM CURTIUM</persName>
                     Prædecessorem, quod ille multo citius me concernentia præstitisset, exprobrante,
-                    et tandem etiam ad Dominum <persName ref="Corraduc">CORRADUCIUM</persName>, qui
-                        <placeName ref="Praha">Pragæ</placeName> adhuc erat, hac de re schedam
-                    scribente. <pb ed="TBOO" n="VIII.129"/>Accidit autem, ut eo ipso die <persName
-                        ref="barvitius_johann_anton_1555">BARVICIJ</persName> Secretarij Literæ ad <persName
-                        ref="Corraduc">CORRADUCIUM</persName> pervenirent, quibus <persName
-                        ref="rudolf_2_1552">Cæsaris</persName> resolutio continebatur, quam <persName
-                        ref="Corraduc">CORRADUCIUS</persName> actutum Schedæ <persName
-                        ref="hagecius_thaddaeus_1525">THADDÆI</persName> propria manu subscripsit,
-                    eamque sigillo suo munitam <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆO</persName> demisit, ut me de voluntate <persName ref="rudolf_2_1552"
-                        >Cæsaris</persName> inde certiorem efficeret. Quæ autem erant eorum, de
-                    quibus dixi, formalia verba, ex adiuncta charta percipies. Ego itaque accepto
-                    hoc Clementissimo <persName ref="rudolf_2_1552">Cæsaris</persName> responso, me illi
-                    lubenter acquiescere rescripsi; nam et antea <persName ref="hagecius_thaddaeus_1525"
-                        >THADDÆO</persName> per literas significaram, me in <placeName ref="Sachsen"
-                        >superiori Saxonia</placeName> potius quam <placeName ref="Dresden"
-                        >Dresdæ</placeName> mansurum, donec morbi illi populariter in <placeName
-                        ref="Bohemia">Bohemia</placeName> grassantes remiserint, et <persName
-                        ref="rudolf_2_1552">Cæsari</persName> commodius fuerit me eo vocare; neque enim
-                    periculo caruit cum meo iuvenili comitatu illas oras passim peste et dysenteria
-                    infectas tunc intrare. Recepi itaque me cum meis huc <placeName ref="Wittenberg"
-                        >Wittebergam</placeName>, ubi D. V. hyemare constitui, nisi prius a
-                        <persName ref="rudolf_2_1552">Cæsare</persName>, sopita istic lue Epidemica
-                    accersitus fuero, eritque mihi hîc oportunum in operibus meis <pb ed="A" n="3r"
-                    />necdum <placeName ref="Hamburg">Hamburgi</placeName> ob Typographorum
-                    imperitiam et paucitatem plane absoluta Typis complere. Habito hîc in ædibus,
-                    quæ olim erant optimæ recordationis viri <persName ref="Melachthon">PHILIPPI
-                        MELANCHTONIS</persName>, nunc <persName ref="peucer_caspar_1525">CASPARIS
-                        PEUCERI</persName>, inquilino earum modo exciente Domino Doctore <persName
-                        ref="Jessenius">IOHANNE IESSENIO</persName> Philosopho et Medico eximio, qui
-                    me perlubenter, imo non sine gaudio ad se recepit, et potissimam ædium partem
-                    pro me meaque familia, quam diu lubuerit, inhabitandam benigne concessit. Adest
-                    commoditas pro observationibus continuandis, suntque mihi ad manus hîc quædam ex
-                    meis Instrumentis, quæ in <placeName ref="Bohemia">Bohemiam</placeName> mecum
-                    sumere constitui. Est etiam locus pro laboratorio Pyronomico, in quo nonnulla,
-                    interea dum hîc sum, parare animus est, præter ea, quæ prius <placeName
-                        ref="Wandsburg">Wandesburgi</placeName> confecta in promtu habeo. <persName
-                        ref="rudolf_2_1552">Cæsar</persName> enim talibus impense delectatur, eaque
-                    proprijs manibus versat, non minus quam Mathematica, quæ probe intelligit et
-                    alijs præfert. Ideoque aiunt, ipsum magno mei desiderio teneri, adeo ut in
-                    locum, quo nunc secessit, <placeName ref="Podebrady">Podebra</placeName> dictum,
-                    me ad se accersere, ut quotidie istic illi adessem, voluerit, iam præparato pro
-                    me et meis amplo hospitio, sed increbrescente pestis vehementia in illa vicinia,
-                    ita ut aliquot bruta animantia inficerentur, de mutatione loci cogitavit, ita ut
-                    aut in <placeName ref="Schlesien">Sileciam</placeName>, aut <placeName
-                        ref="Steiermark">Styriam</placeName> aut etiam versus <placeName
-                        ref="Insbruck">Insbrug</placeName> se recipere cuperet, relicta <placeName
-                        ref="Bohemia">Bohemia</placeName>, modo id tutum foret, et ab indigena
-                    Nobilitate permissum. Atque hinc etiam factum, ut responsum de me aliquandiu
-                    retardaretur <pb ed="A" n="3v"/>quodque eiuscemodi quale in charta vides
-                    acceperim. Adfuit mihi <placeName ref="Dresden">Dresdæ</placeName> doctor
-                        <persName ref="Gödelmann">IOHANNES GŒDELMANNUS</persName> Consiliarius
-                    Saxonicus, <persName ref="chytraeus_david_1530">CHYTRÆI</persName> gener, ijs ipsis
-                    diebus, quando <placeName ref="Dresden">Dresda</placeName> mihi abeundum fuit,
-                    is inter alia mihi dixit, se <placeName ref="Praha">Pragæ</placeName>, unde
-                    nuper advenerat, a fidedignis audivisse, <persName ref="rudolf_2_1552"
-                        >Cæsarem</persName> in tantum meum expetivisse adventum, ut hæc verba
-                    pronunciarit: &#187;<hi rend="it">Si sο<pb ed="TBOO" n="VIII.130"/>lummodo illum
-                        virum hîc mecum haberem, cum quo de rebus Mathematicis et Astronomicis, tum
-                        quoque Pyronomicis iucunde conferre possim, atque eius opera perlustrare,
-                        non caperet me tantum temporis tædium, veluti nunc sit, dum <placeName
-                            ref="Praha">Praga</placeName> absum. Sed quid faciam, si illum confestim
-                        huc vocavero, et mihi ipsi sit alio discedendum, non bene consulo illi et
-                        eius comitatui, hoc præsertim periculoso tempore. Præstat itaque id in
-                        commodiorem et oportuniorem commoditatem differre, interim de illo
-                        convenienti loco constituendo dispiciam.</hi>&#171; Atque alia eiuscemodi,
-                    quæ nunc prætereo, ut spem magnam conceperim, <persName ref="rudolf_2_1552"
-                        >Cæsarem</persName> non ita aversurum me meaque studia, quemadmodum in Dania
-                    factum est. Curo autem per filium meum <persName ref="brahe_tyge_1581"
-                        >TYCHONEM</persName>, addito uno vel altero comite, familiam meam muliebrem
-                    huc Wandesburgo evocari, missis meis curribus, qui eam cum supellectile
-                    necessaria advehant; eo enim regredi, nisi forte pro disponendis residuis rebus,
-                    ijsque alio mittendis, non est animus. Sat Boreæ datum, utinam non nimium, sed
-                    tribuendum erat aliquid patriæ, quam diu id fieri potuit.</p>
-                <p rend="indent"><persName ref="tengnagel_frans_1576">FRANCISCUS meus TEGNAGLIUS</persName> cum
-                        <pb ed="A" n="4r"/>ego <placeName ref="Dresden">Dresda</placeName> huc
-                    concederem, in <placeName ref="Italy">Italiam</placeName> abijt, illic
-                    aliquantulum mansurus linguæ discendæ causa; eum Principi <placeName
-                        ref="Venezia">Venetorum</placeName>, Duci <placeName ref="Parma"
-                        >Parmensi</placeName>, et magno Duci <placeName ref="Toscana"
-                        >Hetruriæ</placeName> atque <placeName ref="Firenze">Florentiæ</placeName>
-                    per Literas commendavi, missis ad singulos eorum ijs, quos Regi nostro offerre
-                    volui, Libris, quod tamen an factum sit, ignoro. Itidem feci apud <persName
-                        rend="Magini">MAGINUM</persName> Mathematicum. Quin et <persName ref="ernst_1554"
-                        >Elector Coloniensis</persName> illum in mei gratiam, et a me rogatus,
-                    ijsdem <placeName ref="Italy">Italiæ</placeName> Principibus, excepto Veneto,
-                    Italicis Literis, quarum hîc exemplum habes, commendavit, ut sperem res eius
-                    bono loco istic futuras. Cum mihi scripseris, quod <placeName ref="Rostock"
-                        >Rostochio</placeName> ad D. <persName ref="sturtz_christoph_1602">CHRISTOPHORUM
-                        STURTIUM</persName> I. C. directis literis facile efficies, singulis duabus,
-                    uti scis, septimanis huc inde veniente auriga, de omnibus, quæ me meaque negotia
-                    concernere nosti, luculenter commonefacias velim, idque solito sæpius, cum nunc
-                    maior, interea dum hîc sum, concedatur oportunitas, nisi mare apud vos
-                    congelatur. Carmina in mei gratiam ab eximijs Poëtis ad <persName
-                        ref="rudolf_2_1552">Cæsarem</persName> congratulationis caussa concinnata, tum
-                    quoque ad me brevi videbis, otium ea describendi in hac festinatione non
-                    supererat, mitto tamen exemplum <persName ref="Chytraeus, Nathan"
-                        >CHYTRÆI</persName> Rostochiensis, quod nuper <placeName ref="Dresden"
-                        >Dresdæ</placeName> accepi, siquidem illud in promptu erat, isthic ob
-                        <persName ref="Polycarpus">POLICARPUM</persName> sic volentem ex autographo
-                    immutatum. Sed ille ob festinum meum inde discessum illud necdum accepit, est
-                    alias vir humanissimus, satisque Politicus, meque, dum ibi essem, honorifice
-                    excepit. Sum etiam benigne habitus a <persName ref="dux administrator">Duce
-                        Administratore</persName>, qui me ad se invitavit, <pb ed="A" n="4v"
-                    />posteaque ad iuniores Principes, donata deinde eleganti torque aurea cum sua
-                    Effigie; quin et alibi a Principibus Germaniæ clementer acceptus fui, <pb
-                        ed="TBOO" n="VIII.131"/>qui, ut eos in reditu inviserem, rogarunt, spe etiam
-                    tacite facta, quod si <persName ref="rudolf_2_1552">Cæsar</persName> mihi benefacere
-                    velit, eos etiam suo officio non defuturos. Quomodo <persName ref="ernst_1554"
-                        >Coloniensis</persName> me meaque <persName ref="rudolf_2_1552"
-                        >Cæsari</persName> commendavit, vel potius illi mea de caussa congratulatus
-                    sit, et quid in mei gratiam ad eundem <persName ref="rudolf_2_1552"
-                        >Cæsarem</persName> Dux <persName ref="ulrich_3_1527">ULDARICUS</persName> Avus
-                    maternus <persName ref="christian_4_1577">Regis Daniæ</persName> scripserit, exempla
-                    earum literarum, quas <persName ref="rosenkrantz_holger_1574"
-                        >ROSENKRANTZIO</persName>, aut etiam tibi, si recte memini, communicavi,
-                    edocebunt. Dedit etiam ad me Princeps <persName ref="Maurits"
+                    et tandem etiam ad Dominum <persName ref="coraduz_rudolf_1618"
+                        >CORRADUCIUM</persName>, qui <placeName ref="Praha">Pragæ</placeName> adhuc
+                    erat, hac de re schedam scribente. <pb ed="TBOO" n="VIII.129"/>Accidit autem, ut
+                    eo ipso die <persName ref="barvitius_johann_anton_1555">BARVICIJ</persName>
+                    Secretarij Literæ ad <persName ref="coraduz_rudolf_1618">CORRADUCIUM</persName>
+                    pervenirent, quibus <persName ref="rudolf_2_1552">Cæsaris</persName> resolutio
+                    continebatur, quam <persName ref="coraduz_rudolf_1618">CORRADUCIUS</persName>
+                    actutum Schedæ <persName ref="hagecius_thaddaeus_1525">THADDÆI</persName>
+                    propria manu subscripsit, eamque sigillo suo munitam <persName
+                        ref="hagecius_thaddaeus_1525">THADDÆO</persName> demisit, ut me de voluntate
+                        <persName ref="rudolf_2_1552">Cæsaris</persName> inde certiorem efficeret.
+                    Quæ autem erant eorum, de quibus dixi, formalia verba, ex adiuncta charta
+                    percipies. Ego itaque accepto hoc Clementissimo <persName ref="rudolf_2_1552"
+                        >Cæsaris</persName> responso, me illi lubenter acquiescere rescripsi; nam et
+                    antea <persName ref="hagecius_thaddaeus_1525">THADDÆO</persName> per literas
+                    significaram, me in <placeName ref="Sachsen">superiori Saxonia</placeName>
+                    potius quam <placeName ref="Dresden">Dresdæ</placeName> mansurum, donec morbi
+                    illi populariter in <placeName ref="Bohemia">Bohemia</placeName> grassantes
+                    remiserint, et <persName ref="rudolf_2_1552">Cæsari</persName> commodius fuerit
+                    me eo vocare; neque enim periculo caruit cum meo iuvenili comitatu illas oras
+                    passim peste et dysenteria infectas tunc intrare. Recepi itaque me cum meis huc
+                        <placeName ref="Wittenberg">Wittebergam</placeName>, ubi D. V. hyemare
+                    constitui, nisi prius a <persName ref="rudolf_2_1552">Cæsare</persName>, sopita
+                    istic lue Epidemica accersitus fuero, eritque mihi hîc oportunum in operibus
+                    meis <pb ed="A" n="3r"/>necdum <placeName ref="Hamburg">Hamburgi</placeName> ob
+                    Typographorum imperitiam et paucitatem plane absoluta Typis complere. Habito hîc
+                    in ædibus, quæ olim erant optimæ recordationis viri <persName ref="melanchton_philipp_1497"
+                        >PHILIPPI MELANCHTONIS</persName>, nunc <persName ref="peucer_caspar_1525"
+                        >CASPARIS PEUCERI</persName>, inquilino earum modo exciente Domino Doctore
+                        <persName ref="jessenius_jan_1566">IOHANNE IESSENIO</persName> Philosopho et
+                    Medico eximio, qui me perlubenter, imo non sine gaudio ad se recepit, et
+                    potissimam ædium partem pro me meaque familia, quam diu lubuerit, inhabitandam
+                    benigne concessit. Adest commoditas pro observationibus continuandis, suntque
+                    mihi ad manus hîc quædam ex meis Instrumentis, quæ in <placeName ref="Bohemia"
+                        >Bohemiam</placeName> mecum sumere constitui. Est etiam locus pro
+                    laboratorio Pyronomico, in quo nonnulla, interea dum hîc sum, parare animus est,
+                    præter ea, quæ prius <placeName ref="Wandsburg">Wandesburgi</placeName> confecta
+                    in promtu habeo. <persName ref="rudolf_2_1552">Cæsar</persName> enim talibus
+                    impense delectatur, eaque proprijs manibus versat, non minus quam Mathematica,
+                    quæ probe intelligit et alijs præfert. Ideoque aiunt, ipsum magno mei desiderio
+                    teneri, adeo ut in locum, quo nunc secessit, <placeName ref="Podebrady"
+                        >Podebra</placeName> dictum, me ad se accersere, ut quotidie istic illi
+                    adessem, voluerit, iam præparato pro me et meis amplo hospitio, sed
+                    increbrescente pestis vehementia in illa vicinia, ita ut aliquot bruta animantia
+                    inficerentur, de mutatione loci cogitavit, ita ut aut in <placeName
+                        ref="Schlesien">Sileciam</placeName>, aut <placeName ref="Steiermark"
+                        >Styriam</placeName> aut etiam versus <placeName ref="Insbruck"
+                        >Insbrug</placeName> se recipere cuperet, relicta <placeName ref="Bohemia"
+                        >Bohemia</placeName>, modo id tutum foret, et ab indigena Nobilitate
+                    permissum. Atque hinc etiam factum, ut responsum de me aliquandiu retardaretur
+                        <pb ed="A" n="3v"/>quodque eiuscemodi quale in charta vides acceperim.
+                    Adfuit mihi <placeName ref="Dresden">Dresdæ</placeName> doctor <persName
+                        ref="godelmann_johann_georg_1559">IOHANNES GŒDELMANNUS</persName>
+                    Consiliarius Saxonicus, <persName ref="chytraeus_david_1530">CHYTRÆI</persName>
+                    gener, ijs ipsis diebus, quando <placeName ref="Dresden">Dresda</placeName> mihi
+                    abeundum fuit, is inter alia mihi dixit, se <placeName ref="Praha"
+                        >Pragæ</placeName>, unde nuper advenerat, a fidedignis audivisse, <persName
+                        ref="rudolf_2_1552">Cæsarem</persName> in tantum meum expetivisse adventum,
+                    ut hæc verba pronunciarit: &#187;<hi rend="it">Si sο<pb ed="TBOO" n="VIII.130"
+                        />lummodo illum virum hîc mecum haberem, cum quo de rebus Mathematicis et
+                        Astronomicis, tum quoque Pyronomicis iucunde conferre possim, atque eius
+                        opera perlustrare, non caperet me tantum temporis tædium, veluti nunc sit,
+                        dum <placeName ref="Praha">Praga</placeName> absum. Sed quid faciam, si
+                        illum confestim huc vocavero, et mihi ipsi sit alio discedendum, non bene
+                        consulo illi et eius comitatui, hoc præsertim periculoso tempore. Præstat
+                        itaque id in commodiorem et oportuniorem commoditatem differre, interim de
+                        illo convenienti loco constituendo dispiciam.</hi>&#171; Atque alia
+                    eiuscemodi, quæ nunc prætereo, ut spem magnam conceperim, <persName
+                        ref="rudolf_2_1552">Cæsarem</persName> non ita aversurum me meaque studia,
+                    quemadmodum in Dania factum est. Curo autem per filium meum <persName
+                        ref="brahe_tyge_1581">TYCHONEM</persName>, addito uno vel altero comite,
+                    familiam meam muliebrem huc Wandesburgo evocari, missis meis curribus, qui eam
+                    cum supellectile necessaria advehant; eo enim regredi, nisi forte pro
+                    disponendis residuis rebus, ijsque alio mittendis, non est animus. Sat Boreæ
+                    datum, utinam non nimium, sed tribuendum erat aliquid patriæ, quam diu id fieri
+                    potuit.</p>
+                <p rend="indent"><persName ref="tengnagel_frans_1576">FRANCISCUS meus
+                        TEGNAGLIUS</persName> cum <pb ed="A" n="4r"/>ego <placeName ref="Dresden"
+                        >Dresda</placeName> huc concederem, in <placeName ref="Italy"
+                        >Italiam</placeName> abijt, illic aliquantulum mansurus linguæ discendæ
+                    causa; eum Principi <placeName ref="Venezia">Venetorum</placeName>, Duci
+                        <placeName ref="Parma">Parmensi</placeName>, et magno Duci <placeName
+                        ref="Toscana">Hetruriæ</placeName> atque <placeName ref="Firenze"
+                        >Florentiæ</placeName> per Literas commendavi, missis ad singulos eorum ijs,
+                    quos Regi nostro offerre volui, Libris, quod tamen an factum sit, ignoro. Itidem
+                    feci apud <persName ref="magini_giovanni_antonio_1555">MAGINUM</persName> Mathematicum. Quin et
+                        <persName ref="ernst_1554">Elector Coloniensis</persName> illum in mei
+                    gratiam, et a me rogatus, ijsdem <placeName ref="Italy">Italiæ</placeName>
+                    Principibus, excepto Veneto, Italicis Literis, quarum hîc exemplum habes,
+                    commendavit, ut sperem res eius bono loco istic futuras. Cum mihi scripseris,
+                    quod <placeName ref="Rostock">Rostochio</placeName> ad D. <persName
+                        ref="sturtz_christoph_1602">CHRISTOPHORUM STURTIUM</persName> I. C. directis
+                    literis facile efficies, singulis duabus, uti scis, septimanis huc inde veniente
+                    auriga, de omnibus, quæ me meaque negotia concernere nosti, luculenter
+                    commonefacias velim, idque solito sæpius, cum nunc maior, interea dum hîc sum,
+                    concedatur oportunitas, nisi mare apud vos congelatur. Carmina in mei gratiam ab
+                    eximijs Poëtis ad <persName ref="rudolf_2_1552">Cæsarem</persName>
+                    congratulationis caussa concinnata, tum quoque ad me brevi videbis, otium ea
+                    describendi in hac festinatione non supererat, mitto tamen exemplum <persName
+                        ref="chytraeus_nathan_1543">CHYTRÆI</persName> Rostochiensis, quod nuper
+                        <placeName ref="Dresden">Dresdæ</placeName> accepi, siquidem illud in
+                    promptu erat, isthic ob <persName ref="polycarpus_1598">POLICARPUM</persName>
+                    sic volentem ex autographo immutatum. Sed ille ob festinum meum inde discessum
+                    illud necdum accepit, est alias vir humanissimus, satisque Politicus, meque, dum
+                    ibi essem, honorifice excepit. Sum etiam benigne habitus a <persName
+                        ref="christian_2_1583">Duce Administratore</persName>, qui me ad se
+                    invitavit, <pb ed="A" n="4v"/>posteaque ad iuniores Principes, donata deinde
+                    eleganti torque aurea cum sua Effigie; quin et alibi a Principibus Germaniæ
+                    clementer acceptus fui, <pb ed="TBOO" n="VIII.131"/>qui, ut eos in reditu
+                    inviserem, rogarunt, spe etiam tacite facta, quod si <persName
+                        ref="rudolf_2_1552">Cæsar</persName> mihi benefacere velit, eos etiam suo
+                    officio non defuturos. Quomodo <persName ref="ernst_1554">Coloniensis</persName>
+                    me meaque <persName ref="rudolf_2_1552">Cæsari</persName> commendavit, vel
+                    potius illi mea de caussa congratulatus sit, et quid in mei gratiam ad eundem
+                        <persName ref="rudolf_2_1552">Cæsarem</persName> Dux <persName
+                        ref="ulrich_3_1527">ULDARICUS</persName> Avus maternus <persName
+                        ref="christian_4_1577">Regis Daniæ</persName> scripserit, exempla earum
+                    literarum, quas <persName ref="rosenkrantz_holger_1574"
+                    >ROSENKRANTZIO</persName>, aut etiam tibi, si recte memini, communicavi,
+                    edocebunt. Dedit etiam ad me Princeps <persName ref="morits_oranje_1567"
                         >MAURITIUS</persName> humanissimas literas, in quibus non pro autoritate
                     Principum agit, sed me pro amico bono habet et sic nuncupat. Ex literis
                         <persName ref="tengnagel_frans_1576">TEGNAGLIJ</persName>
@@ -306,11 +332,13 @@
                     rediret, perscriptis, hæc et plura cognosces, ubi eas describere <app>
                         <lem wit="#Friis">vacabit</lem>
                         <rdg wit="#A">vacavit</rdg>
-                    </app>, tibique mittere. Sed desino plura, cum charta vix plura ferat. Tu
-                    itaque, mi optime <persName ref="krag_niels_1550">KRAGIE</persName>, cum <persName
-                        ref="Mule, Else">coniuge</persName> a me salutata, liberisque vestris
-                    felicissime vale. Dabantur <placeName ref="Wittenberg">Wittebergæ</placeName>
-                    die 5. Decembris Anno 1598.</p>
+                    </app>, tibique mittere. Sed desino plura, cum charta vix plura ferat.</p>
+                <closer><salute>Tu itaque, mi optime <persName ref="krag_niels_1550"
+                            >KRAGIE</persName>, cum <persName ref="mule_else_1556"
+                            >coniuge</persName> a me salutata, liberisque vestris felicissime
+                        vale.</salute>
+                    <dateline>Dabantur <placeName ref="Wittenberg">Wittebergæ</placeName> die 5.
+                        Decembris Anno 1598.</dateline></closer>
 
             </div>
         </body>
