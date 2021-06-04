@@ -13,44 +13,79 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
-                                <repository>RigsarDet Kongelige Bibliotekkivet</repository>
-                                <collection>Langebeks excerpter</collection>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
                                 <collection>empty</collection>
                                 <idno>empty</idno>
-                                <msName>transcript in a copy of P.J. Resen, Inscriptiones
-                                    Hafnienses, Hauniæ 1668</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift i et eksemplar af P.J. Resen, Inscriptiones
+                                    Hafnienses, Hauniæ 1668</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transcript in a copy of P.J. Resen, Inscriptiones
+                                    Hafnienses, Hauniæ 1668</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -75,11 +110,13 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Hans Georg Herwart von
+                        Hohenburg</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 31. august n.s</date></creation>
+            <creation><date xml:lang="da">1599, 31. august n.s.</date><date xml:lang="en">1599, 31
+                    August NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -94,19 +131,21 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-11" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.159"/>TYCHO BRAHE AD <persName ref="Herwart">IOH. G.
-                        HERWARTUM AB HOHENBURG</persName>.</opener>
-                <p><pb ed="A" n="1r"/>S.</p>
-                <p>SIC est, Vir Nobilis et magnifice Amice, licet de facie mihi ignote, plurimi
-                    tamen ob præclaras ingenij tui dotes semper faciende, quod a Sacra <persName
-                        ref="rudolf_2_1552">Cæsarea Maiestate</persName>
-                    <placeName ref="Pra">Pragam</placeName> clementissime vocatus ab ipsius
+                <opener><pb ed="TBOO" n="VIII.159"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="herwart_von_hohenburg_hans_georg_1553"
+                        >IOH. G. HERWARTUM AB HOHENBURG</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="1r"/>S.</p>
+                <p rend="noIndent">SIC est, Vir Nobilis et magnifice Amice, licet de facie mihi
+                    ignote, plurimi tamen ob præclaras ingenij tui dotes semper faciende, quod a
+                    Sacra <persName ref="rudolf_2_1552">Cæsarea Maiestate</persName>
+                    <placeName ref="Prague">Pragam</placeName> clementissime vocatus ab ipsius
                         <persName ref="rudolf_2_1552"><app>
                             <lem>Cæsarea</lem>
                             <rdg wit="#B">Cæsaris</rdg>
@@ -118,7 +157,8 @@
                     5 miliaribus <placeName ref="Praha">Pragâ</placeName> distante, ubi commodius et
                     tranquillius quam in urbe, <pb ed="TBOO" n="VIII.160"/>consuetis meis exercitijs
                     Astronomicis et Spagyricis vacare licebit, et opus Astronomicum, quod diu
-                    multumque molior, favente Cœlestium Opifice in ipsius <persName ref="rudolf_2_1552"><app>
+                    multumque molior, favente Cœlestium Opifice in ipsius <persName
+                        ref="rudolf_2_1552"><app>
                             <lem>Cæsareæ</lem>
                             <rdg wit="#B">Cæsaricæ</rdg>
                         </app> Maiestatis</persName> et Imperij honorem (siquidem ob quorundam
@@ -166,30 +206,32 @@
                         <rdg wit="#B">scit</rdg>
                     </app>
                     <persName ref="alfonso_10_1221">Alphonsinorum</persName> calculus, licet is
-                        <persName ref="kopernikus_nikolaus_1473">Coperniceum</persName> unico circiter excedat,
-                    ita ut in 10<hi rend="sup">um</hi> G. completum excrescere possit eius ab
-                    Ecliptica in Boream digressio; idque bis denotavi, utpote anno <app>
+                        <persName ref="kopernikus_nikolaus_1473">Coperniceum</persName> unico
+                    circiter excedat, ita ut in 10<hi rend="sup">um</hi> G. completum excrescere
+                    possit eius ab Ecliptica in Boream digressio; idque bis denotavi, utpote anno <app>
                         <lem>1587 et</lem>
                         <rdg><note>om. B</note></rdg>
                     </app> 1595 interiecto (uti requiritur) octen<pb ed="A" n="1v"/>nio, quibus
                     etiam temporibus &#x2640;<hi rend="sup">rem</hi> intra triduum et quatriduum tam
                     vespertinam quam eoam meis instrumentis observavi et commutationem illius (uti
-                    vocat <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>) hinc promp<pb ed="TBOO"
-                        n="VIII.161"/>tius restitui. Sic etiam in &#x263F;<hi rend="sup">io</hi> et
-                    tribus superioribus Planetis non modicam adinveni in eorum latitudinibus (veluti <app>
+                    vocat <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>) hinc
+                        promp<pb ed="TBOO" n="VIII.161"/>tius restitui. Sic etiam in &#x263F;<hi
+                        rend="sup">io</hi> et tribus superioribus Planetis non modicam adinveni in
+                    eorum latitudinibus (veluti <app>
                         <lem>innui</lem>
                         <rdg wit="#B">annui</rdg>
                     </app>) a cœlesti norma exorbitationem, adeo ut ne quidem in tribus illis, ubi
                     simplicior ratio est, limites maximarum latitudinum rite prædefiniti sint a
-                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName>, cuius placitis nimis secure
-                    æquievit <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>, nec nodi
-                    intersectionum circuituum Planetarum cum Ecliptica ita se habent, respectu
-                    Apogæorum, uti ex <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> assumpsit idem
-                        <persName ref="kopernikus_nikolaus_1473">COPERNICUS</persName>. Et si ea quæ de his
-                    tradidit <persName ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName>, ipsius ævo cœlo
-                    consona erant, oportebit nodos hosce simulque limites maximæ latitudinis longe
-                    alium sensibiliter per se habere motum, quam is est, qui ab Apogæorum mutatione
-                    procedit, differentia nunc <app>
+                        <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName>, cuius placitis
+                    nimis secure æquievit <persName ref="kopernikus_nikolaus_1473"
+                        >COPERNICUS</persName>, nec nodi intersectionum circuituum Planetarum cum
+                    Ecliptica ita se habent, respectu Apogæorum, uti ex <persName
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> assumpsit idem <persName
+                        ref="kopernikus_nikolaus_1473">COPERNICUS</persName>. Et si ea quæ de his
+                    tradidit <persName ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName>, ipsius
+                    ævo cœlo consona erant, oportebit nodos hosce simulque limites maximæ
+                    latitudinis longe alium sensibiliter per se habere motum, quam is est, qui ab
+                    Apogæorum mutatione procedit, differentia nunc <app>
                         <lem>intercedente</lem>
                         <rdg wit="#B">incidente</rdg>
                     </app> multorum graduum. Quin et <app>
@@ -217,34 +259,35 @@
                     consuetis erutum, non citra rem suspectum habeat; nihilominus circa ea tempora,
                     quando in &#x263F;<hi rend="sup">ij</hi> latitudine e tabulis Prutenicis
                     supputatio est instituta, usque adeo magnum insinuari potuisse errorem vix
-                    crediderim, quod <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> temporibus,
-                    quibus ille astrorum observationibus invigilavit, decies magis <app>
+                    crediderim, quod <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName>
+                    temporibus, quibus ille astrorum observationibus invigilavit, decies magis <app>
                         <lem>quam</lem>
                         <rdg wit="#B">quæ</rdg>
                     </app> nunc sumus propiora fuerint. Et canones Prutenici illo ævo Ptolemaicis
                     quam proxime <app>
                         <lem wit="#Friis">subscribunt</lem>
                         <rdg wit="#A #B">subscribant</rdg>
-                    </app>. At si in observatis <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> error
-                    aliquis subrepsit, quod non raro factum haud sine causa suspicor, frustra <app>
+                    </app>. At si in observatis <persName ref="ptolemaios_klaudios_0100"
+                        >PTOLEMÆI</persName> error aliquis subrepsit, quod non raro factum haud sine
+                    causa suspicor, frustra <app>
                         <lem>super</lem>
                         <rdg wit="#B">supra</rdg>
                     </app> hoc fundamentum ædificamus; quare circumspecte admodum, nec nisi
                     limitatione competenti adhibita eius placitis utendum.</p>
                 <p rend="indent">De Eclipsibus, quæ scribis, ita se habent quod Prutenicæ tabulæ
-                    ijs, quæ <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> ætate contigerunt, quam
-                    proxime <app>
+                    ijs, quæ <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> ætate
+                    contigerunt, quam proxime <app>
                         <lem>consentiant</lem>
                         <rdg wit="#B">consentiunt</rdg>
                     </app>, nec tamen singulis satis præcise adaptatæ sint; constat enim <persName
-                        ref="kopernikus_nikolaus_1473">COPERNICUM</persName> ad Ptolemaicas Eclipses, quatenus in
-                    nonnullis fieri potuit, tanquam Epochas suos numeros applicuisse. In omnibus
-                    tamen accuratam amussim invenire non sustinuit, ob aliam quandam inæqualitatis
-                    lunaris nec a <persName ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> nec ipso
-                    animadversam implicationem. Neque enim tres Eclipses prout illi factitarunt,
-                    sufficiunt ad primam inæqualitatem &#x263E;<hi rend="sup">æ</hi> enucleandam, ut
-                    de altera adhuc intricatiore hîc nihil dicam; sed pluribus in diversis
-                    Eccentrici seu maioris Epicycli locis opus est <app>
+                        ref="kopernikus_nikolaus_1473">COPERNICUM</persName> ad Ptolemaicas
+                    Eclipses, quatenus in nonnullis fieri potuit, tanquam Epochas suos numeros
+                    applicuisse. In omnibus tamen accuratam amussim invenire non sustinuit, ob aliam
+                    quandam inæqualitatis lunaris nec a <persName ref="ptolemaios_klaudios_0100"
+                        >PTOLEMÆO</persName> nec ipso animadversam implicationem. Neque enim tres
+                    Eclipses prout illi factitarunt, sufficiunt ad primam inæqualitatem &#x263E;<hi
+                        rend="sup">æ</hi> enucleandam, ut de altera adhuc intricatiore hîc nihil
+                    dicam; sed pluribus in diversis Eccentrici seu maioris Epicycli locis opus est <app>
                         <lem>ijsdemque</lem>
                         <rdg wit="#A">ijsdem</rdg>
                     </app> accuratissime denotatis. Ut vero hæc aliqua<pb ed="TBOO" n="VIII.162"
@@ -254,11 +297,11 @@
                     </app>, mitto deliquij &#x263E;<hi rend="sup">æ</hi> in principio huius anni
                     pragmatiam, tam in triangulari demonstratione ex hypothesi nostra, quam numeris
                     correspondentibus ab eximio Mathematico Wittebergensi M. <persName
-                        ref="jostelius_melchior_1559">IOSTELIO</persName>, dum ibi aliquamdiu ob luem in
-                        <placeName ref="Bohemia">Bohemia</placeName> grassantem et alijs de causis
-                    subsisterem, me concedente factitatam et typis excusam. Ubi vero meæ tabulæ,
-                    favente divina ope, de motu luminarium (quas cæteris Planetis præmittere animus
-                    est) sub auspicijs <app>
+                        ref="jostelius_melchior_1559">IOSTELIO</persName>, dum ibi aliquamdiu ob
+                    luem in <placeName ref="Bohemia">Bohemia</placeName> grassantem et alijs de
+                    causis subsisterem, me concedente factitatam et typis excusam. Ubi vero meæ
+                    tabulæ, favente divina ope, de motu luminarium (quas cæteris Planetis præmittere
+                    animus est) sub auspicijs <app>
                         <lem>Romani</lem>
                         <rdg wit="#B">augustissimi</rdg>
                     </app> Imperatoris <persName ref="rudolf_2_1552">RUDOLPHI Secundi</persName> in
@@ -269,13 +312,14 @@
                     immune præstare poterant, cum stellas fixas minus fideliter correctas
                     adhibuerint, quemadmodum mille affixarum stella<pb ed="A" n="2r"/>rum
                     accuratissima restitutio in ipso minuto adeoque nonnunquam eius semisse a me
-                    præteritis aliquot annis exantlata et nuper <persName ref="rudolf_2_1552">Cæsareæ
-                        Maiestati</persName> in membrana manuscripta subiectissime exhibita, abunde
-                    testari poterit, collatione cum consuetis abacis instituta. Obtuli etiam eidem
-                        <persName ref="rudolf_2_1552">Cæsareæ Maiestati</persName> in alio libro
-                    manuscripto Solis et Lunæ restitutionem ad singulos dies duorum proximorum
-                    annorum, apposita simul discrepantia utriusque calculi <persName
-                        ref="alfonso_10_1221">Alphonsini</persName> et <persName ref="kopernikus_nikolaus_1473"><app>
+                    præteritis aliquot annis exantlata et nuper <persName ref="rudolf_2_1552"
+                        >Cæsareæ Maiestati</persName> in membrana manuscripta subiectissime
+                    exhibita, abunde testari poterit, collatione cum consuetis abacis instituta.
+                    Obtuli etiam eidem <persName ref="rudolf_2_1552">Cæsareæ Maiestati</persName> in
+                    alio libro manuscripto Solis et Lunæ restitutionem ad singulos dies duorum
+                    proximorum annorum, apposita simul discrepantia utriusque calculi <persName
+                        ref="alfonso_10_1221">Alphonsini</persName> et <persName
+                        ref="kopernikus_nikolaus_1473"><app>
                             <lem>Copernicei</lem>
                             <rdg wit="#A">Copernici</rdg>
                         </app></persName>, quæ subinde non exigua est. Quin et in tertio quodam
@@ -287,8 +331,8 @@
                         <rdg wit="#B">indicavi</rdg>
                     </app>. De hoc ultimo misissem nunc tria exemplaria, duo pro illustrissimis
                     Ducibus <placeName ref="Bayern">Bavariæ</placeName>
-                    <persName ref="Wilhelm, duke of Bavaria">GUILHELMO</persName> seniore ac patre
-                    et <persName ref="Maximilian, duke of Bavaria">MAXIMILIANO</persName> filio
+                    <persName ref="wilhelm_5_1548">GUILHELMO</persName> seniore ac patre
+                    et <persName ref="maximilian_1_1573">MAXIMILIANO</persName> filio
                     regente, tertium pro te ipso, sed nullum iam ad manus habeo quod coloribus rite
                     illuminatum (uti vocant) <app>
                         <lem>existit</lem>
@@ -312,11 +356,12 @@
                         <placeName ref="Praha">Pragæ</placeName> præpediebar, et migrationi in hanc
                     arcem nuperæ imputet, et candide excusatum habeat. Volui istam tarditatem in
                     rescribendo ea, quam vides, prolixitate compensare, quæ ut accepta <pb ed="TBOO"
-                        n="VIII.163"/>sit rogo. Iamque iterum et sæpius T. M. quam optime valeat.
-                    Dabantur ex arce Cæsareæ <placeName ref="Benatky">Benachia</placeName> die 31.
-                    Augusti Anno 1599.</p>
-                <lb/>
-                <p rend="rightMargin">Μ. T. studiosissimus<lb/>TYCHO BRAHE.</p>
+                        n="VIII.163"/>sit rogo.</p>
+                <closer><salute>Iamque iterum et sæpius T. M. quam optime valeat.</salute>
+                    <dateline>Dabantur ex arce Cæsareæ <placeName ref="Benatky">Benachia</placeName>
+                        die 31. Augusti Anno 1599.</dateline>
+                    <signed>Μ. T. studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,7 +58,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christophorus Henniochus</persName>
+                    <persName key="heniochus_christophorus_1599">Christophorus Henniochus</persName>
                     <placeName>Wittenberg</placeName>
                     <date when="1599-12-19"/>
                 </correspAction>
@@ -63,7 +67,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 19. december</date></creation>
+            <creation><date xml:lang="da">1599, 19. december.</date><date xml:lang="en">1599, 19
+                    December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,36 +83,50 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.221"/><pb ed="A" n="32v"/>MAGNIFICO ET GENEROSO TYCHONI BRAHÆ, DOMINO IN KNUSTORPH ET
-                    HUENA, DOMINO ET FAUTORI SUO, OMNI OFFICIJ GENERE COLENDO.</opener>
-                <p><pb ed="A" n="31r"/>LITERIS tuis, Magnifice et Generose Do[mine] TYCHO, instructus, in cognitionem ex <persName ref="chytraeus_david_1530">CHYTRÆO</persName>
-                    et alijs præsentis tui status et conditionis veni, de quo me certiorem factum esse
-                    summopere gaudeo. Gratulor etiam tibi de tanto Mœcenate, opere et studio tuo digno, quo
-                    non solum tibi prospectum, sed toti posteritati plurimum inserviri intelligo. Chymicus
-                    Silesius, quo de antea ad te perscripsi, Sittæ in Silesia degit, vocaturque <persName ref="Kindler">IACOBUS
-                    KINDLER</persName>, olim ibidem vel in vicinia scholæ Cantor. Artificium, quod illum celebrem
-                    facit, describitur in lib. Vexationum <persName ref="paracelsus_1493">PARACELSI</persName> sub titulo <hi rend="it">Hæc est ars</hi>, cursumque
+                <opener><pb ed="TBOO" n="VIII.221"/><pb ed="A" n="32v"/>MAGNIFICO ET GENEROSO
+                        <persName ref="brahe_tycho_1546">TYCHONI BRAHÆ</persName>, DOMINO IN
+                    KNUSTORPH ET HUENA, DOMINO ET FAUTORI SUO, OMNI OFFICIJ GENERE COLENDO.</opener>
+                <p rend="noIndent"><pb ed="A" n="31r"/>LITERIS tuis, Magnifice et Generose Do[mine]
+                        <persName ref="brahe_tycho_1546">TYCHO</persName>, instructus, in
+                    cognitionem ex <persName ref="chytraeus_david_1530">CHYTRÆO</persName> et alijs
+                    præsentis tui status et conditionis veni, de quo me certiorem factum esse
+                    summopere gaudeo. Gratulor etiam tibi de tanto Mœcenate, opere et studio tuo
+                    digno, quo non solum tibi prospectum, sed toti posteritati plurimum inserviri
+                    intelligo. Chymicus Silesius, quo de antea ad te perscripsi, Sittæ in Silesia
+                    degit, vocaturque <persName ref="kindler_jacob_1599">IACOBUS KINDLER</persName>,
+                    olim ibidem vel in vicinia scholæ Cantor. Artificium, quod illum celebrem facit,
+                    describitur in lib. Vexationum <persName ref="paracelsus_1493"
+                        >PARACELSI</persName> sub titulo <hi rend="it">Hæc est ars</hi>, cursumque
                     sphæræ Saturninæ vocant, quo omnes planetæ terrestres, mediante Saturno et uno
-                    minerali adiecto, exiguo negocio in lapides vertuntur, <pb ed="TBOO" n="VIII.222"/>qui deinceps nulla
-                    vi ignis aut vulcano quantumvis torvo, postliminium perveniunt, &#8580;: in metalla redeunt.
-                    Huius revolutionis spectator ipse fui atque dirigere scio, sed finem, quem author ibidem
-                    promittit, assequi ignoro. Literas tuas <persName ref="Schroderus">FRANCISCO SCHRODERO</persName> <placeName ref="Stralsund">Sundensi</placeName> inscriptas,
-                    quotquot ad me pervenerunt, summa fidelitate isthic misi, nec non ad responsionem illum
-                    adhortatus sum, ac suam taciturnitatem illi exprobravi, ad quod mihi nuper respondit,
-                    tibi quoque suis literis <placeName ref="Wittenberg">Witebergam</placeName> delatis responsum esse. Sero forte, quod tuus
+                    minerali adiecto, exiguo negocio in lapides vertuntur, <pb ed="TBOO"
+                        n="VIII.222"/>qui deinceps nulla vi ignis aut vulcano quantumvis torvo,
+                    postliminium perveniunt, &#8580;: in metalla redeunt. Huius revolutionis
+                    spectator ipse fui atque dirigere scio, sed finem, quem author ibidem promittit,
+                    assequi ignoro. Literas tuas <persName ref="schroder_franz_1599">FRANCISCO
+                        SCHRODERO</persName>
+                    <placeName ref="Stralsund">Sundensi</placeName> inscriptas, quotquot ad me
+                    pervenerunt, summa fidelitate isthic misi, nec non ad responsionem illum
+                    adhortatus sum, ac suam taciturnitatem illi exprobravi, ad quod mihi nuper
+                    respondit, tibi quoque suis literis <placeName ref="Wittenberg"
+                        >Witebergam</placeName> delatis responsum esse. Sero forte, quod tuus
                     discessus illinc prævenerit illud, aut quicquid intervenerit.</p>
-                    <p rend="indent"><pb ed="A" n="31v"/>Nova, quæ hîc habemus, ex adiuncto scripto cognosces. Alias forma
-                    Academiæ et Reipub. eadem est, quam reliquisti; discursum <placeName ref="Sweden">Suecicum</placeName> tibi quoque
-                    misissem, sed nulla hîc exemplaria, ut qui <placeName ref="Stockholm">Stockholmiæ</placeName> impressus est, prostant. Vale,
-                    nec non qui tibi curæ sunt, et me inter tuos familiares retineto. Data Rostochij 19.
-                    Decembris anni 1599.</p><lb/>
-                <p rend="rightMargin">T. Magnif. studiosiss.<lb/><persName ref="Henniochus">Christopho. Henniochus</persName>,<lb/>Medicus.</p>
+                <p rend="indent"><pb ed="A" n="31v"/>Nova, quæ hîc habemus, ex adiuncto scripto
+                    cognosces. Alias forma Academiæ et Reipub. eadem est, quam reliquisti; discursum
+                        <placeName ref="Sweden">Suecicum</placeName> tibi quoque misissem, sed nulla
+                    hîc exemplaria, ut qui <placeName ref="Stockholm">Stockholmiæ</placeName>
+                    impressus est, prostant.</p>
+                <closer><salute>Vale, nec non qui tibi curæ sunt, et me inter tuos familiares
+                        retineto.</salute>
+                    <dateline>Data Rostochij 19. Decembris anni 1599.</dateline>
+                    <signed>T. Magnif. studiosiss.<lb/><persName ref="heniochus_christophorus_1599"
+                            >Christopho. Henniochus</persName>,<lb/>Medicus.</signed></closer>
             </div>
         </body>
     </text>

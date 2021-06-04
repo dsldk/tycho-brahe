@@ -32,25 +32,56 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
-                                <repository>Det Kongelige Bibliotek</repository>
-                                <collection>Langebeks excerpter</collection>
-                                <idno>179</idno>
+                                <repository>Rigsarkivet</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
                                 <collection>empty</collection>
                                 <idno>empty</idno>
-                                <msName>transcript in a copy of P.J. Resen, Inscriptiones
-                                    Hafnienses, Hauniæ 1668</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift i et eksemplar af P.J. Resen, Inscriptiones
+                                    Hafnienses, Hauniæ 1668</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transcript in a copy of P.J. Resen, Inscriptiones
+                                    Hafnienses, Hauniæ 1668</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -75,11 +106,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Hans Georg Herwart von Hohenburg</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 16. november n.s</date></creation>
+            <creation><date xml:lang="da">1599, 16. november n.s.</date><date xml:lang="en">1599, 16 November NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -95,15 +126,16 @@
         <revisionDesc>
             <change when="2019-12-18" who="#pz">Filen etableret</change>
             <change when="2020-01-04" who="#pz">Filen færdig</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.192"/>TYCHO BRAHE AD <persName ref="Herwart">IOH. G.
+                <opener><pb ed="TBOO" n="VIII.192"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="herwart_von_hohenburg_hans_georg_1553">IOH. G.
                         HERWARTUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>NOBILIS et Magnifice vir, amice plurimum honorande, utrasque
+                <p rend="noIndent"><pb ed="A" n="1r"/>NOBILIS et Magnifice vir, amice plurimum honorande, utrasque
                     tuas, eodem tenore ad me datas, unâ cum Catalogo Bibliothecæ Serenissimorum
                     Principum Bavariæ, recte quidem et satis mature accepi; erantque ea omnia mihi
                     longe gratissima et singularem <app>
@@ -182,7 +214,7 @@
                         ref="barvitius_johann_anton_1555">BARVITIUM</persName> ad <app>
                         <lem>vicinum</lem>
                         <rdg wit="#B">unicum</rdg>
-                    </app> mihi Dominum <persName ref="Capitaneus Brandeisensis">Capitaneum
+                    </app> mihi Dominum <persName ref="mühlstein_caspar_1599">Capitaneum
                         Brandeisensem</persName>, de me clementissime perscribi <app>
                         <lem>mandavit</lem>
                         <rdg><note>e <q>curavit</q> corr. A</note></rdg>
@@ -297,7 +329,7 @@
                         <lem>obliquatione</lem>
                         <rdg wit="#B">observatione</rdg>
                     </app> Signiferi ab <persName ref="hipparchos_0190">HIPPARCHO</persName> et <persName
-                        ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> iuxta <persName ref="Eratosthenes"
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆO</persName> iuxta <persName ref="eratosthenes_0276"
                         >ERATHOSTENIS</persName> placitum retenta, atque hinc occasionem satis
                     ingeniose invenis, cur <persName ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName>
                         &#x263E;<hi rend="sup">æ</hi> latitudinem maximam tertia gradus parte in
@@ -447,7 +479,7 @@
                     Solis ab ijs neglectam quodammodo in uno vel sesquialtero minuto excusari <app>
                         <lem>potest</lem>
                         <rdg wit="#B">possunt</rdg>
-                    </app>, <persName ref="Prophatius">PROPHATIO Iudæo</persName> adhuc paulo post,
+                    </app>, <persName ref="jacob_ibn_tibbon_1236">PROPHATIO Iudæo</persName> adhuc paulo post,
                     alijs 200 annis ab <persName ref="Asrael">ASRAELE</persName> eandem nobiscum
                     intra dimidium minutum ante 300 retro annos constituente, siquidem is forte
                     maiori et exactiori usus sit organo et parallaxin Solis præcaverit. Ex quibus
@@ -455,13 +487,13 @@
                     obliquationi huic mutationem. Mirum autem videri <app>
                         <lem>posset</lem>
                         <rdg wit="#B">potest</rdg>
-                    </app> ab <persName ref="Aristarchos">ARISTARCHO</persName>, qui saltem 40
-                    circiter annis ab obitu <persName ref="Alexander">ALEXANDRI Magni</persName>
+                    </app> ab <persName ref="aristarchos_0310">ARISTARCHO</persName>, qui saltem 40
+                    circiter annis ab obitu <persName ref="alexander_magnus_0356">ALEXANDRI Magni</persName>
                     floruit, usque ad <persName ref="ptolemaios_klaudios_0100">PTOLEMÆUM</persName>
                     <app>
                         <lem>[qui]</lem>
                         <rdg><note>TBOO suppl.</note></rdg>
-                    </app> 460 ab eodem abfuit, per intermedios <persName ref="Eratosthenes"
+                    </app> 460 ab eodem abfuit, per intermedios <persName ref="eratosthenes_0276"
                         >ERATOSTHENEM</persName> et <persName ref="hipparchos_0190"
                     >HIPPARCHUM</persName>, plane eandem permansisse Eclipticæ summam obliquationem,
                     quam illi intervallo maiore 400 unanimiter annis prodiderunt P. 23 M. 51⅓, nunc
@@ -476,8 +508,8 @@
                         <rdg><note>om. Resen</note></rdg>
                     </app> etiam vis, antecedentium autoritate nimium confisos fuisse, ideoque
                     similia pro libitu admisisse. Quod vero recentiores utpote <persName
-                        ref="Peurbach, Georg von">PURBACHIUS</persName>, <persName
-                        ref="regiomontanus_johannes_1436">REGIOMONTANUS</persName>, <persName ref="Werner"
+                        ref="peurbach_georg_von_1423">PURBACHIUS</persName>, <persName
+                        ref="regiomontanus_johannes_1436">REGIOMONTANUS</persName>, <persName ref="werner_johannes_1468"
                         >WERNERUS</persName> et ipse quoque <persName ref="kopernikus_nikolaus_1473"
                         >COPERNICUS</persName> eandem 4 proxime scrupulis nostra minorem
                     reddiderint, ob refractionem <pb ed="TBOO" n="VIII.198"/>Solis in decliviori
@@ -557,7 +589,7 @@
                     liquidissime constat, te non frustra de veterum diligentia in talibus
                     administrandis dubitare et nostræ quoque hac in parte hæsitationi non
                     inconvenienter subscribere. Animadverti et ego illos harmoniam quandam e numeris
-                    et proportionibus <persName ref="Pythagoras">Pythagoreis</persName> (uti
+                    et proportionibus <persName ref="pythagoras_0580">Pythagoreis</persName> (uti
                     existimo) quæsivisse, atque eidem nimis secure acquievisse; quicunque
                     apparentijs exacte consona sic tradiderit, erit mihi magnus APOLLO, id autem
                     posterius investigandum. Sed hoc opus hic labor est, neque enim dubium, Deum
@@ -654,22 +686,22 @@
                     citra tabulas Astronomicas æquationum sive prostaphæresium e solis medijs
                     motibus vera Planetarum loca promptius eruantur, quod cum per tædiosas
                     multiplicationes et divisiones fieri nequaquam posset, hac alia postea a nobis
-                    fructuose reperta ingrediendum erat via, cui etiam <persName ref="Werner"
+                    fructuose reperta ingrediendum erat via, cui etiam <persName ref="werner_johannes_1468"
                         >WERNERUS</persName> in libello de motu <pb ed="TBOO" n="VIII.201"/>octavæ
                     sphæræ aliqualem præbuit ansam; postea superveniente meque in <placeName
                         ref="Denmark">Dania</placeName>
                     <placeName ref="Uraniborg">Uraniburgi</placeName> anno 80 per 4 menses invisente
-                        <persName ref="Wittich, paul">PAULO WITICHIO</persName> bonæ memoriæ,
+                        <persName ref="wittich_paul_1546">PAULO WITICHIO</persName> bonæ memoriæ,
                     excellenti Mathematico Vratislaviensi, qui talibus etiam (a me <placeName
                         ref="Wittenberg">Witebergæ</placeName> dum istic olim transieram admonitus)
                     interea insudaverat, cum illo communicata opera, ea ipsa luculentiora reddidi et
                     semper exinde in usu habui, quo studiosis meis, observationes nostras in numeros
                     redigentibus, temporis et laboris dispendium minueretur. <persName
-                        ref="Wittich, Paul">WITICHIUS</persName> autem a me discedens et postmodum
+                        ref="wittich_paul_1546">WITICHIUS</persName> autem a me discedens et postmodum
                     illustrissimum, laudatissimæ memoriæ Hassiæ Landgravium <persName
                         ref="wilhelm_4_1532">WILHELMUM</persName> accedens, tam
                     instrumentorum meorum confectionem isthic exposuit, quam Automatopæo Principis
-                        <persName ref="Bürgi">IUSTO BYRGIO</persName>, mechanico eximio, hæc
+                        <persName ref="buergi_jost_1552">IUSTO BYRGIO</persName>, mechanico eximio, hæc
                     Triangulorum mysteria propalavit, a quo quidam scurrilis Sycophanta (cuius si
                     quod est ingenium, turpissime habitat, quem ut hîc nominetur indignum censeo,
                     qualis conviciator et calumniator sit, alias testatum relicturus) illa habuit,
@@ -693,7 +725,7 @@
                     />ra præventus. Cum <placeName ref="Wittenberg">Wittebergæ</placeName> superiori
                     hyeme aliquandiu hærerem et Typographicos labores non ex animi sententia
                     succedere animadverterem, resumpsi hanc operam in manus, et adhibito isthic
-                    præstanti Mathematum Professore <persName ref="Ioestelius">MELCHIORE
+                    præstanti Mathematum Professore <persName ref="jostelius_melchior_1559">MELCHIORE
                         IŒSTELIO</persName>, ea omnia, quæ tam Sphærica, quam plana Triangula
                     respiciunt, quæcunque in usum cadunt Astronomicum et Geographicum, per solas
                     prostaphæreses dinumeranda compendiose in ordinem <app>
@@ -746,14 +778,14 @@
                     <pb ed="A" n="4r"/>intellexisse, illustres et generosos Dominos FUGGEROS in amplissima sua Bibliotheca excellentes
                     quosdam libros, tam in alio quam hoc genere artium reservare, quorum tamen
                     inspiciendorum copia, tunc, nescio ob quæ impedimenta, data non est, atque inter
-                    alios percepi, laboriosissimi illius et eximij viri <persName ref="Cyprianus"
+                    alios percepi, laboriosissimi illius et eximij viri <persName ref="leovitius_cyprianus_1514"
                         >CYPRIANI LEOVITIJ</persName> Bohemi, laudatæ recordationis, nonnulla
                     manuscripta opera a vidua post obitum eius conquisita ibidemque detineri, qualia
                     sunt Ephemerides, per centenos aliquot annos e Calculo <persName
                         ref="alfonso_10_1221">ALPHONSINO</persName> ad denos saltem dies ab ipso
                     continuatæ et aliæ e <persName ref="kopernikus_nikolaus_1473">COPERNICEIS</persName> ab anno
                     1500 incipientes (quousque durent, iam non succurrit) tum quoque eiusdem
-                        <persName ref="Cyprianus">CYPRIANI</persName> Tabulæ directionum resolutæ,
+                        <persName ref="leovitius_cyprianus_1514">CYPRIANI</persName> Tabulæ directionum resolutæ,
                     in quibus ascensiones obliquæ ad octavum latitudinis gradum utrinque ab
                     Ecliptica dilatatæ sunt. <pb ed="A" n="50v"/><app>
                         <lem>[Habui etiam præ manibus magnum opus de Genethliaca Astrologia, quod an
@@ -790,9 +822,9 @@
                             precor.]</lem>
                         <rdg><note>om. A</note></rdg>
                     </app></p>
-                <p rend="indent"><pb ed="A" n="4r"/>Dabantur properanti calamo ex arce Cæsareana
+                <closer><pb ed="A" n="4r"/><dateline>Dabantur properanti calamo ex arce Cæsareana
                         <placeName ref="Girsitz"><!-- NB ??? -->Girsitza</placeName> 16. die
-                    Novembris stylo renovato Anno 1599.</p>
+                    Novembris stylo renovato Anno 1599.</dateline></closer>
             </div>
         </body>
     </text>

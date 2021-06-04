@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -68,7 +72,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599 4. november n.s.</date></creation>
+            <creation><date xml:lang="da">1599 4. november n.s.</date><date xml:lang="en">1599 4
+                    November NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,24 +88,26 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-18" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.190"/><persName ref="magini_giovanni_antonio_1555">IOHANNES ANTONIUS
-                        MAGINUS</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="1r"/>VLTIMA Bacanalium die fuit ad me Dominus <persName
-                        ref="tengnagel_frans_1576">FRANCISCUS TENGNALIUS</persName>, nobilis iuvenis, omnique
-                    virtute ornatissimus, et talis qualis a te mihi descriptus fuit, qui deferendo
-                    ad me tuas literas unâ cum munere tui libelli de machinis Astronomicis et de
-                    restitutione stellarum fixarum adeo mentem meam gaudio affecit, ut nescirem quo
-                    me continerem, sed hæc mea lætitia aliquantum remissa fuit, quando intellexi,
-                    ipsum discessurum esse sequenti mane <placeName ref="Firenze"
-                        >Florentiam</placeName> versus, nec posse mihi hîc referre ea quæ ipsi
-                    secreto, ut mecum communicaret, imposuisti, qui tamen mihi promisit se hoc
-                    facturum post suum <app>
+                <opener><pb ed="TBOO" n="VIII.190"/><persName ref="magini_giovanni_antonio_1555"
+                        >IOHANNES ANTONIUS MAGINUS</persName> AD <persName ref="brahe_tycho_1546"
+                        >TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="1r"/>VLTIMA Bacanalium die fuit ad me Dominus
+                        <persName ref="tengnagel_frans_1576">FRANCISCUS TENGNALIUS</persName>,
+                    nobilis iuvenis, omnique virtute ornatissimus, et talis qualis a te mihi
+                    descriptus fuit, qui deferendo ad me tuas literas unâ cum munere tui libelli de
+                    machinis Astronomicis et de restitutione stellarum fixarum adeo mentem meam
+                    gaudio affecit, ut nescirem quo me continerem, sed hæc mea lætitia aliquantum
+                    remissa fuit, quando intellexi, ipsum discessurum esse sequenti mane <placeName
+                        ref="Firenze">Florentiam</placeName> versus, nec posse mihi hîc referre ea
+                    quæ ipsi secreto, ut mecum communicaret, imposuisti, qui tamen mihi promisit se
+                    hoc facturum post suum <app>
                         <lem wit="#TBOO">reditum</lem>
                         <rdg><note>A ut sæpius</note></rdg>
                     </app>
@@ -118,14 +125,14 @@
                         <lem wit="#TBOO">redire</lem>
                         <rdg wit="#A">reddire</rdg>
                     </app> potui ante primum Novembris, tempore scilicet novi studij. In hoc autem
-                    meo reditu inveni literas Domini <persName ref="tengnagel_frans_1576">FRANCISCI</persName>
-                    tui, quibus me commonefecit se quam primum velle <placeName ref="Bologna"
-                        >Bononiæ</placeName> redire, ut mihi exponere posset tuum desiderium, quod
-                    post duos dies fecit, relinquens mihi simul quædam scripta pro instructione
-                    dicti negocij. Valde profecto mihi grata fuit hæc occasio tibi gratificandi, et
-                    plus quam credi possit, quod eventus rei ipsius Deo volente tibi clare
-                    declarabit, neque enim nunc verbis hoc tibi indicare studebo, sed effectibus
-                    ipsis me facturum <app>
+                    meo reditu inveni literas Domini <persName ref="tengnagel_frans_1576"
+                        >FRANCISCI</persName> tui, quibus me commonefecit se quam primum velle
+                        <placeName ref="Bologna">Bononiæ</placeName> redire, ut mihi exponere posset
+                    tuum desiderium, quod post duos dies fecit, relinquens mihi simul quædam scripta
+                    pro instructione dicti negocij. Valde profecto mihi grata fuit hæc occasio tibi
+                    gratificandi, et plus quam credi possit, quod eventus rei ipsius Deo volente
+                    tibi clare declarabit, neque enim nunc verbis hoc tibi indicare studebo, sed
+                    effectibus ipsis me facturum <app>
                         <lem wit="#TBOO">reservo</lem>
                         <rdg wit="#A">reserbo</rdg>
                     </app>; habeo enim qui hanc provinciam libentissime suscipiet, qui mihi inprimis
@@ -133,32 +140,35 @@
                         ref="Italy">Italiam</placeName>, qui et mihi et huic <pb ed="A" n="1v"/>omne
                     auxilium præstabunt.</p>
                 <p rend="indent">Plura ad te scribere deberem, nisi improvisus reditus Domini
-                        <persName ref="tengnagel_frans_1576">FRANCISCI</persName> et maturus discessus eius
-                    obstarent; præsertim cum multis curis et molestijs familiaribus nunc afficiar.
-                    Nolo tamen prætermittere, quin <pb ed="TBOO" n="VIII.191"/>te subnixe et
-                    instantissime rogem, ut mihi gratissime communices Tabulas motuum luminarium a
-                    te editas et forsan publicatas unâ cum eius usu pro his temporibus; cupio enim
-                    primus omnium Ephemerides condere novas secundum tuas observationes et interim,
-                    dum alias tabulas absolves, potero ego supputare motus luminarium in eclipsibus
-                    et insuper figuras ingressus Solis in puncta cardinalia erigere et lunationes
-                    omnes perpendere, et ex his iudicia annua contexere; nam pro hoc negocio
-                    sufficiet calculus reliquorum planetarum iuxta usitatam rationem <persName
-                        ref="kopernikus_nikolaus_1473">COPERNICI</persName>.</p>
-                <p rend="indent">De meo statu certior fies a Domino <persName ref="tengnagel_frans_1576"
-                        >FRANCISCO</persName> tuo, scilicet me esse perturbationibus onustum, qua de
-                    causa finem huic epistolæ facio, rogans te efficaciter ut hæc omnia in bonam
-                    feras partem, meque ut verum et sincerum amicum et devotissimum servum habeas.
-                    Deum optimum deprecor, ut tuis votis satisfaciat plene. Vale.</p>
-                <p rend="indent"><app>
-                        <lem><placeName ref="Bologna">Bononia</placeName> 4 Novembris 1599.</lem>
-                        <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
-                    </app></p>
-                <lb/>
-                <p rend="rightMargin"><app>
-                        <lem>Perillustri Dominationi tuæ<lb/>addictissimus<lb/><persName
-                                ref="magini_giovanni_antonio_1555">IO. ANTONIUS MAGINUS</persName>,<lb/>Patavinus.</lem>
-                        <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
-                    </app></p>
+                        <persName ref="tengnagel_frans_1576">FRANCISCI</persName> et maturus
+                    discessus eius obstarent; præsertim cum multis curis et molestijs familiaribus
+                    nunc afficiar. Nolo tamen prætermittere, quin <pb ed="TBOO" n="VIII.191"/>te
+                    subnixe et instantissime rogem, ut mihi gratissime communices Tabulas motuum
+                    luminarium a te editas et forsan publicatas unâ cum eius usu pro his temporibus;
+                    cupio enim primus omnium Ephemerides condere novas secundum tuas observationes
+                    et interim, dum alias tabulas absolves, potero ego supputare motus luminarium in
+                    eclipsibus et insuper figuras ingressus Solis in puncta cardinalia erigere et
+                    lunationes omnes perpendere, et ex his iudicia annua contexere; nam pro hoc
+                    negocio sufficiet calculus reliquorum planetarum iuxta usitatam rationem
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName>.</p>
+                <p rend="indent">De meo statu certior fies a Domino <persName
+                        ref="tengnagel_frans_1576">FRANCISCO</persName> tuo, scilicet me esse
+                    perturbationibus onustum, qua de causa finem huic epistolæ facio, rogans te
+                    efficaciter ut hæc omnia in bonam feras partem, meque ut verum et sincerum
+                    amicum et devotissimum servum habeas. Deum optimum deprecor, ut tuis votis
+                    satisfaciat plene.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline><app>
+                            <lem><placeName ref="Bologna">Bononia</placeName> 4 Novembris
+                                1599.</lem>
+                            <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
+                        </app></dateline>
+                    <signed><app>
+                            <lem>Perillustri Dominationi tuæ<lb/>addictissimus<lb/><persName
+                                    ref="magini_giovanni_antonio_1555">IO. ANTONIUS
+                                    MAGINUS</persName>,<lb/>Patavinus.</lem>
+                            <rdg><note>diem et subscriptionem add. e Magini1604.: om. A</note></rdg>
+                        </app></signed></closer>
             </div>
         </body>
     </text>

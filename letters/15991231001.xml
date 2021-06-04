@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -60,11 +69,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Hans Georg Herwart von Hohenburg</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 31. december n.s</date></creation>
+            <creation><date xml:lang="da">1599, 31. december n.s.</date><date xml:lang="en">1599, 31 December NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,11 +96,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.222"/><pb ed="A" n="51v"/>MAGNIFICO ET NOBILISSIMO VIRO, DOMINO
-                    <persName ref="Herwart">GEORGIO HERWARTO AB HOHENBURGK</persName>, SERENISSIMO UTRIUSQUE <placeName ref="Bayern">BAVARIÆ</placeName> DUCI A CONSILIJS
+                    <persName ref="herwart_von_hohenburg_hans_georg_1553">GEORGIO HERWARTO AB HOHENBURGK</persName>, SERENISSIMO UTRIUSQUE <placeName ref="Bayern">BAVARIÆ</placeName> DUCI A CONSILIJS
                     INTIMIS, PRÆSIDI <placeName ref="Schwabwen">SCHWABÆ</placeName> ET STATUUM PROVINCIALIUM CANCELLARIO, DOMINO ET AMICO
                     SUO INPRIMIS HONORANDO. <lb/><foreign xml:lang="de"><hi rend="it">MÜNCHEN.</hi></foreign></opener>
-                <p><lb/><lb/><pb ed="A" n="50r"/>S. P.</p>
-                <p>POSTQUAM priores, circa medium Novembris ad te, Vir
+                <p rend="indent"><lb/><lb/><pb ed="A" n="50r"/>S. P.</p>
+                <p rend="noIndent">POSTQUAM priores, circa medium Novembris ad te, Vir
                     Nobilissime et Præstantissime, directas, et paulisper, donec in Aulam eas
                     mittendi atque inde ad te procurandi suppeteret commoditas, mecum retentas,
                     tandem cum adiunctis chartis emisissem, accidit, ut aliæ tuæ eodem ferme
@@ -108,7 +118,7 @@
                     sedulas observationes easdemque Geometrice et per numeros pro eruendo inde Apogæo
                     et Eccentricitate Solari expensas, fœcundo partu secum adferrent. Fuit equidem
                     id mihi admodum gratum, cum animadversiones illas prius non viderim. Neque enim
-                    a laudatissimæ memoriæ <persName ref="Wolhelm, landgrave of Hessen">GULIELMO</persName> Principe Landtgravio aut etiam eius Mathematico
+                    a laudatissimæ memoriæ <persName ref="wilhelm_4_1532">GULIELMO</persName> Principe Landtgravio aut etiam eius Mathematico
                     <persName ref="rothmann_christopher_1550">CHRISTOPHORO ROTHMANNO</persName> mihi antea (quod omissum miror) communicatæ erant,
                     alias Epistolarum Tomo primo, qui literas ijsdem annis inter nos commutatas
                     habet, eas unâ cum competente disquisitione et cum nostris inventis collatione
@@ -199,7 +209,7 @@
                     ipsam probe capis, facile restitues. Vide quid pepererint ternæ ternorum etiam
                     Annorum Solis observationes mihi a te benevole missæ. Si plures in alijs etiam
                     Astris sive <placeName ref="Kassel">Cassellis</placeName> sive alibi sedulo factas procuraveris, neque illæ sine
-                    fœnore redibunt. Intellexi <persName ref="Werner">WERNERUM</persName> quasdam a se habitas animadversiones
+                    fœnore redibunt. Intellexi <persName ref="werner_johannes_1468">WERNERUM</persName> quasdam a se habitas animadversiones
                     cœlestes in publicum êdidisse, quæ si præter eas, quas de aëris mutatione vidi,
                     aliquid circa Phænomena Astrorum cœlitus denotata habent, et tibi de eo libro
                     quidpiam constat, cuperem exemplar mihi aliquantisper concedi.</p>
@@ -217,18 +227,16 @@
                     sit, iuxta ipsa Æquinoctia (prout in <placeName ref="Denmark">Daniâ</placeName> sit) sese insinuet.</p>
                 <p rend="indent"><pb ed="TBOO" n="VIII.226"/>Vale itaque quam optime, et Anni huius
                     instantis iubilæi, ac plurium aliorum curricula felici animi et corporis
-                    rerumque externarum statu transige. Dabantur <placeName ref="Girsitz">Girtzitzæ</placeName>, unde cras, volente Deo,
+                    rerumque externarum statu transige.</p> <closer><dateline>Dabantur <placeName ref="Girsitz">Girtzitzæ</placeName>, unde cras, volente Deo,
                         <placeName ref="Benatky">Benaticam</placeName> reverti constitui, pridie
-                    Calenti. Ianuar. Anni Domini 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Tuæ Mag<hi rend="sup">æ</hi> addictissimus<lb/>TYCHO BRAHE<lb/>manu propria
-                    scripsi.</p>
-                <lb/>
-                <p>Apposui calculum Apogæi et Eccentricitatis Solis, in tribus transmissis exemplis
+                    Calend. Ianuar. Anni Domini 1600.</dateline> <signed>Tuæ Mag<hi rend="sup">æ</hi> addictissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName><lb/>manu propria
+                    scripsi.</signed></closer>
+                
+                <postscript><p>Apposui calculum Apogæi et Eccentricitatis Solis, in tribus transmissis exemplis
                     per prostaphæreses nobis usitatas reiteratum, qui a tuo vix differt, exceptâ
                     Eccentricitatis, prout in literis monui, emendatione, Adiunxi quoque Odam
                     quandam non invenustam, mihi hisce diebus e <placeName ref="Pomerania">Pomeraniâ</placeName> missam, ut eam cœteris
-                    tibi communicatis carminibus annectare queas. </p>
+                    tibi communicatis carminibus annectare queas. </p></postscript>
             </div>
         </body>
     </text>

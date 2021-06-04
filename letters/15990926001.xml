@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -64,11 +83,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Daniel Cramer</persName>
+                    <persName key="cramer_daniel_1568">Daniel Cramer</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 26. september n.s</date></creation>
+            <creation><date xml:lang="da">1599, 26. september n.s.</date><date xml:lang="en">1599,
+                    26 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,30 +103,33 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-18" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.184"/>TYCHO BRAHE AD <persName ref="cramer_daniel_1568">DANIELEM
+                <opener><pb ed="TBOO" n="VIII.184"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="cramer_daniel_1568">DANIELEM
                         CRAMERUM</persName>.</opener>
-                <p><pb ed="A" n="1r"/>S.</p>
-                <p>RESCRIPSI tibi, clarissime et eruditissime Domine Doctor <persName ref="cramer_daniel_1568"
-                        >CRAMERE</persName>, paulo antequam <placeName ref="Wittenberg"
-                        >Witeberga</placeName> discederem, quas te accepisse reor. De meis autem
-                    rebus, postquam inde abiens in <placeName ref="Bohemia">Bohemiam</placeName> ex
-                    clementissimo mandato et evocatione augustissimi <persName ref="rudolf_2_1552"
-                        >Imperatoris</persName> me contulerim, quia nimis longum foret hîc
-                    sigillatim omnia enarrare, iussi describi exemplum nuperarum ad <persName
-                        ref="rosenkrantz_holger_1574">OLIGERUM ROSÆKRANTZIUM</persName> nostrum a me
-                    datarum, quæ historiolam quandam eorum, quæ mihi hîc evenerunt, continent, cuius
-                    te facio participem. Inde per circumstantias omnia hauries; cum enim tam arcta
-                    sit inter <persName ref="rosenkrantz_holger_1574">OLIGERUM</persName> et te
-                    amicitia, is, quod descriptum suarum literarum tibi communicem (secretum tamen
-                    habendum, nec nisi secretis amicis ostendendum) minime ægre laturus est. Quare
-                    de meis negotijs nihil hîc addo, solummodo Deo immortali gratias ago. Agasque tu
-                    et omnes pij probique mecum, quod omnia bene et ex voto successerint.</p>
+                <p rend="indent"><pb ed="A" n="1r"/>S.</p>
+                <p rend="noIndent">RESCRIPSI tibi, clarissime et eruditissime Domine Doctor
+                        <persName ref="cramer_daniel_1568">CRAMERE</persName>, paulo antequam
+                        <placeName ref="Wittenberg">Witeberga</placeName> discederem, quas te
+                    accepisse reor. De meis autem rebus, postquam inde abiens in <placeName
+                        ref="Bohemia">Bohemiam</placeName> ex clementissimo mandato et evocatione
+                    augustissimi <persName ref="rudolf_2_1552">Imperatoris</persName> me contulerim,
+                    quia nimis longum foret hîc sigillatim omnia enarrare, iussi describi exemplum
+                    nuperarum ad <persName ref="rosenkrantz_holger_1574">OLIGERUM
+                        ROSÆKRANTZIUM</persName> nostrum a me datarum, quæ historiolam quandam
+                    eorum, quæ mihi hîc evenerunt, continent, cuius te facio participem. Inde per
+                    circumstantias omnia hauries; cum enim tam arcta sit inter <persName
+                        ref="rosenkrantz_holger_1574">OLIGERUM</persName> et te amicitia, is, quod
+                    descriptum suarum literarum tibi communicem (secretum tamen habendum, nec nisi
+                    secretis amicis ostendendum) minime ægre laturus est. Quare de meis negotijs
+                    nihil hîc addo, solummodo Deo immortali gratias ago. Agasque tu et omnes pij
+                    probique mecum, quod omnia bene et ex voto successerint.</p>
                 <p rend="indent">Cæterum est aliud te non minima ex parte concernens, quod te non
                     cælandum duxi. Cum <placeName ref="Wittenberg">Witebergæ</placeName> essem,
                     accesserat eo Danus quidam studiosus mihi familiariter notus, <persName
@@ -114,58 +137,60 @@
                     quodam Svetico <persName ref="Bielke, Sten">STENONE BIELCHE</persName> meo
                     consanguineo accesserat, cumque per aliquot dies ibi mecum conver<pb ed="TBOO"
                         n="VIII.185"/>sarentur, accidit, ut <persName ref="Bielke, Sten"
-                        >STENO</persName> ille <persName ref="liddel_duncan_1561">DUNCANI</persName> Scoti
-                    mentionem faceret, ambo enim illi <placeName ref="Helmstedt"
+                        >STENO</persName> ille <persName ref="liddel_duncan_1561">DUNCANI</persName>
+                    Scoti mentionem faceret, ambo enim illi <placeName ref="Helmstedt"
                         >Helmstadij</placeName> studiorum caussa, unde etiam venerant, aliquamdiu
                     fuere. Ego mox subijciens plagium eius in me eidem Baroni, <pb ed="A" n="1v"
                     />præsente <persName ref="Mule, Bertel">BARTHOLDO</persName> illo, aperui,
                     cumque miraretur et quasi subhæsitaret, produxi tuas litteras ad <persName
-                        ref="Rosenkrantz. Holger">OLIGERUM ROSÆKRANTZIUM</persName> prolixe ea de re
+                        ref="rosenkrantz_holger_1574">OLIGERUM ROSÆKRANTZIUM</persName> prolixe ea de re
                     scriptas ijsque legendas dedi. Nescio vero quî factum sit, quod, dum in alterum
                     diem eas secum servaret Danicus ille studiosus, sibiipsi exemplum inde tacite
                     exaravit, quod, cum <placeName ref="Helmstedt">Helmstadium</placeName> venisset,
-                        <persName ref="liddel_duncan_1561">Scotulo</persName> isti monstravit. Quomodo autem is
-                    acceperit, ex ipsius <persName ref="Mule, Bertel">BARTOLDI</persName> literis,
-                    quas ante paucos dies nactus sum, verbotenus referam. &#187;<hi rend="it">Deinde
-                        quoad Doctoris CRAMERI literas, eas <persName ref="liddel_duncan_1561"
-                            >DUNCANO</persName> exhibui, reticens tamen unde perceperim. Ibi homo
-                        cœpit impietatem miselli asini (sic enim criminabatur) adeo culpare, ut
-                        eundem ingratissimum erga præceptorem cuculum vocitaret, simulque se Magnif.
-                        tuæ excusans, meque ad ordinem lectionum, quem hisce adiunxi, remittens, ubi
-                        honestissimam vestri mentionem fecisse gloriabatur</hi>&#171;. Hæc ille. Quæ
-                    vero insinuat de ordine prælectionum impresso unâque transmisso, e quibus isthic
-                    verbis <persName ref="liddel_duncan_1561">DUNCANUS</persName> se purgare præsumit, ea sub
+                        <persName ref="liddel_duncan_1561">Scotulo</persName> isti monstravit.
+                    Quomodo autem is acceperit, ex ipsius <persName ref="Mule, Bertel"
+                        >BARTOLDI</persName> literis, quas ante paucos dies nactus sum, verbotenus
+                    referam. &#187;<hi rend="it">Deinde quoad Doctoris CRAMERI literas, eas
+                            <persName ref="liddel_duncan_1561">DUNCANO</persName> exhibui, reticens
+                        tamen unde perceperim. Ibi homo cœpit impietatem miselli asini (sic enim
+                        criminabatur) adeo culpare, ut eundem ingratissimum erga præceptorem cuculum
+                        vocitaret, simulque se Magnif. tuæ excusans, meque ad ordinem lectionum,
+                        quem hisce adiunxi, remittens, ubi honestissimam vestri mentionem fecisse
+                        gloriabatur</hi>&#171;. Hæc ille. Quæ vero insinuat de ordine prælectionum
+                    impresso unâque transmisso, e quibus isthic verbis <persName
+                        ref="liddel_duncan_1561">DUNCANUS</persName> se purgare præsumit, ea sub
                     titulo Philosophicarum prælectionum sic habent: &#187;<hi rend="it"><persName
-                            ref="liddel_duncan_1561">DUNCANUS LIDDELIUS</persName> Scotus D. publice proponit
-                        doctrinam sinuum et triangulorum, qua absoluta, theorias Planetarum,
-                        secundum hypothesin <persName ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName> et
-                            <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName> et illam mundani
-                        systematis hypothesin, quam describit TYCHO BRAHE lib. 2 de æthereis
-                        Phænomenis.</hi>&#171; Ista iste, egregia sane et honestissima de me mentio,
-                    imo vulpeculæ potius dolus; cum enim sibi conscius sit, se meas hypothe<pb
-                        ed="A" n="2r"/>ses sibi apud alios clam venditasse, et sic plagium
-                    commisisse, cum publice non audeat idem facere, neque meas esse fateri vult, ne
-                    contradicat ijs, quæ prius commentus est, ideoque generaliter et astute
-                    loquendo, dicit saltem eas hypotheses, quas ego libro illo secundo describo;
-                    potest enim aliquis etiam ab alio inventa describere, nec ob id sua esse. Eadem
-                    vafritie usus est in thematibus quibusdam anno 95 <placeName ref="Helmstedt"
-                        >Helmstadij</placeName> editis, ubi inter Parerga Mathematica (sic enim
-                    vocat et recte, nam vere Parerga tractat, et de re inperspecta nugatur)
-                    propositione secunda sic habet: &#187;<hi rend="it">Cum tres discrepantes
-                        hypotheses sint, quibus apparentiæ cœlestes <app>
+                            ref="liddel_duncan_1561">DUNCANUS LIDDELIUS</persName> Scotus D. publice
+                        proponit doctrinam sinuum et triangulorum, qua absoluta, theorias
+                        Planetarum, secundum hypothesin <persName ref="ptolemaios_klaudios_0100"
+                            >PTOLEMÆI</persName> et <persName ref="kopernikus_nikolaus_1473"
+                            >COPERNICI</persName> et illam mundani systematis hypothesin, quam
+                        describit TYCHO BRAHE lib. 2 de æthereis Phænomenis.</hi>&#171; Ista iste,
+                    egregia sane et honestissima de me mentio, imo vulpeculæ potius dolus; cum enim
+                    sibi conscius sit, se meas hypothe<pb ed="A" n="2r"/>ses sibi apud alios clam
+                    venditasse, et sic plagium commisisse, cum publice non audeat idem facere, neque
+                    meas esse fateri vult, ne contradicat ijs, quæ prius commentus est, ideoque
+                    generaliter et astute loquendo, dicit saltem eas hypotheses, quas ego libro illo
+                    secundo describo; potest enim aliquis etiam ab alio inventa describere, nec ob
+                    id sua esse. Eadem vafritie usus est in thematibus quibusdam anno 95 <placeName
+                        ref="Helmstedt">Helmstadij</placeName> editis, ubi inter Parerga Mathematica
+                    (sic enim vocat et recte, nam vere Parerga tractat, et de re inperspecta
+                    nugatur) propositione secunda sic habet: &#187;<hi rend="it">Cum tres
+                        discrepantes hypotheses sint, quibus apparentiæ cœlestes <app>
                             <lem wit="#TBOO">solvuntur</lem>
                             <rdg wit="#A">solvantur</rdg>
-                        </app> et explicantur, quarum una est <persName ref="ptolemaios_klaudios_0100"
-                            >PTOLEMÆI</persName>, altera <persName ref="kopernikus_nikolaus_1473"
-                            >COPERNICI</persName>, tertia est illa, cuius meminit TYCHO BRAHE lib.
-                        de Cometa anni 77, dubitatur, an aliqua ex his omnibus diversa dari possit,
-                        deinde quænam harum apparentijs magis congruat.</hi>&#171; Vide quam sibi
-                    similis et hîc et istic, idque ob eandem, quam dixi, caussam; o! astutule et
-                    nasutule <persName ref="liddel_duncan_1561">Scotule</persName>. At non satis recordatur, uti
+                        </app> et explicantur, quarum una est <persName
+                            ref="ptolemaios_klaudios_0100">PTOLEMÆI</persName>, altera <persName
+                            ref="kopernikus_nikolaus_1473">COPERNICI</persName>, tertia est illa,
+                        cuius meminit TYCHO BRAHE lib. de Cometa anni 77, dubitatur, an aliqua ex
+                        his omnibus diversa dari possit, deinde quænam harum apparentijs magis
+                        congruat.</hi>&#171; Vide quam sibi similis et hîc et istic, idque ob
+                    eandem, quam dixi, caussam; o! astutule et nasutule <persName
+                        ref="liddel_duncan_1561">Scotule</persName>. At non satis recordatur, uti
                     oportebat mendacem memorem esse. In intimatione, quam Decanus Facultatis Medicæ
-                    in Academia Iulia <persName ref="parcovius_franciscus_1560">FRAN<pb ed="TBOO" n="VIII.186"
-                        />CISCUS PARCOVIUS</persName>, sub quo <persName ref="liddel_duncan_1561"
-                        >LIDDELIUS</persName> in Doctorem promovit, <app>
+                    in Academia Iulia <persName ref="parcovius_franciscus_1560">FRAN<pb ed="TBOO"
+                            n="VIII.186"/>CISCUS PARCOVIUS</persName>, sub quo <persName
+                        ref="liddel_duncan_1561">LIDDELIUS</persName> in Doctorem promovit, <app>
                         <lem>...</lem>
                         <rdg><note>lacunam indicavit TBOO (v. 1 post PARCOVIUS indicavit
                                 Friis)</note></rdg>
@@ -174,64 +199,70 @@
                         >LIDDELIJ</persName> mentionem, utinam tam veram quam pomposam, fecisset,
                     sic proloquitur: &#187;<hi rend="it">Quod enim ad Mathesin attinet, non solum in
                         veterum hypothesi bene versatus est, sed et recentiorem laboriosam et
-                        operosam <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName> hypothesin <pb
-                            ed="A" n="2v"/>optime novit</hi>&#171;, in qua quicquid consecutus sum,
-                    ipsi debere me ingenue fateor. Quin et aliam novam hypothesin, quam publice et
-                    privatim docuit, licet alterius nomine usurpetur, adinvenit, cuius rei multi
-                    eius discipuli clarissimum ei dant testimonium. Sed addo descriptum totius
-                    intimationis; misissem impressum exemplar, sed cum unicum saltem habeam, eo
-                    carere nequeo. Annon ibi satis aperte proditur <persName ref="liddel_duncan_1561"
-                        >DUNCANUM</persName> mea inventa sibi arrogare? Neque enim excusare se
-                    potest, quod se inscio hæc a suo promotore ascripta sint; vel si sic, cur non
-                    inficiatus est atque se invito factum protestatus? cur se sic alienis plumis
-                    ornari cornicula ista passa est? Sed dispiciemus suo tempore Deo volente de his
-                    latius. Interea huius pusilli <persName ref="liddel_duncan_1561">Scoti</persName>
-                    arrogantiam et insolentiam ex alto despiciemus. Si in viros cordatos et eruditos
-                    atque ipso longe meliores scurriliter debacchari et mea de caussa eos misellos
-                    asinos ingratissimosque cuculos vocitare, quod veritatem quæsiti non subticeant,
-                    perrexerit, efficiam ut publice plagij accusatus et convictus secundum ius luat,
-                    id est infamis fiat, nec amplius irritet crabrones. Tu interim pro te, quæ vera
-                    et iusta nosti, meditare atque consigna, et si lubuerit, in uno vel altero
-                    quaternione in publicum ede, tui meique defensionis gratia, ut habeat iste
-                    biliosus <persName ref="liddel_duncan_1561">Scotulus</persName>, quod ipsum mordeat atque
+                        operosam <persName ref="kopernikus_nikolaus_1473">COPERNICI</persName>
+                        hypothesin <pb ed="A" n="2v"/>optime novit</hi>&#171;, in qua quicquid
+                    consecutus sum, ipsi debere me ingenue fateor. Quin et aliam novam hypothesin,
+                    quam publice et privatim docuit, licet alterius nomine usurpetur, adinvenit,
+                    cuius rei multi eius discipuli clarissimum ei dant testimonium. Sed addo
+                    descriptum totius intimationis; misissem impressum exemplar, sed cum unicum
+                    saltem habeam, eo carere nequeo. Annon ibi satis aperte proditur <persName
+                        ref="liddel_duncan_1561">DUNCANUM</persName> mea inventa sibi arrogare?
+                    Neque enim excusare se potest, quod se inscio hæc a suo promotore ascripta sint;
+                    vel si sic, cur non inficiatus est atque se invito factum protestatus? cur se
+                    sic alienis plumis ornari cornicula ista passa est? Sed dispiciemus suo tempore
+                    Deo volente de his latius. Interea huius pusilli <persName
+                        ref="liddel_duncan_1561">Scoti</persName> arrogantiam et insolentiam ex alto
+                    despiciemus. Si in viros cordatos et eruditos atque ipso longe meliores
+                    scurriliter debacchari et mea de caussa eos misellos asinos ingratissimosque
+                    cuculos vocitare, quod veritatem quæsiti non subticeant, perrexerit, efficiam ut
+                    publice plagij accusatus et convictus secundum ius luat, id est infamis fiat,
+                    nec amplius irritet crabrones. Tu interim pro te, quæ vera et iusta nosti,
+                    meditare atque consigna, et si lubuerit, in uno vel altero quaternione in
+                    publicum ede, tui meique defensionis gratia, ut habeat iste biliosus <persName
+                        ref="liddel_duncan_1561">Scotulus</persName>, quod ipsum mordeat atque
                     remordeat, si possit, donec illi occludatur os. Si Doctor <persName
-                        ref="krag_niels_1550">NICOLAUS CRAGIUS</persName>, in <placeName ref="Denmark"
-                        >Dania</placeName> Historicus, quem nosti, velit aperte fateri, quæ hac de
-                    re novit, quod eum etiam libenter facturum spero, non longa erit disputatio, <pb
-                        ed="A" n="3r"/>an <persName ref="liddel_duncan_1561">LIDDELIUS</persName> istas
-                    hypotheses a me didicerit, an vero ego ab illo. Assidebat enim mensæ in arce
-                    olim <placeName ref="Uraniborg">Uraniburgica</placeName> idem Doctor, cum hasce
-                    hypotheses <persName ref="liddel_duncan_1561">LIDDELIO</persName>, cui nunquam tale quid
-                    antea, ne per somnium quidem, in mentem venerat, aperui. Quin et ipsi Doctori
-                        <persName ref="krag_niels_1550">NICOLAO</persName>, ob sinceram inter nos
-                    amicitiam, iam diu antea designationem earundem hypothesium in patenti charta,
-                    prout a me sedulo expetierat, concesseram, uti ipsemet non invite fatebitur, et
-                    quod omnium maxime rem arguit, ipsæ Liddelianæ ad me datæ literæ ipsiusque manu
-                    scriptæ, fraudem et plagium eius testabuntur. de istulo nunc satis. Tu quid tui
-                    sit officij, facile absque me monitore nosti.</p>
+                        ref="krag_niels_1550">NICOLAUS CRAGIUS</persName>, in <placeName
+                        ref="Denmark">Dania</placeName> Historicus, quem nosti, velit aperte fateri,
+                    quæ hac de re novit, quod eum etiam libenter facturum spero, non longa erit
+                    disputatio, <pb ed="A" n="3r"/>an <persName ref="liddel_duncan_1561"
+                        >LIDDELIUS</persName> istas hypotheses a me didicerit, an vero ego ab illo.
+                    Assidebat enim mensæ in arce olim <placeName ref="Uraniborg"
+                        >Uraniburgica</placeName> idem Doctor, cum hasce hypotheses <persName
+                        ref="liddel_duncan_1561">LIDDELIO</persName>, cui nunquam tale quid antea,
+                    ne per somnium quidem, in mentem venerat, aperui. Quin et ipsi Doctori <persName
+                        ref="krag_niels_1550">NICOLAO</persName>, ob sinceram inter nos amicitiam,
+                    iam diu antea designationem earundem hypothesium in patenti charta, prout a me
+                    sedulo expetierat, concesseram, uti ipsemet non invite fatebitur, et quod omnium
+                    maxime rem arguit, ipsæ Liddelianæ ad me datæ literæ ipsiusque manu scriptæ,
+                    fraudem et plagium eius testabuntur. de istulo nunc satis. Tu quid tui sit
+                    officij, facile absque me monitore nosti.</p>
                 <p rend="indent">Carmina quædam in mei gratiam a varijs conscripta addam, si ea
                     denuo exarare tempus permiserit, sin minus, habebis alias. Interea tu etiam
                     aliqua ulterius pro tua arguta vena meditare, et <persName ref="rudolf_2_1552"
                         >Cæsaris</persName> in me atque <pb ed="TBOO" n="VIII.187"/>atque ea quæ
-                    tracto studia clementissimam benignitatem collauda. Vale atque brevi rescribe.
-                    Dabantur ex arce Cæsarea <placeName ref="Benatky">Benachia</placeName> sive
-                        <placeName ref="Benatly">Venetijs Bohemorum</placeName> Anno 99 die 26.
-                    Septembris stylo renovato.</p>
-                <p rend="indent">Alter plagiarius et Mastiges meus impurissima <persName ref="ursus_nicolaus_1551"
-                        >fera <app>
-                            <lem>Ditmarsica</lem>
-                            <rdg wit="#A">Ditmersica</rdg>
-                        </app></persName> ante paucas hebdomadas <placeName ref="Praha"
-                        >Praga</placeName> se <app>
-                        <lem>[subduxit]</lem>
-                        <rdg><note>TBOO suppl. coll. litteræ ad Andream Velleium 18. Sept. 1599 et
-                                ad Christianum Longomontanum 22. Sept. 1599</note></rdg>
-                    </app><!-- NB! Se om noget skal ændres her -->, deserta uxore, quam nuper
-                    duxerat, uti perhibent meretricula, sive quod male sibi conscius esset, et pœnas
-                    secundum leges metueret, quas etiam vix effugiet, sive quod alibi latitando nova
-                    ruminetur mendacia novasque calumnias, pro stabiliendis prioribus, <pb ed="A"
-                        n="3v"/>uti fieri solet, sicque decuplo pluribus opus erit, sed obstruetur
-                    et illi, Deo volente, os, ita ut mallet facta infecta esse. </p>
+                    tracto studia clementissimam benignitatem collauda.</p>
+                <closer><salute>Vale atque brevi rescribe.</salute>
+                    <dateline>Dabantur ex arce Cæsarea <placeName ref="Benatky">Benachia</placeName>
+                        sive <placeName ref="Benatly">Venetijs Bohemorum</placeName> Anno 99 die 26.
+                        Septembris stylo renovato.</dateline></closer>
+                <postscript>
+                    <p rend="noIndent">Alter plagiarius et Mastiges meus impurissima <persName
+                            ref="ursus_nicolaus_1551">fera <app>
+                                <lem>Ditmarsica</lem>
+                                <rdg wit="#A">Ditmersica</rdg>
+                            </app></persName> ante paucas hebdomadas <placeName ref="Praha"
+                            >Praga</placeName> se <app>
+                            <lem>[subduxit]</lem>
+                            <rdg><note>TBOO suppl. coll. litteræ ad Andream Velleium 18. Sept. 1599
+                                    et ad Christianum Longomontanum 22. Sept. 1599</note></rdg>
+                        </app><!-- NB! Se om noget skal ændres her -->, deserta uxore, quam nuper
+                        duxerat, uti perhibent meretricula, sive quod male sibi conscius esset, et
+                        pœnas secundum leges metueret, quas etiam vix effugiet, sive quod alibi
+                        latitando nova ruminetur mendacia novasque calumnias, pro stabiliendis
+                        prioribus, <pb ed="A" n="3v"/>uti fieri solet, sicque decuplo pluribus opus
+                        erit, sed obstruetur et illi, Deo volente, os, ita ut mallet facta infecta
+                        esse. </p>
+                </postscript>
 
             </div>
         </body>

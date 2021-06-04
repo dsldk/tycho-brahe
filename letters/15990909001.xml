@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -68,7 +83,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 9. september. n.s</date></creation>
+            <creation><date xml:lang="da">1599, 9. september n.s.</date><date xml:lang="en">1599, 9 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,15 +99,16 @@
         <revisionDesc>
             <change when="2019-12-10" who="#pz">Filen etableret</change>
             <change when="2019-12-16" who="#pz">Filen færdig</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.163"/>TYCHO BRAHE AD OLIGERUM ROSENCRANTZIUM.</opener>
-                <p><pb ed="A" n="2r"/>S. P,</p>
-                <p>AD eas, quas antequam <placeName ref="Wittenberg">Witeberga</placeName>
+                <opener><pb ed="TBOO" n="VIII.163"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="rosenkrantz_holger_1574">OLIGERUM ROSENCRANTZIUM</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="2r"/>S. P,</p>
+                <p rend="noIndent">AD eas, quas antequam <placeName ref="Wittenberg">Witeberga</placeName>
                     discederem, pauculis interiectis septimanis, a te accepi literas, Exoptatissime
                     mi <persName ref="rosenkrantz_holger_1574">OLIGERE</persName>, tunc responsum misi,
                     speroque id tibi iam pridem redditum. Abij autem inde cum meis omnibus circa
@@ -106,7 +122,7 @@
                     partim quod <persName ref="brahe_magdalene_1574">filia mea natu maior</persName>,
                     quæ periculose ibi decubuit, paulo ante id temporis primum convaluerit. In
                     itinere autem <placeName ref="Dresden">Dresdam</placeName> a nobili et Magnifico
-                    viro Domino <persName ref="Loeserus">IOHANNE [LŒ]SERO</persName>, quem procul
+                    viro Domino <persName ref="loser_hans_1559">IOHANNE [LŒ]SERO</persName>, quem procul
                     dubio nosti, Bretziæ<!-- Pretzsch --> in Arce eius humaniter invitati et laute
                     tractati sumus. Cumque biduo post <placeName ref="Dresden">Dresdam</placeName>
                     venissemus, relicto illic apud civem quendam primarium mihi notum, Virum
@@ -137,14 +153,14 @@
                     literas, ab Illustrissimo Duce <persName ref="otto_harburg_1528">OTTONE</persName>,
                         <placeName ref="Harburg">Harburgi</placeName> prope <placeName ref="Hamburg"
                         >Hamburgum</placeName> habitante, ad Illustrem et Generosum Dominum
-                        <persName ref="Rumpf">RUMPHIUM</persName> Curiæ Cæsareæ Magistrum,
+                        <persName ref="rumpf_wolfgang_1535">RUMPHIUM</persName> Curiæ Cæsareæ Magistrum,
                     præcipuæque post <persName ref="rudolf_2_1552">Cæsarem</persName> isthic
                     authoritatis virum, mea de caussa scriptas. Suasit Dominus <persName
                         ref="barvitius_johann_anton_1555">BARVICIUS</persName>, ut ipsemet eas illi intra diem unum vel
                     alterum (quod alias per filium <persName ref="brahe_tyge_1581"
                         >TYCHONEM</persName> fieri volebam) offerrem. Captata itaque commoditate, in
                     Arcem curru vectus, ad eundem D<hi rend="sup">num</hi>
-                    <persName ref="Rumpf">RUMPHIUM</persName> mox introductus sum, qui etiam
+                    <persName ref="rumpf_wolfgang_1535">RUMPHIUM</persName> mox introductus sum, qui etiam
                     benignissime me excepit, et perhumaniter affatus est. Inter alia vero aiebat, se
                     multa relatione Præstantium virorum prius de me inaudivisse; gaudere autem, quod
                     nunc præsentem videat; sed non posse se et alios satis mirari, quod <persName
@@ -163,13 +179,13 @@
                     excercitia in suo Regno conservaturum; sed forte peculiari Dei providentia sic
                     factum esse, ut ea, quæ in Astronomicis diu multumque molitus sum, nunc alio,
                     atque ad ipsum Imperatorem, Imperij caput, transferenda sint. Hæc et similia cum
-                    dicto Domino <persName ref="Rumpf">RUMPHIO</persName> (qui elegantissime Latine
+                    dicto Domino <persName ref="rumpf_wolfgang_1535">RUMPHIO</persName> (qui elegantissime Latine
                     loquitur) verba commutans, literas prænominati Principis illi tradidi, isque,
                     discedentem aliquantulum deducens, meas res sibi curæ futuras, seque eas apud
                         <persName ref="rudolf_2_1552">Cæsarem</persName> promoturum, pollicitus est.
                     Insinuavit autem quidam ex Amicis postea, id quod Dominus <persName
                         ref="barvitius_johann_anton_1555">BARVICIUS</persName> adeo ursit, ut in Arcem ascendens ipsemet
-                    literas Domino <persName ref="Rumpf">RUMPHIO</persName> inscriptas ei in manus
+                    literas Domino <persName ref="rumpf_wolfgang_1535">RUMPHIO</persName> inscriptas ei in manus
                     exhiberem, id propterea factum, quod <persName ref="rudolf_2_1552">Cæsar</persName>
                     e conclavi suo, quod e regione est, me hac occasione antea videre vellet, quam
                     ad se vocaret. Quamprimum vero ex Arce descenderem, mox obviam factus D<hi
@@ -208,10 +224,10 @@
                     pauculis diebus, <persName ref="rudolf_2_1552">Cæsar</persName> me in Arcem ad se
                     accersi iubet: constitutum vero fuit antea in Senatu, ut aulæ magister D<hi
                         rend="sup">ns</hi>
-                    <persName ref="Rumpf">RUMPHIUS</persName> me ad <persName ref="rudolf_2_1552"
+                    <persName ref="rumpf_wolfgang_1535">RUMPHIUS</persName> me ad <persName ref="rudolf_2_1552"
                         >Cæsarem</persName> solemniter introduceret, quod hoc esset magis
                     honorificum; at <persName ref="rudolf_2_1552">Cæsar</persName> id tunc temporis
-                    renuit, sive quod quidam ex ministris <persName ref="Rumpf">RUMPHIJ</persName>
+                    renuit, sive quod quidam ex ministris <persName ref="rumpf_wolfgang_1535">RUMPHIJ</persName>
                     ijs diebus peste infectus et in civitatem delatus obijsset, sive quod <persName
                         ref="rudolf_2_1552">ipsius Maiestas</persName> cum me solo, nemine præsente,
                     loqui maluerit, quod et factum est; nam cum ad ianuam conclavis, in quo
@@ -365,16 +381,16 @@
                     tamen ex Picardis, qui Calvinisticæ (quam Sectatores orthodoxam nuncupant)
                     appropinquant, in eadem degentibus. Cum <persName ref="rudolf_2_1552"
                         >Cæsar</persName> intellexisset, me hanc Arcem præ ceteris eligere, mox per
-                    prædictum <persName ref="Capitaneus Brandeisensis">Capitaneum</persName>, qui
+                    prædictum <persName ref="mühlstein_caspar_1599">Capitaneum</persName>, qui
                         <placeName ref="Brandýs">Brandusijs</placeName> præest, me huc introduci
                     curavit, ubi nunc cum familia, commode et pacate, quod Deo acceptum fero, solus
                     habito, nemine obstrepente aut interturbante, sed dicto <persName
-                        ref="Capitaneus Brandeisensis">Capitaneo</persName> ex voluntate <persName
+                        ref="mühlstein_caspar_1599">Capitaneo</persName> ex voluntate <persName
                         ref="rudolf_2_1552">Cæsaris</persName> omnia officia mihi lubenter exhibente.
                     Qua etiam de caussa <pb ed="A" n="7r"/>intra unam vel aliam septimanam
                         <placeName ref="Brandýs">Brandusio</placeName> huc accurrit, ut mihi in ijs,
                     quæ requiruntur, præsto sit. Mandavit etiam <persName ref="rudolf_2_1552"
-                        >Cæsar</persName> eidem <persName ref="Capitaneus Brandeisensis"
+                        >Cæsar</persName> eidem <persName ref="mühlstein_caspar_1599"
                         >Capitaneo</persName>, ut omnia necessaria pro observatorio, meis
                     instrumentis omnibus rite disponendis idoneo, actutum procuret, quo iuxta meam
                     ordinationem omnia ante hyemem apposite exædificentur, tum quoque ut
@@ -464,7 +480,7 @@
                     reliquis obtulerim. Ne sis itaque huius moræ impatiens, mi <persName
                         ref="rosenkrantz_holger_1574">OLIGERE</persName>, habebis et hæc et alia ex
                     meis, favente Numine, quam primum fieri poterit, nec sine fœnore. Interim
-                    relinque sorori nostræ <persName ref="Brahe Sophie">SOPHIÆ</persName> eos, quos
+                    relinque sorori nostræ <persName ref="brahe_sophie_1559">SOPHIÆ</persName> eos, quos
                         <persName ref="christian_4_1577">Regi</persName> destinaram (hos enim repudiatos
                     et <persName ref="ramel_henrik_1550">RAMELIO</persName> donatos ipsam consequi posse
                     intellexi) quod etiam non displicet, malo etenim sic fieri, quam ut in invidorum
@@ -491,14 +507,14 @@
                     honestissima ac simul alijs amicis, si qui in <placeName ref="Jylland"
                         >Cimbria</placeName> vestra mei memores adhuc supersint, quos aliquos saltem
                     adhuc restare crediderim. Iterumque et sæpius quam optime vale, meque de tuis
-                    rebus luculenter etiam prima quaque occasione certiorem effice. Dabantur ex Arce
+                    rebus luculenter etiam prima quaque occasione certiorem effice.</p> <closer><dateline>Dabantur ex Arce
                     Cæsarea <placeName ref="Benatky">Benachia</placeName> die 9. Septembris Stylo
-                    novo, Anni Domini 1599.</p>
-                <lb/>
-                <p rend="rightMargin">Totus Tuus<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
-                <lb/>
-                <p rend="center">Non vacat relegere, ipsemet dispicias.</p>
-                <p>Cum hæc vix exarata essent, vocabatur Capitaneus <placeName ref="Brandýs"
+                    novo, Anni Domini 1599.</dateline>
+                
+                <signed>Totus Tuus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
+                
+                <postscript><p rend="center">Non vacat relegere, ipsemet dispicias.</p></postscript>
+                <postscript><p rend="noIndent">Cum hæc vix exarata essent, vocabatur Capitaneus <placeName ref="Brandýs"
                         >Brandeisensis</placeName>, qui hîc mecum convivabatur, <placeName
                         ref="Praha">Pragam</placeName> ad <persName ref="rudolf_2_1552"
                         >Cæsarem</persName>, ubi postquam per decem dies adfuisset, reversus ad me,
@@ -537,7 +553,7 @@
                     m...........................figere <pb ed="TBOO" n="VIII.172"/>puppibus arma et
                     bella ........................... Præsertim Principibus
                     German........................... Valachiæ heros constans et fortis
-                    ........................... Cardinali; cui <persName ref="Sigismund Báthory"
+                    ........................... Cardinali; cui <persName ref="sigismund_bathory_1573"
                         >SIGISMUNDUS</persName> Ba...........................stituit quod felix et
                     constans ........................... Interea dum hæc et alia scribo
                     ........................... <persName ref="cramer_daniel_1568">CRAMERUM</persName> tuum
@@ -557,7 +573,7 @@
                             </app> ...................... bort.</hi></foreign> Interim cogitet, quod
                     am........................... <pb ed="A" n="10r"/>nec fecit unquam, sed per te a
                     ................. tamque diutina familiaritate ..................... reticet.
-                    Iamque iterum et quam ........................... </p>
+                    Iamque iterum et quam ........................... </p></postscript>
             </div>
         </body>
     </text>

@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Ludolf Riddershusen</persName>
+                    <persName key="riddershusen_ludolf_1551">Ludolf Riddershusen</persName>
                     <placeName>Bremen</placeName>
                     <date when="1599-12-16"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 16. december</date></creation>
+            <creation><date xml:lang="da">1599, 16. december.</date><date xml:lang="en">1599, 16 December.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,18 +78,20 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-04" who="#pz">Filen etableret</change>
-            <change when="2020-01-05" who="#pz">Filen færdig</change>        </revisionDesc>
+            <change when="2020-01-05" who="#pz">Filen færdig</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
+        </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.216"/><pb ed="A" n="28v"/><foreign xml:lang="de">DEM
-                        WOLLEDLEN GESTRENGEN VNDT HOCHGELARTEN HERNN</foreign> TICHONI BRAHE,
+                    WOLLEDLEN GESTRENGEN VNDT HOCHGELARTEN HERNN</foreign> <persName ref="brahe_tycho_1546">TICHONI BRAHE</persName>,
                         <foreign xml:lang="de">ERBGESESSEN ZU KNUDTSTRUP, ITZIGER ZEIT ABER AHM
                         KEYSERLICHEN HOFE ZU PRAGE, MEINEM GROSSGUNSTIGEN HERRNN VNDT</foreign>
                     PRÆCEPTORI. <lb/><foreign xml:lang="de">PRAGE.</foreign></opener>
-                <p><pb ed="A" n="27r"/>S. P.</p><p>GENEROSE ac Magnifice Heros, fautor et Mœcenas summa
+                <p rend="indent"><pb ed="A" n="27r"/>S. P.</p><p rend="noIndent">GENEROSE ac Magnifice Heros, fautor et Mœcenas summa
                     observantia colendissime, post humilem promptorum meorum officiorum oblationem
                     Generositati Vestræ pro universis et singulis ex singulari heroica erga me
                     immeritum innata affectione in me collatis beneficijs denuo et imprimis ago et
@@ -101,7 +103,7 @@
                     ita eram perterrefactus, ut iam de studio Astrologico, cui hactenus summopere
                     incubui, ob defectum Tabularum ab alijs editarum actum esse arbitrarer. Tandem
                     vero iam ante aliquot dies ex literis lætabundis Domini <persName
-                        ref="Fabricius, David ">DAVID. FABRICIJ</persName>, Generositatem Vestram
+                        ref="fabricius_david_1564">DAVID. FABRICIJ</persName>, Generositatem Vestram
                     cum tota inclita familia <pb ed="TBOO" n="VIII.217"/><placeName ref="Praha"
                         >Pragam</placeName> salvam et incolumem pervenisse, Illustrissimumque,
                     potentissimum atque invictissimum Imperatorem, Dominum nostrum Clementissimum,
@@ -116,7 +118,7 @@
                     numerandos potius in Meridiano, quia illic directe permeant, quodque in
                     obliquissima Sphæra tunc unâ dirigendi ratio locum habeat; utut domorum
                     distributio Regiomontana istis administrari nequeat. Et hanc ob caussam Generos.
-                    Vestra potius approbet <persName ref="Campanus">CAMPANI</persName> divisionem,
+                    Vestra potius approbet <persName ref="campanus_1220">CAMPANI</persName> divisionem,
                     quæ totum Cœlum ubique respicit et universalis existit. Cui tamen Generos.
                     Vestra æqualem per Eclipticam, ob planetarum iuxta hanc incessum, partitionem
                     applicare soleat, imitatione veterum Astrologorum; verum alia atque alia in hac
@@ -146,7 +148,7 @@
                         <pb ed="TBOO" n="VIII.218"/>corpus nati afficiat, quam locus commorationis,
                     in quo vitam degit? cum tamen fere singulis annis in effectibus Eclipsium, pro
                     diversitate meridianorum et locorum, citius aut tardius sequatur effectus.</p>
-                <p rend="indent">Tertio, quia ex Diario <persName ref="Elias">ELIÆ OLAI
+                <p rend="indent">Tertio, quia ex Diario <persName ref="morsing_elias_olsen_1550">ELIÆ OLAI
                         Cimbri</persName> Octogenariam divisionem Thematum &#x260c;, &#x260d;, et
                     &#x25a1; &#x2609;<hi rend="sup">lis</hi> et &#x263E;<hi rend="sup">æ</hi>,
                     tanquam experientia et rationibus suffultam, ab illo comprobari intellexi,
@@ -188,16 +190,14 @@
                     ignoscat.</p>
                 <p rend="indent"><pb ed="TBOO" n="VIII.219"/>Deus Opt. Max. Generos. Vestram cum
                     tota inclita familia salvam et incolumem ut conservet, tueatur atque defendat,
-                    ex animo precor. Datum <placeName ref="Bremen">Bremæ</placeName> 16 X<hi
-                        rend="sup">bris</hi> Anno 99.</p>
-                <lb/>
-                <p rend="rightMargin">Generos<hi rend="sup">i</hi>
-                    Vestræ<lb/>Addictissimus<lb/>LUDOLPHUS RlDDERS[HUSIUS].</p>
-                <lb/>
-                <p><pb ed="A," n="29r"/>Anno 1512 die 22 Iunij inter horam 17 et 18 P. M. Consul
-                    Dominus <persName ref="Buren">DANIEL a BUREN</persName>, qui Anno 62 partes
-                    Doct. <persName ref="Hardenberg, Albert">ALB. HARDENBERGIJ</persName> sive
-                        <persName ref="Calvin">CALVINI</persName> contra reliquos consules
+                    ex animo precor.</p><closer><dateline>Datum <placeName ref="Bremen">Bremæ</placeName> 16 X<hi
+                        rend="sup">bris</hi> Anno 99.</dateline> <signed>Generos<hi rend="sup">i</hi>
+                    Vestræ<lb/>Addictissimus<lb/>LUDOLPHUS RlDDERS[HUSIUS].</signed></closer>
+                
+                <postscript><p rend="noIndent"><pb ed="A," n="29r"/>Anno 1512 die 22 Iunij inter horam 17 et 18 P. M. Consul
+                    Dominus <persName ref="buren_daniel_1512">DANIEL a BUREN</persName>, qui Anno 62 partes
+                    Doct. <persName ref="hardenberg_albert_1510">ALB. HARDENBERGIJ</persName> sive
+                        <persName ref="calvin_jean_1509">CALVINI</persName> contra reliquos consules
                     defendebat et exinde toti Civitati maximas turbas excitavit, natus est <placeName ref="Bremen">Bremæ</placeName>.
                     Hic Anno 39 in Senatorium ordinem et postea Anno 47 in Consulem electus, in
                     principio vero Anni 92 ob decrepitam ætatem officio Consulatus abdicans, Anno 93
@@ -211,32 +211,32 @@
                     in autumno in Senatorium ordinem elegebatur, erat vir magnæ staturæ et
                     corpulentus, habebat duas uxores, cum quibus maximas hæreditates accepit. Hic
                     Anno 97 die prima Iunij mane morbo correptus pillulas ab affine proprio, Doct.
-                        <persName ref="Servetius">IOH. BAPTISTA SERVETIO</persName>, Medico,
+                        <persName ref="servetius_johannes_baptista_1598">IOH. BAPTISTA SERVETIO</persName>, Medico,
                     assumens, ilico in Doctoris brachijs vitam cum morte commutavit.</p>
                 <p rend="indent">Anno 1551 die 10 9<hi rend="sup">bris</hi> hora 17 post M. <placeName ref="Bremen">Bremæ</placeName> natus est <persName
-                        ref="Middelstorp">WICHMANNUS MIDDELSTORP</persName>. Anno 75 die 16 Feb. in
-                    terram periculose collapsus, Carnificem nomine <persName ref="Dionysius"
+                        ref="middelstorp_wichmannus_1551">WICHMANNUS MIDDELSTORP</persName>. Anno 75 die 16 Feb. in
+                    terram periculose collapsus, Carnificem nomine <persName ref="dionysius_1575"
                         >DIONYSIUM</persName>, ut ipsum curaret, adhibere coactus, Anno 86 circa
-                    festum Paschalis in ædibus Consulis <persName ref="Belmers">LUDERI a
+                    festum Paschalis in ædibus Consulis <persName ref="belmers_luders_1586">LUDERI a
                         BELMERS</persName> pie defuncti, ex alto in navem cadebat, et nisi navis
                     adfuisset, in <placeName ref="Weser">Wisurgi</placeName> ipsum perijsse necesse esset. Tandem in principio Anni 92
                     vario genere morborum correptus <pb ed="A" n="29v"/>et 11&#176; Iunij iterum in terram
                     periculose prostratus atque ita usque in Annum 93 morbo detentus, die 8 Octobris
                     noctu sequente placide obdormivit, frustra adhibitis multis remedijs.</p>
                 <p rend="indent">Anno 1558 die 25 Augusti post horam duodecimam meridiei
-                    <placeName ref="Frankfurt an der Oder">Francofordiæ ad Oderam</placeName> natus est <persName ref="Borken, Meimarus a">MEIMARUS a
+                    <placeName ref="Frankfurt an der Oder">Francofordiæ ad Oderam</placeName> natus est <persName ref="borken_meimarus_1558">MEIMARUS a
                         BORKEN</persName>, Secretarius huius Civitatis, quia parens ipsius, Doctor
-                        <persName ref="Borken, Joh. a">IOH. a BORKEN</persName>, erat ex genere
+                        <persName ref="borken_johannes_1558">IOH. a BORKEN</persName>, erat ex genere
                     patriciorum nostræ Civitatis. Hic Anno 83 die &#x263F;<hi rend="sup">ij</hi> vesperi post festum Annunciationis
                     Mariæ, <placeName ref="Bederkesa">Bederkeza Arce</placeName> huius Civitatis, crus fregit. Anno 87 post festum
                     BARTHOLOMÆI Apostoli calido morbo <pb ed="TBOO" n="VIII.220"/>ad mortem
                     ægrotabat. Anno 91 die 4 Augusti ex nimia ingurgitatione vini præcedentis diei,
                     sanguinem ex ore expuens, furiosus extinctus est.</p>
                 <p rend="indent">Anno 1566 die 21&#176; Iulij hora 7 P. M. natus est <placeName ref="Bremen">Bremæ</placeName> <persName
-                        ref="Deddeken">HILDEMANNUS DEDDEKEN</persName>, qui Anno 90 post festum
+                        ref="deddeken_hildemann_1566">HILDEMANNUS DEDDEKEN</persName>, qui Anno 90 post festum
                     Penthecostes in mare a pyratis globo transiectus est.</p>
                 <p rend="indent">Anno 1552 die 7 Februarij, circa horam sextam pomeridianam, natus
-                    est <placeName ref="Bremen">Bremæ</placeName> Dominus <persName ref="Gerken">GERHARDUS GERKEN</persName>, insignis
+                    est <placeName ref="Bremen">Bremæ</placeName> Dominus <persName ref="gerken_gerhard_1552">GERHARDUS GERKEN</persName>, insignis
                     Musicus, amicus meus haud vulgaris, sed hostis Astrologiæ. Anno 81 in
                     Secretarium Civitatis assumptus et Anno 93 3 Iulij in Senatorem electus. Anno
                     91, die Martis post Quasimodogeniti et iterum quarto Augusti periculose
@@ -246,7 +246,7 @@
                     adhibitis a duobus Doct. Med. Civitatis adminiculis. Mirum, quidni ad decrepitam
                     pervenerit ætatem, quia &#x263E;<hi rend="sup">am</hi> coniunctam &#x2643;<hi rend="sup">i</hi> in propria domo in ll<hi rend="sup">a</hi> liberam a
                     maleficis et Ascendens illæsum habebat.</p>
-                <p rend="indent"><pb ed="A" n="30r"/>Huius boni Viri uxor <persName ref="Groninges"
+                <p rend="indent"><pb ed="A" n="30r"/>Huius boni Viri uxor <persName ref="groninges_brigitta_1559"
                     >BRIGITTA GRONINGES</persName> nata est <placeName ref="Bremen">Bremæ</placeName> Anno 1559 die 11&#176; Maij
                     die &#x2643;<hi rend="sup">is</hi> ante festum Penthecostes inter horam 7 et 8 matutinam, sed Anno 98,
                     peste grassante, mature ex Civitate in hortum fugiens, die 6 Augusti in horto
@@ -254,16 +254,16 @@
                     obdormivit, neque ipsi remedia defuêre. Et hæc honesta matrona Lunam in &#x264b;
                     ascendentem in Trino &#x2643;<hi rend="sup">is</hi> in &#x2653; existentis habebat.</p>
                 <p rend="indent">Anno 1555 die 24 Martij inter
-                    horam 2 et 3 pomeridianam nata est <placeName ref="Bremen">Bremæ</placeName> <persName ref="Tibbeke"
-                        >TIBBEKE</persName>, uxor <persName ref="Bikkers">ALEXANDRI
+                    horam 2 et 3 pomeridianam nata est <placeName ref="Bremen">Bremæ</placeName> <persName ref="tibbeke_1555"
+                        >TIBBEKE</persName>, uxor <persName ref="bikkers_alexander_1550">ALEXANDRI
                         BIKKERS</persName>, quæ Anno 96 die 26 Feb. pleuresi grassante correpta,
                     filiam charam amisit, et ipsa sanitati restituta est. Sed postea eodem Anno 4
                     7<hi rend="sup">bris</hi> ob mœrorem defunctæ filiæ in insaniam redacta et miserrime detenta usque
                     ad festum Paschatis Anni 97, quo ad sanitatem redijt. Verum Anno 98 circa
                     10 7<hi rend="sup">bris</hi> peste iterum correpta die 15 eiusdem hora 2 noctis sequentis obijt.</p>
                 <p rend="indent">Anno 1566 die &#x263E;<hi rend="sup">æ</hi> 24 Iunij inter horam 1 et 2 noctis P. M. natus
-                    est Domino <persName ref="Schulten">IOHANNI SCHULTEN</persName>, Senatori huius
-                    Civitatis, filius <persName ref="Schulten, Franz ">FRANSZ</persName>. Hic filiolus Anno 71 die &#x263F;<hi rend="sup">ij</hi> 20 Iunij hora quinta
+                    est Domino <persName ref="schulten_johann_1598">IOHANNI SCHULTEN</persName>, Senatori huius
+                    Civitatis, filius <persName ref="schulten_frantz_1598">FRANSZ</persName>. Hic filiolus Anno 71 die &#x263F;<hi rend="sup">ij</hi> 20 Iunij hora quinta
                     pomeridiana a muliere quadem, ipsum transiente, ex alto ponte orientali in fossam
                     Civitatis trudebatur, sed a Patre citra omnem spem salvatus, qui cum ipso fere
                     perijsset. Patre postea mortuo, Anno 86 in autumno <placeName ref="Amsterdam">Amsterodami</placeName> ob dissipationem
@@ -271,18 +271,18 @@
                     eandem ob causam secunda vice in carcerem coniectus est. Elapso anno in
                         <placeName ref="Italy">Italiam</placeName> profectus est, utrum adhuc
                     superstes sit nec ne, ambiguitur.</p>
-                <p rend="indent"><pb ed="TBOO" n="VIII.221"/><pb ed="A" n="30v"/>Ego <persName ref="Riddershusen">L. R.</persName> Anno 1551
+                <p rend="indent"><pb ed="TBOO" n="VIII.221"/><pb ed="A" n="30v"/>Ego <persName ref="riddershusen_ludolf_1551">L. R.</persName> Anno 1551
                     die Septembris post horam 12 noctis sequentis <placeName ref="Bremen">Bremæ</placeName> sum natus, in pueritia mihi
                     infinita contigere inconvenientia. Anno 73 die 14 Martij nocte sequente <placeName ref="braunschweig">Brunswigæ</placeName>
                     ardentissima febre et Anno 78 die 3 9<hi rend="sup">bris</hi> singulari genere morborum et angina
                     iterum corripiebar. Anno 73 13 Maij uxorem duxi. Anno 1578 16. Feb. inter horam 6
-                    et 7 vespertinam natus est mihi filius <persName ref="Riddershusen, Gregor"
+                    et 7 vespertinam natus est mihi filius <persName ref="riddershusen_gregor_1578"
                         >GREGORIUS</persName>, et hic ab ineunte ætate usque in annum 95 vario genere
                     morborum est afflictus. Anno 1579 die 26 X<hi rend="sup">bris</hi> inter horam 3 et 4 noctis
                     sequentis natus est mihi filius secundus <persName
-                        ref="Riddershusen, Hieronimus">HIERONIMUS</persName>, qui meliori et
+                        ref="riddershusen_hieronimus_1579">HIERONIMUS</persName>, qui meliori et
                     firmiori valetudine, laus Deo, utitur. Anno 82 Iulij paulo post horam 12 noctis
-                    sequentis natus est mihi filius tertius <persName ref="Riddershusen, Christian"
+                    sequentis natus est mihi filius tertius <persName ref="riddershusen_christian_1582"
                         >CHRISTIANUS</persName>. Hic Anno 83 circa festum IACOBI et Anno 84, 3
                     Aprilis ad mortem decumbebat, postea vero bona valetudine etiam utitur.</p>
                 <p rend="indent">Et quia non dubito, quin Generositas Vestra locum planetarum ad
@@ -292,7 +292,7 @@
                     Etsi vero Generos. Vestræ pro hisce et omnibus alijs in me immeritum collatis
                     beneficijs quicquam comæ pensare non videam, nihilominus qui Generosi Vestræ
                     cordi sunt, me ad omne officium quam paratissimum devinctum habebunt.</p>
-                <p rend="indent">Annotationes dierum sunt ex Calendario Iuliano desumptæ. </p>
+                <p rend="indent">Annotationes dierum sunt ex Calendario Iuliano desumptæ. </p></postscript>
             </div>
         </body>
     </text>

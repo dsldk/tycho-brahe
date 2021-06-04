@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
@@ -40,6 +44,21 @@
                                 <idno>179</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>Langebeks excerpter</collection>
+                                <idno>179</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Casseburg">
                         <bibl><title>Tychonis Brahei relatio de statu suo</title>, ed. G.B.
@@ -74,7 +93,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 18. september n.s</date></creation>
+            <creation><date xml:lang="da">1599, 18. september n.s.</date><date xml:lang="en">1599,
+                    18 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -89,6 +109,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -96,23 +117,24 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.175"/><pb ed="A" n="1r"/>ERUDITISSIME ET
-                    PRÆSTANTISSIME DOMINE M. <persName ref="vedel_anders_sørensen_1542">ANDREA WELLEIE</persName>, AMICE
-                    DIU MULTUMQUE DILECTE.<lb/>S. P.</opener>
-                <p>ACCEPI quidem antequam <placeName ref="Wittenberg">Witeberga</placeName> abirem,
-                    tuas literas, ad quas etiam luculenter respondi. Sed cum ea, quæ filio hac de re
-                    dictavi, inter componendas res meas ita distracta sint, atque inter alia forte,
-                    quæ nunc inquirere non vacat, disposita, ut reperiri nunc nequiverint, nec etiam
-                    tuæ literæ nunc ad manus sint, describam ea, quæ memoria dictitat, quæque de
-                    rebus meis te scire velim. Atque ut historiolam habeas eorum, quæ mihi partim in
-                        <placeName ref="Denmark">Patria</placeName> occasionem discessus dederunt,
-                    partim postea in exteris regionibus evenerunt (lubet enim paulo altius ordiri,
-                    etiamsi quædam ex illis tibi <app>
+                    PRÆSTANTISSIME DOMINE M. <persName ref="vedel_anders_sørensen_1542">ANDREA
+                        WELLEIE</persName>, AMICE DIU MULTUMQUE DILECTE.<lb/>S. P.</opener>
+                <p rend="noIndent">ACCEPI quidem antequam <placeName ref="Wittenberg"
+                        >Witeberga</placeName> abirem, tuas literas, ad quas etiam luculenter
+                    respondi. Sed cum ea, quæ filio hac de re dictavi, inter componendas res meas
+                    ita distracta sint, atque inter alia forte, quæ nunc inquirere non vacat,
+                    disposita, ut reperiri nunc nequiverint, nec etiam tuæ literæ nunc ad manus
+                    sint, describam ea, quæ memoria dictitat, quæque de rebus meis te scire velim.
+                    Atque ut historiolam habeas eorum, quæ mihi partim in <placeName ref="Denmark"
+                        >Patria</placeName> occasionem discessus dederunt, partim postea in exteris
+                    regionibus evenerunt (lubet enim paulo altius ordiri, etiamsi quædam ex illis
+                    tibi <app>
                         <lem wit="#Casseburg">antea</lem>
                         <rdg wit="#A">ante</rdg>
                     </app> forte perspecta sint) sic habe.</p>
                 <p rend="indent">Cum prævidissem Uraniæ istic nostræ, cui tam serio tamque impense
                     tot annos litavimus, ruinam instare, præmonui discrete per literas <persName
-                        ref="Friis, Niels">Cancellarium Regis</persName>, ut rectius provideret
+                        ref="friis_christian_1556">Cancellarium Regis</persName>, ut rectius provideret
                     atque ne id fieret præcaveret. Responsum est, <persName ref="christian_4_1577"
                         >Regi</persName> Instrumenta ista Astronomica suis impensis conservare non
                     esse integrum, quod et eventus testabatur. Nam præter beneficium illud
@@ -127,9 +149,9 @@
                         ref="Roskilde">Roeschildensi</placeName>, quæ <pb ed="TBOO" n="VIII.176"
                     />pro quarta parte meis expensis annuis non sufficiebat, quam tamen, cum vix
                     adhuc littus patrium <pb ed="A" n="1v"/>reliquissem, <persName
-                        ref="Friis, Christian ">Cancellarius</persName> a <persName
-                        ref="christian_4_1577">Rege</persName> pro se impetravit atque in privatos suos
-                    usus transtulit, adeo ut multi <app>
+                        ref="friis_christian_1556">Cancellarius</persName> a <persName
+                        ref="christian_4_1577">Rege</persName> pro se impetravit atque in privatos
+                    suos usus transtulit, adeo ut multi <app>
                         <lem>verosimiliter</lem>
                         <rdg wit="#A">verisimiliter</rdg>
                     </app> inde collegerint quod huc cursus fuit. Nam præterquam [quod] reditus pene
@@ -151,10 +173,10 @@
                         <rdg><note><q>interregno</q> A. <q>in interregno</q> Dän. Bibl. et Friis
                                 (fortasse recte)</note></rdg>
                     </app> a Proregibus et insuper a Magistratu urbis ea de causa concessa, nomine
-                        <persName ref="christian_4_1577">Regis</persName>, licet absentis, a <persName
-                        ref="valkendorf_christoffer_1525">Curiæ Magistro</persName> per urbis Præfectum
-                    interdicta, utut is tum, unus e Quatruumviris, literas, quibus Magistratui
-                        <placeName ref="København"><app>
+                        <persName ref="christian_4_1577">Regis</persName>, licet absentis, a
+                        <persName ref="valkendorf_christoffer_1525">Curiæ Magistro</persName> per
+                    urbis Præfectum interdicta, utut is tum, unus e Quatruumviris, literas, quibus
+                    Magistratui <placeName ref="København"><app>
                             <lem>Hafniaco</lem>
                             <rdg wit="#Casseburg">hafnico</rdg>
                         </app></placeName> mandabatur, ut turrim illam in eos usus mihi <app>
@@ -186,16 +208,17 @@
                         <lem>tolerabilibus</lem>
                         <rdg wit="#Casseburg">certis ac favorabilibus</rdg>
                     </app> conditionibus id fieri posset atque indemnitati meæ consuleretur. Verum
-                    omnia incassum, nihil respondente <persName ref="christian_4_1577">Rege</persName>
-                    <persName ref="ulrich_3_1527">avo</persName>, et meas inclementius, quam sperassem et
-                    quam forte meritæ erant, accipiente. Postea increbrescente peste <placeName
-                        ref="Rostock">Rostochij</placeName> in <placeName ref="Holstein"
+                    omnia incassum, nihil respondente <persName ref="christian_4_1577"
+                        >Rege</persName>
+                    <persName ref="ulrich_3_1527">avo</persName>, et meas inclementius, quam
+                    sperassem et quam forte meritæ erant, accipiente. Postea increbrescente peste
+                        <placeName ref="Rostock">Rostochij</placeName> in <placeName ref="Holstein"
                         >Holsatiam</placeName> a laudatæ memoriæ viro Domino <persName
                         ref="rantzau_henrik_1526">HENRICO RANTZOVIO</persName>, affine meo et amico
                     honorando, per literas evocatus, eo me cum tota familia recepi, atque arcem
                     quandam eius, semisse saltem milliaris <placeName ref="Hamburg"
                         >Hamburgo</placeName> distantem, in quam etiam instrumenta, quotquot
-                        <placeName ref="Københvan">Hafniæ</placeName> habui, et suppellectilem <app>
+                        <placeName ref="København">Hafniæ</placeName> habui, et suppellectilem <app>
                         <lem>istic</lem>
                         <rdg wit="#Casseburg">isthinc</rdg>
                     </app> relictam transtuli, ipso benigne concedente, per integrum annum
@@ -215,70 +238,72 @@
                     </app>
                     <placeName ref="Praha">Pragam</placeName> versus profectionem instituebam,
                     relicta <placeName ref="Wandsburg">Wandesburgi</placeName> familia mea muliebri,
-                    donec de <persName ref="rudolf_2_1552">Cæsaris</persName> clementissima voluntate
-                    edoctus essem. <placeName ref="Dresden">Dresdam</placeName> cum advenissem,
-                    audivi in <placeName ref="Bohemia">Bohemia</placeName> omnia turbata esse ob
-                    pestem et dysenteriam istic grassantes, <persName ref="rudolf_2_1552"
+                    donec de <persName ref="rudolf_2_1552">Cæsaris</persName> clementissima
+                    voluntate edoctus essem. <placeName ref="Dresden">Dresdam</placeName> cum
+                    advenissem, audivi in <placeName ref="Bohemia">Bohemia</placeName> omnia turbata
+                    esse ob pestem et dysenteriam istic grassantes, <persName ref="rudolf_2_1552"
                         >Imperatorem</persName>
                     <placeName ref="Praha">Pragæ</placeName> non esse, sed in arcem quandam
                     secessisse, ut tutior <pb ed="A" n="2v"/>sit, nec dari cuipiam audientiam (uti
                     vocant) quare, scriptis in aulam literis, quid mihi faciendum restaret,
-                    percunctatus sum. Rescriptum est manu magnifici Domini <persName ref="coraduz_rudolf_1618"
-                        >CORADUCIJ</persName> Imperij Procancellarij in hunc modum: <persName
-                        ref="rudolf_2_1552">Cæsaream Maiestatem</persName> de meo <placeName
-                        ref="Dresden">Dresdam</placeName> adventu perlibenter intellexisse, utque
-                    istic aut in vicinia, si <placeName ref="Praha">Pragam</placeName>
+                    percunctatus sum. Rescriptum est manu magnifici Domini <persName
+                        ref="coraduz_rudolf_1618">CORADUCIJ</persName> Imperij Procancellarij in
+                    hunc modum: <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName> de meo
+                        <placeName ref="Dresden">Dresdam</placeName> adventu perlibenter
+                    intellexisse, utque istic aut in vicinia, si <placeName ref="Praha"
+                        >Pragam</placeName>
                     <app>
                         <lem>accedere non</lem>
                         <rdg wit="#Casseburg">non accedere</rdg>
                     </app> luberet, me continerem, cupere, donec, sedatis morbis epidemicis, aula
                     dispersa recolligeretur, interea, ubi commode collocandus sim, benigne cogitare.
                     Quo accepto responso, <placeName ref="Wittenberg">Witebergam</placeName> pedem
-                    retuli, atque istic dimidio anno moratus sum, <persName ref="melanchton_philipp_1497"
-                        >Philippæas</persName> ædes inhabitans. Licet enim statim in fine Ianuarij
-                    ex clementissimo <persName ref="rudolf_2_1552">Cæsaris</persName> mandato per dictum
-                    magnificum Dominum <persName ref="coraduz_rudolf_1618">CORADUCIUM</persName>
-                    Procancellarium <placeName ref="Praha">Pragam</placeName> rursus auguste et
-                    honorifice (<app>
+                    retuli, atque istic dimidio anno moratus sum, <persName
+                        ref="melanchton_philipp_1497">Philippæas</persName> ædes inhabitans. Licet
+                    enim statim in fine Ianuarij ex clementissimo <persName ref="rudolf_2_1552"
+                        >Cæsaris</persName> mandato per dictum magnificum Dominum <persName
+                        ref="coraduz_rudolf_1618">CORADUCIUM</persName> Procancellarium <placeName
+                        ref="Praha">Pragam</placeName> rursus auguste et honorifice (<app>
                         <lem>habes hîc literarum exemplar</lem>
                         <rdg><note>om. Casseburg</note></rdg>
                     </app>) accersitus sim, tamen ante solstitium æstivum huius anni iter eo
                     suscipere non <app>
                         <lem wit="#Friis">concedebatur</lem>
                         <rdg wit="#A #Casseburg #Dän.Bibl.">concedebat</rdg>
-                    </app>, tum quod nonnullos libros <persName ref="rudolf_2_1552">Cæsari</persName>
-                    destinatos prius absolvere nequiverim, tum quod ob <persName
-                        ref="brahe_magdalene_1574">filiæ natu grandioris</persName> invaletudinem ibi
-                    ultra voluntatem detinerer, sed circa dictum tempus itineri me accingens, et in
-                    transitu <placeName ref="Dresden">Dresdæ</placeName> relicto Gynæceo meo (quod
-                        <placeName ref="Wittenberg">Witebergam</placeName> circa brumam antecedentem
-                    e <placeName ref="Wandsburg">Wandesburgo</placeName> ad me venire feceram)
-                        <placeName ref="Praha">Pragam</placeName> circa Iohannis festum, veteri
-                    numeratione, <app>
+                    </app>, tum quod nonnullos libros <persName ref="rudolf_2_1552"
+                        >Cæsari</persName> destinatos prius absolvere nequiverim, tum quod ob
+                        <persName ref="brahe_magdalene_1574">filiæ natu grandioris</persName>
+                    invaletudinem ibi ultra voluntatem detinerer, sed circa dictum tempus itineri me
+                    accingens, et in transitu <placeName ref="Dresden">Dresdæ</placeName> relicto
+                    Gynæceo meo (quod <placeName ref="Wittenberg">Witebergam</placeName> circa
+                    brumam antecedentem e <placeName ref="Wandsburg">Wandesburgo</placeName> ad me
+                    venire feceram) <placeName ref="Praha">Pragam</placeName> circa Iohannis festum,
+                    veteri numeratione, <app>
                         <lem wit="#Dän.Bibl.">intravi</lem>
                         <rdg wit="#A #Casseburg">lustravi</rdg>
                     </app>. Quæ vero mihi postea istic et alias in <placeName ref="Bohemia"
                         >Bohemia</placeName> evenerunt, nunc brevibus commemorabo.</p>
-                <p rend="indent">Ab ipsius <persName ref="rudolf_2_1552">Cæsarea Maiestate</persName>
-                    clementissimo favore acceptus sum, solusque auditus, nemine alio præsente, et
-                    respondente ipso <persName ref="rudolf_2_1552">Cæsare</persName> benignissimis
-                    verbis, idque Latine. Tres libros, quos ipsius <persName ref="rudolf_2_1552">Cæsareæ
-                        Maiestati</persName> in proprias manus humillime porrexi (sic enim fieri
-                    voluit) lubentissime accepit et sequentibus mox diebus, <pb ed="A" n="3r"
-                    />interdumque usque in multam noctem (referente magnifico Domino <persName
-                        ref="barvitius_johann_anton_1555">BARVICIO</persName>) perlegit. Iussus sum mox Gynæceum meum
-                        <placeName ref="Dresden">Dresdæ</placeName> relictum advehi curare. Actum
-                    deinde est mecum de annuo salario, quod cum <persName ref="rudolf_2_1552"
+                <p rend="indent">Ab ipsius <persName ref="rudolf_2_1552">Cæsarea
+                        Maiestate</persName> clementissimo favore acceptus sum, solusque auditus,
+                    nemine alio præsente, et respondente ipso <persName ref="rudolf_2_1552"
+                        >Cæsare</persName> benignissimis verbis, idque Latine. Tres libros, quos
+                    ipsius <persName ref="rudolf_2_1552">Cæsareæ Maiestati</persName> in proprias
+                    manus humillime porrexi (sic enim fieri voluit) lubentissime accepit et
+                    sequentibus mox diebus, <pb ed="A" n="3r"/>interdumque usque in multam noctem
+                    (referente magnifico Domino <persName ref="barvitius_johann_anton_1555"
+                        >BARVICIO</persName>) perlegit. Iussus sum mox Gynæceum meum <placeName
+                        ref="Dresden">Dresdæ</placeName> relictum advehi curare. Actum deinde est
+                    mecum de annuo salario, quod cum <persName ref="rudolf_2_1552"
                         >Cæsaris</persName> clementiæ et benignitati liberum relinquerem, deputatum
-                    mihi est ab <persName ref="rudolf_2_1552">ipsius Maiestate</persName> trium millium
-                    florenorum in certa pecunia, et in accidentarijs quibusdam alios millenos
-                    attingens, reluctantibus quidem <pb ed="TBOO" n="VIII.178"/>nonnullis ex
-                    Consiliarijs, quod nemo in aula, etiam ex Comitibus et Baronibus, quidiu
+                    mihi est ab <persName ref="rudolf_2_1552">ipsius Maiestate</persName> trium
+                    millium florenorum in certa pecunia, et in accidentarijs quibusdam alios
+                    millenos attingens, reluctantibus quidem <pb ed="TBOO" n="VIII.178"/>nonnullis
+                    ex Consiliarijs, quod nemo in aula, etiam ex Comitibus et Baronibus, quidiu
                     inservierunt, tantum quotannis <app>
                         <lem>obtineret</lem>
                         <rdg wit="#Casseburg">obtinent</rdg>
-                    </app>, sed urgente <persName ref="rudolf_2_1552">Cæsare</persName> ut sic fieret,
-                    nec dissuadente illustri Domino <persName ref="Rumpf"><app>
+                    </app>, sed urgente <persName ref="rudolf_2_1552">Cæsare</persName> ut sic
+                    fieret, nec dissuadente illustri Domino <persName ref="rumpf_wolfgang_1535"><app>
                             <lem>RUMPHIO</lem>
                             <rdg wit="#A">Kumphio</rdg>
                         </app></persName>, Curiæ Magistro, aut Domino <persName ref="Trautsonius"
@@ -293,22 +318,22 @@
                         <lem>vacarit</lem>
                         <rdg wit="#Casseburg">vacaret</rdg>
                     </app>, ut familiæ meæ post me in peregrinis oris consuleretur. Introductus
-                    quidem sum in ædes <persName ref="kurz_jacob_1554">Curtianas</persName> magnifice
-                    exstructas, impensis maioribus viginti millibus Ioachimicis, arcique vicinas,
-                    etiam <app>
+                    quidem sum in ædes <persName ref="kurz_jacob_1554">Curtianas</persName>
+                    magnifice exstructas, impensis maioribus viginti millibus Ioachimicis, arcique
+                    vicinas, etiam <app>
                         <lem>antequam</lem>
                         <rdg wit="#A">ante</rdg>
                         <rdg wit="#Casseburg">antea</rdg>
                     </app> audientiam (uti loquuntur) habueram, idque per prænominatum magnificum
-                    Dominum <persName ref="barvitius_johann_anton_1555">BARVICIUM</persName>, Imperij supremum
-                    Secretarium <persName ref="rudolf_2_1552">Cæsaris</persName>que intimum, qui pene
-                    omnia solus apud ipsum efficit. Verum cum is animadverteret, me eas non admodum
-                    affectare (nolebam enim, ut vidua, quæ eas <app>
+                    Dominum <persName ref="barvitius_johann_anton_1555">BARVICIUM</persName>,
+                    Imperij supremum Secretarium <persName ref="rudolf_2_1552">Cæsaris</persName>que
+                    intimum, qui pene omnia solus apud ipsum efficit. Verum cum is animadverteret,
+                    me eas non admodum affectare (nolebam enim, ut vidua, quæ eas <app>
                         <lem>etiamnum</lem>
                         <rdg><note>om. Casseburg</note></rdg>
                     </app> inhabitabat, mea de causa emigraret, quodque nimijs visitationibus
-                    obnoxiæ essent) subiecit, <persName ref="rudolf_2_1552">Cæsarem</persName> facile
-                    aliquam <app>
+                    obnoxiæ essent) subiecit, <persName ref="rudolf_2_1552">Cæsarem</persName>
+                    facile aliquam <app>
                         <lem>ex suis</lem>
                         <rdg wit="#Casseburg">suis ex</rdg>
                     </app> arcibus mihi inhabitandam concessurum, unius vel <app>
@@ -323,7 +348,7 @@
                         <rdg wit="#A">seorsum</rdg>
                     </app> degens invidiæ aliorum minus forem obnoxius. Id cum magis arridere
                     intelligeret, ad <persName ref="rudolf_2_1552">Cæsarem</persName> rem detulit.
-                    Advocatus mox <persName ref="Capitaneus Brandeisensis">Capitaneus
+                    Advocatus mox <persName ref="mühlstein_caspar_1599">Capitaneus
                         Brandeisensis</persName>, qui in tres Cæsarianas arces me deduceret. Prima
                         <placeName ref="Brandýs">Brandeisia</placeName>, distans ab urbe 3
                     militaribus, altera <placeName ref="Lysá">Lissa</placeName>, 4 remota, tertia
@@ -333,15 +358,15 @@
                         </app></placeName>, quæ 5 milliaribus sive 6 horarum itinere (est enim via
                     plana) inde abest. Quibus perlustratis prætuli hanc <placeName ref="Benatky"
                         >Benachiam</placeName>, in quam paucis post diebus per eundem <persName
-                        ref="Capitaneus Brandeisensis">Capitaneum</persName> solenniter introductus
-                    sum. Obtulit etiam <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName> sponte
-                    sua, se novum Uraniburgum pro me <app>
+                        ref="mühlstein_caspar_1599">Capitaneum</persName> solenniter introductus
+                    sum. Obtulit etiam <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName>
+                    sponte sua, se novum Uraniburgum pro me <app>
                         <lem>ædificari</lem>
                         <rdg wit="#Dän.Bibl.">exædificari</rdg>
                     </app> curaturum, quod Danico illi, in libro quem obtuleram repræsentato, non
-                    cederet, iussitque <persName ref="rudolf_2_1552">Cæsar</persName> mihi per <persName
-                        ref="barvitius_johann_anton_1555">BARVICIUM</persName> hæc verba conclusionis loco dici: si ea,
-                    quæ iam <app>
+                    cederet, iussitque <persName ref="rudolf_2_1552">Cæsar</persName> mihi per
+                        <persName ref="barvitius_johann_anton_1555">BARVICIUM</persName> hæc verba
+                    conclusionis loco dici: si ea, quæ iam <app>
                         <lem>deputarat</lem>
                         <rdg wit="#Casseburg">deputaret</rdg>
                     </app>, mihi non sufficerent, et pluribus in posterum opus haberem, nec sibi
@@ -349,10 +374,11 @@
                     agens, ijs pro tempore acquievi. Extruximus nunc hîc <placeName ref="Benatky"
                         >Benachiæ</placeName> novum observatorium pro omnibus meis instrumentis rite
                     et seorsim disponendis, simulque opportunum laboratorium pro exercitijs
-                    Spagyricis, tum quoque alijs, quæcumque voluero, ipso <persName ref="rudolf_2_1552"
-                        >Cæsare</persName> sumptus benignissime præbente, et quotquot desideraro
-                    artifices mechanicos sustentante, quod in Patria proprijs impensis faciendum
-                    erat, nulla tamen residua <pb ed="TBOO" n="VIII.179"/>residua manente gratia <app>
+                    Spagyricis, tum quoque alijs, quæcumque voluero, ipso <persName
+                        ref="rudolf_2_1552">Cæsare</persName> sumptus benignissime præbente, et
+                    quotquot desideraro artifices mechanicos sustentante, quod in Patria proprijs
+                    impensis faciendum erat, nulla tamen residua <pb ed="TBOO" n="VIII.179"/>residua
+                    manente gratia <app>
                         <lem>pro</lem>
                         <rdg><note>posterius om. Dän.Bibl.</note></rdg>
                     </app> ijs aut etiam pro longe maioribus. Omnia erant ingrata, nihil fecisse
@@ -379,7 +405,7 @@
                         <rdg wit="#Casseburg">optarem</rdg>
                     </app>. Sed obstabant Senatusconsulti literæ in <placeName ref="Denmark"
                         >Dania</placeName> mihi statim ab obitu laudatissimæ memoriæ Regis <persName
-                        ref="Fredrik 2.">FRIDERICI</persName> concessæ et aliter, quam evenit,
+                        ref="frederik_2_1534">FRIDERICI</persName> concessæ et aliter, quam evenit,
                     promittentes, paucorum tamen culpa, indolentibus cæteris viris integris et
                     Patriæ honoris studiosis, meique amantibus. Agasque Deo propitio et <app>
                         <lem>ter maximo</lem>
@@ -388,8 +414,8 @@
                         <lem>integri</lem>
                         <rdg><note>post <q>integri</q> add. <q>homines</q> Casseburg</note></rdg>
                     </app> bonarumque scientiarum amantes, quod in hoc augustissimo et laudatissimo
-                        <persName ref="rudolf_2_1552">Cæsare</persName> tam benignum Mecænatem mihi et
-                    meis prospexerit, cui <app>
+                        <persName ref="rudolf_2_1552">Cæsare</persName> tam benignum Mecænatem mihi
+                    et meis prospexerit, cui <app>
                         <lem>æviterno</lem>
                         <rdg wit="#Casseburg">æterno</rdg>
                     </app> Deo sit laus, honor et gloria in secula.</p>
@@ -399,31 +425,33 @@
                     istic ob magnitudinem relicta, aliasque res meas ante hyemem per Albim asportari
                     faciant, quo etiam nomine <persName ref="rudolf_2_1552">Imperatoria
                         Maiestas</persName> ad Magistratum tam <placeName ref="Magdeburg"
-                        >Magdeburgensem</placeName> quam <placeName ref="Hambirg"
+                        >Magdeburgensem</placeName> quam <placeName ref="Hamburg"
                         >Hamburgensem</placeName> clementer <app>
                         <lem>scripsit</lem>
                         <rdg wit="#A">scripserit</rdg>
-                    </app> et Dominus <persName ref="barvitius_johann_anton_1555">BARVICIUS</persName> iussu <persName
-                        ref="rudolf_2_1552">Cæsaris</persName> in <placeName ref="Denmark"
-                        >Daniam</placeName> ad Dominum <persName ref="ramel_henrik_1550">HENRICUM
-                        RAMELIUM</persName>, Senatorem Regni, quo negotium <app>
+                    </app> et Dominus <persName ref="barvitius_johann_anton_1555"
+                        >BARVICIUS</persName> iussu <persName ref="rudolf_2_1552">Cæsaris</persName>
+                    in <placeName ref="Denmark">Daniam</placeName> ad Dominum <persName
+                        ref="ramel_henrik_1550">HENRICUM RAMELIUM</persName>, Senatorem Regni, quo
+                    negotium <app>
                         <lem wit="#Casseburg">istud</lem>
                         <rdg wit="#A">istuc</rdg>
                         <rdg wit="#Dän.Bibl.">isthic</rdg>
                         <rdg wit="#Friis">istic</rdg>
-                    </app> promptius procuret. Dedit etiam ipsius <persName ref="rudolf_2_1552">Cæsarea
-                        Maiestas</persName> ad illustrissimum <persName ref="joachim_friedrich_1546"
-                        >Electorem Brandeburgicum</persName> literas, quibus eum ut <persName
-                            ref="muller_johannes_1608">MULLERUM</persName> Mathematicum suum per unum aut alterum
-                    annum mihi <app>
+                    </app> promptius procuret. Dedit etiam ipsius <persName ref="rudolf_2_1552"
+                        >Cæsarea Maiestas</persName> ad illustrissimum <persName
+                        ref="joachim_friedrich_1546">Electorem Brandeburgicum</persName> literas,
+                    quibus eum ut <persName ref="muller_johannes_1608">MULLERUM</persName>
+                    Mathematicum suum per unum aut alterum annum mihi <app>
                         <lem>concedat laborum</lem>
                         <rdg wit="#Casseburg">concederet laboris</rdg>
-                    </app> socium (sic enim inter <persName ref="muller_johannes_1608">MULLERUM</persName> et
-                    me, cum <placeName ref="Wittenberg">Witebergæ</placeName> me inviseret,
-                    convenit) rogat. Quin et alias <persName ref="rudolf_2_1552">Cæsarea
-                        Maiestas</persName>, quæcunque in rebus mechanicis vel alijs, ad opus quod
-                    molior conducentia, clementissime mihi subministrari iussit, estque præterea
-                    benignissimo et Cæsareo favore erga me et meos affecta.</p>
+                    </app> socium (sic enim inter <persName ref="muller_johannes_1608"
+                        >MULLERUM</persName> et me, cum <placeName ref="Wittenberg"
+                        >Witebergæ</placeName> me inviseret, convenit) rogat. Quin et alias
+                        <persName ref="rudolf_2_1552">Cæsarea Maiestas</persName>, quæcunque in
+                    rebus mechanicis vel alijs, ad opus quod molior conducentia, clementissime mihi
+                    subministrari iussit, estque præterea benignissimo et Cæsareo favore erga me et
+                    meos affecta.</p>
                 <p rend="indent">Habes nunc, charissime Domine <app>
                         <lem>M. <persName ref="vedel_anders_sørensen_1542">ANDREA</persName></lem>
                         <rdg wit="#Casseburg">Magister</rdg>
@@ -543,12 +571,12 @@
                         <lem>datur</lem>
                         <rdg wit="#Dän.Bibl.">dabitur</rdg>
                     </app>, investiganda erit per opportunitatem, ubi a gravioribus negotijs
-                    aliquantulum respiraro, ista <persName ref="ursus_nicolaus_1551">Bestia</persName> atque in
-                    ius, ubicunque latitarit, protrahenda. Quod etiam mihi non erit difficile, sive
-                        <placeName ref="Praha">Pragæ</placeName> sive alibi id exequendum fuerit.
-                    Consului hac de re tacite <persName ref="Zbyněk">Archiepiscopum
-                        Pragensem</persName>, virum illustrem et claro genere oriundum, an se
-                    conscio <app>
+                    aliquantulum respiraro, ista <persName ref="ursus_nicolaus_1551"
+                        >Bestia</persName> atque in ius, ubicunque latitarit, protrahenda. Quod
+                    etiam mihi non erit difficile, sive <placeName ref="Praha">Pragæ</placeName>
+                    sive alibi id exequendum fuerit. Consului hac de re tacite <persName
+                        ref="Zbyněk">Archiepiscopum Pragensem</persName>, virum illustrem et claro
+                    genere oriundum, an se conscio <app>
                         <lem>famosum hoc</lem>
                         <rdg wit="#Casseburg">hoc famosum</rdg>
                     </app> scriptum <placeName ref="Praha">Pragæ</placeName> excusum sit, cum eius
@@ -559,10 +587,10 @@
                         <rdg wit="#Casseburg">addidit</rdg>
                     </app>. Videbunt aliquando Antesignani Machiavellistici in <placeName
                         ref="Denmark">Dania</placeName> Coriphæi, quam incassum seipsos in gratiam
-                    magistri sui titillarint, quod tale scriptum ex <persName ref="aalborg_hans_1542">IOHANNE
-                        AALBURGENSE</persName> congratulationis causa acceperint, atque in suis
-                    conviviolis magno applausu, si non potius maiore stultitia, legerint, tanquam
-                    escæ et vini <app>
+                    magistri sui titillarint, quod tale scriptum ex <persName
+                        ref="aalborg_hans_1542">IOHANNE AALBURGENSE</persName> congratulationis
+                    causa acceperint, atque in suis conviviolis magno applausu, si non potius maiore
+                    stultitia, legerint, tanquam escæ et vini <app>
                         <lem>condimenta</lem>
                         <rdg wit="#Dän.Bibl.">condimentum</rdg>
                     </app>, utque sic probare possent per unum scurrile alterum, causas mei
@@ -604,19 +632,22 @@
                         <rdg><note>om. Casseburg</note></rdg>
                     </app> liberis, quibus prodesse, quantum potero, semper satagam, iterum
                     vale.</p>
-                <p rend="indent">Dabantur <placeName ref="Benatky">Benachiæ</placeName> properanti
-                    calamo in arce <app>
-                        <lem>Cæsariana</lem>
-                        <rdg wit="#Casseburg">Cæsarina</rdg>
-                    </app> in <placeName ref="Bohemia">Bohemia</placeName> die 18. Septembr. <app>
-                        <lem>Anno</lem>
-                        <rdg><note>om. Casseburg</note></rdg>
-                    </app> 1599.</p>
-                <lb/>
-                <p rend="rightMargin">Tui amantissimus TYCHO BRAHE<lb/>manu propria.<lb/><app>
-                        <lem>Non vacabat relegere. Ipsemet dispicias.</lem>
-                        <rdg><note>om. Casseburg</note></rdg>
-                    </app></p>
+                <closer><dateline>Dabantur <placeName ref="Benatky">Benachiæ</placeName> properanti
+                        calamo in arce <app>
+                            <lem>Cæsariana</lem>
+                            <rdg wit="#Casseburg">Cæsarina</rdg>
+                        </app> in <placeName ref="Bohemia">Bohemia</placeName> die 18. Septembr. <app>
+                            <lem>Anno</lem>
+                            <rdg><note>om. Casseburg</note></rdg>
+                        </app> 1599.</dateline>
+                    <signed>Tui amantissimus <persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName><lb/>manu propria.</signed></closer>
+                <postscript>
+                    <p rend="center"><app>
+                            <lem>Non vacabat relegere. Ipsemet dispicias.</lem>
+                            <rdg><note>om. Casseburg</note></rdg>
+                        </app></p>
+                </postscript>
             </div>
         </body>
     </text>

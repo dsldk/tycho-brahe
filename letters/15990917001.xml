@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="Friis">
                         <bibl><title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
@@ -58,7 +77,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Hans Georg Herwart von
+                        Hohenburg</persName>
                     <placeName>München</placeName>
                     <date when="1599-09-17"/>
                     <note>n.s.</note>
@@ -68,7 +88,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 17. september n.s</date></creation>
+            <creation><date xml:lang="da">1599, 17. september n.s.</date><date xml:lang="en">1599,
+                    17 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,17 +104,20 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.172"/><pb ed="A" n="1r"/>TYCHONI BRAHE <persName
-                        ref="Herwart">IOAN: GEORG HERWART AB HOHENBURG</persName>.</opener>
-                <p>LITERAS tuas, vir nobiliss. atque mathematicorum omnium facile princeps,
-                        <placeName ref="Benatky">Benachiæ</placeName> ultima mensis novissime elapsi
-                    ad me datas, unâ cum adiuncto deliquij lunaris calculo et systemate probe
+                <opener><pb ed="TBOO" n="VIII.172"/><pb ed="A" n="1r"/><persName
+                        ref="brahe_tycho_1546">TYCHONI BRAHE</persName>
+                    <persName ref="herwart_von_hohenburg_hans_georg_1553">IOAN: GEORG HERWART AB
+                        HOHENBURG</persName>.</opener>
+                <p rend="noIndent">LITERAS tuas, vir nobiliss. atque mathematicorum omnium facile
+                    princeps, <placeName ref="Benatky">Benachiæ</placeName> ultima mensis novissime
+                    elapsi ad me datas, unâ cum adiuncto deliquij lunaris calculo et systemate probe
                     accepi, et in primis magnopere sum lætatus, sacram <persName ref="rudolf_2_1552"
                         >Cæs. Maiest.</persName> id quod fore animus mihi iam antea præsagiebat,
                     tibi tuisque studijs pro dignitate et meritis prospexisse, atque eius nomine
@@ -124,32 +148,34 @@
                     mutandis consimilem olim habuit rationem motus Lunæ, quam qualemque tu modo
                     accuratissimis tuis rectificatissimorum, quoad eius fieri potest, instrumentorum
                     observationibus eruisti.</p>
-                <p rend="indent">Nec me movent observationes illæ a <persName ref="ptolemaios_klaudios_0100"
-                        >PTOLOMÆO</persName> et veteribus habitæ, cum plus satis constet, quam
-                    crassa Minerva veteres illi artifices astronomicas observationes tractarint,
-                    destituti non modo idoneis instrumentis, verum etiam ut plurimum calculi quoque
-                    præcisa ratione, id quod <persName ref="Aristarchos">ARISTARCHI</persName>
-                    Samij, <persName ref="Autolycos">AUTOLYCI</persName> et <persName
-                        ref="hipparchos_0190">HIPPARCHI</persName> Bithynij libelli, qui ad nos
-                    pervenere, cuivis facile fidem facient, plerumque enim ἐν πλάτει proportionem
-                        ali<pb ed="A" n="2v"/>quam forte harmonicam, vel numerum aliquem rotundum,
-                    qui non multum a vero discrepare videbatur, quæsiverunt, eoque contenti pauca
-                    quædam minuta nihili æstimarunt, imo vel unius gradus quadrantem non magni
-                    fecerunt. Ipse quoque <persName ref="ptolemaios_klaudios_0100">PTOLOMÆUS</persName> quoad
-                    latitudinem Lunæ, de qua scribis, cum acquieverit <persName ref="Eratosthenes"
+                <p rend="indent">Nec me movent observationes illæ a <persName
+                        ref="ptolemaios_klaudios_0100">PTOLOMÆO</persName> et veteribus habitæ, cum
+                    plus satis constet, quam crassa Minerva veteres illi artifices astronomicas
+                    observationes tractarint, destituti non modo idoneis instrumentis, verum etiam
+                    ut plurimum calculi quoque præcisa ratione, id quod <persName
+                        ref="aristarchos_0310">ARISTARCHI</persName> Samij, <persName
+                        ref="autolykos_0360">AUTOLYCI</persName> et <persName ref="hipparchos_0190"
+                        >HIPPARCHI</persName> Bithynij libelli, qui ad nos pervenere, cuivis facile
+                    fidem facient, plerumque enim ἐν πλάτει proportionem ali<pb ed="A" n="2v"/>quam
+                    forte harmonicam, vel numerum aliquem rotundum, qui non multum a vero discrepare
+                    videbatur, quæsiverunt, eoque contenti pauca quædam minuta nihili æstimarunt,
+                    imo vel unius gradus quadrantem non magni fecerunt. Ipse quoque <persName
+                        ref="ptolemaios_klaudios_0100">PTOLOMÆUS</persName> quoad latitudinem Lunæ,
+                    de qua scribis, cum acquieverit <persName ref="eratosthenes_0276"
                         >ERATOSTHENIS</persName> invento, quo is solstitialium punctorum distantiam
                     ad integrum circulum se habere (ἔγγιστα) ut 11 ad 83 statuerat, consequenter
                     necessario observationis ea ratione, qua usus est, ob assumptam a se nimiam
                     istam Zodiaci obliquitatem, minorem iusto latitudinem <app>
                         <lem wit="#Friis">Lunæ</lem>
                         <rdg wit="#A">Luna</rdg>
-                    </app> inferre debuit. Quodsi, ut credi par est, <persName ref="ptolemaios_klaudios_0100"
-                        >PTOLOMÆI</persName> temporis obliquitas Zodiaci tanta non omnino fuerat,
-                    quantam ex præfata <persName ref="Eratosthenes">ERATOSTHENIS</persName> opinione
-                    et <persName ref="hipparchos_0190">HIPPARCHUS</persName> et <persName
-                        ref="ptolemaios_klaudios_0100">PTOLOMÆUS</persName> eam admiserunt, ex ipsissima <persName
-                        ref="ptolemaios_klaudios_0100">PTOLOMÆI</persName> observatione inferri potest, maiorem
-                    etiam <app>
+                    </app> inferre debuit. Quodsi, ut credi par est, <persName
+                        ref="ptolemaios_klaudios_0100">PTOLOMÆI</persName> temporis obliquitas
+                    Zodiaci tanta non omnino fuerat, quantam ex præfata <persName
+                        ref="eratosthenes_0276">ERATOSTHENIS</persName> opinione et <persName
+                        ref="hipparchos_0190">HIPPARCHUS</persName> et <persName
+                        ref="ptolemaios_klaudios_0100">PTOLOMÆUS</persName> eam admiserunt, ex
+                    ipsissima <persName ref="ptolemaios_klaudios_0100">PTOLOMÆI</persName>
+                    observatione inferri potest, maiorem etiam <app>
                         <lem wit="#Friis">tum</lem>
                         <rdg wit="#A">tam</rdg>
                     </app> fuisse &#x263E; <pb ed="A" n="3r"/>in quadraturis latitudinem, quam eam
@@ -167,7 +193,7 @@
                         <lem wit="#Friis">supputari</lem>
                         <rdg wit="#A">supputare</rdg>
                     </app> possint, id quod ex nudis tabulis fieret quam commodissime, atque interea
-                    temporis exemplo discipulorum magni illius <persName ref="Pythagoras"
+                    temporis exemplo discipulorum magni illius <persName ref="pythagoras_0580"
                         >PYTHAGORÆ</persName> merito atque iure optimo, τὸ αὐτός <pb ed="A" n="3v"
                     />ἔφα rationis loco allegaremus, donec apparatum istum observationum atque
                     demonstrationum tuarum concinnares.</p>
@@ -184,12 +210,13 @@
                     labore atque tædio sola subtractionis ope quotientem in quovis genere calculi,
                     tam vulgari, quam sexagenario, reperi<pb ed="A" n="4r"/>re, atque ob id sine
                     fastidio et temporis tractu triangula quæque, etsi radius instar <persName
-                        ref="Otho">VALENTINI OTHONIS</persName> sit maximus, facile resolvere. Hoc
-                    autem unicum unice exopto, ut Eclipses aliquas luminarium vetustas ex datis et
-                    placitis magni illius TYCHONIS BRAHE supputare queam. Quod si ulla ratione vel
-                    lege vel conditione hoc ipsum impetrare potero, ut Eclipses aliquas veteres,
-                    quas ab alijs hactenus nec animadversas nec supputatas collegi, calculo tuo
-                    exactissimo subijcere, et ad te Matheseos <persName ref="Aristarchos"
+                        ref="otho_valentinus_1545">VALENTINI OTHONIS</persName> sit maximus, facile
+                    resolvere. Hoc autem unicum unice exopto, ut Eclipses aliquas luminarium
+                    vetustas ex datis et placitis magni illius <persName ref="brahe_tycho_1546"
+                        >TYCHONIS BRAHE</persName> supputare queam. Quod si ulla ratione vel lege
+                    vel conditione hoc ipsum impetrare potero, ut Eclipses aliquas veteres, quas ab
+                    alijs hactenus nec animadversas nec supputatas collegi, calculo tuo exactissimo
+                    subijcere, et ad te Matheseos <persName ref="aristarchos_0310"
                         >ARISTARCHUM</persName> deferre valeam, per Deum summum Opt. Max. in omnem
                     eventum, hoc chyrographo meo teste καρτερὸν ὅρκον sanctissime iuro, nemini me
                     unquam quicquam de ijs communicaturum, quæ ad huiusmodi calculum instituendum
@@ -210,11 +237,11 @@
                     certiorem reddere possis. Hæc raptim, urgente tabellario. Vale feliciter, et me
                     favore tuo prosequi perge. Quod si ulla in re tibi commodo vel usui esse queam,
                     vel in his partibus, vel in ijs rebus, quæ per has regiones ad te devehi
-                    possunt, iube et impera. Data <placeName ref="München">Monachij</placeName> die
-                    17. Septembris Anno 99.</p>
-                <lb/>
-                <p rend="rightMargin">Nobilissimæ D<hi rend="sup">is</hi> Tuæ
-                    studiosissimus<lb/>IOAN. GEORG. HERWART ab Hohenburg etc.<lb/>manu propria.</p>
+                    possunt, iube et impera.</p>
+                <closer><dateline>Data <placeName ref="München">Monachij</placeName> die 17.
+                        Septembris Anno 99.</dateline>
+                    <signed>Nobilissimæ D<hi rend="sup">is</hi> Tuæ studiosissimus<lb/>IOAN. GEORG.
+                        HERWART ab Hohenburg etc.<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
                                 <repository>Univ. Bibl.</repository>
@@ -40,17 +44,48 @@
                                 <idno>cod. Monacensi Bibl. Univ. 693 fol.</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
+                                <repository>Univ. Bibl.</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Monacensi Bibl. Univ. 693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter draft</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Det Kongelige Bibliotek</repository>
                                 <collection>empty</collection>
                                 <idno>empty</idno>
-                                <msName>transcript in a copy of P.J. Resen, Inscriptiones
-                                    Hafnienses, Hauniæ 1668</msName>
+                                <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift i et eksemplar af P.J. Resen, Inscriptiones Hafnienses,
+                                    Hauniæ 1668</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Royal Library</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transcript in a copy of P.J. Resen, Inscriptiones Hafnienses,
+                                    Hauniæ 1668</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -65,7 +100,8 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Hans Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Hans Georg Herwart von
+                        Hohenburg</persName>
                     <placeName>München</placeName>
                     <date when="1599-07-23"/>
                     <note>n.s.</note>
@@ -75,7 +111,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1599, 23. juli n.s</date></creation>
+            <creation><date xml:lang="da">1599, 23. juli n.s.</date><date xml:lang="en">1599, 23
+                    July NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -90,6 +127,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2019-12-10" who="#pz">Filen etableret</change>
+            <change when="2019-06-04" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -97,9 +135,10 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.157"/><pb ed="A" n="180r"/>NOBILISSIMO DOCTISSIMOQUE
-                    VIRO DOMINO TYCHONI BRAHE, DOMINO A KNUDSTRUP, MATHEMATICORUM OMNIUM FACILE
-                    PRINCIPI, DOMINO ET AMICO SUO SINGULARI OBSERVANTIA COLENDO.</opener>
-                <p>CUM hac <app>
+                    VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, DOMINO A
+                    KNUDSTRUP, MATHEMATICORUM OMNIUM FACILE PRINCIPI, DOMINO ET AMICO SUO SINGULARI
+                    OBSERVANTIA COLENDO.</opener>
+                <p rend="noIndent">CUM hac <app>
                         <lem>ipsa</lem>
                         <rdg><note>om. B</note></rdg>
                     </app> hora, Vir nobilissime et Mathematicorum omnium facile Princeps, ex urbe
@@ -148,14 +187,15 @@
                     </app> alia. Soleo identidem Eclipses luminarium, quæ ante CHRISTUM retro vel
                     circa tempora CHRISTI, iuxta traditiones Authorum, contigerunt, ex tabulis
                     Prutenicis suppu<pb ed="TBOO" n="VIII.158"/>tare, et ea quoque, quæ <persName
-                        ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName> in magna Syntaxi hac de re tradit,
-                    conferre (quæ quidem utplurimum calculo Prutenico consentire videntur). Attamen
-                    calculus iste non videtur satis exacte Eclipses exhibere. Intellexi quidem ex
-                    præfatis Epistolis tuis Astronomicis te ex nova restauratione cursus &#x2609; et
-                    &#x263E; Eclipses luminarium huius nostri seculi, longe aliter et exactius
-                    deprehendere, quam ullæ tabulæ hactenus exhibuerint. Utrum vero accuratissimæ
-                    istæ tuæ observationes recentes eo rem deducant, ut etiam tempus et quantitatem
-                    illarum Eclipsium, quæ circa tempora CHRISTI et ante illam ætatem retro <app>
+                        ref="ptolemaios_klaudios_0100">PTOLEMÆUS</persName> in magna Syntaxi hac de
+                    re tradit, conferre (quæ quidem utplurimum calculo Prutenico consentire
+                    videntur). Attamen calculus iste non videtur satis exacte Eclipses exhibere.
+                    Intellexi quidem ex præfatis Epistolis tuis Astronomicis te ex nova
+                    restauratione cursus &#x2609; et &#x263E; Eclipses luminarium huius nostri
+                    seculi, longe aliter et exactius deprehendere, quam ullæ tabulæ hactenus
+                    exhibuerint. Utrum vero accuratissimæ istæ tuæ observationes recentes eo rem
+                    deducant, ut etiam tempus et quantitatem illarum Eclipsium, quæ circa tempora
+                    CHRISTI et ante illam ætatem retro <app>
                         <lem>contigerunt</lem>
                         <rdg wit="#A">contigerint</rdg>
                     </app>, exactius definire queas, id inquam, spero quidem, nescio tamen et non
@@ -168,23 +208,25 @@
                                 B</note></rdg>
                     </app>) præcisius assequi, et quanam ratione id fieri queat, rescire. Quodsi
                     ullo genere officiorum studiorumque meorum hoc beneficium tuum in me collatum
-                    exæquare potero, semper ero promptissimus. Vale <app>
-                        <lem>feliciter</lem>
-                        <rdg wit="#B">fideliter</rdg>
-                    </app> et has literas meas boni consule. <app>
-                        <lem>Datæ <placeName ref="München">Monachij</placeName> 23. Iulij Anno
-                            1599</lem>
-                        <rdg><wit>om. A</wit></rdg>
-                    </app>.</p>
-                <lb/>
-                <p rend="rightMargin"><app>
-                        <lem>Dom<hi rend="sup">is</hi> Tuæ Nobill<hi rend="sup">mæ</hi>
-                                studiosissimus<lb/><persName ref="Herwart">IOAN. GEORGIUS HERWAUART
-                                ab Hohenburg</persName>,<lb/>Serenissimo utriusque Bavariæ Duci a
-                            consilijs intimis,<lb/>Præses Schuabæ et Statuum
-                            provincialium<lb/>Cancellarius, manu propria.</lem>
-                        <rdg><note>om. A</note></rdg>
-                    </app><lb/></p>
+                    exæquare potero, semper ero promptissimus.</p>
+                <closer><salute>Vale <app>
+                            <lem>feliciter</lem>
+                            <rdg wit="#B">fideliter</rdg>
+                        </app> et has literas meas boni consule.</salute>
+                    <dateline><app>
+                            <lem>Datæ <placeName ref="München">Monachij</placeName> 23. Iulij Anno
+                                1599</lem>
+                            <rdg><wit>om. A</wit></rdg>
+                        </app></dateline>
+                    <signed><app>
+                            <lem>Dom<hi rend="sup">is</hi> Tuæ Nobill<hi rend="sup">mæ</hi>
+                                    studiosissimus<lb/><persName
+                                    ref="herwart_von_hohenburg_hans_georg_1553">IOAN. GEORGIUS
+                                    HERWAUART ab Hohenburg</persName>,<lb/>Serenissimo utriusque
+                                Bavariæ Duci a consilijs intimis,<lb/>Præses Schuabæ et Statuum
+                                provincialium<lb/>Cancellarius, manu propria.</lem>
+                            <rdg><note>om. A</note></rdg>
+                        </app></signed></closer>
             </div>
         </body>
     </text>
