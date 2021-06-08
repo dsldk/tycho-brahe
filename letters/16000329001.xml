@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -64,7 +68,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 29. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 29. marts n.s.</date><date xml:lang="en">1600, 29
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,37 +91,41 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.286"/>TYCHO BRAHE AD ANONYMUM</opener>
-                <p><pb ed="A" n="89r"/>S. P. </p>
-                <p>REVERENDE et Præstantissime Vir, Amice honorande, quas cum <persName ref="brahe_tyge_1581">filio meo</persName> huc
-                    revertente mihi rescripsisti literas, circa huius labentis Anni initia accepi,
-                    et pro Amicâ atque candidâ congratulatione de conditionibus, quas Deus Opt. Max.
-                    apud hunc Augustissimum <persName ref="rudolf_2_1552">Imperatorem</persName> mihi et meis studijs prospexit, proque
-                    benevolo tuo voto, quo precaris, ut omnia inposterum feliciter stabiliantur et
-                    adaugeantur, maximas quas possum tibi habeo gratias. Elucet hinc sincerus ille
-                    tuus affectus, quo me diu multumque prosecutus es; invenies me pari perpetuo
-                    erga te tuosque animo. Et certe sic est, uti scribis, agnosco <pb ed="TBOO"
-                        n="VIII.287"/>Divini Numinis singularem providentiam et benignitatem, quâ me
-                    a difficultatibus, quibus in Patriâ obnoxius fui, Clementer ereptum in portu
-                    tranquilliore hîc locavit. Et sane non possum satis deprædicare huius optimi
-                    Imperatoris non saltem Cæsareum, sed et Paternum (si sic loqui liceret) erga me
-                    animum; qui vel inde perspicitur, quod licet <persName ref="rudolf_2_1552">ipsius
-                            Ma<hi rend="sup">tas</hi></persName> ob Epidemicos morbos, qui
-                    gravissime <placeName ref="Bohemia">Bohemiam</placeName> hoc antecedente Anno
-                    afflixerunt, <placeName ref="Praha">Pragâ</placeName> abfuerit, et in civitate
-                    <placeName ref="Plzeň">Pilsna</placeName> hinc miliaribus distante sese continuerit, durante adhuc infectione illâ,
-                    atque in hoc quoque loco, quem inhabitandum mihi concessit, totâque viciniâ
-                    sæviente, tamen proprio motu de me et meis sollicita fuerit, adeo ut aliquoties
-                    huc, quomodo valeremus, expiscatum miserit, simul Clementissime offerendo, si in
-                    quamcunque aliam <persName ref="rudolf_2_1552">ipsius Ma<hi rend="sup">tis</hi></persName> Arcem, ubi tutius degere
-                    foret, secedere vellem, id mihi licere, liberum etiam relinquendo, si <placeName ref="Wien">Viennam
-                    Austriæ</placeName> me conferre luberet, <pb ed="A" n="89v"/>ubi tempestive de commodâ
-                    habitatione cæterisque necessarijs mihi prospicere vellet. Atqui ego, actis
-                    humilime gratijs, me hîc potius in statione meâ mansurum et Divinæ protectioni
-                    ac voluntati omnia commissurum respondi. Agoque eidem Deo misericordi protectori
-                    toto pectore gratias, quod me totamque domum meam, in tantis periculis, quibus
-                    undique cingebamur, incolumes conservârit, oroque, ut inposterum suâ gratiâ
-                    nobis adesse dignetur.</p>
+                <opener><pb ed="TBOO" n="VIII.286"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD ANONYMUM</opener>
+                <p rend="indent"><pb ed="A" n="89r"/>S. P. </p>
+                <p rend="noIndent">REVERENDE et Præstantissime Vir, Amice honorande, quas cum
+                        <persName ref="brahe_tyge_1581">filio meo</persName> huc revertente mihi
+                    rescripsisti literas, circa huius labentis Anni initia accepi, et pro Amicâ
+                    atque candidâ congratulatione de conditionibus, quas Deus Opt. Max. apud hunc
+                    Augustissimum <persName ref="rudolf_2_1552">Imperatorem</persName> mihi et meis
+                    studijs prospexit, proque benevolo tuo voto, quo precaris, ut omnia inposterum
+                    feliciter stabiliantur et adaugeantur, maximas quas possum tibi habeo gratias.
+                    Elucet hinc sincerus ille tuus affectus, quo me diu multumque prosecutus es;
+                    invenies me pari perpetuo erga te tuosque animo. Et certe sic est, uti scribis,
+                    agnosco <pb ed="TBOO" n="VIII.287"/>Divini Numinis singularem providentiam et
+                    benignitatem, quâ me a difficultatibus, quibus in Patriâ obnoxius fui, Clementer
+                    ereptum in portu tranquilliore hîc locavit. Et sane non possum satis deprædicare
+                    huius optimi Imperatoris non saltem Cæsareum, sed et Paternum (si sic loqui
+                    liceret) erga me animum; qui vel inde perspicitur, quod licet <persName
+                        ref="rudolf_2_1552">ipsius Ma<hi rend="sup">tas</hi></persName> ob
+                    Epidemicos morbos, qui gravissime <placeName ref="Bohemia">Bohemiam</placeName>
+                    hoc antecedente Anno afflixerunt, <placeName ref="Praha">Pragâ</placeName>
+                    abfuerit, et in civitate <placeName ref="Plzeň">Pilsna</placeName> hinc
+                    miliaribus distante sese continuerit, durante adhuc infectione illâ, atque in
+                    hoc quoque loco, quem inhabitandum mihi concessit, totâque viciniâ sæviente,
+                    tamen proprio motu de me et meis sollicita fuerit, adeo ut aliquoties huc,
+                    quomodo valeremus, expiscatum miserit, simul Clementissime offerendo, si in
+                    quamcunque aliam <persName ref="rudolf_2_1552">ipsius Ma<hi rend="sup"
+                        >tis</hi></persName> Arcem, ubi tutius degere foret, secedere vellem, id
+                    mihi licere, liberum etiam relinquendo, si <placeName ref="Wien">Viennam
+                        Austriæ</placeName> me conferre luberet, <pb ed="A" n="89v"/>ubi tempestive
+                    de commodâ habitatione cæterisque necessarijs mihi prospicere vellet. Atqui ego,
+                    actis humilime gratijs, me hîc potius in statione meâ mansurum et Divinæ
+                    protectioni ac voluntati omnia commissurum respondi. Agoque eidem Deo
+                    misericordi protectori toto pectore gratias, quod me totamque domum meam, in
+                    tantis periculis, quibus undique cingebamur, incolumes conservârit, oroque, ut
+                    inposterum suâ gratiâ nobis adesse dignetur.</p>
                 <p rend="indent">Recte a te factum, quod Historiolam nostræ in <placeName
                         ref="Bohemia">Bohemiam</placeName> migrationis, et eorum, quæ postea mihi
                     hîc evenerunt, quam <persName ref="rosenkrantz_holger_1574">OLIGERO
@@ -129,17 +138,19 @@
                         <placeName ref="Magdeburg">Magdæburgi</placeName> relicta, tum quoque ea,
                     quæ <placeName ref="Hamburg">Hamburgi</placeName> sunt, quæ per meos emissarios
                     e <placeName ref="Denmark">Dania</placeName> ante hyemem eo transferri curavi;
-                    scripsit enim <persName ref="rudolf_2_1552">Imperator</persName> ad utriusque Civitatis Magistratum, ut in sui gratiam
-                    illa omnia huc per <placeName ref="Elben">Albim</placeName> advehi faciant: cumque <placeName ref="Magdeburg"
-                        >Magdæburgenses</placeName> Senatores subterfugia quædam quærerent,
-                        <persName ref="rudolf_2_1552">ipsius Ma<hi rend="sup">tas</hi></persName> ad
-                    Capitulum eiusdem loci hoc nomine alias dedit literas, quod se lubentissime
-                    <persName ref="rudolf_2_1552">ipsius Cæ<hi rend="sup">æ</hi> Ma<hi rend="sup">tis</hi></persName> voluntati obtemperaturum promisit; interea
-                    structuræ pro Instrumentis <pb ed="A" n="90r"/>hîc debito modo disponendis
-                    parantur.</p>
-                <p rend="indent">Quod M. <persName ref="longomontanus_christen_sorensen_1562">CHRISTIERNO
-                        LONGOMONTANO</persName> hortator fuisti, ut me accederet, idque ei
-                    persuasisti, pergratum mihi est; dabo operam, ut ipsum huius itineris non
+                    scripsit enim <persName ref="rudolf_2_1552">Imperator</persName> ad utriusque
+                    Civitatis Magistratum, ut in sui gratiam illa omnia huc per <placeName
+                        ref="Elben">Albim</placeName> advehi faciant: cumque <placeName
+                        ref="Magdeburg">Magdæburgenses</placeName> Senatores subterfugia quædam
+                    quærerent, <persName ref="rudolf_2_1552">ipsius Ma<hi rend="sup"
+                        >tas</hi></persName> ad Capitulum eiusdem loci hoc nomine alias dedit
+                    literas, quod se lubentissime <persName ref="rudolf_2_1552">ipsius Cæ<hi
+                            rend="sup">æ</hi> Ma<hi rend="sup">tis</hi></persName> voluntati
+                    obtemperaturum promisit; interea structuræ pro Instrumentis <pb ed="A" n="90r"
+                    />hîc debito modo disponendis parantur.</p>
+                <p rend="indent">Quod M. <persName ref="longomontanus_christen_sorensen_1562"
+                        >CHRISTIERNO LONGOMONTANO</persName> hortator fuisti, ut me accederet, idque
+                    ei persuasisti, pergratum mihi est; dabo operam, ut ipsum huius itineris non
                     pœniteat, liberumque ei relinquam vel hîc apud me vel <placeName ref="Praha"
                         >Pragæ</placeName> esse, quam diu voluerit.</p>
                 <p rend="indent"><pb ed="TBOO" n="VIII.288"/>De cœteris, quæ scribis, bene inter nos
@@ -147,21 +158,24 @@
                     Astronomicis studijs addictum, nomine ........ qui etiam Observationibus
                     Cœlestibus delectatur; si efficere poteris, ut is huc veniat, erit id mihi
                     acceptum et ipsi non inutile; iuvabo eius conatus, quantum potero.</p>
-                <p rend="indent">Audio <placeName ref="Sweden">Regnum Suecicum</placeName> illud, continuis bellis et tumultuationibus
-                    iam diu conquassatum, in potestatem <persName ref="Kart 9.">CAROLI</persName>
-                    Ducis venisse. Deus flectat eius cor, ut hac victoriâ et potentiâ moderate
-                    utatur, atque ijs, quos pro adversarijs habet, clementer parcat.</p>
+                <p rend="indent">Audio <placeName ref="Sweden">Regnum Suecicum</placeName> illud,
+                    continuis bellis et tumultuationibus iam diu conquassatum, in potestatem
+                        <persName ref="karl_9_1550">CAROLI</persName> Ducis venisse. Deus flectat
+                    eius cor, ut hac victoriâ et potentiâ moderate utatur, atque ijs, quos pro
+                    adversarijs habet, clementer parcat.</p>
                 <p rend="indent">Nova, quæ ex his oris communicem, vix aliqua, quæ momentum habeant,
                     in promptu sunt. Bellum Ungaricum magnâ vi continuatur et in futuram æstatem
-                    utrinque apparatum. Dicunt <placeName ref="Turkey">Turam</placeName> longe maiori exercitu adfuturum quam unquam
-                    antea; noster <persName ref="rudolf_2_1552">Imperator</persName>, licet a Principibus Imperij maiori ex parte nullas
-                    speret suppetias, <pb ed="A" n="90v"/>quantacunque tamen poterit militari manu
-                    ei resistere eiusque vires et minas infringere, pro eo quem Deus largitus
-                    fuerit successu, constituit; ideoque equites et pedites varijs e locis
+                    utrinque apparatum. Dicunt <placeName ref="Turkey">Turam</placeName> longe
+                    maiori exercitu adfuturum quam unquam antea; noster <persName
+                        ref="rudolf_2_1552">Imperator</persName>, licet a Principibus Imperij maiori
+                    ex parte nullas speret suppetias, <pb ed="A" n="90v"/>quantacunque tamen poterit
+                    militari manu ei resistere eiusque vires et minas infringere, pro eo quem Deus
+                    largitus fuerit successu, constituit; ideoque equites et pedites varijs e locis
                     conscribit, ut iusto exercitu tam atroci hosti obviare queat et suos defendere.
-                    Deus Opt. Max. omnia in bonum finem dirigat; cui etiam te tuosque commendo.
-                    Vale. Dabantur ex <placeName ref="Benatky">Arce Cæsarea Benatica</placeName> Die
-                    29 Martij Anni 1600 stylo novo.</p>
+                    Deus Opt. Max. omnia in bonum finem dirigat; cui etiam te tuosque commendo.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsarea Benatica</placeName>
+                        Die 29 Martij Anni 1600 stylo novo.</dateline></closer>
             </div>
         </body>
     </text>

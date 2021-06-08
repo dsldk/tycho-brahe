@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>David Chytraeus</persName>
+                    <persName key="chytraeus_david_1530">David Chytraeus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 28. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 28. marts n.s.</date><date xml:lang="en">1600, 28 March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,10 +86,10 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.283"/>TYCHO BRAHE AD <persName ref="chytraeus_david_1530"
+                <opener><pb ed="TBOO" n="VIII.283"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="chytraeus_david_1530"
                         >DAVIDEM CHYTRÆUM</persName>.</opener>
-                <p><pb ed="A" n="85r"/>S. P.</p>
-                <p>REVERENDE et Clarissime vir, Amice inprimis honorande. Literas tuas iuxta initia
+                <p rend="indent"><pb ed="A" n="85r"/>S. P.</p>
+                <p rend="noIndent">REVERENDE et Clarissime vir, Amice inprimis honorande. Literas tuas iuxta initia
                     Novembris superioris Anni <placeName ref="Rostock">Rostochio</placeName> ad me
                     datas paulo post huius primordia per <persName ref="brahe_tyge_1581"
                         >filium</persName> huc revertentem accepi, proque singulari tua, quam isthic
@@ -119,7 +119,7 @@
                     sævire, et Regni Senatoribus (inter quos est optimus ille <persName
                         ref="sparre_erik_1550">ERICUS SPARRÆUS</persName> noster) parcere, ut pacatius
                     et firmius eius sit in posterum Regimen, ne exitum infelicem sortiatur effera
-                    vindictæ cupiditas. Exemplum habet domesticum in <persName ref="Erik 14."
+                    vindictæ cupiditas. Exemplum habet domesticum in <persName ref="erik_14_1533"
                         >ERICO</persName> fratre.</p>
                 <p rend="indent">Quid in <placeName ref="Denmark">Dania</placeName> Patria mea
                     geratur, et an novas res isthic moliantur, qui fatis præsunt publicis, necdum
@@ -149,7 +149,7 @@
                         <lem>WAIUODAM</lem>
                         <rdg><note>ex BAIUODAM corr. A</note></rdg>
                     </app><!-- NB dvs. voivoden, hvem? --> conquereretur. Dicunt aliquot millia
-                        <persName ref="GFrance">Gallicorum</persName> equitum et vicinarum Regionum
+                        <placeName ref="France">Gallicorum</placeName> equitum et vicinarum Regionum
                     adventare contra <placeName ref="Turkey">Turcas</placeName> in gratiam <persName
                         ref="rudolf_2_1552">Cæsaris</persName> belligeraturi. Quantam stragem ediderint
                     superiori Anno Tartaricæ incursiones in superiori <placeName ref="Hungary"
@@ -167,13 +167,14 @@
                     rediturus. <pb ed="A" n="86v"/>Deus <persName ref="rudolf_2_1552">ipsius Ma<hi
                             rend="sup">tem</hi></persName> nobis quam diutissime florentem atque
                     incolumem conservet. Cui etiam Divino Numini te tuosque commendo. Vale et
-                    generum tuum Dominum Doctorem <persName ref="Freder">IOHANNEM
+                    generum tuum Dominum Doctorem <persName ref="freder_johann_1544">IOHANNEM
                         FREDERUM</persName>, cui pro carminibus missis gratias habeo, ex me
-                    peramanter saluta; scripsissem ei, si otium suppetijsset. Dabantur ex <placeName
+                    peramanter saluta; scripsissem ei, si otium suppetijsset.</p> <closer><dateline>Dabantur ex <placeName
                         ref="Benatky">Arce Cæsareâ Benaticâ</placeName> Die 28 Martij Anno 1600
-                    stylo novo.</p>
-                <lb/>
-                <p><pb ed="A" n="88r"/>CIRCA hoc tempus inclaruit apud Augustissimum et
+                    stylo novo.</dateline></closer>
+                
+                
+                <postscript><p rend="noIndent"><pb ed="A" n="88r"/>CIRCA hoc tempus inclaruit apud Augustissimum et
                     potentissimum Imperatorem <persName ref="rudolf_2_1552">RUDOLPHUM</persName> eius
                     nominis secundum in <placeName ref="Bohemia">Bohemia</placeName> et
                     circumiacenti <placeName ref="Germany">Germania</placeName> ac vicinis regnis
@@ -189,7 +190,7 @@
                     primum in <placeName ref="Germany">Germaniam</placeName> , deinde <placeName
                         ref="Bohemia">Bohemiam</placeName> præter omnium expectationem migravit, hæc
                     fuit. Ante annos 24 ex clementissimâ provisione laudatissimæ memoriæ Regis
-                    Danorum <persName ref="frederik_2_1534">FRIDERICI II</persName> TYCHO in insula
+                    Danorum <persName ref="frederik_2_1534">FRIDERICI II</persName> <persName ref="brahe_tycho_1546">TYCHO</persName> in insula
                         <placeName ref="Øresund">Hellesponti Danici</placeName>
                     <placeName ref="Hven">Huænna</placeName> arcem <placeName ref="Uraniborg"
                         >Uraniburgum</placeName> pro exercitijs sideralis scientiæ isthic commode
@@ -197,7 +198,7 @@
                     adeo magnifice et solide elaborata, ut vix similia orbis alibi viderit, a se
                     inventa et confecta disposuit (veluti etiam in Historiâ nostrâ Arctoâ suo loco
                     aliqualem huius <placeName ref="Uraniborg">Uraniburgi</placeName> fecimus
-                    mentionem) quæ omnia, quoad vixit dictus <persName ref="Frededik 2."
+                    mentionem) quæ omnia, quoad vixit dictus <persName ref="frederik_2_1534"
                         >Serenissimus Rex</persName>, isthic in debito usu liberaliter
                     conservabantur, quemadmodum etiam post eius luctuosum obitum per totum octennium
                     in Interregno, spe insuper facta, tam a Clementissimo Rege illo <persName
@@ -245,12 +246,12 @@
                     alias tunc forent tempora. Res sane summi Orbis Monarchæ liberalitate et
                     munificentiâ dignissima, atque ad omnem posteritatem deprædicanda. Quin et de
                     novo Uraniburgo, quod Danico illi non cederet, se convenienti loco et tempore,
-                    pro TYCHONIS Instrumentis ibi collocandis et rite usurpandis, se provisurum,
+                    pro <persName ref="brahe_tycho_1546">TYCHONIS</persName> Instrumentis ibi collocandis et rite usurpandis, se provisurum,
                     atque ipsi et familiæ eius Feudo idoneo, ne alienigenæ redditi in posterum ad
                     honestam sustentationem necessarijs destituerentur, benignissime provisurum,
                     Clementissimâ voluntate addixit, quemadmodum hæc et similia ad nos et alios hinc
                     inde viros præstantes et eruditos non sine omnium voluptate a fide dignis relata
-                    et scripta accepimus. Sic Generosus ille TYCHO BRAHÆUS, Astronomiæ cultorum
+                    et scripta accepimus. Sic Generosus ille <persName ref="brahe_tycho_1546">TYCHO BRAHÆUS</persName>, Astronomiæ cultorum
                     nostri seculi antesignanus, cuius sublime ingenium et indefessum in hisce
                     præcipuis disciplinis, quæ circa siderum motus versantur, illustrandis studium,
                     quod toti <placeName ref="Denmark"><app>
@@ -271,7 +272,7 @@
                         <persName ref="rudolf_2_1552">RUDOLPHI II</persName>, qui hoc negocium suo
                     clementissimo favore et liberalitate promovit, totiusque Imperij Germanici decus
                     et honorem utilitatemque, quo ad sidera durant, nunquam intermoriturum omnia
-                    vergant et stabiliantur.</p>
+                    vergant et stabiliantur.</p></postscript>
                 <lb/>
             </div>
         </body>
