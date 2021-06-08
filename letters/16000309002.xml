@@ -79,16 +79,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-08" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.261"/>TYCHO BRAHE AD ANONYMUM</opener>
-                <p><pb ed="A" n="37r"/>GENEROSE AC MAGNIFICE VIR, DOMINE ET AMICE INPRIMIS
+                <opener><pb ed="TBOO" n="VIII.261"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD ANONYMUM</opener>
+                <p rend="indent"><pb ed="A" n="37r"/>GENEROSE AC MAGNIFICE VIR, DOMINE ET AMICE INPRIMIS
                     HONORANDE.</p>
-                <p>CUM hic Nobilis et Eruditus Adolescens <persName ref="tengnagel_frans_1576">FRANCISCUS
+                <p rend="noIndent">CUM hic Nobilis et Eruditus Adolescens <persName ref="tengnagel_frans_1576">FRANCISCUS
                         TENGNAGLIUS</persName>, quem tua M<hi rend="sup">a</hi> iam antea novit,
                     nuper ex <placeName ref="Italy">Italiâ</placeName> huc in <placeName
                         ref="Bohemia">Bohemiam</placeName> ad me reversus, in Patriam suam Parentum
@@ -110,11 +111,9 @@
                     concernentia M<hi rend="sup">æ</hi> tuæ plene et secreto indicaturus, ulteriore
                     scriptione supersedeo, ac per eundem, quam primum fieri possit, favente Numine,
                     ad me revertentem responsum expecto. Deus opt. max. M<hi rend="sup">am</hi>
-                    tuam Reip. et bonis literis quam diutissime prosperam et incolumem servet.
-                    Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>, quam
-                    nunc unâ cum meis inhabito, die 9 Martij 1600.</p>
-                <p rend="rightMargin">M<hi rend="sup">æ</hi> Tuæ studiosiss.<lb/>TYCHO BRAHE.</p>
-            </div>
+                    tuam Reip. et bonis literis quam diutissime prosperam et incolumem servet.</p><closer><dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>, quam
+                    nunc unâ cum meis inhabito, die 9 Martij 1600</dateline>. <signed>M<hi rend="sup">æ</hi> Tuæ studiosiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
+            </closer></div>
         </body>
     </text>
 </TEI>

@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johann Friedrich Hoffmann</persName>
+                    <persName key="hoffmann_hans_friedrich_1561">Johann Friedrich Hoffmann</persName>
                     <placeName>Benatky</placeName>
                     <date when="1600-02-03"/>
                     <note>n.s.</note>
@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 3. februar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 3. februar n.s.</date><date xml:lang="en">1600, 3 February NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,10 +87,10 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.247"/><pb ed="A" n="38v"/><foreign xml:lang="de">DEM EDLEN VNND GESTRENGEN
-                    HERRN TYCHO BRAHÆ, HERRN AUF KNUDTSTRUPP VNND VRANIBURGKH, MEINEM SONNDERSLIEBEN
+                    HERRN <persName ref="brahe_tycho_1546">TYCHO BRAHÆ</persName>, HERRN AUF KNUDTSTRUPP VNND VRANIBURGKH, MEINEM SONNDERSLIEBEN
                     HERRN VNNDT GUETTEN FREUNDT.</foreign></opener>
-                <p><pb ed="A" n="37r"/>S.</p>
-                <p>LITTERAS tuas, Vir nobilissime, quibus me tam splendide per
+                <p rend="indent"><pb ed="A" n="37r"/>S.</p>
+                <p rend="noIndent">LITTERAS tuas, Vir nobilissime, quibus me tam splendide per
                     egregios iuvenes, internunctios tuos, salutas, mei amore et commendatione
                     plenas, imo in excultioribus meæ tenuitatis nimiam pæne laudem continentes,
                     accepi, cum voluptate profecto, dubius tamen, tot inter gratulandi occasiones
@@ -110,20 +111,17 @@
                     commendatum amplius nunc non commendo, sed ipsum se spectandum et fruendum
                     potius præmitto, apud te, mihi, ut spero, multarum rerum præconem et
                     conciliatorem. Intermediatoris tamen quod officium ita amanter et benigne cum
-                    gratiarum actione susceperis, ad me pertinet, Domine TYCHO, ac facis in eo, te
+                    gratiarum actione susceperis, ad me pertinet, Domine <persName ref="brahe_tycho_1546">TYCHO</persName>, ac facis in eo, te
                     certe ac humanitate tua, quin nostra, ad te perpetuo amandum et colendum
                     benevolentia haud indignum.</p>
                 <p rend="indent">Addo idipsum, nostri gratia quicquid porro accesserit, id omne non
                     tam ad cumulum tuorum in nos meritorum esse referendum, quam alta et grata
                     memoria prosequendum. In specie vero, quæ et ipsius <persName ref="kepler_johannes_1571">KEPLERI</persName> ratione conferenda
                     essent aliqua, in occasionem nostri conventus differre cogimur, quem nobis
-                    efficiat Deus propediem, ut spero et opto. Vale ac reliqua ex ipso <persName ref="kepler_johannes_1571">KEPLERO</persName> et
-                    tuis.</p>
-                <p rend="indent"><placeName ref="Praha">Pragæ</placeName> 3 Februarij A. D.
-                    1600.</p>
-                <lb/>
-                <p rend="rightMargin">T. D. ex animo<lb/><persName ref="Hoffmann">IOHANNES
-                        FRIDERICUS HOFFMANN</persName>,<lb/>L. Baro.</p>
+                    efficiat Deus propediem, ut spero et opto.</p> <closer><salute>Vale ac reliqua ex ipso <persName ref="kepler_johannes_1571">KEPLERO</persName> et
+                    tuis.</salute> <dateline><placeName ref="Praha">Pragæ</placeName> 3 Februarij A. D.
+                    1600.</dateline> <signed>T. D. ex animo<lb/><persName ref="hoffmann_hans_friedrich_1561">IOHANNES
+                        FRIDERICUS HOFFMANN</persName>,<lb/>L. Baro.</signed></closer>
             </div>
         </body>
     </text>

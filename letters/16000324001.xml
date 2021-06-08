@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +44,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -54,7 +73,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Jessenius a Jessen</persName>
+                    <persName key="jessenius_jan_1566">Johannes Jessenius a Jessen</persName>
                     <placeName>Plzeň</placeName>
                     <date when="1600-03-24"/>
                     <note>n.s.</note>
@@ -64,7 +83,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 24. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 24. marts n.s.</date><date xml:lang="en">1600, 24
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,68 +99,79 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-09" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.270"/><persName ref="jessenius_jan_1566">IOHANNES IESSENIUS A IESSEN</persName> AD TYCHONEM
-                    BRAHE.</opener>
+                <opener><pb ed="TBOO" n="VIII.270"/><persName ref="jessenius_jan_1566">IOHANNES
+                        IESSENIUS A IESSEN</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName>.</opener>
                 <p><pb ed="A" n="1r"/>S. P.</p>
                 <p>NUDIUS tertius, Nobilissime Domine TYCHO, <placeName ref="Wittenberg"
                         >Witebergâ</placeName> ante octiduum profectus, <placeName ref="Plzeň"
                         >Pelsenam</placeName> veni, acturus senis mei patris caussam diuturnam atque
                     difficilem, quam peracturum me etiam et felicius et citius ex eo speraram, quod
-                    apud <persName ref="rudolf_2_1552">Cæsaream Maiest.</persName> Illustriss. Princeps,
-                    <persName ref="Christian 2. af Sachsen">Saxoniæ Administrator</persName>, Dominus meus Clementiss. pro me literis diligenter
-                    intercesserit. Sed uti solent lento gradu absolvi omnia, ita quoque ex his
-                    præludijs aliquantulum tardius negotium meum confecturum suspicor, præsertim cum
-                    aula distracta in<pb ed="TBOO" n="VIII.271"/>commoditates et moras plurimas inijciat,
-                    nihilominus urgeo, insto, ad tædium etiam et molestiam illorum, apud quos mihi
-                    sollicitandum negotium. Capio tamen et ex his remoris nonnullam voluptatem, cum
-                    a pluribus <persName ref="rudolf_2_1552">Cæsaris</persName> Consiliarijs non tantum
+                    apud <persName ref="rudolf_2_1552">Cæsaream Maiest.</persName> Illustriss.
+                    Princeps, <persName ref="christian_2_1583">Saxoniæ Administrator</persName>,
+                    Dominus meus Clementiss. pro me literis diligenter intercesserit. Sed uti solent
+                    lento gradu absolvi omnia, ita quoque ex his præludijs aliquantulum tardius
+                    negotium meum confecturum suspicor, præsertim cum aula distracta in<pb ed="TBOO"
+                        n="VIII.271"/>commoditates et moras plurimas inijciat, nihilominus urgeo,
+                    insto, ad tædium etiam et molestiam illorum, apud quos mihi sollicitandum
+                    negotium. Capio tamen et ex his remoris nonnullam voluptatem, cum a pluribus
+                        <persName ref="rudolf_2_1552">Cæsaris</persName> Consiliarijs non tantum
                     benevole admittor, sed ultro etiam accersor. Ad quos, quæ inter te et me est
                     amicitia, tam facilem mihi parat aditum, quamprimum enim tui mentionem facio,
                     illico in singularem quendam blandorem ipsorum vultum mutari sentio; habesque tu
                     certe plures, qui te hîc absentem venerantur, quam alij in os laudatores, aut
                     adulatores potius. Atque inter alia unum istud saltem brevitatis caussâ
                     habe.</p>
-                <p rend="indent">Nuper cum Dominum <persName ref="Gyphanius">GYPHANIUM</persName> I. C. celeberrimum et Imperij Aulicum
-                    Consiliarium antehâc mihi etiam notum compellarem, inter cætera colloquia tui
-                    quoque (quem tamen de facie nunquam vidit) honorificam fecit mentionem, mihi
-                    recitans, quid a Magnifico Domino <persName ref="coraduz_rudolf_1618">CORRADUCIO</persName> Imperij 
-                    <pb ed="A" n="1v"/>Procancellario ipsi non ita pridem memoratum: nimirum <persName ref="rudolf_2_1552"
-                        >Cæsaream Maiestatem</persName> Dominum <persName ref="coraduz_rudolf_1618"
-                        >CORRADUCIUM</persName> ex <placeName ref="Italy">Italicâ</placeName> Legatione reversum interrogasse, num is
-                    Romæ et alibi istic aliquid de TYCHONIS BRAHEI in has oras adventu inaudierit;
-                    cui cum respondisset, omnino id se tam Romæ quam alibi percepisse, mox
-                    perrexisse Imperatorem, quid sibi et alijs de hac re videretur. Tum <persName
-                        ref="coraduz_rudolf_1618">CORRADUCIUM</persName> libere respondisse: Est Vir TYCHO
-                    BRAHE, cui in Astronomicis disciplinis nec hoc neque priora secula aspexere
-                    parem, vixque posteriora habitura similem. Unde gratulari se, non tam sibi, qui
-                    ex ipsius <persName ref="rudolf_2_1552">Cæsareæ Maiest.</persName> mandato illum huc
-                    vocarit, sed longe potius Suæ Sacræ <persName ref="rudolf_2_1552">Cæsar.
-                        Maiest.</persName> de adepto hoc tanto Viro, cuius industria et laboribus
-                    vulgaria excedentibus et ipsa <persName ref="rudolf_2_1552">Cæsarea
-                        Maiestas</persName> apud omnes posteros Nominis sui decus et Famam auctura
-                    sit indelebili memoria; quibus dictis <persName ref="rudolf_2_1552"
-                        >Cæsarem</persName> et ipsum annuisse, virumque hunc apprime sibi placere
-                    charumque addidisse. Hæc clarissimus ille <persName ref="Gyphanius">GYPHANIUS</persName> maximo cum applausu mihi tum
-                    recitavit, suoque addito suffragio confirmavit, teque ipsius nomine plurimum
+                <p rend="indent">Nuper cum Dominum <persName ref="giphanius_hubert_1534"
+                        >GYPHANIUM</persName> I. C. celeberrimum et Imperij Aulicum Consiliarium
+                    antehâc mihi etiam notum compellarem, inter cætera colloquia tui quoque (quem
+                    tamen de facie nunquam vidit) honorificam fecit mentionem, mihi recitans, quid a
+                    Magnifico Domino <persName ref="coraduz_rudolf_1618">CORRADUCIO</persName>
+                    Imperij <pb ed="A" n="1v"/>Procancellario ipsi non ita pridem memoratum: nimirum
+                        <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName> Dominum
+                        <persName ref="coraduz_rudolf_1618">CORRADUCIUM</persName> ex <placeName
+                        ref="Italy">Italicâ</placeName> Legatione reversum interrogasse, num is Romæ
+                    et alibi istic aliquid de TYCHONIS BRAHEI in has oras adventu inaudierit; cui
+                    cum respondisset, omnino id se tam Romæ quam alibi percepisse, mox perrexisse
+                    Imperatorem, quid sibi et alijs de hac re videretur. Tum <persName
+                        ref="coraduz_rudolf_1618">CORRADUCIUM</persName> libere respondisse: Est Vir
+                    TYCHO BRAHE, cui in Astronomicis disciplinis nec hoc neque priora secula
+                    aspexere parem, vixque posteriora habitura similem. Unde gratulari se, non tam
+                    sibi, qui ex ipsius <persName ref="rudolf_2_1552">Cæsareæ Maiest.</persName>
+                    mandato illum huc vocarit, sed longe potius Suæ Sacræ <persName
+                        ref="rudolf_2_1552">Cæsar. Maiest.</persName> de adepto hoc tanto Viro,
+                    cuius industria et laboribus vulgaria excedentibus et ipsa <persName
+                        ref="rudolf_2_1552">Cæsarea Maiestas</persName> apud omnes posteros Nominis
+                    sui decus et Famam auctura sit indelebili memoria; quibus dictis <persName
+                        ref="rudolf_2_1552">Cæsarem</persName> et ipsum annuisse, virumque hunc
+                    apprime sibi placere charumque addidisse. Hæc clarissimus ille <persName
+                        ref="giphanius_hubert_1534">GYPHANIUS</persName> maximo cum applausu mihi
+                    tum recitavit, suoque addito suffragio confirmavit, teque ipsius nomine plurimum
                     salvere iussit, avide tuum expectans, ubi <placeName ref="Praha"
                         >Pragæ</placeName> conveneritis, alloquium. Sed plura, cum de his, tum de
                     alijs, ubi V. D. convenerimus, quod propediem spero futurum, quandoquidem
                         <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName> mox peracto
                     Paschate <placeName ref="Praha">Pragam</placeName> cogitare constanter
-                    asseritur. Vale, et quod te non prius inviserim, <pb ed="A" n="2r"/>
-                    festinationi meæ, siquidem parentis causam laborare animadverterem, imputa,
-                    excusatumque habe. Dabantur <placeName ref="Plzeň">Pilsene</placeName> 24.
-                    Martij Anno 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Tuæ Generositati addicimus<lb/><persName ref="jessenius_jan_1566">IOHANNES IESSENIUS A
-                    IESSEN</persName><lb/>Ducum Saxoniæ Med. et Professor Witeb.</p>
-                <p>Consentire hoc cum originali meo fateor ego Doctor <persName ref="jessenius_jan_1566">IESSENIUS</persName> m. pr. </p>
+                    asseritur.</p>
+                <closer><salute>Vale, et quod te non prius inviserim, <pb ed="A" n="2r"/>
+                        festinationi meæ, siquidem parentis causam laborare animadverterem, imputa,
+                        excusatumque habe.</salute>
+                    <dateline>Dabantur <placeName ref="Plzeň">Pilsene</placeName> 24. Martij Anno
+                        1600.</dateline>
+                    <signed>Tuæ Generositati addicimus<lb/><persName ref="jessenius_jan_1566"
+                            >IOHANNES IESSENIUS A IESSEN</persName><lb/>Ducum Saxoniæ Med. et
+                        Professor Witeb.</signed></closer>
+                <postscript>
+                    <p>Consentire hoc cum originali meo fateor ego Doctor <persName
+                            ref="jessenius_jan_1566">IESSENIUS</persName> m. pr. </p>
+                </postscript>
             </div>
         </body>
     </text>

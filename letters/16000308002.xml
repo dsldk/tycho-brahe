@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 8. marts n.s.</date><date xml:lang="en">1600, 8. March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,16 +79,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-08" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.259"/>TYCHO BRAHE AD ANONYMUM.</opener>
-                <p><pb ed="A" n="35r"/>NOBILISSIME ET EXCELLENTISSIME VIR, DOMINE ET AMICE
+                <opener><pb ed="TBOO" n="VIII.259"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD ANONYMUM.</opener>
+                <p rend="indent"><pb ed="A" n="35r"/>NOBILISSIME ET EXCELLENTISSIME VIR, DOMINE ET AMICE
                     OBSERVANDISSIME.</p>
-                <p>QUOD tam amanter Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi>, quo tempore
+                <p rend="noIndent">QUOD tam amanter Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi>, quo tempore
                     <placeName ref="Wandsburg">Wandesburgi</placeName> adhuc in <placeName ref="Holstein">Holsatiâ</placeName> hærebam, humanissimis et pariter
                     doctissimis suis literis me prævenire voluerit, tanto gratius id mihi accidit,
                     quanto Clarissimorum et Præstantissimorum virorum amicitias cæterorum
@@ -111,9 +112,9 @@
                     accesserit) <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName> clare et seorsim
                     insinuare poterit, quo responsum mature nanciscar. Fecerit D. V. mihi hac in
                     parte rem inprimis acceptam, et quibusvis, quæ a me proficisci unquam poterunt,
-                    officijs vicissim pro virili compensandam. Valeat Dn<hi rend="sup">o</hi> V<hi
-                        rend="sup">a</hi> quam felicissime. Dabantur ex <placeName ref="Benatky"
-                        >Arce Cæsareâ Benaticâ</placeName> die 8 Martij 1600.</p>
+                    officijs vicissim pro virili compensandam.</p> <closer><salute>Valeat Dn<hi rend="sup">o</hi> V<hi
+                        rend="sup">a</hi> quam felicissime.</salute> <dateline>Dabantur ex <placeName ref="Benatky"
+                        >Arce Cæsareâ Benaticâ</placeName> die 8 Martij 1600.</dateline></closer>
             </div>
         </body>
     </text>

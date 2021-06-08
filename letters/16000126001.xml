@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,13 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johann Friedrich Hoffmann</persName>
+                    <persName key="hoffmann_hans_friedrich_1561">Johann Friedrich
+                        Hoffmann</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 26. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 26. januar n.s.</date><date xml:lang="en">1600, 26
+                    January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +85,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,32 +93,36 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.244"/><pb ed="A" n="23r"/>ILLUSTRI ET GENEROSO DOMINO,
-                    DOMINO <persName ref="Hoffmann">IOHANNI FRIDERICO HOFFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUECHEL</hi> ET
-                    <hi rend="it">STRECHAW</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET ARCHIDUCATUS AUSTRIÆ MARSCALCHO
-                    UBIQUE HÆREDITARIO BURGRAVIO IN <hi rend="it">STEYER</hi> NEC NON SAC. CÆS. MAIESTATIS AULÆ
-                    CONSILIARIO ET SERENISSIMI ARCHIDUCIS MAXIMILIANI CUBICULARIO PRIMARIO, DOMINO
-                    ET AMICO SUO INPRIMIS HONORANDO.</opener>
-                <p><pb ed="A" n="22r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE
+                    DOMINO <persName ref="hoffmann_hans_friedrich_1561">IOHANNI FRIDERICO
+                        HOFFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUECHEL</hi> ET
+                        <hi rend="it">STRECHAW</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET
+                    ARCHIDUCATUS AUSTRIÆ MARSCALCHO UBIQUE HÆREDITARIO BURGRAVIO IN <hi rend="it"
+                        >STEYER</hi> NEC NON SAC. CÆS. MAIESTATIS AULÆ CONSILIARIO ET SERENISSIMI
+                    ARCHIDUCIS MAXIMILIANI CUBICULARIO PRIMARIO, DOMINO ET AMICO SUO INPRIMIS
+                    HONORANDO.</opener>
+                <p rend="indent"><pb ed="A" n="22r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE
                     HONORANDISSIME.</p>
-                <p>MAGNO equidem gaudio affectus sum, cum heri vesperi ex meis
+                <p rend="noIndent">MAGNO equidem gaudio affectus sum, cum heri vesperi ex meis
                     Domesticis huc <placeName ref="Praha">Pragâ</placeName> revertentibus
-                    percepissem Illustr. Generos. Tuam ex <placeName ref="Austria">Austriâ</placeName> nuper salvam et incolumem
-                    redijsse. Quo nomine non saltem Illustri Generositati Tuæ, sed et mihi ipsi
-                    quamplurimum congratulor, siquidem de Generositatis Tuæ erga me et ea, quæ
-                    tracto studia Astronomica, sincera et benevola affectione vel ex pauculo, quem
-                    superiori æstate invicem habuimus congressu, ita mihi optima quæque polliceor,
-                    ut in tanti viri, qui non saltem Genere clarus sit, sed et doctrinis liberalibus
-                    insigniter excultus, familiaritatem inci<pb ed="TBOO" n="VIII.245"/>disse, non
-                    postremæ felicitatis loco ducam. Cumque nunc <placeName ref="Praha"
-                        >Pragam</placeName> Nobilem et Eruditum adolescentem <persName
-                        ref="tengnagel_frans_1576">FRANCISCUM TENGNAGLIUM</persName>, mihi domesticum, qui ante
-                    paucas hebdomadas ex <placeName ref="Italy">Italia</placeName> huc reversus est,
-                    unâ cum <persName ref="brahe_tyge_1581">filio meo</persName> natu maiore ex me denominato certis de caussis amandem, non
-                    potui intermittere, quin hasce pro felici reditu candido animo Illust. G. T.
-                    congratulantes unâ mitterem, atque ijs simul iniungerem, ut Tuam Illust.
-                    Generos. captata oportunitate accedentes eam ex me officiosissime salutarent.
-                    Pergratum vero est, quod Illustris Dominatio Tua Excellentem Mathematicum
-                    Dominum Μ. <persName ref="kepler_johannes_1571">IOHANNEM KEPLERUM</persName> in suo Comitatu huc ad nos in <placeName
+                    percepissem Illustr. Generos. Tuam ex <placeName ref="Austria"
+                        >Austriâ</placeName> nuper salvam et incolumem redijsse. Quo nomine non
+                    saltem Illustri Generositati Tuæ, sed et mihi ipsi quamplurimum congratulor,
+                    siquidem de Generositatis Tuæ erga me et ea, quæ tracto studia Astronomica,
+                    sincera et benevola affectione vel ex pauculo, quem superiori æstate invicem
+                    habuimus congressu, ita mihi optima quæque polliceor, ut in tanti viri, qui non
+                    saltem Genere clarus sit, sed et doctrinis liberalibus insigniter excultus,
+                    familiaritatem inci<pb ed="TBOO" n="VIII.245"/>disse, non postremæ felicitatis
+                    loco ducam. Cumque nunc <placeName ref="Praha">Pragam</placeName> Nobilem et
+                    Eruditum adolescentem <persName ref="tengnagel_frans_1576">FRANCISCUM
+                        TENGNAGLIUM</persName>, mihi domesticum, qui ante paucas hebdomadas ex
+                        <placeName ref="Italy">Italia</placeName> huc reversus est, unâ cum
+                        <persName ref="brahe_tyge_1581">filio meo</persName> natu maiore ex me
+                    denominato certis de caussis amandem, non potui intermittere, quin hasce pro
+                    felici reditu candido animo Illust. G. T. congratulantes unâ mitterem, atque ijs
+                    simul iniungerem, ut Tuam Illust. Generos. captata oportunitate accedentes eam
+                    ex me officiosissime salutarent. Pergratum vero est, quod Illustris Dominatio
+                    Tua Excellentem Mathematicum Dominum Μ. <persName ref="kepler_johannes_1571"
+                        >IOHANNEM KEPLERUM</persName> in suo Comitatu huc ad nos in <placeName
                         ref="Bohemia">Bohemiam</placeName> adduxerit, qua etiam in parte non obscure
                     elucet Illust. G. T. <pb ed="A" n="22v"/>erga sublimia illa et a vulgi captu
                     remota Mathematum studia eorumque alumnos singularis et nunquam satis laudatus
@@ -122,18 +133,23 @@
                     persuadeo, augeri poterit. Quicquid vero voluptatis et commodi ex hoc nostro
                     congressu promanare poterit, Illustri Dominationi Tuæ præcipua ex parte acceptum
                     ferendum grata mente agnosco. Pluribus Illust. Generos. T. multiplicibus alias
-                    pariterque gravissimis occupationibus distentam remorari nolo. Cætera, quæ hîc omitto, ij, quos ablego, si Illust. Dom<hi rend="sup">ni</hi> Tuæ eos admittere
+                    pariterque gravissimis occupationibus distentam remorari nolo. Cætera, quæ hîc
+                    omitto, ij, quos ablego, si Illust. Dom<hi rend="sup">ni</hi> Tuæ eos admittere
                     commodum fuerit, supplebunt atque ex me referent; quibus ut benignam aurem pro
                     solita sua humanitate præbere non dedignetur, qua possum reverentia, oro et
                     obsecro. Valeat Tua Illust. Generositas quam felicissime et diutissime, huncque
                     noviter inchoatum Annum Iubilæum plurimosque alios insequentes incolumis et
-                    florens transigat. Dabantur ex <placeName ref="Benatky">Arce Cæsariana Benatica</placeName> die 26
-                    Ianuarij Anni labentis Epochæ Christianæ Dionysiacæ 1600, quam duobus deficere
-                    <persName ref="scaliger_joseph_justus_1540">IOSEPHUS SCALIGER</persName> probare nititur. Iterum et sæpius T. Illust. Gen. quam optime
-                    valeat, meque et meos sibi commendatos habeat. </p>
-                <lb/>
-                <p rend="rightMargin"><pb ed="A" n="23r"/>Illustri Generositati
-                    Tuæ<lb/>addictiss.<lb/>TYCHO BRAHE.</p>
+                    florens transigat.</p>
+                <closer><dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsariana
+                            Benatica</placeName> die 26 Ianuarij Anni labentis Epochæ Christianæ
+                        Dionysiacæ 1600, quam duobus deficere <persName
+                            ref="scaliger_joseph_justus_1540">IOSEPHUS SCALIGER</persName> probare
+                        nititur.</dateline>
+                    <salute>Iterum et sæpius T. Illust. Gen. quam optime valeat, meque et meos sibi
+                        commendatos habeat.</salute>
+                    <signed><pb ed="A" n="23r"/>Illustri Generositati
+                            Tuæ<lb/>addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

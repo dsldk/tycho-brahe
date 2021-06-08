@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Paulus Melissus</persName>
+                    <persName key="melissus_paulus_1539">Paulus Melissus</persName>
                     <placeName>Heidelberg</placeName>
                     <date when="1600-03-05"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 5. marts</date></creation>
+            <creation><date xml:lang="da">1600, 5. marts.</date><date xml:lang="en">1600, 5 March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-09" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,12 +86,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.267"/><pb ed="A" n="44v"/>ILLUSTRI ET PRÆSTANTISSIMO
-                    VIRO TYCHONI BRAHE, IMPERATORIS <persName ref="rudolf_2_1552">RUDOLPHI II</persName>
+                    VIRO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, IMPERATORIS <persName ref="rudolf_2_1552">RUDOLPHI II</persName>
                     ASTRONOMO, AMICO S. S. IN AULA IMPERATORIS VEL <placeName ref="Benatky"
                         >BENATICA</placeName>
                     <foreign xml:lang="de"><hi rend="it">5 MEILEN VON PRAG.</hi></foreign></opener>
 
-                <p><pb ed="A" n="43r"/>SÆPIUS de te mihi percontanti, BRAHEE nobilissime, nihil
+                <p rend="noIndent"><pb ed="A" n="43r"/>SÆPIUS de te mihi percontanti, BRAHEE nobilissime, nihil
                     certi potuit significari a gentili tuo, qui heic commoratur studiorum gratiâ.
                     Nam sese intellexisse aiebat, fore ut in <placeName ref="France"
                         >Galliam</placeName> te penetrares, nisi res tuæ in aulâ Cæsareâ
@@ -122,28 +123,25 @@
                     accepi, cui vicissim hanc meam concredidi. Rectê fecisses, si <placeName
                         ref="Praha">Pragæ</placeName> mihi quempiam nominasses, cui fasciculum
                     committerem, tibi porro transmittendum. Amicus illic est mihi summus <persName
-                        ref="Ottenfeld">WENCESLAUS LAVINIUS ab OTTENFELDO</persName>, medicus
+                        ref="lavinius_wenceslaus_1586">WENCESLAUS LAVINIUS ab OTTENFELDO</persName>, medicus
                     excellentissimus, cum quo <placeName ref="Paris">Lutetiæ</placeName>
                     familiarissimê vixi; <pb ed="A" n="44r"/>ubi tum simul erat illustris Baro
-                        <persName ref="Žerotín">CAROLUS a ZEROTINO</persName> Moravus; <placeName
-                        ref="Nürnberg">Norimbergæ</placeName> autem est <persName ref="Calandrinus"
+                        <persName ref="zerotina_karel_1564">CAROLUS a ZEROTINO</persName> Moravus; <placeName
+                        ref="Nürnberg">Norimbergæ</placeName> autem est <persName ref="caesar_calandrinus_1550"
                         >CÆSAR CALANDRINUS</persName>, vir ornatissimus, quem adhuc vivere arbitror.
                     Hic litteris transmittendis operam nobis suam haudquaquam denegaturus erit.</p>
-                <p rend="indent">Scripsi hæc festinabundus, cum Oda quæpiam <persName ref="Žerotín"
-                        >ZEROTINO</persName> Baroni inscripta ad prelum adornanda esset. Tu bene
-                    vale et me ama.</p>
-                <p rend="indent">Dat. <placeName ref="Heidelberg">Haidelbergæ</placeName> die V.
-                    Martij veteris, anno MDC.</p>
-                <lb/>
-                <p rend="rightMargin">P. MELISSUS</p>
-                <lb/>
-                <p><persName ref="cramer_daniel_1568">CRAMERUM</persName> vellem in Senarijs suis observare
+                <p rend="indent">Scripsi hæc festinabundus, cum Oda quæpiam <persName ref="zerotina_karel_1564"
+                        >ZEROTINO</persName> Baroni inscripta ad prelum adornanda esset.</p> <closer><salute>Tu bene
+                    vale et me ama.</salute><dateline>Dat. <placeName ref="Heidelberg">Haidelbergæ</placeName> die V.
+                    Martij veteris, anno MDC.</dateline><signed><persName ref="melissus_paulus_1539">P. MELISSUS</persName>.</signed></closer>
+                
+                <postscript><p><persName ref="cramer_daniel_1568">CRAMERUM</persName> vellem in Senarijs suis observare
                     quarto loco Iambum, qui etiam in secundo requiritur necessario. Corriget igitur,
-                    ubicumque spondeus positus est, si vult imitari <persName ref="Horatius"
+                    ubicumque spondeus positus est, si vult imitari <persName ref="horats_0065"
                         >HORATIUM</persName> et <persName ref="Seneca">SENECAM</persName> in Trag.
                     Produxit syllabam <hi rend="it">no</hi> in <hi rend="it">Pannoniæ</hi> et <hi
                         rend="it">ge</hi> corripuit in <hi rend="it">Indulge</hi>. Et hoc limandum.
-                </p>
+                </p></postscript>
             </div>
         </body>
     </text>

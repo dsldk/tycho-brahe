@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10702</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10702</idno>
@@ -60,11 +69,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johannes Kepler</persName>
+                    <persName key="kepler_johannes_1571">Johannes Kepler</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 26. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 26. januar n.s.</date><date xml:lang="en">1600, 26 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,12 +98,12 @@
                 <opener><pb ed="TBOO" n="VIII.246"/><pb ed="A" n="159v"/>CLARISSIMO ET ERUDITISSIMO
                     VIRO DOMINO Μ. <persName ref="kepler_johannes_1571">IOHANNI KEPLERO</persName> ILLUSTRIUM <placeName ref="Steiermark">STYRIÆ</placeName> ORDINUM MATHEMATICO EXIMIO,
                     AMICO SUO PLURIMI FACIENDO.</opener>
-                <p><pb ed="A" n="158r"/>REVERSI heri vesperi sero ad me domestici illi mei, quos
+                <p rend="noIndent"><pb ed="A" n="158r"/>REVERSI heri vesperi sero ad me domestici illi mei, quos
                         <placeName ref="Praha">Pragam</placeName> miseram, tuas, Ecc<hi rend="sup"
                         >me</hi> et amantissime Domine <persName ref="kepler_johannes_1571">KEPLERE</persName>, ex insperato attulere humanissimas
                     literas, quibus lectis, te <placeName ref="Praha">Pragæ</placeName> nunc esse,
                     perlubenter comperi. Invite tamen ex ijsdem colligebam, te necdum meas, quas
-                    ultimis Tuis affatim respondentes ante mensem circiter <persName ref="Wien">Viennam</persName>, ut inde per
+                    ultimis Tuis affatim respondentes ante mensem circiter <placeName ref="Wien">Viennam</placeName>, ut inde per
                     Dominum Doctorem <persName ref="blotius_hugo_1533">BLOTIUM</persName> tibi, ubicunque invenireris, mitterentur, direxi. Quæ
                     si interea tibi traditæ fuissent, hac reiterata protestatione et excusatione in
                     re ista, quæ tot verba non meretur, supersedisses, atque actutum citra
@@ -137,13 +147,11 @@
                     gratissimus, nostrarumque in cœlestibus contemplationum, per ea quæ nunc ad
                     manus habeo, instrumenta spectator et socius acceptissimus. Tunc, volente
                     Numine, coram de pluribus. Vale et Illustrem ac Generosum Dominum Baronem
-                    <persName ref="Hoffmann">IOHANNEM FRIDERICUM HOFFMANNUM</persName>, cui etiam nonnulla congratulationis caussa pro
-                    felici reditu scripsi, ex me officiosissime resaluta. Dabantur properanter ex
+                    <persName ref="hoffmann_hans_friedrich_1561">IOHANNEM FRIDERICUM HOFFMANNUM</persName>, cui etiam nonnulla congratulationis caussa pro
+                    felici reditu scripsi, ex me officiosissime resaluta.</p> <closer><dateline>Dabantur properanter ex
                         <placeName ref="Benatky">arce Cæsareana Benatica</placeName> die 26 Ianuarij
-                    1600.</p>
-                <lb/>
-                <p rend="rightMargin">Tui Amantissimus<lb/>TYCHO BRAHE,<lb/>manu propria
-                    scripsi.</p>
+                    1600.</dateline> <signed>Tui Amantissimus<lb/>TYCHO BRAHE,<lb/>manu propria
+                    scripsi.</signed></closer>
             </div>
         </body>
     </text>

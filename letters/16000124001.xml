@@ -32,9 +32,20 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Firenze</settlement>
+                                <repository>Bibliotheca Nazionale Centrale</repository>
+                                <collection>empty</collection>
+                                <!-- Fundet på nettet. Faksimile: https://teca.bncf.firenze.sbn.it/ImageViewer/servlet/ImageViewer?idr=BNCF0003559588 - TBOO siger: in codicum Galileianorum tomo 27 (Academia dei Cimento
+            part. 3 vol. 12 -->
+                                <idno>Gal. 286 (Accademia del Cimento part 3, vol. 12)</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Florence</settlement>
                                 <repository>Bibliotheca Nazionale Centrale</repository>
                                 <collection>empty</collection>
                                 <!-- Fundet på nettet. Faksimile: https://teca.bncf.firenze.sbn.it/ImageViewer/servlet/ImageViewer?idr=BNCF0003559588 - TBOO siger: in codicum Galileianorum tomo 27 (Academia dei Cimento
@@ -62,11 +73,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ferdinando I de&#x2019; Medici</persName>
+                    <persName key="medici_fernando_1549">Ferdinando I de&#x2019; Medici</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 24. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 24. januar n.s.</date><date xml:lang="en">1600, 24 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -81,6 +92,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,7 +102,7 @@
                 <opener><pb ed="TBOO" n="VIII.242"/><pb ed="A" n="6v"/>SERENISSIMO AC POTENTISSIMO
                     PRINCIPI AC DOMINO. DOMINO <persName ref="medici_fernando_1549">FERDINANDO</persName>, MAGNO HETRURIÆ, FLORENTIÆ, SENORUM AC
                     PISARUM DUCI, DOMINO SUO CLEMENTISSIMO AD MANUS PROPRIAS.</opener>
-                <p><pb ed="A" n="5r"/>SERENISSIME et Potentissime Princeps, Domine Clementissime.
+                <p rend="noIndent"><pb ed="A" n="5r"/>SERENISSIME et Potentissime Princeps, Domine Clementissime.
                     Quod Serenissima Celsitudo Tua mihi, licet de facie ignoto et tam longe dissito,
                     adeo clementer et benevole superiori æstate scribere non dedignata fuerit,
                     humillima et obsequentissima mente eidem gratias ago quas possum maximas. Accepi
@@ -176,11 +188,9 @@
                 <p rend="indent">Sed desino Serenissimam Tuam Celsitudinem, gravissimis Ditionum
                     suarum rebus gubernandis intentam, ulterius interpellare. Deus Opt. Max. eam
                     quam diutissime sospitem et florentem conservet.</p>
-                <p rend="indent">Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
-                        Benaticâ</placeName> Die 24 Ianuarij An. 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Serenissimæ Celsitudinis Vestræ<lb/>humillimus
-                    servitor<lb/>TYCHO BRAHE,<lb/>manu propria scripsi.</p>
+                <closer><dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
+                        Benaticâ</placeName> Die 24 Ianuarij An. 1600.</dateline> <signed>Serenissimæ Celsitudinis Vestræ<lb/>humillimus
+                    servitor<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria scripsi.</signed></closer>
             </div>
         </body>
     </text>

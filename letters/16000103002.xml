@@ -68,7 +68,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 3. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 3. januar n.s.</date><date xml:lang="en">1600, 3 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +83,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -95,7 +96,7 @@
                     </app> VIRO, DOMINO <persName ref="magini_giovanni_antonio_1555">IOHANNI ANTONIO MAGINO</persName>,
                     MATHEMATUM IN ILLUSTRI BONONIENSEM GYMNASIO PROFESSORI, AMICO SUO PLURIMUM
                     DILECTO.</opener>
-                <p>REVERSUS ad me <persName ref="tengnagel_frans_1576">FRANCISCUS TENGNAGLIUS</persName> noster
+                <p rend="noIndent">REVERSUS ad me <persName ref="tengnagel_frans_1576">FRANCISCUS TENGNAGLIUS</persName> noster
                     tuas attulit, Excellentissime et <app>
                         <lem>Eruditissime</lem>
                         <rdg><note>post <q>Eruditissime</q> add. <q>vir</q> Magini1604</note></rdg>
@@ -131,7 +132,7 @@
                             Astronomicæ ortus, incrementa, promotiones, augmenta et variæ mutationes
                             ac peregrinationes recenseantur; quæ omnia <pb ed="A" n="10v"/>ab alijs
                             scriptoribus, qui hoc argumentum tractârunt, facile cum delectu quodam
-                            hauriri poterunt. Et si alij defuerint, <persName ref="Stadius">IOHANNES
+                            hauriri poterunt. Et si alij defuerint, <persName ref="stadius_johannes_1527">IOHANNES
                                 STADIUS</persName> in ijs, quæ Tabulis Bergensibus abs se dictis
                             subiunxit, occasionem suppeditabunt: quæ tamen in quibusdam, ubi
                             liberius excurrit, castiganda erunt, uti erat vir ille in dicendo
@@ -157,7 +158,7 @@
                             Augustissimum Imperatorem <persName ref="rudolf_2_1552">RUDOLPHUM
                                 II</persName> clemens et benignum hospitium nacta est, ut demum
                             verificaretur, quod olim <persName ref="manilius_marcus_0100">MANILIUS</persName> ad
-                                <persName ref="Augustus">AUGUSTUM</persName>
+                                <persName ref="augustus_0063">AUGUSTUM</persName>
                             <persName ref="rudolf_2_1552">Cæsarem</persName> protulit:</lem>
                         <rdg><note>om. Magini1604</note></rdg>
                     </app></p>
@@ -265,13 +266,12 @@
                     </app> imitatione exerceamus, et sic spectemur agendo.</p>
                 <p rend="indent">Vale, et Annum hunc Iubilæum, multosque alios in Artis huius
                     nunquam satis laudatæ promulgationem feliciter exige.</p>
-                <p rend="indent">Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
-                        Benaticâ</placeName> 3 Ian. 1600.</p>
-                <lb/>
-                <p rend="rightMargin"><app>
+                <closer><dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
+                        Benaticâ</placeName> 3 Ian. 1600.</dateline>
+                <signed><app>
                         <lem>Excellentiæ tuæ studiosissimus</lem>
                         <rdg><wit>om. A. TBOO add. e Magini1604</wit></rdg>
-                    </app><lb/>TYCHO BRAHE.</p>
+                </app><lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed></closer>
             </div>
         </body>
     </text>

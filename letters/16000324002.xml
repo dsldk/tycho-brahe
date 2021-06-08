@@ -43,7 +43,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. VIII, Hauniæ 1925, p. 272.278</bibl>
+                            Tom. VIII, Hauniæ 1925, p. 272-278</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Niels Krag</persName>
+                    <persName key="krag_niels_1550">Niels Krag</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 24. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 24. marts n.s.</date><date xml:lang="en">1600, 24 ;March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,15 +79,16 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-13" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.272"/>TYCHO BRAHE AD NICOLAUM CRAGIUM.</opener>
-                <p><pb ed="A" n="73r"/>S. P.</p>
-                <p>REDDIDIT mihi <persName ref="brahe_tyge_1581">filius TYCHO</persName>, statim
+                <opener><pb ed="TBOO" n="VIII.272"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="krag_niels_1550">NICOLAUM CRAGIUM</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="73r"/>S. P.</p>
+                <p rend="noIndent">REDDIDIT mihi <persName ref="brahe_tyge_1581">filius TYCHO</persName>, statim
                     post huius Anni initia huc ad me domum reversus, literas tuas, Excellentissime
                     et Amantissime Domine Doctor <persName ref="krag_niels_1550">NICOLAE
                         KRAGIE</persName>, quæ mihi gratissimæ erant, utut circa initia
@@ -364,12 +365,12 @@
                         ref="rudolf_2_1552">Cæsar</persName> hoc primo Anno veniam in <placeName
                         ref="Denmark">Daniam</placeName> eundi mihi concedere volet, id in alterum
                     Annum, si Deo ita visum fuerit, differendum erit. Quomodo vero id meo cum bono,
-                    uti insinuas, futurum sit, a te apertius intelligere aveo. Vale quam optime,
+                    uti insinuas, futurum sit, a te apertius intelligere aveo.</p> <closer><salute>Vale quam optime,
                     salutatâ tuâ <persName ref="kirsten_jorgensdatter_1604">coniuge</persName> a meâ et
-                    filiabus peramanter. Dabantur ex <placeName ref="Benatky">Arce Cæsarea
-                        Benatica</placeName> Die 24 Martij stylo renovato Anni 1600.</p>
+                    filiabus peramanter.</salute> <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsarea
+                        Benatica</placeName> Die 24 Martij stylo renovato Anni 1600.</dateline></closer>
                 <lb/>
-                <p rend="center"><pb ed="A" n="79V"/>POSTSCRIPTA</p>
+                <postscript><label><pb ed="A" n="79V"/>POSTSCRIPTA</label>
                 <p>QUONIAM <persName ref="brahe_sophie_1559">soror mea</persName>, URANIA illa
                     Terricula, in ultimis suis nonnulla insinuavit de <persName
                         ref="friis_christian_1556">&#x263F;<hi rend="sup"
@@ -419,7 +420,7 @@
                     forent, sinistra iudicia tam leviter, uti alibi sit, non moratur. Nihil nunc
                     addam. Habeo Deo Opi. Max. pro hac mea sorte gratias, mihique ut in posterum suâ
                     tutelâ et benedictione adesse dignetur, oro. Iterum vale. Datum ut supra in
-                    literis.</p>
+                    literis.</p></postscript>
             </div>
         </body>
     </text>

@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,13 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johann Friedrich Hoffmann</persName>
+                    <persName key="hoffmann_hans_friedrich_1561">Johann Friedrich
+                        Hoffmann</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 6. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 6. marts n.s.</date><date xml:lang="en">1600, 6
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +85,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,64 +93,75 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.254"/><pb ed="A" n="31v"/>ILLUSTRI ET GENEROSO DOMINO,
-                    DOMINO IOHANNI FRIDERICO HOFFMANNO, LIBERO BARONI IN <hi rend="it">GRUENPUECHEL</hi> ET
-                    <hi rend="it">STRECHAU</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET ARCHIDUCATUS AUSTRIÆ, MARSCHALCHO
-                    UTROBIQUE HÆREDITARIO, BURGRAVIO IN <hi rend="it">STEYER</hi> NEC NON SAC. CÆS. MAI. AULÆ
-                    CONSILIARIO ET SERENISSIMI ARCHIDUCIS MAXIMILIANI CUBICULARI PRIMARIO, DOMINO ET
-                    AMICO SUO INPRIMIS HONORANDO.</opener>
-                <p><pb ed="A" n="30r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE
+                    DOMINO <persName ref="hoffmann_hans_friedrich_1561">IOHANNI FRIDERICO
+                        HOFFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUECHEL</hi> ET
+                        <hi rend="it">STRECHAU</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET
+                    ARCHIDUCATUS AUSTRIÆ, MARSCHALCHO UTROBIQUE HÆREDITARIO, BURGRAVIO IN <hi
+                        rend="it">STEYER</hi> NEC NON SAC. CÆS. MAI. AULÆ CONSILIARIO ET SERENISSIMI
+                    ARCHIDUCIS MAXIMILIANI CUBICULARI PRIMARIO, DOMINO ET AMICO SUO INPRIMIS
+                    HONORANDO.</opener>
+                <p rend="indent"><pb ed="A" n="30r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE
                     HONORANDISSIME.</p>
-                <p>QUOD Ill<hi rend="sup">ris</hi> Dn&#176; tua Nobilem et
-                    Eruditissimum Adolescentem <persName ref="tengnagel_frans_1576">FRANCISCUM TENGNAGLIUM</persName> et filium meum <persName
-                        ref="brahe_tyge_1581">TYCHONEM</persName> non solum adeo comiter et
-                    benevole exceperit (neque enim Ill<hi rend="sup">ris</hi> Dn<hi rend="sup"
-                        >is</hi> tuæ eximiam humanitatem sibi exhibitam huc reversi satis
-                    deprædicare poterant) sed et cultissimis suis literis sincera erga me <pb
-                        ed="TBOO" n="VIII.255"/>benevolentiâ refertissimis mihi rescribere non
-                    degravata sit, pro eo Ill<hi rend="sup">i</hi> Dn<hi rend="sup">i</hi> tuæ
-                    gratias ago quas possum maximas: si quâ in re mea opella illi unquam usui esse
-                    possit, quam lubentissime pro virili relaturus.</p>
-                <p rend="indent">Quæ M. <persName ref="kepler_johannes_1571">KEPLERUS</persName> (cuius ingenium et consuetudo mihi perplacent, ut
-                    dignum eum censeam, qui ametur et ad optima quæque promoveatur) oretenus ad me
-                    retulit, percepi. Et quantum ad primum attinet, de studioso illo hîc alendo et
-                    informando, actutum respondi, me non saltem in hoc, sed longe maioribus Ill<hi
-                        rend="sup">ri</hi> Dn<hi rend="sup">i</hi> tuæ pro meo modulo
-                    gratificaturum: alterum satis prævidi confici non posse, prius quam expressum ab
-                    Aulâ Cæsareâ decretum in Cameram mitteretur; quod iam conscriptum esse
-                    intellexi. At ubi hæreat, me <app><lem wit="#TBOO">latet</lem><rdg wit="#A">lateat</rdg></app>. Quia vero a dicto <persName ref="tengnagel_frans_1576"
-                        >TENGNAGLIO</persName> cognovi, quod, cum ante quatriduum <persName ref="Brandeis">Brandeisium</persName>
-                    concessisset, ut cum Domino <persName ref="mühlstein_caspar_1599">Capitaneo</persName> quædam meo nomine loqueretur, eumque illic
-                    non repertum <placeName ref="Praha">Pragæ</placeName> quæsivisset, Ill<hi
-                        rend="sup">rem</hi> quoque Dn<hi rend="sup">nem</hi> tuam pauculis
-                    alloquutus sit, quodque consilium illud de <persName ref="kepler_johannes_1571"
-                        >KEPLERO</persName> atque illo alio, cum illud Ill<hi rend="sup">i</hi>
-                        Dn<hi rend="sup">i</hi> tuæ paucis exponeret, <pb ed="A" n="30v"/>eidem
-                    placuerit, deque eo ipsamet mecum ulterius loqui velit, dabo operam, ut
-                    quamprimum nonnulla, quæ pro <persName ref="rudolf_2_1552">Cæsareâ Ma<hi rend="sup"
-                            >te</hi></persName>, Domino nostro Clementissimo, elaboro, confecta
-                    fuerint (nam prius hinc abire vix ausim) assumpto mecum M. <persName ref="kepler_johannes_1571">KEPLERO</persName> <placeName
-                        ref="Praha">Pragam</placeName> excurram, quo apud Ill<hi rend="sup"
+                <p rend="noIndent">QUOD Ill<hi rend="sup">ris</hi> Dn&#176; tua Nobilem et
+                    Eruditissimum Adolescentem <persName ref="tengnagel_frans_1576">FRANCISCUM
+                        TENGNAGLIUM</persName> et filium meum <persName ref="brahe_tyge_1581"
+                        >TYCHONEM</persName> non solum adeo comiter et benevole exceperit (neque
+                    enim Ill<hi rend="sup">ris</hi> Dn<hi rend="sup">is</hi> tuæ eximiam humanitatem
+                    sibi exhibitam huc reversi satis deprædicare poterant) sed et cultissimis suis
+                    literis sincera erga me <pb ed="TBOO" n="VIII.255"/>benevolentiâ refertissimis
+                    mihi rescribere non degravata sit, pro eo Ill<hi rend="sup">i</hi> Dn<hi
+                        rend="sup">i</hi> tuæ gratias ago quas possum maximas: si quâ in re mea
+                    opella illi unquam usui esse possit, quam lubentissime pro virili relaturus.</p>
+                <p rend="indent">Quæ M. <persName ref="kepler_johannes_1571">KEPLERUS</persName>
+                    (cuius ingenium et consuetudo mihi perplacent, ut dignum eum censeam, qui ametur
+                    et ad optima quæque promoveatur) oretenus ad me retulit, percepi. Et quantum ad
+                    primum attinet, de studioso illo hîc alendo et informando, actutum respondi, me
+                    non saltem in hoc, sed longe maioribus Ill<hi rend="sup">ri</hi> Dn<hi
+                        rend="sup">i</hi> tuæ pro meo modulo gratificaturum: alterum satis prævidi
+                    confici non posse, prius quam expressum ab Aulâ Cæsareâ decretum in Cameram
+                    mitteretur; quod iam conscriptum esse intellexi. At ubi hæreat, me <app>
+                        <lem wit="#TBOO">latet</lem>
+                        <rdg wit="#A">lateat</rdg>
+                    </app>. Quia vero a dicto <persName ref="tengnagel_frans_1576"
+                        >TENGNAGLIO</persName> cognovi, quod, cum ante quatriduum <placeName
+                        ref="Brandeis">Brandeisium</placeName> concessisset, ut cum Domino <persName
+                        ref="mühlstein_caspar_1599">Capitaneo</persName> quædam meo nomine
+                    loqueretur, eumque illic non repertum <placeName ref="Praha">Pragæ</placeName>
+                    quæsivisset, Ill<hi rend="sup">rem</hi> quoque Dn<hi rend="sup">nem</hi> tuam
+                    pauculis alloquutus sit, quodque consilium illud de <persName
+                        ref="kepler_johannes_1571">KEPLERO</persName> atque illo alio, cum illud
+                        Ill<hi rend="sup">i</hi> Dn<hi rend="sup">i</hi> tuæ paucis exponeret, <pb
+                        ed="A" n="30v"/>eidem placuerit, deque eo ipsamet mecum ulterius loqui
+                    velit, dabo operam, ut quamprimum nonnulla, quæ pro <persName
+                        ref="rudolf_2_1552">Cæsareâ Ma<hi rend="sup">te</hi></persName>, Domino
+                    nostro Clementissimo, elaboro, confecta fuerint (nam prius hinc abire vix ausim)
+                    assumpto mecum M. <persName ref="kepler_johannes_1571">KEPLERO</persName>
+                    <placeName ref="Praha">Pragam</placeName> excurram, quo apud Ill<hi rend="sup"
                         >rem</hi> Dn<hi rend="sup">nem</hi> tuam hac de re, prout ea suaserit,
-                    deliberemus et certi aliquid statuamus. Neque enim ipse <persName ref="kepler_johannes_1571"
-                        >KEPLERUS</persName> Ill<hi rend="sup">ri</hi> Dn<hi rend="sup">one</hi> tuâ inconsultâ quicquam concludere voluit.
-                    Quod et ego probo, siquidem absque eiusdem consensu et suasu nihil nobis
-                    faciendum censeam. Intellexi quidem quodammodo, nonnullas difficultates
-                    sese insinuare, quibus tamen (uti spero) ex Ill<hi rend="sup">ris</hi> Dn<hi
-                        rend="sup">is</hi> tuæ prudenti provisu facile <app><lem>occurremus</lem><rdg><q>oc curremus</q> TBOO</rdg></app>, ijsque medelam
-                    adhibebimus. Quare omnia circa hoc negotium, donec cum Ill<hi rend="sup">ri</hi>
-                        D<hi rend="sup">ne</hi> tuâ præsentes de eo egerimus, differenda
-                    arbitramur.</p>
+                    deliberemus et certi aliquid statuamus. Neque enim ipse <persName
+                        ref="kepler_johannes_1571">KEPLERUS</persName> Ill<hi rend="sup">ri</hi>
+                        Dn<hi rend="sup">one</hi> tuâ inconsultâ quicquam concludere voluit. Quod et
+                    ego probo, siquidem absque eiusdem consensu et suasu nihil nobis faciendum
+                    censeam. Intellexi quidem quodammodo, nonnullas difficultates sese insinuare,
+                    quibus tamen (uti spero) ex Ill<hi rend="sup">ris</hi> Dn<hi rend="sup">is</hi>
+                    tuæ prudenti provisu facile <app>
+                        <lem>occurremus</lem>
+                        <rdg><q>oc curremus</q> TBOO</rdg>
+                    </app>, ijsque medelam adhibebimus. Quare omnia circa hoc negotium, donec cum
+                        Ill<hi rend="sup">ri</hi> D<hi rend="sup">ne</hi> tuâ præsentes de eo
+                    egerimus, differenda arbitramur.</p>
                 <p rend="indent">Quæ de Mechanico illo Artifice ab Ill<hi rend="sup">ri</hi> D<hi
-                        rend="sup">ne</hi> tuâ accersendo antedictus <persName ref="tengnagel_frans_1576"
-                        >TENGNAGLIUS</persName> pariter mihi exposuit, cognitu grata erant. Si eum
-                        Ill<hi rend="sup">ris</hi> Dn&#176; tua, ubi accesserit, ad me (uti
-                    constituit) amandârit, efficiam, ut in Instrumentis ad observationes ratas
-                    idoneo modo fabricandis componendisque instructior ad ipsam redeat. Excogitavi
-                    iam nuper quoddam ad varios usus minimo negocio conducens, quodque simul per
-                    longinqua itinera commodum sit portatu: idque eam præsertim ob causam, <pb
-                        ed="A" n="31r"/>quam <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName> noster
-                    Ill<hi rend="sup">ri</hi> Dn<hi rend="sup">i</hi> tuæ secreto aperiet. Præbebit et hoc circuli Sextantem, et non saltem
-                    Altitudines et Siderum distantias etiam ultra sextam Cœli partem usque in
+                        rend="sup">ne</hi> tuâ accersendo antedictus <persName
+                        ref="tengnagel_frans_1576">TENGNAGLIUS</persName> pariter mihi exposuit,
+                    cognitu grata erant. Si eum Ill<hi rend="sup">ris</hi> Dn&#176; tua, ubi
+                    accesserit, ad me (uti constituit) amandârit, efficiam, ut in Instrumentis ad
+                    observationes ratas idoneo modo fabricandis componendisque instructior ad ipsam
+                    redeat. Excogitavi iam nuper quoddam ad varios usus minimo negocio conducens,
+                    quodque simul per longinqua itinera commodum sit portatu: idque eam præsertim ob
+                    causam, <pb ed="A" n="31r"/>quam <persName ref="tengnagel_frans_1576"
+                        >TENGNAGLIUS</persName> noster Ill<hi rend="sup">ri</hi> Dn<hi rend="sup"
+                        >i</hi> tuæ secreto aperiet. Præbebit et hoc circuli Sextantem, et non
+                    saltem Altitudines et Siderum distantias etiam ultra sextam Cœli partem usque in
                     Quadrantem, imo etiam eo ampliores, quoad intercapedines, solerter et satis
                     subtiliter rimabitur, atque insuper longitudines ac latitudines Planetarum per
                     totum Zodiacum minimo labore et absque tædiosâ sup<pb ed="TBOO" n="VIII.256"
@@ -152,13 +170,16 @@
                     Meridiano Æquatorias distantias pro temporis momento inter observandum
                     perquirendo et subinde examinando suppeditabit: ut de alijs quibusdam minoribus
                     utilitatibus nihil addam. Ubi vero artifex ille advenerit, illi structuram eius
-                    proponam, et si confectioni absolvendæ idoneus (uti existimo) fuerit, cum Ill<hi rend="sup">ri</hi>
-                    tuâ Dn<hi rend="sup">ne</hi> id, quicquid est, lubens communicabo, atque succinctum et multiplicem
-                    eius usum eidem reserabo. Plura nunc non addo, ne Ill<hi rend="sup">rem</hi> Dn<hi rend="sup">em</hi> tuam nimium
-                    remorer. Si quæ hîc desiderantur, a <persName ref="tengnagel_frans_1576"
-                        >TENGNAGLIO</persName> uberius, si vacârit, percipiet. Valeat itaque Ill<hi rend="sup">ris</hi>
-                    Dn&#176; tua quam optime et diutissime. Dabantur ex <placeName ref="Benatky"
-                        >Arce Cæsareanâ Benaticâ</placeName> die 6 Martij A. 1600.</p>
+                    proponam, et si confectioni absolvendæ idoneus (uti existimo) fuerit, cum Ill<hi
+                        rend="sup">ri</hi> tuâ Dn<hi rend="sup">ne</hi> id, quicquid est, lubens
+                    communicabo, atque succinctum et multiplicem eius usum eidem reserabo. Plura
+                    nunc non addo, ne Ill<hi rend="sup">rem</hi> Dn<hi rend="sup">em</hi> tuam
+                    nimium remorer. Si quæ hîc desiderantur, a <persName ref="tengnagel_frans_1576"
+                        >TENGNAGLIO</persName> uberius, si vacârit, percipiet.</p>
+                <closer><salute>Valeat itaque Ill<hi rend="sup">ris</hi> Dn&#176; tua quam optime et
+                        diutissime.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ
+                            Benaticâ</placeName> die 6 Martij A. 1600.</dateline></closer>
             </div>
         </body>
     </text>

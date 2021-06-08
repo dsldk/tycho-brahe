@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jaques Bongars</persName>
+                    <persName key="bongars_jaques_1554">Jaques Bongars</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 9. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 9. marts n.s.</date><date xml:lang="en">1600, 9
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +84,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-08" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,35 +92,43 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.260"/><pb ed="A" n="36v"/>GENEROSO, MAGNIFICO ET
-                    NOBILI VIRO, DOMINO I. BONGARSIO, SERENISSIMI ET POTENTISSIMI GALLIARUM
-                    REGIS APUD GERMANIÆ PRINCIPES LEGATO DIGNISSIMO, AMICO SUO VETERI ET INPRIMIS
-                    HONORANDO.</opener>
-                <p><pb ed="A" n="36r"/>MAGNIFICE ET NOBILISSIME VIR.</p>
-                <p>ETSI sub finem superioris Anni per Magistrum quendam natione Danum, Consobrinum
-                    meum, <persName ref="Bille, Claus">CLAUDIUM BILLEUM</persName>, in <placeName ref="France">Gallias</placeName>
-                    comitantem et <placeName ref="Frankfurt am Main">Francofurtum</placeName> (uti statuerat) transeuntem, ad te literas dederim,
-                    ac de quibusdam negocijs commonefecerim, cum tamen hic Nobilis et Eruditus
-                    Iuvenis <persName ref="tengnagel_frans_1576">FRANCISCUS TENGNAGLIUS</persName>, meus
+                    NOBILI VIRO, DOMINO <persName ref="bongars_jaques_1554">I. BONGARSIO</persName>,
+                    SERENISSIMI ET POTENTISSIMI GALLIARUM REGIS APUD GERMANIÆ PRINCIPES LEGATO
+                    DIGNISSIMO, AMICO SUO VETERI ET INPRIMIS HONORANDO.</opener>
+                <p rend="indent"><pb ed="A" n="36r"/>MAGNIFICE ET NOBILISSIME VIR.</p>
+                <p rend="noIndent">ETSI sub finem superioris Anni per Magistrum quendam natione
+                    Danum, Consobrinum meum, <persName ref="bille_claus_1547">CLAUDIUM
+                        BILLEUM</persName>, in <placeName ref="France">Gallias</placeName>
+                    comitantem et <placeName ref="Frankfurt am Main">Francofurtum</placeName> (uti
+                    statuerat) transeuntem, ad te literas dederim, ac de quibusdam negocijs
+                    commonefecerim, cum tamen hic Nobilis et Eruditus Iuvenis <persName
+                        ref="tengnagel_frans_1576">FRANCISCUS TENGNAGLIUS</persName>, meus
                     domesticus meæque e <placeName ref="Denmark">Dania</placeName> emigrationis
                     Comes, ex <placeName ref="Italy">Italiâ</placeName> nuper ad me reversus ad
-                    Nundinas <placeName ref="Frankfurt am Main">Francofurtenses</placeName> ire cogitet, ut inde in Comitatu mercatorum tutius
-                    Patriam suam, quæ est in extremæ <placeName ref="Westfalen">Westphaliæ</placeName> finibus, accedere atque Parentes
-                    invisere queat, postmodum, favente Numine, huc reversurus: non intermittendum
-                    duxi, quin unâ cum eodem (qui rerum mearum apprime gnarus est, easque plenius ad
-                    te referre poterit) denuo scriberem. Nec tamen ea, quæ de Privilegio a Ser<hi rend="sup">mo</hi> et
-                    Potentissimo Galliarum Rege impetrando, deque debito Optimæ memoriæ <persName
-                        ref="Dançay">DANZÆI</persName> nobis solvendo tunc temporis rogavi, iterum
-                    pluribus inculcare lubet, cum de tuâ erga me voluntate tam in his quam alijs
-                    nihil addubitem, et prædictus <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName>
-                    hæc ipsa oretenus promptius expositurus sit. Id saltem te hac vice officiose
-                    rogatum cuperem, ut de quâdam aliâ re, quam is secreto tuæ fidei ex me
-                    committet, quid fieri posse vel secus existimaveris, dispicias, quo is tam de
-                    hac quam cœteris, ubi se huc receperit, <pb ed="A" n="36v"/>mihi referre queat.
-                    Quem etiam, prout amicitiâ non indignum experieris, ut tuâ benevolentiâ
-                    complectaris, quæso. Plura non addo. Neque etiam calamus omnia tuto sustinet.
-                    Sed is instar vivæ Epistolæ omnia rectius expediet. Vale. Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName> die 9
-                    Martij 1600.</p>
-                <p rend="rightMargin">M<hi rend="sup">æ</hi> Tuæ studiosiss.<lb/>TYCHO BRAHE.</p>
+                    Nundinas <placeName ref="Frankfurt am Main">Francofurtenses</placeName> ire
+                    cogitet, ut inde in Comitatu mercatorum tutius Patriam suam, quæ est in extremæ
+                        <placeName ref="Westfalen">Westphaliæ</placeName> finibus, accedere atque
+                    Parentes invisere queat, postmodum, favente Numine, huc reversurus: non
+                    intermittendum duxi, quin unâ cum eodem (qui rerum mearum apprime gnarus est,
+                    easque plenius ad te referre poterit) denuo scriberem. Nec tamen ea, quæ de
+                    Privilegio a Ser<hi rend="sup">mo</hi> et Potentissimo Galliarum Rege
+                    impetrando, deque debito Optimæ memoriæ <persName ref="dancay_charles_1510">DANZÆI</persName>
+                    nobis solvendo tunc temporis rogavi, iterum pluribus inculcare lubet, cum de tuâ
+                    erga me voluntate tam in his quam alijs nihil addubitem, et prædictus <persName
+                        ref="tengnagel_frans_1576">TENGNAGLIUS</persName> hæc ipsa oretenus
+                    promptius expositurus sit. Id saltem te hac vice officiose rogatum cuperem, ut
+                    de quâdam aliâ re, quam is secreto tuæ fidei ex me committet, quid fieri posse
+                    vel secus existimaveris, dispicias, quo is tam de hac quam cœteris, ubi se huc
+                    receperit, <pb ed="A" n="36v"/>mihi referre queat. Quem etiam, prout amicitiâ
+                    non indignum experieris, ut tuâ benevolentiâ complectaris, quæso. Plura non
+                    addo. Neque etiam calamus omnia tuto sustinet. Sed is instar vivæ Epistolæ omnia
+                    rectius expediet.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>
+                        die 9 Martij 1600. M<hi rend="sup">æ</hi></dateline>
+                    <signed>Tuæ studiosiss.<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>.</signed>
+                </closer>
             </div>
         </body>
     </text>

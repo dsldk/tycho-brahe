@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jacob Monavius</persName>
+                    <persName key="monau_jacob_1546">Jacob Monavius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 10. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 10. januar n.s.</date><date xml:lang="en">1600, 10 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,10 +89,10 @@
                 <opener><pb ed="TBOO" n="VIII.236"/><pb ed="A" n="16"/>CLARISSIMO ET EXCELLENTISSIMO VIRO DOMINO <persName ref="monau_jacob_1546">IACOBO
                     MONAVIO</persName>, PATRITO <placeName ref="Wroclaw">VRATISLAVIENSI</placeName>, ILLUSTRISSIMI DUCIS <placeName ref="Schlesien">SILESIÆ</placeName> CONSILIARIO DIGNISSIMO,
                     AMICO SUO INPRIMIS HONORANDO.</opener>
-                <p><pb ed="A" n="15r"/>S. P.</p>
-                <p>PAUCIS diebus ex quo <placeName ref="Praha">Pragam</placeName> veneram, Excellentissime et
+                <p rend="indent"><pb ed="A" n="15r"/>S. P.</p>
+                <p rend="noIndent">PAUCIS diebus ex quo <placeName ref="Praha">Pragam</placeName> veneram, Excellentissime et
                     amantissime Domine <persName ref="monau_jacob_1546">MONAVI</persName>, schedam quandam a te e vestra <placeName ref="Schlesien">Silesia</placeName> mihi asportavit Dominus
-                    D. <persName ref="Schwalbius">SCHWALMIUS</persName>, si recte memini: quæ nihil aliud quam de Carmine quodam Domini <persName ref="Fischer">TOBIÆ
+                    D. <persName ref="schwalbe_bartolomaeus_1551">SCHWALMIUS</persName>, si recte memini: quæ nihil aliud quam de Carmine quodam Domini <persName ref="fischer_tobias_1559">TOBIÆ
                     FISCHERI</persName> Poëtæ vestratis, quâ occasione id in eum modum concinnatum sit, continebat.
                     Grata mihi fuit tua chartula ipsiusque Carmen, in quo paucula verba mutata sunt iuxta
                     censuram criticam, prout in adiunctis pagellis videre est, quibus etiam nonnulla alia,
@@ -123,9 +124,9 @@
                     rite succedere posse, mittam unâ cum Exemplari ad mundum scripto
                     pecuniam, pro quâ papyrus <pb ed="A" n="16r"/>coëmatur, et cœtera persolvantur. Ignoscas vero
                     mihi, mi <persName ref="monau_jacob_1546">MONAVI</persName>, quod te alias occupatissimum meis negotijs sic molestam. Ego quidvis
-                    vicissim tuâ caussâ faciam, quâcunque in re mea opera tibi unquam usui esse poterit.
-                    Vale. Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ Benaticâ</placeName>, ubi nunc cum meis habito, die 10 Ianuarij
-                    stylo renovato Anni 1600.</p>
+                    vicissim tuâ caussâ faciam, quâcunque in re mea opera tibi unquam usui esse poterit.</p>
+                    <closer><salute>Vale.</salute> <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareanâ Benaticâ</placeName>, ubi nunc cum meis habito, die 10 Ianuarij
+                    stylo renovato Anni 1600.</dateline></closer>
             </div>
         </body>
     </text>

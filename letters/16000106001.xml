@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Daniel Fels</persName>
+                    <persName key="fels_daniel_1600">Daniel Fels</persName>
                     <placeName>Plzeň</placeName>
                     <date when="1600-01-06"/>
                     <note>n.s.</note>
@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 6. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 6. januar n.s.</date><date xml:lang="en">1600, 6 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-08" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,14 +87,14 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.232"/><pb ed="A" n="34v"/>GENEROSO ATQUE MAGNIFICO
-                    VIRO, DOMINO TYCHONI BRAHE, IN KNUDTSTRUPP ET URANIBURG, ET DOMINO SUO, FAUTORI
+                    VIRO, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, IN KNUDTSTRUPP ET URANIBURG, ET DOMINO SUO, FAUTORI
                     AC PROMOTORI SUMME HONORANDO.</opener>
-                <p><pb ed="A" n="33r"/>Salutem plurimam D.</p>
-                <p>PRÆTER omnem spem et expectationem meam accidit, Generose
+                <p rend="indent"><pb ed="A" n="33r"/>Salutem plurimam D.</p>
+                <p rend="noIndent">PRÆTER omnem spem et expectationem meam accidit, Generose
                     Domine TYCHO, fautor ac promotor honorandissime, ut hîc diutius moras trahere
                     cogar. Nihilominus tamen ex voto et animi sententia mihi hactenus omnia
                     successerunt, et uti spero amodo etiam successura esse. Tuas a Consobrino tuo
-                    <persName ref="Bille, Claus">CLAUDIO BILLEO</persName> cum Idea sive typo Structuræ novæ <placeName ref="Benatky"
+                    <persName ref="bille_claus_1547">CLAUDIO BILLEO</persName> cum Idea sive typo Structuræ novæ <placeName ref="Benatky"
                         >Benachiensis</placeName> 8 Idus Ianuarij sartas tectasque accepi, quibus
                     properante hinc Posta confestim rescribo. Ideam adhuc hodie Magnifico Domino
                         <persName ref="barvitius_johann_anton_1555">BARVITIO</persName>, <persName ref="rudolf_2_1552"
@@ -132,24 +133,19 @@
                     in toto terrarum Orbe <foreign xml:lang="de"><hi rend="it">nit zu findenn</hi></foreign>, utinam ut quam primum copia mihi eum
                     videndi et cum ipso loquendi se offerat; sed id brevi fore puto.&#171; Dominus
                     <persName ref="typotius_jacobus_1540">TYPOTIUS</persName> ante biduum huc <placeName ref="Plzeň">Pilsnam</placeName> <placeName ref="Leipzig">Lipsiâ</placeName> appulit, qui etiam te salva impertit
-                    salute. Iamque diutissime ac felicissime cum tota Domo vale viveque annos
-                    Platonicos. Dabantur calamo celeri <placeName ref="Plzeň">Pilsnæ</placeName> ipso die quo mihi tuæ cum modella sunt redditæ,
-                    Anno assertæ salutis 1600.</p>
-                <p/>
-                <p/>
-                <lb/>
-                <p rend="rightMargin">T<hi rend="sup">æ</hi> M<hi rend="sup">æ</hi>
-                        addictiss.<lb/><persName ref="Fels">DANIEL FELS</persName>,<lb/>manu
-                    propria.</p>
-                <lb/>
-                <p>Quod meæ superioribus diebus tardius quam debebant tibi sint redditæ, culpa mihi
+                    salute.</p> <closer><salute>Iamque diutissime ac felicissime cum tota Domo vale viveque annos
+                    Platonicos.</salute> <dateline>Dabantur calamo celeri <placeName ref="Plzeň">Pilsnæ</placeName> ipso die quo mihi tuæ cum modella sunt redditæ,
+                    Anno assertæ salutis 1600.</dateline><signed>T<hi rend="sup">æ</hi> M<hi rend="sup">æ</hi>
+                        addictiss.<lb/><persName ref="fels_daniel_1600">DANIEL FELS</persName>,<lb/>manu
+                    propria.</signed></closer>
+                <postscript><p>Quod meæ superioribus diebus tardius quam debebant tibi sint redditæ, culpa mihi
                     non est danda, sed id vel Postæ, per quam rescripseram actutum, vel Domino
                     Doctori <persName ref="heller_1599">HELLERO</persName>, ad quem meas direxeram, imputandum. Cum viaticum mihi desit,
                     nec hîc mutuo accipere possum nummos, scripsi D. <persName ref="heller_1599">HELLERO</persName>, ut per Postum 8
                     Ioachimicos mihi, bonâ fide et gratia a te restituendos, transmittere velit.
                     Iterum vale meæque festinationi ignosce, meque incolumem tu incolumis expecta.
                     Progymnasmata tua Astron. a <persName ref="rudolf_2_1552">Cæs. Maiest.</persName> nondum recepi, quotidie adhuc ipsius
-                        <persName ref="rudolf_2_1552">Cæs. Maiestas</persName> ea perlustrat. </p>
+                        <persName ref="rudolf_2_1552">Cæs. Maiestas</persName> ea perlustrat. </p></postscript>
             </div>
         </body>
     </text>
