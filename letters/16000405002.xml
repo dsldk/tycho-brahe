@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10703</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10703</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Kepler</persName>
+                    <persName key="kepler_johannes_1571">Johannes Kepler</persName>
                     <placeName>Benatky</placeName>
                     <date when="1600-04-05"/>
                     <note>n.s.</note>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 5. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 5. april n.s.</date><date xml:lang="en">1600, 5 April NS.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -79,18 +88,19 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.296"/>IOHANNES KEPLER AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="150r"/>ICH Μ. IOHAN. KEPLER, Einer Er: Landt in <placeName
+                <opener><pb ed="TBOO" n="VIII.296"/><persName ref="kepler_johannes_1571">IOHANNES KEPLER</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="150r"/>ICH Μ. <persName ref="kepler_johannes_1571">IOHAN. KEPLER</persName>, Einer Er: Landt in <placeName
                         ref="Steiermark">Steier</placeName>
                     <hi rend="it">Mathematicus</hi>, bekhenne, demnach Ich mit gnediger Erlaubung
                     wolermelten landtschafft, ein reise in <placeName ref="Bohemia">Beheim</placeName> furgenommen, fürnemlich den Edlen
-                    vnd Gestrengen Herrn TYCHO BRAHE, Herrn aus Knudtstrup vnd Vraniburg, wegen Dero
+                    vnd Gestrengen Herrn <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>, Herrn aus Knudtstrup vnd Vraniburg, wegen Dero
                     Gest. ansehnlicher vnd weitberühempten <hi rend="it">Astronomischen
                         Instrumente</hi> vnd fürhabender bücher zuebesuchen, Das ich zue dem ende
                     den vierten <hi rend="it">Februarij</hi> des 1600 Jahrs allhero gehn <placeName
@@ -108,17 +118,15 @@
                     zuezuschreiben, zur gemüeth gefürtt: hab ich eigner sorgfaltigkeit halber, für
                     nützlich vnd rathsamblich geachtet, mit gegenwärtiger meiner <pb ed="A" n="150v"
                     />eignen handtschrifft vnd vndergedruckten Petschafft dahin mich zuuerpflichten,
-                    dass ich alles das, so mir von wolermelten Herrn BRAHE <hi rend="it"
+                    dass ich alles das, so mir von wolermelten Herrn <persName ref="brahe_tycho_1546">BRAHE</persName> <hi rend="it"
                         >communicirt</hi> oder hernacher, in was wege es wolle, <hi rend="it"
                         >communicirt</hi> soll werden, in hochster geheim halten. Darmit auch mich
                     andere alss einen liebhaber der <hi rend="it">Philosophia</hi>, gebe vnd
                     offtermelten Herrn BRAHE, alss den rechten <hi rend="it">authori</hi> selbsten
                     iederzeit gefallen würt, vmbgehen handlen vnd dero mich gebrauchen wölle: alles
-                    auff treuw vnd glauben, treuwlich vnd vngefehrlich. In vrkhund meiner
+                    auff treuw vnd glauben, treuwlich vnd vngefehrlich.</p> <closer><dateline>In vrkhund meiner
                     handschrifft, vnd angeporn Pitschafft, Geben den 5 <hi rend="it">Aprilis</hi> im
-                    1600 Jah. <placeName ref="Benatky">Benat.</placeName></p>
-                <lb/>
-                <p rend="rightMargin"><lb/></p>
+                    1600 Jah. <placeName ref="Benatky">Benat.</placeName></dateline></closer>
             </div>
         </body>
     </text>

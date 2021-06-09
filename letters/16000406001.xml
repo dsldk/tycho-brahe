@@ -13,28 +13,41 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10703</idno>
+                                <msName>(transcript by Kepler)</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10703</idno>
@@ -60,11 +73,13 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johann Friedrich Hoffmann</persName>
+                    <persName key="hoffmann_hans_friedrich_1561">Johann Friedrich
+                        Hoffmann</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 6. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 6. april n.s.</date><date xml:lang="en">1600, 6
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,42 +102,45 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.297"/><pb ed="A" n="126a-r"/>ILLUSTRI ET GENEROSO
-                    DOMINO, DOMINO <persName ref="hoffmann_hans_friedrich_1561">IOHANNI FRIDERICO HOFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUEHEL</hi> ET
-                    <hi rend="it">STRECHAU</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET ARCHIDUCATUS AUSTRIÆ,
-                    MARSCHALCHO UBIQUE HÆREDITARIO, BURGRAVIO IN <hi rend="it">STEYER</hi>, NEC NON SACRÆ CÆSAREÆ
-                    MAIESTATIS AULÆ CONSILIARIO ET SERENISSIMI ARCHIDUCIS MAXIMILIANI CUBICULARIO
-                    PRIMARIO, DOMINO ET AMICO SUO IMPRIMIS HONORANDO.</opener>
-                <p>ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE HONORANDISSIME.</p>
-                <p>REDIT nunc <placeName ref="Praha">Pragam</placeName> M. <persName ref="kepler_johannes_1571"
-                        >KEPLERUS</persName>, et licet suasor illi fuerim, ut domestici mei, qui
-                    etiamnum <placeName ref="Plzeň">Pilsnæ</placeName> est, et inter alia in negocio
-                    dictum <persName ref="kepler_johannes_1571">KEPLERUM</persName> concernente
-                    sollicitat, reditum, quem intra paucos dies futurum spero, expectaret, ut quid fieri
-                    possit, certius resciremus (præsertim cum spes aliqua facta sit, Sa<hi
-                        rend="sup">am</hi>
+                    DOMINO, DOMINO <persName ref="hoffmann_hans_friedrich_1561">IOHANNI FRIDERICO
+                        HOFMANNO</persName>, LIBERO BARONI IN <hi rend="it">GRUENPUEHEL</hi> ET <hi
+                        rend="it">STRECHAU</hi>, PRÆFECTO PROVINCIÆ DUCATUS STYRIÆ ET ARCHIDUCATUS
+                    AUSTRIÆ, MARSCHALCHO UBIQUE HÆREDITARIO, BURGRAVIO IN <hi rend="it">STEYER</hi>,
+                    NEC NON SACRÆ CÆSAREÆ MAIESTATIS AULÆ CONSILIARIO ET SERENISSIMI ARCHIDUCIS
+                    MAXIMILIANI CUBICULARIO PRIMARIO, DOMINO ET AMICO SUO IMPRIMIS
+                    HONORANDO.</opener>
+                <p rend="indent">ILLUSTRIS ET GENEROSE VIR, DOMINE ET AMICE HONORANDISSIME.</p>
+                <p rend="noIndent">REDIT nunc <placeName ref="Praha">Pragam</placeName> M. <persName
+                        ref="kepler_johannes_1571">KEPLERUS</persName>, et licet suasor illi fuerim,
+                    ut domestici mei, qui etiamnum <placeName ref="Plzeň">Pilsnæ</placeName> est, et
+                    inter alia in negocio dictum <persName ref="kepler_johannes_1571"
+                        >KEPLERUM</persName> concernente sollicitat, reditum, quem intra paucos dies
+                    futurum spero, expectaret, ut quid fieri possit, certius resciremus (præsertim
+                    cum spes aliqua facta sit, Sa<hi rend="sup">am</hi>
                     <persName ref="rudolf_2_1552">Cæs<hi rend="sup">am</hi> Ma<hi rend="sup"
-                        >tem</hi></persName> petitionibus meis humilimis clementissime annuere
+                            >tem</hi></persName> petitionibus meis humilimis clementissime annuere
                     velle) atque demum aliquid rati concludere possemus: tamen cum ipsum nihilominus
                     abitum festinare intelligerem, reliqui hominem suo arbitrio. Quid vero inter nos
                     ventilatum sit, Ill<hi rend="sup">ris</hi> D<hi rend="sup">o</hi> Tua e D.
-                    Doctore <persName ref="jessenius_jan_1566">IOANNE IESSENIO</persName>, qui has adfert,
-                    seorsim cognoscet: is enim interfuit, dum hæc gererentur: quare longiore et
-                    tædiosâ eorum commemoratione supersedeo, omnia ad hanc rem facientia Illustris
-                        D<hi rend="sup">nis</hi> Tuæ prudenti consilio dispicienda ordinandaque
-                    etiamnum relinquens.</p>
+                    Doctore <persName ref="jessenius_jan_1566">IOANNE IESSENIO</persName>, qui has
+                    adfert, seorsim cognoscet: is enim interfuit, dum hæc gererentur: quare longiore
+                    et tædiosâ eorum commemoratione supersedeo, omnia ad hanc rem facientia
+                    Illustris D<hi rend="sup">nis</hi> Tuæ prudenti consilio dispicienda
+                    ordinandaque etiamnum relinquens.</p>
                 <p rend="indent">Cœterum de puero, quem Illustris D<hi rend="sup">natio</hi> Tua ad
-                    me mittere decrevit, sciat me libenter eum, quandocunque ad<pb ed="A" n="126a-v"/>venerit,
-                    recepturum, tum quoque laboratorem Spagiricum. Et expecto pariter fabrum illum
-                    Mechanicum, qui e <placeName ref="Steiermark">Styria</placeName> venturus est.
-                    Quam primum vero per occupationes licuerit, spero me <placeName ref="Praha"
-                        >Pragæ</placeName> futurum, ubi plenius cum Ill<hi rend="sup">ri</hi> D<hi
-                        rend="sup">one</hi> Tua de ijs, quæ hîc omissa sunt, agam. Valeat Tua Ill<hi
-                        rend="sup">ris</hi> D<hi rend="sup">o</hi> quam optime et diutissime.
-                    Dabantur ex <placeName ref="Benatky">arce Cæsarea Benatica</placeName> die 6
-                    Aprilis Anno 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Ill<hi rend="sup">ri</hi> Generositati
-                    Tuæ<lb/>Addictissimus<lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                    me mittere decrevit, sciat me libenter eum, quandocunque ad<pb ed="A" n="126a-v"
+                    />venerit, recepturum, tum quoque laboratorem Spagiricum. Et expecto pariter
+                    fabrum illum Mechanicum, qui e <placeName ref="Steiermark">Styria</placeName>
+                    venturus est. Quam primum vero per occupationes licuerit, spero me <placeName
+                        ref="Praha">Pragæ</placeName> futurum, ubi plenius cum Ill<hi rend="sup"
+                        >ri</hi> D<hi rend="sup">one</hi> Tua de ijs, quæ hîc omissa sunt, agam.</p>
+                <closer><salute>Valeat Tua Ill<hi rend="sup">ris</hi> D<hi rend="sup">o</hi> quam
+                        optime et diutissime.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">arce Cæsarea Benatica</placeName>
+                        die 6 Aprilis Anno 1600.</dateline>
+                    <signed>Ill<hi rend="sup">ri</hi> Generositati
+                            Tuæ<lb/>Addictissimus<lb/><persName ref="brahe_tycho_1546">TYCHO
+                            BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

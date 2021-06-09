@@ -59,11 +59,11 @@
                     <date when="1600-05-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Tobias Fischer</persName>
+                    <persName key="fischer_tobias_1559">Tobias Fischer</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 16. maj</date></creation>
+            <creation><date xml:lang="da">1600, 16. maj.</date><date xml:lang="da">1600, 16 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,7 +89,7 @@
                     VIRO, DOMINO <persName ref="fischer_tobias_1559">TOBIÆ FISCHERO</persName>, PHILOSOPHIÆ ET MEDICINÆ DOCTORI EXIMIO, AMICO SUO
                     INPRIMIS DILECTO.</opener>
 
-                <p><pb ed="A" n="129r"/>CLARISSIME et præstantissime vir, accepi quidem literas tuas
+                <p rend="noIndent"><pb ed="A" n="129r"/>CLARISSIME et præstantissime vir, accepi quidem literas tuas
                     unâ cum carminibus in mei gratiam a te eleganter et erudite concinnatis,
                     antecedente anno, cum primum Pragam venissem, a Domino Doctore <persName
                         ref="schwalbe_bartolomaeus_1551">SWALBIO</persName>, communi nostro amico, mihi redditas, tum
@@ -136,9 +137,9 @@
                 <p rend="indent">Globi <persName ref="mercator_gerard_1512">MERCATORIS</persName>, de quibus
                     scribis, iam ferme antiquati sunt, vixque, quod sciam, reperiuntur exemplaria.
                     Duo talium parandorum artifices Batavi, quorum unus <placeName ref="Amsterdam">Amsterodami</placeName> <persName
-                        ref="Florentius">IACOBUS FLORENTIUS</persName>, alter <placeName
+                        ref="langren_jacob_floris_van_1525">IACOBUS FLORENTIUS</persName>, alter <placeName
                         ref="Alkmaar">Alcmariæ</placeName>
-                    <persName ref="Blaeu">WILHELMUS IANUS</persName> nominatus, globos secundum
+                    <persName ref="blaeu_willem_janszoon_1571">WILHELMUS IANUS</persName> nominatus, globos secundum
                     nostram in fixis sideribus restitutionem diligenter elaborârunt. Quorum
                     posterior dimidium annum mecum in <placeName ref="Hven">Insula</placeName> nostra <placeName ref="Uraniborg">Uraniburgica</placeName> fuit, atque ibidem
                     stellas suo, quod attulit, globoso corpori, me circiter millenas illi
@@ -149,8 +150,8 @@
                     neoterici advehantur, sed si <placeName ref="Bohemia">Bohemiam</placeName>
                     aliquando ingressus me inviseris, exemplum monstrabo, tunc simul alia, quæ penes
                     me elaborata habeo, siquidem te etiam his studijs affici videam, lubens
-                    ostendam, tecumque de talibus iucunde conferam. Vale. Dabantur ex <placeName
-                        ref="Benatky">arce Cæsarea Benatika</placeName> 16 Maij A. 1600. </p>
+                    ostendam, tecumque de talibus iucunde conferam.</p> <closer><salute>Vale.</salute> <dateline>Dabantur ex <placeName
+                        ref="Benatky">arce Cæsarea Benatika</placeName> 16 Maij A. 1600.</dateline> </closer>
             </div>
         </body>
     </text>

@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Jaques Bongars</persName>
+                    <persName key="bongars_jaques_1554">Jaques Bongars</persName>
                     <placeName>Frankfurt am Main</placeName>
                     <date when="1600-05-01"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 1. maj</date></creation>
+            <creation><date xml:lang="da">1600, 1. maj.</date><date xml:lang="da">1600, 1 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,11 +86,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.318"/><pb ed="A" n="55v"/>NOBILISSIMO ET AMPLISSIMO
-                    VIRO, DOMINO TICHONI BRAHE, VIRO INCOMPARABILE IN <placeName ref="Benatky">ARCE
+                    VIRO, DOMINO <persName ref="brahe_tycho_1546">TICHONI BRAHE</persName>, VIRO INCOMPARABILE IN <placeName ref="Benatky">ARCE
                         CÆSAREA BENATICA</placeName>.</opener>
 
-                <p><pb ed="A" n="54r"/>NOBILISSIME ET AMPLISSIME DOMINE.</p>
-                <p>TRES iam septimanæ abierunt, ex quo redditæ mihi sunt litteræ, quas ad me dedisti
+                <p rend="indent"><pb ed="A" n="54r"/>NOBILISSIME ET AMPLISSIME DOMINE.</p>
+                <p rend="noIndent">TRES iam septimanæ abierunt, ex quo redditæ mihi sunt litteræ, quas ad me dedisti
                     IX Martij. Sed neque eas accepi, quas memoras datas sub finem anni superioris,
                     neque <persName ref="tengnagel_frans_1576">FRANCISCUM TENGNAGLIUM</persName> vidi, quem a
                     te tanto viro commendatum, omnibus fuissem officijs prosecutus. Non gravaberis
@@ -99,10 +100,8 @@
                     Tuas in posterum ad me tuto poteris committere bibliopolæ ei, qui <persName
                         ref="marne_claude_de_1610">CLAUDIJ MARNIJ </persName> Wecheliani officinæ præest <placeName
                         ref="Praha">Pragæ</placeName>.</p>
-                <p>Vir Nobiliss. Deus te servet incolumem. <placeName ref="Frankfurt am Main"
-                        >Francofurto</placeName> ipsis Kal. Maijs 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Nominis tui studiosissimus<lb/>BONGARSIUS.</p>
+                <closer><salute>Vir Nobiliss. Deus te servet incolumem.</salute> <dateline><placeName ref="Frankfurt am Main"
+                        >Francofurto</placeName> ipsis Kal. Maijs 1600.</dateline> <signed>Nominis tui studiosissimus<lb/><persName ref="bongars_jaques_1554">BONGARSIUS</persName>.</signed></closer>
             </div>
         </body>
     </text>

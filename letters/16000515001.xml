@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 15. maj</date></creation>
+            <creation><date xml:lang="da">1600, 15. maj.</date><date xml:lang="en">1600, 15 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,16 +78,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.319"/>TYCHO BRAHE AD ANONYMUM.</opener>
+                <opener><pb ed="TBOO" n="VIII.319"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD ANONYMUM.</opener>
 
-                <p><pb ed="A" n="123r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE OBSERVANDISSIME.</p>
-                <p>DE ijs, quæ nuper ad Illustrem Dominationem Vestram per meum, quem isthuc
+                <p rend="indent"><pb ed="A" n="123r"/>ILLUSTRIS ET GENEROSE VIR, DOMINE OBSERVANDISSIME.</p>
+                <p rend="noIndent">DE ijs, quæ nuper ad Illustrem Dominationem Vestram per meum, quem isthuc
                     ablegavi, domesticum perscripsi et referri volui, nunc pluribus non agam, ne
                     eadem repetendo ei nimium molestus videar, sperans nihilominus, Illustrem Dom<hi
                         rend="sup">em</hi> Vestram desiderijs meis lubenti animo annuituram, atque
@@ -121,8 +122,8 @@
                     satis perspectam habeo, nihil addubitem, eam etiam hac in parte meæ expectationi
                     non defuturam confido. Ideoque illam aliâs occupatissimam <pb ed="A" n="123v"
                     />ulterius remorari desino. Deus Opt. Max. Illustrem Dom<hi rend="sup">em</hi> Vestram quam
-                    diutissime sospitem conservet. Dabantur ex <placeName ref="Benatky">arce Cæsarea
-                        Benaticka</placeName> die Maij Anno 1600.</p>
+                    diutissime sospitem conservet.</p> <closer><dateline>Dabantur ex <placeName ref="Benatky">arce Cæsarea
+                        Benaticka</placeName> die Maij Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

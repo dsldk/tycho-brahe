@@ -13,26 +13,30 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -40,6 +44,21 @@
                                 <idno>cod. Vindob. lat. 10703</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10703</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +79,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johannes Jessenius a Jessen</persName>
+                    <persName key="jessenius_jan_1566">Johannes Jessenius a Jessen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 8. april n.s.</date><date xml:lang="en">1600, 8
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,92 +99,104 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.298"/>TYCHO BRAHE AD <persName ref="jessenius_jan_1566">IOHANNEM IESSENIUM A
-                    IESSEN</persName>.</opener>
-                <p><pb ed="A" n="153r"/>S. P.</p>
-                <p>CLARISSIME vir, amice plurimum mihi semper dilecte, quæ tuæ fidei concredidi,
-                    Generoso D. <persName ref="hoffmann_hans_friedrich_1561">HOFFMANNO</persName> seorsim monstranda,
-                    cupio mihi nunc remitti; litteras tamen illas, quas <persName ref="tengnagel_frans_1576"
-                        >TEGNAGLIUS</persName> ultimo ad me dedit, quæ de Magnifici D. <persName
-                        ref="coraduz_rudolf_1618">CORRADUCIJ</persName> resolutione faciunt, vellem bene tuo
-                    sigillo munitas ac tuis inclusas unâ cum meis ad <persName ref="fels_daniel_1600">DANIELEM</persName> mitti, siquidem in ijs
-                    faciat mentionem eorum, quæ D. <persName ref="coraduz_rudolf_1618">CORRADUCIUS</persName>
-                    apud <persName ref="rudolf_2_1552">Cæsar. Mai.</persName> meo nomine impetravit, ut
-                    sciat <persName ref="fels_daniel_1600">DANIEL</persName>, eo rectius se facere, si apud D. <persName ref="coraduz_rudolf_1618"
-                        >CORRADUCIUM</persName> in meis rebus sollicitet, non minus quam apud D.
-                        <persName ref="barvitius_johann_anton_1555">BARVICIUM</persName>, quem quodammodo lentum in ijs
-                    promovendis ............. Dubitat enim ipse <persName ref="fels_daniel_1600">DANIEL</persName> in ultimis suis ad me
-                    datis, an hoc facere debeat nec ne. Ego vero rescripsi, mihi id non inconsultum
-                    videri, caute tamen omnia agenda, ne D. <persName ref="barvitius_johann_anton_1555"
-                        >BARVICIUM</persName> per imprudentiam offendat, nam amborum retinere
-                    benevolentiam, quoad fieri poterit, satius duco. Cœterum cum tu hîc spectator et
-                    auditor fueris eorum, quæ a <persName ref="kepler_johannes_1571">KEPLERO</persName> dicta factaque sunt, sub ipsum discessus
-                    momentum, et simul quomodo postea, iuxta currum mihi valedicturus, pœnitentia
-                    quadam eorum duci præ se ferret, atque ea omnia, quod affectus suos regere non
-                    posset, excusaret, egoque a condonatione <pb ed="A" n="153v"/>non alienus essem,
-                    tibique in aurem susurraverim, ut efficeres illum <placeName ref="Praha"
-                        >Pragæ</placeName> literis ad me datis id ipsum testari, quod male ipsum
-                    habeat, se sic exorbitasse cupereque mecum in gratiam redire, quod et te
-                    facturum aiebas, et sponte antea mihi seorsim dixeras, te in itinere ipsum serio
-                    admoniturum, imo reprehensurum, quod se tam impotenter et biliose gesserit,
-                    contra quam decet virum doctum et honestum: iccirco mitto tibi hîc inclusas
-                    ipsius literas manu eius propria exaratas, quarum effrenem petulantiam et nimis
-                    arrogantem dicacitatem nec per meum vinum nec per meum contemtum, nec quicquid
-                    eiuscemodi aliud quod prætendit, excusare poterit, nisi et tunc furiosus fuit
-                    (uti forte huius morbi semina, etiam cum sibi maxime constare videtur, clam
-                    fovet) cum ista composito animo scriberet, et ipsemet calamo, me ignorante (qui
-                    ipsi iam ignoscere cœperam, siquidem resipiscere voluisset) præest. Miraberis,
-                    non dubito, hominis in malitia citra omne meum meritum pertinaciam, nec forte
-                    habebis aliud, quid dicas, quam me mea humanitate, uti etiam tacite exprobrâsti,
-                    effecisse, ut iste hominem exueret, atque in rabidum canem, quem suo stomacho se
-                    æmulari dicere solitus est (utinam etiam cerebro <pb ed="TBOO" n="VIII.299"/>
-                    et corde) <pb ed="A" n="154r"/>transformaretur. Inspice igitur
-                    et despice, quod et ego faciam. Quis enim scienter et volenter furentem facile
-                    curaret? Si ipsum in via admonuisti, et ut rationes inveniret, mecum denuo in
-                    amicitiam redeundi, adhortatus es, uti proculdubio fecisti, vide quæso, quales
-                    fructus ediderit hæc tua sobria, candida et amica admonitio et adhortatio. Ego,
-                    etsi facilimum mihi sit, omnes ipsius oblatratus vera redargutione compescere,
-                    nolo tamen cum tam procaci lingua prædito, nec modestiæ aut virtutis curam
-                    habente, contendere, memor illius Catonici:</p> <lg>
-                        <l>Contra verbosum noli contendere verbis.</l>
-                    </lg>
+                <opener><pb ed="TBOO" n="VIII.298"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="jessenius_jan_1566">IOHANNEM IESSENIUM A
+                        IESSEN</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="153r"/>S. P.</p>
+                <p rend="noIndent">CLARISSIME vir, amice plurimum mihi semper dilecte, quæ tuæ fidei
+                    concredidi, Generoso D. <persName ref="hoffmann_hans_friedrich_1561"
+                        >HOFFMANNO</persName> seorsim monstranda, cupio mihi nunc remitti; litteras
+                    tamen illas, quas <persName ref="tengnagel_frans_1576">TEGNAGLIUS</persName>
+                    ultimo ad me dedit, quæ de Magnifici D. <persName ref="coraduz_rudolf_1618"
+                        >CORRADUCIJ</persName> resolutione faciunt, vellem bene tuo sigillo munitas
+                    ac tuis inclusas unâ cum meis ad <persName ref="fels_daniel_1600"
+                        >DANIELEM</persName> mitti, siquidem in ijs faciat mentionem eorum, quæ D.
+                        <persName ref="coraduz_rudolf_1618">CORRADUCIUS</persName> apud <persName
+                        ref="rudolf_2_1552">Cæsar. Mai.</persName> meo nomine impetravit, ut sciat
+                        <persName ref="fels_daniel_1600">DANIEL</persName>, eo rectius se facere, si
+                    apud D. <persName ref="coraduz_rudolf_1618">CORRADUCIUM</persName> in meis rebus
+                    sollicitet, non minus quam apud D. <persName ref="barvitius_johann_anton_1555"
+                        >BARVICIUM</persName>, quem quodammodo lentum in ijs promovendis
+                    ............. Dubitat enim ipse <persName ref="fels_daniel_1600"
+                        >DANIEL</persName> in ultimis suis ad me datis, an hoc facere debeat nec ne.
+                    Ego vero rescripsi, mihi id non inconsultum videri, caute tamen omnia agenda, ne
+                    D. <persName ref="barvitius_johann_anton_1555">BARVICIUM</persName> per
+                    imprudentiam offendat, nam amborum retinere benevolentiam, quoad fieri poterit,
+                    satius duco. Cœterum cum tu hîc spectator et auditor fueris eorum, quæ a
+                        <persName ref="kepler_johannes_1571">KEPLERO</persName> dicta factaque sunt,
+                    sub ipsum discessus momentum, et simul quomodo postea, iuxta currum mihi
+                    valedicturus, pœnitentia quadam eorum duci præ se ferret, atque ea omnia, quod
+                    affectus suos regere non posset, excusaret, egoque a condonatione <pb ed="A"
+                        n="153v"/>non alienus essem, tibique in aurem susurraverim, ut efficeres
+                    illum <placeName ref="Praha">Pragæ</placeName> literis ad me datis id ipsum
+                    testari, quod male ipsum habeat, se sic exorbitasse cupereque mecum in gratiam
+                    redire, quod et te facturum aiebas, et sponte antea mihi seorsim dixeras, te in
+                    itinere ipsum serio admoniturum, imo reprehensurum, quod se tam impotenter et
+                    biliose gesserit, contra quam decet virum doctum et honestum: iccirco mitto tibi
+                    hîc inclusas ipsius literas manu eius propria exaratas, quarum effrenem
+                    petulantiam et nimis arrogantem dicacitatem nec per meum vinum nec per meum
+                    contemtum, nec quicquid eiuscemodi aliud quod prætendit, excusare poterit, nisi
+                    et tunc furiosus fuit (uti forte huius morbi semina, etiam cum sibi maxime
+                    constare videtur, clam fovet) cum ista composito animo scriberet, et ipsemet
+                    calamo, me ignorante (qui ipsi iam ignoscere cœperam, siquidem resipiscere
+                    voluisset) præest. Miraberis, non dubito, hominis in malitia citra omne meum
+                    meritum pertinaciam, nec forte habebis aliud, quid dicas, quam me mea
+                    humanitate, uti etiam tacite exprobrâsti, effecisse, ut iste hominem exueret,
+                    atque in rabidum canem, quem suo stomacho se æmulari dicere solitus est (utinam
+                    etiam cerebro <pb ed="TBOO" n="VIII.299"/> et corde) <pb ed="A" n="154r"
+                    />transformaretur. Inspice igitur et despice, quod et ego faciam. Quis enim
+                    scienter et volenter furentem facile curaret? Si ipsum in via admonuisti, et ut
+                    rationes inveniret, mecum denuo in amicitiam redeundi, adhortatus es, uti
+                    proculdubio fecisti, vide quæso, quales fructus ediderit hæc tua sobria, candida
+                    et amica admonitio et adhortatio. Ego, etsi facilimum mihi sit, omnes ipsius
+                    oblatratus vera redargutione compescere, nolo tamen cum tam procaci lingua
+                    prædito, nec modestiæ aut virtutis curam habente, contendere, memor illius
+                    Catonici:</p>
+                <lg>
+                    <l>Contra verbosum noli contendere verbis.</l>
+                </lg>
                 <p>Constitui igitur in posterum nihil cum eo habere commercij, sive per literas sive
                     oretenus, et optarem me nunquam habuisse, tunc minus mea humanitate abuti
-                    posset. Iussi quidem, statim ac is abierat, <persName ref="Mathias">MATHIAM</persName> studiosum nonnulla ex
-                    chartis illis, quas ad me recepi, describere, ut ea promptius legere, cum ipso,
-                    quando unâ cum <persName ref="fels_daniel_1600">DANIELE</persName> redierit, conferre possem, atque mea dubia illi
-                    subgerere, et quomodo peragendum esset, expiscari, atque tum illi a se
-                    conscripta, uti sancte promisi, restituere. Verum cum ex his malitiosis literis
-                    plus satis percipiam, eum non reversurum, uti etiam non cupio, ipsemet in culpa
-                    est, quod pollicitis stare nequeam. Et super hoc, quod in Epistola iam missa <pb
-                        ed="A" n="154v"/>iecit fundamentum, vix utar eo
-                    tamquam archi[tec]to, cui aliquid ex meis observationibus et laboribus
-                    superstruatur. Ille ipse me iam magis cautum, quam antea fui, reddidit; genio,
-                    uti spero, bono mei curam habente, et omnia sic in meum commodum digerente.
-                    Nolim tamen, ut cuipiam has <persName ref="kepler_johannes_1571">Keplerianas</persName> literas ostendas, et ne quidem D. <persName
-                        ref="hoffmann_hans_friedrich_1561">HOFFMANNO</persName>, aut cum ipso <persName ref="kepler_johannes_1571"
+                    posset. Iussi quidem, statim ac is abierat, <persName ref="seiffart_matthias_1610"
+                        >MATHIAM</persName> studiosum nonnulla ex chartis illis, quas ad me recepi,
+                    describere, ut ea promptius legere, cum ipso, quando unâ cum <persName
+                        ref="fels_daniel_1600">DANIELE</persName> redierit, conferre possem, atque
+                    mea dubia illi subgerere, et quomodo peragendum esset, expiscari, atque tum illi
+                    a se conscripta, uti sancte promisi, restituere. Verum cum ex his malitiosis
+                    literis plus satis percipiam, eum non reversurum, uti etiam non cupio, ipsemet
+                    in culpa est, quod pollicitis stare nequeam. Et super hoc, quod in Epistola iam
+                    missa <pb ed="A" n="154v"/>iecit fundamentum, vix utar eo tamquam archi[tec]to,
+                    cui aliquid ex meis observationibus et laboribus superstruatur. Ille ipse me iam
+                    magis cautum, quam antea fui, reddidit; genio, uti spero, bono mei curam
+                    habente, et omnia sic in meum commodum digerente. Nolim tamen, ut cuipiam has
+                        <persName ref="kepler_johannes_1571">Keplerianas</persName> literas
+                    ostendas, et ne quidem D. <persName ref="hoffmann_hans_friedrich_1561"
+                        >HOFFMANNO</persName>, aut cum ipso <persName ref="kepler_johannes_1571"
                         >KEPLERO</persName> hac de re expostules, nisi forte sua quadam
                     importunitate tibi occasionem dederit, sed actutum cum hoc eodem nuntio, bene
                     conclusas et iterum obsignatas, mihi remittas. Si tamen subolfeceris ipsum apud
-                    D. <persName ref="hoffmann_hans_friedrich_1561">HOFFMANNUM</persName> vel alios, ut suam probaret
-                    innocentiam, me calumniatum esse, aut quippiam veritati minus consonum
-                    effutijsse, fac quod bonum et integrum virum decet, quod et non gravatim
-                    effecturum mihi polliceor (prout et ego te sæpius contra aliorum sugillationes
-                    tutatus sum) ut meam a te defendi causam, atque id, quod veritas postulat,
-                    asseverari resciscam. Interim etiam an apud <persName ref="ursus_nicolaus_1551"
-                        >URSUM</persName> istum aliquid in mei contumeliam tacite moliatur (quomodo
-                    enim illi amplius fidam?) per tertiam vel quartam manum inquire, quamvis nihil
-                    morer, quicquid dixerit, modo vera dixerit, et cum Deo V. simul fuerimus, tibi
-                    aperiam, quidnam id sit, de quo ita minari videtur, et plura, quæ ad dilutionem
-                    illorum, quorum fœcundus et facundus est consarcinator, faciunt, licet ipse
-                    plæraque nôsti, suggeram. Vale. Dabantur ex <placeName ref="Benatky">arce
-                        Benateka</placeName> die 8 Aprilis Anno 1600.</p>
+                    D. <persName ref="hoffmann_hans_friedrich_1561">HOFFMANNUM</persName> vel alios,
+                    ut suam probaret innocentiam, me calumniatum esse, aut quippiam veritati minus
+                    consonum effutijsse, fac quod bonum et integrum virum decet, quod et non
+                    gravatim effecturum mihi polliceor (prout et ego te sæpius contra aliorum
+                    sugillationes tutatus sum) ut meam a te defendi causam, atque id, quod veritas
+                    postulat, asseverari resciscam. Interim etiam an apud <persName
+                        ref="ursus_nicolaus_1551">URSUM</persName> istum aliquid in mei contumeliam
+                    tacite moliatur (quomodo enim illi amplius fidam?) per tertiam vel quartam manum
+                    inquire, quamvis nihil morer, quicquid dixerit, modo vera dixerit, et cum Deo V.
+                    simul fuerimus, tibi aperiam, quidnam id sit, de quo ita minari videtur, et
+                    plura, quæ ad dilutionem illorum, quorum fœcundus et facundus est consarcinator,
+                    faciunt, licet ipse plæraque nôsti, suggeram.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">arce Benateka</placeName> die 8
+                        Aprilis Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

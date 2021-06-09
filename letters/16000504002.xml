@@ -13,28 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Firenze</settlement>
+                                <repository>Bibliotheca Nazionale Centrale</repository>
+                                <collection>Codd. Galil. Part. 6, Tom. 7</collection>
+                                <idno>empty</idno>
+                                <!-- TBOO siger: inter codices Galileianos Part. VI Tom. VIII -->
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Florence</settlement>
                                 <repository>Bibliotheca Nazionale Centrale</repository>
                                 <collection>Codd. Galil. Part. 6, Tom. 7</collection>
                                 <idno>empty</idno>
@@ -61,11 +75,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Galileo Galilei</persName>
+                    <persName key="galilei_galileo_1564">Galileo Galilei</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 4. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 4. maj n.s.</date><date xml:lang="en">1600, 4 May
+                    NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-20" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,58 +103,58 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.311"/><pb ed="A" n="42v"/>ADMODUM MAGNIFICO ET
-                    EXCELLENTI VIRO DOMINO <persName ref="galilei_galileo_1564">GALILÆO DE GALILÆIS</persName>,
-                    MATHEMATICO EXCELLENTISSIMO, AMICO HONORANDO.</opener>
+                    EXCELLENTI VIRO DOMINO <persName ref="galilei_galileo_1564">GALILÆO DE
+                        GALILÆIS</persName>, MATHEMATICO EXCELLENTISSIMO, AMICO HONORANDO.</opener>
 
-                <p><pb ed="A" n="41r"/>CLARISSIME et excellentissime Vir; cum hisce diebus
-                        <placeName ref="Praha">Pragæ</placeName> fuissem, atque ibi Serenissimi
+                <p rend="noIndent"><pb ed="A" n="41r"/>CLARISSIME et excellentissime Vir; cum hisce
+                    diebus <placeName ref="Praha">Pragæ</placeName> fuissem, atque ibi Serenissimi
                     Principis, Magni Ducis Hetruriæ, Oratorem apud Sa<hi rend="sup">ram</hi>
                     <persName ref="rudolf_2_1552">Cæs<hi rend="sup">am</hi> Ma<hi rend="sup"
-                        >tem</hi></persName>, Illustrissimum et Generosissimum Dominum <persName
-                        ref="Concini">COSMUM CONCINUM</persName> e Comitibus Pennæ convenissem,
-                    inter alia Illustriss<hi rend="sup">mæ</hi> Dominationis eius humanissima mecum
-                    colloquia (uti sane est Vir eximia comitate, parique doctrina, præter Generis
-                        Illustriss<hi rend="sup">mum</hi> splendorem, admirandus, nec unquam satis
-                    laudatus) incidit etiam Excellentiæ Tuæ honorifica mentio, ob singularem, qua,
-                    in Mathematicis præsertim, plurimos alios antecellis, eruditionem. Cumque a
-                    tanto Viro tuas dotes etiam deprædicari audirem, sim ulavit id prius de
-                        Excell<hi rend="sup">a</hi> T<hi rend="sup">a</hi> animo meo conceptam
-                    sententiam, ut non potuerim non has ad ipsam scribere, atque sic amicitiæ nostræ
-                    et ulterioris inter nos per literas correspondentiæ fundamina ponere. Quia vero
-                    a Nobili Adolescente <persName ref="tengnagel_frans_1576">FRANCISCO TENGNAGLIO</persName>
-                    meo domestico, ex <placeName ref="Italy">Italia</placeName> huc redeunte,
-                    percepi Excell<hi rend="sup">am</hi> Tuam <pb ed="A" n="41v"/>primum nostrum
-                    Tomum Epistolarum Astronomicarum perlustrasse, atque in eo nonnulla reperijsse,
-                    de quibus mecum conferre cuperet, ego certe idipsum nullatenus detrecto, sed si
-                    quid fuerit, quod Ex<hi rend="sup">a</hi> T<hi rend="sup">a</hi> in
-                    disquisitionem inibi vocare velit, erit id mihi gratissimum, invenietque me ad
-                    respondendum pro meo modulo quam paratissimum: Sive de Hypothesi nostra
-                    Cœlestium revolutionum, quæ Solem centrum facit circuitionis quinque Planetarum,
-                    Terram autem, et eam quiescentem, solummodo amborum Luminarium, atque Octavæ,
-                    quam vocant Sphæræ, cui assumptioni apparentias quam optime congruere
-                    depræhendi, ut nihilominus tollantur vasti illi Epicycli, quemadmodum apud
-                        <persName ref="kopernikus_nikolaus_1473">COPERNICUM</persName>, et Terra in centro
-                    Universi, quod ille non admisit, immota maneat (sunt etiam particularia quædam
-                    in hac nostra inventione, quæ neque iuxta <persName ref="ptolemaios_klaudios_0100"
-                        >Ptolemaicam</persName> neque <persName ref="kopernikus_nikolaus_1473"
-                        >Coperniceam</persName> speculationem tam competenter excusari possunt) sive
-                    de Restitutione Fixarum Stellarum, sive de Cometis, quos omnes in ipso Cœlo
-                    curricula sua absolvere, contra quam volunt Peripatetici, probo, idque in septem
-                    a me diligenter observatis demonstratum relinquo, <pb ed="A" n="42r"/>sive de
-                    quacunque tandem alia re, cuius in illo libro mentio fit, mecum disserere
-                        Excell<hi rend="sup">a</hi> Tua volet, faciat id ingenue pro suo arbitrio.
-                    Ego vicissim meam sententiam illi aperire, atque de rebus Astronomicis cum ea
-                    iucunde conferre non <pb ed="TBOO" n="VIII.312"/>intermittam. Valeat Excell<hi
-                        rend="sup">a</hi> Tua quam optime. Dabantur ex <placeName ref="Benatky">Arce
-                        Cæsarea Benatica</placeName>
-                    <app>
-                        <lem>Die 4</lem>
-                        <rdg><note>rectius legeretur fortasse 9 die: cf. litteræ ad Io. G. Herwartum
-                                28 Aug. 1600</note></rdg>
-                    </app> Maij Anni 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Excellentiæ Tuæ<lb/>studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
-                    propria scripsi.</p>
+                            >tem</hi></persName>, Illustrissimum et Generosissimum Dominum <persName
+                        ref="concini_cosimo_1570">COSMUM CONCINUM</persName> e Comitibus Pennæ
+                    convenissem, inter alia Illustriss<hi rend="sup">mæ</hi> Dominationis eius
+                    humanissima mecum colloquia (uti sane est Vir eximia comitate, parique doctrina,
+                    præter Generis Illustriss<hi rend="sup">mum</hi> splendorem, admirandus, nec
+                    unquam satis laudatus) incidit etiam Excellentiæ Tuæ honorifica mentio, ob
+                    singularem, qua, in Mathematicis præsertim, plurimos alios antecellis,
+                    eruditionem. Cumque a tanto Viro tuas dotes etiam deprædicari audirem, sim
+                    ulavit id prius de Excell<hi rend="sup">a</hi> T<hi rend="sup">a</hi> animo meo
+                    conceptam sententiam, ut non potuerim non has ad ipsam scribere, atque sic
+                    amicitiæ nostræ et ulterioris inter nos per literas correspondentiæ fundamina
+                    ponere. Quia vero a Nobili Adolescente <persName ref="tengnagel_frans_1576"
+                        >FRANCISCO TENGNAGLIO</persName> meo domestico, ex <placeName ref="Italy"
+                        >Italia</placeName> huc redeunte, percepi Excell<hi rend="sup">am</hi> Tuam
+                        <pb ed="A" n="41v"/>primum nostrum Tomum Epistolarum Astronomicarum
+                    perlustrasse, atque in eo nonnulla reperijsse, de quibus mecum conferre cuperet,
+                    ego certe idipsum nullatenus detrecto, sed si quid fuerit, quod Ex<hi rend="sup"
+                        >a</hi> T<hi rend="sup">a</hi> in disquisitionem inibi vocare velit, erit id
+                    mihi gratissimum, invenietque me ad respondendum pro meo modulo quam
+                    paratissimum: Sive de Hypothesi nostra Cœlestium revolutionum, quæ Solem centrum
+                    facit circuitionis quinque Planetarum, Terram autem, et eam quiescentem,
+                    solummodo amborum Luminarium, atque Octavæ, quam vocant Sphæræ, cui assumptioni
+                    apparentias quam optime congruere depræhendi, ut nihilominus tollantur vasti
+                    illi Epicycli, quemadmodum apud <persName ref="kopernikus_nikolaus_1473"
+                        >COPERNICUM</persName>, et Terra in centro Universi, quod ille non admisit,
+                    immota maneat (sunt etiam particularia quædam in hac nostra inventione, quæ
+                    neque iuxta <persName ref="ptolemaios_klaudios_0100">Ptolemaicam</persName>
+                    neque <persName ref="kopernikus_nikolaus_1473">Coperniceam</persName>
+                    speculationem tam competenter excusari possunt) sive de Restitutione Fixarum
+                    Stellarum, sive de Cometis, quos omnes in ipso Cœlo curricula sua absolvere,
+                    contra quam volunt Peripatetici, probo, idque in septem a me diligenter
+                    observatis demonstratum relinquo, <pb ed="A" n="42r"/>sive de quacunque tandem
+                    alia re, cuius in illo libro mentio fit, mecum disserere Excell<hi rend="sup"
+                        >a</hi> Tua volet, faciat id ingenue pro suo arbitrio. Ego vicissim meam
+                    sententiam illi aperire, atque de rebus Astronomicis cum ea iucunde conferre non
+                        <pb ed="TBOO" n="VIII.312"/>intermittam.</p>
+                <closer><salute>Valeat Excell<hi rend="sup">a</hi> Tua quam optime.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsarea Benatica</placeName>
+                        <app>
+                            <lem>Die 4</lem>
+                            <rdg><note>rectius legeretur fortasse 9 die: cf. litteræ ad Io. G.
+                                    Herwartum 28 Aug. 1600</note></rdg>
+                        </app> Maij Anni 1600.</dateline>
+                    <signed>Excellentiæ Tuæ<lb/>studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria
+                        scripsi.</signed></closer>
             </div>
         </body>
     </text>

@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Jacob Monavius</persName>
+                    <persName key="monau_jacob_1546">Jacob Monavius</persName>
                     <placeName>Wrosław</placeName>
                     <date when="1600-06-14"/>
                     <note>n.s.</note>
@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 14. juni n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 14. juni n.s.</date><date xml:lang="en">1600, 14 June NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,12 +86,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.311"/><pb ed="A" n="62v"/>MAGNIFICO NOBILISSIMO ET
-                    AMPLISSIMO VIRO D. TYCHONI BRAHE, MATHEMATICORUM SECULI NOSTRI ET PRÆSERTIM APUD
+                    AMPLISSIMO VIRO D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, MATHEMATICORUM SECULI NOSTRI ET PRÆSERTIM APUD
                     SACRATISSIMAM <persName ref="rudolf_2_1552">CÆSAREAM MAIESTATEM</persName> PRINCIPI,
                     DOMINO ET AMICO SUMME OBSERVANDO. <placeName ref="Benatky">BENNATICÆ
                         BOHEMORUM</placeName>.</opener>
 
-                <p><pb ed="A" n="61r"/>MAGNIFICE Domine TYCHO, Vir præstantissime: Non vulgari
+                <p rend="noIndent"><pb ed="A" n="61r"/>MAGNIFICE Domine <persName ref="brahe_tycho_1546">TYCHO</persName>, Vir præstantissime: Non vulgari
                     lætitia fui affectus, quando mihi redditæ sunt literæ tuæ XVI Maij scriptæ, e
                     quibus libentissime cognovi, meas, quas mense Martio scripseram, rectâ
                     pervenisse in manus tuas. Eram enim de ijs nonnihil sollicitus, postquam missæ
@@ -119,9 +119,9 @@
                     certe opt. et doctissimo, gratissimæ fuerunt literæ tuæ, daturo modis omnibus
                     operam, ut suam tibi fidem et diligentiam omni, quod a se præstare poterit,
                     officio probet. Nec te spero unquam pœnitebit tuæ in ipsum benevolentiæ.</p>
-                <p rend="indent">De Bibliotheca <persName ref="Dudith">Duditiana</persName>, quæ
+                <p rend="indent">De Bibliotheca <persName ref="dudith_andreas_1533">Duditiana</persName>, quæ
                     mihi est notissima, velim mihi credas. Eam nunc velut inter cœlum et terram
-                    pendere, postquam ab hæredibus <persName ref="Dudith">DUDITIJ</persName> non
+                    pendere, postquam ab hæredibus <persName ref="dudith_andreas_1533">DUDITIJ</persName> non
                     possidetur, sed alteri cuidam pro certa pe<pb ed="TBOO" n="VIII.326"/>cuniæ
                     summa non tam vendita est quam oppignorata. Iacet nunc misera apud nos in domo
                     quadam, et non aliter iacet (vidi enim aliquoties) quam solent apud nobiles
@@ -133,7 +133,7 @@
                     affecta. Si ita est, admodum tibi condoleo. Dubito tamen, an sit, cum tu nullam
                     eius rei mentionem facias.</p>
                 <p rend="indent">Magnificus <placeName ref="Wrosław">huius urbis</placeName> et
-                    Ducatus Capitaneus, Dn. <persName ref="Jengtius">ABRAHAMUS IENGTIUS</persName>,
+                    Ducatus Capitaneus, Dn. <persName ref="jengtius_abraham_1600">ABRAHAMUS IENGTIUS</persName>,
                     olim summi nostri <persName ref="wittich_paul_1546">WITICHIJ</persName>, dum
                     viveret, patronus, tui amantiss. et studiosissimus, magnopere te salutat.
                     Cogitat paulo post ad <pb ed="A" n="62r"/>thermas <placeName ref="Bohemia"
@@ -146,7 +146,7 @@
                     vidit, et per aliquot dies secum habuit.</p>
                 <p rend="indent">Si quid ad me scribere aut mittere voles, scias rectissime ad me
                     perventurum, quicquid <placeName ref="Praha">Pragam</placeName> per certos
-                    homines miseris ad Dn. <persName ref="Mylnerus">IOANNEM MYLLNERUM</persName>,
+                    homines miseris ad Dn. <persName ref="mylner_johann_1618">IOANNEM MYLLNERUM</persName>,
                     Sacræ <persName ref="rudolf_2_1552">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
                             >tis</hi></persName> Consiliarium et Regni <placeName ref="Bohemia"
                         >Boem.</placeName> Secretarium supremum, Compatrem meum cariss. et omni fide
@@ -156,10 +156,8 @@
                     diligenter et libenter curabit, quicquid ad me pertinens acceperit. Bene et
                     feliciter vale, Vir præstantissime, et me, quem semel amare cœpisti, perpetuo
                     amare perge: sic te vicissim curet ametque Deus.</p>
-                <p rend="indent"><placeName ref="Wrosław">Vratisl.</placeName> XIIIJ Iunij 1600.</p>
-                <lb/>
-                <p rend="rightMargin">T. Μ. P.<lb/>observantiss. et amantiss.<lb/><persName
-                        ref="monau_jacob_1546">IAC. MONAW</persName>.</p>
+                <closer><dateline><placeName ref="Wrosław">Vratisl.</placeName> XIIIJ Iunij 1600.</dateline> <signed>T. Μ. P.<lb/>observantiss. et amantiss.<lb/><persName
+                        ref="monau_jacob_1546">IAC. MONAW</persName>.</signed></closer>
             </div>
         </body>
     </text>

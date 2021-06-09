@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johann Barwitz</persName>
+                    <persName key="barvitius_johann_anton_1555">Johann Barwitz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 7. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 7. maj n.s.</date><date xml:lang="en">1600, 7 May NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-20" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,9 +91,9 @@
                     MAIESTATIS SECRETARIO SUPREMO ET A CONSILIJS INTIMIS, DOMINO ET AMICO
                     HONORANDISSIMO.</opener>
 
-                <p><pb ed="A" n="119r"/>MAGNIFICE ET NOBILISSIME VIR, DOMINE ET AMICE
+                <p rend="indent"><pb ed="A" n="119r"/>MAGNIFICE ET NOBILISSIME VIR, DOMINE ET AMICE
                     HONORANDISSIME.</p>
-                <p>QUONIAM ea, de quibus Mag<hi rend="sup">a</hi> V<hi rend="sup">a</hi> mihi per
+                <p rend="noIndent">QUONIAM ea, de quibus Mag<hi rend="sup">a</hi> V<hi rend="sup">a</hi> mihi per
                     domesticum meum, quem ultimo <placeName ref="Plzeň">Pilsnæ</placeName> habui, spem fecit, brevi effectum exoptatum
                     habitura, adhuc infecta hæreant, et frustra hac præterlapsa septimana cum Sacra
                         <persName ref="rudolf_2_1552">Cæs<hi rend="sup">a</hi> Maiestate</persName>,
@@ -112,10 +113,10 @@
                     hisce literis ulterius interpellare. Rogo autem Mag<hi rend="sup">am</hi> V<hi
                         rend="sup">am</hi> officiose, quemadmodum semper sua benevolentia mihi
                     præsto fuit, sic etiam nunc non deesse velit. Inveniet me semper pro mea
-                    tenuitate eius vicissim studiosissimum et observantissimum. Valeat Mag<hi
+                    tenuitate eius vicissim studiosissimum et observantissimum.</p> <closer><salute>Valeat Mag<hi
                         rend="sup">a</hi> V<hi rend="sup">a</hi> quam diutissime et quam <pb ed="A"
-                        n="120r"/>felicissime. Dabantur ex <placeName ref="Benatky">arce
-                        Benaticka</placeName> die 7 Maij Anni 1600. </p>
+                        n="120r"/>felicissime.</salute> <dateline>Dabantur ex <placeName ref="Benatky">arce
+                        Benaticka</placeName> die 7 Maij Anni 1600.</dateline> </closer>
             </div>
         </body>
     </text>

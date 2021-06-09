@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Cosimo Concini</persName>
+                    <persName key="concini_cosimo_1570">Cosimo Concini</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 14. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 14. april n.s.</date><date xml:lang="en">1600, 14
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +84,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,30 +92,40 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.301"/><pb ed="A" n="104v"/>ILLUSTRISSIMO ET
-                    GENEROSISSIMO VIRO DOMINO <persName ref="Concini">COSMO CONCINIO</persName> E COMITIBUS PENNÆ SERENISSIMI MAGNI
-                    DUCIS HETRURIÆ APUD SACRAM CÆSAREAM MAIESTATEM ORATORI MAGNIFICENTISSIMO DOMINO
+                    GENEROSISSIMO VIRO DOMINO <persName ref="concini_cosimo_1570">COSMO
+                        CONCINIO</persName> E COMITIBUS PENNÆ SERENISSIMI MAGNI DUCIS HETRURIÆ APUD
+                    SACRAM CÆSAREAM MAIESTATEM ORATORI MAGNIFICENTISSIMO DOMINO
                     OBSERVANDISSIMO.</opener>
-                <p><pb ed="A" n="103r"/>ILLUSTRISSIME ET HONORANDISSIME DOMINE.</p>
-                <p>SERENISSIMI Principis, <persName ref="medici_fernando_1549">Magni Ducis Hetruriæ</persName>, Clementissimas literas ab Ill<hi rend="sup">ma</hi>
-                    Dom<hi rend="sup">ne</hi> Vestra mihi favorabiliter missas, unâ cum proprijs suis, accepi, et magna
-                    inde affectus sum voluptate, cum quod Ser<hi rend="sup">ma</hi> eius Celsitudo meis Clementissime
-                    respondere, ijsdemque benignissimo animo annuere non dedignata sit, tum etiam
-                    quod Ill<hi rend="sup">ma</hi> Dom<hi rend="sup">o</hi> Vestra mihi tam benevole scripserit, et Ser<hi rend="sup">mi</hi> Principis sui
-                    voluntatem, ubi <placeName ref="Praha">Pragæ</placeName> adfuero, plenius mihi
-                    exponere haud degravetur. Adveniam itaque, auxiliante Deo, quamprimum nonnulla ad
-                    ædificia, quæ pro Instrumentis meis Astronomicis hîc debito modo disponendis,
-                    nunc parantur, pertinentia, adoravero; et observationes quasdam, quibus
-                    per instantes aliquot dies (neque enim alias intra annum eiuscemodi revertuntur)
-                    invigilandum, Cœlitus deduxero. Spero autem hæc, et quæcunque præterea me
-                    remorari poterint, intra 14 ad summum dies expediri posse, ut Ill<hi rend="sup">mæ</hi> Do<hi rend="sup">i</hi> V<hi rend="sup">ræ</hi>, ab
-                    hisce curis liberatus, promptius adesse queam, et quæ nomine Ser<hi rend="sup">mi</hi> Principis
-                    sui mihi referenda habet, obsequentissimo animo percipere.
-                    <pb ed="A" n="103v"/>Interim ut hanc morulam, pro consueta sua humanitate, candide accipiat, meque
-                    sibi commendatum habeat, officiosissime peto. Deus Opt. Max. Illustr<hi rend="sup">m</hi> D. V. diu
-                    florentem et incolumem conservet. Dabantur ex <placeName ref="Benatky">Arce
-                        Cæsareâ Benaticâ</placeName> Die 14 Aprilis Anni 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Illustriss<hi rend="sup">æ</hi> Do<hi rend="sup">ni</hi> Ser<hi rend="sup">mi</hi> <hi rend="sup">æ</hi> <lb/>Reverenter addictissimus<lb/>T. B.</p>
+                <p rend="indent"><pb ed="A" n="103r"/>ILLUSTRISSIME ET HONORANDISSIME DOMINE.</p>
+                <p rend="noIndent">SERENISSIMI Principis, <persName ref="medici_fernando_1549">Magni
+                        Ducis Hetruriæ</persName>, Clementissimas literas ab Ill<hi rend="sup"
+                        >ma</hi> Dom<hi rend="sup">ne</hi> Vestra mihi favorabiliter missas, unâ cum
+                    proprijs suis, accepi, et magna inde affectus sum voluptate, cum quod Ser<hi
+                        rend="sup">ma</hi> eius Celsitudo meis Clementissime respondere, ijsdemque
+                    benignissimo animo annuere non dedignata sit, tum etiam quod Ill<hi rend="sup"
+                        >ma</hi> Dom<hi rend="sup">o</hi> Vestra mihi tam benevole scripserit, et
+                        Ser<hi rend="sup">mi</hi> Principis sui voluntatem, ubi <placeName
+                        ref="Praha">Pragæ</placeName> adfuero, plenius mihi exponere haud
+                    degravetur. Adveniam itaque, auxiliante Deo, quamprimum nonnulla ad ædificia,
+                    quæ pro Instrumentis meis Astronomicis hîc debito modo disponendis, nunc
+                    parantur, pertinentia, adoravero; et observationes quasdam, quibus per instantes
+                    aliquot dies (neque enim alias intra annum eiuscemodi revertuntur) invigilandum,
+                    Cœlitus deduxero. Spero autem hæc, et quæcunque præterea me remorari poterint,
+                    intra 14 ad summum dies expediri posse, ut Ill<hi rend="sup">mæ</hi> Do<hi
+                        rend="sup">i</hi> V<hi rend="sup">ræ</hi>, ab hisce curis liberatus,
+                    promptius adesse queam, et quæ nomine Ser<hi rend="sup">mi</hi> Principis sui
+                    mihi referenda habet, obsequentissimo animo percipere. <pb ed="A" n="103v"
+                    />Interim ut hanc morulam, pro consueta sua humanitate, candide accipiat, meque
+                    sibi commendatum habeat, officiosissime peto.</p>
+                <closer><salute>Deus Opt. Max. Illustr<hi rend="sup">m</hi> D. V. diu florentem et
+                        incolumem conservet.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>
+                        Die 14 Aprilis Anni 1600.</dateline>
+                    <signed>Illustriss<hi rend="sup">æ</hi> Do<hi rend="sup">ni</hi> Ser<hi
+                            rend="sup">mi</hi>
+                        <hi rend="sup">æ</hi>
+                        <lb/>Reverenter addictissimus<lb/><persName ref="brahe_tycho_1546">T.
+                            B.</persName></signed></closer>
 
             </div>
         </body>

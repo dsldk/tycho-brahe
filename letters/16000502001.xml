@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -60,11 +75,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Matthias, Archduke of Austria</persName>
+                    <persName key="matthias_habsburg_1557">Matthias, Archduke of Austria</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 2. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 2. maj n.s.</date><date xml:lang="en">1600, 2 May NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +94,8 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-20" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
+            
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,9 +105,9 @@
                 <opener><pb ed="TBOO" n="VIII.307"/>SERENISSIMO PRINCIPI ET DOMINO, DOMINO <persName
                         ref="matthias_habsburg_1557">MATTHIÆ</persName>, ARCHIDUCI AUSTRIÆ, DUCI
                     BURGUNDIÆ, STYRIÆ, CARINTHIÆ, CARNIOLÆ ET WIRTTENBERGÆ, COMITI TIROLIS, DOMINO
-                    SUO CLEMENTISSIMO.</opener>
-                <p><pb ed="A" n="1r"/>Serenissime et Inclyte Princeps, Domine Clementissime.</p>
-                <p>QUOD Serenissimam Celsitudinem Vestram ignotus et peregrinus ego hisce compellare
+                    SUO CLEMENTISSIMO.<salute><pb ed="A" n="1r"/>Serenissime et Inclyte Princeps, Domine Clementissime.</salute></opener>
+                
+                <p rend="noIndent">QUOD Serenissimam Celsitudinem Vestram ignotus et peregrinus ego hisce compellare
                     audeo, id ut pro sua Heroica et congenita Virtute atque clementia candide et
                     benigne accipere dignetur, humilime oro. Impulit me ad hanc audaciam celeberrima
                     fama de Ser<hi rend="sup">mæ</hi> Cel<hi rend="sup">nis</hi> Vestræ benignissimo
@@ -179,11 +196,9 @@
                         rend="sup">ma</hi> Cel<hi rend="sup">o</hi> V<hi rend="sup">a</hi> in
                         Reipub<hi rend="sup">æ</hi> stabilimentum quam diutissime et florentissime,
                     et successu contra truculentum Christiani nominis hostem per Dei benignitatem
-                    felici in posterum quoque utatur. Dabantur ex <placeName ref="Benatky">Arce Cæsarea Bennaticka</placeName> die 2.
-                    Maij Anni 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Sereniss. Cels. Vestræ addictiss.<lb/>TYCHO BRAHE,<lb/>manu
-                    propria.</p>
+                    felici in posterum quoque utatur.</p> <closer><dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsarea Bennaticka</placeName> die 2.
+                    Maij Anni 1600.</dateline><signed>Sereniss. Cels. Vestræ addictiss.<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                    propria.</signed></closer>
             </div>
         </body>
     </text>

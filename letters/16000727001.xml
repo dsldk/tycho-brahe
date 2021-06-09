@@ -13,26 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Ærkebiskoppens arkiv i Prag</settlement>
+                                <repository/>
+                                <collection/>
+                                <idno/>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>The archbishop's archive in Prague</settlement>
                                 <repository/>
@@ -57,8 +73,10 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Berka Zbyněk, archbishop of Prague</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <persName key="berka_z_dube_zbynek_1551">Berka Zbyněk, archbishop of
+                        Prague</persName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1600-07-27"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -67,7 +85,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-07-27 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 27. juli n.s.</date><date xml:lang="en">1600, 27
+                    July NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,6 +103,7 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-14" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-22" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,21 +111,23 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="XIV.209"/>NOBILI AC CLARISSIMO AMICO NOSTRO HONORANDO
-                    DOMINO TYCHONI BRAHE.</opener>
+                    DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>.
+                        <salute>Nobilis et clarissime Domine.</salute></opener>
 
-                <p rend="center">Nobilis et clarissime Domine.</p>
-                <p>QUIS typographus scriptum hoc cuius exemplar nobis D.V. communicauit et cuius
-                    authorem se <persName ref="ursus_nicolaus_1551">Nicolaus Reimarus Vrsus Dietmarsus</persName>
-                    esse fatetur absque consensu nostro in hac urbe impresserit, scire non possumus.
-                    Sed ipsum inuestigari et, si repertus fuerit, ut alijs in exemplum debito modo
-                    in eundem animadvertatur et exemplaria, si quae penes eundem sunt, auferantur
-                    curabimus. Cum autem praememoratus <persName ref="ursus_nicolaus_1551">Vrsus</persName> sub
-                    jurisdictionem illustrissimi d. mareschalci aulici pertineat, poterit apud ipsum
-                    D. V:ra instare ac sollicitare, quo eidem <persName ref="ursus_nicolaus_1551">Vrso</persName>
-                    ex officio isto demandetur, ut et typographum indicet et exemplaria, si quae
-                    habet, exhibeat. Nos qua ratione a nobis fieri potest ac debet rem iuvare non
-                    intermittemus.</p> <closer><dateline>Datum <placeName ref="Praha">Pragae</placeName> in nostra
-                    archiepiscopali residentia, die 27 julii a:o MDC.</dateline></closer>
+                <p rend="noIndent">QUIS typographus scriptum hoc cuius exemplar nobis D.V.
+                    communicauit et cuius authorem se <persName ref="ursus_nicolaus_1551">Nicolaus
+                        Reimarus Vrsus Dietmarsus</persName> esse fatetur absque consensu nostro in
+                    hac urbe impresserit, scire non possumus. Sed ipsum inuestigari et, si repertus
+                    fuerit, ut alijs in exemplum debito modo in eundem animadvertatur et exemplaria,
+                    si quae penes eundem sunt, auferantur curabimus. Cum autem praememoratus
+                        <persName ref="ursus_nicolaus_1551">Vrsus</persName> sub jurisdictionem
+                    illustrissimi d. mareschalci aulici pertineat, poterit apud ipsum D. V:ra
+                    instare ac sollicitare, quo eidem <persName ref="ursus_nicolaus_1551"
+                        >Vrso</persName> ex officio isto demandetur, ut et typographum indicet et
+                    exemplaria, si quae habet, exhibeat. Nos qua ratione a nobis fieri potest ac
+                    debet rem iuvare non intermittemus.</p>
+                <closer><dateline>Datum <placeName ref="Praha">Pragae</placeName> in nostra
+                        archiepiscopali residentia, die 27 julii a:o MDC.</dateline></closer>
                 <lb/>
             </div>
         </body>

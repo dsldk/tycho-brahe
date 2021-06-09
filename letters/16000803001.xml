@@ -32,7 +32,7 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>København</settlement>
                                 <repository>Rigsarkivet</repository>
@@ -40,6 +40,21 @@
                                 <idno>empty</idno>
                                 <msName>empty</msName>
                             </msIdentifier>
+                            <physDesc>
+                                <ab>Afskrift</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Copenhagen</settlement>
+                                <repository>Danish National Archives (Rigsarkivet)</repository>
+                                <collection>Langebeks diplomatarium</collection>
+                                <idno>empty</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Transscript</ab>
+                            </physDesc>
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
@@ -55,8 +70,8 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName>Benatky</placeName>
                     <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
-                    <!-- NB brevet har to datoer og to udstedelsessteder, hvordan skriver man det? -->
                     <date when="1600-08-03"/>
                     <note>n.s.</note>
                 </correspAction>
@@ -65,7 +80,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 3. august n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 3. juni n.s. / 1600, 3. august n.s.</date><date xml:lang="en">1600, 3 June NS. / 1600, 3 August NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +95,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-27" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,8 +107,8 @@
                         ref="rosenkrantz_holger_1574">OLIGERO ROSÆKRANTZIO</persName> DE ROSENHOLM,
                     AMICO, AFFINI ET CONSANGVINEO LONGE CHARISSIMO.</opener>
 
-                <p><pb ed="A" n="1r"/>S. P.</p>
-                <p>EXOPTATISSIMAS tuas diuque desideratas, Amantissime <persName
+                <p rend="indent"><pb ed="A" n="1r"/>S. P.</p>
+                <p rend="noIndent">EXOPTATISSIMAS tuas diuque desideratas, Amantissime <persName
                         ref="rosenkrantz_holger_1574">OLIGERE</persName>, iam tandem accepi literas,
                     quibus ab initio tarditatem in rescribendo excusas, idque ijs rationibus, quæ
                     apud me, alias de te candide sentientem, facile locum inveniunt. Postea de rerum
@@ -193,19 +209,17 @@
                     iucundam superinducis, ut comediam quandam repræsentare videaris. Nam quod
                     postremo refers (ut priora, de quibus <pb ed="TBOO" n="VIII.333"/>nunc satis
                     dictum arbitror, relinquam) de <pb ed="A" n="3r"/>charissima tua <persName
-                        ref="VBrahe, Sophie niece">SOPHIA</persName>, mea nepte, Deum ipsam fructu
+                        ref="brahe_sophie_1578">SOPHIA</persName>, mea nepte, Deum ipsam fructu
                     uteri benedixisse, et tunc partui vicinam fuisse, quam etiam feliciter enixam
                         <persName ref="rosenkrantz_frederik_1571">FRIDERICUS</persName> retulit, hæc
                     inquam me magna voluptate affecerunt, et auditu gratissima fuere. Deus Opt. Max.
                     hanc, quam vobis dedit, filiolam sospitem conservare et a periculis tueri, ut,
                     ætate accrescens, utrique Parenti gaudio sit, pro sua bonitate dignetur. Cui
                     etiam æviterno et triuno Numini te tuamque coniugem, unâque sobolem fœmellam,
-                    toto pectore commendatum habeo. Vale. Dabantur ex <placeName ref="Benatky">arce
-                        Cæsarea Benaticka</placeName>, die 3. Iunij Anno 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Tuus TYCHO BRAHE,<lb/>manu propria.</p>
-                <lb/>
-                <p>Addidi carmina quædam, hisce diebus a <persName ref="melissus_paulus_1539">PAULO
+                    toto pectore commendatum habeo.</p> <closer><salute>Vale.</salute> <dateline>Dabantur ex <placeName ref="Benatky">arce
+                        Cæsarea Benaticka</placeName>, die 3. Iunij Anno 1600.</dateline>
+                <signed>Tuus <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
+                <postscript><p rend="noIndent">Addidi carmina quædam, hisce diebus a <persName ref="melissus_paulus_1539">PAULO
                         MELISSO</persName>, Poëtarum <placeName ref="Germany">Germaniæ</placeName>
                     antesignano, mihi missa, unâ cum exemplo literarum eius, ut scias, qua occasione
                     ea consignaret. Et quia Odæ <persName ref="cramer_daniel_1568">CRAMERI</persName> tui iuxta
@@ -226,13 +240,11 @@
                     argumentis <app>
                         <lem wit="#TBOO">cedat</lem>
                         <rdg wit="#A">ledat</rdg>
-                    </app>. Vale et cave, ne imposterum deponas cum ijs, qui rem geometrice
-                    metiuntur. Datæ ut supra in tuis literis.</p>
-                <lb/>
-                <p rend="rightMargin"><lb/>T. B.</p>
-                <lb/>
-                <p rend="center">POSTSCRIPTA.</p>
-                <p><pb ed="A" n="1r"/>CUM has literas iam antea ad te exarassem, paulo postquam a me
+                    </app>.</p> <closer><salute>Vale et cave, ne imposterum deponas cum ijs, qui rem geometrice
+                    metiuntur.</salute> <dateline>Datæ ut supra in tuis literis.</dateline> <signed>T. B.</signed></closer></postscript>
+               
+                <postscript><label>POSTSCRIPTA.</label>
+                <p rend="noIndent"><pb ed="A" n="1r"/>CUM has literas iam antea ad te exarassem, paulo postquam a me
                     discesserat <persName ref="rosenkrantz_frederik_1571">FRIDERICUS
                         ROSENKRANTZIUS</persName>, elapsis iam mensibus duobus, eas mecum interea
                     reservavi, donec certa et tuta mittendi occasio suppeteret, quam nunc per M.
@@ -278,7 +290,7 @@
                     rescisces.</p>
                 <p rend="indent">Cum hisce præteritis diebus in Aula Arcis horis antemeridianis
                     inter Generosos et Nobiles Viros ambularem, monstratus mihi est Baro ille
-                        <persName ref="Caurian">OCTAVIUS CAURIANUS</persName>, ad quem Dominus
+                        <persName ref="caurian_ottavio_1600">OCTAVIUS CAURIANUS</persName>, ad quem Dominus
                         <persName ref="coraduz_rudolf_1618">CORRADUCIUS</persName> pro <persName
                         ref="rosenkrantz_frederik_1571">ROSENKRANTZIO</persName> nostro scripserat,
                     quare, captata commoda occasione, cum eo de <persName
@@ -291,8 +303,8 @@
                         >Ungariam</placeName> profectum, ibi in exercitu esse <persName
                         ref="rudolf_2_1552">Cæsaris</persName> nostri aiebat, qui in obsidione Castelli
                     Papæ nunc occupatur, ubi strenuum illum belli Ducem <persName
-                        ref="Schwartzenburg">SCHWARTZENBURGIUM</persName>, nuper globo sclopetico
-                    ictum occubuisse inaudivimus, eodem etiam <persName ref="Caurian"
+                        ref="schwarzenberg_adolf_1551">SCHWARTZENBURGIUM</persName>, nuper globo sclopetico
+                    ictum occubuisse inaudivimus, eodem etiam <persName ref="caurian_ottavio_1600"
                         >OCTAVIO</persName> famam confirmanti. Ut vero de rebus <persName
                         ref="rosenkrantz_frederik_1571">ROSENKRANTZIJ</persName> eo plenius instruerer,
                     præsertim cum dicerem, me hisce diebus in <placeName ref="Denmark"
@@ -307,10 +319,9 @@
                     remorari nolui, ut propria curare vix queam; fiet id, Deo volente, alias,
                     meliori concesso otio. Saluta quoque ex me officiose matrem tuam, nobilissimam
                     et honestissimam fœminam, tum quoque alios amicos, quos scis integros esse et
-                    sinceros, atque in amore nostri perseverantes. Iterum vale. Dabantur <placeName
+                    sinceros, atque in amore nostri perseverantes.</p><closer><salute>Iterum vale.</salute> <dateline>Dabantur <placeName
                         ref="Praha">Pragæ</placeName> festinanter die 3. Augusti stylo novo Anno
-                    1600.</p>
-                <p rend="rightMargin"><lb/>T. T. B.</p>
+                    1600.</dateline><signed>T. T. B.</signed></closer></postscript>
             </div>
         </body>
     </text>

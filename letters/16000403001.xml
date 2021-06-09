@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 3. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 3. april n.s.</date><date xml:lang="en">1600, 3 April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +88,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-09" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,20 +96,20 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.293"/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS
-                        HERWARTUS AB HOHENBURG</persName> AD TYCHONEM BRAHE.</opener>
-                <p><pb ed="A" n="45r"/>ACCIPIES, Vir nobilissime atque Mathematicorum omnium longe
+                    HERWARTUS AB HOHENBURG</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+                <p rend="noIndent"><pb ed="A" n="45r"/>ACCIPIES, Vir nobilissime atque Mathematicorum omnium longe
                     præstantissime, Catalogos ambos librorum, qui in his nundinis vernalibus
                     <placeName ref="Frankfurt am Main">Francofurti ad Mœnum</placeName> venales extiterunt. Si quos ex his petas, velim eos mihi
                     designari, priusquam exemplaria divendantur, et curabo sedulo, ut quamprimum eos
                     accipias. Mitto etiam tabulas <persName ref="elizabeth_1_1533"
-                        >ELISABETHÆ</persName> Reginæ Angliæ, <persName ref="Gemma">GEMMAM
+                        >ELISABETHÆ</persName> Reginæ Angliæ, <persName ref="gemma_cornelius_1535">GEMMAM
                         FRISIUM</persName> de radio Astronomico, et Astrologiam græcolatinam
                         <persName ref="camerarius_joachim_1500">IOACHIMI CAMERARIJ</persName> No. 106. Tabulas
                     perpetuas longitudinum et latitudinum Planetarum Lovanienses, et Theoricas
                     Planetarum <persName ref="peurbach_georg_von_1423">PURBACHIJ</persName> ab <persName
-                        ref="Finaeus">ORONTIO FINÆO</persName> emendatas No. 99. Atque hisce me tibi
-                    commendo, teque florere quam fœlicissime exopto. Datæ <placeName ref="München">Monachij</placeName> tertia die
-                    Aprilis Anno 1600. </p>
+                        ref="finé_oronce_1494">ORONTIO FINÆO</persName> emendatas No. 99. Atque hisce me tibi
+                    commendo, teque florere quam fœlicissime exopto.</p> <closer><dateline>Datæ <placeName ref="München">Monachij</placeName> tertia die
+                    Aprilis Anno 1600. </dateline></closer>
             </div>
         </body>
     </text>

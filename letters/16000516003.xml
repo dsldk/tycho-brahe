@@ -59,11 +59,11 @@
                     <date when="1600-05-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Daniel Bucretius</persName>
+                    <persName key="bucretius_daniel_1562">Daniel Bucretius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 16. maj</date></creation>
+            <creation><date xml:lang="da">1600, 16. maj.</date><date xml:lang="en">1600, 16 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-22" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,8 +91,8 @@
                         ref="Wrosław">VRATISLAVIÆ</placeName> DEGENTI, AMICO SUO INPRIMIS
                     DILECTO.</opener>
 
-                <p><pb ed="A" n="131r"/>S. P.</p>
-                <p>CLARISSIME et præstantissime vir, vetus illa inter nos, cum me in <placeName
+                <p rend="indent"><pb ed="A" n="131r"/>S. P.</p>
+                <p rend="noIndent">CLARISSIME et præstantissime vir, vetus illa inter nos, cum me in <placeName
                         ref="Hven">Insula</placeName> prioris habitationis <placeName
                         ref="Uraniborg">Uraniburgica</placeName>, dum in iuventute peregrinareris,
                     semel atque iterum invasisti, contracta notitia, cuius te adhuc memorem esse non
@@ -102,7 +103,7 @@
                     apud vos fuit, et nunc apud me est, intellexi, benevolum studium, alias etiam
                     mihi perspectum, fidem facit. Est autem eiuscemodi.</p>
                 <p rend="indent">Retulit mihi priori anno excellentiss. vir, Dominus D. <persName
-                        ref="Treutler">HIERONIMUS TREUTLERUS</persName>, cum simul <placeName
+                        ref="treutler_hieronymus_1565">HIERONIMUS TREUTLERUS</persName>, cum simul <placeName
                             ref="Praha">Pragæ</placeName> essemus, <placeName ref="Wrosław">Vratislavij</placeName> aliquando fuisse
                     Astronomiæ vel etiam Astrologiæ iudiciariæ impense addictum virum, quem
                     observationes quasdam in motu Astrorum obtinuisse aiebat, quas etiamnum filius
@@ -119,8 +120,8 @@
                     nunc non vacat. Salutat te supra<pb ed="TBOO" n="VIII.324"/>dictus M.
                     <persName ref="longomontanus_christen_sorensen_1562">CHRISTIERNUS</persName> officiose, et pro pristinis illi, cum apud vos esset, beneficijs,
                     non saltem is, sed et ego, gratias agimus. Scripturus est ipsemet tibi, cum
-                    rectius vacârit. Iterum quam felicissime vale. Datas ex <placeName ref="Benatky"
-                        >arce Cæsarea Benatika</placeName> 16 Maij A. 1600.</p>
+                    rectius vacârit.</p> <closer><salute>Iterum quam felicissime vale.</salute><dateline> Datas ex <placeName ref="Benatky"
+                        >arce Cæsarea Benatika</placeName> 16 Maij A. 1600.</dateline></closer>
             </div>
         </body>
     </text>

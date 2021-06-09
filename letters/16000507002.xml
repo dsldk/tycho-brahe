@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johannes Jessenius</persName>
+                    <persName key="jessenius_jan_1566">Johannes Jessenius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 7. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 7. maj n.s.</date><date xml:lang="en">1600, 7 May NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,14 +91,14 @@
                         IESSEN</persName>, PHILOSOPHIÆ ET MEDICINÆ DOCTORI ET PROFESSORI
                     VITEBERGENSI PUBLICO, AMICO SUO SINCERE DILECTO.</opener>
 
-                <p><pb ed="A" n="121r"/>S</p>
-                <p>GLOBUM, quem Illustrissimo Principi tuo destinâram, nunc ad te mitto, amantissime
+                <p rend="indent"><pb ed="A" n="121r"/>S</p>
+                <p rend="noIndent">GLOBUM, quem Illustrissimo Principi tuo destinâram, nunc ad te mitto, amantissime
                     Domine <persName ref="jessenius_jan_1566">IESSENI</persName>, ut tuam rectius redimam
                     isthic fidem (si quid de eo iam ante accessum scripsisti) quam tu propriam apud
                     me, in eo, quod te huc rediturum pollicitus es, licet iam id ignorare ais atque
                     detrectas. Addidi librum de Fixarum restitutione viginti Annorum indefesso
                     labore exantlata, eumque in membranam exaratum, tum pariter <persName
-                        ref="Christian 2. Sachsen">Electori Saxoniæ</persName> (cui Celsitudini
+                        ref="christian_2_1583">Electori Saxoniæ</persName> (cui Celsitudini
                     inclyto unâ scripsi) meo nomine humilime a te adferri cupio, ut habeat eius
                     Celsitudo Canonicam Stellarum expositionem in promptu, si forte aliquando
                     maiorem globum confieri curare velit. Exoptarem autem hunc Abacum stelliferum,
@@ -107,13 +108,13 @@
                     </app>) vix viderunt, ipsius Celsitudo sibi soli reservare velit, nec alijs
                     communicare, ne sint, qui nostra inventa sibi arrogent atque ijs abutantur,
                     prout aliquoties mihi in alijs quibusdam contigit. Habes etiam hîc Mechanicæ
-                    Astronomiæ exemplar Magnifico Domino <persName ref="Peifer">Cancellario
+                    Astronomiæ exemplar Magnifico Domino <persName ref="peifer_david_1530">Cancellario
                         Vestro</persName> ex me, præmissa officiosa salutatione, porrigendum.
                     Subscripsi saltem nomen meum, tu titulum eius, quem non satis perspectum habeo,
                     superius appone, et librum, si sic lubet, compingi effice, antequam illi
                     exhibeas. Adiunxi insuper literas ad nobilissimum Virum, Dominum <pb ed="TBOO"
                         n="VIII.317"/>
-                    <persName ref="Wolframsdorf">GEORGIUM a WOLFRAMSDORF</persName>, Cubicularium
+                    <persName ref="wolframsdorf_georg_1600">GEORGIUM a WOLFRAMSDORF</persName>, Cubicularium
                     eiusdem Principis, quas illi tradas velim. Habet præterea <persName ref="fels_daniel_1600"
                         >[DANIEL?]</persName> secum exemplar pro Illustri Domino Cancellario
                     Bohemico, quod illi exhibere vellet, ubi convenienter ligatum fuerit. Sic satis
@@ -123,8 +124,8 @@
                     abitum referre, et Procuratorem illum, de quo scis, huc ad me dirigere, <pb
                         ed="A" n="121v"/>ita ut cum <persName ref="fels_daniel_1600">DANIELE</persName>
                     revertente accedat. Tu vero, mi <persName ref="jessenius_jan_1566">IESSENI</persName>,
-                    feliciter domum redi, atque quam optime vale. Dabantur ex <placeName
-                        ref="Benatky">arce Cæsarea Benatica</placeName> die 7 Maij Anno 1600.</p>
+                    feliciter domum redi, atque quam optime vale.</p> <closer><dateline>Dabantur ex <placeName
+                        ref="Benatky">arce Cæsarea Benatica</placeName> die 7 Maij Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

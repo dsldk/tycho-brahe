@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Raphael Ciaperenius</persName>
+                    <persName key="ciaperenius_raphael_1600">Raphael Ciaperenius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 14. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 14. april n.s.</date><date xml:lang="en">1600, 14 April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,10 +87,10 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.302"/><pb ed="A" n="105r"/>EXCELLENTISSIMO ET
-                    ERUDITISSIMO VIRO, DOMINO <persName ref="Ciaparenius">RAPHAELI
+                    ERUDITISSIMO VIRO, DOMINO <persName ref="ciaperenius_raphael_1600">RAPHAELI
                         CIAPARENIO</persName>, APUD ILLUSTRISSIMUM ORATOREM <placeName ref="Firenze">FLORENTINUM</placeName> <placeName ref="Praha">PRAGÆ</placeName> DOMUS
                     PRÆFECTO, DOMINO ET AMICO HONORANDO.</opener>
-                <p>QUAS iussu Ill<hi rend="sup">mi</hi> et Magnif<hi rend="sup">mi</hi> Oratoris <placeName ref="Firenze">Florentini</placeName> ad me Excell<hi rend="sup">a</hi>
+                <p rend="noIndent">QUAS iussu Ill<hi rend="sup">mi</hi> et Magnif<hi rend="sup">mi</hi> Oratoris <placeName ref="Firenze">Florentini</placeName> ad me Excell<hi rend="sup">a</hi>
                     V<hi rend="sup">ra</hi> per certum tabellarium direxit literas, modo accepi, atque pro hoc mihi
                     præstito officio plurimas eidem gratias habeo, relaturus, si quid unquam meâ
                     opellâ præstari poterit, quod illi vicissim acceptum esse queat. Prædicavit mihi
@@ -98,10 +99,10 @@
                     filio quoque meo, cum vobis adesset, præstitam, magni beneficij loco duco.
                     Daboque operam, quantum in me est, ne se certasse priorem pœniteat, speroque
                     nos, ubi <placeName ref="Praha">Pragam</placeName> advenero, ulterioris notitiæ
-                    atque amicitiæ fundamina coram posituros. Interim et semper Ex<hi rend="sup">a</hi> V<hi rend="sup">a</hi> quam optime
-                    valeat. Dabantur properanter ex <placeName ref="Benatky">Arce Cæsareâ
-                        Benaticâ</placeName> Die 14 Aprilis Anni 1600.</p>
-
+                    atque amicitiæ fundamina coram posituros.</p> <closer><salute>Interim et semper Ex<hi rend="sup">a</hi> V<hi rend="sup">a</hi> quam optime
+                    valeat.</salute> <dateline>Dabantur properanter ex <placeName ref="Benatky">Arce Cæsareâ
+                        Benaticâ</placeName> Die 14 Aprilis Anni 1600.</dateline>
+</closer>
             </div>
         </body>
     </text>

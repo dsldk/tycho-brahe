@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -60,11 +69,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 28. august n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 28. august n.s.</date><date xml:lang="en">1600, 28 August NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +89,7 @@
         <revisionDesc>
             <change when="2020-01-28" who="#pz">Filen etableret</change>
             <change when="2020-01-29" who="#pz">Filen færdig</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -87,11 +97,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.344"/><pb ed="A" n="149v"/>MAGNIFICO ET NOBILISSIMO
-                    VIRO, DOMINO IOHANNI GEORGIO HERWARTO AB HOHENBURG, SERENISSIMO UTRIUSQUE
+                    VIRO, DOMINO <persName ref="herwart_von_hohenburg_hans_georg_1553">IOHANNI GEORGIO HERWARTO AB HOHENBURG</persName>, SERENISSIMO UTRIUSQUE
                     BAVARIÆ DUCI A CONSILIJS INTIMIS, PRÆSIDI SCHWABÆ ET STATUUM PROVINCIALIUM
                     CANCELLARIO, AMICO SUO INPRIMIS HONORANDO.<lb/>MONACHI.</opener>
 
-                <p><pb ed="A" n="146r"/>TEMPUS est, Nobilissime et præstantissime vir, amice
+                <p rend="noIndent"><pb ed="A" n="146r"/>TEMPUS est, Nobilissime et præstantissime vir, amice
                     inprimis honorande, ut plurimis tuis inde ab initio huius anni ad me humanissime
                     datis literis aliqua plenius, quam semel atque iterum factum est, respondeam, ne
                     quid scrupuli aut suspicionis de meo erga te constanti amore hæc nimia
@@ -156,8 +166,8 @@
                     tantopere nihilominus communiter aberrari, veluti <persName
                         ref="reinhold_erasmus_1511">REINHOLDUS</persName>, qui <placeName
                         ref="Königsberg">Regiomontis</placeName> latitudinem ex <persName
-                        ref="Apian">APIANO</persName> 26 M. iusto minorem mutuatus est. Quin et ipse
-                        <persName ref="Apian">APIANUS</persName> elevationem <placeName
+                        ref="apian_peter_1495">APIANO</persName> 26 M. iusto minorem mutuatus est. Quin et ipse
+                        <persName ref="apian_peter_1495">APIANUS</persName> elevationem <placeName
                         ref="Augsburg">Augustæ Vindelicorum</placeName> 5 Minutis e sua, uti puto,
                     observatione iusto decliviorem fecit, et <persName ref="leovitius_cyprianus_1514"
                         >CYPRIANUS</persName> adhuc plus, nempe quinta parte gradus defecit.</p>
@@ -339,12 +349,12 @@
                     circuitionis, aptiore nunc inventa, a nobis repudiatur. In hac vero posteriore
                     redintegratione, ubi eam adeptus fueris, epochas ad <persName ref="ptolemaios_klaudios_0100"
                         >PTOLOMÆI</persName> tempora correctas unâ obtinebis.</p>
-                <p rend="indent">Pro libris præstantissimi illius Mathematici <persName ref="Vieta"
+                <p rend="indent">Pro libris præstantissimi illius Mathematici <persName ref="viete_francois_1540"
                         >FRANCISCI VIETÆ</persName>, quorum simul cum literis die 26 Aprilis mihi
                     inscriptis copiam fecisti, gratias ago plurimas. Retulit ante annum mihi, cum
                         <placeName ref="Praha">Pragæ</placeName> unâ essemus, <persName
-                        ref="Romanus">ADRIANUS ROMANUS</persName>, insignis etiam Mathematicus,
-                    eundem <persName ref="Vieta">VIETAM</persName> de Triangulorum compendijs
+                        ref="romanus_adrianus_1561">ADRIANUS ROMANUS</persName>, insignis etiam Mathematicus,
+                    eundem <persName ref="viete_francois_1540">VIETAM</persName> de Triangulorum compendijs
                     peculiaribus nonnulla in publicum edidisse, quæ videre <pb ed="A" n="148r"
                     />averem. Pollicitus is quidem est, se mihi exemplar missurum, sed necdum
                     respondit eventus.</p>
@@ -391,7 +401,7 @@
                     vel earum exemplar (nullum enim mihi ad manus est) remitti, ut desiderata per
                     meliorem oportunitatem suppleam, et si quæ in annectendis omissa aut minus
                     elaborate peracta sunt, resarciam et perfectiora reddam.</p>
-                <p rend="indent">Ad &#x2640; stellam olim iuxta <persName ref="Albinovanus"
+                <p rend="indent">Ad &#x2640; stellam olim iuxta <persName ref="albinovanus_pedo_0001"
                         >ALBINOVANI</persName> Poëtæ opinionem in aurora non apparentem, qua de re
                     denuo in ultimis tuis quæstionem movisti, ut multa nunc respondeam, temporis
                     angustia impedit, nec etiam aliæ nunc succurrunt rationes, quam eæ, quas ante
@@ -417,7 +427,7 @@
                     etiam per literas familiaritatem intercedere ab ipso cognovi. Retulit vero inter
                     alia se aliquando nonnulla tibi scripsisse, de Hypothesibus meis in
                     controversiam vocatis, atque quod eæ nec in <persName ref="kopernikus_nikolaus_1473"
-                        >COPERNICO</persName>, nec <persName ref="Apollonios">APOLLONIO
+                        >COPERNICO</persName>, nec <persName ref="apollonios_0262">APOLLONIO
                         PERGÆO</persName>, ut <persName ref="ursus_nicolaus_1551">quidam</persName> (iam ante 14
                     dies mor<pb ed="A" n="149r"/>tuus) prætendit, invenirentur, ostendisse, atque
                     certis indicijs non alterius, sed meas esse collegisse. Rogo itaque peramanter,
@@ -428,7 +438,7 @@
                     vestri id, quicquid erit, mihi tradendum committere. Feceris mihi sic rem
                     apprime gratam; incumbit enim nunc aliqualis necessitas, cur sic fieri averem,
                     de qua alias rescisces.</p>
-                <p rend="indent">Invitârat nuper Serenissimi <persName ref="Prendtl">Principis
+                <p rend="indent">Invitârat nuper Serenissimi <persName ref="prendtl_alexander_1600">Principis
                         vestri Legatus</persName> me ad cœnam, a quo humanissime et lautissime
                     exceptus fui, et crebra tui, eaque (uti decuit) honorifica facta est inter nos
                     mentio. Quamprimum ea, quæ nunc pro <persName ref="rudolf_2_1552">Cæsare</persName>
@@ -446,14 +456,13 @@
                         <placeName ref="Elben">Albim</placeName> (nisi ob æstum continuum nimis
                     exsiccatus fuerit) quam citissime fieri poterit, advehenda. Quæ hoc tempore tibi
                     scribenda insinuandaque duxi, utque omnia candide accipias, atque mature
-                    expectationi nostræ respondeas, te etiam atque etiam rogatum habeo. Vale.
-                    Dabantur <placeName ref="Praha">Pragæ</placeName> die 28 Augusti stylo novo Anno
-                    1600.</p>
-                <lb/>
-                <p rend="rightMargin">Magnificentiæ Tuæ<lb/>studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
-                    propria scripsi.</p>
-                <lb/>
-                <p>Si aliquos ex libris in scheda pariter adiuncta denotatis successive mihi mutuo
+                    expectationi nostræ respondeas, te etiam atque etiam rogatum habeo.</p> <closer><salute>Vale.</salute>
+                    <dateline>Dabantur <placeName ref="Praha">Pragæ</placeName> die 28 Augusti stylo novo Anno
+                    1600.</dateline>
+                    <signed>Magnificentiæ Tuæ<lb/>studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                    propria scripsi.</signed></closer>
+                
+                <postscript><p rend="noIndent">Si aliquos ex libris in scheda pariter adiuncta denotatis successive mihi mutuo
                     mittere possis, feceris sic non minus quam antea rem acceptissimam. Restituam
                     eos bona side, ut etiam in prioribus factum.</p>
                 <p rend="indent">Habes insuper hîc Calculum Eclipseos Solaris, e novitijs meis
@@ -467,7 +476,7 @@
                         ref="hoffmann_hans_friedrich_1561">IOH. FRIDERICI HOFFMANNI</persName> singula minuta
                     exhibentem, et ad imitationem cuiusdam ex meis, qui in Mechanica Astron. numero
                     est tertius, elaboratum. Si quid apud vos in eadem Eclipsi cœlitus denotatum
-                    est, fac me eius animadversionis participem.</p>
+                    est, fac me eius animadversionis participem.</p></postscript>
 
             </div>
         </body>

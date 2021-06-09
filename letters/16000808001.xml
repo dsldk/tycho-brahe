@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Nicolaus Braschius</persName>
+                    <persName key="brasch_martin_1565">Nicolaus Braschius</persName>
                     <placeName>Rostock</placeName>
                     <date when="1600-08-08"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. august</date></creation>
+            <creation><date xml:lang="da">1600, 8. august</date><date xml:lang="en">1600, 8 August</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-27" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,13 +86,13 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.337"/><pb ed="A" n="68v"/>MAGNIFICO ET PRÆSTANTISSIMO
-                    GENEROSISSIMOQUE VIRO DOMINO TYCHONI BRAHE, ASTRONOMO PRINCIPI, MATHEMATICO
+                    GENEROSISSIMOQUE VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, ASTRONOMO PRINCIPI, MATHEMATICO
                     CÆSAREO, DOMINO ET PATRONO COLENDO.<lb/><hi rend="it"><placeName ref="Praha"
                             >PRAGÆ</placeName>
-                        <foreign xml:lang="de">IN BEHMEN</foreign></hi>.</opener>
+                        <foreign xml:lang="de">IN BEHMEN</foreign></hi>.
+                    <salute><pb ed="A" n="66r"/>MAGNIFICE ET ILLUSTRIS DOMINE, PATRONE COLENDE.<lb/>S.</salute></opener>
 
-                <p><pb ed="A" n="66r"/>MAGNIFICE ET ILLUSTRIS DOMINE, PATRONE COLENDE.<lb/>S.</p>
-                <p>QUAM iamdudum mihi dari exoptavi occasionem literis tuis per <persName
+                <p rend="noIndent">QUAM iamdudum mihi dari exoptavi occasionem literis tuis per <persName
                         ref="mule_claus_1575">MULÆUM</persName> in <placeName ref="Denmark"
                         >Daniam</placeName> commeantem mihi traditis respondendi, ea iam tandem
                     subito se aperit, neque tamen satis exoptata, cum <placeName ref="Dresden"
@@ -110,7 +111,7 @@
                         quod<note n="1" place="bottom"><ref type="refMark">1</ref>Si nondum vidisti,
                         exemplar a <persName ref="rodern_melchior_1555">RHEDERO</persName> petes.</note> ad te
                     circa idem tempus fere, quo tuæ datæ sunt, etiam tum traditum tibi esse
-                    oportuisset, misi per quendam <persName ref="Hovi">ALBERTUM HOVI</persName>,
+                    oportuisset, misi per quendam <persName ref="hovi_albert_1600">ALBERTUM HOVI</persName>,
                     hominem militarem, Domino illustri <persName ref="rodern_melchior_1555">MELCHIORI
                         RHEDERO</persName> addictum eique a me commendatum. Cui ut tu quoque me
                     commendares et illud carmen, quod in honorem eius composui ipsique inscripsi,
@@ -147,7 +148,7 @@
                         Scotiæ</persName> ante iam in me munifico, alteram Epicorum quatuor libros
                     et Lyricorum unum continentem, <persName ref="ulrich_3_1527">ULRICO</persName> Principi
                     Megapolitaniæ, tertiam tres Epigrammatum et unum Sylvarum librum complexam
-                        <persName ref="Wilhelm, duke of Kurland">WILHELMO</persName> Curlandiæ Duci.
+                        <persName ref="kettler_wilhelm_1574">WILHELMO</persName> Curlandiæ Duci.
                     Utinam vero tam felix sim, ut aliquando lucem videant, quam illis hactenus
                     invideri equidem nonnihil doleo. Sed præ his duabus vijs illa mihi inprimis
                     arrideret: si materia aliqua mihi offerretur, <app>
@@ -177,14 +178,13 @@
                     sum! Sed nolo te conturbare, et iam tabellarius astans inclamat aurem et
                     concludere iubet. Bene igitur et diutissime vale, vir præstantissime, et diu
                     vive non solum tuis, sed et <persName ref="brasch_martin_1565">BRASCHIO</persName>,
-                    quamvis et ille inter tuos est. Datæ festinanter <placeName ref="Rostock"
-                        >Rostochij</placeName> 8 Augusti Anno 1600.</p>
-                <lb/>
-                <p rend="rightMargin">T. Magnif. et Generos.<lb/>reverenter
-                    colens<lb/>BRASCHIUS.</p>
-                <lb/>
-                <p>>M. <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM</persName> amanter saluto, a quo me
-                    literis non salutari miror. </p>
+                    quamvis et ille inter tuos est.</p> <closer><dateline>Datæ festinanter <placeName ref="Rostock"
+                        >Rostochij</placeName> 8 Augusti Anno 1600.</dateline> 
+                <signed>T. Magnif. et Generos.<lb/>reverenter
+                    colens<lb/><persName ref="brasch_martin_1565">BRASCHIUS</persName>.</signed></closer>
+                
+                <postscript><p rend="noIndent">M. <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM</persName> amanter saluto, a quo me
+                    literis non salutari miror.</p> </postscript>
             </div>
         </body>
     </text>

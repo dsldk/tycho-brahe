@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
                     <placeName>Mïnchen</placeName>
                     <date when="1600-05-04"/>
                     <note>n.s.</note>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 4. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 4. maj n.s.</date><date xml:lang="en">1600, 4 May NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,16 +88,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-20" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.312"/>IOANNES GEORGIUS HERWARTUS AB HOHENBURG AD
-                    TYCHONEM BRAHE.</opener>
+                <opener><pb ed="TBOO" n="VIII.312"/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS HERWARTUS AB HOHENBURG</persName> AD
+                    <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
 
-                <p><pb ed="A" n="145r"/>LITERAS tuas ex <placeName ref="Benatky">arce
+                <p rend="noIndent"><pb ed="A" n="145r"/>LITERAS tuas ex <placeName ref="Benatky">arce
                         Benaticâ</placeName> 8 die Aprilis ad me datas, Vir
                     nobilissime atque Mathematicorum omnium facile Princeps, singulari cum lætitia
                     accepi; ex ijs enim perlibenter intellexi, nullas earum, quas ad me misisti, id
@@ -117,11 +127,11 @@
                     intermedias personas petieram et quidem instantissime efflagita<pb ed="TBOO"
                         n="VIII.313"/>veram, sed frustra et incassum laboravi, oleumque et operam
                     perdidi, ideoque captata occasione me ipse Augustam contuli, et præsens coram ea
-                    ab Generoso Domino <persName ref="Fugger, Philip Edward">PHILIPPO EDUARDO FUGGERO</persName> Barone etc. petij atque impetravi;
+                    ab Generoso Domino <persName ref="fugger_philip_edward_1546">PHILIPPO EDUARDO FUGGERO</persName> Barone etc. petij atque impetravi;
                     ea itaque tibi mittam, quam primum securam aliquam rationem mittendi
                     perquirendo investigare potero. Carmen quoque tibi mittam brevi, quod, uti
-                    spero, non displicebit. Atque hisce me tibi officiosissime commendo. Datæ
-                    <placeName ref="München">Monachij</placeName> 4 die Maij A. 1600.</p>
+                    spero, non displicebit.</p> <closer><salute>Atque hisce me tibi officiosissime commendo.</salute> <dateline>Datæ
+                    <placeName ref="München">Monachij</placeName> 4 die Maij A. 1600.</dateline></closer>
             </div>
         </body>
     </text>

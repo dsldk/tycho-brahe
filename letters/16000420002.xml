@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ludolf Riddershusen</persName>
+                    <persName key="riddershusen_ludolf_1551">Ludolf Riddershusen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 20. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 20. april n.s.</date><date xml:lang="en">1600, 20
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,61 +84,67 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-16" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.304"/>TYCHO BRAHE AD <persName ref="riddershusen_ludolf_1551"
-                        >LUDOLPHUM RIDDERSHUSIUM</persName>.</opener>
-                <p><pb ed="A" n="109r"/>S. P.</p>
-                <p>CLARISSIME et Eruditissime Vir, Amice mihi plurimum semper faciende. Literæ tuæ
-                    paulo post solstitium hybernum superioris Anni ad me datæ præterlapso nuperrimo
-                    huius Æquinoctio mihi primum redditæ sunt, quibus si per omnia nunc ita
-                    luculenter respondere, uti desiderares, non concedatur, tribuas id occupationum
-                    mearum moli; quæ tamen otium utcunque admittit, brevibus exposita, sic habe.</p>
+                <opener><pb ed="TBOO" n="VIII.304"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="riddershusen_ludolf_1551">LUDOLPHUM
+                        RIDDERSHUSIUM</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="109r"/>S. P.</p>
+                <p rend="noIndent">CLARISSIME et Eruditissime Vir, Amice mihi plurimum semper
+                    faciende. Literæ tuæ paulo post solstitium hybernum superioris Anni ad me datæ
+                    præterlapso nuperrimo huius Æquinoctio mihi primum redditæ sunt, quibus si per
+                    omnia nunc ita luculenter respondere, uti desiderares, non concedatur, tribuas
+                    id occupationum mearum moli; quæ tamen otium utcunque admittit, brevibus
+                    exposita, sic habe.</p>
                 <p rend="indent">De Directionum administratione et rationibus, tum quoque
                     distributione Cœli, quæ antea significavi, satis per se clara sunt, nec, etiamsi
                     quam maxime vellem, ea exemplis illustrandi nunc suppetit oportunitas. Possunt
                     vero secundum Eclipticam pariter Directiones fieri, non dissimiliter, iuxta
-                    motum &#x2609;<hi rend="sup">lis</hi> diurnum, numerandæ, nam et has subinde pondus habere animadverti.
-                    Debent autem Directiones institui ad Horizontem eius loci, in quo quis natus
-                    est, non autem ubi postea habitat; quia quilibet suum secum portat Cœlum suasque
-                    influentias, quocunque iverit. Octogenaria Thematum distributio ad hoc conducit,
-                    ut robur efficaciæ Planetarum rectius pateat, siquidem dimidius Angulus Rectus
-                    sit inter Meridianum et Horizontem, post horum duorum limites, magni sunt
-                    roboris. Significata autem ex duodenaria Divisione potius <pb ed="A"
-                        n="109v"/>consueto Astrologorum more petenda.</p>
-                <p rend="indent">Transitus &#x2644;<hi rend="sup">ni</hi>, quia tardigradus est, utplurimum vim habet, &#x2642;<hi rend="sup">tis</hi>
-                    autera minus. Tunc vero stimulantur effectus, cum in idem tempus similes
-                    profectiones coincidunt; impediuntur vero, si contrariæ; et Directiones, quæ
-                    generaliorem habent significationem, hîc etiam augendo vel minuendo plurimum
-                    possunt. Si eodem tempore inciderint adversæ et prosperæ Directiones, seipsas
-                    fere elidunt, et effectum boni malique imminuunt. Directiones, quæ exitum
-                    naturalem vel violentem portendunt, variæ se habent, nec ad certum aliquod genus
-                    restringi possunt; et oportet multa alia simul considerare, nec Stoicam
-                    necessitatem introducere. Geniturarum influxus fausti vel infelices vario modo
-                    mutari et transplantari possunt; ut non nimium ijs sit indulgendum. Omnes autem
-                    rationes, quibus hoc efficitur, nimis longum foret enarrare. Neque etiam in
-                    omnes homines Astra æqualiter influunt, sed quidam se reddunt eorum viribus
-                    magis obnoxios quam alij. Verum Deus, Author Universi, omnia pro suo nutu
-                    moderatur. Atque hæc ad quæstiones tuas pro tempore respondisse sufficiat.</p>
+                    motum &#x2609;<hi rend="sup">lis</hi> diurnum, numerandæ, nam et has subinde
+                    pondus habere animadverti. Debent autem Directiones institui ad Horizontem eius
+                    loci, in quo quis natus est, non autem ubi postea habitat; quia quilibet suum
+                    secum portat Cœlum suasque influentias, quocunque iverit. Octogenaria Thematum
+                    distributio ad hoc conducit, ut robur efficaciæ Planetarum rectius pateat,
+                    siquidem dimidius Angulus Rectus sit inter Meridianum et Horizontem, post horum
+                    duorum limites, magni sunt roboris. Significata autem ex duodenaria Divisione
+                    potius <pb ed="A" n="109v"/>consueto Astrologorum more petenda.</p>
+                <p rend="indent">Transitus &#x2644;<hi rend="sup">ni</hi>, quia tardigradus est,
+                    utplurimum vim habet, &#x2642;<hi rend="sup">tis</hi> autera minus. Tunc vero
+                    stimulantur effectus, cum in idem tempus similes profectiones coincidunt;
+                    impediuntur vero, si contrariæ; et Directiones, quæ generaliorem habent
+                    significationem, hîc etiam augendo vel minuendo plurimum possunt. Si eodem
+                    tempore inciderint adversæ et prosperæ Directiones, seipsas fere elidunt, et
+                    effectum boni malique imminuunt. Directiones, quæ exitum naturalem vel violentem
+                    portendunt, variæ se habent, nec ad certum aliquod genus restringi possunt; et
+                    oportet multa alia simul considerare, nec Stoicam necessitatem introducere.
+                    Geniturarum influxus fausti vel infelices vario modo mutari et transplantari
+                    possunt; ut non nimium ijs sit indulgendum. Omnes autem rationes, quibus hoc
+                    efficitur, nimis longum foret enarrare. Neque etiam in omnes homines Astra
+                    æqualiter influunt, sed quidam se reddunt eorum viribus magis obnoxios quam
+                    alij. Verum Deus, Author Universi, omnia pro suo nutu moderatur. Atque hæc ad
+                    quæstiones tuas pro tempore respondisse sufficiat.</p>
                 <p rend="indent">Ad tempora et eventus Nativitatum, quas misisti, attendere et in
                     eas <pb ed="TBOO" n="VIII.305"/>disquirere nunc non vacat; imo etiamsi vacaret,
                     non multum temporis <pb ed="A" n="110r"/>talibus curis libenter tribuo,
                     gravioribus et maioris momenti studijs potius addictus. Restitutionem motus
-                    &#x263E;<hi rend="sup">ris</hi> nunc communicare non possum, nondum enim typis edita est, uti neque in
-                    cœteris Planetis desiderijs tuis morem gerere. Conservantur adhuc libri mei et
-                    res, pro maiori parte, <placeName ref="Magdeburg">Magdæburgi</placeName>; ubi
-                    advenerint, et oportunius otium nactus fuero, dabo operam, ut plenius in talibus
-                    gratificari queam. Literas adiunctas ad Dominum <persName
-                        ref="Fabricius, David ">DAVIDEM FABRICIUM</persName> absque omni interposita
-                    morâ per certum hominem dirige; eius enim interest, ut eas cito nanciscatur.
-                    Iamque vale, quodque pluribus nunc tecum non agam, candide excusatum habe.
-                    Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>,
-                    5 milliaribus <placeName ref="Praha">Pragâ</placeName> distante, Die 20 Aprilis Anni
-                    1600, stylo recognito.</p>
+                        &#x263E;<hi rend="sup">ris</hi> nunc communicare non possum, nondum enim
+                    typis edita est, uti neque in cœteris Planetis desiderijs tuis morem gerere.
+                    Conservantur adhuc libri mei et res, pro maiori parte, <placeName
+                        ref="Magdeburg">Magdæburgi</placeName>; ubi advenerint, et oportunius otium
+                    nactus fuero, dabo operam, ut plenius in talibus gratificari queam. Literas
+                    adiunctas ad Dominum <persName ref="fabricius_david_1564">DAVIDEM
+                        FABRICIUM</persName> absque omni interposita morâ per certum hominem dirige;
+                    eius enim interest, ut eas cito nanciscatur.</p>
+                <closer><salute>Iamque vale, quodque pluribus nunc tecum non agam, candide excusatum
+                        habe.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ
+                        Benaticâ</placeName>, 5 milliaribus <placeName ref="Praha">Pragâ</placeName>
+                        distante, Die 20 Aprilis Anni 1600, stylo recognito.</dateline></closer>
             </div>
         </body>
     </text>

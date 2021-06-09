@@ -13,26 +13,42 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>autographsammlung</collection>
+                                <idno>Vol. 23, Fol. 58 f.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Originalbrev</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -46,7 +62,7 @@
                         </msDesc></witness>
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-                            Tom. XIV, Hauniæ 1929, p. 204-5</bibl>
+                            Tom. XIV, Hauniæ 1929, p. 204-205</bibl>
                     </witness>
                 </listWit>
                 <listBibl>
@@ -57,7 +73,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Erik Brahe</persName>
+                    <persName key="brahe_erik_1580">Erik Brahe</persName>
                     <placeName ref="Herborn">Herborn</placeName>
                     <date when="1600-05-12"/>
                 </correspAction>
@@ -66,7 +82,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-05-12</date></creation>
+            <creation><date xml:lang="da">1600, 12. maj.</date><date xml:lang="en">1600, 12
+                    May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -83,6 +100,7 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-14" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-21" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -90,49 +108,51 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="XIV.204"/>NOBILITATE GENERIS ET DOCTRINÆ EXCELLENTIA
-                    PRÆSTANTISSIMO VIRO DOMINO TYCHONJ BRAHÆ, D:O DE KNUDSTRUP, PATRUO SUO
-                    CHARISS:</opener>
+                    PRÆSTANTISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONJ
+                        BRAHÆ</persName>, D:O DE KNUDSTRUP, PATRUO SUO CHARISS:</opener>
 
-                <p>SI prospera fueris valetudine, patrue charissime, est quod gaudeam. Ego adhuc,
-                    Dej beneficio, bene valeo. Immortales tibj habeo gratias pro omnibus in me
-                    collatis beneficiis, inter quæ vel maximum reputandum, quod et <pb ed="TBOO"
-                        n="XIV.205"/>parens charissimus pro sua prudentia et tua autoritate non
-                    minimum confirmatus studiis literarum nos instituere nec ullis impensis ad tam
-                    honestum propositum perficiendum hactenus parcendum censuerit. Quare si pro
-                    corporis et fortunæ bonis ad grates rependendas ipsa natura ducimur, quid ijs
-                    debebimus, qui vel opera sua mentes nostras (quæ, quantum cælum terræ, tantum
-                    corporibus præstent) humanitatis et doctrinæ donis imbuunt, vel imbuendas pro
-                    prudentia ac summo judicio suo effecere? Itaque quod officii mej erit, gratum me
-                    semper tibj præbebo, et mihi gratulabor, cuj talis contigit patruus, qui
-                    virtute, doctrina summorumque operum excellentia non <placeName ref="Denmark"
-                        >Daniæ</placeName> aut <placeName ref="Germany">Germaniæ</placeName> modo
-                    sed <placeName ref="Europe">Europæ</placeName> fere universæ venerabilis et
-                    charus est. Hanc animi mej significationem jam dudum est quod tibj, charissime
-                    patrue, debebam, sed cum de mansione tua nihil nobis certj constaret, hactenus
-                    differre coactus fuj. Nos vero jam ultra semestre <placeName ref="Herborn"
-                        >Herbornæ</placeName> vivimus, et ad festum Michaelis, ni fallor, sumus
-                    mansurj, nec quicquam adhuc ex <placeName ref="Denmark">Dania</placeName> certj
-                    intelleximus. Nam quotidie tabellarium <persName ref="escillus_1600"
-                        >Æschildum</persName> expectamus. Fratrem autem meum <persName
-                        ref="Brahe, Otte nevø">Otthonem</persName> cum <persName ref="aslakssøn_cort_1564"
-                        >Aslachio</persName> jam domi esse censeam; cum enim hac commigraremus, in
-                        <placeName ref="England">Anglia</placeName> sive <placeName ref="Scotland"
-                        >Scotia</placeName> commorarj acceperamus. Relatum quoque nobis, <persName
-                        ref="thott_tage_1580">Tagonem Tot</persName>
+                <p rend="noIndent">SI prospera fueris valetudine, patrue charissime, est quod
+                    gaudeam. Ego adhuc, Dej beneficio, bene valeo. Immortales tibj habeo gratias pro
+                    omnibus in me collatis beneficiis, inter quæ vel maximum reputandum, quod et <pb
+                        ed="TBOO" n="XIV.205"/>parens charissimus pro sua prudentia et tua
+                    autoritate non minimum confirmatus studiis literarum nos instituere nec ullis
+                    impensis ad tam honestum propositum perficiendum hactenus parcendum censuerit.
+                    Quare si pro corporis et fortunæ bonis ad grates rependendas ipsa natura
+                    ducimur, quid ijs debebimus, qui vel opera sua mentes nostras (quæ, quantum
+                    cælum terræ, tantum corporibus præstent) humanitatis et doctrinæ donis imbuunt,
+                    vel imbuendas pro prudentia ac summo judicio suo effecere? Itaque quod officii
+                    mej erit, gratum me semper tibj præbebo, et mihi gratulabor, cuj talis contigit
+                    patruus, qui virtute, doctrina summorumque operum excellentia non <placeName
+                        ref="Denmark">Daniæ</placeName> aut <placeName ref="Germany"
+                        >Germaniæ</placeName> modo sed <placeName ref="Europe">Europæ</placeName>
+                    fere universæ venerabilis et charus est. Hanc animi mej significationem jam
+                    dudum est quod tibj, charissime patrue, debebam, sed cum de mansione tua nihil
+                    nobis certj constaret, hactenus differre coactus fuj. Nos vero jam ultra
+                    semestre <placeName ref="Herborn">Herbornæ</placeName> vivimus, et ad festum
+                    Michaelis, ni fallor, sumus mansurj, nec quicquam adhuc ex <placeName
+                        ref="Denmark">Dania</placeName> certj intelleximus. Nam quotidie tabellarium
+                        <persName ref="escillus_1600">Æschildum</persName> expectamus. Fratrem autem
+                    meum <persName ref="brahe_otte_1578">Otthonem</persName> cum <persName
+                        ref="aslakssøn_cort_1564">Aslachio</persName> jam domi esse censeam; cum
+                    enim hac commigraremus, in <placeName ref="England">Anglia</placeName> sive
+                        <placeName ref="Scotland">Scotia</placeName> commorarj acceperamus. Relatum
+                    quoque nobis, <persName ref="thott_tage_1580">Tagonem Tot</persName>
                     <placeName ref="Heidelberg">Heidelberge</placeName> litteris operam navare et
                     alios quosdam nobiles Danos, quos jam credo <placeName ref="Geneve"
                         >Genevam</placeName> excurrisse. Ex <placeName ref="Denmark"
-                        >Dania</placeName> rumor hic fuit, <persName ref="Seefeld, Eske">Æschilldum
+                        >Dania</placeName> rumor hic fuit, <persName ref="seefeld_eske_1573">Æschilldum
                         Sefeldium</persName> post celebratas filiæ nuptias subjto vita defunctum, et
-                        <persName ref="rosenkrantz_frederik_1571">Fridericum Rosenkrantium</persName>
-                    caussa cecidisse et infamem pronuntiatum. Sed te diutius fortasse qvam par est
-                    tali garritu detineo. Jtaque te his, patrue charissime, feliciter Deo optimo
-                    maximo commendatum habeo, et amanter peto, ut me cum fratre meo <persName
-                        ref="Brahe, Jørgen nevø">Georgio</persName> et patruelj
-                        <persName ref="Falk">Falchone</persName>, qui hic quoque una mecum literis
-                    incumbunt, diligere porro atque consilio tuo dirigere non dedigneris.</p> <closer><dateline>Datum
-                        <placeName ref="Herborn">Herbornæ Nassoviorum</placeName> 12 maj anno 1600.
-                    T. T.</dateline><signed>Ericus Brahæ Stennonides<lb/> m. pp.</signed></closer>
+                        <persName ref="rosenkrantz_frederik_1571">Fridericum
+                        Rosenkrantium</persName> caussa cecidisse et infamem pronuntiatum. Sed te
+                    diutius fortasse qvam par est tali garritu detineo. Jtaque te his, patrue
+                    charissime, feliciter Deo optimo maximo commendatum habeo, et amanter peto, ut
+                    me cum fratre meo <persName ref="brahe_jorgen_1585">Georgio</persName> et
+                    patruelj <persName ref="brahe_falk_1581">Falchone</persName>, qui hic quoque una mecum
+                    literis incumbunt, diligere porro atque consilio tuo dirigere non
+                    dedigneris.</p>
+                <closer><dateline>Datum <placeName ref="Herborn">Herbornæ Nassoviorum</placeName> 12
+                        maj anno 1600. T. T.</dateline><signed><persName ref="brahe_erik_1580"
+                            >Ericus Brahæ Stennonides</persName><lb/> m. pp.</signed></closer>
             </div>
         </body>
     </text>

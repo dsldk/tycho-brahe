@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Georg von Wolframsdorf</persName>
+                    <persName key="wolframsdorf_georg_1600">Georg von Wolframsdorf</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. maj n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 8. maj n.s.</date><date xml:lang="en">1600, 8 May NS.</date></creation>
             <langUsage>
                 <language ident="de"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,11 +87,11 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.317"/><pb ed="A" n="122v"/>DEM EDELEN, GESTRENGEN VNDT
-                    EHRENUEHSTEN <persName ref="Wolframsdorf">GEORGEN VONN WOLFRAMSDORF</persName>,
+                    EHRENUEHSTEN <persName ref="wolframsdorf_georg_1600">GEORGEN VONN WOLFRAMSDORF</persName>,
                     ERBSESSEN VFF VOLLMERSHAIN ETC., FURSTLICHEN SECHSISCHEN CAMMER IUNGKHERN ZUE
                     <placeName ref="Torgau">TORGAW</placeName>, MEINEM INNSONDERS GUNSTIGEN VNDT GUETEN FREUNDT.</opener>
 
-                <p><pb ed="A" n="122r"/>EDLER, Gestrenger, Ehrenuehster Innsonders gönstiger vndt
+                <p rend="noIndent"><pb ed="A" n="122r"/>EDLER, Gestrenger, Ehrenuehster Innsonders gönstiger vndt
                     guetter Freundt, Dem Herrn sein meme willige geflissene dienste hier wiederumb
                     nach Vermögen zuuor. Vndt wann es demselben glücklich vndt wohl ergienge, wehre es mihr gantz lieb
                     vndt angenehm zuerfahren. Dess Herrn an mich gethanes schreiben,
@@ -117,11 +118,9 @@
                     gesandten der deutschen Fürsten alda Vermuthen. Diss habe ich also dem herrn vff
                     sein schreiben wiederumb zuerkennen geben wollen. Vndt thue vns hiermitt
                     sambtlichen dem Allmechtigen Gott inn seinen Vätterlichen Schutz vndt beschirmung
-                    trewlich befehlen. <foreign xml:lang="la"><hi rend="it">Datum</hi></foreign> vff
+                    trewlich befehlen. </p> <closer><dateline><foreign xml:lang="la"><hi rend="it">Datum</hi></foreign> vff
                     dem Kayss. <placeName ref="Benatky">Schloss Benatky</placeName> den 8 <foreign
-                        xml:lang="la"><hi rend="it">Maij Anno</hi></foreign> 1600.</p>
-                <lb/>
-                <p rend="rightMargin">D. H.<lb/>Allzeitt Dienstwilliger </p>
+                        xml:lang="la"><hi rend="it">Maij Anno</hi></foreign> 1600.</dateline> <signed>D. H.<lb/>Allzeitt Dienstwilliger</signed></closer>
             </div>
         </body>
     </text>

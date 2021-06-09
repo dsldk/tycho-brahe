@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,8 +58,9 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Vitus Winshemius</persName>
-                    <placeName xml:lang="da">Hamborg</placeName><placeName xml:lang="en">Hamburg</placeName>
+                    <persName key="winsheim_veit_1521">Vitus Winshemius</persName>
+                    <placeName xml:lang="da">Hamborg</placeName>
+                    <placeName xml:lang="en">Hamburg</placeName>
                     <date when="1600-08-13"/>
                 </correspAction>
                 <correspAction type="received">
@@ -63,7 +68,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 13. august</date></creation>
+            <creation><date xml:lang="da">1600, 13. august.</date><date xml:lang="en">1600, 13
+                    August.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +84,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-27" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,49 +93,61 @@
             <div>
                 <opener><pb ed="TBOO" n="VIII.339"/><pb ed="A" n="70v"/>ILLUSTRI, GENEROSO ET
                     MAGNIFICO VIRO, MAIORUM INSIGNIBUS, VERA VIRTUTE ET DOCTRINA MULTIPLICI
-                    PRÆLUSTRI DOMINO TYCHONI A BRAHE IN BENATIA ET KNUTHSTORFFP EQUITI DANICO,
-                    SERENISSIMÆ MAIESTATIS IMPERATORIÆ ET CONSILIARIO ET DOMINO SUO PERPETUA
-                    OBSERVANTIA COLENDO.<lb/>AD MANUS G<hi rend="sup">Æ</hi> M<hi rend="sup">Æ</hi>
-                    IPSIUS PROPRIAS.</opener>
+                    PRÆLUSTRI DOMINO <persName ref="brahe_tycho_1546">TYCHONI A BRAHE</persName> IN
+                    BENATIA ET KNUTHSTORFFP EQUITI DANICO, SERENISSIMÆ MAIESTATIS IMPERATORIÆ ET
+                    CONSILIARIO ET DOMINO SUO PERPETUA OBSERVANTIA COLENDO.<lb/>AD MANUS G<hi
+                        rend="sup">Æ</hi> M<hi rend="sup">Æ</hi> IPSIUS PROPRIAS.</opener>
 
-                <p><pb ed="A" n="69r"/>ILLUSTRIS, Magnifice et Generose Domine TYCHO, omni cum
-                    observantia perpetuo mihi colende Domine: Literæ G<hi rend="sup">æ</hi> M<hi
-                        rend="sup">æ</hi> V<hi rend="sup">æ</hi> scriptæ <placeName ref="Praha"
+                <p rend="noIndent"><pb ed="A" n="69r"/>ILLUSTRIS, Magnifice et Generose Domine
+                        <persName ref="brahe_tycho_1546">TYCHO</persName>, omni cum observantia
+                    perpetuo mihi colende Domine: Literæ G<hi rend="sup">æ</hi> M<hi rend="sup"
+                        >æ</hi> V<hi rend="sup">æ</hi> scriptæ <placeName ref="Praha"
                         >Pragæ</placeName> 6<hi rend="sup">a</hi> Augusti stylo novo, redditæ mihi
-                    sunt 10<hi rend="sup">a</hi> Augusti stylo veteri, cum reverterer illo ipso tempore ex Comitijs
-                    Iuridicis, habitis apud <placeName ref="Dithmarschen">Dithmarsos</placeName>, ubi per septimanas tres hæseram, evocatus eo
-                    ab Inclyto <persName ref="christian_4_1577">Rege</persName> nostro <placeName ref="Denmark">Daniæ</placeName>. Ago autem
-                    primo omnium serio pectore gratias Deo opt. Max. quod Gen. M<hi rend="sup"
-                        >m</hi> V<hi rend="sup">m</hi> cum omni familia hactenus sospitem et salvam
-                    clementer tutatus fuerit, eundemque precor, ut quam diutissime illam florentem
-                    servet.</p>
-                <p rend="indent">Cœterum Illustrissimo Principi <persName ref="otto_harburg_1528">OTTHONI</persName>, Duci Brunsvicensium et
-                    Lunæburgensium, ea quæ mihi commisit G<hi rend="sup">a</hi> Μ V<hi rend="sup">a</hi>, suo nomine debita cum
+                    sunt 10<hi rend="sup">a</hi> Augusti stylo veteri, cum reverterer illo ipso
+                    tempore ex Comitijs Iuridicis, habitis apud <placeName ref="Dithmarschen"
+                        >Dithmarsos</placeName>, ubi per septimanas tres hæseram, evocatus eo ab
+                    Inclyto <persName ref="christian_4_1577">Rege</persName> nostro <placeName
+                        ref="Denmark">Daniæ</placeName>. Ago autem primo omnium serio pectore
+                    gratias Deo opt. Max. quod Gen. M<hi rend="sup">m</hi> V<hi rend="sup">m</hi>
+                    cum omni familia hactenus sospitem et salvam clementer tutatus fuerit, eundemque
+                    precor, ut quam diutissime illam florentem servet.</p>
+                <p rend="indent">Cœterum Illustrissimo Principi <persName ref="otto_harburg_1528"
+                        >OTTHONI</persName>, Duci Brunsvicensium et Lunæburgensium, ea quæ mihi
+                    commisit G<hi rend="sup">a</hi> Μ V<hi rend="sup">a</hi>, suo nomine debita cum
                     submissione retuli: is quid ad eam rescribi per me voluerit, ex Cels. eius
                     autographo ad me misso, hisce nostris inserto, intelliget.</p>
-                <p rend="indent">De congressu <placeName ref="Emden">Embdæ</placeName> indicto subitoque iterum discessu Legatorum
-                    <placeName ref="Denmark">Danicorum</placeName> et <placeName ref="England">Anglicorum</placeName>, quæ scripseram, hæc ita vere se habent. Verum ex eo ad
-                    me relatum est, <placeName ref="England">Anglos</placeName> in <placeName ref="Denmark">Daniam</placeName> usque
-                    sequutos <persName ref="christian_4_1577">Regem</persName> nostrum, ibique negotium omne probe compositum et sopitum esse.
-                    <persName ref="christian_4_1577">Rex</persName> ipse noster hoc tempore in <placeName ref="Jylland">Iutiam</placeName> cum <persName ref="anna_kathrina_1575">Regina Coniuge</persName> excurrisse fertur ad
-                    venationes, cuius quoque adventus momentaneus forte <placeName ref="Krempe">Crempæ</placeName> in vicinia
-                    expectatur. De emissis 50 navibus nihil hîc accepimus, certo quod communicari G<hi rend="sup">æ</hi> M<hi rend="sup">æ</hi>
+                <p rend="indent">De congressu <placeName ref="Emden">Embdæ</placeName> indicto
+                    subitoque iterum discessu Legatorum <placeName ref="Denmark"
+                        >Danicorum</placeName> et <placeName ref="England">Anglicorum</placeName>,
+                    quæ scripseram, hæc ita vere se habent. Verum ex eo ad me relatum est,
+                        <placeName ref="England">Anglos</placeName> in <placeName ref="Denmark"
+                        >Daniam</placeName> usque sequutos <persName ref="christian_4_1577"
+                        >Regem</persName> nostrum, ibique negotium omne probe compositum et sopitum
+                    esse. <persName ref="christian_4_1577">Rex</persName> ipse noster hoc tempore in
+                        <placeName ref="Jylland">Iutiam</placeName> cum <persName
+                        ref="anna_kathrina_1575">Regina Coniuge</persName> excurrisse fertur ad
+                    venationes, cuius quoque adventus momentaneus forte <placeName ref="Krempe"
+                        >Crempæ</placeName> in vicinia expectatur. De emissis 50 navibus nihil hîc
+                    accepimus, certo quod communicari G<hi rend="sup">æ</hi> M<hi rend="sup">æ</hi>
                         V<hi rend="sup">æ</hi> possit.</p>
-                <p rend="indent"><pb ed="TBOO" n="VIII.340"/><persName ref="rosenkrantz_frederik_1571">FREDERICO ROSENCRANZIO</persName> fœliciorem iam
-                    auram aspirare profecto lætor, et ubi occasionem scribendi nactus fuero, <pb
-                        ed="A" n="69v"/><persName ref="rosenkrantz_holger_1574">OLIGERUM</persName> de
-                    præsenti hominis fortuna hilariori certiorem reddam. Domino <persName ref="rumpf_wolfgang_1535">RUMPIO</persName> et Domino
-                    <persName ref="coraduz_rudolf_1618">CORADUCIO</persName>, Viris honoratissimis, G. M. V<hi rend="sup">a</hi>
-                    officia mea ut submissa, data occasione, deferat, reverenter oro. G<hi
-                        rend="sup">m</hi> M<hi rend="sup">m</hi> V<hi rend="sup">m</hi> Dominus
-                    <persName ref="moller_vincent_1560">VINCENTIUS MÖLLERUS</persName> Consul quoque officiose resalutat. Valeat quam optime G<hi rend="sup">a</hi> M<hi rend="sup">a</hi>
-                    V<hi rend="sup">a</hi> omni cum familia, cui me totum dedo. Datæ raptim <placeName ref="Hamburg">Hamburgæ</placeName> 13<hi rend="sup">a</hi> Augusti Anno
-                    1600.</p>
-                <p/>
-                <lb/>
-                <p rend="rightMargin">G<hi rend="sup">m</hi> M<hi rend="sup">m</hi> V<hi rend="sup"
-                        >m</hi> omni cum observantia<lb/>qui colit<lb/>VITUS WINSHEMIUS,<lb/>m.
-                    p.</p>
+                <p rend="indent"><pb ed="TBOO" n="VIII.340"/><persName
+                        ref="rosenkrantz_frederik_1571">FREDERICO ROSENCRANZIO</persName> fœliciorem
+                    iam auram aspirare profecto lætor, et ubi occasionem scribendi nactus fuero, <pb
+                        ed="A" n="69v"/><persName ref="rosenkrantz_holger_1574">OLIGERUM</persName>
+                    de præsenti hominis fortuna hilariori certiorem reddam. Domino <persName
+                        ref="rumpf_wolfgang_1535">RUMPIO</persName> et Domino <persName
+                        ref="coraduz_rudolf_1618">CORADUCIO</persName>, Viris honoratissimis, G. M.
+                        V<hi rend="sup">a</hi> officia mea ut submissa, data occasione, deferat,
+                    reverenter oro. G<hi rend="sup">m</hi> M<hi rend="sup">m</hi> V<hi rend="sup"
+                        >m</hi> Dominus <persName ref="moller_vincent_1560">VINCENTIUS
+                        MÖLLERUS</persName> Consul quoque officiose resalutat. Valeat quam optime
+                        G<hi rend="sup">a</hi> M<hi rend="sup">a</hi> V<hi rend="sup">a</hi> omni
+                    cum familia, cui me totum dedo. </p>
+                <closer><dateline>Datæ raptim <placeName ref="Hamburg">Hamburgæ</placeName> 13<hi
+                            rend="sup">a</hi> Augusti Anno 1600.</dateline>
+                    <signed>G<hi rend="sup">m</hi> M<hi rend="sup">m</hi> V<hi rend="sup">m</hi>
+                        omni cum observantia<lb/>qui colit<lb/><persName ref="winsheim_veit_1521"
+                            >VITUS WINSHEMIUS</persName>,<lb/>m. p.</signed></closer>
             </div>
         </body>
     </text>

@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -60,11 +64,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Georg Rollenhagen</persName>
+                    <persName key="rollenhagen_georg_1542">Georg Rollenhagen</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 5. april n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 5. april n.s.</date><date xml:lang="en">1600, 5
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,45 +84,48 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-15" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.293"/>TYCHO BRAHE AD <persName ref="rollenhagen_georg_1542"
-                        >GEORGIUM ROLLENHAGIUM</persName>.</opener>
-                <p><pb ed="A" n="99r"/>S. P.</p>
-                <p>QUAS die 23 Februarij huius Anni stylo vestro ad me dedisti literas, Eruditissime
-                    et amantissime Domine <persName ref="rollenhagen_georg_1542">ROLLENHAGI</persName>, eæ mihi
-                    redditæ sunt, cum nuper <placeName ref="Praha">Pragæ</placeName> essem, unâ cum
-                    alijs quibusdam in fine Augusti superioris Anni pariter a te mihi scriptis;
-                    aderant quoque aliæ ad Doctorem <persName ref="rhodius_ambrosius_1577">RHODIUM</persName>, quas
-                    statim in ipsius hospitium misi, sed ipse peregre aberat; polliciti nihilominus
-                    sunt inquilini eas recte procuraturos. Ad priores mihi destinatas nihil nunc
-                    respondeo, siquidem earum præcipua contenta repetuntur in posterioribus, ad quas
-                    sic habe.</p>
+                <opener><pb ed="TBOO" n="VIII.293"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="rollenhagen_georg_1542">GEORGIUM
+                        ROLLENHAGIUM</persName>.</opener>
+                <p rend="indent"><pb ed="A" n="99r"/>S. P.</p>
+                <p rend="noIndent">QUAS die 23 Februarij huius Anni stylo vestro ad me dedisti
+                    literas, Eruditissime et amantissime Domine <persName
+                        ref="rollenhagen_georg_1542">ROLLENHAGI</persName>, eæ mihi redditæ sunt,
+                    cum nuper <placeName ref="Praha">Pragæ</placeName> essem, unâ cum alijs
+                    quibusdam in fine Augusti superioris Anni pariter a te mihi scriptis; aderant
+                    quoque aliæ ad Doctorem <persName ref="rhodius_ambrosius_1577"
+                        >RHODIUM</persName>, quas statim in ipsius hospitium misi, sed ipse peregre
+                    aberat; polliciti nihilominus sunt inquilini eas recte procuraturos. Ad priores
+                    mihi destinatas nihil nunc respondeo, siquidem earum præcipua contenta
+                    repetuntur in posterioribus, ad quas sic habe.</p>
                 <p rend="indent">Civem illum <placeName ref="Hamburg">Hamburgensem</placeName>,
                     quantum potui, per meos homines, qui tunc in Aulam abituri erant, iuvi, tam tuâ,
-                    quam Domini Doctoris <persName ref="winsheim_veit_1521">VITI</persName> de caussa, sed
-                    lente isthic omnia, uti scis, et difficulter procedunt ob negotiorum
+                    quam Domini Doctoris <persName ref="winsheim_veit_1521">VITI</persName> de
+                    caussa, sed lente isthic omnia, uti scis, et difficulter procedunt ob negotiorum
                     multitudinem.</p>
                 <p rend="indent">Pro supellectile meâ huc advehenda, non opus est, ut amplius
                     sollicites apud Senatum vestrum. Cum enim <persName ref="rudolf_2_1552">Cæs<hi
                             rend="sup">a</hi> Ma<hi rend="sup">tas</hi></persName>, Dominus noster
-                    Clementissimus, a Domino <persName ref="barvitius_johann_anton_1555">BARVITIO</persName> rescivisset
-                    (me tamen id non cupiente, sed aliquantulum adhuc temporis Magistratui vestro
-                    rem <pb ed="TBOO" n="VIII.294"/>rectius dispiciendi, uti me facturum ad te
-                    scripsi, relinquente) <placeName ref="Magdeburg">Magdæburgenses</placeName>,
-                    quos bis per literas hac de re clementissime compellavit, officium illud
-                    detrectasse, invite id ipsum tulit, et statim ad Reverendum Capitulum vestrum de
-                    hoc eodem negotio perscribi iussit, quas literas nunc eo per quendam ex meis
-                    studiosis natione Danum mitto. Exemplum earum hîc adiunctum habes, nec dubito,
-                    quin Reverendum Capitulum, cui ego etiam scripsi, in gratiam <persName
-                        ref="rudolf_2_1552">Cæs<hi rend="sup">æ</hi> Ma<hi rend="sup"
-                        >tis</hi></persName> effecturum, ut Instrumenta mea et omnes res isthic
-                    relictæ huc per Albim suis sumptibus, quamprimum fieri poterit, adferantur. <pb
-                        ed="A" n="99v"/>Confido etiam illud de asseribus <app>
+                    Clementissimus, a Domino <persName ref="barvitius_johann_anton_1555"
+                        >BARVITIO</persName> rescivisset (me tamen id non cupiente, sed aliquantulum
+                    adhuc temporis Magistratui vestro rem <pb ed="TBOO" n="VIII.294"/>rectius
+                    dispiciendi, uti me facturum ad te scripsi, relinquente) <placeName
+                        ref="Magdeburg">Magdæburgenses</placeName>, quos bis per literas hac de re
+                    clementissime compellavit, officium illud detrectasse, invite id ipsum tulit, et
+                    statim ad Reverendum Capitulum vestrum de hoc eodem negotio perscribi iussit,
+                    quas literas nunc eo per quendam ex meis studiosis natione Danum mitto. Exemplum
+                    earum hîc adiunctum habes, nec dubito, quin Reverendum Capitulum, cui ego etiam
+                    scripsi, in gratiam <persName ref="rudolf_2_1552">Cæs<hi rend="sup">æ</hi> Ma<hi
+                            rend="sup">tis</hi></persName> effecturum, ut Instrumenta mea et omnes
+                    res isthic relictæ huc per Albim suis sumptibus, quamprimum fieri poterit,
+                    adferantur. <pb ed="A" n="99v"/>Confido etiam illud de asseribus <app>
                         <lem wit="#TBOO">prospecturum</lem>
                         <rdg wit="#A">prospecturos</rdg>
                     </app>, quibus ea omnia ab iniuria aëris et pluviarum muniantur, quos Nautæ
@@ -142,49 +150,50 @@
                     si quid pro me exposueris, vel fidem interposueris.</p>
                 <p rend="indent">Polliceris in ultimis, te reliquis scriptorum meorum postulatis per
                     primum quemque Tabellarium responsurum, quod ut brevi facias, rogo. <persName
-                        ref="rothmann_christopher_1550">ROTHMANNO</persName> quod ulterius scribam, non habeo,
-                    siquidem is meis benevole et humaniter ad ipsum datis <pb ed="A" n="100r"
-                    />quippiam respondere gravatus est, et videtur is ita morosus atque impatiens
-                    esse, ut vix seipsum ferre queat, necdum alios. Quæ de me in suis ad te literis
-                    conqueritur, facile replicare possem, sed nolo cum homine, uti recte ais,
-                    impatientissimo et sibi ipsi præ animi impotentia vix constante contendere, aut
-                    quidpiam commertij habere. Si ipsemet sibi deesse vult, quomodo ego eum tueri
-                    aut iuvare potero, quin potius propria agam, neglectis alienis. Si existimat
-                    eius Epistolas non candide et ingenue esse a me editas, habet proculdubio
-                    exemplaria, monstret, quo hîc loco adulteratæ sint, aut pudeat ipsum de mea
-                    integritate tale quid citra occasionem suspicari. De confessione eius mihi
-                    iudicium non sumam, neque enim eam ob prolixitatem sufficienter introspicere meæ
-                    occupationes <pb ed="TBOO" n="VIII.295"/>hactenus permiserunt, neque ego me
-                    Theologicis disputationibus libenter immisceo, ut mirer eum meam censuram in
-                    talibus tam sæpe tamque serio exposcere, quæ ad ea studia, quæ prius inter nos
-                    ventilata sunt, non pertinent. Duriusculum mihi videtur, quod ab initio asserit
-                    et definit, Deum nos per sacramenta salvos facere. Id sane indiget bona glossa
-                    et interpretatione sobria, si idolatriæ suspicio abesse debet, ad quam plurimi
-                    cæteroquin homines iam dudum hac præsertim in re (proch dolor) admodum proclives
-                    sunt. Quin et multa sunt præterea in eodem scripto, tam de Baptismo quam de
-                    cæna, quæ non ita invicte demonstravit, atque existimat. Sed viderit ipse et
-                    alij, si quos habet, suæ sententiæ astipulatores; meum non est tantas componere
-                    lites. Deus liberet <persName ref="rothmann_christopher_1550">ROTHMANNUM</persName> ab ijs,
-                    quibuscum conflictatur, miserijs, et det illi patientiam atque constantiam. Ego
-                    si illi adessem, ipsius paupertati, quantum res meæ ferrent, non defuturus
-                    essem, quemadmodum etiam antea, quando in <placeName ref="Denmark"
-                        >Dania</placeName> mecum fuit, ipsum non inanem demisi, sed aliquot Roseis
-                    nobilibus, pro quibus mihi tamen vix gratias agere dignatus est (adeo tunc erat
-                    insolens) donavi, cum tamen <pb ed="A" n="100v"/>ipsius olim <persName
-                        ref="wilhelm_4_1532">Princeps</persName> me longe ditior meos
-                    homines, quos aliquando ad ipsum misi, ne obulo quidem, nec etiam eos interea
-                    aluerit, quemadmodum ego per 5 vel 6 hebdomadas <persName ref="rothmann_christopher_1550"
-                        >ROTHMANNUM</persName>, cum in <placeName ref="Denmark">Dania</placeName>
-                    esset. Sed ista nihil ad rhombum, [ne]que ea, quæ parvi [no]n duco momen[ti]. De
-                    fratre eius <persName ref="rothmann_johann_1578">IOHANNE</persName>, qui Doctor
-                    medicinæ est, cuperem scire, an is adhuc in vivis sit; si sic, optarem, ut me
-                    aliquando accederet; erit id illi forte non inutile.</p>
+                        ref="rothmann_christopher_1550">ROTHMANNO</persName> quod ulterius scribam,
+                    non habeo, siquidem is meis benevole et humaniter ad ipsum datis <pb ed="A"
+                        n="100r"/>quippiam respondere gravatus est, et videtur is ita morosus atque
+                    impatiens esse, ut vix seipsum ferre queat, necdum alios. Quæ de me in suis ad
+                    te literis conqueritur, facile replicare possem, sed nolo cum homine, uti recte
+                    ais, impatientissimo et sibi ipsi præ animi impotentia vix constante contendere,
+                    aut quidpiam commertij habere. Si ipsemet sibi deesse vult, quomodo ego eum
+                    tueri aut iuvare potero, quin potius propria agam, neglectis alienis. Si
+                    existimat eius Epistolas non candide et ingenue esse a me editas, habet
+                    proculdubio exemplaria, monstret, quo hîc loco adulteratæ sint, aut pudeat ipsum
+                    de mea integritate tale quid citra occasionem suspicari. De confessione eius
+                    mihi iudicium non sumam, neque enim eam ob prolixitatem sufficienter
+                    introspicere meæ occupationes <pb ed="TBOO" n="VIII.295"/>hactenus permiserunt,
+                    neque ego me Theologicis disputationibus libenter immisceo, ut mirer eum meam
+                    censuram in talibus tam sæpe tamque serio exposcere, quæ ad ea studia, quæ prius
+                    inter nos ventilata sunt, non pertinent. Duriusculum mihi videtur, quod ab
+                    initio asserit et definit, Deum nos per sacramenta salvos facere. Id sane
+                    indiget bona glossa et interpretatione sobria, si idolatriæ suspicio abesse
+                    debet, ad quam plurimi cæteroquin homines iam dudum hac præsertim in re (proch
+                    dolor) admodum proclives sunt. Quin et multa sunt præterea in eodem scripto, tam
+                    de Baptismo quam de cæna, quæ non ita invicte demonstravit, atque existimat. Sed
+                    viderit ipse et alij, si quos habet, suæ sententiæ astipulatores; meum non est
+                    tantas componere lites. Deus liberet <persName ref="rothmann_christopher_1550"
+                        >ROTHMANNUM</persName> ab ijs, quibuscum conflictatur, miserijs, et det illi
+                    patientiam atque constantiam. Ego si illi adessem, ipsius paupertati, quantum
+                    res meæ ferrent, non defuturus essem, quemadmodum etiam antea, quando in
+                        <placeName ref="Denmark">Dania</placeName> mecum fuit, ipsum non inanem
+                    demisi, sed aliquot Roseis nobilibus, pro quibus mihi tamen vix gratias agere
+                    dignatus est (adeo tunc erat insolens) donavi, cum tamen <pb ed="A" n="100v"
+                    />ipsius olim <persName ref="wilhelm_4_1532">Princeps</persName> me longe ditior
+                    meos homines, quos aliquando ad ipsum misi, ne obulo quidem, nec etiam eos
+                    interea aluerit, quemadmodum ego per 5 vel 6 hebdomadas <persName
+                        ref="rothmann_christopher_1550">ROTHMANNUM</persName>, cum in <placeName
+                        ref="Denmark">Dania</placeName> esset. Sed ista nihil ad rhombum, [ne]que
+                    ea, quæ parvi [no]n duco momen[ti]. De fratre eius <persName
+                        ref="rothmann_johann_1578">IOHANNE</persName>, qui Doctor medicinæ est,
+                    cuperem scire, an is adhuc in vivis sit; si sic, optarem, ut me aliquando
+                    accederet; erit id illi forte non inutile.</p>
                 <p rend="indent">Intellexi nuper, esse quendam in <app>
                         <lem wit="#TBOO">ditione</lem>
                         <rdg wit="#A">ditioni</rdg>
                     </app>
                     <placeName ref="Braunschweig">Brunsvicensi</placeName> nomine <persName
-                        ref="Krabbe, Johannes">IOHANNEM KRABBEN</persName>, de <placeName
+                        ref="krabbe_johannes_1553">IOHANNEM KRABBEN</persName>, de <placeName
                         ref="Münden">Munden</placeName>, quem præteritorum aliquot annorum Eclipses
                     in utroque Luminari diligenter observasse aiunt; si itaque ea, quæ is circa has
                     explorata habet, mihi procuraveris, rem apprime gratam præstiteris. Sed non <app>
@@ -200,9 +209,10 @@
                     observationum fide certus esse non possim, nisi compertum habuero, qua ratione,
                     uti dixi, acceptæ sint.</p>
                 <p rend="indent">Apud Cancellarium vestrum ea, de quibus antea [ad] te perscripsi,
-                    spero te effecturum, quo desiderijs nostris mature satisfiat. Vale. Dabantur ex
-                        <placeName ref="Benatky">Arce Cæsareana Benatica</placeName> Die 5 Aprilis
-                    Anno 1600.</p>
+                    spero te effecturum, quo desiderijs nostris mature satisfiat.</p>
+                <closer><salute>Vale.</salute>
+                    <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareana
+                            Benatica</placeName> Die 5 Aprilis Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

@@ -59,11 +59,11 @@
                     <date when="1600-05-16"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Jacob Monavius</persName>
+                    <persName key="monau_jacob_1546">Jacob Monavius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 16. maj</date></creation>
+            <creation><date xml:lang="da">1600, 16. maj.</date><date xml:lang="en">1600, 16 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-21" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,8 +90,8 @@
                     PATRITIO <placeName ref="Wrosław">VRATISLAVIENSI</placeName>, ILLUSTRIS DUCIS <placeName ref="Schlesien">SILESIÆ</placeName> CONSILIARIO DIGNISSIMO, AMICO
                     SUO INPRIMIS HONORANDO.</opener>
 
-                <p><pb ed="A" n="128r"/>S. P.</p>
-                <p>QUAS circa Martij medietatem ad me dedisti literas, Excellentiss. Domine
+                <p rend="indent"><pb ed="A" n="128r"/>S. P.</p>
+                <p rend="noIndent">QUAS circa Martij medietatem ad me dedisti literas, Excellentiss. Domine
                         <persName ref="monau_jacob_1546">MONAVI</persName>, amice inprimis honorande, eas
                     nuper accepi, cum autem non suppeteret certus tabellarius, responsionem hucusque
                     distuli, quam etiam nunc accurtare cogor, siquidem plurimis alijs distrahar
@@ -108,7 +109,7 @@
                 <p rend="indent">Libros <persName ref="wittich_paul_1546">Witichianos</persName> me iam
                     facilius obtenturum existimo, quam dum tenax et difficilis eius soror vixit. Non
                     tamen omnes cuperem, sed solummodo eos, quos in apposita scheda ex relatione
-                    veteris mei domestici, M. <persName ref="Longomiontanus">CHRISTIERNI
+                    veteris mei domestici, M. <persName ref="longomontanus_christen_sorensen_1562">CHRISTIERNI
                         LONGOMONTANI</persName>, tibi noti, qui mecum nunc est, denotavi. Si tamen
                     separatim inde nihil relicti pupilli tutores divendere voluerint, me de iusto
                     omnium precio certiorem redde, aut, si fieri possit, solummodo <pb ed="A"
@@ -122,8 +123,8 @@
                     supersunt, ab hæredibus illius, qui aliquando apud vos fuisse dicitur, Astronomi
                     impetrandis, quas velim illi tradi, et responsum mature urgeri.</p>
                 <p rend="indent">Cum ante paucos dies hîc mecum fuisset Generosus Baro <persName
-                        ref="Warteberg">CAROLUS de WARTEBERG</persName>, catalogum librorum totius
-                    Bibliothecæ optimæ recordationis Domini <persName ref="Dutith">ANDREÆ
+                        ref="wartenberg_karl_1600">CAROLUS de WARTEBERG</persName>, catalogum librorum totius
+                    Bibliothecæ optimæ recordationis Domini <persName ref="dudith_andreas_1533">ANDREÆ
                         DUDITHIJ</persName> mihi inspiciendum dedit, qui etiamnum penes me est, illi
                     restituendus, cum instantibus diebus festis eum, prout ab eo rogatus promisi, in
                     sua arce 7 mili<pb ed="TBOO" n="VIII.321"/>aribus hinc distante D. V. invisero.
@@ -146,9 +147,9 @@
                         >Embdæ</placeName> conveniunt, res magni momenti invicem tractaturi, de
                     quibus si inter eos non convenerit, periculum est, ne dissensio illa bellum
                     pariat, quod tamen Deus avertat, cui te tuaque omnia commendo, in quo etiam
-                    sanus vale et vive cum omnibus. Dabantur <placeName ref="Benatky"
-                        >Benaticæ</placeName> 16 Maij A. 1600.</p>
-            </div>
+                    sanus vale et vive cum omnibus.</p> <closer><dateline>Dabantur <placeName ref="Benatky"
+                        >Benaticæ</placeName> 16 Maij A. 1600.
+            </dateline></closer></div>
         </body>
     </text>
 </TEI>

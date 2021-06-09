@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Christian Sørensen Longomontanus</persName>
+                    <persName key="longomontanus_christen_sorensen_1562">Christian Sørensen Longomontanus</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 4. august n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 4. august n.s.</date><date xml:lang="en">1600, 4 August NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,16 +79,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-27" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.335"/>TYCHO BRAHE AD <persName ref="longomontanus_christen_sorensen_1562"
+                <opener><pb ed="TBOO" n="VIII.335"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="longomontanus_christen_sorensen_1562"
                         >CHRISTIANUM LONGOMONTANUM</persName>.</opener>
 
-                <p><pb ed="A" n="1r"/>EGO TYCHO BRAHE de Knudstrup, ex <placeName ref="Denmark"
+                <p rend="noIndent"><pb ed="A" n="1r"/>EGO <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> de Knudstrup, ex <placeName ref="Denmark"
                         >Dania</placeName> oriundus, Sacræ <persName ref="rudolf_2_1552">Cæs.
                         Mai.</persName>
                     <placeName ref="Benatky">arcem Benaticam</placeName> in Regno <placeName
@@ -109,11 +110,9 @@
                         <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM</persName> sibi diligenter
                     commendatum habeant, atque ad optima quæque ipsum promovere non degraventur:
                     invenient me vicissim ad quævis officia rursum in eorum gratiam, quantum per me
-                    licuerit, præstanda quam paratissimum. Dabantur <placeName ref="Praha"
+                    licuerit, præstanda quam paratissimum.</p> <closer><dateline>Dabantur <placeName ref="Praha"
                         >Pragæ</placeName> in metropoli <placeName ref="Bohemia">Bohemiæ</placeName>
-                    die 4 Augusti stilo novo Anno Christi vulgari 1600.</p>
-                <lb/>
-                <p rend="rightMargin"><lb/>TYCHO BRAHE,<lb/>manu propria.</p>
+                    die 4 Augusti stilo novo Anno Christi vulgari 1600.</dateline> <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed></closer>
             </div>
         </body>
     </text>

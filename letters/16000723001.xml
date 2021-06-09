@@ -78,11 +78,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Joseph Justus Scaliger</persName>
+                    <persName key="scaliger_joseph_justus_1540">Joseph Justus Scaliger</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 23. juli n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 23. juli n.s.</date><date xml:lang="en">1600, 23 July NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -97,17 +97,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-24" who="#pz">Filen etableret</change>
+            <change when="2019-06-09" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.328"/><pb ed="A" n="52v"/>TYCHO BRAHE AD <persName
-                        ref="scaliger_joseph_justus_1540">IOSEPHUM SCALIGERUM</persName>.</opener>
-                <p>ILLUSTRIS ET GENEROSE VIR DOMINE ET AMICE HONORANDISSIME.</p>
+                <opener><pb ed="TBOO" n="VIII.328"/><pb ed="A" n="52v"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
+                        ref="scaliger_joseph_justus_1540">IOSEPHUM SCALIGERUM</persName>.
+                <salute>ILLUSTRIS ET GENEROSE VIR DOMINE ET AMICE HONORANDISSIME.</salute></opener>
 
-                <p>ELAPSÆ sunt septimanæ, ni fallor, sex, ex quo in <placeName ref="Benatky">arce
+                <p rend="noIndent">ELAPSÆ sunt septimanæ, ni fallor, sex, ex quo in <placeName ref="Benatky">arce
                         Cæsarea Bennaticha</placeName>, ubi nunc sedes est habitationis meæ,
                     Illustris Dominationis tuæ literas acceperim VI Eid. Martias <placeName
                         ref="Leiden">Lugduni Batavorum</placeName> scriptas, easque non saltem
@@ -123,7 +124,7 @@
                         <rdg wit="#A">ætas</rdg>
                     </app> de quibusdam ad studia quæ tracto pertinentibus clementissime mecum loqui
                     dignabatur (prout semel atque iterum affatim factum est) accidit, quod ante
-                    biduum Nobilis et eruditus hic Adolescens <persName ref="Suckerback">NICOLAUS
+                    biduum Nobilis et eruditus hic Adolescens <persName ref="suckerback_nicolaus_1600">NICOLAUS
                         SUCKERBACK</persName> de
                     Myssen<!-- NB er dette et navn? Han er vel ikke fra Meissen når han er hollænder ... -->
                     noviter ex <placeName ref="Italy">Italia</placeName> veniens me in aula inter
@@ -196,17 +197,14 @@
                         <lem wit="#TBOO">meque</lem>
                         <rdg wit="#A">meoque</rdg>
                     </app> favore suo prosequi pergat, ac per internuncij oportunitatem suis
-                    cultissimis literis invisere <pb ed="A" n="53v"/>non intermittat, quæso. Vale.
-                    Dabantur <placeName ref="Praha">Pragæ</placeName> Bohemorum die 23 Iulij stylo
-                    novo Anno Epochæ Christianæ Dionysiacæ et vulgatæ 1600.</p>
-                <lb/>
-                <p rend="rightMargin">Illustris Dominationis tuæ<lb/>studiosissimus<lb/>TYCHO
-                    BRAHE,<lb/>manu propria scripsi.</p>
-                <lb/>
-                <p><pb ed="TBOO" n="VIII.330"/>Cum has literas ante 6 fere septimanæ ad te
+                    cultissimis literis invisere <pb ed="A" n="53v"/>non intermittat, quæso.</p> <closer><salute>Vale.</salute>
+                    <dateline>Dabantur <placeName ref="Praha">Pragæ</placeName> Bohemorum die 23 Iulij stylo
+                    novo Anno Epochæ Christianæ Dionysiacæ et vulgatæ 1600.</dateline> <signed>Illustris Dominationis tuæ<lb/>studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO
+                    BRAHE</persName>,<lb/>manu propria scripsi.</signed></closer>
+               <postscript> <p><pb ed="TBOO" n="VIII.330"/>Cum has literas ante 6 fere septimanæ ad te
                     exarassem, discesserat Batavus ille, qui eas tibi traditurus erat, una vel
                     altera hora citius quam existimassem, ideoque eas huc usque mecum reservare
-                    oportuit, donec alia sese offerret occasio eas ad te dirigendi. </p>
+                    oportuit, donec alia sese offerret occasio eas ad te dirigendi. </p></postscript>
             </div>
         </body>
     </text>
