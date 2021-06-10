@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10702</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10702</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johannes Kepler</persName>
+                    <persName key="kepler_johannes_1571">Johannes Kepler</persName>
                     <placeName>s.l.</placeName>
                     <date when="1600-10-17"/>
                 </correspAction>
@@ -63,7 +72,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 17. oktober</date></creation>
+            <creation><date xml:lang="da">1600, 17. oktober.</date><date xml:lang="en">1600, 17 October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +87,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-04" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,9 +95,9 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.383"/><persName ref="kepler_johannes_1571">IOANNES KEPLER</persName>
-                    AD TYCHONEM BRAHE.</opener>
+                    AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
 
-                <p><pb ed="A" n="163r"/>CUM hucusque, Nobilissime et Præstantissime Domine TYCHO,
+                <p rend="noIndent"><pb ed="A" n="163r"/>CUM hucusque, Nobilissime et Præstantissime Domine TYCHO,
                     partim occupationes tuæ, partim febris mea non passæ fuerint, ut rationes
                     adventus mei in <placeName ref="Bohemia">Bohemiam</placeName> Magnificentiæ Tuæ
                     ex animi mei sententia recenserem, scripto id rectissime præstitum iri putavi.
@@ -117,7 +127,7 @@
                     vel cum damno meo <placeName ref="Praha">Pragam</placeName> irem, ibique rem vel
                     penitus confectam (quam spem literæ tuæ in adventum meum præbuerunt) quantum in
                     me esset, amplecterer, quantum vero in Principe meo situm, per Legatum eius
-                    Dominum Doctorem <persName ref="Doldius">DOLDIUM</persName>, qui <placeName ref="Praha">Pragæ</placeName> esset,
+                    Dominum Doctorem <persName ref="doldius_1600">DOLDIUM</persName>, qui <placeName ref="Praha">Pragæ</placeName> esset,
                     expedirem; vel si adhuc præter opinionem tuam, in dubio suspensa futura esset,
                     uti tum vires meas explorarem, sumptuum rationem inirem, et quantisper sine
                     pernicie mea, incertum in eventum, meis impensis, nullo salario, expectare
@@ -158,9 +168,9 @@
                     sunt visæ, quæ me permoverent, ut dimisso in Magnificentiæ Tuæ et Astronomiæ
                     gratiam, inque meum ipsius, si Deus ita vellet, maius incrementum, altero mei
                     iuvandi modo, retento vero alterius arbitrio pro <placeName ref="Würtemberg">Wirtembergico</placeName> <placeName ref="BOHEMIA">Bohemicum</placeName> iter
-                    arriperem. Bona vero et <persName ref="Müller, Barbara ">uxorem</persName> cum privigna visum est in omnem eventum <placeName ref="Linz">Lincij</placeName>
+                    arriperem. Bona vero et <persName ref="muller_barbara_1573">uxorem</persName> cum privigna visum est in omnem eventum <placeName ref="Linz">Lincij</placeName>
                     relinquere, ubi essent in itinere versus <placeName ref="Würtemberg">Wirtembergiam</placeName>.</p>
-                <p rend="indent">Mutavi propositum de <persName ref="Müller, Barbara ">uxore</persName> et privigna (bona enim, sicut dixi,
+                <p rend="indent">Mutavi propositum de <persName ref="muller_barbara_1573">uxore</persName> et privigna (bona enim, sicut dixi,
                     <placeName ref="Linz">Lincij</placeName> reliqui) hoc metu, qui iam in me exit, ne quis ex nobis ægrotaret,
                     reliquis absentibus, inter peregrinos. Itaque <placeName ref="Praha"
                         >Pragam</placeName> veni magno sumptu. Sexaginta expendi in vecturam
@@ -188,11 +198,10 @@
                     operam dabo, ut aliquis alius mihi id salarium, quod <placeName ref="Graz">Grätij</placeName> habui, in hoc
                     biennium pendat, pro quo obligatus illi sim, exacto tempore in eius servitium
                     transire. Habet igitur Magnificentia Tua summam consiliorum meorum: quæ ut mihi
-                    inopi et deserto et exuli non in peiorem partem interpretetur, obnixe rogo.
-                    Vale. 17. Oct.</p>
-                <lb/>
-                <p rend="rightMargin">Magnificentiæ et Nobilitatis<lb/>Tuæ Officiosissimus<lb/>M.
-                    <persName ref="kepler_johannes_1571">IO. KEPLER</persName>.</p>
+                    inopi et deserto et exuli non in peiorem partem interpretetur, obnixe rogo.</p>
+                    <closer><salute>Vale.</salute> <dateline>17. Oct.</dateline>
+                   <signed> Magnificentiæ et Nobilitatis<lb/>Tuæ Officiosissimus<lb/>M.
+                    <persName ref="kepler_johannes_1571">IO. KEPLER</persName>.</signed></closer>
             </div>
         </body>
     </text>

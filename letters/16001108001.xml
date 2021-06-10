@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
                     <placeName>München</placeName>
                     <date when="1600-11-08"/>
                     <note>n.s.</note>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. november n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 8. november n.s.</date><date xml:lang="en">1600, 8 November NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,16 +88,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.385"/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS HERWARTUS HOHENBURG</persName> AD TYCHONEM
-                    BRAHE.</opener>
+                <opener><pb ed="TBOO" n="VIII.385"/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS HERWARTUS HOHENBURG</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                    BRAHE</persName>.</opener>
 
-                <p><pb ed="A" n="242r"/>EX itinere, quo peregre abieram, Vir Nobilissime atque
+                <p rend="noIndent"><pb ed="A" n="242r"/>EX itinere, quo peregre abieram, Vir Nobilissime atque
                     Mathematicorum omnium facile Princeps, iam tandem reversus, relegi literas tuas
                     28 die Augusti ad me datas, et ex adiunctis exemplis deprehendi, me semel atque
                     iterum in calculo lapsum esse, quo nomine gratias tibi ago eô maiores. Sed
@@ -118,7 +128,7 @@
                     Quod si eum desideres, eurabo omnino, ut habeas. <pb ed="A" n="242v"/><persName
                         ref="albategnius_0858">ALBATEGNIUS</persName> latius habetur, sed is ipse, qui
                     multis in locis incorrectus est, Norimbergæ A<hi rend="sup">o</hi> 37 unâ cum <persName
-                        ref="Farghani">ALFRAGANO</persName> editus, et nec is quidem facile
+                        ref="alfraganus_0800">ALFRAGANO</persName> editus, et nec is quidem facile
                     invenitur, attamen πολλαπλασίωσις pretij effecit, ut ego quoque exemplar eiusdem
                     mendosæ impressionis ex Bibliotheca quadam redemerim. Quod si nihilominus eundem
                     petas, mittam illico. Mihi sane, præter nomina propria, non videtur adeo
@@ -126,9 +136,9 @@
                     confundere. Quod si hoc unicum caveatur, in calculo vix error oboriatur.</p>
                 <p rend="indent">Iungo his literis Catalogum nundinarum autumnalium, quem ipsum
                     quoque iam demum e peregrinatione domum reversus sum nactus; quod si aliquos
-                    libros ex ijs desideres, transmittentur. Affinis meus <persName ref="Vehentner"
+                    libros ex ijs desideres, transmittentur. Affinis meus <persName ref="zehentner_paul_1550"
                         >PAULUS ZEHENTNER ab ZEHENTGRUEB</persName> quædam meo nomine tibi referet,
-                    atque hisce vale quam fœlicissime. Datæ Monachij die 8 Nov. A. 1600.</p>
+                    atque hisce vale quam fœlicissime.</p> <closer><dateline>Datæ Monachij die 8 Nov. A. 1600.</dateline></closer>
             </div>
         </body>
     </text>

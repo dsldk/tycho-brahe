@@ -60,11 +60,12 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Moritz, Landgrave of Hessen</persName>
+                    <persName xml:lang="da" key="moritz_1572">Moritz, Landgreve af Hessen</persName>
+                    <persName xml:lang="en" key="moritz_1572">Moritz, Landgrave of Hesse</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 10. november n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 10. november n.s.</date><date xml:lang="en">1600, 10 November NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -85,12 +86,12 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.387"/>TYCHO BRAHE AD <persName
+                <opener><pb ed="TBOO" n="VIII.387"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName
                         ref="moritz_1572">MAURITIUM</persName> LANDTGRAVIUM
                     HASSIÆ.</opener>
 
-                <p><pb ed="A" n="154r"/>CUM Illustrissimæ Celsitudinis Vestræ Legatus Magnificus,
-                    Dominus <persName ref="Bopenhausen">IOHANNES de <foreign xml:lang="de"><hi
+                <p rend="noIndent"><pb ed="A" n="154r"/>CUM Illustrissimæ Celsitudinis Vestræ Legatus Magnificus,
+                    Dominus <persName ref="bopenhaussen_Johann_1600">IOHANNES de <foreign xml:lang="de"><hi
                                 rend="it">Bopenhaussen</hi></foreign></persName>, qui magni Regis
                         <placeName ref="Persia">Persarum</placeName> Legationem huc, Cel<hi
                         rend="sup">nis</hi> Tuæ iussu, deduxit, mihi (siquidem interea dum hîc fuit,
@@ -190,8 +191,8 @@
                     commendata esse submisse cupio, hac interpellatione, gravioribus negocijs
                     intentam, remorer, eam quam prosperrime florere et quam diutissime
                     saluberrimeque valere unâ cum Ill<hi rend="sup">ma</hi> Coniuge et inclytis
-                    liberis, a Deo Opt. ter Maximo devoto pectore precor. Dabantur <placeName
-                        ref="Praha">Pragæ</placeName> Bohemorum Die 10 Novembris Anni 1600.</p>
+                    liberis, a Deo Opt. ter Maximo devoto pectore precor.</p> <closer><dateline>Dabantur <placeName
+                        ref="Praha">Pragæ</placeName> Bohemorum Die 10 Novembris Anni 1600.</dateline></closer>
             </div>
         </body>
     </text>

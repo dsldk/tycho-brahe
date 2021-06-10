@@ -42,9 +42,18 @@
                             </msIdentifier>
                         </msDesc></witness>
                     <witness xml:id="B">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -64,7 +73,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
                     <placeName>München</placeName>
                     <date when="1600-09-23"/>
                     <note>n.s.</note>
@@ -74,7 +83,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 23. september n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 23. september n.s.</date><date xml:lang="en">1600, 23 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -89,6 +98,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-30" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -96,7 +106,7 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.366"/><pb ed="A" n="9v"/><app>
-                        <lem>NOBILISSIMO DOCTISSIMOQUE VIRO, DOMINO TYCHONI BRAHE, DOMINO A
+                    <lem>NOBILISSIMO DOCTISSIMOQUE VIRO, DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, DOMINO A
                             KNUDSTRUP ET URANIBURGO, MATHEMATICORUM OMNIUM FACILE PRINCIPI, DOMINO
                             ET AMICO SUO SINGULARI OBSERVANTIA COLENDO. <lb/>PRAGÆ.</lem>
                         <rdg><note>om. B</note></rdg>
@@ -107,19 +117,18 @@
                                 <rdg><note>om. B</note></rdg>
                             </app></hi></foreign></opener>
 
-                <p><pb ed="A" n="79r"/>MITTO, Vir Nobilissime atque Mathematicorum omnium facile
+                <p rend="noIndent"><pb ed="A" n="79r"/>MITTO, Vir Nobilissime atque Mathematicorum omnium facile
                     princeps, his iunctos libros ex ijs, quos desideras, <persName ref="apollonios_0262"
                         >APOLLONIJ Pergæi</persName> Opera No. 73 et Tabulas <persName
-                        ref="Bianchini">BLANCHINI</persName>, <persName ref="Prugner"
+                        ref="bianchini_giovanni_1410">BLANCHINI</persName>, <persName ref="prugner_nicolaus_1557"
                         >PRUGNERI</persName> et <persName ref="peurbach_georg_von_1423"
                         >PURBACHIJ</persName> No. 34. Tibique fœlicissima quæque ex animo precor et
-                    opto. Datæ Monachij die 23 Sept. A. 1600.</p>
-                <lb/>
-                <p rend="rightMargin"><app>
-                        <lem>D. T. Nobil<hi rend="sup">mæ</hi><lb/>Addictissimus<lb/>IOAN. GEORG.
-                            HERWART AB HOHENBURGK.</lem>
+                    opto.</p> <closer><dateline>Datæ Monachij die 23 Sept. A. 1600.</dateline>
+                    <signed><app>
+                    <lem>D. T. Nobil<hi rend="sup">mæ</hi><lb/>Addictissimus<lb/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOAN. GEORG.
+                            HERWART AB HOHENBURGK</persName>.</lem>
                         <rdg><note>om. B</note></rdg>
-                    </app></p>
+                    </app></signed></closer>
             </div>
         </body>
     </text>

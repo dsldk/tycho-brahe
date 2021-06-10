@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Melchior Jöstel</persName>
+                    <persName key="jostelius_melchior_1559">Melchior Jöstel</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 8. oktober n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 8. oktober n.s.</date><date xml:lang="en">1600, 8 October NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,17 +79,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.375"/>TYCHO BRAHE AD MELCHIOREM IŒSTELIUM.</opener>
+                <opener><pb ed="TBOO" n="VIII.375"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="jostelius_melchior_1559">MELCHIOREM IŒSTELIUM</persName>.</opener>
 
-                <p><pb ed="A" n="151r"/>EX ultimis meis literis, Eruditissime et amantissime Domine
+                <p rend="noIndent"><pb ed="A" n="151r"/>EX ultimis meis literis, Eruditissime et amantissime Domine
                         <persName ref="jostelius_melchior_1559">IÖSTELI</persName>, quas Domino Doctori <persName
-                        ref="Francius">FRANTZIO</persName> Iurisconsulto in eas oras proficiscenti
+                        ref="franzius_thomas_1563">FRANTZIO</persName> Iurisconsulto in eas oras proficiscenti
                     commisi, facile intellexisti, quæ superioribus tuis respondenda habui, et quænam
                     deinceps a te desiderarem, quod peracta promotione, quæ ut fausta felixque sit
                     precor, meliori restitutus otio efficias, te etiamnum per amicitiam nostram
@@ -118,7 +119,7 @@
                         ref="matthias_habsburg_1557">MATTHIAS</persName> ab <persName ref="rudolf_2_1552"
                         >ipsius Maiestate</persName> illico vocatus, statim ac magna illa et
                     inopinata mutatio hîc in aula facta est, reiecto <persName ref="rumpf_wolfgang_1535"
-                        >RUMPFIO</persName> et <persName ref="Trautsonius ">TRAUTSONIO</persName>,
+                        >RUMPFIO</persName> et <persName ref="trautson_paul_1546">TRAUTSONIO</persName>,
                     præcipuis Consilij secreti Capitibus, qui intra biduum discedere iussi sunt,
                     quod et factum, cæteris eiusdem Consilij membris retentis quidem, sed necdum in
                     priori gratia habitis. Qua de caussa hæc alteratio peracta, nondum satis liquet.
@@ -136,8 +137,8 @@
                         <persName ref="jessenius_jan_1566">IESSENIUM</persName>, licet mei immemorem,
                     reliquosque amicos <placeName ref="Wittenberg">Witebergenses</placeName>, inter
                     quos etiam obmutescentem illum <persName ref="taubmann_friedrich_1565">TAUBMANNUM</persName>,
-                    saluta. Dabantur festinanter <placeName ref="Praha">Praga</placeName> die 8 Oct.
-                    stylo novo Anno 1600. </p>
+                    saluta.</p> <closer><dateline>Dabantur festinanter <placeName ref="Praha">Praga</placeName> die 8 Oct.
+                    stylo novo Anno 1600.</dateline></closer> 
             </div>
         </body>
     </text>

@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 9. oktober</date></creation>
+            <creation><date xml:lang="da">1600, 9. oktober.</date><date xml:lang="en">1600, 9 October.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -88,7 +89,7 @@
                 <opener><pb ed="TBOO" n="VIII.382"/><pb ed="A" n="153v"/>SPECTATISSIME DOMINE DECANE
                     AC SENIOR CÆTERIQUE CLARISSIMI DOCTORES COLLEGIJ MEDICI.</opener>
 
-                <p>QUOD tam honorifice et benevole ad promotionem Doctoratus in facultate medica
+                <p rend="noIndent">QUOD tam honorifice et benevole ad promotionem Doctoratus in facultate medica
                     circa medium Octobris stylo veteri apud vos solenniter celebrandam (memores
                     adhuc illius convictus, qui inter nos fuit, dum superiore anno aliquantisper
                         <placeName ref="Wittenberg">Witebergæ</placeName> subsisterem) vestris
@@ -112,8 +113,8 @@
                         ref="jostelius_melchior_1559">IÖSTELIUM</persName>, Candidatum inter sex illos primarium,
                     amicum mihi in primis dilectum, excusationi locum futurum. Quod superest, ut
                     actus ille auspicatus et salutaris sit, precor, vosque omnes Deo Opt. Max.
-                    commendatos habeo. Dabantur <placeName ref="Praha">Praga</placeName> die 9
-                    Octobris stylo reformato Anno 1600.</p>
+                    commendatos habeo.</p> <closer><dateline>Dabantur <placeName ref="Praha">Praga</placeName> die 9
+                    Octobris stylo reformato Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

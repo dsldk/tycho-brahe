@@ -61,11 +61,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Vitus Winshemius</persName>
+                    <persName key="winsheim_veit_1521">Vitus Winshemius</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 26. september n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 26. september n.s.</date><date xml:lang="en">1600, 26 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -80,6 +80,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-30" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -89,7 +90,7 @@
                 <opener><pb ed="TBOO" n="VIII.367"/>TYCHO BRAHE AD <persName ref="winsheim_veit_1521">VITUM
                         WINSHEMIUM</persName>.</opener>
 
-                <p><pb ed="A" n="143r"/>MAGNIFICE et excellentissime Domine D. <persName
+                <p rend="noIndent"><pb ed="A" n="143r"/>MAGNIFICE et excellentissime Domine D. <persName
                         ref="winsheim_veit_1521">VITE WINSHEMI</persName>, amice inprimis honorande: Ex
                     literis Excell. V<hi rend="sup">æ</hi> ijsdemque adiunctis, quæ Illustrissimus
                     Princeps <persName ref="otto_harburg_1528">OTTHO</persName> dux Brunsvicensis et
@@ -167,8 +168,8 @@
                     potentem hostem extimescit, utut <placeName ref="Germany">Germaniæ</placeName>
                     Principum subsidijs maiori ex parte destitutus. Deus omnia vertat ad felicem
                     exitum, et Christianismum protegat, cui æviterno numini te unâ cum tuis
-                    commendatum habeo. Vale. Dabantur <placeName ref="Praha">Pragæ
-                        Bohemorum</placeName> Die 26 Sept. Anno 1600</p>
+                    commendatum habeo.</p> <closer><salute>Vale.</salute> <dateline>Dabantur <placeName ref="Praha">Pragæ
+                        Bohemorum</placeName> Die 26 Sept. Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

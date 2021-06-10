@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -55,16 +59,18 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1600-09-16"/>
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Lucas Bacmeister</persName>
+                    <persName key="bacmeister_lucas_1530">Lucas Bacmeister</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 16. september n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 16. september n.s.</date><date xml:lang="en">1600,
+                    16 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -85,34 +91,35 @@
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.361"/>TYCHO BRAHE AD <persName ref="bacmeister_lucas_1530">LUCAM
+                <opener><pb ed="TBOO" n="VIII.361"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="bacmeister_lucas_1530">LUCAM
                         BACMEISTERUM</persName>.</opener>
 
-                <p><pb ed="A" n="137r"/>S.</p>
-                <p>CLARISSIME et Præstantissime Vir, Amice inprimis honorande, etsi per M. <persName
-                        ref="longomontanus_christen_sorensen_1562">CHRISTIERNUM</persName> nostrum hinc discedentem et in
-                        <placeName ref="Denmark">Daniam</placeName> cogitantem, siquidem Rostochium
-                    transire et ibi forte aliquantisper subsistere constituerat, literas ad te
-                    dederim, partim de rebus meis, partim de ijs, quæ historiolæ annuæ optimæ
-                    memoriæ Domini Doctoris <persName ref="chytraeus_david_1530">DAVIDIS
-                        CHYTRÆI</persName>, prout ipsemet, etiam dum in vivis erat, proposuerat,
-                    inseri averem, commonefacientes; tamen <pb ed="TBOO" n="VIII.362"/>oblata per
-                    hunc tabellarium ad Vos euntem et mox huc revertentem tam commoda oportunitate,
-                    non intermittendum duxi, quin denuo aliqua tibi scriberem, nec tamen priora
-                    multis repetam, id saltem ijs superaddam, me etiamnum desiderare, ut ea, de
-                    quibus prius rogâram, historiolæ annuæ præfati Domini D. <persName
-                        ref="chytraeus_david_1530">CHYTRÆI</persName> usque ad huius Anni exitum ab
-                    aliquo Vestrorum, uti opinor, professore continuandæ, competenti loco
-                    inserantur. Video enim in ijs chartis, quas mihi misit Poëta vester Dn.
-                        <persName ref="brasch_martin_1565">BRASCHIUS</persName>, quæ in solstitio æstivo ob
-                    Autoris mox <app>
+                <p rend="indent"><pb ed="A" n="137r"/>S.</p>
+                <p rend="noIndent">CLARISSIME et Præstantissime Vir, Amice inprimis honorande, etsi
+                    per M. <persName ref="longomontanus_christen_sorensen_1562"
+                        >CHRISTIERNUM</persName> nostrum hinc discedentem et in <placeName
+                        ref="Denmark">Daniam</placeName> cogitantem, siquidem Rostochium transire et
+                    ibi forte aliquantisper subsistere constituerat, literas ad te dederim, partim
+                    de rebus meis, partim de ijs, quæ historiolæ annuæ optimæ memoriæ Domini
+                    Doctoris <persName ref="chytraeus_david_1530">DAVIDIS CHYTRÆI</persName>, prout
+                    ipsemet, etiam dum in vivis erat, proposuerat, inseri averem, commonefacientes;
+                    tamen <pb ed="TBOO" n="VIII.362"/>oblata per hunc tabellarium ad Vos euntem et
+                    mox huc revertentem tam commoda oportunitate, non intermittendum duxi, quin
+                    denuo aliqua tibi scriberem, nec tamen priora multis repetam, id saltem ijs
+                    superaddam, me etiamnum desiderare, ut ea, de quibus prius rogâram, historiolæ
+                    annuæ præfati Domini D. <persName ref="chytraeus_david_1530">CHYTRÆI</persName>
+                    usque ad huius Anni exitum ab aliquo Vestrorum, uti opinor, professore
+                    continuandæ, competenti loco inserantur. Video enim in ijs chartis, quas mihi
+                    misit Poëta vester Dn. <persName ref="brasch_martin_1565">BRASCHIUS</persName>,
+                    quæ in solstitio æstivo ob Autoris mox <app>
                         <lem wit="#TBOO">subsequentem</lem>
                         <rdg wit="#A">subsequentis</rdg>
                     </app> obitum, narrationem interrumpunt, id omissum esse. Quare pluribus hac de
-                    re ad dictum Dn. <persName ref="brasch_martin_1565">BRASCHIUM</persName> scripsi, qui
-                    tibi meas facile ostendet literas, unde plura et particulariora hauries; neque
-                    tamen hîc quippiam urgeo, sed omnia cum vestro stabunt cadentque libero
-                    iudicio.</p>
+                    re ad dictum Dn. <persName ref="brasch_martin_1565">BRASCHIUM</persName>
+                    scripsi, qui tibi meas facile ostendet literas, unde plura et particulariora
+                    hauries; neque tamen hîc quippiam urgeo, sed omnia cum vestro stabunt cadentque
+                    libero iudicio.</p>
                 <p rend="indent">Quantum vero ad res meas attinet, sunt eæ adhuc in eodem statu, quo
                     erant, cum ultimas ad te mitterem. Maneo etiamnum hîc <placeName ref="Praha"
                         >Pragæ</placeName> cum tota familia ex <persName ref="rudolf_2_1552"
@@ -129,30 +136,31 @@
                         Benatica</placeName> nimis hinc remota sit, nec admodum oportuna) iam eo
                     maturius deliberamus, et negotium hoc acceleretur.</p>
                 <p rend="indent">Non dubito, quin literas adfini tuo Magnifico Dn. <persName
-                        ref="bording_jacob_1547">BORDINGO</persName> inscriptas, quas prædictus M. <persName
-                        ref="longomontanus_christen_sorensen_1562">CHRISTIERNUS</persName> secum attulit, expedivisse, et
-                    contenta earundem, quantum in te erat, promovisse. Si nihil adhuc in re illa
-                    pecuniaria, de qua aiebam, effectum est, nec aliqua isthic suppetit commoditas
-                    id tuto exequendi, poterit usque in adventum Dn. D. <persName ref="godelmann_johann_georg_1559"
-                        >IOHANNIS GÖDELMANNI</persName> (qui se quatuordecim abhinc diebus
-                        <placeName ref="Rostock">Rostochium</placeName> profecturum heri mihi
-                    indicavit) deferri, ut per ipsum quam optime fiat. Qua de re etiam ad
-                    prænominatum adfinem tuum latius perscripsi, quas literas, si tabellarius hic
-                    Gustrowium transiens id non præstiterit, actutum dirigas quæso, atque ut idem
-                    tabellarius ratum secum adferat responsum, operam da, quin et tu ipsemet cum
-                    eodem mihi rescribas, simulque indices, quid rerum in vicina <placeName
-                        ref="Denmark">Dania</placeName> et <placeName ref="Sweden"
-                        >Suecia</placeName> geratur. Narratum est hîc ante paucos dies, incerto
-                    tamen rumore, dissidium quoddam subortum inter <persName ref="Christianb 4."
-                        >Regem Daniæ</persName> Regnique Nobilitatem, quod tamen irrita fama
-                    prolatum spero. Deus avertat a Patria mea intestina mala, quæ plurimum secum
-                    damni trahere so<pb ed="TBOO" n="VIII.363"/>lent. <placeName ref="Turkey"
-                        >Turca</placeName> in <placeName ref="Hungary">Ungaria</placeName> est cum
-                    maximo exercitu, cui nostri <persName ref="rudolf_2_1552">Imperatoris</persName> vix
-                    pro quarta parte par est: pugnet pro nobis armipotens Deus, cui etiam te tuosque
-                    omnes commendo et bene valere precor. Dabantur properanter <placeName
-                        ref="Praha">Pragæ</placeName> Bohemorum 16 die Septembris stylo novo Anno
-                    1600.</p>
+                        ref="bording_jacob_1547">BORDINGO</persName> inscriptas, quas prædictus M.
+                        <persName ref="longomontanus_christen_sorensen_1562">CHRISTIERNUS</persName>
+                    secum attulit, expedivisse, et contenta earundem, quantum in te erat,
+                    promovisse. Si nihil adhuc in re illa pecuniaria, de qua aiebam, effectum est,
+                    nec aliqua isthic suppetit commoditas id tuto exequendi, poterit usque in
+                    adventum Dn. D. <persName ref="godelmann_johann_georg_1559">IOHANNIS
+                        GÖDELMANNI</persName> (qui se quatuordecim abhinc diebus <placeName
+                        ref="Rostock">Rostochium</placeName> profecturum heri mihi indicavit)
+                    deferri, ut per ipsum quam optime fiat. Qua de re etiam ad prænominatum adfinem
+                    tuum latius perscripsi, quas literas, si tabellarius hic Gustrowium transiens id
+                    non præstiterit, actutum dirigas quæso, atque ut idem tabellarius ratum secum
+                    adferat responsum, operam da, quin et tu ipsemet cum eodem mihi rescribas,
+                    simulque indices, quid rerum in vicina <placeName ref="Denmark"
+                        >Dania</placeName> et <placeName ref="Sweden">Suecia</placeName> geratur.
+                    Narratum est hîc ante paucos dies, incerto tamen rumore, dissidium quoddam
+                    subortum inter <persName ref="christian_4_1577">Regem Daniæ</persName> Regnique
+                    Nobilitatem, quod tamen irrita fama prolatum spero. Deus avertat a Patria mea
+                    intestina mala, quæ plurimum secum damni trahere so<pb ed="TBOO" n="VIII.363"
+                    />lent. <placeName ref="Turkey">Turca</placeName> in <placeName ref="Hungary"
+                        >Ungaria</placeName> est cum maximo exercitu, cui nostri <persName
+                        ref="rudolf_2_1552">Imperatoris</persName> vix pro quarta parte par est:
+                    pugnet pro nobis armipotens Deus, cui etiam te tuosque omnes commendo et bene
+                    valere precor.</p>
+                <closer><dateline>Dabantur properanter <placeName ref="Praha">Pragæ</placeName>
+                        Bohemorum 16 die Septembris stylo novo Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

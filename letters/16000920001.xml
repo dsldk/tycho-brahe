@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Friedrich Taubmann</persName>
+                    <persName key="taubmann_friedrich_1565">Friedrich Taubmann</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 20. september n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 20. september n.s.</date><date xml:lang="en">1600, 20 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,13 +79,14 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-01-30" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.335"/>TYCHO BRAHE AD <persName ref="taubmann_friedrich_1565">TAUBMANNUM</persName>.</opener>
+                <opener><pb ed="TBOO" n="VIII.335"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="taubmann_friedrich_1565">TAUBMANNUM</persName>.</opener>
 
                 <lg>
                     <pb ed="A" n="141r"/>
@@ -98,7 +99,7 @@
                     <l>Solve igitur, quæ iure mihi tu Carmina debes, </l>
                     <l rend="indent">Falsaque (cum nequeas vera referre) refer.</l>
                 </lg>
-                <p>EN habes hîc antesignani vestri tuique plasmatoris <persName ref="melissus_paulus_1539">MELISSI</persName> (qui tamen raucos et
+                <p rend="noIndent">EN habes hîc antesignani vestri tuique plasmatoris <persName ref="melissus_paulus_1539">MELISSI</persName> (qui tamen raucos et
                     mutos Poëtas creavit nunquam) Carmina nuper ad me missa, ubi nonnunquam
                     dissimilis a seipso videtur. Adest etiam Doctoris cuiusdam <placeName ref="Ingolstadt">Ingolstadiensis</placeName>
                     Heroicum, quod per Cancellarium Bavaricum, Dominum <persName ref="herwart_von_hohenburg_hans_georg_1553">IOHANNEM GEORGIUM HERWARTUM
@@ -113,10 +114,10 @@
                 <lg><pb ed="A" n="141v"/><l>Tuque vale, et tenerum cum matre valere columbum </l>
                     <l rend="indent">Effice,
                         sic vobis pullulet alma domus, </l>
-                    <l>TYCHONISque memor, vates qui suspicit, esto,</l>
+                    <l><persName ref="brahe_tycho_1546">TYCHONISque</persName> memor, vates qui suspicit, esto,</l>
                     <l rend="indent">Sique voles, carmen non breve mitte brevi.</l></lg>
-                <p>Deproperabam <placeName ref="Praha">Pragâ</placeName> die Septembr. stylo
-                    reformato Anno 1600.</p>
+                <closer><dateline>Deproperabam <placeName ref="Praha">Pragâ</placeName> die Septembr. stylo
+                    reformato Anno 1600.</dateline></closer>
             </div>
         </body>
     </text>

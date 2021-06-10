@@ -32,9 +32,18 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>München</settlement>
+                                <repository>Universitätsbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>693 fol.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Munich</settlement>
                                 <repository>Universitätsbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>693 fol.</idno>
@@ -54,7 +63,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Johann Georg Herwart von Hohenburg</persName>
+                    <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
                     <placeName>München</placeName>
                     <date when="1600-12-10"/>
                     <note>n.s.</note>
@@ -64,7 +73,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600, 10. december n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 10. december n.s.</date><date xml:lang="en">1600, 10 December NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -86,12 +95,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.393"/><persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS
-                        HERWARTUS AB HOHENBURG</persName> AD TYCHONEM BRAHE.</opener>
+                    HERWARTUS AB HOHENBURG</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
 
-                <p><pb ed="A" n="243r"/>PRÆVIA precatione fœlicis et auspicatissimi novi anni, Vir
+                <p rend="noIndent"><pb ed="A" n="243r"/>PRÆVIA precatione fœlicis et auspicatissimi novi anni, Vir
                     Nobilissime atque Mathematicorum omnium facile Princeps, mitto <persName ref="alfonso_10_1221">Alphonsinas</persName>
                     Tabulas recognitas, Parisijs An<hi rend="sup">o</hi> 53 impressas, No. 43
-                    signatas. Et simul unâ <persName ref="Methodius">METHODIJ</persName> uti fertur
+                    signatas. Et simul unâ <persName ref="methodios_olympos_311">METHODIJ</persName> uti fertur
                     Revelationem, quam describi curavi, cum liber, cui inserta fuerat, ob molem
                     transferri nequeat. Neque iam occurrit aliud, quod ad te modo scribendum esse
                     ducam. Summa enim illa tua ἀκρίβεια, quâ vel ad sexagesimam gradus partem
@@ -109,8 +118,8 @@
                     >COPERNICUM</persName>, in multis offendat necesse est. Unice itaque
                     restaurationem hanc tuam exopto, cui, tametsi forte nondum extremam manum
                     adhibueris, tamen ea sine omni dubio aliorum calculos longe superabit. Atque
-                    hisce tibi fœlicissima quæque præsagio et ex animo precor. Datæ <placeName
-                        ref="München">Monachij</placeName> 10 Decemb. A. 1600. </p>
+                    hisce tibi fœlicissima quæque præsagio et ex animo precor.</p> <closer><dateline>Datæ <placeName
+                        ref="München">Monachij</placeName> 10 Decemb. A. 1600. </dateline></closer>
             </div>
         </body>
     </text>

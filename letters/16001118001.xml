@@ -60,7 +60,7 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Melchior Jöstel</persName>
+                    <persName key="jostelius_melchior_1559">Melchior Jöstel</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
@@ -79,16 +79,17 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-03" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.391"/>TYCHO BRAHE AD <persName ref="jostelius_melchior_1559"
+                <opener><pb ed="TBOO" n="VIII.391"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="jostelius_melchior_1559"
                         >MELCHIOREM JŒSTELIUM.</persName>.</opener>
 
-                <p><pb ed="A" n="165r"/>VENIT ad me <placeName ref="Dresden">Dresdâ</placeName>
+                <p rend="noIndent"><pb ed="A" n="165r"/>VENIT ad me <placeName ref="Dresden">Dresdâ</placeName>
                     hisce diebus M. <persName ref="rhodius_ambrosius_1577">AMBROSIUS RHODIUS</persName>, et nonnulla, quæ circa Hypotheses tentasti,
                     clarissime et præstantissime D. D. <persName ref="jostelius_melchior_1559">IŒSTELI</persName>, secum a te attulit. Utrumque mihi
                     gratum fuit. Faciam, quantum ad illum attinet, prout mones. Hypotheses autem
@@ -124,7 +125,7 @@
                     vero per oportunius ocium deliberatius cogita, et quæ vel hactenus perfectius
                     elaborata habes, quam ea sunt, quæ misisti, vel inposterum elaborare dabitur,
                     mecum communica.</p>
-                <p rend="indent">Cœterum de Typographo <persName ref="Lehmann, Zacharias"
+                <p rend="indent">Cœterum de Typographo <persName ref="lehmann_zacharias_1575"
                         >LEMANNO</persName> sic habe. Precium quod annotavit pro Balla papyri 15 fl.
                     nimium est, venditur enim hîc, ubi omnia longe cariora sunt quam <placeName
                         ref="Leipzig">Lipsiæ</placeName> aut <placeName ref="Wittenberg"
@@ -143,9 +144,9 @@
                     mittam, modo prius de voluntate Typographi certior a te factus fuero, quod ut
                     mature facias, etiam atque etiam peto. Vale et saluta amicos <placeName
                         ref="Wittenberg">Witebergenses</placeName>, quibus scribere nunc non vacat,
-                    sed fiet id, volente Deo, per oportunius otium, iterumque vale. Dabantur
-                        <placeName ref="Praha">Pragæ</placeName> Bohemorum 18 Novembris Anno 1600.
-                </p>
+                    sed fiet id, volente Deo, per oportunius otium, iterumque vale.</p> <closer><dateline>Dabantur
+                        <placeName ref="Praha">Pragæ</placeName> Bohemorum 18 Novembris Anno 1600.</dateline></closer>
+                
             </div>
         </body>
     </text>

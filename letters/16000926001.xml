@@ -32,7 +32,19 @@
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>Autographensammlung</collection>
+                                <idno>Vol. 35, Fol. 144.</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
                             <msIdentifier>
                                 <settlement>Basel</settlement>
                                 <repository>Universitätsbibliothek Basel</repository>
@@ -67,7 +79,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1600-09-26 n.s.</date></creation>
+            <creation><date xml:lang="da">1600, 26. september n.s.</date><date xml:lang="en">1600, 26 September NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -84,16 +96,17 @@
             <change when="2020-09-07" who="#pz">Filen etableret</change>
             <change when="2020-09-14" who="#lrp">Korrektur påbegyndt</change>
             <change when="2021-01-22" who="#pz">Korrekturlæst</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="XIV.211"/>[TYCHO BRAHE AD DECANUM CAPITULI <placeName
+                <opener><pb ed="TBOO" n="XIV.211"/>[<persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD DECANUM CAPITULI <placeName
                         ref="Magdeburg">MAGDEBURGENSIS</placeName>].</opener>
 
-                <p>REUERENDISSIME et nobilissime domine decane. Do:ie honorandissime, advenerunt res
+                <p rend="noIndent">REUERENDISSIME et nobilissime domine decane. Do:ie honorandissime, advenerunt res
                     meæ, quæ <placeName ref="Magdeburg">Magdeburgi</placeName> repositæ erant, hisce
                     præteritis diebus <placeName ref="Litoměřice">Leutmeritzium</placeName> quousque
                         <placeName ref="Elben">Albis</placeName> versus <placeName ref="Bohemi"
@@ -107,7 +120,7 @@
                     subiectissime adessem, commendabam, non saltem ipsemet cognoui sed et heri à
                     magf:co d:no <persName ref="barvitius_johann_anton_1555">Baruitio</persName>, supremo secretario et
                     <persName ref="rudolf_2_1552">ipsius ma:ti</persName> a consilijs intimo, percepi, qui etiam hac de re se ad vestri
-                    reuerendissimi capituli vicecancellarium <persName ref="Stösser">Chilianum
+                    reuerendissimi capituli vicecancellarium <persName ref="stosser_chilian_1600">Chilianum
                         Stösserum</persName> scripsisse mihi insinuauit. Ego vero pro mea persona
                     hanc vestram benignissimam voluntatem, quod meis desiderijs tam libere et
                     libenter annueritis, et supellectilem, qua diu non sine incommodo destitutus
