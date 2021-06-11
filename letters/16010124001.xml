@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 24. januar n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 24. januar n.s.</date><date xml:lang="da">1601, 24 January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -91,8 +92,8 @@
                         >BONONIENSEM</placeName> GYMNASIO PROFESSORI ET AMICO SUO HONORANDO.
                         <lb/><placeName ref="Bologna">BONONIAM</placeName>. </opener>
 
-                <p><pb ed="A" n="1r"/>S.</p>
-                <p>LITERAS tuas humanissimas pariter atque eruditissimas, Clarissime et
+                <p rend="indent"><pb ed="A" n="1r"/>S.</p>
+                <p rend="noIndent">LITERAS tuas humanissimas pariter atque eruditissimas, Clarissime et
                     Excellentissime Domine <persName ref="magini_giovanni_antonio_1555">MAGINE</persName>, 4 Martij
                     superioris Anni datas, recte quidem accepi; nulla tamen ad eas rescribendi
                     hucusque sese mihi obtulit certa commoditas, priusquam nunc per filium meum natu
@@ -118,7 +119,7 @@
                     mutatum est, potest hinc restitui, et ea quæ ibi desiderantur compleri. Cætera
                     tuæ prudentiæ et benevolæ erga me voluntati committo.</p>
                 <p rend="indent">Quod Illustrissimus et Reverendissimus <persName
-                        ref="Cardinalis SS. Quattuor">Cardinalis SS. QUATUOR</persName>, Vir procul
+                        ref="facchettini_giovanni_1573">Cardinalis SS. QUATUOR</persName>, Vir procul
                     dubio eximiæ et variæ doctrinæ, rerumque Mathematicarum amantissimus, Eclipsin
                         &#x2609;<hi rend="sup">lis</hi> Anni 98, qua licuerat diligentia,
                     observârit, perlubenter accepi, grataque est eorum, quæ ipsius Dominatio
@@ -256,12 +257,11 @@
                         >Bononiæ</placeName> visu digna sunt, monstrari cures, eumque pariter
                         <placeName ref="Roma">Romæ</placeName> tuis amicis et familiaribus
                     commendes. Iamque te, Excellentissime Domine <persName ref="magini_giovanni_antonio_1555"
-                        >MAGINE</persName>, quam optime et diutissime valere cupio. Dabantur
+                        >MAGINE</persName>, quam optime et diutissime valere cupio.</p> <closer><dateline>Dabantur
                         <placeName ref="Praha">Pragæ Bohæmorum</placeName> Die 24 Ianuarij Anno
-                    1601.</p>
-                <lb/>
-                <p rend="rightMargin">Excellentiæ tuæ<lb/>studiosissimus<lb/>TYCHO BRAHE,<lb/>manu
-                    propria scripsi.</p>
+                    1601.</dateline>
+                    <signed>Excellentiæ tuæ<lb/>studiosissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                    propria scripsi.</signed></closer>
             </div>
         </body>
     </text>

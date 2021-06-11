@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -55,16 +59,18 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1601-04-15"/>
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Lucas Bacmeister</persName>
+                    <persName key="bacmeister_lucas_1530">Lucas Bacmeister</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 15. april n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 15. april n.s.</date><date xml:lang="en">1601, 15
+                    April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,47 +85,51 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.413"/>TYCHO BRAHE AD <persName ref="bacmeister_lucas_1530">LUCAM
+                <opener><pb ed="TBOO" n="VIII.413"/><persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="bacmeister_lucas_1530">LUCAM
                         BACMEISTERUM</persName>.</opener>
 
-                <p><pb ed="A" n="174r"/>CLARISSIME et præstantissime Vir, Domine et Amice honorande,
-                    quod per Clarissimum Virum Dn. D. <persName ref="godelmann_johann_georg_1559">IOH. GEORG.
-                        GÖDELMANNUM</persName>, communem nostrum amicum, sexcentos illos thaleros a
-                    quæstore Iuniorum Principum loco interesse mihi debitos transmiseris, ijs qui
-                    Belgici erant in imperiales maiore ex parte commutatis, recte a te factum est,
-                    eoque nomine plurimas tibi habeo gratias. Quod autem idem quæstor reliquos 600,
-                    qui mihi nunc debentur, tunc numerare noluerit, non equidem miror, utut non
-                    iniquum fuisset, si id officioli mihi præstitisset, sed quod totam summam satis
-                    mature resignatam et consensu et iussu Illustriss. Ducis <persName ref="ulrich_3_1527"
+                <p rend="noIndent"><pb ed="A" n="174r"/>CLARISSIME et præstantissime Vir, Domine et
+                    Amice honorande, quod per Clarissimum Virum Dn. D. <persName
+                        ref="godelmann_johann_georg_1559">IOH. GEORG. GÖDELMANNUM</persName>,
+                    communem nostrum amicum, sexcentos illos thaleros a quæstore Iuniorum Principum
+                    loco interesse mihi debitos transmiseris, ijs qui Belgici erant in imperiales
+                    maiore ex parte commutatis, recte a te factum est, eoque nomine plurimas tibi
+                    habeo gratias. Quod autem idem quæstor reliquos 600, qui mihi nunc debentur,
+                    tunc numerare noluerit, non equidem miror, utut non iniquum fuisset, si id
+                    officioli mihi præstitisset, sed quod totam summam satis mature resignatam et
+                    consensu et iussu Illustriss. Ducis <persName ref="ulrich_3_1527"
                         >UDALRICI</persName> mihi ad hoc Pascha restituendam solvere tergiversetur,
                     nescio quas alias prætendens expensas et calvas excusationes, id mihi magis
                     displicet, nec ferendum duco. Scripsi itaque ad dictum Illustriss. Ducem
-                        <persName ref="ulrich_3_1527">UDALRICUM</persName>, sponsorem primarium, ut ad
-                    constitutum tempus integram summam decem millium Ioachimicorum mihi restitui sua
-                    authoritate curet, quod et non invite effecturum optimum illum et integerrimum
-                    Principem, mihi clementissime faventem, nullatenus diffido. Obtigit mihi
-                    occasio, qua in hisce oris plus commodi ex illa pecunia nancisci queam quam
+                        <persName ref="ulrich_3_1527">UDALRICUM</persName>, sponsorem primarium, ut
+                    ad constitutum tempus integram summam decem millium Ioachimicorum mihi restitui
+                    sua authoritate curet, quod et non invite effecturum optimum illum et
+                    integerrimum Principem, mihi clementissime faventem, nullatenus diffido. Obtigit
+                    mihi occasio, qua in hisce oris plus commodi ex illa pecunia nancisci queam quam
                     isthic, alias non tam cito eam repetijssem.</p>
                 <p rend="indent">Quin et præterea ad præfa<pb ed="A" n="174v"/>tum Illustriss.
                         <persName ref="ulrich_3_1527">Ducem</persName> dedi literas, qua ipsius
-                    Celsitudinem ad nuptias filiæ cuidam ex meis <persName ref="Brahe, Elisabeth"
-                        >ELISABETHÆ</persName> nomine submisse invitavi, cum quodam Nobili et
-                    erudito Iuvene <persName ref="tengnagel_frans_1576">FRANCISCO TENGNAGLIO</persName> e
-                        <placeName ref="Westfalen">Westphalia</placeName> oriundo atque in hac aula
-                    versasante, ad instans Pentecostes, favente Cœlesti Numine, celebrandas. Cum
-                    enim non saltem <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName>, Dn.
-                    nostrum clementiss. et præcipuos eius Consiliarios et aliquot <placeName
-                        ref="Germany">Germaniæ</placeName> Principes, tam Ecclesiastici quam
-                    politici status, quos scio mihi clementer favere, humilime per literas invitare
-                    animus sit (quod et nonnullorum Legati, qui <pb ed="TBOO" n="VIII.414"/>hîc
-                    sunt, sponte a me petierunt, atque suis Dominis gratum futurum innuerunt)
-                    Illustrissimum <persName ref="ulrich_3_1527">Ducem</persName>
+                    Celsitudinem ad nuptias filiæ cuidam ex meis <persName
+                        ref="brahe_elisabeth_1579">ELISABETHÆ</persName> nomine submisse invitavi,
+                    cum quodam Nobili et erudito Iuvene <persName ref="tengnagel_frans_1576"
+                        >FRANCISCO TENGNAGLIO</persName> e <placeName ref="Westfalen"
+                        >Westphalia</placeName> oriundo atque in hac aula versasante, ad instans
+                    Pentecostes, favente Cœlesti Numine, celebrandas. Cum enim non saltem <persName
+                        ref="rudolf_2_1552">Cæsaream Maiestatem</persName>, Dn. nostrum clementiss.
+                    et præcipuos eius Consiliarios et aliquot <placeName ref="Germany"
+                        >Germaniæ</placeName> Principes, tam Ecclesiastici quam politici status,
+                    quos scio mihi clementer favere, humilime per literas invitare animus sit (quod
+                    et nonnullorum Legati, qui <pb ed="TBOO" n="VIII.414"/>hîc sunt, sponte a me
+                    petierunt, atque suis Dominis gratum futurum innuerunt) Illustrissimum <persName
+                        ref="ulrich_3_1527">Ducem</persName>
                     <placeName ref="Mecklenburg">Megapolitanum</placeName>, Dn. meum clementiss. et
                     quam optime de me meritum, præterire nefas duxi, non quod ipsius Celsitudinem
                     aut alios in <placeName ref="Germany">Germania</placeName> Principes, ad quos
@@ -127,21 +137,22 @@
                     sed saltem quo conscij sint, ut si forte aliquem ex suis Legatis tum temporis
                     hîc in aula habuerint, illis festivitatem hanc loco sui Principis coram <pb
                         ed="A" n="175r"/>condecorare liceat, quod et te, charissime Domine D.
-                        <persName ref="bacmeister_lucas_1530">BACHMAISTERE</persName>, ob veterem inter nos
-                    necessitudinem non cælandum duxi, quo vota tua ad Deum omnis boni et felicitatis
-                    largitorem nostris coniungens, fausta et salutaria huic actui preceris.</p>
+                        <persName ref="bacmeister_lucas_1530">BACHMAISTERE</persName>, ob veterem
+                    inter nos necessitudinem non cælandum duxi, quo vota tua ad Deum omnis boni et
+                    felicitatis largitorem nostris coniungens, fausta et salutaria huic actui
+                    preceris.</p>
                 <p rend="indent">Miror te literas D. D. <persName ref="krag_niels_1550"
                         >CRAGIO</persName> inscriptas non accepisse. Nullas nunc ad ipsum ulterius
                     mitto, siquidem intellexerim ipsum in Legatione <placeName ref="Poland"
                         >Polonica</placeName> abesse, sed tabellario huic nonnullas tradidi,
                     quibusdam in <placeName ref="Denmark">Dania</placeName> præcipuis amicis
                     destinatas, quarum maxima pars est invitatoria ad iam dictas nuptias; eas vero
-                    omnes ipse tabellarius facile per quendam nobilem, <persName ref="bille_eske_1552"
-                        >ESCHILLUM BILLÆUM</persName> nomine, res meas istic procurantem, expediet.
-                    Addo <app>
+                    omnes ipse tabellarius facile per quendam nobilem, <persName
+                        ref="bille_eske_1552">ESCHILLUM BILLÆUM</persName> nomine, res meas istic
+                    procurantem, expediet. Addo <app>
                         <lem wit="#TBOO">minutulas</lem>
                         <rdg wit="#A">minutilas</rdg>
-                    </app> quasdam ad eundem <persName ref="Agricola">Regis Musicum</persName>, cui
+                    </app> quasdam ad eundem <persName ref="agricola_caspar_1600">Regis Musicum</persName>, cui
                     alteræ prius tibi missæ (ut opinor) inscribebantur, quas hic ipse
                     grammatophorus, si tibi commodior non suppetit ratio, illi <placeName
                         ref="København">Hafniæ</placeName> inquisito tradet; sunt a quodam hîc
@@ -149,26 +160,26 @@
                         <lem>[a fideiussione?]</lem>
                         <rdg><note>suppl. TBOO</note></rdg>
                     </app> Musicus est, scriptæ.</p>
-                <p rend="indent">Magistro <persName ref="brasch_martin_1565">BRASCHIO</persName> ipsemet nunc
-                    de negocio prius insinuato rescribo; antea enim non vacabat.</p>
+                <p rend="indent">Magistro <persName ref="brasch_martin_1565">BRASCHIO</persName>
+                    ipsemet nunc de negocio prius insinuato rescribo; antea enim non vacabat.</p>
                 <p rend="indent">Quæ a <persName ref="karl_9_1550">CAROLO</persName>
                     <pb ed="A" n="175v"/><placeName ref="Sweden">Sueciæ</placeName> Duce in
                         <placeName ref="Livonia">Livonia</placeName> acta sunt, iam antea hîc
                     cognovimus; nimis tardus esse videtur in resistendo <placeName ref="Poland"
                         >Poloniæ</placeName>
-                    <persName ref="sigismund_3_vasa_1566">Rex</persName>, et vix ut <persName ref="Ennius"
-                        >ENNIUS</persName> de altero isto Romano aiebat, cunctando restituet rem:
-                    celeritate potius in talibus opus est. WAIWODA, qui in Comitijs <placeName
-                        ref="Poland">Polonicis</placeName> etiam hostis eius Regni declaratus est,
-                    nuper hîc fuit, et gratiam <persName ref="rudolf_2_1552">Cæsaris</persName>
-                    impetravit, acceptaque magna pecuniæ vi <placeName ref="Transylvania"
-                        >Transsylvaniæ</placeName> partem <placeName ref="Poland"
+                    <persName ref="sigismund_3_vasa_1566">Rex</persName>, et vix ut <persName
+                        ref="ennius_quintus_0239">ENNIUS</persName> de altero isto Romano aiebat, cunctando
+                    restituet rem: celeritate potius in talibus opus est. WAIWODA, qui in Comitijs
+                        <placeName ref="Poland">Polonicis</placeName> etiam hostis eius Regni
+                    declaratus est, nuper hîc fuit, et gratiam <persName ref="rudolf_2_1552"
+                        >Cæsaris</persName> impetravit, acceptaque magna pecuniæ vi <placeName
+                        ref="Transylvania">Transsylvaniæ</placeName> partem <placeName ref="Poland"
                         >Polonorum</placeName> consilijs et Tartarorum invasionibus nuper amissam
-                    pro <persName ref="rudolf_2_1552">Cæsare</persName> recuperare meditatur, omniaque
-                    strenue ad hanc expeditionem præparat. Magnis etiam viribus contra <placeName
-                        ref="Turkey">Turcam</placeName> exercitum parat <persName ref="rudolf_2_1552"
-                        >Imperator noster</persName>, validiorem quam unquam antea, siquidem
-                    necessitas sic postulet, ob amissum superiori Octobri <placeName
+                    pro <persName ref="rudolf_2_1552">Cæsare</persName> recuperare meditatur,
+                    omniaque strenue ad hanc expeditionem præparat. Magnis etiam viribus contra
+                        <placeName ref="Turkey">Turcam</placeName> exercitum parat <persName
+                        ref="rudolf_2_1552">Imperator noster</persName>, validiorem quam unquam
+                    antea, siquidem necessitas sic postulet, ob amissum superiori Octobri <placeName
                         ref="Nagykanizsa">Canisium</placeName>, fortissimum <placeName ref="Hungary"
                         >Hungariæ</placeName> propugnaculum, quo occupato <placeName ref="Turkey"
                         >Turca</placeName> sibi viam, sive <placeName ref="Steiermark"
@@ -178,10 +189,11 @@
                     momenti habentia resciero, te eorum faciam participem. Vale cum omnibus tuis
                     quam felicissime, et senij, si quæ, uti fit, incidunt gravamina, patientia
                     vince. Dabantur <placeName ref="Praha">Pragæ</placeName> ex ædibus olim
-                    Curtianis, quas <persName ref="rudolf_2_1552">Cæsar</persName> pro 10000 millibus
-                    Ioachimicorum in <pb ed="TBOO" n="VIII.415"/>meos usus liberaliter emit vix
-                    duplo maioris exædificatas, quæ novum Uraniburgum Rudolphæum appellanda. Iamque
-                    iterum et sæpius vale. Die 15 Aprilis stylo novo Anno 1601.</p>
+                    Curtianis, quas <persName ref="rudolf_2_1552">Cæsar</persName> pro 10000
+                    millibus Ioachimicorum in <pb ed="TBOO" n="VIII.415"/>meos usus liberaliter emit
+                    vix duplo maioris exædificatas, quæ novum Uraniburgum Rudolphæum appellanda.</p>
+                <closer><salute>Iamque iterum et sæpius vale.</salute>
+                    <dateline>Die 15 Aprilis stylo novo Anno 1601.</dateline></closer>
             </div>
         </body>
     </text>

@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Balthasar Caminaeus</persName>
+                    <persName key="caminaeus_balthasar_1613">Balthasar Caminaeus</persName>
                     <placeName>Frankfurt an der Oder</placeName>
                     <date when="1601-03-22"/>
                     <note>n.s.</note>
@@ -64,7 +64,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 22. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 22. marts n.s.</date><date xml:lang="en">1601, 22 March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +79,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,13 +87,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.406"/><pb ed="A" n="86v"/>GENEROSO MAGNIFICO ET
-                    NOBILISSIMO VIRO DOMINO TYCHONI BRAHE, EQUITI DANO, S. <persName ref="rudolf_2_1552"
+                    NOBILISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>, EQUITI DANO, S. <persName ref="rudolf_2_1552"
                         >CÆS. MAIESTATIS</persName> CONSILIARIO PRÆCIPUO ET MATHEMATICO LONGE
                     CELEBERRIMO, DOMINO AC PATRONO OBSERVANDO.<lb/><placeName ref="Praha">PRAGA</placeName>.</opener>
 
-                <p><pb ed="A" n="85r"/>S.</p>
-                <lb/>
-                <p>RECTE perlatas esse meas ad te literas, generose et nobilissime vir, index scida
+                <p rend="indent"><pb ed="A" n="85r"/>S.</p>
+                <p rend="noIndent">RECTE perlatas esse meas ad te literas, generose et nobilissime vir, index scida
                     superiore Decembri me docuit. Volui, uti suggestum fuerat, rem denuo et statim
                     prehendere; sed avocarunt morbus uxoris, negotia clientum, sexcenta alia. Nunc
                     paullo expeditior, et amanter a vidua illa CUNONIS filia invitatus, libenter ei
@@ -119,11 +119,10 @@
                     generose et optime, meque et studia mea, quibus ipsis quoque MÆCENATE opus sit,
                     apud Sacram <pb ed="A" n="86r"/><persName ref="rudolf_2_1552">Cæsaream
                         Maiestatem</persName>, cui vitam ac felicitatem perpetuam precor, tibi
-                    commendata habe. Vale iterum. <placeName ref="Frankfurt an der Oder">Francofurto
-                        cis Viadrum</placeName> a. d. XII Martij Anno MDCI.</p>
-                <lb/>
-                <p rend="rightMargin">Generos<hi rend="sup">tis</hi> ac magnif. t.
-                    observantiss.<lb/>BALTHASAR CAMINAÆUS I. V. D. et professor publ.</p>
+                    commendata habe.</p> <closer><salute>Vale iterum.</salute> <dateline><placeName ref="Frankfurt an der Oder">Francofurto
+                        cis Viadrum</placeName> a. d. XII Martij Anno MDCI.</dateline>
+                    <signed>Generos<hi rend="sup">tis</hi> ac magnif. t.
+                    observantiss.<lb/><persName ref="caminaeus_balthasar_1613">BALTHASAR CAMINAÆUS</persName> I. V. D. et professor publ.</signed></closer>
             </div>
         </body>
     </text>

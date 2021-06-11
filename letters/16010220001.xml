@@ -58,7 +58,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 20. februar n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 20. februar n.s.</date><date xml:lang="en">1601, 20 February NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -73,6 +73,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -80,10 +81,10 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.399"/><pb ed="A" n="93v"/>NOBILITATE PERILLUSTRI ET
-                    ERUDITIONE PRÆSTANTISSIMO VIRO, D. TYCHONI BRAHE DANO, DOMINO DE KNUDSTRUP, ET
+                    ERUDITIONE PRÆSTANTISSIMO VIRO, D. <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> DANO, DOMINO DE KNUDSTRUP, ET
                     ARCIS URANIBURG IN INSULA HELLESPONTI DANICI HUÆNA FUNDATORI.</opener>
 
-                <p>CUM abs te nihil ad nos allatum sit post eas litteras, quas ad me scriptas D.
+                <p rend="noIndent">CUM abs te nihil ad nos allatum sit post eas litteras, quas ad me scriptas D.
                         <persName ref="sagredo_giovanni_francesco_1571">IOANNI FRANCISCO SAGREDO</persName> Patritio <placeName ref="Venezia">Veneto</placeName>
                     commendasti, ut ad me perferendas curaret, quibus ego et statim respondi
                     diligenter, eiusdem opera usus, ut ad te tuto transmitteretur, suspicari cœpi
@@ -156,11 +157,10 @@
                     multiplicandus, vel numerus mysticus ad optatum Eccentricitatis situm. Sed
                     pluribus alias, nunc vale, eruditissime vir, meque amantissimum tui, ac præter
                     omnes studiosissimum observantissimumque redamare non graveris. </p>
-                <p rend="indent">Datæ Mantuæ, in Aula Ducali, die Februarij, anno 1601.</p>
-                <lb/>
-                <p rend="rightMargin">Perillustri Dominationi tuæ
-                        addictissimus<lb/><persName>IOANNES ANTONIUS
-                    MAGINUS</persName>,<lb/>Patavinus.</p>
+                <closer><dateline>Datæ Mantuæ, in Aula Ducali, die Februarij, anno 1601.</dateline>
+                    <signed>Perillustri Dominationi tuæ
+                        addictissimus<lb/><persName><persName ref="magini_giovanni_antonio_1555">IOANNES ANTONIUS
+                    MAGINUS</persName></persName>,<lb/>Patavinus.</signed></closer>
             </div>
         </body>
     </text>

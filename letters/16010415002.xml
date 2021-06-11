@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <persName key="sturtz_christoph_1602">Christoph Sturtz</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 15. april n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 15. april n.s.</date><date xml:lang="en">1601, 15 April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,15 +79,16 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.415"/>TYCHO BRAHE AD <persName ref="sturtz_christoph_1602">CHRISTOPHORUM STURCIUM</persName>.</opener>
+                <opener><pb ed="TBOO" n="VIII.415"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="sturtz_christoph_1602">CHRISTOPHORUM STURCIUM</persName>.</opener>
 
-                <p><pb ed="A" n="176r"/>QUOD mihi per Magnificum Dn. D. <persName ref="godelmann_johann_georg_1559"
+                <p rend="noIndent"><pb ed="A" n="176r"/>QUOD mihi per Magnificum Dn. D. <persName ref="godelmann_johann_georg_1559"
                         >GÖDELMANNUM</persName> scripseris, Nobilis et eruditissime Domine D.
                     <persName ref="sturtz_christoph_1602">STURTZI</persName>, utut ego ob eius festinationem et meas tum temporis occupationes nihil
                     ad te literarum dederim, est cur tibi plurimas habeam gratias. Agnosco hinc tuum
@@ -135,10 +136,10 @@
                     nostra est etiam voluptas. Deus Opt. Max. conservet et prosperet Augustissimum
                     hunc Cæsarem <persName ref="rudolf_2_1552">RUDOLPHUM II</persName>, qui
                     nobis hæc ocia fecit. Quod superest, æviterno et omnipotenti Numini te et
-                    omnia tua commendo. Datæ ad <placeName ref="Praha">Pragam</placeName> ex novo
+                    omnia tua commendo.</p> <closer><dateline>Datæ ad <placeName ref="Praha">Pragam</placeName> ex novo
                     Uraniburgo Cæsareo, cuius inscriptionem mox subiungam, die Aprilis stylo novo
-                    Anno 1601.</p>
-                <p rend="indent">Subiungatur postea Epigramma inscriptionis.</p>
+                    Anno 1601.</dateline></closer>
+                <postscript><p rend="noIndent">Subiungatur postea Epigramma inscriptionis.</p></postscript>
             </div>
         </body>
     </text>

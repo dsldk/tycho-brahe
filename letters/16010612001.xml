@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Eberhard Schele</persName>
+                    <persName key="schele_eberhardt_1601">Eberhard Schele</persName>
                     <placeName>Aurich</placeName>
                     <date when="1601-06-12"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 12. juni</date></creation>
+            <creation><date xml:lang="da">1601, 12. juni.</date><date xml:lang="en">1601, 12 June.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,12 +86,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.408"/><pb ed="A" n="94v"/>NOBILISSIMO STRENUO ET
-                    MAGNIFICO VIRO TYCHONI BRAHEN DANO, SACRÆ CÆS. MATHEMATICO, IMO ET FAUTORI SUO
-                    MULTIS NOMINIBUS COLENDISSIMO.<lb/>PRAGA.</opener>
+                    MAGNIFICO VIRO <persName ref="brahe_tycho_1546">TYCHONI BRAHEN</persName> DANO, SACRÆ CÆS. MATHEMATICO, IMO ET FAUTORI SUO
+                    MULTIS NOMINIBUS COLENDISSIMO.<lb/>PRAGA.
 
-                <p><pb ed="A" n="93r"/>Εὖ ζῆν καὶ εὖ πράττειν.</p>
-                <lb/>
-                <p>QUANQUAM apud D. <persName ref="fabricius_david_1564">DAVIDEM FABRICIUM</persName> ad
+                <salute><pb ed="A" n="93r"/>Εὖ ζῆν καὶ εὖ πράττειν.</salute></opener>
+              
+                <p rend="noIndent">QUANQUAM apud D. <persName ref="fabricius_david_1564">DAVIDEM FABRICIUM</persName> ad
                     nobiliss. Mag<hi rend="sup">am</hi> T. scripserim de rebus omnibus, Nobiliss.
                     atque Mag<hi rend="sup">ce</hi> vir, Domine multis nominibus colende, quas quidem literas meas unâ
                     cum earundem latore, <persName ref="fabricius_david_1564">FABRICIO</persName>
@@ -109,8 +110,8 @@
                     maxume.</p>
                 <p rend="indent">Cæterum quid Sacræ <persName ref="rudolf_2_1552">Cæs. Ma<hi rend="sup"
                             >tis</hi></persName> Legatus et Consiliarius præcipuus D. <persName
-                        ref="Hanniwalt">HANNIWALT</persName> hîc rerum agat, quamque honorifice, ne
-                    dicam magnifice, ab Ill<hi rend="sup">ri</hi> et generoso principe meo <persName ref="Enno 3."
+                        ref="hanniwalt_andreas_1601">HANNIWALT</persName> hîc rerum agat, quamque honorifice, ne
+                    dicam magnifice, ab Ill<hi rend="sup">ri</hi> et generoso principe meo <persName ref="enno_3_1563"
                         >ENNONE</persName>, <placeName ref="Ostfriesland">Orient. Frisiæ</placeName> Comite, exceptus sit, et quæ porro Sacræ
                     <persName ref="rudolf_2_1552">Cæs. Ma<hi rend="sup">ti</hi></persName> ab Ill<hi rend="sup">ri</hi>
                     Cels. eius exspectanda sint officia atque servitia, meum non est perscribere,
@@ -130,18 +131,17 @@
                         ref="fabricius_david_1564">FABRICIO</persName> nostro hasce inclusas literas cum
                     salute uberrima tradere haud dedigneris. Utinam vero sit aliquid, in quo
                     nobiliss. Mag<hi rend="sup">æ</hi> T. vicissim gratificari possim, neque enim
-                    labori, vigilijs, studijs, sumptui parcerem. Vale vir nobiliss. atque Mag<hi
-                        rend="sup">ce</hi>. Scripta ex <placeName ref="Aurich">arce
+                    labori, vigilijs, studijs, sumptui parcerem.</p> <closer><salute>Vale vir nobiliss. atque Mag<hi
+                        rend="sup">ce</hi>.</salute> <dateline>Scripta ex <placeName ref="Aurich">arce
                         Auricana</placeName>
                     <placeName ref="Ostfriesland">Frisiæ Orientalis</placeName> pridie Eidus Iunij
-                    stilo veteri Anno postremi temporis Ch. 1601.</p>
-                <lb/>
-                <p rend="rightMargin">Nobiliss. Mag<hi rend="sup">æ</hi>
-                    T.<lb/>addictiss.<lb/>EBERARTUS SCHELE,<lb/>Orient. Frisiæ Secret.</p>
-                <lb/>
-                <p>Quæ hoc ipso die de occupatione propugnaculi ante Bergam ex Haga Comitis allata
+                    stilo veteri Anno postremi temporis Ch. 1601.</dateline>
+                    <signed>Nobiliss. Mag<hi rend="sup">æ</hi>
+                    T.<lb/>addictiss.<lb/><persName ref="schele_eberhardt_1601">EBERARTUS SCHELE</persName>,<lb/>Orient. Frisiæ Secret.</signed></closer>
+                
+                <postscript><p rend="noIndent">Quæ hoc ipso die de occupatione propugnaculi ante Bergam ex Haga Comitis allata
                     sunt nova, cum et incerta adhuc sint nec vobis ignota diu esse possint, lubens
-                    prætereo.</p>
+                    prætereo.</p></postscript>
 
             </div>
         </body>

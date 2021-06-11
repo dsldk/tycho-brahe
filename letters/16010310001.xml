@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,7 +58,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Christoph Sturt</persName>
+                    <persName key="sturtz_christoph_1602">Christoph Sturtz</persName>
                     <placeName>Rostock</placeName>
                     <date when="1601-03-10"/>
                     <note>n.s.</note>
@@ -64,7 +68,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 10. marts n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 10. marts n.s.</date><date xml:lang="en">1601, 10
+                    March NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,6 +84,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -86,40 +92,46 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.375"/><pb ed="A" n="82v"/>MAGNIFICO ET NOBILISSIMO
-                    VIRO, D. TICHONI BRAHE, MATHEMATICO <persName ref="rudolf_2_1552">S. C.
-                        MAIESTATIS</persName> EXCELLENTISSIMO, AMICO ET PATRONO PLURIMUM
-                    OBSERVANDO.</opener>
+                    VIRO, D. <persName ref="brahe_tycho_1546">TICHONI BRAHE</persName>, MATHEMATICO
+                        <persName ref="rudolf_2_1552">S. C. MAIESTATIS</persName> EXCELLENTISSIMO,
+                    AMICO ET PATRONO PLURIMUM OBSERVANDO. <salute><pb ed="A" n="82r"/>MAGNIFICE AC
+                        NOBILISSIME DOMINE <persName ref="brahe_tycho_1546">TICHO</persName>, AMICE
+                        HONORANDE. <lb/>S.</salute></opener>
 
-                <p><pb ed="A" n="82r"/>MAGNIFICE AC NOBILISSIME DOMINE TICHO, AMICE HONORANDE.
-                    <lb/>S.</p>
-                <lb/>
-                <p>CUM certa per magnificum Dominum <persName ref="Gödelmannn">IOANNEM GEORGIUM GODELMANNUM</persName> mihi scribendi
-                    occasio daretur, plenius scribendum duxi. Vivo, ut possum, quando iniquitas
-                    temporis et fortunæ maiora spectare non sinit. Calamitas belli Carolini
-                    oppressit meam patriam. Nam Dux <persName ref="karl_9_1550">CAROLUS</persName> totam fere occupavit <placeName ref="Livonia">Livoniam</placeName>. Sed qua
-                    felicitate, eventus docebit. Novisti illius tyranni dictum: aliena appetendo
-                    propria amisit. <persName ref="sigismund_3_vasa_1566">Rex</persName> statusque <placeName ref="Poland">Poloniæ</placeName> de bello per triennium magnis sumptibus
+                <p rend="noIndent">CUM certa per magnificum Dominum <persName ref="godelmann_johann_georg_1559"
+                        >IOANNEM GEORGIUM GODELMANNUM</persName> mihi scribendi occasio daretur,
+                    plenius scribendum duxi. Vivo, ut possum, quando iniquitas temporis et fortunæ
+                    maiora spectare non sinit. Calamitas belli Carolini oppressit meam patriam. Nam
+                    Dux <persName ref="karl_9_1550">CAROLUS</persName> totam fere occupavit
+                        <placeName ref="Livonia">Livoniam</placeName>. Sed qua felicitate, eventus
+                    docebit. Novisti illius tyranni dictum: aliena appetendo propria amisit.
+                        <persName ref="sigismund_3_vasa_1566">Rex</persName> statusque <placeName
+                        ref="Poland">Poloniæ</placeName> de bello per triennium magnis sumptibus
                     gerendo in Comitijs convenerunt. Funesta ergo omnia in mea patria sunt. Quanta
                     interim animi virtute et constantia opus sit mihi, facile intelligis, qui et
                     bonis omnibus et maximis sumptibus propterea factis excidi. Spem tamen reliquam
                     in DEI auxilio fixam habeo, fore ut postquam nubila et turbulenta ista tempora
                     transierunt, pax florentissima et quies nobis restituatur. Interim tu me
                     benevolentia et fide prosequaris singulari velim.</p>
-                <p rend="indent">Quæ ad D. <persName ref="chytraeus_david_1530">CHYTRÆUM</persName> de tuæ vitæ historia scripsisti, heredes eius mihi
-                    tradiderunt, quæ plene meis historicis meditationibus inseram, nec alia tui
-                    ornandi argumenta omittam. Nam te virum bonum et vere syncerum cognovi, quæ
-                    virtutes profecto pulcherrimam istam artem tuam, in qua præcellis, elegantissime
-                    illuminant. Quod vero tardius liber meus historiarum prodit, multa in causa
-                    sunt, quia et initium cuiusque rei grave est, et veritatem sequi in omnibus hoc
-                    seculo scis quam sit periculosum. Deinde alijs adhuc occupor elaborandis. Mox tamen lucem videbunt, ubi meo genio ita visum fuerit. Vale interim, vir
-                    optime, et magnam salutem tuos domesticos meo nomine imperti. Datæ Rostochio 10
-                    die Martij A. 1601.</p>
-                <lb/>
-                <p rend="rightMargin">Tui amantiss.<lb/><persName ref="sturtz_christoph_1602">CHRISTOPH.
-                        STURCIUS</persName>.</p>
-                <lb/>
-                <p>Orationem de <persName ref="sigismund_august_1560">SIGIS. AUG.</persName> B. M. a me
-                    habitam adiungo.</p>
+                <p rend="indent">Quæ ad D. <persName ref="chytraeus_david_1530">CHYTRÆUM</persName>
+                    de tuæ vitæ historia scripsisti, heredes eius mihi tradiderunt, quæ plene meis
+                    historicis meditationibus inseram, nec alia tui ornandi argumenta omittam. Nam
+                    te virum bonum et vere syncerum cognovi, quæ virtutes profecto pulcherrimam
+                    istam artem tuam, in qua præcellis, elegantissime illuminant. Quod vero tardius
+                    liber meus historiarum prodit, multa in causa sunt, quia et initium cuiusque rei
+                    grave est, et veritatem sequi in omnibus hoc seculo scis quam sit periculosum.
+                    Deinde alijs adhuc occupor elaborandis. Mox tamen lucem videbunt, ubi meo genio
+                    ita visum fuerit.</p>
+                <closer><salute>Vale interim, vir optime, et magnam salutem tuos domesticos meo
+                        nomine imperti.</salute>
+                    <dateline>Datæ Rostochio 10 die Martij A. 1601.</dateline>
+                    <signed>Tui amantiss.<lb/><persName ref="sturtz_christoph_1602">CHRISTOPH.
+                            STURCIUS</persName>.</signed></closer>
+
+                <postscript>
+                    <p>Orationem de <persName ref="sigismund_august_1560">SIGIS. AUG.</persName> B.
+                        M. a me habitam adiungo.</p>
+                </postscript>
             </div>
         </body>
     </text>

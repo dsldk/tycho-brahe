@@ -54,7 +54,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Georg Rollenhagen</persName>
+                    <persName key="rollenhagen_georg_1542">Georg Rollenhagen</persName>
                     <placeName>s.l.</placeName>
                     <date when="1601-01-15"/>
                 </correspAction>
@@ -63,7 +63,7 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 15. maj</date></creation>
+            <creation><date xml:lang="da">1601, 15. maj.</date><date xml:lang="en">1601, 15 May.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,6 +78,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-07" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -85,13 +86,12 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.429"/><pb ed="A" n="92v"/>GENEROSA NOBILITATE ET
-                    POLITIORIBUS LITERIS CLARISSIMO VIRO D. TYCHONI BRAHÆO DOMINO IN KNUTSTORFF ET
+                    POLITIORIBUS LITERIS CLARISSIMO VIRO D. <persName ref="brahe_tycho_1546">TYCHONI BRAHÆO</persName> DOMINO IN KNUTSTORFF ET
                     CÆSAREÆ MAIESTATIS CONSILIARIO ET MATHEMATICO EXCELLENTISSIMO DOMINO ET AMICO
                     SUO.</opener>
 
-                <p><pb ed="A" n="91r"/>S.</p>
-                <lb/>
-                <p>CUM ad me ex itinere suo, quod ad te instituerat, Generose et Doctiss. D. TYCHO,
+                <p rend="indent"><pb ed="A" n="91r"/>S.</p>
+                <p rend="noIndent">CUM ad me ex itinere suo, quod ad te instituerat, Generose et Doctiss. D. TYCHO,
                     divertisset optimus vir <persName ref="fabricius_david_1564">DAVID
                         FABRICIUS</persName>, et non modo tua studia, ut merentur, crebris
                     sermonibus commendaret, sed observationes quoque suas coram ostenderet, dolui
@@ -105,30 +105,29 @@
                         ref="rudolf_2_1552">Cæsarios</persName> et autoritatem in plures partes
                     distrahat. Ne dicam de nuncio <placeName ref="Netherlands">Belgico</placeName>, in quam terram iam redijt exercitus
                     <placeName ref="Spain">Hispanicus</placeName>. Ab altera parte redit <placeName ref="Turkey">Turca</placeName>. Domine, serva nos, perimus.</p>
-                <p rend="indent">Favorem <persName ref="Raitenau">Episcopi Saltzburgensis</persName> tibi ex animo gratulor, utinam
+                <p rend="indent">Favorem <persName ref="raitenau_wolf_dietrich_von_1559">Episcopi Saltzburgensis</persName> tibi ex animo gratulor, utinam
                     plures adducat tibi suffragantes, <pb ed="A" n="1v"/>ut tandem utilissimos tuos
                     labores ad umbilicum deducas.</p>
-                <p rend="indent">De prognostico, quod <persName ref="Heinrich Julius">HENRICUS
+                <p rend="indent">De prognostico, quod <persName ref="heinrich_julius_1564">HENRICUS
                         IULIUS</persName> de se usurpare dicitur, iam olim audivi doctorem
-                    <persName ref="Megabacchus">MEGABACCHUM</persName>, <persName ref="Rothius">ROTHIUM</persName> et alios, qui a me existimabant esse profectum. Sed neque
+                    <persName ref="megabacchus_1601">MEGABACCHUM</persName>, <persName ref="rothius_1601">ROTHIUM</persName> et alios, qui a me existimabant esse profectum. Sed neque
                     ego hoc dixi aut scripsi <pb ed="TBOO" n="VIII.421"/>unquam, neque ab ipso
-                    audivi. Hoc autem dicere solet <persName ref="Garcaeus">GARCÆUM</persName> prædixisse, aliquando se præclaram ex
+                    audivi. Hoc autem dicere solet <persName ref="garcaeus_johannes_1530">GARCÆUM</persName> prædixisse, aliquando se præclaram ex
                     bello victoriam relaturum esse, itaque ad bella esse animosiorem. Quod negavi
                     ego ex fontibus, quos epistola tua allegat. Et si possem, in viam potius pacis
                     reducerem, quam ut currentem instigarem. Sed fertur equis auriga, nec audit
                     currus habenas.</p>
                 <p rend="indent">Spero me propediem in aulam venturum ad consultationem de vocando
-                    Theologo in locum <persName ref="Hofmann, teolog">HOFMANNI</persName>. Ibi, ut decet, privatim de tua pro eius salute
+                    Theologo in locum <persName ref="hofmann_1601">HOFMANNI</persName>. Ibi, ut decet, privatim de tua pro eius salute
                     solicitudine, et commoditate negociorum apud <persName ref="rudolf_2_1552">Cæsarem</persName> privatim expediendorum,
-                    movebo fideliter omnia. Et rescribam. Bene et quam diutissime vale. 15 Maij
-                    1601.</p>
-                <lb/>
-                <p rend="rightMargin">Tuæ Gen. N.<lb/>addictiss.<lb/><persName ref="rollenhagen_georg_1542"
-                        >GEORGIUS ROLLENHAGEN</persName>.</p>
-                <lb/>
-                <p><persName ref="Heinrich Julius">HENR. IULIUS</persName> natus est 1564, 14 Octobris, 17 hora P. M. in arce <hi rend="it"
-                        >Hessen</hi>. Hoc tempus <persName ref="Garcaeus">GARCÆUS</persName>
-                    corrupit per falsissimam <persName ref="Hermes Trismegistos">HERMETIS</persName> trutinam et correctiones similes.</p>
+                    movebo fideliter omnia. Et rescribam.</p> <closer><salute>Bene et quam diutissime vale.</salute> <dateline>15 Maij
+                    1601.</dateline>
+                    <signed>Tuæ Gen. N.<lb/>addictiss.<lb/><persName ref="rollenhagen_georg_1542"
+                        >GEORGIUS ROLLENHAGEN</persName>.</signed></closer>
+                
+                <postscript><p><persName ref="heinrich_julius_1564">HENR. IULIUS</persName> natus est 1564, 14 Octobris, 17 hora P. M. in arce <hi rend="it"
+                        >Hessen</hi>. Hoc tempus <persName ref="garcaeus_johannes_1530">GARCÆUS</persName>
+                    corrupit per falsissimam <persName ref="hermes_trismegistos_0000">HERMETIS</persName> trutinam et correctiones similes.</p></postscript>
             </div>
         </body>
     </text>

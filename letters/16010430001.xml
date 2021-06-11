@@ -62,11 +62,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>ferdinando de&#x2019; Medici</persName>
+                    <persName key="medici_fernando_1549">fernando de&#x2019; Medici</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 30. april n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 30. april n.s.</date><date xml:lang="en">1601, 30 April NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -90,10 +90,10 @@
                 <opener><pb ed="TBOO" n="VIII.408"/><pb ed="A" n="8v"/>SERENISSIMO ET POTENTISSIMO
                     PRINCIPI AC DOMINO, DOMINO <persName ref="medici_fernando_1549">FERDINANDO</persName>
                     MAGNO DUCI ETRURIÆ ETC. DOMINO SUO CLEMENTISSIMO. <placeName ref="Firenze"
-                            ><foreign xml:lang="de"><hi ref="it"
+                            ><foreign xml:lang="de"><hi rend="it"
                         >FLORENTZ.</hi></foreign></placeName></opener>
 
-                <p><pb ed="A" n="7r"/>AD Serenissimam Celsitudinem Vestram ante Anni quadrantem per
+                <p rend="noIndent"><pb ed="A" n="7r"/>AD Serenissimam Celsitudinem Vestram ante Anni quadrantem per
                         <persName ref="brahe_tyge_1581">Filium meum</persName> natu maiorem,
                     Legationem <placeName ref="Persia">Persicam</placeName> in <placeName
                         ref="Italy">Italiam</placeName> comitantem, submisse dedi literas, quas
@@ -183,11 +183,10 @@
                     modo accepta esse queant, utatur me perpetuo <pb ed="TBOO" n="VIII.420"/>tanquam
                     suo servitore fideli et obsequentissimo. DEUS Opt. Max. Serenis. Cels<hi
                         rend="sup">nem</hi> V<hi rend="sup">am</hi> Reipub. tam politicæ quam
-                    literariæ bono per multos Annos incolumem et prosperam florere faciat. Dabantur
-                        <placeName ref="Praha">Pragæ</placeName> 30 die Aprilis Anno 1601.</p>
-                <lb/>
-                <p rend="rightMargin">Serenissimæ Celsitudinis Vestræ<lb/>Reverenter et
-                    submisse<lb/>addictissimus<lb/>TYCHO BRAHE,<lb/>manu propria scripsi.</p>
+                    literariæ bono per multos Annos incolumem et prosperam florere faciat.</p> <closer><dateline>Dabantur
+                        <placeName ref="Praha">Pragæ</placeName> 30 die Aprilis Anno 1601.</dateline>
+                    <signed>Serenissimæ Celsitudinis Vestræ<lb/>Reverenter et
+                        submisse<lb/>addictissimus<lb/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria scripsi.</signed></closer>
             </div>
         </body>
     </text>

@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -54,7 +58,7 @@
         <profileDesc>
             <correspDesc>
                 <correspAction type="sent">
-                    <persName>Cristophorus Henniochus</persName>
+                    <persName key="heniochus_christophorus_1599">Cristophorus Henniochus</persName>
                     <placeName>Rostock</placeName>
                     <date when="1601-03-31"/>
                 </correspAction>
@@ -63,7 +67,8 @@
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 31. marts</date></creation>
+            <creation><date xml:lang="da">1601, 31. marts.</date><date xml:lang="en">1601, 31
+                    March.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -78,68 +83,86 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.407"/><pb ed="A" n="88v"/>MAGNIFICO ET GENEROSO DOMINO D.
-                    TYCHONI BRAHÆ, DOMINO HÆREDITARIO IN KNUSTORPFF ET HEERESWART, CÆSAREÆ MAIESTATIS
-                    CONSILIARIO DIGNISSIMO, AMICO SUO ET DOMINO SUMMA OBSERVANTIA COLENDO. </opener>
+                <opener><pb ed="TBOO" n="VIII.407"/><pb ed="A" n="88v"/>MAGNIFICO ET GENEROSO DOMINO
+                    D. <persName ref="brahe_tycho_1546">TYCHONI BRAHÆ</persName>, DOMINO HÆREDITARIO
+                    IN KNUSTORPFF ET HEERESWART, CÆSAREÆ MAIESTATIS CONSILIARIO DIGNISSIMO, AMICO
+                    SUO ET DOMINO SUMMA OBSERVANTIA COLENDO. </opener>
 
-                <p><pb ed="A" n="87r"/>S. P.</p>
-                <lb/>
-                <p>OCCASIONE oblata intermittere non debui, quin aliquid literarum ad te, Magnifice
-                    Dom. TYCHO, darem, et quidem per eundem, quem ipse præsentem aliquoties cupivisti,
-                    quo etiam hisce in locis exercitatiorem sphagirum nescimus. Novissimæ tuæ
-                    literæ sunt quas misisti per <persName ref="mule_claus_1575">NICOLAUM MAUL</persName>
-                    quondam domesticum tuum, in quibus etiam quæ ad grammatophorum expedienda
-                    præcepisti exequutus sum.</p>
+                <p rend="indent"><pb ed="A" n="87r"/>S. P.</p>
+                <p rend="noIndent">OCCASIONE oblata intermittere non debui, quin aliquid literarum
+                    ad te, Magnifice Dom. TYCHO, darem, et quidem per eundem, quem ipse præsentem
+                    aliquoties cupivisti, quo etiam hisce in locis exercitatiorem sphagirum
+                    nescimus. Novissimæ tuæ literæ sunt quas misisti per <persName
+                        ref="mule_claus_1575">NICOLAUM MAUL</persName> quondam domesticum tuum, in
+                    quibus etiam quæ ad grammatophorum expedienda præcepisti exequutus sum.</p>
                 <p rend="indent">Quoad Politicum statum omnia apud nos sunt tranquilla, nihilominus
                     tamen multæ gliscunt inter magnos dominos, principes et reges simultates, quæ
                     bellorum semina et initia esse solent. Inter <persName ref="karl_9_1550"
-                        >CAROLUM</persName> <placeName ref="Sweden">Sueciæ</placeName> nunc protectorem et urbem <placeName ref="Lübeck"
-                        >Lubecam</placeName> quomodo convenit, te non latet, quod negocium nondum
-                    est consopitum, licet Lubecenses multum in eo laboraverint. Comitia <placeName ref="Poland">Polonica</placeName>
-                    nuper <placeName ref="Warszawa">Warsoviæ</placeName>, quo et <placeName ref="Brandenburg">Brandenburgicus</placeName> <persName ref="joachim_friedrich_1546">Elector</persName>, adiunctis in adsistentiam
-                        <persName ref="Chrisian 4.">Regis</persName>
+                        >CAROLUM</persName>
+                    <placeName ref="Sweden">Sueciæ</placeName> nunc protectorem et urbem <placeName
+                        ref="Lübeck">Lubecam</placeName> quomodo convenit, te non latet, quod
+                    negocium nondum est consopitum, licet Lubecenses multum in eo laboraverint.
+                    Comitia <placeName ref="Poland">Polonica</placeName> nuper <placeName
+                        ref="Warszawa">Warsoviæ</placeName>, quo et <placeName ref="Brandenburg"
+                        >Brandenburgicus</placeName>
+                    <persName ref="joachim_friedrich_1546">Elector</persName>, adiunctis in
+                    adsistentiam <persName ref="chrisian_4_1577">Regis</persName>
                     <placeName ref="Denmark">Daniæ</placeName>, nostri principis et nonnullorum
-                    aliorum, petitum successionem in Feudum <placeName ref="Preussen">Brutenicum</placeName>, legatos miserat,
-                    celebrabantur, quod denegatum illi esse intelligo, nisi <persName ref="sigismund_3_vasa_1566">regem</persName> Poloniæ, Suecia
-                    nunc privatum, postliminum regem fieri opitulentur. In dictis etiam Comitijs
-                    <placeName ref="Poland">Poloni</placeName> hostes suos, ut fertur, declararunt, <persName ref="karl_9_1550"
-                        >CAROLUM</persName> Sueciæ, qui iam dudum bellum in <placeName ref="Livonia">Livonia</placeName> Polonis intulit,
-                    et eousque progressus <pb ed="A" n="87v"/>est in <placeName ref="Livonia"
-                        >Livonia</placeName>, ut Polonis ibidem nihil restet præter <placeName ref="Riga">Rigam</placeName>. Et
-                    meo quidem iudicio hoc bellum non solum ad <persName ref="karl_9_1550"
-                        >CAROLUM</persName> pertinere videtur, nisi temeritatis sibi hocipso vitium
-                    attrahat. Alter hostis Polonorum dictus est Magnus dux <placeName ref="Russia"
-                        >Moscoviæ</placeName>, tertius vero <placeName ref="Wallachia">Walachiæ</placeName> Waiwoda. Utrum tot hostibus
-                    Poloni simul stare poterint, eventus docebit. In <placeName ref="Netherlands">Belgico</placeName> magnus est apparatus
-                    iterum belli præfixi: <persName ref="Albrecht 7. ">ALBERTUS</persName> dux
-                    Austriæ exercitum ducet in <placeName ref="Holland">Hollandiam</placeName>. Hollandici status non segnius vim eius
-                    aversari moliuntur. Æstas futura absque Tragedijs magnis non præteribit, uti
-                    præsens est forma rerum. Rex <placeName ref="Portugal">Portugaliæ</placeName><!-- SE SEBASTIANISM i wikipedia! -->
-                    <persName ref="Sebastian">SEBASTIANUS</persName> in conflictu <placeName ref="Africa">Africano</placeName> amissus, nunc redivivus, ab <placeName
+                    aliorum, petitum successionem in Feudum <placeName ref="Preussen"
+                        >Brutenicum</placeName>, legatos miserat, celebrabantur, quod denegatum illi
+                    esse intelligo, nisi <persName ref="sigismund_3_vasa_1566">regem</persName>
+                    Poloniæ, Suecia nunc privatum, postliminum regem fieri opitulentur. In dictis
+                    etiam Comitijs <placeName ref="Poland">Poloni</placeName> hostes suos, ut
+                    fertur, declararunt, <persName ref="karl_9_1550">CAROLUM</persName> Sueciæ, qui
+                    iam dudum bellum in <placeName ref="Livonia">Livonia</placeName> Polonis
+                    intulit, et eousque progressus <pb ed="A" n="87v"/>est in <placeName
+                        ref="Livonia">Livonia</placeName>, ut Polonis ibidem nihil restet præter
+                        <placeName ref="Riga">Rigam</placeName>. Et meo quidem iudicio hoc bellum
+                    non solum ad <persName ref="karl_9_1550">CAROLUM</persName> pertinere videtur,
+                    nisi temeritatis sibi hocipso vitium attrahat. Alter hostis Polonorum dictus est
+                    Magnus dux <placeName ref="Russia">Moscoviæ</placeName>, tertius vero <placeName
+                        ref="Wallachia">Walachiæ</placeName> Waiwoda. Utrum tot hostibus Poloni
+                    simul stare poterint, eventus docebit. In <placeName ref="Netherlands"
+                        >Belgico</placeName> magnus est apparatus iterum belli præfixi: <persName
+                        ref="albrecht_7_1559">ALBERTUS</persName> dux Austriæ exercitum ducet in
+                        <placeName ref="Holland">Hollandiam</placeName>. Hollandici status non
+                    segnius vim eius aversari moliuntur. Æstas futura absque Tragedijs magnis non
+                    præteribit, uti præsens est forma rerum. Rex <placeName ref="Portugal"
+                        >Portugaliæ</placeName><!-- SE SEBASTIANISM i wikipedia! -->
+                    <persName ref="sebastian_1_1554">SEBASTIANUS</persName> in conflictu <placeName
+                        ref="Africa">Africano</placeName> amissus, nunc redivivus, ab <placeName
                         ref="Spain">Hispano</placeName> non agnoscitur, a suis vero affectatur, qui
-                    exutus regno apud <persName ref="Henri 4. ">Regem</persName> <placeName ref="France">Galliæ</placeName> hospitio fruitur. Proh deum, quanta Metamorphosis
-                    ista! <persName ref="Essex">EXSECCIUS</persName> Comes <pb ed="TBOO" n="VIII.408"/>Angliæ et successor Reginæ in
-                    regno hactenus muscitatus, ante biennium a Regina in Irlandiam cum Classe
-                    Nautica missus, ob rem non satis fideliter, ut accusatur, gestam, in Parlamento
-                    damnatus, et captivus de vita periclitatur. In Patria tua Regno <placeName
-                        ref="Denmark">Daniæ</placeName> cura et expensis <persName ref="christian_4_1577">Regis</persName> nonnulla fortalitia
-                    et Castella, ut vocant, exstruuntur, nec non in <placeName ref="Gotland">Gothlandia</placeName> idem fit. <placeName ref="Hungary">Ungarica</placeName> a
-                    nobis non expectabis, quin potius quid rerum ibi agitur, a te perdiscere
-                    cupimus. Hæc per occationem <pb ed="A" n="88r"/>ad te pervenire volui. Vale, ut
-                    bene etiam sit tuis. Datæ <placeName ref="Rostock">Rostochij</placeName> 21 Martij anni 1601.</p>
-                <lb/>
-                <p rend="rightMargin">T. Mag. observantiss.<lb/>CHRISTOPHO. HENNIOCHUS Med.</p>
-                <lb/>
-                <p>Dux <placeName ref="Braunschweig">Brunsuiccensis</placeName> civitati denuo commeatum intercipit, nec ulla ratione
-                    placabilis dicitur, inter quos, missis et datis a <persName ref="rudolf_2_1552"
-                        >Cæsarea Maiestate</persName> commissarijs, nuper frustra de pace tractatum
-                    esse, notum est. </p>
+                    exutus regno apud <persName ref="henri_4_1553">Regem</persName>
+                    <placeName ref="France">Galliæ</placeName> hospitio fruitur. Proh deum, quanta
+                    Metamorphosis ista! <persName ref="devereux_robert_1567">EXSECCIUS</persName> Comes <pb
+                        ed="TBOO" n="VIII.408"/>Angliæ et successor Reginæ in regno hactenus
+                    muscitatus, ante biennium a Regina in Irlandiam cum Classe Nautica missus, ob
+                    rem non satis fideliter, ut accusatur, gestam, in Parlamento damnatus, et
+                    captivus de vita periclitatur. In Patria tua Regno <placeName ref="Denmark"
+                        >Daniæ</placeName> cura et expensis <persName ref="christian_4_1577"
+                        >Regis</persName> nonnulla fortalitia et Castella, ut vocant, exstruuntur,
+                    nec non in <placeName ref="Gotland">Gothlandia</placeName> idem fit. <placeName
+                        ref="Hungary">Ungarica</placeName> a nobis non expectabis, quin potius quid
+                    rerum ibi agitur, a te perdiscere cupimus. Hæc per occationem <pb ed="A" n="88r"
+                    />ad te pervenire volui.</p>
+                <closer><salute>Vale, ut bene etiam sit tuis.</salute>
+                    <dateline>Datæ <placeName ref="Rostock">Rostochij</placeName> 21 Martij anni
+                        1601.</dateline>
+                    <signed>T. Mag. observantiss.<lb/><persName ref="heniochus_christophorus_1599"
+                            >CHRISTOPHO. HENNIOCHUS</persName> Med.</signed></closer>
+                <postscript>
+                    <p>Dux <placeName ref="Braunschweig">Brunsuiccensis</placeName> civitati denuo
+                        commeatum intercipit, nec ulla ratione placabilis dicitur, inter quos,
+                        missis et datis a <persName ref="rudolf_2_1552">Cæsarea Maiestate</persName>
+                        commissarijs, nuper frustra de pace tractatum esse, notum est. </p>
+                </postscript>
             </div>
         </body>
     </text>

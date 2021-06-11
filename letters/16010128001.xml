@@ -13,20 +13,24 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-		<publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
-		<publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2020</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -48,15 +52,17 @@
             <correspDesc>
                 <correspAction type="sent">
                     <persName key="brahe_tycho_1546">Tycho Brahe</persName>
-                    <placeName xml:lang="da">Prag</placeName><placeName xml:lang="en">Prague</placeName>
+                    <placeName xml:lang="da">Prag</placeName>
+                    <placeName xml:lang="en">Prague</placeName>
                     <date when="1601-01-28"/>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Ferdinando de&#x2019; Medici</persName>
+                    <persName key="medici_fernando_1549">Fernando de&#x2019; Medici</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 28. januar</date></creation>
+            <creation><date xml:lang="da">1601, 28. januar n.s.</date><date xml:lang="en">1601, 28
+                    January NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -71,6 +77,7 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-05" who="#pz">Filen etableret</change>
+            <change when="2019-06-10" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
@@ -78,37 +85,39 @@
         <body>
             <div>
                 <opener><pb ed="TBOO" n="VIII.398"/>SERENISSIMO ET POTENTISSIMO PRINCIPI AC DOMINO,
-                    DOMINO <persName ref="medici_fernando_1549">FERDINANDO</persName>, MAGNO DUCI ETRURIÆ ETC.
-                    DOMINO SUO CLEMENTISSIMO.</opener>
-
-                <p>SERENISSIME ET POTENTISSIME PRINCEPS, DOMINE CLEMENTISSIME.</p>
-                <p>CUM magni <placeName ref="Persia">Persarum</placeName> Regis amplissima Legatio, quæ hîc aliquandiu apud Sacram
-                        <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName>, Dominum meum
-                    Clementissimum, morata est, nunc in <placeName ref="Italy">Italiam</placeName>
-                    cogitet, et antequam <placeName ref="Roma">Romam</placeName> venerit, Serenissimam Celsitudinem Tuam in <placeName ref="Toscana">Etruria</placeName>
-                    sua salutare, et quæ in mandatis habet, eidem reverenter exponere constituerit,
-                    mei officij esse ratus sum, Serenissimam Celsitudinem Tuam de <persName
-                        ref="tengnagel_frans_1576">TENGNAGLIO</persName> nostro clementissime bene meritam
-                    hisce literulis submisse compellare, præsertim cum Legationis eius antesignanum,
-                    Illustrissimum Dominum <persName ref="Scherleus">AMMONIUM SCHERLEJ</persName>,
-                    natione Anglum, filius meus natu maior, <persName ref="brahe_tyge_1581"
-                        >TYCHO</persName> nomine, comitetur. Est autem ille idem filius, quem antea
-                    in Serenissimæ Celsitudinis Vestræ Aula aliquandiu servire exoptâram, nisi
-                    obstacula quædam intervenissent, quæ attingere supervacaneum. Tradidissem illi
-                    Opera, quæ hactenus in Astronomicis elucubravi, secum adsportanda, prout
-                    Serenissima Celsitudo Vestra aliquando clementissimis suis ad me literis
-                    expetijt, nisi quædam in singulis ferme adhuc desiderarentur, typographico
-                    labore necdum absoluto. Quod ubi effectum, Serenissimæ Celsitudinis Vestræ
-                    Clementissimæ voluntati demisse et lubentissime obsecundabo.</p>
+                    DOMINO <persName ref="medici_fernando_1549">FERDINANDO</persName>, MAGNO DUCI
+                    ETRURIÆ ETC. DOMINO SUO CLEMENTISSIMO. <salute>SERENISSIME ET POTENTISSIME
+                        PRINCEPS, DOMINE CLEMENTISSIME.</salute></opener>
+                <p rend="noIndent">CUM magni <placeName ref="Persia">Persarum</placeName> Regis
+                    amplissima Legatio, quæ hîc aliquandiu apud Sacram <persName ref="rudolf_2_1552"
+                        >Cæsaream Maiestatem</persName>, Dominum meum Clementissimum, morata est,
+                    nunc in <placeName ref="Italy">Italiam</placeName> cogitet, et antequam
+                        <placeName ref="Roma">Romam</placeName> venerit, Serenissimam Celsitudinem
+                    Tuam in <placeName ref="Toscana">Etruria</placeName> sua salutare, et quæ in
+                    mandatis habet, eidem reverenter exponere constituerit, mei officij esse ratus
+                    sum, Serenissimam Celsitudinem Tuam de <persName ref="tengnagel_frans_1576"
+                        >TENGNAGLIO</persName> nostro clementissime bene meritam hisce literulis
+                    submisse compellare, præsertim cum Legationis eius antesignanum, Illustrissimum
+                    Dominum <persName ref="shirley_antony_1565">AMMONIUM SCHERLEJ</persName>, natione Anglum,
+                    filius meus natu maior, <persName ref="brahe_tyge_1581">TYCHO</persName> nomine,
+                    comitetur. Est autem ille idem filius, quem antea in Serenissimæ Celsitudinis
+                    Vestræ Aula aliquandiu servire exoptâram, nisi obstacula quædam intervenissent,
+                    quæ attingere supervacaneum. Tradidissem illi Opera, quæ hactenus in
+                    Astronomicis elucubravi, secum adsportanda, prout Serenissima Celsitudo Vestra
+                    aliquando clementissimis suis ad me literis expetijt, nisi quædam in singulis
+                    ferme adhuc desiderarentur, typographico labore necdum absoluto. Quod ubi
+                    effectum, Serenissimæ Celsitudinis Vestræ Clementissimæ voluntati demisse et
+                    lubentissime obsecundabo.</p>
                 <p rend="indent"><pb ed="TBOO" n="VIII.399"/>Remoram nonnullam, quo minus illa ad
                     Colophonem deducta sint, iniecit migratio mea ex Arce prioris habitationis
-                    <placeName ref="Benatky">Bennatica</placeName> huc <placeName ref="Praha">Pragam</placeName>, sic clementissime
-                    mandante <persName ref="rudolf_2_1552">Cæsarea Maiestate</persName>, quo propior ei
-                    factus, humillima mea servitia ipsius Maiestati promptius præstare possem,
-                    allatis etiam huc omnibus Instrumentis Astronomicis, quibus antea in <placeName
-                        ref="Denmark">Dania</placeName> Patria mea usus sum, quæ numero sunt 28,
-                    ijsdemque in domo quadam ampla et magnifice, Italica architectura, non longe ab
-                    Arce iuxta <persName ref="rudolf_2_1552">Cæsaris</persName> hortum extructa, ordine
+                        <placeName ref="Benatky">Bennatica</placeName> huc <placeName ref="Praha"
+                        >Pragam</placeName>, sic clementissime mandante <persName
+                        ref="rudolf_2_1552">Cæsarea Maiestate</persName>, quo propior ei factus,
+                    humillima mea servitia ipsius Maiestati promptius præstare possem, allatis etiam
+                    huc omnibus Instrumentis Astronomicis, quibus antea in <placeName ref="Denmark"
+                        >Dania</placeName> Patria mea usus sum, quæ numero sunt 28, ijsdemque in
+                    domo quadam ampla et magnifice, Italica architectura, non longe ab Arce iuxta
+                        <persName ref="rudolf_2_1552">Cæsaris</persName> hortum extructa, ordine
                     dispositis, donec in locum quendam usui eorum aptiorem, a <persName
                         ref="rudolf_2_1552">Cæsarea Maiestate</persName> clementissime deputatum,
                     transferantur. Quod et brevius futurum spero. Idque Serenissimæ Celsitudini
@@ -118,11 +127,10 @@
                     solummodo addens et humillime rogans, ut Serenissima Celsitudo Vestra prædictum
                         <persName ref="brahe_tyge_1581">filium meum</persName> sibi commendatum
                     habere non dedignetur, Deus Opt. Max. Serenissimam Celsitudinem Vestram
-                    Reipublicæ emolumento quam diutissime servet florentem et incolumem. <placeName
-                        ref="Praha">Praga</placeName> die 28 Ianuarij Anno 1601.</p>
-                <lb/>
-                <p rend="rightMargin">Serenissimæ Celsitudini Vestræ<lb/>submisse
-                    addictissimus<lb/>TYCHO BRAHE,<lb/>manu propria scripsi.</p>
+                    Reipublicæ emolumento quam diutissime servet florentem et incolumem.</p>
+                <closer><dateline><placeName ref="Praha">Praga</placeName> die 28 Ianuarij Anno
+                        1601.</dateline><signed>Serenissimæ Celsitudini Vestræ<lb/>submisse
+                        addictissimus<lb/>TYCHO BRAHE,<lb/>manu propria scripsi.</signed></closer>
             </div>
         </body>
     </text>

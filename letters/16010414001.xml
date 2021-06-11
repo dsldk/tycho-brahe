@@ -60,11 +60,11 @@
                     <note>n.s.</note>
                 </correspAction>
                 <correspAction type="received">
-                    <persName>Martin Brasch</persName>
+                    <persName key="brasch_martin_1565">Martin Brasch</persName>
                     <placeName>empty</placeName>
                 </correspAction>
             </correspDesc>
-            <creation><date>1601, 14. april n.s.</date></creation>
+            <creation><date xml:lang="da">1601, 14. april n.s.</date><date xml:lang="en">1601, 14 april NS.</date></creation>
             <langUsage>
                 <language ident="la"/>
             </langUsage>
@@ -79,17 +79,18 @@
         </profileDesc>
         <revisionDesc>
             <change when="2020-02-06" who="#pz">Filen etableret</change>
+            <change when="2019-06-11" who="#pz">Filen revideret</change>
         </revisionDesc>
     </teiHeader>
     <text>
         <front/>
         <body>
             <div>
-                <opener><pb ed="TBOO" n="VIII.410"/>TYCHO BRAHE AD <persName ref="brasch_martin_1565"
+                <opener><pb ed="TBOO" n="VIII.410"/><persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="brasch_martin_1565"
                         >MARTINUM BRASCHIUM</persName>.</opener>
 
-                <p><pb ed="A" n="169r"/>NULLA tui oblivione nec mea negligentia accidit,
-                    eruditissime Domine <persName ref="Branschius">BRASCHI</persName>, quod Mag.
+                <p rend="noIndent"><pb ed="A" n="169r"/>NULLA tui oblivione nec mea negligentia accidit,
+                    eruditissime Domine <persName ref="brasch_martin_1565">BRASCHI</persName>, quod Mag.
                     Dominus <persName ref="godelmann_johann_georg_1559">GÖDELLMANNUS</persName>, Legatum hîc agens
                     Saxonicum, sine meo ad te responso <placeName ref="Rostock"
                         >Rostochium</placeName> venerit. Iam enim illud inchoatum erat, sed is mea
@@ -133,7 +134,7 @@
                 <p rend="center"><pb ed="A" n="170r"/>HISTORIA ILLUSTRIUM ASTRONOMORUM INDE A MUNDI
                     EXORDIO AD NOSTRUM ÆVUM HEROICO CARMINE CONCINNATA.</p>
                 <p>NON placet in primo carmine <hi rend="it">radioque potentes</hi>, nam licet apud
-                        <persName ref="Vergil">VIRGILIUM</persName> sit <hi rend="it">Descripsit
+                        <persName ref="vergil_0070">VIRGILIUM</persName> sit <hi rend="it">Descripsit
                         radio</hi>, tamen hoc verbum <hi rend="it">radius</hi> non habet hîc
                     emphasin in ipso carminis frontispicio, sed potius alicubi in medio. Videtur
                     etiam principium nimis humile, quare sic mallem: <lg>
@@ -158,20 +159,20 @@
                 <p rend="indent">Huc addatur invocatio ad verum DEUM, totius cœli et universitatis
                     creatorem, non Deastros licet fictitios, quos gentiles Poëtæ implorant, et
                     tandem narratio exordium habeat ab ijs, quæ a MOISE primo capite Geneseos de
-                    cœli et siderum creatione referuntur. Deinde ex <persName ref="Josephus"
+                    cœli et siderum creatione referuntur. Deinde ex <persName ref="josephus_0037"
                         >IOSEPHO</persName> antiquitatum Iudaicarum scriptore, quod ADAM docuerit
                     suos filios et nepotes Astrorum scientiam, et duabus columnis excitatis in
                         <placeName ref="Syria">Siria</placeName> ab ijsdem, et de NOAH, quem
-                        <persName ref="Berosus">BEROSUS</persName> ait aliqua etiam ex parte
+                        <persName ref="berossus_0340">BEROSUS</persName> ait aliqua etiam ex parte
                     Diluvium prævidisse ex Astrorum dispositione, et de ABRAHAMO, quod insignis
                     Astronomus et Geometra fuerit, atque artes <placeName ref="Egypt"
                         >Ægyptios</placeName> docuerit, quodque ex ijs, quæ circa Solem, Lunam et
                     Sidera, terrasque et maria apparent, cognoverit unum saltem esse DEUM boni
-                    autorem in Natura, quod prædictus habet <persName ref="Josephus"
+                    autorem in Natura, quod prædictus habet <persName ref="josephus_0037"
                         >IOSEPHUS</persName>, et quod ABRAM appel<pb ed="TBOO" n="VIII.412"/>latus
                     sit, dum ex sola Astrorum scientia claruit et DEUM hinc aliquatenus agnovit,
                     postquam vero divinitus est plenius edoctus et illuminatus, ABRAHAM, sic volente
-                    DEO, est dictus, ut <persName ref="Philo">PHILO Iudæus</persName> infert, quod
+                    DEO, est dictus, ut <persName ref="philon_alexandria_0010">PHILO Iudæus</persName> infert, quod
                     etiam a MOISIS relatione non videtur alienum.</p>
                 <p rend="indent">Deinceps poteris ordine recensere, quæ [e] profanis etiam
                     scriptoribus colligi poterunt, quorum etiam aliquam indicationem suppeditabit
@@ -239,7 +240,7 @@
                         <rdg wit="#A">poterint</rdg>
                     </app>, quid tibi, <persName ref="rudolf_2_1552">Cæsar</persName> Austriace, ubi
                     Tabulæ Rudolpheæ sub auspicijs tuis cœlestes motus exactissime æmulantes lucem
-                    viderint? etc. </p>
+                    viderint? etc.</p>
             </div>
         </body>
     </text>
