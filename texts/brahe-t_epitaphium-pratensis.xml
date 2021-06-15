@@ -45,29 +45,6 @@
                                     <idno>cod. Vindob. lat. 10686.7</idno>
                                     <msName>empty</msName>
                                 </msIdentifier></msDesc></witness>
-                            <!--<physDesc>
-                                <objectDesc>
-                                    <supportDesc material="paper">
-                                        <support>
-                                            <ab/>
-                                        </support>
-                                        <extent>
-                                            <dimensions unit="cm">
-                                                <height>0</height>
-                                                <width>0</width>
-                                            </dimensions>
-                                        </extent>
-                                        <condition>
-                                            <ab/>
-                                        </condition>
-                                    </supportDesc>
-                                    <layoutDesc>
-                                        <ab/>
-                                    </layoutDesc>
-                                </objectDesc>
-                                <handDesc> <handNote> <ab>empty</ab> </handNote> </handDesc> <additions> <ab>empty</ab> </additions> <sealDesc> <seal> <ab>empty</ab> </seal> </sealDesc><history>
-                                <ab></ab>
-                            </history>-->
                     <witness xml:id="TBOO">
                         <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 176-177</bibl></witness>
                 </listWit>
@@ -101,7 +78,7 @@
         <body><div>
             <head>
               <reg>Epitaphium Johanni Pratensi</reg>
-              <orig><pb ed="TBOO" n="IX.176"/><app><lem wit="A">EPITAPHIVM.<lb/>CLARISSIMO ET OMNIGENA ERVDITIONE VIRTVTEQVE ORNATISSIMO VIRO D. IOHANNI PRATENSI AARVSIENSI,
+                <orig><pb ed="TBOO" n="IX.176"/><app><lem wit="A">EPITAPHIVM.<lb/>CLARISSIMO ET OMNIGENA ERVDITIONE VIRTVTEQVE ORNATISSIMO VIRO D. <persName ref="pratensis_johannes_1543">IOHANNI PRATENSI</persName> AARVSIENSI,
                 MEDICINÆ PARACELSICÆ ET GALENICÆ DOCTORI EXCELLENTISSIMO, OB INGENITAM NATVRÆ BONITATEM, MORVMQVE INCOMPARABILEM SVAVITATEM
                 OMNIBVS CVIVSCVNQVE STATVS HOMINIBVS, ET CHARISSIMO ET DESIDERATISSIMO.</lem><rdg><note>om. V</note></rdg></app></orig></head>
             <lg><l>QVID iuuat, assiduis studio im pallescere chartis,</l>
@@ -111,7 +88,7 @@
                 <l n="5">Si Mors cuncta abolet, si non timet arma <app><lem>Mineruæ</lem><rdg wit="#V">Minerva</rdg></app>,</l>
                 <l rend="indent">Doctrinam ingentem si leuis hora rapit.</l>
                 <l>Occidit, ah dolor! ah! iuuenilibus occidit annis</l>
-                <l rend="indent">PRATENSIS, quo vix doctior alter erat;</l>
+                <l rend="indent"><persName ref="pratensis_johannes_1543">PRATENSIS</persName>, quo vix doctior alter erat;</l>
                 <l>Quicquid habent etenim veterum monumenta Sophorum,</l>
                 <l rend="indent" n="10">Diuini quicquid scripta Platonis habent,</l>
                 <l>Et, Paracelse, tuas expertus calluit artes,</l>
