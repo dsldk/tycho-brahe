@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Giovanni Antonio Maginio</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2021, Society for Danish Language and
+                        Literature</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="E">
+                        <bibl><title>Tychonis Brahe Astronomiæ instauratæ mechanica</title>,
+                            Wandesburgi 1598</bibl>
+                    </witness>
+                    <witness xml:id="F">
+                        <bibl><title>Tychonis Brahe Astronomiæ instauratæ progymnasmata</title>,
+                            Norimbergæ 1602</bibl>
+                    </witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. V, Hauniæ 1923, p. 122-24</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="magini_giovanni_antonio_1555">Giovanni Antonio Magini</persName>
+                    <placeName>Bologna</placeName>
+                    <date when="1590-09-11"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date xml:lang="da">1590, 11. september n.s.</date><date xml:lang="en">1590,
+                    11 September NS.</date></creation>
+            <langUsage>
+                <language ident="la"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-06-16" who="#pz">Filen etableret.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener><pb ed="TBOO" n="V.125"/>
+                    <pb ed="E" n="G4r"/>DESCRIPTUM LITERARUM CLARISSIMI ET PRÆSTANTISSIMI
+                    MATHEMATICI DN. <persName ref="magini_giovanni_antonio_1555">JOHANNIS ANTONII
+                        MAGINI</persName> PATAVINI BONONIA EODEM ANNO CI&#1021;. <app>
+                        <lem resp="#TBOO">I&#1021;</lem>
+                        <rdg wit="#E"><q>CI</q></rdg>
+                    </app>. XC. AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName> IN
+                        <placeName ref="Denmark">DANIAM</placeName> SCRIPTARUM. <salute>ILLUSTRIS
+                        VIR,</salute>
+                </opener>
+
+                <p rend="noIndent">ACCEPI librum tuum eruditissimum ad me tuo nomine a studioso
+                    quodam Dano, qui olim tibi domesticus erat, transmissum; quo mihi abs te nihil
+                    gratius exhiberi potuit, cum ejusmodi scripta curiosissime conquirere soleam, ac
+                    libentissime perlegere. Vix enim aliâ viâ sperassem eum ad manus meas
+                    perventurum, cum perpauca istic excusa volumina soleant in <placeName
+                        ref="Denmark">Italiam</placeName> importari propter longinquitatem itineris,
+                    ac vecturæ difficultatem: Eo accedit, quod elegantissimo hoc munere, quanti me
+                    faceres, præclare significasti: quo quidem nomine tibi gratias ago, quas possum
+                    maximas. Quod enim summopere expeto et studere soleo, ut mihi scilicet pateat
+                    aditus in gratiam tui similium; tu, quæ tua est singularis humanitas, id mihi
+                    ultro obtulisti. Hunc ego meum in te animum ne possem, ut decuit, atque ut
+                    optabam, statim per literas significare; id fuit caussæ, quod ad te cum meis
+                    literis nuper a me elucubratum Opus propediem edendum mittere constitueram:
+                    Superiore autem æstate, cum incidissem in morbum, egi diligenter cum eodem
+                    studioso, scriptis ad eum literis, ut a te meo nomine, quæ hîc subiciam, petere
+                    ne gravaretur. Habere igitur maxime cuperem compendiosam descriptionem stellarum
+                    fixarum, quemadmodum a te emendatæ sunt, ut mihi usui esse possit, in meis brevi
+                    ad prælum revocandis Ephæmeridibus, ad hæc notitiam aliquam Eccentricitatum
+                    Planetarum, itemque commensurationum uniuscujusque eorum orbis, si eas a
+                    Copernianis differre invenisti, ac correxisti. Quod si mihi gratificari non
+                    dedignaberis, efficiam profecto ut te non pœniteat beneficii in me tui: Namque
+                    eâ quæ humanos et liberalium artium Professores decet, ingenuitate, tuarum te
+                    rerum auctorem, laudare in meis scriptis mihi constitutum est. Meum vero sensum
+                    ac judicium, de tuo illo præclaro labore, circa Cometam anno 1577. conspectum,
+                    ne desideres: Sic habeto, vir Clarissime; Cum enim incredibilem in illo
+                    diligentiam tuam et accuratam observandi viam perspexerim, mihi <app>
+                        <lem resp="#TBOO">persuadeo</lem>
+                        <rdg wit="#E"><q>parsuadeo</q></rdg>
+                    </app>, fore, ut cælestium corporum motus emendare exactissime possis, fructuque
+                    operæ illius maximo omnium studio, atque expectationi cumulatissime satisfacias;
+                    unde nomini tuo sempiternum decus adjungatur. Cuperem <pb ed="TBOO" n="V.126"
+                    />tamen, te in motu Martis observando et examinando maxime incumbere, cum eum
+                    observari non posse exacte, vulgo persuasum sit: atque ego in eâ sum hæresi, ut
+                    putem immutari Eccentricitatem ipsius, periodumque suam habere, ita ut alia in
+                    eo introducenda sit æquatio Eccentricitatis: alioqui si tabula efficiatur pro
+                    maxima Eccentricitate, non poterit minimæ inservire, et contra. Ex quo videmus,
+                        <persName ref="kopernikus_nikolaus_1473">Copernicum</persName> (etsi
+                    Eccentricitatem hujusmodi variari deprehendit) non idcirco tabulas condidisse,
+                    quæ singulis temporibus conveniant, quando Martis æquationes supputatæ ad
+                    Eccentricitatem a <persName ref="kopernikus_nikolaus_1473">Copernico</persName>
+                    observatam partium 5.51'. 30''. aptari minime possunt, ipsius <persName
+                        ref="ptolemaios_klaudios_0100">Ptolemæi</persName> temporibus, quibus
+                    partium 6. Martis Eccentricitatem definivit. Non possum non magnopere probare
+                    Systema Universi a te excogitatum, quamvis cuperem Solis Orbem ac Martis
+                    nequaquam sese intersecare. Quod si, ut a studioso isto cognovi, Martem
+                    acronycum terræ propius accedere, quam Solem, a te est observatum, intersecatio
+                    hujusmodi omninô admittenda est. In magna versor expectatione tuarum hujusmodi
+                    observationum et speculationum, quas et probare et sequi minime erubescam. Etsi
+                    in construendis Ephæmeridibus resolutisque tabulis a Copernianâ ratione, et
+                    tabulis Prutenicis ne <pb ed="E" n="G4v"/>latum quidem unguem deflexi. Spero
+                    etiam, quod vehementer cupio, primum tuum de mundi Ætherei phænomenis librum,
+                    quem iterum êditurum polliceris, hoc anno lecturum. Significavit mihi sæpe
+                    dictus studiosus abs te desiderari <persName ref="werner_johannes_1468"
+                        >Verneri</persName> librum de motu octavæ Sphæræ, quem cum totâ <placeName
+                        ref="Germany">Germaniâ</placeName> conquisieris, nunquam tamen invenire
+                    potueris. Quare unum ego ipsi exemplar dedi, ut id ad te meo nomine
+                    transmitteret. Si quid erit aliud, quod tuâ caussâ efficere possim,
+                    perhonorificum ducam, ut a te mihi imperetur, cui velim omnia feliciter evenire,
+                    atque optime esse consultum. Hoc anno publice interpretaturus sum meas Cœlestium
+                    Orbium hypotheses: quæ mihi bona erit occasio, quæ in hoc genere a me êdita
+                    sunt, longe uberius explicare (ut jam facere aggressus sum) et commentariis ac
+                    Geometricis demonstrationibus, supputationibusque illustrare. Quæ tamen
+                    commentaria priusquam publici juris efficiantur; libenter ego lucubrationes tuas
+                    cognoscere, et intelligere velim, ut tuas quoque suppositiones iis inserere et
+                    explicare possim. Ac ne tibi prolixitate nimiâ sim molestior, hîc faciam
+                    scribendi finem;te rogans iterum atque iterum, ut meam in te observantiam
+                    benevolo excipias animo, bonique consulas.</p>
+                <closer><dateline><placeName ref="Bologna"
+                    >Bononiæ</placeName> Idib. Septemb. 1590.</dateline><signed>Illustri dominationi tuæ Addictissimus <lb/><persName ref="magini_giovanni_antonio_1555">JO. ANTON. MAGINUS</persName>
+                    PATAVINUS.</signed></closer>
+            </div>
+
+        </body>
+    </text>
+</TEI>
