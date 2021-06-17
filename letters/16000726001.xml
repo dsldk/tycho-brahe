@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2021, Society for Danish Language and
+                        Literature</ab>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>autographsammlung</collection>
+                                <idno>Vol. 35, Fol. 132</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Kladde</ab>
+                            </physDesc>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Basel</settlement>
+                                <repository>Universitätsbibliothek Basel</repository>
+                                <collection>autographsammlung</collection>
+                                <idno>Vol. 35, Fol. 132</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab>Letter draft</ab>
+                            </physDesc>
+                        </msDesc></witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName>s.l.</placeName>
+                    <date when="1600"/>
+                    <note>n.s.</note>
+                </correspAction>
+                <correspAction type="received">
+                    <persName>An anonymous lady</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation><date xml:lang="da">1600, 26. juli n.s.</date><date xml:lang="en">1600, 26
+                    July NS.</date></creation>
+            <langUsage>
+                <language ident="de"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2021-06-17" who="#pz">Filen etableret.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <opener>
+                    <pb ed="TBOO" n="XIV.208"/>[TYCHO BRAHE AD ANONYMAM].</opener>
+                <p rend="noIndent">EDLE viel ehr- und tugentsame insonders gönstige vielgeliebte
+                    fraw schwegerin, derselben sein vnsere sämptliche freundtwillige dienste vnd
+                    alles gutten zuvor. Vnd kan deroselben hiemit freundtlichen nitt pergen, das vns der
+                    ochße, so der herr schuager zu vnserer notturfft aingekaufft, vns wohl zu handen
+                    kommen. Thuen vns dero darumb gehabten mühe zum höchsten vnd fleißigsten
+                    bedancken, wollens auch vff alle vorfallende gelegenheit eußerstes vermögs nach
+                    zu verschulden nitt vnterlaßen.</p>
+                <p rend="indent">Was nuhn das verhörte
+                    gutt betrifft, das der herr schuager vnd fraw schuegerin vns zu gefallen in
+                    bestallung haben, deran geschiht vns gleichßfals zum
+                    höhesten ahngenehmsten gefallen. Wollen auch gegen gemeldte zait, alsnemb<pb ed="TBOO"
+                        n="XIV.209"/>lich vmb Bartholomei, daßelbe zu besehen ainen von vns
+                    abfertigen, allerdinges hierumb vnd schließlichen beschaid zu macchen.</p>
+                <p rend="ident">Für die bieren thuen wir vns gleichßfals zum höchsten bedancken.</p>
+                <p rend="ident">Vns hiemit göttlicher almacht getreulich entpfhelendt.</p>
+                <closer><dateline>Jn eill, Prag den 26. <hi rend="it">julii a:o</hi> 1600</dateline></closer>
+                <postscript>
+                    <p rend="noIndent">Der pott ist seines pottenlohns allerdinges entrichtet.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>
