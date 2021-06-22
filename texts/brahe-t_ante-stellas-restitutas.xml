@@ -15,27 +15,26 @@
                         </persName>
                     </name>
                 </editor>
-                <funder>Carlsbergfondet</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
             </editionStmt>
             <publicationStmt>
-                <publisher>
-                    <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-                </publisher>
-                <pubPlace>København</pubPlace>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab>Copyright © 2019, Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
@@ -44,10 +43,21 @@
                                 <msName>empty</msName>
                             </msIdentifier>
                         </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.6</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
                     </witness>
                     <witness xml:id="Mechanica">
-                        <bibl>Hand-written in several copies of Brahe's <title>Stellarum inerrantium
-                                restitutio</title></bibl></witness>
+                        <bibl xml:lang="da">Indskrevet i hånden i adskillige eksemplarer af Tycho Brahes <title>Stellarum inerrantium
+                                restitutio</title></bibl>
+                        <bibl xml:lang="en">Hand-written in several copies of Brahe's <title>Stellarum inerrantium
+                            restitutio</title></bibl></witness>
                     <witness xml:id="Gass">
                         <bibl>Pierre Gassendi, <title>Tychonis Brahei vita</title> Paris
                         1654</bibl></witness>

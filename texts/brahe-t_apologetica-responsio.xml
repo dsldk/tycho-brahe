@@ -13,16 +13,15 @@
             </persName>
           </name>
         </editor>
-        <funder>Carlsbergfondet</funder>
+        <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
       </titleStmt>
       <editionStmt>
         <edition/>
       </editionStmt>
       <publicationStmt>
-        <publisher>
-          <ref target="https://dsl.dk">Det Danske Sprog- og Litteraturselskab</ref>
-        </publisher>
-        <pubPlace>København</pubPlace>
+        <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+        <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+        <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
         <date>2019</date>
         <idno>nil</idno>
         <idno type="isbn">nil</idno>
@@ -33,7 +32,7 @@
       <sourceDesc>
         <listWit>
           <witness xml:id="cod.">
-            <msDesc>
+            <msDesc xml:lang="da">
               <msIdentifier>
                 <settlement>København</settlement>
                 <repository>Det Kongelige Bibliotek</repository>
@@ -41,10 +40,21 @@
                 <idno>93b 2do</idno>
                 <msName>empty</msName>
               </msIdentifier>
-          </msDesc></witness>
-          <witness xml:id="Berol."><bibl>Fragment bound with a Berlin copy of <title>Astronomiæ
-                instauratæ Progymnasta</title> and <title>De mundi ætherei
-                recentioribius phænomenis</title></bibl></witness>
+            </msDesc>
+            <msDesc xml:lang="en">
+              <msIdentifier>
+                <settlement>Copenhagen</settlement>
+                <repository>Royal Library</repository>
+                <collection>Ny Kongelige Samling</collection>
+                <idno>93b 2do</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+            </msDesc></witness>
+          <witness xml:id="Berol."><bibl xml:lang="da">Fragment indbundet sammen med et Berlin-eksemplar af <title>Astronomiæ
+                instauratæ Progymnasta</title> og <title>De mundi ætherei
+                  recentioribius phænomenis</title></bibl><bibl xml:lang="en">Fragment bound with a Berlin copy of <title>Astronomiæ
+                    instauratæ Progymnasta</title> and <title>De mundi ætherei
+                      recentioribius phænomenis</title></bibl></witness>
           <witness xml:id="Barth.">
             <bibl>Rasmus Bartholin, <title>De cometis annni MDCLXIV et MDCLXV</title>, Hafniæ 1665</bibl></witness>
           <witness xml:id="TBOO">
