@@ -4,8 +4,8 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Til en tvilling</title>
-        <author>Tycho Brahe</author>
+        <title xml:lang="da">Fratri gemello / Gravskrift over en tvilling (dansk)</title>
+        <title xml:lang="en">Fratri gemello / Epitaph of a twin brother (Danish)</title>
         <editor role="translator">
           <name xml:id="pz">
             <persName>
@@ -31,6 +31,11 @@
         </availability>
       </publicationStmt>
       <sourceDesc>
+        <listWit>
+        <witness xml:id="Zeeberg">
+          <bibl>Peter Zeeberg, &#x201C;Tycho Brahes Uraniaelegi. Nyoversættelse, tekst og
+            kommentarer&#x201D;, <title> Renæssanceforum 3</title>, 2007</bibl></witness>
+      </listWit>
                 <listBibl>
                   <bibl>empty</bibl>
                 </listBibl>
@@ -39,7 +44,7 @@
             <profileDesc>
               <creation><date>1572</date></creation>
               <langUsage>
-                <language ident="la" />
+                <language ident="la"/>
               </langUsage>
               <textClass>
                 <keywords>
@@ -89,8 +94,8 @@
                   <l n="25">Det var ham der skrev dette digt for at ære mit minde</l>
                   <l rend="indent">efter at fem gange fem år var forbi af hans liv.</l></lg>
                 <closer rend="center">Sat til ære for en dødfødt tvillingebror
-                  <lb/>Af Tycho Brahe Ottesen.</closer>
-                <div type="colophon"><p rend="center">Trykt i København af Mads Vingaard, 1572.</p></div></div>
+                  <lb/>Af Tycho Brahe Ottesen.<lb/>Trykt i København af Mads Vingaard, 1572.</closer>
+                </div>
             </body>
           </text>
         </TEI>

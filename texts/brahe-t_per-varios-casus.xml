@@ -5,7 +5,6 @@
     <fileDesc>
       <titleStmt>
         <title>Per varios casus</title>
-        <title xml:lang="en">Per varios casus</title>
         <author>Tycho Brahe</author>
         <editor>
           <name xml:id="pz">
@@ -34,7 +33,7 @@
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
-            <msDesc>
+            <msDesc xml:lang="da">
               <msIdentifier>
                 <settlement>Torino</settlement>
                 <repository>Biblioteca Civica Centrale</repository>
@@ -43,6 +42,15 @@
                 <msName>empty</msName>
               </msIdentifier>
             </msDesc>
+              <msDesc xml:lang="en">
+                <msIdentifier>
+                  <settlement>Turin</settlement>
+                  <repository>Biblioteca Civica Centrale</repository>
+                  <collection>empty</collection>
+                  <idno>empty</idno>
+                  <msName>empty</msName>
+                </msIdentifier>
+              </msDesc>
           </witness>
           <witness xml:id="TBOO">
             <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 212</bibl></witness>
@@ -55,7 +63,7 @@
     <profileDesc>
       <creation><date>1598</date></creation>
       <langUsage>
-        <language ident="la" />
+        <language ident="la"/>
       </langUsage>
       <textClass>
         <keywords>

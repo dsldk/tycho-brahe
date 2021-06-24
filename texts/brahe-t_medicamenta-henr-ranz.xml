@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Medicamenta tria cum Henrico Ranzovio communicata / Tre medikamenter delt med Henrik
+        <title xml:lang="da">Medicamenta tria cum Henrico Ranzovio communicata / Tre medikamenter delt med Henrik
           Rantzau</title>
         <title xml:lang="en">Medicamenta tria cum Henrico Ranzovio communicata / Three medicaments
           shared with Heinrich Rantzau</title>
@@ -35,10 +35,19 @@
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
-            <msDesc>
+            <msDesc xml:lang="da">
               <msIdentifier>
                 <settlement>København</settlement>
                 <repository>Det Kongelige Bibliotek</repository>
+                <collection>empty</collection>
+                <idno>Langebeks excerpter 179</idno>
+                <msName>empty</msName>
+              </msIdentifier>
+            </msDesc>
+            <msDesc xml:lang="en">
+              <msIdentifier>
+                <settlement>Copenhagen</settlement>
+                <repository>Royal Library</repository>
                 <collection>empty</collection>
                 <idno>Langebeks excerpter 179</idno>
                 <msName>empty</msName>
@@ -589,7 +598,7 @@
             <l rend="indent">Sic iuvisse nocet, non nocuisse iuvat.</l>
           </lg>
           <closer>
-            <signed>TYCHO BRAHE OTTONIDES,<lb/>manu propria.</signed>
+            <signed><persName ref="brahe_tycho_1546">TYCHO BRAHE OTTONIDES</persName>,<lb/>manu propria.</signed>
             <dateline><lb/>Die 13. Decembr. Anno Christi 1597, qui mihi ante Annos 51. completos
               fuit natalis.</dateline>
           </closer>

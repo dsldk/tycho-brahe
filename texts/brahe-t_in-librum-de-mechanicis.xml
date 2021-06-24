@@ -3,7 +3,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>In librum Tychonis Brahei de Mechanicis astronomiæ / Dedikationsdigt til Mechanica</title>
+                <title xml:lang="da">In librum Tychonis Brahei de Mechanicis astronomiæ / Dedikationsdigt til Mechanica</title>
                 <title xml:lang="en">In librum Tychonis Brahei de Mechanicis astronomiæ / Dedicatory poem for Mechanica</title>
                 <author>Tycho Brahe</author>
                 <editor>
@@ -33,7 +33,7 @@
             <sourceDesc>
                 <listWit>
                         <witness xml:id="A">
-                    <msDesc>
+                    <msDesc xml:lang="da">
                         <msIdentifier>
                             <settlement>Wien</settlement>
                             <repository>Österreichische Nationalbibliothek</repository>
@@ -42,9 +42,19 @@
                             <msName>empty</msName>
                         </msIdentifier>
                     </msDesc>
+                            <msDesc xml:lang="en">
+                                <msIdentifier>
+                                    <settlement>Vienna</settlement>
+                                    <repository>Österreichische Nationalbibliothek</repository>
+                                    <collection>empty</collection>
+                                    <idno>cod. Vindob. lat. 10686.6</idno>
+                                    <msName>empty</msName>
+                                </msIdentifier>
+                            </msDesc>
                     </witness>
                     <witness xml:id="Mechanica">
-                        <bibl>Hand-written in several copies of Brahe's <title>Astronomiae instauratae Mechanica</title> Wandsburg 1598</bibl></witness>
+                        <bibl xml:lang="da">Indskrevet i hånden i flere eksemplarer af <title>Astronomiae instauratae Mechanica</title> Wandsburg 1598</bibl>
+                    <bibl xml:lang="en">Hand-written in several copies of <title>Astronomiae instauratae Mechanica</title> Wandsburg 1598</bibl></witness>
                     <witness xml:id="Gass">
                         <bibl>Pierre Gassendi, <title>Tychonis Brahei vita</title> Paris 1654</bibl></witness>
                     <witness xml:id="TBOO">
@@ -58,7 +68,7 @@
         <profileDesc>
             <creation><date>1598</date></creation>
             <langUsage>
-                <language ident="la" />
+                <language ident="la"/>
             </langUsage>
             <textClass>
                 <keywords>

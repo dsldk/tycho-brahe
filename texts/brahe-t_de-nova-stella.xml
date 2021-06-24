@@ -13,7 +13,8 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -21,12 +22,15 @@
             <publicationStmt>
                 <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
                 <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
@@ -36,16 +40,27 @@
                                 stella</title> Hafniæ 1573.</bibl>
                     </witness>
                     <witness xml:id="E1">
-                        <bibl>Correctiones typographicæ in aliquot exemplaribus eiusdem libri factæ
-                            (Bibl. Reg. Hafn.: 19,-85 4to et Hielmstierne 1612). </bibl>
+                        <bibl xml:lang="da">Rettelser af trykfejl foretaget i nogle eksemplarer af
+                            trykket (Bibl. Reg. Hafn.: 19,-85 4to et Hielmstierne 1612). </bibl>
+                        <bibl xml:lang="da">Typographical errors corrected in some copies of the
+                            book (Bibl. Reg. Hafn.: 19,-85 4to et Hielmstierne 1612). </bibl>
                     </witness>
                     <witness xml:id="T">
                         <bibl>Index erratorum in E.</bibl>
                     </witness>
                     <witness xml:id="D">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10932</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vindob. lat. 10932</idno>
@@ -58,9 +73,18 @@
                             Uraniburgi/Pragæ 1602, p. 582 sqq.</bibl>
                     </witness>
                     <witness xml:id="V">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
                                 <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vidob. lat. 10686.17</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
                                 <repository>Österreichische Nationalbibliothek</repository>
                                 <collection>empty</collection>
                                 <idno>cod. Vidob. lat. 10686.17</idno>
@@ -129,13 +153,12 @@
                     <titlePart type="desc">
                         <hi rend="it">Cui, præter exactam ECLIPSIS LVNARIS, huius Anni, pragmatian,
                             Et elegantem in VRANIAM Elegiam, EPISTOLA quoque DEDICATORIA accessit:
-                            in qua, nova et erudita conscribendi
-                            <ref target="n1"/> DIARIA METHEOROLOGICA
-                            Methodus, vtriusque Astrologiæ Studiosis, eodem Autore, proponitur:
-                            Cuius, ad hunc labentem annum, Exemplar, singulari industria elaboratum
-                            conscripsit, quod tamen, multiplicium Schematum exprimendorum, quo totum
-                            fermè constat, difficultate, edi, hac vice, temporis angustia non
-                            patiebatur.</hi>
+                            in qua, nova et erudita conscribendi <ref target="n1"/> DIARIA
+                            METHEOROLOGICA Methodus, vtriusque Astrologiæ Studiosis, eodem Autore,
+                            proponitur: Cuius, ad hunc labentem annum, Exemplar, singulari industria
+                            elaboratum conscripsit, quod tamen, multiplicium Schematum
+                            exprimendorum, quo totum fermè constat, difficultate, edi, hac vice,
+                            temporis angustia non patiebatur.</hi>
                     </titlePart>
                 </docTitle>
                 <docImprint>
@@ -457,22 +480,22 @@
                     obiectum esse; tandemque futurum, vt caudam ad nos conspiciendam reclinet: is,
                     non satis animaduertit ea, quæ a quibusdam veteribus, et nostro quoque æuo,
                     diligentius a Clariss. Mathematicis <persName ref="apian_peter_1495">Petro
-                        Apiano</persName>, ac <persName ref="frisius_gemma_1508">Gemma Frisio</persName>,
-                    deprehensa sunt: caudam omnium Cometarum, semper directe in oppositam soli
-                    partem vergere: adeo quod nonnulli hinc dubitarint, an cauda illa, aliud quiddam
-                    sit, nec ne, quam refractio quædam radiorum Solarium, corpus Cometæ densiusculum
-                    penetrantium. At si aliquis contendat hanc Stellam esse ex peculiaribus illis
-                    Cometarum speciebus, cauda destitutis, quas Veteres, Crinitas appellarunt: vbi
-                    igitur crines, instar flammei orbis vndique æqualiter <pb ed="TBOO" n="I.13"
-                    />circumfusi? Si vero inter eas, quæ Rosæ dicuntur, vbi lata et ampla
-                    rotunditas, per se quidem fulgens, et ignea, a margine vero raros ac subobscuros
-                    diffundens radios? Hæc enim Stella, prorsus his omnibus caret; nullamque caudam
-                    vel in longum, vel in rotundum proijcit. Nisi quis, radios illos, qui ab initio,
-                    cum maior esset, apparebant, barbam vocare velit; eadem sane ratione et Sirium,
-                    Arcturum, Procyonem, Lyram, reliquasque insigniores Fixas, Cometarum nomine
-                    appellabimus: cum hæ, non minus scintillantes radios vndiquaque spargant.
-                    Quapropter, hanc Stellam longe differre a Cometis iudico; nec similem illi visam
-                    a temporibus Hypparchi hactenus existimo: vt vt <app>
+                        Apiano</persName>, ac <persName ref="frisius_gemma_1508">Gemma
+                        Frisio</persName>, deprehensa sunt: caudam omnium Cometarum, semper directe
+                    in oppositam soli partem vergere: adeo quod nonnulli hinc dubitarint, an cauda
+                    illa, aliud quiddam sit, nec ne, quam refractio quædam radiorum Solarium, corpus
+                    Cometæ densiusculum penetrantium. At si aliquis contendat hanc Stellam esse ex
+                    peculiaribus illis Cometarum speciebus, cauda destitutis, quas Veteres, Crinitas
+                    appellarunt: vbi igitur crines, instar flammei orbis vndique æqualiter <pb
+                        ed="TBOO" n="I.13"/>circumfusi? Si vero inter eas, quæ Rosæ dicuntur, vbi
+                    lata et ampla rotunditas, per se quidem fulgens, et ignea, a margine vero raros
+                    ac subobscuros diffundens radios? Hæc enim Stella, prorsus his omnibus caret;
+                    nullamque caudam vel in longum, vel in rotundum proijcit. Nisi quis, radios
+                    illos, qui ab initio, cum maior esset, apparebant, barbam vocare velit; eadem
+                    sane ratione et Sirium, Arcturum, Procyonem, Lyram, reliquasque insigniores
+                    Fixas, Cometarum nomine appellabimus: cum hæ, non minus scintillantes radios
+                    vndiquaque spargant. Quapropter, hanc Stellam longe differre a Cometis iudico;
+                    nec similem illi visam a temporibus Hypparchi hactenus existimo: vt vt <app>
                         <lem resp="TBOO">nonnulli</lem>
                         <rdg wit="#E"><q>nonulli</q></rdg>
                     </app> Cometarum exigui, et sine caudis interea apparuerint: nisi quis per
@@ -617,15 +640,14 @@
                     vero et ab alijs loco monstrato conspici posse animaduertissem, stellam reuera
                     illic apparere, nullum mihi amplius mouebatur dubium. Miraculum sane inter
                     omnia, quæ a mundi exordio, in tota rerum natura extiterunt, aut maximum, aut
-                    illi certe æquiparandum, quod  <ref target="n2"/> in
-                    Solaris cursus retentione, Iosuæ precibus impetrata: vel eiusdem obscuratione,
-                    tempore Victimæ cœlestis facta, contigisse sacra te<pb ed="A" n="A1v"/>stantur
-                    oracula.  <ref target="n3"/> Omnibus enim Philosophis
-                    constat, et res ipsa non obscure declarat, in ætherea cœlestis mundi regione,
-                    nullam fierj alterationem  <ref target="n4"/> generationis
-                    vel corruptionis: sed cœlum et quæ in eo continentur ætherea corpora, non
-                    augerj, non imminuj, non variari aut numero, aut magnitudine, aut lumine, aut
-                    quauis alia ratione : <app>
+                    illi certe æquiparandum, quod <ref target="n2"/> in Solaris cursus retentione,
+                    Iosuæ precibus impetrata: vel eiusdem obscuratione, tempore Victimæ cœlestis
+                    facta, contigisse sacra te<pb ed="A" n="A1v"/>stantur oracula. <ref target="n3"
+                    /> Omnibus enim Philosophis constat, et res ipsa non obscure declarat, in
+                    ætherea cœlestis mundi regione, nullam fierj alterationem <ref target="n4"/>
+                    generationis vel corruptionis: sed cœlum et quæ in eo continentur ætherea
+                    corpora, non augerj, non imminuj, non variari aut numero, aut magnitudine, aut
+                    lumine, aut quauis alia ratione : <app>
                         <lem wit="#E">sed</lem>
                         <rdg wit="#P"><q>verum</q></rdg>
                     </app> semper idem, sibique in omnibus simile, nullis terentibus annis
@@ -639,37 +661,38 @@
                         <lem wit="#E">artifice</lem>
                         <rdg wit="#P">astronomo</rdg>
                     </app> antea obseruatum legimus, nouam aliquam in cœlesti mundo extitisse
-                    stellam, nisi a solo  <ref target="n5"/> <persName
-                        ref="hipparchos_0190">Hipparcho</persName>, si
-                         <ref target="n6"/> <persName ref="plinius_secundus_gajus_0023"
-                        >Plinio</persName> adhibenda est fides. Hipparchum enim aliam a reliquis
-                    omnibus prius <app>
+                    stellam, nisi a solo <ref target="n5"/>
+                    <persName ref="hipparchos_0190">Hipparcho</persName>, si <ref target="n6"/>
+                    <persName ref="plinius_secundus_gajus_0023">Plinio</persName> adhibenda est
+                    fides. Hipparchum enim aliam a reliquis omnibus prius <app>
                         <lem wit="#E">conspectis</lem>
                         <rdg wit="#P">notatis</rdg>
                     </app>, sua ætate genitam animaduertisse stellam, autor est <persName
-                        ref="plinius_secundus_gajus_0023">Plinius</persName>, Naturalis historiæ libro secundo:
-                    Cuius verba, cum vt in cœteris, ita et hoc in loco sint illustria et magnifica,
-                    non abs re duxi hic annotanda. <hi rend="it">Idem</hi> (inquit) <hi rend="it"
-                            ><persName ref="hipparchos_0190">Hipparchus</persName>, nunquam satis
-                        laudatus, vt quo nemo magis appro<pb ed="TBOO" n="I.17"/>bauerit cognationem
-                        cum homine siderum, Animasque nostras partem esse cœli, nouam Stellam et
-                        aliam æuo suo genitam depræhendit,  <ref target="n7"/> eiusque motu, qua die fulsit, ad
-                        dubitationem est adductus, anne hoc sæpius fieret, mouerenturque et eæ, quas
-                        putamus affixas. Idemque ausus rem etiam Deo improbam, <pb ed="A" n="A2r"/>
-                        annumerare posteris stellas, ac sidera ad normam expangere, organis
-                        excogitatis per quæ singularum loca et magnitudines signaret, vt facile ex
-                        eo discerni posset, non modo an obirent, nascerenturue, item an crescerent,
-                        minuerenturue. Cœlo in hæreditate cunctis relicto, si quispiam qui rationem
-                        eam caperet, inuentus esset.</hi>
+                        ref="plinius_secundus_gajus_0023">Plinius</persName>, Naturalis historiæ
+                    libro secundo: Cuius verba, cum vt in cœteris, ita et hoc in loco sint illustria
+                    et magnifica, non abs re duxi hic annotanda. <hi rend="it">Idem</hi> (inquit)
+                        <hi rend="it"><persName ref="hipparchos_0190">Hipparchus</persName>, nunquam
+                        satis laudatus, vt quo nemo magis appro<pb ed="TBOO" n="I.17"/>bauerit
+                        cognationem cum homine siderum, Animasque nostras partem esse cœli, nouam
+                        Stellam et aliam æuo suo genitam depræhendit, <ref target="n7"/> eiusque
+                        motu, qua die fulsit, ad dubitationem est adductus, anne hoc sæpius fieret,
+                        mouerenturque et eæ, quas putamus affixas. Idemque ausus rem etiam Deo
+                        improbam, <pb ed="A" n="A2r"/> annumerare posteris stellas, ac sidera ad
+                        normam expangere, organis excogitatis per quæ singularum loca et
+                        magnitudines signaret, vt facile ex eo discerni posset, non modo an obirent,
+                        nascerenturue, item an crescerent, minuerenturue. Cœlo in hæreditate cunctis
+                        relicto, si quispiam qui rationem eam caperet, inuentus esset.</hi>
                     <app>
-                        <lem wit="#E">Hæc <persName ref="plinius_secundus_gajus_0023">Plinius</persName>.</lem>
+                        <lem wit="#E">Hæc <persName ref="plinius_secundus_gajus_0023"
+                                >Plinius</persName>.</lem>
                         <rdg><note>om. P</note></rdg>
                     </app> Licet vero illa Plinij verba non obscure testentur, Hipparchum veram
                     stellam in ætherea regione, suo æuo genitam depræhendisse, et hac occasione
                     reliquarum omnium loca, instrumentis debitis (quod nullus ante ipsum præstitit)
                     signasse, vt posteri scirent an sæpius hoc fierj posset: tamen non dubitauit
                     interpres <persName ref="Plius major">Plinij</persName>
-                     <ref target="n8"/> <persName ref="milich_jacob_1501">Milichius</persName>, illa in Cometæ alicuius
+                    <ref target="n8"/>
+                    <persName ref="milich_jacob_1501">Milichius</persName>, illa in Cometæ alicuius
                     apparitionem detorquere, rei potius incredibilitate, et omnium Philosophorum
                     refragante iudicio, quam autoris sententia eo perductus. Quam enim perperam, de
                     Cometa, hunc locum Plinij interpretatus sit, nemo refragabitur, qui penitius
@@ -686,8 +709,9 @@
                         >Hipparchum</persName> per istius Cometæ motum (Cometam enim fuisse hanc
                     stellam opina<pb ed="A" n="A2v"/>tur) stellarum fixarum situs, et motum,
                     deprehendisse, cum omnium Cometarum cursus sit enormis, instabilis, celer, et
-                    vagabundus: stellarum vero    <ref target="n9"/> in octauo orbe affixarum motus regularis, certus,
-                    vniformis, adeoque lentus, vt Vnius hominis ætate vix progredi <app>
+                    vagabundus: stellarum vero <ref target="n9"/> in octauo orbe affixarum motus
+                    regularis, certus, vniformis, adeoque lentus, vt Vnius hominis ætate vix
+                    progredi <app>
                         <lem wit="#E"><q>animaduertantur</q></lem>
                         <rdg wit="#D">animadvertentur</rdg>
                     </app>. Hæc non vllo carpendi studio commemoro. Non enim est candidj et ingenui
@@ -696,10 +720,12 @@
                         <rdg><q>extenuando eleuare</q> D man. sec. P</rdg>
                     </app>: sed monere saltem volui, ne alij, huius interpretis, viri docti
                     autoritate freti, ad Cometæ alicuius, et non veræ stellæ apparitionem, <app>
-                        <lem wit="#E"><persName ref="plinius_secundus_gajus_0023">Plinium</persName></lem>
+                        <lem wit="#E"><persName ref="plinius_secundus_gajus_0023"
+                            >Plinium</persName></lem>
                         <rdg wit="#P">Plinium ipsum</rdg>
                     </app> detorquerent. Mihi sane dubium non est, <app>
-                        <lem wit="#E"><persName ref="plinius_secundus_gajus_0023">Plinium</persName></lem>
+                        <lem wit="#E"><persName ref="plinius_secundus_gajus_0023"
+                            >Plinium</persName></lem>
                         <rdg><note><q>ipsum</q> D man. sec. P</note></rdg>
                     </app> per hæc verba significasse, <persName ref="hipparchos_0190"
                         >Hipparchum</persName> veram stellam et genuinam in cœlo, suis temporibus
@@ -724,24 +750,24 @@
                     </app> locum obtineat, postea demonstrabimus. Apparet itaque quam sit hæc <pb
                         ed="A" n="A3r"/>res inusitata, quam admiranda, quam denique omnibus
                     Philosophis incredibilis, nouam et aliam a prioribus nunc demum in cœlo
-                    prodijsse stellam. Nec Theologis, qui alias multa  <ref target="n10"/> in mundano orbe miraculose
-                    contingentia, per diuina mysteria excusare <app>
+                    prodijsse stellam. Nec Theologis, qui alias multa <ref target="n10"/> in mundano
+                    orbe miraculose contingentia, per diuina mysteria excusare <app>
                         <lem wit="#E">possunt</lem>
                         <rdg wit="#P"><q>solent</q></rdg>
                     </app>, sufficientes reddere causas eius rej, possibile existimo. Illis enim per
-                      Mosis de <pb ed="A" n="A3r_2"/> mundi fabrica historiam, compertum est, Deum autorem Vniuersi, ex quo
-                    cœlos et Elementa, cum omnibus suis ornatibus absoluisset, quieuisse ab omni
-                    opere, nec vllam postea rerum nouam condidisse speciem. Scio tamen aliquos ex
-                    occultiori <app>
+                    Mosis de <pb ed="A" n="A3r_2"/> mundi fabrica historiam, compertum est, Deum
+                    autorem Vniuersi, ex quo cœlos et Elementa, cum omnibus suis ornatibus
+                    absoluisset, quieuisse ab omni opere, nec vllam postea rerum nouam condidisse
+                    speciem. Scio tamen aliquos ex occultiori <app>
                         <lem wit="#E">quadam</lem>
                         <rdg wit="#D"><q>illa</q></rdg>
                     </app>, et nostro sæculo primum in lucem producta <app>
                         <lem wit="#E">Philosophia</lem>
                         <rdg><note>post <q>Philosophia</q> add. <q>Paracelsica</q> D</note></rdg>
-                    </app> asserturos, possibile esse hanc stellam  <ref target="n11"/> in veteri Iliado (libet enim
-                    eorum vocabulis vti) hactenus latitasse, et nunc demum maturatione sui absoluta,
-                    mortalibus conspiciendam prodijsse. Etsi vero nunc non disputem de huius nouæ
-                    (vt putatur) Philosophiæ certis vel ambiguis fundamentis: <app>
+                    </app> asserturos, possibile esse hanc stellam <ref target="n11"/> in veteri
+                    Iliado (libet enim eorum vocabulis vti) hactenus latitasse, et nunc demum
+                    maturatione sui absoluta, mortalibus conspiciendam prodijsse. Etsi vero nunc non
+                    disputem de huius nouæ (vt putatur) Philosophiæ certis vel ambiguis fundamentis: <app>
                         <lem wit="#E">et non ignorem, ex illa, multarum in Natura abstrusarum rerum,
                             et a vulgaribus Philosophis vel incognitarum, vel minus recte
                             intellectarum, causas et progressus explicari posse:</lem>
@@ -764,18 +790,18 @@
                         <lem wit="#T">tanta</lem>
                         <rdg wit="#E"><q>tanto</q></rdg>
                     </app> stellarum copia, fieri oportebat, si cœlo eiusmodi competeret
-                    generationis et corruptionis  <ref target="n13"/> necessitas. Taceant <app>
+                    generationis et corruptionis <ref target="n13"/> necessitas. Taceant <app>
                         <lem wit="#E">igitur</lem>
                         <rdg wit="#D"><q>itaque</q></rdg>
                     </app> omnes Philosophi, seu veteres, seu noui: taceant ipsi quoque Diuinorum
-                    Mysteriorum interpretes Theologi: taceant cœlestium corporum contemplatores
-                     <ref target="n14"/> Mathematici, nec de modo generationis huius stellæ et tanti miraculi
-                    excusatione, se aliquid certi constituere posse existiment. Nec est quod aliquis
-                    sibi persuadeat, hanc stellam similem esse illi,  <ref target="n15"/> quæ Magis Orientalibus, cum
-                    Saluator mundj nasceretur, apparuit. Illa enim non in cœlo inter reliquas
-                    stellas: sed in ima aëris regione, non procul a superficie terræ locum
-                    obtinebat. Alias enim nec motu suo, iter, Saluatorem quærentibus, nec quiete,
-                    domum in <app>
+                    Mysteriorum interpretes Theologi: taceant cœlestium corporum contemplatores <ref
+                        target="n14"/> Mathematici, nec de modo generationis huius stellæ et tanti
+                    miraculi excusatione, se aliquid certi constituere posse existiment. Nec est
+                    quod aliquis sibi persuadeat, hanc stellam similem esse illi, <ref target="n15"
+                    /> quæ Magis Orientalibus, cum Saluator mundj nasceretur, apparuit. Illa enim
+                    non in cœlo inter reliquas stellas: sed in ima aëris regione, non procul a
+                    superficie terræ locum obtinebat. Alias enim nec motu suo, iter, Saluatorem
+                    quærentibus, nec quiete, domum in <app>
                         <lem wit="#T">qua</lem>
                         <rdg wit="#E"><q>quo</q></rdg>
                     </app> inueniretur, ostendisset. Sed cum toto <pb ed="TBOO" n="I.19"/>cœlo
@@ -788,9 +814,9 @@
                     </app>: siue quod Deus peculiariter eorum mentes et oculos illustrauerit, vt
                     illi a longinqua et ignota regione venientes, eum agnoscerent, per quem omnia
                     facta sunt, humanam induisse naturam, quem proprij Iudæj, inter quos nascebatur
-                     <ref target="n16"/> igno<pb ed="A" n="A4r"/>rabant: siue quod hi sapientes homines, per
-                    occultioris et incognitarum rerum indagatricis Magiæ cognitionem, ea viderint et
-                    intellexerint, quæ reliquis <app>
+                        <ref target="n16"/> igno<pb ed="A" n="A4r"/>rabant: siue quod hi sapientes
+                    homines, per occultioris et incognitarum rerum indagatricis Magiæ cognitionem,
+                    ea viderint et intellexerint, quæ reliquis <app>
                         <lem wit="#E">hominibus</lem>
                         <rdg><note>delevit D et om. P</note></rdg>
                     </app>, huius scientiæ ignaris, occulta erant: vnde etiam non immerito Magorum
@@ -809,11 +835,13 @@
                         <rdg><note> sed correxit</note></rdg>
                     </app>, nec ab ipsis etiam Mathematicis. Reliquum igitur est, vt statuamus Dei
                     totius Machinæ mundanæ opificis, admirandum hoc esse Ostentum, præter omnem
-                    naturæ ordinem, a seipso in initio constitutum: nunc demum  <ref target="n17"/> aduesperascenti mundo
-                    exhibitum. Diuina enim maiestas liberrime agit, nec vllis obstricta est Naturæ
-                    vinculis, sed cum vult, sistit aquam fluuijs et vertit sidera retro.</p>
+                    naturæ ordinem, a seipso in initio constitutum: nunc demum <ref target="n17"/>
+                    aduesperascenti mundo exhibitum. Diuina enim maiestas liberrime agit, nec vllis
+                    obstricta est Naturæ vinculis, sed cum vult, sistit aquam fluuijs et vertit
+                    sidera retro.</p>
                 <lg rend="it">
-                    <l> <ref target="n18"/> Hæc potuit Solis currus inhibere volantes,</l>
+                    <l>
+                        <ref target="n18"/> Hæc potuit Solis currus inhibere volantes,</l>
                     <l>Cum populi Israël dux Iosue sterneret hostes.</l>
                     <l>Hæc potuit Solis sine Luna, extinguere lumen,</l>
                     <l>Cum suus est factus pro nobis victima Gnatus.</l>
@@ -845,12 +873,12 @@
                 </head>
                 <p><lb/>CONSPICIEBATUR hæc recens nata stella in Borealj cœlj plaga, versus polum
                     Arcticum, iuxta constellationem, quam veteres Magi Cassiopeam appellarunt,
-                    vicina paruæ istj stellæ, quæ est in  <ref target="n19"/> Cathedræ medio loco, modicum ab ea versus
-                    Cepheum remota. Constituebat etiam cum suprema Cathedræ, et ea quæ in pectore
-                    Schedir appellatur, eaque quæ iuxta incuruationem ad ilia tendit, figuram
-                    quadrilateram. Sed vt tota res melius cognoscatur, præcipuas stellas sideris
-                    Cassiopeæ, vnâ cum huius nouæ ad illas positu, oculis subijciam.<pb ed="A"
-                        n="B1v"/></p>
+                    vicina paruæ istj stellæ, quæ est in <ref target="n19"/> Cathedræ medio loco,
+                    modicum ab ea versus Cepheum remota. Constituebat etiam cum suprema Cathedræ, et
+                    ea quæ in pectore Schedir appellatur, eaque quæ iuxta incuruationem ad ilia
+                    tendit, figuram quadrilateram. Sed vt tota res melius cognoscatur, præcipuas
+                    stellas sideris Cassiopeæ, vnâ cum huius nouæ ad illas positu, oculis
+                        subijciam.<pb ed="A" n="B1v"/></p>
                 <figure n="1">
                     <desc/>
                     <p>A caput Cassiopeæ, B Pectus Schedir, C etc.</p>
@@ -863,7 +891,8 @@
                         <lem wit="#E">distare</lem>
                         <rdg wit="#D">remoueri</rdg>
                         <rdg wit="#P"><note>man. sec.</note></rdg>
-                    </app> ab ea, quæ est in pectore, Schedir appellata B, 7.  <ref target="n20"/> partibus et <app>
+                    </app> ab ea, quæ est in pectore, Schedir appellata B, 7. <ref target="n20"/>
+                    partibus et <app>
                         <lem wit="#E">55</lem>
                         <rdg><note><q>52</q> D man. sec.</note></rdg>
                     </app>. minutis: a <app>
@@ -895,12 +924,12 @@
                         <rdg><note>om. P</note></rdg>
                     </app> euidentioris demonstrationis gratia, in sequentj figuratione, duæ stellæ
                     fixæ sideris Cassiopeiæ A et B: quarum A sit illa in Cathedræ parte superiore,
-                    quam alij  <ref target="n21"/> in ascensu medio collocant: B vero illam, quæ in flexura est, iuxta
-                    ilia, representet: C autem locus nouæ stellæ, et AC, arcus distantiæ eius a
-                    suprema Cathedræ: CB, arcus inter hanc et flexuram interceptus: et AB, arcus
-                    intercapedinis vtriusque fixæ. Sit insuper G polus Zodiacj Boreus, a quo duo
-                    quadrantes descendant in Eclipticam, per prænominatas fixas in A et B positas:
-                    per A quidem GD: per B vero GF. Erit itaque DF arcus Ecclipticæ <app>
+                    quam alij <ref target="n21"/> in ascensu medio collocant: B vero illam, quæ in
+                    flexura est, iuxta ilia, representet: C autem locus nouæ stellæ, et AC, arcus
+                    distantiæ eius a suprema Cathedræ: CB, arcus inter hanc et flexuram interceptus:
+                    et AB, arcus intercapedinis vtriusque fixæ. Sit insuper G polus Zodiacj Boreus,
+                    a quo duo quadrantes descendant in Eclipticam, per prænominatas fixas in A et B
+                    positas: per A quidem GD: per B vero GF. Erit itaque DF arcus Ecclipticæ <app>
                         <lem wit="#E">dirimens</lem>
                         <rdg wit="#D"><q>dirimentis</q></rdg>
                         <rdg><note>sed correxit</note></rdg>
@@ -932,9 +961,10 @@
                     complementa latitudinum fixarum GA, scilicet 38. G. 20. M. GB vero 41. G. 0. M.
                     Est etiam angulus, quem dicta latera comprehendunt notus. Illum enim metitur
                     arcus DF, differentia videlicet longitudinis vtriusque fixæ, quæ est 8 Gra. 50.
-                    M. Vnde per vigesimam octauam propositionem libri quarti, Iohannis  <ref target="n22"/> <persName
-                        ref="regiomontanus_johannes_1436">Regiomontani</persName>, de triangulis sphæricis, arcus
-                    AB innotescit, quem inuenimus 6. partium <app>
+                    M. Vnde per vigesimam octauam propositionem libri quarti, Iohannis <ref
+                        target="n22"/>
+                    <persName ref="regiomontanus_johannes_1436">Regiomontani</persName>, de
+                    triangulis sphæricis, arcus AB innotescit, quem inuenimus 6. partium <app>
                         <lem wit="#E">cum ¼</lem>
                         <rdg><note><q>14</q> D in marg. P</note></rdg>
                     </app>, qualem etiam per instrumentum, capiendo vtriusque fixæ distantiam,
@@ -965,15 +995,15 @@
                     </app>. Hunc angulum ab angulo BAG <app>
                         <lem wit="#E">prius inuento, aufero</lem>
                         <rdg wit="#D">aufero prius invento</rdg>
-                    </app>, tanquam partem de suo toto, et relinquitur quantitas anguli CAG,  <ref target="n23"/> partium
-                    61, Minu. <app>
+                    </app>, tanquam partem de suo toto, et relinquitur quantitas anguli CAG, <ref
+                        target="n23"/> partium 61, Minu. <app>
                         <lem wit="#E">44</lem>
                         <rdg><note><q>9</q> D man. sec. P</note></rdg>
                     </app>. Nunc progredior ad Triangulum CAG, cuius Angulus, qui ad A, iam
                     innotuit: duo vero latera dictum angulum comprehendentia GA et AC, ex
                     superioribus nota sunt. Quapropter beneficio 28 propositionis libri quarti
-                    <persName ref="regiomontanus_johannes_1436">Regiomontani</persName> de Triangulis,
-                    reliquum latus GC innotescet, partium videlicet <app>
+                        <persName ref="regiomontanus_johannes_1436">Regiomontani</persName> de
+                    Triangulis, reliquum latus GC innotescet, partium videlicet <app>
                         <lem wit="#E">38 Minut: 4</lem>
                         <rdg><note><q>36 Minut: 1</q> D man. sec. P</note></rdg>
                     </app>. Erat autem arcus GC, complementum latitudinis nouæ stellæ. Vnde sublato
@@ -985,8 +1015,8 @@
                         <lem wit="#E">dimetior</lem>
                         <rdg><note><q>inquiro</q> D man. sec. P</note></rdg>
                     </app>, iuxta operationem propositionis 34 libri Quarti, vel tertiæ libri Quinti
-                        <persName ref="regiomontanus_johannes_1436">Regiomontani</persName> de Triangulis. Inuenio
-                    autem dictum angulum <app>
+                        <persName ref="regiomontanus_johannes_1436">Regiomontani</persName> de
+                    Triangulis. Inuenio autem dictum angulum <app>
                         <lem wit="#E">part: 8, et minuti vnius</lem>
                         <rdg><note><q>part: 7 et min. 59</q> D man. sec. P</note></rdg>
                     </app>. Hunc vero <pb ed="TBOO" n="I.23"/>angulum metitur arcus DE, differentiam
@@ -1026,9 +1056,10 @@
                             </app>, tamen quia ipsemet in harum fixarum locis, nihil certi <app>
                                 <lem wit="#E">obseruatum habeam</lem>
                                 <rdg wit="#P">obseruatum hactenus habeam</rdg>
-                            </app>, noluj a <persName ref="ptolemaios_klaudios_0100">Ptolomæj</persName> et
-                            Copernici annotatione recedere. Quin potius, cum illis, quam <ref target="n24"/> Alphonsina
-                            farragine sentire, eo quod obseruatione crebra didicerim, Copernici <app>
+                            </app>, noluj a <persName ref="ptolemaios_klaudios_0100"
+                                >Ptolomæj</persName> et Copernici annotatione recedere. Quin potius,
+                            cum illis, quam <ref target="n24"/> Alphonsina farragine sentire, eo
+                            quod obseruatione crebra didicerim, Copernici <app>
                                 <lem wit="#E">motus</lem>
                                 <rdg wit="#P">numeros</rdg>
                             </app> propius cœlo accedere, quam aut Alphonsinas aut vllas alias
@@ -1112,7 +1143,8 @@
                     vertici appropinquat, necessarium est eam reperirj in aliquo orbe, respectu
                     cuius terra sensibilem habeat magnitudinem. Quam vero longe remoueatur dictus
                     orbis, paralaxeos quantitas semidiametro terræ collata, manifestabit. Sin vero
-                    stella tam iuxta horizontem, quam verticem, in eodem  <ref target="n25"/> primi mobilis puncto <app>
+                    stella tam iuxta horizontem, quam verticem, in eodem <ref target="n25"/> primi
+                    mobilis puncto <app>
                         <lem wit="#E">cernatur</lem>
                         <rdg wit="#P">spectetur</rdg>
                     </app>, non dubium est, eam, vel in octaua Sphæra, vel non longe infra, in orbe,
@@ -1228,24 +1260,25 @@
                         <rdg wit="#P">latebit</rdg>
                     </app> AR, per 29 propositionem <persName ref="regiomontanus_johannes_1436"
                         >Regiomontanj</persName> de triangulis planis. Si itaque ponatur
-                    semidiameter terræ KA, partium 100000, tanquam  <ref target="n26"/> sinus totus, cum sit latus recto
-                    angulo, qui ad R, oppositum, euadit latus A R, partium 88363. Nunc demum
-                    concipio triangulum ROA, cuius duo <pb ed="TBOO" n="I.26"/>latera RA, et AO,
-                    nota sunt. Est enim AO distantia a centro terræ ad infimam superficiem orbis
-                    Lunæ, quam vnâ cum Copernico statuimus partium 5200000, qualium semidiameter
-                    terræ AK, erat 100000 (lubet enim maioribus numeris negocium hoc absoluere, vt
-                    calculus eo fit commodior et exactius innotescat) cumque in dicto triangulo
-                    angulus ORA ex hypothesi rectus fit, per 27 propositionem <persName
-                        ref="regiomontanus_johannes_1436">Regiomontanj</persName> de triangulis planis, non
-                    latebit angulus ROA. Multiplicato enim latere AR in totum sinum, producuntur
-                    8836300000, qui numerus per latus AO diuisus, relinquit 1699 partes, sinum
-                    videlicet angulj ROA, cuius arcus est 0 partium, 58½<pb ed="A" n="C3v"
-                    />Minutorum, qui numerus anguli quæsitj determinat quantitatem. Huic vero angulo
-                    ROA, æqualis est angulus POQ : est enim illj contrapositus, vt patet 
-                     <ref target="n27"/> ex elementis Geometriæ. Idcirco arcus PQ, qui hunc angulum metitur (nam propter
-                    immensam <pb ed="TBOO" n="I.27"/>distantiam inter Sphæram Lunæ et primum mobile,
-                    arcus PQ non differt sensibiliter ab arcu circulj interuallo OP ijsdem lineis
-                    intercepto) stellæque designat paralaxin, <app>
+                    semidiameter terræ KA, partium 100000, tanquam <ref target="n26"/> sinus totus,
+                    cum sit latus recto angulo, qui ad R, oppositum, euadit latus A R, partium
+                    88363. Nunc demum concipio triangulum ROA, cuius duo <pb ed="TBOO" n="I.26"
+                    />latera RA, et AO, nota sunt. Est enim AO distantia a centro terræ ad infimam
+                    superficiem orbis Lunæ, quam vnâ cum Copernico statuimus partium 5200000,
+                    qualium semidiameter terræ AK, erat 100000 (lubet enim maioribus numeris
+                    negocium hoc absoluere, vt calculus eo fit commodior et exactius innotescat)
+                    cumque in dicto triangulo angulus ORA ex hypothesi rectus fit, per 27
+                    propositionem <persName ref="regiomontanus_johannes_1436"
+                        >Regiomontanj</persName> de triangulis planis, non latebit angulus ROA.
+                    Multiplicato enim latere AR in totum sinum, producuntur 8836300000, qui numerus
+                    per latus AO diuisus, relinquit 1699 partes, sinum videlicet angulj ROA, cuius
+                    arcus est 0 partium, 58½<pb ed="A" n="C3v"/>Minutorum, qui numerus anguli
+                    quæsitj determinat quantitatem. Huic vero angulo ROA, æqualis est angulus POQ :
+                    est enim illj contrapositus, vt patet <ref target="n27"/> ex elementis
+                    Geometriæ. Idcirco arcus PQ, qui hunc angulum metitur (nam propter immensam <pb
+                        ed="TBOO" n="I.27"/>distantiam inter Sphæram Lunæ et primum mobile, arcus PQ
+                    non differt sensibiliter ab arcu circulj interuallo OP ijsdem lineis intercepto)
+                    stellæque designat paralaxin, <app>
                         <lem wit="#E">erit</lem>
                         <rdg><note>ante <q>erit</q> add. <q>etiam</q> D</note></rdg>
                     </app> minutorum 58½, quod erat quærendum. Tantam igitur habuisset hæc stella in
@@ -1296,12 +1329,13 @@
                                 <lem wit="#E">vt supra ostendi</lem>
                                 <rdg><note>om. P</note></rdg>
                             </app>, remouetur. Toti enim orbes proprijs polis reuoluti, sua
-                            circumducunt sidera, vel ab illis,  <ref target="n28"/> (vt Plinio et quibusdam alijs placere
-                            video) circumaguntur. Nisi quis receptam a Philosophis et Mathematicis
-                            sententiam negare velit, solasque stellas immotis orbibus conuolui (quod
-                            absurdum est) asserere. Vnde si hæc stella in aliquo orbium septem
-                            errantium siderum constitueretur, necessario cum ipso orbe, cui affixa
-                            esset, contra diurnam reuolutionem circumduceretur.</lem>
+                            circumducunt sidera, vel ab illis, <ref target="n28"/> (vt Plinio et
+                            quibusdam alijs placere video) circumaguntur. Nisi quis receptam a
+                            Philosophis et Mathematicis sententiam negare velit, solasque stellas
+                            immotis orbibus conuolui (quod absurdum est) asserere. Vnde si hæc
+                            stella in aliquo orbium septem errantium siderum constitueretur,
+                            necessario cum ipso orbe, cui affixa esset, contra diurnam reuolutionem
+                            circumduceretur.</lem>
                         <rdg><note>om. P</note></rdg>
                     </app> Atque hic motus etiam in lentissimo Saturni <app>
                         <lem wit="#E">orbis</lem>
@@ -1319,7 +1353,8 @@
                     Philosophi: <app>
                         <lem wit="#E">nisi</lem>
                         <rdg><note><q>nisi</q> ex <q>mihi</q> corr. D</note></rdg>
-                    </app> quis cum  <ref target="n29"/> <app>
+                    </app> quis cum <ref target="n29"/>
+                    <app>
                         <lem wit="#E">Albategnio</lem>
                         <rdg><note><q>Albumazere</q> D man. sec.: <q>Albumassare</q> P</note></rdg>
                     </app> statuere velit, Cometas, non in aëre, sed <app>
@@ -1376,8 +1411,8 @@
                         <lem wit="#E">adeo</lem>
                         <rdg><note><q>in tantum</q> D, sed correxit</note></rdg>
                     </app> vt vix aliqua tam exigua in firmamento conspiciatur stella, quin decies
-                    octies, ad minimum, terrenam molem exuperet: vt taceam aliquas  <ref target="n30"/> primum honorem
-                    obtinentes, centies quinquies terram <app>
+                    octies, ad minimum, terrenam molem exuperet: vt taceam aliquas <ref target="n30"
+                    /> primum honorem obtinentes, centies quinquies terram <app>
                         <lem wit="#E">magnitudine excedere</lem>
                         <rdg wit="#D">vincere</rdg>
                     </app>. Id licet multis incredibile videatur: tamen immensam earum a nobis
@@ -1460,7 +1495,8 @@
                                     diffusius lumen stella hæc quodamodo maior apparere visa est.
                                     Nunc igitur stella ad consistentiam luminis perducta eius color
                                     (vt dixi) subrutilans cernitur</q> D</note></rdg>
-                    </app>: qualis est  <ref target="n31"/> Aldeboræ, aut illius, quæ in dextro humero Orionis <app>
+                    </app>: qualis est <ref target="n31"/> Aldeboræ, aut illius, quæ in dextro
+                    humero Orionis <app>
                         <lem wit="#E">rubescit</lem>
                         <rdg wit="#D"><q>rubescens</q></rdg>
                     </app>. Non tamen vsque adeo <app>
@@ -1497,10 +1533,10 @@
                             demonstrationibus, contra omnium Philosophorum <pb ed="A" n="D2v"
                             />sententias et decreta, probauimus: longe minus impossibile et absurdum
                             censebitur, hanc ipsam nouam stellam, aliquam alterationem magnitudinis
-                            et coloris admittere. Imo vero, quemadmodum illa  <ref target="n32"/> aliquando in cœlo,
-                            præter communes Naturæ Leges extitit, ita etiam si in eodem aliquando,
-                            contra easdem Naturæ Leges conspicj (vt credibile est) desinat, non
-                            video, quid priori, hinc magis absurdum consequatur.</lem>
+                            et coloris admittere. Imo vero, quemadmodum illa <ref target="n32"/>
+                            aliquando in cœlo, præter communes Naturæ Leges extitit, ita etiam si in
+                            eodem aliquando, contra easdem Naturæ Leges conspicj (vt credibile est)
+                            desinat, non video, quid priori, hinc magis absurdum consequatur.</lem>
                         <rdg>
                             <note>om. D</note>
                         </rdg>
@@ -1515,7 +1551,7 @@
                 <p>ETSI de effectibus huius stellæ aliquid certj constituere longe <app>
                         <lem wit="#E">superet</lem>
                         <rdg wit="#D">superat</rdg>
-                    </app> Astrologiæ  <ref target="n33"/> metas, et verisimile <app>
+                    </app> Astrologiæ <ref target="n33"/> metas, et verisimile <app>
                         <lem wit="#E">sit</lem>
                         <rdg wit="#D">est</rdg>
                     </app>, Deum, maius quippiam per hanc, mundo ostendere, quam beneficio vllius
@@ -1523,33 +1559,31 @@
                     Astrologiæ fontibus petitas subiungam, quatenus nonnulla huius artis beneficio
                     præsciri possibile est, et mihi cognita pro temporis breui occasione in mentem
                     veniunt: nihil hac in parte derogantes Theologorum, vel aliorum quorumuis
-                    sententiæ, nec nostras coniecturas pro
-                     <ref target="n34"/> Edictis prætoriis aut oraculis
-                    vendentes. Verisimile est autem, quemadmodum <pb ed="A" n="D3r"/>huius stellæ
-                    miraculum, præ omnibus, quæ a mundj exordio facta sunt, est rarissimum et
+                    sententiæ, nec nostras coniecturas pro <ref target="n34"/> Edictis prætoriis aut
+                    oraculis vendentes. Verisimile est autem, quemadmodum <pb ed="A" n="D3r"/>huius
+                    stellæ miraculum, præ omnibus, quæ a mundj exordio facta sunt, est rarissimum et
                     maximum: sic etiam rarissimos et maximos habituram hanc stellam effectus.
-                    Quapropter illam plus ostenti habere iudico, quam vlli superiorum
-                     <ref target="n35"/> Planetarum congressus, etiam illi,
-                    quos vocant maximos: aut vllæ luminarium quantæcumque eclipses: vel vllæ aliæ,
-                    quouis modo stellarum in cœlo congressus aut configurationes. Hæc enim omnia,
-                    etsi magnas in hunc inferiorem mundum habeant potestates, vt indies veri
-                    experiuntur Artifices: tamen, quia crebrius fiunt, et naturali ordine, non
-                    tantas habere possibile est significationes, quantas hæc recens nata stella, quæ
-                    præter omnem Naturæ ordinem, nunc primum in cœlo extitit, omnesque reliquas
-                    fixas, sua magnitudine et luminis fulgore plurimum exuperat. Qui vero et quales
-                    futuri fint huius stellæ effectus, admodum difficile est ex Astrologiæ
-                    fundamentis indagare. Hæc enim Ars, ex multiplici, et raro fallenti experientia,
-                    suas constituit Conclusiones, nec nisi semel, tempore <persName ref="hipparchos_0190"
+                    Quapropter illam plus ostenti habere iudico, quam vlli superiorum <ref
+                        target="n35"/> Planetarum congressus, etiam illi, quos vocant maximos: aut
+                    vllæ luminarium quantæcumque eclipses: vel vllæ aliæ, quouis modo stellarum in
+                    cœlo congressus aut configurationes. Hæc enim omnia, etsi magnas in hunc
+                    inferiorem mundum habeant potestates, vt indies veri experiuntur Artifices:
+                    tamen, quia crebrius fiunt, et naturali ordine, non tantas habere possibile est
+                    significationes, quantas hæc recens nata stella, quæ præter omnem Naturæ
+                    ordinem, nunc primum in cœlo extitit, omnesque reliquas fixas, sua magnitudine
+                    et luminis fulgore plurimum exuperat. Qui vero et quales futuri fint huius
+                    stellæ effectus, admodum difficile est ex Astrologiæ fundamentis indagare. Hæc
+                    enim Ars, ex multiplici, et raro fallenti experientia, suas constituit
+                    Conclusiones, nec nisi semel, tempore <persName ref="hipparchos_0190"
                         >Hipparchi</persName> factum esse legimus, quod noua in cœlo prodierit
                     stella. Vnde ab experientia, iudicium hac in re petere, ambiguum peneque
                     impossibile est. Verisimile tamen esse iudico, quod veluti circa <persName
-                        ref="hipparchos_0190">Hipparchi</persName> tempora, qui
-                     <ref target="n36"/> floruit iuxta annum mundi 3840, ante
-                    Christum <pb ed="TBOO" n="I.31"/>annis fere 125 (quemadmodum ex obseruationibus
-                    ab eo factis, et a  <ref target="n37"/> <persName
-                        ref="ptolemaios_klaudios_0100">Ptolomeo</persName> citatis colligitur) paulatim post eius
-                    stellæ apparitionem, quam obseruauit dictus <persName ref="hipparchos_0190"
-                        >Hipparchus</persName>, <app>
+                        ref="hipparchos_0190">Hipparchi</persName> tempora, qui <ref target="n36"/>
+                    floruit iuxta annum mundi 3840, ante Christum <pb ed="TBOO" n="I.31"/>annis fere
+                    125 (quemadmodum ex obseruationibus ab eo factis, et a <ref target="n37"/>
+                    <persName ref="ptolemaios_klaudios_0100">Ptolomeo</persName> citatis colligitur)
+                    paulatim post eius stellæ apparitionem, quam obseruauit dictus <persName
+                        ref="hipparchos_0190">Hipparchus</persName>, <app>
                         <lem wit="#E">mirabiles <pb ed="A" n="D3v"/>contigerunt, tum in populo Dej,
                             tum in vniuerso orbe habitabilj mutationes: ita hisce similiter
                             temporibus, fatales ingruere periodos, non est dubium.</lem>
@@ -1562,16 +1596,14 @@
                             et ab ingratis Iudæis negligi atque conculcarj. Exortæ sunt tum, Sectæ
                             illæ tres, Pharisæorum, Essæorum et Saducæorum. Concertabant inter se
                             summj Pontifices, non largitionibus ac ambitione tantum, sed et sanguine
-                            atque cæde, pro aris et summo Pontificatu obtinendo, vt ex
-                             <ref target="n38"/> historia istius Iohannis
-                            apparet, qui a fratre, hac de caussa, in ipso templo occisus est. Paulo
-                            post, sceptrum etiam amisit
-                             <ref target="n39"/> Ianna Hyrcanus, vltimus ex
-                            tribu et domo Dauid: et secutæ sunt passim horrendæ clades et funestæ
-                            lanienæ, ciuiles et externæ, vsque dum gregem suum pusillum, tum
-                            temporis in oppido angustum redactum, Dux de Bethlehem ciuitate Iuda
-                            inuisit, et oriens ex alto Stella Iacob, de qua
-                             <ref target="n40"/> Bileam vaticinatus erat, Lux
+                            atque cæde, pro aris et summo Pontificatu obtinendo, vt ex <ref
+                                target="n38"/> historia istius Iohannis apparet, qui a fratre, hac
+                            de caussa, in ipso templo occisus est. Paulo post, sceptrum etiam amisit
+                                <ref target="n39"/> Ianna Hyrcanus, vltimus ex tribu et domo Dauid:
+                            et secutæ sunt passim horrendæ clades et funestæ lanienæ, ciuiles et
+                            externæ, vsque dum gregem suum pusillum, tum temporis in oppido angustum
+                            redactum, Dux de Bethlehem ciuitate Iuda inuisit, et oriens ex alto
+                            Stella Iacob, de qua <ref target="n40"/> Bileam vaticinatus erat, Lux
                             vera toti orbi salutaris, illuxit: quam duce stella, Magi inuenerunt, et
                             sublato postea interstitio, Iudæi pariter atque Gentes micantem
                             conspexerunt.</lem>
@@ -1595,12 +1627,11 @@
                     </app>: <app>
                         <lem wit="#E">præsertim</lem>
                         <rdg><note><q>tum præsertim</q> D, sed correxit</note></rdg>
-                    </app> quia hæc stella incidit in completam ferme periodum omnium
-                     <ref target="n41"/> Trigonorum totius zodiaci. Nam post
-                    annos abhinc decem, congressus
-                     <ref target="n42"/> superiorum planetarum, præ cæteris
-                    maximus, in extremitate Piscium, finem imponet Trigono aqueo, vnaque omnium
-                    aliorum circuitum <app>
+                    </app> quia hæc stella incidit in completam ferme periodum omnium <ref
+                        target="n41"/> Trigonorum totius zodiaci. Nam post annos abhinc decem,
+                    congressus <ref target="n42"/> superiorum planetarum, præ cæteris maximus, in
+                    extremitate Piscium, finem imponet Trigono aqueo, vnaque omnium aliorum
+                    circuitum <app>
                         <lem wit="#E">(qui vix octingentis annis absoluitur) claudit</lem>
                         <rdg><note><q>claudit (qui vix octingentis annis absoluitur)</q> D man.
                                 pr.</note></rdg>
@@ -1612,20 +1643,19 @@
                     Imperiorum et Monarchiarum, omniumque statuum per vniuersum orbem, immutationes,
                     huius artis periti facile intelligunt. Quod vero hæc stella, quo ad polos mundi
                     in principium Arietis, locum æquinoctialem, totiusque zodiaci nouum exordium,
-                    prope circulum, quem  <ref target="n43"/> colurum
-                    æquinoctiorum vocant, incidat, post varios et graues tumultus variasque omnium
-                    rerum in mundo immutationes, nouum quendam et diuersum a prioribus Mon<pb
-                        ed="TBOO" n="I.32"/>archiarum statum, tum etiam Relligionis et Legum aliam
-                    administrationem portendere, ex loci ipsius insita vi et peculiari natura
-                    videtur.</p>
+                    prope circulum, quem <ref target="n43"/> colurum æquinoctiorum vocant, incidat,
+                    post varios et graues tumultus variasque omnium rerum in mundo immutationes,
+                    nouum quendam et diuersum a prioribus Mon<pb ed="TBOO" n="I.32"/>archiarum
+                    statum, tum etiam Relligionis et Legum aliam administrationem portendere, ex
+                    loci ipsius insita vi et peculiari natura videtur.</p>
                 <p rend="indent">Quantum vero ad ipsius stellæ naturam attinet, <app>
                         <lem wit="#E">quoniam ab initio, Iouis amicum lumen æmulabatur, <pb ed="A"
                                 n="D4v"/>idcirco in initio etiam suorum effectuum, læta et prospera
                             omnia spondere videtur, rerumque e terra crescentium et vsibus humanis
                             aptarum, vberem promittit copiam: tum etiam animantium salubritatem, et
-                             <ref target="n44"/> aëris lætam amænitatem,
-                            pacemque et concordiam. At quoniam, in medio, in rutilantem Martis
-                            feruorem degenerauit, post hæc læta et auspicata initia, subsecuturas <app>
+                                <ref target="n44"/> aëris lætam amænitatem, pacemque et concordiam.
+                            At quoniam, in medio, in rutilantem Martis feruorem degenerauit, post
+                            hæc læta et auspicata initia, subsecuturas <app>
                                 <lem>minatur</lem>
                                 <rdg><note>add. T: om. E</note></rdg>
                             </app> ingentes clades et calamitates, quales Martis virulentum sidus,
@@ -1654,13 +1684,13 @@
                 <p rend="indent">Quia vero momentum, quo hæc stella primum apparuit, sciri non
                     potest, nec ex siderum positu, qui tunc erat, more Astrologorum, iudicium fieri:
                     tentabimus proximum quiddam, ex positu siderum, qui tempore Nouilunij proxime
-                    antecedentis stellæ apparitionem extitit: idque exemplo
-                         <ref target="n45"/> <persName ref="hali_0988"
-                        >Halj</persName> commentatoris <persName ref="ptolemaios_klaudios_0100"
-                        >Ptolomej</persName>, qui idem in Cometa, cuius initium scirj non potuit,
-                    factitauit. Sequitur igitur figura cœlj et siderum qualis fuit in Nouilunio diei
-                    5 Nouembris. Nam circa id tempus, <pb ed="A" n="E1r"/>vel non longe ante aut
-                    post, stellam primum apparuisse existimo. <app>
+                    antecedentis stellæ apparitionem extitit: idque exemplo <ref target="n45"/>
+                    <persName ref="hali_0988">Halj</persName> commentatoris <persName
+                        ref="ptolemaios_klaudios_0100">Ptolomej</persName>, qui idem in Cometa,
+                    cuius initium scirj non potuit, factitauit. Sequitur igitur figura cœlj et
+                    siderum qualis fuit in Nouilunio diei 5 Nouembris. Nam circa id tempus, <pb
+                        ed="A" n="E1r"/>vel non longe ante aut post, stellam primum apparuisse
+                    existimo. <app>
                         <lem wit="#E">Nobis enim, vt ab initio testatus sum, primum die 11 Nouembris
                             conspecta est: an vero aliquot prius diebus fulserit, quoniam in nostra
                             Regione dies <pb ed="A" n="E1v"/>illj nubibus obductj, Siderum aspectum
@@ -1675,10 +1705,9 @@
                 </figure>
                 <!-- NB: se komm. i variæ scripturæ ad. s. 33 -->
                 <p rend="indent">Dominatorem in hac cœli configuratione constituo Martem. Is enim in
-                    loco  <ref target="n46"/> luminarium
-                     <ref target="n47"/> Carpentum, in angulo sequente
-                     <ref target="n48"/> Exaltationem, in Horoscopo insuper et
-                    cœli medio cardine  <ref target="n49"/> Triplicitatem <app>
+                    loco <ref target="n46"/> luminarium <ref target="n47"/> Carpentum, in angulo
+                    sequente <ref target="n48"/> Exaltationem, in Horoscopo insuper et cœli medio
+                    cardine <ref target="n49"/> Triplicitatem <app>
                         <lem wit="#E">obtinet</lem>
                         <rdg wit="#D">obtinens</rdg>
                     </app>, et cum &#x2644; in receptione domicilij, per &#x26b9; quoque aspectum
@@ -1770,8 +1799,7 @@
                         <lem wit="#E">quemadmodum</lem>
                         <rdg wit="#D"><q>vt</q></rdg>
                     </app> ab initio testatus sum. <app>
-                        <lem wit="#E">Tacebo interim ea,
-                            <ref target="n50"/> quæ e verioribus et
+                        <lem wit="#E">Tacebo interim ea, <ref target="n50"/> quæ e verioribus et
                             secretioribus quibusdam alterius Astrologiæ fontibus, afferri possent.
                             Illa enim paucissimis cognita, et multis forte ob inscitiam odiosa
                             censeretur: imo per se talis ea est, vt nefas sit, eius Mysteria
@@ -1908,12 +1936,12 @@
                     </app> id comprobante, <app>
                         <lem wit="#E">feci</lem>
                         <rdg><note>om. D</note></rdg>
-                    </app>. Testatur enim <persName ref="plinius_secundus_gajus_0023">Plinius</persName>,
-                    naturalis Historiæ libro secundo, Veteres, considerasse quartam Lunam a Solis
-                    congressu, et iuxta illam iudicium tulisse. <persName ref="ptolemaios_klaudios_0100"
-                        >Ptolomæus</persName> etiam asserit, ante tres fere dies, et nonnunquam post
-                    tres exæquati itine<pb ed="A" n="F2r"/>ris Lunaris ad Solem, omnium tempestatum
-                    significationes existere solere. <app>
+                    </app>. Testatur enim <persName ref="plinius_secundus_gajus_0023"
+                        >Plinius</persName>, naturalis Historiæ libro secundo, Veteres, considerasse
+                    quartam Lunam a Solis congressu, et iuxta illam iudicium tulisse. <persName
+                        ref="ptolemaios_klaudios_0100">Ptolomæus</persName> etiam asserit, ante tres
+                    fere dies, et nonnunquam post tres exæquati itine<pb ed="A" n="F2r"/>ris Lunaris
+                    ad Solem, omnium tempestatum significationes existere solere. <app>
                         <lem wit="#E">Quæ tempora, incidunt in configurationis Octogonicæ
                             loca.</lem>
                         <rdg><note>om. D</note></rdg>
@@ -2006,8 +2034,8 @@
                                 D</note></rdg>
                     </app> demonstrauimus, cœli diuisionem, tam per zodiacum modo æquali, quam per
                     Æquatorem, siue <persName ref="Albatagnius">Albategnij</persName> siue <persName
-                        ref="regiomontanus_johannes_1436">Regiomontani</persName> via, quam vocauit Rationalem,
-                    Mathematicæ harmoniæ consonam, minime esse: aliamque, sufficientibus <app>
+                        ref="regiomontanus_johannes_1436">Regiomontani</persName> via, quam vocauit
+                    Rationalem, Mathematicæ harmoniæ consonam, minime esse: aliamque, sufficientibus <app>
                         <lem wit="#D">rationibus et</lem>
                         <rdg wit="#E"><q>et rationibus</q></rdg>
                     </app> multa experientia stabilitam, in harum locum restituimus, <pb ed="TBOO"
@@ -2157,14 +2185,14 @@
                     Planetarum et quarundam præcipuarum fixarum ortus et occasus Heliacos
                     prætermisimus: cum videlicet radios Solares ingressuri, quasi emori, vel ab his
                     liberati, mundo denuo nasci, conspiciuntur. Arcus autem apparitionum et
-                    occultationum stellarum, ex <persName ref="ptolemaios_klaudios_0100">Ptolomæo</persName>
-                    mutuati sumus. Quamuis non ignorem, hos, non satis certos esse, nec in omnibus
-                    eiusdem etiam magnitudinis stellis locum habere, propter variam earum ab
-                    Ecliptica remotionem, et insiti luminis diuersam capacitatem: noluimus tamen a
-                    Veterum sententia hac in parte recedere, cum ipsimet nihil certi per
-                    obseruationes hic compertum habeamus. Spero autem ortus et occasus heliacos
-                    stellarum, a nobis assignatos, si non in ipsum diem, saltem, non diu ante vel
-                    post, incidere.</p>
+                    occultationum stellarum, ex <persName ref="ptolemaios_klaudios_0100"
+                        >Ptolomæo</persName> mutuati sumus. Quamuis non ignorem, hos, non satis
+                    certos esse, nec in omnibus eiusdem etiam magnitudinis stellis locum habere,
+                    propter variam earum ab Ecliptica remotionem, et insiti luminis diuersam
+                    capacitatem: noluimus tamen a Veterum sententia hac in parte recedere, cum
+                    ipsimet nihil certi per obseruationes hic compertum habeamus. Spero autem ortus
+                    et occasus heliacos stellarum, a nobis assignatos, si non in ipsum diem, saltem,
+                    non diu ante vel post, incidere.</p>
 
                 <p rend="indent">Lunæ quoque, ad singulos dies, ortus et occasus, præcipuasque fixas
                     cum illa orientes et occidentes, non piguit annotare. Quæ res non caruit molesto
@@ -2193,8 +2221,8 @@
                     non minor quam Aspectuum est efficatia. Hæ enim, cum sint loca, æqualiter a
                     punctis Tropicis aut Æquinoctialibus, remota, eandem ab Æquatore obseruant
                     declinationem, similesque arcus diurnos et nocturnos describunt. Eas autem
-                    Antiscias quæ respectu Æquinoctiorum distant, <persName ref="ptolemaios_klaudios_0100"
-                        >Ptolomæus</persName>, Imperantes et <app>
+                    Antiscias quæ respectu Æquinoctiorum distant, <persName
+                        ref="ptolemaios_klaudios_0100">Ptolomæus</persName>, Imperantes et <app>
                         <lem wit="#E">Obsequentes</lem>
                         <rdg wit="#D"><q>obedientes</q></rdg>
                     </app> appellauit, quas nos tali charactere &#x29b6; insigniuimus: reliquas
@@ -2216,7 +2244,8 @@
                     iuxta Alphonsinam quam Purbachianam rationem: et propriam quoque sententiam, de
                     tempore huius deliquij, ex obseruationibus nostris in motu luminarium, subiunxi.
                     Tandem etiam breue iudicium Astrologicum de effectibus ipsius Eclipsis, addidi,
-                    ex <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> doctrina desumptum.</p>
+                    ex <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> doctrina
+                    desumptum.</p>
 
                 <p rend="indent">Retuli autem hæc omnia, ad Longitudinem et Latitudinem <hi
                         rend="it"><placeName ref="Denmark">DANIÆ</placeName></hi> Patriæ nostræ:
@@ -2440,9 +2469,9 @@
                             <lem wit="#E">exquisite</lem>
                             <rdg><note><q>in Astronomorum numeris</q> add. V in marg.</note></rdg>
                         </app> respondeant. Inter omnes autem canones cœlestium motuum, nulli
-                        exactius cœlo congruunt, quam Prutenici <persName ref="reinhold_erasmus_1511"
-                            >Erasmi Reinholdi</persName>, qui fundamento <persName ref="kopernikus_nikolaus_1473"
-                            >Copernici</persName>
+                        exactius cœlo congruunt, quam Prutenici <persName
+                            ref="reinhold_erasmus_1511">Erasmi Reinholdi</persName>, qui fundamento
+                            <persName ref="kopernikus_nikolaus_1473">Copernici</persName>
                         <app>
                             <lem wit="#E">innituntur</lem>
                             <rdg><note>post <q>innituntur</q> add. <q>(quamvis ne hi negotium hoc
@@ -3141,7 +3170,8 @@
 
                             <table>
                                 <row>
-                                    <cell cols="4" role="label">Motus simplices Solis compositi.</cell>
+                                    <cell cols="4" role="label">Motus simplices Solis
+                                        compositi.</cell>
                                     <cell rows="5"/>
                                     <cell cols="3" role="label">Ascensiones loci Solis Rectæ.</cell>
                                 </row>
@@ -3294,8 +3324,9 @@
                                 </app>: tamen ex distantia Meridianorum, quam constituit <app>
                                     <lem wit="#E">inter Regiomontem et Cracouiam aut Alexandriam,
                                         quibus locis <persName ref="kopernikus_nikolaus_1473"
-                                            >Copernicus</persName> et <persName ref="ptolemaios_klaudios_0100"
-                                            >Ptolomeus</persName> vsi sunt</lem>
+                                            >Copernicus</persName> et <persName
+                                            ref="ptolemaios_klaudios_0100">Ptolomeus</persName> vsi
+                                        sunt</lem>
                                     <rdg wit="#V"><q>inter suum hunc locum et Alexandriam, aut
                                             Cracoviam, quibus Ptolomæus et Copernicus usi
                                         sunt</q></rdg>
@@ -3703,14 +3734,14 @@
                                 </app> calculo decerptæ, quæ <app>
                                     <lem wit="#E">integram</lem>
                                     <rdg wit="#D"><q>totam</q></rdg>
-                                </app> eius summam continebunt, breuiter annotabo.
-                              </p>
+                                </app> eius summam continebunt, breuiter annotabo. </p>
                         </div>
                     </div>
 
                     <div>
                         <head>
-                            <orig><pb ed="A" n="I1v"/>ECLIPSIS LVNÆ ANNO A NATO CHRISTO 1573. DECEMBRIS DIE OCTAUO. </orig>
+                            <orig><pb ed="A" n="I1v"/>ECLIPSIS LVNÆ ANNO A NATO CHRISTO 1573.
+                                DECEMBRIS DIE OCTAUO. </orig>
                             <reg/>
                         </head>
                         <table>
@@ -4152,8 +4183,8 @@
                                             pervestigare licuit</q> V</note></rdg>
                             </app>.</opener>
                         <p>RECENSUI monumenta huius deliquij Lunaris iuxta triplicem cœlestium
-                            motuum calculum, Prutenicum (qui <persName ref="kopernikus_nikolaus_1473"
-                                >Copernici</persName>
+                            motuum calculum, Prutenicum (qui <persName
+                                ref="kopernikus_nikolaus_1473">Copernici</persName>
                             <app>
                                 <lem wit="#E">hypothesibus</lem>
                                 <rdg><note>post <q>hypothesibus</q> add. <q>et numeris</q>
@@ -4529,7 +4560,8 @@
                                         se, vel confixis commixtiones, aut configurationes
                                         evidentiores producere effectus, verisimile est, quam
                                         Luminarium defectivi congressus</q></rdg>
-                            </app> Quapropter <persName ref="ptolemaios_klaudios_0100">Ptolomeus</persName>, Artis <app>
+                            </app> Quapropter <persName ref="ptolemaios_klaudios_0100"
+                                >Ptolomeus</persName>, Artis <app>
                                 <lem wit="#E">huius</lem>
                                 <rdg><note>post <q>huius</q> add. <q>uti existimatur</q>
                                     V</note></rdg>
@@ -4562,7 +4594,8 @@
                                 <rdg><note>post <q>breues</q> add. <q>verisimiles</q> V in
                                         marg</note></rdg>
                             </app> coniecturas de effectibus huius deliquij, ex <app>
-                                <lem wit="#E"><persName ref="ptolemaios_klaudios_0100">Ptolomej</persName></lem>
+                                <lem wit="#E"><persName ref="ptolemaios_klaudios_0100"
+                                        >Ptolomej</persName></lem>
                                 <rdg><note>post <q>Ptolomej</q> add. <q>præsertim</q> V</note></rdg>
                             </app> doctrina (cuius tanquam optimj Artificis vestigia sequi libuit,
                             cum ipsemet raram hac in parte hactenus habuerim experientiam) quam
@@ -4703,12 +4736,12 @@
                                     <lem wit="#E">ad</lem>
                                     <rdg><note>om. V</note></rdg>
                                 </app> peculiarem Mercurij significationem attinet, ex <persName
-                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> sententia, omnia impetuosa
-                                significat; latrocinia, furta, piraticas inuasiones: quædam etiam
-                                circa Sacrorum ritus, et regios reditus portendit. Imprimis verô
-                                ventorum turbulentiam, contrarietatem, et instabilitatem suscitat,
-                                siccitatemque aëris efficit: nonnunquam, etiam fulmina et flammantia
-                                immittens tonitrua: frugum <app>
+                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> sententia,
+                                omnia impetuosa significat; latrocinia, furta, piraticas inuasiones:
+                                quædam etiam circa Sacrorum ritus, et regios reditus portendit.
+                                Imprimis verô ventorum turbulentiam, contrarietatem, et
+                                instabilitatem suscitat, siccitatemque aëris efficit: nonnunquam,
+                                etiam fulmina et flammantia immittens tonitrua: frugum <app>
                                     <lem wit="#E">etiam</lem>
                                     <rdg wit="#V"><q>quoque</q></rdg>
                                 </app>, et eorum quæ vsibus humanis apta sunt, penuriam portendit;
@@ -4767,8 +4800,9 @@
                                     <rdg wit="#V"><q>infirmitates</q></rdg>
                                 </app> portendit.</p>
                             <p rend="indent">Quæ autem supra dixi de Regijs reditibus aut similibus,
-                                ex <persName ref="ptolemaios_klaudios_0100">Ptolomei</persName> sententia a
-                                Mercurio significarj; ea hanc ob causam maxime roborantur, <app>
+                                ex <persName ref="ptolemaios_klaudios_0100">Ptolomei</persName>
+                                sententia a Mercurio significarj; ea hanc ob causam maxime
+                                roborantur, <app>
                                     <lem wit="#E">quod &#x263F;</lem>
                                     <rdg wit="#V"><q>quia is</q></rdg>
                                 </app> vnâ sit deliquij et secundæ domus (quæ <app>
@@ -4869,9 +4903,9 @@
                                     <rdg wit="#D"><q>sunt fere</q></rdg>
                                     <rdg wit="#V"><q>ferme sunt</q></rdg>
                                 </app>, quæ in genere, hæc eclipsis, significare, mihi, <persName
-                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> vestigijs inhærenti,
-                                videtur. In specie autem hac in parte, aliquid prædicere, ad modum
-                                difficile est, et ab Astrologi cautj munere alienum. Id <app>
+                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> vestigijs
+                                inhærenti, videtur. In specie autem hac in parte, aliquid prædicere,
+                                ad modum difficile est, et ab Astrologi cautj munere alienum. Id <app>
                                     <lem wit="#E">tamen</lem>
                                     <rdg wit="#D"><q>autem</q></rdg>
                                 </app> conclusionis loco monere volo, hæc et alia, quæcunque illa
@@ -4922,10 +4956,10 @@
                                     <lem resp="#TBOO">occupato</lem>
                                     <rdg wit="#E"><q>ocupato</q></rdg>
                                 </app>, peculiariter effectus huius deliquij experientur. Tribuit
-                                autem <persName ref="ptolemaios_klaudios_0100">Ptolomeus</persName> signo
-                                Geminorum, Hircaniam, Armeniam, Cyrenas, Marmariam, et inferiorem
-                                Ægiptum. Recentiores Astrologi addiderunt Sardiniam, Longobardiæ
-                                partem, Flandriam, Brabantiam, <app>
+                                autem <persName ref="ptolemaios_klaudios_0100">Ptolomeus</persName>
+                                signo Geminorum, Hircaniam, Armeniam, Cyrenas, Marmariam, et
+                                inferiorem Ægiptum. Recentiores Astrologi addiderunt Sardiniam,
+                                Longobardiæ partem, Flandriam, Brabantiam, <app>
                                     <lem wit="#E">Virtenbergensem</lem>
                                     <rdg wit="#D"><q>Vittebergensem</q></rdg>
                                     <note>sed correxit</note>
@@ -4987,8 +5021,9 @@
                                     <rdg wit="#E"><q>opida</q></rdg>
                                 </app> illustriora, quorum Reges, Duces, aut quouis modo
                                 gubernatores moderni, tempore suæ natiuitatis in cœlj culmine signum
-                                defectiuum habuere; hæc etiam, ex <persName ref="ptolemaios_klaudios_0100"
-                                    >Ptolomæj</persName> sententia effectibus huius eclipsis <app>
+                                defectiuum habuere; hæc etiam, ex <persName
+                                    ref="ptolemaios_klaudios_0100">Ptolomæj</persName> sententia
+                                effectibus huius eclipsis <app>
                                     <lem wit="#E">obnoxia</lem>
                                     <rdg><note>ante <q>obnoxia</q> add. <q>nonnihil</q>
                                         V</note></rdg>
@@ -5075,17 +5110,17 @@
                                 <orig>QVANDO INCIPIENT EFFECTVS ET QVAMDIV DVRABUNT.</orig>
                                 <reg/>
                             </head>
-                            <p><persName ref="ptolemaios_klaudios_0100">PTOLOMEUS</persName> (quem nobis in
-                                diiudicandis huius Eclipsis effectibus potissimum imitandum duximus)
-                                per distantiam locj defectiuj ab Horizonte, initium operationum
-                                rimatur: per horas vero quibus Luna in vmbra moratur, tempus
-                                durationis effectuum pronunciat. Iuxta hanc igitur <persName
-                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> sententiam, effectus huius
-                                Eclipsis post tres menses cum dimidio, a tempore deliquij, idque in
-                                Martio Annj sequentis 1574 inchoabuntur. Durabunt autem fere quatuor
-                                integris sequentibus mensibus, in medium videlicet Iulij, eiusdem
-                                anni 74: eo quod iuxta Prutenicam calculi rationem, tota duratio
-                                deliquij, quatuor ferme horas complectitur. </p>
+                            <p><persName ref="ptolemaios_klaudios_0100">PTOLOMEUS</persName> (quem
+                                nobis in diiudicandis huius Eclipsis effectibus potissimum imitandum
+                                duximus) per distantiam locj defectiuj ab Horizonte, initium
+                                operationum rimatur: per horas vero quibus Luna in vmbra moratur,
+                                tempus durationis effectuum pronunciat. Iuxta hanc igitur <persName
+                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> sententiam,
+                                effectus huius Eclipsis post tres menses cum dimidio, a tempore
+                                deliquij, idque in Martio Annj sequentis 1574 inchoabuntur. Durabunt
+                                autem fere quatuor integris sequentibus mensibus, in medium
+                                videlicet Iulij, eiusdem anni 74: eo quod iuxta Prutenicam calculi
+                                rationem, tota duratio deliquij, quatuor ferme horas complectitur. </p>
 
                             <p rend="indent"><app>
                                     <lem wit="#E">Licet autem</lem>
@@ -5095,9 +5130,9 @@
                                     <rdg wit="#V"><q>hunc modum Ptolomaicum</q></rdg>
                                 </app>, de inquirendo tempore effectuum in Eclipsibus, eo quod non
                                 satis firmis videatur fundari rationibus: tamen ab autoritate et
-                                sententia <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName>, hac quoque
-                                in parte mihi non discedendum duxi; quamuis, et ipsemet prius
-                                dubitarim <app>
+                                sententia <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomej</persName>, hac quoque in parte mihi non discedendum
+                                duxi; quamuis, et ipsemet prius dubitarim <app>
                                     <lem wit="#E">hanc rationem non satis firmam et sufficientibus
                                         nixam rationibus esse</lem>
                                     <rdg wit="#V"><q>de hac inquisitione, quod ea non niti satis
@@ -5105,8 +5140,8 @@
                                 </app>: sed postea, crebra experientia melius <app>
                                     <lem wit="#E">institutus, didicj</lem>
                                     <rdg wit="#V"><q>edoctus adinveni</q></rdg>
-                                </app>, <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName> hac in parte
-                                sententiam, <app>
+                                </app>, <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName>
+                                hac in parte sententiam, <app>
                                     <lem wit="#E">veritatj</lem>
                                     <rdg><note>post <q>veritatj</q> add. <q>quamproxime</q>
                                         V</note></rdg>
@@ -5115,8 +5150,8 @@
                                 scripsisse; <app>
                                     <lem wit="#E">id</lem>
                                     <rdg wit="#V"><q>id etiam</q></rdg>
-                                </app> de <persName ref="ptolemaios_klaudios_0100">Ptolomeo</persName> etiam
-                                Astronomorum <app>
+                                </app> de <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomeo</persName> etiam Astronomorum <app>
                                     <lem wit="#E">Principe</lem>
                                     <rdg wit="#V"><q>antesignano</q></rdg>
                                 </app>, et Regia stirpe Ægyptiaca prognato, verissime dicj possit.
@@ -5158,20 +5193,20 @@
                             <p rend="indent">
                                 <pb ed="TBOO" n="I.63"/>Anno 1558 die tertia Aprilis facta est
                                 Eclipsis Lunæ in 22 gradu Libræ; quæ suos effectus inchoabat Mense
-                                Septembrj, eiusdem annj, iuxta hanc <persName ref="ptolemaios_klaudios_0100"
-                                    >Ptolomej</persName> rationem. Cumque Carolus Quintus Imperator
-                                    Romano<pb ed="A" n="K4r"/>rum Augustissimus, in natalitia
-                                constitutione haberet Lunam Aphetam et vitæ significatricem, in
-                                Ascendentis fere linea, in quadrato exquisito huius deliquij, in 22
-                                videlicet parte Capricorni; <app>
+                                Septembrj, eiusdem annj, iuxta hanc <persName
+                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> rationem.
+                                Cumque Carolus Quintus Imperator Romano<pb ed="A" n="K4r"/>rum
+                                Augustissimus, in natalitia constitutione haberet Lunam Aphetam et
+                                vitæ significatricem, in Ascendentis fere linea, in quadrato
+                                exquisito huius deliquij, in 22 videlicet parte Capricorni; <app>
                                     <lem wit="#E">idcirco</lem>
                                     <rdg><note>post <q>idcirco</q> add. <q>Astrologice
                                                 disserendo</q> V</note></rdg>
                                 </app> die 21 Septembris idem Cæsar Carolus diem obijt: quo ipso
                                 die, in Meridiano vallis Toletanæ, vbi tunc Cæsar morabatur, hæc
-                                Eclipsis ex <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName> decretis
-                                suos effectus producere cœpit: nec illo anno vllas funestas habuit
-                                directiones <app>
+                                Eclipsis ex <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomej</persName> decretis suos effectus producere cœpit: nec
+                                illo anno vllas funestas habuit directiones <app>
                                     <lem wit="#E">vllius</lem>
                                     <rdg wit="#V"><q>alicujus</q></rdg>
                                 </app> locj Apheticj ad Anaretas vllos; vt dubium non sit istam
@@ -5215,10 +5250,11 @@
                                     <rdg><note>post <q>Solis</q> add. <q>licet non admodum magna</q>
                                             V</note></rdg>
                                 </app> in 7 parte Tauri, quæ effectus suos distulit vsque in finem
-                                eiusdem annj et sequentis principium ex <persName ref="ptolemaios_klaudios_0100"
-                                    >Ptolomej</persName> sententia. Cum igitur Serenissimus Rex
-                                Daniæ CHRISTIANVS, piæ memoriæ, eius nominis tertius, in sua
-                                genethliaca cœlj constitutione haberet Lunam Aphætam (eo quod <app>
+                                eiusdem annj et sequentis principium ex <persName
+                                    ref="ptolemaios_klaudios_0100">Ptolomej</persName> sententia.
+                                Cum igitur Serenissimus Rex Daniæ CHRISTIANVS, piæ memoriæ, eius
+                                nominis tertius, in sua genethliaca cœlj constitutione haberet Lunam
+                                Aphætam (eo quod <app>
                                     <lem wit="#E">ipsa</lem>
                                     <rdg wit="#D"><q>ea</q></rdg>
                                 </app>, in nocturna genesi <app>
@@ -5256,8 +5292,9 @@
                                 Principem ex hac Eclipsi eo tempore, <app>
                                     <lem wit="#E">quo</lem>
                                     <rdg wit="#D"><q>quod</q></rdg>
-                                </app> ex <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName> ratione
-                                effectus produxit, Anaretica habuisse indicia. </p>
+                                </app> ex <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomej</persName> ratione effectus produxit, Anaretica
+                                habuisse indicia. </p>
 
                             <p rend="indent">Adde, quod <persName ref="censorinus_0200">Christiernus
                                     eius nominis secundus</persName>, olim, Daniæ, Sueciæ et
@@ -5299,20 +5336,20 @@
                                     <rdg><note>post <q>iuxta</q> postea inseruit <q>antedictam</q>
                                             V</note></rdg>
                                 </app>
-                                <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName> doctrinam, suos
-                                effectus, primum in initio Iulij annj sequentis. Quapropter eodem
-                                tempore, a die 4 Iulij <app>
+                                <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName>
+                                doctrinam, suos effectus, primum in initio Iulij annj sequentis.
+                                Quapropter eodem tempore, a die 4 Iulij <app>
                                     <lem wit="#E">annj 66</lem>
                                     <rdg><note>postea inseruit D</note></rdg>
                                 </app>. incœperunt continuæ ferme pluuiæ, aërisque vdus et humidus
                                 status; et durauit talis constitutio per aliquot sequentes Menses:
-                                quemadmodum etiam ex <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName>
-                                mente tunc temporis vaticinatj fueramus. </p>
+                                quemadmodum etiam ex <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomej</persName> mente tunc temporis vaticinatj fueramus. </p>
 
                             <p rend="indent">Pari ratione, anno sequente, Eclipsis Lunæ contingebat
                                 in 15 gradu &#x2649; die 28 Mensis Octobris, iuxta Orientis limites.
-                                Quapropter ex <persName ref="ptolemaios_klaudios_0100">Ptolomej</persName> iudicio
-                                effectus suos statim <app>
+                                Quapropter ex <persName ref="ptolemaios_klaudios_0100"
+                                    >Ptolomej</persName> iudicio effectus suos statim <app>
                                     <lem wit="#E">inchoare</lem>
                                     <rdg wit="#D"><q>inchoarj</q></rdg>
                                     <rdg><note>sed correxit</note></rdg>
@@ -5394,8 +5431,8 @@
                 <head>
                     <orig><pb ed="A" n="L1r"/>
                         <pb ed="TBOO" n="I.65"/><app>
-                            <lem> <ref target="n51"/> IN VRANIAM <lb/>Elegia
-                                Autoris.</lem>
+                            <lem>
+                                <ref target="n51"/> IN VRANIAM <lb/>Elegia Autoris.</lem>
                             <rdg>
                                 <note>in margine add. <q>Mit Cursiven</q> V man. sec.</note>
                             </rdg>
@@ -5403,8 +5440,8 @@
                     <reg>In Uraniam</reg>
                 </head>
                 <lg>
-                    <l> <ref target="n52"/> ESt locus ad
-                         <ref target="n53"/> Rynæ <app>
+                    <l>
+                        <ref target="n52"/> ESt locus ad <ref target="n53"/> Rynæ <app>
                             <lem wit="#E">properantes</lem>
                             <rdg wit="#V"><q>sinuosas</q></rdg>
                         </app> fluminis vndas,</l>
@@ -5423,8 +5460,8 @@
                     <l rend="indent">Claudit in aprico mollia prata sinu.</l>
                     <l>In medio spectanda domus, cui prisca Vetustas</l>
                     <l rend="indent" n="10"><app>
-                            <lem wit="#E">Concessit nomen
-                                <ref target="n54"/> HERRIS habere VADI</lem>
+                            <lem wit="#E">Concessit nomen <ref target="n54"/> HERRIS habere
+                                VADI</lem>
                             <rdg wit="#V"><q>Herris concessit nomen habere Vadi</q></rdg>
                         </app>.</l>
                     <app>
@@ -5434,10 +5471,11 @@
                                     <rdg wit="#D">nigris</rdg>
                                 </app> turba insignita cucullis,</l>
                             <l rend="indent">Incoluit, fingens Relligionis opus.</l>
-                            <l>Dum Romanus, adhuc, populo, sua
-                                 <ref target="n55"/> Sacra, Sacerdos</l>
+                            <l>Dum Romanus, adhuc, populo, sua <ref target="n55"/> Sacra,
+                                Sacerdos</l>
                             <l rend="indent">Venderet, et pretio Tartara clausa forent.</l>
-                            <l n="15">Ast vbi nunc seris, <ref target="n56"/> Dijs sic statuentibus, annis,</l>
+                            <l n="15">Ast vbi nunc seris, <ref target="n56"/> Dijs sic statuentibus,
+                                annis,</l>
                             <l rend="indent">Dania Pontificum spreuit obire iugum:</l>
                             <l>Hæc quoque lucriferæ pietati turba ministrans,</l>
                             <l rend="indent">Protinus est illo cedere iussa loco.</l>
@@ -5450,7 +5488,7 @@
                             <lem wit="#E">tenet antiquo</lem>
                             <rdg wit="#V">habitat claro</rdg>
                         </app>
-                         <ref target="n57"/> BILDORVM sanguine, cretus</l>
+                        <ref target="n57"/> BILDORVM sanguine, cretus</l>
                     <l rend="indent" n="20">STENO, Prosapiæ <app>
                             <lem wit="#E">gloria magna</lem>
                             <rdg wit="#V">laus columenque</rdg>
@@ -5475,38 +5513,36 @@
                                         sublimia dona, / Queis superas alios nobilitate pares. </q>
                                 </note></rdg>
                         </app></l>
-                    <l> <ref target="n58"/> HAC ego Stenonj, quòd noster
-                        Auunculus esset,</l>
+                    <l>
+                        <ref target="n58"/> HAC ego Stenonj, quòd noster Auunculus esset,</l>
                     <l rend="indent">Tempore dum longo, iunctus in æde <app>
                             <lem>moror;</lem>
                             <rdg><note>post hunc versum add. V: <q>More vacans studiis nostro, et
                                         Vulcania tranans / Abdita, solerti quæ reseranda manu.</q>
                                 </note></rdg>
                         </app></l>
-                    <l> <ref target="n59"/> Fortè per vmbriferæ digressus
-                        limina Syluæ,</l>
+                    <l>
+                        <ref target="n59"/> Fortè per vmbriferæ digressus limina Syluæ,</l>
                     <l rend="indent" n="30">Solus ad irriguas expatiabar aquas.</l>
                     <l>Sol erat Hesperias <app>
                             <lem wit="#E">se tunc missurus</lem>
                             <rdg wit="#V"><q>jam tum lapsurus</q></rdg>
                         </app> in vndas,</l>
                     <l rend="indent">Lunaque nocturnos accelerauit equos.</l>
-                    <l> <ref target="n60"/> En DEA
-                         <ref target="n61"/> (nescio quæ) cœlo delapsa
+                    <l>
+                        <ref target="n60"/> En DEA <ref target="n61"/> (nescio quæ) cœlo delapsa
                         sereno,</l>
                     <l rend="indent">Protinus hîc oculos constitit ante meos.</l>
                     <l n="35">Extimui, et rigido stabant horrore capillj;</l>
                     <l rend="indent">Donec, quos dederat, sustulit ipsa, metus.</l>
-                    <l> <ref target="n62"/> Pone metum, dixit, nec nostros
-                        effuge vultus,</l>
+                    <l>
+                        <ref target="n62"/> Pone metum, dixit, nec nostros effuge vultus,</l>
                     <l rend="indent">O Iuuenis, studijs non abigende meis.</l>
-                    <l>Sum Dea,  <ref target="n63"/> (si nescis) quæ clarum
-                        nomen <app>
+                    <l>Sum Dea, <ref target="n63"/> (si nescis) quæ clarum nomen <app>
                             <lem wit="#E">Olympo</lem>
                             <rdg wit="#D"><q>ab Astris</q></rdg>
                         </app>,</l>
-                    <l rend="indent" n="40">VRANIÆ,  <ref target="n64"/> quod
-                        in <app>
+                    <l rend="indent" n="40">VRANIÆ, <ref target="n64"/> quod in <app>
                             <lem wit="#E">hoc</lem>
                             <rdg wit="#D"><q>his</q></rdg>
                         </app> sit mea cura, <app>
@@ -5519,8 +5555,7 @@
                             <rdg wit="#V"><q>doctissima</q></rdg>
                         </app> Numina, Musas,</l>
                     <l rend="indent">Non me magnanimo charior vlla Iouj.</l>
-                    <l>Qualis enim terræ  <ref target="n65"/> decliuis,
-                        celsior æther,</l>
+                    <l>Qualis enim terræ <ref target="n65"/> decliuis, celsior æther,</l>
                     <l rend="indent"><app>
                             <lem wit="#E">Immensis superat</lem>
                             <rdg wit="#D"><q>vincit in immensis</q></rdg>
@@ -5529,8 +5564,7 @@
                             <rdg wit="#V"><q>modis</q></rdg>
                         </app>,</l>
                     <l n="45">Sic ego, sic nostras, tollo caput ante Sorores;</l>
-                    <l rend="indent">Ignoscat dictis,
-                         <ref target="n66"/> Calliopeia, meis.</l>
+                    <l rend="indent">Ignoscat dictis, <ref target="n66"/> Calliopeia, meis.</l>
                     <l>Illæ etenim vanos hominum cantare labores,</l>
                     <l rend="indent">Regna, Voluptates, Bellaque dira, solent.</l>
                     <l>Et quæ præterea <app>
@@ -5542,38 +5576,41 @@
                             <rdg wit="#V"><q>peritura</q></rdg>
                         </app> dies.</l>
                     <l>Ast ego res sperno Terræque Hominumque caducas,</l>
-                    <l rend="indent"> <ref target="n67"/> Scandere in
-                         <ref target="n68"/> Æthereas stat mea cura
+                    <l rend="indent">
+                        <ref target="n67"/> Scandere in <ref target="n68"/> Æthereas stat mea cura
                         Domos.</l>
 
-                    <l><pb ed="A" n="L2r"/> <ref target="n69"/> <app>
+                    <l><pb ed="A" n="L2r"/>
+                        <ref target="n69"/>
+                        <app>
                             <lem wit="#E">Et</lem>
                             <rdg wit="#V"><q>Ac</q></rdg>
                         </app> sublime Polo caput, vltra nubila tollens,</l>
                     <l rend="indent">
                         <app>
-                            <lem wit="#E"> <ref target="n70"/> Cum Ioue,
-                                cœlestj perfruor Ambrosia.</lem>
+                            <lem wit="#E">
+                                <ref target="n70"/> Cum Ioue, cœlestj perfruor Ambrosia.</lem>
                             <rdg wit="#V">
                                 <q>Nectare et Ambrosiâ cum Jove sæpe fruor.</q>
                             </rdg>
                         </app>
                     </l>
-                    <l n="55">Illic  <ref target="n71"/> perpetuos Mundi
-                        septemplicis Orbes</l>
+                    <l n="55">Illic <ref target="n71"/> perpetuos Mundi septemplicis Orbes</l>
                     <l rend="indent">Scrutor, et assiduis Sidera sueta vijs:</l>
                     <l>Sidera diuinj testantia Numinis Artem,</l>
                     <l rend="indent">Qua posuit vasto <app>
                             <lem wit="#E">candida tecta</lem>
                             <rdg wit="#V"><q>celsa theatra</q></rdg>
                         </app> Polo:</l>
-                    <l> <ref target="n72"/> Sidera venturj iamdudum conscia
-                        Fatj,</l>
+                    <l>
+                        <ref target="n72"/> Sidera venturj iamdudum conscia Fatj,</l>
                     <l rend="indent" n="60">Conscia sæpè boni, conscia sæpè malj:</l>
                     <l>Sidera quæ vobis etiam sua iura ministrant,</l>
-                    <l rend="indent"> <ref target="n73"/> Multaque per
-                        tacitas dantque negantque vias.</l>
-                    <l> <ref target="n74"/> <app>
+                    <l rend="indent">
+                        <ref target="n73"/> Multaque per tacitas dantque negantque vias.</l>
+                    <l>
+                        <ref target="n74"/>
+                        <app>
                             <lem wit="#E">Non tamen hæc</lem>
                             <rdg wit="#D"><q>Sed tamen haud</q></rdg>
                         </app> Animum cogunt ratione fruentem;</l>
@@ -5640,12 +5677,12 @@
                             <rdg wit="#V"><q>seclum</q></rdg>
                         </app>, quo celsa per atria Regum,</l>
                     <l rend="indent">Inter honoratas ingrediebar opes.</l>
-                    <l n="85">Tunc  <ref target="n75"/> <app>
+                    <l n="85">Tunc <ref target="n75"/>
+                        <app>
                             <lem resp="#TBOO">etenim</lem>
                             <rdg wit="#E"><q>etenem</q></rdg>
                             <rdg wit="#E1"><q>etiam</q></rdg>
-                        </app> solos  <ref target="n76"/> Reges vel Regibus
-                        ortos,</l>
+                        </app> solos <ref target="n76"/> Reges vel Regibus ortos,</l>
                     <l rend="indent">Fas mea (tantus honor) tangere Sacra, fuit</l>
                     <l>Tu quoque nec nostros olim auersatus honores,</l>
                     <l rend="indent">Sæpè dabas aris thura adolenda meis.</l>
@@ -5653,7 +5690,8 @@
                     <l rend="indent" n="90">Vidimus; is fiet, dixit Apollo, tuus.</l>
                     <l>Dixit, et ingentem mox spem concepimus ambo,</l>
                     <l rend="indent">Te fore perpetuò qui mihi thura daret.</l>
-                    <l>Te fore, qui  <ref target="n77"/> <app>
+                    <l>Te fore, qui <ref target="n77"/>
+                        <app>
                             <lem wit="#E">rigidis</lem>
                             <rdg wit="#D"><q>gelidis</q></rdg>
                         </app> coleret mea Sacra sub Vrsis, </l>
@@ -5663,16 +5701,14 @@
                                         panderet orbi, / Quicquid in abstruso stellifer axis
                                         habet.</q></note></rdg>
                         </app></l>
-                    <l n="95">Donec in arcanas  <ref target="n78"/> Vulcanj
-                        laberis Artes,</l>
+                    <l n="95">Donec in arcanas <ref target="n78"/> Vulcanj laberis Artes,</l>
                     <l rend="indent">Et peragis Sacro multa paranda <app>
                             <lem wit="#E1">Foco</lem>
                             <rdg wit="#E"><q>foco</q></rdg>
                         </app>.</l>
                     <l>Protinus incœpit noster vilescere cultus,</l>
                     <l rend="indent">Tunc honor, Vraniæ, nullus, vt antè, fuit.</l>
-                    <l>Id potui perferre tamen,  <ref target="n79"/> namque
-                        et sua terris</l>
+                    <l>Id potui perferre tamen, <ref target="n79"/> namque et sua terris</l>
                     <l rend="indent" n="100">Sidera, sideribus non inimica meis.</l>
                     <l>Terra suos Soles, et habet quoque terra Dianas,</l>
                     <l rend="indent">
@@ -5685,8 +5721,8 @@
                             </rdg>
                         </app>
                     </l>
-                    <l> <ref target="n80"/> Quicquid enim supra, totum
-                        quoque clauditur infrà,</l>
+                    <l>
+                        <ref target="n80"/> Quicquid enim supra, totum quoque clauditur infrà,</l>
                     <l rend="indent">
                         <app>
                             <lem wit="#E">Vultus et ambobus Orbibus vnus inest.</lem>
@@ -5695,7 +5731,8 @@
                             </rdg>
                         </app>
                     </l>
-                    <l n="105"> <ref target="n81"/> Sidera sed terræ <app>
+                    <l n="105">
+                        <ref target="n81"/> Sidera sed terræ <app>
                             <lem wit="#E #D">quædam</lem>
                             <rdg><note>in D corr. ex <q>manibus</q></note></rdg>
                             <rdg wit="#V"><q>manibus</q></rdg>
@@ -5710,7 +5747,8 @@
                     <l>Nostra oculis cœlo fulgent spectanda sereno </l>
                     <l rend="indent">Vires, non oculis, cernere Mente licet.</l>
 
-                    <l><pb ed="A" n="L3r"/>Ergo nec inuideo  <ref target="n82"/> <app>
+                    <l><pb ed="A" n="L3r"/>Ergo nec inuideo <ref target="n82"/>
+                        <app>
                             <lem wit="#E">Vestis sua Sacra puellis</lem>
                             <rdg wit="#V"><q>Vestalibus apta puellis</q></rdg>
                         </app>,</l>
@@ -5727,8 +5765,8 @@
                     <l rend="indent">Vt tibi firmarem pectus amore mej.</l>
                     <l n="115">Turpe est florentem frustrare per otia vitam,</l>
                     <l rend="indent">Turpe est, incœptum deseruisse decus.</l>
-                    <l> <ref target="n83"/> Ergò age, quid dubitas? nostros
-                        nunc incipe cultus,</l>
+                    <l>
+                        <ref target="n83"/> Ergò age, quid dubitas? nostros nunc incipe cultus,</l>
                     <l rend="indent">Sat puto Vulcano temporis esse datum.</l>
                     <l><app>
                             <lem wit="#Zeeberg">Incipe,</lem>
@@ -5747,9 +5785,8 @@
                                     <lem wit="#E">Stellarum</lem>
                                     <rdg wit="#V"><q>Astrorum</q></rdg>
                                 </app> solitis vidit adesse locis.</l>
-                            <l n="125"><pb ed="TBOO" n="I.68"
-                                /> <ref target="n84"/> Huius in immenso
-                                positum metiaris Olympo,</l>
+                            <l n="125"><pb ed="TBOO" n="I.68"/>
+                                <ref target="n84"/> Huius in immenso positum metiaris Olympo,</l>
                             <l rend="indent">Quamque sit à <app>
                                     <lem wit="#E">vobis</lem>
                                     <rdg wit="#V"><q>terris</q></rdg>
@@ -5779,19 +5816,21 @@
                                         mundi, / Hic hominum sensus, Angelicique
                                 stupent.</q></note></rdg>
                         </app></l>
-                    <l> <ref target="n85"/> Huic volo designes labentia
-                        tempora cœlo,</l>
+                    <l>
+                        <ref target="n85"/> Huic volo designes labentia tempora cœlo,</l>
                     <l rend="indent"><app>
                             <lem wit="#E">Aptabisque suos ad vaga</lem>
                             <rdg wit="#V"><q>Aptando proprios ad sua</q></rdg>
                         </app> signa dies. </l>
                     <l n="135">Astrorum positus Solis Lunæque recursus</l>
-                    <l rend="indent"> <ref target="n86"/> <app>
+                    <l rend="indent">
+                        <ref target="n86"/>
+                        <app>
                             <lem wit="#E">Lapsaque sub terras, ortaque signa</lem>
                             <rdg wit="#V"><q>Astraque sub terras lapsa vel orta</q></rdg>
                         </app> nota.</l>
-                    <l><pb ed="A" n="L3v"/> <ref target="n87"/> Hinc disces,
-                        vario <app>
+                    <l><pb ed="A" n="L3v"/>
+                        <ref target="n87"/> Hinc disces, vario <app>
                             <lem wit="#E">quid</lem>
                             <rdg wit="#D"><q>quæ</q></rdg>
                         </app> gignat in aëre cœlum,</l>
@@ -5808,7 +5847,7 @@
                             <rdg wit="#V"><q>nostra penitu</q>s</rdg>
                         </app> destituuntur ope. </l>
                     <l>Tu sed ab auspicijs Superum melioribus orsus,</l>
-                    <l rend="indent">Fac tibi  <ref target="n88"/> mandatum <app>
+                    <l rend="indent">Fac tibi <ref target="n88"/> mandatum <app>
                             <lem wit="#E">perficietur</lem>
                             <rdg wit="#V"><q>perficiatur</q></rdg>
                         </app> opus.</l>
@@ -5827,15 +5866,17 @@
                         </app> subijsse labores</l>
                     <l rend="indent">Vraniæ, et superas scandere adusque domos.</l>
                     <l>Hinc (nisi vana fides Diuæ cui Fata ministrant)</l>
-                    <l rend="indent" n="150"> <ref target="n89"/> <app>
+                    <l rend="indent" n="150">
+                        <ref target="n89"/>
+                        <app>
                             <lem wit="#E">Nomen ab æterna</lem>
                             <rdg wit="#V"><q>Perpertuâ nomen</q></rdg>
                         </app> Posteritate feres.</l>
                     <l>HÆC vbi Diua Poli, celsis quæ præsidet astris,</l>
                     <l rend="indent">
                         <app>
-                            <lem wit="#TBOO #Zeeberg">Dixerat, humanos sic imitata
-                                <ref target="n90"/> sonos,</lem>
+                            <lem wit="#TBOO #Zeeberg">Dixerat, humanos sic imitata <ref target="n90"
+                                /> sonos,</lem>
                             <rdg wit="#E">
                                 <q>Dixerat, humanos sic imitata sonos.</q>
                             </rdg>
@@ -5845,8 +5886,8 @@
                         </app>
                     </l>
                     <l>Protinus ex oculis fugiens repetiuit Olympum,</l>
-                    <l rend="indent"> <ref target="n91"/> Ingenio sensi
-                        numen adesse meo.</l>
+                    <l rend="indent">
+                        <ref target="n91"/> Ingenio sensi numen adesse meo.</l>
                     <l n="155">Cumque nefas <app>
                             <lem wit="#E">esset</lem>
                             <rdg wit="#V"><q>fuerit</q></rdg>
@@ -5854,8 +5895,8 @@
                             <lem wit="#E">iussa</lem>
                             <rdg><note>corr. ex <q>iussus</q> in D</note></rdg>
                         </app>,</l>
-                    <l rend="indent"> <ref target="n92"/> Accipe quod fieri
-                        Diua monebat opus.</l>
+                    <l rend="indent">
+                        <ref target="n92"/> Accipe quod fieri Diua monebat opus.</l>
                     <l>Accipe tu generosa cohors quæ sacra ministras</l>
                     <l rend="indent">Cœlicolæ, vulgo non adeunda, Deæ.</l>
                     <l>Hæc si grata tibi, quamuis sint vilia, fient,</l>
@@ -5871,7 +5912,8 @@
                             <rdg wit="#V"><q>inertum</q></rdg>
                         </app>,</l>
                     <l rend="indent">Nec labor à studijs, terret Olympe tuis.</l>
-                    <l> <ref target="n93"/> Et placet, et placeat <app>
+                    <l>
+                        <ref target="n93"/> Et placet, et placeat <app>
                             <lem wit="#E">alijs</lem>
                             <rdg wit="#V"><q>multis</q></rdg>
                         </app>, iactare triumphos,</l>
@@ -5884,8 +5926,9 @@
 
                     <l><pb ed="TBOO" n="I.69"/>Sintque alijs cordi Regumque Ducumque fauores,</l>
                     <l rend="indent">Sint cordi è terra quæ fodiuntur opes.</l>
-                    <l> <ref target="n94"/> Quos levis Ambitio,
-                         <ref target="n95"/> lucrique insana cupido</l>
+                    <l>
+                        <ref target="n94"/> Quos levis Ambitio, <ref target="n95"/> lucrique insana
+                        cupido</l>
                     <l rend="indent" n="170">Vexat, et Officij grandis obire iugum.</l>
                     <l><app>
                             <lem wit="#E">Delectent</lem>
@@ -5917,8 +5960,8 @@
                     <l rend="indent">More suo ingenuis quæ peragenda viris.</l>
                     <l>Scilicet his studijs Virtus generosa probatur,</l>
                     <l rend="indent">Nobile Nobilitas fortè requirit opus.</l>
-                    <l n="185"> <ref target="n96"/> Non equidem inuideo,
-                        miseret magis ista placere,</l>
+                    <l n="185">
+                        <ref target="n96"/> Non equidem inuideo, miseret magis ista placere,</l>
                     <l rend="indent">His quibus <app>
                             <lem wit="#E #D">excellens</lem>
                             <rdg wit="#V"><q>egregium</q></rdg>
@@ -5935,11 +5978,10 @@
                             <rdg wit="#V"><q>illustris</q></rdg>
                         </app> materni sanguinis ordo</l>
                     <l rend="indent">BILDORVM celebrem me quoque stirpe ferat:</l>
-                    <l n="195"> <ref target="n97"/> Nil tamen his moueor.
-                        Nam, quæ non fecimus Ipsi</l>
+                    <l n="195">
+                        <ref target="n97"/> Nil tamen his moueor. Nam, quæ non fecimus Ipsi</l>
                     <l rend="indent">Et Genus et Proauos, non ego nostra voco. </l>
-                    <l>At  <ref target="n98"/> mea Mens ausis operum
-                        maioribus ardet,</l>
+                    <l>At <ref target="n98"/> mea Mens ausis operum maioribus ardet,</l>
                     <l rend="indent">In quibus <app>
                             <lem wit="#E 3D">excellens</lem>
                             <rdg wit="#V"><q>eximius</q></rdg>
@@ -5947,30 +5989,34 @@
                         </app> cernitur esse labor. </l>
                     <l>Rebus in excelsis decus est et gloria maior,</l>
                     <l rend="indent" n="200">Parua leues animos cura mouere solet.</l>
-                    <l> <ref target="n99"/> Me iuuat ingenio conscendere
-                        tecta  <ref target="n100"/> "/> -->Tonantis,</l>
+                    <l>
+                        <ref target="n99"/> Me iuuat ingenio conscendere tecta <ref target="n100"/>
+                        "/> -->Tonantis,</l>
                     <l rend="indent">Celsaque stelliferi signa notare Polj.</l>
                     <l>Me iuuat in toto quæ splendent plurima cœlo,</l>
                     <l rend="indent">Miranda artificis cernere facta Dej.</l>
                     <l n="205"><app>
                             <lem wit="#E #D">Hoc opus est Hominis, hæc est</lem>
                             <rdg wit="#V"><q>Hoc hominem decet, et venit hinc</q></rdg>
-                        </app> ea <ref target="n101"/> <app>
+                        </app> ea <ref target="n101"/>
+                        <app>
                             <lem wit="#E #V Zeeberg">Dia</lem>
                             <rdg wit="#D #TBOO"><q>Diua</q></rdg>
                             <rdg><note>(sed cf. Lucr. 2.172 et Mart. Cap., Nupt. 7.725)</note></rdg>
                         </app> voluptas, </l>
                     <l rend="indent">
                         <app>
-                            <lem wit="#E">Quæ  <ref target="n102"/> similes
-                                celsis nos facit esse Deis.</lem>
+                            <lem wit="#E">Quæ <ref target="n102"/> similes celsis nos facit esse
+                                Deis.</lem>
                             <rdg wit="#V">
                                 <q>Quæ fere cœlicolis nos facit esse pares.</q>
                             </rdg>
                         </app>
                     </l>
                     <l>Quisquis enim superas animo volitare per arces,</l>
-                    <l rend="indent"> <ref target="n103"/> <app>
+                    <l rend="indent">
+                        <ref target="n103"/>
+                        <app>
                             <lem wit="E V">Syderaque</lem>
                             <rdg wit="#D"><q>Ætheraque</q></rdg>
                         </app> ingenio gaudet adire <app>
@@ -5978,8 +6024,8 @@
                             <rdg wit="#E"><q>suo.</q></rdg>
                         </app></l>
                     <l><pb ed="TBOO" n="I.70"/>Dissimiles hominum curas, similesque Deorum,</l>
-                    <l rend="indent" n="210"> <ref target="n104"/> Et sua quo
-                        terris Mens releuetur, habet.</l>
+                    <l rend="indent" n="210">
+                        <ref target="n104"/> Et sua quo terris Mens releuetur, habet.</l>
                     <l>Promissumque studet prius hîc cognoscere cœlum, </l>
                     <l rend="indent">Nec nouus ignotas hospes adire domos.</l>
                     <l>Siue agat in terris, illum delectat Olympus,</l>
@@ -5992,8 +6038,7 @@
                     <l rend="indent" n="220">Viuit, et est vitæ nescius ipse suæ:</l>
 
                     <l><pb ed="A" n="L5r"/>Tantùm etenim terrena sapit, mortalia tantùm, </l>
-                    <l rend="indent">Et, quæ cœca potest
-                         <ref target="n105"/> Talpa videre, videt. </l>
+                    <l rend="indent">Et, quæ cœca potest <ref target="n105"/> Talpa videre, videt. </l>
                     <l>Sed pauci, heu nimiùm pauci, quibus almus Apollo</l>
                     <l rend="indent">Hoc dedit, vt <app>
                             <lem wit="#E">videant</lem>
@@ -6003,8 +6048,8 @@
                             <lem wit="#E">illos</lem>
                             <rdg><note>corr. ex <q>illis</q> in D</note></rdg>
                         </app>, spretis mortalibus actis,</l>
-                    <l rend="indent"> <ref target="n106"/> Altius ad Superos
-                        exeruisse caput.</l>
+                    <l rend="indent">
+                        <ref target="n106"/> Altius ad Superos exeruisse caput.</l>
                     <l>Hos non blanda Venus, stolidi non pocula Bacchi</l>
                     <l rend="indent">Decipiunt, nec opes, nec fugitiuus honos:</l>
                     <l>Sed præclara magis, magis his illustria spectant,</l>
@@ -6019,12 +6064,12 @@
             <div type="poem" n="Laudatory poem by Anders Sørensen Vedel"
                 xml:id="laudatory-poem-vedel">
                 <head>
-                <orig><pb ed="A" n="L5v"/>
-                    <pb ed="TBOO" n="I.71"/>IN MATHEMATICAM NOVÆ STELLÆ CONTEMPLATIONEM, FACTAM A
-                    IUUENE NOBILIUM DOCTISSIMO et DOCTORUM NOBILISSIMO, <app>
-                        <lem wit="#E">THYCONE</lem>
-                        <rdg resp="TBOO">TYCHONE</rdg>
-                    </app> BRAHE OTTHONIDE.</orig>
+                    <orig><pb ed="A" n="L5v"/>
+                        <pb ed="TBOO" n="I.71"/>IN MATHEMATICAM NOVÆ STELLÆ CONTEMPLATIONEM, FACTAM
+                        A IUUENE NOBILIUM DOCTISSIMO et DOCTORUM NOBILISSIMO, <app>
+                            <lem wit="#E">THYCONE</lem>
+                            <rdg resp="TBOO">TYCHONE</rdg>
+                        </app> BRAHE OTTHONIDE.</orig>
                     <reg>Hyldestdigt af Anders Sørensen Vedel</reg>
                     <reg xml:lang="en">Laudatory poem by Anders Sørensen Vedel</reg>
                 </head>

@@ -3,7 +3,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Elixir pestilentiale / Elixir mod pesten</title>
+        <title xml:lang="da">Elixir pestilentiale / Elixir mod pest</title>
         <title xml:lang="en">Elixir pestilentiale / Elixis against the plague</title>
         <author>Tycho Brahe</author>
         <editor>
@@ -14,7 +14,8 @@
             </persName>
           </name>
         </editor>
-        <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+        <funder xml:lang="da">Carlsbergfondet</funder>
+        <funder xml:lang="en">Carlsberg Foundation</funder>
       </titleStmt>
       <editionStmt>
         <edition/>
@@ -22,22 +23,24 @@
       <publicationStmt>
         <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
         <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-        <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+        <pubPlace xml:lang="da">København</pubPlace>
+        <pubPlace xml:lang="en">Copenhagen</pubPlace>
         <date>2019</date>
         <idno>nil</idno>
         <idno type="isbn">nil</idno>
         <availability status="restricted">
-          <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+          <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+          <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
         </availability>
       </publicationStmt>
       <sourceDesc>
         <listWit>
           <witness xml:id="A">
             <bibl>Thomas Bartholin, <title>Dispensatorium Hafniense</title>, Hauniæ
-              1658</bibl></witness>
+            1658</bibl></witness>
           <witness xml:id="TBOO">
-            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
-              Tom. IX, Hauniæ 1927, p. 166-167</bibl></witness>
+            <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ
+              1927, p. 166-167</bibl></witness>
         </listWit>
         <listBibl>
           <bibl>empty</bibl>
@@ -68,7 +71,8 @@
     <body>
       <div xml:id="text">
         <head>
-          <orig><pb ed="TBOO" n="IX.166"/><pb ed="A" n="254"/>ELIXIR PESTILENTIALE TYCHONIS BRAHÆI NOBILIS DANI</orig>
+          <orig><pb ed="TBOO" n="IX.166"/><pb ed="A" n="254"/>ELIXIR PESTILENTIALE TYCHONIS BRAHÆI
+            NOBILIS DANI</orig>
           <reg>Elixir pestilentiale</reg>
         </head>
         <lg>
@@ -78,12 +82,13 @@
           <l>Extracti Angelicæ,</l>
           <l>Salis absynthei,</l>
           <l>Essentiæ Carabis albi ana unciam semis.</l>
-          </lg><p>Simul M. et in Cucurbitam, inde affundendo Spir. Vini Theriacal, ab
-          essentia Theriacali post abstractionem reservati tantum, ut quatuor <pb ed="TBOO"
-            n="IX.167"/>digitos transversos supernatet, Cucurbitam bene clausam in MB
-          calido depone, ut materia digeratur per octiduum, deinde per chartam bibulam
-          filtrando cola, Colaturam novæ Cucurbitæ inditam destilla, usque dum in fundo
-          remaneat sapa instar picis liquidæ, quæ usui servetur. Sign. ut supra.</p>
+        </lg>
+        <p>Simul M. et in Cucurbitam, inde affundendo Spir. Vini Theriacal, ab essentia Theriacali
+          post abstractionem reservati tantum, ut quatuor <pb ed="TBOO" n="IX.167"/>digitos
+          transversos supernatet, Cucurbitam bene clausam in MB calido depone, ut materia digeratur
+          per octiduum, deinde per chartam bibulam filtrando cola, Colaturam novæ Cucurbitæ inditam
+          destilla, usque dum in fundo remaneat sapa instar picis liquidæ, quæ usui servetur. Sign.
+          ut supra.</p>
       </div>
     </body>
   </text>

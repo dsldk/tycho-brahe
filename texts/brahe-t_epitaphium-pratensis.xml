@@ -4,8 +4,8 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Epitaphium Johanni Pratensi / Gravskrift for Johannes Pratensis</title>
-                <title xml:lang="en">Epitaphium filiæ Kirstinæ / Epitaph of his daughter Kirstine</title>
+                <title xml:lang="da">Epitaphium Johanni Pratensi / Gravskrift over Johannes Pratensis</title>
+                <title xml:lang="en">Epitaphium Johanni Pratensi / Epitaph of Johannes Pratensis</title>
                 <author>Tycho Brahe</author>
                 <editor>
                     <name xml:id="pz">
@@ -36,9 +36,17 @@
                         <witness xml:id="A">
                                 <bibl>Tycho Brahe <title>Epitaphium ... Johanni Pratensi Aarhusiensi ...</title>, Uraniburgi 1584</bibl>
                         </witness><witness xml:id="V">
-                            <msDesc>
+                            <msDesc xml:lang="da">
                                 <msIdentifier>
                                     <settlement>Wien</settlement>
+                                    <repository>Österreichische Nationalbibliothek</repository>
+                                    <collection>empty</collection>
+                                    <idno>cod. Vindob. lat. 10686.7</idno>
+                                    <msName>empty</msName>
+                                </msIdentifier></msDesc>
+                            <msDesc xml:lang="en">
+                                <msIdentifier>
+                                    <settlement>Vienna</settlement>
                                     <repository>Österreichische Nationalbibliothek</repository>
                                     <collection>empty</collection>
                                     <idno>cod. Vindob. lat. 10686.7</idno>
@@ -55,7 +63,7 @@
         <profileDesc>
             <creation><date>1584</date></creation>
             <langUsage>
-                <language ident="la" />
+                <language ident="la"/>
             </langUsage>
             <textClass>
                 <keywords>

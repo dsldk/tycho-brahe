@@ -14,7 +14,8 @@
                         </persName>
                     </name>
                 </editor>
-                <funder xml:lang="da">Carlsbergfondet</funder><funder xml:lang="en">Carlsberg Foundation</funder>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
             </titleStmt>
             <editionStmt>
                 <edition/>
@@ -22,29 +23,45 @@
             <publicationStmt>
                 <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
                 <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
-                <pubPlace xml:lang="da">København</pubPlace><pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
                 <date>2019</date>
                 <idno>nil</idno>
                 <idno type="isbn">nil</idno>
                 <availability status="restricted">
-                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab><ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
                 </availability>
             </publicationStmt>
             <sourceDesc>
                 <listWit>
                     <witness xml:id="A">
-                        <msDesc>
+                        <msDesc xml:lang="da">
                             <msIdentifier>
-                            <settlement>Praha</settlement>
-                            <repository>University Library, Charles University</repository>
-                            <collection>empty</collection>
-                            <idno>empty</idno>
-                                <msName>(see F.J. Studnička, Prager Tychoniana, Prague 1901, p. 13 ff.)</msName>
+                                <settlement>Prag</settlement>
+                                <repository>Universitetsbiblioteket,
+                                    Karlsuniversitetet.</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>(see F.J. Studnička, Prager Tychoniana, Prague 1901, p. 13
+                                    ff.)</msName>
+                            </msIdentifier>
+                        </msDesc>
+                        <msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Prague</settlement>
+                                <repository>University Library, Charles University</repository>
+                                <collection>empty</collection>
+                                <idno>empty</idno>
+                                <msName>(see F.J. Studnička, Prager Tychoniana, Prague 1901, p. 13
+                                    ff.)</msName>
                             </msIdentifier>
                         </msDesc>
                     </witness>
                     <witness xml:id="TBOO">
-                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer, Tom. IX, Hauniæ 1927, p. 212</bibl></witness>
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. IX, Hauniæ 1927, p. 212</bibl></witness>
                 </listWit>
                 <listBibl>
                     <bibl>empty</bibl>
@@ -54,7 +71,7 @@
         <profileDesc>
             <creation><date>1599</date></creation>
             <langUsage>
-                <language ident="la" />
+                <language ident="la"/>
             </langUsage>
             <textClass>
                 <keywords>
@@ -72,18 +89,20 @@
     <text>
         <front/>
         <body>
-          <div xml:id="text">
-            <head>
-              <orig/>
-              <reg>Disce puer virtutem</reg>
-            </head>
-            <lg><l><lb ed="TBOO" n="IX.212"/>DISCE puer virtutem ex me durumque laborem,</l>
-                <l>Fortiter et sortis sustinuisse vices.</l></lg>
-              <closer>
-                <signed>Tycho Brahe Filio primogenito Scripsi</signed>
-                <dateline>Anno 1599 Feb. 28 Vitebergæ.</dateline>
-            </closer>
-          </div>
+            <div xml:id="text">
+                <head>
+                    <orig/>
+                    <reg>Disce puer virtutem</reg>
+                </head>
+                <lg>
+                    <l><lb ed="TBOO" n="IX.212"/>DISCE puer virtutem ex me durumque laborem,</l>
+                    <l>Fortiter et sortis sustinuisse vices.</l>
+                </lg>
+                <closer>
+                    <signed>Tycho Brahe Filio primogenito Scripsi</signed>
+                    <dateline>Anno 1599 Feb. 28 Vitebergæ.</dateline>
+                </closer>
+            </div>
         </body>
     </text>
 </TEI>
