@@ -290,7 +290,7 @@
           <orig><pb ed="TBOO" n="V.11"/>
         <pb ed="E" n="*4r"/>AD GENEROSVM VIRVM TYCHONEM BRAHEVM DE KNUDSTRUP, COGNATUM ET AFFINEM SUUM
         DESIDERATISSIMUM; IN ZOILOS, MALEVOLOS, ET INSCIOS.</orig>
-      <reg xml:lang="da">Hyldestdigt</reg>
+      <reg xml:lang="da">Æredigt</reg>
       <reg xml:lang="en">Laudatory poem</reg>
     </head>
         <lg>
@@ -3607,7 +3607,7 @@
           <head>
             <orig>AD NOBILISSIMUM, AC DOCTISSIMUM VIRUM TYCHONEM BRAHE <placeName ref="Uraniborg">URANIBURGI</placeName>
             FUNDATOREM, ET ASTRONOMTÆ INSTAURATOREM.</orig>
-            <reg>Digt af Andreas Chioccus</reg>
+            <reg xml:lang="da">Digt af Andreas Chioccus</reg>
             <reg xml:lang="en">Poem by Andreas Chioccus</reg>
           </head>
           <lg>
@@ -3651,7 +3651,7 @@
         </div>
         <div xml:id="greek-poem-by-Andreas-Chioccus" type="poem">
           <pb ed="TBOO" n="V.130"/>
-          <opener>ἘΊΣ ἈΥΤΟΝ.</opener>
+          <head><orig>ἘΊΣ ἈΥΤΟΝ.</orig><reg xml:lang="da">Græsk digt af Andrea Chiocco</reg><reg xml:lang="en">Greek poem by Andrea Chiocco</reg></head>
           <lg>
             <l>Ἐυσταλέας τερέων κανόνας, καὶ δαίδαλα κύκλων</l>
             <l rend="indent">Νεύματα ὁ ΒΡΑΑΣ δείκνυσιν ἐμμελέως. </l>
@@ -3664,7 +3664,7 @@
             <l>Ἀλλὰ διδαξάμενον χθονίοις καλὸν ἄνδρα φθονεῦσαι</l>
             <l rend="indent" n="10">Ἕλκειν εἰς ἄστρων ὦκα βόλιοντο χορὸν.</l>
           </lg>
-          <closer>Τοῦ Αὐτοῦ.</closer>
+          <closer><persName ref="chiocco_andrea_1562">Τοῦ Αὐτοῦ.</persName></closer>
         </div>
         <div xml:id="excerpt-from-a-letter">
           <p rend="left-margin">Quia adhuc aliquid superest spatij, quæ sequuntur, paucula, sic expetente
@@ -4009,7 +4009,7 @@
               TYCHONE BRAHE EXÆDIFICATÆ.</orig>
             <reg>Orthographia præcipuæ domus arcis Uraniiurgi</reg></head>
         <figure n="24">
-          <desc>Orthographia præcipuæ domus arcis Uraniiurgi</desc>
+          <desc>Orthographia præcipuæ domus arcis Uraniburgi</desc>
           <graphic url="05_142a"/>
         </figure>
           <p>ICHNOGRAPHIA ET EIVS EXPLICATIO.</p>
@@ -4147,11 +4147,11 @@
           <head>
             <orig>
               <pb ed="TBOO" n="V.146"/>
-              <pb ed="E" n="H3v"/> ORTHOGRAPHIA <placeName ref="Stjerneborg">STELLÆBVRGI</placeName> EXTRA ARCEM VRANIÆ SITI.</orig>
-            <reg>Orthographia Stellæpurgi extra arcem Uraniæ siti </reg>
+              <pb ed="E" n="H3v"/>ORTHOGRAPHIA <placeName ref="Stjerneborg">STELLÆBVRGI</placeName> EXTRA ARCEM VRANIÆ SITI.</orig>
+            <reg>Orthographia Stellæburgi extra arcem Uraniæ siti </reg>
           </head>
         <figure n="26">
-          <desc>Orthographia Stellæpurgi extra arcem Uraniæ siti </desc>
+          <desc>Orthographia Stellæburgi extra arcem Uraniæ siti </desc>
           <graphic url="05_146"/>
         </figure>
           <opener><pb ed="TBOO" n="V.147"/>
@@ -4441,7 +4441,7 @@
         <head><orig><pb ed="TBOO" n="V.156"/>
         <pb ed="E" n="H5v"/>AD VERE ILLUSTREM ET GENEROSUM VIRUM TYCHONEM BRAHEUM DN. DE KNUDSTRUP,
         ASTRONOMUM PRINCIPEM. ODE TRICOLOS TETRASTROPHOS.</orig>
-      <reg>Digt af Rudolphus Caukerchius</reg>
+      <reg xml:lang="da">Digt af Rudolphus Caukerchius</reg>
       <reg xml:lang="en">Poem by Rudolphus Caukerchius</reg>
     </head>
         <lg>
@@ -4685,7 +4685,8 @@
       <div xml:id="Impressum">
         <head>
           <orig></orig>
-          <reg>Impressum</reg></head><pb ed="TBOO" n="V.162"/><pb ed="E" n="H6v"/>
+          <reg xml:lang="da">Kolofon</reg>
+          <reg xml:lang="en">Impressum</reg></head><pb ed="TBOO" n="V.162"/><pb ed="E" n="H6v"/>
         
         <figure n="28">
           <desc>Typographia insulæ Venusiæ vulgo Hvenna dictæ</desc>
@@ -4695,12 +4696,6 @@
         
         <opener>IMPRESSVM <placeName ref="Wandsburg">WANDESBVRGI</placeName> IN ARCE RANZOVIANA PROPE <placeName ref="Hamburg">HAMBURGUM</placeName> SITA, PROPRIA
           AUTHORIS TYPOGRAPHIA OPERA PHILIPPI DE OHR CHALCOGRAPHI HAMBURGENSIS INEUNTE ANNO M.D.IIC.</opener></div>
-      <!-- 
-
-            <div xml:id=""><pb ed="TBOO" n="V."/><pb ed="E" n=""/><head><orig></orig><reg> </reg></head><figure/>
-                <pb ed="TBOO" n="V."/><pb ed="E" n=""/><opener>EXPLICATIO FABRICÆ ET VSVS.</opener>
-                <p></p>
-            </div> -->
         </body>
       </text>
     </TEI>
