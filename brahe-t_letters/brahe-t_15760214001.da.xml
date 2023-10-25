@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>nil</title>
+                <author>Tycho Brahe</author>
+                <editor role="translator">
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <editor>
+                    <name xml:id="pz">
+                        <persName>
+                            <forename type="first">Peter</forename>
+                            <surname>Zeeberg</surname>
+                        </persName>
+                    </name>
+                </editor>
+                <funder xml:lang="da">Carlsbergfondet</funder>
+                <funder xml:lang="en">Carlsberg Foundation</funder>
+            </titleStmt>
+            <editionStmt>
+                <edition/>
+            </editionStmt>
+            <publicationStmt>
+                <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+                <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+                <pubPlace xml:lang="da">København</pubPlace>
+                <pubPlace xml:lang="en">Copenhagen</pubPlace>
+                <date>2019</date>
+                <idno>nil</idno>
+                <idno type="isbn">nil</idno>
+                <availability status="restricted">
+                    <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+                    <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+                </availability>
+            </publicationStmt>
+            <!-- <sourceDesc>
+                <listWit>
+                    <witness xml:id="A">
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.7</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab/>
+                            </physDesc>
+                        </msDesc></witness>
+                    <witness xml:id="B">
+                        <msDesc xml:lang="da">
+                            <msIdentifier>
+                                <settlement>Wien</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                        </msDesc><msDesc xml:lang="en">
+                            <msIdentifier>
+                                <settlement>Vienna</settlement>
+                                <repository>Österreichische Nationalbibliothek</repository>
+                                <collection>empty</collection>
+                                <idno>cod. Vindob. lat. 10686.66</idno>
+                                <msName>empty</msName>
+                            </msIdentifier>
+                            <physDesc>
+                                <ab/>
+                            </physDesc>
+                        </msDesc></witness>
+                    <witness xml:id="TBOO">
+                        <bibl><title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 25-29</bibl>
+                    </witness>
+                </listWit>
+                <listBibl>
+                    <bibl>empty</bibl>
+                </listBibl>
+            </sourceDesc> -->
+        </fileDesc>
+        <profileDesc>
+            <correspDesc>
+                <correspAction type="sent">
+                    <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+                    <placeName>Knutstorp</placeName>
+                    <date when="1576-02-14"/>
+                </correspAction>
+                <correspAction type="received">
+                    <persName key="pratensis_johannes_1543">Johannes Pratensis</persName>
+                    <placeName>empty</placeName>
+                </correspAction>
+            </correspDesc>
+            <creation>
+                <date xml:lang="da">1576. 14. februar.</date>
+                <date xml:lang="en">1576. 14 February.</date>
+            </creation>
+            <langUsage>
+                <language ident="da"/>
+            </langUsage>
+            <textClass>
+                <keywords>
+                    <term>brev</term>
+                </keywords>
+            </textClass>
+            <abstract>
+                <ab>nil</ab>
+            </abstract>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2023-10-24" who="#pz">Filen etableret</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front/>
+        <body>
+            <div>
+                <pb ed="TBOO" n="VII.25"/>
+                <pb ed="A" n="4v"/>
+                <opener>Fra <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> til <persName
+                        ref="pratensis_johannes_1543">JOHANNES PRATENSIS</persName>.</opener>
+                <p rend="noIndent">Lærde og elskelige <persName ref="pratensis_johannes_1543"
+                        >Pratensis</persName>, jeg har modtaget dit brev, hvoraf jeg forstår at du
+                    har ordnet vores forretning i Rostock til punkt og prikke, og det skal du have
+                    tak for. Du beder mig fortælle <pb ed="A" n="5r"/>hvad der sker i verden, og
+                    hvad vindene fra de frugtbare sydlige egne som jeg lige er vendt tilbage fra,
+                    bringer med sig. Meget af det jeg hørte dernede, har jeg fortalt dig i København
+                    så snart jeg var kommet hjem, med planer om at fortælle endnu mere, hvis jeg kom
+                    i tanke om mere, når jeg besøger jeg næste gang, hvilket jeg har bestemt mig for
+                    at gøre om få dage. Der er nemlig en særdeles betydningsfuld sag som jeg ikke
+                    agter at afsløre for andre end den højtærede franske gesandt hr. <persName
+                        ref="dancay_charles_1510">Dançay</persName> og dig, min nærmeste ven, for at
+                    høre hvad I vil råde mig til. Eftersom du har forudset både det ene og det andet
+                    om at jeg endnu en gang skal af sted til Tyskland, på trods af at jeg holder det
+                    hemmeligt, vil jeg viske noget til dig som du ikke må afsløre for andre end
+                        <persName ref="dancay_charles_1510">Dançay</persName>, der som du ved, kan
+                    tie og holde ord. Der er jo rigtigt hvad din profetiske genius har fortalt dig,
+                    om det så var i søvne eller i vågen tilstand, at jeg har planer om endnu en
+                    rejse sydpå. Måske er det noget du har afluret af at jeg ikke ville tage imod
+                    nogen af de borge som han vores høje konge nådigt og på eget initiativ tilbød
+                    mig som bolig da jeg efter min hjemkomst ydmygst gjorde ham min skyldige
+                    opvartning i Sorø &#x2013; og fordi du kan se at jeg ikke er specielt
+                    interesseret i det der forgår her i landet. Dertil kommer at jeg ofte har omtalt
+                    Basel over for jer og rost de gode muligheder dér for den der er interesseret i
+                    dyrke filosofien og holder af Apollos og musernes fred og ro, i den by hvor du
+                    selv engang har boet, og som du sætter meget højt. Det er det, tror jeg, der har
+                    fået din genius eller rettere dit geni, din skarpsindige og forudseende
+                    begavelse, der har gættet mine planer om at tage af sted og rejse derned og
+                    fattet en ganske rimelig mistanke. For nu ikke at holde mine følelser helt
+                    skjult for dig, så forholder det sig som du gætter. Jeg har besluttet mig for
+                    &#x2013; om Gud vil &#x2013; nu til sommer at vende tilbage til Tyskland, og
+                    netop begive mig til Basel, der ligger så behageligt og praktisk i nærheden af
+                    Italien, Frankrig og Tyskland, og oprette et permanent sæde for mine himmelske
+                    studier dér og arbejde på den fornyelse af astronomien som jeg så læge har haft
+                    i tankerne &#x2013; hvis stjernernes skaber står mig bi. Det var for en stor del
+                    formålet med den første rejse at lede efter et sted og finde nogle forhold
+                    hvorunder jeg trygt og i fuldt omfang kunne have tid til mine studier og kunne
+                    varetage dem rigtigere end her i Danmark. Jeg hader jo &#x2013; og det har du
+                    ofte hørt mig beklage mig over &#x2013; al den selskabelighed, alle de
+                    konventioner, al den dagligdags snak! Jeg kan dårligt finde en eneste ud over
+                    dig <pb ed="TBOO" n="VII.26"/>som jeg kan tale fornuftigt med om vanskelige
+                    sager de overgår almindelige menneskers fatteevne; og du ved jo selv hvor
+                    sjældent vi har mulighed for at være sammen. Jeg har temmelig ofte med personer
+                    af min egen stand at gøre &#x2013; enten fordi de mødes hos min onkel på
+                    Herrevad mens jeg selv opholder mig hos ham, eller fordi de besøger mig selv på
+                    Knudstrup (bortset fra det undgår jeg så vidt muligt deres selskab). Derved
+                    spilder jeg megen tid, <pb ed="A" n="5v"/>ligesom jeg må høre og gøre meget jeg
+                    ikke har lyst til, for du ved hvor fjernt disse adelsmænds levevis ligger mig
+                    &#x2013; og hvor fjernt den ligger fra videnskaben. Der er ganske vist
+                    undtagelser, men jeg ville ønske der var flere end der er.</p>
+                <p rend="indent">Men nu skal du høre noget der lige er sket, og som jeg slet ikke
+                    havde forestillet mig. Det er kun dig der får det et høre, og du skal ikke
+                    fortælle det til andre end vores ven <persName ref="dancay_charles_1510"
+                        >Dançay</persName>, og det i al fortrolighed. Det var den sidste dag i
+                    sidste uge, d. 11. februar om morgenen, da jeg lige var blevet vækket og stadig
+                    lå i sengen og tænkte bekymret over den rejse til Tyskland jeg lige har nævnt,
+                    og grublede frem og tilbage over hvordan jeg kunne slippe væk uden at min
+                    familie bemærkede det. Pludselig kom der besked om at en af <persName
+                        ref="frederik_2_1534">kongens</persName> tjenere var kommet her til
+                    Knudstrup. Han havde hastet afsted hele natten for hurtigst muligt at overbringe
+                    et brev fra Frederik 2. til mig. Det var stadig mørkt, tusmørket var kun på vej,
+                    og solen ville ikke stå op før om to timer. Jeg fik tjeneren kaldt ind til min
+                    seng. Det var en ung adelsmand, en slægtning af mig, og han gav mig straks
+                    brevet og sagde at kongen selv havde givet ham ordre til at rejse dag og nat for
+                    uden tøven at opsøge mig hvor han end kunne finde mig i Skåne, overrække brevet
+                    til mig personligt og straks vende tilbage, hvilket han også gjorde. Brevet var
+                    skrevet på kongens jagtslot Ibstrup, der som du ved, ligger under en mil fra
+                    København i en nærliggende skov, og det var dateret dagen før, nemlig 10.
+                    februar. Jeg brød seglet og fandt ud at det var en ordre fra kongen om straks at
+                    opsøge ham, hvor han end måtte opholde sig på Sjælland, hvilket jeg også
+                    ufortøvet og lydigt gjorde, idet jeg samme dag inden solnedgang mødte frem hos
+                    kongen i det nævnte jagtslot. Gennem sin kammerjunker, den velbårne <persName
+                        ref="Parsberg, Niels">Niels Parsberg</persName>, gav han ordre om at jeg
+                    skulle kaldes ind i et afsides lokale, og her talte han særdeles nådigt til mig
+                    under fire øjne: &#187;Tycho, du ved jo hvad jeg med glæde tilbød dig da du
+                    sidst var hos mig i Sorø. Jeg befalede dig at komme tilbage snart og give mig
+                    personlig besked om hvad du foretrak &#x2013; eller at meddele det pr. brev til
+                    min kansler <persName ref="Kaas, Niels">Niels Kaas</persName> eller min sekretær
+                        <persName ref="Skovgaard, Hans">Hans Skovgaard</persName>. Men når du nu
+                    siden da ikke har foretaget dig noget i den retning, til trods for at det er
+                    noget andre har stor lyst til og forventning om, ved jeg ikke hvad det er du
+                    grubler over, og hvorfor du ikke tager en beslutning. En af mine hofmænd har
+                    vist antydet at han fra din onkel <pb ed="TBOO" n="VII.27"/>
+                    <persName ref="bille_steen_1527">Steen Bille</persName> i al fortrolighed har
+                    hørt at du overvejer at tage tilbage til Tyskland. Derfor besluttede jeg at
+                    tilkalde dig igen for at høre fra din egen mund hvad du mener om de forskellige
+                    muligheder jeg har tilbudt dig, og hvorfor du ikke tager imod dem. Det kan jo
+                    være &#x2013; gætter jeg &#x2013; at du ikke ønsker nogen af disse kongelige
+                    forleninger af store slotte for at de retssager og andre politiske forretninger
+                    der er nødvendige når man skal drive og administrere den slags, ikke skal stå i
+                    vejen for de studier du holder så meget af, og <pb ed="A" n="6r"/>gøre det
+                    umuligt at få tid tilovers til dem. Så da jeg for nylig var på borgen i
+                    Helsingør, hvor jeg er i gang med at bygge, og så ud ad et vindue, fik jeg øje
+                    på den lille ø Hven, der ligger der i sundet ud for Landskrone, og hvor der
+                    ingen adelsmand bor, og om hvilken din onkel <persName ref="bille_steen_1527"
+                        >Sten Bille</persName>, så vidt jeg husker, engang &#x2013; før du sidst
+                    rejste til Tyskland &#x2013; har sagt til mig at du syntes godt om det sted. Og
+                    så slog det mig at den var særdeles velegnet til din astronomiske og
+                    destillatoriske forskning eftersom den er høj og ensomt beliggende. Der er
+                    ganske vist ikke noget hus du kan bo i, og den leverer heller ikke de nødvendige
+                    indtægter. Men jeg vil sørge for begge dele. Så hvis du vil slå dig ned på den
+                    ø, vil jeg med glæde overlade den til dig alene. Der kan du bo i fred og dyrke
+                    de videnskaber der optager dig, uden at nogen forstyrrer. Og når jeg har
+                    gennemført den prægtige istandsættelse af borgen i Helsingør som jeg nu har
+                    iværksat, og fra tid til anden opholder mig der, vil jeg af og til sejle over
+                    til dig på øen og se hvad du foretager dig inden for astronomi og destillation,
+                    og jeg vil støtte dit arbejde, ikke fordi jeg selv forstår mig på astronomi
+                    eller ved hvad den tjener til, eller fordi jeg venter mig personligt at få noget
+                    udbytte af den, men udelukkende FORDI JEG ER KONGE, og jeg forstår at du, der
+                    tilhører en slægt jeg altid har holdt af, her i mit rige har præsteret noget på
+                    dette område der ikke er helt ringe. Derfor mener jeg at det er min pligt at
+                    støtte og fremme den slags på en passende måde. Hvorfor er det nødvendigt at du
+                    vender tilbage til Tyskland og påtager dig selv udlændighed når du kan gøre det
+                    samme her i dit fædreland som der? Jeg vil hellere anstrenge mig for at vi når
+                    til det punkt hvor tyskere og folk fra andre folkeslag der har lyst til at lære
+                    den slags, kommer hertil og her ser og lærer noget de ikke kan finde andre
+                    steder. Derfor: overvej nu sagen et par dage, og giv mig så besked om hvad du
+                    mener du skal gøre, når du hører at jeg er kommet tilbage til min residens på
+                    Frederiksborg slot. Jeg vil nemlig ikke have at du gør noget af tvang; jeg
+                    overlader det til selv, ud fra de overvejelser jeg har forelagt dig, frit at
+                    afgøre hvad der tjener dig bedst. Og når du er hos mig på Frederiksborg, og der
+                    er taget en beslutning om hvad der skal ske, så vil jeg tage bestemmelse om de
+                    nødvendige indtægter og byggeomkostninger og sørge for dig så du bliver holdt
+                    skadesløs og ubesværet kan udføre det der kan sikre såvel riget og mig, kongen,
+                    som dig selv og dine <pb ed="TBOO" n="VII.28"/>hæder både her og andre
+                    steder.&#171; Sådan talte denne fremragende konge, der er så optaget af
+                    fædrelandets og almenhedens vel. Og da han endte sin tale, takkede jeg ydmygt
+                    med al den ærbødighed jeg kunne og burde opvise, og svarede underdanigt at selv
+                    om den ø han så nådigt tilbød mig, er vanskelig og tit også farlig at komme til
+                    på grund af det hav der omgiver den til alle sider, ville jeg overveje sagen og
+                    snart komme til Frederiksborg og i ærbødighed oplyse ham om min beslutning. <pb
+                        ed="A" n="6v"/>Hermed forlod jeg ham, og den følgende dag kom jeg herhjem,
+                    hvor jeg – ligesom også undervejs &#x2013; i mit stille sind tænker meget over
+                    kongens tilbud. For det forekommer mig forunderligt, eller som en eller anden
+                    form for særligt varsel eller skæbne, at den kongelige tjener bragte sådan en
+                    besked fra kongen tidligt om morgenen netop mens jeg lå og overvejede at rejse
+                    til Tyskland, og at vores høje og nådige konge helt af sig selv og uden at jeg
+                    selv bad om det eller overhovedet havde tænkt tanken, foreslog noget sådant. Og
+                    for at sige det ærligt har kongens ord og hans prisværdige hensigt bevæget mig
+                    så dybt at jeg er begyndt at vakle og blive usikker og slække lidt på min
+                    tidligere beslutning. For hvis jeg alligevel rejser, på trods af at kongen har
+                    forudset det der har givet mig grund til at rejse igen, og vil komme det i
+                    forkøbet, og der så senere i det fremmede kommer noget på tværs, og alt ikke
+                    lykkes som jeg havde håbet (for menneskelivet er usikkert og afhængigt af
+                    alverdens tilfældigheder), så vil jeg blive så meget mere nedslået og bekymret
+                    og ærgre mig så meget desto mere over at jeg ikke har taget imod de ganske
+                    acceptable betingelser den fremragende konge i sin enestående nåde har tilbudt
+                    mig på min anmodning, og ikke er blevet i mit fædreland. Men jeg kan ikke med
+                    sikkerhed bestemme mig for noget endnu, og det vil jeg heller ikke før jeg har
+                    hørt hvad hr. <persName ref="dancay_charles_1510">Dançay</persName> og du selv
+                    råder mig til. Min mor og min onkel og for den sags skyld min bror vil jeg ikke
+                    afsløre det for før vi tre har drøftet det grundigt og besluttet hvilken af
+                    mulighederne jeg skal vælge. For jeg vil ikke have at de skal få at vide at jeg
+                    har beslutte at rejse til Tyskland igen. Alt dette, min kære <persName
+                        ref="pratensis_johannes_1543">Pratensis</persName>, fortæller jeg dig så
+                    udførligt og præcis som det er foregået, for at du så hurtigt og effektivt som
+                    muligt kan drøfte med <persName ref="dancay_charles_1510">Dançay</persName> hvad
+                    I mener jeg skal gøre, og så I kan meddele mig jeres holdning så snart jeg
+                    kommer over til jer (hvad jeg håber jeg gør inden for to eller højst tre dage),
+                    og gøre det så åbenhjertigt som vores gensige og helhjertede venskab tilsiger.
+                    Jeg mener nemlig ikke jeg kan vente længe med at møde frem hos kongen på
+                    Frederiksborg og meddele hvilken beslutning jeg har taget. Det har jeg &#x2013;
+                    om Gud vil &#x2013; tænkt mig at gøre så snart jeg har brugt en dag en enkelt
+                    dag med jer i København og ved hvad I vil råde mig til.</p>
+                <p rend="indent">Når du har læst dette brev og har vist det til hr. <persName
+                        ref="dancay_charles_1510">Dançay</persName>, må du straks rive det i stykker
+                    og brænde det så det ikke i ubetænksomhed bliver lagt et sted hvor det kan falde
+                    i hænderne på andre, og vores hemmelige drøftelser bliver lækket &#x2013;
+                    hvilket jeg virkelig ikke vil have. <pb ed="TBOO" n="VII.29"/>Det er nok om den
+                    sag; du får mere, og flere detaljer, at høre når jeg kommer. Men inden jeg
+                    slutter brevet, kan jeg se at der stadig er en enkelt ting vi skal diskutere, og
+                    som jeg nær havde glemt, så opslugt var jeg af det første. Det drejer sig om den
+                    der tankegang hos <persName ref="plinius_secundus_gajus_0023"
+                    >Plinius</persName>. Jeg kan ikke på stående fod forklare den fuldstændigt,
+                    sådan som sagens betydning egentlig kræver det, men jeg vil sige hvad der
+                    umiddelbart og i al hast falder mig ind. <pb ed="A" n="7r"/> Det sted hos
+                        <persName ref="plinius_secundus_gajus_0023">Plinius</persName> som du peger
+                    på, virker for uklart til at det er muligt at forklare det helt igennem, for det
+                    fremgår ikke hvad det er han vil sige. Tværtimod: medmindre han selv har
+                    forstået mere end han skriver, har han efter min mening ikke gjort det klart for
+                    sig selv &#x2013; endsige for andre. Der er ingen tvivl om at planeterne har en
+                    tydelig sammenhæng med solen, og at deres standsninger og retrograde bevægelser
+                    og en række åbenlyse ujævnheder, såvel hvad længde som bredde angår, udviser
+                    forskelle i forhold til den. Men at de tre øvre planeter i trigon til solen står
+                    nærmest ved og hæmmes af solens stråler og bevæger sig i en lige bane og hæves
+                    opad af dens ild-kraft (som <persName ref="plinius_secundus_gajus_0023">Plinius</persName> mener), og også det han derefter tilføjer om
+                    retrograde bevægelser &#x2013; hvordan det kan passe, kan jeg ikke se. Solens stråler
+                    er jo ikke bundet til planeterne som af en kæde eller en anden form for
+                    sammenkobling hvorved de kan skubbe eller trække dem frem eller tilbage,
+                    medmindre vi skal forestille os at der er en slags magnetisk kraft i dem, og
+                    selv på den måde vil der ikke være tale om en bevægelse der passer til
+                    himmellegemer, nemlig en cirkulær og regelmæssig bevægelse. Det står nemlig
+                    klart at planeternes bevægelser forgår i cirkler, og derfor skal det <persName ref="plinius_secundus_gajus_0023">Plinius</persName>
+                    fremfører &#x2013; hvis det skal bruges om solen, hvad jeg ikke benægter at man kan &#x2013;
+                    anvendes på en anden måde som jeg undertiden har overvejet, men endnu ikke har
+                    gjort klar for mig selv, nemlig sådan at epicyklerne (som det fremgår hos <persName ref="plinius_secundus_gajus_0023">Plinius</persName>
+                    at de gamle heller ikke gik ind for) bliver afskaffet, men det man kan
+                    observere, alligevel forbliver det samme. Men hvor <persName ref="plinius_secundus_gajus_0023">Plinius</persName> end har disse
+                    overvejelser fra, og hvordan han end har forstået dem, tror jeg ikke han har
+                    været i stand til at anvende dem i praksis, og det er nok derfor han siger at
+                    der ligger en vanskelighed gemt her. Noget lignede kan man finde hos <persName ref="vitruvius_0025">Vitruv</persName>, som
+                    levede længe inden <persName ref="plinius_secundus_gajus_0023">Plinius</persName>, men lige nu kan jeg ikke huske stedet. Han arbejdede
+                    dog arkitektonisk snarere end astronomisk og geometrisk, og det er sandsynligt
+                    at <persName ref="plinius_secundus_gajus_0023">Plinius</persName> har hentet denne opfattelse fra ham selv om han fortav det og
+                    fremførte den som sin egen private opfattelse. Men vi kan filosofere videre når
+                    vi mødes og har lejlighed til at drøfte den slags. Nu må du have det så godt,
+                    min kære <persName ref="pratensis_johannes_1543"
+                        >Pratensis</persName>, og hilse vores ven hr. <persName
+                        ref="dancay_charles_1510">Dançay</persName> mange gange fra mig. Og som
+                    sagt kan I begge vente at se mig inden for få dage.</p>
+                <closer>
+                    <dateline>Givet på min gård Knudstrup <placeName ref="Knutstorp"
+                            >Knudsdorpiana</placeName>, 14. februar 1576.</dateline>
+                    <signed><persName ref="brahe_tycho_1546">Tycho Brahe</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>
