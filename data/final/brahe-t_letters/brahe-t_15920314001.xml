@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1592. 14. marts.</title>
+            <title xml:lang="en">1592. 14 March.</title>
+            <author>Queen Sophie</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Kongehusets arkiv, Dronning Sophies tegnelser 1588-92, fol 102 f.</witness>
+               <witness xml:id="A_en">Copehagen, Danish National Archive, Kongehusets arkiv, Dronning Sophies tegnelser 1588-92, fol 102 f.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da" key="sophie_1557">Dronning Sophie</persName>
+               <persName xml:lang="en" key="sophie_1557">Queen Sophie</persName>
+               <placeName>Frederiksborg</placeName>
+               <date when="1592-03-14"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1592-03-14">
+            <date xml:lang="da">1592. 14. marts.</date>
+            <date xml:lang="en">1592. 14 March.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-07" who="#pz">Filen etableret</change>
+         <change when="2021-05-30" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.62"/>
+            <opener>
+               <persName ref="brahe_tycho_1546">TYGE BRAHE</persName> FICK BREFF NOGETT SMERLLE ANRØRENDIS <foreign xml:lang="la">
+                  <hi rend="it">VT SEQUITUR</hi>
+               </foreign>.</opener>
+            <p rend="indent">
+               <persName ref="sophie_1557">Sophia</persName>.</p>
+            <p rend="noIndent">WOR gunst thilfornn. Wider, att høgborne første och herre, her Wllrich, herre och
+                    første thill Meckelborg, Vor kierre herre fader, haffuer weed hanns
+                    schriffuellse aff Oß werritt begierrenndis, att Wi naadigst wille Hanns f: Naade
+                    forschaffe enn prøffue aff thennd jord, som kallis smerle, som glasbrenndere
+                    allthiid leyer, och nu nyligenn paa Huenn schulle verre funndenn, thi bede Wi
+                    ether och begierre, attj Oß wille vnnde och schiche enn ottinng fuld aff for:ne
+                    smerlle, huilched Wi sidenn Hanns Kierlighet wille thillsennde. Sammeledis
+                    giffue Wi ether och naadigst att wide, att Wi iche synnderligtt mere haffue aff
+                    thennd brennd <hi rend="it">antimonium</hi>, som i Oß senniste gaffue och thillschichede, bedenndis ether ther forre och begierre, attj
+                    Oß enndnu nogett aff for:ne brenntt <hi rend="it">antimonium</hi> ville giffue, huorudinnden i giør
+                    Oß enn synderlig thienniste och vellgefallenn.</p>
+            <closer>
+               <salute>Befallendis etc.</salute>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Actum</hi>
+                  </foreign> Frederichsborg thennd 14.
+                            <foreign xml:lang="la">
+                     <hi rend="it">martij a:o</hi>
+                  </foreign>
+                        92.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

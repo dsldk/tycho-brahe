@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Per varios casus</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Torino, Biblioteca Civica Centrale</witness>
+               <witness xml:id="A_en">Turin, Biblioteca Civica Centrale</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1598</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-02" who="#pz">Filen etableret</change>
+         <change when="2019-03-01" who="#pz">Tekst indlagt og korrkturlæst</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div xml:id="text">
+            <head>
+               <orig/>
+               <reg>Per varios casus</reg>
+               <reg xml:lang="en">Per varios casus</reg>
+            </head>
+            <lg>
+               <l>
+                  <pb ed="TBOO" n="IX.212"/>PER varios casus, per tot discrimina rerum</l>
+               <l>Tendimus in cœlum, sedes ubi, CHRISTE, beatas </l>
+               <l>Pollicitus, nec te retro sententia vertit. 30</l>
+            </lg>
+            <closer>
+               <signed>Tycho Brahe scripsi</signed>
+               <dateline>Dresdæ Anno 1598 Nouemb. 20.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

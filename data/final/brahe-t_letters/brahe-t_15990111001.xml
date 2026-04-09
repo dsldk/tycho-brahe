@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1599. 11. januar.</title>
+            <title xml:lang="en">1599. 11
+                    January.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Wittenberg</placeName>
+               <date when="1599-01-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="longomontanus_christen_sorensen_1562">Christen Sørensen
+                        Longomontanus</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1599-01-11">
+            <date xml:lang="da">1599. 11. januar.</date>
+            <date xml:lang="en">1599. 11
+                    January.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-12-05" who="#pz">Filen etableret</change>
+         <change when="2019-06-03" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.136"/>
+               <persName ref="brahe_tycho_1546">TYCHO
+                        BRAHE</persName> AD <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM LONGOMONTANUM</persName>.</opener>
+            <p rend="indent">
+               <pb ed="A" n="3r"/>S.</p>
+            <p rend="noIndent">CHARISSIME M. <persName ref="longomontanus_christen_sorensen_1562">CHRISTIERNE</persName>, bis tibi
+                    scripsi, postquam huc <placeName ref="Wittenberg">Witebergam</placeName> veni,
+                    quas literas accepisse te utrasque reor, vel saltem alteras. Cuperem, ut ad me
+                    huc accederes, antequam denuo <placeName ref="Praha">Pragam</placeName> versus
+                    iter suscipiam. Fiet id cum tuo emolumento. Si viatico cares, suppeditabit tibi
+                    hic auriga, ego illi restituam. Intellexi ex <app>
+                  <lem>tuis, antequam <placeName ref="Wandsbeck">Wandesbecho</placeName>
+                            abires, mihi scriptis, conditionem in aliqua Academia te optare hîc in
+                                <placeName ref="Germany">Germania</placeName>, s[ignifica mihi an]
+                                <placeName ref="Praha">Pragæ</placeName> isti, qui se <persName ref="rudolf_2_1552">Cæsaris</persName> Mathematicum iactat,
+                            succedere velis (brevi enim ille se subducet, si modo iam factum non
+                            sit) sin tibi non placuerit, effi</lem>
+                  <rdg>supplevit Langebek ("Dänische Bibliothec" IX).</rdg>
+               </app>
+               <!-- NB! App. siger at det er v. 12-15, men nævner ikke specifikke ord, så jeg har bare opmærket hele v. 12-15 -->ciam
+                    ut ....... eo vocetur, nec is ab [hoc] munere suscipiendo abhorret; [tunc]
+                    operam <pb ed="A" n="3v"/>dabo, ut tu hîc <placeName ref="Wittenberg">Witebergæ</placeName> in eius locum substituare .......re, cum præsente
+                    plura ad ........ quavis alia ratione expete ....... commodis, quantum in me
+                    est, studebo.</p>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>Raptim <placeName ref="Wittenberg">Witebergæ</placeName> inter
+                        plurimas occupationes die 11. Ian. Anno 99.</dateline>
+               <signed>
+                  <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu
+                        propria.</signed>
+            </closer>
+            <postscript>
+               <p>Habes hîc literas a <persName ref="brasch_martin_1565">BRASCHIO</persName>
+                        Poëta, <placeName ref="Dresden">Dresda</placeName> mihi missas et fortuito
+                        resignatas.</p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

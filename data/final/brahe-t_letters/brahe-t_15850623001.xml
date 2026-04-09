@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1585. 23. juni.</title>
+            <title xml:lang="en">1585. 23 June.</title>
+            <author>Heinrich Brucaeus</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
+               <placeName>Rostock</placeName>
+               <date when="1585-06-23"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1585-06-23">
+            <date xml:lang="da">1585. 23. juni.</date>
+            <date xml:lang="en">1585. 23 June.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-03-25" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="VII.92"/>
+            <pb ed="A" n="87r"/>
+            <opener>
+               <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> NOBILI DANO, MATHEMATICO CLARISSIMO, AMICO PERCHARO <persName ref="brucaeus_heinrich_1530">HENRICUS
+                    BRUCÆUS</persName>.<lb/>S. P.</opener>
+            <p rend="noIndent">ChARISSIME TYCHO, pecuniam qua <persName ref="vitus_1584">VITO</persName> Typorum
+                    fusori et mihi satisfieret, accepi. De Calendario per <persName ref="morsing_elias_olsen_1550">tuorum aliquem</persName> edendo
+                    utrum sententiam mutâris, nescio; in tanta tamen iudiciorum incertitudine malim
+                    nihil tale edi, ne artis vanitas confirmetur. Quod si quid certi subesse
+                    iudicas, age, prodeat ille tuus in lucem, et declaret, se vel a te vel aliunde
+                    plus didicisse quam alij. Quanquam ego ab omnibus et laboratum esse hactenus
+                    frustra et in posterum laboratum iri existimem, rationibus meo iudicio, quæ
+                    refelli nequeant, id ipsum demonstrantibus. Cedam tamen, si videro, me a quoquam
+                    ipsis hisce prædictionibus vinci, nec quæram contra experientiam rationes. De
+                    Astrologi istius operibus facile arbitrabar, te ita sensurum, cum aliquot
+                    paginas inspexissem. Sic magnis voluminibus sæpe et claris titulis imponitur
+                    mundo. Nihil hisce nundinis prodijt Mathematicum, nec nostri Bibliopolæ quicquam
+                    attulerunt venale. Literas si quas Pragam mitti ad <persName ref="hagecius_thaddaeus_1525">HAGECIUM</persName> velis, dabo operam ut
+                    deferantur. Legi tuos versus,</p>
+            <p>qui in <pb ed="A" n="887v"/>
+               <persName ref="ptolemaios_klaudios_0100">PTOLEMÆUM</persName> et
+                        <persName ref="kopernikus_nikolaus_1473">COPERNICUM</persName> scripti sunt, et
+                    inprimis mihi placuere. Præter enim carminis venustatem multa sunt eleganter
+                    inventa et erudite tradita. Vide, ut tuos Cometas brevi habeamus, cum iam sis
+                    instructus Typis. Quod si plura a VITO desideres, offert suam operam. In me
+                    quoque nec voluntatem nec studium defuisse agnosces. Tractatus noster de
+                    Crepusculis est in fine libri secundi de motu primo; eum si legas, non dubito
+                    placiturum.</p>
+            <closer>
+               <salute>Bene vale Nobilissime amantissime <persName ref="brahe_tycho_1546">TYCHO</persName>.</salute>
+               <dateline>
+                  <placeName ref="Rostock">Rostochij</placeName> pridie Iohannis An. Domini 1585.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1598 25. juno n.s.</title>
+            <title xml:lang="en">1598 25 June NS.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da" key="ernst_1554">Ernst, kurfyrste, ærkebiskop af Köln</persName>
+               <persName xml:lang="en" key="ernst_1554">Ernst, Elector, Archbishop of Cologne</persName>
+               <placeName>Liège</placeName>
+               <date when="1598-06-25"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="da" key="rantzau_henrik_1526">Henrik Rantzau</persName>
+               <persName xml:lang="en" key="rantzau_henrik_1526">Heinrich Rantzau</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1598-06-25">
+            <date xml:lang="da">1598 25. juno n.s.</date>
+            <date xml:lang="en">1598 25 June NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-07" who="#pz">Filen etableret</change>
+         <change when="2020-09-07" who="#lrp">Korrektur påbegyndt</change>
+         <change when="2021-01-18" who="#pz">Filen etableret</change>
+         <change when="2019-06-02" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.140"/>COPIA LITERARUM SERENISS: <persName ref="ernst_1554">ELECTORIS COLONIENSIS</persName>
+                    AD DOMINUM <persName ref="rantzau_henrik_1526">HENRICUM
+                    RANZOUIUM</persName>.</opener>
+            <p rend="noIndent">
+               <persName ref="ernst_1554">ERNESTUS</persName> electus et confirmatus archiep[i]scopus
+                        <placeName ref="Köln">Coloniensis</placeName>, sacri Romani imperij per
+                        <placeName ref="Italy">Italiam</placeName> archicancellarius et princeps
+                    elector, episcopus <placeName ref="Liège">Leodiensis</placeName>, <placeName ref="Rheinpfalz">palatinus
+                    Rheny</placeName>, utriusque <placeName ref="Bayern">Bauariæ</placeName> dux. Clementi
+                    salutatione Nostra premissa. Nobilissime singulariter dilecte mihi et illis
+                    studijs, in quibus tam preclaram Braheus
+                    operam posuit, nihil est nunc gratius et literis a te missis nihil acceptius, et
+                    tua etiam commendatione nihil grauius, et ipso Braheo, ut mores et doctrina viri merentur, nihil fuit neque
+                    erit commendatius. Vidi, quæ misit sublimibus de illis specimina, mire
+                    placuerunt et reliquorum magnam sitim in animo meo excitauerunt. Perge,
+                        <persName ref="rantzau_henrik_1526">Ranzoui</persName> præstantissime, affinem
+                    illum, te dignum, <placeName ref="Denmark">Daniæ</placeName> totique <placeName ref="Germany">Germaniæ</placeName> gloriosum, fouere. Ego, quod potero, et
+                    ipsius causa, et quia uideo tibi, quem, ut æquum est, facio maximi, rem curæ
+                    esse, diligenter eum, ut feci, <persName ref="rudolf_2_1552">cæs: ma:ti</persName> commendare pergam, et non committam,
+                    ut meam in se beneuolentiam ulla ex parte sentiat claudier. Ex eodem <persName ref="tengnagel_frans_1576">Francisco Tengnaglio</persName> hæc eadem copiosius
+                    intelliges. </p>
+            <closer>
+               <salute>Vale. </salute>
+               <dateline>
+                  <placeName ref="Liège">Leody</placeName>
+                        xxv junij 1598.</dateline>
+               <signed>
+                  <persName ref="ernst_1554">Ernestus</persName>
+                        mpp.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

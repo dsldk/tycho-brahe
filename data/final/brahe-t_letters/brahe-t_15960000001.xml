@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Holger Rosenkrantz</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danissh National Archive, Langebeks Diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="rosenkrantz_holger_1574">Holger Rosenkrantz</persName>
+               <placeName>empty</placeName>
+               <date when="1596"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1596">
+            <date>1596.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-11-01" who="#pz">Filen etableret</change>
+         <change when="2019-11-06" who="#pz">Filen færdig</change>
+         <change when="2019-05-31" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VII.375"/>
+               <pb ed="A" n="1r"/>
+               <persName ref="brahe_tycho_1546">TYCHONI BRAHEO</persName>.</opener>
+            <p rend="noIndent">SALUTEM et officia. Quam semper dedito animo in id incubuerim unice, Generose
+                    TYCHO, quod necessitudinem eam, quam generis et sangvinis inter nos intemeratam
+                    esse voluit communio, ipse, quantum in me sit, non † <app>
+                  <lem>tu tenes</lem>
+                  <rdg>
+                     <q>tutarer</q> conj. Friis</rdg>
+               </app> modo, sed et
+                    confirmarem, licet ex voto sat evidenter prodere huc usque nequiverim, ipse
+                    tamen, quin ex proprio candore te æmulantem reputes, nullus dubito. Quin et eis
+                    me sorte et censu a te sincere ascribi, quos eruditionem tuam ac sapientiam
+                    illustrem suspicientes, ipse redamare non nequis, indubius confido, ut adeoque
+                    operosam animi in te mei deprædicationem erga te accersere, nec operæ nec curæ
+                    precium esse censeam. Nil restat, nisi ut ad amicissimas tuas litteras, quam
+                    debeo et in officio imposito requiris, declaratam fidem reponam. Quam si in
+                    alijs operam meam ipsius concernentibus alias precij alicuius dehinc putaris,
+                    iube, impera, meque addictissimum tibi ex asse habe, macte. De reliquo est, quod
+                    submoneam, litteras tuas parenti insignitas ipsi redditas tum demum, ubi ex
+                    Senatu redijsset, qui ex Generosi <persName ref="brahe_steen_1547">STENONIS</persName> fratris tui rela<pb ed="A" n="1v"/>tione causam se cognovisse retulit, atque pro re est, quod rogem, Generosus
+                    meus amicus.</p>
+            <closer>
+               <signed>[<persName ref="rosenkrantz_holger_1574">Oligerus Rosæcrantz</persName>.]</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

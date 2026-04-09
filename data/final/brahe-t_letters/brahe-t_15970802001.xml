@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1597. 2. august.</title>
+            <title xml:lang="en">1597. 2
+                    August.</title>
+            <author>acob Bording</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks Diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bording_jacob_1547">Jacob Bording</persName>
+               <placeName>Güstrow</placeName>
+               <date when="1597-08-02"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1597-08-02">
+            <date xml:lang="da">1597. 2. august.</date>
+            <date xml:lang="en">1597. 2
+                    August.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-10-21" who="#sis">Filen etableret</change>
+         <change when="2019-06-01" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="VIII.5"/>
+            <opener>
+               <persName ref="bording_jacob_1547">IACOBUS BORDINGUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+            <p>
+               <pb ed="A" n="1r"/>S.</p>
+            <p rend="noIndent">REDDITÆ mihi sunt literæ tuæ, Vir Nobilissime, quibus significas,
+                    te patrium solum vertere coactum, et nunc <placeName ref="Rostock">Rostochij</placeName> subsistere, quod etiam ex alijs iam pridem
+                    intellexeram. Doleo profecto non modo vices tuas, sed ingens quoque illud rerum
+                    Astronomicarum dispendium, quod ob hasce rerum tuarum inexpectatas
+                    conturbationes eventurum, unâ prævideo. Sed quid facias? cum hæc nulla tua culpa
+                    aut merito acciderint, nullumque in eo studio laborem, quantumvis gravem aut
+                    molestum, detrectâris, omnibus æquis censoribus facile excusatus eris. Verum de
+                    his aliquando coram plura. De Illustrissimi Principis mei in <pb ed="A" n="1v"/>te clementi favore nihil est quod dubites. Literas tuas C. E. reverenter
+                    obtuli, ac curabo, ut non tantum ad illas responsum, sed etiam commendatorias ad
+                    Sereniss. Daniæ Regem intra biduum vel triduum accipias. Nunc enim tantum otij
+                    mihi non fuit, ut confici potuerint, nec etiam iusto diutius illos detinere
+                    volui, qui tuas attulerint. Quod reliquum est, officia mea tibi defero
+                    promptissima.</p>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>Gustrovij die 2. Augusti Anno 1597.</dateline>
+               <signed>T. studiosissimus<lb/>
+                  <persName ref="bording_jacob_1547">IACOBUS
+                            BORDINGUS</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

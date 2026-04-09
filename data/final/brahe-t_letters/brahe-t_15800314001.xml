@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1580. 14. januar.</title>
+            <title xml:lang="en">1580. 14
+                    January.</title>
+            <author>Hieronymus Wolf</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="wolf_hieronymus_1516">Hieronymus Wolf</persName>
+               <placeName>Augsburg</placeName>
+               <date when="1580-03-14"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1580-03-14">
+            <date xml:lang="da">1580. 14. januar.</date>
+            <date xml:lang="en">1580. 14
+                    January.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-03-20" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="VII.57"/>
+            <pb ed="A" n="71v"/>
+            <p>
+               <persName ref="wolf_hieronymus_1516">HIERONYMUS WOLFIUS</persName> AD TYCHONEM
+                    BRAHE.</p>
+            <p rend="noIndent">DUO Dani studiosi hâc transeuntes, qui se tua familiaritate aliquando usuros
+                    sperant, petierunt a me, ut sibi literulas ad Excellentiam tuam darem, quo se
+                    mecum fuisse probare possent. Etsi autem nuper nescio quid scripseram, neque
+                    nunc quicquam scriptione magnopere dignum habebam, tamen quia, mi nobilissime et
+                    doctissime D. TYCHO, libenter etiam absens tecum colloquor, morem illis gessi.
+                    In observatione proximæ eclipseos nostrates Astrologi omnes, alij plus, alij
+                    minus, a vero initio aberrarunt. Exquisitiora abs te expectamus. <pb ed="TBOO" n="58"/>Nova quæ passim feruntur, e popularibus tuis cognosces. Augustana
+                    plæraque antiquum obtinent. Consul <persName ref="hainzel_paul_1527">HAINZELIUS</persName> tibi familiarissimus superiori anno elocavit filiam,
+                    eius frater duobus filijs locupletes puellas uxores dedit. Nos Scholastici etsi
+                    rerum nostrarum satagentes, asininam fortunam æqui bonique facimus; tuæque
+                    Excellentiæ cœleste illud et beatum insulæ Uraniæ, vel potius fortunatæ, otium
+                    gratulamur.</p>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>Augustæ Vind. pridie Idus Martias Anno 1580.</dateline>
+               <signed>T. Excellentiæ studiosiss.<lb/>
+                  <persName ref="wolf_hieronymus_1516">Hieron. Wolfius</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

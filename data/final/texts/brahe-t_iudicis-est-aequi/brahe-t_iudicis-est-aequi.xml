@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Iudicis est æqui</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Det Kongelige Bibliotek, Langebeks excerpter, 179</witness>
+               <witness xml:id="A_en">Copenhagen, Det Kongelige Bibliotek, Langebeks excerpter, 179</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1588</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-01" who="#pz">Filen etableret</change>
+         <change when="2019-03-01" who="#pz">tekst indlagt og korrekturlæst</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div xml:id="text">
+            <head>
+               <orig/>
+               <reg>Iudicis est æqui</reg>
+               <reg xml:lang="en">Iudicis est æqui</reg>
+            </head>
+            <lg>
+               <l>
+                  <pb ed="TBOO" n="IX.192"/>IUDICIS est æqui verum rectumque tueri, </l>
+               <l rend="indent">Non obstare bonis nilque iuvare malos. </l>
+               <l>Tu tamen impulsum (testis Deus) æqua movere</l>
+               <l rend="indent">Negligis et nequam fersque fovesque malum. </l>
+               <l n="5">Ast cito, crede mihi, vindex fandi atque nefandi</l>
+               <l rend="indent">Efficiet, pœnas causa proterva luat. </l>
+               <l>Si sapis ergo, tuæ bene consule, Lago, saluti, </l>
+               <l rend="indent">Et mihi si non vis parcere, parce tibi.</l>
+            </lg>
+            <closer>
+               <signed>
+                  <persName ref="brahe_tycho_1546">T. B.</persName>
+               </signed>
+               <dateline>Anno 1592, die 15 Febr. in itinere a Ringstadio domum.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

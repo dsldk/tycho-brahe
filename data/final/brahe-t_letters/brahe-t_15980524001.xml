@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1598. 24. maj.</title>
+            <title xml:lang="en">1598. 24 May.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="cramer_daniel_1568">Daniel Cramer</persName>
+               <placeName>Stettin</placeName>
+               <date when="1598-05-24"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1598-05-24">
+            <date xml:lang="da">1598. 24. maj.</date>
+            <date xml:lang="en">1598. 24 May.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-11-22" who="#pz">Filen etableret</change>
+         <change when="2019-06-02" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.69"/>NOBILISSIMO VIRO DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName> OTTONIDI
+                    DANO, DOMINO IN KNUDSTRUP, ASTRONOMORUM HAC TEMPESTATE PRINCIPI ILLUSTRI, DOMINO
+                    ET AMICO SUO ΕΣ ΧΕΙΡΕ.<lb/>S.</opener>
+            <p>MISI tibi, Nobilissime Domine Tycho, Domine et amice honorande, quod petivisti a
+                    me proxime, testimonium de plagio <persName ref="liddel_duncan_1561">Liddeliano</persName>;
+                    id ut omnino spero, legisti, intellexisti. Nunc exspectas a me Propempticon ad
+                    tuam Uranien scriptum. Id ego promisi; en solvo. Sed nescio an moneta sat
+                    ponderosa. Iterum autem ex te meoque et honorando <persName ref="rosenkrantz_holger_1574">ROSENCRANTZIO</persName> exspecto responsum et in
+                    hanc et alias meas literas. Spes ne me confundat, uterque facietis. Hæc paucula
+                    habui. Te Domino commendo, et iam iam post dies octo ad promotionem meam
+                    Doctoralem <placeName ref="Wittenberg">Witebergæ</placeName> σὺν θεῷ habendam
+                    eo. Tu felicissime vale cum <persName ref="rosenkrantz_holger_1574">OLIGERO</persName>. <placeName ref="Stettin">Stetini</placeName>. Pridie
+                    Ascens. Domini Anno 98· T. M. Add.</p>
+            <lb/>
+            <p rend="rightMargin">
+               <persName ref="cramer_daniel_1568">Dan. Cramerus</persName>.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

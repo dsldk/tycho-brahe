@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1591. 30. august.</title>
+            <title xml:lang="en">1591. 30 August.</title>
+            <author>Christian 4.</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Sjællandske tegnelser, XVIII, 82 f.</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Sjællandske tegnelser, XVIII, 82 f.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="christian_4_1577">Christian 4.</persName>
+               <placeName xml:lang="da">København</placeName>
+               <placeName xml:lang="en">Copenhagen</placeName>
+               <date when="1591-08-30"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1591-08-30">
+            <date xml:lang="da">1591. 30. august.</date>
+            <date xml:lang="en">1591. 30 August.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-07" who="#pz">Filen etableret</change>
+         <change when="2019-05-28" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.60"/>
+            <opener>
+               <persName ref="brahe_tycho_1546">TYGE BRAHE</persName> TILL KNUDSTRUP FICK BREFF FORBERØRTE HELLIGE THRE KONGER CAPELLES
+                    BYGNING ANRØRENDIS <foreign xml:lang="la">
+                  <hi rend="it">VT
+                        SEQUITUR</hi>
+               </foreign>.</opener>
+            <p rend="indent">
+               <persName ref="christian_4_1577">Christian</persName>.</p>
+            <p rend="noIndent">WOR gunst thilfornn. Viid, epter att Wij komme wdi forfaringe, huorledis Hellige
+                    [thre] konger capelle wed Roschilde domkircke schall møgit werre bygfeldig och
+                    forfalden, att thend klart will nederfalde och wdj grunden forderffuis, saa
+                    frampt ther till met thet første icke schaffuis raad och kommis till hielp, och
+                    epterdi ditt forleeningsbreff paa for:ne capelle eblant andit nochsom thilholder
+                    dig at schulle holde for:ne capelle med <hi rend="it">residentzen</hi> och andit
+                    guodtz, ther tilliggendis er, wed guoed heffd och macht, tha bede Wij dig och
+                    wille, attu met thet forderligste tiltencker at schaffue raad och middell, att
+                    samme capelle wißeligen inden winteren paakommer igien kand bliffue forferdiget
+                    och forbedrit epter ditt forleeningsbreffs liudelße och indtholdt. Saaframpt
+                    for:ne capelle paa sin heffd, grund och bygning for din forsømmelße schyldt
+                    lider ydermere nogen bryst, schade och forderff, eller och anden wbeleiglighet
+                    ther aff kunde indtfalde, Wij tha thet icke schulle wiide huoß dig, och dertill
+                    wdi saa maade tiltencke andre raad och middell, wed huilcke for:ne capell kand
+                    holdis wed sin thilbørlig heffd och magt. Ther med scheer Wor aluorlig wilge och
+                    befalning. Thj thag her aldelis ingen forsømmelße fore.</p>
+            <closer>
+               <salute>Befalendis dig Gud.</salute>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Haffniæ</hi>
+                  </foreign> 30.
+                            <foreign xml:lang="la">
+                     <hi rend="it">augusti a:o</hi>
+                  </foreign>
+                        91.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

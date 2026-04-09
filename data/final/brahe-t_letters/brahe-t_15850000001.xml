@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>[Heinrich Brucaeus]</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brucaeus_heinrich_1530">[Heinrich Brucaeus]</persName>
+               <placeName>empty</placeName>
+               <date when="1585-01-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1585-01-01">
+            <date>[1585]</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-03-25" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="VII.91"/>
+            <pb ed="A" n="106r"/>
+            <opener>CLARISSIMO NOBILISSIMOQUE VIRO D. TYCHONI BRAHE, MATHEMATICO EXIMIO, DOMINO ET
+                    AMICO PLURIMUM COLENDO.<lb/>S. D.</opener>
+            <p rend="noIndent">MITTO tibi Chartam et Typos, quos <placeName ref="Wittenberg">Witeberga</placeName> accepi. Papyri singulas Risas æstimat
+                    solidis 30. Hisce vasis inclusam ad me miserunt, si quid damni acceperit, non
+                    est, quod me culpes. Reliquos Typos <persName ref="david_1585">DAVID</persName> auriga se allaturum, ubi fusi fuerint,
+                    promisit. Poscit in pondo 100 Ioachimum unum. In universum pro pecunia transmissa
+                    typorum fusori et typis huc transvehendis exigit 4 Thaleros. Quid insuper fieri
+                    velis significabis</p>
+            <closer>
+               <signed>[<persName ref="brucaeus_heinrich_1530">HENRICUS BRUCÆUS</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

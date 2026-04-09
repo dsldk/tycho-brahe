@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1600. 27. juli n.s.</title>
+            <title xml:lang="en">1600. 27
+                    July NS.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Ærkebiskoppens arkiv i Prag</witness>
+               <witness xml:id="A_en">The archbishop's archive in Prague</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="berka_z_dube_zbynek_1551">Berka Zbyněk, archbishop of
+                        Prague</persName>
+               <placeName xml:lang="da">Prag</placeName>
+               <placeName xml:lang="en">Prague</placeName>
+               <date when="1600-07-27"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-07-27">
+            <date xml:lang="da">1600. 27. juli n.s.</date>
+            <date xml:lang="en">1600. 27
+                    July NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-07" who="#pz">Filen etableret</change>
+         <change when="2020-09-14" who="#lrp">Korrektur påbegyndt</change>
+         <change when="2021-01-22" who="#pz">Korrekturlæst</change>
+         <change when="2019-06-09" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.209"/>NOBILI AC CLARISSIMO AMICO NOSTRO HONORANDO
+                    DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>.
+                        <salute>Nobilis et clarissime Domine.</salute>
+            </opener>
+            <p rend="noIndent">QUIS typographus scriptum hoc cuius exemplar nobis D.V.
+                    communicauit et cuius authorem se <persName ref="ursus_nicolaus_1551">Nicolaus
+                        Reimarus Vrsus Dietmarsus</persName> esse fatetur absque consensu nostro in
+                    hac urbe impresserit, scire non possumus. Sed ipsum inuestigari et, si repertus
+                    fuerit, ut alijs in exemplum debito modo in eundem animadvertatur et exemplaria,
+                    si quae penes eundem sunt, auferantur curabimus. Cum autem praememoratus
+                        <persName ref="ursus_nicolaus_1551">Vrsus</persName> sub jurisdictionem
+                    illustrissimi d. mareschalci aulici pertineat, poterit apud ipsum D. V:ra
+                    instare ac sollicitare, quo eidem <persName ref="ursus_nicolaus_1551">Vrso</persName> ex officio isto demandetur, ut et typographum indicet et
+                    exemplaria, si quae habet, exhibeat. Nos qua ratione a nobis fieri potest ac
+                    debet rem iuvare non intermittemus.</p>
+            <closer>
+               <dateline>Datum <placeName ref="Praha">Pragae</placeName> in nostra
+                        archiepiscopali residentia, die 27 julii a:o MDC.</dateline>
+            </closer>
+            <lb/>
+         </div>
+      </body>
+   </text>
+</TEI>

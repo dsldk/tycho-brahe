@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1578. 4. december.</title>
+            <title xml:lang="en">1578. 4
+                    December.</title>
+            <author>Heinrich Brucaeus</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brucaeus_heinrich_1530">Heinrich Brucaeus</persName>
+               <placeName>Rostock</placeName>
+               <date when="1578-12-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName xml:lang="da" key="brahe_tycho_1546">Tycho Brahe</persName>
+               <persName xml:lang="en" key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1578-12-04">
+            <date xml:lang="da">1578. 4. december.</date>
+            <date xml:lang="en">1578. 4
+                    December.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-03-19" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="VII.48"/>
+            <pb ed="A" n="80v"/>
+            <opener>
+               <persName ref="brucaeus_heinrich_1530">HENRICUS BRUCÆUS</persName> AD TYCHONEM
+                    BRAHE.<lb/>S. P.</opener>
+            <p rend="noIndent">PRODIJT catalogus librorum <placeName ref="Frankfurt am Main">Francfurti ad Mœnum</placeName> venalium, inter ceteros hunc invenio: <hi rend="it">Observatio et demonstratio Cometæ ætherei, qui anno 1577 et 1578
+                        constitutus in sphæra ♀ apparuit, autore M. <persName ref="mastlin_michael_1550">MICHAËLE MÆSTLINO</persName>, <placeName ref="Tübingen">Tubingæ</placeName> apud <persName ref="Gropenbach, Georg">GEORGIUM GROPENBACHIUM</persName>.</hi> Hunc
+                    nondum videre contigit, quod si ad manus meas pervenerit, curabo, ut ad te
+                    mittatur, vel eo potissimum nomine, ut si forte eam methodum, easque rationes et
+                    observandi et demonstrandi sequeretur, quas tu approbas, ut tibi constet, <pb ed="TBOO" n="VII.49"/>in quibus, et quantum eis tribuendum iudices et in
+                    quibus dissentias. Porro cum multi in eodem genere laborârint, ut hinc inde
+                    edita scripta testantur, sumeret sibi forte quis laborem aliorum sententiam
+                    refellendi, id quod mihi minime probatur, cum rei propositæ vera demonstratione
+                    ex Geometricis fundamentis eruta, et observationum certitudinis confirmatione,
+                    abunde secus sentientes confutentur. Tu interim in tuis observationibus elabora
+                    et profer in lucem, quod pluteum cædat et demorsos sapiat ungues.</p>
+            <p rend="indent">Nostras observationes non mitto. Cum enim eas ad Geometriam,
+                    tanquam ad Lydium lapidem revocarem, et animadverterem, aliquid in ijs
+                    desiderari, abieci aliquo, ut ipse nesciam ubi lateant. Hoc tamen satis recordor
+                    me nullam sensibilem parallaxin hinc colligere potuisse, sed calculum potius in
+                    contrarium abijsse, id, quod miratus sum, reluctante nostro <persName ref="aristoteles_0384">ARISTOTELE</persName>.</p>
+            <closer>
+               <salute>Tu interim bene vale, et me mutuo ama.</salute>
+               <dateline>Rostochij IV. Decem.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

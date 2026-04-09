@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1590. 9. august.</title>
+            <title xml:lang="en">1590. 9 August.</title>
+            <author>Queen Sophie</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Kongehusets arkiv, Dronning Sophies tegnelser 1588-92, fol. 81 f.</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Kongehusets arkiv, Dronning Sophies tegnelser 1588-92, fol. 81 f.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da" key="sophie_1557">Dronning Sophie</persName>
+               <persName xml:lang="en" key="sophie_1557">Queen Sophie</persName>
+               <placeName xml:lang="da">København</placeName>
+               <placeName xml:lang="en">Copenhagen</placeName>
+               <date when="1590-08-09"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1590-08-09">
+            <date xml:lang="da">1590. 9. august.</date>
+            <date xml:lang="en">1590. 9 August.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-07" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.53"/>
+            <opener>
+               <persName ref="brahe_tycho_1546">THYGE BRAHE</persName> FICK BREFF NOGEN PENDINGE ANRØRENDIS <foreign xml:lang="la">
+                  <hi rend="it">VT SEQUITUR</hi>
+               </foreign>
+            </opener>
+            <p rend="indent">
+               <persName ref="sophie_1557">Sophia</persName> etc.</p>
+            <p rend="noIndent">WOR gunst thilforn. Wider, att ßom j ether haffuer att erindre om thett thußinnd daller,
+                    Wij naadigst ether haffue med forstrachtt, huilke wdj thenne neruerendis
+                    herredag her wdj Koldinng schulle werrid Oß erlagdtt och bethald, och j
+                    wnnderdannigst erre begierrendis formedelst gott folck dag och reßpitt med ßamme
+                    pending paa nogen wgger epther Michaelis førstkommendis, tha erre Wij naadigst
+                    ther med thillfridtz och wille ether ther med bedage thill fiorthen dage epther
+                    for:ne Michaelis førstkommendis. Bedendis ether therforre och wille, attj thill
+                    thend thiid wisseligen och wden ald widere forhalling och forßømmelse retther
+                    ether epther att erlegge och bethalle Oß for:ne summa pendinge, j wdj ßaa maade
+                    thill Oß schyldig er, att Wij thill ßamme thiid wist kunde komme thill Wor
+                    bethalling, anßehendis att Wij ßidenn pindtzdag, thill huilken thid the schulle
+                    werrid bethald, nu thill for:ne bestempthe dag epther Michaelis aff gode wilge
+                    och naadigst benegenhed haffue med ßamme Wor bethalling forthøffuid, attj
+                    therforre retther ether ßielff, ßaa Wij thill for:ne thermin wden widere ophold
+                    bliffuer hoffuedßum<pb ed="TBOO" n="XIV.54"/>men med renthen fornøyett och
+                    thilstilledtt, ßaa framptt Wij jcke schulle foraarßagis wed anndre middell
+                    baade hoeß ethers forloffuere och ether att ßøge Wor bethallinng, therßom ther
+                    med widerre bliffuer forhalled. </p>
+            <closer>
+               <salute>Ther med etc.</salute>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Actum</hi>
+                  </foreign> Koldinghus
+                        thennd 9. <foreign xml:lang="la">
+                     <hi rend="it">augustij anno</hi>
+                  </foreign>
+                        1590.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

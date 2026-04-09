@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">In librum Tychonis Brahei de Mechanicis astronomiæ / Dedikationsdigt til Mechanica</title>
+            <title xml:lang="en">In librum Tychonis Brahei de Mechanicis astronomiæ / Dedicatory poem for Mechanica</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.6</witness>
+               <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.6</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1598</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-02" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div type="poem" xml:id="text">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="IX.211"/>
+                  <pb ed="A" n="11v"/>IN LIBRO TYCHONIS BRAHEI DE MAECHANICIS ASTRONOMIÆ.
+            </orig>
+               <reg>In librum Tychonis Brahei de Mechanicis astronomiæ</reg>
+            </head>
+            <lg>
+               <l>
+                  <app>
+                     <lem wit="A">ACCIPE clementi, Cæsar Germanice, vultu</lem>
+                     <rdg>in aliquot exemplis Mechanicorum variatum, scil.: <q>Accipe clementi, Princeps Wolfgange, favore</q> (in exemplo archiepiscopo Salzburgensi donato, vid. Gass p. 175); <q>Accipe, Grimani, cœlata et picta colore</q> (in exemplo Oxoniensi duci Venetorum donato); <q>Accipe, Dux Henrice, et sculpta et picta colore</q> (in exemplo Gottingensi, Henrico Julio duci donato); <q>Accipe clementi, Princeps fortissime, vultu</q> (in exemplo Vindobonensi Matthiae archiduci donato); <q>Accipe, Scaligerum decus immortale Josephe</q> (in exemplo Leidensi Josepho Scaligero donato</rdg>
+                  </app>
+               </l>
+               <l rend="indent">Organa sidereas apta notare vias.</l>
+               <l>His ter septenos lustravimus Astra per Annos</l>
+               <l rend="indent">Sustinuit tantum donec Huenna decus.</l>
+               <l n="5">
+                  <pb ed="TBOO" n="IX.212"/>Ast ubi tam grandes ea parvula ferre triumphos</l>
+               <l rend="indent">Amplius haud valuit, Fataque versa retro,</l>
+               <l>Provita diva Poli, cernens instare ruinam,</l>
+               <l rend="indent">Transtulit hæc alio, quo mage tuta forent,</l>
+               <l>Indignum reputans sua sacra perire sub Arcto,</l>
+               <l rend="indent" n="10">Qualia vix alibi splendidus Auaster habet.</l>
+               <app>
+                  <lem>
+                     <l>
+                        <app>
+                           <lem>Ergo</lem>
+                           <rdg>
+                              <q>Quare</q> exempla Gottingense et Oxoniense</rdg>
+                        </app> ea Teuthoniæ nunc consecratque dicatque,</l>
+                     <l rend="indent">Ætheream excipiat si modo grata Deam:</l>
+                     <l>Sin minus, <app>
+                           <lem>hospitium Uraniæ</lem>
+                           <rdg>
+                              <q>Uraniæ hospitium</q> exempla Gottingense et Oxoniense</rdg>
+                        </app> late patet: Orbem</l>
+                     <l rend="indent">Quæ capit, excludi quomodo ab Orbe queat?</l>
+                  </lem>
+                  <rdg>hi versus deleti sunt in A, at in margine hæc adidit ipse Tycho: <q>Ergo ea Cæsaribus nunc consecratque dicatque / Fulta sub auspicijs, magne Rudolphe, tuis</q>; atque eadem præbet Gassendus (qui tamen <q>ea</q> om.)</rdg>
+               </app>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

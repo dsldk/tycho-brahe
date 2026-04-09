@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1600. 27. november n.s.</title>
+            <title xml:lang="en">1600. 27 November NS.</title>
+            <author>Johann Georg Herwart von Hohenburg</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">München, Universitätsbibliothek, 693 fol.</witness>
+               <witness xml:id="A_da">Munich, Universitätsbibliothek, 693 fol.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="herwart_von_hohenburg_hans_georg_1553">Johann Georg Herwart von Hohenburg</persName>
+               <placeName>München</placeName>
+               <date when="1600-11-27"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-11-27">
+            <date xml:lang="da">1600. 27. november n.s.</date>
+            <date xml:lang="en">1600. 27 November NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-02-05" who="#pz">Filen etableret</change>
+         <change when="2019-06-10" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.393"/>
+               <persName ref="herwart_von_hohenburg_hans_georg_1553">IOANNES GEORGIUS
+                    HERWARTUS AB HOHENBURG</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM BRAHE</persName>.</opener>
+            <p rend="noIndent">
+               <pb ed="A" n="242v"/>LITERAS tuas, Vir Nobilissime atque Mathematicorum omnium
+                    facile Princeps, quas quidem die 14 huius mensis <placeName ref="Praha">Pragæ</placeName> ad me dedisti, ex <placeName ref="Ingolstadt">Ingolstadio</placeName> ad me transmissas, hac ipsa horâ probe accepi. D.
+                        <persName ref="varsevicius_christophorus_1543">CHRISTOPHORUS VARSEVICIUS</persName>, uti
+                    optassem, ad me non venit. M. <persName ref="kepler_johannes_1571">IOAN. KEPLERUM</persName>
+                    male valere doleo, et æque contristor, conditione commodâ eum iam carere. Si
+                    apud <persName ref="rudolf_2_1552">Cæsaream Maiestatem</persName>, quod abominor, ei
+                    non sit <app>
+                  <lem wit="#TBOO">permanendum</lem>
+                  <rdg wit="#A">permandendum</rdg>
+               </app>, ipse quoque dispiciam, anne forte alibi res suas instituere queat.</p>
+            <p rend="indent">Tabulas <persName ref="bianchini_giovanni_1410">BLANCHINI</persName>, <persName ref="prugner_nicolaus_1557">PRUGNERI</persName> et <persName ref="peurbach_georg_von_1423">BEURBACHIJ</persName>, quas petis, curabo, si modo extent, ut habeas.
+                        <persName ref="angelus_johannes_1453">IOANNIS ANGELI</persName> Astrolabium et
+                    Planum cum <persName ref="angelus_jacobus_1360">IACOBO ANGELO</persName> de Cometis
+                    ob defectum tabellariorum mitto hisce iunctum, teque quam fœlicissime florere ex
+                    animo opto.</p>
+            <closer>
+               <dateline>Datæ <placeName ref="München">Monachij</placeName> die 27 Nov. A.
+                    1600.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

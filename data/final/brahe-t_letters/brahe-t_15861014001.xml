@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Wilhelm, Landgrave of Hesse-Kassel</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit/>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da" key="wilhelm_4_1532">Wilhelm 4., landgreve af Hessen-Kassel</persName>
+               <persName xml:lang="en" key="wilhelm_4_1532">Wilhelm IV, Landgrave of Hesse-Kassel</persName>
+               <placeName>Kassel</placeName>
+               <date when="1586-10-14"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1586-10-14">
+            <date>1586. 14. oktober</date>
+         </creation>
+         <langUsage/>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-02-15" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VI.62"/>
+               <pb ed="E" n="34"/>
+               <app>
+                  <lem>DEM VESTEN VNSERM LIEBEN BESONt DERN <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                                <lb/>
+                     <persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES GNADEN LANDTGRAUE ZU HESSEN/
+                                GRAUE ZU CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND NIDDA/
+                                ETC.</lem>
+                  <rdg>om. M</rdg>
+               </app>
+            </opener>
+            <p>
+                    UNSERN gnedigen Gruß zuuor/ Vester lieber besonder/ Wir
+                        haben euch nun zu zweyen vnderschiedenen mahlen/ wol bey ewrem Diener/ den
+                        <hi rend="it">14 Aprilis</hi>, als auch <app>
+                  <lem>hernacher</lem>
+                  <rdg wit="#M">hernach</rdg>
+               </app> den <hi rend="it">26 Augusti</hi> geschrieben/ vnd vnsere <hi rend="it">Obseruationes Stellarum fixarum</hi> vberschickt/ vnd darneben
+                        in gnaden begeret/ nicht allein ewer Iudicium darauff vns zuzuschreiben/
+                        sondern auch ewre <hi rend="it">Obseruationes</hi> dargegen <app>
+                  <lem>zuuberschicken</lem>
+                  <rdg wit="#M">uberschickenn</rdg>
+               </app>. Wann vns aber biß noch von euch kein antwort einkommen/ welches vns
+                        gleichwol verwundert/ Als haben wir nicht vnderlassen wollen/ bey dieser
+                        gelegenen Botschafft/ euch nachmahls zuerinnern/ Vnd ist an euch vnser
+                        gnediges begeren/ Ihr wollet vns nicht allein auff <app>
+                  <lem>solche vnsere</lem>
+                  <rdg>solcher vnser E: corr. TBOO ex M</rdg>
+               </app> schreiben hinwieder beantworten/ Sondern auch ewre <hi rend="it">Obseruationes</hi> vbersenden/ damit wir sie mit den vnsern zu <hi rend="hi">conferiren</hi> haben. Das versehen wir vns/ vnd seind Euch <app>
+                  <lem>mit gnaden geneigt</lem>
+                  <rdg wit="#M">wohll gewogen</rdg>
+               </app>/</p>
+            <closer>
+               <dateline>
+                  <hi rend="it">Datum</hi>
+                  <app>
+                     <lem>in vnser Stadt vnd Vestung</lem>
+                     <rdg>om. M</rdg>
+                  </app>
+                  <placeName ref="Kassel">Cassell</placeName> am <hi rend="it">14 Octob. Anno
+                            86</hi>. </dateline>
+               <signed>
+                  <persName ref="wilhelm_4_1532">WILHELM</persName> LANDTGRAFF ZU HESSEN. 
+                    </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

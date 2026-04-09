@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">Epitaphium filiæ Kirstinæ / Gravskrift over hans datter Kirstine</title>
+            <title xml:lang="en">Epitaphium filiæ Kirstinæ / Epitaph of his daughter Kirstine</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit/>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1576</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-01" who="#pz">Filen etableret</change>
+         <change when="2019-02-11" who="#pz">tekst importeret</change>
+         <change when="2019-02-22" who="#pz">tekst korrekturlæst efter TBOO</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div type="inscription" xml:id="text">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="IX.174"/>
+                  <pb ed="A" n="1"/>EPITAPHIUM QUOD IN TEMPLO HELSINGBURGENSI 
+                SUSPENSUM LEGITUR.</orig>
+               <reg>Epitaphium filiæ Kirstinæ</reg>
+            </head>
+            <lg>
+               <l>EXUVIAS abiens tulit huc KIRSTINA tenellas,</l>
+               <l rend="indent">Quæ BRAHÆI olim Nata TYCHONIS erat.</l>
+               <l>Illa quidem modicum mundi fuit incola tempus:</l>
+               <l rend="indent">Interea modicis non tamen aucta bonis.</l>
+               <l n="5">Ingenio sexum superavit, moribus annos,</l>
+               <l rend="indent">Eloquij grata dexteritate pares.</l>
+               <l>Ergo hanc quæ dederat subito Natura recepit,</l>
+               <l rend="indent">Consuetis maius ne quid adulta foret.</l>
+               <l>
+                  <pb ed="TBOO" n="IX.174"/>Vivit at illa tamen, Naturæ obstacula vicit:</l>
+               <l rend="indent" n="10">Pro modico æternum tempore tempus habet,</l>
+               <l>Æthereisque potita bonis mortalia temnit:</l>
+               <l rend="indent">Per CHRISTUM Civis legitimata Poli.</l>
+            </lg>
+            <p>Obijt Peste Anno Domini MDLXXVI Septembris die XXIV. Vixit
+                Annos II menses XI dies XI horas XI.</p>
+            <p rend="indent">MORS quo citior, dulcior, quo serior, amarior. KIRSTINÆ dulciss.
+                filiolæ naturali præter ætatem industriæ et moratæ Pater F. et P.</p>
+         </div>
+      </body>
+   </text>
+</TEI>

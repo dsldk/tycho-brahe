@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1597. 20. januar.</title>
+            <title xml:lang="en">1597. 20 January.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks Diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="friis_christian_1556">Christian Friis</persName>
+               <placeName>Kolding</placeName>
+               <date when="1597-01-20"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1597-01-20">
+            <date xml:lang="da">1597. 20. januar.</date>
+            <date xml:lang="en">1597. 20 January.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-03" who="#pz">Filen etableret</change>
+         <change when="2020-09-07" who="#lrp">Korrektur påbegyndt</change>
+         <change when="2021-01-16" who="#pz">Korrekturlæst</change>
+         <change when="2019-06-01" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.101"/>NOBILISSIMO VIRO, DOMINO <hi rend="it">TYCHONI BRAHEN</hi>, HÆREDI
+                    IN KNUDSTRUP, AMICO SUO CHARISSIMO.</opener>
+            <p rend="noIndent">S. Quæ apud serenissimum regem, dominum nostrum clementissimum, nobilissime
+                    <hi rend="it">Tycho</hi>, amice charissime, tibi a me
+                    duplici in negocio effecta dari cupis, ea ex literis tuis, quæ mihi una cum
+                    exemplo literarum magnificorum regni senatorum redditæ sunt, intellexi, utque
+                    tibi pro amicitia nostra per me in utroque liberaliter satisfieret, nihil
+                    diligentiæ prætermisi. </p>
+            <p rend="indent">Verum te cælare non possum, regiam majestatem, cui postulata tua
+                    summa fide exposui, ad primum illud de instrumentis astronomicis negocium ita
+                    respondisse: ex regio ærario aliquid sumptuum in istorum instrumentorum
+                    conservationem impendere, sibi non esse integrum. </p>
+            <p rend="indent">Ad alteram vero quod attinet petitionem, quam de beneficii istius
+                    <placeName ref="Norway">Norvagici</placeName> clementissima vel saltem ad exiguum illud in literis tuis dictum
+                    tempus proroganda concessione instituis, serenissima ipsius majestas eam
+                    admittere plane recusavit, persuasissimum habens, præfecturam
+                        <placeName ref="Bergen">Bergensem</placeName> reditibus istius absque insigni incommodo
+                    carere minime posse. </p>
+            <p rend="indent">Quæ cum ita, uti dixi, se habeant, te eventum exspectationi tuæ
+                    non respondisse, pro tua prudentia æque laturum, studium vero ac voluntatem
+                    meam, quam tibi hac in re libentissime (quamvis incassum) impendi, in aliis
+                    vero, quibus potero, tibi testatam facere maximopere cupio, pro animi tui
+                        candore, <pb ed="TBOO" n="XIV.102"/>synceraque æquitate, boni consulturum,
+                    plane confido, teque quam diutissime vivere et valere ex amino precor.</p>
+            <closer>
+               <dateline>Dabantur
+                        <placeName ref="Kolding">Coldingi</placeName> xx. januarii 1597.</dateline>
+               <signed>
+                  <persName ref="friis_christian_1556">Christianus Friis</persName>,<lb/>
+               manu pp:a</signed>.</closer>
+         </div>
+      </body>
+   </text>
+</TEI>

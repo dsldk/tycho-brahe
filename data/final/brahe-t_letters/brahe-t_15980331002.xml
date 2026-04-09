@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1598. 31. marts.</title>
+            <title xml:lang="en">1598. 31 March.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Schwerin, Landeshauptarchiv Schwerin, Renterei-Akten.</witness>
+               <witness xml:id="A_en">Schwerin, Landeshauptarchiv Schwerin, Renterei-Akten.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Wandsburg</placeName>
+               <date when="1598-03-31"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="meier_andreas_1600">Andreas Meier</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1598-03-31">
+            <date xml:lang="da">1598. 31. marts.</date>
+            <date xml:lang="en">1598. 31 March.</date>
+         </creation>
+         <langUsage/>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-18" who="#pz">Filen etableret</change>
+         <change when="2019-06-02" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.135"/>BRIEFE AN DEN HERRENN RENTMEISTERN <persName ref="meier_andreas_1600">ANDRES MEIERN</persName>.</opener>
+            <p rend="noIndent">JCH <persName ref="brahe_tycho_1546">Tycho Brahe</persName>, erbgesessen zu Knudtstrup vnd <persName ref="christian_4_1577">kön: maytt:</persName> zu Dennemarck ambtman auff Vraniburgk, bekenne mit
+                    diesem meinem offenen brieff, daß ich mit dem ehrnhafftenn vnnd achtbarn
+                        <persName ref="meier_andreas_1600">Andreas Meyernn</persName>, furstlichenn
+                    meckelburgischen rentmeistern, reden lassen vnndt bey jhm freund<pb ed="TBOO" n="XIV.136"/>lichen ahngelanget, daß ehr auß der rentenn von sechs hundert
+                    thallernn, so mir vber ein jahr alda zustehenn werden, ein hundert itzo zuuor
+                    außgebenn wolle, daß man dafur im lanndt zue Meckelnburgk etzliche <hi rend="it">victualien</hi> vndt andere sachenn kauffenn köntte, welche hundert thaller
+                    sollenn widerumb quitirt werdenn inn den sechß hundertt thallernn, so mir
+                    verfallenn, wann die zeit verlauffenn, daß jch oder andere von meinentwegen
+                    alßdann nur funffhundert sollenn zu fordern haben, vnndt soll dieser mein brieff
+                    ahn stadt dero hundert thaller bleibenn vnndt vorsicherung genueg seinn. Dessenn
+                    zu vrkundt hab ich dieß mit eigener hanndt vnterschriebenn vnndt mit meinem
+                    angebornenn petzschafft besiegelt.</p>
+            <closer>
+               <dateline>
+                  <foreign xml:lang="la">Datum</foreign> Wandeßburgk denn 31t.
+                            <foreign xml:lang="la">martij anno</foreign> 1598</dateline>
+               <salute/>
+               <signed>
+                  <persName ref="brahe_tycho_1546">Tycho Brahe</persName>
+                  <lb/>eigenh. (l.s.)</signed>
+            </closer>
+            <postscript>
+               <p>[inscriptum est:]</p>
+               <p>Hierauf Tycho Brahen zugeschickett: <lg>
+                     <l>3 faß bier, jeder faß von 3 tonnen,</l>
+                     <l>6 sch ℔ rogken brott,</l>
+                     <l>1 tonne butter,</l>
+                     <l>30 seitten speck, haben gewogen 1½ schippunt 5½ liß 9 ℔,</l>
+                     <l>6 reichsthaler dem altten meister Peter an bahrem gelde.</l>
+                     <l rend="indent">
+                        <persName ref="zacherow_peter_1598">Peter Zacherow</persName>.</l>
+                  </lg>
+               </p>
+            </postscript>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1601. 8. marts.</title>
+            <title xml:lang="en">1601. 8
+                    March.</title>
+            <author>Martin Brasch</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_">Basel, Universitätsbibliothek Basel, G I 23</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brasch_martin_1565">Martin Brasch</persName>
+               <placeName>Rostock</placeName>
+               <date when="1601-03-08"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1601-03-08">
+            <date xml:lang="da">1601. 8. marts.</date>
+            <date xml:lang="en">1601. 8
+                    March.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-02-05" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.402"/>
+               <pb ed="A" n="81v"/>GENEROSO ET MAGNIFICO VIRO,
+                    DOMINO <persName ref="brahe_tycho_1546">TYCHONI BRAHEO</persName>,
+                    MATHEMATICORUM FACILE PRINCIPI, <persName ref="rudolf_2_1552">CÆSAREÆ
+                        MAIESTATIS</persName> ASTRONOMO, PATRONO ET DOMINO COLENDO. <lb/>
+               <foreign xml:lang="de">
+                  <hi rend="it">PRAG IN BEHEMEN.</hi>
+               </foreign>
+               <salute>
+                  <pb ed="A" n="80r"/>MAGNIFICE ET NOBILISSIME DOMINE, PATRONE
+                        COLENDE.</salute>
+            </opener>
+            <p rend="noIndent">TANDEM sub BACCHI sacra ad nos diu expectatus advenit Magnificus
+                    Dominus D. <persName ref="godelmann_johann_georg_1559">GODELMANNUS</persName>.
+                    Is mihi de te renunciavit, quod accepisses carmen, quod de Mathematicis exorsus
+                    sum, et ad te sub natalem CHRISTI misi. Gratum id mihi fuit. Addidit, si saltem
+                    in cursu progrederer, te laborem et artem meam <persName ref="rudolf_2_1552">Cæsareæ Maiestati</persName> commendaturum. Id quoque gratum. Verum interim
+                    mirabar, cum ego permulta mihi a te suppeditari petierim, cur non aut omnia
+                    illa, aut quædam, quæ tibi nota sunt, simul per D. <persName ref="godelmann_johann_georg_1559">GODELMANNUM</persName> unâ cum literis
+                    tuis ad me miseris. Hæc enim potissima causa erat, cur istud fragmentum vel
+                    potius bonam partem ad te miserim, ac significavi simul, me ante progredi non
+                    posse, quam responsum a te accepissem. Rogo igitur adhuc etiam atque etiam, vir
+                    magnifice et generose, ut certa data occasione literas tuas ad me mittas unâ cum
+                    illis, quæ petij, quantum in te est. Tandiu enim adhærescere cogor. Scio,
+                    quantum me ames; igitur etiam hîc tibi curæ sim. Plura iam non scribo propter
+                    imbecillem plane valetudinem.</p>
+            <closer>
+               <salute>Bene et feliciter T. M. valeat.</salute>
+               <dateline>Datæ <placeName ref="Rostock">Rostochij</placeName> 8 Martij stylo
+                        veteri Anno 1601.</dateline>
+               <signed>T. Magnif.<lb/>reverenter colens<lb/>
+                  <persName ref="brasch_martin_1565">MARTINUS BRASCHIUS</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

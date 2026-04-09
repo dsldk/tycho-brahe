@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1599. 25. oktober.</title>
+            <title xml:lang="en">1599. 25 Oktober.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 23, Fol. 15 f.</witness>
+               <witness xml:id="A_en">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 23, Fol. 15 f.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_axel_1550">Axel Brahe</persName>
+               <placeName xml:lang="da">København</placeName>
+               <placeName xml:lang="en">Copenhagen</placeName>
+               <date when="1599-10-25"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1599-10-25">
+            <date xml:lang="da">1599. 25. oktober.</date>
+            <date xml:lang="en">1599. 25 Oktober.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-07" who="#pz">Filen etableret</change>
+         <change when="2020-09-18" who="#lrp">Korrektur påbegyndt</change>
+         <change when="2021-01-20" who="#pz">Korrekturlæst</change>
+         <change when="2019-06-04" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.160"/>ERLIG OCH WELBIURDIGH MAND, <persName ref="brahe_tycho_1546">THIGE BRAHE</persName> THILL
+                    KNUDTZTORP, MIN KIERE BRODER, GANDSKE BRODERLIGEN THILSCHREFFUIDT.</opener>
+            <p rend="noIndent">MYNN gandsche wennligh hilßenn nu och alltiid forßennd met Gud Kere <persName ref="brahe_tycho_1546">Tyge</persName> och kere broder, nest mynn wennligh
+                    tacßielße for allt beuist gode, huilchit ieg aff formuenn steze wyll findis
+                    goduylig at forschyle. Kere broder, ieg haffuer fornumit wdaff dyn schriffuelße,
+                    att dynn leylighed er nu bleffuenn god, saa att du haffuer nu bekomit hoss
+                        <persName ref="rudolf_2_1552">keysseren</persName> gode wylkar, huilchit mig wdj
+                    sandhed møgitt kert er att høre; och som du wdj dinn schriffuelße est
+                    begerendis, att der som dig bliffuer giortt nogenn forhynndring paa dine
+                    jnstrumenter, att ieg daa will hielpe til, saa møgitt mugligtt war, at dig
+                    jngenn forhyndringh der paa matte sche, saa forsser ieg mig, att dig well jngen
+                    forhindringh der paa scher; men der som dett schede, will ieg giøre saa møgit
+                    derwdj som mig mugligtt ehr; och wdj huess made ieg wid digh att tienne, schall
+                    du altiid fynnde mig wiligh. Och wyll nu och altiid haffue digh Gud alme[ct]iste
+                    beffalendis met allt huiss digh kertt er.</p>
+            <closer>
+               <dateline>
+                  <foreign xml:lang="la">Datum</foreign>
+                  <placeName ref="København">Københaffnn</placeName> denn 25 October
+                    99.</dateline>
+               <signed>
+                  <persName ref="brahe_axel_1550">Axel
+                        Brahe</persName>
+                  <lb/>egen hann.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

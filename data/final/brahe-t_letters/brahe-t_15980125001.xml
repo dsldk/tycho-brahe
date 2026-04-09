@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1598. 25. januar.</title>
+            <title xml:lang="en">1598. 25 January.</title>
+            <author>Joachim Friedrich (Brandenburg)</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da" key="joachim_friedrich_1546">Joachim Friedrich, kurfyrste af Brandenburg</persName>
+               <persName xml:lang="en" key="joachim_friedrich_1546">Joachim Friedrich, Prince-elector of Brandenburg</persName>
+               <placeName>Cölln an der Spree</placeName>
+               <date when="1598-01-25"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Christoffer Valkendorf, Christian Friis</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1598-01-25">
+            <date xml:lang="da">1598. 25. januar.</date>
+            <date xml:lang="en">1598. 25 January.</date>
+         </creation>
+         <langUsage/>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-17" who="#pz">Filen etableret</change>
+         <change when="2019-06-02" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.131"/>
+            <opener>AN DEN <persName ref="valkendorf_christoffer_1525">HOFMEISTER</persName> VNDT <persName ref="friis_christian_1556">CANTZLER</persName>.</opener>
+            <p rend="noIndent">VNSERN gunstigen gruss zu uor. Ehrenuehster besonder lieber. Es hatt der
+                    ehrenuehste Vnser lieber besonder Tycho Brahe Vns vmb intercession an <persName ref="christian_4_1577">die
+                    königliche w: zue Dennemarcken</persName>, Vnsern freundtlichen hertzvielgeliebten hern
+                    vattern vndt sohn, wie auch an Vnsere freundtliche vielgeliebte tochter die
+                    könnigin, in seinen sachen vndterthenigst angehaltten. Weil Wir ihm denn
+                    füglich solches nicht haben abschlagen können, so haben Wir ihm wie beyliegendt
+                    an jhr k: w: allerseits geschrieben, vndt weil Wir wissen, daß jhr viel gutes
+                    bey den sachen ttuen könnet, so begehren Wir gantz gnedigst, ihr wollet so viel
+                    sich jmmer fugen wil deß beste vorwenden helfen, damitt er vonn jhr
+                    k:w: mitt guetter resolution möge versehen werden, wie Wir denn inn gnaden nicht
+                    zweiffeltt, jhr werdet Vnsern halben den vertrawen nach an euch nichts
+                    erwinden laßen. Deßselbe wollen Wir mitt allen gnedigen vndt gönstigen willen, darmitt Wir
+                    euch ohne deß gewogen, hienwiederumb verschulden. </p>
+            <closer>
+               <dateline>
+                  <foreign xml:lang="la">Datum</foreign> Cölln an der Sprew, den 25. <foreign xml:lang="la">januarij anno</foreign> 98.</dateline>
+               <salute/>
+               <signed/>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

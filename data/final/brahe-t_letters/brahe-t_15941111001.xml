@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1594. 11. november.</title>
+            <title xml:lang="en">1594. 11 November.</title>
+            <author>Rektor og professorerne ved Københavns Universitet</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Konsistoriums kopibøger, 1213-02 (1594-1613)</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Konsistoriums kopibøger, 1213-02 (1594-1613)</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName xml:lang="da">Rektor og professorerne ved Københavns Universitet</persName>
+               <persName xml:lang="en">The rector and the professors at Copenhagen University</persName>
+               <placeName xml:lang="da">København</placeName>
+               <placeName xml:lang="en">Copenhagen</placeName>
+               <date when="1594-11-11"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1594-11-11">
+            <date xml:lang="da">1594. 11. november.</date>
+            <date xml:lang="en">1594. 11 November.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-10" who="#pz">Filen etableret</change>
+         <change when="2019-05-31" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.70"/>
+            <opener>COPIE AFF ITT BREFF, SOM BLEFF SCHREFFUEN THILL TYGE BRAHE.</opener>
+            <p rend="noIndent">VORES ganske venlig helßen nu oc allthid forsent med Gud. Gunstige welbiurdige
+                    Tyge Brahe, nest wores wenlig tacksigelße for all beuiste ære oc gode, giffuer
+                    wi eder thillkiende, att oß nu nyligen er forekommen en woris tienere, <persName ref="lauge_1594">Lauge</persName>
+                    vdj Klare mølle, met klagemaall po en aff eders thienere ved naffn <persName ref="peder_1594">Peder</persName>, i
+                    Hellig 3 kongers mølle, huilched hand schrifftlig vdj dette medfølgendis breff
+                    forfatted oc oß offuerantuordet haffuer. So wilde wi, førend wi wores bonde met
+                    retten forsuare, lade eder, som wores universitetz gode wen oc fordrer,
+                    saadant wide, begierendis ganske gierne her om eders raad oc gode suar, om i
+                    selff wille straffe eders thienere, som denne fattige mand i so maade haffuer
+                    forwretted, eller wi hannem for saadant skall lade thilltale, huilcked wi dog
+                    icke gierne giorde, der som wi wiste, attj derudoffuer skulle lade eder i nogen
+                    mode fortørne, men megit heller giør allthid gierne, huer y sit sted, hues eder thill ære, willie oc thieniste kand werre. Dett
+                    kiende Gud, huilchen wi will her med haffue eder befaled.</p>
+            <closer>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Datum Hafniæ</hi>
+                  </foreign> 11. <foreign xml:lang="la">
+                     <hi rend="it">novembris anni</hi>
+                  </foreign> 1594.</dateline>
+               <signed>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Rector och mænige professores<lb/>academiae Hafniensis.</hi>
+                  </foreign>
+               </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

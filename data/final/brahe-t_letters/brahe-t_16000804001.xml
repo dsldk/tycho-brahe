@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1600. 4. august n.s.</title>
+            <title xml:lang="en">1600. 4 August NS.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_">København, Rigsarkivet, Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName xml:lang="da">Prag</placeName>
+               <placeName xml:lang="en">Prague</placeName>
+               <date when="1600-08-04"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="longomontanus_christen_sorensen_1562">Christian Sørensen Longomontanus</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-08-04">
+            <date xml:lang="da">1600. 4. august n.s.</date>
+            <date xml:lang="en">1600. 4 August NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-01-27" who="#pz">Filen etableret</change>
+         <change when="2019-06-09" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.335"/>
+               <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM LONGOMONTANUM</persName>.</opener>
+            <p rend="noIndent">
+               <pb ed="A" n="1r"/>EGO <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> de Knudstrup, ex <placeName ref="Denmark">Dania</placeName> oriundus, Sacræ <persName ref="rudolf_2_1552">Cæs.
+                        Mai.</persName>
+               <placeName ref="Benatky">arcem Benaticam</placeName> in Regno <placeName ref="Bohemia">Bohemiæ</placeName> inhabitans, testor omnibus, cuiuscunque
+                    conditionis et dignitatis sint, hisce meis literis, earundem exhibitorem,
+                    eruditissimum et honestissimum virum, Magistrum <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM SEVERINI LONGOMONTANUM</persName>, natione Cimbrum, mihi per
+                    octennium in <placeName ref="Denmark">Dania</placeName>, et postea aliquamdiu in
+                        <placeName ref="Germany">Germania</placeName> et <placeName ref="Bohemia">Bohemia</placeName> fuisse domesticum, atque in exercitijs Astronomicis
+                    diligentem et fidelem navasse operam. Nunc vero cum res eius non ferant, ut
+                    diutius mecum commaneat, vel accrescente ætate cogitet aliam vitæ rationem
+                    inire, ideoque in patriam ad suos reverti: ego conatus eius nullatenus impedire
+                    volui, sed eum libere et cum bona gratia dimisi. Quare omnes generosos et
+                    nobiles viros, præ<pb ed="A" n="1v"/>sertim in <placeName ref="Denmark">Dania</placeName> mihi sanguine iunctos, et alios quocunque locorum claros et
+                    eruditos viros officiose et peramanter rogatos habeo, ut prænominatum Magistrum
+                        <persName ref="longomontanus_christen_sorensen_1562">CHRISTIANUM</persName> sibi diligenter
+                    commendatum habeant, atque ad optima quæque ipsum promovere non degraventur:
+                    invenient me vicissim ad quævis officia rursum in eorum gratiam, quantum per me
+                    licuerit, præstanda quam paratissimum.</p>
+            <closer>
+               <dateline>Dabantur <placeName ref="Praha">Pragæ</placeName> in metropoli <placeName ref="Bohemia">Bohemiæ</placeName>
+                    die 4 Augusti stilo novo Anno Christi vulgari 1600.</dateline>
+               <signed>
+                  <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>,<lb/>manu propria.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Frederik 2.</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Danske Kancellis uindførte koncepter til skånske missiver</witness>
+               <witness xml:id="A_en">Copenhagen, Danish Natioanl Archives, Danske Kancellis uindførte koncepter til skånske missiver</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="frederik_2_1534">Frederik 2.</persName>
+               <placeName>Holm</placeName>
+               <date when="1587-09-24"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1587-09-24">
+            <date>1587. 24. sept.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-06" who="#pz">Filen etableret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.37"/>
+            <opener>THYGE BRAHE ETC.</opener>
+            <p rend="noIndent">WOR gunst tillforn. Wiid att som thu Oß haffuer fortrøstit om en almanach paa
+                    thette thillstandendis 88 Aar att wille giøre och Oß forskaffe nogit betiidliger
+                    end thu pleyer then Oß att lade tillkomme, thilligeste ochsaa haffuer giort Oß
+                    tilsagn om thend almanach, som thu therhoes pleyer Oß att giøre, att wille Oß
+                    forskaffe. Tha bede Wij thig och begere, attu samme almanacher, thersom the ere
+                    forferdigett, mett thenne breffuißer wor dreng wille Oß tilsende. Eller och,thersom the icke endnu ere beende,tha mett thet første muligt er
+                    wille them forferdige, och Oß tilbiude, nar Wij them mue were foruenthendis.
+                    Thet scheer Oß till wilge. </p>
+            <closer>
+               <salute>Befallendis</salute>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Actum</hi>
+                  </foreign> Holm, 24.
+                        septemb. a:o 87.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

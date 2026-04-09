@@ -1,0 +1,2986 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">Horoscopus principis Christiani / Prins Christians horoskop</title>
+            <title xml:lang="en">Horoscopus principis Christiani / Horoscope of Prince Christian</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Det Kongelige Bibliotek, Gamle Kongelige Samling, 1821 4to</witness>
+               <witness xml:id="A_en">Copenhagen, Royal Library, Gamle Kongelige Samling, 1821 4to</witness>
+               <witness xml:id="B_da">København, Det Kongelige Bibliotek, Gamle Kongelige Samling, 1820 4to</witness>
+               <witness xml:id="B_en">Copenhagen, Royal Library, Gamle Kongelige Samling, 1820 4to</witness>
+               <witness xml:id="C_da">København, Det Kongelige Bibliotek, Ny Kongelige Samling, 620c 2do</witness>
+               <witness xml:id="C_en">Copenhagen, Rpyal Library, Ny Kongelige Samling, 620c 2do</witness>
+               <witness xml:id="D_da">København, Det Kongelige Bibliotek, Langebeks excerpter, 179</witness>
+               <witness xml:id="D_en">Copenhagen, Royal Library, Langebeks excerpter, 179</witness>
+               <witness xml:id="E_da">København, Det Kongelige Bibliotek, Ledreborgsamlingen, 108 4to</witness>
+               <witness xml:id="E_en">Copenhagen, Royal Library, Ledreborgsamlingen, 108 4to</witness>
+               <witness xml:id="F_da">København, Det Kongelige Bibliotek, Ledreborgsamlingen, 108 8to</witness>
+               <witness xml:id="F_en">Copemhagen, Royal Library, Ledreborgsamlingen, 108 8to</witness>
+               <witness xml:id="T_da">Wien, Österreichische Staatsbibliothek, cod. Vindob. lat. 10688.8</witness>
+               <witness xml:id="T_en">Vienna, Österreichische Staatsbibliothek, cod. Vindob. lat. 10688.8</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1577</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>astrologi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-01" who="#pz">Filen etableret</change>
+         <change when="2019-06-18" who="#pz">Rå tekst indlagt</change>
+         <change when="2019-06-26" who="#pz">Korrektur og opmærkning afsluttet</change>
+         <change when="2019-06-27" who="#pz">tekstkritik indsat</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <titlePage xml:id="titelblad">
+            <docTitle>
+               <titlePart>
+                  <pb ed="TBOO" n="I.181"/>HOROSCOPUS SERENISSIMI REGIS <persName ref="christian_4_1577">CHRISTIANI IV</persName>
+                  <hi rend="sup">ti</hi> AD
+                        MANDATUM SERENISSIMI REGIS FRIDERICI II<hi rend="sup">di</hi> A TYCHONE
+                        BRAHE <app>
+                     <lem>OTTONIDE</lem>
+                     <rdg wit="#A">Ottonides</rdg>
+                  </app>
+                  <app>
+                     <lem resp="TBOO">CONSCRIPTUS</lem>
+                     <rdg wit="#A">conscript.</rdg>
+                     <rdg wit="#B">conscriptum</rdg>
+                  </app> IN INSULA HVENA CALENDIS IULIJ ANNO 1577
+                      </titlePart>
+            </docTitle>
+         </titlePage>
+      </front>
+      <body>
+         <div xml:id="prefatory-letter" n="Prefatory letter">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="I.182"/>
+                  <pb ed="TBOO" n="I.183"/>
+                  <pb ed="A" n="1"/>INCLYTO &amp; ILLUSTRI INFANTI <persName ref="christian_4_1577">CHRISTIANO</persName> OPT. &amp; POTENTISS. PRINCIPIS <persName ref="frederik_2_1534">FRIDERICI II<hi rend="sup">di</hi>
+                  </persName> DANIÆ
+                        &amp; NORVEGIÆ REGIS <app>
+                     <lem>DOMINI</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> CLEMENTISSIMI FILIO PRIMOGENITO.</orig>
+               <reg>Forord</reg>
+               <reg xml:lang="en">Preface</reg>
+            </head>
+            <p rend="noIndent">HUMANÆ naturæ constitutionem, Princeps Inclyte, non solum ex qvatuor Elementorum
+                    commixtione exsistere, verum etiam Ætherei illius &amp; incorruptibilis Mundi
+                    participem esse, Philosophis non est dubium: Homo enim in tantillo corpore
+                    maximi illius Mundi exemplar exsistit, ut propterea non immerito ab antiqvis
+                    Sapientibus Microcosmus sit appellatus. Cumque tantam habeat homo cum majori
+                    mundo consonantiam, necessarium est, ipsum actionibus &amp; passionibus majoris
+                    mundi obnoxium esse, idque <pb ed="A" n="2"/>eo magis præ cœteris animalibus
+                    ipsi accidit, qvo is æthereæ naturæ inter omnia sublunaria corpora propius
+                    accedit, siqvidem <persName ref="Hipparchus">Hypparchus</persName> asserere non
+                    dubitavit, animam nostram partem esse ipsius cœli, &amp; cum hoc maximam esse
+                    homini sympathiam, testante insuper id ipsum humani corporis fabrica, qvæ per
+                    septem interiorum membrorum principalium naturam &amp; officia septem errantium
+                    Stellarum in cœlesti orbe naturis est analoga; ut nemini dubium esse debeat,
+                    hominem qvatenus ex Elementis &amp; æthere constat, influentiæ cœlestium
+                    corporum esse obnoxium: id ipsum evidenti testante experientia in tanta
+                    diversorum individuorum discrepantia, &amp; in tanta formarum, morum,
+                    ingeniorum, valetudinis, actionumque diversitate; trahit enim unumqvemqve sua
+                    fortuna &amp; sua voluptas. Hinc nata est Astrologia antiqvissima illa Scientia,
+                    qvæ in ipso homine, non minus qvam Elementis, astrorum influentiam scrutatur,
+                    idqve potissimum ex constitutione <pb ed="A" n="3"/>cœli &amp; Siderum, qvæ <app>
+                  <lem>tunc</lem>
+                  <rdg>
+                     <q>tum</q> B man. pr.</rdg>
+               </app> est cum homo primum in hanc lucem progreditur, &amp; Astrorum
+                    inclinationes una cum vitali aura tenellus attrahit; scite enim illud a Iuvenale
+                    prolatum est (Sat. VII):</p>
+            <lg rend="it">
+               <l>... distat enim, qvæ</l>
+               <l>Sidera te excipiant modo primos incipientem</l>
+               <l>Edere vagitus &amp; adhuc a Matre rubentem.</l>
+            </lg>
+            <p rend="noIndent">De certitudine vero &amp; dignitate hujus artis non est hic disserendi locus;
+                    neqve jam eorum cavillationibus respondendum censeo, qvi vel ob propriam
+                    inscitiam, vel artis abusum, aut artificum errata, arti tam divinæ omnem
+                    certitudinem adimunt. Ipsa experientia <app>
+                  <lem>reclamitat</lem>
+                  <rdg>
+                     <q>reclamat</q> B man. pr.</rdg>
+               </app>, qvæ multis modis comprobat, in prædictionibus astrologicis, si sincere
+                    &amp; dextre tractentur, non parum esse certitudinis. Et si in tam abstrusa
+                    &amp; <pb ed="TBOO" n="I.184"/>sublimi scientia aliqvando hallucinantur
+                    artifices, id veniam apud candidos Iudices facile meretur, cum tot modis
+                    contingat, etiam sapientissimos aberrare in his rebus inferioribus, qvæ nobis
+                    qvotidie præ oculis &amp; manibus versantur. Præterea impium non est (ut multi
+                    de hac <pb ed="A" n="4"/>arte opinantur) physicas inclinationes inqvirere, &amp;
+                    creaturæ divinæ potentiam perscrutari, modo id absqve superstitione &amp; abusu
+                    fiat, &amp; Creatori ubiqve potius qvam creaturæ principalem causam rerum
+                    attribuamus, ipsumqve libere agere &amp; secundis causis non alligari pie
+                    statuamus. Magna deniqve est utilitas &amp; voluptas, varias hominum
+                    inclinationes impendentesqve valetudinis &amp; aliarum mutationum in vita
+                    vicissitudines aliqvatenus prævidere, ut se qvis præmunire possit ante
+                    decretorum eventum, &amp; si fausta portendantur, iis commodius uti, sin vero
+                    infœlicia, ea præcavere &amp; adhibita diligentia evitare possimus. Nos enim non
+                    necessario recipimus astrorum influentiam, sed est in ipso homine qviddam divini
+                    supra astrorum orbes exaltatum, qvo si uti norit, astrorum decretis minime est
+                    obnoxius.</p>
+            <p rend="indent">Hæc cum ita sint, non abs re futurum judicavi, si tibi, Inclyte
+                        <persName ref="christian_4_1577">CHRISTIANE</persName>, Genethliacam cœli <pb ed="A" n="5"/>faciem constituerem, &amp; inde juxta optimorum Astrologorum
+                    placita, tum etiam propriam experientiam, siderum inclinationes breviter
+                    indicarem, efflagitante etiam Serenissimo Patre Tuo <persName ref="frederik_2_1534">FRIDERICO</persName> Daniæ Rege Domino nostro Clementissimo, ut id ipsum
+                    pro virili præstarem. Cujus mandato cum nefas esset non obtemperare, hoc onus,
+                    viribus nostris impar, in me recepi, &amp; qvalemcunqve hanc Natalitiæ Tuæ
+                    constitutionis &amp; Astrorum hinc effectuum expositionem Tibi adhuc Infanti
+                    annotavi, idqve ea ratione &amp; methodo perfeci, ut Astronomicam Siderum
+                    constitutionem Iudicio Astrologico præmitterem, in qvo juxta principales
+                    qvæstiones eventuum in vita Astrorum inclinationes priori innitentes pro virili,
+                    &amp; qvantum temporis angustia ferre potuit, indicavi. Fui autem in his
+                    prædictionibus brevior, &amp; minus in singulis subtilitatibus curiosus, eo qvod
+                    Tempus Nativitatis oblatum saltem æstimative sumtum sit, &amp; per accidentia
+                    præterita, ob ætatem nondum adeptam, minime verificatum, qvod si olim Deo
+                    permittente fieri <pb ed="A" n="6"/>poterit, exqvisitiorem etiam &amp;
+                    diligentiorem horum omnium, qvæ hic tractantur, explicationem &amp;
+                    indicationem, eodem favente, instituemus. Spero autem hanc qvalemcunqve ab
+                    æstimativa cœli facie desumtam Siderum expositionem Serenissimo Patri Tuo Domino
+                    et Regi nostro Clementissimo, Tibiqve, cum annis adoleveris, non futuram
+                    ingratam. Æternus Deus, auctor vitæ &amp; omnis boni, Te in serotinam ætatem
+                    &amp; fœlicem Vitæ actionumqve statum in suam gloriam &amp; Patriæ incolumitatem
+                    clementer conservet!</p>
+            <closer>
+               <dateline>Datum in Insula Hvena. Cal. Iulij Anno 1577. </dateline>
+               <signed>T. S. subditus TYCHO BRAHE
+                      OTTONIDES.</signed>
+            </closer>
+         </div>
+         <div xml:id="de-astronomicum-motuum-supputatione"
+              n="De astronomica motuum supputatione">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="I.185"/>
+                  <pb ed="A" n="7"/>DE ASTRONOMICA MOTUUM
+                      SUPPUTATIONE AD TEMPUS HUJUS INCLYTÆ GENITURÆ.</orig>
+               <reg>De astronomica motuum supputatione</reg>
+               <reg xml:lang="en">De astronomica motuum supputatione</reg>
+            </head>
+            <p rend="noIndent">TEMPUS oblatum per observationem correcti Horologii æstimative sumtum, qvô hic
+                    Inclytus Natus primum in hanc lucem prodiit, fuit Anno CHR. 1577 Aprilis die 12
+                    horis a meridie elapsis 4 cum semisse, idqve Friderichsburgi Daniæ, ubi Polus
+                    elevatur partibus fere 56 &amp; long. b 35 G. Ad hoc tempus locum singulorum
+                    Planetarum juxta processum calculi Prutenici primum assignabo, eo qvod is
+                        <persName ref="kopernikus_nikolaus_1473">Copernici</persName> motuum restitutioni
+                    innitens, nostra ætate sit exactissimus præ cœteris; deinde Alphonsina
+                    Planetarum locum subjungam; et postremo etiam, juxta propriam observationem
+                    factam noctibus aliqvot præcedentibus &amp; seqventibus, Loca aliqvot Planetarum
+                    emendabo.</p>
+            <lb/>
+            <p rend="center">
+               <pb ed="A" n="8"/>SEQVITUR DESCRIPTIO CALCULI LOCORUM PLANETARUM EX TABULIS
+                    PRUTENICIS.</p>
+            <p rend="noIndent">TEMPUS completum, reductum &amp; æqvatum est annorum 1576. A Mens. Mart. Dierum
+                    11. horarum 17.</p>
+            <p rend="it">
+               <app>
+                  <lem>Pro vero Motu Præcessionis Æqvinoctii.</lem>
+                  <rdg>
+                     <q>Pro vero Motu Præcess.</q> et in versu sequenti <q>Iovis
+                                    Æquinoctii 0000</q> AB man. sec.</rdg>
+               </app>
+            </p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>
+                     <app>
+                        <lem>Sex.</lem>
+                        <rdg wit="#A">Sig.</rdg>
+                        <note>et sic semper</note>
+                     </app>
+                  </cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Simplex præcessionis</cell>
+                  <cell>0</cell>
+                  <cell>27</cell>
+                  <cell>32</cell>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>Anomalia simplex</cell>
+                  <cell> 2</cell>
+                  <cell>52</cell>
+                  <cell> 2</cell>
+                  <cell> 6</cell>
+               </row>
+               <row>
+                  <cell>Anomalia duplicata</cell>
+                  <cell> 5</cell>
+                  <cell>44</cell>
+                  <cell> 4</cell>
+                  <cell>12</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. præcessionis</cell>
+                  <cell>A.</cell>
+                  <cell> —</cell>
+                  <cell>19</cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>Vera Præcessio</cell>
+                  <cell> 0</cell>
+                  <cell>27</cell>
+                  <cell>51</cell>
+                  <cell>46</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ☉.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Simplex longitudo Solis</cell>
+                  <cell> 0</cell>
+                  <cell> 2</cell>
+                  <cell>19</cell>
+                  <cell>58</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Solis</cell>
+                  <cell> 4</cell>
+                  <cell>50</cell>
+                  <cell>17</cell>
+                  <cell>21</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Simplex</cell>
+                  <cell> 2</cell>
+                  <cell>52</cell>
+                  <cell> 2</cell>
+                  <cell> 6</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. centri</cell>
+                  <cell>Ad.</cell>
+                  <cell> 1</cell>
+                  <cell>1O</cell>
+                  <cell>15</cell>
+               </row>
+               <row>
+                  <cell>Scrupula proport.</cell>
+                  <cell> 0</cell>
+                  <cell> 0</cell>
+                  <cell> 0</cell>
+                  <cell>20</cell>
+               </row>
+               <row>
+                  <cell>Anomalia æqvata</cell>
+                  <cell> 4</cell>
+                  <cell>51</cell>
+                  <cell>27</cell>
+                  <cell>36</cell>
+               </row>
+               <pb ed="A" n="9"/>
+               <row>
+                  <cell>Προσταφ. orbis</cell>
+                  <cell>Ad.</cell>
+                  <cell> 1</cell>
+                  <cell>41</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>Excessus seqvens</cell>
+                  <cell/>
+                  <cell> 0</cell>
+                  <cell>29</cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. absoluta</cell>
+                  <cell>A.</cell>
+                  <cell> 1</cell>
+                  <cell>41</cell>
+                  <cell>55</cell>
+               </row>
+               <row>
+                  <cell>Distantia ☉ a 1<hi rend="sup">a</hi> Stella ♈︎</cell>
+                  <cell> 0</cell>
+                  <cell> 4</cell>
+                  <cell> 1</cell>
+                  <cell>53</cell>
+               </row>
+               <row>
+                  <cell>Distantia ☉ ab Æqvinoctio</cell>
+                  <cell> 0</cell>
+                  <cell>31</cell>
+                  <cell>53</cell>
+                  <cell>39</cell>
+               </row>
+               <row>
+                  <cell>Verus Locus Solis</cell>
+                  <cell>♉︎</cell>
+                  <cell> 1</cell>
+                  <cell>53</cell>
+                  <cell>39</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">
+               <pb ed="TBOO" n="I.186"/> Pro vero Motu ☾.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Simplex ☾ a Sole</cell>
+                  <cell> 4</cell>
+                  <cell>58</cell>
+                  <cell>43</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Lunæ</cell>
+                  <cell> 5</cell>
+                  <cell>44</cell>
+                  <cell>39</cell>
+                  <cell>23</cell>
+               </row>
+               <row>
+                  <cell>Duplex motus ☾ a ☉</cell>
+                  <cell> 3</cell>
+                  <cell>57</cell>
+                  <cell>27</cell>
+                  <cell> 0</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. <app>
+                        <lem>Secundi</lem>
+                        <rdg>om. B man. pr. spatio relicto</rdg>
+                     </app> Epicycli</cell>
+                  <cell>S.</cell>
+                  <cell> 9</cell>
+                  <cell>14</cell>
+                  <cell>53</cell>
+               </row>
+               <row>
+                  <cell>Scrupula <app>
+                        <lem wit="T">proportionalia</lem>
+                        <rdg wit="#A #B">proportionalis</rdg>
+                     </app>
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell>48</cell>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>Anomalia æqvata</cell>
+                  <cell> 5</cell>
+                  <cell>35</cell>
+                  <cell>24</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. 1. Epicycli</cell>
+                  <cell>A.</cell>
+                  <cell> 1</cell>
+                  <cell>54</cell>
+                  <cell>11</cell>
+               </row>
+               <row>
+                  <cell>Excessus seqvens</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>55</cell>
+                  <cell>54</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>42</cell>
+                  <cell>52</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. primi Epicycli abs.</cell>
+                  <cell>A.</cell>
+                  <cell> 2</cell>
+                  <cell>39</cell>
+                  <cell> 3</cell>
+               </row>
+               <row>
+                  <cell>Dist. ☾ a <app>
+                        <lem>prima</lem>
+                        <rdg>post <q>prima</q> add. <q>stella</q> B man.
+                                    pr.</rdg>
+                     </app> ♈︎</cell>
+                  <cell> 5</cell>
+                  <cell> 3</cell>
+                  <cell>42</cell>
+                  <cell>31</cell>
+               </row>
+               <row>
+                  <cell>Distantia ☾ ab æqvinoctio</cell>
+                  <cell> 5</cell>
+                  <cell>31</cell>
+                  <cell>34</cell>
+                  <cell>17</cell>
+               </row>
+               <pb ed="A" n="10"/>
+               <row>
+                  <cell>Verus Locus Lunæ</cell>
+                  <cell>♓︎</cell>
+                  <cell> 1</cell>
+                  <cell>34</cell>
+                  <cell>17</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ♄.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Commutatio Saturni</cell>
+                  <cell> 1</cell>
+                  <cell>51</cell>
+                  <cell>40</cell>
+                  <cell>59</cell>
+               </row>
+               <row>
+                  <cell>Apogæi Saturni</cell>
+                  <cell> 4</cell>
+                  <cell> 1</cell>
+                  <cell> 4</cell>
+                  <cell>21</cell>
+               </row>
+               <row>
+                  <cell>Simplex Longitudo ♄</cell>
+                  <cell> 4</cell>
+                  <cell>1O</cell>
+                  <cell>38</cell>
+                  <cell>59</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Eccentrici</cell>
+                  <cell> 0</cell>
+                  <cell> 9</cell>
+                  <cell>34</cell>
+                  <cell>38</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Eccentrici</cell>
+                  <cell>S.</cell>
+                  <cell> 1</cell>
+                  <cell> 1</cell>
+                  <cell>40</cell>
+               </row>
+               <row>
+                  <cell>Scrupula <app>
+                        <lem wit="T">proportionalia</lem>
+                        <rdg wit="#A #B">proportionalis</rdg>
+                     </app>
+                  </cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>18</cell>
+               </row>
+               <row>
+                  <cell>Simplex longit. æqvata</cell>
+                  <cell> 4</cell>
+                  <cell> 9</cell>
+                  <cell>37</cell>
+                  <cell>19</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Eccent. æqvata</cell>
+                  <cell> 0</cell>
+                  <cell> 8</cell>
+                  <cell>32</cell>
+                  <cell>58</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Comm. æqvata</cell>
+                  <cell> 1</cell>
+                  <cell>52</cell>
+                  <cell>42</cell>
+                  <cell>39</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax.</cell>
+                  <cell>A.</cell>
+                  <cell> 5</cell>
+                  <cell>39</cell>
+                  <cell>52</cell>
+               </row>
+               <row>
+                  <cell>Excessus Seqvens</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>42</cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell/>
+                  <cell>13</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax. abs.</cell>
+                  <cell>A.</cell>
+                  <cell> 5</cell>
+                  <cell>40</cell>
+                  <cell> 5</cell>
+               </row>
+               <row>
+                  <cell>Distantia ♄ a 1<hi rend="sup">a</hi> ♈︎</cell>
+                  <cell> 4</cell>
+                  <cell>15</cell>
+                  <cell>17</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>Distantia ♄ ab æqvinoct.</cell>
+                  <cell> 4</cell>
+                  <cell>43</cell>
+                  <cell> 9</cell>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>Vera Longitudo ♄</cell>
+                  <cell>♑︎</cell>
+                  <cell>13</cell>
+                  <cell> 9</cell>
+                  <cell>10</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ♃.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Commutatio ♃</cell>
+                  <cell> 3</cell>
+                  <cell>49</cell>
+                  <cell>50</cell>
+                  <cell>50</cell>
+               </row>
+               <pb ed="A" n="11"/>
+               <row>
+                  <cell>Apogæi ♃</cell>
+                  <cell> 2</cell>
+                  <cell>38</cell>
+                  <cell>40</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>Æqvalis longit. ♃</cell>
+                  <cell> 2</cell>
+                  <cell>12</cell>
+                  <cell>29</cell>
+                  <cell> 8</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Eccentrici</cell>
+                  <cell> 5</cell>
+                  <cell>33</cell>
+                  <cell>48</cell>
+                  <cell>39</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Eccentrici</cell>
+                  <cell>A.</cell>
+                  <cell> 2</cell>
+                  <cell>13</cell>
+                  <cell>16</cell>
+               </row>
+               <row>
+                  <cell>Scrupula proport</cell>
+                  <cell/>
+                  <cell/>
+                  <cell> 2</cell>
+                  <cell>22</cell>
+               </row>
+               <pb ed="TBOO" n="I.187"/>
+               <row>
+                  <cell>Longitudo æqvata</cell>
+                  <cell> 2</cell>
+                  <cell>14</cell>
+                  <cell>42</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Eccent. æqvata</cell>
+                  <cell> 5</cell>
+                  <cell>36</cell>
+                  <cell> 1</cell>
+                  <cell>55</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Comm. æqvata</cell>
+                  <cell> 3</cell>
+                  <cell>47</cell>
+                  <cell>37</cell>
+                  <cell>34</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax. ♃</cell>
+                  <cell>S.</cell>
+                  <cell> 8</cell>
+                  <cell>43</cell>
+                  <cell>39</cell>
+               </row>
+               <row>
+                  <cell>Excessus seqvens</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>56</cell>
+                  <cell>59</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell> 2</cell>
+                  <cell>15</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. absoluta</cell>
+                  <cell>S.</cell>
+                  <cell> 8</cell>
+                  <cell>45</cell>
+                  <cell>54</cell>
+               </row>
+               <row>
+                  <cell>Distantia ♃ a prima ♈︎</cell>
+                  <cell> 2</cell>
+                  <cell>05</cell>
+                  <cell>56</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>Distantia ♃ ab æqvinoctio</cell>
+                  <cell> 2</cell>
+                  <cell>33</cell>
+                  <cell>48</cell>
+                  <cell>16</cell>
+               </row>
+               <row>
+                  <cell>Verus Locus Iovis</cell>
+                  <cell>♍</cell>
+                  <cell> 3</cell>
+                  <cell>48</cell>
+                  <cell>16</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ♂.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Commutatio ♃<hi rend="sup">tis</hi>
+                  </cell>
+                  <cell> 5</cell>
+                  <cell> 4</cell>
+                  <cell> 4</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>Apogæi ♃</cell>
+                  <cell> 2</cell>
+                  <cell> 0</cell>
+                  <cell>21</cell>
+                  <cell>11</cell>
+               </row>
+               <row>
+                  <cell>Simplex Longitudo ♃</cell>
+                  <cell> 0</cell>
+                  <cell>58</cell>
+                  <cell>15</cell>
+                  <cell>10</cell>
+               </row>
+               <pb ed="A" n="12"/>
+               <row>
+                  <cell>Anomalia Eccentrici</cell>
+                  <cell> 4</cell>
+                  <cell>57</cell>
+                  <cell>53</cell>
+                  <cell>59</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Eccent.</cell>
+                  <cell>A.</cell>
+                  <cell> 9</cell>
+                  <cell>22</cell>
+                  <cell>56</cell>
+               </row>
+               <row>
+                  <cell>Scrupula proport.</cell>
+                  <cell> 0</cell>
+                  <cell> 0</cell>
+                  <cell> 9</cell>
+                  <cell>15</cell>
+               </row>
+               <row>
+                  <cell>Longitudo æqvata</cell>
+                  <cell> 1</cell>
+                  <cell> 7</cell>
+                  <cell>38</cell>
+                  <cell> 6</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Eccent. æqvata</cell>
+                  <cell> 5</cell>
+                  <cell> 7</cell>
+                  <cell>16</cell>
+                  <cell>55</cell>
+               </row>
+               <row>
+                  <cell>Commutatio æqvata</cell>
+                  <cell> 4</cell>
+                  <cell>54</cell>
+                  <cell>41</cell>
+                  <cell>52</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax.</cell>
+                  <cell>S.</cell>
+                  <cell>23</cell>
+                  <cell>33</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>Excessus seqvens</cell>
+                  <cell/>
+                  <cell> 3</cell>
+                  <cell>18</cell>
+                  <cell>14</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>30</cell>
+                  <cell>34</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax. absol.</cell>
+                  <cell>S.</cell>
+                  <cell>24</cell>
+                  <cell> 4</cell>
+                  <cell>22</cell>
+               </row>
+               <row>
+                  <cell>Distantia ♃ a prima ♈︎</cell>
+                  <cell> 0</cell>
+                  <cell>43</cell>
+                  <cell>33</cell>
+                  <cell>44</cell>
+               </row>
+               <row>
+                  <cell>Distant, ♃ ab æqvinoctio</cell>
+                  <cell>01</cell>
+                  <cell>11</cell>
+                  <cell>25</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>Verus Locus Martis</cell>
+                  <cell>♊︎</cell>
+                  <cell>11</cell>
+                  <cell>25</cell>
+                  <cell>30</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ♀.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Simplex longitudo ♀</cell>
+                  <cell> 0</cell>
+                  <cell> 2</cell>
+                  <cell>19</cell>
+                  <cell>58</cell>
+               </row>
+               <row>
+                  <cell>Commutatio ♀</cell>
+                  <cell> 1</cell>
+                  <cell>58</cell>
+                  <cell>30</cell>
+                  <cell>25</cell>
+               </row>
+               <row>
+                  <cell>Apogæi ♀</cell>
+                  <cell> 0</cell>
+                  <cell>48</cell>
+                  <cell>21</cell>
+                  <cell> 0</cell>
+               </row>
+               <row>
+                  <cell>Anomalia Eccentrici</cell>
+                  <cell> 5</cell>
+                  <cell>13</cell>
+                  <cell>58</cell>
+                  <cell>58</cell>
+               </row>
+               <row>
+                  <cell>Προσταφαιρ. Eccent.</cell>
+                  <cell>A.</cell>
+                  <cell> 1</cell>
+                  <cell>25</cell>
+                  <cell>43</cell>
+               </row>
+               <row>
+                  <cell>Scrupula proport.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell> 8</cell>
+                  <cell>14</cell>
+               </row>
+               <pb ed="A" n="13"/>
+               <row>
+                  <cell>Longitudo æqvata</cell>
+                  <cell> 0</cell>
+                  <cell> 3</cell>
+                  <cell>45</cell>
+                  <cell>41</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Eccent. æqvata</cell>
+                  <cell> 5</cell>
+                  <cell>15</cell>
+                  <cell>24</cell>
+                  <cell>41</cell>
+               </row>
+               <row>
+                  <cell>Commutatio æqvata</cell>
+                  <cell> 1</cell>
+                  <cell>57</cell>
+                  <cell> 4</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax.</cell>
+                  <cell>A.</cell>
+                  <cell>43</cell>
+                  <cell> 0</cell>
+                  <cell>13</cell>
+               </row>
+               <pb ed="TBOO" n="I.188"/>
+               <row>
+                  <cell>Excessus Seqvens</cell>
+                  <cell/>
+                  <cell> 1</cell>
+                  <cell>12</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell/>
+                  <cell/>
+                  <cell> 9</cell>
+                  <cell>57</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. absoluta</cell>
+                  <cell>A.</cell>
+                  <cell>43</cell>
+                  <cell>10</cell>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>Distant. ♀ a la ♈︎</cell>
+                  <cell> 0</cell>
+                  <cell>46</cell>
+                  <cell>55</cell>
+                  <cell>51</cell>
+               </row>
+               <row>
+                  <cell>Distant. ♀ ab æqvinoct.</cell>
+                  <cell> 1</cell>
+                  <cell>14</cell>
+                  <cell>47</cell>
+                  <cell>37</cell>
+               </row>
+               <row>
+                  <cell>Verus Locus Veneris</cell>
+                  <cell>♊︎</cell>
+                  <cell>14</cell>
+                  <cell>47</cell>
+                  <cell>37</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="it">Pro vero Motu ☿.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Sex.</cell>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Simplex longit. ☿</cell>
+                  <cell> 0</cell>
+                  <cell> 2</cell>
+                  <cell>19</cell>
+                  <cell>58</cell>
+               </row>
+               <row>
+                  <cell>Commutatio ☿</cell>
+                  <cell> 3</cell>
+                  <cell>43</cell>
+                  <cell>22</cell>
+                  <cell>57</cell>
+               </row>
+               <row>
+                  <cell>Apogæi ☿</cell>
+                  <cell> 3</cell>
+                  <cell>31</cell>
+                  <cell>55</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Eccent.</cell>
+                  <cell> 2</cell>
+                  <cell>30</cell>
+                  <cell>24</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Eccentrici</cell>
+                  <cell>S.</cell>
+                  <cell> 1</cell>
+                  <cell>36</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>Scrupula proport.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>55</cell>
+                  <cell>57</cell>
+               </row>
+               <row>
+                  <cell>Longitudo æqvata</cell>
+                  <cell> 0</cell>
+                  <cell> 0</cell>
+                  <cell>43</cell>
+                  <cell>13</cell>
+               </row>
+               <row>
+                  <cell>Anomal. Eccent. æqvata</cell>
+                  <cell> 2</cell>
+                  <cell>28</cell>
+                  <cell>47</cell>
+                  <cell>44</cell>
+               </row>
+               <pb ed="A" n="14"/>
+               <row>
+                  <cell>Commutatio æqvata</cell>
+                  <cell> 3</cell>
+                  <cell>44</cell>
+                  <cell>59</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. Paralax.</cell>
+                  <cell>S.</cell>
+                  <cell>16</cell>
+                  <cell>42</cell>
+                  <cell> 8</cell>
+               </row>
+               <row>
+                  <cell>Excessus seqvens</cell>
+                  <cell> 0</cell>
+                  <cell> 5</cell>
+                  <cell> 7</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>Pars proportionalis</cell>
+                  <cell> 0</cell>
+                  <cell> 4</cell>
+                  <cell>46</cell>
+                  <cell>56</cell>
+               </row>
+               <row>
+                  <cell>Προσταφ. abs. Paralax.</cell>
+                  <cell>S.</cell>
+                  <cell>21</cell>
+                  <cell>29</cell>
+                  <cell> 4</cell>
+               </row>
+               <row>
+                  <cell>Distant. ☿ a 1<hi rend="sup">a</hi> ♈︎</cell>
+                  <cell>5</cell>
+                  <cell>39</cell>
+                  <cell>14</cell>
+                  <cell> 9</cell>
+               </row>
+               <row>
+                  <cell>Distant. ☿ ab æqvinoct.</cell>
+                  <cell> 0</cell>
+                  <cell> 7</cell>
+                  <cell> 5</cell>
+                  <cell>55</cell>
+               </row>
+               <row>
+                  <cell>Verus Locus Merc.</cell>
+                  <cell>♈︎</cell>
+                  <cell> 7</cell>
+                  <cell> 5</cell>
+                  <cell>55</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="center">LATITUDINES PLANETARUM EX IISDEM TABULIS.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell> P.</cell>
+                  <cell> '</cell>
+                  <cell> ''</cell>
+               </row>
+               <row>
+                  <cell>Vera Latitudo ♄</cell>
+                  <cell>Bor. 1</cell>
+                  <cell>23</cell>
+                  <cell>28</cell>
+               </row>
+               <row>
+                  <cell>Vera Latitudo ♃</cell>
+                  <cell>Bor. 1</cell>
+                  <cell>19</cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell>
+                     <app>
+                        <lem>Vera Latitudo ♂</lem>
+                        <rdg>post hunc versum add. <q>Vera latitudo ☉</q> B
+                                        man. pr.</rdg>
+                     </app>
+                  </cell>
+                  <cell>Bor. 0</cell>
+                  <cell>18</cell>
+                  <cell> 6</cell>
+               </row>
+               <row>
+                  <cell>Vera Latitudo ♀</cell>
+                  <cell>Bor. 2</cell>
+                  <cell>20</cell>
+                  <cell>34</cell>
+               </row>
+               <row>
+                  <cell>Vera Latitudo ☿</cell>
+                  <cell>Aust. 1</cell>
+                  <cell>36</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>Vera Latitudo ☾</cell>
+                  <cell>Aust. 3</cell>
+                  <cell>45</cell>
+                  <cell>14</cell>
+               </row>
+            </table>
+            <p rend="noIndent">Sunt itaqve Loca Planetarum ex Tabulis PRUTENICIS ad Tempus Datum sec. Long.
+                    &amp; Lat. ejusmodi. </p>
+            <lb/>
+            <pb ed="A" n="15"/>
+            <p rend="center">LOCA PLANETARUM EX TABULIS PRUTENICIS.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Longitudo.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>Latitudo.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>Sign.</cell>
+                  <cell>P.</cell>
+                  <cell>M.</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+                  <cell>Pars.</cell>
+               </row>
+               <row>
+                  <cell>♄</cell>
+                  <cell>♑︎</cell>
+                  <cell>13</cell>
+                  <cell> 9 Stat.</cell>
+                  <cell>1</cell>
+                  <cell>24</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>♃</cell>
+                  <cell>♍</cell>
+                  <cell> 3</cell>
+                  <cell>48 Retr.</cell>
+                  <cell>1</cell>
+                  <cell>20</cell>
+                  <cell>S</cell>
+               </row>
+               <pb ed="TBOO" n="I.189"/>
+               <row>
+                  <cell>♂</cell>
+                  <cell>♊︎</cell>
+                  <cell>11</cell>
+                  <cell>25½</cell>
+                  <cell>0</cell>
+                  <cell>18</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>☉</cell>
+                  <cell>♉︎</cell>
+                  <cell> 1</cell>
+                  <cell>54 <app>
+                        <lem>Dir.</lem>
+                        <rdg>
+                           <q>dix.</q> AB man. sec.</rdg>
+                     </app>
+                  </cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+               </row>
+               <row>
+                  <cell>♀</cell>
+                  <cell>♊︎</cell>
+                  <cell>14</cell>
+                  <cell>48 <app>
+                        <lem>Dir.</lem>
+                        <rdg>
+                           <q>dix.</q> AB man. sec.</rdg>
+                     </app>
+                  </cell>
+                  <cell> 2</cell>
+                  <cell>21</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>☿</cell>
+                  <cell>♈︎</cell>
+                  <cell> 7</cell>
+                  <cell>6 <app>
+                        <lem>Dir.</lem>
+                        <rdg>
+                           <q>dix.</q> AB man. sec.</rdg>
+                     </app>
+                  </cell>
+                  <cell> 1</cell>
+                  <cell>37</cell>
+                  <cell>M</cell>
+               </row>
+               <row>
+                  <cell>☾</cell>
+                  <cell>♓︎</cell>
+                  <cell> 1</cell>
+                  <cell>34 <app>
+                        <lem>Dir.</lem>
+                        <rdg>
+                           <q>dix.</q> AB man. sec.</rdg>
+                     </app>
+                  </cell>
+                  <cell> 3</cell>
+                  <cell>45</cell>
+                  <cell>M</cell>
+               </row>
+            </table>
+            <p rend="noIndent">
+               <pb ed="A" n="16"/> Loca vero Planetarum ex <persName ref="alfonso_10_1221">Regis
+                        Alphonsi</persName> Tabulis paulo aliter se habent, suntqve ex his
+                    ejusmodi.</p>
+            <lb/>
+            <p rend="center">LOCA PLANETARUM EX TABULIS REGIS ALPHONSI.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Longitudo.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>Latitudo.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell/>
+                  <cell>S.</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+                  <cell>P.</cell>
+               </row>
+               <row>
+                  <cell>♄</cell>
+                  <cell>♑︎</cell>
+                  <cell>12</cell>
+                  <cell>19 Stat.</cell>
+                  <cell>0</cell>
+                  <cell>45</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>♃</cell>
+                  <cell>♍</cell>
+                  <cell> 2</cell>
+                  <cell>20 Retr.</cell>
+                  <cell>1</cell>
+                  <cell>32</cell>
+                  <cell>S</cell>
+               </row>
+               <pb ed="TBOO" n="I.189"/>
+               <row>
+                  <cell>♂</cell>
+                  <cell>♊︎</cell>
+                  <cell>10</cell>
+                  <cell>59</cell>
+                  <cell>0</cell>
+                  <cell>22</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>☉</cell>
+                  <cell>♉︎</cell>
+                  <cell> 2</cell>
+                  <cell>27</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+               </row>
+               <row>
+                  <cell>♀</cell>
+                  <cell>♊︎</cell>
+                  <cell>15</cell>
+                  <cell>47</cell>
+                  <cell> 2</cell>
+                  <cell>2</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>☿</cell>
+                  <cell>♈︎</cell>
+                  <cell>15</cell>
+                  <cell>28</cell>
+                  <cell> 2</cell>
+                  <cell>28</cell>
+                  <cell>M</cell>
+               </row>
+               <row>
+                  <cell>☾</cell>
+                  <cell>♓︎</cell>
+                  <cell> 1</cell>
+                  <cell>45</cell>
+                  <cell> 3</cell>
+                  <cell>45</cell>
+                  <cell>M</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="center">
+               <pb ed="A" n="17"/>DE CORRECTIONE LOCORUM QVORUNDAM PLANETARUM JUXTA NOSTRAM
+                    OBSERVATIONEM, FACTAM NOCTE PRÆCEDENTE &amp; SEQVENTE NATIVITATEM.</p>
+            <p rend="noIndent">EX observationibus nostris factis circa id tempus per certa &amp; exqvisita
+                    Instrumenta, deprehendi Latitudinem ♂ fuisse majorem eâ qvam præbent
+                    Tabulæ, videlicet 45 minutorum Sept., &amp; Longitudinem fere convenientem
+                    Tabulis inveni, videlicet in 11 G. 20 M. ♊︎. Venerem vero deprehendi in
+                    15. 20 ♊︎ cum Latitudine Septentrionali 2 G. 20 M. Iovem insuper <app>
+                  <lem>in</lem>
+                  <rdg>om. B man. pr.</rdg>
+               </app> 3 G. 40 Μ. <app>
+                  <lem>♍</lem>
+                  <rdg>♑︎ B man. pr. ut videtur;</rdg>
+               </app> Lat. 1⅓ S. Solis locum ex observatione meridiana &amp; Ecclipsi ☾
+                    præcedente emendavi in 2 G. 5 M. ♈︎. In cœteris planetis nullam habere
+                    licuit observationem. ☿, qvi magnam habet differentiam in utroqve
+                    calculo, erat sub radiis, sed ejus locum potius cum <persName ref="kopernikus_nikolaus_1473">Copernico</persName> statuimus <pb ed="A" n="18"/>in 7 ♈︎, qvam cum
+                        <persName ref="alfonso_10_1221">Alphonso</persName> in gradu 15 ♈︎.</p>
+            <p rend="center">LOCA ☉ ♂ ♀ &amp; ♃, EMENDATA, &amp; AD HOC TEMPUS,
+                    JUXTA PROPRIAM OBSERVATIONEM IN COELO.</p>
+            <table>
+               <row>
+                  <cell/>
+                  <cell>Longitudo.</cell>
+                  <cell/>
+                  <cell/>
+                  <cell>Latitudo.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>♃</cell>
+                  <cell>♍</cell>
+                  <cell> 3</cell>
+                  <cell>40</cell>
+                  <cell>1</cell>
+                  <cell>20</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>♂</cell>
+                  <cell>♊︎</cell>
+                  <cell>11</cell>
+                  <cell>20</cell>
+                  <cell>0</cell>
+                  <cell>45</cell>
+                  <cell>S</cell>
+               </row>
+               <row>
+                  <cell>☉</cell>
+                  <cell>♉︎</cell>
+                  <cell> 2</cell>
+                  <cell> 5</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+                  <cell>0</cell>
+               </row>
+               <row>
+                  <cell>♀</cell>
+                  <cell>♊︎</cell>
+                  <cell>15</cell>
+                  <cell>20</cell>
+                  <cell> 2</cell>
+                  <cell>20</cell>
+                  <cell>S</cell>
+               </row>
+            </table>
+            <p rend="noIndent">
+               <pb ed="TBOO" n="I.190"/> In cœteris cum observationem non habeam, standum potius
+                    sentio cum Prutenico qvam Alphonsino Calculo, sed in his loca per experientiam
+                    inventa retinebo.</p>
+            <p rend="indent">Nunc constitutionem Cardinum cœlestium &amp; reliqvarum cuspidum,
+                    una cum Planetarum in iis positu subiungam. Utor autem in divisione Domorum <pb ed="A" n="19"/> modo <persName ref="campanus_1220">Campani</persName>, qvi
+                    dividit totum cœlum in XII æqvalia ab intersectionibus Horizontis &amp;
+                    Meridiani, qvæ ratio est, meo judicio, universalis &amp; cœteris verior;
+                        <persName ref="regiomontanus_johannes_1436">Regiomontani</persName> enim modus inæqvaliter
+                    cœlum partitur &amp; universalis non est. Sed de his alibi disseruimus. Nunc
+                    FIGURAM NATALEM subjungo. </p>
+            <pb ed="A" n="20"/>
+            <figure n="1">
+               <desc>Figura natalis</desc>
+               <p rend="noIndent">Anno 1577 Aprilis D. H. M. ii. 4. 30.</p>
+               <graphic url="01_0254"/>
+            </figure>
+            <pb ed="TBOO" n="I.191"/>
+            <pb ed="A" n="21"/>
+            <figure n="2">
+               <desc>Aspectus planetarum / Antisciæ planetarum</desc>
+               <graphic url="01_0255"/>
+            </figure>
+            <p rend="center">
+               <pb ed="A" n="22"/>DE DIRECTIONIBUS PRÆCIPUORUM LOCORUM.</p>
+            <p rend="noIndent">TEMPORA eventuum nusqvam certius &amp; efficacius colliguntur, qvam per viam
+                    Directionum, capiendo gradus Æqvatoris, significatori &amp; promissori
+                    interjectos, secundum debitum positionis circulum. Annotabo itaqve hos Æqvatoris
+                    arcus in Directione præcipuorum Locorum in hac genesi, videlicet ASCEND:
+                    ☉ ☾ ♀ M.C. ⊕.</p>
+            <lb/>
+            <p rend="center">
+               <pb ed="A" n="23"/>DIRECTIO ASCENDENTIS</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>☍ ☿</cell>
+                  <cell>01</cell>
+                  <cell>44</cell>
+               </row>
+               <row>
+                  <cell>△ ♂</cell>
+                  <cell>09</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>□ ♄</cell>
+                  <cell>12</cell>
+                  <cell>27</cell>
+               </row>
+               <row>
+                  <cell>△ ♀</cell>
+                  <cell>15</cell>
+                  <cell>46</cell>
+               </row>
+               <row>
+                  <cell>☋</cell>
+                  <cell>23</cell>
+                  <cell>14</cell>
+               </row>
+               <row>
+                  <cell>Ecclips p.</cell>
+                  <cell>26</cell>
+                  <cell>37</cell>
+               </row>
+               <row>
+                  <cell>0 ♏︎</cell>
+                  <cell>38</cell>
+                  <cell>04</cell>
+               </row>
+               <row>
+                  <cell>△ ☾</cell>
+                  <cell>40</cell>
+                  <cell>27</cell>
+               </row>
+               <row>
+                  <cell>☍ ☉</cell>
+                  <cell>41</cell>
+                  <cell>15</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♃</cell>
+                  <cell>43</cell>
+                  <cell>38</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♃</cell>
+                  <cell>58</cell>
+                  <cell>01</cell>
+               </row>
+               <row>
+                  <cell>□ ☾</cell>
+                  <cell>85</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>□ ♃</cell>
+                  <cell>87</cell>
+                  <cell>19</cell>
+               </row>
+               <row>
+                  <cell>⚹ propr.</cell>
+                  <cell>90</cell>
+                  <cell>37</cell>
+               </row>
+            </table>
+            <p rend="noIndent">Sed hæ Directiones Ascendentis pro 4 minutis erroris in tempore Nativitatis
+                    variant uno gradu, qvi annum integrum efficit. I</p>
+            <pb ed="TBOO" n="I.192"/>
+            <pb ed="A" n="24"/>
+            <lb/>
+            <p rend="center">DIRECTIO ☉</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>△ ♃</cell>
+                  <cell> 2</cell>
+                  <cell>14</cell>
+               </row>
+               <row>
+                  <cell>△ ♄</cell>
+                  <cell>15</cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>□ ☾</cell>
+                  <cell>41</cell>
+                  <cell> 6</cell>
+               </row>
+               <row>
+                  <cell>□ ♃</cell>
+                  <cell>43</cell>
+                  <cell>55</cell>
+               </row>
+               <row>
+                  <cell>⚹ ☿</cell>
+                  <cell>48</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>☌ ♂</cell>
+                  <cell>55</cell>
+                  <cell> 8</cell>
+               </row>
+               <row>
+                  <cell>☌ ♀</cell>
+                  <cell>62</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>⊖ ♄</cell>
+                  <cell>58</cell>
+                  <cell>54</cell>
+               </row>
+               <row>
+                  <cell>In Antecedentia.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>□ ♄</cell>
+                  <cell>28</cell>
+                  <cell>22</cell>
+               </row>
+               <row>
+                  <cell>□ ♂</cell>
+                  <cell>33</cell>
+                  <cell>38</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="center">DIRECTIO ☾</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>⚹ ☉</cell>
+                  <cell> 3</cell>
+                  <cell> 5</cell>
+               </row>
+               <row>
+                  <cell>☍ ♃</cell>
+                  <cell> 4</cell>
+                  <cell>22</cell>
+               </row>
+               <row>
+                  <cell>□ ♂</cell>
+                  <cell>14</cell>
+                  <cell> 1</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♄</cell>
+                  <cell>18</cell>
+                  <cell> 0</cell>
+               </row>
+               <row>
+                  <cell>□ ♀</cell>
+                  <cell>20</cell>
+                  <cell>38</cell>
+               </row>
+               <row>
+                  <cell>Septimum</cell>
+                  <cell>46</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>☌ ☿</cell>
+                  <cell>48</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♂</cell>
+                  <cell>54</cell>
+                  <cell>52</cell>
+               </row>
+               <row>
+                  <cell>□ ♄</cell>
+                  <cell>57</cell>
+                  <cell>16</cell>
+               </row>
+               <row>
+                  <cell>In Antecedentia.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>□ ☉</cell>
+                  <cell>33</cell>
+                  <cell>13</cell>
+               </row>
+               <row>
+                  <cell>☌ ♄</cell>
+                  <cell>51</cell>
+                  <cell>37</cell>
+               </row>
+            </table>
+            <lb/>
+            <pb ed="A" n="25"/>
+            <p rend="center">DIRECTIO ♀ APHETÆ</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♄</cell>
+                  <cell> 0</cell>
+                  <cell>28</cell>
+               </row>
+               <row>
+                  <cell>△ ☾</cell>
+                  <cell>17</cell>
+                  <cell> 5</cell>
+               </row>
+               <row>
+                  <cell>⚹ ☉</cell>
+                  <cell>17</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♃</cell>
+                  <cell>19</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>M.C.</cell>
+                  <cell>22</cell>
+                  <cell>49</cell>
+               </row>
+               <row>
+                  <cell>□ ☿</cell>
+                  <cell>23</cell>
+                  <cell>11</cell>
+               </row>
+               <row>
+                  <cell>☍ ♄</cell>
+                  <cell>28</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>⦶ propr.</cell>
+                  <cell>32</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♂</cell>
+                  <cell>35</cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>□ ☉</cell>
+                  <cell>48</cell>
+                  <cell>18</cell>
+               </row>
+               <row>
+                  <cell>⊕</cell>
+                  <cell>50</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>△ ☿</cell>
+                  <cell>52</cell>
+                  <cell>56</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♂</cell>
+                  <cell>56</cell>
+                  <cell>46</cell>
+               </row>
+               <row>
+                  <cell>⚹ Propr.</cell>
+                  <cell>60</cell>
+                  <cell>21</cell>
+               </row>
+               <row>
+                  <cell>In Antecedentia.</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>☌ ♂</cell>
+                  <cell> 5</cell>
+                  <cell>11</cell>
+               </row>
+               <row>
+                  <cell>□ ☾</cell>
+                  <cell>17</cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell>△ ♄</cell>
+                  <cell>44</cell>
+                  <cell>27</cell>
+               </row>
+               <row>
+                  <cell>☌ ☉</cell>
+                  <cell>62</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>Est autem circulus positionis ♀</cell>
+                  <cell/>
+                  <cell>20</cell>
+               </row>
+               <row>
+                  <cell>Desc. Obl.</cell>
+                  <cell>83</cell>
+                  <cell>34</cell>
+               </row>
+            </table>
+            <lb/>
+            <pb ed="A" n="26"/>
+            <p rend="center">DIRECTIO M.C.</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>☍ ♄</cell>
+                  <cell> 7</cell>
+                  <cell> 5</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♀</cell>
+                  <cell> 8</cell>
+                  <cell>49</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♂</cell>
+                  <cell>12</cell>
+                  <cell>56</cell>
+               </row>
+               <row>
+                  <cell>□ ☉</cell>
+                  <cell>26</cell>
+                  <cell>59</cell>
+               </row>
+               <row>
+                  <cell>⊕</cell>
+                  <cell>28</cell>
+                  <cell>36</cell>
+               </row>
+               <row>
+                  <cell>△ ☿</cell>
+                  <cell>31</cell>
+                  <cell> 8</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♂</cell>
+                  <cell>36</cell>
+                  <cell>26</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♀</cell>
+                  <cell>40</cell>
+                  <cell>26</cell>
+               </row>
+               <row>
+                  <cell>⊖ Propr.</cell>
+                  <cell>52</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>☍ ☾</cell>
+                  <cell>57</cell>
+                  <cell>35</cell>
+               </row>
+               <row>
+                  <cell>△ ☉</cell>
+                  <cell>56</cell>
+                  <cell>42</cell>
+               </row>
+               <row>
+                  <cell>☌ ♃</cell>
+                  <cell>58</cell>
+                  <cell>41</cell>
+               </row>
+            </table>
+            <lb/>
+            <p rend="center">DIRECTIO Plenilunii Eccliptici præcedentis</p>
+            <table>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>△ ☾</cell>
+                  <cell>12</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>☍ ☉</cell>
+                  <cell>14</cell>
+                  <cell>29</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♃</cell>
+                  <cell>16</cell>
+                  <cell>48</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♄</cell>
+                  <cell>30</cell>
+                  <cell>41</cell>
+               </row>
+               <row>
+                  <cell>□ ☾</cell>
+                  <cell>57</cell>
+                  <cell>10</cell>
+               </row>
+               <row>
+                  <cell>□ ♃</cell>
+                  <cell>60</cell>
+                  <cell> 4</cell>
+               </row>
+               <row>
+                  <cell>△ ☿</cell>
+                  <cell>64</cell>
+                  <cell>44</cell>
+               </row>
+               <row>
+                  <cell>Circul. pos.</cell>
+                  <cell>53 G.</cell>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>Asc. Obl.</cell>
+                  <cell>212</cell>
+                  <cell> 7</cell>
+               </row>
+            </table>
+            <lb/>
+            <pb ed="TBOO" n="I.193"/>
+            <pb ed="A" n="27"/>
+            <p rend="center">DIRECTIO ⊕</p>
+            <table>
+               <row>
+                  <cell>In Consequentia</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♀</cell>
+                  <cell>12</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>☍ ☾</cell>
+                  <cell>30</cell>
+                  <cell>46</cell>
+               </row>
+               <row>
+                  <cell>△ ☉</cell>
+                  <cell>31</cell>
+                  <cell>45</cell>
+               </row>
+               <row>
+                  <cell>☌ ♃</cell>
+                  <cell>33</cell>
+                  <cell>24</cell>
+               </row>
+               <row>
+                  <cell>□ ♂</cell>
+                  <cell>42</cell>
+                  <cell>13</cell>
+               </row>
+               <row>
+                  <cell>☍ ♄</cell>
+                  <cell>44</cell>
+                  <cell>15</cell>
+               </row>
+               <row>
+                  <cell>□ ♀</cell>
+                  <cell>46</cell>
+                  <cell>40</cell>
+               </row>
+               <row>
+                  <cell>⦶ ☿</cell>
+                  <cell/>
+                  <cell>50</cell>
+               </row>
+               <row>
+                  <cell>Asc.</cell>
+                  <cell>68</cell>
+                  <cell>28</cell>
+               </row>
+               <row>
+                  <cell>In Antecedentia</cell>
+                  <cell/>
+                  <cell/>
+               </row>
+               <row>
+                  <cell>ad</cell>
+                  <cell>G.</cell>
+                  <cell>M.</cell>
+               </row>
+               <row>
+                  <cell>□ ☉</cell>
+                  <cell> 2</cell>
+                  <cell>38</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♂</cell>
+                  <cell>17</cell>
+                  <cell>20</cell>
+               </row>
+               <row>
+                  <cell>⦶ ♀</cell>
+                  <cell>21</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>☍ ♄</cell>
+                  <cell>22</cell>
+                  <cell>52</cell>
+               </row>
+               <row>
+                  <cell>□ ☿</cell>
+                  <cell>29</cell>
+                  <cell> 0</cell>
+               </row>
+               <row>
+                  <cell>⚹ ♃</cell>
+                  <cell>32</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>⚹ ☉</cell>
+                  <cell>34</cell>
+                  <cell>03</cell>
+               </row>
+               <row>
+                  <cell>△ ☾</cell>
+                  <cell>34</cell>
+                  <cell> 3</cell>
+               </row>
+               <row>
+                  <cell>☌ ♀</cell>
+                  <cell>50</cell>
+                  <cell>30</cell>
+               </row>
+               <row>
+                  <cell>☌ ♂</cell>
+                  <cell>55</cell>
+                  <cell>15</cell>
+               </row>
+            </table>
+         </div>
+         <div xml:id="astrologicum-judicium" n="Astrologicum Judicium">
+            <head>
+               <orig>
+                  <pb ed="A" n="28"/>ASTROLOGICUM JUDICIUM HUJUS INCLYTÆ GENITURÆ.</orig>
+               <reg>Astrologicum judicium</reg>
+               <reg xml:lang="en">Astrologicum judicium</reg>
+            </head>
+            <p rend="noIndent">HACTENUS ea, qvæ ex Astronomica supputatione reqviruntur, anteqvam Judicium
+                    Astrologicum institui potest, breviter descripsimus, qvibus eæ, qvæ sequuntur,
+                    prædictiones, tanqvam fundamento, innituntur. Nunc Astrologicam considerationem
+                    aggrediar.</p>
+            <lb/>
+            <div>
+               <head>DE NUTRITIONE.</head>
+               <p rend="noIndent">Etsi consideratio nutritionis pertineat ad qvæstionem de vitæ curriculo,
+                        tamen hæc peculiarem habet apud <persName ref="ptolemaios_klaudios_0100">Ptolomæum</persName> &amp; veteres Astrologos pertractationem.
+                        Conferendo itaqve ipsius <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName>
+                        decreta cum hac genesi, judico, hunc Inclytum Natum nutritionis &amp;
+                        Infantiæ annos sine gravi Valetudinis detrimento exsuperaturum; nullum enim
+                        ex luminaribus <app>
+                     <lem>partiliter</lem>
+                     <rdg>litt. <q>rtili</q> B man. sec. e corr.</rdg>
+                  </app> in angulo male afficitur per figuram æqvicruriam. Imo ☉ apheta
+                        angularis in 7<hi rend="sup">a</hi> applicat <pb ed="A" n="29"/>△
+                        aspectui benefici Iovis admodum <app>
+                     <lem>partiliter</lem>
+                     <rdg>litt. <q>rtili</q> B man. sec. e corr.</rdg>
+                  </app>, &amp; ☾ etsi <app>
+                     <lem>in</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> 6<hi rend="sup">a</hi> domo constituatur, tamen libera est a
+                        maleficis &amp; in ⚹ partili vivifici Solis, applicans deinde ad
+                        ☍ ♃. Venus insuper genituræ Almuten fœliciter constituitur in
+                        nona domo in proprio termino, elevata super alios omnes, &amp; recedens a
+                        ♂. Ascendens etiam liberum est a maleficarum partilibus radiis.
+                        Nutritionis itaqve annos, ut dixi, fœliciter implebit, nisi qvatenus
+                        directio aphetæ ♀ ad antisciam æqvivalentem ♄, circa dimidium
+                        ætatis annum, debilitatem aliqvam adferre possit, non tamen admodum nocivam,
+                        cum ♄ sit Ascendentis Almuten &amp; bene dispositus. Circa secundum
+                        etiam annum Ascendens obviat opposito ☿, qvod parvam qvoqve
+                        valetudinis discratiam significat ex morbis puerorum. Sed de tempore hujus
+                        occursus incertum est, tum propter dubium Ascendens, tum etiam propter
+                        Mercurii locum non satis perspectum, cum inter <persName ref="alfonso_10_1221">Alphonsi</persName> &amp; <persName ref="kopernikus_nikolaus_1473">Copernici</persName>
+                  <pb ed="A" n="30"/>supputationem sit differentia 8 Grad. Atqve hæc de
+                        nutritione sufficiant.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>
+                  <pb ed="TBOO" n="I.194"/>DE VITÆ CURRICULO.</head>
+               <p rend="noIndent">Difficilis est hæc qvæstio &amp; diversimode ab Astrologis tractatur, nos
+                        tamen, <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> vestigiis inhærentes,
+                        ex directione locorum Apheticorum ad convenientes anaretas eam definiemus,
+                        non qvod certum tempus termini ipsius vitæ exqvisite &amp; fataliter
+                        determinari hinc existimem, sed saltem periculum aliqvod valetudini &amp;
+                        vitæ minari, qvod eo erit gravius, qvo occursus ille fuerit majoris
+                        virulentiæ.</p>
+               <p rend="indendt">Aphetica vero locum in hac genitura sunt, locus ☉, qvia
+                        is est in angulo 7<hi rend="sup">æ</hi> domus, etsi in fine ipsius
+                        constituatur; deinde ♀ est dispositrix loci ☉ ☾
+                        Ascendentis, &amp; ☍ præcedentis, estqve illa in nona domo loco
+                        aphetico. Ascendens etiam propter generalem vitæ significationem, qvam
+                        habet, &amp; Luna una veniunt adhibendi; ex qvorum progressu ad malevolos
+                            <pb ed="A" n="31"/>anaretarum radios, de vitæ infausta affectione, juxta
+                        ætatis annos, in qvibus hi occursus contingent, judicium feremus; ut Natus
+                        sibi &amp; suæ valetudini hoc præsertim tempore bene prospicere, &amp;
+                        pericula eminentia evadere possit.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>ENUMERATIO PRÆCIPUORUM ANNORUM, VITÆ &amp; VALETUDINI ADVERSANTIUM, EX
+                        DIRECTIONE LOCORUM APHETICORUM AD SUOS ANARETAS.</head>
+               <p rend="noIndent">Anno V<hi rend="sup">to</hi> completo labente sexto, circa ejus initia sit
+                        directio ♀ Aphetæ, conversa ad es☍ ♂, unde calida &amp;
+                        acuta discratia portenditur ex sangvinis ebullitione, non tamen lethalis
+                        propter terminum ♃.</p>
+               <p rend="indent">Anno XII labente pertingit directio Ascendentis ad □
+                        ♄, unde portenditur afflictio gravis valetudinis ex chronica aliqva
+                        ægritudine, qvalis est febris qvartana, aliqvi morbi ab atra bile originem
+                        ducentes. Interdum etiam significat læsiones &amp; contusiones ac
+                        periculosos casus; qvia tamen ♄ est Almuten Ascendentis, malum hoc
+                        non erit lethale. </p>
+               <p rend="indent">
+                  <pb ed="A" n="32"/>Anno XIV jam fere exacto, ☾ per
+                        directionem attingit □ ♂ in sexta domo, unde acuta qvædam
+                        valetudinis affectio significatur, minus tamen nociva propter terminum
+                        benefici ♃.</p>
+               <p rend="indent">Anno XXIV labente attingit Ascendens sua directione ☋ <app>
+                     <lem>caudam Draconis</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app>, unde valetudo Nati affligetur circa hoc tempus vel a rebus qvibusdam
+                        venenatis, aut ventris profluvio, vel etiam aliqvid detrimenti <app>
+                     <lem>in oculis</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> significat, fit tamen hic occursus in termino 𦁀, unde nocivus
+                        admodum esse neqvit. Sed directio ♀ ad □ ☿ circa idem
+                        tempus Natum involvit variis negotiis &amp; contentionibus cum magnis
+                        Dominis, &amp; forte causa mulierum aliqvid portendit.</p>
+               <p rend="indent">Anno XXVII labente, pertingit directio Ascendentis ad locum <app>
+                     <lem>Ecclipsis</lem>
+                     <rdg>
+                        <q>ecclipseos</q> fortasse B man. pr.</rdg>
+                  </app> ☾, qvæ nativitatem proxime antecessit. Unde discrimen aliqvod
+                        vitæ Nati minatur, vel etiam in oculis aliqvid damni: verum qvia hic <pb ed="TBOO" n="I.195"/>occursus est in termino beneficæ ♀, &amp;
+                            <pb ed="A" n="33"/>succedit immediate Antiscia 𦐃, idcirco Vitam
+                        abrumpere non potest. Adde, qvod Ecclipsis illius decreta per se non fuerunt
+                        malevola, disponente illam benefica ♀<hi rend="sup">re</hi>. </p>
+               <p rend="indent">Anno XXIX currente venit directio Solis aphetæ ad □
+                        ♄ in antecedentia, qvi occursus grave vitæ discrimen portendit, ex
+                        Saturnina &amp; melancholica aliqva affectione, præsertim qvia circa idem
+                        tempus contingit directio 9♀ Aphetæ ad ☍ ♄ qvi ab
+                        initio Venerem sua antiscia intuebatur. Unde hoc tempus circa Annum XXIX
+                        erit vitæ &amp; valetudini Nati admodum infestum, &amp; in dignationibus
+                        ejus insuper adversitates movebuntur. Unde opus est, ut circa hoc tempus suæ
+                        valetudini &amp; dignitati bene prospiciat.</p>
+               <p rend="indent">Anno XXXVI attingit directio ♀ Aphetæ ad Antisciam
+                        ♂, qvæ ob id est nocentior, qvia Mars Veneri ab initio copulabatur.
+                        Afficietur itaqve Natus hoc tempore morbis martialibus &amp; venereis ex
+                        nimia luxuria &amp; crapula oriundis. </p>
+               <p rend="indent">
+                  <pb ed="A" n="34"/>Anno XXXIX facit directio Ascendentis saltum
+                        a fine ♎︎ in Scorpionem qvem exhalma vocant. Portenduntur itaqve
+                        discrimina ex venenatis, pestiferis rebus &amp; inimicitiis multis.</p>
+               <p rend="indent">Anno XLII venit directio Ascendentis ad ☍ ☉ in
+                        termino ♂, &amp; Sol ipse eodem anno □ ☾ sua directione
+                        attingit constitutæ in 6<hi rend="sup">a</hi> domo. Unde etiam discrimina
+                        vitæ &amp; valetudinis portenduntur, præsertim qvia Sol Apheta occiduum
+                        cardinem hoc tempore petit, qvod juxta <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> sententiam funestum est; qvia tamen radii
+                        intercidentes remoram aliqvam faciunt, de his postea dicam.</p>
+               <p rend="indent">Anno XLV ♀ directione conversa attingit △
+                        ♄ in 8<hi rend="sup">a</hi> domo, qvod ex bile atra valetudinis
+                        aliqvam alterationem causare potest, qvia ♀ fuit in principio in
+                        antiscia ♄; sed radius hic per se non est malevolus, unde minus
+                        nocet.</p>
+               <p rend="indent">Anno XLVII attingit ☾ cardinem occiduum, &amp; anno XLIX
+                        corpus ☿, unde mutationes &amp; discrimina ac <pb ed="A" n="35"/>dissidia portenduntur præsertim causa mulierum.</p>
+               <p rend="indent">Anno LII Luna per directionem conversam attingit corpus
+                        ♄, qvod gravem valetudinis alterationem ex humoribus melancholicis
+                        &amp; atra bile portendit, variasqve animi perturbationes tristitiasqve
+                        affert; qvia tamen Luna magnam significationem Apheticam non habet, &amp;
+                        directio hæc fit in termino benefici ♃, cum antiscia ♀
+                        concurrente, poterit malum hoc evadere.</p>
+               <p rend="indent">Anno LVI Sol principalis apheta sua directione attingit corpus
+                        ♂ anaretæ domini occasus. Unde grave discrimen vitæ circa hoc tempus
+                        portenditur, nec multum proderit præsentia ♀, cum sit domina 8<hi rend="sup">æ</hi> domus &amp; antiscia ♄ intervenit statim
+                        seqvens corpus ♂. Concurrit etiam circa hoc idem tempus malevola
+                        directio omnium fere aliorum aphe<pb ed="TBO" n="I.196"/>tarum ad diversa
+                        locum anaretica. Venus enim Apheta juxta LVII annum ⚹ Martis
+                        attingit, qvi ipsam ab initio sua coniunctione læsit; Luna etiam eodem
+                        tempore □<hi rend="sup">to</hi> Saturni applicat; Ascendens qvoqve ad
+                        ⚹ ♄, qvi <app>
+                     <lem>se</lem>
+                     <rdg>
+                        <q>ipsum</q> B man. pr.</rdg>
+                  </app> ab initio <pb ed="A" n="36"/>⚡ læsit, appropinqvat: adde qvod
+                        ⊕ circa hoc idem tempus conversa directione corpus ♂
+                        asseqvitur, adeoqve omnia principalia vitæ loca per directionem male
+                        afficiantur circa I &amp; LVI &amp; LVII annum. Unde hoc tempus admodum
+                        fatale erit, &amp; vitæ maximum discrimen portendit. Accedit &amp; hoc, qvod
+                        si Arabum placita seqvamur sive ♀<hi rend="sup">rem</hi> constituamus <app>
+                     <lem>Alchocoden</lem>
+                     <rdg>om. B spatio relicto</rdg>
+                  </app>, sive ☾<hi rend="sup">nam</hi> propter Solem hylech, sive
+                            ☿<hi rend="sup">rium</hi>, si hylech erit Venereus, ubiqve non
+                        datur vita Nati ultra LVI annos, &amp; omnium ratio fere circa hunc terminum
+                        concurrit. Illud vero certius est testimonium, fatalem vitæ terminum circa
+                        hoc tempus impendere, qvod ☉ principalis apheta in occasu per
+                        directionem tunc abscondatur, habita ratione radiorum intervenientium, pro
+                        ut ex situ enitentis per horaria tempora descensum achetæ remorantur vel
+                        accelerant, qvem ad modum <persName ref="ptolemaios_klaudios_0100">Ptolomæus</persName>
+                        docuit in eo casu, qvando Apheta unicum habet anaretam occasum; per<pb ed="A" n="37"/>tingit enim Sol propria directione ad occasum in annis
+                        XLII, verum ⚹ ☾ addit 3 annos, eo qvod præsit loco ☉
+                        per exaltationem, &amp; est in terminis bonis; ⚹ ♀ addit 8
+                        annos cum semisse; antiscia ♃ addit 14½ , præsertim qvia ♃
+                        respexit ☉<hi rend="sup">lem</hi>per △; ☊ &amp;
+                        ☿cum sint indifferentes, nihil addunt, præsertim tam vicini occasui.
+                        Adduntur itaqve totaliter anni 26, qvibus ♄ □ una interveniens
+                        detrahit annos 10⅔, ut sint saltem 15⅓ anni, qvibus remoratur descensus
+                        ☉ ad occasum, qvi adjecti ad gradus &amp; tempus directionis ☉
+                        ad occidentem 41¼ coaugmentant annos LVI cum semisse, &amp; in tot annis
+                        absconditur Sol apheta infra horizontem, qvi terminus vitæ est ultimus in
+                        tali situ aphetæ, juxta <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName>
+                        sententiam. Qvapropter, cum circa LVI vel LVII annum tot concurrant
+                        significationes vitæ adversæ, Natus difficulter hunc terminum, qvantum ad
+                        Astrologiæ coniecturas attinet, exsuperabit; nisi <pb ed="A" n="38"/>Deus
+                        peculiariter vitam prolongare <app>
+                     <lem>velit</lem>
+                     <rdg>
+                        <q>volet</q> B man. pr.</rdg>
+                  </app>, in cujus nutu &amp; arbitrio omnis periodus vitæ humanæ consistit,
+                        &amp; is solus præscribit homini terminum, qvem pertransire non potest. Ea
+                        vero, qvæ hic dicuntur, saltem sunt physicæ coniecturæ. Superato vero, si
+                        fieri potest, hoc fatali termino, tandem bonam senectutem attinget. Atqve
+                        hæc in numeratione annorum vitæ adversantium sufficiant, ubi exqvisite is
+                        annus, qvi assignatur, forte ubiqve juxta effectum non respondebit, sed
+                        fieri potest, ut uno anno vel dimidio, prius vel serius hæc decreta
+                        proveniant, propter tempus nativitatis æstimative sumtum, idqve præsertim in
+                        iis directionibus, qvæ ab Ascendente &amp; ⊕ procedunt; in cœteris
+                        non erit magnum discrimen. In reliqvis vero annis, hic non commemoratis,
+                        bene habebit; qvamvis enim ex revolutionibus &amp; profectionibus vel
+                        transitibus, aut aliqva inferiori causa aliqvid adversi in <pb ed="TBOO" n="I.197"/>valetudine causari possit, hoc tamen minoris <pb ed="A" n="39"/>erit efficaciæ &amp; non magni momenti, cum præcipua sit circa
+                        directionum decreta potestas.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE DOMINO GENITURÆ.</head>
+               <p rend="noIndent">Absoluta pertractatione de vitæ curriculo cum inde concludi astrologice
+                        possit, Inclytum hunc Natum ad ætatem diuturnam pervenire posse, consequens
+                        erit de iis, qvæ communiter in actionibus &amp; statu vitæ contingunt,
+                        judicium ferre; ac primum qvidem de Domino Genituræ dicam, eo qvod is
+                        principalem significationem in omnibus inclinationibus &amp; actionibus
+                        obtineat. Considerando itaqve juxta Astrologorum <app>
+                     <lem>rationabiliora</lem>
+                     <rdg>
+                        <q>rationabilia</q> B man. pr.</rdg>
+                  </app> placita, invenio, qvod VENUS sit principalis gubernatrix in hac
+                        genitura, eo qvod <app>
+                     <lem>hæc</lem>
+                     <rdg>B man. sec. e corr.</rdg>
+                  </app> locum utriusqve luminaris &amp; Ascendens ipsum locumqve plenilunii
+                        eccliptici præcedentem disponat, &amp; in mundo elevatur supra omnes alios
+                        versus cuspidem Medii Cœli in apogæo sui eccentrici. Hæc vero, qvia Marti
+                        permiscetur per conjunctionem, &amp; Mercurio <app>
+                     <lem>ob</lem>
+                     <rdg>
+                        <q>ab</q> B man. pr.</rdg>
+                  </app>
+                  <pb ed="A" n="40"/>ejus domicilium, in qvo versatur, plurimum cum illis
+                        participat. Saturnus etiam in propria domo &amp; carpento Almuten
+                        Ascendentis &amp; Dominus horæ in angulo imi cœli constitutus, Veneriqve per
+                        antisciam alligatus, non excludendam potestatem sibi arrogat, ita tamen ut
+                        principale dominium sit penes Venerem. Venus itaqve gubernatrix principalis
+                        per se facit Natum delectabilem, lætum, amabilem, gratum, venustum,
+                        amatorem, voluptatibus luxui &amp; libidini deditum, idqve præsertim qvia
+                        Marti permiscetur; justum tamen &amp; beneficum reddit, &amp; corporis
+                        decentem venustatem cum apta membrorum proportione largitur; ad rem tamen
+                        veneream assidua cupiditate stimulat; facit tamen in omni vita nobilem,
+                        mundum, &amp; in <app>
+                     <lem>gerendis rebus</lem>
+                     <rdg>
+                        <q>rebus gerendis</q> B man. pr.</rdg>
+                  </app> alacritatem addit, non sine gratia; delectabitur etiam plurimum
+                        Musica, cantu, fidibus, ludis &amp; choræis <app>
+                     <lem>&amp;</lem>
+                     <rdg>
+                        <q>nec non</q> B man. pr.</rdg>
+                  </app> picturarum aliarumqve pulcrarum <pb ed="A" n="41"/>rerum delectatione
+                        afficietur. Qvia vero Veneri permiscetur Mars, dominus existens loci
+                        ☿ per receptionem, audaciam magnam &amp; animositatem addit, &amp;
+                        rebus bellicis ac martialibus facit cum voluptate affici, præsertim qvia est <app>
+                     <lem>inter</lem>
+                     <rdg>
+                        <q>in</q> B man. pr.</rdg>
+                  </app> claras Erichtonij &amp; Orionis stellas ♂ &amp; ♀
+                        constitutio, &amp; Mars exqvisite est in longitudine cum Bellatrice in
+                        sinistro Orionis humero. Unde plurimum occupabitur hic Natus circa res
+                        bellicas, &amp; in iis ingenium magnum cum celeri successu habebit propter
+                        receptionem ♂ &amp; <app>
+                     <lem>♀</lem>
+                     <rdg wit="#B">☿</rdg>
+                  </app>. Nam Mercurius, qvia ♂ &amp; ♀ loca disponit, acumen
+                        &amp; celeritatem ingenii addit in rebus gerendis. Saturnus vero, una
+                        prærogativam aliqvam obtinens, cum sit bene constitutus, constantiam addit,
+                        &amp; gravitatem etiam qvandam insinuat, &amp; profunda consilia suppeditat
+                        cum laborum tolerantia; &amp; famam etiam ita positus ex rebus gestis magnam
+                        &amp; <app>
+                     <lem>diuturnum</lem>
+                     <rdg>
+                        <q>diuturnam</q> B man. pr. ut videturde_mundi_ætherei
+                                </rdg>
+                  </app> nomen pollicetur. <pb ed="A" n="42"/>Hæc &amp; similia ex generali
+                        qvadam significatione stellarum, qvæ præsunt &amp; Dominium <pb ed="TBOO" n="I.198"/> in genitura obtinent, effici, verisimile est. Nunc ad magis
+                        particularem considerationem accedamus.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE COMPLEXIONE.</head>
+               <p rend="noIndent">Temperamentum hujus inclyti Nati erit principaliter sangvineum, qvod Medici
+                        temperatum ajunt, &amp; calidæ humidæqve qvalitatis existit. Nam Ascendens
+                        ipsum &amp; Domina ipsius Venus qvartaqve anni Lunæqve constitutio, omnesqve
+                        planetæ, complexionem significantes, sunt maxima ex parte in signis
+                        sangvineæ complexionis &amp; triplicitate aërea, adeo ut duplicia sint
+                        testimonia calidi &amp; humidi ad frigus &amp; siccitatem: qvales vero
+                        affectiones hæc complexio inducat, a Medicorum doctrina petatur. Non tamen
+                        erit hæc sangvinea <app>
+                     <lem resp="TBOO">crasis</lem>
+                     <rdg wit="#A #B">crassis</rdg>
+                  </app> sine saturnina qvadam gravitate &amp; heroica Melancholia, qvæ
+                        levitatem prioris Complexionis egregie temperabit, &amp; a <app>
+                     <lem wit="#A">ludicris</lem>
+                     <rdg>
+                        <q>ludieris</q> B ut videtur</rdg>
+                  </app> rebus ad alta consilia capescenda Natum <pb ed="A" n="43"/>interdum
+                        revocabit.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE MORIBUS &amp; INCLINATIONIBUS.</head>
+               <p rend="noIndent">Mores ut plurimum imitantur Temperamenti qvalitatem; cum itaqve complexionem
+                        significari sangvineam ex prioribus constet, Mores erunt hilares, alacres,
+                        amabiles, raro tristes, &amp; gratiam affabilitatemqve venustam largientes,
+                        cum assidua delectatione in pulcris &amp; jucundis rebus, qvod ♀,
+                        Domina totius genituræ, &amp; significatrix principalis morum, plurimum
+                        intendit, facitqve una choræis, amoribus, voluptati, cantibus &amp; musicæ
+                        apprime deditum. Sed propter commixtionem, qvam habet cum ♂, facit
+                        nimis venereum &amp; libidinosum <app>
+                     <lem>&amp;</lem>
+                     <rdg>
+                        <q>ac</q> B man. pr.</rdg>
+                  </app> voluptatibus corporis nimium interdum indulgentem. Mars vero dominus
+                        loci ☿ unaqve dispositor animæ, &amp; Veneri permixtus, generositatem
+                        addit, &amp; animum ad principatum adspirantem efficit, cum vindictæ
+                        cupiditate &amp; injuriarum impatientia qvadam; <pb ed="A" n="44"/>divitiarum etiam acrem cupiditatem præbet, cum sit Dominus secundæ domus,
+                        fortitudinem insuper &amp; audaciam donat, qvâ sine <app>
+                     <lem>metu</lem>
+                     <rdg>
+                        <q>motu</q> B man. pr.</rdg>
+                  </app> periculis obvius eat: reddit vero inprimis ad bella gerenda &amp;
+                        hostiles pugnas admodum proclivem, idqve eo magis, qvod ♂ sit in
+                        longitudine cum Bellatrice Orionis, qvâ stellâ nulla alia ex fixis magis
+                        bella &amp; hostiles effectiones significat; ☿ vero Martem recipiens,
+                        ingenii acumen &amp; celeritatem in agendis rebus addit, præsertim in iis,
+                        qvæ ad bellicam administrationem pertinent, &amp; in martialibus negotiis ac
+                        operationibus versantur. ♄ vero, Almuten horoscopi, constantiam,
+                        gravitatem judicii &amp; patientiam <app>
+                     <lem>laborum</lem>
+                     <rdg>
+                        <q>laboris</q> B man. pr. ut videtur</rdg>
+                  </app> addit. Atqve hæc omnia fere conveniunt cum iis, qvæ supra de
+                        significatione dominorum genituræ diximus; sunt enim iidem hic morum &amp;
+                        inclinationum significatores.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>
+                  <pb ed="TBOO" n="I.199"/>
+                  <pb ed="A" n="45"/>DE STATURA &amp; CONFORMATIONE CORPORIS.</head>
+               <p rend="noIndent">Etsi corporis forma &amp; constitutio ut plurimum progenitorum similitudinem
+                        imitatur, tamen siderum decreta etiam hac in parte plurimum efficiunt.
+                        Indicatur autem in hac genesi constitutio corporis decens, sed ad
+                        proceritatem potius qvam <app>
+                     <lem>brevitatem</lem>
+                     <rdg>
+                        <q>ad brevitatem</q> B man. pr.</rdg>
+                  </app> tendens, eo qvod ♀ domina horoscopi constituatur cum ♂
+                        in ♊︎ exqvisite in apogæo sui eccentrici, occidentales ambo a Sole.
+                        Qvantum vero ad crassitudinem attinet, mediocritas qvædam significatur,
+                        &amp; media qvædam constitutio inter maciem &amp; corpulentiam, idqve
+                        indicatur tam ex signo Libræ horoscopante &amp; utroqve ejus almuten, qvam a
+                        Veneris etiam latitudine, qvæ medio modo se habet. Tota <app>
+                     <lem>vero</lem>
+                     <rdg>
+                        <q>autem</q> B man. pr. ut videtur</rdg>
+                  </app> proportio &amp; conformatio corporis, ut uno verbo dicam, erit
+                        decens, pulcra, cum venusto colore &amp; concinna membrorum forma. <pb ed="A" n="46"/>Incedet tamen aliqvo modo incurvis humeris propter
+                        ☋ constitutionem in horoscopo.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE INFIRMITATIBUS CORPORIS.</head>
+               <p rend="noIndent">Qvia nec luminaria nec Ascendens læduntur partiliter malevolorum radiis,
+                        Natus non erit admodum valetudinarius, sed fortis &amp; ut plurimum prospera
+                        sanitate corporis præditus. Si qvæ tamen adversæ valetudinis erunt causæ, <app>
+                     <lem>hæ</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> potissimum erunt ex Joviali significatione provenientes. Jupiter enim
+                        dominus existens 6<hi rend="sup">æ</hi> domus &amp; loci Lunæ admodum male
+                        constituitur in XII<hi rend="sup">a</hi> domo, in <app>
+                     <lem resp="TBOO">decremento</lem>
+                     <rdg wit="#A #B">detrimento</rdg>
+                  </app> suo peregrinus, retrogradus, læsus insuper □ ♂ partili.
+                        Unde portenduntur morbi, ut dixi, joviales, qvales sunt illi, qvi ex hepatis
+                        affectione &amp; sangvinis intemperata habitudine originem ducunt. Lunæ
+                        insuper constitutio, in 6<hi rend="sup">a</hi> domo in platico qvadrato
+                        Martis, debilitatem ventriculi, vesicæ &amp; interdum etiam capitis ac
+                        cerebri inducit, qvæ tamen non erit magni <pb ed="A" n="47"/>momenti, qvia
+                        Luna non partiliter male afficitur in sexta, &amp; est in ⚹ ☉
+                        &amp; ☍ ♃ in termino <app>
+                     <lem wit="#B">beneficæ</lem>
+                     <rdg wit="#A">beneficis</rdg>
+                  </app> ♀<hi rend="sup">ris</hi>. Qvia vero ♂, ut dixi, lædit
+                        utrumqve significatorem, &amp; ♃ dominum VI<hi rend="sup">æ</hi>
+                        domus &amp; Lunam in VI<hi rend="sup">a</hi> constitutam, per qvadratum,
+                        &amp; ipse est cum Venere domina horoscopi constitutus, portendit ex nimia
+                        crapula, luxuria &amp; immoderata Venere valetudinis <app>
+                     <lem>afflictionem</lem>
+                     <rdg>
+                        <q>affectionem</q> B man. pr. ut videtur</rdg>
+                  </app> &amp; morbos significat, qvi ex his naturæ gravaminibus originem
+                        trahunt.</p>
+               <p rend="indent">
+                  <app>
+                     <lem>Erunt</lem>
+                     <rdg>post <q>Erunt</q> add. <q>tamen</q> B man. pr.</rdg>
+                  </app> affectiones valetudinis, qvibus obnoxius fiet, facile curabiles, eo
+                        qvod significatores omnes sint in terminis beneficorum Planetarum
+                        constituti, &amp; Martis virus temperatur per præsentiam Veneris, <app>
+                     <lem>qvæ</lem>
+                     <rdg>
+                        <q>quæ</q> ex <q>qui</q> corr. B ut videtur</rdg>
+                  </app> supra ipsum exaltatur, &amp; ipse per se est in bono statu, cum sit
+                        receptus a ☿ per ⚹ aspectum. Tempora vero ætatis, qvibus
+                        imprimis erit obnoxius infirmitatibus, peti possunt ex iis, qvæ supra in
+                        loco de vita commemoravi, idqve qvoad directiones attinet, qvæ potissimum
+                        significationem hac in parte obtinent; <pb ed="A" n="48"/>profectionum enim
+                        decreta non ita <pb ed="TBOO" n="I.200"/> evidentes habent effectus, nec
+                        durabiles adferunt impressiones. Si tamen ex profectionibus etiam
+                        valetudinis impedimenta inqvirere velimus, evenient hæc potissimum iis
+                        annis, qvibus Ascendentis profectio Saturni malevolos radios asseqvitur, ut
+                        anno 1. 4. 7. 10. 13. 16. 19. 21. 24. 27. 30. 33. 36. 39. 42. 45. 48. 51.
+                        54. 57, idqve potissimum circa commemoratos ætatis annos ubiqve accidet
+                        mense 4<hi rend="sup">to</hi>, qvi in Julium cadit; unde hic mensis in
+                        prædictis annis erit valetudini adversus; idqve præsertim ubi directiones
+                        malevolæ circa idem tempus coincidunt, ut anno 1, circa ejus medietatem;
+                        Anno 12, cum Ascendens venit ad □ ♄, Anno 24. 27. 36. 39. 42.
+                        &amp; 57; in his enim annis malevolæ directiones concurrunt profectionibus.
+                        Poterit itaqve Natus circa hæc præsertim tempora suæ valetudini bene
+                        prospicere, &amp; non dare occasionem ex inferioribus causis, ut augeantur
+                        astrorum decreta, sed potius ea per bonam diætam &amp; valetudinis <app>
+                     <lem>sedulam</lem>
+                     <rdg>litt. <q>dul</q> B man. sec. e corr.</rdg>
+                  </app> curam impedire <pb ed="A" n="49"/> &amp; avertere. Atqve hæc de iis,
+                        qvæ ad corpus pertinent, sufficienter dicta sunt.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE INGENIO.</head>
+               <p rend="noIndent">Ingenii boni &amp; acuti excellentes sunt in hac genesi significationes.
+                        Mercurius enim in ♈︎ constitutus recipit ♂ ex domicilio per
+                        ⚹ aspectum. Et ipse ☿ est angularis in cuspide 7<hi rend="sup">æ</hi> domus applicans ad nodum ☾<hi rend="sup">næ</hi>, qvem
+                        caput Draconis vocant; qvæ constitutio insignem &amp; evidentem solertis
+                        ingenii &amp; miræ celeritatis acuminis in percipiendis rebus <app>
+                     <lem>dispositionem</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> non obscure largitur, præsertim qvia ☿ est dominus IX<hi rend="sup">æ</hi> domus, qvæ scientiis attribuitur, &amp; ♂,
+                        ipsum recipiens, constituitur in IX<hi rend="sup">a</hi> cum Venere. Accedit
+                        &amp; hoc, qvod alter Lunæ nodus constituatur in Ascendente. Erit itaqve hic
+                        Natus admodum ingeniosus &amp; solers, magnaqve celeritate ea addiscet, ad
+                        qvæ animum applicuerit; inprimis autem in publicis rebus &amp; martialibus
+                        negotiis erit solers &amp; ingeniosus; in scientiis etiam liberalibus, si
+                        eas tractaverit, evadet apprime peritus <pb ed="A" n="50"/>&amp; facile eas <app>
+                     <lem>asseqvetur</lem>
+                     <rdg>litt. <q>ve</q> B man. sec. e corr.</rdg>
+                  </app>, præsertim in iis, qvæ ad divinationes &amp; ad <app>
+                     <lem>politicam</lem>
+                     <rdg>litt. <q>am</q> B man. sec. e corr.</rdg>
+                  </app> philosophiam pertinent. Plurima itaqve concurrunt excellentis ingenii
+                        testimonia in hac genitura, nec obstat, qvod ☿ sit motu tardus, &amp;
+                        □ Saturni ex angulo lædatur: id enim potius difficultates qvasdam
+                        &amp; perturbationes nonnunqvam Saturninas objicere potest, tot vero acuti
+                        ingenii indicia minime infringit.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE EXERCITATIONE &amp; STUDIO NATI.</head>
+               <p rend="noIndent">Mercurius in hac genesi est principalis exercitationis significator, eo qvod
+                        is sit in 7<hi rend="sup">a</hi>
+                  <app>
+                     <lem>domo</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> angulariter constitutus, proxime egrediens radios solares, &amp;
+                        disponens insuper locum <app>
+                     <lem>♂<hi rend="sup">tis</hi> &amp; ♀<hi rend="sup">ris</hi>
+                     </lem>
+                     <rdg>
+                        <q>♀<hi rend="sup">ris</hi> &amp; ♂<hi rend="sup">tis</hi> B man. pr.</q>
+                     </rdg>
+                  </app>. Is itaqve cum sit per receptionem in martialibus dignitatibus in
+                        domo 7<hi rend="sup">a</hi>, portendit, qvod Natus in suo opere &amp;
+                        exercitio maxime delectabitur rebus martialibus, qvæ <pb ed="TBOO" n="I.201"/>ad bellum &amp; militiam exercendam spectant. Erit insuper venationi
+                        plurimum deditus, qvia ♂ cadens ab angulo configuratur <pb ed="A" n="51"/> Mercurio existenti in domo sua, qvi juxta Hermetem venationibus
+                        plurimum affici &amp; licrosis ludis indulgere significat. Amabit interim
+                        &amp; disciplinas liberales, &amp; a rebus, qvæ ad Medicinam, vel potius
+                        Chirurgiam, spectant, suo tempore non erit alienus, habebitqve omnes
+                        ingeniosas artes &amp; homines artificiosos in pretio. Gaudebit etiam
+                        fidibus ludere, &amp; poesi ac picturarum pulchritudine afficietur, propter
+                        constitutionem ♀ in ♊︎ in <app>
+                     <lem>IX<hi rend="sup">a</hi>
+                     </lem>
+                     <rdg>post <q>IX<hi rend="sup">a</hi>
+                        </q> add. <q>domo</q> B man.
+                                    pr.</rdg>
+                  </app>, qvæ disponit locum ☾ &amp; habet terminum in loco ☿<hi rend="sup">rii</hi> una cum ⚹ aspectu. Principalis tamen
+                        significatio exercitationum erit in iis, qvæ dixi ex ☿<hi rend="sup">rii</hi> &amp; ♂<hi rend="sup">tis</hi> natura mutuaque
+                        commixtione procedere, propter qvam etiam constitutionem &amp; ea, qvæ de
+                        ingenio dixi, maxime erit industrius in tractandis rebus.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE FORTUNA IN GENERE.</head>
+               <p rend="noIndent">Absolutis iis, qvæ circa corpus &amp; animum considerantur, conseqvens erit
+                        de rebus fortunæ &amp; externis <pb ed="A" n="52"/>judicium instituere.
+                        Qvantum igitur ad generalem fortunæ constitutionem spectat, deprehendo in
+                        hac genesi tres planetas in domo, vel receptione ex domicilio, qvod idem
+                        est, constitui; ♄ enim in ♑︎ in propria domo versatur, &amp;
+                        ☿ est in ♈︎ in domo ♂<hi rend="sup">tis</hi>; ipse vero
+                        Mars vicissim in ♊︎ domo ☿, qvod idem est, ac si uterqve in
+                        propria domo constitueretur, præsertim cum hæc mutua receptio sit per
+                            ⚹<hi rend="sup">tilem</hi> aspectum, &amp; ex bonis etiam cœli
+                        locis. Unde plus qvam mediocris fortuna <app>
+                     <lem>pollicetur</lem>
+                     <rdg>
+                        <q>promittitur</q> B, ubi tamen litt. <q>rom</q> deletæ
+                                    sunt</rdg>
+                  </app> in toto vitæ &amp; actionum genere, eritqve Natus maxima ex parte
+                        fœlix &amp; fortunatus in suis negotiis, bonumqve &amp; auspicatum successum
+                        experietur in rebus gerendis. Accedit &amp; hoc, qvod Sol sit angularis in
+                        △ partili ♃ &amp; ⚹ aspectu ☾, omnesqve planetæ,
+                        exceptô solô ♃, bene se habent, &amp; constituuntur in terminis
+                        beneficorum planetarum. Unde evidens fortuna in plurimis rebus <pb ed="A" n="53"/>per totum fere vitæ curriculum generaliter significatur. In
+                        Iovialibus tamen &amp; Ecclesiasticis rebus erit minus fortunatus propter
+                        infœlicem ♃ constitutionem.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE HONORIBUS &amp; DIGNITATIBUS.</head>
+               <p rend="noIndent">Illustris honorum &amp; dignitatum sublimium significatio in hac genesi
+                        existit ob splendidissimam, qvæ est inter omnes in firmamento fixas,
+                        stellam, Alhabor appellatam, <app>
+                     <lem>qvæ in ore est Syrii, constitutam</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> hic exqvisite in cuspide M. C., qvod per se etiam absqve aliis
+                        testimoniis splendidum &amp; magnificum dignitatis statum <app>
+                     <lem>etiam</lem>
+                     <rdg>
+                        <q>vel</q> fortasse B man. pr.</rdg>
+                  </app> in vulgarium hominum genituris, nedum in hac regia stirpe oriunda
+                        pollicetur. Perveniet itaqve hic inclytus Natus ad celsum dignitatis
+                        fastigium, &amp; a plurimis in maximo honore atqve reverentia habebitur,
+                        &amp; potentiam ac dominium in multos asseqvetur. Huic significationi
+                        adstipulantur &amp; <pb ed="TBOO" n="I.202"/>aliæ fixæ stellæ in cardinibus,
+                        qvamvis non adeo partiliter positæ, ut capita Geminorum in X<hi rend="sup">a</hi> domo, &amp; Spica♍︎ in Ascendente, Corona borealis <pb ed="A" n="54"/>paulo supra Ascendentis lineam elevata, &amp; Corona
+                        meridionalis exqvisite in cuspide imi cœli constituta. Atqve hæc qvoad
+                        fixas. Qvantum vero ad planetarum testimonium attinet, est Sol principalis
+                        significator bene constitutus in angulo, &amp; , qvod optimum est,
+                        partiliter accedens ad △ Iovis <app>
+                     <lem>a</lem>
+                     <rdg>ex <q>ad</q> corr. A</rdg>
+                  </app> ⚹ ☾ dominæ M. Cœli defluens, stipaturqve Sol, in signo
+                        antecedente &amp; seqvente, tribus planetis, &amp; cœteri omnes <app>
+                     <lem>benevolis</lem>
+                     <rdg>
+                        <q>venerosis</q> B man. pr. ut videtur</rdg>
+                  </app> radiis ipsum aspiciunt. Unde, non solum ex fixis stellis, sed etiam
+                        qvoad planetarum Solisqve imprimis statum, magna evidensqve fortuna
+                        significatur in honoribus &amp; dignitatibus amplissimis celsiqve dominii
+                        eminentia acqvirendis; qvia tamen ambo dispositores medii cœli cadunt ab
+                        angulis, ♃ male constitutus in XII<hi rend="sup">a</hi> domo &amp;
+                        ☾ in VI<hi rend="sup">a</hi>, ♄ insuper Medium Cœli radio
+                        ☍ ferit, portendit, ipsum etiam suo tempore graves adversitates &amp;
+                        difficultates experturum in suis dignitatibus, adeo ut periculum sit, ne iis
+                        excidat, qvod tamen penitus significari <pb ed="A" n="55"/>non potest, cum
+                        alia se bene habeant; &amp; ambo dispositores Medii Cœli, tam ♃ qvam
+                        ☾, <app>
+                     <lem>etsi</lem>
+                     <rdg>om. fortasse B man. pr.</rdg>
+                  </app> cadant ab angulis, tamen exqvisite apicem decimæ domus benefice <app>
+                     <lem>intuentur</lem>
+                     <rdg>
+                        <q>intueantur</q> B man. pr. ut videtur</rdg>
+                  </app> radio, Jupiter qvidem per ⚹, Luna vero per △ aspectum,
+                        qvod plurimum etiam facit ad honorum fastigium asseqvendum &amp;
+                        conservandum. Tempora vero, qvibus imprimis fortunatus erit in asseqvendis
+                        amplis dignitatibus, erunt hæc: primo in ipsa fere infantia circa annum 3
+                        ætatis, cum ☉ venit ad △ ♃ &amp; ☾ ad ⚹
+                        ☉, qvamvis id evidentem effectum vix habere potest, siqvidem non
+                        contingat in legitima ætate &amp; convenienti annorum Alfridaria. Circa
+                        annum deinde 9 venit M. C. ad antisciam ♀, qvæ domina est genituræ,
+                        qvod plurimum etiam in dignitatibus largiri potest. Imprimis vero erit
+                        fortunatus in dignitatibus asseqvendis a 17 in 20 annum, cum ♀
+                        genituræ domina radios benevolos luminarium ☾ ☉ &amp; ♃
+                        sua directione asseqvitur. Prius <pb ed="A" n="56"/>etiam juxta 13 annum,
+                        cum M. Cœli sua directione duas simul illustriores stellas fixas attingit,
+                        videlicet <app>
+                     <lem>Meridionale</lem>
+                     <rdg>
+                        <q>medionale</q> B man. pr.</rdg>
+                  </app> caput ♊︎ &amp; <app>
+                     <lem>Procyonis</lem>
+                     <rdg>A B man. sec.; <q>Scorpionis</q> B man. pr. ut
+                                videtur</rdg>
+                  </app> lucidam, qvod <app>
+                     <lem>evidentius</lem>
+                     <rdg>
+                        <q>evidenter</q> B man. pr. ut videtur</rdg>
+                  </app> circa hoc tempus honores largitur, qvia illæ ab initio principaliter
+                        per fixam clarissimam in cœli culmine positam significabantur. Circa annum
+                        insuper 29, cum M. C. venit ad locum ⊕, &amp; juxta 32, cum ipsa
+                        ⊕ Solis triangulum attingit. Imprimis vero circa 34 annum, qvando
+                        eadem ⊕ corpus ♃<hi rend="sup">is</hi> asseqvitur, qvamvis
+                        infœliciter positi. Circa 44 etiam annum honoribus augmentabitur, cum
+                        ☉ accedit ⚡<hi rend="sup">to</hi> ♃, qvia is Solem ab
+                        initio △ aspexit. Erunt autem difficultates circa annum 7 in
+                        dignitatibus, qvia ♄ ☍ tunc pervenit ad cœli culmen, sed hoc
+                        in ea ætate parum habet momenti. 29 vero jam <app>
+                     <lem>fere</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> completo, Venus ipsa ad idem ♄ oppositum venit; unde <app>
+                     <lem>hoc</lem>
+                     <rdg>
+                        <q>Sol</q> B man. pr.</rdg>
+                  </app> non minus in dignitate qvam valetudine detrimenti afferre posset,
+                        nisi <pb ed="TBOO" n="I.203"/>
+                  <pb ed="A" n="57"/>eodem tempore ⊕ cœli
+                        culmen attingeret; unde varia erit circa illum annum fortunæ vicissitudo.
+                        Anno 36, cum M. C. venit ad ⚹ ♂, &amp; 41, cum idem ad
+                        ⚹ ♀ pertingit, fœlicitas in honoribus portenditur. Post 55
+                        vero ætatis annum, qvando ☉ sua directione corpus ♂
+                        asseqvitur, adversitates erunt graves non solum in vita &amp; valetudine
+                        Nati, sed etiam in ipsius honoribus <app>
+                     <lem>&amp;</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> dignitatis statu, ingruente etiam paulo post fatali significatione,
+                        qvantum ad vitam attinet, ut superius in loco de vita ex directione
+                        præcipuorum Aphetarum ad diversos Anaretas circa hoc tempus <app>
+                     <lem>coincidente</lem>
+                     <rdg>
+                        <q>concidente</q> B man. pr.</rdg>
+                  </app> copiosius declaravi. Ulterior autem consideratio annorum, qvibus
+                        Natus fœlix erit in honoribus capescendis, vel in iis adversitates
+                        experietur, peti potest ex revolutionibus annorum faustis vel adversis
+                        incidentibus in conveniente ætatis Alfridaria, <app>
+                     <lem>qvas</lem>
+                     <rdg>
+                        <q>qvam</q> fortasse B man. pr.</rdg>
+                  </app> nimis perplexum &amp; longum foret hic sigillatim perqvirere,
+                        præsertim cum per se singulæ amplam pertractationem habeant; eas <pb ed="A" n="58"/>itaqve peculiari opera pertractandas hic prætermittendas
+                        duximus.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE DIVITIIS.</head>
+               <p rend="noIndent">Iudicium de divitiis principaliter a constitutione ⊕<hi rend="sup">næ</hi> ejusqve Domini petitur juxta <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> sententiam. Utrumqve vero in hac genesi se bene
+                        habet; nam ⊕ est in <app>
+                     <lem>△</lem>
+                     <rdg>
+                        <q>4</q> B man. pr.</rdg>
+                  </app> ☊ termino Solis &amp; in domo XI<hi rend="sup">a</hi>
+                        succedente in □ ☉. Sol vero ipsius Dominus est angularis in
+                            7<hi rend="sup">a</hi> in △ partili ♃. Unde amplæ &amp;
+                        firmæ portenduntur divitiæ, siqvidem &amp; ⊕ &amp; Sol in signis
+                        fixis &amp; terminis beneficorum fœliciter constituuntur. Altera
+                        significatio divitiarum capitur a ♂ domino secundæ domus, qvi est
+                        fortis &amp; bene constitutus ob receptionem cum ☿ &amp;
+                        commixtionem, qvam habet cum benefica Venere. Cuspis insuper 2<hi rend="sup">æ</hi> domus bene se habet, estqve ibi stella fixa Bebenia partiliter
+                        constituta, qvæ luminosior Lancis Meridionalis appellatur de natura ♃
+                        &amp; ☿. Utraqve hæc significatio plurimum facit ad splendorem
+                        divitiarum <pb ed="A" n="59"/>&amp; fœlicitatem in iis conseqvendis non
+                        postremam largitur. Qvia vero ♂ principalis Almuten divitiarum
+                        existis eo qvod is domum secundam disponat, habens una triplicitatem &amp;
+                        ⚹ aspectum in loco ⊕, significat, qvod præcipua occasio in
+                        acqvirendis divitiis erit ex re militari &amp; victoriis ac rebus fortiter
+                        gestis. Qvia vero is una est dominus 7<hi rend="sup">æ</hi> domus &amp;
+                        Veneri commistus, recipiaturqve a Mercurio in 7<hi rend="sup">a</hi>
+                        constituto, aliqvid etiam emolumenti in bonis fortunæ significat causa
+                        mulierum vel conjugii. <app>
+                     <lem wit="#A">Possit</lem>
+                     <rdg wit="#B">posset</rdg>
+                  </app> insuper constitutio ♂ cum ♀ in 9<hi rend="sup">a</hi>
+                        aliqvid lucri ex rebus Ecclesiasticis significare, si non adeo esset infœlix
+                        constitutio ♃ in 12<hi rend="sup">a</hi> domo, qvi solus in hac
+                        genesi divitiis adversatur. Est insuper qviddam in hac genitura
+                        consideratione dignum, qvod raro evenire solet, constitutio videlicet
+                        ♄ in angulo 4<hi rend="sup">æ</hi> domus in propria domo disponens
+                        una cuspidem 4<hi rend="sup">æ</hi>, &amp; existens in △ aspectu
+                        ♄ aspiciensqve <pb ed="A" n="60"/> domum secundam per ⚹, qvod
+                            <pb ed="TBOO" n="I.204"/>insignem fœlicitatem spondet in fodinarum
+                        metallicarum cultura &amp; thesauris subterraneis acqvirendis. Qvapropter,
+                        si hæc tentaverit, non leve emolumentum divitiarum inde experietur; nec
+                        obstat qvod ♄ sit stationarius incipiatqve retrogradus fieri, id enim
+                        moram &amp; <app>
+                     <lem>difficultates qvasdam</lem>
+                     <rdg>
+                        <q>difficultatem qvandam</q> B man. pr.</rdg>
+                  </app> potius objicere potest, qvam hanc tam evidentem significationem
+                        penitus infringere. Tempora autem, qvibus major in cumulandis opibus erit
+                        fœlicitas, circa virilem ætatem &amp; post hanc maxime apparebunt, eo qvod
+                        ☉ &amp; ♂ principales significatores divitiarum ambo
+                        constituantur inter cuspidem 10<hi rend="sup">æ</hi> domus &amp; occasum.
+                        Specialius vero considerando erunt tempora divitiarum ex directione ⊕ <app>
+                     <lem>fortunæ</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> ad suos promissores: qvæ in hunc modum se habent. Circa 13 annum fit
+                        directio ⊕ secundum ordinem signorum ad ⚹ ♀ bonamqve
+                        fortunam <pb ed="A" n="61"/> in divitiis acqvirendis pollicetur. Iuxta 18
+                        annum ⊕ contraria directione attingit antisciam ♂, qvi est
+                        dominus 2<hi rend="sup">æ</hi> domus &amp; significator divitiarum; unde a
+                        rebus &amp; personis martialibus aliqvid emolumenti portenditur. Circa 22
+                        annum directio ⊕ ad antisciam ♀ etiam fœlicitatem in divitiis
+                        largitur, præsertim causa mulierum vel donationum. Completo vero 23 anno
+                        attingit ⊕ sua directione in antecedentia ☍ ♄, unde hoc
+                        tempus erit infaustum in bonis fortunæ &amp; divitiis accumulandis vel
+                        conservandis. Circa 30 annum ⊕ attingit Cœli medium unaqve Syrii
+                        splendidissimam stellam, unde splendidæ divitiæ circa hoc tempus
+                        promittuntur. Imprimis vero ab hoc tempore juxta 31 annum ad 36 labentem
+                        erit Natus admodum fortunatus in bonis fortunæ acqvirendis, qvia circa hoc
+                        tempus pertingit ⊕ ad multos benevolos promissorum radios, tam in
+                        conseqventia signorum qvam antecedentia: videlicet ad △ ☉ anno
+                        32; ad ⚹ ♃anno 33; ad ☌ ♃ anno 34; ad ⚹
+                        ☉ anno 35; ut ex utraqve directione ⊕ ab initio promissa
+                        patet. <pb ed="A" n="62"/>Verum circa annum 43 ætatis asseqvitur directio
+                        ⊕ in conseqventia □ <app>
+                     <lem>aspectum</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> ♂; unde non exigua jactura in bonis fortunæ circa hoc tempus
+                        portenditur ex causis martialibus. Circa 45 ætatis annum venit directio
+                        ⊕ ad △ ♄, qvod etiam fœlicitatem largitur in divitiis
+                        acqvirendis, præsertim in iis, qvæ Saturni constitutio fortis &amp; bene
+                        disposita in angulo 4<hi rend="sup">æ</hi> domus significat, &amp; superius <app>
+                     <lem>indicatum est eum insignem fortunam</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> in rebus subterraneis &amp; fodinis metallicis propter eam, qvam
+                        illic habet, constitutionem polliceri. Juxta 51 annum directio ⊕ ad
+                        ☌ ♀ in antecedentia bonam fortunam largitur in bonis externis
+                        acqvirendis, præsertim causa mulierum vel lucri. Circa annum vero ætatis 56 <app>
+                     <lem>pars</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> ⊕ contraria directione attingit corpus ♂, unde tam in
+                        rebus lucri &amp; fortunæ qvam valetudine magna detrimenta circa hoc tempus
+                        portenduntur, ut ex iis, qvæ supra de vitæ spatio diximus, latius colligi
+                        potest. Atqve hæc tempora directionum ⊕ præsupponunt momentum <pb ed="A" n="63"/>nativitatis assignatum verum esse, qvod si id paulo
+                        aliter se habuerit, tem<pb ed="TBOO" n="I.205"/>pora etiam harum directionum
+                        variantur, adeo ut error 4 minutorum in tempore nativitatis hoc loco integri
+                        anni errorem inducat. Qvod monere volui, si forte contigerit effectus
+                        directionum non <app>
+                     <lem>exqvisite</lem>
+                     <rdg>
+                        <q>exacte</q> B man. sec.</rdg>
+                  </app> incidere in annos jam assignatos.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE ITINERIBUS.</head>
+               <p rend="noIndent">Qvia Luna in hac genesi est in <app>
+                     <lem>6<hi rend="sup">a</hi>
+                     </lem>
+                     <rdg>post <q>6<hi rend="sup">a</hi>
+                        </q> add. <q>domo</q> B man.
+                                    pr.</rdg>
+                  </app>, loco cadente, &amp; ♂ insuper <app>
+                     <lem>est</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> in 9<hi rend="sup">a</hi>, cadens ab angulo Lunæ configuratus per
+                        □ aspectum, &amp; Sol est in angulo 7<hi rend="sup">æ</hi> domus,
+                        idcirco, juxta <persName ref="ptolemaios_klaudios_0100">Ptolomæi</persName> decreta, multæ
+                        &amp; longinqvæ peregrinationes portenduntur. Accedit &amp; hoc, qvod
+                        ♀ domina Ascendentis constituatur in 9<hi rend="sup">a</hi> domo in
+                        ♊︎ domicilio ipsius versatili ☿, et <app>
+                     <lem>☿</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> dominus 9<hi rend="sup">æ</hi> est in 7<hi rend="sup">a</hi>
+                        recipiens Martem. Unde omnino portenduntur itinera crebra &amp; non exigua.
+                        In qvibus Natus erit fortunatus, qvia ♀ benefica in 9<hi rend="sup">a</hi> exaltatur supra ♂. Principalis vero causa itinerum erit
+                        ob res bellicas propter <pb ed="A" n="64"/>Martis constitutionem in 9<hi rend="sup">a</hi>, tum etiam causa conjugii vel mulierum propter Venerem
+                        ibidem constitutam. Mercurius vero, cum disponat ambo loca &amp; simul domum
+                            9<hi rend="sup">am</hi> , causa scientiarum liberalium etiam aliqvam
+                        itinerum significationem præbet.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE CONIUGIO.</head>
+               <p rend="noIndent">Qvamvis ☾, generalis significatrix coniugiorum in nativitatibus
+                        virorum existens, constituatur in 6<hi rend="sup">a</hi> domo cadenti, &amp;
+                        ♀ insuper sit in nona cadens ab angulo in ☌ ♂ &amp; <app>
+                     <lem>antiscia</lem>
+                     <rdg>
+                        <q>antisciam</q> B man. pr.</rdg>
+                  </app> ♄, idqve videatur adversitates in conjugio significare, tamen
+                        qvia ☾ est in signo ♃ &amp; terminis ♀ libera a partili
+                        aspectu malevolorum planetarum, &amp; ♀ Almuten nativitatis elevatur
+                        in 9<hi rend="sup">a</hi> supra omnes alios, idcirco eum in conjugio non
+                        admodum infœlicem futurum existimo. Erunt <app>
+                     <lem>tamen</lem>
+                     <rdg>
+                        <q>in</q> B man. pr.</rdg>
+                  </app> causa conjugii &amp; mulierum aliqvæ difficultates, qvas tamen
+                        constitutio ☊ in 7<hi rend="sup">a</hi> mitigat, &amp; per se
+                        fœlicitatem in conjugio spondet, siqvidem <pb ed="A" n="65"/>hoc domum
+                        ejusqve significata fortunat in qva reperitur, præsertim cum ♂
+                        dominus 7<hi rend="sup">æ</hi> domus sit cum ♀ domina Ascendentis
+                        receptus a Mercurio &amp; ☊ existentibus in 7<hi rend="sup">a</hi>
+                        domo, unde fœlicitas qvædam in conjugio promittitur. Sed dissensiones &amp;
+                        inimicitiæ erunt causa conjugii vel mulierum. Erit tamen meo judicio potius
+                        aliis amoribus deditus qvam conjugio. Sed hæc tota consideratio de conjugio,
+                        siqvidem plane res est voluntaria, non potest certo constare, &amp; plurimum
+                        ab aliis <app>
+                     <lem>inferioribus causis</lem>
+                     <rdg>
+                        <q>causis inferioribus</q> B man. pr.</rdg>
+                  </app> variatur.</p>
+               <p rend="indent">Tempora vero, qvibus Natus ad rem uxoriam maxime inclinabitur,
+                        erunt circa 20 <app>
+                     <lem>vel etiam</lem>
+                     <rdg>
+                        <q>et</q> B man. pr.</rdg>
+                  </app> 21 annum, qvando ♀ attingit ⚹ ♃juxta Cœli
+                        Medium; vel etiam juxta 33 &amp; 35 annum; aut, si circa hæc tempora uxorem
+                        non duxerit, juxta annum 47 inclinabitur, cum Luna ad 7<hi rend="sup">am</hi> domum pervenit, qvamvis hæc significatio debilior sit,
+                        præsertim in tam adulta ætate. Sed, ut dixi, hæc res magis ex voluntate
+                        hominis qvam astris pendet.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>
+                  <pb ed="TBOO" n="I.206"/>
+                  <pb ed="A" n="66"/>DE LIBERIS.</head>
+               <p rend="noIndent">Hoc etiam judicium de Liberis parum certitudinis habet. Considerando tamen
+                        hanc genesin hac in re juxta Astrologorum placita, videtur, qvod hic Natus
+                        non multos liberos sit procreaturus, qvia ♄ dominus 5<hi rend="sup">æ</hi> domus <app>
+                     <lem>est, &amp; constituitur in signo sterili, ipsum insuper signum 5<hi rend="sup">æ</hi> &amp; 11<hi rend="sup">æ</hi> domus</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app> sterile est. Si tamen aliqvos progignet, erunt illi fortes bonæ
+                        constitutionis &amp; longævi, propter fælicem ♄ constitutionem in sua
+                        domo &amp; carpento.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE PARENTIBUS, FRATRIBUS &amp; SORORIBUS, NEC NON DE SERVIS.</head>
+               <p rend="noIndent">Judicium de his admodum incertum est, &amp; potius ex cujuslibet propria
+                        genitura petendum. Qvia tamen Astrologi solent etiam ex oblata nativitate
+                        judicium de his ferre, breviter, juxta eorum sententiam, has qvæstiones
+                        tractabimus. Patris status post nativitatem hujus filii primogeniti erit
+                        admodum fortunatus, eritqve Pater in firma valetudine &amp; <pb ed="A" n="67"/>bono esse, qvia ambo significatores Patris bene se habent. Sol
+                        in angulo 7<hi rend="sup">æ</hi> domus in △ Iovis, &amp; ♄
+                        constituitur in 4<hi rend="sup">a</hi> in propria domo &amp; aspectu
+                        ♃ cum antiscia ♀. Matris status etiam erit bonus &amp;
+                        fortunatus, qvia ♀ significatrix Matris in diurna genesi bene
+                        constituitur exaltata in 9<hi rend="sup">a</hi> domo. Fratrum vero &amp;
+                        Sororum conditio, qvi post nascentur, non videtur admodum bene se habere,
+                        qvia ♃ eorum significator male afficitur in 12<hi rend="sup">a</hi>.
+                        Idem <app>
+                     <lem>esto</lem>
+                     <rdg>post <q>esto</q> add. <q>etiam</q> B man. pr.</rdg>
+                  </app> de Servis judicium, siqvidem ♃ una dominus est 6<hi rend="sup">æ</hi> domus. Colligitur itaqve, qvod Natus non admodum erit fortunatus
+                        qvantum ad Fratres &amp; Sorores, qvi post ipsum nascentur, &amp; in Servis
+                        etiam molestias ac difficultates experietur. Sed totum hoc judicium
+                        frivolis, ut dixi, nititur fundamentis, siqvidem totum extra Natum
+                        consistit. </p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE AMICIS &amp; INIMICIS NATI.</head>
+               <p rend="noIndent">Amici hujus Nati erunt homines solares, ut Reges &amp; Principes, &amp; ii
+                        qvi in dignitatibus amplis <pb ed="A" n="68"/>constituuntur, eo qvod
+                        ☉ sit dominus 11<hi rend="sup">æ</hi> domus, &amp; ⊕ in ea
+                        fæliciter constituatur; ipse vero erit fidus &amp; beneficus erga suos
+                        amicos, qvia ♀ domina Ascendentis simul disponit locum Solis domini
+                            2<hi rend="sup">æ</hi> domus. Inimici vero Nati erunt homines Joviales
+                        &amp; Mercuriales, qvia Jupiter infœliciter constituitur in <app>
+                     <lem>12<hi rend="sup">a</hi>
+                     </lem>
+                     <rdg>post <q>12<hi rend="sup">a</hi>
+                        </q> add. <q>domo</q> B man.
+                                    pr.</rdg>
+                  </app>, &amp; ☿ dominus 12<hi rend="sup">æ</hi> est in 7<hi rend="sup">a</hi>. Per Joviales intelliguntur Ecclesiastici, Clerici
+                        &amp; Jurisperiti; Mercurius vero totus in naturam ♂ transit, qvia ab
+                        eo recipitur &amp; in ejus domicilio constituitur. Unde cum Martialibus
+                        hominibus, qvales sunt viri bellicosi &amp; armigeri, inimicitias grandes
+                        habebit, &amp; multis dissidiis cum talibus implicabitur. Atqve tales erunt
+                        aperti inimici Nati: occulti vero ii qvi a Jove portenduntur. Videtur etiam
+                        constitutio ♃<hi rend="sup">vis</hi> in <app>
+                     <lem>12<hi rend="sup">a</hi>
+                     </lem>
+                     <rdg>post <q>12<hi rend="sup">a</hi>
+                        </q> add. <q>domo</q> B man.
+                                    pr.</rdg>
+                  </app> significare occultas inimicitias cum fratribus &amp; consangvineis.
+                        Significat etiam aliqvid causa servorum, qvia ♃ disponit tam domum
+                            <pb ed="TBOO" n="I.207"/>3<hi rend="sup">am</hi> qvam 6<hi rend="sup">am</hi>, <pb ed="A" n="69"/>&amp; in 12<hi rend="sup">a</hi> male
+                        constituitur. Videtur etiam ♃causa religionis aliqvas dissensiones
+                        significare, qvia ipse est ita affectus in 12<hi rend="sup">a</hi>, &amp;
+                        qvia ☿ est simul 12<hi rend="sup">æ</hi> &amp; 9<hi rend="sup">æ</hi>
+                        Dominus, &amp; Mars dominus 7<hi rend="sup">æ</hi> constituitur in 9<hi rend="sup">a</hi>. Unde procul dubio causa religionis tumultus erunt,
+                        &amp; Natus inde dissidia ac inimicitias habebit. Mercurii insuper
+                        constitutio in 7<hi rend="sup">a</hi> causa coniugii vel mulierum qvasdam
+                        portendit apertas inimicitias. Qvia vero dominus Ascendentis <app>
+                     <lem>&amp; domus 7<hi rend="sup">æ</hi>in hac genitura coniunguntur,
+                                &amp; ♀, domina existens Ascendentis</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app>, elevatur supra Martem dominum 7<hi rend="sup">æ</hi> domus, tam
+                        qvoad mundum versus cœli apicem, qvam qvoad latitudinem borealem, &amp; ipsa
+                        qvoqve est in apogæo sui eccentrici, idcirco non obscure colligitur, qvod
+                        Natus hic suos inimicos superabit, &amp; illis erit potentior, &amp;
+                        victoriam maxima ex parte ab hostibus &amp; inimicis suis reportabit. Caveat
+                        tamen diligenter Natus, ne aliqvando per inimicos suos in captivitatem vel
+                        exilium deveniat; habet <pb ed="A" n="70"/>enim captivitatis significationem
+                        non levem, qvia ☿ dominus 9<hi rend="sup">æ</hi> domus est in 7<hi rend="sup">a</hi>, in essentiali dignitate ♂ in ♈︎
+                        constitutus &amp; simul læsus □ radio ♄. Qvi positus multis
+                        captivitatem significavit. Sed qvia ☿ in hac genesi recipitur a
+                        ♂ &amp; est cum ☊, ac ♃ beneficus in 12<hi rend="sup">a</hi> constituitur, qvamvis admodum debilis <app>
+                     <lem>&amp; damnatus</lem>
+                     <rdg>om. B man. pr.</rdg>
+                  </app>, idcirco adhibita diligenti prospectione poterit hanc captivitatis
+                        significationem irritam reddere, pericula tamen non deerunt gravia, si
+                        occasionem non vitaverit.</p>
+               <lb/>
+            </div>
+            <div>
+               <head>DE MORTE.</head>
+               <p rend="noIndent">Qvoniam luminaria in hac genitura non sunt in malevolorum Planetarum inimicis
+                        radiis, nec in signis violentis, sed potius in aspectu beneficorum
+                        Planetarum, &amp; in ipsorum domibus ac terminis, &amp; nulla alia congruit
+                        mortis violentæ significatio; idcirco morietur hic Natus morte prorsus
+                        naturali, &amp; nulla aderit violentia, propter qvam diem claudat <pb ed="A" n="71"/>extremum. Nec obstat, qvod Venus domina horoscopi &amp;
+                        luminaris conditionarii sit cum ♂; nam ea per se benefica est, &amp;
+                        copulatio hæc non fit in signo violento, Venere etiam ab ipso Marte
+                        recedente &amp; supra eum elevata existente. Mors itaqve Nati, ut dixi, omni
+                        carebit violentia &amp; plane naturalis erit. Ægritudo vero, ex qva diem
+                        extremum claudet, erit ex significatis Veneris; &amp;, sine dubio, per
+                        nimiam luxuriam &amp; crapulam aut rei venereæ immoderatum usum, ipsemet
+                        præbebit occasionem morbi, ex qvo hinc in æternitatem migrabit, qvia
+                        ♀ est domina 8<hi rend="sup">æ</hi> domus, &amp; etiam 1<hi rend="sup">æ</hi>, ipsaqve Marti partiliter copulatur, qvi dominus est
+                        occidentis. Tempora vero, in qvibus maxima incurrent vitæ discrimina,
+                        commemoravi supra in loco de vitæ curriculo, unde ea peti possunt; imprimis
+                        vero maximum vitæ periculum imminere videtur juxta 56 ætatis annum, vel
+                        paulo post, anno uno, vel altero ad summum, seqvente, propter coincidentes
+                            vari<pb ed="TBOO" n="I.208"/>orum aphetarum <pb ed="A" n="72"/>directiones ad diversos anarætas, qvæ circa hoc ætatis tempus accidunt; ut
+                        ab initio in enumeratione annorum fatalium copiosius declaravi.</p>
+               <p rend="indent">Oportet autem totum hoc judicium, de vitæ curriculo &amp;
+                        fatali termino, non, tanqvam ex inviolabili decreto proveniat, intelligere,
+                        sed saltem existimare, esse hanc prædictionem conjecturam qvandam physicam,
+                        qvæ non necessario ita operatur, sed potest ex variis causis, etiam
+                        inferioribus, mutari. Deus insuper, auctor naturæ &amp; dator vitæ omnisqve
+                        boni, suo arbitrio libere omnia disponit; cui soli debetur vera &amp;
+                        perfecta futurorum scientia; is enim perfecte novit &amp; disponit omnia,
+                        &amp; ad ipsius Nutum tota natura gubernatur. Ipse itaqve solus orandus, ut
+                        vitam nostram gubernet, ac prosperos successus largiatur, impendentesqve
+                        calamitates avertat.</p>
+               <lg rend="it">
+                  <l>Ille potest Solis currus inhibere volantes,</l>
+                  <l rend="indent">Ille augere potest, tollere fata potest.</l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

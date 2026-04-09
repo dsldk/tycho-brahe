@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1592. 1. oktober.</title>
+            <title xml:lang="en">1592. 1
+                    October.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Oxford, Bodleian Library, Smith 77</witness>
+               <witness xml:id="A_en">Oxford, Bodleian Library, Smith 77</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Uraniborg</placeName>
+               <date when="1592-10-01"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="young_peter_1544">Peter Young</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1592-10-01">
+            <date xml:lang="da">1592. 1. oktober.</date>
+            <date xml:lang="en">1592. 1
+                    October.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-10-31" who="#pz">Filen etableret</change>
+         <change when="2021-05-31" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VII.344"/>
+               <pb ed="A" n="77"/>
+               <persName ref="young_peter_1544">PETRO IUNIO</persName>
+               <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>. S.</opener>
+            <p rend="noIndent">QUAMVIS, nobilissime et amplissime vir, ultimis meis de neglecta
+                    ad priores aliquot responsione familiari quadam libertate tecum expostulantibus,
+                    nihil adhuc rescripseris: tamen et has illis aggregare non supersedebo, utut
+                    diutinam hanc tuam sive oblivionem sive spontaneam forte scribendi
+                    intermissionem vix (amicitia nostra sic exigente) excusatam habeam. Eroque ob id
+                    nunc brevior: præsertim cum superiora tibi adhuc satis in præsenti esse memoria
+                    (in quibus etiamnum tuam operam obnixe desidero) mihi persuadeam. Neque enim
+                    meas tibi non relatas diffido: ex quo a magnifico D. <persName ref="maitland_john_1537">IO. METELLANO</persName>, Cancellario vestro,
+                    responsum acceperim, cui eodem tempore literas tuis simul coniunctas destinâram.
+                    Cum vero in superioribus præter alia ut a <persName ref="james_6_1566">Serenissimo Rege</persName> carmen quoddam in mearum lucubrationum
+                    Astronomicarum commendationem impetrares, peramanter te rogassem: et nunc ad
+                    ipsius Maiestatem ipsemet hac de causa elegiacam hanc qualemcunque epistolam
+                    exarârim (quam tibi ipsius Maiestati meo nomine submisse offerendam unâ mitto)
+                    idcirco etiamnum a te idipsum quibus possum precibus rogo, ut tua intercessione,
+                    eaque, qua apud ipsam Maiestatem polles, authoritate et consilij grata (quod et
+                    mereris) acceptatione, quo id clementissimi beneficij mihi impertiatur, quantum
+                    in te est, elaborare non degraveris. De privilegio ab ipsius Maiestate
+                    obtinendo, cuius apud te antea satis superque mentionem feci, nunc nihil
+                    superaddam. Hæc igitur singula, et si quæ præterea sunt, alias significata, tuæ
+                    erga me benevolentiæ et amicitiæ nostræ fidelitati fideliter etiam exequenda
+                    committo.</p>
+            <closer>
+               <salute>Vale.</salute>
+               <dateline>
+                  <pb ed="A" n="78"/>Datæ Uraniburgi 1 Oct. A.
+                        1592.</dateline>
+               <signed>Tuæ Magnificentiæ studiosissimus<lb/>
+                  <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

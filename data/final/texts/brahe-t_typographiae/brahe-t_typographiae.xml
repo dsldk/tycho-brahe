@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">Typographiæ / Om bogtryk</title>
+            <title xml:lang="en">Typographiæ / On printing</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit/>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1580 (c.)</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-01" who="#pz">Filen etableret</change>
+         <change when="2019-02-11" who="#pz">tekst importeret</change>
+         <change when="2019-02-22" who="#pz">tekst korrekturlæst efter TBOO</change>
+         <change when="2020-05-01" who="#pz">filen Typographiæ_et_al delt op i to</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div xml:id="text">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="IX.175"/>TYPOGRAPHIÆ</orig>
+               <reg>Typographiæ</reg>
+               <reg xml:lang="en">Typographiæ</reg>
+            </head>
+            <lg>
+               <l>URANIÆ ingenuo et celso molimine parte</l>
+               <l rend="indent">Imprimeris manuum sic ne labore labos?</l>
+               <l>I mundique diu vasti pete Regna, superstes</l>
+               <l rend="indent">Successus tribuat conditor Uraniων.</l>
+            </lg>
+         </div>
+      </body>
+   </text>
+</TEI>

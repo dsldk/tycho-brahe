@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1600. 19. september.</title>
+            <title xml:lang="en">1600. 19 September.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 23, Fol. 73 f.</witness>
+               <witness xml:id="A_en">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 23, Fol. 73 f.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="bording_jacob_1547">Jacob Bording</persName>
+               <placeName>Güstrow</placeName>
+               <date when="1600-09-19"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-09-19">
+            <date xml:lang="da">1600. 19. september.</date>
+            <date xml:lang="en">1600. 19 September.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-07" who="#pz">Filen etableret</change>
+         <change when="2020-09-14" who="#lrp">Korrektur påbegyndt.</change>
+         <change when="2021-01-22" who="#pz">Korrekturlæst</change>
+         <change when="2019-06-09" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.212"/>GENEROSO ET NOBILI VIRO D:NO <persName ref="brahe_tycho_1546">TYCHONI BRAHE</persName>,
+                    DOMINO HEREDITARIO IN KNUDTSTRUP, AMICO SUO INPRIMIS HONORANDO.
+                <salute>Generose et nobilis vir, amice inprimis honorande.</salute>
+            </opener>
+            <p rend="noIndent">QUOD ad Generos:tis T: litteras, quas jam ternas accepi, aliquanto serius
+                    respondeam, non mea culpa factum est. Nam <persName ref="mule_claus_1575">Claudius
+                        Mulæus</persName>, cui priores traditas Generos:tas T. scribit, ipsemet mihi
+                    non adfuit, nec responsum ullum a me petijt. Alteras m. <persName ref="longomontanus_christen_sorensen_1562">Christianus Longomannus</persName> me absente hic in
+                    aula reliquit, id quod Generos:tas T: ex adiecta hisce schedula, manu eius
+                    scripta, cognoscet. Quare ut me excusatum habeat, maiorem in modum rogo. Jnterim
+                    tamen quam posteriores ad manus meas pervenerunt, sexcentos illos thaleros, qui
+                    juniorum principum <placeName ref="Mecklenburg">Megapolensium</placeName> nomine
+                    Generos:ti T: debentur, <placeName ref="Rostock">Rostochium</placeName> ad d.
+                        <persName ref="bacmeister_lucas_1530">Lucam Backmeisterum</persName>, affinem meum, uti
+                    Generos:tas T: voluit, perferendos curavi. Egi quidem diligenter cum quæstore,
+                    ut in <pb ed="TBOO" n="XIV.213"/>moneta aurea, quod Generos:tas T: cupit,
+                    solutio fieret, sed monetam eam in tanta summa conficere non potuit. Quare ut eo
+                    quoque nomine Generos:ti T: excusatus sim, itidem rogo. Chyrographum fidei meæ
+                    creditum Generos:ti T: remitto, nam alterum, quod m. <persName ref="longomontanus_christen_sorensen_1562">Christianus Longomannus</persName> d. <persName ref="bacmeister_lucas_1530">Backmeistero</persName> tradidit, quæstor retinuit. Quod
+                    reliquum est Generos:tem T: divini numinis protectioni commendo et officia mea
+                    eidem defero promptissima.</p>
+            <closer>
+               <dateline>Datæ <placeName ref="Güstrow">Gustrovij</placeName> 19. die mensis
+                        septemb. stylo veteri anno 1600. Gener: T:
+                            studiosiss:</dateline>
+               <signed>
+                  <persName ref="bording_jacob_1547">Jacobus
+                            Bordingus</persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

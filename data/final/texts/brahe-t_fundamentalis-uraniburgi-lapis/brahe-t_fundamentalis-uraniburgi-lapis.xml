@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">Fundamentalis Uraniburgi lapis / Uraniborg's grundsten</title>
+            <title xml:lang="en">Fundamentalis Uraniburgi lapis / Uraniborg’s foundation stone</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit/>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date>1576</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+               <term>poesi</term>
+               <term>inskription</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-02-01" who="#pz">Filen etableret</change>
+         <change when="2019-02-11" who="#pz">tekst importeret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div xml:id="text">
+            <head>
+               <orig>
+                  <pb ed="TBOO" n="IX.175"/>
+                  <pb ed="A" n="1"/>FUNDAMENTALI URANIBURGI LAPIDI HÆC FUERE INSCULPTA.</orig>
+               <reg>Fundamentalis Uraniburgi lapis</reg>
+            </head>
+            <lg>
+               <l>TEMPORE quo regnum qui nomine reque secundus</l>
+               <l rend="indent">Danorum imperio rex Fridericus habet,</l>
+               <l>
+                  <app>
+                     <lem wit="TBOO">Carolus</lem>
+                     <rdg wit="Gass Resen"/>
+                  </app> ad Danos Galli legatio regis</l>
+               <l rend="indent">
+                  <app>
+                     <lem wit="Gass">Danzæus, patria cui est Aquitane solum</lem>
+                     <rdg wit="Resen">Danzæus, quem orbis terra Aquitata tulit</rdg>
+                  </app>,</l>
+               <l n="5">Huic domui, Uraniæ et Sophiæ quam Tycho Brahorum</l>
+               <l rend="indent">Clara stirpe satus, rege jubente, struit,</l>
+               <l>Hunc lapidem auspicio felici, utque omne per ævum</l>
+               <l rend="indent">Augusti id memoret lux modo sexta, locat.</l>
+            </lg>
+            <p/>
+         </div>
+      </body>
+   </text>
+</TEI>

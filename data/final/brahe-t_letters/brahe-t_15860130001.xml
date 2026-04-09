@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_">Copenhagen, Det Kongelige Bibliotek, Bøllings brevsamling, D. Fol. 68.</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Uraniborg</placeName>
+               <date when="1586-01-30"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Birgitte Bølle</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1586-01-30">
+            <date>1586-01-30</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-09-07" who="#pz">Filen etableret</change>
+         <change when="2020-09-15" who="#lrp">Korrektur påbegyndt</change>
+         <change when="2021-01-11" who="#pz">Korrekturlæst</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="XIV.31"/>ERLIG OCH WELBYRDIG FRUE <persName ref="bolle_birgitte_1530">BERITTE BØLLE</persName> THIL GUNDERSLØFFHOLM, MIN
+                    KIERRE FADERSØSTER GANDTSKE WENLIGEN THILSCHREFFUIT.</opener>
+            <p>MIN gandske wenlig helsen etther nu och althidt forsendt medt Gudt vor herre.
+                    Kierre fru <persName ref="bolle_birgitte_1530">Beritte</persName> och kierre
+                    fadersøster, betacker jeg etther saa gandske gierne for aldt ehre och gott, y
+                    mig althidt giortt och beuist haffuer, huilckett att forschylde jeg alle min
+                    dage will findes willig och redebon thil medt altt hues vdi min ringe formu
+                    kandt werre. Giffuendis etther wenligen thilkiende, att then byggemestere, som y
+                    schriffuer mig thil om, wedt naffn mester <persName ref="steenwinckel_hans_1550">Hans</persName>, handt icke nu er her hoeß mig, men jeg wenntter hannom
+                    hidt att skulde komme om en dag tre eller fire. Och tror jeg icke andett, indt
+                    handt io well skulde kunde giørre samme arbedt, att thett skulde werre
+                    vstraffeligt, thersom handt icke haffuer tagett naagett andett arbedt ahn att
+                    bygge vdi sommer, men bliffuer medt etther om etthers arbedt forehnett. Huorfor
+                    jeg gierne will, naar handt hidt kommer thil mig, giffue hannom etthers arbedt
+                    ahn, och sige hannom ther om hues leylighedt y haffuer schreffuett mig thil, att
+                    handt fanger etthers wille her vdi att wide, och hues beschen handt giffuer fran
+                    sich, will jeg entten schrifftlich lade etther wide, eller handt och selff skall
+                    komme thil etther, och giffue etther nerwerendis thilkiende. Kierre fru
+                        <persName ref="bolle_birgitte_1530">Beritte</persName> och kierre fadersøster,
+                    will jeg icke lenger oppeholde etther medt thenne min schriffuelfe, men giør
+                    althidt gierne, hues jeg wedt etther thil ehre och tieniste kandt werre, och
+                    will her medt nu och althidt haffue etther then alsommechtigste Gudt thil siel
+                    och liiff befalendis.</p>
+            <closer>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Datum</hi>
+                     <placeName ref="Uraniborg">Vraniborg</placeName> then 30. januarii
+                                <foreign xml:lang="la">
+                        <hi rend="it">anno</hi>
+                     </foreign>
+                            1586.</foreign>
+               </dateline>
+               <signed>Tyge Brahe<lb/>Egen
+                    hand.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

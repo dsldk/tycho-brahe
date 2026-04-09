@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1589. 25. september.</title>
+            <title xml:lang="en">1589. 25 September.</title>
+            <author>Christian 4.</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2021</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2021, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2021, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Sjællandske tegnelser, XVII, 210</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Sjællandske tegnelser, XVII, 210</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="christian_4_1577">Christian 4.</persName>
+               <placeName xml:lang="da">København</placeName>
+               <placeName xml:lang="en">Copenhagen</placeName>
+               <date when="1589-09-25"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1589-09-25">
+            <date xml:lang="da">1589. 25. september.</date>
+            <date xml:lang="en">1589. 25 September.</date>
+         </creation>
+         <langUsage>
+            <language ident="da">dansk</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2021-05-07" who="#pz">Filen etableret</change>
+         <change when="2021-05-27" who="#pz">revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <pb ed="TBOO" n="XIV.50"/>
+            <opener>TILL <persName ref="brahe_tycho_1546">TYGE BRAHE</persName> NOGEN WOX ANRØRENDIS <foreign xml:lang="la">
+                  <hi rend="it">VT SEQUITUR</hi>
+               </foreign>
+            </opener>
+            <p rend="indent">
+               <persName ref="christian_4_1577">Christian 4.</persName> etc.</p>
+            <p rend="noIndent">WOR gunst tilfornn. Wiid, att thenne breffuißer <persName ref="loeding_thomes_1589">Thomes Loeding</persName> haffuer
+                    wnderdanigst tilkiende giiffuit, huorledis for nogen tiid siiden wdj a:o 87 er
+                    st[r]andit ett schiib paa Anholt, som haffuer tilhørt nogen kiøbmend aff
+                    Engelland, huor wdj haffuer werrit eblant andit guodtz noget wox, aff huilcket
+                    en part schal werre strandit och bierget wed Wardbierg, en part wed Laugholm,
+                    och ett støcke ther for Hueen schal werre indkommen, huilcket du til thig schal
+                    haffue anammit, och fornemme <persName ref="loeding_thomes_1589">Thometz Loeding</persName> paa for:ne engelsche kiøbmends wegne
+                    haffuer wnderdanigst werrit begierendis, hannom samme wox motte betalis och
+                    fornøyes. Tha epterdj att alt huis wrag, som saaledis her vdj riigit nogen
+                    stedts kand strande och indkomme for Wor och cronens grund, tilkommer Oß och
+                    cronen allenne, bede Wij thig och wille, attu thig ther om emoed Wor elsk:e
+                    tilforornede regierings raad erklerer, epter att Wij slige høighet wille Oß allenne forbeholdit haffue, hannom ochsaa samme wox,
+                    som du wdj saa maade haffuer ladet anamme, betaler och fornøyer, att hand sig
+                    wiidere for Oß icke schal haffue sig at beklage. </p>
+            <closer>
+               <salute>Ther met etc. </salute>
+               <dateline>
+                  <foreign xml:lang="la">
+                     <hi rend="it">Actum Haffniæ</hi>
+                  </foreign> 25
+                            <foreign xml:lang="la">
+                     <hi rend="it">septem: a:o</hi>
+                  </foreign>
+                        1589.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

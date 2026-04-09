@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1598. 30. maj n.s.</title>
+            <title xml:lang="en">1598. 30 May
+                    NS.</title>
+            <author>Thaddaeus Hagecius</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2019</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2019, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2019, Society for Danish Language and
+                        Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_da">København, Rigsarkivet, Langebeks diplomatarium</witness>
+               <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="hagecius_thaddaeus_1525">Thaddaeus Hagecius</persName>
+               <placeName xml:lang="da">Prag</placeName>
+               <placeName xml:lang="en">Prague</placeName>
+               <date when="1598-05-30"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1598-05-30">
+            <date xml:lang="da">1598. 30. maj n.s.</date>
+            <date xml:lang="en">1598. 30 May
+                    NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2019-11-22" who="#pz">Filen etableret</change>
+         <change when="2019-06-02" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.68"/>
+               <persName ref="hagecius_thaddaeus_1525">THADDÆUS
+                        HAGECIUS</persName> AD <persName ref="brahe_tycho_1546">TYCHONEM
+                        BRAHE</persName>.</opener>
+            <p rend="noIndent">NOBILISSIME Domine <persName ref="brahe_tycho_1546">TYCHO</persName> et amice observande, scripsi tibi propemodum ante mensem
+                    integrum, et cum hucusque nihil rescripseris, nisi forte tardiusculæ ad te
+                    pervenerunt meæ, te ipsum exspectabam, exspectoque etiamnum. Dominus
+                    Procancellarius <persName ref="coraduz_rudolf_1618">CORADUCIUS</persName> diebus hisce me
+                    allocutus est, et dixit te iam <persName ref="rudolf_2_1552">Cæsari</persName>
+                    de meliori nota commendasse, modo ipse venias, et te <persName ref="rudolf_2_1552">Cæsari</persName> præsentes; in hoc solo cardo rei
+                    vertitur.</p>
+            <p rend="indent">Aliud, quod scribam, non habeo, nisi ut quamprimum ad nos
+                    advoles.</p>
+            <closer>
+               <salute>B. V.</salute>
+               <dateline>
+                  <placeName ref="Praha">Pragæ</placeName> penult. Maij novo Stylo
+                        1598.</dateline>
+               <signed>T. <persName ref="hagecius_thaddaeus_1525">THAD.</persName>
+               </signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

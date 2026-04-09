@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_">Basel, Universitätsbibliothek Basel, cod. Basileensi G I 35</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Benatky</placeName>
+               <date when="1600-03-09"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName>anonymus</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-03-09">
+            <date>1600. 9. marts n.s.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-01-08" who="#pz">Filen etableret</change>
+         <change when="2019-06-08" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.261"/>
+               <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD ANONYMUM</opener>
+            <p rend="indent">
+               <pb ed="A" n="37r"/>GENEROSE AC MAGNIFICE VIR, DOMINE ET AMICE INPRIMIS
+                    HONORANDE.</p>
+            <p rend="noIndent">CUM hic Nobilis et Eruditus Adolescens <persName ref="tengnagel_frans_1576">FRANCISCUS
+                        TENGNAGLIUS</persName>, quem tua M<hi rend="sup">a</hi> iam antea novit,
+                    nuper ex <placeName ref="Italy">Italiâ</placeName> huc in <placeName ref="Bohemia">Bohemiam</placeName> ad me reversus, in Patriam suam Parentum
+                    invisendorum gratiâ nunc cogitet, et in itinere aut reditu Ser<hi rend="sup">mum</hi>
+               <persName ref="ernst_1554">Electorem Coloniensem</persName>, Domimnum nostrum Clementissimum, denuo
+                    humillime accedere, nisi nimia viarum pericula id vetent, omninô constituerit:
+                    idcirco vacuum meis ad M<hi rend="sup">am</hi> tuam literis venire non sum
+                    passus, ex quo M<hi rend="sup">æ</hi> tuæ erga me humanissima officia gratâ
+                    mente etiamnum recolam, et perpetuo eorundem meminerim, paria relaturus, si
+                    vires sufficiant, is aut occasio ulla sese exhibeat. Licet vero quæ ad M<hi rend="sup">am</hi> tuam
+                    perscribam, præter ea, quæ is commodius et tutius oretenus exponet, non habeam,
+                    tamen M<hi rend="sup">am</hi> tuam hisce officiosissime salutare volui, utque dictum <persName ref="tengnagel_frans_1576">TENGNAGLIUM</persName> sibi quam commendatissimum habeat, et
+                    utriusque nostrûm negotia apud Ser<hi rend="sup">mum</hi> Principem, prout antea
+                    quoque perlubenter et benevole præstitit, promovere atque expeditionem maturam
+                    impetrare non gravetur. Cumque idem <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName>
+               <pb ed="A" n="37v"/>instar vivæ Epistolæ futurus sit, et tam me quam se ipsum
+                    concernentia M<hi rend="sup">æ</hi> tuæ plene et secreto indicaturus, ulteriore
+                    scriptione supersedeo, ac per eundem, quam primum fieri possit, favente Numine,
+                    ad me revertentem responsum expecto. Deus opt. max. M<hi rend="sup">am</hi>
+                    tuam Reip. et bonis literis quam diutissime prosperam et incolumem servet.</p>
+            <closer>
+               <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName>, quam
+                    nunc unâ cum meis inhabito, die 9 Martij 1600</dateline>. <signed>M<hi rend="sup">æ</hi> Tuæ studiosiss.<lb/>
+                  <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName>.</signed>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>

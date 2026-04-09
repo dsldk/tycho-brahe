@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title xml:lang="da">1600. 8. marts n.s.</title>
+            <title xml:lang="en">1600. 8. March NS.</title>
+            <author>Tycho Brahe</author>
+            <editor>Peter Zeeberg</editor>
+            <funder xml:lang="da">Carlsbergfondet</funder>
+            <funder xml:lang="en">Carlsberg Foundation</funder>
+         </titleStmt>
+         <editionStmt>
+            <edition/>
+         </editionStmt>
+         <publicationStmt>
+            <publisher xml:lang="da">Det Danske Sprog- og Litteraturselskab</publisher>
+            <publisher xml:lang="en">Society for Danish Language and Literature</publisher>
+            <pubPlace xml:lang="da">København</pubPlace>
+            <pubPlace xml:lang="en">Copenhagen</pubPlace>
+            <date>2020</date>
+            <idno>nil</idno>
+            <idno type="isbn">nil</idno>
+            <availability status="restricted">
+               <ab xml:lang="da">Copyright © 2020, Det Danske Sprog- og Litteraturselskab</ab>
+               <ab xml:lang="en">Copyright © 2020, Society for Danish Language and Literature</ab>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="A_">Basel, Universitätsbibliothek Basel, cod. Basileensi G I 35</witness>
+            </listWit>
+            <listBibl>
+               <bibl>empty</bibl>
+            </listBibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName key="brahe_tycho_1546">Tycho Brahe</persName>
+               <placeName>Benatky</placeName>
+               <date when="1600-03-08"/>
+               <note>n.s.</note>
+            </correspAction>
+            <correspAction type="received">
+               <persName>Anonymus</persName>
+               <placeName>empty</placeName>
+            </correspAction>
+         </correspDesc>
+         <creation when="1600-03-08">
+            <date xml:lang="da">1600. 8. marts n.s.</date>
+            <date xml:lang="en">1600. 8. March NS.</date>
+         </creation>
+         <langUsage>
+            <language ident="la">latin</language>
+         </langUsage>
+         <textClass>
+            <keywords>
+               <term>brev</term>
+            </keywords>
+         </textClass>
+         <abstract>
+            <ab>nil</ab>
+         </abstract>
+      </profileDesc>
+      <revisionDesc>
+         <change when="2020-01-08" who="#pz">Filen etableret</change>
+         <change when="2019-06-08" who="#pz">Filen revideret</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <front/>
+      <body>
+         <div>
+            <opener>
+               <pb ed="TBOO" n="VIII.259"/>
+               <persName ref="brahe_tycho_1546">TYCHO BRAHE</persName> AD ANONYMUM.</opener>
+            <p rend="indent">
+               <pb ed="A" n="35r"/>NOBILISSIME ET EXCELLENTISSIME VIR, DOMINE ET AMICE
+                    OBSERVANDISSIME.</p>
+            <p rend="noIndent">QUOD tam amanter Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi>, quo tempore
+                    <placeName ref="Wandsburg">Wandesburgi</placeName> adhuc in <placeName ref="Holstein">Holsatiâ</placeName> hærebam, humanissimis et pariter
+                    doctissimis suis literis me prævenire voluerit, tanto gratius id mihi accidit,
+                    quanto Clarissimorum et Præstantissimorum virorum amicitias cæterorum
+                    familiaritati semper præferendas duxi. Quod vero prius ijs a me responsum non
+                    sit, Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi> non meæ, quæ nulla ad Amicis
+                    par pari referendum esse solet, negligentiæ, sed locorum intervallo,
+                    peregrinationibus meis continuis, et quod vix ulla interim ad Ser<hi rend="sup">mam</hi> eius Cel<hi rend="sup">nem</hi> scribendi certa occasio hucusque
+                    sese obtulerit, tribuet. Quam nunc per Nobilem et Eruditum Iuvenem <persName ref="tengnagel_frans_1576">FRANCISCUM TENGNAGEL</persName> nactus, qui apud vos prius
+                    erat et nuper ex <placeName ref="Italy">Italia</placeName> reversus iter istuc
+                    in Patriam parat, et Ser<hi rend="sup">mam</hi> eius Cel<hi rend="sup">nem</hi>,
+                    si ullo modo ob viarum et prædonum grassantium pericula licuerit, humillime
+                    compellare animum induxit, has gratitudinis erga se meæ testes exarare volui,
+                    etiam atque etiam rogans, ut Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi>
+                    negocia illa, quæ Ser<hi rend="sup">mæ</hi> eius Cel<hi rend="sup">ni</hi>
+                    dictus <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName> oretenus (si eam
+                    submisse accedere contigerit) vel literis expositurus est, authoritate et
+                    intercessione suâ promovere non gravetur. Quæ ipsemet (ubi, uti spes est,
+                    accesserit) <persName ref="tengnagel_frans_1576">TENGNAGLIUS</persName> clare et seorsim
+                    insinuare poterit, quo responsum mature nanciscar. Fecerit D. V. mihi hac in
+                    parte rem inprimis acceptam, et quibusvis, quæ a me proficisci unquam poterunt,
+                    officijs vicissim pro virili compensandam.</p>
+            <closer>
+               <salute>Valeat Dn<hi rend="sup">o</hi> V<hi rend="sup">a</hi> quam felicissime.</salute>
+               <dateline>Dabantur ex <placeName ref="Benatky">Arce Cæsareâ Benaticâ</placeName> die 8 Martij 1600.</dateline>
+            </closer>
+         </div>
+      </body>
+   </text>
+</TEI>
