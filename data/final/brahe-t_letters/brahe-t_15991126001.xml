@@ -6,7 +6,8 @@
             <title xml:lang="da">1599. 26. november.</title>
             <title xml:lang="en">1599. 26 November.</title>
             <author>Beate Bille</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -31,6 +32,16 @@
             <listWit>
                <witness xml:id="A_da">Basel, Universitätsbibliothek, Autographensammlung, Vol. 23, Fol. 21 f</witness>
                <witness xml:id="A_en">Basel, Universitätsbibliothek, Autographensammlung, Vol. 23, Fol. 21 f</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 167, no. 172</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 167, no. 172</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -49,9 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1599-11-26">
-            <date xml:lang="da">1599. 26. november.</date>
-            <date xml:lang="en">1599. 26 November.</date>
+         <creation>
+            <date xml:lang="da" when="1599-11-26">1599. 26. november.</date>
+            <date xml:lang="en" when="1599-11-26">1599. 26 November.</date>
+            <placeName xml:lang="da">Billesgård</placeName>
+            <placeName xml:lang="en">Billesgård</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -61,8 +74,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Beate Bille til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Beate Bille to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

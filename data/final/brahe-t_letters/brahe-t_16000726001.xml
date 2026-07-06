@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1600. 26. juli n.s.</title>
-            <title xml:lang="en">1600. 26
-                    July NS.</title>
+            <title xml:lang="en">1600. 26 July NS.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -51,10 +51,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1600">
-            <date xml:lang="da">1600. 26. juli n.s.</date>
-            <date xml:lang="en">1600. 26
-                    July NS.</date>
+         <creation>
+            <date xml:lang="da" when="1600">1600. 26. juli n.s.</date>
+            <date xml:lang="en" when="1600">1600. 26 July NS.</date>
+            <placeName xml:lang="da">s.l.</placeName>
+            <placeName xml:lang="en">s.l.</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -62,8 +63,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til An anonymous lady</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to An anonymous lady</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

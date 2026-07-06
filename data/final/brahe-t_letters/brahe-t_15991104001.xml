@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1599 4. november n.s.</title>
-            <title xml:lang="en">1599 4
-                    November NS.</title>
+            <title xml:lang="en">1599 4 November NS.</title>
             <author>Giovanni Antonio Magini</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -31,6 +31,24 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Bologna, Archivio Malvezzi de' Medici</witness>
+               <witness xml:id="Magini1604_da">
+                  <bibl>Io. Ant. Magini, <title>Tabulæ primi mobilis</title>, Venezia 1604,
+                            foll. 85-86</bibl>
+               </witness>
+               <witness xml:id="Magini1604_en">
+                  <bibl>Io. Ant. Magini, <title>Tabulæ primi mobilis</title>, Venezia 1604,
+                            foll. 85-86</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 190-191</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 190-191</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,10 +68,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1599-11-04">
-            <date xml:lang="da">1599 4. november n.s.</date>
-            <date xml:lang="en">1599 4
-                    November NS.</date>
+         <creation>
+            <date xml:lang="da" when="1599-11-04">1599 4. november n.s.</date>
+            <date xml:lang="en" when="1599-11-04">1599 4 November NS.</date>
+            <placeName xml:lang="da">Bologna</placeName>
+            <placeName xml:lang="en">Bologna</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -63,8 +82,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Giovanni Antonio Magini til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Giovanni Antonio Magini to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

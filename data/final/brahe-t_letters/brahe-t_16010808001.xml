@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1601. 8. august.</title>
-            <title xml:lang="en">1601. 8
-                    August.</title>
+            <title xml:lang="en">1601. 8 August.</title>
             <author>Eske Bille</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,16 @@
             <listWit>
                <witness xml:id="A_da">Schwerin, Landeshauptarchiv, Debita passiva principum, Vol. XXVIII B</witness>
                <witness xml:id="A_en">Schwerin, Landeshauptarchiv, Debita passiva principum, Vol. XXVIII B</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 229-30, no. 226</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 229-30, no. 226</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -49,10 +59,11 @@
                <persName key="stralendorff_joachim_1601">Joachim Stralendorff</persName>
             </correspAction>
          </correspDesc>
-         <creation when="1601-08-08">
-            <date xml:lang="da">1601. 8. august.</date>
-            <date xml:lang="en">1601. 8
-                    August.</date>
+         <creation>
+            <date xml:lang="da" when="1601-08-08">1601. 8. august.</date>
+            <date xml:lang="en" when="1601-08-08">1601. 8 August.</date>
+            <placeName xml:lang="da">Rostock</placeName>
+            <placeName xml:lang="en">Rostock</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -60,8 +71,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Eske Bille til Joachim Stralendorff</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Eske Bille to Joachim Stralendorff</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

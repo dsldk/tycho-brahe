@@ -6,7 +6,8 @@
             <title xml:lang="da">1591. 31. august.</title>
             <title xml:lang="en">1591. 31 August.</title>
             <author>Wilhelm, Landgrave of Hesse-Kassel</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,48 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="ed.1601_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1601_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1610_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="ed.1610_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -46,9 +88,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1591-08-31">
-            <date xml:lang="da">1591. 31. august.</date>
-            <date xml:lang="en">1591. 31 August.</date>
+         <creation>
+            <date xml:lang="da" when="1591-08-31">1591. 31. august.</date>
+            <date xml:lang="en" when="1591-08-31">1591. 31 August.</date>
+            <placeName xml:lang="da">Kassel</placeName>
+            <placeName xml:lang="en">Kassel</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -56,8 +100,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Wilhelm 4., landgreve af Hessen-Kassel til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Wilhelm IV, Landgrave of Hesse-Kassel to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

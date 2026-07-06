@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1598. 7. oktober.</title>
-            <title xml:lang="en">1598. 7
-                    October.</title>
+            <title xml:lang="en">1598. 7 October.</title>
             <author>David Chytraeus</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -34,6 +34,16 @@
                <witness xml:id="A_en">Prague, University Archive, 62 B 6</witness>
                <witness xml:id="B_da">København, Rigsarkivet, Langebeks diplomatarium</witness>
                <witness xml:id="B_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 116-117</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 116-117</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -52,10 +62,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-10-07">
-            <date xml:lang="da">1598. 7. oktober.</date>
-            <date xml:lang="en">1598. 7
-                    October.</date>
+         <creation>
+            <date xml:lang="da" when="1598-10-07">1598. 7. oktober.</date>
+            <date xml:lang="en" when="1598-10-07">1598. 7 October.</date>
+            <placeName xml:lang="da">Rostock</placeName>
+            <placeName xml:lang="en">Rostock</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -65,8 +76,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra David Chytraeus til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from David Chytraeus to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

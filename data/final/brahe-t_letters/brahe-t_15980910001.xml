@@ -7,7 +7,8 @@
             <title xml:lang="en">1598. September 10.</title>
             <author>Christian Longomontanus</author>
             <author>Claus Mule</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +33,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Genealogisk heraldisk selskabs papirer, specialia: Brahe</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Genealogisk heraldisk selskabs papirer, specialia: Brahe</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed.
+                            I.L.E. Dreyer, Tom. XIV, Hauniæ 1929, p. 146-47, no. 154</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed.
+                            I.L.E. Dreyer, Tom. XIV, Hauniæ 1929, p. 146-47, no. 154</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -52,9 +63,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-09-10">
-            <date xml:lang="da">1598. 10. september</date>
-            <date xml:lang="en">1598. September 10.</date>
+         <creation>
+            <date xml:lang="da" when="1598-09-10">1598. 10. september</date>
+            <date xml:lang="en" when="1598-09-10">1598. September 10.</date>
+            <placeName xml:lang="da">s.l.</placeName>
+            <placeName xml:lang="en">s.l.</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -62,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Longomontanus, Christian til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Longomontanus, Christian to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

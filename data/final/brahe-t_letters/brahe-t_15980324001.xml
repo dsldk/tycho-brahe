@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1598. 24. marts.</title>
-            <title xml:lang="en">1598. 24
-                    March.</title>
+            <title xml:lang="en">1598. 24 March.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Signe Strecker</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,26 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+               <witness xml:id="Friis_da">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="Friis_en">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 34</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 34</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -51,10 +71,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-03-24">
-            <date xml:lang="da">1598. 24. marts.</date>
-            <date xml:lang="en">1598. 24
-                    March.</date>
+         <creation>
+            <date xml:lang="da" when="1598-03-24">1598. 24. marts.</date>
+            <date xml:lang="en" when="1598-03-24">1598. 24 March.</date>
+            <placeName xml:lang="da">Wandsburg</placeName>
+            <placeName xml:lang="en">Wandsburg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -64,8 +85,13 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Christen Sørensen
+                        Longomontanus</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Christen Sørensen
+                        Longomontanus</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1599. 18. september n.s.</title>
-            <title xml:lang="en">1599.
-                    18 September NS.</title>
+            <title xml:lang="en">1599. 18 September NS.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,46 @@
             <listWit>
                <witness xml:id="A_da">København, Det Kongelige Bibliotek, Langebeks excerpter, 179</witness>
                <witness xml:id="A_en">Copenhagen, Royal Library, Langebeks excerpter, 179</witness>
+               <witness xml:id="Casseburg_da">
+                  <bibl>
+                     <title>Tychonis Brahei relatio de statu suo</title>, ed. G.B.
+                            Casseburg, Jenæ 1730</bibl>
+               </witness>
+               <witness xml:id="Casseburg_en">
+                  <bibl>
+                     <title>Tychonis Brahei relatio de statu suo</title>, ed. G.B.
+                            Casseburg, Jenæ 1730</bibl>
+               </witness>
+               <witness xml:id="Dän.Bibl._da">
+                  <bibl>
+                     <title>Dänische Biliothek</title>,  III, Kopenhagen 1739, p. 177
+                            sqq.</bibl>
+               </witness>
+               <witness xml:id="Dän.Bibl._en">
+                  <bibl>
+                     <title>Dänische Biliothek</title>,  III, Kopenhagen 1739, p. 177
+                            sqq.</bibl>
+               </witness>
+               <witness xml:id="Friis_da">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="Friis_en">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 175-181</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 175-181</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -51,10 +91,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1599-09-18">
-            <date xml:lang="da">1599. 18. september n.s.</date>
-            <date xml:lang="en">1599.
-                    18 September NS.</date>
+         <creation>
+            <date xml:lang="da" when="1599-09-18">1599. 18. september n.s.</date>
+            <date xml:lang="en" when="1599-09-18">1599. 18 September NS.</date>
+            <placeName xml:lang="da">Benatky</placeName>
+            <placeName xml:lang="en">Benatky</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -64,8 +105,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Anders Sørensen Vedel</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Anders Sørensen Vedel</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

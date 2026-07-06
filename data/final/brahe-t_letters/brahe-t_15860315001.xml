@@ -3,8 +3,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1586. 15. marts</title>
             <author>Heinrich Brucaeus</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,6 +29,26 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="Friis_da">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1568 ad annum 1587</title>, ed. F.R. Friis, 1876-86</bibl>
+               </witness>
+               <witness xml:id="Friis_en">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1568 ad annum 1587</title>, ed. F.R. Friis, 1876-86</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 100-101</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 100-101</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -45,8 +67,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1586-03-15">
-            <date>1586. 15. marts</date>
+         <creation>
+            <date xml:lang="da" when="1586-03-15">1586. 15. marts</date>
+            <placeName xml:lang="da">Rostock</placeName>
+            <placeName xml:lang="en">Rostock</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -56,8 +80,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Heinrich Brucaeus til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Heinrich Brucaeus to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1590. 28. juni n.s.</title>
-            <title xml:lang="en">1590. 28
-                    June NS.</title>
+            <title xml:lang="en">1590. 28 June NS.</title>
             <author>Jacob Kurz</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -29,7 +29,38 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ mechanica</title>,
+                            Wandesburgi 1598</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ mechanica</title>,
+                            Wandesburgi 1598</bibl>
+               </witness>
+               <witness xml:id="F_da">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ progymnasmata</title>,
+                            Norimbergæ 1602</bibl>
+               </witness>
+               <witness xml:id="F_en">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ progymnasmata</title>,
+                            Norimbergæ 1602</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. V, Hauniæ 1923, p. 119-22</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. V, Hauniæ 1923, p. 119-22</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -49,10 +80,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1590-06-28">
-            <date xml:lang="da">1590. 28. juni n.s.</date>
-            <date xml:lang="en">1590. 28
-                    June NS.</date>
+         <creation>
+            <date xml:lang="da" when="1590-06-28">1590. 28. juni n.s.</date>
+            <date xml:lang="en" when="1590-06-28">1590. 28 June NS.</date>
+            <placeName xml:lang="da">Prag</placeName>
+            <placeName xml:lang="en">Prag</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -62,8 +94,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Jacob Kurz til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Jacob Kurz to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

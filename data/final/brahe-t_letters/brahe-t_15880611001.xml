@@ -6,7 +6,8 @@
             <title xml:lang="da">1588. 11. juni.</title>
             <title xml:lang="en">1588. 11 June.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,54 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="T_da">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="T_en">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="ed.1601_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1601_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1610_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="ed.1610_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -45,9 +93,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1587-06-11">
-            <date xml:lang="da">1588. 11. juni.</date>
-            <date xml:lang="en">1588. 11 June.</date>
+         <creation>
+            <date xml:lang="da" when="1587-06-11">1588. 11. juni.</date>
+            <date xml:lang="en" when="1587-06-11">1588. 11 June.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -57,8 +107,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Christopher Rothmann</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Christopher Rothmann</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

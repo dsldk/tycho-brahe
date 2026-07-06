@@ -3,8 +3,11 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1597. 22. december.</title>
+            <title xml:lang="en">1597. 22 December.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -28,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks Diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 125-27, no. 137</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 125-27, no. 137</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -47,9 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1597-12-22">
-            <date key="da">1597. 22. december.</date>
-            <date key="en">1597. 22 December.</date>
+         <creation>
+            <date xml:lang="da" when="1597-12-22">1597. 22. december.</date>
+            <date xml:lang="en" when="1597-12-22">1597. 22 December.</date>
+            <placeName xml:lang="da">Bramstedt</placeName>
+            <placeName xml:lang="en">Bramstedt</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -57,8 +72,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Joachim Friedrich</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Joachim Friedrich</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

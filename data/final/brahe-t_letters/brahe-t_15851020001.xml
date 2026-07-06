@@ -6,7 +6,8 @@
             <title xml:lang="da">1585. 20. oktober.</title>
             <title xml:lang="en">1585. 20 October.</title>
             <author>Wilhelm, Landgrave of Hesse-Kassel</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,54 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="T_da">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="T_en">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="ed.1601_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1601_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1610_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="ed.1610_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -46,9 +94,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1585-10-20">
-            <date xml:lang="da">1585. 20. oktober.</date>
-            <date xml:lang="en">1585. 20 October.</date>
+         <creation>
+            <date xml:lang="da" when="1585-10-20">1585. 20. oktober.</date>
+            <date xml:lang="en" when="1585-10-20">1585. 20 October.</date>
+            <placeName xml:lang="da">Rotenburg</placeName>
+            <placeName xml:lang="en">Rotenburg</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -56,8 +106,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Wilhelm 4., landgreve af Hessen-Kassel til Heinrich Rantzau</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Wilhelm IV, Landgrave of Hesse-Kassel to Heinrich Rantzau</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

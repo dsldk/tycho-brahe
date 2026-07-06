@@ -6,7 +6,8 @@
             <title xml:lang="da">1587. 18. maj.</title>
             <title xml:lang="en">1587. 18 May.</title>
             <author>Christopher Rothmann</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,72 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="T_da">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="T_en">
+                  <bibl>Index erratorum editionis principis (E)</bibl>
+               </witness>
+               <witness xml:id="C_da">
+                  <bibl>Exemplum epistolae Casellis asservatum</bibl>
+               </witness>
+               <witness xml:id="C_en">
+                  <bibl>Exemplum epistolae Casellis asservatum</bibl>
+               </witness>
+               <witness xml:id="C1_da">
+                  <bibl>Exemplum primum huius epistolae</bibl>
+               </witness>
+               <witness xml:id="C1_en">
+                  <bibl>Exemplum primum huius epistolae</bibl>
+               </witness>
+               <witness xml:id="C2_da">
+                  <bibl>Apographa huius epistolae</bibl>
+               </witness>
+               <witness xml:id="C2_en">
+                  <bibl>Apographa huius epistolae</bibl>
+               </witness>
+               <witness xml:id="ed.1601_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1601_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1610_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="ed.1610_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                                primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -45,9 +111,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1586-05-18">
-            <date xml:lang="da">1587. 18. maj.</date>
-            <date xml:lang="en">1587. 18 May.</date>
+         <creation>
+            <date xml:lang="da" when="1586-05-18">1587. 18. maj.</date>
+            <date xml:lang="en" when="1586-05-18">1587. 18 May.</date>
+            <placeName xml:lang="da">Kassel</placeName>
+            <placeName xml:lang="en">Kassel</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -57,8 +125,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Christopher Rothmann til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Christopher Rothmann to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

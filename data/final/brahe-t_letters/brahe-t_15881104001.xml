@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1588. 4. november.</title>
-            <title xml:lang="en">1588. 4
-                    November.</title>
+            <title xml:lang="en">1588. 4 November.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,26 @@
             <listWit>
                <witness xml:id="A_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
                <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66</witness>
+               <witness xml:id="Friis_da">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="Friis_en">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 147-164</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 147-164</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,10 +70,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1588-11-04">
-            <date xml:lang="da">1588. 4. november.</date>
-            <date xml:lang="en">1588. 4
-                    November.</date>
+         <creation>
+            <date xml:lang="da" when="1588-11-04">1588. 4. november.</date>
+            <date xml:lang="en" when="1588-11-04">1588. 4 November.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -63,8 +84,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Heinrich Brucaeus</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Heinrich Brucaeus</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

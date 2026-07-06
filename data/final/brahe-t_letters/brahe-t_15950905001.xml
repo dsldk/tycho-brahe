@@ -6,7 +6,8 @@
             <title xml:lang="da">1595. 5. september.</title>
             <title xml:lang="en">1595. 5 September.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="A_da">
+                  <bibl>Andreas Aciati <title>Contra vitam monasticam ad Bern. Mattium
+                                epistola</title>, Lugd. Bat. 1695</bibl>
+               </witness>
+               <witness xml:id="A_en">
+                  <bibl>Andreas Aciati <title>Contra vitam monasticam ad Bern. Mattium
+                                epistola</title>, Lugd. Bat. 1695</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 371-374</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 371-374</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -45,9 +65,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1595-09-05">
-            <date xml:lang="da">1595. 5. september.</date>
-            <date xml:lang="en">1595. 5 September.</date>
+         <creation>
+            <date xml:lang="da" when="1595-09-05">1595. 5. september.</date>
+            <date xml:lang="en" when="1595-09-05">1595. 5 September.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -57,8 +79,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Johannes Pontanus</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Johannes Pontanus</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

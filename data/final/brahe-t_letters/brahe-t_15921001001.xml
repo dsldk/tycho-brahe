@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1592. 1. oktober.</title>
-            <title xml:lang="en">1592. 1
-                    October.</title>
+            <title xml:lang="en">1592. 1 October.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,16 @@
             <listWit>
                <witness xml:id="A_da">Oxford, Bodleian Library, Smith 77</witness>
                <witness xml:id="A_en">Oxford, Bodleian Library, Smith 77</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 344</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 344</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,10 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1592-10-01">
-            <date xml:lang="da">1592. 1. oktober.</date>
-            <date xml:lang="en">1592. 1
-                    October.</date>
+         <creation>
+            <date xml:lang="da" when="1592-10-01">1592. 1. oktober.</date>
+            <date xml:lang="en" when="1592-10-01">1592. 1 October.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -63,8 +74,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Peter Young</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Peter Young</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -4,7 +4,8 @@
       <fileDesc>
          <titleStmt>
             <author>Wilhelm, Landgrave of Hesse-Kassel</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -25,7 +26,54 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Uraniborg 1596</bibl>
+               </witness>
+               <witness xml:id="M_da">
+                  <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+               </witness>
+               <witness xml:id="M_en">
+                  <bibl>Exemplum epistolae Marpurgi asservatum</bibl>
+               </witness>
+               <witness xml:id="ed.1601_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1601_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Nürnberg 1601</bibl>
+               </witness>
+               <witness xml:id="ed.1610_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="ed.1610_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani epistolarum astronomicarum libri. Quorum
+                            primus hic ...</title>,  Frankfurt a. M. 1610</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VI, Hauniae 1919</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -44,8 +92,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1586-10-14">
-            <date>1586. 14. oktober</date>
+         <creation>
+            <date when="1586-10-14">1586. 14. oktober</date>
+            <placeName>Kassel</placeName>
+            <placeName xml:lang="da">Kassel</placeName>
+            <placeName xml:lang="en">Kassel</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -53,8 +104,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Wilhelm 4., landgreve af Hessen-Kassel til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Wilhelm IV, Landgrave of Hesse-Kassel to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
@@ -68,7 +122,7 @@
                <pb ed="TBOO" n="VI.62"/>
                <pb ed="E" n="34"/>
                <app>
-                  <lem>DEM VESTEN VNSERM LIEBEN BESONt DERN <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
+                  <lem>DEM VESTEN VNSERM LIEBEN BESONDERN <hi rend="it">TYCHONI BRAHE</hi>, HERRN ZU KNUDSTRUP.
                                 <lb/>
                      <persName ref="wilhelm_4_1532">WILHELM</persName> VON GOTTES GNADEN LANDTGRAUE ZU HESSEN/
                                 GRAUE ZU CATZENELNBOGEN/ DIETZ/ ZIEGENHAIN VND NIDDA/

@@ -6,7 +6,8 @@
             <title xml:lang="da">1581. 12. oktober.</title>
             <title xml:lang="en">1581. 12 October.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +33,16 @@
                <witness xml:id="A_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66, fol. 12-16</witness>
                <witness xml:id="B_da">Wien, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66, fol. 32-34</witness>
                <witness xml:id="B_en">Vienna, Österreichische Nationalbibliothek, cod. Vindob. lat. 10686.66, fol. 32-34</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 64-69</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 64-69</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,9 +61,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1581-10-12">
-            <date xml:lang="da">1581. 12. oktober.</date>
-            <date xml:lang="en">1581. 12 October.</date>
+         <creation>
+            <date xml:lang="da" when="1581-10-12">1581. 12. oktober.</date>
+            <date xml:lang="en" when="1581-10-12">1581. 12 October.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -62,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Thaddaeus Hagecius</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Thaddaeus Hagecius</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

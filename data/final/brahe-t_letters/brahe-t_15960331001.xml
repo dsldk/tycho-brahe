@@ -3,8 +3,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1596. 31. marts</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -25,7 +27,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="Dan.Mag._da">
+                  <bibl>
+                     <title>Danske Magazin</title>,  II, Kiøbenhavn 1746, 305</bibl>
+               </witness>
+               <witness xml:id="Dan.Mag._en">
+                  <bibl>
+                     <title>Danske Magazin</title>,  II, Kiøbenhavn 1746, 305</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 71, no. 110</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 71, no. 110</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -45,8 +66,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1596-03-31">
-            <date>1596. 31. marts</date>
+         <creation>
+            <date xml:lang="da" when="1596-03-31">1596. 31. marts</date>
+            <placeName xml:lang="da">s.l.</placeName>
+            <placeName xml:lang="en">s.l.</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -56,8 +79,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Rektor ved Københavns Universitet</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to The rector at Copenhagen University</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

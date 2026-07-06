@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1600. 10. marts n.s.</title>
-            <title xml:lang="en">1600. 10
-                    March NS.</title>
+            <title xml:lang="en">1600. 10 March NS.</title>
             <author>Joseph Justus Scaliger</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,16 @@
             <listWit>
                <witness xml:id="A_da">München, Universitätsbibliothek, 693 fol.</witness>
                <witness xml:id="A_en">Munich, Universitätsbibliothek, 693 fol.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 261-264</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 261-264</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -51,10 +61,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1600-03-10">
-            <date xml:lang="da">1600. 10. marts n.s.</date>
-            <date xml:lang="en">1600. 10
-                    March NS.</date>
+         <creation>
+            <date xml:lang="da" when="1600-03-10">1600. 10. marts n.s.</date>
+            <date xml:lang="en" when="1600-03-10">1600. 10 March NS.</date>
+            <placeName xml:lang="da">Leiden</placeName>
+            <placeName xml:lang="en">Leiden</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -64,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Joseph Justus Scaliger til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Joseph Justus Scaliger to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -6,7 +6,8 @@
             <title xml:lang="da">1598. 24. maj.</title>
             <title xml:lang="en">1598. 24 May.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks diplomatarium</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 69</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 69</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -48,9 +59,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-05-24">
-            <date xml:lang="da">1598. 24. maj.</date>
-            <date xml:lang="en">1598. 24 May.</date>
+         <creation>
+            <date xml:lang="da" when="1598-05-24">1598. 24. maj.</date>
+            <date xml:lang="en" when="1598-05-24">1598. 24 May.</date>
+            <placeName xml:lang="da">Stettin</placeName>
+            <placeName xml:lang="en">Stettin</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -60,8 +73,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Daniel Cramer til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Daniel Cramer to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

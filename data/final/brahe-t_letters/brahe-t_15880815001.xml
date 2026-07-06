@@ -6,7 +6,8 @@
             <title xml:lang="da">1588. 15. august.</title>
             <title xml:lang="en">1588. 15 August.</title>
             <author>Ulrich 3. von Mecklenburg</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">Schwerin, Landeshauptarchiv Schwerin, Correspondenz des Herzogs Ulrich mit Gelehrten.</witness>
                <witness xml:id="A_en">Schwerin, Landeshauptarchiv Schwerin, Correspondenz des Herzogs Ulrich mit Gelehrten.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 40-41, no. 64.</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 40-41, no. 64.</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -52,9 +63,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1588-08-15">
-            <date xml:lang="da">1588. 15. august.</date>
-            <date xml:lang="en">1588. 15 August.</date>
+         <creation>
+            <date xml:lang="da" when="1588-08-15">1588. 15. august.</date>
+            <date xml:lang="en" when="1588-08-15">1588. 15 August.</date>
+            <placeName xml:lang="da">Grabow</placeName>
+            <placeName xml:lang="en">Grabow</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -62,8 +75,13 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Ulrich 3., hertug af
+                        Mecklenburg til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Ulrich III, Duke of
+                        Mecklenburg to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

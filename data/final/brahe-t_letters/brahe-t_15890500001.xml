@@ -6,7 +6,8 @@
             <title xml:lang="da">1589. maj.</title>
             <title xml:lang="en">1589. May.</title>
             <author>John Craig</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,26 @@
             <listWit>
                <witness xml:id="A_da">Berlin, Håndskrevet afskrift i et eksemplar af Tycho Brahes astronomiske skrifter i Berlin</witness>
                <witness xml:id="A_en">Berlin, Manuscript transscript in a Berlin copy Tycho Brahe's astronomical works</witness>
+               <witness xml:id="Nolten_da">
+                  <bibl>
+                     <title>Commercium litterarium clarorim virorum</title>, ed. R. A.
+                            Nolten, Brunsvigæ 1737, I p. 1 sqq.</bibl>
+               </witness>
+               <witness xml:id="Nolten_en">
+                  <bibl>
+                     <title>Commercium litterarium clarorim virorum</title>, ed. R. A.
+                            Nolten, Brunsvigæ 1737, I p. 1 sqq.</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 175-182</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 175-182</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -48,9 +69,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1589-05-01">
-            <date xml:lang="da">1589. maj.</date>
-            <date xml:lang="en">1589. May.</date>
+         <creation>
+            <date xml:lang="da" when="1589-05-01">1589. maj.</date>
+            <date xml:lang="en" when="1589-05-01">1589. May.</date>
+            <placeName xml:lang="da">Edinburgh</placeName>
+            <placeName xml:lang="en">Edinburgh</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -60,8 +83,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra John Craig til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from John Craig to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

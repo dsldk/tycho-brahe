@@ -6,7 +6,7 @@
             <title xml:lang="da">1587. 18. juli.</title>
             <title xml:lang="en">1587. 18 July.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +30,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
                <witness xml:id="A_enda">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks Diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 36-37, no. 57</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 36-37, no. 57</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -48,9 +58,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1587-07-18">
-            <date xml:lang="da">1587. 18. juli.</date>
-            <date xml:lang="en">1587. 18 July.</date>
+         <creation>
+            <date xml:lang="da" when="1587-07-18">1587. 18. juli.</date>
+            <date xml:lang="en" when="1587-07-18">1587. 18 July.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -60,8 +72,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Niels Bild</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Niels Bild</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

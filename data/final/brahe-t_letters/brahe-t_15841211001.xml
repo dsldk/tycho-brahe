@@ -6,7 +6,8 @@
             <title xml:lang="da">1584. 11. december.</title>
             <title xml:lang="en">1584. 11 December.</title>
             <author>Frederik 2.</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Sjællandske tegnelser, XV, 444</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Sjællandske tegnelser, XV, 444</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 28, no. 42</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 28, no. 42</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -49,9 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1584-12-11">
-            <date xml:lang="da">1584. 11. december.</date>
-            <date xml:lang="en">1584. 11 December.</date>
+         <creation>
+            <date xml:lang="da" when="1584-12-11">1584. 11. december.</date>
+            <date xml:lang="en" when="1584-12-11">1584. 11 December.</date>
+            <placeName xml:lang="da">Sorø</placeName>
+            <placeName xml:lang="en">Sorø</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -61,8 +74,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Frederik 2. til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Frederik 2. to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

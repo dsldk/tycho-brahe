@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1598. 6. juli.</title>
-            <title xml:lang="en">1598. 6
-                    July.</title>
+            <title xml:lang="en">1598. 6 July.</title>
             <author>Frans Tengnagel</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,26 @@
             <listWit>
                <witness xml:id="A_da">München, Universitätsbibliothek, 693 in 2do</witness>
                <witness xml:id="A_en">Munich, Universitätsbibliothek, 693 in 2do</witness>
+               <witness xml:id="Friis_da">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="Friis_en">
+                  <bibl>
+                     <title>Tychonis Brahei et ad eum doctorum virorum epistolae ab anno
+                                1588</title>, ed. F.R. Friis, 1900</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 80-83</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 80-83</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,10 +70,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-07-06">
-            <date xml:lang="da">1598. 6. juli.</date>
-            <date xml:lang="en">1598. 6
-                    July.</date>
+         <creation>
+            <date xml:lang="da" when="1598-07-06">1598. 6. juli.</date>
+            <date xml:lang="en" when="1598-07-06">1598. 6 July.</date>
+            <placeName xml:lang="da">Amsterdam</placeName>
+            <placeName xml:lang="en">Amsterdam</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -63,8 +84,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Frans Tengnagel til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Frans Tengnagel to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

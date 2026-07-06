@@ -4,10 +4,9 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1601. 12. april n.s.</title>
-            <title xml:lang="en">1601. 12
-                    April NS.</title>
+            <title xml:lang="en">1601. 12 April NS.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -31,6 +30,16 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 35, Fol. 167 f.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 220</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 220</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -51,10 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1601-04-12">
-            <date xml:lang="da">1601. 12. april n.s.</date>
-            <date xml:lang="en">1601. 12
-                    April NS.</date>
+         <creation>
+            <date xml:lang="da" when="1601-04-12">1601. 12. april n.s.</date>
+            <date xml:lang="en" when="1601-04-12">1601. 12 April NS.</date>
+            <placeName xml:lang="da">Prag</placeName>
+            <placeName xml:lang="en">Prag</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -64,8 +74,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Jacob Bording</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Jacob Bording</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

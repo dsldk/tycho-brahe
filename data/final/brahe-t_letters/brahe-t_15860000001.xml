@@ -3,8 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1586.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,6 +28,16 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Wien, Österreichisches Staatsarchiv, Beilage zum Reichsregistratur, 1586, 28. März</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 32, no. 51</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 32, no. 51</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -45,8 +56,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1586-01-01">
-            <date>1586.</date>
+         <creation>
+            <date xml:lang="da" when="1586-01-01">1586.</date>
+            <placeName xml:lang="da">empty</placeName>
+            <placeName xml:lang="en">empty</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -56,8 +69,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Rudolf 2.</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Rudolf 2.</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

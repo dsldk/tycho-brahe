@@ -6,7 +6,8 @@
             <title xml:lang="da">1600. 23. september n.s.</title>
             <title xml:lang="en">1600. 23 September NS.</title>
             <author>Johann Georg Herwart von Hohenburg</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -31,6 +32,16 @@
                <witness xml:id="A_">Basel, Universitätsbibliothek Basel, G I 23, fol. 242r</witness>
                <witness xml:id="B_da">München, Universitätsbibliothek, 693 fol.</witness>
                <witness xml:id="B_en">Munich, Universitätsbibliothek, 693 fol.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 366</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 366</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,9 +61,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1600-09-23">
-            <date xml:lang="da">1600. 23. september n.s.</date>
-            <date xml:lang="en">1600. 23 September NS.</date>
+         <creation>
+            <date xml:lang="da" when="1600-09-23">1600. 23. september n.s.</date>
+            <date xml:lang="en" when="1600-09-23">1600. 23 September NS.</date>
+            <placeName xml:lang="da">München</placeName>
+            <placeName xml:lang="en">München</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -62,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Johann Georg Herwart von Hohenburg til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Johann Georg Herwart von Hohenburg to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

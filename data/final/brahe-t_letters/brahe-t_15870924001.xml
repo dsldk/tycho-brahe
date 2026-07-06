@@ -3,8 +3,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1587. 24. sept.</title>
             <author>Frederik 2.</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -28,6 +30,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Danske Kancellis uindførte koncepter til skånske missiver</witness>
                <witness xml:id="A_en">Copenhagen, Danish Natioanl Archives, Danske Kancellis uindførte koncepter til skånske missiver</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 37, no. 58</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 37, no. 58</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -47,8 +59,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1587-09-24">
-            <date>1587. 24. sept.</date>
+         <creation>
+            <date xml:lang="da" when="1587-09-24">1587. 24. sept.</date>
+            <placeName xml:lang="da">Holm</placeName>
+            <placeName xml:lang="en">Holm</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -58,8 +72,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Frederik 2. til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Frederik 2. to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

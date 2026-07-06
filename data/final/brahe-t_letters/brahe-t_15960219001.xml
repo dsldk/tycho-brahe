@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1596. 19. februar.</title>
-            <title xml:lang="en">1596. 19
-                    February.</title>
+            <title xml:lang="en">1596. 19 February.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -29,7 +29,38 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="A_da">
+                  <bibl xml:lang="da">Håndskrevet afskrift i et eksemplar af Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title>,  og Bart. Pitiscus,
+                                <title>De solutione triangulorum</title>,  Eidgenössische Technische
+                            Hochschule Zürich</bibl>
+                  <bibl xml:lang="da">Transscript in a copy of Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title>,  and Bart. Pitiscus,
+                                <title>De solutione triangulorum</title>,  in Swiss Federal Institute
+                            of Technology in Zürich</bibl>
+               </witness>
+               <witness xml:id="A_en">
+                  <bibl xml:lang="da">Håndskrevet afskrift i et eksemplar af Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title>,  og Bart. Pitiscus,
+                                <title>De solutione triangulorum</title>,  Eidgenössische Technische
+                            Hochschule Zürich</bibl>
+                  <bibl xml:lang="da">Transscript in a copy of Abr. Scultetus,
+                                <title>Sphæricorum librorum trium</title>,  and Bart. Pitiscus,
+                                <title>De solutione triangulorum</title>,  in Swiss Federal Institute
+                            of Technology in Zürich</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 377</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 377</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -47,10 +78,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1596-02-19">
-            <date xml:lang="da">1596. 19. februar.</date>
-            <date xml:lang="en">1596. 19
-                    February.</date>
+         <creation>
+            <date xml:lang="da" when="1596-02-19">1596. 19. februar.</date>
+            <date xml:lang="en" when="1596-02-19">1596. 19 February.</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -60,8 +92,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Cort Aslaksen</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Cort Aslaksen</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

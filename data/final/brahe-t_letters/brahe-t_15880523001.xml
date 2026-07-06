@@ -6,7 +6,8 @@
             <title xml:lang="da">1588. 23. maj.</title>
             <title xml:lang="en">1588. 23 May.</title>
             <author>Johannes Caselius</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="A_da">
+                  <bibl>Ioannes Caselius, <title>Epistolae ad viros nobiles</title>,  vol. 2,
+                            Helmstedt 1623</bibl>
+               </witness>
+               <witness xml:id="A_en">
+                  <bibl>Ioannes Caselius, <title>Epistolae ad viros nobiles</title>,  vol. 2,
+                            Helmstedt 1623</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 121</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VII, Hauniæ 1924, p. 121</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -45,9 +65,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1588-05-23">
-            <date xml:lang="da">1588. 23. maj.</date>
-            <date xml:lang="en">1588. 23 May.</date>
+         <creation>
+            <date xml:lang="da" when="1588-05-23">1588. 23. maj.</date>
+            <date xml:lang="en" when="1588-05-23">1588. 23 May.</date>
+            <placeName xml:lang="da">Rostock</placeName>
+            <placeName xml:lang="en">Rostock</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -57,8 +79,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Johannes Caselius til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Johannes Caselius to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

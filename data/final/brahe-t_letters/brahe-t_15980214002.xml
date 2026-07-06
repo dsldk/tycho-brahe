@@ -6,7 +6,8 @@
             <title xml:lang="da">1598. 14. februar.</title>
             <title xml:lang="en">1598. 14 February.</title>
             <author>Katharina (Brandenburg)</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 135, no. 144</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 135, no. 144</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -49,9 +60,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-02-14">
-            <date xml:lang="da">1598. 14. februar.</date>
-            <date xml:lang="en">1598. 14 February.</date>
+         <creation>
+            <date xml:lang="da" when="1598-02-14">1598. 14. februar.</date>
+            <date xml:lang="en" when="1598-02-14">1598. 14 February.</date>
+            <placeName xml:lang="da">Cölln an der Spree</placeName>
+            <placeName xml:lang="en">Cölln an der Spree</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -61,8 +74,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Katharina, kurfyrstinde af Brandenburg til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Katharina, Electress of Brandenburg to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

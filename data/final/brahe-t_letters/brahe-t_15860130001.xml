@@ -3,8 +3,9 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1586-01-30</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,6 +28,16 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Copenhagen, Det Kongelige Bibliotek, Bøllings brevsamling, D. Fol. 68.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 31, no. 49</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 31, no. 49</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -45,8 +56,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1586-01-30">
-            <date>1586-01-30</date>
+         <creation>
+            <date xml:lang="da" when="1586-01-30">1586-01-30</date>
+            <placeName xml:lang="da">Uraniborg</placeName>
+            <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -56,8 +69,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Birgitte Bølle</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Birgitte Bølle</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

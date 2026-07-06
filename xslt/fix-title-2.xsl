@@ -24,21 +24,33 @@
     <!-- Danish -->
     <xsl:for-each select="//tei:profileDesc/tei:creation/tei:date[@xml:lang = 'da']">
       <title xml:lang="da">
-        <xsl:value-of select="."/>
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:if test="//tei:creation/tei:placeName">
+          <xsl:text> </xsl:text>
+          <xsl:value-of select="normalize-space(//tei:creation/tei:placeName[1])"/>
+        </xsl:if>
       </title>
     </xsl:for-each>
 
     <!-- English -->
     <xsl:for-each select="//tei:profileDesc/tei:creation/tei:date[@xml:lang = 'en']">
       <title xml:lang="en">
-        <xsl:value-of select="."/>
+        <xsl:value-of select="normalize-space(.)"/>
       </title>
     </xsl:for-each>
 
   </xsl:template>
 
   <xsl:template match="//tei:editor">
-    <editor>Peter Zeeberg</editor>
+    <xsl:choose>
+      <xsl:when test="tei:name[@xml:id = 'pz']">
+        <editor role="pub_editor">Peter Zeeberg</editor>
+      </xsl:when>
+      <xsl:when test="tei:name[@xml:id = 'sis']">
+        <editor role="pub_editor">Signe Strecker</editor>
+      </xsl:when>
+    </xsl:choose>
+    <editor role="data_engineer">Thomas Hansen</editor>
   </xsl:template>
 
 
@@ -47,20 +59,47 @@
   <!-- ================================================= -->
 
   <xsl:template match="tei:witness">
+    <xsl:choose>
+      <xsl:when test="@xml:id = 'TBOO'">
+        <witness xml:id="TBOO_da">
+          <xsl:apply-templates/>
+        </witness>
+        <witness xml:id="TBOO_en">
+          <xsl:apply-templates/>
+        </witness>
+      </xsl:when>
+      <xsl:when test="tei:bibl">
+        <witness>
+          <xsl:attribute name="xml:id">
+            <xsl:value-of select="@xml:id"/><xsl:text>_da</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </witness>
+        <witness>
+          <xsl:attribute name="xml:id">
+            <xsl:value-of select="@xml:id"/><xsl:text>_en</xsl:text>
+          </xsl:attribute>
+          <xsl:apply-templates/>
+        </witness>
+      </xsl:when>
+      <xsl:otherwise>
 
-    <xsl:variable name="id" select="@xml:id"/>
+        <xsl:variable name="id" select="@xml:id"/>
 
-    <xsl:for-each select="tei:msDesc">
+        <xsl:for-each select="tei:msDesc">
 
-      <xsl:variable name="lang" select="@xml:lang"/>
+          <xsl:variable name="lang" select="@xml:lang"/>
 
-      <witness xml:id="{concat($id, '_', $lang)}">
+          <witness xml:id="{concat($id, '_', $lang)}">
 
-        <xsl:call-template name="join-msIdentifier"/>
+            <xsl:call-template name="join-msIdentifier"/>
 
-      </witness>
+          </witness>
 
-    </xsl:for-each>
+        </xsl:for-each>
+      </xsl:otherwise>
+    </xsl:choose>
+
 
   </xsl:template>
 
@@ -87,6 +126,25 @@
   <!-- ================================================= -->
 
   <xsl:template match="tei:creation">
+    <!--<xsl:if test="//correspAction[@type='sent']/tei:placeName">
+      <xsl:variable name="place" select="//correspAction[@type='sent']/tei:placeName"/>-->
+    <xsl:copy>
+      <xsl:apply-templates/>
+      <xsl:if test="//tei:correspAction[@type = 'sent']/tei:placeName">
+        <placeName xml:lang="da">
+          <xsl:value-of
+            select="normalize-space(//tei:correspAction[@type = 'sent']/tei:placeName[1])"/>
+        </placeName>
+        <placeName xml:lang="en">
+          <xsl:value-of
+            select="normalize-space(//tei:correspAction[@type = 'sent']/tei:placeName[1])"/>
+        </placeName>
+      </xsl:if>
+    </xsl:copy>
+    <!--</xsl:if>-->
+  </xsl:template>
+
+  <xsl:template match="tei:creation/tei:date">
 
     <!-- get the sent-date value -->
     <xsl:variable name="when" select="//tei:correspAction[@type = 'sent']/tei:date/@when"/>
@@ -96,18 +154,71 @@
       <!-- copy existing attributes -->
       <xsl:apply-templates select="@*"/>
 
-      <!-- add @when if not already present and value exists -->
+      <!-- add @when -->
       <xsl:if test="not(@when) and string($when)">
         <xsl:attribute name="when">
           <xsl:value-of select="$when"/>
         </xsl:attribute>
       </xsl:if>
-
-      <!-- copy children -->
-      <xsl:apply-templates/>
+      <xsl:value-of select="normalize-space(.)"/>
 
     </xsl:copy>
 
+  </xsl:template>
+
+
+  <!-- ================================================= -->
+  <!-- Make abstract                                     -->
+  <!-- ================================================= -->
+  <xsl:template match="tei:abstract">
+    <abstract xml:lang="da">
+      <p>
+        <xsl:text>Brev fra </xsl:text>
+        <xsl:choose>
+          <xsl:when test="//tei:correspAction[@type = 'sent']/tei:persName[@xml:lang = 'da']">
+            <xsl:value-of
+              select="//tei:correspAction[@type = 'sent']/tei:persName[@xml:lang = 'da']"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="//tei:correspAction[@type = 'sent']/tei:persName[1]"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:text> til </xsl:text>
+        <xsl:choose>
+          <xsl:when test="//tei:correspAction[@type = 'received']/tei:persName[@xml:lang = 'da']">
+            <xsl:value-of
+              select="//tei:correspAction[@type = 'received']/tei:persName[@xml:lang = 'da']"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="//tei:correspAction[@type = 'received']/tei:persName[1]"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </p>
+    </abstract>
+    <abstract xml:lang="en">
+      <p>
+        <xsl:text>Letter from </xsl:text>
+        <xsl:choose>
+          <xsl:when test="//tei:correspAction[@type = 'sent']/tei:persName[@xml:lang = 'en']">
+            <xsl:value-of
+              select="//tei:correspAction[@type = 'sent']/tei:persName[@xml:lang = 'en']"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="//tei:correspAction[@type = 'sent']/tei:persName[1]"/>
+          </xsl:otherwise>
+        </xsl:choose>
+        <xsl:text> to </xsl:text>
+        <xsl:choose>
+          <xsl:when test="//tei:correspAction[@type = 'received']/tei:persName[@xml:lang = 'en']">
+            <xsl:value-of
+              select="//tei:correspAction[@type = 'received']/tei:persName[@xml:lang = 'en']"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="//tei:correspAction[@type = 'received']/tei:persName[1]"/>
+          </xsl:otherwise>
+        </xsl:choose>
+      </p>
+    </abstract>
   </xsl:template>
 
   <!-- ================================================= -->

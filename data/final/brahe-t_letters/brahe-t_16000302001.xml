@@ -3,8 +3,10 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
+            <title xml:lang="da">1600. 2. marts</title>
             <author>Wolfgang Franzius</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -28,6 +30,16 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Basel, Universitätsbibliothek Basel, cod. Basileensi G I 23</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 264-265</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 264-265</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -46,8 +58,10 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1600-03-02">
-            <date>1600. 2. marts</date>
+         <creation>
+            <date xml:lang="da" when="1600-03-02">1600. 2. marts</date>
+            <placeName xml:lang="da">Wittenberg</placeName>
+            <placeName xml:lang="en">Wittenberg</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -57,8 +71,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Wolfgang Franzius til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Wolfgang Franzius to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

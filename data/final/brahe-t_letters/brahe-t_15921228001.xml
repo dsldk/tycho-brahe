@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1592. 28. december n.s.</title>
-            <title xml:lang="en">1592. 28
-                    December NS.</title>
+            <title xml:lang="en">1592. 28 December NS.</title>
             <author>NN</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -29,7 +29,38 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="E_da">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ mechanica</title>,
+                            Wandesburgi 1598</bibl>
+               </witness>
+               <witness xml:id="E_en">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ mechanica</title>,
+                            Wandesburgi 1598</bibl>
+               </witness>
+               <witness xml:id="F_da">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ progymnasmata</title>,
+                            Norimbergæ 1602</bibl>
+               </witness>
+               <witness xml:id="F_en">
+                  <bibl>
+                     <title>Tychonis Brahe Astronomiæ instauratæ progymnasmata</title>,
+                            Norimbergæ 1602</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. V, Hauniæ 1923, p. 130</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. V, Hauniæ 1923, p. 130</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -50,10 +81,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1592-12-28">
-            <date xml:lang="da">1592. 28. december n.s.</date>
-            <date xml:lang="en">1592. 28
-                    December NS.</date>
+         <creation>
+            <date xml:lang="da" when="1592-12-28">1592. 28. december n.s.</date>
+            <date xml:lang="en" when="1592-12-28">1592. 28 December NS.</date>
+            <placeName xml:lang="da">Bologna</placeName>
+            <placeName xml:lang="en">Bologna</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -63,8 +95,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Ukendt medicinsk doktor til Ukendt dansk studerende</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Unknown doctor of medicine to Unknown Danish student</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

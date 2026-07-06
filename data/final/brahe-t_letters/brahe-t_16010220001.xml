@@ -6,7 +6,8 @@
             <title xml:lang="da">1601. 20. februar n.s.</title>
             <title xml:lang="en">1601. 20 February NS.</title>
             <author>Giovanni Antonio Magini</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -27,7 +28,26 @@
             </availability>
          </publicationStmt>
          <sourceDesc>
-            <listWit/>
+            <listWit>
+               <witness xml:id="Magini1604_da">
+                  <bibl>Io. Ant. Magini, <title>Tabulæ primi mobilis</title>, Venezia
+                            1604</bibl>
+               </witness>
+               <witness xml:id="Magini1604_en">
+                  <bibl>Io. Ant. Magini, <title>Tabulæ primi mobilis</title>, Venezia
+                            1604</bibl>
+               </witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 399-401</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 399-401</bibl>
+               </witness>
+            </listWit>
             <listBibl>
                <bibl>empty</bibl>
             </listBibl>
@@ -46,9 +66,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1601-02-20">
-            <date xml:lang="da">1601. 20. februar n.s.</date>
-            <date xml:lang="en">1601. 20 February NS.</date>
+         <creation>
+            <date xml:lang="da" when="1601-02-20">1601. 20. februar n.s.</date>
+            <date xml:lang="en" when="1601-02-20">1601. 20 February NS.</date>
+            <placeName xml:lang="da">Mantova</placeName>
+            <placeName xml:lang="en">Mantova</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -58,8 +80,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Giovanni Antonio Magini til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Giovanni Antonio Magini to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

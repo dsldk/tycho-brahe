@@ -6,7 +6,8 @@
             <title xml:lang="da">1589. 25. september.</title>
             <title xml:lang="en">1589. 25 September.</title>
             <author>Christian 4.</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Sjællandske tegnelser, XVII, 210</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Sjællandske tegnelser, XVII, 210</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 50, no. 78</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 50, no. 78</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,9 +61,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1589-09-25">
-            <date xml:lang="da">1589. 25. september.</date>
-            <date xml:lang="en">1589. 25 September.</date>
+         <creation>
+            <date xml:lang="da" when="1589-09-25">1589. 25. september.</date>
+            <date xml:lang="en" when="1589-09-25">1589. 25 September.</date>
+            <placeName xml:lang="da">København</placeName>
+            <placeName xml:lang="en">København</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -62,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Christian 4. til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Christian 4. to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

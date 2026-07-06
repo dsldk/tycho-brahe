@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1601. 17. juni</title>
-            <title xml:lang="en">1601. 17
-                    June.</title>
+            <title xml:lang="en">1601. 17 June.</title>
             <author>Ulrich 3.</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -32,6 +32,16 @@
             <listWit>
                <witness xml:id="A_da">Schwerin, Landeshauptarchiv, Debita passiva principum, Vol. XXVIII B</witness>
                <witness xml:id="A_en">Schwerin, Landeshauptarchiv, Debita passiva principum, Vol. XXVIII B</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 224-25, no. 221</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 224-25, no. 221</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -51,10 +61,11 @@
                <placeName xml:lang="en">Copenhagen</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1601-06-17">
-            <date xml:lang="da">1601. 17. juni</date>
-            <date xml:lang="en">1601. 17
-                    June.</date>
+         <creation>
+            <date xml:lang="da" when="1601-06-17">1601. 17. juni</date>
+            <date xml:lang="en" when="1601-06-17">1601. 17 June.</date>
+            <placeName xml:lang="da">Doberan</placeName>
+            <placeName xml:lang="en">Doberan</placeName>
          </creation>
          <langUsage/>
          <textClass>
@@ -62,8 +73,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Ulrich 3. til Eske Bille</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Ulrich 3. to Eske Bille</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

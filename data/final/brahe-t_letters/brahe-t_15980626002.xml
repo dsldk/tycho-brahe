@@ -6,7 +6,8 @@
             <title xml:lang="da">1598. 26. juni n.s.</title>
             <title xml:lang="en">1598. 26 June NS.</title>
             <author>Ernst, archbishop of Cologne</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -30,6 +31,16 @@
             <listWit>
                <witness xml:id="A_da">København, Rigsarkivet, Langebeks Diplomatarium</witness>
                <witness xml:id="A_en">Copenhagen, Danish National Archives (Rigsarkivet), Langebeks diplomatarium</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 141-42, no. 151</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 141-42, no. 151</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -50,9 +61,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1598-06-26">
-            <date xml:lang="da">1598. 26. juni n.s.</date>
-            <date xml:lang="en">1598. 26 June NS.</date>
+         <creation>
+            <date xml:lang="da" when="1598-06-26">1598. 26. juni n.s.</date>
+            <date xml:lang="en" when="1598-06-26">1598. 26 June NS.</date>
+            <placeName xml:lang="da">Liège</placeName>
+            <placeName xml:lang="en">Liège</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -62,8 +75,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Ernst, kurfyrste, ærkebiskop af Köln til Johann Anton Barwitz</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Ernst, Elector, Archbishop of Cologne to Johann Anton Barwitz</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

@@ -5,7 +5,7 @@
          <titleStmt>
             <title xml:lang="da">1600. 22. marts n.s.</title>
             <author>Tycho Brahe</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -29,6 +29,16 @@
             <listWit>
                <witness xml:id="A_da">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 35, Fol. 64 f.</witness>
                <witness xml:id="A_en">Basel, Universitätsbibliothek Basel, Autographensammlung, Vol. 35, Fol. 64 f.</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 190-91, no. 185</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. XIV, Hauniæ 1929, p. 190-91, no. 185</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -48,9 +58,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1600-03-22">
-            <date xml:lang="da">1600. 22. marts n.s.</date>
-            <date xml:lang="eb">1600. 22 March NS.</date>
+         <creation>
+            <date xml:lang="da" when="1600-03-22">1600. 22. marts n.s.</date>
+            <date xml:lang="eb" when="1600-03-22">1600. 22 March NS.</date>
+            <placeName xml:lang="da">Benatky</placeName>
+            <placeName xml:lang="en">Benatky</placeName>
          </creation>
          <langUsage>
             <language ident="da">dansk</language>
@@ -60,8 +72,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Tycho Brahe til Kirsten Lindenov</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Tycho Brahe to Kirsten Lindenov</p>
          </abstract>
       </profileDesc>
       <revisionDesc>

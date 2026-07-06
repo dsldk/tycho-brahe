@@ -4,10 +4,10 @@
       <fileDesc>
          <titleStmt>
             <title xml:lang="da">1601. 8. marts.</title>
-            <title xml:lang="en">1601. 8
-                    March.</title>
+            <title xml:lang="en">1601. 8 March.</title>
             <author>Martin Brasch</author>
-            <editor>Peter Zeeberg</editor>
+            <editor role="pub_editor">Peter Zeeberg</editor>
+            <editor role="data_engineer">Thomas Hansen</editor>
             <funder xml:lang="da">Carlsbergfondet</funder>
             <funder xml:lang="en">Carlsberg Foundation</funder>
          </titleStmt>
@@ -31,6 +31,16 @@
          <sourceDesc>
             <listWit>
                <witness xml:id="A_">Basel, Universitätsbibliothek Basel, G I 23</witness>
+               <witness xml:id="TBOO_da">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 402</bibl>
+               </witness>
+               <witness xml:id="TBOO_en">
+                  <bibl>
+                     <title>Tychonis Brahe Dani Opera Omnia</title>, ed. I.L.E. Dreyer,
+                            Tom. VIII, Hauniæ 1925, p. 402</bibl>
+               </witness>
             </listWit>
             <listBibl>
                <bibl>empty</bibl>
@@ -49,10 +59,11 @@
                <placeName>empty</placeName>
             </correspAction>
          </correspDesc>
-         <creation when="1601-03-08">
-            <date xml:lang="da">1601. 8. marts.</date>
-            <date xml:lang="en">1601. 8
-                    March.</date>
+         <creation>
+            <date xml:lang="da" when="1601-03-08">1601. 8. marts.</date>
+            <date xml:lang="en" when="1601-03-08">1601. 8 March.</date>
+            <placeName xml:lang="da">Rostock</placeName>
+            <placeName xml:lang="en">Rostock</placeName>
          </creation>
          <langUsage>
             <language ident="la">latin</language>
@@ -62,8 +73,11 @@
                <term>brev</term>
             </keywords>
          </textClass>
-         <abstract>
-            <ab>nil</ab>
+         <abstract xml:lang="da">
+            <p>Brev fra Martin Brasch til Tycho Brahe</p>
+         </abstract>
+         <abstract xml:lang="en">
+            <p>Letter from Martin Brasch to Tycho Brahe</p>
          </abstract>
       </profileDesc>
       <revisionDesc>
