@@ -3,8 +3,8 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title xml:lang="da">1583. 21. maj.</title>
-            <title xml:lang="en">1583. 21 May.</title>
+            <title xml:lang="da">1583. 21. august.</title>
+            <title xml:lang="en">1583. 21 August.</title>
             <author>Tycho Brahe</author>
             <editor role="pub_editor">Peter Zeeberg</editor>
             <editor role="data_engineer">Thomas Hansen</editor>
@@ -52,7 +52,7 @@
             <correspAction type="sent">
                <persName key="brahe_tycho_1546">Tycho Brahe</persName>
                <placeName>Uraniborg</placeName>
-               <date when="1583-05-21"/>
+               <date when="1583-08-21"/>
             </correspAction>
             <correspAction type="received">
                <persName key="dancay_charles_1510">Charles de Dançay</persName>
@@ -60,8 +60,8 @@
             </correspAction>
          </correspDesc>
          <creation>
-            <date xml:lang="da" when="1583-05-21">1583. 21. maj.</date>
-            <date xml:lang="en" when="1583-05-21">1583. 21 May.</date>
+            <date xml:lang="da" when="1583-08-21">1583. 21. august.</date>
+            <date xml:lang="en" when="1583-08-21">1583. 21 August.</date>
             <placeName xml:lang="da">Uraniborg</placeName>
             <placeName xml:lang="en">Uraniborg</placeName>
          </creation>
@@ -91,7 +91,7 @@
          <div>
             <pb ed="TBOO" n="VII.75"/>
             <pb ed="A" n="1r"/>
-            <opener>TYCHO BRAHE AD <persName key="dancay_charles_1510">CAROLUM DANZÆUM</persName>.</opener>
+            <opener><persName key="brahe_tycho_1546">TYCHO BRAHE</persName> AD <persName key="dancay_charles_1510">CAROLUM DANZÆUM</persName>.</opener>
             <p rend="noIndent">MAGNIFICE Domine <persName key="dancay_charles_1510">DANZÆE</persName>, Amice summa
                     observantia colende, reddidit Architectus meus mihi literas a te missas, quibus
                     percepi te, licet inter politica negotia iam multum temporis apud Cimbros
@@ -143,7 +143,7 @@
                <salute>Vale.</salute>
                <dateline>Datæ
                     in <placeName ref="Uraniborg">ædibus Uraniæ</placeName> 21. Augusti 1583.</dateline>
-               <signed>T. T.<lb/>TYCHO BRAHE.</signed>
+               <signed>T. T.<lb/><persName key="brahe_tycho_1546">T<hi rend="smallcaps">ycho</hi> B<hi rend="smallcaps">rahe</hi></persName>.</signed>
             </closer>
          </div>
       </body>
